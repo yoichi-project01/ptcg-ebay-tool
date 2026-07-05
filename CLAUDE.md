@@ -61,17 +61,37 @@ src/
   imageIndex.json      # セット/localId → 画像パスのマップ（自動生成）
 
 scripts/
+  filename-utils.mjs             # ファイル名ビルド・解析ユーティリティ（共通）
+  rename-images.mjs              # 既存画像を新ファイル名形式にリネーム（冪等）
   build-image-index.mjs          # imageIndex.json を再生成
   scrape-official-images.mjs     # 公式サイトから日本語JPGを取得（S/SV/M系）
   scrape-pcg-search.mjs          # pcg-search.com からpngを取得（旧シリーズ）
   scrape-pmcg-gym-supplement.mjs # PMCG5/6 トレーナーカード補完（手動マッピング）
   scrape-missing-sv.mjs          # S/SV系 括弧付き名前・重複名マッチング補完
+  fix-card-names.mjs             # cardData.json の誤った日本語名を修正しファイルもリネーム
   official-card-cache.json       # pokemon-card.com APIキャッシュ（2026-07-04生成）
   card-list.json                 # 全カードフラットリスト [{serie, set, local, ja}]
   pcg-search-cache/              # PMCG5/6 用 name→siteNum キャッシュ
 
 public/
-  cards/               # ダウンロード済み画像（{sr}/{set}/{localId}.jpg or .png）
+  cards/               # ダウンロード済み画像（{sr}/{set}/{jaName}_{setCode}-{localId}／{total}_{rarity}.ext）
+```
+
+---
+
+## 画像ファイル名形式
+
+`{jaName}_{setCode}-{localId}／{total}_{rarity}.ext`
+
+- `／` は全角スラッシュ (U+FF0F)。Windows ではファイル名に `/` が使えないため代替
+- `total` は各セットの最大数値 localId（`computeSetTotal` 関数で計算）
+- レアリティなしの場合は `_{rarity}` を省略
+
+例:
+```
+フシギダネ_SV1S-001／198_C.jpg
+サンドリュー_PMCG5-043／96_C.png
+草のエネルギー_PMCG1-097／102.png
 ```
 
 ---
@@ -104,7 +124,24 @@ public/
 
 - `node scripts/build-image-index.mjs` で再生成
 - 優先度: `.jpg` > `.png`（webp は完全除外）
-- キー形式: `"{setCode}/{localId}"` → 値: `"/{sr}/{set}/{localId}.jpg"` など
+- キー形式: `"{setCode}/{localId}"` → 値: `"/cards/{sr}/{set}/{jaName}_{setCode}-{localId}／{total}_{rarity}.jpg"` など
+
+---
+
+## 画像を一から取得し直す場合
+
+```bash
+npm run images
+```
+
+`scripts/scrape-all.mjs` が以下を順番に実行します:
+1. 既存ファイルを新ファイル名形式にリネーム（`rename-images.mjs`、冪等）
+2. 公式サイト (S/SV/M 系 JPG)
+3. pcg-search.com（旧シリーズ PNG）
+4. PMCG5/6 トレーナーカード補完
+5. S/SV 括弧付き名前・重複カード補完
+6. 特殊 URL エネルギー9枚（PMCG1スターター + VS1特殊エネルギー）
+7. imageIndex.json 再生成
 
 ---
 

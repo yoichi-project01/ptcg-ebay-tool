@@ -11,6 +11,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -96,12 +97,16 @@ async function main() {
   const cardList = JSON.parse(await fs.readFile(LIST_PATH, "utf-8"));
 
   const jaNameMap = new Map();
+  const rarityMap = new Map();
   for (const set of cardData) {
-    const m = new Map();
+    const jm = new Map();
+    const rm = new Map();
     for (const k of set.k) {
-      if (k[1] && k[1].trim()) m.set(k[0], k[1].trim());
+      if (k[1] && k[1].trim()) jm.set(k[0], k[1].trim());
+      rm.set(k[0], k[3] || "");
     }
-    jaNameMap.set(set.c, m);
+    jaNameMap.set(set.c, jm);
+    rarityMap.set(set.c, rm);
   }
 
   for (const [setCode, conf] of Object.entries(GYM_SETS)) {
@@ -128,6 +133,8 @@ async function main() {
     }
 
     const setJaMap = jaNameMap.get(setCode) || new Map();
+    const setRarityMap = rarityMap.get(setCode) || new Map();
+    const setTotal = computeSetTotal(setData.k);
     const jaCards = cardList.filter(c => c.set === setCode);
 
     console.log(`\n[${setCode}] ベース名マッチングで補完中... (${jaCards.length}件)`);
@@ -135,7 +142,9 @@ async function main() {
 
     for (const card of jaCards) {
       const serie = card.serie;
-      const destBase = path.join(OUT_DIR, serie, setCode, card.local);
+      const jaName = setJaMap.get(card.local) || "";
+      const rarity = setRarityMap.get(card.local) || "";
+      const destBase = path.join(OUT_DIR, serie, setCode, buildFileName(jaName || card.local, setCode, card.local, rarity, setTotal));
 
       // 既存画像があればスキップ
       if (await exists(destBase + ".jpg") || await exists(destBase + ".png")) {
@@ -143,7 +152,6 @@ async function main() {
         continue;
       }
 
-      const jaName = setJaMap.get(card.local);
       if (!jaName) { noMatch++; continue; }
 
       const normalizedJa = normalize(jaName);

@@ -11,6 +11,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -74,12 +75,18 @@ async function main() {
   const cardList = JSON.parse(await fs.readFile(LIST_PATH, "utf-8"));
   const { setMap } = JSON.parse(await fs.readFile(CACHE_PATH, "utf-8"));
 
-  // cardData: setCode → localId → jaName
+  // cardData: setCode → localId → jaName / rarity
   const jaMap = new Map();
+  const rarityMap = new Map();
   for (const sd of cardData) {
-    const m = new Map();
-    for (const [local, jaName] of sd.k) m.set(local, jaName);
-    jaMap.set(sd.c, m);
+    const jm = new Map();
+    const rm = new Map();
+    for (const [local, jaName, , rarity] of sd.k) {
+      jm.set(local, jaName);
+      rm.set(local, rarity || "");
+    }
+    jaMap.set(sd.c, jm);
+    rarityMap.set(sd.c, rm);
   }
 
   // imageIndex to check existing images
@@ -90,6 +97,7 @@ async function main() {
   for (const sd of cardData) {
     const setCode = sd.c;
     const serie = sd.sr;
+    const setTotal = computeSetTotal(sd.k);
     const officialCards = setMap[setCode];
     if (!officialCards || officialCards.length === 0) continue;
 
@@ -153,7 +161,8 @@ async function main() {
       while (idx < sortedMissing.length) {
         const card = sortedMissing[idx++];
         const jaName = jaMap.get(setCode)?.get(card.local) || "";
-        const dest = path.join(OUT_DIR, serie, setCode, card.local + ".jpg");
+        const rarity = rarityMap.get(setCode)?.get(card.local) || "";
+        const dest = path.join(OUT_DIR, serie, setCode, buildFileName(jaName || card.local, setCode, card.local, rarity, setTotal) + ".jpg");
 
         if (await exists(dest)) { setResult.skip++; totalSkip++; continue; }
 

@@ -14,6 +14,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -188,14 +189,18 @@ async function main() {
   const cardData = JSON.parse(await fs.readFile(CARD_DATA_PATH, "utf-8"));
   await fs.mkdir(CACHE_DIR, { recursive: true });
 
-  // cardData: setId → (localId → jaName)
+  // cardData: setId → (localId → jaName), (localId → rarity)
   const jaNameMap = new Map();
+  const rarityMap = new Map();
   for (const set of cardData) {
-    const m = new Map();
+    const jm = new Map();
+    const rm = new Map();
     for (const k of set.k) {
-      if (k[1] && k[1].trim()) m.set(k[0], k[1].trim());
+      if (k[1] && k[1].trim()) jm.set(k[0], k[1].trim());
+      rm.set(k[0], k[3] || "");
     }
-    jaNameMap.set(set.c, m);
+    jaNameMap.set(set.c, jm);
+    rarityMap.set(set.c, rm);
   }
 
   const targetSets = onlySet
@@ -218,6 +223,8 @@ async function main() {
 
     const jaCards = cardList.filter(c => c.set === setCode);
     const setJaMap = jaNameMap.get(setCode) || new Map();
+    const setRarityMap = rarityMap.get(setCode) || new Map();
+    const setTotal = computeSetTotal(setData.k);
     const setResult = { downloaded: 0, skipped: 0, noJaName: 0, noMatch: 0, failed: 0 };
 
     process.stdout.write(`\n[${setCode}]`);
@@ -243,10 +250,11 @@ async function main() {
         if (!card) continue;
 
         const serie = card.serie;
-        const destBase = path.join(OUT_DIR, serie, setCode, card.local);
+        const jaName = setJaMap.get(card.local) || "";
+        const rarity = setRarityMap.get(card.local) || "";
+        const destBase = path.join(OUT_DIR, serie, setCode, buildFileName(jaName || card.local, setCode, card.local, rarity, setTotal));
         // 既存の日本語画像（.jpg, .png）があればスキップ（.webpは英語プロキシなのでスキップしない）
-        if (await exists(destBase + ".jpg") ||
-            await exists(destBase + ".png")) {
+        if (await exists(destBase + ".jpg") || await exists(destBase + ".png")) {
           setResult.skipped++; results.skipped++;
           continue;
         }
@@ -254,7 +262,6 @@ async function main() {
         let siteNum;
         if (conf.nameMatch) {
           // 名前ベース: jaName → サイト番号
-          const jaName = setJaMap.get(card.local);
           if (!jaName) { setResult.noJaName++; results.noJaName++; continue; }
           siteNum = nameMap.get(normalizeJaName(jaName));
           if (!siteNum) { setResult.noMatch++; results.noMatch++; continue; }

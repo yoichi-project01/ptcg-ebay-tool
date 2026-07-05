@@ -10,6 +10,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { extractLocalId } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -42,7 +43,8 @@ async function main() {
     const parts = rel.split("/"); // cards, SERIE, SET, local.ext
     const set = parts[2];
     const ext = f.endsWith(".jpg") ? ".jpg" : f.endsWith(".png") ? ".png" : ".webp";
-    const local = parts[3].replace(/\.(webp|jpg|png)$/, "");
+    const stem = parts[3].replace(/\.(webp|jpg|png)$/, "");
+    const local = extractLocalId(stem, set);
     const key = `${set}/${local}`;
     // 優先度: .jpg（公式日本語）> .png（pcg-search日本語）> .webp（TCGdex英語）
     if (!index[key] || ext === ".jpg" || (ext === ".png" && !index[key].endsWith(".jpg"))) {

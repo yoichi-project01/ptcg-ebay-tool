@@ -14,6 +14,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -149,6 +150,7 @@ async function main() {
     }
 
     const cards = setData.k;
+    const setTotal = computeSetTotal(cards);
     const setResult = { downloaded: 0, skipped: 0, noJaName: 0, noMatch: 0, failed: 0 };
 
     let idx = 0;
@@ -156,14 +158,14 @@ async function main() {
       while (idx < cards.length) {
         const card = cards[idx++];
         if (!card) continue;
-        const [localId, jaName] = card;
-        const ext = "jpg";
-        const dest = path.join(OUT_DIR, setData.sr, setCode, `${localId}.${ext}`);
+        const [localId, jaName, , rarity] = card;
+
+        if (!jaName) { setResult.noJaName++; results.noJaName++; continue; }
+
+        const dest = path.join(OUT_DIR, setData.sr, setCode, buildFileName(jaName, setCode, localId, rarity, setTotal) + ".jpg");
 
         // .jpg が存在すればスキップ（.webpは英語プロキシなのでスキップしない）
         if (await exists(dest)) { setResult.skipped++; results.skipped++; continue; }
-
-        if (!jaName) { setResult.noJaName++; results.noJaName++; continue; }
 
         const cardThumbFile = nameMap.get(jaName);
         if (!cardThumbFile) { setResult.noMatch++; results.noMatch++; continue; }
