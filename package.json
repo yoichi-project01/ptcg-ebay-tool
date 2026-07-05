@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "scrape": "node scripts/scrape-images.mjs",
     "index": "node scripts/build-image-index.mjs",
-    "images": "node scripts/scrape-images.mjs && node scripts/build-image-index.mjs"
+    "images": "node scripts/scrape-all.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
