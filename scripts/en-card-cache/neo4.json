@@ -1,0 +1,796 @@
+﻿{
+    "entries":  [
+                    [
+                        "dark ampharos",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark crobat",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark donphan",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark espeon",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark feraligatr",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark gengar",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark houndoom",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark porygon2",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark scizor",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark typhlosion",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark tyranitar",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light arcanine",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light azumarill",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light dragonite",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light togetic",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "miracle energy",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark ariados",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark magcargo",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark omastar",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark slowking",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark ursaring",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light dragonair",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light lanturn",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light ledian",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light machamp",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light piloswine",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [g]",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [h]",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [w]",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [x]",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "chansey",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark croconaw",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark exeggutor",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark flaaffy",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark forretress",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark haunter",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark omanyte",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark pupitar",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark quilava",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark wigglytuff",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "heracross",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "hitmonlee",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "houndour",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "jigglypuff",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light dewgong",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light flareon",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light golduck",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light jolteon",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light machoke",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light ninetales",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light slowbro",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light vaporeon",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light venomoth",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light wigglytuff",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "scyther",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "togepi",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [c]",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [p]",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [q]",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [z]",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "cyndaquil",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dark octillery",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "dratini",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "exeggcute",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "gastly",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "girafarig",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "gligar",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "growlithe",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "hitmonchan",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "larvitar",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "ledyba",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "light sunflora",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "machop",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "mantine",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "mareep",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "phanpy",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "pineco",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "porygon",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "psyduck",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "remoraid",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "seel",
+                        {
+                            "localId":  "81",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "slugma",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "sunkern",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "swinub",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "totodile",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [l]",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [s]",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [t]",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "unown [v]",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "venonat",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "vulpix",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "broken ground gym",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "exp.all",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "impostor professor oak\u0027s invention",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "radio tower",
+                        {
+                            "localId":  "95",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "thought wave machine (rocket\u0027s secret machine)",
+                        {
+                            "localId":  "96",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "counterattack claws",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "energy amplifier",
+                        {
+                            "localId":  "98",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "energy stadium",
+                        {
+                            "localId":  "99",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "lucky stadium",
+                        {
+                            "localId":  "100",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "magnifier",
+                        {
+                            "localId":  "101",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "pokémon personality test",
+                        {
+                            "localId":  "102",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "team rocket\u0027s evil deeds",
+                        {
+                            "localId":  "103",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "heal powder",
+                        {
+                            "localId":  "104",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "mail from bill",
+                        {
+                            "localId":  "105",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "shining celebi",
+                        {
+                            "localId":  "106",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "shining charizard",
+                        {
+                            "localId":  "107",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "shining kabutops",
+                        {
+                            "localId":  "108",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "shining mewtwo",
+                        {
+                            "localId":  "109",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "shining noctowl",
+                        {
+                            "localId":  "110",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "shining raichu",
+                        {
+                            "localId":  "111",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "shining steelix",
+                        {
+                            "localId":  "112",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ],
+                    [
+                        "shining tyranitar",
+                        {
+                            "localId":  "113",
+                            "cdn":  "en/neo/neo4"
+                        }
+                    ]
+                ],
+    "apiId":  "neo4"
+}

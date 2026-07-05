@@ -1,0 +1,544 @@
+﻿{
+    "entries":  [
+                    [
+                        "bellossom",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "espeon",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "forretress",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "gliscor",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "houndoom",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "magcargo",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "scizor",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "smeargle",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "togekiss",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "umbreon",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "dodrio",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "drifblim",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "hariyama",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "honchkrow",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "leafeon",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "metagross",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "mismagius",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "rotom",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "skarmory",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "tropius",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "vespiquen",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "vileplume",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "weavile",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "flareon",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "gloom",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "jolteon",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "lairon",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "metang",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "muk",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "pinsir",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "raichu",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "raticate",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "sableye",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "scyther",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "skuntank",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "slowbro",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "togetic",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "unown",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "vaporeon",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "aron",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "beldum",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "combee",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "doduo",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "drifloon",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "eevee",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "gligar",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "grimer",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "hitmonchan",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "hitmonlee",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "houndour",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "makuhita",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "mawile",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "misdreavus",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "murkrow",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "oddish",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "pikachu",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "pineco",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "rattata",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "slowpoke",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "slugma",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "sneasel",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "stunky",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "togepi",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "burned tower",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "defender",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "energy exchanger",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "flower shop lady",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "legend box",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "ruins of alph",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "sage’s training",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "team rocket’s trickery",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "darkness energy",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "metal energy",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "slowking",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "kyogre \u0026 groudon legend",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "rayquaza \u0026 deoxys legend",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ],
+                    [
+                        "alph lithograph",
+                        {
+                            "localId":  "THREE",
+                            "cdn":  "en/hgss/hgss3"
+                        }
+                    ]
+                ],
+    "apiId":  "hgss3"
+}

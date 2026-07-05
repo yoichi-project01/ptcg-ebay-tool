@@ -1,0 +1,943 @@
+﻿{
+    "entries":  [
+                    [
+                        "aerodactyl",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "alakazam",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "arcanine",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "articuno",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "beedrill",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "crobat",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "dewgong",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "flareon",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "forretress",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "gengar",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "gyarados",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "houndoom",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "jolteon",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "kabutops",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "ledian",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "machamp",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "magcargo",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "magneton",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "moltres",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "nidoqueen",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "omastar",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "piloswine",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "politoed",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "poliwrath",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "raichu",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "raikou",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "rhydon",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "starmie",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "steelix",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "umbreon",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "vaporeon",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "wigglytuff",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "xatu",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "electrode",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "kabuto",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "machoke",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "misdreavus",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "noctowl",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "omanyte",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "persian",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "wobbuffet",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "abra",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "buried fossil",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "cleffa",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "delibird",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "diglett",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "ditto",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "dugtrio",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "dunsparce",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "eevee",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "farfetch\u0027d",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "gastly",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "girafarig",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "gligar",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "golbat",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "granbull",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "growlithe",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "haunter",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "heracross",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "hoothoot",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "houndour",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "igglybuff",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "jigglypuff",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "kadabra",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "kakuna",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "lapras",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "ledyba",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "machop",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "magikarp",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "magnemite",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "mantine",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "meowth",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "murkrow",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "natu",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "nidoran♀",
+                        {
+                            "localId":  "81",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "nidorina",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "pikachu",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "pineco",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "poliwag",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "poliwhirl",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "raticate",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "rattata",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "rhyhorn",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "sandshrew",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "sandslash",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "seel",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "shuckle",
+                        {
+                            "localId":  "96",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "skarmory",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "slugma",
+                        {
+                            "localId":  "98",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "snorlax",
+                        {
+                            "localId":  "100",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "snubbull",
+                        {
+                            "localId":  "101",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "stantler",
+                        {
+                            "localId":  "102",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "staryu",
+                        {
+                            "localId":  "103",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "sunflora",
+                        {
+                            "localId":  "105",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "sunkern",
+                        {
+                            "localId":  "106",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "swinub",
+                        {
+                            "localId":  "107",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "teddiursa",
+                        {
+                            "localId":  "109",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "ursaring",
+                        {
+                            "localId":  "110",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "venomoth",
+                        {
+                            "localId":  "111",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "venonat",
+                        {
+                            "localId":  "112",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "voltorb",
+                        {
+                            "localId":  "113",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "weedle",
+                        {
+                            "localId":  "114",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "yanma",
+                        {
+                            "localId":  "116",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "zubat",
+                        {
+                            "localId":  "117",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "ancient ruins",
+                        {
+                            "localId":  "119",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "relic hunter",
+                        {
+                            "localId":  "120",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "apricorn maker",
+                        {
+                            "localId":  "121",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "crystal shard",
+                        {
+                            "localId":  "122",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "desert shaman",
+                        {
+                            "localId":  "123",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "fast ball",
+                        {
+                            "localId":  "124",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "fisherman",
+                        {
+                            "localId":  "125",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "friend ball",
+                        {
+                            "localId":  "126",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "hyper potion",
+                        {
+                            "localId":  "127",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "lure ball",
+                        {
+                            "localId":  "128",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "miracle sphere alpha",
+                        {
+                            "localId":  "129",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "miracle sphere beta",
+                        {
+                            "localId":  "130",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "miracle sphere gamma",
+                        {
+                            "localId":  "131",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "mirage stadium",
+                        {
+                            "localId":  "132",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "mystery plate alpha",
+                        {
+                            "localId":  "133",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "mystery plate beta",
+                        {
+                            "localId":  "134",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "mystery plate gamma",
+                        {
+                            "localId":  "135",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "mystery plate delta",
+                        {
+                            "localId":  "136",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "mystery zone",
+                        {
+                            "localId":  "137",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "oracle",
+                        {
+                            "localId":  "138",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "star piece",
+                        {
+                            "localId":  "139",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "underground expedition",
+                        {
+                            "localId":  "140",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "underground lake",
+                        {
+                            "localId":  "141",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "bounce energy",
+                        {
+                            "localId":  "142",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "cyclone energy",
+                        {
+                            "localId":  "143",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "retro energy",
+                        {
+                            "localId":  "144",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "celebi",
+                        {
+                            "localId":  "145",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "charizard",
+                        {
+                            "localId":  "146",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "golem",
+                        {
+                            "localId":  "148",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ],
+                    [
+                        "ho-oh",
+                        {
+                            "localId":  "149",
+                            "cdn":  "en/ecard/ecard3"
+                        }
+                    ]
+                ],
+    "apiId":  "ecard3"
+}

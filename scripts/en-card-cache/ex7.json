@@ -1,0 +1,726 @@
+﻿{
+    "entries":  [
+                    [
+                        "azumarill",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark ampharos",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark crobat",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark electrode",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark houndoom",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark hypno",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark marowak",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark octillery",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark slowking",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark steelix",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "jumpluff",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "kingdra",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "piloswine",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "togetic",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark dragonite",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark muk",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark raticate",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark sandslash",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark tyranitar",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "delibird",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "furret",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "ledian",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "magby",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "misdreavus",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "quagsire",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "qwilfish",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "yanma",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark arbok",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark ariados",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark dragonair",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark flaaffy",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark golbat",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark golduck",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark gyarados",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark magcargo",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark magneton",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark pupitar",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark weezing",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "heracross",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "magmar",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "mantine",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s meowth",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s wobbuffet",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "seadra",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "skiploom",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "togepi",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "cubone",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dratini",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "drowzee",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "ekans",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "grimer",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "hoppip",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "horsea",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "houndour",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "koffing",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "larvitar",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "ledyba",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "magikarp",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "magnemite",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "mareep",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "marill",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "onix",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "psyduck",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rattata",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "remoraid",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "sandshrew",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "sentret",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "slowpoke",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "slugma",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "spinarak",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "swinub",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "voltorb",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "wooper",
+                        {
+                            "localId":  "81",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "zubat",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "copycat",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "pokémon retriever",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "pow! hand extension",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s admin.",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s hideout",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s mission",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s poké ball",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s tricky gym",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "surprise! time machine",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "swoop! teleporter",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "venture bomb",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "dark metal energy",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "r energy",
+                        {
+                            "localId":  "95",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s articuno ex",
+                        {
+                            "localId":  "96",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s entei ex",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s hitmonchan ex",
+                        {
+                            "localId":  "98",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s mewtwo ex",
+                        {
+                            "localId":  "99",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s moltres ex",
+                        {
+                            "localId":  "100",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s scizor ex",
+                        {
+                            "localId":  "101",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s scyther ex",
+                        {
+                            "localId":  "102",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s sneasel ex",
+                        {
+                            "localId":  "103",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s snorlax ex",
+                        {
+                            "localId":  "104",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s suicune ex",
+                        {
+                            "localId":  "105",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s zapdos ex",
+                        {
+                            "localId":  "106",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "mudkip star",
+                        {
+                            "localId":  "107",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "torchic star",
+                        {
+                            "localId":  "108",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "treecko star",
+                        {
+                            "localId":  "109",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "charmeleon",
+                        {
+                            "localId":  "110",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ],
+                    [
+                        "here comes team rocket!",
+                        {
+                            "localId":  "111",
+                            "cdn":  "en/ex/ex7"
+                        }
+                    ]
+                ],
+    "apiId":  "ex7"
+}

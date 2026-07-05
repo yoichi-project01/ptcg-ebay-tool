@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-07-05T14:31:41.787Z",
+  "downloaded": 1317,
+  "skipped": 685,
+  "noJaName": 0,
+  "noMatch": 172,
+  "failed": 10,
+  "sets": {
+    "PMCG1": {
+      "downloaded": 66,
+      "skipped": 30,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 6
+    },
+    "PMCG2": {
+      "downloaded": 47,
+      "skipped": 1,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PMCG3": {
+      "downloaded": 42,
+      "skipped": 6,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PMCG4": {
+      "downloaded": 23,
+      "skipped": 42,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PMCG5": {
+      "downloaded": 3,
+      "skipped": 6,
+      "noJaName": 0,
+      "noMatch": 87,
+      "failed": 0
+    },
+    "PMCG6": {
+      "downloaded": 0,
+      "skipped": 13,
+      "noJaName": 0,
+      "noMatch": 85,
+      "failed": 0
+    },
+    "neo1": {
+      "downloaded": 71,
+      "skipped": 25,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "neo2": {
+      "downloaded": 45,
+      "skipped": 12,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "neo3": {
+      "downloaded": 46,
+      "skipped": 11,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "neo4": {
+      "downloaded": 60,
+      "skipped": 52,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 1
+    },
+    "E1": {
+      "downloaded": 110,
+      "skipped": 18,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "E2": {
+      "downloaded": 70,
+      "skipped": 22,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "E3": {
+      "downloaded": 72,
+      "skipped": 18,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "E4": {
+      "downloaded": 65,
+      "skipped": 26,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "E5": {
+      "downloaded": 74,
+      "skipped": 17,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PCG1": {
+      "downloaded": 62,
+      "skipped": 20,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PCG2": {
+      "downloaded": 65,
+      "skipped": 17,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PCG3": {
+      "downloaded": 57,
+      "skipped": 28,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PCG4": {
+      "downloaded": 88,
+      "skipped": 18,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PCG5": {
+      "downloaded": 66,
+      "skipped": 20,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PCG6": {
+      "downloaded": 48,
+      "skipped": 38,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PCG7": {
+      "downloaded": 35,
+      "skipped": 17,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PCG8": {
+      "downloaded": 51,
+      "skipped": 24,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "PCG9": {
+      "downloaded": 51,
+      "skipped": 17,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "VS1": {
+      "downloaded": 0,
+      "skipped": 140,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 3
+    },
+    "web1": {
+      "downloaded": 0,
+      "skipped": 47,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    }
+  }
+}

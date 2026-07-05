@@ -1,0 +1,642 @@
+﻿{
+    "entries":  [
+                    [
+                        "pinsir",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "seedot",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "kricketot",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "kricketune",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "shaymin-ex",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "pansage",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "simisage",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "foongus",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "amoonguss",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "growlithe",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "arcanine",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "moltres",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "pansear",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "simisear",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "darumaka",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "litwick",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "lampent",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "chandelure",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "reshiram",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "reshiram-ex",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "staryu",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "starmie",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "lapras",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "articuno",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "panpour",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "simipour",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "basculin",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "vanillite",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "vanillish",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "vanilluxe",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "frillish",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "jellicent",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "cubchoo",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "beartic",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "kyurem-ex",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "pikachu",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "raichu",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "zapdos",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "shinx",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "luxio",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "luxray",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "blitzle",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "zebstrika",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "emolga",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "zekrom",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "zekrom-ex",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "grimer",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "muk",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "mewtwo-ex",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "ralts",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "kirlia",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "gardevoir",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "munna",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "musharna",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "darmanitan",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "elgyem",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "beheeyem",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "riolu",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "lucario",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "hippopotas",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "hippowdon",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "mienfoo",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "mienshao",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "sneasel",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "weavile",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "nuzleaf",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "shiftry",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "scraggy",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "scrafty",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "bronzor",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "bronzong",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "ferroseed",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "jigglypuff",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "wigglytuff",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "meowth",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "persian",
+                        {
+                            "localId":  "81",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "regigigas-ex",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "pidove",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "minccino",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "cinccino",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "cilan",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "exp. share",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "heavy ball",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "level ball",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "pokémon center",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "skyarrow bridge",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "double colorless energy",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "prism energy",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "emboar",
+                        {
+                            "localId":  "100",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "zoroark",
+                        {
+                            "localId":  "102",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ],
+                    [
+                        "hydreigon",
+                        {
+                            "localId":  "103",
+                            "cdn":  "en/bw/bw4"
+                        }
+                    ]
+                ],
+    "apiId":  "bw4"
+}

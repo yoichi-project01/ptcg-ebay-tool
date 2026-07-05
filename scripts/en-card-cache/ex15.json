@@ -1,0 +1,684 @@
+﻿{
+    "entries":  [
+                    [
+                        "ampharos δ",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "feraligatr δ",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "heracross δ",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "meganium δ",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "milotic δ",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "nidoking δ",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "nidoqueen δ",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "ninetales δ",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "pinsir δ",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "snorlax δ",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "togetic δ",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "typhlosion δ",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "arbok δ",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "cloyster δ",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "dewgong δ",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "gligar δ",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "jynx δ",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "ledian δ",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "lickitung δ",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "mantine δ",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "quagsire δ",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "seadra δ",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "tropius δ",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "vibrava δ",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "xatu δ",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "bayleef δ",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "croconaw δ",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "dragonair δ",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "electabuzz δ",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "flaaffy δ",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "horsea δ",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "kirlia",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "kirlia δ",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "nidorina δ",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "nidorino δ",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "quilava δ",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "shelgon δ",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "smeargle δ",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "swellow δ",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "togepi δ",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "bagon δ",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "chikorita δ",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "cyndaquil δ",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "dratini δ",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "ekans δ",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "elekid δ",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "feebas δ",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "larvitar",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "larvitar δ",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "ledyba δ",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "mareep δ",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "natu δ",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "nidoran♀ δ",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "nidoran♂ δ",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "pupitar",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "pupitar δ",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "ralts",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "ralts δ",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "seel δ",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "shellder δ",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "smoochum δ",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "swablu δ",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "taillow δ",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "totodile δ",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "trapinch δ",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "vulpix δ",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "wooper δ",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "buffer piece",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "copycat",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "holon legacy",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "holon mentor",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "island hermit",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "mr. stone\u0027s project",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "old rod",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "professor elm\u0027s training method",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "professor oak\u0027s research",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "strength charm",
+                        {
+                            "localId":  "81",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "tv reporter",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "switch",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "holon energy ff",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "holon energy gl",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "holon energy wp",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "boost energy",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "δ rainbow energy",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "scramble energy",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "altaria ex δ",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "dragonite ex δ",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "flygon ex δ",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "gardevoir ex δ",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "kingdra ex δ",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "latias ex δ",
+                        {
+                            "localId":  "95",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "latios ex δ",
+                        {
+                            "localId":  "96",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "rayquaza ex δ",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "salamence ex δ",
+                        {
+                            "localId":  "98",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "tyranitar ex δ",
+                        {
+                            "localId":  "99",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "charizard star δ",
+                        {
+                            "localId":  "100",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ],
+                    [
+                        "mew star δ",
+                        {
+                            "localId":  "101",
+                            "cdn":  "en/ex/ex15"
+                        }
+                    ]
+                ],
+    "apiId":  "ex15"
+}

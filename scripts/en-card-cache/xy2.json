@@ -1,0 +1,649 @@
+﻿{
+    "entries":  [
+                    [
+                        "caterpie",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "metapod",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "butterfree",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "pineco",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "seedot",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "nuzleaf",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "shiftry",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "roselia",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "roserade",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "maractus",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "charizard ex",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "m charizard ex",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "ponyta",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "rapidash",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "torkoal",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "fletchinder",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "litleo",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "pyroar",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "qwilfish",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "feebas",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "milotic",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "spheal",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "sealeo",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "walrein",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "luvdisc",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "buizel",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "floatzel",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "bergmite",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "avalugg",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "shinx",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "luxio",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "luxray",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "magnezone ex",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "helioptile",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "heliolisk",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "duskull",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "dusclops",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "dusknoir",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "toxicroak ex",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "espurr",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "meowstic",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "skrelp",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "geodude",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "graveler",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "golem",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "binacle",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "barbaracle",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "sneasel",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "weavile",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "stunky",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "skuntank",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "sandile",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "krokorok",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "scraggy",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "scrafty",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "forretress",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "durant",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "flabébé",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "floette",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "florges",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "spritzee",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "carbink",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "druddigon",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "dragalge",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "goomy",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "sliggoo",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "goodra",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "pidgey",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "pidgeotto",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "pidgeot",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "kangaskhan ex",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "m kangaskhan ex",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "snorlax",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "sentret",
+                        {
+                            "localId":  "81",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "furret",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "miltank",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "buneary",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "lopunny",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "fletchling",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "furfrou",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "blacksmith",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "fiery torch",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "lysandre",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "magnetic storm",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "pal pad",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "pokémon center lady",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "pokémon fan club",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "protection cube",
+                        {
+                            "localId":  "95",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "sacred ash",
+                        {
+                            "localId":  "96",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "startling megaphone",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "trick shovel",
+                        {
+                            "localId":  "98",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ],
+                    [
+                        "ultra ball",
+                        {
+                            "localId":  "99",
+                            "cdn":  "en/xy/xy2"
+                        }
+                    ]
+                ],
+    "apiId":  "xy2"
+}

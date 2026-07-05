@@ -1,0 +1,404 @@
+﻿{
+    "entries":  [
+                    [
+                        "espeon",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "forretress",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "hitmontop",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "houndoom",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "houndour",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "kabutops",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "magnemite",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "politoed",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "poliwrath",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "scizor",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "smeargle",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "tyranitar",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "umbreon",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "unown [a]",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "ursaring",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "wobbuffet",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "yanma",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "beedrill",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "butterfree",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "corsola",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "eevee",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "igglybuff",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "kakuna",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "metapod",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "omastar",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "poliwhirl",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "pupitar",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "scyther",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "unown [d]",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "unown [f]",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "unown [m]",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "unown [n]",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "unown [u]",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "xatu",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "caterpie",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "dunsparce",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "hoppip",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "kabuto",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "larvitar",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "mareep",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "natu",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "omanyte",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "pineco",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "poliwag",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "sentret",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "spinarak",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "teddiursa",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "tyrogue",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "unown [e]",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "unown [i]",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "unown [o]",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "weedle",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "wooper",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "fossil egg",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "hyper devolution spray",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "ruin wall",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ],
+                    [
+                        "energy ark",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/neo/neo2"
+                        }
+                    ]
+                ],
+    "apiId":  "neo2"
+}

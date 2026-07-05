@@ -1,0 +1,432 @@
+﻿{
+    "entries":  [
+                    [
+                        "ampharos",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "blissey",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "celebi",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "crobat",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "delibird",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "entei",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "ho-oh",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "houndoom",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "jumpluff",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "magneton",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "misdreavus",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "porygon2",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "raikou",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "suicune",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "aerodactyl",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "kingdra",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "lugia",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "raichu",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "skarmory",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "sneasel",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "starmie",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "sudowoodo",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "flaaffy",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "golbat",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "graveler",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "jynx",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "lanturn",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "magcargo",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "octillery",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "parasect",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "piloswine",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "seaking",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "stantler",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "unown [b]",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "unown [y]",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "aipom",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "chinchou",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "farfetch\u0027d",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "geodude",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "goldeen",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "murkrow",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "paras",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "quagsire",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "qwilfish",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "remoraid",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "shuckle",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "skiploom",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "slugma",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "smoochum",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "snubbull",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "staryu",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "swinub",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "unown [k]",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "zubat",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "balloon berry",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "healing field",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "pokémon breeder fields",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s hideout",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "old rod",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "shining gyarados",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ],
+                    [
+                        "shining magikarp",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/neo/neo3"
+                        }
+                    ]
+                ],
+    "apiId":  "neo3"
+}

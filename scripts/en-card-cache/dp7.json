@@ -1,0 +1,642 @@
+﻿{
+    "entries":  [
+                    [
+                        "dusknoir",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "empoleon",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "infernape",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "lumineon",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "magnezone",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "mismagius",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "raichu",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "regigigas",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "sceptile",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "torterra",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "abomasnow",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "bronzong",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "cherrim",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "drapion",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "drifblim",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "gengar",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "gyarados",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "machamp",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "mamoswine",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "rapidash",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "roserade",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "salamence",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "scizor",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "skuntank",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "staraptor",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "steelix",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "tangrowth",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "tyranitar",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "vespiquen",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "bibarel",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "budew",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "dusclops",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "electrode",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "farfetch\u0027d",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "grovyle",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "haunter",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "machoke",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "magneton",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "miltank",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "pichu",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "piloswine",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "pupitar",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "sableye",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "scyther",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "shelgon",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "skarmory",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "staravia",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "bagon",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "bidoof",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "bronzor",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "cherubi",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "combee",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "drifloon",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "duskull",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "finneon",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "gastly",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "larvitar",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "machop",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "magikarp",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "magnemite",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "misdreavus",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "onix",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "pikachu",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "ponyta",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "roselia",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "skorupi",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "snover",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "starly",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "stunky",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "swinub",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "tangela",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "treecko",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "voltorb",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "conductive quarry",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "energy link",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "energy switch",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "great ball",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "luxury ball",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "marley\u0027s request",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "poké blower +",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "poké drawer +",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "poké healer +",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "premier ball",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "potion",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "switch",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "cyclone energy",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "warp energy",
+                        {
+                            "localId":  "95",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "heatran",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "charmander",
+                        {
+                            "localId":  "101",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "charmeleon",
+                        {
+                            "localId":  "102",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ],
+                    [
+                        "charizard",
+                        {
+                            "localId":  "103",
+                            "cdn":  "en/dp/dp7"
+                        }
+                    ]
+                ],
+    "apiId":  "dp7"
+}

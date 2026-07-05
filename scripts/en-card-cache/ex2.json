@@ -1,0 +1,642 @@
+﻿{
+    "entries":  [
+                    [
+                        "armaldo",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "cacturne",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "cradily",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "dusclops",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "flareon",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "jolteon",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "ludicolo",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "lunatone",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "mawile",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "sableye",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "seviper",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "shiftry",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "solrock",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "zangoose",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "arcanine",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "espeon",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "golduck",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "kecleon",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "omastar",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "pichu",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "sandslash",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "steelix",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "umbreon",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "vaporeon",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "wobbuffet",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "anorith",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "arbok",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "azumarill",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "azurill",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "baltoy",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "breloom",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "delcatty",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "electabuzz",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "elekid",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "fearow",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "illumise",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "kabuto",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "kirlia",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "lairon",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "lileep",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "linoone",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "lombre",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "murkrow",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "nuzleaf",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "pelipper",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "quilava",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "vigoroth",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "volbeat",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "wynaut",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "xatu",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "aron",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "cacnea",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "cyndaquil",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "dunsparce",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "duskull",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "eevee",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "ekans",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "growlithe",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "lotad",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "marill",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "natu",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "omanyte",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "onix",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "pikachu",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "psyduck",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "ralts",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "sandshrew",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "seedot",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "shroomish",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "skitty",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "slakoth",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "spearow",
+                        {
+                            "localId":  "81",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "trapinch",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "wailmer",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "wingull",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "zigzagoon",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "double full heal",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "lanette\u0027s net search",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "rare candy",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "wally\u0027s training",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "claw fossil",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "mysterious fossil",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "root fossil",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "multi energy",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "aerodactyl ex",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "aggron ex",
+                        {
+                            "localId":  "95",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "gardevoir ex",
+                        {
+                            "localId":  "96",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "kabutops ex",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "raichu ex",
+                        {
+                            "localId":  "98",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "typhlosion ex",
+                        {
+                            "localId":  "99",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ],
+                    [
+                        "wailord ex",
+                        {
+                            "localId":  "100",
+                            "cdn":  "en/ex/ex2"
+                        }
+                    ]
+                ],
+    "apiId":  "ex2"
+}

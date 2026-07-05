@@ -1,0 +1,782 @@
+﻿{
+    "entries":  [
+                    [
+                        "blaine\u0027s moltres",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s rhydon",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s clefable",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s dragonair",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s vileplume",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s electabuzz",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s fearow",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s magneton",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s seadra",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s tentacruel",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s hitmonchan",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s moltres",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s scyther",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s gengar",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "the rocket\u0027s trap",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s golem",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s onix",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s rhyhorn",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s sandslash",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s zubat",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s clefairy",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s victreebel",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s raichu",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s cloyster",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s goldeen",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s poliwrath",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s tentacool",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "rocket\u0027s snorlax",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s venomoth",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s growlithe",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s kangaskhan",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s magmar",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s geodude",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s golbat",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s graveler",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s lickitung",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s dratini",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s exeggcute",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s exeggutor",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s gloom",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s oddish",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s weepinbell",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s magnemite",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s raticate",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s spearow",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s poliwhirl",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s psyduck",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s seaking",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s starmie",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s haunter",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s jynx",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s slowbro",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s charmander",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s ponyta",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s tauros",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s vulpix",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s mankey",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s sandshrew",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s vulpix",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s bellsprout",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s tangela",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s pikachu",
+                        {
+                            "localId":  "81",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s rattata",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s voltorb",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s horsea",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s poliwag",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s seel",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s shellder",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s staryu",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s abra",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s drowzee",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s gastly",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s mr. mime",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s slowpoke",
+                        {
+                            "localId":  "95",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s venonat",
+                        {
+                            "localId":  "96",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s quiz #1",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "charity",
+                        {
+                            "localId":  "99",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "no removal gym",
+                        {
+                            "localId":  "103",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "the rocket\u0027s training gym",
+                        {
+                            "localId":  "104",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s last resort",
+                        {
+                            "localId":  "105",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "brock\u0027s training method",
+                        {
+                            "localId":  "106",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "celadon city gym",
+                        {
+                            "localId":  "107",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "cerulean city gym",
+                        {
+                            "localId":  "108",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s maids",
+                        {
+                            "localId":  "109",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "erika\u0027s perfume",
+                        {
+                            "localId":  "110",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "good manners",
+                        {
+                            "localId":  "111",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lt. surge\u0027s treaty",
+                        {
+                            "localId":  "112",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "minion of team rocket",
+                        {
+                            "localId":  "113",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s wrath",
+                        {
+                            "localId":  "114",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "pewter city gym",
+                        {
+                            "localId":  "115",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "recall",
+                        {
+                            "localId":  "116",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s esp",
+                        {
+                            "localId":  "117",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "secret mission",
+                        {
+                            "localId":  "118",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "tickling machine",
+                        {
+                            "localId":  "119",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "vermilion city gym",
+                        {
+                            "localId":  "120",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "blaine\u0027s gamble",
+                        {
+                            "localId":  "121",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "energy flow",
+                        {
+                            "localId":  "122",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "misty\u0027s duel",
+                        {
+                            "localId":  "123",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "narrow gym",
+                        {
+                            "localId":  "124",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "sabrina\u0027s gaze",
+                        {
+                            "localId":  "125",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "trash exchange",
+                        {
+                            "localId":  "126",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "fighting energy",
+                        {
+                            "localId":  "127",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "fire energy",
+                        {
+                            "localId":  "128",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "grass energy",
+                        {
+                            "localId":  "129",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "lightning energy",
+                        {
+                            "localId":  "130",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "psychic energy",
+                        {
+                            "localId":  "131",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ],
+                    [
+                        "water energy",
+                        {
+                            "localId":  "132",
+                            "cdn":  "en/gym/gym1"
+                        }
+                    ]
+                ],
+    "apiId":  "gym1"
+}

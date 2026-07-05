@@ -1,0 +1,719 @@
+﻿{
+    "entries":  [
+                    [
+                        "ampharos",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "azumarill",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "bellossom",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "feraligatr",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "heracross",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "jumpluff",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "kingdra",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "lugia",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "meganium",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "pichu",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "skarmory",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "slowking",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "steelix",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "togetic",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "typhlosion",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "metal energy",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "cleffa",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "donphan",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "elekid",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "magby",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "murkrow",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "sneasel",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "aipom",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "ariados",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "bayleef",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "clefairy",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "croconaw",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "electabuzz",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "flaaffy",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "furret",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "gloom",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "granbull",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "lanturn",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "ledian",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "magmar",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "miltank",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "noctowl",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "phanpy",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "piloswine",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "quagsire",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "quilava",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "seadra",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "skiploom",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "sunflora",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "togepi",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "xatu",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "chikorita",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "chinchou",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "cyndaquil",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "girafarig",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "gligar",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "hoothoot",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "hoppip",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "horsea",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "ledyba",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "mantine",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "mareep",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "marill",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "natu",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "oddish",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "onix",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "pikachu",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "sentret",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "shuckle",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "slowpoke",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "snubbull",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "spinarak",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "stantler",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "sudowoodo",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "sunkern",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "swinub",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "totodile",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "wooper",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "arcade game",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "ecogym",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "energy charge",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "focus band",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "mary",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "pokégear",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "super energy retrieval",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "time capsule",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "bill\u0027s teleporter",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "card-flip game",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "gold berry",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "miracle berry",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "new pokédex",
+                        {
+                            "localId":  "95",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "professor elm",
+                        {
+                            "localId":  "96",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "sprout tower",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "super scoop up",
+                        {
+                            "localId":  "98",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "berry",
+                        {
+                            "localId":  "99",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "double gust",
+                        {
+                            "localId":  "100",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "moo-moo milk",
+                        {
+                            "localId":  "101",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "pokémon march",
+                        {
+                            "localId":  "102",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "super rod",
+                        {
+                            "localId":  "103",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "darkness energy",
+                        {
+                            "localId":  "104",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "recycle energy",
+                        {
+                            "localId":  "105",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "fighting energy",
+                        {
+                            "localId":  "106",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "fire energy",
+                        {
+                            "localId":  "107",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "grass energy",
+                        {
+                            "localId":  "108",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "lightning energy",
+                        {
+                            "localId":  "109",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "psychic energy",
+                        {
+                            "localId":  "110",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ],
+                    [
+                        "water energy",
+                        {
+                            "localId":  "111",
+                            "cdn":  "en/neo/neo1"
+                        }
+                    ]
+                ],
+    "apiId":  "neo1"
+}

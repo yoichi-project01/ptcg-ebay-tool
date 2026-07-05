@@ -1,0 +1,341 @@
+﻿{
+    "entries":  [
+                    [
+                        "clefable",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "electrode",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "flareon",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "jolteon",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "kangaskhan",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "mr. mime",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "nidoqueen",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "pidgeot",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "pinsir",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "scyther",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "snorlax",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "vaporeon",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "venomoth",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "victreebel",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "vileplume",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "wigglytuff",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "butterfree",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "dodrio",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "exeggutor",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "fearow",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "gloom",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "lickitung",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "marowak",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "nidorina",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "parasect",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "persian",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "primeape",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "rapidash",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "rhydon",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "seaking",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "tauros",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "weepinbell",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "bellsprout",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "cubone",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "eevee",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "exeggcute",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "goldeen",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "jigglypuff",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "mankey",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "meowth",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "nidoran♀",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "oddish",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "paras",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "pikachu",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "rhyhorn",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "spearow",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "venonat",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/base/base2"
+                        }
+                    ],
+                    [
+                        "poké ball",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/base/base2"
+                        }
+                    ]
+                ],
+    "apiId":  "base2"
+}

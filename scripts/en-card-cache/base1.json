@@ -1,0 +1,719 @@
+﻿{
+    "entries":  [
+                    [
+                        "alakazam",
+                        {
+                            "localId":  "1",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "blastoise",
+                        {
+                            "localId":  "2",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "chansey",
+                        {
+                            "localId":  "3",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "charizard",
+                        {
+                            "localId":  "4",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "clefairy",
+                        {
+                            "localId":  "5",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "gyarados",
+                        {
+                            "localId":  "6",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "hitmonchan",
+                        {
+                            "localId":  "7",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "machamp",
+                        {
+                            "localId":  "8",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "magneton",
+                        {
+                            "localId":  "9",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "mewtwo",
+                        {
+                            "localId":  "10",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "nidoking",
+                        {
+                            "localId":  "11",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "ninetales",
+                        {
+                            "localId":  "12",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "poliwrath",
+                        {
+                            "localId":  "13",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "raichu",
+                        {
+                            "localId":  "14",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "venusaur",
+                        {
+                            "localId":  "15",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "zapdos",
+                        {
+                            "localId":  "16",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "beedrill",
+                        {
+                            "localId":  "17",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "dragonair",
+                        {
+                            "localId":  "18",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "dugtrio",
+                        {
+                            "localId":  "19",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "electabuzz",
+                        {
+                            "localId":  "20",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "electrode",
+                        {
+                            "localId":  "21",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "pidgeotto",
+                        {
+                            "localId":  "22",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "arcanine",
+                        {
+                            "localId":  "23",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "charmeleon",
+                        {
+                            "localId":  "24",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "dewgong",
+                        {
+                            "localId":  "25",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "dratini",
+                        {
+                            "localId":  "26",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "farfetch\u0027d",
+                        {
+                            "localId":  "27",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "growlithe",
+                        {
+                            "localId":  "28",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "haunter",
+                        {
+                            "localId":  "29",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "ivysaur",
+                        {
+                            "localId":  "30",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "jynx",
+                        {
+                            "localId":  "31",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "kadabra",
+                        {
+                            "localId":  "32",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "kakuna",
+                        {
+                            "localId":  "33",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "machoke",
+                        {
+                            "localId":  "34",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "magikarp",
+                        {
+                            "localId":  "35",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "magmar",
+                        {
+                            "localId":  "36",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "nidorino",
+                        {
+                            "localId":  "37",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "poliwhirl",
+                        {
+                            "localId":  "38",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "porygon",
+                        {
+                            "localId":  "39",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "raticate",
+                        {
+                            "localId":  "40",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "seel",
+                        {
+                            "localId":  "41",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "wartortle",
+                        {
+                            "localId":  "42",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "abra",
+                        {
+                            "localId":  "43",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "bulbasaur",
+                        {
+                            "localId":  "44",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "caterpie",
+                        {
+                            "localId":  "45",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "charmander",
+                        {
+                            "localId":  "46",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "diglett",
+                        {
+                            "localId":  "47",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "doduo",
+                        {
+                            "localId":  "48",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "drowzee",
+                        {
+                            "localId":  "49",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "gastly",
+                        {
+                            "localId":  "50",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "koffing",
+                        {
+                            "localId":  "51",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "machop",
+                        {
+                            "localId":  "52",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "magnemite",
+                        {
+                            "localId":  "53",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "metapod",
+                        {
+                            "localId":  "54",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "nidoran♂",
+                        {
+                            "localId":  "55",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "onix",
+                        {
+                            "localId":  "56",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "pidgey",
+                        {
+                            "localId":  "57",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "pikachu",
+                        {
+                            "localId":  "58",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "poliwag",
+                        {
+                            "localId":  "59",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "ponyta",
+                        {
+                            "localId":  "60",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "rattata",
+                        {
+                            "localId":  "61",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "sandshrew",
+                        {
+                            "localId":  "62",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "squirtle",
+                        {
+                            "localId":  "63",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "starmie",
+                        {
+                            "localId":  "64",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "staryu",
+                        {
+                            "localId":  "65",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "tangela",
+                        {
+                            "localId":  "66",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "voltorb",
+                        {
+                            "localId":  "67",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "vulpix",
+                        {
+                            "localId":  "68",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "weedle",
+                        {
+                            "localId":  "69",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "clefairy doll",
+                        {
+                            "localId":  "70",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "computer search",
+                        {
+                            "localId":  "71",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "devolution spray",
+                        {
+                            "localId":  "72",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "impostor professor oak",
+                        {
+                            "localId":  "73",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "item finder",
+                        {
+                            "localId":  "74",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "lass",
+                        {
+                            "localId":  "75",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "pokémon breeder",
+                        {
+                            "localId":  "76",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "pokémon trader",
+                        {
+                            "localId":  "77",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "scoop up",
+                        {
+                            "localId":  "78",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "super energy removal",
+                        {
+                            "localId":  "79",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "defender",
+                        {
+                            "localId":  "80",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "energy retrieval",
+                        {
+                            "localId":  "81",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "full heal",
+                        {
+                            "localId":  "82",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "maintenance",
+                        {
+                            "localId":  "83",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "pluspower",
+                        {
+                            "localId":  "84",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "pokémon center",
+                        {
+                            "localId":  "85",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "pokémon flute",
+                        {
+                            "localId":  "86",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "pokédex",
+                        {
+                            "localId":  "87",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "professor oak",
+                        {
+                            "localId":  "88",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "revive",
+                        {
+                            "localId":  "89",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "super potion",
+                        {
+                            "localId":  "90",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "bill",
+                        {
+                            "localId":  "91",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "energy removal",
+                        {
+                            "localId":  "92",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "gust of wind",
+                        {
+                            "localId":  "93",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "potion",
+                        {
+                            "localId":  "94",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "switch",
+                        {
+                            "localId":  "95",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "double colorless energy",
+                        {
+                            "localId":  "96",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "fighting energy",
+                        {
+                            "localId":  "97",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "fire energy",
+                        {
+                            "localId":  "98",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "grass energy",
+                        {
+                            "localId":  "99",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "lightning energy",
+                        {
+                            "localId":  "100",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "psychic energy",
+                        {
+                            "localId":  "101",
+                            "cdn":  "en/base/base1"
+                        }
+                    ],
+                    [
+                        "water energy",
+                        {
+                            "localId":  "102",
+                            "cdn":  "en/base/base1"
+                        }
+                    ]
+                ],
+    "apiId":  "base1"
+}
