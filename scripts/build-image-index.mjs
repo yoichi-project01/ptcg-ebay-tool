@@ -45,7 +45,8 @@ async function main() {
     const ext = f.endsWith(".jpg") ? ".jpg" : f.endsWith(".png") ? ".png" : ".webp";
     const stem = parts[3].replace(/\.(webp|jpg|png)$/, "");
     const local = extractLocalId(stem, set);
-    const key = `${set}/${local}`;
+    const n = parseInt(local, 10);
+    const key = `${set}/${isNaN(n) ? local : n}`;
     // 優先度: .jpg（公式日本語）> .png（pcg-search日本語）> .webp（TCGdex英語）
     if (!index[key] || ext === ".jpg" || (ext === ".png" && !index[key].endsWith(".jpg"))) {
       index[key] = rel;

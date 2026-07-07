@@ -21,6 +21,7 @@ const ROOT = path.resolve(__dirname, "..");
 const OUT_DIR = path.join(ROOT, "public", "cards");
 const CARD_DATA_PATH = path.join(ROOT, "src", "cardData.json");
 const CACHE_PATH = path.join(__dirname, "official-card-cache.json");
+const DETAIL_CACHE_PATH = path.join(__dirname, "official-detail-cache.json");
 const REPORT_PATH = path.join(__dirname, "scrape-official-report.json");
 
 const API_BASE = "https://www.pokemon-card.com";
@@ -77,6 +78,30 @@ async function exists(p) {
   try { await fs.access(p); return true; } catch { return false; }
 }
 
+// cardThumbFile のファイル名先頭6桁 ("042987_P_KOIKINGU.jpg") がそのまま cardID (42987)
+function extractCardId(cardThumbFile) {
+  const m = cardThumbFile.match(/\/(\d+)_/);
+  return m ? String(parseInt(m[1], 10)) : null;
+}
+
+// カード詳細ページから実際のカード番号 ("022"/"073" のうち "022") を取得
+// 同じ日本語名で複数の印刷違い（AR/SAR等）がある場合の判別に使う
+async function fetchCardLocalNumber(cardId) {
+  const url = `${API_BASE}/card-search/details.php/card/${cardId}`;
+  for (let i = 0; i < 3; i++) {
+    try {
+      const r = await fetch(url, { headers: { "User-Agent": HEADERS["User-Agent"] } });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const html = await r.text();
+      const m = html.match(/img-regulation"[^>]*\/>\s*&nbsp;(\d+)&nbsp;/);
+      return m ? m[1] : null;
+    } catch {
+      await sleep(500 * (i + 1));
+    }
+  }
+  return null;
+}
+
 // 公式DBをスキャンしてsetCode→[{jaName, cardThumbFile}]のマップを作成
 async function buildOfficialCache() {
   console.log("公式サイトをスキャン中...");
@@ -116,6 +141,56 @@ async function buildOfficialCache() {
   return setMap;
 }
 
+// 同じ日本語名で公式DBに複数候補があり、かつ cardData 側にも同名で複数 local がある場合、
+// 詳細ページで実際のカード番号を調べて local ごとに正しい cardThumbFile を突き止める
+async function resolveAmbiguousNames(officialCards, cardsInSet, detailCache, dirtyFlag) {
+  const cacheByName = new Map();
+  for (const c of officialCards) {
+    if (!c.jaName) continue;
+    if (!cacheByName.has(c.jaName)) cacheByName.set(c.jaName, []);
+    cacheByName.get(c.jaName).push(c);
+  }
+  const localsByName = new Map();
+  for (const k of cardsInSet) {
+    if (!k[1]) continue;
+    if (!localsByName.has(k[1])) localsByName.set(k[1], []);
+    localsByName.get(k[1]).push(k[0]);
+  }
+
+  // 判別が必要な (name, candidates) のリストを作る
+  const jobs = [];
+  for (const [name, locals] of localsByName) {
+    if (locals.length <= 1) continue;
+    const candidates = cacheByName.get(name);
+    if (!candidates || candidates.length <= 1) continue;
+    jobs.push([name, candidates]);
+  }
+
+  const ambiguousMap = new Map(); // jaName -> Map<numericLocal, cardThumbFile>
+  let idx = 0;
+  const workers = Array.from({ length: CONCURRENCY }, async () => {
+    while (idx < jobs.length) {
+      const [name, candidates] = jobs[idx++];
+      const localMap = new Map();
+      for (const c of candidates) {
+        const cardId = extractCardId(c.cardThumbFile);
+        if (!cardId) continue;
+        let localNumber = detailCache[cardId];
+        if (localNumber === undefined) {
+          localNumber = await fetchCardLocalNumber(cardId);
+          detailCache[cardId] = localNumber;
+          dirtyFlag.value = true;
+          await sleep(DELAY_MS);
+        }
+        if (localNumber) localMap.set(parseInt(localNumber, 10), c.cardThumbFile);
+      }
+      ambiguousMap.set(name, localMap);
+    }
+  });
+  await Promise.all(workers);
+  return ambiguousMap;
+}
+
 async function main() {
   const cardData = JSON.parse(await fs.readFile(CARD_DATA_PATH, "utf-8"));
 
@@ -130,6 +205,12 @@ async function main() {
     setMap = await buildOfficialCache();
   }
 
+  let detailCache = {};
+  if (await exists(DETAIL_CACHE_PATH)) {
+    detailCache = JSON.parse(await fs.readFile(DETAIL_CACHE_PATH, "utf-8"));
+  }
+  const dirtyFlag = { value: false };
+
   const targetSets = onlySet ? [cardData.find(s => s.c === onlySet)].filter(Boolean) : cardData;
 
   const results = { downloaded: 0, skipped: 0, noJaName: 0, noMatch: 0, failed: 0, sets: {} };
@@ -143,10 +224,16 @@ async function main() {
       continue;
     }
 
-    // 日本語名 → cardThumbFile のマップ
+    // 日本語名 → cardThumbFile のマップ（候補が1つだけの名前用の高速パス）
     const nameMap = new Map();
     for (const c of officialCards) {
       if (c.jaName && !nameMap.has(c.jaName)) nameMap.set(c.jaName, c.cardThumbFile);
+    }
+
+    // 同名で複数印刷（AR/SAR等）がある名前は詳細ページでカード番号を突き合わせる
+    const ambiguousMap = await resolveAmbiguousNames(officialCards, setData.k, detailCache, dirtyFlag);
+    if (ambiguousMap.size > 0) {
+      await fs.writeFile(DETAIL_CACHE_PATH, JSON.stringify(detailCache), "utf-8");
     }
 
     const cards = setData.k;
@@ -167,7 +254,8 @@ async function main() {
         // .jpg が存在すればスキップ（.webpは英語プロキシなのでスキップしない）
         if (await exists(dest)) { setResult.skipped++; results.skipped++; continue; }
 
-        const cardThumbFile = nameMap.get(jaName);
+        const resolved = ambiguousMap.get(jaName);
+        const cardThumbFile = resolved ? resolved.get(parseInt(localId, 10)) : nameMap.get(jaName);
         if (!cardThumbFile) { setResult.noMatch++; results.noMatch++; continue; }
 
         const buf = await downloadImage(cardThumbFile, dest);

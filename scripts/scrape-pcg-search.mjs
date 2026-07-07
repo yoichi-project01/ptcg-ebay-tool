@@ -33,10 +33,11 @@ const DELAY_MS = 400;
 // nameMatch=true のセットはカード名→サイト番号の対応表が必要
 const SET_MAP = {
   // 1st series (PMCG: 第1弾～ロケット団)
-  PMCG1: { imgDir: "1st", imgPrefix: "1st1",    count: 102 },
-  PMCG2: { imgDir: "1st", imgPrefix: "1st2",    count: 48  },
-  PMCG3: { imgDir: "1st", imgPrefix: "1st3",    count: 48  },
-  PMCG4: { imgDir: "1st", imgPrefix: "1st4",    count: 65  },
+  // cardData.json の local id がサイトの掲載順とズレているため名前照合が必要
+  PMCG1: { imgDir: "1st", imgPrefix: "1st1",    count: 102, nameMatch: true },
+  PMCG2: { imgDir: "1st", imgPrefix: "1st2",    count: 48,  nameMatch: true },
+  PMCG3: { imgDir: "1st", imgPrefix: "1st3",    count: 48,  nameMatch: true },
+  PMCG4: { imgDir: "1st", imgPrefix: "1st4",    count: 65,  nameMatch: true },
   // ジム拡張 — 印刷番号順(★先)なので名前マッチが必要
   PMCG5: { imgDir: "1st", imgPrefix: "1stgym1", count: 96,  nameMatch: true },
   PMCG6: { imgDir: "1st", imgPrefix: "1stgym2", count: 98,  nameMatch: true },

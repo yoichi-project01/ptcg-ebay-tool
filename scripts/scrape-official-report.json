@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-05T14:45:27.244Z",
-  "downloaded": 4260,
-  "skipped": 2892,
-  "noJaName": 1,
-  "noMatch": 35,
+  "generatedAt": "2026-07-07T01:00:05.604Z",
+  "downloaded": 1619,
+  "skipped": 4787,
+  "noJaName": 16,
+  "noMatch": 766,
   "failed": 0,
   "sets": {
     "M1L": {
@@ -36,219 +36,219 @@
     },
     "S-P": {
       "downloaded": 0,
-      "skipped": 151,
+      "skipped": 89,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 62,
       "failed": 0
     },
     "S10D": {
-      "downloaded": 67,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 59,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 8,
       "failed": 0
     },
     "S10P": {
-      "downloaded": 67,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 59,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 8,
       "failed": 0
     },
     "S10a": {
-      "downloaded": 71,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 14,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 57,
       "failed": 0
     },
     "S10b": {
-      "downloaded": 71,
-      "skipped": 8,
+      "downloaded": 0,
+      "skipped": 67,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 12,
       "failed": 0
     },
     "S11": {
-      "downloaded": 100,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 90,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 10,
       "failed": 0
     },
     "S11a": {
-      "downloaded": 68,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 17,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 51,
       "failed": 0
     },
     "S12": {
-      "downloaded": 125,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 125,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "S12a": {
-      "downloaded": 250,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 250,
       "noJaName": 0,
       "noMatch": 4,
       "failed": 0
     },
     "S4": {
       "downloaded": 0,
-      "skipped": 100,
+      "skipped": 92,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 8,
       "failed": 0
     },
     "S4a": {
       "downloaded": 0,
-      "skipped": 190,
+      "skipped": 155,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 35,
       "failed": 0
     },
     "S5I": {
       "downloaded": 0,
-      "skipped": 70,
+      "skipped": 62,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 8,
       "failed": 0
     },
     "S5R": {
       "downloaded": 0,
-      "skipped": 70,
+      "skipped": 62,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 8,
       "failed": 0
     },
     "S5a": {
-      "downloaded": 70,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 62,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 8,
       "failed": 0
     },
     "S6H": {
       "downloaded": 0,
-      "skipped": 70,
+      "skipped": 61,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 9,
       "failed": 0
     },
     "S6K": {
       "downloaded": 0,
-      "skipped": 70,
+      "skipped": 61,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 9,
       "failed": 0
     },
     "S6a": {
       "downloaded": 0,
-      "skipped": 69,
+      "skipped": 59,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 10,
       "failed": 0
     },
     "S7D": {
       "downloaded": 0,
-      "skipped": 67,
+      "skipped": 58,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 9,
       "failed": 0
     },
     "S7R": {
       "downloaded": 0,
-      "skipped": 67,
+      "skipped": 58,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 9,
       "failed": 0
     },
     "S8": {
       "downloaded": 0,
-      "skipped": 100,
+      "skipped": 89,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 11,
       "failed": 0
     },
     "S8a": {
       "downloaded": 0,
-      "skipped": 33,
+      "skipped": 31,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 2,
       "failed": 0
     },
     "S8b": {
       "downloaded": 0,
-      "skipped": 181,
+      "skipped": 126,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 55,
       "failed": 0
     },
     "S9": {
-      "downloaded": 125,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 125,
       "noJaName": 0,
       "noMatch": 2,
       "failed": 0
     },
     "S9a": {
-      "downloaded": 93,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 93,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SH": {
       "downloaded": 0,
-      "skipped": 59,
+      "skipped": 43,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 16,
       "failed": 0
     },
     "SI": {
       "downloaded": 0,
-      "skipped": 422,
+      "skipped": 219,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 203,
       "failed": 0
     },
     "SJ": {
+      "downloaded": 0,
+      "skipped": 28,
+      "noJaName": 0,
+      "noMatch": 2,
+      "failed": 0
+    },
+    "SK": {
       "downloaded": 0,
       "skipped": 30,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
-    "SK": {
-      "downloaded": 28,
-      "skipped": 0,
-      "noJaName": 0,
-      "noMatch": 2,
-      "failed": 0
-    },
     "SLD": {
-      "downloaded": 18,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 20,
       "noJaName": 0,
-      "noMatch": 3,
+      "noMatch": 1,
       "failed": 0
     },
     "SLL": {
-      "downloaded": 19,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 21,
       "noJaName": 0,
-      "noMatch": 3,
+      "noMatch": 1,
       "failed": 0
     },
     "SN": {
-      "downloaded": 22,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 24,
       "noJaName": 1,
-      "noMatch": 2,
+      "noMatch": 0,
       "failed": 0
     },
     "SP5": {
@@ -259,309 +259,309 @@
       "failed": 0
     },
     "SP6": {
-      "downloaded": 6,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 6,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SPD": {
-      "downloaded": 19,
-      "skipped": 0,
-      "noJaName": 0,
-      "noMatch": 2,
-      "failed": 0
-    },
-    "SPZ": {
-      "downloaded": 19,
-      "skipped": 0,
-      "noJaName": 0,
-      "noMatch": 2,
-      "failed": 0
-    },
-    "SV-P": {
       "downloaded": 0,
-      "skipped": 94,
+      "skipped": 21,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
+    "SPZ": {
+      "downloaded": 0,
+      "skipped": 21,
+      "noJaName": 0,
+      "noMatch": 0,
+      "failed": 0
+    },
+    "SV-P": {
+      "downloaded": 0,
+      "skipped": 59,
+      "noJaName": 0,
+      "noMatch": 35,
+      "failed": 0
+    },
     "SV10": {
-      "downloaded": 96,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 96,
       "noJaName": 0,
       "noMatch": 2,
       "failed": 0
     },
     "SV11B": {
-      "downloaded": 0,
-      "skipped": 174,
+      "downloaded": 168,
+      "skipped": 6,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV11W": {
-      "downloaded": 0,
-      "skipped": 174,
+      "downloaded": 168,
+      "skipped": 6,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV1S": {
-      "downloaded": 106,
-      "skipped": 0,
+      "downloaded": 64,
+      "skipped": 42,
       "noJaName": 0,
       "noMatch": 2,
       "failed": 0
     },
     "SV1V": {
-      "downloaded": 106,
-      "skipped": 0,
+      "downloaded": 63,
+      "skipped": 43,
       "noJaName": 0,
       "noMatch": 2,
       "failed": 0
     },
     "SV1a": {
-      "downloaded": 100,
-      "skipped": 0,
+      "downloaded": 61,
+      "skipped": 39,
       "noJaName": 0,
       "noMatch": 3,
       "failed": 0
     },
     "SV2D": {
-      "downloaded": 99,
-      "skipped": 0,
+      "downloaded": 58,
+      "skipped": 41,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV2P": {
-      "downloaded": 99,
-      "skipped": 0,
+      "downloaded": 58,
+      "skipped": 41,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV2a": {
-      "downloaded": 210,
-      "skipped": 0,
+      "downloaded": 77,
+      "skipped": 133,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV3": {
-      "downloaded": 141,
-      "skipped": 0,
+      "downloaded": 60,
+      "skipped": 81,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV3a": {
-      "downloaded": 92,
-      "skipped": 0,
+      "downloaded": 38,
+      "skipped": 54,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV4K": {
-      "downloaded": 94,
-      "skipped": 0,
+      "downloaded": 56,
+      "skipped": 38,
       "noJaName": 0,
       "noMatch": 1,
       "failed": 0
     },
     "SV4M": {
-      "downloaded": 92,
-      "skipped": 0,
+      "downloaded": 56,
+      "skipped": 36,
       "noJaName": 0,
       "noMatch": 3,
       "failed": 0
     },
     "SV4a": {
-      "downloaded": 320,
-      "skipped": 0,
+      "downloaded": 276,
+      "skipped": 44,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV5K": {
-      "downloaded": 49,
-      "skipped": 0,
+      "downloaded": 16,
+      "skipped": 33,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV5M": {
-      "downloaded": 0,
-      "skipped": 97,
+      "downloaded": 20,
+      "skipped": 49,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 28,
       "failed": 0
     },
     "SV5a": {
-      "downloaded": 96,
-      "skipped": 0,
+      "downloaded": 50,
+      "skipped": 46,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV6": {
-      "downloaded": 130,
-      "skipped": 0,
+      "downloaded": 14,
+      "skipped": 98,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 18,
       "failed": 0
     },
     "SV6a": {
-      "downloaded": 64,
-      "skipped": 0,
+      "downloaded": 11,
+      "skipped": 42,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 11,
       "failed": 0
     },
     "SV7": {
-      "downloaded": 135,
-      "skipped": 0,
+      "downloaded": 57,
+      "skipped": 78,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV7a": {
-      "downloaded": 94,
-      "skipped": 0,
+      "downloaded": 52,
+      "skipped": 42,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV8": {
-      "downloaded": 106,
-      "skipped": 0,
+      "downloaded": 3,
+      "skipped": 103,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV8a": {
-      "downloaded": 237,
-      "skipped": 0,
+      "downloaded": 76,
+      "skipped": 161,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SV9": {
-      "downloaded": 132,
-      "skipped": 0,
+      "downloaded": 48,
+      "skipped": 76,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 8,
       "failed": 0
     },
     "SV9a": {
-      "downloaded": 92,
-      "skipped": 0,
+      "downloaded": 49,
+      "skipped": 43,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SVAL": {
-      "downloaded": 21,
-      "skipped": 2,
+      "downloaded": 1,
+      "skipped": 17,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 5,
       "failed": 0
     },
     "SVAM": {
-      "downloaded": 23,
-      "skipped": 2,
+      "downloaded": 1,
+      "skipped": 19,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 5,
       "failed": 0
     },
     "SVAW": {
-      "downloaded": 23,
-      "skipped": 2,
+      "downloaded": 1,
+      "skipped": 19,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 5,
       "failed": 0
     },
     "SVB": {
-      "downloaded": 28,
-      "skipped": 8,
-      "noJaName": 0,
+      "downloaded": 0,
+      "skipped": 28,
+      "noJaName": 8,
       "noMatch": 0,
       "failed": 0
     },
     "SVC": {
-      "downloaded": 21,
-      "skipped": 1,
+      "downloaded": 1,
+      "skipped": 16,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 5,
       "failed": 0
     },
     "SVD": {
-      "downloaded": 0,
-      "skipped": 146,
-      "noJaName": 0,
+      "downloaded": 10,
+      "skipped": 129,
+      "noJaName": 7,
       "noMatch": 1,
       "failed": 0
     },
     "SVEL": {
-      "downloaded": 20,
-      "skipped": 1,
+      "downloaded": 1,
+      "skipped": 17,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 3,
       "failed": 0
     },
     "SVEM": {
-      "downloaded": 20,
-      "skipped": 1,
+      "downloaded": 1,
+      "skipped": 17,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 3,
       "failed": 0
     },
     "SVF": {
-      "downloaded": 37,
-      "skipped": 8,
+      "downloaded": 2,
+      "skipped": 36,
       "noJaName": 0,
-      "noMatch": 1,
+      "noMatch": 8,
       "failed": 0
     },
     "SVHK": {
-      "downloaded": 22,
-      "skipped": 2,
+      "downloaded": 0,
+      "skipped": 24,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SVHM": {
-      "downloaded": 22,
-      "skipped": 2,
+      "downloaded": 0,
+      "skipped": 24,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SVK": {
-      "downloaded": 44,
-      "skipped": 0,
+      "downloaded": 2,
+      "skipped": 42,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SVLN": {
-      "downloaded": 22,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 22,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SVLS": {
-      "downloaded": 22,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 22,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0
     },
     "SVP1": {
-      "downloaded": 7,
-      "skipped": 0,
+      "downloaded": 0,
+      "skipped": 7,
       "noJaName": 0,
       "noMatch": 0,
       "failed": 0

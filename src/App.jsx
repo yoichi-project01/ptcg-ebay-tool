@@ -69,7 +69,8 @@ function cardNoOf(setObj, local) {
 }
 // ローカルにスクレイピング済み画像があればそのパスを返す
 function localImage(setObj, local) {
-  const key = `${setObj.c}/${local}`;
+  const n = parseInt(local, 10);
+  const key = `${setObj.c}/${isNaN(n) ? local : n}`;
   return IMAGE_INDEX[key] ? `/${IMAGE_INDEX[key]}` : null;
 }
 
