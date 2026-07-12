@@ -16,6 +16,24 @@ const PRODUCT_TYPES = [
   { code: "box", label: "ブースターBOX" },
 ];
 const SERIE_ORDER = { M: 0, SV: 1, S: 2, SM: 3, XYb: 4, XY: 5, BW: 6, L: 7, DPt: 8, DP: 9, PCG: 10, ADV: 11, e: 12, VS: 13, web: 14, neo: 15, PMCG: 16 };
+const PRINT_VARIANTS = [
+  { code: "", label: "指定しない" },
+  { code: "1st Edition", label: "1st Edition（初期版・マークあり）" },
+  { code: "Unlimited", label: "Unlimited（通常版・マークなし）" },
+];
+// 1st Edition マークが存在する世代（拡張パック〜ジム拡張2）
+const PRINT_VARIANT_SET_RE = /^PMCG[1-6]$/i;
+const GRADING_COMPANIES = ["", "PSA", "BGS", "CGC", "SGC"];
+const GRADE_LABELS = {
+  "10": "GEM MINT", "9.5": "MINT", "9": "MINT", "8.5": "NM-MT", "8": "NM-MT",
+  "7.5": "NM", "7": "NM", "6.5": "EX-MT", "6": "EX-MT", "5.5": "EX", "5": "EX",
+  "4": "VG-EX", "3": "VG", "2": "GOOD", "1": "PR",
+};
+function gradeLabelText(grade) {
+  return GRADE_LABELS[String(grade).trim()] || "";
+}
+const HISTORY_KEY = "ptcg-ebay-tool:history";
+const HISTORY_LIMIT = 60;
 
 const holoGrad =
   "linear-gradient(120deg,#7de2ff 0%,#a78bfa 30%,#f9a8d4 55%,#fde68a 80%,#7de2ff 100%)";
@@ -76,7 +94,12 @@ function localImage(setObj, local) {
 
 // ---------- タイトル ----------
 function buildSingleTitle(f) {
-  return [f.pokemonEn, f.rarity, f.cardNo, f.setCode, f.setNameEn, "Japanese Pokemon Card", f.condition]
+  const printVariant = PRINT_VARIANT_SET_RE.test(f.setCode) ? f.printVariant : "";
+  const isGraded = f.graded && f.gradingCompany && f.grade.trim();
+  const conditionToken = isGraded
+    ? [f.gradingCompany, f.grade.trim(), gradeLabelText(f.grade)].filter(Boolean).join(" ")
+    : f.condition;
+  return [f.pokemonEn, f.rarity, f.cardNo, f.setCode, f.setNameEn, printVariant, "Japanese Pokemon Card", conditionToken]
     .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
 }
 function buildPackTitle(f) {
@@ -86,23 +109,95 @@ function buildPackTitle(f) {
     .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
 }
 
+// ---------- eBay相場検索 ----------
+function buildEbaySearchQuery(f, mode) {
+  if (mode === "single") {
+    return [f.pokemonEn, f.rarity, f.cardNo, f.setCode].filter(Boolean).join(" ");
+  }
+  const type = f.productType === "box" ? "Booster Box" : "Booster Pack";
+  return [f.setNameEn, f.setCode, "Japanese", type].filter(Boolean).join(" ");
+}
+function buildEbaySearchUrl(query, { sold = false } = {}) {
+  if (!query.trim()) return "";
+  const params = new URLSearchParams({ _nkw: query });
+  if (sold) { params.set("LH_Sold", "1"); params.set("LH_Complete", "1"); }
+  return `https://www.ebay.com/sch/i.html?${params.toString()}`;
+}
+
+// ---------- 利益計算 ----------
+function calcProfit(f) {
+  const rate = parseFloat(f.exchangeRate);
+  const sellPriceUsd = parseFloat(f.sellPriceUsd);
+  if (!rate || rate <= 0 || !sellPriceUsd || sellPriceUsd <= 0) return null;
+  const costJpy = parseFloat(f.costJpy) || 0;
+  const extraCostJpy = parseFloat(f.extraCostJpy) || 0;
+  const feePercent = parseFloat(f.ebayFeePercent) || 0;
+  const shippingCostUsd = parseFloat(f.shippingCostUsd) || 0;
+
+  const costUsd = (costJpy + extraCostJpy) / rate;
+  const feeUsd = sellPriceUsd * (feePercent / 100);
+  const profitUsd = sellPriceUsd - feeUsd - shippingCostUsd - costUsd;
+  const marginPercent = (profitUsd / sellPriceUsd) * 100;
+  return { costUsd, feeUsd, profitUsd, marginPercent, profitJpy: profitUsd * rate };
+}
+
+// ---------- 出品履歴（localStorage） ----------
+function loadHistory() {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY);
+    const list = raw ? JSON.parse(raw) : [];
+    return Array.isArray(list) ? list : [];
+  } catch {
+    return [];
+  }
+}
+function saveHistoryToStorage(list) {
+  try { localStorage.setItem(HISTORY_KEY, JSON.stringify(list)); } catch {}
+}
+function historyImage(entry) {
+  const local = entry.f.cardNo ? entry.f.cardNo.split("/")[0] : "";
+  const n = parseInt(local, 10);
+  if (!entry.f.setCode || isNaN(n)) return null;
+  const key = `${entry.f.setCode}/${n}`;
+  return IMAGE_INDEX[key] ? `/${IMAGE_INDEX[key]}` : null;
+}
+
 // ---------- 説明文 ----------
 function buildSingleDesc(f) {
-  const cond = CONDITIONS.find((c) => c.code === f.condition);
-  const condEn = cond ? `${cond.en} (${cond.code})` : f.condition || "See photos";
   const notes = f.conditionNotes.trim();
+  const inScope = PRINT_VARIANT_SET_RE.test(f.setCode);
+  const printVariant = inScope ? f.printVariant : "";
+  const printNote = inScope ? f.printVariantNote.trim() : "";
+  const isGraded = f.graded && f.gradingCompany && f.grade.trim();
+  const label = isGraded ? gradeLabelText(f.grade) : "";
+  const certNumber = isGraded ? f.certNumber.trim() : "";
+
+  let conditionLine;
+  if (isGraded) {
+    conditionLine = `Professionally Graded — ${f.gradingCompany} ${f.grade.trim()}${label ? ` (${label})` : ""}`;
+  } else {
+    const cond = CONDITIONS.find((c) => c.code === f.condition);
+    conditionLine = `${cond ? `${cond.en} (${cond.code})` : f.condition || "See photos"} — please see photos for the actual condition.`;
+  }
+
+  const conditionNotesBlock = isGraded
+    ? `${notes ? `- ${notes}` : "- No notes on the slab/case. Please check all photos before purchase."}
+- Card is professionally graded and sealed in its original ${f.gradingCompany} holder.
+- Shipped securely wrapped in bubble wrap inside a rigid box.`
+    : `${notes ? `- ${notes}` : "- No major flaws noted. Please check all photos before purchase."}
+- Stored in a smoke-free environment, kept sleeved.`;
+
   return `Thank you for checking out my listing!
 
 ■ Card Details
 - Card: ${f.pokemonEn || "[Pokemon name]"} ${f.rarity || ""} ${f.cardNo || ""}
 - Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${f.setCode})` : ""}
 - Language: Japanese
-- Condition: ${condEn} — please see photos for the actual condition.
-- The exact card pictured is the one you will receive.
+${printVariant ? `- Print: ${printVariant}\n` : ""}${printNote ? `- Print Note: ${printNote}\n` : ""}- Condition: ${conditionLine}
+${certNumber ? `- Certification #: ${certNumber}\n` : ""}- The exact card pictured is the one you will receive.
 
 ■ Condition Notes
-${notes ? `- ${notes}` : "- No major flaws noted. Please check all photos before purchase."}
-- Stored in a smoke-free environment, kept sleeved.
+${conditionNotesBlock}
 
 ■ Shipping from Japan
 - Ships from ${f.shipFrom || "Japan"} within ${f.handlingDays || "1-2"} business days
@@ -212,10 +307,15 @@ export default function App() {
   const [f, setF] = useState({
     setNameJa: "", setNameEn: "", setCode: "", shipFrom: "Osaka, Japan", handlingDays: "1-2",
     pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
+    printVariant: "", printVariantNote: "",
+    graded: false, gradingCompany: "", grade: "", certNumber: "",
+    costJpy: "", extraCostJpy: "", exchangeRate: "155", sellPriceUsd: "", ebayFeePercent: "13.25", shippingCostUsd: "",
     productType: "pack", cardsPerPack: "", packsPerBox: "30", shrink: true,
   });
   const set = (k) => (e) =>
     setF((p) => ({ ...p, [k]: e.target.type === "checkbox" ? e.target.checked : e.target.value }));
+
+  const [history, setHistory] = useState(() => loadHistory());
 
   const candidates = useMemo(
     () => (searchQuery.trim().length >= 2 ? searchCards(searchQuery) : []),
@@ -224,6 +324,37 @@ export default function App() {
   const title = useMemo(() => (mode === "single" ? buildSingleTitle(f) : buildPackTitle(f)), [mode, f]);
   const desc = useMemo(() => (mode === "single" ? buildSingleDesc(f) : buildPackDesc(f)), [mode, f]);
   const over = title.length > 80;
+  const ebayQuery = useMemo(() => buildEbaySearchQuery(f, mode), [f, mode]);
+  const ebaySoldUrl = useMemo(() => buildEbaySearchUrl(ebayQuery, { sold: true }), [ebayQuery]);
+  const ebayActiveUrl = useMemo(() => buildEbaySearchUrl(ebayQuery), [ebayQuery]);
+  const profit = useMemo(() => calcProfit(f), [f]);
+
+  const saveCurrentToHistory = () => {
+    const entry = {
+      id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+      savedAt: new Date().toISOString(),
+      mode, f, title, desc,
+    };
+    setHistory((prev) => {
+      const next = [entry, ...prev].slice(0, HISTORY_LIMIT);
+      saveHistoryToStorage(next);
+      return next;
+    });
+  };
+  const loadFromHistory = (entry) => {
+    setMode(entry.mode);
+    setF(entry.f);
+    const local = entry.f.cardNo ? entry.f.cardNo.split("/")[0] : "";
+    const n = parseInt(local, 10);
+    setSelectedKey(entry.f.setCode && !isNaN(n) ? `${entry.f.setCode}/${n}` : "");
+  };
+  const deleteHistoryEntry = (id) => {
+    setHistory((prev) => {
+      const next = prev.filter((e) => e.id !== id);
+      saveHistoryToStorage(next);
+      return next;
+    });
+  };
 
   const applyCandidate = (r) => {
     const [local, ja, en, rarity] = r.card;
@@ -332,12 +463,48 @@ export default function App() {
             <Field label="セット型番" hint="例: SV2a / sv9 / M2"><input style={inputStyle} value={f.setCode} onChange={set("setCode")} placeholder="SV2a" /></Field>
             {mode === "single" ? (
               <>
-                <Field label="状態（コンディション）" hint="迷ったら1段階低めが安全です">
-                  <select style={inputStyle} value={f.condition} onChange={set("condition")}>{CONDITIONS.map((c) => <option key={c.code} value={c.code}>{c.code} — {c.label}</option>)}</select>
-                </Field>
-                <Field label="状態の補足（英語・任意）" hint="例: Tiny whitening on the back bottom edge (see photo #4)">
-                  <textarea style={{ ...inputStyle, minHeight: 60, resize: "vertical" }} value={f.conditionNotes} onChange={set("conditionNotes")} placeholder="傷や白かけがあれば正直に記載" />
-                </Field>
+                <label style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
+                  <input type="checkbox" checked={f.graded} onChange={set("graded")} />鑑定品として出品（PSA / BGS / CGC / SGC など）
+                </label>
+                {f.graded ? (
+                  <>
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <div style={{ flex: 1 }}>
+                        <Field label="鑑定会社">
+                          <select style={inputStyle} value={f.gradingCompany} onChange={set("gradingCompany")}>
+                            {GRADING_COMPANIES.map((c) => <option key={c} value={c}>{c || "選択してください"}</option>)}
+                          </select>
+                        </Field>
+                      </div>
+                      <div style={{ flex: 1 }}><Field label="グレード" hint="例: 10 / 9.5"><input style={inputStyle} value={f.grade} onChange={set("grade")} placeholder="10" /></Field></div>
+                    </div>
+                    <Field label="鑑定書番号（任意）"><input style={inputStyle} value={f.certNumber} onChange={set("certNumber")} placeholder="例: 12345678" /></Field>
+                    <Field label="スラブの状態メモ（英語・任意）" hint="ケースの傷など、あれば記載">
+                      <textarea style={{ ...inputStyle, minHeight: 60, resize: "vertical" }} value={f.conditionNotes} onChange={set("conditionNotes")} placeholder="例: Small scratch on the case back" />
+                    </Field>
+                  </>
+                ) : (
+                  <>
+                    <Field label="状態（コンディション）" hint="迷ったら1段階低めが安全です">
+                      <select style={inputStyle} value={f.condition} onChange={set("condition")}>{CONDITIONS.map((c) => <option key={c.code} value={c.code}>{c.code} — {c.label}</option>)}</select>
+                    </Field>
+                    <Field label="状態の補足（英語・任意）" hint="例: Tiny whitening on the back bottom edge (see photo #4)">
+                      <textarea style={{ ...inputStyle, minHeight: 60, resize: "vertical" }} value={f.conditionNotes} onChange={set("conditionNotes")} placeholder="傷や白かけがあれば正直に記載" />
+                    </Field>
+                  </>
+                )}
+                {PRINT_VARIANT_SET_RE.test(f.setCode) && (
+                  <>
+                    <Field label="印刷バリエーション" hint="拡張パック〜ジム拡張2（PMCG1〜6）は1st Editionマークの有無で価値が変わります">
+                      <select style={inputStyle} value={f.printVariant} onChange={set("printVariant")}>
+                        {PRINT_VARIANTS.map((v) => <option key={v.code} value={v.code}>{v.label}</option>)}
+                      </select>
+                    </Field>
+                    <Field label="その他の印刷差異（英語・任意）" hint="例: Old back design / Miscut / Error card">
+                      <input style={inputStyle} value={f.printVariantNote} onChange={set("printVariantNote")} placeholder="旧裏面・エラーカードなど" />
+                    </Field>
+                  </>
+                )}
               </>
             ) : (
               <>
@@ -358,6 +525,39 @@ export default function App() {
               <div style={{ flex: 1 }}><Field label="発送元"><input style={inputStyle} value={f.shipFrom} onChange={set("shipFrom")} /></Field></div>
               <div style={{ flex: 1 }}><Field label="発送までの営業日"><input style={inputStyle} value={f.handlingDays} onChange={set("handlingDays")} /></Field></div>
             </div>
+
+            <div style={{ marginTop: 8, paddingTop: 16, borderTop: "1.5px solid #eef0f7" }}>
+              <h3 style={{ margin: "0 0 4px", fontSize: 13.5, fontWeight: 800 }}>利益計算（任意）</h3>
+              <p style={{ margin: "0 0 12px", fontSize: 11.5, color: "#8b93a7" }}>
+                上の「eBayで相場を見る」で確認した金額を想定売値に入れると、手数料・仕入れ値を差し引いた利益が分かります。
+              </p>
+              <div style={{ display: "flex", gap: 10 }}>
+                <div style={{ flex: 1 }}><Field label="仕入れ値（円）"><input style={inputStyle} inputMode="decimal" value={f.costJpy} onChange={set("costJpy")} placeholder="例: 3000" /></Field></div>
+                <div style={{ flex: 1 }}><Field label="諸経費（円・任意）" hint="送料・スリーブ等"><input style={inputStyle} inputMode="decimal" value={f.extraCostJpy} onChange={set("extraCostJpy")} placeholder="例: 200" /></Field></div>
+              </div>
+              <div style={{ display: "flex", gap: 10 }}>
+                <div style={{ flex: 1 }}><Field label="想定売値（USD）"><input style={inputStyle} inputMode="decimal" value={f.sellPriceUsd} onChange={set("sellPriceUsd")} placeholder="例: 45" /></Field></div>
+                <div style={{ flex: 1 }}><Field label="発送実費（USD・任意）"><input style={inputStyle} inputMode="decimal" value={f.shippingCostUsd} onChange={set("shippingCostUsd")} placeholder="例: 5" /></Field></div>
+              </div>
+              <div style={{ display: "flex", gap: 10 }}>
+                <div style={{ flex: 1 }}><Field label="為替レート（円/USD）"><input style={inputStyle} inputMode="decimal" value={f.exchangeRate} onChange={set("exchangeRate")} /></Field></div>
+                <div style={{ flex: 1 }}><Field label="eBay手数料率（%）" hint="目安の値です"><input style={inputStyle} inputMode="decimal" value={f.ebayFeePercent} onChange={set("ebayFeePercent")} /></Field></div>
+              </div>
+              {profit && (
+                <div style={{
+                  borderRadius: 10, padding: "12px 14px", marginTop: 4, marginBottom: 14,
+                  background: profit.profitUsd >= 0 ? "#eafaf1" : "#fdecea",
+                  border: `1.5px solid ${profit.profitUsd >= 0 ? "#bfead2" : "#f3c6c0"}`,
+                }}>
+                  <div style={{ fontSize: 13, fontWeight: 800, color: profit.profitUsd >= 0 ? "#0a6e3f" : "#a3352b" }}>
+                    想定利益: ${profit.profitUsd.toFixed(2)}（約 ¥{Math.round(profit.profitJpy).toLocaleString()}） ／ 利益率: {profit.marginPercent.toFixed(1)}%
+                  </div>
+                  <div style={{ fontSize: 11, color: "#5b6478", marginTop: 4 }}>
+                    仕入れ原価 ${profit.costUsd.toFixed(2)} ＋ eBay手数料 ${profit.feeUsd.toFixed(2)} を差し引いた金額です。
+                  </div>
+                </div>
+              )}
+            </div>
           </section>
 
           <section style={{ flex: "1 1 420px", minWidth: 320 }}>
@@ -371,7 +571,27 @@ export default function App() {
                   {title || "入力するとここにタイトルが表示されます"}
                 </div>
                 {over && <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>eBayのタイトル上限は80文字です。セット名や状態表記を短くしてください。</div>}
-                <div style={{ marginTop: 12 }}><CopyBtn text={title} label="タイトルをコピー" /></div>
+                <div style={{ marginTop: 12, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+                  <CopyBtn text={title} label="タイトルをコピー" />
+                  {ebaySoldUrl && (
+                    <a href={ebaySoldUrl} target="_blank" rel="noopener noreferrer" style={{
+                      padding: "8px 16px", borderRadius: 999, textDecoration: "none",
+                      fontSize: 13, fontWeight: 700, color: "#1a2238", background: "#fff",
+                      border: "1.5px solid #d9deea",
+                    }}>eBayで相場を見る（売却済み）</a>
+                  )}
+                  {ebayActiveUrl && (
+                    <a href={ebayActiveUrl} target="_blank" rel="noopener noreferrer" style={{
+                      padding: "8px 16px", borderRadius: 999, textDecoration: "none",
+                      fontSize: 13, fontWeight: 700, color: "#1a2238", background: "#fff",
+                      border: "1.5px solid #d9deea",
+                    }}>現在の出品を見る</a>
+                  )}
+                  <button onClick={saveCurrentToHistory} style={{
+                    padding: "8px 16px", borderRadius: 999, border: "1.5px solid #d9deea", cursor: "pointer",
+                    fontSize: 13, fontWeight: 700, color: "#1a2238", background: "#fff",
+                  }}>履歴に保存</button>
+                </div>
               </div>
             </div>
             <div style={{ background: "#fff", borderRadius: 16, padding: "20px 22px", boxShadow: "0 1px 4px rgba(26,34,56,.06)" }}>
@@ -389,6 +609,40 @@ export default function App() {
             </p>
           </section>
         </div>
+
+        {history.length > 0 && (
+          <section style={{ background: "#fff", borderRadius: 16, padding: "20px 22px", boxShadow: "0 1px 4px rgba(26,34,56,.06)", marginTop: 20 }}>
+            <h2 style={{ margin: "0 0 4px", fontSize: 15, fontWeight: 800 }}>保存した出品（履歴）</h2>
+            <p style={{ margin: "0 0 12px", fontSize: 12, color: "#8b93a7" }}>
+              「履歴に保存」で保存した内容です。ブラウザ内（localStorage）にのみ保存され、他の端末とは共有されません。
+            </p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 12 }}>
+              {history.map((entry) => (
+                <div key={entry.id} style={{ borderRadius: 12, padding: 10, border: "2px solid #e4e8f2", background: "#fafbfe" }}>
+                  <CardImage src={historyImage(entry)} name={entry.f.pokemonJa || entry.f.pokemonEn || entry.f.setNameJa} />
+                  <div style={{ marginTop: 8, fontSize: 12.5, fontWeight: 800, color: "#1a2238", lineHeight: 1.4 }}>
+                    {entry.f.pokemonJa || entry.f.pokemonEn || (entry.mode === "pack" ? entry.f.setNameJa : "(未入力)")}
+                  </div>
+                  <div style={{ fontSize: 11, color: "#5b6478", marginTop: 2, lineHeight: 1.5 }}>
+                    {[entry.f.rarity, entry.f.cardNo].filter(Boolean).join(" · ")}<br />
+                    {entry.f.setNameJa || entry.f.setNameEn} ({entry.f.setCode})<br />
+                    {new Date(entry.savedAt).toLocaleString("ja-JP", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}
+                  </div>
+                  <div style={{ marginTop: 8, display: "flex", gap: 6 }}>
+                    <button onClick={() => loadFromHistory(entry)} style={{
+                      flex: 1, padding: "6px 8px", borderRadius: 999, border: "none", cursor: "pointer",
+                      fontSize: 11, fontWeight: 800, color: "#5b48d6", background: "#f4f2ff",
+                    }}>読み込む</button>
+                    <button onClick={() => deleteHistoryEntry(entry.id)} style={{
+                      padding: "6px 10px", borderRadius: 999, border: "none", cursor: "pointer",
+                      fontSize: 11, fontWeight: 800, color: "#a3352b", background: "#fdecea",
+                    }}>削除</button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </div>
   );
