@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-07-11T05:09:39.823Z",
-  "downloaded": 25,
-  "skipped": 23,
+  "generatedAt": "2026-07-14T01:37:11.673Z",
+  "downloaded": 20,
+  "skipped": 77,
   "noJaName": 0,
-  "noMatch": 0,
+  "noMatch": 1,
   "failed": 0,
   "sets": {
-    "PMCG3": {
-      "downloaded": 25,
-      "skipped": 23,
+    "PMCG6": {
+      "downloaded": 20,
+      "skipped": 77,
       "noJaName": 0,
-      "noMatch": 0,
+      "noMatch": 1,
       "failed": 0
     }
   }

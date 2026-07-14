@@ -48,23 +48,35 @@ function normalize(s) {
 function pad3(n) {
   return String(n).padStart(3, "0");
 }
+// カード名の正規化結果を読み込み時に一度だけキャッシュし、検索のたびに再計算しないようにする
+const SEARCH_INDEX = CARD_DATA.map((s) => ({
+  set: s,
+  setKey: normalize(s.ja + " " + s.en + " " + s.c),
+  cards: s.k.map((k) => {
+    const [, ja, en, rarity] = k;
+    return {
+      k,
+      nameKey: normalize(ja + " " + en),
+      jaKey: normalize(ja),
+      enKey: normalize(en),
+      rarityKey: rarity ? normalize(rarity) : "",
+    };
+  }),
+}));
 function searchCards(query) {
   const tokens = normalize(query).split(/\s+/).filter(Boolean);
   if (tokens.length === 0) return [];
   const results = [];
-  for (const s of CARD_DATA) {
-    const setKey = normalize(s.ja + " " + s.en + " " + s.c);
-    for (const k of s.k) {
-      const [, ja, en, rarity] = k;
-      const nameKey = normalize(ja + " " + en);
+  for (const { set: s, setKey, cards } of SEARCH_INDEX) {
+    for (const { k, nameKey, jaKey, enKey, rarityKey } of cards) {
       let nameScore = 0;
       let ok = true;
       for (const t of tokens) {
         if (nameKey === t) nameScore = Math.max(nameScore, 3);
-        else if (normalize(ja) === t || normalize(en) === t) nameScore = Math.max(nameScore, 3);
+        else if (jaKey === t || enKey === t) nameScore = Math.max(nameScore, 3);
         else if (nameKey.startsWith(t)) nameScore = Math.max(nameScore, 2);
         else if (nameKey.includes(t)) nameScore = Math.max(nameScore, 1);
-        else if (rarity && t === normalize(rarity)) nameScore = Math.max(nameScore, 1);
+        else if (rarityKey && t === rarityKey) nameScore = Math.max(nameScore, 1);
         else if (setKey.includes(t)) nameScore = Math.max(nameScore, 1);
         else { ok = false; break; }
       }
@@ -95,11 +107,12 @@ function localImage(setObj, local) {
 // ---------- タイトル ----------
 function buildSingleTitle(f) {
   const printVariant = PRINT_VARIANT_SET_RE.test(f.setCode) ? f.printVariant : "";
+  const oldBack = PRINT_VARIANT_SET_RE.test(f.setCode) && f.oldBack ? "Old Back" : "";
   const isGraded = f.graded && f.gradingCompany && f.grade.trim();
   const conditionToken = isGraded
     ? [f.gradingCompany, f.grade.trim(), gradeLabelText(f.grade)].filter(Boolean).join(" ")
     : f.condition;
-  return [f.pokemonEn, f.rarity, f.cardNo, f.setCode, f.setNameEn, printVariant, "Japanese Pokemon Card", conditionToken]
+  return [f.pokemonEn, f.rarity, f.cardNo, f.setCode, f.setNameEn, printVariant, oldBack, "Japanese Pokemon Card", conditionToken]
     .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
 }
 function buildPackTitle(f) {
@@ -132,10 +145,11 @@ function calcProfit(f) {
   const costJpy = parseFloat(f.costJpy) || 0;
   const extraCostJpy = parseFloat(f.extraCostJpy) || 0;
   const feePercent = parseFloat(f.ebayFeePercent) || 0;
+  const fixedFeeUsd = parseFloat(f.ebayFixedFeeUsd) || 0;
   const shippingCostUsd = parseFloat(f.shippingCostUsd) || 0;
 
   const costUsd = (costJpy + extraCostJpy) / rate;
-  const feeUsd = sellPriceUsd * (feePercent / 100);
+  const feeUsd = sellPriceUsd * (feePercent / 100) + fixedFeeUsd;
   const profitUsd = sellPriceUsd - feeUsd - shippingCostUsd - costUsd;
   const marginPercent = (profitUsd / sellPriceUsd) * 100;
   return { costUsd, feeUsd, profitUsd, marginPercent, profitJpy: profitUsd * rate };
@@ -168,6 +182,7 @@ function buildSingleDesc(f) {
   const inScope = PRINT_VARIANT_SET_RE.test(f.setCode);
   const printVariant = inScope ? f.printVariant : "";
   const printNote = inScope ? f.printVariantNote.trim() : "";
+  const oldBack = inScope && f.oldBack;
   const isGraded = f.graded && f.gradingCompany && f.grade.trim();
   const label = isGraded ? gradeLabelText(f.grade) : "";
   const certNumber = isGraded ? f.certNumber.trim() : "";
@@ -193,7 +208,7 @@ function buildSingleDesc(f) {
 - Card: ${f.pokemonEn || "[Pokemon name]"} ${f.rarity || ""} ${f.cardNo || ""}
 - Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${f.setCode})` : ""}
 - Language: Japanese
-${printVariant ? `- Print: ${printVariant}\n` : ""}${printNote ? `- Print Note: ${printNote}\n` : ""}- Condition: ${conditionLine}
+${printVariant ? `- Print: ${printVariant}\n` : ""}${oldBack ? `- Back Design: Old Back (旧裏)\n` : ""}${printNote ? `- Print Note: ${printNote}\n` : ""}- Condition: ${conditionLine}
 ${certNumber ? `- Certification #: ${certNumber}\n` : ""}- The exact card pictured is the one you will receive.
 
 ■ Condition Notes
@@ -301,15 +316,16 @@ function CardImage({ src, name }) {
 export default function App() {
   const [mode, setMode] = useState("single");
   const [searchQuery, setSearchQuery] = useState("");
+  const [showCandidates, setShowCandidates] = useState(true);
   const [selectedKey, setSelectedKey] = useState("");
   const imageCount = Object.keys(IMAGE_INDEX).length;
 
   const [f, setF] = useState({
     setNameJa: "", setNameEn: "", setCode: "", shipFrom: "Osaka, Japan", handlingDays: "1-2",
     pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
-    printVariant: "", printVariantNote: "",
+    printVariant: "", printVariantNote: "", oldBack: false,
     graded: false, gradingCompany: "", grade: "", certNumber: "",
-    costJpy: "", extraCostJpy: "", exchangeRate: "155", sellPriceUsd: "", ebayFeePercent: "13.25", shippingCostUsd: "",
+    costJpy: "", extraCostJpy: "", exchangeRate: "155", sellPriceUsd: "", ebayFeePercent: "13.25", ebayFixedFeeUsd: "0.40", shippingCostUsd: "",
     productType: "pack", cardsPerPack: "", packsPerBox: "30", shrink: true,
   });
   const set = (k) => (e) =>
@@ -366,6 +382,7 @@ export default function App() {
       cardNo: cardNoOf(r.set, local), setCode: r.set.c,
       setNameJa: r.set.ja, setNameEn: r.set.en || p.setNameEn,
     }));
+    setShowCandidates(false);
   };
 
   return (
@@ -405,14 +422,14 @@ export default function App() {
               入力すると内蔵データから即座に候補を表示します。「リザードン SAR」「ピカチュウ SV2a」のようにレアリティやセット型番で絞り込みもできます。
             </p>
             <input style={{ ...inputStyle, fontSize: 15, padding: "12px 14px" }} value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => { setSearchQuery(e.target.value); setShowCandidates(true); }}
               placeholder="例: リザードンex / ナゾノクサ / ピカチュウ SAR" />
             {searchQuery.trim().length >= 2 && candidates.length === 0 && (
               <div style={{ fontSize: 12.5, color: "#c0392b", marginTop: 12 }}>
                 候補が見つかりませんでした。表記を変えるか、下のフォームに手動で入力してください。
               </div>
             )}
-            {candidates.length > 0 && (
+            {showCandidates && candidates.length > 0 && (
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))", gap: 12, marginTop: 16, maxHeight: 560, overflowY: "auto" }}>
                 {candidates.map((r) => {
                   const [local, ja, en, rarity] = r.card;
@@ -500,8 +517,11 @@ export default function App() {
                         {PRINT_VARIANTS.map((v) => <option key={v.code} value={v.code}>{v.label}</option>)}
                       </select>
                     </Field>
-                    <Field label="その他の印刷差異（英語・任意）" hint="例: Old back design / Miscut / Error card">
-                      <input style={inputStyle} value={f.printVariantNote} onChange={set("printVariantNote")} placeholder="旧裏面・エラーカードなど" />
+                    <label style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
+                      <input type="checkbox" checked={f.oldBack} onChange={set("oldBack")} />旧裏（オールドバック）
+                    </label>
+                    <Field label="その他の印刷差異（英語・任意）" hint="例: Miscut / Error card">
+                      <input style={inputStyle} value={f.printVariantNote} onChange={set("printVariantNote")} placeholder="エラーカードなど" />
                     </Field>
                   </>
                 )}
@@ -542,6 +562,9 @@ export default function App() {
               <div style={{ display: "flex", gap: 10 }}>
                 <div style={{ flex: 1 }}><Field label="為替レート（円/USD）"><input style={inputStyle} inputMode="decimal" value={f.exchangeRate} onChange={set("exchangeRate")} /></Field></div>
                 <div style={{ flex: 1 }}><Field label="eBay手数料率（%）" hint="目安の値です"><input style={inputStyle} inputMode="decimal" value={f.ebayFeePercent} onChange={set("ebayFeePercent")} /></Field></div>
+              </div>
+              <div style={{ display: "flex", gap: 10 }}>
+                <div style={{ flex: 1 }}><Field label="eBay固定手数料（USD）" hint="出品1件あたりの定額手数料"><input style={inputStyle} inputMode="decimal" value={f.ebayFixedFeeUsd} onChange={set("ebayFixedFeeUsd")} /></Field></div>
               </div>
               {profit && (
                 <div style={{

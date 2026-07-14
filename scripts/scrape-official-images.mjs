@@ -78,6 +78,12 @@ async function exists(p) {
   try { await fs.access(p); return true; } catch { return false; }
 }
 
+// 末尾の説明的な括弧（例: "博士の研究（ナナカマド博士）" → "博士の研究"）を除いた照合用の名前
+// 公式DB側は同じトレーナーカードでもキャラクター注記なしで1本化されていることが多いため
+function matchName(jaName) {
+  return jaName.replace(/[（(][^）)]*[）)]\s*$/, "").trim();
+}
+
 // cardThumbFile のファイル名先頭6桁 ("042987_P_KOIKINGU.jpg") がそのまま cardID (42987)
 function extractCardId(cardThumbFile) {
   const m = cardThumbFile.match(/\/(\d+)_/);
@@ -143,13 +149,7 @@ async function buildOfficialCache() {
 
 // 同じ日本語名で公式DBに複数候補があり、かつ cardData 側にも同名で複数 local がある場合、
 // 詳細ページで実際のカード番号を調べて local ごとに正しい cardThumbFile を突き止める
-async function resolveAmbiguousNames(officialCards, cardsInSet, detailCache, dirtyFlag) {
-  const cacheByName = new Map();
-  for (const c of officialCards) {
-    if (!c.jaName) continue;
-    if (!cacheByName.has(c.jaName)) cacheByName.set(c.jaName, []);
-    cacheByName.get(c.jaName).push(c);
-  }
+async function resolveAmbiguousNames(cacheByName, cardsInSet, detailCache, dirtyFlag) {
   const localsByName = new Map();
   for (const k of cardsInSet) {
     if (!k[1]) continue;
@@ -159,14 +159,33 @@ async function resolveAmbiguousNames(officialCards, cardsInSet, detailCache, dir
 
   // 判別が必要な (name, candidates) のリストを作る
   const jobs = [];
+  const orderPaired = []; // 候補数と local 数が一致する場合は詳細ページを見ずに順序で対応付ける
   for (const [name, locals] of localsByName) {
     if (locals.length <= 1) continue;
-    const candidates = cacheByName.get(name);
+    // 公式DB側はキャラクター注記なしの名前で1本化されていることがあるためフォールバックする
+    const candidates = cacheByName.get(name) || cacheByName.get(matchName(name));
     if (!candidates || candidates.length <= 1) continue;
-    jobs.push([name, candidates]);
+    if (locals.length === candidates.length) {
+      orderPaired.push([name, locals, candidates]);
+    } else {
+      jobs.push([name, candidates]);
+    }
   }
 
   const ambiguousMap = new Map(); // jaName -> Map<numericLocal, cardThumbFile>
+
+  // 件数が一致する組は local 番号順・掲載順で1:1対応付け。
+  // 印刷違い(パラレル等)を厳密には判別できないが、写真が全く無いよりはよい。
+  for (const [name, locals, candidates] of orderPaired) {
+    const sortedLocals = [...locals].sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+    const sortedCandidates = [...candidates].sort(
+      (a, b) => (parseInt(extractCardId(a.cardThumbFile), 10) || 0) - (parseInt(extractCardId(b.cardThumbFile), 10) || 0)
+    );
+    const localMap = new Map();
+    sortedLocals.forEach((local, i) => localMap.set(parseInt(local, 10), sortedCandidates[i].cardThumbFile));
+    ambiguousMap.set(name, localMap);
+  }
+
   let idx = 0;
   const workers = Array.from({ length: CONCURRENCY }, async () => {
     while (idx < jobs.length) {
@@ -226,12 +245,17 @@ async function main() {
 
     // 日本語名 → cardThumbFile のマップ（候補が1つだけの名前用の高速パス）
     const nameMap = new Map();
+    // 日本語名 → 候補一覧（曖昧判定・括弧注記フォールバック用）
+    const cacheByName = new Map();
     for (const c of officialCards) {
-      if (c.jaName && !nameMap.has(c.jaName)) nameMap.set(c.jaName, c.cardThumbFile);
+      if (!c.jaName) continue;
+      if (!nameMap.has(c.jaName)) nameMap.set(c.jaName, c.cardThumbFile);
+      if (!cacheByName.has(c.jaName)) cacheByName.set(c.jaName, []);
+      cacheByName.get(c.jaName).push(c);
     }
 
     // 同名で複数印刷（AR/SAR等）がある名前は詳細ページでカード番号を突き合わせる
-    const ambiguousMap = await resolveAmbiguousNames(officialCards, setData.k, detailCache, dirtyFlag);
+    const ambiguousMap = await resolveAmbiguousNames(cacheByName, setData.k, detailCache, dirtyFlag);
     if (ambiguousMap.size > 0) {
       await fs.writeFile(DETAIL_CACHE_PATH, JSON.stringify(detailCache), "utf-8");
     }
@@ -255,7 +279,18 @@ async function main() {
         if (await exists(dest)) { setResult.skipped++; results.skipped++; continue; }
 
         const resolved = ambiguousMap.get(jaName);
-        const cardThumbFile = resolved ? resolved.get(parseInt(localId, 10)) : nameMap.get(jaName);
+        let cardThumbFile = resolved ? resolved.get(parseInt(localId, 10)) : nameMap.get(jaName);
+        // 末尾の括弧注記(例:「（ナナカマド博士）」)違いでの不一致は、
+        // 括弧なし名の公式候補が1件だけなら安全に採用する
+        if (!cardThumbFile) {
+          const stripped = matchName(jaName);
+          if (stripped !== jaName) {
+            const strippedCandidates = cacheByName.get(stripped);
+            if (strippedCandidates && strippedCandidates.length === 1) {
+              cardThumbFile = strippedCandidates[0].cardThumbFile;
+            }
+          }
+        }
         if (!cardThumbFile) { setResult.noMatch++; results.noMatch++; continue; }
 
         const buf = await downloadImage(cardThumbFile, dest);
