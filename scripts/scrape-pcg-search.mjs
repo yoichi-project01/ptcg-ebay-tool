@@ -14,7 +14,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
+import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -73,10 +73,6 @@ const onlySet = args.includes("--set") ? args[args.indexOf("--set") + 1] : null;
 const dryRun  = args.includes("--dry-run");
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
-
-async function exists(p) {
-  try { await fs.access(p); return true; } catch { return false; }
-}
 
 async function fetchWithTimeout(url, opts = {}) {
   const controller = new AbortController();
@@ -254,8 +250,8 @@ async function main() {
         const jaName = setJaMap.get(card.local) || "";
         const rarity = setRarityMap.get(card.local) || "";
         const destBase = path.join(OUT_DIR, serie, setCode, buildFileName(jaName || card.local, setCode, card.local, rarity, setTotal));
-        // 既存の日本語画像（.jpg, .png）があればスキップ（.webpは英語プロキシなのでスキップしない）
-        if (await exists(destBase + ".jpg") || await exists(destBase + ".png")) {
+        // 既存の日本語画像（.jpg, .png）があればスキップ
+        if (await isUsableImage(destBase + ".jpg") || await isUsableImage(destBase + ".png")) {
           setResult.skipped++; results.skipped++;
           continue;
         }
@@ -277,10 +273,7 @@ async function main() {
 
         if (buf) {
           const dest = destBase + ".png";
-          await fs.mkdir(path.dirname(dest), { recursive: true });
-          const tmp = `${dest}.${process.pid}.part`;
-          await fs.writeFile(tmp, buf);
-          await fs.rename(tmp, dest);
+          await writeFileAtomic(dest, buf);
           setResult.downloaded++; results.downloaded++;
         } else {
           setResult.failed++; results.failed++;

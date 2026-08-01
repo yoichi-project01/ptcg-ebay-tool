@@ -9,8 +9,36 @@
  * ※ Windows ではファイル名に / が使えないため全角スラッシュ ／ (U+FF0F) を使用
  */
 
+import fs from "node:fs/promises";
+import path from "node:path";
+
 function sanitize(str) {
   return (str || "").replace(/[/\\:*?"<>|]/g, "");
+}
+
+// このサイズ未満のファイルは壊れたダウンロード（HTMLエラーページ等）とみなす。
+// build-image-index.mjs の集計対象条件と、各スクレイパのスキップ判定を同じ基準に揃えるための定数
+export const MIN_IMAGE_BYTES = 500;
+
+// destPath に「使える画像」が既に存在するかどうかを判定する。
+// 存在するだけでなく実用サイズ以上であることまで確認するので、
+// 壊れたファイルが「存在する」という理由だけで永久にスキップされるのを防ぐ
+export async function isUsableImage(destPath) {
+  try {
+    const st = await fs.stat(destPath);
+    return st.isFile() && st.size >= MIN_IMAGE_BYTES;
+  } catch {
+    return false;
+  }
+}
+
+// 一時ファイルに書いてから rename することで、途中終了しても壊れた画像が
+// 本来のファイル名で残らないようにする（同一ファイルシステム内のrenameはアトミック）
+export async function writeFileAtomic(destPath, buf) {
+  await fs.mkdir(path.dirname(destPath), { recursive: true });
+  const tmp = `${destPath}.${process.pid}.part`;
+  await fs.writeFile(tmp, buf);
+  await fs.rename(tmp, destPath);
 }
 
 /**

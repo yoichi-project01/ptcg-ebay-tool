@@ -10,7 +10,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { extractLocalId } from "./filename-utils.mjs";
+import { extractLocalId, MIN_IMAGE_BYTES } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -42,7 +42,7 @@ async function main() {
     // .part（ダウンロード中の一時ファイル）や極小ファイル（壊れたダウンロード）は無視
     if (f.endsWith(".part")) continue;
     const stat = await fs.stat(f);
-    if (stat.size < 500) continue;
+    if (stat.size < MIN_IMAGE_BYTES) continue;
 
     const rel = path.relative(path.join(ROOT, "public"), f).split(path.sep).join("/");
     const parts = rel.split("/"); // cards, SERIE, SET, local.ext

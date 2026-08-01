@@ -18,7 +18,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
-import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
+import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -30,18 +30,13 @@ const PCG_HDR = {
   "Referer": PCG_BASE + "/",
 };
 
-async function exists(p) {
-  try { await fs.access(p); return true; } catch { return false; }
-}
-
 async function download(url, dest) {
-  if (await exists(dest)) { console.log("  skip:", path.basename(dest)); return; }
+  if (await isUsableImage(dest)) { console.log("  skip:", path.basename(dest)); return; }
   const r = await fetch(url, { headers: PCG_HDR, signal: AbortSignal.timeout(15000) });
   if (r.ok) {
     const buf = Buffer.from(await r.arrayBuffer());
     if (buf.length > 500) {
-      await fs.mkdir(path.dirname(dest), { recursive: true });
-      await fs.writeFile(dest, buf);
+      await writeFileAtomic(dest, buf);
       console.log("  OK:", path.basename(dest));
       return;
     }
@@ -59,6 +54,14 @@ function runScript(scriptName) {
   });
   if (result.error) {
     console.error(`エラー (${scriptName}):`, result.error.message);
+    process.exit(1);
+  }
+  if (result.signal) {
+    console.error(`中断 (${scriptName}): シグナル ${result.signal}`);
+    process.exit(1);
+  }
+  if (result.status !== 0) {
+    console.error(`エラー (${scriptName}): 終了コード ${result.status} で終了しました`);
     process.exit(1);
   }
 }

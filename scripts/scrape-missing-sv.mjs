@@ -11,7 +11,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
+import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -26,7 +26,6 @@ const DELAY_MS = 200;
 const TIMEOUT_MS = 15000;
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
-async function exists(p) { try { await fs.access(p); return true; } catch { return false; } }
 
 async function downloadImage(cardThumbFile, destPath) {
   const url = API_BASE + cardThumbFile;
@@ -44,8 +43,7 @@ async function downloadImage(cardThumbFile, destPath) {
         if (r.ok) {
           const buf = Buffer.from(await r.arrayBuffer());
           if (buf.length > 1000) {
-            await fs.mkdir(path.dirname(destPath), { recursive: true });
-            await fs.writeFile(destPath, buf);
+            await writeFileAtomic(destPath, buf);
             return true;
           }
         }
@@ -164,7 +162,7 @@ async function main() {
         const rarity = rarityMap.get(setCode)?.get(card.local) || "";
         const dest = path.join(OUT_DIR, serie, setCode, buildFileName(jaName || card.local, setCode, card.local, rarity, setTotal) + ".jpg");
 
-        if (await exists(dest)) { setResult.skip++; totalSkip++; continue; }
+        if (await isUsableImage(dest)) { setResult.skip++; totalSkip++; continue; }
 
         // Try exact name first, then stripped
         const stripped = stripParens(jaName);

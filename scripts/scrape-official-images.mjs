@@ -14,7 +14,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
+import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -91,14 +91,6 @@ async function downloadImage(cardThumbFile, destPath) {
     await sleep(500 * (i + 1));
   }
   return null;
-}
-
-// 一時ファイルに書いてから rename することで、途中終了しても壊れた画像が本来の名前で残らないようにする
-async function writeFileAtomic(destPath, buf) {
-  await fs.mkdir(path.dirname(destPath), { recursive: true });
-  const tmp = `${destPath}.${process.pid}.part`;
-  await fs.writeFile(tmp, buf);
-  await fs.rename(tmp, destPath);
 }
 
 async function exists(p) {
@@ -319,7 +311,7 @@ async function main() {
         const dest = path.join(OUT_DIR, setData.sr, setCode, buildFileName(jaName, setCode, localId, rarity, setTotal) + ".jpg");
 
         // .jpg が存在すればスキップ
-        if (await exists(dest)) { setResult.skipped++; results.skipped++; continue; }
+        if (await isUsableImage(dest)) { setResult.skipped++; results.skipped++; continue; }
 
         const resolved = ambiguousMap.get(jaName);
         let cardThumbFile = resolved ? resolved.get(parseInt(localId, 10)) : nameMap.get(jaName);

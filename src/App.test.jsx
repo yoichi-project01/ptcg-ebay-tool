@@ -1,5 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { buildSingleTitle, calcProfit } from "./App.jsx";
+import { buildSingleTitle, calcProfit, applyCandidateToForm, searchCards } from "./App.jsx";
+
+const DEFAULT_F = {
+  setNameJa: "", setNameEn: "", setCode: "",
+  pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "",
+};
 
 const baseCard = {
   pokemonEn: "Charizard ex",
@@ -113,5 +118,54 @@ describe("calcProfit", () => {
     expect(result.costUsd).toBe(0);
     expect(result.feeUsd).toBe(0);
     expect(result.profitUsd).toBe(10);
+  });
+});
+
+describe("applyCandidateToForm", () => {
+  const withEnglishSet = { c: "SV1S", ja: "スカーレット", en: "Scarlet ex" };
+  const withoutEnglishSet = { c: "S12a", ja: "テスト", en: "" };
+
+  it("fills in the English name when the candidate has one", () => {
+    const r = { set: withEnglishSet, card: ["004", "リザードン", "Charizard", "RR"] };
+    const next = applyCandidateToForm(DEFAULT_F, r);
+    expect(next.pokemonEn).toBe("Charizard");
+    expect(next.setNameEn).toBe("Scarlet ex");
+  });
+
+  it("does not carry over the previous card's English name when the new one has none", () => {
+    // 前のカードで英語名が入っている状態から始める
+    const withStaleEnglish = { ...DEFAULT_F, pokemonEn: "Charizard", setNameEn: "Scarlet ex" };
+    const r = { set: withoutEnglishSet, card: ["001", "テストポケモン", "", ""] };
+    const next = applyCandidateToForm(withStaleEnglish, r);
+    expect(next.pokemonEn).toBe("");
+    expect(next.setNameEn).toBe("");
+  });
+
+  it("falls back to an empty rarity when the candidate's rarity is not a known option", () => {
+    const r = { set: withEnglishSet, card: ["004", "リザードン", "Charizard", "ありえないレアリティ"] };
+    const next = applyCandidateToForm(DEFAULT_F, r);
+    expect(next.rarity).toBe("");
+  });
+});
+
+describe("searchCards", () => {
+  it("matches full-width rarity input (ＳＡＲ) the same as half-width (SAR)", () => {
+    const fullWidth = searchCards("メガフシギバナex ＳＡＲ");
+    const halfWidth = searchCards("メガフシギバナex SAR");
+    expect(fullWidth.length).toBeGreaterThan(0);
+    expect(fullWidth.map((r) => r.card[0])).toEqual(halfWidth.map((r) => r.card[0]));
+  });
+
+  it("matches full-width digits (ポリゴン２) and half-width digits (ポリゴン2) to the same cards", () => {
+    const fullWidth = searchCards("ポリゴン２");
+    const halfWidth = searchCards("ポリゴン2");
+    expect(fullWidth.length).toBeGreaterThan(0);
+    expect(fullWidth.map((r) => r.set.c + "/" + r.card[0]).sort()).toEqual(
+      halfWidth.map((r) => r.set.c + "/" + r.card[0]).sort()
+    );
+  });
+
+  it("returns nothing for a query shorter than any real match", () => {
+    expect(searchCards("")).toEqual([]);
   });
 });

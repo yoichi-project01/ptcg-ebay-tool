@@ -78,16 +78,19 @@ const SEARCH_INDEX = CARD_DATA.map((s) => ({
     .filter((k) => k[1] || k[2])
     .map((k) => {
       const [, ja, en, rarity] = k;
+      // ja/en の間には絶対に入力されない区切り文字（U+0000）を挟む。
+      // stripSeparators は空白を消すため、単純に " " で連結すると
+      // 日本語名と英語名が直結してしまい、英語名側での前方一致判定が効かなくなる
       return {
         k,
-        nameKey: normalize(ja + " " + en),
+        nameKey: normalize(ja) + "\0" + normalize(en),
         jaKey: normalize(ja),
         enKey: normalize(en),
         rarityKey: rarity ? normalize(rarity) : "",
       };
     }),
 }));
-function searchCards(query) {
+export function searchCards(query) {
   const tokens = normalizeBase(query).split(/\s+/).filter(Boolean).map(stripSeparators);
   if (tokens.length === 0) return [];
   const results = [];
@@ -120,6 +123,19 @@ function searchCards(query) {
 function cardNoOf(setObj, local) {
   if (setObj.of > 0 && /^\d+$/.test(local)) return `${pad3(local)}/${pad3(setObj.of)}`;
   return "";
+}
+// 候補カード選択時のフォーム更新ロジック（純関数化してテストしやすくする）。
+// 英語名・セット英語名が未登録の場合は必ず空文字にする — 前カードの値を引き継ぐと
+// 「タイトルは合っているように見えるが実は別カードの英語名」という事故になるため
+export function applyCandidateToForm(prev, r) {
+  const [local, ja, en, rarity] = r.card;
+  return {
+    ...prev,
+    pokemonJa: ja, pokemonEn: en || "",
+    rarity: RARITIES.includes(rarity) ? rarity : "",
+    cardNo: cardNoOf(r.set, local), setCode: r.set.c,
+    setNameJa: r.set.ja, setNameEn: r.set.en || "",
+  };
 }
 // ローカルにスクレイピング済み画像があればそのパスを返す
 function localImage(setObj, local) {
@@ -358,10 +374,16 @@ class ErrorBoundary extends Component {
               保存済みの出品履歴に古い形式のデータが含まれている可能性があります。ページを再読み込みしてください。
             </p>
             <pre style={{ fontSize: 11, color: "#8b93a7", whiteSpace: "pre-wrap", wordBreak: "break-word" }}>{String(this.state.error?.message || this.state.error)}</pre>
-            <button onClick={() => location.reload()} style={{
-              marginTop: 8, padding: "8px 16px", borderRadius: 999, border: "none", cursor: "pointer",
-              fontSize: 13, fontWeight: 700, color: "#fff", background: "#1a2238",
-            }}>再読み込み</button>
+            <div style={{ display: "flex", gap: 8, marginTop: 8, flexWrap: "wrap" }}>
+              <button onClick={() => location.reload()} style={{
+                padding: "8px 16px", borderRadius: 999, border: "none", cursor: "pointer",
+                fontSize: 13, fontWeight: 700, color: "#fff", background: "#1a2238",
+              }}>再読み込み</button>
+              <button onClick={() => { try { localStorage.removeItem(HISTORY_KEY); } catch {} location.reload(); }} style={{
+                padding: "8px 16px", borderRadius: 999, border: "1.5px solid #d9deea", cursor: "pointer",
+                fontSize: 13, fontWeight: 700, color: "#a3352b", background: "#fff",
+              }}>履歴をクリアして再読み込み</button>
+            </div>
           </div>
         </div>
       );
@@ -399,7 +421,10 @@ function AppInner() {
   const title = useMemo(() => (mode === "single" ? buildSingleTitle(f) : buildPackTitle(f)), [mode, f]);
   const desc = useMemo(() => (mode === "single" ? buildSingleDesc(f) : buildPackDesc(f)), [mode, f]);
   const over = title.length > 80;
-  const missingEn = mode === "single" && (!f.pokemonEn.trim() || !f.setNameEn.trim());
+  // セット英語名は buildPackTitle でも使われるため両モード共通、ポケモン名はシングル限定
+  const missingSetEn = !f.setNameEn.trim();
+  const missingPokemonEn = mode === "single" && !f.pokemonEn.trim();
+  const missingEn = missingPokemonEn || missingSetEn;
   const ebayQuery = useMemo(() => buildEbaySearchQuery(f, mode), [f, mode]);
   const ebaySoldUrl = useMemo(() => buildEbaySearchUrl(ebayQuery, { sold: true }), [ebayQuery]);
   const ebayActiveUrl = useMemo(() => buildEbaySearchUrl(ebayQuery), [ebayQuery]);
@@ -433,15 +458,9 @@ function AppInner() {
   };
 
   const applyCandidate = (r) => {
-    const [local, ja, en, rarity] = r.card;
+    const [local] = r.card;
     setSelectedKey(r.set.c + "/" + local);
-    setF((p) => ({
-      ...p,
-      pokemonJa: ja, pokemonEn: en || "",
-      rarity: RARITIES.includes(rarity) ? rarity : "",
-      cardNo: cardNoOf(r.set, local), setCode: r.set.c,
-      setNameJa: r.set.ja, setNameEn: r.set.en || "",
-    }));
+    setF((p) => applyCandidateToForm(p, r));
     setShowCandidates(false);
   };
 
@@ -663,7 +682,7 @@ function AppInner() {
                 {over && <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>eBayのタイトル上限は80文字です。セット名や状態表記を短くしてください。</div>}
                 {missingEn && (
                   <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>
-                    ⚠ {!f.pokemonEn.trim() && !f.setNameEn.trim() ? "英語名・セット英語名" : !f.pokemonEn.trim() ? "英語名" : "セット英語名"}がデータに未登録です。前に選んだカードの英語名が残っていないか確認し、手入力してからコピーしてください。
+                    ⚠ {missingPokemonEn && missingSetEn ? "英語名・セット英語名" : missingPokemonEn ? "英語名" : "セット英語名"}がデータに未登録です。前に選んだカードの英語名が残っていないか確認し、手入力してからコピーしてください。
                   </div>
                 )}
                 <div style={{ marginTop: 12, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>

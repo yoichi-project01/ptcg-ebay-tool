@@ -14,6 +14,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -34,10 +35,6 @@ const dryRun = args.includes("--dry-run");
 const PROMO_SETS = ["S-P", "SV-P"];
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
-
-async function exists(p) {
-  try { await fs.access(p); return true; } catch { return false; }
-}
 
 async function downloadImage(cardThumbFile) {
   const url = `${API_BASE}${cardThumbFile}`;
@@ -109,15 +106,14 @@ async function main() {
         const dest = path.join(OUT_DIR, setData.sr, setCode, `${localId}.jpg`);
         const destWebp = dest.replace(/\.jpg$/, ".webp");
 
-        if (await exists(dest) || await exists(destWebp)) {
+        if (await isUsableImage(dest) || await isUsableImage(destWebp)) {
           results.skipped++;
           continue;
         }
 
         const buf = await downloadImage(official.cardThumbFile);
         if (buf) {
-          await fs.mkdir(path.dirname(dest), { recursive: true });
-          await fs.writeFile(dest, buf);
+          await writeFileAtomic(dest, buf);
           results.downloaded++;
           // 日本語名も更新
           if (!card[1] || !card[1].trim()) {

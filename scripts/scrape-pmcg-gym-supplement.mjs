@@ -11,7 +11,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
+import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -62,10 +62,6 @@ function stripSitePrefix(normalizedSiteName) {
 }
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
-
-async function exists(p) {
-  try { await fs.access(p); return true; } catch { return false; }
-}
 
 async function downloadImage(url) {
   const controller = new AbortController();
@@ -147,7 +143,7 @@ async function main() {
       const destBase = path.join(OUT_DIR, serie, setCode, buildFileName(jaName || card.local, setCode, card.local, rarity, setTotal));
 
       // 既存画像があればスキップ
-      if (await exists(destBase + ".jpg") || await exists(destBase + ".png")) {
+      if (await isUsableImage(destBase + ".jpg") || await isUsableImage(destBase + ".png")) {
         skipped++;
         continue;
       }
@@ -174,8 +170,7 @@ async function main() {
 
       if (buf) {
         const dest = destBase + ".png";
-        await fs.mkdir(path.dirname(dest), { recursive: true });
-        await fs.writeFile(dest, buf);
+        await writeFileAtomic(dest, buf);
         downloaded++;
         process.stdout.write(`  取得: ${card.local} (${jaName} → site ${siteNum})\n`);
       } else {
