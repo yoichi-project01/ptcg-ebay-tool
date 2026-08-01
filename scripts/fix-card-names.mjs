@@ -53,6 +53,12 @@ const CORRECTIONS = new Map([
 
   // web1 (webシリーズ)
   ["web1/030",  "げんきのかたまり"],          // "Max Revive"
+
+  // S-P (プロモ) - 公式APIのcardNameViewTextがHTMLエスケープされたまま取り込まれていた
+  ["S-P/134", "グズマ&ハラ"],
+  ["S-P/135", "シロナ&カトレア"],
+  ["S-P/136", "マオ&スイレン"],
+  ["S-P/222", "アルセウス&ディアルガ&パルキアGX"],
 ]);
 
 async function walk(dir) {

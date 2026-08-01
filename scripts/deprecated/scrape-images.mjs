@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 /**
+ * !!! DEPRECATED — 実行しないこと !!!
+ * TCGdex CDN の画像は英語版アートワーク（.webp）。日本語カードの出品に
+ * 英語アートワークを使うのは実物と異なり不適切なため使用禁止（CLAUDE.md参照）。
+ * npm run scrape / package.json からは既に削除済み。参考保存のみ。
+ *
  * ポケモンカード画像スクレイパー (TCGdex CDN)
  *
  * card-list.json の全カードについて、TCGdexのCDNから画像をダウンロードし

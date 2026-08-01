@@ -278,7 +278,9 @@ async function main() {
         if (buf) {
           const dest = destBase + ".png";
           await fs.mkdir(path.dirname(dest), { recursive: true });
-          await fs.writeFile(dest, buf);
+          const tmp = `${dest}.${process.pid}.part`;
+          await fs.writeFile(tmp, buf);
+          await fs.rename(tmp, dest);
           setResult.downloaded++; results.downloaded++;
         } else {
           setResult.failed++; results.failed++;

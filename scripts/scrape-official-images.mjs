@@ -28,8 +28,12 @@ const API_BASE = "https://www.pokemon-card.com";
 const API_URL = `${API_BASE}/card-search/resultAPI.php`;
 const IMG_BASE = `${API_BASE}/assets/images/card_images/large`;
 
-const CONCURRENCY = 6;
-const DELAY_MS = 250;
+const CONCURRENCY = 3;
+const DELAY_MS = 400;
+const FETCH_TIMEOUT_MS = 15000;
+// 失敗ページがこの件数を超えたら、公式DBキャッシュを保存せず異常終了する
+// （不完全なキャッシュで「公式DBに無い」と誤判定するのを防ぐため）
+const MAX_FAILED_PAGES = 5;
 
 const args = process.argv.slice(2);
 const onlySet = args.includes("--set") ? args[args.indexOf("--set") + 1] : null;
@@ -44,11 +48,23 @@ const HEADERS = {
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+// 公式APIの cardNameViewText はHTMLエスケープ済みで返るためデコードする
+// (例: "グズマ&amp;ハラ" -> "グズマ&ハラ")
+function decodeHtmlEntities(s) {
+  if (!s) return s;
+  return s
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+}
+
 async function fetchPage(page) {
   const url = `${API_URL}?regulation_sidebar_form=all&page=${page}&sortBy=new`;
   for (let i = 0; i < 3; i++) {
     try {
-      const r = await fetch(url, { headers: HEADERS });
+      const r = await fetch(url, { headers: HEADERS, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       return r.json();
     } catch (e) {
@@ -62,7 +78,10 @@ async function downloadImage(cardThumbFile, destPath) {
   const url = `${API_BASE}${cardThumbFile}`;
   for (let i = 0; i < 3; i++) {
     try {
-      const r = await fetch(url, { headers: { "User-Agent": HEADERS["User-Agent"], "Referer": API_BASE + "/" } });
+      const r = await fetch(url, {
+        headers: { "User-Agent": HEADERS["User-Agent"], "Referer": API_BASE + "/" },
+        signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+      });
       if (r.status === 404) return null;
       if (r.ok) {
         const buf = Buffer.from(await r.arrayBuffer());
@@ -72,6 +91,14 @@ async function downloadImage(cardThumbFile, destPath) {
     await sleep(500 * (i + 1));
   }
   return null;
+}
+
+// 一時ファイルに書いてから rename することで、途中終了しても壊れた画像が本来の名前で残らないようにする
+async function writeFileAtomic(destPath, buf) {
+  await fs.mkdir(path.dirname(destPath), { recursive: true });
+  const tmp = `${destPath}.${process.pid}.part`;
+  await fs.writeFile(tmp, buf);
+  await fs.rename(tmp, destPath);
 }
 
 async function exists(p) {
@@ -96,7 +123,7 @@ async function fetchCardLocalNumber(cardId) {
   const url = `${API_BASE}/card-search/details.php/card/${cardId}`;
   for (let i = 0; i < 3; i++) {
     try {
-      const r = await fetch(url, { headers: { "User-Agent": HEADERS["User-Agent"] } });
+      const r = await fetch(url, { headers: { "User-Agent": HEADERS["User-Agent"] }, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       const html = await r.text();
       const m = html.match(/img-regulation"[^>]*\/>\s*&nbsp;(\d+)&nbsp;/);
@@ -126,7 +153,7 @@ async function buildOfficialCache() {
       const setCode = m[1];
       if (!setMap[setCode]) setMap[setCode] = [];
       setMap[setCode].push({
-        jaName: c.cardNameViewText,
+        jaName: decodeHtmlEntities(c.cardNameViewText),
         cardThumbFile: c.cardThumbFile,
       });
     }
@@ -134,16 +161,28 @@ async function buildOfficialCache() {
 
   addCards(first.cardList);
 
+  const failedPages = [];
   for (let page = 2; page <= maxPage; page++) {
     if (page % 50 === 0) process.stdout.write(`\r  ${page}/${maxPage} ページ完了`);
     const data = await fetchPage(page);
     if (data?.cardList) addCards(data.cardList);
+    else failedPages.push(page);
     await sleep(DELAY_MS);
   }
   process.stdout.write(`\r  ${maxPage}/${maxPage} ページ完了\n`);
 
+  if (failedPages.length > 0) {
+    console.warn(`\n警告: ${failedPages.length}ページの取得に失敗しました: [${failedPages.join(", ")}]`);
+  }
+  if (failedPages.length > MAX_FAILED_PAGES) {
+    throw new Error(
+      `失敗ページ数 (${failedPages.length}) が上限 (${MAX_FAILED_PAGES}) を超えたため、` +
+      `不完全なキャッシュを保存せず中断します。ネットワーク状況を確認し、--rescan で再試行してください。`
+    );
+  }
+
   console.log(`セットコード数: ${Object.keys(setMap).length}`);
-  await fs.writeFile(CACHE_PATH, JSON.stringify({ generatedAt: new Date().toISOString(), setMap }, null, 2), "utf-8");
+  await fs.writeFile(CACHE_PATH, JSON.stringify({ generatedAt: new Date().toISOString(), failedPages, setMap }, null, 2), "utf-8");
   return setMap;
 }
 
@@ -197,8 +236,11 @@ async function resolveAmbiguousNames(cacheByName, cardsInSet, detailCache, dirty
         let localNumber = detailCache[cardId];
         if (localNumber === undefined) {
           localNumber = await fetchCardLocalNumber(cardId);
-          detailCache[cardId] = localNumber;
-          dirtyFlag.value = true;
+          // 失敗(null)はキャッシュしない。一時的な通信エラーが恒久的な欠損に化けるのを防ぐ
+          if (localNumber) {
+            detailCache[cardId] = localNumber;
+            dirtyFlag.value = true;
+          }
           await sleep(DELAY_MS);
         }
         if (localNumber) localMap.set(parseInt(localNumber, 10), c.cardThumbFile);
@@ -256,8 +298,9 @@ async function main() {
 
     // 同名で複数印刷（AR/SAR等）がある名前は詳細ページでカード番号を突き合わせる
     const ambiguousMap = await resolveAmbiguousNames(cacheByName, setData.k, detailCache, dirtyFlag);
-    if (ambiguousMap.size > 0) {
+    if (dirtyFlag.value) {
       await fs.writeFile(DETAIL_CACHE_PATH, JSON.stringify(detailCache), "utf-8");
+      dirtyFlag.value = false;
     }
 
     const cards = setData.k;
@@ -275,7 +318,7 @@ async function main() {
 
         const dest = path.join(OUT_DIR, setData.sr, setCode, buildFileName(jaName, setCode, localId, rarity, setTotal) + ".jpg");
 
-        // .jpg が存在すればスキップ（.webpは英語プロキシなのでスキップしない）
+        // .jpg が存在すればスキップ
         if (await exists(dest)) { setResult.skipped++; results.skipped++; continue; }
 
         const resolved = ambiguousMap.get(jaName);
@@ -295,14 +338,14 @@ async function main() {
 
         const buf = await downloadImage(cardThumbFile, dest);
         if (buf) {
-          await fs.mkdir(path.dirname(dest), { recursive: true });
-          await fs.writeFile(dest, buf);
+          await writeFileAtomic(dest, buf);
           setResult.downloaded++;
           results.downloaded++;
         } else {
           setResult.failed++;
           results.failed++;
         }
+        await sleep(DELAY_MS);
       }
     });
     await Promise.all(workers);

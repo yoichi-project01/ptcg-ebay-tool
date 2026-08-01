@@ -20,7 +20,7 @@
 
 ---
 
-## 現在の状態（2026-07-13時点）
+## 現在の状態（2026-08-01時点）
 
 ### 出品作成機能（`src/App.jsx`）
 
@@ -60,6 +60,34 @@ jpg=7150, png=2181, webp=0
 
 **試したが不採用**: `scrape-old-images.mjs`（英語版TCGdex CDNから代替画像を取得）。日本語カードの出品に英語アートワークを使うのは実物と異なり不適切なため、ダウンロードした1446枚のwebpは削除済み。
 
+### 対応履歴（2026-08-01）: 外部レビュー指摘への対応
+
+出品事故につながりうる不具合を中心に、外部コードレビューの指摘に対応した。
+
+- **英語名の引き継ぎバグ（最重要）**: `applyCandidate`（`src/App.jsx`）が英語名未登録カードを選んだ際、
+  前に選んだカードの英語名を引き継いでいた（`en || p.pokemonEn`）。空のまま入力するよう修正し、
+  候補タイルへの「英語名なし」バッジ表示、生成欄への警告表示を追加。データ上、画像ありカードの
+  45.1%・Sシリーズの92%で英語名が欠損しているため頻発しうる不具合だった。
+- **履歴読み込みのクラッシュ対策**: `DEFAULT_FORM` を定数化し、`loadFromHistory` で
+  `{ ...DEFAULT_FORM, ...entry.f }` にマージすることで、フィールド追加前の古い履歴を読んでも
+  未定義プロパティで落ちないように修正。壊れた履歴エントリは `loadHistory` でフィルタ。
+  `ErrorBoundary` も追加し、想定外のエラーで画面全体が白くならないようにした。
+- **英語版アートワーク混入経路の遮断**: `build-image-index.mjs` の `.webp` 収集を削除、
+  `package.json` から `scrape`（`scrape-images.mjs`）を削除、`scrape-images.mjs` /
+  `scrape-old-images.mjs` は `scripts/deprecated/` に移動。
+- **スクレイパ堅牢性**: `scrape-official-images.mjs` の詳細キャッシュがnullを永久保存する不具合を修正、
+  画像書き込みをtemp+renameでアトミック化（`scrape-pcg-search.mjs` も同様）、
+  ページ取得失敗の記録と一定数超過時の中断、同時実行数/待機時間を `scrape-pcg-search.mjs` と同じ
+  `CONCURRENCY=3, DELAY_MS=400` に統一、全fetchに `AbortSignal.timeout` を付与、
+  HTMLエンティティのデコード処理を追加（S-Pの4件のTAG TEAMカード名混入を修正）。
+- **旧裏（オールドバック）対象の拡大**: `PMCG1-6` のみだった判定を `neo1-4` / `VS1` / `web1` にも拡大
+  （`OLD_BACK_SET_RE`）。1st Editionの判定は従来通り `PMCG1-6` のまま。
+- **検索の改善**: `normalize` にNFKC正規化（全角英数吸収）・中黒/空白の吸収を追加、
+  日本語名・英語名がどちらも無いカード（1,739件）を検索候補から除外。
+- **利益計算**: `eBay手数料率` のヒントに国際手数料・為替スプレッド込みの実効レート目安
+  （17〜19%）を追記。
+- **DP/DPt/BW/ADV/LEGEND/XY/SM世代のデータ補完は見送り**（詳細は下記セクション参照）。
+
 ### 未解決: 残り41枚
 
 - **SVB/SVD/SVF/SLD/SLL/SN（24枚）**: 主にBOX付属の基本エネルギーカード。公式DBに個別カードとして掲載されていない（名前を直しても解決しない、画像ソースが存在しない）
@@ -69,6 +97,24 @@ jpg=7150, png=2181, webp=0
 ### スキップセット（英語版 / 対象外）
 
 SC*, SV*s, SVDs, SDL, SDM, SDP, CSMPiC
+
+### 収録範囲の限界: DP・DPt・BW・ADV・LEGEND・XY・SM世代は非対応（2026-08-01調査）
+
+`SERIE_ORDER`（`src/App.jsx`）には `XY, BW, DP, DPt, L, ADV, XYb` のキーが定義されているが、
+実データ（`cardData.json`）には一切収録されていない。調査の結果、以下の理由で意図的に見送りとした:
+
+- **TCGdex側**: JPシリーズ一覧は `PMCG/neo/VS/web/e/ADV/PCG/L/XY/XYb/SM/S/SV/M` の14種のみ存在するが、
+  実際にカード個票データ（`/v2/ja/sets/{id}` の `cards` 配列）が入っているのは PMCG/neo/e/PCG/VS/web/M
+  （旧世代）と S/SV（現行）のみ。ADV/L/XY/XYb/SM/DP/DPt/BW は**セットの入れ物だけあってカード個票が
+  ほぼ空**（例外: CP1のみ34枚）。DP/DPt/BWはシリーズ自体がTCGdexに存在しない。
+- **公式サイト側**: `pokemon-card.com` の `resultAPI.php` は `cardID/cardThumbFile/cardNameViewText` の
+  4項目のみでカード番号を含まない。詳細ページ（`details.php`）も、この世代（例: DP1）は
+  カード番号を表示するUI要素自体が存在しない（新しいテンプレートにのみある機能）。
+  つまり**カード番号を検証する手段がどこにもない**。
+
+このため、この世代のカードは「日本語名は取れるが、カード番号・レアリティ・英語名は検証不能」という
+状態になり、出品事故防止の観点から追加を見送った。対応する場合は、掲載順を擬似カード番号として
+使わざるを得ないことを理解した上で作業すること。
 
 ---
 

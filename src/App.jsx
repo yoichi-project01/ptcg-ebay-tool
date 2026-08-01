@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, Component } from "react";
 import CARD_DATA from "./cardData.json";
 import IMAGE_INDEX from "./imageIndex.json";
 
@@ -23,6 +23,9 @@ const PRINT_VARIANTS = [
 ];
 // 1st Edition マークが存在する世代（拡張パック〜ジム拡張2）
 const PRINT_VARIANT_SET_RE = /^PMCG[1-6]$/i;
+// 旧裏面（オールドバック）対象セット。新裏に切り替わるのは e シリーズ以降のため
+// PMCG（拡張パック〜ジム拡張2）に加え neo1-4 / VS1 / web1 も対象
+const OLD_BACK_SET_RE = /^(PMCG[1-6]|neo[1-4]|VS1|web1)$/i;
 const GRADING_COMPANIES = ["", "PSA", "BGS", "CGC", "SGC"];
 const GRADE_LABELS = {
   "10": "GEM MINT", "9.5": "MINT", "9": "MINT", "8.5": "NM-MT", "8": "NM-MT",
@@ -35,36 +38,57 @@ function gradeLabelText(grade) {
 const HISTORY_KEY = "ptcg-ebay-tool:history";
 const HISTORY_LIMIT = 60;
 
+const DEFAULT_FORM = {
+  setNameJa: "", setNameEn: "", setCode: "", shipFrom: "Osaka, Japan", handlingDays: "1-2",
+  pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
+  printVariant: "", printVariantNote: "", oldBack: false,
+  graded: false, gradingCompany: "", grade: "", certNumber: "",
+  costJpy: "", extraCostJpy: "", exchangeRate: "155", sellPriceUsd: "", ebayFeePercent: "13.25", ebayFixedFeeUsd: "0.40", shippingCostUsd: "",
+  productType: "pack", cardsPerPack: "", packsPerBox: "30", shrink: true,
+};
+
 const holoGrad =
   "linear-gradient(120deg,#7de2ff 0%,#a78bfa 30%,#f9a8d4 55%,#fde68a 80%,#7de2ff 100%)";
 
 // ---------- 検索 ----------
-function normalize(s) {
-  return s
+// NFKC\u6b63\u898f\u5316\uff08\u5168\u89d2\u82f1\u6570\u30fb\u5168\u89d2\u8a18\u53f7\u3092\u534a\u89d2\u3078\uff09\u3001\u3072\u3089\u304c\u306a\u2192\u30ab\u30bf\u30ab\u30ca\u3001\u5c0f\u6587\u5b57\u5316\u306e\u307f\u3092\u884c\u3046\u3002
+// \u7a7a\u767d\u30fb\u4e2d\u9ed2\u306e\u9664\u53bb\u306f\u30c8\u30fc\u30af\u30f3\u5206\u5272\u3092\u58ca\u3059\u305f\u3081\u3001\u5206\u5272\u5f8c\u306b stripSeparators \u3067\u5225\u9014\u9069\u7528\u3059\u308b
+function normalizeBase(s) {
+  return (s || "")
+    .normalize("NFKC")
     .replace(/[\u3041-\u3096]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60))
     .toLowerCase()
     .trim();
+}
+function stripSeparators(s) {
+  return s.replace(/[\u30fb\uff65\s]/g, "");
+}
+function normalize(s) {
+  return stripSeparators(normalizeBase(s));
 }
 function pad3(n) {
   return String(n).padStart(3, "0");
 }
 // カード名の正規化結果を読み込み時に一度だけキャッシュし、検索のたびに再計算しないようにする
+// 日本語名・英語名がどちらも無いカードは名前検索にヒットさせようがないため除外する
 const SEARCH_INDEX = CARD_DATA.map((s) => ({
   set: s,
   setKey: normalize(s.ja + " " + s.en + " " + s.c),
-  cards: s.k.map((k) => {
-    const [, ja, en, rarity] = k;
-    return {
-      k,
-      nameKey: normalize(ja + " " + en),
-      jaKey: normalize(ja),
-      enKey: normalize(en),
-      rarityKey: rarity ? normalize(rarity) : "",
-    };
-  }),
+  cards: s.k
+    .filter((k) => k[1] || k[2])
+    .map((k) => {
+      const [, ja, en, rarity] = k;
+      return {
+        k,
+        nameKey: normalize(ja + " " + en),
+        jaKey: normalize(ja),
+        enKey: normalize(en),
+        rarityKey: rarity ? normalize(rarity) : "",
+      };
+    }),
 }));
 function searchCards(query) {
-  const tokens = normalize(query).split(/\s+/).filter(Boolean);
+  const tokens = normalizeBase(query).split(/\s+/).filter(Boolean).map(stripSeparators);
   if (tokens.length === 0) return [];
   const results = [];
   for (const { set: s, setKey, cards } of SEARCH_INDEX) {
@@ -105,9 +129,9 @@ function localImage(setObj, local) {
 }
 
 // ---------- タイトル ----------
-function buildSingleTitle(f) {
+export function buildSingleTitle(f) {
   const printVariant = PRINT_VARIANT_SET_RE.test(f.setCode) ? f.printVariant : "";
-  const oldBack = PRINT_VARIANT_SET_RE.test(f.setCode) && f.oldBack ? "Old Back" : "";
+  const oldBack = OLD_BACK_SET_RE.test(f.setCode) && f.oldBack ? "Old Back" : "";
   const isGraded = f.graded && f.gradingCompany && f.grade.trim();
   const conditionToken = isGraded
     ? [f.gradingCompany, f.grade.trim(), gradeLabelText(f.grade)].filter(Boolean).join(" ")
@@ -138,7 +162,7 @@ function buildEbaySearchUrl(query, { sold = false } = {}) {
 }
 
 // ---------- 利益計算 ----------
-function calcProfit(f) {
+export function calcProfit(f) {
   const rate = parseFloat(f.exchangeRate);
   const sellPriceUsd = parseFloat(f.sellPriceUsd);
   if (!rate || rate <= 0 || !sellPriceUsd || sellPriceUsd <= 0) return null;
@@ -160,7 +184,8 @@ function loadHistory() {
   try {
     const raw = localStorage.getItem(HISTORY_KEY);
     const list = raw ? JSON.parse(raw) : [];
-    return Array.isArray(list) ? list : [];
+    if (!Array.isArray(list)) return [];
+    return list.filter((e) => e && typeof e === "object" && e.f && e.id);
   } catch {
     return [];
   }
@@ -182,7 +207,7 @@ function buildSingleDesc(f) {
   const inScope = PRINT_VARIANT_SET_RE.test(f.setCode);
   const printVariant = inScope ? f.printVariant : "";
   const printNote = inScope ? f.printVariantNote.trim() : "";
-  const oldBack = inScope && f.oldBack;
+  const oldBack = OLD_BACK_SET_RE.test(f.setCode) && f.oldBack;
   const isGraded = f.graded && f.gradingCompany && f.grade.trim();
   const label = isGraded ? gradeLabelText(f.grade) : "";
   const certNumber = isGraded ? f.certNumber.trim() : "";
@@ -312,22 +337,56 @@ function CardImage({ src, name }) {
   );
 }
 
+// ---------- エラーバウンダリ ----------
+// 履歴に古いスキーマのデータが残っていた場合など、想定外のエラーで
+// 画面全体が真っ白になるのを防ぎ、リセット手段を提示する
+class ErrorBoundary extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { error: null };
+  }
+  static getDerivedStateFromError(error) {
+    return { error };
+  }
+  render() {
+    if (this.state.error) {
+      return (
+        <div style={{ minHeight: "100vh", background: "#f2f4f9", display: "flex", alignItems: "center", justifyContent: "center", padding: 20 }}>
+          <div style={{ maxWidth: 480, background: "#fff", borderRadius: 16, padding: "24px 26px", boxShadow: "0 1px 4px rgba(26,34,56,.06)" }}>
+            <h2 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 800, color: "#a3352b" }}>予期しないエラーが発生しました</h2>
+            <p style={{ fontSize: 13, color: "#5b6478", lineHeight: 1.7 }}>
+              保存済みの出品履歴に古い形式のデータが含まれている可能性があります。ページを再読み込みしてください。
+            </p>
+            <pre style={{ fontSize: 11, color: "#8b93a7", whiteSpace: "pre-wrap", wordBreak: "break-word" }}>{String(this.state.error?.message || this.state.error)}</pre>
+            <button onClick={() => location.reload()} style={{
+              marginTop: 8, padding: "8px 16px", borderRadius: 999, border: "none", cursor: "pointer",
+              fontSize: 13, fontWeight: 700, color: "#fff", background: "#1a2238",
+            }}>再読み込み</button>
+          </div>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 // ---------- メイン ----------
 export default function App() {
+  return (
+    <ErrorBoundary>
+      <AppInner />
+    </ErrorBoundary>
+  );
+}
+
+function AppInner() {
   const [mode, setMode] = useState("single");
   const [searchQuery, setSearchQuery] = useState("");
   const [showCandidates, setShowCandidates] = useState(true);
   const [selectedKey, setSelectedKey] = useState("");
   const imageCount = Object.keys(IMAGE_INDEX).length;
 
-  const [f, setF] = useState({
-    setNameJa: "", setNameEn: "", setCode: "", shipFrom: "Osaka, Japan", handlingDays: "1-2",
-    pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
-    printVariant: "", printVariantNote: "", oldBack: false,
-    graded: false, gradingCompany: "", grade: "", certNumber: "",
-    costJpy: "", extraCostJpy: "", exchangeRate: "155", sellPriceUsd: "", ebayFeePercent: "13.25", ebayFixedFeeUsd: "0.40", shippingCostUsd: "",
-    productType: "pack", cardsPerPack: "", packsPerBox: "30", shrink: true,
-  });
+  const [f, setF] = useState(DEFAULT_FORM);
   const set = (k) => (e) =>
     setF((p) => ({ ...p, [k]: e.target.type === "checkbox" ? e.target.checked : e.target.value }));
 
@@ -340,6 +399,7 @@ export default function App() {
   const title = useMemo(() => (mode === "single" ? buildSingleTitle(f) : buildPackTitle(f)), [mode, f]);
   const desc = useMemo(() => (mode === "single" ? buildSingleDesc(f) : buildPackDesc(f)), [mode, f]);
   const over = title.length > 80;
+  const missingEn = mode === "single" && (!f.pokemonEn.trim() || !f.setNameEn.trim());
   const ebayQuery = useMemo(() => buildEbaySearchQuery(f, mode), [f, mode]);
   const ebaySoldUrl = useMemo(() => buildEbaySearchUrl(ebayQuery, { sold: true }), [ebayQuery]);
   const ebayActiveUrl = useMemo(() => buildEbaySearchUrl(ebayQuery), [ebayQuery]);
@@ -358,11 +418,11 @@ export default function App() {
     });
   };
   const loadFromHistory = (entry) => {
-    setMode(entry.mode);
-    setF(entry.f);
-    const local = entry.f.cardNo ? entry.f.cardNo.split("/")[0] : "";
+    setMode(entry.mode === "pack" ? "pack" : "single");
+    setF({ ...DEFAULT_FORM, ...(entry.f || {}) });
+    const local = entry.f?.cardNo ? entry.f.cardNo.split("/")[0] : "";
     const n = parseInt(local, 10);
-    setSelectedKey(entry.f.setCode && !isNaN(n) ? `${entry.f.setCode}/${n}` : "");
+    setSelectedKey(entry.f?.setCode && !isNaN(n) ? `${entry.f.setCode}/${n}` : "");
   };
   const deleteHistoryEntry = (id) => {
     setHistory((prev) => {
@@ -377,10 +437,10 @@ export default function App() {
     setSelectedKey(r.set.c + "/" + local);
     setF((p) => ({
       ...p,
-      pokemonJa: ja, pokemonEn: en || p.pokemonEn,
+      pokemonJa: ja, pokemonEn: en || "",
       rarity: RARITIES.includes(rarity) ? rarity : "",
       cardNo: cardNoOf(r.set, local), setCode: r.set.c,
-      setNameJa: r.set.ja, setNameEn: r.set.en || p.setNameEn,
+      setNameJa: r.set.ja, setNameEn: r.set.en || "",
     }));
     setShowCandidates(false);
   };
@@ -447,6 +507,11 @@ export default function App() {
                         {[rarity, cardNoOf(r.set, local)].filter(Boolean).join(" · ") || "レアリティ未登録"}<br />
                         {r.set.ja || r.set.en} ({r.set.c})
                       </div>
+                      {(!en || !r.set.en) && (
+                        <div style={{ marginTop: 6, display: "inline-block", fontSize: 10, fontWeight: 800, color: "#a3352b", background: "#fdecea", borderRadius: 999, padding: "2px 8px" }}>
+                          {!en && !r.set.en ? "英語名・セット英語名なし" : !en ? "英語名なし" : "セット英語名なし"}
+                        </div>
+                      )}
                       <div style={{ marginTop: 8, fontSize: 11, fontWeight: 800, color: sel ? "#5b48d6" : "#7c6cf0" }}>
                         {sel ? "✓ 入力済み" : "このカードを使う →"}
                       </div>
@@ -517,13 +582,15 @@ export default function App() {
                         {PRINT_VARIANTS.map((v) => <option key={v.code} value={v.code}>{v.label}</option>)}
                       </select>
                     </Field>
-                    <label style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
-                      <input type="checkbox" checked={f.oldBack} onChange={set("oldBack")} />旧裏（オールドバック）
-                    </label>
                     <Field label="その他の印刷差異（英語・任意）" hint="例: Miscut / Error card">
                       <input style={inputStyle} value={f.printVariantNote} onChange={set("printVariantNote")} placeholder="エラーカードなど" />
                     </Field>
                   </>
+                )}
+                {OLD_BACK_SET_RE.test(f.setCode) && (
+                  <label style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
+                    <input type="checkbox" checked={f.oldBack} onChange={set("oldBack")} />旧裏（オールドバック）
+                  </label>
                 )}
               </>
             ) : (
@@ -561,7 +628,7 @@ export default function App() {
               </div>
               <div style={{ display: "flex", gap: 10 }}>
                 <div style={{ flex: 1 }}><Field label="為替レート（円/USD）"><input style={inputStyle} inputMode="decimal" value={f.exchangeRate} onChange={set("exchangeRate")} /></Field></div>
-                <div style={{ flex: 1 }}><Field label="eBay手数料率（%）" hint="目安の値です"><input style={inputStyle} inputMode="decimal" value={f.ebayFeePercent} onChange={set("ebayFeePercent")} /></Field></div>
+                <div style={{ flex: 1 }}><Field label="eBay手数料率（%）" hint="国際取引手数料・通貨換算手数料込みの実効レートで（目安 17〜19%）"><input style={inputStyle} inputMode="decimal" value={f.ebayFeePercent} onChange={set("ebayFeePercent")} /></Field></div>
               </div>
               <div style={{ display: "flex", gap: 10 }}>
                 <div style={{ flex: 1 }}><Field label="eBay固定手数料（USD）" hint="出品1件あたりの定額手数料"><input style={inputStyle} inputMode="decimal" value={f.ebayFixedFeeUsd} onChange={set("ebayFixedFeeUsd")} /></Field></div>
@@ -594,6 +661,11 @@ export default function App() {
                   {title || "入力するとここにタイトルが表示されます"}
                 </div>
                 {over && <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>eBayのタイトル上限は80文字です。セット名や状態表記を短くしてください。</div>}
+                {missingEn && (
+                  <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>
+                    ⚠ {!f.pokemonEn.trim() && !f.setNameEn.trim() ? "英語名・セット英語名" : !f.pokemonEn.trim() ? "英語名" : "セット英語名"}がデータに未登録です。前に選んだカードの英語名が残っていないか確認し、手入力してからコピーしてください。
+                  </div>
+                )}
                 <div style={{ marginTop: 12, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
                   <CopyBtn text={title} label="タイトルをコピー" />
                   {ebaySoldUrl && (

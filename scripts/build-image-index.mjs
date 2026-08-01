@@ -5,7 +5,7 @@
  * （存在しないURLを叩いて失敗する、という無駄がなくなります）。
  *
  * 使い方: node scripts/build-image-index.mjs
- * ※ scrape-images.mjs を実行したあとに走らせてください。
+ * ※ npm run images（scrape-all.mjs）を実行したあとに走らせてください。
  */
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -28,7 +28,8 @@ async function walk(dir) {
   for (const e of entries) {
     const p = path.join(dir, e.name);
     if (e.isDirectory()) out.push(...(await walk(p)));
-    else if (e.name.endsWith(".webp") || e.name.endsWith(".jpg") || e.name.endsWith(".png")) out.push(p);
+    // .webp（TCGdex英語版）は除外。日本語カードの出品に英語アートワークを使わないため（CLAUDE.md参照）
+    else if (e.name.endsWith(".jpg") || e.name.endsWith(".png")) out.push(p);
   }
   return out;
 }
@@ -36,27 +37,30 @@ async function walk(dir) {
 async function main() {
   const files = await walk(CARDS_DIR);
   // キー "SET/local" -> 相対パス
-  // .jpg（公式サイト）と .webp（TCGdex）が両方ある場合は .jpg を優先
   const index = {};
   for (const f of files) {
+    // .part（ダウンロード中の一時ファイル）や極小ファイル（壊れたダウンロード）は無視
+    if (f.endsWith(".part")) continue;
+    const stat = await fs.stat(f);
+    if (stat.size < 500) continue;
+
     const rel = path.relative(path.join(ROOT, "public"), f).split(path.sep).join("/");
     const parts = rel.split("/"); // cards, SERIE, SET, local.ext
     const set = parts[2];
-    const ext = f.endsWith(".jpg") ? ".jpg" : f.endsWith(".png") ? ".png" : ".webp";
-    const stem = parts[3].replace(/\.(webp|jpg|png)$/, "");
+    const ext = f.endsWith(".jpg") ? ".jpg" : ".png";
+    const stem = parts[3].replace(/\.(jpg|png)$/, "");
     const local = extractLocalId(stem, set);
     const n = parseInt(local, 10);
     const key = `${set}/${isNaN(n) ? local : n}`;
-    // 優先度: .jpg（公式日本語）> .png（pcg-search日本語）> .webp（TCGdex英語）
-    if (!index[key] || ext === ".jpg" || (ext === ".png" && !index[key].endsWith(".jpg"))) {
+    // 優先度: .jpg（公式日本語）> .png（pcg-search日本語）
+    if (!index[key] || ext === ".jpg") {
       index[key] = rel;
     }
   }
   await fs.writeFile(OUT, JSON.stringify(index), "utf-8");
-  const jpgCount  = Object.values(index).filter(v => v.endsWith(".jpg")).length;
-  const pngCount  = Object.values(index).filter(v => v.endsWith(".png")).length;
-  const webpCount = Object.values(index).filter(v => v.endsWith(".webp")).length;
-  console.log(`画像インデックス生成: ${Object.keys(index).length} 件 (jpg=${jpgCount}, png=${pngCount}, webp=${webpCount}) -> src/imageIndex.json`);
+  const jpgCount = Object.values(index).filter(v => v.endsWith(".jpg")).length;
+  const pngCount = Object.values(index).filter(v => v.endsWith(".png")).length;
+  console.log(`画像インデックス生成: ${Object.keys(index).length} 件 (jpg=${jpgCount}, png=${pngCount}) -> src/imageIndex.json`);
 }
 
 main().catch((e) => {
