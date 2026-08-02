@@ -1,4 +1,4 @@
-import { useState, useMemo, Component } from "react";
+import { useState, useMemo, useEffect, Component } from "react";
 import CARD_DATA from "./cardData.json";
 import IMAGE_INDEX from "./imageIndex.json";
 
@@ -45,6 +45,18 @@ const DEFAULT_FORM = {
   graded: false, gradingCompany: "", grade: "", certNumber: "",
   costJpy: "", extraCostJpy: "", exchangeRate: "155", sellPriceUsd: "", ebayFeePercent: "13.25", ebayFixedFeeUsd: "0.40", shippingCostUsd: "",
   productType: "pack", cardsPerPack: "", packsPerBox: "30", shrink: true,
+};
+
+// 出品ごとに必ず変わる（=カードを切り替えたらリセットすべき）フィールド。
+// shipFrom / handlingDays / exchangeRate / ebayFeePercent / ebayFixedFeeUsd は
+// 毎回だいたい同じ値を使うので引き継ぐ（PER_LISTING_FIELDSに含めない）
+const PER_LISTING_FIELDS = {
+  pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "",
+  setNameJa: "", setNameEn: "", setCode: "",
+  condition: "NM", conditionNotes: "",
+  printVariant: "", printVariantNote: "", oldBack: false,
+  graded: false, gradingCompany: "", grade: "", certNumber: "",
+  costJpy: "", extraCostJpy: "", sellPriceUsd: "",
 };
 
 const holoGrad =
@@ -126,16 +138,33 @@ function cardNoOf(setObj, local) {
 }
 // 候補カード選択時のフォーム更新ロジック（純関数化してテストしやすくする）。
 // 英語名・セット英語名が未登録の場合は必ず空文字にする — 前カードの値を引き継ぐと
-// 「タイトルは合っているように見えるが実は別カードの英語名」という事故になるため
-export function applyCandidateToForm(prev, r) {
+// 「タイトルは合っているように見えるが実は別カードの英語名」という事故になるため。
+// 状態・鑑定情報・仕入れ値等（PER_LISTING_FIELDS）も同じ理由で既定ではリセットする。
+// carryOverCondition を true にすると、同じカードの状態違いを連続出品する場合などに
+// 状態・鑑定情報・価格を明示的に引き継げる（既定はオフ = 安全側）
+export function applyCandidateToForm(prev, r, { carryOverCondition = false } = {}) {
   const [local, ja, en, rarity] = r.card;
+  const base = carryOverCondition ? prev : { ...prev, ...PER_LISTING_FIELDS };
   return {
-    ...prev,
+    ...base,
     pokemonJa: ja, pokemonEn: en || "",
     rarity: RARITIES.includes(rarity) ? rarity : "",
     cardNo: cardNoOf(r.set, local), setCode: r.set.c,
     setNameJa: r.set.ja, setNameEn: r.set.en || "",
   };
+}
+// selectedKey ("setCode/local") からDB上のカード情報を引く。
+// 候補選択後にレアリティを手で書き換えていないか確認するために使う
+function findDbCard(selectedKey) {
+  if (!selectedKey) return null;
+  const idx = selectedKey.lastIndexOf("/");
+  if (idx < 0) return null;
+  const setCode = selectedKey.slice(0, idx);
+  const local = selectedKey.slice(idx + 1);
+  const set = CARD_DATA.find((s) => s.c === setCode);
+  if (!set) return null;
+  const card = set.k.find((k) => k[0] === local);
+  return card ? { set, card } : null;
 }
 // ローカルにスクレイピング済み画像があればそのパスを返す
 function localImage(setObj, local) {
@@ -406,6 +435,7 @@ function AppInner() {
   const [searchQuery, setSearchQuery] = useState("");
   const [showCandidates, setShowCandidates] = useState(true);
   const [selectedKey, setSelectedKey] = useState("");
+  const [carryOverCondition, setCarryOverCondition] = useState(false);
   const imageCount = Object.keys(IMAGE_INDEX).length;
 
   const [f, setF] = useState(DEFAULT_FORM);
@@ -413,13 +443,26 @@ function AppInner() {
     setF((p) => ({ ...p, [k]: e.target.type === "checkbox" ? e.target.checked : e.target.value }));
 
   const [history, setHistory] = useState(() => loadHistory());
+  const [historyFilter, setHistoryFilter] = useState("");
+  const [historySaved, setHistorySaved] = useState(false);
+
+  const [profitOpen, setProfitOpen] = useState(() => {
+    try { return localStorage.getItem("ptcg-ebay-tool:profitOpen") !== "0"; } catch { return true; }
+  });
+  useEffect(() => {
+    try { localStorage.setItem("ptcg-ebay-tool:profitOpen", profitOpen ? "1" : "0"); } catch {}
+  }, [profitOpen]);
 
   const candidates = useMemo(
     () => (searchQuery.trim().length >= 2 ? searchCards(searchQuery) : []),
     [searchQuery]
   );
   const title = useMemo(() => (mode === "single" ? buildSingleTitle(f) : buildPackTitle(f)), [mode, f]);
-  const desc = useMemo(() => (mode === "single" ? buildSingleDesc(f) : buildPackDesc(f)), [mode, f]);
+  const generatedDesc = useMemo(() => (mode === "single" ? buildSingleDesc(f) : buildPackDesc(f)), [mode, f]);
+  // 説明文の手動編集（textarea）。フォーム内容が変わったら再生成された説明文に戻す
+  const [descOverride, setDescOverride] = useState(null);
+  useEffect(() => { setDescOverride(null); }, [mode, f]);
+  const desc = descOverride ?? generatedDesc;
   const over = title.length > 80;
   // セット英語名は buildPackTitle でも使われるため両モード共通、ポケモン名はシングル限定
   const missingSetEn = !f.setNameEn.trim();
@@ -430,7 +473,22 @@ function AppInner() {
   const ebayActiveUrl = useMemo(() => buildEbaySearchUrl(ebayQuery), [ebayQuery]);
   const profit = useMemo(() => calcProfit(f), [f]);
 
+  // 候補選択後にレアリティ/カード番号を手で書き換えていないか確認する
+  const dbCard = useMemo(() => findDbCard(selectedKey), [selectedKey]);
+  const rarityMismatch = mode === "single" && dbCard?.card[3] && f.rarity && f.rarity !== dbCard.card[3]
+    ? dbCard.card[3] : null;
+  const cardNoWarning = useMemo(() => {
+    const m = mode === "single" && f.cardNo.match(/^(\d+)\/(\d+)$/);
+    if (!m) return null;
+    const [, n, tot] = m;
+    return parseInt(n, 10) > parseInt(tot, 10) ? `カード番号(${n})がセット総数(${tot})を超えています` : null;
+  }, [mode, f.cardNo]);
+
   const saveCurrentToHistory = () => {
+    // 直前のエントリと内容が同じなら重複保存しない
+    if (history[0] && history[0].mode === mode && history[0].title === title && history[0].desc === desc) {
+      return;
+    }
     const entry = {
       id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
       savedAt: new Date().toISOString(),
@@ -442,6 +500,17 @@ function AppInner() {
       return next;
     });
   };
+  const handleSaveClick = () => {
+    saveCurrentToHistory();
+    setHistorySaved(true);
+    setTimeout(() => setHistorySaved(false), 1600);
+  };
+  const filteredHistory = useMemo(() => {
+    const q = historyFilter.trim();
+    if (!q) return history;
+    const nq = normalize(q);
+    return history.filter((e) => normalize(`${e.f.pokemonJa} ${e.f.pokemonEn} ${e.f.setNameJa} ${e.f.setNameEn}`).includes(nq));
+  }, [history, historyFilter]);
   const loadFromHistory = (entry) => {
     setMode(entry.mode === "pack" ? "pack" : "single");
     setF({ ...DEFAULT_FORM, ...(entry.f || {}) });
@@ -460,8 +529,13 @@ function AppInner() {
   const applyCandidate = (r) => {
     const [local] = r.card;
     setSelectedKey(r.set.c + "/" + local);
-    setF((p) => applyCandidateToForm(p, r));
+    setF((p) => applyCandidateToForm(p, r, { carryOverCondition }));
     setShowCandidates(false);
+  };
+  // 検索を使わない手入力派向け：出品固有フィールドだけを空に戻す
+  const startNewListing = () => {
+    setF((p) => ({ ...p, ...PER_LISTING_FIELDS }));
+    setSelectedKey("");
   };
 
   return (
@@ -470,6 +544,9 @@ function AppInner() {
       fontFamily: '"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic Medium",Meiryo,sans-serif',
       color: "#1a2238", padding: "28px 16px 60px",
     }}>
+      {/* 画面幅が狭い（＝入力フォームの下にタイトルカードが縦積みになる）ときだけ
+          タイトルカードを画面上部に固定し、入力しながら確認できるようにする */}
+      <style>{`@media (max-width: 700px) { .sticky-title { position: sticky; top: 8px; z-index: 10; } }`}</style>
       <div style={{ maxWidth: 1060, margin: "0 auto" }}>
         <header style={{ marginBottom: 22 }}>
           <div style={{ display: "inline-block", fontSize: 11, fontWeight: 800, letterSpacing: "0.14em", color: "#5b6478", marginBottom: 6 }}>
@@ -484,14 +561,20 @@ function AppInner() {
           </p>
         </header>
 
-        <div style={{ display: "inline-flex", background: "#e4e8f2", borderRadius: 999, padding: 4, marginBottom: 20 }}>
-          {[{ k: "single", label: "シングルカード" }, { k: "pack", label: "未開封パック / BOX" }].map((t) => (
-            <button key={t.k} onClick={() => setMode(t.k)} style={{
-              padding: "8px 20px", borderRadius: 999, border: "none", cursor: "pointer",
-              fontSize: 13, fontWeight: 700, color: mode === t.k ? "#fff" : "#3b4256",
-              background: mode === t.k ? "#1a2238" : "transparent", transition: "all .2s",
-            }}>{t.label}</button>
-          ))}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 12, alignItems: "center", marginBottom: 20 }}>
+          <div style={{ display: "inline-flex", background: "#e4e8f2", borderRadius: 999, padding: 4 }}>
+            {[{ k: "single", label: "シングルカード" }, { k: "pack", label: "未開封パック / BOX" }].map((t) => (
+              <button key={t.k} onClick={() => setMode(t.k)} style={{
+                padding: "8px 20px", borderRadius: 999, border: "none", cursor: "pointer",
+                fontSize: 13, fontWeight: 700, color: mode === t.k ? "#fff" : "#3b4256",
+                background: mode === t.k ? "#1a2238" : "transparent", transition: "all .2s",
+              }}>{t.label}</button>
+            ))}
+          </div>
+          <button onClick={startNewListing} title="ポケモン名・レアリティ・状態・鑑定情報・価格をクリアします（発送元や為替レートなどの共通設定は残ります）" style={{
+            padding: "8px 16px", borderRadius: 999, border: "1.5px solid #d9deea", cursor: "pointer",
+            fontSize: 13, fontWeight: 700, color: "#3b4256", background: "#fff",
+          }}>新しい出品を始める</button>
         </div>
 
         {mode === "single" && (
@@ -502,11 +585,26 @@ function AppInner() {
             </p>
             <input style={{ ...inputStyle, fontSize: 15, padding: "12px 14px" }} value={searchQuery}
               onChange={(e) => { setSearchQuery(e.target.value); setShowCandidates(true); }}
+              onFocus={() => setShowCandidates(true)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && candidates.length === 1) applyCandidate(candidates[0]);
+                if (e.key === "Escape") setShowCandidates(false);
+              }}
               placeholder="例: リザードンex / ナゾノクサ / ピカチュウ SAR" />
+            <label style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 10, fontSize: 12, fontWeight: 700, color: "#5b6478" }}>
+              <input type="checkbox" checked={carryOverCondition} onChange={(e) => setCarryOverCondition(e.target.checked)} />
+              前回の状態・鑑定情報・価格を引き継ぐ（同じカードの状態違いを連続出品する場合のみON推奨）
+            </label>
             {searchQuery.trim().length >= 2 && candidates.length === 0 && (
               <div style={{ fontSize: 12.5, color: "#c0392b", marginTop: 12 }}>
                 候補が見つかりませんでした。表記を変えるか、下のフォームに手動で入力してください。
               </div>
+            )}
+            {!showCandidates && candidates.length > 0 && (
+              <button onClick={() => setShowCandidates(true)} style={{
+                marginTop: 12, padding: "6px 4px", border: "none", background: "none", cursor: "pointer",
+                fontSize: 12.5, fontWeight: 800, color: "#7c6cf0",
+              }}>候補 {candidates.length} 件を再表示</button>
             )}
             {showCandidates && candidates.length > 0 && (
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))", gap: 12, marginTop: 16, maxHeight: 560, overflowY: "auto" }}>
@@ -552,8 +650,16 @@ function AppInner() {
                   <div style={{ flex: 1 }}><Field label="ポケモン名（英語）"><input style={inputStyle} value={f.pokemonEn} onChange={set("pokemonEn")} placeholder="例: Charizard ex" /></Field></div>
                 </div>
                 <div style={{ display: "flex", gap: 10 }}>
-                  <div style={{ flex: 1 }}><Field label="レアリティ"><select style={inputStyle} value={f.rarity} onChange={set("rarity")}>{RARITIES.map((r) => <option key={r} value={r}>{r || "選択してください"}</option>)}</select></Field></div>
-                  <div style={{ flex: 1 }}><Field label="カード番号" hint="例: 201/165"><input style={inputStyle} value={f.cardNo} onChange={set("cardNo")} placeholder="201/165" /></Field></div>
+                  <div style={{ flex: 1 }}>
+                    <Field label="レアリティ" hint={rarityMismatch ? `⚠ DB上のレアリティは ${rarityMismatch} です` : undefined}>
+                      <select style={inputStyle} value={f.rarity} onChange={set("rarity")}>{RARITIES.map((r) => <option key={r} value={r}>{r || "選択してください"}</option>)}</select>
+                    </Field>
+                  </div>
+                  <div style={{ flex: 1 }}>
+                    <Field label="カード番号" hint={cardNoWarning ? `⚠ ${cardNoWarning}` : "例: 201/165"}>
+                      <input style={inputStyle} value={f.cardNo} onChange={set("cardNo")} placeholder="201/165" />
+                    </Field>
+                  </div>
                 </div>
               </>
             )}
@@ -632,17 +738,26 @@ function AppInner() {
               <div style={{ flex: 1 }}><Field label="発送までの営業日"><input style={inputStyle} value={f.handlingDays} onChange={set("handlingDays")} /></Field></div>
             </div>
 
-            <div style={{ marginTop: 8, paddingTop: 16, borderTop: "1.5px solid #eef0f7" }}>
-              <h3 style={{ margin: "0 0 4px", fontSize: 13.5, fontWeight: 800 }}>利益計算（任意）</h3>
-              <p style={{ margin: "0 0 12px", fontSize: 11.5, color: "#8b93a7" }}>
-                上の「eBayで相場を見る」で確認した金額を想定売値に入れると、手数料・仕入れ値を差し引いた利益が分かります。
+            <details open={profitOpen} onToggle={(e) => setProfitOpen(e.target.open)} style={{ marginTop: 8, paddingTop: 16, borderTop: "1.5px solid #eef0f7" }}>
+              <summary style={{ margin: "0 0 4px", fontSize: 13.5, fontWeight: 800, cursor: "pointer" }}>利益計算（任意）</summary>
+              <p style={{ margin: "8px 0 12px", fontSize: 11.5, color: "#8b93a7" }}>
+                上の「eBayで相場を見る」（または下の相場リンク）で確認した金額を想定売値に入れると、手数料・仕入れ値を差し引いた利益が分かります。
               </p>
               <div style={{ display: "flex", gap: 10 }}>
                 <div style={{ flex: 1 }}><Field label="仕入れ値（円）"><input style={inputStyle} inputMode="decimal" value={f.costJpy} onChange={set("costJpy")} placeholder="例: 3000" /></Field></div>
                 <div style={{ flex: 1 }}><Field label="諸経費（円・任意）" hint="送料・スリーブ等"><input style={inputStyle} inputMode="decimal" value={f.extraCostJpy} onChange={set("extraCostJpy")} placeholder="例: 200" /></Field></div>
               </div>
               <div style={{ display: "flex", gap: 10 }}>
-                <div style={{ flex: 1 }}><Field label="想定売値（USD）"><input style={inputStyle} inputMode="decimal" value={f.sellPriceUsd} onChange={set("sellPriceUsd")} placeholder="例: 45" /></Field></div>
+                <div style={{ flex: 1 }}>
+                  <Field label="想定売値（USD）">
+                    <input style={inputStyle} inputMode="decimal" value={f.sellPriceUsd} onChange={set("sellPriceUsd")} placeholder="例: 45" />
+                  </Field>
+                  {ebaySoldUrl && (
+                    <a href={ebaySoldUrl} target="_blank" rel="noopener noreferrer" style={{ display: "block", marginTop: -10, marginBottom: 14, fontSize: 11, color: "#7c6cf0", fontWeight: 700 }}>
+                      eBayで相場を見る（売却済み）→
+                    </a>
+                  )}
+                </div>
                 <div style={{ flex: 1 }}><Field label="発送実費（USD・任意）"><input style={inputStyle} inputMode="decimal" value={f.shippingCostUsd} onChange={set("shippingCostUsd")} placeholder="例: 5" /></Field></div>
               </div>
               <div style={{ display: "flex", gap: 10 }}>
@@ -666,11 +781,11 @@ function AppInner() {
                   </div>
                 </div>
               )}
-            </div>
+            </details>
           </section>
 
           <section style={{ flex: "1 1 420px", minWidth: 320 }}>
-            <div style={{ borderRadius: 18, padding: 3, background: holoGrad, boxShadow: "0 4px 18px rgba(120,110,220,.18)", marginBottom: 18 }}>
+            <div className="sticky-title" style={{ borderRadius: 18, padding: 3, background: holoGrad, boxShadow: "0 4px 18px rgba(120,110,220,.18)", marginBottom: 18 }}>
               <div style={{ background: "#fff", borderRadius: 15, padding: "20px 22px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
                   <h2 style={{ margin: 0, fontSize: 15, fontWeight: 800 }}>タイトル</h2>
@@ -679,7 +794,12 @@ function AppInner() {
                 <div style={{ fontSize: 15, lineHeight: 1.5, fontWeight: 600, padding: "12px 14px", borderRadius: 10, background: "#f6f7fb", border: over ? "1.5px solid #e5b3ad" : "1.5px solid transparent", minHeight: 24, wordBreak: "break-word" }}>
                   {title || "入力するとここにタイトルが表示されます"}
                 </div>
-                {over && <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>eBayのタイトル上限は80文字です。セット名や状態表記を短くしてください。</div>}
+                {over && (
+                  <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>
+                    eBayのタイトル上限は80文字です（<strong>{title.length - 80}文字オーバー</strong>）。
+                    {f.setNameEn && ` セット英語名「${f.setNameEn}」を省くと ${title.length - f.setNameEn.length - 1} 文字になります。`}
+                  </div>
+                )}
                 {missingEn && (
                   <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>
                     ⚠ {missingPokemonEn && missingSetEn ? "英語名・セット英語名" : missingPokemonEn ? "英語名" : "セット英語名"}がデータに未登録です。前に選んだカードの英語名が残っていないか確認し、手入力してからコピーしてください。
@@ -701,21 +821,27 @@ function AppInner() {
                       border: "1.5px solid #d9deea",
                     }}>現在の出品を見る</a>
                   )}
-                  <button onClick={saveCurrentToHistory} style={{
+                  <button onClick={handleSaveClick} style={{
                     padding: "8px 16px", borderRadius: 999, border: "1.5px solid #d9deea", cursor: "pointer",
-                    fontSize: 13, fontWeight: 700, color: "#1a2238", background: "#fff",
-                  }}>履歴に保存</button>
+                    fontSize: 13, fontWeight: 700, color: historySaved ? "#0a6e3f" : "#1a2238",
+                    background: historySaved ? "#d3f5e3" : "#fff", transition: "all .2s",
+                  }}>{historySaved ? "保存しました ✓" : "履歴に保存"}</button>
                 </div>
               </div>
             </div>
             <div style={{ background: "#fff", borderRadius: 16, padding: "20px 22px", boxShadow: "0 1px 4px rgba(26,34,56,.06)" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
                 <h2 style={{ margin: 0, fontSize: 15, fontWeight: 800 }}>説明文</h2>
-                <CopyBtn text={desc} label="説明文をコピー" />
+                <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                  {descOverride !== null && <span style={{ fontSize: 11, color: "#8b93a7" }}>編集済み（フォームを変更すると再生成されます）</span>}
+                  <CopyBtn text={desc} label="説明文をコピー" />
+                </div>
               </div>
-              <pre style={{ margin: 0, whiteSpace: "pre-wrap", wordBreak: "break-word", fontFamily: "inherit", fontSize: 13, lineHeight: 1.75, color: "#2a3145", background: "#f6f7fb", borderRadius: 10, padding: "14px 16px", maxHeight: 460, overflowY: "auto" }}>
-                {desc}
-              </pre>
+              <textarea
+                value={desc}
+                onChange={(e) => setDescOverride(e.target.value)}
+                style={{ margin: 0, width: "100%", boxSizing: "border-box", whiteSpace: "pre-wrap", wordBreak: "break-word", fontFamily: "inherit", fontSize: 13, lineHeight: 1.75, color: "#2a3145", background: "#f6f7fb", borderRadius: 10, border: "1.5px solid transparent", padding: "14px 16px", minHeight: 340, maxHeight: 460, overflowY: "auto", resize: "vertical", outline: "none" }}
+              />
             </div>
             <p style={{ fontSize: 11.5, color: "#8b93a7", marginTop: 12, lineHeight: 1.7 }}>
               ヒント: タイトルは「Title」欄に、説明文は「Item description」欄に貼り付けてください。
@@ -730,8 +856,16 @@ function AppInner() {
             <p style={{ margin: "0 0 12px", fontSize: 12, color: "#8b93a7" }}>
               「履歴に保存」で保存した内容です。ブラウザ内（localStorage）にのみ保存され、他の端末とは共有されません。
             </p>
+            {history.length > 6 && (
+              <input style={{ ...inputStyle, marginBottom: 14, maxWidth: 320 }} value={historyFilter}
+                onChange={(e) => setHistoryFilter(e.target.value)}
+                placeholder="カード名・セット名で絞り込み" />
+            )}
+            {filteredHistory.length === 0 ? (
+              <div style={{ fontSize: 12.5, color: "#8b93a7" }}>該当する履歴がありません。</div>
+            ) : (
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 12 }}>
-              {history.map((entry) => (
+              {filteredHistory.map((entry) => (
                 <div key={entry.id} style={{ borderRadius: 12, padding: 10, border: "2px solid #e4e8f2", background: "#fafbfe" }}>
                   <CardImage src={historyImage(entry)} name={entry.f.pokemonJa || entry.f.pokemonEn || entry.f.setNameJa} />
                   <div style={{ marginTop: 8, fontSize: 12.5, fontWeight: 800, color: "#1a2238", lineHeight: 1.4 }}>
@@ -755,6 +889,7 @@ function AppInner() {
                 </div>
               ))}
             </div>
+            )}
           </section>
         )}
       </div>

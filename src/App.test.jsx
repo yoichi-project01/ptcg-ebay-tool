@@ -146,6 +146,51 @@ describe("applyCandidateToForm", () => {
     const next = applyCandidateToForm(DEFAULT_F, r);
     expect(next.rarity).toBe("");
   });
+
+  it("resets per-listing fields (condition, grading, price) from the previous card", () => {
+    const prevListing = {
+      ...DEFAULT_F,
+      condition: "LP",
+      conditionNotes: "Small scratch on back edge",
+      graded: true, gradingCompany: "PSA", grade: "10", certNumber: "12345678",
+      costJpy: "5000", extraCostJpy: "300", sellPriceUsd: "80",
+    };
+    const r = { set: withEnglishSet, card: ["004", "リザードン", "Charizard", "RR"] };
+    const next = applyCandidateToForm(prevListing, r);
+    expect(next.condition).toBe("NM");
+    expect(next.conditionNotes).toBe("");
+    expect(next.graded).toBe(false);
+    expect(next.gradingCompany).toBe("");
+    expect(next.grade).toBe("");
+    expect(next.certNumber).toBe("");
+    expect(next.costJpy).toBe("");
+    expect(next.extraCostJpy).toBe("");
+    expect(next.sellPriceUsd).toBe("");
+  });
+
+  it("keeps operational fields (shipFrom, exchangeRate) that stay the same across listings", () => {
+    const prevListing = { ...DEFAULT_F, shipFrom: "Tokyo, Japan", exchangeRate: "150" };
+    const r = { set: withEnglishSet, card: ["004", "リザードン", "Charizard", "RR"] };
+    const next = applyCandidateToForm(prevListing, r);
+    expect(next.shipFrom).toBe("Tokyo, Japan");
+    expect(next.exchangeRate).toBe("150");
+  });
+
+  it("keeps the previous condition/grading/price when carryOverCondition is set", () => {
+    const prevListing = {
+      ...DEFAULT_F,
+      condition: "LP", graded: true, gradingCompany: "PSA", grade: "10", sellPriceUsd: "80",
+    };
+    const r = { set: withEnglishSet, card: ["004", "リザードン", "Charizard", "RR"] };
+    const next = applyCandidateToForm(prevListing, r, { carryOverCondition: true });
+    expect(next.condition).toBe("LP");
+    expect(next.graded).toBe(true);
+    expect(next.gradingCompany).toBe("PSA");
+    expect(next.grade).toBe("10");
+    expect(next.sellPriceUsd).toBe("80");
+    // 識別情報（カード名・レアリティ等）は carryOverCondition でも必ず新しいカードのものに更新される
+    expect(next.pokemonEn).toBe("Charizard");
+  });
 });
 
 describe("searchCards", () => {
