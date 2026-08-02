@@ -44,6 +44,7 @@ const DEFAULT_FORM = {
   printVariant: "", printVariantNote: "", oldBack: false,
   graded: false, gradingCompany: "", grade: "", certNumber: "",
   costJpy: "", extraCostJpy: "", exchangeRate: "155", sellPriceUsd: "", ebayFeePercent: "13.25", ebayFixedFeeUsd: "0.40", shippingCostUsd: "",
+  targetMarginPercent: "30", quantity: "1", bestOfferEnabled: false, picUrl: "",
   productType: "pack", cardsPerPack: "", packsPerBox: "30", shrink: true,
 };
 
@@ -56,7 +57,7 @@ const PER_LISTING_FIELDS = {
   condition: "NM", conditionNotes: "",
   printVariant: "", printVariantNote: "", oldBack: false,
   graded: false, gradingCompany: "", grade: "", certNumber: "",
-  costJpy: "", extraCostJpy: "", sellPriceUsd: "",
+  costJpy: "", extraCostJpy: "", sellPriceUsd: "", picUrl: "",
 };
 
 const holoGrad =
@@ -191,6 +192,147 @@ function buildPackTitle(f) {
     .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
 }
 
+// ---------- アイテムスペシフィック ----------
+// 日本語の短縮レアリティ表記をeBayの出品で一般的に使われる英語表記に変換する。
+// SV世代（Art Rare/Special Art Rare/Double Rare/Triple Rare/Ultra Rare/Hyper Rare/
+// ACE SPEC Rare）は英語版TCGの公式レアリティ名と一致するが、それ以外の世代
+// （SR/CHR/CSR/SSR/S/BWR等）は日本語圏コミュニティの慣用訳のベストエフォート
+export const RARITY_EN_LABELS = {
+  SAR: "Special Art Rare", SR: "Special Rare", AR: "Art Rare", UR: "Ultra Rare",
+  RR: "Double Rare", RRR: "Triple Rare", CHR: "Character Rare", CSR: "Character Super Rare",
+  HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", ACE: "ACE SPEC Rare",
+  BWR: "Black White Rare", R: "Rare", U: "Uncommon", C: "Common", PROMO: "Promo",
+};
+// eBayの未鑑定シングルカード用コンディション記述子（2023年10月〜の新体系）のラベル文字列。
+// ※ File Exchange CSV等で必要になる数値ConditionID/DescriptionIDは提供元・カテゴリ
+// 依存で確度を持って断定できないため、ラベル文字列のみを扱う（UI表示・CSVコメント用）
+export const CONDITION_DESCRIPTOR_LABELS = {
+  "NM": "Near Mint or Better", "NM/M": "Near Mint or Better",
+  "LP": "Excellent", "MP": "Very Good", "HP": "Poor",
+};
+// "Charizard ex" -> "Charizard" のように接尾辞（ex/EX/GX/V/VMAX/VSTAR/V-UNION）を除去する。
+// 長い接尾辞から先に判定しないと "VMAX" が "V" にマッチして壊れるため順序に注意
+function extractCharacter(en) {
+  if (!en) return "";
+  return en.replace(/\s+(VMAX|VSTAR|V-UNION|GX|EX|ex)$/, "").replace(/\s+V$/, "").trim();
+}
+// eBayのCondition欄（Ungraded/Graded）でどの選択肢を選ぶべきかを案内する短い文
+export function buildConditionGuide(f) {
+  const isGraded = f.graded && f.gradingCompany && f.grade.trim();
+  if (isGraded) {
+    return `eBayでは「Graded」を選択 → Professional Grader: ${f.gradingCompany} / Grade: ${f.grade.trim()}`;
+  }
+  const label = CONDITION_DESCRIPTOR_LABELS[f.condition];
+  return label ? `eBayでは「Ungraded」を選択 → Card Condition: ${label}` : "";
+}
+// フォームの内容からeBayのItem Specifics（項目名と値のペア）を組み立てる。
+// 値が空になる項目（データ未登録・該当なし）は出力しない
+export function buildItemSpecifics(f) {
+  const setData = CARD_DATA.find((s) => s.c === f.setCode);
+  const isGraded = f.graded && f.gradingCompany && f.grade.trim();
+  const features = [];
+  if (OLD_BACK_SET_RE.test(f.setCode) && f.oldBack) features.push("Old Back");
+  if (PRINT_VARIANT_SET_RE.test(f.setCode) && f.printVariant === "1st Edition") features.push("1st Edition");
+
+  const pairs = [
+    ["Game", "Pokémon TCG"],
+    ["Card Name", f.pokemonEn],
+    ["Character", extractCharacter(f.pokemonEn)],
+    ["Set", f.setNameEn],
+    ["Card Number", f.cardNo],
+    ["Rarity", f.rarity ? (RARITY_EN_LABELS[f.rarity] || f.rarity) : ""],
+    ["Language", "Japanese"],
+    ["Manufacturer", "The Pokémon Company"],
+    ["Graded", f.graded ? "Yes" : "No"],
+  ];
+  if (isGraded) {
+    pairs.push(["Professional Grader", f.gradingCompany]);
+    pairs.push(["Grade", f.grade.trim()]);
+    if (f.certNumber.trim()) pairs.push(["Certification Number", f.certNumber.trim()]);
+  } else {
+    pairs.push(["Card Condition", CONDITION_DESCRIPTOR_LABELS[f.condition] || ""]);
+  }
+  if (features.length) pairs.push(["Features", features.join(", ")]);
+  if (setData?.y) pairs.push(["Year Manufactured", String(setData.y)]);
+
+  return pairs.filter(([, value]) => value);
+}
+
+// ---------- SKU（カスタムラベル） ----------
+// 在庫管理・CSV出品・写真ファイル名で共通して使えるSKUを機械的に組み立てる。
+// 例: SV2a-201-NM / PMCG1-004-1ST-PSA10
+export function buildSku(f, mode) {
+  const parts = mode === "pack"
+    ? [f.setCode, f.productType === "box" ? "BOX" : "PACK"]
+    : [
+        f.setCode,
+        f.cardNo ? f.cardNo.split("/")[0] : "",
+        f.graded && f.gradingCompany && f.grade.trim() ? `${f.gradingCompany}${f.grade.trim()}` : f.condition,
+        PRINT_VARIANT_SET_RE.test(f.setCode) && f.printVariant === "1st Edition" ? "1ST" : "",
+      ];
+  return parts.filter(Boolean).join("-").replace(/[^\w-]/g, "").toUpperCase();
+}
+
+// ---------- 出品キュー / CSV一括アップロード ----------
+// eBayカテゴリ「CCG Individual Cards」。ユーザー確認済みの値
+export const CSV_CATEGORY_ID = "183454";
+// eBayのConditionID（2023年10月以降のトレーディングカード新コンディション体系）。
+// カテゴリ・地域・アカウントの状況により実際の値が異なる可能性があるため、
+// CSVを本番アップロードする前に必ずeBayのFile Exchangeテンプレート（またはReportsタブの
+// ダウンロード用テンプレート）で最新の値を確認し、必要ならこの定数を書き換えること
+export const CSV_CONDITION_ID = { graded: "2750", ungraded: "4000" };
+const CSV_COLUMNS = [
+  "Action", "CustomLabel", "Category", "Title", "Description", "ConditionID",
+  "StartPrice", "Quantity", "BestOfferEnabled", "PicURL",
+  "C:Card Name", "C:Character", "C:Set", "C:Card Number", "C:Rarity", "C:Language",
+  "C:Manufacturer", "C:Graded", "C:Professional Grader", "C:Grade",
+  "C:Certification Number", "C:Card Condition", "C:Features", "C:Year Manufactured",
+];
+function csvEscape(value) {
+  const s = String(value ?? "");
+  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}
+// 1件の出品キューエントリからCSVの1行分（列名→値）を組み立てる
+export function buildListingCsvRow(entry) {
+  const specifics = Object.fromEntries(buildItemSpecifics(entry.f));
+  const isGraded = entry.f.graded && entry.f.gradingCompany && entry.f.grade?.trim();
+  return {
+    Action: "Add",
+    CustomLabel: entry.sku,
+    Category: CSV_CATEGORY_ID,
+    Title: entry.title,
+    Description: entry.desc,
+    ConditionID: isGraded ? CSV_CONDITION_ID.graded : CSV_CONDITION_ID.ungraded,
+    StartPrice: entry.f.sellPriceUsd || "",
+    Quantity: entry.f.quantity || "1",
+    BestOfferEnabled: entry.f.bestOfferEnabled ? "1" : "0",
+    PicURL: entry.f.picUrl || "",
+    "C:Card Name": specifics["Card Name"] || "",
+    "C:Character": specifics["Character"] || "",
+    "C:Set": specifics["Set"] || "",
+    "C:Card Number": specifics["Card Number"] || "",
+    "C:Rarity": specifics["Rarity"] || "",
+    "C:Language": specifics["Language"] || "",
+    "C:Manufacturer": specifics["Manufacturer"] || "",
+    "C:Graded": specifics["Graded"] || "",
+    "C:Professional Grader": specifics["Professional Grader"] || "",
+    "C:Grade": specifics["Grade"] || "",
+    "C:Certification Number": specifics["Certification Number"] || "",
+    "C:Card Condition": specifics["Card Condition"] || "",
+    "C:Features": specifics["Features"] || "",
+    "C:Year Manufactured": specifics["Year Manufactured"] || "",
+  };
+}
+// 出品キュー配列からFile Exchange形式に近いCSV文字列を組み立てる（ヘッダー行つき、CRLF区切り）
+export function buildListingCsv(entries) {
+  const lines = [CSV_COLUMNS.join(",")];
+  for (const entry of entries) {
+    const row = buildListingCsvRow(entry);
+    lines.push(CSV_COLUMNS.map((col) => csvEscape(row[col])).join(","));
+  }
+  return lines.join("\r\n");
+}
+
 // ---------- eBay相場検索 ----------
 function buildEbaySearchQuery(f, mode) {
   if (mode === "single") {
@@ -223,6 +365,31 @@ export function calcProfit(f) {
   const marginPercent = (profitUsd / sellPriceUsd) * 100;
   return { costUsd, feeUsd, profitUsd, marginPercent, profitJpy: profitUsd * rate };
 }
+// calcProfit の逆算版: 目標利益率を満たす最低限の売値（USD）を求める。
+// profit = sell - (sell*fee% + fixedFee) - shipping - cost = sell * targetMargin
+// を sell について解くと sell = (fixedFee + shipping + cost) / (1 - fee% - targetMargin)
+export function computeRecommendedPrice(f, targetMarginPercent) {
+  const rate = parseFloat(f.exchangeRate);
+  const margin = parseFloat(targetMarginPercent) / 100;
+  if (!rate || rate <= 0 || isNaN(margin)) return null;
+  const costJpy = parseFloat(f.costJpy) || 0;
+  const extraCostJpy = parseFloat(f.extraCostJpy) || 0;
+  const feePercent = parseFloat(f.ebayFeePercent) || 0;
+  const fixedFeeUsd = parseFloat(f.ebayFixedFeeUsd) || 0;
+  const shippingCostUsd = parseFloat(f.shippingCostUsd) || 0;
+  const costUsd = (costJpy + extraCostJpy) / rate;
+  const denom = 1 - feePercent / 100 - margin;
+  if (denom <= 0) return null; // 手数料率+目標利益率が100%以上では解なし
+  return (fixedFeeUsd + shippingCostUsd + costUsd) / denom;
+}
+// 心理的価格（X.99）に切り上げる。必ず入力値以上になるよう切り上げるため、
+// 目標利益率を満たさなくなることはない
+export function roundUpToPsychologicalPrice(usd) {
+  if (usd == null || !isFinite(usd)) return null;
+  let v = Math.floor(usd) + 0.99;
+  if (v < usd) v += 1;
+  return Math.round(v * 100) / 100;
+}
 
 // ---------- 出品履歴（localStorage） ----------
 function loadHistory() {
@@ -238,12 +405,29 @@ function loadHistory() {
 function saveHistoryToStorage(list) {
   try { localStorage.setItem(HISTORY_KEY, JSON.stringify(list)); } catch {}
 }
-function historyImage(entry) {
+// history・queue の両方で使う: entry.f から画像パスを引く
+function entryImage(entry) {
   const local = entry.f.cardNo ? entry.f.cardNo.split("/")[0] : "";
   const n = parseInt(local, 10);
   if (!entry.f.setCode || isNaN(n)) return null;
   const key = `${entry.f.setCode}/${n}`;
   return IMAGE_INDEX[key] ? `/${IMAGE_INDEX[key]}` : null;
+}
+
+// ---------- 出品キュー（localStorage） ----------
+const QUEUE_KEY = "ptcg-ebay-tool:queue";
+function loadQueue() {
+  try {
+    const raw = localStorage.getItem(QUEUE_KEY);
+    const list = raw ? JSON.parse(raw) : [];
+    if (!Array.isArray(list)) return [];
+    return list.filter((e) => e && typeof e === "object" && e.f && e.id);
+  } catch {
+    return [];
+  }
+}
+function saveQueueToStorage(list) {
+  try { localStorage.setItem(QUEUE_KEY, JSON.stringify(list)); } catch {}
 }
 
 // ---------- 説明文 ----------
@@ -360,6 +544,21 @@ function CopyBtn({ text, label }) {
     }}>{done ? "コピーしました ✓" : label}</button>
   );
 }
+// アイテムスペシフィックの1行（ラベル・値・小さいコピーボタン）
+function FragmentRow({ label, value }) {
+  const [done, setDone] = useState(false);
+  return (
+    <>
+      <span style={{ fontSize: 12, fontWeight: 700, color: "#5b6478", whiteSpace: "nowrap" }}>{label}</span>
+      <span style={{ fontSize: 12.5, color: "#1a2238", wordBreak: "break-word" }}>{value}</span>
+      <button onClick={() => copyText(value, setDone)} style={{
+        padding: "3px 10px", borderRadius: 999, border: "1.5px solid #e4e8f2", cursor: "pointer",
+        fontSize: 10.5, fontWeight: 700, color: done ? "#0a6e3f" : "#5b6478",
+        background: done ? "#d3f5e3" : "#fafbfe", whiteSpace: "nowrap",
+      }}>{done ? "✓" : "コピー"}</button>
+    </>
+  );
+}
 function CardImage({ src, name }) {
   const [failed, setFailed] = useState(false);
   if (!src || failed) {
@@ -446,6 +645,10 @@ function AppInner() {
   const [historyFilter, setHistoryFilter] = useState("");
   const [historySaved, setHistorySaved] = useState(false);
 
+  const [queue, setQueue] = useState(() => loadQueue());
+  const [queueSaved, setQueueSaved] = useState(false);
+  const [lotCostJpy, setLotCostJpy] = useState("");
+
   const [profitOpen, setProfitOpen] = useState(() => {
     try { return localStorage.getItem("ptcg-ebay-tool:profitOpen") !== "0"; } catch { return true; }
   });
@@ -472,6 +675,28 @@ function AppInner() {
   const ebaySoldUrl = useMemo(() => buildEbaySearchUrl(ebayQuery, { sold: true }), [ebayQuery]);
   const ebayActiveUrl = useMemo(() => buildEbaySearchUrl(ebayQuery), [ebayQuery]);
   const profit = useMemo(() => calcProfit(f), [f]);
+  const recommendedPrice = useMemo(() => {
+    const raw = computeRecommendedPrice(f, f.targetMarginPercent);
+    return raw != null ? roundUpToPsychologicalPrice(raw) : null;
+  }, [f]);
+  // 同じセット・レアリティで直近に出品した売値を履歴から探す（価格決定の参考用）
+  const priceHistoryHint = useMemo(() => {
+    if (mode !== "single" || !f.setCode) return null;
+    const match = history.find((h) => h.mode === "single" && h.f?.setCode === f.setCode && h.f?.rarity === f.rarity && h.f?.sellPriceUsd);
+    return match ? { price: match.f.sellPriceUsd, savedAt: match.savedAt } : null;
+  }, [history, mode, f.setCode, f.rarity]);
+  const itemSpecifics = useMemo(() => (mode === "single" ? buildItemSpecifics(f) : []), [mode, f]);
+  const itemSpecificsText = useMemo(
+    () => itemSpecifics.map(([label, value]) => `${label}: ${value}`).join("\n"),
+    [itemSpecifics]
+  );
+  const conditionGuide = useMemo(() => (mode === "single" ? buildConditionGuide(f) : ""), [mode, f]);
+  const sku = useMemo(() => buildSku(f, mode), [f, mode]);
+  const allInOneText = useMemo(
+    () => [`【Title】\n${title}`, `【Description】\n${desc}`, itemSpecificsText && `【Item Specifics】\n${itemSpecificsText}`]
+      .filter(Boolean).join("\n\n"),
+    [title, desc, itemSpecificsText]
+  );
 
   // 候補選択後にレアリティ/カード番号を手で書き換えていないか確認する
   const dbCard = useMemo(() => findDbCard(selectedKey), [selectedKey]);
@@ -524,6 +749,53 @@ function AppInner() {
       saveHistoryToStorage(next);
       return next;
     });
+  };
+
+  const addToQueue = () => {
+    const entry = {
+      id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+      addedAt: new Date().toISOString(),
+      mode, f, title, desc, sku, itemSpecifics,
+    };
+    setQueue((prev) => {
+      const next = [...prev, entry];
+      saveQueueToStorage(next);
+      return next;
+    });
+    setQueueSaved(true);
+    setTimeout(() => setQueueSaved(false), 1600);
+  };
+  const removeFromQueue = (id) => {
+    setQueue((prev) => {
+      const next = prev.filter((e) => e.id !== id);
+      saveQueueToStorage(next);
+      return next;
+    });
+  };
+  const clearQueue = () => {
+    setQueue([]);
+    saveQueueToStorage([]);
+  };
+  // 1BOXから出た複数枚をまとめて出品する際など、キュー全件の仕入れ値を一括で書き換える
+  const applyLotCostToQueue = () => {
+    if (!lotCostJpy.trim()) return;
+    setQueue((prev) => {
+      const next = prev.map((e) => ({ ...e, f: { ...e.f, costJpy: lotCostJpy } }));
+      saveQueueToStorage(next);
+      return next;
+    });
+  };
+  const downloadQueueCsv = () => {
+    const csv = buildListingCsv(queue);
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `ptcg-listing-${new Date().toISOString().slice(0, 10)}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   };
 
   const applyCandidate = (r) => {
@@ -737,6 +1009,14 @@ function AppInner() {
               <div style={{ flex: 1 }}><Field label="発送元"><input style={inputStyle} value={f.shipFrom} onChange={set("shipFrom")} /></Field></div>
               <div style={{ flex: 1 }}><Field label="発送までの営業日"><input style={inputStyle} value={f.handlingDays} onChange={set("handlingDays")} /></Field></div>
             </div>
+            <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
+              <div style={{ flex: 1 }}><Field label="数量" hint="CSV出品時のQuantity"><input style={inputStyle} inputMode="numeric" value={f.quantity} onChange={set("quantity")} /></Field></div>
+              <div style={{ flex: 1, paddingTop: 22 }}>
+                <label style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
+                  <input type="checkbox" checked={f.bestOfferEnabled} onChange={set("bestOfferEnabled")} />Best Offerを有効にする
+                </label>
+              </div>
+            </div>
 
             <details open={profitOpen} onToggle={(e) => setProfitOpen(e.target.open)} style={{ marginTop: 8, paddingTop: 16, borderTop: "1.5px solid #eef0f7" }}>
               <summary style={{ margin: "0 0 4px", fontSize: 13.5, fontWeight: 800, cursor: "pointer" }}>利益計算（任意）</summary>
@@ -753,9 +1033,18 @@ function AppInner() {
                     <input style={inputStyle} inputMode="decimal" value={f.sellPriceUsd} onChange={set("sellPriceUsd")} placeholder="例: 45" />
                   </Field>
                   {ebaySoldUrl && (
-                    <a href={ebaySoldUrl} target="_blank" rel="noopener noreferrer" style={{ display: "block", marginTop: -10, marginBottom: 14, fontSize: 11, color: "#7c6cf0", fontWeight: 700 }}>
+                    <a href={ebaySoldUrl} target="_blank" rel="noopener noreferrer" style={{ display: "block", marginTop: -10, marginBottom: 10, fontSize: 11, color: "#7c6cf0", fontWeight: 700 }}>
                       eBayで相場を見る（売却済み）→
                     </a>
+                  )}
+                  {priceHistoryHint && (
+                    <div style={{ fontSize: 11, color: "#5b6478", marginBottom: 10 }}>
+                      前回同セット・同レアリティを ${priceHistoryHint.price} で出品（{new Date(priceHistoryHint.savedAt).toLocaleDateString("ja-JP")}）
+                      <button type="button" onClick={() => setF((p) => ({ ...p, sellPriceUsd: priceHistoryHint.price }))} style={{
+                        marginLeft: 6, padding: "1px 8px", borderRadius: 999, border: "1px solid #d9deea", cursor: "pointer",
+                        fontSize: 10.5, fontWeight: 700, color: "#5b48d6", background: "#f4f2ff",
+                      }}>使う</button>
+                    </div>
                   )}
                 </div>
                 <div style={{ flex: 1 }}><Field label="発送実費（USD・任意）"><input style={inputStyle} inputMode="decimal" value={f.shippingCostUsd} onChange={set("shippingCostUsd")} placeholder="例: 5" /></Field></div>
@@ -766,7 +1055,19 @@ function AppInner() {
               </div>
               <div style={{ display: "flex", gap: 10 }}>
                 <div style={{ flex: 1 }}><Field label="eBay固定手数料（USD）" hint="出品1件あたりの定額手数料"><input style={inputStyle} inputMode="decimal" value={f.ebayFixedFeeUsd} onChange={set("ebayFixedFeeUsd")} /></Field></div>
+                <div style={{ flex: 1 }}><Field label="目標利益率（%）" hint="推奨売値の逆算に使用"><input style={inputStyle} inputMode="decimal" value={f.targetMarginPercent} onChange={set("targetMarginPercent")} /></Field></div>
               </div>
+              {recommendedPrice != null && (
+                <div style={{ borderRadius: 10, padding: "10px 14px", marginBottom: 14, background: "#f4f2ff", border: "1.5px solid #e4e0fb" }}>
+                  <div style={{ fontSize: 12.5, fontWeight: 800, color: "#5b48d6" }}>
+                    目標利益率 {f.targetMarginPercent}% を満たす推奨売値: ${recommendedPrice.toFixed(2)}
+                    <button type="button" onClick={() => setF((p) => ({ ...p, sellPriceUsd: String(recommendedPrice.toFixed(2)) }))} style={{
+                      marginLeft: 8, padding: "2px 10px", borderRadius: 999, border: "none", cursor: "pointer",
+                      fontSize: 11, fontWeight: 700, color: "#fff", background: "#5b48d6",
+                    }}>この価格を使う</button>
+                  </div>
+                </div>
+              )}
               {profit && (
                 <div style={{
                   borderRadius: 10, padding: "12px 14px", marginTop: 4, marginBottom: 14,
@@ -791,6 +1092,11 @@ function AppInner() {
                   <h2 style={{ margin: 0, fontSize: 15, fontWeight: 800 }}>タイトル</h2>
                   <span style={{ fontSize: 12, fontWeight: 800, color: over ? "#c0392b" : "#5b6478" }}>{title.length} / 80 文字</span>
                 </div>
+                {sku && (
+                  <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 8 }}>
+                    <span style={{ fontSize: 11, color: "#8b93a7" }}>SKU: <code style={{ fontFamily: "inherit", color: "#5b6478" }}>{sku}</code></span>
+                  </div>
+                )}
                 <div style={{ fontSize: 15, lineHeight: 1.5, fontWeight: 600, padding: "12px 14px", borderRadius: 10, background: "#f6f7fb", border: over ? "1.5px solid #e5b3ad" : "1.5px solid transparent", minHeight: 24, wordBreak: "break-word" }}>
                   {title || "入力するとここにタイトルが表示されます"}
                 </div>
@@ -826,6 +1132,11 @@ function AppInner() {
                     fontSize: 13, fontWeight: 700, color: historySaved ? "#0a6e3f" : "#1a2238",
                     background: historySaved ? "#d3f5e3" : "#fff", transition: "all .2s",
                   }}>{historySaved ? "保存しました ✓" : "履歴に保存"}</button>
+                  <button onClick={addToQueue} style={{
+                    padding: "8px 16px", borderRadius: 999, border: "1.5px solid #d9deea", cursor: "pointer",
+                    fontSize: 13, fontWeight: 700, color: queueSaved ? "#0a6e3f" : "#5b48d6",
+                    background: queueSaved ? "#d3f5e3" : "#f4f2ff", transition: "all .2s",
+                  }}>{queueSaved ? "追加しました ✓" : `出品キューに追加 (${queue.length})`}</button>
                 </div>
               </div>
             </div>
@@ -843,12 +1154,92 @@ function AppInner() {
                 style={{ margin: 0, width: "100%", boxSizing: "border-box", whiteSpace: "pre-wrap", wordBreak: "break-word", fontFamily: "inherit", fontSize: 13, lineHeight: 1.75, color: "#2a3145", background: "#f6f7fb", borderRadius: 10, border: "1.5px solid transparent", padding: "14px 16px", minHeight: 340, maxHeight: 460, overflowY: "auto", resize: "vertical", outline: "none" }}
               />
             </div>
+
+            {mode === "single" && itemSpecifics.length > 0 && (
+              <div style={{ background: "#fff", borderRadius: 16, padding: "20px 22px", boxShadow: "0 1px 4px rgba(26,34,56,.06)", marginTop: 18 }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
+                  <h2 style={{ margin: 0, fontSize: 15, fontWeight: 800 }}>アイテムスペシフィック</h2>
+                  <CopyBtn text={itemSpecificsText} label="まとめてコピー" />
+                </div>
+                <p style={{ margin: "0 0 12px", fontSize: 11.5, color: "#8b93a7", lineHeight: 1.6 }}>
+                  eBayの出品フォーム「Item specifics」欄に入力する項目です。検索フィルタに使われるため、埋めるほど露出が上がります。
+                </p>
+                <div style={{ display: "grid", gridTemplateColumns: "auto 1fr auto", gap: "6px 12px", alignItems: "center" }}>
+                  {itemSpecifics.map(([label, value]) => (
+                    <FragmentRow key={label} label={label} value={value} />
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {conditionGuide && (
+              <p style={{ fontSize: 11.5, color: "#5b6478", marginTop: 12, lineHeight: 1.7, background: "#f6f7fb", borderRadius: 10, padding: "10px 14px" }}>
+                💡 {conditionGuide}
+              </p>
+            )}
             <p style={{ fontSize: 11.5, color: "#8b93a7", marginTop: 12, lineHeight: 1.7 }}>
               ヒント: タイトルは「Title」欄に、説明文は「Item description」欄に貼り付けてください。
-              Condition欄の選択（Ungraded - Near mint or better など）は説明文と矛盾しないように選びましょう。
+              Condition欄の選択は説明文と矛盾しないように選びましょう。
             </p>
+            {mode === "single" && (
+              <div style={{ marginTop: 8 }}>
+                <CopyBtn text={allInOneText} label="タイトル＋説明文＋アイテムスペシフィックを一括コピー" />
+              </div>
+            )}
           </section>
         </div>
+
+        {queue.length > 0 && (
+          <section style={{ background: "#fff", borderRadius: 16, padding: "20px 22px", boxShadow: "0 1px 4px rgba(26,34,56,.06)", marginTop: 20 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 10, marginBottom: 4 }}>
+              <h2 style={{ margin: 0, fontSize: 15, fontWeight: 800 }}>出品キュー（{queue.length}件）</h2>
+              <div style={{ display: "flex", gap: 8 }}>
+                <button onClick={downloadQueueCsv} style={{
+                  padding: "8px 16px", borderRadius: 999, border: "none", cursor: "pointer",
+                  fontSize: 13, fontWeight: 700, color: "#fff", background: "#1a2238",
+                }}>CSVをダウンロード</button>
+                <button onClick={clearQueue} style={{
+                  padding: "8px 16px", borderRadius: 999, border: "1.5px solid #d9deea", cursor: "pointer",
+                  fontSize: 13, fontWeight: 700, color: "#a3352b", background: "#fff",
+                }}>キューを空にする</button>
+              </div>
+            </div>
+            <p style={{ margin: "0 0 12px", fontSize: 12, color: "#8b93a7", lineHeight: 1.6 }}>
+              「出品キューに追加」で貯めた内容です。ブラウザ内（localStorage）にのみ保存されます。
+              CSVはeBay File Exchange相当の列構成です。<strong>本番アップロード前に必ず少数件でテストし、
+              カテゴリ・ConditionID・画像URLなど実際の値を確認してください</strong>（詳細はコード内コメント参照）。
+            </p>
+            <div style={{ display: "flex", gap: 10, alignItems: "flex-end", marginBottom: 16, flexWrap: "wrap" }}>
+              <div style={{ maxWidth: 220 }}>
+                <Field label="このロットの仕入れ値（円）" hint="1BOXから複数枚出す場合など">
+                  <input style={inputStyle} inputMode="decimal" value={lotCostJpy} onChange={(e) => setLotCostJpy(e.target.value)} placeholder="例: 100" />
+                </Field>
+              </div>
+              <button onClick={applyLotCostToQueue} style={{
+                padding: "10px 16px", borderRadius: 999, border: "1.5px solid #d9deea", cursor: "pointer",
+                fontSize: 13, fontWeight: 700, color: "#1a2238", background: "#fff", marginBottom: 14,
+              }}>キュー全件に適用</button>
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 12 }}>
+              {queue.map((entry) => (
+                <div key={entry.id} style={{ borderRadius: 12, padding: 10, border: "2px solid #e4e8f2", background: "#fafbfe" }}>
+                  <CardImage src={entryImage(entry)} name={entry.f.pokemonJa || entry.f.pokemonEn || entry.f.setNameJa} />
+                  <div style={{ marginTop: 8, fontSize: 12.5, fontWeight: 800, color: "#1a2238", lineHeight: 1.4 }}>
+                    {entry.f.pokemonJa || entry.f.pokemonEn || (entry.mode === "pack" ? entry.f.setNameJa : "(未入力)")}
+                  </div>
+                  <div style={{ fontSize: 11, color: "#5b6478", marginTop: 2, lineHeight: 1.5 }}>
+                    SKU: {entry.sku}<br />
+                    ${entry.f.sellPriceUsd || "?"} ・ 数量{entry.f.quantity || "1"}
+                  </div>
+                  <button onClick={() => removeFromQueue(entry.id)} style={{
+                    marginTop: 8, width: "100%", padding: "6px 8px", borderRadius: 999, border: "none", cursor: "pointer",
+                    fontSize: 11, fontWeight: 800, color: "#a3352b", background: "#fdecea",
+                  }}>キューから削除</button>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {history.length > 0 && (
           <section style={{ background: "#fff", borderRadius: 16, padding: "20px 22px", boxShadow: "0 1px 4px rgba(26,34,56,.06)", marginTop: 20 }}>
@@ -867,7 +1258,7 @@ function AppInner() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 12 }}>
               {filteredHistory.map((entry) => (
                 <div key={entry.id} style={{ borderRadius: 12, padding: 10, border: "2px solid #e4e8f2", background: "#fafbfe" }}>
-                  <CardImage src={historyImage(entry)} name={entry.f.pokemonJa || entry.f.pokemonEn || entry.f.setNameJa} />
+                  <CardImage src={entryImage(entry)} name={entry.f.pokemonJa || entry.f.pokemonEn || entry.f.setNameJa} />
                   <div style={{ marginTop: 8, fontSize: 12.5, fontWeight: 800, color: "#1a2238", lineHeight: 1.4 }}>
                     {entry.f.pokemonJa || entry.f.pokemonEn || (entry.mode === "pack" ? entry.f.setNameJa : "(未入力)")}
                   </div>

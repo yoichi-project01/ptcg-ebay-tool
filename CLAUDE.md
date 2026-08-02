@@ -107,6 +107,27 @@ jpg=7150, png=2181, webp=0
   blank-contaminated-en-names.mjs`）。誤った情報を出品に使うより、A-1で追加した
   「英語名なし」警告で安全に運用する方針。**正しい英語名への復元は別タスクとして未着手**。
 
+### 対応履歴（2026-08-03）: eBay出品効率化機能を追加
+
+- **アイテムスペシフィック生成**（`buildItemSpecifics`）: フォーム入力から Card Name / Set /
+  Card Number / Rarity（英語表記変換）/ Language / Manufacturer / Character（ex/V/VMAX等の
+  接尾辞を除去） / Graded / Card Condition / Features（Old Back・1st Edition） /
+  Year Manufactured（セットの`y`フィールド依存）を生成しコピーできるUIを追加。
+  レアリティ英語表記（`RARITY_EN_LABELS`）はSV世代（Art Rare/Double Rare等）は公式表記と一致、
+  それ以外は日本語圏コミュニティのベストエフォート訳である点に注意。
+- **コンディション記述子ガイド**（`buildConditionGuide`）: 現在の状態設定がeBayの
+  Ungraded/Gradedどちらに対応し、どのCard Condition/Grade等を選ぶべきかを案内する文言を表示。
+- **SKU自動生成**（`buildSku`）: `{setCode}-{cardNo先頭}-{状態or鑑定}-{1ST}` 形式。
+- **価格決定支援**: `computeRecommendedPrice`で目標利益率から売値を逆算し
+  `roundUpToPsychologicalPrice`で$X.99に切り上げ（必ず入力値以上になる方向に丸める）。
+  出品履歴から同一セット・レアリティの前回売値もヒント表示。
+- **出品キュー + CSV一括アップロード（試験的機能）**: 出品キューをlocalStorage
+  （`ptcg-ebay-tool:queue`）に保持し、`buildListingCsv`でFile Exchange相当の列構成のCSVを
+  生成しダウンロード可能に。**`CSV_CONDITION_ID`（2750=Graded/4000=Ungraded）とカテゴリID
+  （183454=CCG Individual Cards）はユーザー確認ベースの値であり、本番アップロード前に
+  eBay側の最新テンプレートで要検証**。`PicURL`列は画像ホスティング環境が無いため空欄出力
+  （手動で埋める前提）。ロット仕入れ値（1BOX÷枚数等）をキュー全件に一括適用する機能も追加。
+
 ### 未解決: 残り41枚
 
 - **SVB/SVD/SVF/SLD/SLL/SN（24枚）**: 主にBOX付属の基本エネルギーカード。公式DBに個別カードとして掲載されていない（名前を直しても解決しない、画像ソースが存在しない）
