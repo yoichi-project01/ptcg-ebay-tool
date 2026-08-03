@@ -735,6 +735,9 @@ function AppInner() {
     const match = history.find((h) => h.mode === "single" && h.f?.setCode === f.setCode && h.f?.rarity === f.rarity && h.f?.sellPriceUsd);
     return match ? { price: match.f.sellPriceUsd, savedAt: match.savedAt } : null;
   }, [history, mode, f.setCode, f.rarity]);
+  // 鑑定品はCSVのCondition Descriptor値ID（鑑定会社/グレード）が未確認のまま空欄出力される
+  // ため、そのままアップロードするとその行がエラーになる。キュー内の該当件数を数えて警告表示する
+  const gradedInQueue = useMemo(() => queue.filter((e) => e.f.graded).length, [queue]);
   const itemSpecifics = useMemo(() => (mode === "single" ? buildItemSpecifics(f) : []), [mode, f]);
   const itemSpecificsText = useMemo(
     () => itemSpecifics.map(([label, value]) => `${label}: ${value}`).join("\n"),
@@ -1269,6 +1272,13 @@ function AppInner() {
                 }}>キューを空にする</button>
               </div>
             </div>
+            {gradedInQueue > 0 && (
+              <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6, marginBottom: 6 }}>
+                鑑定品 {gradedInQueue} 件を含みます。鑑定情報のID未設定のため、
+                この行はアップロード時にエラーになります。CSV編集時に手動で埋めるか、
+                鑑定品は個別出品してください。
+              </div>
+            )}
             <p style={{ margin: "0 0 12px", fontSize: 12, color: "#8b93a7", lineHeight: 1.6 }}>
               「出品キューに追加」で貯めた内容です。ブラウザ内（localStorage）にのみ保存されます。
               CSVはeBay File Exchange相当の列構成です。<strong>本番アップロード前に必ず少数件でテストし、
