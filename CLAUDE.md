@@ -94,7 +94,13 @@ jpg=7150, png=2181, webp=0
   128セット中81セットの発売年を取得（`scripts/fetch-set-years.mjs`）。残り47セット
   （プロモ・構築済みデッキ等の細分化コード、例: `S-P`/`SV-P`/`SI`/`SDL`/`SVB`等）は
   TCGdexに該当セットが存在せず404のため `y` なし。Item Specifics の
-  Year Manufactured / Vintage判定はこの `y` の有無に依存する。
+  Year Manufactured / Vintage判定はこの `y` の有無に依存する。**未取得47セット**（プロモ・
+  構築済みデッキ・スターターセット等の細分化コード）: `S-P, SC1D, SC1a, SC1b, SC2D, SC2a,
+  SC2b, SCA, SCB, SCC, SCD, SDL, SDM, SDP, SH, SI, SJ, SK, SLD, SLL, SN, SP5, SP6, SPD, SPZ,
+  CSMPiC, SV-P, SV3s, SV4s, SV5s, SV6s, SV7s, SV8s, SV9s, SVAL, SVAM, SVAW, SVB, SVC, SVD,
+  SVDs, SVEL, SVEM, SVF, SVHK, SVHM, SVP1`。TCGdexにセット情報自体が無いため手で埋めるしか
+  なく、対応する場合は公式サイト等で発売年を個別に確認して `cardData.json` の該当セットに
+  `y` フィールドを追記すること。
 - **英語名フィールドへのインドネシア語混入を発見・修正（重要）**: 主にSVシリーズの
   トレーナー/エネルギーカード151件（86種類のユニーク値、`SV1S/SV1V/SV1a/SV2D/SV2P/SV2a/
   SV3s/SV4a/SV4s/SV5s/SV6s/SV7s/SV8a/SV8s/SV9s/SVAL/SVAM/SVAW/SVDs/SVHK/SVHM` 等）で、

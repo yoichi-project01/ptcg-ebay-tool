@@ -381,7 +381,31 @@ describe("buildListingCsvRow / buildListingCsv", () => {
     const csv = buildListingCsv([entry, entry]);
     const lines = csv.split("\r\n");
     expect(lines.length).toBe(3); // header + 2 rows
-    expect(lines[0].split(",")[0]).toBe("Action");
+    expect(lines[0].replace(/^﻿/, "").split(",")[0]).toBe("Action");
+  });
+
+  it("prefixes the CSV with a UTF-8 BOM so Excel doesn't mangle the encoding", () => {
+    const csv = buildListingCsv([entry]);
+    expect(csv.charCodeAt(0)).toBe(0xfeff);
+  });
+
+  it("converts newlines in the description to <br> and escapes HTML for the CSV Description column", () => {
+    const withNewlines = { ...entry, desc: "Line one\nLine two <tag> & more" };
+    const row = buildListingCsvRow(withNewlines);
+    expect(row.Description).toBe("Line one<br>Line two &lt;tag&gt; &amp; more");
+  });
+
+  it("includes Format/Duration and the ungraded Condition Descriptor value ID", () => {
+    const row = buildListingCsvRow(entry);
+    expect(row.Format).toBe("FixedPrice");
+    expect(row.Duration).toBe("GTC");
+    expect(row["CD:Card Condition - (ID: 40001)"]).toBe("400010"); // NM
+  });
+
+  it("leaves the ungraded Condition Descriptor blank for graded cards", () => {
+    const gradedEntry = { ...entry, f: { ...entry.f, graded: true, gradingCompany: "PSA", grade: "10" } };
+    const row = buildListingCsvRow(gradedEntry);
+    expect(row["CD:Card Condition - (ID: 40001)"]).toBe("");
   });
 
   it("quotes values that contain commas or quotes", () => {

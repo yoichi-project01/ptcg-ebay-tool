@@ -69,6 +69,9 @@ const holoGrad =
 function normalizeBase(s) {
   return (s || "")
     .normalize("NFKC")
+    // \u30bc\u30ed\u5e45\u30b9\u30da\u30fc\u30b9/\u7d50\u5408\u5b50/\u65b9\u5411\u6307\u5b9a(U+200B-200F)\u30fb\u5358\u8a9e\u7d50\u5408\u5b50(U+2060)\u30fbBOM(U+FEFF)\u3092\u9664\u53bb\u3002
+    // \u30bf\u30a4\u30c8\u30eb\u3084\u30d5\u30a1\u30a4\u30eb\u540d\u306b\u7d1b\u308c\u8fbc\u3080\u3068\u76ee\u306b\u898b\u3048\u306a\u3044\u307e\u307e\u691c\u7d22\u306b\u5f15\u3063\u304b\u304b\u3089\u306a\u304f\u306a\u308b\u305f\u3081
+    .replace(/[\u200b-\u200f\u2060\ufeff]/g, "")
     .replace(/[\u3041-\u3096]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60))
     .toLowerCase()
     .trim();
@@ -212,6 +215,12 @@ export const CONDITION_DESCRIPTOR_LABELS = {
 };
 // "Charizard ex" -> "Charizard" のように接尾辞（ex/EX/GX/V/VMAX/VSTAR/V-UNION）を除去する。
 // 長い接尾辞から先に判定しないと "VMAX" が "V" にマッチして壊れるため順序に注意
+// 既知の制約: cardData.json にカード種別（Pokemon/Trainer/Energy）の情報が無いため、
+// トレーナーズ/エネルギーカードにもこの関数がそのまま適用され、eBayのItem Specifics上で
+// 本来空欄であるべき "Character" にトレーナー名がそのまま入ってしまう
+// （例: "Night Stretcher" というグッズカードでも Character: "Night Stretcher" と出力される）。
+// 種別データを取得できれば buildItemSpecifics 側で Pokemon 以外は Character を出さないよう
+// できるが、TCGdexから12,654枚分のcategoryを個別取得する必要がありこのセッションでは未対応
 function extractCharacter(en) {
   if (!en) return "";
   return en.replace(/\s+(VMAX|VSTAR|V-UNION|GX|EX|ex)$/, "").replace(/\s+V$/, "").trim();
@@ -281,9 +290,26 @@ export const CSV_CATEGORY_ID = "183454";
 // CSVを本番アップロードする前に必ずeBayのFile Exchangeテンプレート（またはReportsタブの
 // ダウンロード用テンプレート）で最新の値を確認し、必要ならこの定数を書き換えること
 export const CSV_CONDITION_ID = { graded: "2750", ungraded: "4000" };
+// 2023年10月〜のCondition Descriptor（未鑑定シングルカードは必須）。
+// 列ヘッダー自体にdescriptorのIDを埋め込むFile Exchangeの記法に従う。
+// 未鑑定側（Card Condition）の値IDは判明しているが、鑑定品側（Professional Grader /
+// Grade）の選択肢ごとの値ID（PSA/BGS/CGC/SGCや10/9.5等の個別ID）は未確認のため、
+// 列は用意するが値は空欄のままにしてある。本番アップロード前にeBayのCondition
+// Descriptor IDsドキュメントで実際の値を確認し、CSV_GRADED_DESCRIPTOR_VALUE_IDS等の
+// 定数を追加してから埋めること（未確認のまま推測値を入れるのは事故のもと）
+const CSV_UNGRADED_CONDITION_COLUMN = "CD:Card Condition - (ID: 40001)";
+const CSV_GRADED_GRADER_COLUMN = "CD:Professional Grader - (ID: 27501)";
+const CSV_GRADED_GRADE_COLUMN = "CD:Grade - (ID: 27502)";
+const CSV_GRADED_CERT_COLUMN = "CD:Certification Number - (ID: 27503)";
+const CSV_UNGRADED_CONDITION_VALUE_IDS = {
+  "NM": "400010", "NM/M": "400010", "LP": "400011", "MP": "400012", "HP": "400013",
+};
 const CSV_COLUMNS = [
   "Action", "CustomLabel", "Category", "Title", "Description", "ConditionID",
-  "StartPrice", "Quantity", "BestOfferEnabled", "PicURL",
+  CSV_UNGRADED_CONDITION_COLUMN, CSV_GRADED_GRADER_COLUMN, CSV_GRADED_GRADE_COLUMN,
+  CSV_GRADED_CERT_COLUMN,
+  "Format", "Duration", "StartPrice", "Quantity", "BestOfferEnabled", "PicURL",
+  "ShippingProfileName", "ReturnProfileName", "PaymentProfileName",
   "C:Card Name", "C:Character", "C:Set", "C:Card Number", "C:Rarity", "C:Language",
   "C:Manufacturer", "C:Graded", "C:Professional Grader", "C:Grade",
   "C:Certification Number", "C:Card Condition", "C:Features", "C:Year Manufactured",
@@ -291,6 +317,13 @@ const CSV_COLUMNS = [
 function csvEscape(value) {
   const s = String(value ?? "");
   return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}
+// eBayのDescription列はHTMLとして描画されるため、プレーンテキストの改行を<br>に変換する。
+// 画面表示用のプレーンテキスト（desc）とは別に、CSV出力時だけ変換する
+function descToHtml(text) {
+  const escaped = String(text ?? "")
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return escaped.split("\n").join("<br>");
 }
 // 1件の出品キューエントリからCSVの1行分（列名→値）を組み立てる
 export function buildListingCsvRow(entry) {
@@ -301,12 +334,24 @@ export function buildListingCsvRow(entry) {
     CustomLabel: entry.sku,
     Category: CSV_CATEGORY_ID,
     Title: entry.title,
-    Description: entry.desc,
+    Description: descToHtml(entry.desc),
     ConditionID: isGraded ? CSV_CONDITION_ID.graded : CSV_CONDITION_ID.ungraded,
+    [CSV_UNGRADED_CONDITION_COLUMN]: isGraded ? "" : (CSV_UNGRADED_CONDITION_VALUE_IDS[entry.f.condition] || ""),
+    // 鑑定品側は値ID未確認のため空欄（上記コメント参照）。手動で埋めるかeBayテンプレート確認後に対応
+    [CSV_GRADED_GRADER_COLUMN]: "",
+    [CSV_GRADED_GRADE_COLUMN]: "",
+    [CSV_GRADED_CERT_COLUMN]: "",
+    Format: "FixedPrice",
+    Duration: "GTC",
     StartPrice: entry.f.sellPriceUsd || "",
     Quantity: entry.f.quantity || "1",
     BestOfferEnabled: entry.f.bestOfferEnabled ? "1" : "0",
     PicURL: entry.f.picUrl || "",
+    // ビジネスポリシー名はアカウント固有のため既定値を持たない。CSV編集時か
+    // eBay側テンプレートで手動入力すること
+    ShippingProfileName: "",
+    ReturnProfileName: "",
+    PaymentProfileName: "",
     "C:Card Name": specifics["Card Name"] || "",
     "C:Character": specifics["Character"] || "",
     "C:Set": specifics["Set"] || "",
@@ -323,14 +368,15 @@ export function buildListingCsvRow(entry) {
     "C:Year Manufactured": specifics["Year Manufactured"] || "",
   };
 }
-// 出品キュー配列からFile Exchange形式に近いCSV文字列を組み立てる（ヘッダー行つき、CRLF区切り）
+// 出品キュー配列からFile Exchange形式に近いCSV文字列を組み立てる（ヘッダー行つき、CRLF区切り）。
+// 先頭にUTF-8 BOMを付与し、Excelで開いた際の文字化けを防ぐ
 export function buildListingCsv(entries) {
   const lines = [CSV_COLUMNS.join(",")];
   for (const entry of entries) {
     const row = buildListingCsvRow(entry);
     lines.push(CSV_COLUMNS.map((col) => csvEscape(row[col])).join(","));
   }
-  return lines.join("\r\n");
+  return "\uFEFF" + lines.join("\r\n");
 }
 
 // ---------- eBay相場検索 ----------
@@ -752,10 +798,16 @@ function AppInner() {
   };
 
   const addToQueue = () => {
+    // 同じカード・同じ状態を2枚キューに入れるとSKUが衝突するため、連番を付けて一意化する
+    // （CSVはCustomLabel列が行ごとに一意である必要がある）
+    const used = new Set(queue.map((e) => e.sku));
+    let finalSku = sku;
+    let n = 2;
+    while (used.has(finalSku)) finalSku = `${sku}-${n++}`;
     const entry = {
       id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
       addedAt: new Date().toISOString(),
-      mode, f, title, desc, sku, itemSpecifics,
+      mode, f, title, desc, sku: finalSku, itemSpecifics,
     };
     setQueue((prev) => {
       const next = [...prev, entry];
@@ -776,11 +828,20 @@ function AppInner() {
     setQueue([]);
     saveQueueToStorage([]);
   };
-  // 1BOXから出た複数枚をまとめて出品する際など、キュー全件の仕入れ値を一括で書き換える
+  // 1BOXから出た複数枚をまとめて出品する際など、キュー全件の仕入れ値を一括で書き換える。
+  // 仕入れ値が変わると目標利益率を満たす売値も変わるため、各エントリのtargetMarginPercentを
+  // 使って推奨売値を再計算し、sellPriceUsdも合わせて更新する
   const applyLotCostToQueue = () => {
     if (!lotCostJpy.trim()) return;
     setQueue((prev) => {
-      const next = prev.map((e) => ({ ...e, f: { ...e.f, costJpy: lotCostJpy } }));
+      const next = prev.map((e) => {
+        const updatedF = { ...e.f, costJpy: lotCostJpy };
+        const recommended = roundUpToPsychologicalPrice(
+          computeRecommendedPrice(updatedF, updatedF.targetMarginPercent)
+        );
+        if (recommended != null) updatedF.sellPriceUsd = String(recommended);
+        return { ...e, f: updatedF };
+      });
       saveQueueToStorage(next);
       return next;
     });
