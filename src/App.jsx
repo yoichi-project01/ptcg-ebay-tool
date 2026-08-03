@@ -16,6 +16,22 @@ const PRODUCT_TYPES = [
   { code: "box", label: "ブースターBOX" },
 ];
 const SERIE_ORDER = { M: 0, SV: 1, S: 2, SM: 3, XYb: 4, XY: 5, BW: 6, L: 7, DPt: 8, DP: 9, PCG: 10, ADV: 11, e: 12, VS: 13, web: 14, neo: 15, PMCG: 16 };
+// cardData.json の sr（シリーズコード）から英語シリーズ名を引く。現代タイトル生成
+// （buildModernTitle）でセット英語名の前に付けて検索露出を上げるために使う。
+// 不明な呼称は推測で埋めず、未定義ならタイトル側で単に省略される
+// - SV/S: 海外版TCGの正式シリーズ名
+// - M: 2025年発表の新シリーズ「Mega Evolution」。The Pokémon Companyの公式プレスリリース
+//   （press.pokemon.com "MEDIA ALERT: First Expansion of New Pokémon Trading Card Game:
+//   Mega Evolution Series..."）およびBulbapediaで確認済み
+// - PCG/PMCG/e/neo/VS/web（旧裏世代）はここでは扱わず、旧裏専用のセット単位 enAlias で対応する
+const SERIE_EN_NAMES = {
+  SV: "Scarlet & Violet",
+  S: "Sword & Shield",
+  SM: "Sun & Moon",
+  M: "Mega Evolution",
+};
+// タイトルに "Holo" を追加するレアリティ（現代カードの優先度12）
+const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "UR", "RR", "HR", "CHR", "CSR", "SSR"]);
 const PRINT_VARIANTS = [
   { code: "", label: "指定しない" },
   { code: "No Rarity", label: "No Rarity（ノーレアリティ・レアリティマークなし）" },
@@ -199,7 +215,17 @@ function resolvePrintVariant(f) {
 }
 
 // ---------- タイトル ----------
-export function buildSingleTitle(f) {
+// 実売タイトルの調査に基づく暫定実装（CLAUDE.md参照）。「この形式で売上が伸びる」という
+// 因果関係は検証していない。共通して現れる要素（年号・Japanese・Holo等）は信頼できるが、
+// 実際の効果はSeller Hubのインプレッション数等で形式ごとに比較しないと分からない
+// 旧裏（Old Back）セットは検索のされ方が根本的に異なるため buildVintageTitle に分岐する
+export function buildSingleTitle(f, opts) {
+  if (OLD_BACK_SET_RE.test(f.setCode)) return buildLegacyOldBackTitle(f);
+  return buildModernTitle(f, opts);
+}
+// TODO(タスク5): 旧裏専用の buildVintageTitle に置き換え予定。それまでの間、
+// 従来のフラットな組み立て（優先度なし・80文字時は呼び出し側の警告表示に依存）を維持する
+function buildLegacyOldBackTitle(f) {
   const printVariant = resolvePrintVariant(f);
   const oldBack = OLD_BACK_SET_RE.test(f.setCode) && f.oldBack ? "Old Back" : "";
   const isGraded = f.graded && f.gradingCompany && f.grade.trim();
@@ -208,6 +234,75 @@ export function buildSingleTitle(f) {
     : f.condition;
   return [f.pokemonEn, f.rarity, f.cardNo, f.setCode, f.setNameEn, printVariant, oldBack, "Japanese Pokemon Card", conditionToken]
     .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
+}
+// "Pokemon"という単語を含むセット英語名（例: "Pokemon 151"）は、タイトル中の固定文字列
+// "Pokemon Card" と重複するため、シリーズ英語名と組み合わせる前に単語ごと取り除く
+function buildSetNameToken(setNameEn, serieEn) {
+  if (!setNameEn) return "";
+  const cleaned = setNameEn.replace(/\bpokemon\b/i, "").replace(/\s+/g, " ").trim() || setNameEn;
+  if (serieEn && !cleaned.toLowerCase().includes(serieEn.toLowerCase())) {
+    return `${serieEn} ${cleaned}`;
+  }
+  return cleaned;
+}
+// 削除可能な4要素（優先度9〜12）の内部キー→UI表示用の日本語ラベル
+const MODERN_TITLE_DROPPABLE_LABELS = {
+  setName: "セット英語名", year: "発売年", holo: "Holo", rarityFull: "レアリティのフルスペル",
+};
+// 現代カード（旧裏以外）向けのタイトル組み立て本体。要素を優先度順の配列にし、
+// maxLengthを超えたら削除可能な要素を優先度の低いものから1つずつ落とす。
+// UI側で「何を省略したか」を表示できるよう、落とした要素のキーも一緒に返す
+function assembleModernTitle(f, maxLength) {
+  const isGraded = f.graded && f.gradingCompany && f.grade.trim();
+  const gradedToken = isGraded
+    ? [f.gradingCompany, f.grade.trim(), gradeLabelText(f.grade)].filter(Boolean).join(" ")
+    : "";
+  const setData = CARD_DATA.find((s) => s.c === f.setCode);
+  const serieEn = (setData && SERIE_EN_NAMES[setData.sr]) || "";
+  const setNameToken = buildSetNameToken(f.setNameEn, serieEn);
+  const year = setData?.y ? String(setData.y) : "";
+  const rarityFull = f.rarity ? (RARITY_EN_LABELS[f.rarity] || "") : "";
+  const holo = HOLO_RARITIES.has(f.rarity);
+
+  // 削除可能な4要素（優先度9〜12）。true/falseで含めるかどうかを切り替える
+  const include = { setName: Boolean(setNameToken), year: Boolean(year), holo, rarityFull: Boolean(rarityFull) };
+  const assemble = () => [
+    gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
+    f.pokemonEn, // 2. カード名
+    f.rarity, // 3. レアリティ略号
+    f.cardNo, // 4. カード番号
+    "Japanese", // 5.
+    f.setCode, // 6. セット型番
+    "Pokemon Card", // 7.
+    isGraded ? "" : f.condition, // 8. 状態（未鑑定のみ）
+    include.setName ? setNameToken : "", // 9. セット英語名（削除可）
+    include.year ? year : "", // 10. 発売年（削除可）
+    include.holo ? "Holo" : "", // 11.（削除可）
+    include.rarityFull ? rarityFull : "", // 12. レアリティフルスペル（削除可）
+  ].filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
+
+  let title = assemble();
+  const dropped = [];
+  // 優先度の低いものから順に1要素ずつ落とす。優先度8までの要素は落とさない
+  for (const key of ["rarityFull", "holo", "year", "setName"]) {
+    if (title.length <= maxLength) break;
+    if (include[key]) {
+      include[key] = false;
+      dropped.push(key);
+      title = assemble();
+    }
+  }
+  return { title, dropped };
+}
+export function buildModernTitle(f, { maxLength = 80 } = {}) {
+  return assembleModernTitle(f, maxLength).title;
+}
+// 80文字に収めるために省略した要素（セット英語名・発売年・Holo・レアリティフルスペル）を
+// 日本語ラベルの配列で返す。UI側で「何を省略したか」を表示するために使う
+// （旧裏セットはbuildLegacyOldBackTitle側で扱うため常に空配列）
+export function getDroppedModernTitleParts(f, { maxLength = 80 } = {}) {
+  if (OLD_BACK_SET_RE.test(f.setCode)) return [];
+  return assembleModernTitle(f, maxLength).dropped.map((key) => MODERN_TITLE_DROPPABLE_LABELS[key]);
 }
 function buildPackTitle(f) {
   const type = f.productType === "box" ? "Booster Box" : "Booster Pack";
@@ -736,6 +831,13 @@ function AppInner() {
   useEffect(() => { setDescOverride(null); }, [mode, f]);
   const desc = descOverride ?? generatedDesc;
   const over = title.length > 80;
+  // 80文字に収めるために自動的に省略された要素（セット英語名・発売年・Holo・
+  // レアリティフルスペル）。自動調整が入るため通常は over が発火しなくなるが、
+  // 何が削られたのかは分かるようにしておく
+  const droppedTitleParts = useMemo(
+    () => (mode === "single" ? getDroppedModernTitleParts(f) : []),
+    [mode, f]
+  );
   // セット英語名は buildPackTitle でも使われるため両モード共通、ポケモン名はシングル限定
   const missingSetEn = !f.setNameEn.trim();
   const missingPokemonEn = mode === "single" && !f.pokemonEn.trim();
@@ -1194,6 +1296,11 @@ function AppInner() {
                   <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>
                     eBayのタイトル上限は80文字です（<strong>{title.length - 80}文字オーバー</strong>）。
                     {f.setNameEn && ` セット英語名「${f.setNameEn}」を省くと ${title.length - f.setNameEn.length - 1} 文字になります。`}
+                  </div>
+                )}
+                {droppedTitleParts.length > 0 && (
+                  <div style={{ fontSize: 12, color: "#8b93a7", marginTop: 6 }}>
+                    80文字に収めるため、{droppedTitleParts.join("・")}を省略しました。
                   </div>
                 )}
                 {missingEn && (

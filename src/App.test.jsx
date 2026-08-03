@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import {
-  buildSingleTitle, calcProfit, applyCandidateToForm, searchCards,
+  buildSingleTitle, buildModernTitle, calcProfit, applyCandidateToForm, searchCards,
   buildItemSpecifics, buildConditionGuide, buildSku,
   computeRecommendedPrice, roundUpToPsychologicalPrice,
   buildListingCsvRow, buildListingCsv, normalizeBase,
@@ -28,16 +28,22 @@ const baseCard = {
 };
 
 describe("buildSingleTitle", () => {
-  it("builds an ungraded title from the core fields", () => {
+  it("builds an ungraded title from the core fields, dropping the least important elements to fit 80 chars", () => {
+    // SV1S(スカーレットex)の実データはsetNameEn="Scarlet ex"のため、シリーズ名
+    // "Scarlet & Violet"と組み合わせると"Scarlet & Violet Scarlet ex"となり、
+    // 年号・Holo・レアリティフルスペルまで全部載せると80文字を超える。
+    // 優先度の低いものから落とされ、最終的に必須要素（優先度1〜8）だけが残ることを確認する
     expect(buildSingleTitle(baseCard)).toBe(
-      "Charizard ex SAR 201/165 SV1S Scarlet ex Japanese Pokemon Card NM"
+      "Charizard ex SAR 201/165 Japanese SV1S Pokemon Card NM"
     );
   });
 
   it("omits fields that are empty instead of leaving gaps", () => {
     const title = buildSingleTitle({ ...baseCard, rarity: "", setNameEn: "" });
     expect(title).not.toContain("  ");
-    expect(title).toBe("Charizard ex 201/165 SV1S Japanese Pokemon Card NM");
+    // レアリティが空なのでHolo/レアリティフルスペルは元から出ない。setNameEnも空だが
+    // 発売年(2023)はcardData.jsonのSV1Sから引けるため、80文字に収まる範囲で残る
+    expect(title).toBe("Charizard ex 201/165 Japanese SV1S Pokemon Card NM 2023");
   });
 
   it("does not show 1st Edition wording for sets outside PMCG1-6", () => {
@@ -88,6 +94,63 @@ describe("buildSingleTitle", () => {
     });
     expect(title).toContain("PSA 10 GEM MINT");
     expect(title).not.toContain(" NM");
+  });
+});
+
+// SV2a(ポケモンカード151) リザードンex SAR 201/165 — setNameEnに"Pokemon"を含む
+// 実データ。シリーズ英語名との組み合わせ時に"Pokemon"の重複が起きないことを確認する
+const modernCard = {
+  pokemonEn: "Charizard ex", rarity: "SAR", cardNo: "201/165", setCode: "SV2a",
+  setNameEn: "Pokemon 151", condition: "NM",
+  graded: false, gradingCompany: "", grade: "", certNumber: "",
+};
+
+describe("buildModernTitle", () => {
+  it("fits within 80 chars for an ungraded SAR card with every optional element available", () => {
+    const title = buildModernTitle(modernCard);
+    expect(title.length).toBeLessThanOrEqual(80);
+    // 80文字にちょうど収まる範囲まではセット英語名・発売年を残す（Holo/フルスペルのみ削る）
+    expect(title).toContain("Scarlet & Violet 151");
+    expect(title).toContain("2023");
+  });
+
+  it("places the grading info first for a graded card", () => {
+    const graded = { ...modernCard, graded: true, gradingCompany: "PSA", grade: "10" };
+    const title = buildModernTitle(graded);
+    expect(title.startsWith("PSA 10 GEM MINT")).toBe(true);
+  });
+
+  it("never outputs the word Pokemon twice", () => {
+    const title = buildModernTitle(modernCard);
+    const occurrences = (title.match(/pokemon/gi) || []).length;
+    expect(occurrences).toBe(1);
+  });
+
+  it("keeps every priority-1-through-8 element even for an extremely long card name", () => {
+    const longCard = { ...modernCard, pokemonEn: "A".repeat(60), setNameEn: "B".repeat(40) };
+    const title = buildModernTitle(longCard);
+    expect(title).toContain("A".repeat(60));
+    expect(title).toContain("SAR");
+    expect(title).toContain("201/165");
+    expect(title).toContain("Japanese");
+    expect(title).toContain("SV2a");
+    expect(title).toContain("Pokemon Card");
+    expect(title).toContain("NM");
+  });
+
+  it("does not throw and simply omits the year for a set with no known release year", () => {
+    const noYearSet = { ...modernCard, setCode: "S-P" }; // TCGdexに存在しないためy無し
+    expect(() => buildModernTitle(noYearSet)).not.toThrow();
+    expect(buildModernTitle(noYearSet)).not.toContain("undefined");
+  });
+
+  it("respects a custom maxLength option, dropping all optional elements when it's tight", () => {
+    const title = buildModernTitle(modernCard, { maxLength: 40 });
+    expect(title).not.toContain("2023");
+    expect(title).not.toContain("Scarlet & Violet");
+    // 優先度1〜8の必須要素は40文字を超えていても残る
+    expect(title).toContain("Charizard ex");
+    expect(title).toContain("201/165");
   });
 });
 

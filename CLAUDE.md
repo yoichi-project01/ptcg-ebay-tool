@@ -260,6 +260,33 @@ SV4aの一部）の再発を検知するため、`scripts/check-row-alignment.mj
 - 残課題: PMCG1以外にNo Rarity相当の版が存在するかは未確認のまま。追加情報が見つかれば
   `NO_RARITY_SET_RE` を広げること。
 
+### 対応履歴（2026-08-03）: 現代カード（旧裏以外）のタイトル生成を優先度ベースに刷新
+
+実売タイトル20件以上の調査（外部レビュー起点、CLAUDE.md末尾「補足」参照。因果は未検証）に
+基づき、`buildSingleTitle` を書き換えた。
+
+- **`SERIE_EN_NAMES`（`src/App.jsx`）を追加**: `SV`→"Scarlet & Violet"、`S`→"Sword & Shield"、
+  `SM`→"Sun & Moon"、`M`→"Mega Evolution"。`M`（cardData.json上は2025-2026年発売のsr="M"の
+  4セット）はThe Pokémon Company公式プレスリリース（press.pokemon.com「Mega Evolution
+  Series」）とBulbapediaで確認済み。PCG/PMCG/e/neo/VS/web（旧裏世代）はセット単位の
+  `enAlias`で別途対応する方針のためここには含めない。
+- **`buildSingleTitle` はディスパッチャに変更**: `OLD_BACK_SET_RE`に一致するセットは
+  （タスク5で置き換え予定の）`buildLegacyOldBackTitle`（旧実装をそのまま温存）に委譲し、
+  それ以外は新設の `buildModernTitle(f, { maxLength = 80 })` を使う。
+- **`buildModernTitle`**: 要素を優先度順（鑑定情報→カード名→レアリティ略号→カード番号→
+  Japanese→セット型番→"Pokemon Card"→状態→セット英語名→発売年→Holo→レアリティフルスペル）
+  で組み立て、80文字を超える場合は優先度の低いもの（レアリティフルスペル→Holo→発売年→
+  セット英語名の順）から1つずつ落とす。優先度1〜8の必須要素は文字数超過時も削らない。
+  - `"Pokemon Card"`の重複対策として、セット英語名に含まれる"Pokemon"という単語は
+    シリーズ英語名と組み合わせる前に取り除く（例: setNameEn="Pokemon 151" + serieEn=
+    "Scarlet & Violet" → "Scarlet & Violet 151"）。
+  - 発売年・シリーズ名は `f.setNameEn` ではなく `CARD_DATA` から都度引き直す
+    （フォームの値が古いままでも正しい年を反映するため）。
+  - `getDroppedModernTitleParts(f, opts)` を追加し、80文字調整で省略した要素を
+    日本語ラベルの配列で返す。UIで「80文字に収めるため、〜を省略しました」と表示する
+    （タスク4-3）。
+- 既存の「英語名引き継ぎ事故防止」等の安全対策（`applyCandidateToForm`等）には影響しない。
+
 ---
 
 ## ファイル構成
