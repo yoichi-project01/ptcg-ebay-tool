@@ -3,7 +3,7 @@ import {
   buildSingleTitle, calcProfit, applyCandidateToForm, searchCards,
   buildItemSpecifics, buildConditionGuide, buildSku,
   computeRecommendedPrice, roundUpToPsychologicalPrice,
-  buildListingCsvRow, buildListingCsv,
+  buildListingCsvRow, buildListingCsv, normalizeBase,
 } from "./App.jsx";
 
 const DEFAULT_F = {
@@ -195,6 +195,12 @@ describe("applyCandidateToForm", () => {
     expect(next.sellPriceUsd).toBe("80");
     // 識別情報（カード名・レアリティ等）は carryOverCondition でも必ず新しいカードのものに更新される
     expect(next.pokemonEn).toBe("Charizard");
+  });
+});
+
+describe("normalizeBase", () => {
+  it("treats curly and straight apostrophes as the same string", () => {
+    expect(normalizeBase("Farfetch'd")).toBe(normalizeBase("Farfetch’d"));
   });
 });
 
