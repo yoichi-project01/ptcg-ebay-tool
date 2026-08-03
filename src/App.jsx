@@ -182,7 +182,9 @@ export function applyCandidateToForm(prev, r, { carryOverCondition = false } = {
     pokemonJa: ja, pokemonEn: en || "",
     rarity: RARITIES.includes(rarity) ? rarity : "",
     cardNo: cardNoOf(r.set, local), setCode: r.set.c,
-    setNameJa: r.set.ja, setNameEn: r.set.en || "",
+    // 旧裏セットの一部は英語版が発売されていないためcardData.json側のen(公式訳)が空。
+    // その場合はコミュニティで一貫して使われている英語通称(enAlias、タスク5-2)で補う
+    setNameJa: r.set.ja, setNameEn: r.set.en || r.set.enAlias || "",
   };
 }
 // selectedKey ("setCode/local") からDB上のカード情報を引く。
@@ -220,30 +222,73 @@ function resolvePrintVariant(f) {
 // 実際の効果はSeller Hubのインプレッション数等で形式ごとに比較しないと分からない
 // 旧裏（Old Back）セットは検索のされ方が根本的に異なるため buildVintageTitle に分岐する
 export function buildSingleTitle(f, opts) {
-  if (OLD_BACK_SET_RE.test(f.setCode)) return buildLegacyOldBackTitle(f);
+  if (OLD_BACK_SET_RE.test(f.setCode)) return buildVintageTitle(f, opts);
   return buildModernTitle(f, opts);
 }
-// TODO(タスク5): 旧裏専用の buildVintageTitle に置き換え予定。それまでの間、
-// 従来のフラットな組み立て（優先度なし・80文字時は呼び出し側の警告表示に依存）を維持する
-function buildLegacyOldBackTitle(f) {
-  const printVariant = resolvePrintVariant(f);
-  const oldBack = OLD_BACK_SET_RE.test(f.setCode) && f.oldBack ? "Old Back" : "";
-  const isGraded = f.graded && f.gradingCompany && f.grade.trim();
-  const conditionToken = isGraded
-    ? [f.gradingCompany, f.grade.trim(), gradeLabelText(f.grade)].filter(Boolean).join(" ")
-    : f.condition;
-  return [f.pokemonEn, f.rarity, f.cardNo, f.setCode, f.setNameEn, printVariant, oldBack, "Japanese Pokemon Card", conditionToken]
-    .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
-}
 // "Pokemon"という単語を含むセット英語名（例: "Pokemon 151"）は、タイトル中の固定文字列
-// "Pokemon Card" と重複するため、シリーズ英語名と組み合わせる前に単語ごと取り除く
+// "Pokemon Card" と重複するため、組み合わせる前に単語ごと取り除く
+function stripPokemonWord(s) {
+  if (!s) return "";
+  return s.replace(/\bpokemon\b/i, "").replace(/\s+/g, " ").trim() || s;
+}
 function buildSetNameToken(setNameEn, serieEn) {
-  if (!setNameEn) return "";
-  const cleaned = setNameEn.replace(/\bpokemon\b/i, "").replace(/\s+/g, " ").trim() || setNameEn;
+  const cleaned = stripPokemonWord(setNameEn);
+  if (!cleaned) return "";
   if (serieEn && !cleaned.toLowerCase().includes(serieEn.toLowerCase())) {
     return `${serieEn} ${cleaned}`;
   }
   return cleaned;
+}
+// 旧裏カードのレアリティ表記。cardData.jsonのレアリティ(C/U/R)にはホロ/非ホロの区別が
+// 記録されていない（当時は同じ"R"マークでホロ・非ホロが混在していたため）ため、
+// "Holo"の有無を推測で付け足すことはしない。単純に略号を英単語に開くだけにとどめる
+const VINTAGE_RARITY_LABELS = { C: "Common", U: "Uncommon", R: "Rare" };
+// f.cardNo（"006/102"形式。SKUやentryImage等の画像検索が前提とする内部形式のため
+// ここでは変更しない）から、旧裏の実売タイトルで主流の "No.006" 表記を作る
+function vintageCardNoToken(cardNo) {
+  const local = cardNo ? cardNo.split("/")[0] : "";
+  return local ? `No.${local}` : "";
+}
+// 旧裏（Old Back）セット向けのタイトル生成。現代カードと違い、セット通称・年号・
+// No.番号表記など検索のされ方が根本的に異なるため専用のテンプレートを使う
+export function buildVintageTitle(f, { maxLength = 80 } = {}) {
+  const isGraded = f.graded && f.gradingCompany && f.grade.trim();
+  const gradedToken = isGraded
+    ? [f.gradingCompany, f.grade.trim(), gradeLabelText(f.grade)].filter(Boolean).join(" ")
+    : "";
+  const setData = CARD_DATA.find((s) => s.c === f.setCode);
+  const setNameToken = stripPokemonWord(f.setNameEn);
+  const year = setData?.y ? String(setData.y) : "";
+  const printVariant = resolvePrintVariant(f);
+  const oldBack = OLD_BACK_SET_RE.test(f.setCode) && f.oldBack ? "Old Back" : "";
+  const rarityWord = VINTAGE_RARITY_LABELS[f.rarity] || "";
+
+  // 削除可能な2要素（優先度10〜11）
+  const include = { rarityWord: Boolean(rarityWord), condition: !isGraded && Boolean(f.condition) };
+  const assemble = () => [
+    gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
+    f.pokemonEn, // 2. カード名
+    vintageCardNoToken(f.cardNo), // 3. No.006
+    setNameToken, // 4. セット通称
+    printVariant, // 5. 印刷バリエーション（No Rarity / 1st Edition）
+    "Japanese", // 6.
+    year, // 7. 発売年（現代カードより優先度が高い）
+    oldBack, // 8. Old Back
+    "Pokemon Card", // 9.
+    include.rarityWord ? rarityWord : "", // 10.（削除可）
+    include.condition ? f.condition : "", // 11. 状態（未鑑定のみ、削除可）
+  ].filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
+
+  let title = assemble();
+  // 優先度の低いものから順に1要素ずつ落とす
+  for (const key of ["condition", "rarityWord"]) {
+    if (title.length <= maxLength) break;
+    if (include[key]) {
+      include[key] = false;
+      title = assemble();
+    }
+  }
+  return title;
 }
 // 削除可能な4要素（優先度9〜12）の内部キー→UI表示用の日本語ラベル
 const MODERN_TITLE_DROPPABLE_LABELS = {
@@ -380,6 +425,10 @@ export function buildItemSpecifics(f) {
   }
   if (features.length) pairs.push(["Features", features.join(", ")]);
   if (setData?.y) pairs.push(["Year Manufactured", String(setData.y)]);
+  // eBayの「Vintage」年数しきい値は公式に確認できなかったため、判定条件は増やさず
+  // 旧裏（Old Back）セットであることのみを根拠にする（絶対にやってはいけないこと:
+  // 未確認の閾値を推測で決めない）
+  if (OLD_BACK_SET_RE.test(f.setCode)) pairs.push(["Vintage", "Yes"]);
 
   return pairs.filter(([, value]) => value);
 }

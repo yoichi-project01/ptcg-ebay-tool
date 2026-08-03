@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import {
-  buildSingleTitle, buildModernTitle, calcProfit, applyCandidateToForm, searchCards,
+  buildSingleTitle, buildModernTitle, buildVintageTitle, calcProfit, applyCandidateToForm, searchCards,
   buildItemSpecifics, buildConditionGuide, buildSku,
   computeRecommendedPrice, roundUpToPsychologicalPrice,
   buildListingCsvRow, buildListingCsv, normalizeBase,
@@ -154,6 +154,56 @@ describe("buildModernTitle", () => {
   });
 });
 
+// PMCG1(拡張パック/Base Set) リザードン No.006 — 旧裏・No Rarity・鑑定なしの実データ寄りの例
+const vintageCard = {
+  pokemonEn: "Charizard", rarity: "R", cardNo: "006/102", setCode: "PMCG1",
+  setNameEn: "Base Set", condition: "NM", printVariant: "No Rarity", printVariantNote: "",
+  graded: false, gradingCompany: "", grade: "", certNumber: "", oldBack: true,
+};
+
+describe("buildVintageTitle", () => {
+  it("includes No Rarity in the title", () => {
+    expect(buildVintageTitle(vintageCard)).toContain("No Rarity");
+  });
+
+  it("formats the card number as No.006 instead of 006/102", () => {
+    const title = buildVintageTitle(vintageCard);
+    expect(title).toContain("No.006");
+    expect(title).not.toContain("006/102");
+  });
+
+  it("places the release year ahead of the rarity word, so it survives 80-char trimming first", () => {
+    // カード名を長くして詰めさせ、削除可能な2要素(状態・レアリティ語)のうち
+    // 先に落ちるのがどちらでも、発売年(1996)は非削除可要素なので必ず残ることを確認する
+    const long = { ...vintageCard, pokemonEn: "A".repeat(40) };
+    const title = buildVintageTitle(long);
+    expect(title).toContain("1996");
+  });
+
+  it("does not use the modern full rarity spelling (e.g. Special Art Rare)", () => {
+    const title = buildVintageTitle(vintageCard);
+    expect(title).not.toContain("Special Art Rare");
+    expect(title).not.toContain("Rare Holo"); // ホロ有無はデータに無いため推測で付与しない
+  });
+
+  it("places the grading info first for a graded card", () => {
+    const graded = { ...vintageCard, graded: true, gradingCompany: "PSA", grade: "1" };
+    const title = buildVintageTitle(graded);
+    expect(title.startsWith("PSA 1 PR")).toBe(true);
+  });
+
+  it("does not affect modern (non-old-back) title generation", () => {
+    const modernTitle = buildSingleTitle({
+      pokemonEn: "Charizard ex", rarity: "SAR", cardNo: "201/165", setCode: "SV1S",
+      setNameEn: "Scarlet ex", condition: "NM",
+      graded: false, gradingCompany: "", grade: "", certNumber: "",
+      printVariant: "", printVariantNote: "", oldBack: false,
+    });
+    expect(modernTitle).not.toContain("No.");
+    expect(modernTitle).not.toContain("Old Back");
+  });
+});
+
 describe("calcProfit", () => {
   const base = {
     exchangeRate: "155",
@@ -215,6 +265,19 @@ describe("applyCandidateToForm", () => {
     const next = applyCandidateToForm(withStaleEnglish, r);
     expect(next.pokemonEn).toBe("");
     expect(next.setNameEn).toBe("");
+  });
+
+  it("falls back to the set's enAlias when there is no official English set name (e.g. old-back sets)", () => {
+    const oldBackSet = { c: "PMCG1", ja: "拡張パック", en: "", enAlias: "Base Set" };
+    const r = { set: oldBackSet, card: ["006", "リザードン", "Charizard", "R"] };
+    const next = applyCandidateToForm(DEFAULT_F, r);
+    expect(next.setNameEn).toBe("Base Set");
+  });
+
+  it("prefers the official English set name over enAlias when both are present", () => {
+    const r = { set: { ...withEnglishSet, enAlias: "Should Not Be Used" }, card: ["004", "リザードン", "Charizard", "RR"] };
+    const next = applyCandidateToForm(DEFAULT_F, r);
+    expect(next.setNameEn).toBe("Scarlet ex");
   });
 
   it("falls back to an empty rarity when the candidate's rarity is not a known option", () => {
@@ -355,6 +418,14 @@ describe("buildItemSpecifics", () => {
 
     const jungle = { ...gyaradosCard, setCode: "PMCG2", printVariant: "No Rarity" };
     expect(Object.fromEntries(buildItemSpecifics(jungle))["Features"]).toBeUndefined();
+  });
+
+  it("marks old-back sets as Vintage but not modern sets", () => {
+    const oldBack = { ...gyaradosCard, setCode: "PMCG1" };
+    expect(Object.fromEntries(buildItemSpecifics(oldBack))["Vintage"]).toBe("Yes");
+
+    const modern = { ...gyaradosCard, setCode: "SV1S" };
+    expect(Object.fromEntries(buildItemSpecifics(modern))["Vintage"]).toBeUndefined();
   });
 
   it("drops empty fields instead of outputting blank values", () => {

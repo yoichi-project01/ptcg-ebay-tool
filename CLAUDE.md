@@ -287,6 +287,49 @@ SV4aの一部）の再発を検知するため、`scripts/check-row-alignment.mj
     （タスク4-3）。
 - 既存の「英語名引き継ぎ事故防止」等の安全対策（`applyCandidateToForm`等）には影響しない。
 
+### 対応履歴（2026-08-03）: 旧裏（Old Back）専用タイトル・アイテムスペシフィックの追加
+
+タスク5の残り（5-2〜5-6）に対応。旧裏12セット（`OLD_BACK_SET_RE`: PMCG1-6 / neo1-4 /
+VS1 / web1）は現代カードと検索のされ方が根本的に異なるため、専用のテンプレートを実装した。
+
+- **セット英語通称（enAlias、5-2）**: `cardData.json`のうちen（公式英語名）が空の6セットに
+  `enAlias`フィールドを追加（`scripts/add-old-back-en-alias.mjs`）。
+  PMCG1→"Base Set"、PMCG5→"Leaders' Stadium"、PMCG6→"Challenge from the Darkness"、
+  neo2→"Neo Discovery"、VS1→"Pokemon VS"、web1→"Pokemon Web"。いずれもWeb調査で
+  複数の収集コミュニティサイト（tcgcollector.com/pokemonplug.com/Bulbapedia等）が
+  一貫して使用していることを確認済み（スクリプト内コメントに出典を記載）。
+  PMCG5/6は英語版Gym Heroes/Gym Challengeがこの2弾の内容を再編成したものでカードプールが
+  1:1対応しないため、その訳語は採用しなかった。VS1/web1は英語版が発売されていないため
+  「英語版セット名」ではなく収集コミュニティの通称。
+  `applyCandidateToForm`を`r.set.en || r.set.enAlias || ""`に変更し、公式英語名が
+  無い場合のみenAliasにフォールバックする。
+- **カード番号の表示形式（5-3）**: 旧裏の実売タイトルでは`No.006`形式が主流。ただし
+  `cardNoOf`が返す`f.cardNo`自体（"006/102"形式）を変更すると、SKU生成・
+  Item SpecificsのCard Number・`entryImage`（履歴/キューのサムネイル画像検索。
+  `cardNo.split("/")[0]`を`parseInt`する実装のため、"No.006"形式だと`NaN`になり
+  画像が表示されなくなる）に影響するため、**内部の`f.cardNo`は変更せず**、
+  `buildVintageTitle`内の`vintageCardNoToken()`でタイトル表示時のみ`No.006`に変換する
+  実装にとどめた（当初案の「cardNoOf自体を切り替える」からの意図的な変更点）。
+- **`buildVintageTitle`（5-4）**: 優先度順（鑑定情報→カード名→No.番号→セット通称→
+  印刷バリエーション→Japanese→発売年→Old Back→"Pokemon Card"→レアリティ語→状態）で
+  組み立て、80文字超過時はレアリティ語→状態の順に落とす（この2つのみ削除可）。
+  レアリティのフルスペル（Special Art Rare等）は現代カードのみの概念のため使わない。
+  カードのレアリティ表記（Rare/Uncommon/Common）は`cardData.json`の簡易レアリティ
+  （C/U/R）から機械的に生成するのみで、**「Holo」の有無は推測で付け足していない**
+  （当時は同じ"R"マークでホロ・非ホロが混在しており、cardData.jsonにその区別を
+  記録するフィールドが無いため）。`buildSingleTitle`は`OLD_BACK_SET_RE`一致セットを
+  `buildVintageTitle`に、それ以外を`buildModernTitle`に振り分けるディスパッチャに整理。
+- **発売年の補完（5-5）**: 旧裏12セットは調査の結果、**全セットで既に`y`が入っていた**
+  （PMCG1=1996〜web1=2001）。追加のデータ補完は不要だった。
+- **Vintage判定（5-6）**: `buildItemSpecifics`に`Vintage: Yes`を追加。eBayの
+  「Vintage」判定に使われる年数のしきい値は公式に確認できなかったため、年号による
+  判定は行わず**`OLD_BACK_SET_RE`に一致するセットであることのみを根拠にYesとする**
+  （閾値を推測で決めることは「絶対にやってはいけないこと」に該当するため）。
+  CSV出力（`buildListingCsvRow`）へのVintage列追加は本タスクのスコープ外として見送った。
+- ブラウザで実際の検索→旧裏チェック→No Rarity選択→タイトル/アイテムスペシフィック反映
+  （`Charizard No.021 Base Set No Rarity Japanese 1996 Old Back Pokemon Card Rare NM`、
+  Item Specifics上の`Set: Base Set` `Vintage: Yes`）を確認済み。
+
 ---
 
 ## ファイル構成

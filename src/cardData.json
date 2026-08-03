@@ -7583,7 +7583,8 @@
         "C"
       ]
     ],
-    "y": 1996
+    "y": 1996,
+    "enAlias": "Base Set"
   },
   {
     "c": "PMCG2",
@@ -9165,7 +9166,8 @@
         "R"
       ]
     ],
-    "y": 1998
+    "y": 1998,
+    "enAlias": "Leaders' Stadium"
   },
   {
     "c": "PMCG6",
@@ -9763,7 +9765,8 @@
         "R"
       ]
     ],
-    "y": 1999
+    "y": 1999,
+    "enAlias": "Challenge from the Darkness"
   },
   {
     "c": "S-P",
@@ -71882,7 +71885,8 @@
         ""
       ]
     ],
-    "y": 2001
+    "y": 2001,
+    "enAlias": "Pokemon VS"
   },
   {
     "c": "E1",
@@ -75822,7 +75826,8 @@
         "U"
       ]
     ],
-    "y": 2000
+    "y": 2000,
+    "enAlias": "Neo Discovery"
   },
   {
     "c": "neo3",
@@ -77154,6 +77159,7 @@
         "R"
       ]
     ],
-    "y": 2001
+    "y": 2001,
+    "enAlias": "Pokemon Web"
   }
 ]
