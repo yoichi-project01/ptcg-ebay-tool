@@ -241,6 +241,25 @@ SV4aの一部）の再発を検知するため、`scripts/check-row-alignment.mj
 - **回帰テスト**: `scripts/check-row-alignment.test.mjs` を追加し `npx vitest run` に含めた。
   実データでの0件確認に加え、合成データで英語名列を意図的に2行ずらして検出できることを確認。
 
+### 対応履歴（2026-08-03）: No Rarity（ノーレアリティ）印刷バリエーションの追加
+
+日本版ベースセットには英語版の1st Editionに相当する「No Rarity」（カード右下のレアリティ
+マークが無い最初期版）が存在するが、従来のツールにはこの概念が無く、旧裏カードの中でも
+最も価格に影響する属性が表現できていなかった。
+
+- **Web調査で対象範囲を確認**: PSA/Fanatics Collect等のグレーディング済みカード出品説明を
+  複数確認したところ、"No Rarity Symbol" は一貫して「1996年の日本版拡張パック（Base Set）の
+  初回印刷」を指すものとして扱われており、ポケモンジャングル/化石の秘密/ロケット団
+  （PMCG2-4）やジム弾（PMCG5-6）に同種の情報は見つからなかった。このため
+  `NO_RARITY_SET_RE = /^PMCG1$/i` として1st Edition（`PRINT_VARIANT_SET_RE`、PMCG1-6全体）
+  より狭い範囲で実装した。
+- **実装箇所（`src/App.jsx`）**: `PRINT_VARIANTS` に `No Rarity` を追加し、UIの選択肢は
+  `NO_RARITY_SET_RE` に一致するセット（実質PMCG1のみ）でのみ表示。`resolvePrintVariant(f)`
+  で「セットに対して有効な値か」を毎回検証し（履歴読み込み等でセットコードだけ後から
+  変わった場合の防御）、タイトル・Item SpecificsのFeatures・SKU（`NR`サフィックス）に反映。
+- 残課題: PMCG1以外にNo Rarity相当の版が存在するかは未確認のまま。追加情報が見つかれば
+  `NO_RARITY_SET_RE` を広げること。
+
 ---
 
 ## ファイル構成

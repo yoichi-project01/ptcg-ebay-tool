@@ -71,6 +71,14 @@ describe("buildSingleTitle", () => {
     expect(title).not.toContain("Old Back");
   });
 
+  it("shows No Rarity only for PMCG1 (1996 Base Set first print)", () => {
+    const onBase = buildSingleTitle({ ...baseCard, setCode: "PMCG1", printVariant: "No Rarity" });
+    expect(onBase).toContain("No Rarity");
+
+    const onJungle = buildSingleTitle({ ...baseCard, setCode: "PMCG2", printVariant: "No Rarity" });
+    expect(onJungle).not.toContain("No Rarity");
+  });
+
   it("replaces the condition token with grading info when graded", () => {
     const title = buildSingleTitle({
       ...baseCard,
@@ -278,6 +286,14 @@ describe("buildItemSpecifics", () => {
     expect(map2["Features"]).toBeUndefined();
   });
 
+  it("includes No Rarity in Features only for PMCG1, not other PMCG sets", () => {
+    const baseSet = { ...gyaradosCard, setCode: "PMCG1", printVariant: "No Rarity" };
+    expect(Object.fromEntries(buildItemSpecifics(baseSet))["Features"]).toBe("No Rarity");
+
+    const jungle = { ...gyaradosCard, setCode: "PMCG2", printVariant: "No Rarity" };
+    expect(Object.fromEntries(buildItemSpecifics(jungle))["Features"]).toBeUndefined();
+  });
+
   it("drops empty fields instead of outputting blank values", () => {
     const noEnglish = { ...gyaradosCard, pokemonEn: "", setNameEn: "" };
     const map = Object.fromEntries(buildItemSpecifics(noEnglish));
@@ -315,6 +331,14 @@ describe("buildSku", () => {
   it("appends 1ST only for PMCG1-6 with 1st Edition selected", () => {
     const firstEd = { ...gyaradosCard, setCode: "PMCG1", cardNo: "004/102", printVariant: "1st Edition" };
     expect(buildSku(firstEd, "single")).toBe("PMCG1-004-NM-1ST");
+  });
+
+  it("appends NR only for PMCG1 with No Rarity selected", () => {
+    const noRarity = { ...gyaradosCard, setCode: "PMCG1", cardNo: "004/102", printVariant: "No Rarity" };
+    expect(buildSku(noRarity, "single")).toBe("PMCG1-004-NM-NR");
+
+    const notEligible = { ...gyaradosCard, setCode: "PMCG2", cardNo: "004/102", printVariant: "No Rarity" };
+    expect(buildSku(notEligible, "single")).not.toContain("NR");
   });
 
   it("builds a pack-mode SKU from set code and product type", () => {
