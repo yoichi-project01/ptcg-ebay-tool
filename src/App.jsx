@@ -15,6 +15,20 @@ const PRODUCT_TYPES = [
   { code: "pack", label: "ブースターパック" },
   { code: "box", label: "ブースターBOX" },
 ];
+// 状態説明の定型フレーズ。日本語のカード用語を英語にする際の表現ブレを防ぐ。
+// INAD（Item Not As Described）クレームの主因である「状態の説明」を定型化する目的なので、
+// 自由記述（conditionNotes）と併用可能にしてあり、これで表現しきれない特殊な状態は
+// 引き続き自由記述で補う
+const CONDITION_PHRASES = [
+  { code: "edge_white",   ja: "縁の白かけ",         en: "slight edge whitening" },
+  { code: "corner_white", ja: "角の白かけ",         en: "minor corner whitening" },
+  { code: "scratch",      ja: "表面のキズ",         en: "light surface scratches" },
+  { code: "bend",         ja: "反り",               en: "a slight bend" },
+  { code: "dent",         ja: "へこみ・押し跡",     en: "a small indentation" },
+  { code: "factory",      ja: "初期キズ（製造時）", en: "a factory print defect" },
+  { code: "offcenter",    ja: "センタリングずれ",   en: "off-center centering" },
+  { code: "clean",        ja: "目立った傷や汚れなし", en: "no major flaws" },
+];
 const SERIE_ORDER = { M: 0, SV: 1, S: 2, SM: 3, XYb: 4, XY: 5, BW: 6, L: 7, DPt: 8, DP: 9, PCG: 10, ADV: 11, e: 12, VS: 13, web: 14, neo: 15, PMCG: 16 };
 // cardData.json の sr（シリーズコード）から英語シリーズ名を引く。現代タイトル生成
 // （buildModernTitle）でセット英語名の前に付けて検索露出を上げるために使う。
@@ -84,6 +98,7 @@ const DEFAULT_FORM = {
   // 追跡ありを既定にして守れないと defect（評価の欠陥）になるため、安全側に倒す判断
   shippingMethod: "smallpacket", packingLevel: "standard", smokeFree: true,
   pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
+  conditionPhrases: [],
   printVariant: "", printVariantNote: "", oldBack: false,
   graded: false, gradingCompany: "", grade: "", certNumber: "",
   costJpy: "", extraCostJpy: "", exchangeRate: "155", sellPriceUsd: "", ebayFeePercent: "13.25", ebayFixedFeeUsd: "0.40", shippingCostUsd: "",
@@ -97,7 +112,7 @@ const DEFAULT_FORM = {
 const PER_LISTING_FIELDS = {
   pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "",
   setNameJa: "", setNameEn: "", setCode: "",
-  condition: "NM", conditionNotes: "",
+  condition: "NM", conditionNotes: "", conditionPhrases: [],
   printVariant: "", printVariantNote: "", oldBack: false,
   graded: false, gradingCompany: "", grade: "", certNumber: "",
   costJpy: "", extraCostJpy: "", sellPriceUsd: "", picUrl: "",
@@ -678,6 +693,21 @@ function buildShippingBlock(f) {
     `- Estimated delivery: ${method.days} depending on your country and customs`,
   ].filter(Boolean).join("\n");
 }
+// 選択された状態フレーズ（CONDITION_PHRASESのcode配列）を自然な英文にまとめる。
+// "clean"（目立った傷なし）は他のフレーズと矛盾するため、選ばれていたら単独で出力する
+export function buildConditionPhrasesSentence(codes) {
+  if (!codes || codes.length === 0) return "";
+  const selected = CONDITION_PHRASES.filter((p) => codes.includes(p.code));
+  if (selected.length === 0) return "";
+  const clean = selected.find((p) => p.code === "clean");
+  const list = clean ? [clean] : selected;
+  const phrases = list.map((p) => p.en);
+  let joined;
+  if (phrases.length === 1) joined = phrases[0];
+  else if (phrases.length === 2) joined = `${phrases[0]} and ${phrases[1]}`;
+  else joined = `${phrases.slice(0, -1).join(", ")}, and ${phrases[phrases.length - 1]}`;
+  return `This card has ${joined}.`;
+}
 export function buildSingleDesc(f) {
   const notes = f.conditionNotes.trim();
   const inScope = PRINT_VARIANT_SET_RE.test(f.setCode);
@@ -696,11 +726,13 @@ export function buildSingleDesc(f) {
     conditionLine = `${cond ? `${cond.en} (${cond.code})` : f.condition || "See photos"} — please see photos for the actual condition.`;
   }
 
+  const phrasesSentence = !isGraded ? buildConditionPhrasesSentence(f.conditionPhrases) : "";
+
   const conditionNotesBlock = isGraded
     ? `${notes ? `- ${notes}` : "- No notes on the slab/case. Please check all photos before purchase."}
 - Card is professionally graded and sealed in its original ${f.gradingCompany} holder.
 - Shipped securely wrapped in bubble wrap inside a rigid box.`
-    : `${notes ? `- ${notes}` : "- No major flaws noted. Please check all photos before purchase."}${f.smokeFree ? "\n- Stored in a smoke-free environment, kept sleeved." : ""}`;
+    : `${notes ? `- ${notes}` : "- No major flaws noted. Please check all photos before purchase."}${phrasesSentence ? `\n- Condition notes: ${phrasesSentence}` : ""}${f.smokeFree ? "\n- Stored in a smoke-free environment, kept sleeved." : ""}`;
 
   return `Thank you for checking out my listing!
 
@@ -880,6 +912,15 @@ function AppInner() {
   const [f, setF] = useState(DEFAULT_FORM);
   const set = (k) => (e) =>
     setF((p) => ({ ...p, [k]: e.target.type === "checkbox" ? e.target.checked : e.target.value }));
+  const toggleConditionPhrase = (code) => (e) => {
+    const checked = e.target.checked;
+    setF((p) => ({
+      ...p,
+      conditionPhrases: checked
+        ? [...p.conditionPhrases, code]
+        : p.conditionPhrases.filter((c) => c !== code),
+    }));
+  };
 
   const [history, setHistory] = useState(() => loadHistory());
   const [historyFilter, setHistoryFilter] = useState("");
@@ -1231,6 +1272,15 @@ function AppInner() {
                   <>
                     <Field label="状態（コンディション）" hint="迷ったら1段階低めが安全です">
                       <select style={inputStyle} value={f.condition} onChange={set("condition")}>{CONDITIONS.map((c) => <option key={c.code} value={c.code}>{c.code} — {c.label}</option>)}</select>
+                    </Field>
+                    <Field label="状態の説明（定型フレーズ）" hint="選ぶと英文が自動で組み立てられます。特殊な状態は下の自由記述で補ってください">
+                      <div style={{ display: "flex", flexWrap: "wrap", gap: "6px 14px" }}>
+                        {CONDITION_PHRASES.map((p) => (
+                          <label key={p.code} style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 12, fontWeight: 600, color: "#3b4256" }}>
+                            <input type="checkbox" checked={f.conditionPhrases.includes(p.code)} onChange={toggleConditionPhrase(p.code)} />{p.ja}
+                          </label>
+                        ))}
+                      </div>
                     </Field>
                     <Field label="状態の補足（英語・任意）" hint="例: Tiny whitening on the back bottom edge (see photo #4)">
                       <textarea style={{ ...inputStyle, minHeight: 60, resize: "vertical" }} value={f.conditionNotes} onChange={set("conditionNotes")} placeholder="傷や白かけがあれば正直に記載" />

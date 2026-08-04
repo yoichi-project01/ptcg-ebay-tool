@@ -5,6 +5,7 @@ import {
   computeRecommendedPrice, roundUpToPsychologicalPrice,
   buildListingCsvRow, buildListingCsv, normalizeBase,
   buildSingleDesc, buildPackDesc, SHIPPING_METHODS, PACKING_LEVELS,
+  buildConditionPhrasesSentence,
 } from "./App.jsx";
 
 const DEFAULT_F = {
@@ -308,6 +309,13 @@ describe("applyCandidateToForm", () => {
     expect(next.sellPriceUsd).toBe("");
   });
 
+  it("resets conditionPhrases from the previous card", () => {
+    const prevListing = { ...DEFAULT_F, conditionPhrases: ["edge_white", "scratch"] };
+    const r = { set: withEnglishSet, card: ["004", "リザードン", "Charizard", "RR"] };
+    const next = applyCandidateToForm(prevListing, r);
+    expect(next.conditionPhrases).toEqual([]);
+  });
+
   it("keeps operational fields (shipFrom, exchangeRate) that stay the same across listings", () => {
     const prevListing = { ...DEFAULT_F, shipFrom: "Tokyo, Japan", exchangeRate: "150" };
     const r = { set: withEnglishSet, card: ["004", "リザードン", "Charizard", "RR"] };
@@ -564,6 +572,55 @@ describe("buildSingleDesc / buildPackDesc — shipping", () => {
     const desc = buildPackDesc({ ...packCard, shippingMethod: "smallpacket" });
     expect(desc).not.toMatch(/tracking/i);
     expect(desc).toContain("2-4 weeks");
+  });
+});
+
+// タスク4: 状態表記の定型フレーズ化
+describe("buildConditionPhrasesSentence", () => {
+  it("returns an empty string when nothing is selected", () => {
+    expect(buildConditionPhrasesSentence([])).toBe("");
+    expect(buildConditionPhrasesSentence(undefined)).toBe("");
+  });
+
+  it("joins two phrases with 'and'", () => {
+    expect(buildConditionPhrasesSentence(["edge_white", "scratch"])).toBe(
+      "This card has slight edge whitening and light surface scratches."
+    );
+  });
+
+  it("joins three or more phrases with an Oxford comma", () => {
+    const sentence = buildConditionPhrasesSentence(["edge_white", "scratch", "bend"]);
+    expect(sentence).toBe(
+      "This card has slight edge whitening, light surface scratches, and a slight bend."
+    );
+  });
+
+  it("outputs 'clean' alone even when other phrases are also selected", () => {
+    const sentence = buildConditionPhrasesSentence(["edge_white", "clean"]);
+    expect(sentence).toBe("This card has no major flaws.");
+    expect(sentence).not.toContain("edge whitening");
+  });
+});
+
+describe("buildSingleDesc — condition phrases", () => {
+  it("includes the assembled sentence in the description when phrases are selected", () => {
+    const desc = buildSingleDesc({ ...shippingCard, conditionPhrases: ["edge_white", "scratch"] });
+    expect(desc).toContain("Condition notes: This card has slight edge whitening and light surface scratches.");
+  });
+
+  it("still shows the free-text conditionNotes alongside the assembled sentence", () => {
+    const desc = buildSingleDesc({
+      ...shippingCard,
+      conditionNotes: "Please see photo #3 closely",
+      conditionPhrases: ["dent"],
+    });
+    expect(desc).toContain("Please see photo #3 closely");
+    expect(desc).toContain("This card has a small indentation.");
+  });
+
+  it("omits the condition-phrase line entirely when none are selected", () => {
+    const desc = buildSingleDesc({ ...shippingCard, conditionPhrases: [] });
+    expect(desc).not.toContain("Condition notes: This card has");
   });
 });
 
