@@ -111,7 +111,7 @@ const DEFAULT_FORM = {
   conditionPhrases: [],
   printVariant: "", printVariantNote: "", oldBack: false,
   graded: false, gradingCompany: "", grade: "", certNumber: "",
-  costJpy: "", extraCostJpy: "", exchangeRate: "155",
+  costJpy: "", extraCostJpy: "", exchangeRate: "155", exchangeRateUpdatedAt: "",
   // 落札手数料13.25〜15.3% + 国際取引手数料1.35% + 為替手数料約2%の実効レート。
   // 18%は取引実績が無い時点の概算。Seller Hubの請求明細から実測値が出たら置き換えること
   sellPriceUsd: "", ebayFeePercent: "18", ebayFixedFeeUsd: "0.40", shippingCostUsd: "",
@@ -954,6 +954,11 @@ function AppInner() {
   const [f, setF] = useState(DEFAULT_FORM);
   const set = (k) => (e) =>
     setF((p) => ({ ...p, [k]: e.target.type === "checkbox" ? e.target.checked : e.target.value }));
+  // 為替レートは自動取得しない（依存が増えるため）。値が変更されたときだけ更新日を記録する
+  const setExchangeRate = (e) => {
+    const value = e.target.value;
+    setF((p) => (p.exchangeRate === value ? p : { ...p, exchangeRate: value, exchangeRateUpdatedAt: new Date().toISOString() }));
+  };
   const toggleConditionPhrase = (code) => (e) => {
     const checked = e.target.checked;
     setF((p) => ({
@@ -1420,14 +1425,19 @@ function AppInner() {
               eBay側の同梱割引（Shipping discount profile）を設定してからONにしてください。
               設定前にONにすると、説明文と実際の請求額が食い違います。
             </p>
-            <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-              <div style={{ flex: 1 }}><Field label="数量" hint="CSV出品時のQuantity"><input style={inputStyle} inputMode="numeric" value={f.quantity} onChange={set("quantity")} /></Field></div>
-              <div style={{ flex: 1, paddingTop: 22 }}>
-                <label style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
-                  <input type="checkbox" checked={f.bestOfferEnabled} onChange={set("bestOfferEnabled")} />Best Offerを有効にする
-                </label>
+            {/* quantity/picUrl/bestOfferEnabledはCSV一括出品でしか使われない。月10品の上限下では
+                CSVを使わないため、チェックしても何も起きず混乱の元になる。削除はせず折りたたむ
+                （上限解除後にCSV一括出品を再開したら使う） */}
+            <details style={{ marginBottom: 14 }}>
+              <summary style={{ fontSize: 12.5, fontWeight: 700, color: "#8b93a7", cursor: "pointer" }}>CSV一括出品用の設定（現在未使用）</summary>
+              <div style={{ display: "flex", gap: 10, alignItems: "center", marginTop: 10 }}>
+                <div style={{ flex: 1 }}><Field label="数量" hint="CSV出品時のQuantity"><input style={inputStyle} inputMode="numeric" value={f.quantity} onChange={set("quantity")} /></Field></div>
+                <div style={{ flex: 1 }}><Field label="画像URL（任意）" hint="CSV出品時のPicURL。画像ホスティング環境が無い場合は空欄のままでよい"><input style={inputStyle} value={f.picUrl} onChange={set("picUrl")} /></Field></div>
               </div>
-            </div>
+              <label style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
+                <input type="checkbox" checked={f.bestOfferEnabled} onChange={set("bestOfferEnabled")} />Best Offerを有効にする
+              </label>
+            </details>
 
             <details open={profitOpen} onToggle={(e) => setProfitOpen(e.target.open)} style={{ marginTop: 8, paddingTop: 16, borderTop: "1.5px solid #eef0f7" }}>
               <summary style={{ margin: "0 0 4px", fontSize: 13.5, fontWeight: 800, cursor: "pointer" }}>利益計算（任意）</summary>
@@ -1461,7 +1471,11 @@ function AppInner() {
                 <div style={{ flex: 1 }}><Field label="発送実費（USD・任意）"><input style={inputStyle} inputMode="decimal" value={f.shippingCostUsd} onChange={set("shippingCostUsd")} placeholder="例: 5" /></Field></div>
               </div>
               <div style={{ display: "flex", gap: 10 }}>
-                <div style={{ flex: 1 }}><Field label="為替レート（円/USD）"><input style={inputStyle} inputMode="decimal" value={f.exchangeRate} onChange={set("exchangeRate")} /></Field></div>
+                <div style={{ flex: 1 }}>
+                  <Field label="為替レート（円/USD）" hint={f.exchangeRateUpdatedAt ? `最終更新: ${new Date(f.exchangeRateUpdatedAt).toLocaleDateString("ja-JP")}` : "自動取得はしません。手動で更新してください"}>
+                    <input style={inputStyle} inputMode="decimal" value={f.exchangeRate} onChange={setExchangeRate} />
+                  </Field>
+                </div>
                 <div style={{ flex: 1 }}>
                   <Field label="eBay手数料率（%）" hint="落札手数料・国際取引手数料・為替手数料を合算した実効レート。初期値18%は概算。取引実績が出たら、Seller Hubの請求明細から「売上に対する手数料合計」を逆算して実測値に置き換えること">
                     <input style={inputStyle} inputMode="decimal" value={f.ebayFeePercent} onChange={set("ebayFeePercent")} />
