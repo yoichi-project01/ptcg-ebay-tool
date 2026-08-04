@@ -576,6 +576,27 @@ describe("buildSingleDesc / buildPackDesc — shipping", () => {
 });
 
 // タスク4: 状態表記の定型フレーズ化
+// タスク2: 同梱案内の追加
+describe("buildSingleDesc / buildPackDesc — combined shipping", () => {
+  it("includes the combined-shipping lines when combinedShipping is true", () => {
+    const desc = buildSingleDesc({ ...shippingCard, combinedShipping: true });
+    expect(desc).toContain("Combined shipping available: buy multiple items and pay shipping only once");
+    expect(desc).toContain("Please add all items to your cart and request a combined invoice before paying");
+  });
+
+  it("omits the combined-shipping lines when combinedShipping is false", () => {
+    const desc = buildSingleDesc({ ...shippingCard, combinedShipping: false });
+    expect(desc).not.toContain("Combined shipping available");
+    expect(desc).not.toContain("combined invoice");
+  });
+
+  it("applies the same combined-shipping lines to pack/box descriptions", () => {
+    const packCard = { setNameEn: "Pokemon 151", setCode: "SV2a", productType: "pack", cardsPerPack: "5", ...shippingCard, combinedShipping: true };
+    const desc = buildPackDesc(packCard);
+    expect(desc).toContain("Combined shipping available");
+  });
+});
+
 describe("buildConditionPhrasesSentence", () => {
   it("returns an empty string when nothing is selected", () => {
     expect(buildConditionPhrasesSentence([])).toBe("");

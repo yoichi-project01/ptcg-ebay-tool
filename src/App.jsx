@@ -97,6 +97,10 @@ const DEFAULT_FORM = {
   // shippingMethod は最も控えめな "smallpacket"（追跡なし・2-4週間）を既定にしてある。
   // 追跡ありを既定にして守れないと defect（評価の欠陥）になるため、安全側に倒す判断
   shippingMethod: "smallpacket", packingLevel: "standard", smokeFree: true,
+  // combinedShipping はeBay側の同梱割引設定（Shipping discount profile）が完了するまでfalseで運用する。
+  // 設定前にtrueにすると、説明文で「同梱できます」と書きながら実際は割引されない事故になる。
+  // 設定完了後にtrueへ切り替える（ユーザー指示）
+  combinedShipping: false,
   pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
   conditionPhrases: [],
   printVariant: "", printVariantNote: "", oldBack: false,
@@ -691,6 +695,11 @@ function buildShippingBlock(f) {
     // （実際には追跡できないのに追跡ありと誤解させないため）
     method.tracking ? "- Tracking number provided" : "",
     `- Estimated delivery: ${method.days} depending on your country and customs`,
+    // 送料$9は1発送あたりの固定費なので、複数枚まとめ買いしてもらえるかどうかが採算の生命線。
+    // 「支払い前に同梱請求書を依頼してください」が無いとバイヤーが個別決済してしまい、
+    // 同梱できず送料を返金する手間が発生する
+    f.combinedShipping ? "- Combined shipping available: buy multiple items and pay shipping only once" : "",
+    f.combinedShipping ? "- Please add all items to your cart and request a combined invoice before paying" : "",
   ].filter(Boolean).join("\n");
 }
 // 選択された状態フレーズ（CONDITION_PHRASESのcode配列）を自然な英文にまとめる。
@@ -1350,6 +1359,13 @@ function AppInner() {
             <label style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
               <input type="checkbox" checked={f.smokeFree} onChange={set("smokeFree")} />保管環境は喫煙者のいない環境（事実の場合のみON）
             </label>
+            <label style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
+              <input type="checkbox" checked={f.combinedShipping} onChange={set("combinedShipping")} />同梱案内を説明文に含める
+            </label>
+            <p style={{ margin: "0 0 14px", fontSize: 11, color: "#8b93a7", lineHeight: 1.6 }}>
+              eBay側の同梱割引（Shipping discount profile）を設定してからONにしてください。
+              設定前にONにすると、説明文と実際の請求額が食い違います。
+            </p>
             <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
               <div style={{ flex: 1 }}><Field label="数量" hint="CSV出品時のQuantity"><input style={inputStyle} inputMode="numeric" value={f.quantity} onChange={set("quantity")} /></Field></div>
               <div style={{ flex: 1, paddingTop: 22 }}>
