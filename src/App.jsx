@@ -75,6 +75,12 @@ function gradeLabelText(grade) {
 }
 const HISTORY_KEY = "ptcg-ebay-tool:history";
 const HISTORY_LIMIT = 60;
+// 新規eBayアカウントの出品上限（月10品・総額$500）。90日程度の良好な取引実績が
+// 積み上がると解除・引き上げされるため、ハードコードせずUIから編集できるようにし
+// localStorageに保存する（LISTING_LIMIT_KEY）。ここでの値は変更されなかった場合の初期値
+const LISTING_LIMIT_COUNT = 10;
+const LISTING_LIMIT_VALUE_USD = 500;
+const LISTING_LIMIT_KEY = "ptcg-ebay-tool:listingLimit";
 
 // 日本から少額カードを送る場合の現実的な選択肢。
 // 日数は保守的に長めに設定してある。実際に発送して実績が出たら、
@@ -656,6 +662,18 @@ function loadHistory() {
 function saveHistoryToStorage(list) {
   try { localStorage.setItem(HISTORY_KEY, JSON.stringify(list)); } catch {}
 }
+// 今月ツールで保存した出品の件数・売値合計を集計する（出品枠の目安表示用）。
+// 注意: これは「ツールで履歴に保存した件数」であり「実際にeBayに出した出品数」ではない。
+// eBayの出品上限は「出品数と落札数の合計」で数えるため、正確な残量は必ずSeller Hubで確認すること
+export function computeMonthlyUsage(history, now = new Date()) {
+  const thisMonth = history.filter((e) => {
+    const d = new Date(e.savedAt);
+    return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth();
+  });
+  const usedCount = thisMonth.length;
+  const usedValue = thisMonth.reduce((a, e) => a + (parseFloat(e.f?.sellPriceUsd) || 0), 0);
+  return { usedCount, usedValue };
+}
 // history・queue の両方で使う: entry.f から画像パスを引く
 function entryImage(entry) {
   const local = entry.f.cardNo ? entry.f.cardNo.split("/")[0] : "";
@@ -945,6 +963,27 @@ function AppInner() {
   useEffect(() => {
     try { localStorage.setItem("ptcg-ebay-tool:profitOpen", profitOpen ? "1" : "0"); } catch {}
   }, [profitOpen]);
+
+  // 出品枠（月10品・$500）の上限値。90日程度で解除・引き上げされる想定のため
+  // ハードコードせずlocalStorageに保存し、UIから編集できるようにする
+  const [listingLimit, setListingLimit] = useState(() => {
+    try {
+      const raw = localStorage.getItem(LISTING_LIMIT_KEY);
+      const parsed = raw ? JSON.parse(raw) : null;
+      return {
+        count: parsed?.count > 0 ? parsed.count : LISTING_LIMIT_COUNT,
+        value: parsed?.value > 0 ? parsed.value : LISTING_LIMIT_VALUE_USD,
+      };
+    } catch {
+      return { count: LISTING_LIMIT_COUNT, value: LISTING_LIMIT_VALUE_USD };
+    }
+  });
+  useEffect(() => {
+    try { localStorage.setItem(LISTING_LIMIT_KEY, JSON.stringify(listingLimit)); } catch {}
+  }, [listingLimit]);
+  const monthlyUsage = useMemo(() => computeMonthlyUsage(history), [history]);
+  const remainingCount = Math.max(0, listingLimit.count - monthlyUsage.usedCount);
+  const remainingValue = Math.max(0, listingLimit.value - monthlyUsage.usedValue);
 
   const candidates = useMemo(
     () => (searchQuery.trim().length >= 2 ? searchCards(searchQuery) : []),
@@ -1473,6 +1512,11 @@ function AppInner() {
                     ⚠ {missingPokemonEn && missingSetEn ? "英語名・セット英語名" : missingPokemonEn ? "英語名" : "セット英語名"}がデータに未登録です。前に選んだカードの英語名が残っていないか確認し、手入力してからコピーしてください。
                   </div>
                 )}
+                {f.sellPriceUsd && parseFloat(f.sellPriceUsd) > remainingValue && (
+                  <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>
+                    ⚠ この価格(${parseFloat(f.sellPriceUsd).toFixed(2)})は今月の残枠(${remainingValue.toFixed(2)})を超えます
+                  </div>
+                )}
                 <div style={{ marginTop: 12, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
                   <CopyBtn text={title} label="タイトルをコピー" />
                   {ebaySoldUrl && (
@@ -1609,6 +1653,34 @@ function AppInner() {
             </div>
           </section>
         )}
+
+        <section style={{ background: "#fff", borderRadius: 16, padding: "20px 22px", boxShadow: "0 1px 4px rgba(26,34,56,.06)", marginTop: 20 }}>
+          <h2 style={{ margin: "0 0 4px", fontSize: 15, fontWeight: 800 }}>今月の出品枠</h2>
+          <p style={{ margin: "0 0 10px", fontSize: 15, fontWeight: 700, color: "#1a2238" }}>
+            {monthlyUsage.usedCount}/{listingLimit.count}品　${monthlyUsage.usedValue.toFixed(0)}/${listingLimit.value.toFixed(0)}
+            　（残り {remainingCount}品 / ${remainingValue.toFixed(0)}）
+          </p>
+          <div style={{ display: "flex", gap: 10, alignItems: "flex-end", flexWrap: "wrap", marginBottom: 10 }}>
+            <div style={{ maxWidth: 160 }}>
+              <Field label="上限（件数）">
+                <input style={inputStyle} inputMode="numeric" value={listingLimit.count}
+                  onChange={(e) => setListingLimit((p) => ({ ...p, count: parseFloat(e.target.value) || 0 }))} />
+              </Field>
+            </div>
+            <div style={{ maxWidth: 160 }}>
+              <Field label="上限（総額USD）">
+                <input style={inputStyle} inputMode="decimal" value={listingLimit.value}
+                  onChange={(e) => setListingLimit((p) => ({ ...p, value: parseFloat(e.target.value) || 0 }))} />
+              </Field>
+            </div>
+          </div>
+          <p style={{ margin: 0, fontSize: 11, color: "#8b93a7", lineHeight: 1.6 }}>
+            ※ あくまで目安です。この集計は「このツールで履歴に保存した出品」の件数・売値合計であり、
+            「実際にeBayに出した出品」ではありません。またeBayの出品上限は出品数と落札数の合計で
+            カウントされます。正確な残量は必ずeBay Seller Hubで確認してください。上限値は90日程度で
+            解除・引き上げされるため、変わったらここで書き換えてください。
+          </p>
+        </section>
 
         {history.length > 0 && (
           <section style={{ background: "#fff", borderRadius: 16, padding: "20px 22px", boxShadow: "0 1px 4px rgba(26,34,56,.06)", marginTop: 20 }}>

@@ -5,7 +5,7 @@ import {
   computeRecommendedPrice, roundUpToPsychologicalPrice,
   buildListingCsvRow, buildListingCsv, normalizeBase,
   buildSingleDesc, buildPackDesc, SHIPPING_METHODS, PACKING_LEVELS,
-  buildConditionPhrasesSentence,
+  buildConditionPhrasesSentence, computeMonthlyUsage,
 } from "./App.jsx";
 
 const DEFAULT_F = {
@@ -642,6 +642,36 @@ describe("buildSingleDesc — condition phrases", () => {
   it("omits the condition-phrase line entirely when none are selected", () => {
     const desc = buildSingleDesc({ ...shippingCard, conditionPhrases: [] });
     expect(desc).not.toContain("Condition notes: This card has");
+  });
+});
+
+// タスク5: 出品枠カウンター
+describe("computeMonthlyUsage", () => {
+  const now = new Date("2026-08-15T12:00:00Z");
+  const entry = (savedAt, sellPriceUsd) => ({ savedAt, f: { sellPriceUsd } });
+
+  it("counts only entries saved in the same month/year as now", () => {
+    // タイムゾーンによる月またぎ誤判定を避けるため、月境界からは十分離した日時を使う
+    const history = [
+      entry("2026-08-05T12:00:00Z", "10"),
+      entry("2026-08-25T12:00:00Z", "20"),
+      entry("2026-07-15T12:00:00Z", "999"), // 前月
+      entry("2025-08-15T12:00:00Z", "999"), // 前年の同月
+    ];
+    const { usedCount, usedValue } = computeMonthlyUsage(history, now);
+    expect(usedCount).toBe(2);
+    expect(usedValue).toBe(30);
+  });
+
+  it("resets to zero when the month has no entries", () => {
+    const history = [entry("2026-07-01T00:00:00Z", "50")];
+    expect(computeMonthlyUsage(history, now)).toEqual({ usedCount: 0, usedValue: 0 });
+  });
+
+  it("treats a missing/invalid sellPriceUsd as zero instead of NaN", () => {
+    const history = [entry("2026-08-01T00:00:00Z", ""), entry("2026-08-02T00:00:00Z", undefined)];
+    const { usedValue } = computeMonthlyUsage(history, now);
+    expect(usedValue).toBe(0);
   });
 });
 
