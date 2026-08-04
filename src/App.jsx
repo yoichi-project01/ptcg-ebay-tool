@@ -111,7 +111,12 @@ const DEFAULT_FORM = {
   conditionPhrases: [],
   printVariant: "", printVariantNote: "", oldBack: false,
   graded: false, gradingCompany: "", grade: "", certNumber: "",
-  costJpy: "", extraCostJpy: "", exchangeRate: "155", sellPriceUsd: "", ebayFeePercent: "13.25", ebayFixedFeeUsd: "0.40", shippingCostUsd: "",
+  costJpy: "", extraCostJpy: "", exchangeRate: "155",
+  // 落札手数料13.25〜15.3% + 国際取引手数料1.35% + 為替手数料約2%の実効レート。
+  // 18%は取引実績が無い時点の概算。Seller Hubの請求明細から実測値が出たら置き換えること
+  sellPriceUsd: "", ebayFeePercent: "18", ebayFixedFeeUsd: "0.40", shippingCostUsd: "",
+  // 1回の注文で何枚まとめて買われるかの想定。実績が出るまでは1〜2で保守的に見積もる
+  expectedItemsPerOrder: "1",
   targetMarginPercent: "30", quantity: "1", bestOfferEnabled: false, picUrl: "",
   productType: "pack", cardsPerPack: "", packsPerBox: "30", shrink: true,
 };
@@ -606,6 +611,12 @@ function buildEbaySearchUrl(query, { sold = false } = {}) {
 }
 
 // ---------- 利益計算 ----------
+// 同梱割引を使う場合、送料とeBayの固定手数料($0.40)は「1注文あたり」で発生するため、
+// 1回の注文でitemsPerOrder枚売れればその分だけ1枚あたりの負担が下がる。
+// expectedItemsPerOrderが空/0/負の場合は1として扱い、ゼロ除算を避ける
+function resolveItemsPerOrder(f) {
+  return Math.max(1, parseFloat(f.expectedItemsPerOrder) || 1);
+}
 export function calcProfit(f) {
   const rate = parseFloat(f.exchangeRate);
   const sellPriceUsd = parseFloat(f.sellPriceUsd);
@@ -615,16 +626,19 @@ export function calcProfit(f) {
   const feePercent = parseFloat(f.ebayFeePercent) || 0;
   const fixedFeeUsd = parseFloat(f.ebayFixedFeeUsd) || 0;
   const shippingCostUsd = parseFloat(f.shippingCostUsd) || 0;
+  const itemsPerOrder = resolveItemsPerOrder(f);
 
   const costUsd = (costJpy + extraCostJpy) / rate;
-  const feeUsd = sellPriceUsd * (feePercent / 100) + fixedFeeUsd;
-  const profitUsd = sellPriceUsd - feeUsd - shippingCostUsd - costUsd;
+  const perItemShipping = shippingCostUsd / itemsPerOrder;
+  const perItemFixedFee = fixedFeeUsd / itemsPerOrder;
+  const feeUsd = sellPriceUsd * (feePercent / 100) + perItemFixedFee;
+  const profitUsd = sellPriceUsd - feeUsd - perItemShipping - costUsd;
   const marginPercent = (profitUsd / sellPriceUsd) * 100;
   return { costUsd, feeUsd, profitUsd, marginPercent, profitJpy: profitUsd * rate };
 }
 // calcProfit の逆算版: 目標利益率を満たす最低限の売値（USD）を求める。
-// profit = sell - (sell*fee% + fixedFee) - shipping - cost = sell * targetMargin
-// を sell について解くと sell = (fixedFee + shipping + cost) / (1 - fee% - targetMargin)
+// profit = sell - (sell*fee% + fixedFee/itemsPerOrder) - shipping/itemsPerOrder - cost = sell * targetMargin
+// を sell について解くと sell = (fixedFee/itemsPerOrder + shipping/itemsPerOrder + cost) / (1 - fee% - targetMargin)
 export function computeRecommendedPrice(f, targetMarginPercent) {
   const rate = parseFloat(f.exchangeRate);
   const margin = parseFloat(targetMarginPercent) / 100;
@@ -634,10 +648,11 @@ export function computeRecommendedPrice(f, targetMarginPercent) {
   const feePercent = parseFloat(f.ebayFeePercent) || 0;
   const fixedFeeUsd = parseFloat(f.ebayFixedFeeUsd) || 0;
   const shippingCostUsd = parseFloat(f.shippingCostUsd) || 0;
+  const itemsPerOrder = resolveItemsPerOrder(f);
   const costUsd = (costJpy + extraCostJpy) / rate;
   const denom = 1 - feePercent / 100 - margin;
   if (denom <= 0) return null; // 手数料率+目標利益率が100%以上では解なし
-  return (fixedFeeUsd + shippingCostUsd + costUsd) / denom;
+  return (fixedFeeUsd / itemsPerOrder + shippingCostUsd / itemsPerOrder + costUsd) / denom;
 }
 // 心理的価格（X.99）に切り上げる。必ず入力値以上になるよう切り上げるため、
 // 目標利益率を満たさなくなることはない
@@ -1447,11 +1462,23 @@ function AppInner() {
               </div>
               <div style={{ display: "flex", gap: 10 }}>
                 <div style={{ flex: 1 }}><Field label="為替レート（円/USD）"><input style={inputStyle} inputMode="decimal" value={f.exchangeRate} onChange={set("exchangeRate")} /></Field></div>
-                <div style={{ flex: 1 }}><Field label="eBay手数料率（%）" hint="国際取引手数料・通貨換算手数料込みの実効レートで（目安 17〜19%）"><input style={inputStyle} inputMode="decimal" value={f.ebayFeePercent} onChange={set("ebayFeePercent")} /></Field></div>
+                <div style={{ flex: 1 }}>
+                  <Field label="eBay手数料率（%）" hint="落札手数料・国際取引手数料・為替手数料を合算した実効レート。初期値18%は概算。取引実績が出たら、Seller Hubの請求明細から「売上に対する手数料合計」を逆算して実測値に置き換えること">
+                    <input style={inputStyle} inputMode="decimal" value={f.ebayFeePercent} onChange={set("ebayFeePercent")} />
+                  </Field>
+                </div>
               </div>
               <div style={{ display: "flex", gap: 10 }}>
                 <div style={{ flex: 1 }}><Field label="eBay固定手数料（USD）" hint="出品1件あたりの定額手数料"><input style={inputStyle} inputMode="decimal" value={f.ebayFixedFeeUsd} onChange={set("ebayFixedFeeUsd")} /></Field></div>
                 <div style={{ flex: 1 }}><Field label="目標利益率（%）" hint="推奨売値の逆算に使用"><input style={inputStyle} inputMode="decimal" value={f.targetMarginPercent} onChange={set("targetMarginPercent")} /></Field></div>
+              </div>
+              <div style={{ display: "flex", gap: 10 }}>
+                <div style={{ flex: 1 }}>
+                  <Field label="同梱時の想定枚数/注文" hint="1回の注文で何枚まとめて買われるかの想定。同梱割引を使う場合、送料とeBay固定手数料はこの枚数で按分される。実績が出るまでは1〜2で保守的に見積もること">
+                    <input style={inputStyle} inputMode="numeric" value={f.expectedItemsPerOrder} onChange={set("expectedItemsPerOrder")} placeholder="1" />
+                  </Field>
+                </div>
+                <div style={{ flex: 1 }} />
               </div>
               {recommendedPrice != null && (
                 <div style={{ borderRadius: 10, padding: "10px 14px", marginBottom: 14, background: "#f4f2ff", border: "1.5px solid #e4e0fb" }}>
@@ -1478,6 +1505,9 @@ function AppInner() {
                   </div>
                 </div>
               )}
+              <p style={{ margin: 0, fontSize: 11, color: "#8b93a7", lineHeight: 1.6 }}>
+                ※ 関税（DDP）、返品、Promoted Listings の費用は含まれていません。
+              </p>
             </details>
           </section>
 

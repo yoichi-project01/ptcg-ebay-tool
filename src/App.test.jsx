@@ -247,6 +247,23 @@ describe("calcProfit", () => {
     expect(result.feeUsd).toBe(0);
     expect(result.profitUsd).toBe(10);
   });
+
+  // タスク3: 同梱前提の按分
+  it("prorates shipping and the fixed fee across expectedItemsPerOrder", () => {
+    const one = calcProfit({ ...base, expectedItemsPerOrder: "1" });
+    const two = calcProfit({ ...base, expectedItemsPerOrder: "2" });
+    // 2枚同梱なら、送料($5)の半分($2.5)＋固定手数料($0.40)の半分($0.20)＝$2.70だけ利益が増える
+    expect(two.profitUsd - one.profitUsd).toBeCloseTo(2.5 + 0.2, 5);
+  });
+
+  it("treats a blank or zero expectedItemsPerOrder as 1 instead of dividing by zero", () => {
+    const blank = calcProfit({ ...base, expectedItemsPerOrder: "" });
+    const zero = calcProfit({ ...base, expectedItemsPerOrder: "0" });
+    const one = calcProfit({ ...base, expectedItemsPerOrder: "1" });
+    expect(blank.profitUsd).toBeCloseTo(one.profitUsd, 5);
+    expect(zero.profitUsd).toBeCloseTo(one.profitUsd, 5);
+    expect(isFinite(zero.profitUsd)).toBe(true);
+  });
 });
 
 describe("applyCandidateToForm", () => {
@@ -518,6 +535,12 @@ describe("computeRecommendedPrice / roundUpToPsychologicalPrice", () => {
     expect(roundUpToPsychologicalPrice(37.42)).toBe(37.99);
     expect(roundUpToPsychologicalPrice(38.0)).toBe(38.99);
     expect(roundUpToPsychologicalPrice(37.99)).toBe(37.99);
+  });
+
+  it("lowers the recommended price when items are prorated across more items per order", () => {
+    const oneItem = computeRecommendedPrice({ ...base, expectedItemsPerOrder: "1" }, "30");
+    const twoItems = computeRecommendedPrice({ ...base, expectedItemsPerOrder: "2" }, "30");
+    expect(twoItems).toBeLessThan(oneItem);
   });
 });
 
