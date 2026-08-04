@@ -4,6 +4,7 @@ import {
   buildItemSpecifics, buildConditionGuide, buildSku,
   computeRecommendedPrice, roundUpToPsychologicalPrice,
   buildListingCsvRow, buildListingCsv, normalizeBase,
+  buildSingleDesc, buildPackDesc, SHIPPING_METHODS, PACKING_LEVELS,
 } from "./App.jsx";
 
 const DEFAULT_F = {
@@ -509,6 +510,60 @@ describe("computeRecommendedPrice / roundUpToPsychologicalPrice", () => {
     expect(roundUpToPsychologicalPrice(37.42)).toBe(37.99);
     expect(roundUpToPsychologicalPrice(38.0)).toBe(38.99);
     expect(roundUpToPsychologicalPrice(37.99)).toBe(37.99);
+  });
+});
+
+// タスク1: 発送方法・梱包・保管環境・営業日の記述を連動させる
+const shippingCard = {
+  ...gyaradosCard,
+  shipFrom: "Osaka, Japan", handlingDays: "3",
+  shippingMethod: "smallpacket", packingLevel: "standard", smokeFree: true,
+};
+
+describe("buildSingleDesc / buildPackDesc — shipping", () => {
+  it("omits any mention of tracking when the shipping method has no tracking", () => {
+    const desc = buildSingleDesc({ ...shippingCard, shippingMethod: "smallpacket" });
+    expect(desc).not.toMatch(/tracking/i);
+  });
+
+  it("mentions tracking when the shipping method has it", () => {
+    const desc = buildSingleDesc({ ...shippingCard, shippingMethod: "cpass" });
+    expect(desc).toMatch(/tracking/i);
+  });
+
+  it("uses the delivery estimate from SHIPPING_METHODS instead of a fixed string", () => {
+    for (const method of SHIPPING_METHODS) {
+      const desc = buildSingleDesc({ ...shippingCard, shippingMethod: method.code });
+      expect(desc).toContain(method.days);
+      expect(desc).toContain(method.en);
+    }
+  });
+
+  it("drops the smoke-free line when smokeFree is false", () => {
+    const withIt = buildSingleDesc({ ...shippingCard, smokeFree: true });
+    const withoutIt = buildSingleDesc({ ...shippingCard, smokeFree: false });
+    expect(withIt).toContain("smoke-free");
+    expect(withoutIt).not.toContain("smoke-free");
+  });
+
+  it("reflects the chosen handling days instead of a fixed value", () => {
+    const desc = buildSingleDesc({ ...shippingCard, handlingDays: "5" });
+    expect(desc).toContain("within 5 business days");
+  });
+
+  it("uses the standard packing description by default and premium when selected", () => {
+    const standard = buildSingleDesc({ ...shippingCard, packingLevel: "standard" });
+    const premium = buildSingleDesc({ ...shippingCard, packingLevel: "premium" });
+    expect(standard).toContain(PACKING_LEVELS[0].en);
+    expect(premium).toContain(PACKING_LEVELS[1].en);
+    expect(standard).not.toContain("rigid waterproof mailer");
+  });
+
+  it("applies the same shipping logic to pack/box descriptions", () => {
+    const packCard = { setNameEn: "Pokemon 151", setCode: "SV2a", productType: "pack", cardsPerPack: "5", ...shippingCard };
+    const desc = buildPackDesc({ ...packCard, shippingMethod: "smallpacket" });
+    expect(desc).not.toMatch(/tracking/i);
+    expect(desc).toContain("2-4 weeks");
   });
 });
 

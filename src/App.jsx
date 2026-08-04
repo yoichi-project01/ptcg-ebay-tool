@@ -62,8 +62,27 @@ function gradeLabelText(grade) {
 const HISTORY_KEY = "ptcg-ebay-tool:history";
 const HISTORY_LIMIT = 60;
 
+// 日本から少額カードを送る場合の現実的な選択肢。
+// 日数は保守的に長めに設定してある。実際に発送して実績が出たら、
+// その値に更新すること（短く書いて遅れるより、長く書いて早く着くほうが評価が良い）。
+// ※ すべて未検証の推測値（2026-08時点、まだ発送実績なし）。実測が出るまで書き換えないこと
+export const SHIPPING_METHODS = [
+  { code: "smallpacket_reg", ja: "小形包装物（書留）",     en: "Registered Air Small Packet", tracking: true,  days: "2-3 weeks" },
+  { code: "smallpacket",     ja: "小形包装物（追跡なし）", en: "Air Small Packet",            tracking: false, days: "2-4 weeks" },
+  { code: "epacket_light",   ja: "eパケットライト",        en: "ePacket Light",               tracking: true,  days: "1-3 weeks" },
+  { code: "cpass",           ja: "CPaSS",                  en: "CPaSS",                       tracking: true,  days: "1-2 weeks" },
+];
+// 少額カードには rigid mailer は送料倒れになるため、簡易/厳重の2段階から選べるようにする
+export const PACKING_LEVELS = [
+  { code: "standard", label: "簡易梱包（スリーブ+トップローダー+厚紙+防水封筒）", en: "Shipped in a penny sleeve and top loader, protected with cardboard and a water-resistant envelope." },
+  { code: "premium",  label: "厳重梱包（+チームバッグ+リジッドメイラー）", en: "Shipped in a penny sleeve and top loader, protected with a team bag, cardboard, and a rigid waterproof mailer." },
+];
+
 const DEFAULT_FORM = {
-  setNameJa: "", setNameEn: "", setCode: "", shipFrom: "Osaka, Japan", handlingDays: "1-2",
+  setNameJa: "", setNameEn: "", setCode: "", shipFrom: "Osaka, Japan", handlingDays: "3",
+  // shippingMethod は最も控えめな "smallpacket"（追跡なし・2-4週間）を既定にしてある。
+  // 追跡ありを既定にして守れないと defect（評価の欠陥）になるため、安全側に倒す判断
+  shippingMethod: "smallpacket", packingLevel: "standard", smokeFree: true,
   pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
   printVariant: "", printVariantNote: "", oldBack: false,
   graded: false, gradingCompany: "", grade: "", certNumber: "",
@@ -644,7 +663,22 @@ function saveQueueToStorage(list) {
 }
 
 // ---------- 説明文 ----------
-function buildSingleDesc(f) {
+// 発送方法・梱包レベルの説明文断片を組み立てる。単品(single)・パック(pack)両方の
+// buildXxxDesc から呼ぶため共通化してある
+function buildShippingBlock(f) {
+  const method = SHIPPING_METHODS.find((m) => m.code === f.shippingMethod) || SHIPPING_METHODS[0];
+  const packing = PACKING_LEVELS.find((p) => p.code === f.packingLevel) || PACKING_LEVELS[0];
+  return [
+    `- Ships from ${f.shipFrom || "Japan"} within ${f.handlingDays || "3"} business days`,
+    `- Shipped via ${method.en}`,
+    packing.en ? `- ${packing.en}` : "",
+    // tracking: false の発送方法では「追跡番号」に関する記述を一切出さない
+    // （実際には追跡できないのに追跡ありと誤解させないため）
+    method.tracking ? "- Tracking number provided" : "",
+    `- Estimated delivery: ${method.days} depending on your country and customs`,
+  ].filter(Boolean).join("\n");
+}
+export function buildSingleDesc(f) {
   const notes = f.conditionNotes.trim();
   const inScope = PRINT_VARIANT_SET_RE.test(f.setCode);
   const printVariant = resolvePrintVariant(f);
@@ -666,8 +700,7 @@ function buildSingleDesc(f) {
     ? `${notes ? `- ${notes}` : "- No notes on the slab/case. Please check all photos before purchase."}
 - Card is professionally graded and sealed in its original ${f.gradingCompany} holder.
 - Shipped securely wrapped in bubble wrap inside a rigid box.`
-    : `${notes ? `- ${notes}` : "- No major flaws noted. Please check all photos before purchase."}
-- Stored in a smoke-free environment, kept sleeved.`;
+    : `${notes ? `- ${notes}` : "- No major flaws noted. Please check all photos before purchase."}${f.smokeFree ? "\n- Stored in a smoke-free environment, kept sleeved." : ""}`;
 
   return `Thank you for checking out my listing!
 
@@ -682,15 +715,12 @@ ${certNumber ? `- Certification #: ${certNumber}\n` : ""}- The exact card pictur
 ${conditionNotesBlock}
 
 ■ Shipping from Japan
-- Ships from ${f.shipFrom || "Japan"} within ${f.handlingDays || "1-2"} business days
-- Protected with a penny sleeve + toploader, waterproof packaging and a rigid mailer
-- Tracking number provided for all orders
-- Estimated delivery: 7-14 days depending on your country and customs
+${buildShippingBlock(f)}
 
 Please feel free to message me with any questions.
 Thank you and happy collecting!`;
 }
-function buildPackDesc(f) {
+export function buildPackDesc(f) {
   const isBox = f.productType === "box";
   const item = isBox
     ? `1x Factory Sealed Booster Box${f.packsPerBox ? ` (${f.packsPerBox} packs)` : ""}${f.shrink ? ", shrink wrap intact" : ""}`
@@ -706,10 +736,7 @@ function buildPackDesc(f) {
 - Our packs are NEVER weighed or searched — pulled directly from a sealed booster box
 
 ■ Shipping from Japan
-- Ships from ${f.shipFrom || "Japan"} within ${f.handlingDays || "1-2"} business days
-- All items shipped with a tracking number
-- Protected with rigid materials and waterproof packaging
-- Estimated delivery: 7-14 days (varies by country and customs)
+${buildShippingBlock(f)}
 
 ■ Note
 - Pull results (which cards you get) are based on luck — no refunds based on pack contents
@@ -1248,8 +1275,31 @@ function AppInner() {
             )}
             <div style={{ display: "flex", gap: 10 }}>
               <div style={{ flex: 1 }}><Field label="発送元"><input style={inputStyle} value={f.shipFrom} onChange={set("shipFrom")} /></Field></div>
-              <div style={{ flex: 1 }}><Field label="発送までの営業日"><input style={inputStyle} value={f.handlingDays} onChange={set("handlingDays")} /></Field></div>
+              <div style={{ flex: 1 }}>
+                <Field label="発送までの営業日" hint="発送遅延は評価の欠陥として記録され、出品上限の解除を遅らせます。実績が出るまでは余裕を持たせてください。短縮は簡単ですが、延長は評価を落とした後になります。">
+                  <input style={inputStyle} value={f.handlingDays} onChange={set("handlingDays")} />
+                </Field>
+              </div>
             </div>
+            <div style={{ display: "flex", gap: 10 }}>
+              <div style={{ flex: 1 }}>
+                <Field label="発送方法" hint="日数は保守的な推測値。実際に発送して実績が出たら更新すること">
+                  <select style={inputStyle} value={f.shippingMethod} onChange={set("shippingMethod")}>
+                    {SHIPPING_METHODS.map((m) => <option key={m.code} value={m.code}>{m.ja}（{m.days}・{m.tracking ? "追跡あり" : "追跡なし"}）</option>)}
+                  </select>
+                </Field>
+              </div>
+              <div style={{ flex: 1 }}>
+                <Field label="梱包レベル" hint="少額カードは簡易梱包（送料倒れ防止）、高額品は厳重梱包を推奨">
+                  <select style={inputStyle} value={f.packingLevel} onChange={set("packingLevel")}>
+                    {PACKING_LEVELS.map((p) => <option key={p.code} value={p.code}>{p.label}</option>)}
+                  </select>
+                </Field>
+              </div>
+            </div>
+            <label style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
+              <input type="checkbox" checked={f.smokeFree} onChange={set("smokeFree")} />保管環境は喫煙者のいない環境（事実の場合のみON）
+            </label>
             <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
               <div style={{ flex: 1 }}><Field label="数量" hint="CSV出品時のQuantity"><input style={inputStyle} inputMode="numeric" value={f.quantity} onChange={set("quantity")} /></Field></div>
               <div style={{ flex: 1, paddingTop: 22 }}>
