@@ -5,7 +5,7 @@ import {
   computeRecommendedPrice, roundUpToPsychologicalPrice,
   buildListingCsvRow, buildListingCsv, normalizeBase,
   buildSingleDesc, buildPackDesc, SHIPPING_METHODS, PACKING_LEVELS,
-  buildConditionPhrasesSentence, computeMonthlyUsage,
+  buildConditionPhrasesSentence, computeMonthlyUsage, DEFAULT_FORM,
 } from "./App.jsx";
 
 const DEFAULT_F = {
@@ -386,13 +386,13 @@ describe("searchCards", () => {
   });
 });
 
-// SV1S/014 ギャラドスex (Gyarados ex, RR) — 実データにある2023年発売のセット
+// SV1S/014 ギャラドスex (Gyarados ex, RR) — 実データにある2023年発売のセット。
+// DEFAULT_FORMをベースにすることで、新規フィールド追加のたびにここを手直しせずに済む
 const gyaradosCard = {
+  ...DEFAULT_FORM,
   pokemonJa: "ギャラドスex", pokemonEn: "Gyarados ex", rarity: "RR", cardNo: "014/078",
   setCode: "SV1S", setNameJa: "スカーレットex", setNameEn: "Scarlet ex",
-  condition: "NM", conditionNotes: "",
-  graded: false, gradingCompany: "", grade: "", certNumber: "",
-  printVariant: "", printVariantNote: "", oldBack: false,
+  condition: "NM",
 };
 
 describe("buildItemSpecifics", () => {
@@ -544,7 +544,9 @@ describe("computeRecommendedPrice / roundUpToPsychologicalPrice", () => {
   });
 });
 
-// タスク1: 発送方法・梱包・保管環境・営業日の記述を連動させる
+// タスク1: 発送方法・梱包・保管環境・営業日の記述を連動させる。
+// shipFrom/handlingDays/shippingMethod/packingLevel/smokeFreeはDEFAULT_FORMの既定値と
+// 同じ値なので明示指定は不要だが、テストの意図を読みやすくするため残す
 const shippingCard = {
   ...gyaradosCard,
   shipFrom: "Osaka, Japan", handlingDays: "3",
@@ -665,6 +667,32 @@ describe("buildSingleDesc — condition phrases", () => {
   it("omits the condition-phrase line entirely when none are selected", () => {
     const desc = buildSingleDesc({ ...shippingCard, conditionPhrases: [] });
     expect(desc).not.toContain("Condition notes: This card has");
+  });
+
+  // 回帰テスト: conditionPhrasesで傷を選んでも固定文「No major flaws noted」が
+  // 同時に出て矛盾する不具合（INADクレームの原因になりうる）があったため、再発防止に固定する
+  it("does not show the fixed 'No major flaws noted' line when a flaw phrase is selected", () => {
+    const desc = buildSingleDesc({ ...shippingCard, conditionPhrases: ["edge_white"] });
+    expect(desc).not.toContain("No major flaws noted");
+    expect(desc).toContain("This card has slight edge whitening.");
+  });
+
+  it("does not show the fixed 'No major flaws noted' line when conditionNotes free text is filled in", () => {
+    const desc = buildSingleDesc({ ...shippingCard, conditionNotes: "Small scratch on the back", conditionPhrases: [] });
+    expect(desc).not.toContain("No major flaws noted");
+  });
+
+  it("shows only one 'no major flaws' statement when 'clean' is selected, not the duplicated fixed line", () => {
+    const desc = buildSingleDesc({ ...shippingCard, conditionPhrases: ["clean"] });
+    const occurrences = (desc.match(/no major flaws/gi) || []).length;
+    expect(occurrences).toBe(1);
+    expect(desc).not.toContain("No major flaws noted. Please check all photos before purchase.");
+    expect(desc).toContain("Condition notes: This card has no major flaws.");
+  });
+
+  it("falls back to the fixed default line only when there is neither free text nor a phrase", () => {
+    const desc = buildSingleDesc({ ...shippingCard, conditionNotes: "", conditionPhrases: [] });
+    expect(desc).toContain("No major flaws noted. Please check all photos before purchase.");
   });
 });
 

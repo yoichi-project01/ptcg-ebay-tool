@@ -98,7 +98,7 @@ export const PACKING_LEVELS = [
   { code: "premium",  label: "厳重梱包（+チームバッグ+リジッドメイラー）", en: "Shipped in a penny sleeve and top loader, protected with a team bag, cardboard, and a rigid waterproof mailer." },
 ];
 
-const DEFAULT_FORM = {
+export const DEFAULT_FORM = {
   setNameJa: "", setNameEn: "", setCode: "", shipFrom: "Osaka, Japan", handlingDays: "3",
   // shippingMethod は最も控えめな "smallpacket"（追跡なし・2-4週間）を既定にしてある。
   // 追跡ありを既定にして守れないと defect（評価の欠陥）になるため、安全側に倒す判断
@@ -769,12 +769,21 @@ export function buildSingleDesc(f) {
   }
 
   const phrasesSentence = !isGraded ? buildConditionPhrasesSentence(f.conditionPhrases) : "";
+  const hasPhrases = Boolean(phrasesSentence);
+  // 「No major flaws noted.」は notes・conditionPhrases のどちらも無いときだけの既定文。
+  // conditionPhrasesが選ばれている場合（cleanも含む）はその英文自体が状態を語るため、
+  // 固定文と重複・矛盾させない（例: 「傷なし」の固定文と「白かけあり」のフレーズが同時に出る事故を防ぐ）
+  const notesLine = notes
+    ? `- ${notes}`
+    : hasPhrases ? "" : "- No major flaws noted. Please check all photos before purchase.";
+  const phrasesLine = hasPhrases ? `- Condition notes: ${phrasesSentence}` : "";
+  const smokeFreeLine = f.smokeFree ? "- Stored in a smoke-free environment, kept sleeved." : "";
 
   const conditionNotesBlock = isGraded
     ? `${notes ? `- ${notes}` : "- No notes on the slab/case. Please check all photos before purchase."}
 - Card is professionally graded and sealed in its original ${f.gradingCompany} holder.
 - Shipped securely wrapped in bubble wrap inside a rigid box.`
-    : `${notes ? `- ${notes}` : "- No major flaws noted. Please check all photos before purchase."}${phrasesSentence ? `\n- Condition notes: ${phrasesSentence}` : ""}${f.smokeFree ? "\n- Stored in a smoke-free environment, kept sleeved." : ""}`;
+    : [notesLine, phrasesLine, smokeFreeLine].filter(Boolean).join("\n");
 
   return `Thank you for checking out my listing!
 
