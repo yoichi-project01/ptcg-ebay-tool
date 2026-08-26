@@ -38,11 +38,15 @@ const SERIE_ORDER = { M: 0, SV: 1, S: 2, SM: 3, XYb: 4, XY: 5, BW: 6, L: 7, DPt:
 //   （press.pokemon.com "MEDIA ALERT: First Expansion of New Pokémon Trading Card Game:
 //   Mega Evolution Series..."）およびBulbapediaで確認済み
 // - PCG/PMCG/e/neo/VS/web（旧裏世代）はここでは扱わず、旧裏専用のセット単位 enAlias で対応する
+// - XY/BW: TCGdexの英語版シリーズ一覧（https://api.tcgdex.net/v2/en/series）で
+//   xy→"XY"、bw→"Black & White" と確認済み（2026-08-05）
 const SERIE_EN_NAMES = {
   SV: "Scarlet & Violet",
   S: "Sword & Shield",
   SM: "Sun & Moon",
   M: "Mega Evolution",
+  XY: "XY",
+  BW: "Black & White",
 };
 // タイトルに "Holo" を追加するレアリティ（現代カードの優先度12）
 const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "UR", "RR", "HR", "CHR", "CSR", "SSR"]);
@@ -217,6 +221,17 @@ function cardNoOf(setObj, local) {
   if (setObj.of > 0 && /^\d+$/.test(local)) return `${pad3(local)}/${pad3(setObj.of)}`;
   return "";
 }
+// setCode（cardData.json上の内部識別子。公式サイトの画像フォルダ名に由来し、
+// 同じ商品の異なるバリエーション（例: XY1のコレクションX/Y = XY1-Bx/XY1-By）を
+// 区別するために使われる）は、カードに実際に印刷されている型番と食い違うことがある
+// （画像を目視確認済み。XY1-Bx/XY1-Byはどちらも印刷されている型番は"XY1"）。
+// codeAliasが設定されていればそちらを優先する。買い手向けの出力（タイトル・説明文・
+// eBay検索クエリ）でのみ使うこと。SKU等の内部識別ではsetCodeをそのまま使い、
+// X/Y版などの一意性を保つ
+function displaySetCode(setCode) {
+  const setData = CARD_DATA.find((s) => s.c === setCode);
+  return setData?.codeAlias || setCode;
+}
 // 候補カード選択時のフォーム更新ロジック（純関数化してテストしやすくする）。
 // 英語名・セット英語名が未登録の場合は必ず空文字にする — 前カードの値を引き継ぐと
 // 「タイトルは合っているように見えるが実は別カードの英語名」という事故になるため。
@@ -366,7 +381,7 @@ function assembleModernTitle(f, maxLength) {
     f.rarity, // 3. レアリティ略号
     f.cardNo, // 4. カード番号
     "Japanese", // 5.
-    f.setCode, // 6. セット型番
+    displaySetCode(f.setCode), // 6. セット型番（codeAlias優先。買い手は印刷された型番で検索するため）
     "Pokemon Card", // 7.
     isGraded ? "" : f.condition, // 8. 状態（未鑑定のみ）
     include.setName ? setNameToken : "", // 9. セット英語名（削除可）
@@ -398,9 +413,9 @@ export function getDroppedModernTitleParts(f, { maxLength = 80 } = {}) {
   if (OLD_BACK_SET_RE.test(f.setCode)) return [];
   return assembleModernTitle(f, maxLength).dropped.map((key) => MODERN_TITLE_DROPPABLE_LABELS[key]);
 }
-function buildPackTitle(f) {
+export function buildPackTitle(f) {
   const type = f.productType === "box" ? "Booster Box" : "Booster Pack";
-  return ["Pokemon Card", f.setNameEn, f.setCode, "Japanese", "Factory Sealed", type,
+  return ["Pokemon Card", f.setNameEn, displaySetCode(f.setCode), "Japanese", "Factory Sealed", type,
     f.productType === "box" && f.shrink ? "w/ Shrink" : ""]
     .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
 }
@@ -596,12 +611,12 @@ export function buildListingCsv(entries) {
 }
 
 // ---------- eBay相場検索 ----------
-function buildEbaySearchQuery(f, mode) {
+export function buildEbaySearchQuery(f, mode) {
   if (mode === "single") {
-    return [f.pokemonEn, f.rarity, f.cardNo, f.setCode].filter(Boolean).join(" ");
+    return [f.pokemonEn, f.rarity, f.cardNo, displaySetCode(f.setCode)].filter(Boolean).join(" ");
   }
   const type = f.productType === "box" ? "Booster Box" : "Booster Pack";
-  return [f.setNameEn, f.setCode, "Japanese", type].filter(Boolean).join(" ");
+  return [f.setNameEn, displaySetCode(f.setCode), "Japanese", type].filter(Boolean).join(" ");
 }
 function buildEbaySearchUrl(query, { sold = false } = {}) {
   if (!query.trim()) return "";
@@ -789,7 +804,7 @@ export function buildSingleDesc(f) {
 
 ■ Card Details
 - Card: ${f.pokemonEn || "[Pokemon name]"} ${f.rarity || ""} ${f.cardNo || ""}
-- Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${f.setCode})` : ""}
+- Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${displaySetCode(f.setCode)})` : ""}
 - Language: Japanese
 ${printVariant ? `- Print: ${printVariant}\n` : ""}${oldBack ? `- Back Design: Old Back (旧裏)\n` : ""}${printNote ? `- Print Note: ${printNote}\n` : ""}- Condition: ${conditionLine}
 ${certNumber ? `- Certification #: ${certNumber}\n` : ""}- The exact card pictured is the one you will receive.
@@ -812,7 +827,7 @@ export function buildPackDesc(f) {
 
 ■ Item Description
 - Pokemon Card Game — Japanese version
-- Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${f.setCode})` : ""}
+- Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${displaySetCode(f.setCode)})` : ""}
 - ${item}
 - Language: Japanese
 - Condition: New / Factory Sealed, never opened

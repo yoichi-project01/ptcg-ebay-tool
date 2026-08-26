@@ -6,6 +6,7 @@ import {
   buildListingCsvRow, buildListingCsv, normalizeBase,
   buildSingleDesc, buildPackDesc, SHIPPING_METHODS, PACKING_LEVELS,
   buildConditionPhrasesSentence, computeMonthlyUsage, DEFAULT_FORM,
+  buildPackTitle, buildEbaySearchQuery,
 } from "./App.jsx";
 
 const DEFAULT_F = {
@@ -153,6 +154,55 @@ describe("buildModernTitle", () => {
     // 優先度1〜8の必須要素は40文字を超えていても残る
     expect(title).toContain("Charizard ex");
     expect(title).toContain("201/165");
+  });
+});
+
+// XY1-Bx（コレクションX）は実データ（src/cardData.json）にcodeAlias:"XY1"を持つ。
+// setCode自体（公式サイトの画像フォルダ名。コレクションX/Yを区別するための内部識別子）は
+// カードに印刷されている型番と異なり、印刷されているのはX/Yとも"XY1"であることを
+// 画像で目視確認済み（CLAUDE.md参照）。買い手向けの出力はcodeAliasを優先する
+const xy1Card = {
+  ...DEFAULT_FORM,
+  pokemonEn: "Frogadier", rarity: "R", cardNo: "021/060", setCode: "XY1-Bx",
+  setNameEn: "", condition: "NM",
+};
+
+describe("displaySetCode (codeAlias) — buyer-facing output prefers the printed set code", () => {
+  it("uses codeAlias instead of the internal setCode in the modern title", () => {
+    const title = buildModernTitle(xy1Card);
+    expect(title).toContain("XY1");
+    expect(title).not.toContain("XY1-Bx");
+  });
+
+  it("uses codeAlias instead of the internal setCode in the pack title", () => {
+    const title = buildPackTitle({ setNameEn: "", setCode: "XY1-Bx", productType: "pack" });
+    expect(title).toContain("XY1");
+    expect(title).not.toContain("XY1-Bx");
+  });
+
+  it("uses codeAlias instead of the internal setCode in the eBay search query (single and pack)", () => {
+    const single = buildEbaySearchQuery(xy1Card, "single");
+    expect(single).toContain("XY1");
+    expect(single).not.toContain("XY1-Bx");
+
+    const pack = buildEbaySearchQuery({ setNameEn: "", setCode: "XY1-Bx", productType: "pack" }, "pack");
+    expect(pack).toContain("XY1");
+    expect(pack).not.toContain("XY1-Bx");
+  });
+
+  it("uses codeAlias instead of the internal setCode in the single/pack description", () => {
+    const singleDesc = buildSingleDesc(xy1Card);
+    expect(singleDesc).toContain("(XY1)");
+    expect(singleDesc).not.toContain("XY1-Bx");
+
+    const packDesc = buildPackDesc({ ...DEFAULT_FORM, setNameEn: "", setCode: "XY1-Bx", productType: "pack" });
+    expect(packDesc).toContain("(XY1)");
+    expect(packDesc).not.toContain("XY1-Bx");
+  });
+
+  it("falls back to the raw setCode for sets without a codeAlias (no behavior change)", () => {
+    const title = buildModernTitle(modernCard); // setCode: "SV2a", no codeAlias in real data
+    expect(title).toContain("SV2a");
   });
 });
 
