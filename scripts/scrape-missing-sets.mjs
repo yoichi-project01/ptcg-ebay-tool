@@ -77,6 +77,53 @@ const TARGET_SETS = [
   // 推測で割り振らない。DP世代の種族単位番号問題と同種の「番号だけでは一意に特定できない」
   // ケースとして別タスク行きとする）
   { code: "SD", sourceCacheKeys: ["SD"], ja: "スタートデッキ100", sr: "S", y: 2021, codeAlias: "SD" },
+
+  // === フェーズ2: SM世代 本弾（SM1S〜SM12a、35セット） ===
+  // ja/y: TCGdex（https://api.tcgdex.net/v2/ja/sets/{id}）のname/releaseDateを直接取得
+  // （確度: 高。SM1p/SM2p/SM3p/SM4p/SM5pはTCGdex側のid表記が"SM1+"/"sm2+"/"SM3+"/"SM4+"/"SM5+"
+  // という別表記だが、cardCount.officialが001/0NNのNNNと一致することで対応関係を確認した）。
+  // codeAlias: 35セット全件、details.phpのimg-regulation altテキストで確認（全件setCode＝
+  // codeAliasと一致）。SM1S・SM9(TAG TEAM GX、&のHTMLエンティティ含む)・SM12a(全210枚中
+  // 最大セット)の3セットを画像でも目視照合済み（バッジ・番号・レアリティ・"&"を含む
+  // カード名の復号が正しく行われることを確認）。印刷テンプレートは既存のS/SV系と同じ
+  // モダン形式であることを確認済みで、buildModernTitle等の既存分岐に変更は不要。
+  // レアリティ: SM1p/SM2p/SM3p/SM4p/SM5p/SM8bはレアリティアイコンなし（rarity=""になる。
+  // CP4/CP5等と同じ挙動）。それ以外はC/U/R/RR等の通常表記
+  { code: "SM1S", sourceCacheKeys: ["SM1S"], ja: "コレクションサン", sr: "SM", y: 2016, codeAlias: "SM1S" },
+  { code: "SM1M", sourceCacheKeys: ["SM1M"], ja: "コレクションムーン", sr: "SM", y: 2016, codeAlias: "SM1M" },
+  { code: "SM1p", sourceCacheKeys: ["SM1p"], ja: "サン＆ムーン", sr: "SM", y: 2017, codeAlias: "SM1p" },
+  { code: "SM2K", sourceCacheKeys: ["SM2K"], ja: "キミを待つ島々", sr: "SM", y: 2017, codeAlias: "SM2K" },
+  { code: "SM2L", sourceCacheKeys: ["SM2L"], ja: "アローラの月光", sr: "SM", y: 2017, codeAlias: "SM2L" },
+  { code: "SM2p", sourceCacheKeys: ["SM2p"], ja: "新たなる試練の向こう", sr: "SM", y: 2017, codeAlias: "SM2p" },
+  { code: "SM3H", sourceCacheKeys: ["SM3H"], ja: "闘う虹を見たか", sr: "SM", y: 2017, codeAlias: "SM3H" },
+  { code: "SM3N", sourceCacheKeys: ["SM3N"], ja: "光を喰らう闇", sr: "SM", y: 2017, codeAlias: "SM3N" },
+  { code: "SM3p", sourceCacheKeys: ["SM3p"], ja: "ひかる伝説", sr: "SM", y: 2017, codeAlias: "SM3p" },
+  { code: "SM4S", sourceCacheKeys: ["SM4S"], ja: "覚醒の勇者", sr: "SM", y: 2017, codeAlias: "SM4S" },
+  { code: "SM4A", sourceCacheKeys: ["SM4A"], ja: "超次元の暴獣", sr: "SM", y: 2017, codeAlias: "SM4A" },
+  { code: "SM4p", sourceCacheKeys: ["SM4p"], ja: "GXバトルブースト", sr: "SM", y: 2017, codeAlias: "SM4p" },
+  { code: "SM5S", sourceCacheKeys: ["SM5S"], ja: "ウルトラサン", sr: "SM", y: 2017, codeAlias: "SM5S" },
+  { code: "SM5M", sourceCacheKeys: ["SM5M"], ja: "ウルトラムーン", sr: "SM", y: 2017, codeAlias: "SM5M" },
+  { code: "SM5p", sourceCacheKeys: ["SM5p"], ja: "ウルトラフォース", sr: "SM", y: 2018, codeAlias: "SM5p" },
+  { code: "SM6", sourceCacheKeys: ["SM6"], ja: "禁断の光", sr: "SM", y: 2018, codeAlias: "SM6" },
+  { code: "SM6a", sourceCacheKeys: ["SM6a"], ja: "ドラゴンストーム", sr: "SM", y: 2018, codeAlias: "SM6a" },
+  { code: "SM6b", sourceCacheKeys: ["SM6b"], ja: "チャンピオンロード", sr: "SM", y: 2018, codeAlias: "SM6b" },
+  { code: "SM7", sourceCacheKeys: ["SM7"], ja: "裂空のカリスマ", sr: "SM", y: 2018, codeAlias: "SM7" },
+  { code: "SM7a", sourceCacheKeys: ["SM7a"], ja: "迅雷スパーク", sr: "SM", y: 2018, codeAlias: "SM7a" },
+  { code: "SM7b", sourceCacheKeys: ["SM7b"], ja: "フェアリーライズ", sr: "SM", y: 2018, codeAlias: "SM7b" },
+  { code: "SM8", sourceCacheKeys: ["SM8"], ja: "超爆インパクト", sr: "SM", y: 2018, codeAlias: "SM8" },
+  { code: "SM8a", sourceCacheKeys: ["SM8a"], ja: "ダークオーダー", sr: "SM", y: 2018, codeAlias: "SM8a" },
+  { code: "SM8b", sourceCacheKeys: ["SM8b"], ja: "GXウルトラシャイニー", sr: "SM", y: 2018, codeAlias: "SM8b" },
+  { code: "SM9", sourceCacheKeys: ["SM9"], ja: "タッグボルト", sr: "SM", y: 2018, codeAlias: "SM9" },
+  { code: "SM9a", sourceCacheKeys: ["SM9a"], ja: "ナイトユニゾン", sr: "SM", y: 2019, codeAlias: "SM9a" },
+  { code: "SM9b", sourceCacheKeys: ["SM9b"], ja: "フルメタルウォール", sr: "SM", y: 2019, codeAlias: "SM9b" },
+  { code: "SM10", sourceCacheKeys: ["SM10"], ja: "ダブルブレイズ", sr: "SM", y: 2019, codeAlias: "SM10" },
+  { code: "SM10a", sourceCacheKeys: ["SM10a"], ja: "ジージーエンド", sr: "SM", y: 2019, codeAlias: "SM10a" },
+  { code: "SM10b", sourceCacheKeys: ["SM10b"], ja: "スカイレジェンド", sr: "SM", y: 2019, codeAlias: "SM10b" },
+  { code: "SM11", sourceCacheKeys: ["SM11"], ja: "ミラクルツイン", sr: "SM", y: 2019, codeAlias: "SM11" },
+  { code: "SM11a", sourceCacheKeys: ["SM11a"], ja: "リミックスバウト", sr: "SM", y: 2019, codeAlias: "SM11a" },
+  { code: "SM11b", sourceCacheKeys: ["SM11b"], ja: "ドリームリーグ", sr: "SM", y: 2019, codeAlias: "SM11b" },
+  { code: "SM12", sourceCacheKeys: ["SM12"], ja: "オルタージェネシス", sr: "SM", y: 2019, codeAlias: "SM12" },
+  { code: "SM12a", sourceCacheKeys: ["SM12a"], ja: "TAG TEAM GX タッグオールスターズ", sr: "SM", y: 2019, codeAlias: "SM12a" },
 ];
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
@@ -101,9 +148,18 @@ function extractCardId(cardThumbFile) {
 
 // details.php のレアリティアイコン画像ファイル名（例: ic_rare_rr.gif, ic_rare_sr_c.gif）から
 // 抽出したコードを、既存cardData.jsonのレアリティ表記（RARITIES配列と同じ大文字表記）に変換する。
-// BW/XY調査（180枚サンプリング）で確認できたのはこの6種のみ。未知のコードが出た場合は
-// 呼び出し側で例外を投げる（不明なレアリティを無検証で採用しない）
-const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR" };
+// BW/XY調査（180枚サンプリング）で確認できたのは元々6種のみだったが、フェーズ2で新規に
+// 3種を追加確認した: s_2→"S"（SM8b「GXウルトラシャイニー」161-205番台の色違いレア）、
+// ssr→"SSR"（同206番台以降のGXシャイニー）、tr→"TR"（SM9「タッグボルト」092-095番台の
+// トレーナーズレア。カード面に直接"TR"と印字されているのを画像で確認済み。Web検索で
+// 「トレーナーズレア」の略と確認）。SとSSRはsrc/App.jsxのRARITIES配列に元々定義済みだったが、
+// TRは今回新規追加した（RARITIES/RARITY_EN_LABELS/HOLO_RARITIES、src/App.jsx）。
+// 未知のコードが出た場合は呼び出し側で例外を投げる（不明なレアリティを無検証で採用しない）。
+// "s_2"の"_2"の意味は未確認のため、将来的に別の数字サフィックス（s_1等）が出た場合は
+// 無条件でSに丸めず個別に確認すること
+// chr→"CHR"（SM11b「ドリームリーグ」050/049コータス等で確認。RARITIES配列に元々
+// 定義済みの"CHR"=Character Rareと一致、追加のUI側変更は不要）
+const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR" };
 
 async function exists(p) {
   try { await fs.access(p); return true; } catch { return false; }

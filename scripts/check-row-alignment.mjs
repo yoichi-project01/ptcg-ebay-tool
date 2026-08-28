@@ -139,6 +139,6 @@ async function main() {
 // 起動した場合（例: `node scripts/check-row-alignment.mjs`）に一致せずmain()が
 // 無言でスキップされていた（このスクリプトが動いているように見えて実は何もしていない、
 // という気づきにくい形の不具合だったため修正した）
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((e) => { console.error(e); process.exit(1); });
 }

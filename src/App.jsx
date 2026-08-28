@@ -3,7 +3,7 @@ import CARD_DATA from "./cardData.json";
 import IMAGE_INDEX from "./imageIndex.json";
 
 // ---------- 定数 ----------
-const RARITIES = ["", "SAR", "SR", "AR", "UR", "RR", "RRR", "CHR", "CSR", "HR", "SSR", "S", "ACE", "BWR", "R", "U", "C", "PROMO"];
+const RARITIES = ["", "SAR", "SR", "AR", "UR", "RR", "RRR", "CHR", "CSR", "HR", "SSR", "S", "TR", "ACE", "BWR", "R", "U", "C", "PROMO"];
 const CONDITIONS = [
   { code: "NM", label: "NM（ほぼ完美品）", en: "Near Mint" },
   { code: "NM/M", label: "NM/M（完美品に近い）", en: "Near Mint / Mint" },
@@ -49,7 +49,8 @@ const SERIE_EN_NAMES = {
   BW: "Black & White",
 };
 // タイトルに "Holo" を追加するレアリティ（現代カードの優先度12）
-const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "UR", "RR", "HR", "CHR", "CSR", "SSR"]);
+// TR（トレーナーズレア）はSM9(タッグボルト)の実カード画像でホロ加工を確認済みのため追加
+const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "UR", "RR", "HR", "CHR", "CSR", "SSR", "TR"]);
 const PRINT_VARIANTS = [
   { code: "", label: "指定しない" },
   { code: "No Rarity", label: "No Rarity（ノーレアリティ・レアリティマークなし）" },
@@ -428,7 +429,7 @@ export function buildPackTitle(f) {
 export const RARITY_EN_LABELS = {
   SAR: "Special Art Rare", SR: "Special Rare", AR: "Art Rare", UR: "Ultra Rare",
   RR: "Double Rare", RRR: "Triple Rare", CHR: "Character Rare", CSR: "Character Super Rare",
-  HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", ACE: "ACE SPEC Rare",
+  HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", TR: "Trainer's Rare", ACE: "ACE SPEC Rare",
   BWR: "Black White Rare", R: "Rare", U: "Uncommon", C: "Common", PROMO: "Promo",
 };
 // eBayの未鑑定シングルカード用コンディション記述子（2023年10月〜の新体系）のラベル文字列。

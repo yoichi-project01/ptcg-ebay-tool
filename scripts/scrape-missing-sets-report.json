@@ -1,11 +1,27 @@
 {
-  "generatedAt": "2026-08-28T05:22:38.862Z",
+  "generatedAt": "2026-08-28T16:22:36.625Z",
   "sets": {
-    "SD": {
-      "cards": 127,
+    "SM11b": {
+      "cards": 68,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 127,
+      "imgDownloaded": 68,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SM12": {
+      "cards": 108,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 108,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SM12a": {
+      "cards": 210,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 210,
       "imgSkipped": 0,
       "imgFailed": 0
     }
