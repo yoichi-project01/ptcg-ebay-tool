@@ -130,6 +130,79 @@ const TARGET_SETS = [
   { code: "BW8-Brf", sourceCacheKeys: ["BW8-Brf"], ja: "ラセンフォース", sr: "BW", codeAlias: "BW8" },
   { code: "BW8-Brn", sourceCacheKeys: ["BW8-Brn"], ja: "ライデンナックル", sr: "BW", codeAlias: "BW8" },
   { code: "BW9-B", sourceCacheKeys: ["BW9-B"], ja: "メガロキャノン", sr: "BW", codeAlias: "BW9" },
+
+  // 追加依頼（2026-08-27、docs/task-bw-xy.mdステップ4横展開の続き）:
+  // コンセプトパック（CP1〜CP6）・文字マーク単独セット（XYA〜XYH）を追加。
+  // codeAliasはCPr/CPs/CPmを含む全17セットで、details.phpのimg-regulation altテキスト
+  // （公式サイトが画像バッジに直接付与している代替テキスト）で機械的に確認した上、
+  // CP1・CPrについては画像を目視でも照合し、印字されたバッジ文字列と一致することを確認済み。
+  // sourceCacheKeysはofficial-card-cache.json上でも単一キー（分裂なし）。
+  //
+  // ja/yの出典: CP1〜CP4はTCGdex（https://api.tcgdex.net/v2/ja/sets/{id}）のname/releaseDateを
+  // 直接取得（確度: 高）。CP5/CP6・XYA〜XYHはTCGdexに項目が無いため、Web検索で見つけた
+  // 二次情報源（トレ研ポケカ等の集計ブログ）に基づく（確度: 中。番号・レアリティ等の
+  // カード本体データはdetails.php由来で無関係、影響するのは表示用のset名・年のみ）。
+  //
+  // レアリティ: CP1/CP2/CP3/CP6はレアリティアイコンあり。CP4/CP5とXYA〜XYHは
+  // アイコンなし（rarity=""になる。既存のRARITY_CODE_MAP・検証ロジックに変更不要、
+  // XYA〜XYHについては依頼書の事前予告通り）。
+  { code: "CP1", sourceCacheKeys: ["CP1"], ja: "マグマ団VSアクア団 ダブルクライシス", sr: "XY", y: 2015, codeAlias: "CP1" },
+  { code: "CP2", sourceCacheKeys: ["CP2"], ja: "伝説キラコレクション", sr: "XY", y: 2015, codeAlias: "CP2" },
+  { code: "CP3", sourceCacheKeys: ["CP3"], ja: "ポケキュンコレクション", sr: "XY", y: 2016, codeAlias: "CP3" },
+  // official-card-cache.jsonのスキャン漏れで015/131(ブリガロンBREAK)・055/131(ソーナンスBREAK)が
+  // 欠落していたため、cardIdを直接指定して補った（XY8-11と同じ原因・対処。CP4は商品名通り
+  // BREAK進化を含むため発生。両カードともレアリティアイコンなし＝CP4全体の仕様と一致）。
+  // 逆に基本エネルギー9種（草/炎/水/雷/超/闘/悪/鋼/フェアリー、cardId 31997-32005）は
+  // details.phpで確認したところ"NNN/NNN"表記自体が無い汎用インサートだったため除外した
+  // （セット内に番号付きの「ダブル無色エネルギー」131/131は別途存在し、そちらは通常通り採用）
+  {
+    code: "CP4", sourceCacheKeys: ["CP4"],
+    extraCardIds: [31880, 31920],
+    excludeCardIds: [31997, 31998, 31999, 32000, 32001, 32002, 32003, 32004, 32005],
+    ja: "プレミアムチャンピオンパック EX×M×BREAK", sr: "XY", y: 2016, codeAlias: "CP4",
+  },
+  // y=2016-09-16（Web検索、確度: 中）
+  { code: "CP5", sourceCacheKeys: ["CP5"], ja: "幻・伝説ドリームキラコレクション", sr: "XY", y: 2016, codeAlias: "CP5" },
+  // y=2017-04-21（Web検索、確度: 中）
+  // official-card-cache.jsonのスキャン漏れで016/087(キュウコンBREAK)・030/087(スターミーBREAK)・
+  // 044/087(ニドキングBREAK)・058/087(カイリキーBREAK)が欠落していたため、cardIdを直接指定して
+  // 補った（XY8-11・CP4と同じ原因・対処）
+  {
+    code: "CP6", sourceCacheKeys: ["CP6"],
+    extraCardIds: [32222, 32236, 32250, 32264],
+    ja: "ポケットモンスターカードゲーム 拡張パック 20th Anniversary", sr: "XY", y: 2017, codeAlias: "CP6",
+  },
+
+  // XYA〜XYHは拡張パック本弾ではなく構築済みデッキ専用の文字マーク（依頼書の事前調査通り、
+  // レアリティアイコン・1 EDITIONマークとも無し）。ja名はデッキ商品名（Web検索、確度: 中）
+  { code: "XYA", sourceCacheKeys: ["XYA"], ja: "メガバトルデッキ60「MリザードンEX」", sr: "XY", y: 2014, codeAlias: "XYA" },
+  { code: "XYB", sourceCacheKeys: ["XYB"], ja: "ハイパーメタルチェーンデッキ60「ディアルガEX+ギルガルドEX」", sr: "XY", y: 2014, codeAlias: "XYB" },
+  { code: "XYC", sourceCacheKeys: ["XYC"], ja: "スーパーレジェンドセット60「ゼルネアスEX・イベルタルEX」", sr: "XY", y: 2014, codeAlias: "XYC" },
+  { code: "XYD", sourceCacheKeys: ["XYD"], ja: "メガバトルデッキ60「MレックウザEX」", sr: "XY", y: 2015, codeAlias: "XYD" },
+  { code: "XYE", sourceCacheKeys: ["XYE"], ja: "対戦スタートセット30「エンブオーEX VS トゲキッスEX」", sr: "XY", y: 2015, codeAlias: "XYE" },
+  // official-card-cache.jsonのスキャン漏れで003/016(ゴルダックBREAK)が欠落していたため、
+  // cardIdを直接指定して補った（商品名通りBREAK進化を含むため。XY8-11・CP4・CP6と同じ原因・対処）
+  { code: "XYF", sourceCacheKeys: ["XYF"], extraCardIds: [31450], ja: "BREAKコンボデッキ60「ゴルダックBREAK+パルキアEX」", sr: "XY", y: 2015, codeAlias: "XYF" },
+  // official-card-cache.jsonのスキャン漏れで008/019(メレシーBREAK)が欠落していたため、
+  // cardIdを直接指定して補った（同じ原因・対処）
+  { code: "XYG", sourceCacheKeys: ["XYG"], extraCardIds: [31820], ja: "パーフェクトバトルデッキ60「ジガルデEX」", sr: "XY", y: 2016, codeAlias: "XYG" },
+  { code: "XYH", sourceCacheKeys: ["XYH"], ja: "メガバトルデッキ60「MタブンネEX」", sr: "XY", y: 2016, codeAlias: "XYH" },
+
+  // CPr/CPs/CPm: official-card-cache.json上は"CP"接頭辞だがCP1〜CP6とは無関係。
+  // 実体は2007年ダイヤモンド&パール世代のプロモ（cardIdが23500番台、収録ポケモンが
+  // 全て第4世代、画像に©2007表記・DP期特有の"Lv.X"テンプレートを確認）。
+  // docs/task-bw-xy.mdの「対象外: DP/DPt世代」に本来該当するが、ユーザー指示により
+  // DP除外方針を無視してこのタスクで取り込む（2026-08-27確認）。
+  // ただしDP除外の理由だった「DPBP#001〜530の種族単位通し番号・印刷バリエーション判別不可」
+  // 問題はここには当てはまらない: CPr/CPs/CPmは各セット内で001/0NN形式の独立した連番
+  // （BW/XYと同じデータモデル）であることをdetails.phpで確認済み。
+  // ja名: 公式・非公式とも出典が見つからなかったため空欄のまま（推測で埋めない）。
+  // sr="DP"はSERIE_ORDER（src/App.jsx）に既存のキーを流用（SERIE_EN_NAMESには未登録のため
+  // 英語シリーズ名はタイトルに付与されないが、これは「不明な呼称は推測で埋めない」の
+  // 既存方針通り。y=2007は画像の©表記から確認（確度: 高、ただし正確な発売月日は不明）
+  { code: "CPr", sourceCacheKeys: ["CPr"], ja: "", sr: "DP", y: 2007, codeAlias: "CPr" },
+  { code: "CPs", sourceCacheKeys: ["CPs"], ja: "", sr: "DP", y: 2007, codeAlias: "CPs" },
+  { code: "CPm", sourceCacheKeys: ["CPm"], ja: "", sr: "DP", y: 2007, codeAlias: "CPm" },
 ];
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
@@ -247,9 +320,14 @@ async function main() {
     // extraCardIds: official-card-cache.jsonのスキャン漏れで欠番になったcardIdを
     // 個別に補う（例: XY8-BbのゾロアークBREAK/フラージェスBREAKがキャッシュから漏れていた）。
     // cardThumbFileはキャッシュに無いため、details.php自身から取得する
+    // excludeCardIds: 逆に、キャッシュには載っているがセット固有の番号を持たないカード
+    // （例: CP4の基本エネルギー9種。details.phpで確認済み＝"NNN/NNN"表記自体が無い、
+    // 汎用インサートで欠番/失敗ではない）を明示的に除外する。無検証で除外しないこと
+    // （details.phpで番号なしと確認した上でのみリストに追加する）
+    const excludeSet = new Set((target.excludeCardIds || []).map(String));
     const cacheJobs = officialCards
       .map((c) => ({ cardId: extractCardId(c.cardThumbFile), cardThumbFile: c.cardThumbFile }))
-      .filter((j) => j.cardId);
+      .filter((j) => j.cardId && !excludeSet.has(j.cardId));
     const extraJobs = (target.extraCardIds || []).map((cardId) => ({ cardId: String(cardId), cardThumbFile: null }));
     const jobs = [...cacheJobs, ...extraJobs];
 
@@ -282,11 +360,21 @@ async function main() {
 
     // 番号の重複・欠番・レアリティ未取得をチェックしてから採用する
     // （絶対にやってはいけないこと: 未検証データの投入、掲載順=番号順の無検証採用）
+    //
+    // 例外: 2デッキ同梱の対戦スタートセット（例: XYE）は、両デッキ共通のトレーナー/エネルギー
+    // カードが公式サイト上で「デッキA用ページ」「デッキB用ページ」の2箇所にそれぞれ別cardIDで
+    // 掲載されており、official-card-cache.jsonにも2件載る（実例: XYEの017/022スーパーボールが
+    // cardID 031128と031144の2件。details.phpで両方確認したところ番号・カード名・イラストレーター
+    // まで完全一致、画像も同一デザインの別スキャンだった）。これは「番号の奪い合い」ではなく
+    // 同じ印刷カードの二重掲載なので、jaNameが完全一致する場合に限りスキップ（後勝ちを採用）する。
+    // jaNameが食い違う場合は本来の異常（絶対にやってはいけないこと）としてthrowする
     const byLocal = new Map();
     for (const d of details) {
       const n = parseInt(d.local, 10);
       if (byLocal.has(n)) {
-        throw new Error(`[${target.code}] 番号 ${d.local} が重複しています（cardID差異を確認してください）。`);
+        const prev = byLocal.get(n);
+        if (prev.jaName === d.jaName) continue;
+        throw new Error(`[${target.code}] 番号 ${d.local} が重複しています（cardID差異を確認してください）。既存: ${prev.jaName} / 新規: ${d.jaName}`);
       }
       if (d.rarity === null) {
         throw new Error(`[${target.code}] cardID未知のレアリティコードを検出しました: ${JSON.stringify(d)}`);
