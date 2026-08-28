@@ -429,7 +429,7 @@ export function buildPackTitle(f) {
 export const RARITY_EN_LABELS = {
   SAR: "Special Art Rare", SR: "Special Rare", AR: "Art Rare", UR: "Ultra Rare",
   RR: "Double Rare", RRR: "Triple Rare", CHR: "Character Rare", CSR: "Character Super Rare",
-  HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", TR: "Trainer's Rare", ACE: "ACE SPEC Rare",
+  HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", TR: "Trainer Rare", ACE: "ACE SPEC Rare",
   BWR: "Black White Rare", R: "Rare", U: "Uncommon", C: "Common", PROMO: "Promo",
 };
 // eBayの未鑑定シングルカード用コンディション記述子（2023年10月〜の新体系）のラベル文字列。

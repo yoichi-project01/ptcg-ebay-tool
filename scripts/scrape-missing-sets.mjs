@@ -193,6 +193,20 @@ const TARGET_SETS = [
   },
   { code: "SMM", sourceCacheKeys: ["SMM"], ja: "スターターセット TAG TEAM GX", sr: "SM", y: 2019, codeAlias: "SMM" },
   { code: "SMN", sourceCacheKeys: ["SMN"], ja: "デッキビルドBOX「TAG TEAM GX」", sr: "SM", y: 2019, codeAlias: "SMN" },
+
+  // === フェーズ3: M（メガ）世代の欠落分 ===
+  // MC(774枚、全セット中最大)は着手前に画像で中身を確認するようユーザー指示があった。
+  // 001/742=エリカのナゾノクサの実画像で©2025表記・"MC"バッジを確認済み、Web検索で
+  // "MC"="MEGA Collection"（スタートデッキ100 バトルコレクション、2025-12-19発売の
+  // ランダム封入デッキ商品の母集団プール）と判明した。フェーズ1のSD（スタートデッキ100）と
+  // 同じ構造（1つの連続した番号帯を持つ単一の母集団プール）であることを事前に
+  // 全774枚検証して確認済み（総数742で統一・欠番0・重複0・レアリティアイコン無し
+  // ＝V/メガ系スターター商品の仕様・基本エネルギー8種のみ無番号）。
+  {
+    code: "MC", sourceCacheKeys: ["MC"],
+    excludeCardIds: [49459, 49460, 49461, 49462, 49463, 49464, 49465, 49466],
+    ja: "スタートデッキ100 バトルコレクション", sr: "M", y: 2025, codeAlias: "MC",
+  },
 ];
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
