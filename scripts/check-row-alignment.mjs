@@ -24,7 +24,7 @@
  */
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -133,6 +133,12 @@ async function main() {
   process.exit(1);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+// process.argv[1]は呼び出し時の表記（相対/絶対どちらもありうる）のままなので、
+// import.meta.urlと同じ形式（絶対file:// URL）に正規化してから比較する必要がある。
+// 従来は `file://${process.argv[1]}` という文字列組み立てだったため、相対パスで
+// 起動した場合（例: `node scripts/check-row-alignment.mjs`）に一致せずmain()が
+// 無言でスキップされていた（このスクリプトが動いているように見えて実は何もしていない、
+// という気づきにくい形の不具合だったため修正した）
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((e) => { console.error(e); process.exit(1); });
 }
