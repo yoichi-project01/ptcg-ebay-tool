@@ -124,6 +124,75 @@ const TARGET_SETS = [
   { code: "SM11b", sourceCacheKeys: ["SM11b"], ja: "ドリームリーグ", sr: "SM", y: 2019, codeAlias: "SM11b" },
   { code: "SM12", sourceCacheKeys: ["SM12"], ja: "オルタージェネシス", sr: "SM", y: 2019, codeAlias: "SM12" },
   { code: "SM12a", sourceCacheKeys: ["SM12a"], ja: "TAG TEAM GX タッグオールスターズ", sr: "SM", y: 2019, codeAlias: "SM12a" },
+
+  // === フェーズ2続き: SM世代 文字コード系（SMA〜SMN、14セット） ===
+  // 着手前にSA（フェーズ1で対象外にした「5商品が番号帯を共有」パターン）と同種の
+  // リスクがないか、全14セットについて事前に(番号, 総数, 日本語名)の組み合わせを
+  // 検証した。SMA/SMHは複数の商品名（スターターセット草/炎/水、GXスタートデッキ各種）に
+  // 対応するとWeb検索で分かったが、実際には商品間で番号を共有しておらず1つの連続した
+  // 番号帯（SMA=1-59, SMH=1-131）として一貫していることを確認済み（同一番号に異なる
+  // カード名が対応する例は0件）。SAのような一意特定不可能なケースには該当しない。
+  // codeAlias: 14セット全件、details.phpのimg-regulation altテキストで確認（全件setCode＝
+  // codeAliasと一致）。レアリティアイコンは14セット全件で確認できず（rarity=""になる。
+  // XYA〜XYH・CP4/CP5と同じ、構築済みデッキ専用商品の仕様）。
+  // ja/y: TCGdexに項目が無いため、Web検索（トレ研ポケカのエキスパンションマーク一覧）に基づく
+  // （確度: 中。XYA〜XYHの時と同じ情報源）。SMA/SMHは複数商品名が対応するため、代表的な
+  // 商品名を1つ選ぶのではなく複数名を併記した
+  // 基本エネルギー9種（cardId 33218-33226）はdetails.phpで確認したところ番号表記が
+  // 無い汎用インサートだったため除外した（CP4等と同じ既知パターン）
+  {
+    code: "SMA", sourceCacheKeys: ["SMA"],
+    excludeCardIds: [33218, 33219, 33220, 33221, 33222, 33223, 33224, 33225, 33226],
+    ja: "スターターセット草/炎/水（ジュナイパーGX/ガオガエンGX/アシレーヌGX）", sr: "SM", y: 2016, codeAlias: "SMA",
+  },
+  // SMBのキャッシュは001-006/018のみで、007-018/018は別キー"SM-XY"に格納されていた
+  // （XY6-B/XY6等と同じ「1商品が複数キーに分裂」パターン。ただしこちらは商品内でカードの
+  // 印刷バッジ自体が"SMB"と"SM-XY"の2種に分かれている実例＝XY時代のキャラクター
+  // （N・フラダリ・プラターヌ博士等）の再録カードに"SM-XY"という別マークが付与されている）。
+  // sourceCacheKeysを両方指定してマージした。裸の"SM-XY"を独立商品として誤って
+  // 取り込まないよう、TARGET_SETSには"SM-XY"単体のエントリを別途追加していない。
+  // 【既知の精度限界】codeAlias（画面表示用の型番）はセット単位の1値しか持てないため
+  // "SMB"を設定しているが、007-018番のカードは実物の印字が"SMB"ではなく"XY"（画像で
+  // 目視確認済み）。この12枚に限りcodeAliasの表示が実物と一致しない。CLAUDE.md参照
+  {
+    code: "SMB", sourceCacheKeys: ["SMB", "SM-XY"],
+    excludeCardIds: [33190, 33191, 33192, 33193, 33194, 33195, 33196, 33197, 33198],
+    ja: "プレミアムトレーナーボックス（サン&ムーン）", sr: "SM", y: 2016, codeAlias: "SMB",
+  },
+  { code: "SMC", sourceCacheKeys: ["SMC"], ja: "スターターセット改造「カプ・ブルルGX」", sr: "SM", y: 2017, codeAlias: "SMC" },
+  { code: "SMD", sourceCacheKeys: ["SMD"], ja: "30枚デッキ対戦セット「サトシVSロケット団」", sr: "SM", y: 2017, codeAlias: "SMD" },
+  { code: "SME", sourceCacheKeys: ["SME"], ja: "スターターセット伝説 ソルガレオGX ルナアーラGX", sr: "SM", y: 2017, codeAlias: "SME" },
+  // SMFのキャッシュは001-012/020のみで、013-020/020は正体不明の裸"XY"キー
+  // （396枚、多数の無関係な商品の再録カードが混在する共有プール。BW/XY調査時に
+  // 「正体不明のため対象外」としていたもの）に格納されていた。裸"XY"キーを丸ごと
+  // sourceCacheKeysでマージすると無関係なカードまで大量に混入するため、SMFに属する
+  // 8枚のcardIdのみをextraCardIdsで個別指定した（1つずつdetails.phpで番号013-020/020と
+  // 確認済み）。【既知の精度限界】SMBと同様、013-020番の8枚は実物の印字が"SMF"ではなく
+  // "XY"（画像で目視確認済み）。codeAliasの表示はこの8枚には一致しない
+  {
+    code: "SMF", sourceCacheKeys: ["SMF"],
+    extraCardIds: [34527, 34528, 34529, 34530, 34531, 34532, 34533, 34534],
+    ja: "プレミアムトレーナーボックス ウルトラサン・ウルトラムーン", sr: "SM", y: 2017, codeAlias: "SMF",
+  },
+  // 同じパターン: SMGのキャッシュは001-012/041のみで、013-041/041(29枚)が裸"XY"キーに
+  // 格納されていた。全29枚をextraCardIdsで個別指定した。【既知の精度限界】013-041番の
+  // 29枚は実物の印字が"SMG"ではなく"XY"（画像で目視確認済み）
+  {
+    code: "SMG", sourceCacheKeys: ["SMG"],
+    extraCardIds: [34637, 34638, 34639, 34640, 34641, 34642, 34643, 34644, 34645, 34646, 34647, 34648, 34649, 34650, 34651, 34652, 34653, 34654, 34655, 34656, 34657, 34658, 34659, 34660, 34661, 34662, 34663, 34664, 34665],
+    ja: "デッキビルドBOX「ウルトラサン」「ウルトラムーン」", sr: "SM", y: 2018, codeAlias: "SMG",
+  },
+  { code: "SMH", sourceCacheKeys: ["SMH"], ja: "GXスタートデッキ（各種）", sr: "SM", y: 2018, codeAlias: "SMH" },
+  { code: "SMI", sourceCacheKeys: ["SMI"], ja: "スターターセット「炎のブースターGX」ほか", sr: "SM", y: 2018, codeAlias: "SMI" },
+  { code: "SMJ", sourceCacheKeys: ["SMJ"], ja: "プレミアムトレーナーボックス TAG TEAM GX", sr: "SM", y: 2018, codeAlias: "SMJ" },
+  { code: "SMK", sourceCacheKeys: ["SMK"], ja: "トレーナーバトルデッキシリーズ", sr: "SM", y: 2019, codeAlias: "SMK" },
+  {
+    code: "SML", sourceCacheKeys: ["SML"],
+    excludeCardIds: [36493, 36494, 36516, 36517, 36539, 36540],
+    ja: "ファミリーポケモンカードゲーム", sr: "SM", y: 2019, codeAlias: "SML",
+  },
+  { code: "SMM", sourceCacheKeys: ["SMM"], ja: "スターターセット TAG TEAM GX", sr: "SM", y: 2019, codeAlias: "SMM" },
+  { code: "SMN", sourceCacheKeys: ["SMN"], ja: "デッキビルドBOX「TAG TEAM GX」", sr: "SM", y: 2019, codeAlias: "SMN" },
 ];
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }

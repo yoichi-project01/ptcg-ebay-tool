@@ -1,27 +1,112 @@
 {
-  "generatedAt": "2026-08-28T16:22:36.625Z",
+  "generatedAt": "2026-08-28T16:56:28.933Z",
   "sets": {
-    "SM11b": {
-      "cards": 68,
+    "SMB": {
+      "cards": 18,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 68,
+      "imgDownloaded": 18,
       "imgSkipped": 0,
       "imgFailed": 0
     },
-    "SM12": {
-      "cards": 108,
+    "SMC": {
+      "cards": 21,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 108,
+      "imgDownloaded": 21,
       "imgSkipped": 0,
       "imgFailed": 0
     },
-    "SM12a": {
-      "cards": 210,
+    "SMD": {
+      "cards": 26,
+      "cardFailed": 4,
+      "cardFailedIds": [
+        "33536",
+        "33535",
+        "33551",
+        "33552"
+      ],
+      "imgDownloaded": 26,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SME": {
+      "cards": 21,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 210,
+      "imgDownloaded": 21,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SMF": {
+      "cards": 20,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 20,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SMG": {
+      "cards": 41,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 41,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SMH": {
+      "cards": 131,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 131,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SMI": {
+      "cards": 38,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 38,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SMJ": {
+      "cards": 35,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 35,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SMK": {
+      "cards": 31,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 31,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SML": {
+      "cards": 51,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 51,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SMM": {
+      "cards": 31,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 31,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SMN": {
+      "cards": 29,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 29,
       "imgSkipped": 0,
       "imgFailed": 0
     }
