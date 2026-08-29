@@ -28,7 +28,7 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -344,6 +344,57 @@ async function downloadImage(cardThumbFile, destPath) {
   return null;
 }
 
+// details.php から取得した詳細（{local, total, jaName, rarity}の配列）を検証し、
+// cardData.json の k 配列（[localId, jaName, "", rarity][]）と total を組み立てる。
+// 呼び出し側（main）と独立してテストできるよう関数として切り出した
+// （2026-08-29、M2aのシークレット範囲欠落バグの再発防止テストのため）。
+//
+// 例外: 2デッキ同梱の対戦スタートセット等は、両デッキ共通のトレーナー/エネルギーカードが
+// 公式サイト上で別cardIDとして2重に掲載されていることがある（BW/XY調査のXYEで実例あり）。
+// jaNameが完全一致する場合に限りスキップ（後勝ちを採用）する。
+// jaNameが食い違う場合は本来の異常（絶対にやってはいけないこと）としてthrowする
+export function validateAndBuildK(details, code) {
+  const byLocal = new Map();
+  for (const d of details) {
+    const n = parseInt(d.local, 10);
+    if (byLocal.has(n)) {
+      const prev = byLocal.get(n);
+      if (prev.jaName === d.jaName) continue;
+      throw new Error(`[${code}] 番号 ${d.local} が重複しています（cardID差異を確認してください）。既存: ${prev.jaName} / 新規: ${d.jaName}`);
+    }
+    if (d.rarity === null) {
+      throw new Error(`[${code}] cardID未知のレアリティコードを検出しました: ${JSON.stringify(d)}`);
+    }
+    byLocal.set(n, d);
+  }
+  const totals = new Set(details.map((d) => d.total));
+  if (totals.size > 1) {
+    throw new Error(`[${code}] 総数(total)が一致しません: ${[...totals].join(", ")}`);
+  }
+  const total = parseInt([...totals][0], 10);
+  // 欠番チェックは 1〜total だけでなく、1〜「実際に見つかった最大番号」まで行う。
+  // シークレットカード等でtotalを超える番号（例: 001/742のセットに766/742が
+  // 存在する）は連番であることが期待できるため、この範囲の欠落も検出できる
+  // （M2aで一時的な通信エラーにより766番付近の1枚が総数(193)超過範囲だったために
+  // 旧チェックをすり抜けて欠落したまま書き込まれた実例があったため、2026-08-29に
+  // 範囲をmaxLocalまで拡張した）
+  const maxLocal = Math.max(...byLocal.keys());
+  const missing = [];
+  for (let n = 1; n <= maxLocal; n++) {
+    if (!byLocal.has(n)) missing.push(n);
+  }
+  if (missing.length > 0) {
+    throw new Error(`[${code}] 欠番があります（1〜${maxLocal}のうち。total=${total}）: ${missing.join(", ")}`);
+  }
+
+  const sortedLocals = [...byLocal.keys()].sort((a, b) => a - b);
+  const k = sortedLocals.map((n) => {
+    const d = byLocal.get(n);
+    return [String(n).padStart(3, "0"), d.jaName, "", d.rarity];
+  });
+  return { k, total };
+}
+
 async function main() {
   if (!(await exists(CACHE_PATH))) {
     throw new Error(
@@ -416,49 +467,7 @@ async function main() {
 
     // 番号の重複・欠番・レアリティ未取得をチェックしてから採用する
     // （絶対にやってはいけないこと: 未検証データの投入、掲載順=番号順の無検証採用）
-    //
-    // 例外: 2デッキ同梱の対戦スタートセット等は、両デッキ共通のトレーナー/エネルギーカードが
-    // 公式サイト上で別cardIDとして2重に掲載されていることがある（BW/XY調査のXYEで実例あり）。
-    // jaNameが完全一致する場合に限りスキップ（後勝ちを採用）する。
-    // jaNameが食い違う場合は本来の異常（絶対にやってはいけないこと）としてthrowする
-    const byLocal = new Map();
-    for (const d of details) {
-      const n = parseInt(d.local, 10);
-      if (byLocal.has(n)) {
-        const prev = byLocal.get(n);
-        if (prev.jaName === d.jaName) continue;
-        throw new Error(`[${target.code}] 番号 ${d.local} が重複しています（cardID差異を確認してください）。既存: ${prev.jaName} / 新規: ${d.jaName}`);
-      }
-      if (d.rarity === null) {
-        throw new Error(`[${target.code}] cardID未知のレアリティコードを検出しました: ${JSON.stringify(d)}`);
-      }
-      byLocal.set(n, d);
-    }
-    const totals = new Set(details.map((d) => d.total));
-    if (totals.size > 1) {
-      throw new Error(`[${target.code}] 総数(total)が一致しません: ${[...totals].join(", ")}`);
-    }
-    const total = parseInt([...totals][0], 10);
-    // 欠番チェックは 1〜total だけでなく、1〜「実際に見つかった最大番号」まで行う。
-    // シークレットカード等でtotalを超える番号（例: 001/742のセットに766/742が
-    // 存在する）は連番であることが期待できるため、この範囲の欠落も検出できる
-    // （M2aで一時的な通信エラーにより766番付近の1枚が総数(193)超過範囲だったために
-    // 旧チェックをすり抜けて欠落したまま書き込まれた実例があったため、2026-08-29に
-    // 範囲をmaxLocalまで拡張した）
-    const maxLocal = Math.max(...byLocal.keys());
-    const missing = [];
-    for (let n = 1; n <= maxLocal; n++) {
-      if (!byLocal.has(n)) missing.push(n);
-    }
-    if (missing.length > 0) {
-      throw new Error(`[${target.code}] 欠番があります（1〜${maxLocal}のうち。total=${total}）: ${missing.join(", ")}`);
-    }
-
-    const sortedLocals = [...byLocal.keys()].sort((a, b) => a - b);
-    const k = sortedLocals.map((n) => {
-      const d = byLocal.get(n);
-      return [String(n).padStart(3, "0"), d.jaName, "", d.rarity];
-    });
+    const { k, total } = validateAndBuildK(details, target.code);
 
     const newSet = { c: target.code, ja: target.ja, en: "", sr: target.sr, of: total, y: target.y, k };
     if (target.codeAlias) newSet.codeAlias = target.codeAlias;
@@ -509,4 +518,9 @@ async function main() {
   console.log("詳細: scripts/scrape-missing-sets-report.json");
 }
 
-main().catch((e) => { console.error("エラー:", e.message); process.exit(1); });
+// このファイルは validateAndBuildK をテストからimportできるようexportしているため、
+// CLIから直接実行された場合のみ main() を走らせる（importしただけでスクレイピングが
+// 走ってしまうのを防ぐ。check-row-alignment.mjsと同じガード方式）
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((e) => { console.error("エラー:", e.message); process.exit(1); });
+}

@@ -386,12 +386,17 @@ async function main() {
       throw new Error(`[${target.code}] 総数(total)が一致しません: ${[...totals].join(", ")}`);
     }
     const total = parseInt([...totals][0], 10);
+    // 欠番チェックは1〜totalだけでなく1〜「実際に見つかった最大番号」まで行う
+    // （scrape-missing-sets.mjs側でM2aのシークレット範囲欠落バグを機に導入した修正を
+    // 移植。このスクリプト自体はBW/XY/CP/XYマークの取り込みで既に役目を終えており
+    // 以後のフェーズでは使わないが、万一再実行された場合の安全のため同期しておく）
+    const maxLocal = Math.max(...byLocal.keys());
     const missing = [];
-    for (let n = 1; n <= total; n++) {
+    for (let n = 1; n <= maxLocal; n++) {
       if (!byLocal.has(n)) missing.push(n);
     }
     if (missing.length > 0) {
-      throw new Error(`[${target.code}] 欠番があります（1〜${total}のうち）: ${missing.join(", ")}`);
+      throw new Error(`[${target.code}] 欠番があります（1〜${maxLocal}のうち。total=${total}）: ${missing.join(", ")}`);
     }
 
     const sortedLocals = [...byLocal.keys()].sort((a, b) => a - b);
