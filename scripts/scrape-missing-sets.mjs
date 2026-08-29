@@ -40,7 +40,9 @@ const REPORT_PATH = path.join(__dirname, "scrape-missing-sets-report.json");
 
 const API_BASE = "https://www.pokemon-card.com";
 const CONCURRENCY = 3;
-const DELAY_MS = 400;
+// フェーズ3再開時（2026-08-29）にMC取り込み中でCloudFrontのレート制限(HTTP 403)を
+// 受けたため、400→800に引き上げた（ユーザー指示）。CONCURRENCYは3のまま維持
+const DELAY_MS = 800;
 const FETCH_TIMEOUT_MS = 15000;
 // 失敗カード数がこの件数を超えたら、不完全なデータをcardData.jsonに書き込まず異常終了する
 const MAX_FAILED_CARDS = 5;
@@ -195,6 +197,38 @@ const TARGET_SETS = [
   { code: "SMN", sourceCacheKeys: ["SMN"], ja: "デッキビルドBOX「TAG TEAM GX」", sr: "SM", y: 2019, codeAlias: "SMN" },
 
   // === フェーズ3: M（メガ）世代の欠落分 ===
+  // フェーズ3再開（2026-08-29、DELAY_MS=800に引き上げ後）。ユーザー指示で小さいセットから
+  // 順に処理する。MG(34枚)は事前検証でSA（フェーズ1で対象外にした「複数商品が番号帯を共有」
+  // パターン）と同型の衝突を確認したため対象外（k[0]-k[8]相当の9番号で異なるカード名が
+  // 衝突。詳細はCLAUDE.md）。
+  //
+  // 【重要】MDB・MPS08・MMB-P・MMB-Sは画像確認の結果、2025年以降のMEGAシリーズとは
+  // 無関係の旧世代カードと判明したため、このフェーズには含めていない（詳細はCLAUDE.md）:
+  // - MDB: 001/046=ビクティニの実画像で©2012表記を確認（BW期）
+  // - MPS08: 001/009=氷空のシェイミの実画像がDP期特有の小サイズ・"Lv.62"表記
+  // - MMB-P/MMB-S: 001/049=リザードンEXの実画像で©2015表記を確認（XY期、
+  //   "メガマスターデッキビルドBOX"のM="Master"であって"MEGA"ではないと判明）
+  { code: "MA", sourceCacheKeys: ["MA"], ja: "プレミアムトレーナーボックス MEGA", sr: "M", y: 2025, codeAlias: "MA" },
+  { code: "MBD", sourceCacheKeys: ["MBD"], ja: "スターターセットMEGA「メガディアンシーex」", sr: "M", y: 2025, codeAlias: "MBD" },
+  { code: "MBG", sourceCacheKeys: ["MBG"], ja: "スターターセットMEGA「メガゲンガーex」", sr: "M", y: 2025, codeAlias: "MBG" },
+  { code: "M5", sourceCacheKeys: ["M5"], ja: "アビスアイ", sr: "M", y: 2026, codeAlias: "M5" },
+  { code: "M4", sourceCacheKeys: ["M4"], ja: "ニンジャスピナー", sr: "M", y: 2026, codeAlias: "M4" },
+  // M-Pキャッシュ(114枚)は実際には2種の別物が混在していた: 23枚は"MP1"バッジ（総数023で
+  // 一貫、正常に番号が振られた単一商品）、残り91枚は"M-P"バッジのままだが番号("NNN/NNN")
+  // 自体が印字されていない個別プロモカード（S-P/SV-P同様、位置マッチング方式の別スクリプトが
+  // 必要な種類のプロモで、本スクリプトの対象外）。前者のみ"MP1"として取り込み、
+  // 後者91枚のcardIdは明示的にexcludeCardIdsで除外した
+  {
+    code: "MP1", sourceCacheKeys: ["M-P"],
+    excludeCardIds: [48247,48248,48249,48250,48255,48256,48257,48258,48259,48260,48317,48321,48330,48480,48481,48482,48483,49621,49714,49715,49716,50036,50035,50037,50172,50038,50173,50174,50175,50176,50301,48251,48252,48253,48340,48316,48479,48484,48331,48485,48486,50179,49624,49628,49630,49717,50039,50040,50041,50171,50177,50178,48318,48319,48320,50042,50043,50044,50045,50046,50047,50168,50169,50170,50180,50181,50182,48332,48333,48334,48336,48335,48337,48338,48339,48308,48309,48310,48311,48312,48313,48314,48315,48322,48323,48324,48325,48326,48327,48328,48329],
+    ja: "プロモカードパック第1弾", sr: "M", y: 2025, codeAlias: "MP1",
+  },
+  // 初回実行時にcardId 49982（222/193ジャミングタワー、SR）が一時的な通信エラーで
+  // 取得失敗（1件のみ、MAX_FAILED_CARDS未満のため許容されカードデータ書き込み自体は
+  // 成功したが、222番が総数193を超える「secret」範囲だったため1〜totalの欠番チェックに
+  // 引っかからず気づかれにくい欠落になっていた）。cardData.jsonから該当セットを一度削除し、
+  // extraCardIdsで明示的に再取得して補完した
+  { code: "M2a", sourceCacheKeys: ["M2a"], extraCardIds: [49982], ja: "MEGAドリームex", sr: "M", y: 2025, codeAlias: "M2a" },
   // MC(774枚、全セット中最大)は着手前に画像で中身を確認するようユーザー指示があった。
   // 001/742=エリカのナゾノクサの実画像で©2025表記・"MC"バッジを確認済み、Web検索で
   // "MC"="MEGA Collection"（スタートデッキ100 バトルコレクション、2025-12-19発売の
@@ -242,7 +276,16 @@ function extractCardId(cardThumbFile) {
 // 無条件でSに丸めず個別に確認すること
 // chr→"CHR"（SM11b「ドリームリーグ」050/049コータス等で確認。RARITIES配列に元々
 // 定義済みの"CHR"=Character Rareと一致、追加のUI側変更は不要）
-const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR" };
+// ar→"AR"（フェーズ3のM4「ニンジャスピナー」084/083ハリマロン（総数83超の追加収録分）で
+// 確認。RARITIES配列に元々定義済みの"AR"=Art Rareと一致、追加のUI側変更は不要）
+// sar→"SAR"（同M4 115/083メガフラエッテexで確認。RARITIES配列に元々定義済みの
+// "SAR"=Special Art Rareと一致、追加のUI側変更は不要）
+// ma→"MA"（M2a「MEGAドリームex」224/193メガユキメノコexで確認。カード面に直接"MA"と
+// 印字されているのを画像で確認済み。Web検索で「メガアタックレア」（MEGAシリーズで
+// 新設された固有のレアリティ、技名が大きく英語でデザインされたアメコミ風イラスト）と
+// 確認したため、RARITIES配列に新規追加した（RARITIES/RARITY_EN_LABELS/HOLO_RARITIES、
+// src/App.jsx。英語表記"Mega Attack Rare"は直訳））
+const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR", ar: "AR", sar: "SAR", ma: "MA" };
 
 async function exists(p) {
   try { await fs.access(p); return true; } catch { return false; }

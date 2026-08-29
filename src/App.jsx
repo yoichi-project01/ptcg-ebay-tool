@@ -3,7 +3,7 @@ import CARD_DATA from "./cardData.json";
 import IMAGE_INDEX from "./imageIndex.json";
 
 // ---------- 定数 ----------
-const RARITIES = ["", "SAR", "SR", "AR", "UR", "RR", "RRR", "CHR", "CSR", "HR", "SSR", "S", "TR", "ACE", "BWR", "R", "U", "C", "PROMO"];
+const RARITIES = ["", "SAR", "SR", "AR", "MA", "UR", "RR", "RRR", "CHR", "CSR", "HR", "SSR", "S", "TR", "ACE", "BWR", "R", "U", "C", "PROMO"];
 const CONDITIONS = [
   { code: "NM", label: "NM（ほぼ完美品）", en: "Near Mint" },
   { code: "NM/M", label: "NM/M（完美品に近い）", en: "Near Mint / Mint" },
@@ -49,8 +49,9 @@ const SERIE_EN_NAMES = {
   BW: "Black & White",
 };
 // タイトルに "Holo" を追加するレアリティ（現代カードの優先度12）
-// TR（トレーナーズレア）はSM9(タッグボルト)の実カード画像でホロ加工を確認済みのため追加
-const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "UR", "RR", "HR", "CHR", "CSR", "SSR", "TR"]);
+// TR（トレーナーズレア）はSM9(タッグボルト)の実カード画像でホロ加工を確認済みのため追加。
+// MA（メガアタックレア）はM2a(MEGAドリームex)の実カード画像でホロ加工を確認済みのため追加
+const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "MA", "UR", "RR", "HR", "CHR", "CSR", "SSR", "TR"]);
 const PRINT_VARIANTS = [
   { code: "", label: "指定しない" },
   { code: "No Rarity", label: "No Rarity（ノーレアリティ・レアリティマークなし）" },
@@ -427,7 +428,7 @@ export function buildPackTitle(f) {
 // ACE SPEC Rare）は英語版TCGの公式レアリティ名と一致するが、それ以外の世代
 // （SR/CHR/CSR/SSR/S/BWR等）は日本語圏コミュニティの慣用訳のベストエフォート
 export const RARITY_EN_LABELS = {
-  SAR: "Special Art Rare", SR: "Special Rare", AR: "Art Rare", UR: "Ultra Rare",
+  SAR: "Special Art Rare", SR: "Special Rare", AR: "Art Rare", MA: "Mega Attack Rare", UR: "Ultra Rare",
   RR: "Double Rare", RRR: "Triple Rare", CHR: "Character Rare", CSR: "Character Super Rare",
   HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", TR: "Trainer Rare", ACE: "ACE SPEC Rare",
   BWR: "Black White Rare", R: "Rare", U: "Uncommon", C: "Common", PROMO: "Promo",
