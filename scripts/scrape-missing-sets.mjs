@@ -439,12 +439,19 @@ async function main() {
       throw new Error(`[${target.code}] 総数(total)が一致しません: ${[...totals].join(", ")}`);
     }
     const total = parseInt([...totals][0], 10);
+    // 欠番チェックは 1〜total だけでなく、1〜「実際に見つかった最大番号」まで行う。
+    // シークレットカード等でtotalを超える番号（例: 001/742のセットに766/742が
+    // 存在する）は連番であることが期待できるため、この範囲の欠落も検出できる
+    // （M2aで一時的な通信エラーにより766番付近の1枚が総数(193)超過範囲だったために
+    // 旧チェックをすり抜けて欠落したまま書き込まれた実例があったため、2026-08-29に
+    // 範囲をmaxLocalまで拡張した）
+    const maxLocal = Math.max(...byLocal.keys());
     const missing = [];
-    for (let n = 1; n <= total; n++) {
+    for (let n = 1; n <= maxLocal; n++) {
       if (!byLocal.has(n)) missing.push(n);
     }
     if (missing.length > 0) {
-      throw new Error(`[${target.code}] 欠番があります（1〜${total}のうち）: ${missing.join(", ")}`);
+      throw new Error(`[${target.code}] 欠番があります（1〜${maxLocal}のうち。total=${total}）: ${missing.join(", ")}`);
     }
 
     const sortedLocals = [...byLocal.keys()].sort((a, b) => a - b);

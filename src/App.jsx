@@ -426,9 +426,14 @@ export function buildPackTitle(f) {
 // 日本語の短縮レアリティ表記をeBayの出品で一般的に使われる英語表記に変換する。
 // SV世代（Art Rare/Special Art Rare/Double Rare/Triple Rare/Ultra Rare/Hyper Rare/
 // ACE SPEC Rare）は英語版TCGの公式レアリティ名と一致するが、それ以外の世代
-// （SR/CHR/CSR/SSR/S/BWR等）は日本語圏コミュニティの慣用訳のベストエフォート
+// （SR/CHR/CSR/SSR/S/BWR等）は日本語圏コミュニティの慣用訳のベストエフォート。
+// MA（メガアタックレア、RARITIES参照）は意図的に未登録のまま（課題として記録）:
+// 日本語の呼称自体はWeb検索で複数の情報源から確認できたが、英語圏の収集コミュニティが
+// 実際に使っている定訳を確認できていない（TRの"Trainer Rare"のような一次情報源が
+// 無い）。未登録でもUI側は`RARITY_EN_LABELS[f.rarity] || ""`等のフォールバックで
+// 安全に動作する（空欄になるだけ）。確実な出典が見つかったら追加すること
 export const RARITY_EN_LABELS = {
-  SAR: "Special Art Rare", SR: "Special Rare", AR: "Art Rare", MA: "Mega Attack Rare", UR: "Ultra Rare",
+  SAR: "Special Art Rare", SR: "Special Rare", AR: "Art Rare", UR: "Ultra Rare",
   RR: "Double Rare", RRR: "Triple Rare", CHR: "Character Rare", CSR: "Character Super Rare",
   HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", TR: "Trainer Rare", ACE: "ACE SPEC Rare",
   BWR: "Black White Rare", R: "Rare", U: "Uncommon", C: "Common", PROMO: "Promo",
