@@ -1,12 +1,60 @@
 {
-  "generatedAt": "2026-08-29T11:45:01.726Z",
+  "generatedAt": "2026-08-30T01:22:52.748Z",
   "sets": {
-    "M2a": {
-      "cards": 250,
+    "L1-Bhg": {
+      "cards": 70,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 1,
-      "imgSkipped": 249,
+      "imgDownloaded": 70,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "L1-Bss": {
+      "cards": 70,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 70,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "L2-B": {
+      "cards": 80,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 80,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "L3-B": {
+      "cards": 80,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 80,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "LL": {
+      "cards": 40,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 40,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "L2-Sb": {
+      "cards": 19,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 19,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "L2-Sh": {
+      "cards": 19,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 19,
+      "imgSkipped": 0,
       "imgFailed": 0
     }
   }

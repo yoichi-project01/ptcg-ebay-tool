@@ -241,6 +241,45 @@ const TARGET_SETS = [
     excludeCardIds: [49459, 49460, 49461, 49462, 49463, 49464, 49465, 49466],
     ja: "スタートデッキ100 バトルコレクション", sr: "M", y: 2025, codeAlias: "MC",
   },
+
+  // === フェーズ5: LEGEND世代（2009〜2010年） ===
+  // 番号形式はBW/XYと同じNNN/NNN。ただしLEGENDカード（2枚1組で1枚として機能する
+  // カード。例:「エンテイ&ライコウLEGEND」）はofficial-card-cache.jsonのスキャンから
+  // 全件漏れていることが判明した（BREAKカードの数枚単位の漏れとは規模が異なる、
+  // LEGENDカードという種別まるごとの漏れ）。周辺cardIdを探索して発見し、extraCardIdsで
+  // 個別に補った。1件のdetails.phpページに(上)(下)両方の番号・レアリティが埋め込まれて
+  // いることが分かったため、parseCardDetailsFromHtml側で1cardIdから2件返せるよう
+  // 対応済み（詳細はCLAUDE.md・同関数のコメント参照）。
+  // ja/y: TCGdex（https://api.tcgdex.net/v2/ja/sets/{id}）から取得（確度: 高）。
+  // codeAliasは7セット全件、details.phpのimg-regulation altテキストで確認（全件一致）。
+  // レアリティ: c/u/r/sという1文字コード（BW/XY以降と異なる命名規則）とssを新規確認。
+  // c→C, u→U, r→Rは既存表記と一致。s→RH（Rare Holo）、ss→LEGENDはいずれも英語版TCGの
+  // 公式レアリティ名としてRARITIES配列に新規追加した（src/App.jsx参照）。
+  {
+    code: "L1-Bhg", sourceCacheKeys: ["L1-Bhg"], extraCardIds: [25027],
+    ja: "ハートゴールドコレクション", sr: "L", y: 2009, codeAlias: "L1-Bhg",
+  },
+  {
+    code: "L1-Bss", sourceCacheKeys: ["L1-Bss"], extraCardIds: [25186],
+    ja: "ソウルシルバーコレクション", sr: "L", y: 2009, codeAlias: "L1-Bss",
+  },
+  {
+    code: "L2-B", sourceCacheKeys: ["L2-B"], extraCardIds: [25693, 25697, 25701],
+    ja: "よみがえる伝説", sr: "L", y: 2010, codeAlias: "L2-B",
+  },
+  {
+    code: "L3-B", sourceCacheKeys: ["L3-B"], extraCardIds: [26170, 26171, 26172],
+    ja: "頂上大激突", sr: "L", y: 2010, codeAlias: "L3-B",
+  },
+  {
+    code: "LL", sourceCacheKeys: ["LL"], extraCardIds: [26067],
+    ja: "強化パック ロストリンク", sr: "L", y: 2010, codeAlias: "LL",
+  },
+  // L2-Sb/L2-Shは構築済みデッキと思われるが、TCGdex・Web検索とも商品名を確認できな
+  // かったため ja は空欄のまま（推測で埋めない）。番号衝突（SA/MG型）は事前検証で
+  // 無いことを確認済み（各19枚+secret1枚、重複なし、欠番なし）
+  { code: "L2-Sb", sourceCacheKeys: ["L2-Sb"], ja: "", sr: "L", y: 2010, codeAlias: "L2-Sb" },
+  { code: "L2-Sh", sourceCacheKeys: ["L2-Sh"], ja: "", sr: "L", y: 2010, codeAlias: "L2-Sh" },
 ];
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
@@ -284,16 +323,58 @@ function extractCardId(cardThumbFile) {
 // 印字されているのを画像で確認済み。Web検索で「メガアタックレア」（MEGAシリーズで
 // 新設された固有のレアリティ、技名が大きく英語でデザインされたアメコミ風イラスト）と
 // 確認したため、RARITIES配列に新規追加した（RARITIES/RARITY_EN_LABELS/HOLO_RARITIES、
-// src/App.jsx。英語表記"Mega Attack Rare"は直訳））
-const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR", ar: "AR", sar: "SAR", ma: "MA" };
+// src/App.jsx。英語表記"Mega Attack Rare"は直訳）
+// フェーズ5（LEGEND世代、2009年前後）で、それ以前の世代とは異なるレアリティアイコン
+// 命名規則（ic_rare_{code}.gif の{code}が"c_c"等ではなく"c"/"u"/"r"/"s"の1文字）を
+// 発見した。c→C、u→U、r→Rは既存表記と一致。sは「r」と同じ★マークだがホロ箔押し加工が
+// ある通常レア＝英語版TCGで1999年から使われている公式レアリティ名"Rare Holo"と確認
+// （L1-Bhg 003/070スピアー=r＝非ホロ星、025/070オーダイル=s＝ホロ星、を画像で比較確認）。
+// ssはLEGENDカード（2枚1組。詳細はparseCardDetailsFromHtmlのコメント参照）専用の
+// レアリティコード。英語版TCGが公式に"LEGEND"というレアリティ/シリーズ名をそのまま
+// 使っているため、そのままRARITIESに追加した（Web検索で確認）
+const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR", ar: "AR", sar: "SAR", ma: "MA", c: "C", u: "U", r: "R", s: "RH", ss: "LEGEND" };
 
 async function exists(p) {
   try { await fs.access(p); return true; } catch { return false; }
 }
 
 // details.php から番号・総数・レアリティ・日本語名を取得する。
-// 番号（img-regulation直後の "NNN / NNN" 表記）が取得できないカードはnullを返し、
+// 番号（img-regulation直後の "NNN / NNN" 表記）が取得できないカードは空配列を返し、
 // 呼び出し側で失敗扱いにする（絶対にやってはいけないこと: 番号未検証のまま取り込むこと）
+//
+// 【LEGEND世代の特殊構造（2026-08-30発見）】LEGENDカード（2枚1組で1枚として機能する
+// カード。例:「エンテイ&ライコウLEGEND」）は、details.phpの1ページに(上)(下)両方の
+// 番号・レアリティが埋め込まれている（例: "063/080 (上)" と "064/080 (下)" が同一ページ内に
+// 連続して出現）。単純な.match()（最初の1件のみ取得）ではこれを見落とし、下半分の番号が
+// official-card-cache.jsonのスキャンにも周辺cardIdの探索にも一切ヒットしないという事象を
+// 引き起こしていた（フェーズ5着手時に発覚）。.matchAll()で全件抽出し、番号とレアリティを
+// 件数分ペアにして返すことで、上下どちらも「details.phpから直接検証済み」のデータとして
+// 扱えるようにした。画像は1ページに1つしか無い（上下を1枚の画像で表現している）ため、
+// 複数件を返す場合はcardThumbFileを共有する
+// details.php のHTML本文から番号・総数・レアリティ・日本語名・画像パスを抽出する
+// 純粋関数。ネットワークI/Oから切り離してテストできるようexportしている
+export function parseCardDetailsFromHtml(html) {
+  const numMs = [...html.matchAll(/&nbsp;(\d+)&nbsp;\/&nbsp;(\d+)\s*&nbsp;/g)];
+  if (numMs.length === 0) return [];
+  const rarMs = [...html.matchAll(/ic_rare_([a-z0-9_]+)\.gif/g)];
+  const titleM = html.match(/<title>([^<]*)<\/title>/);
+  const rawName = titleM ? titleM[1].replace(/\s*\|\s*ポケモンカードゲーム公式ホームページ$/, "") : null;
+  if (!rawName) return [];
+  // 画像パスはdetails.php自身にも埋め込まれている（<img class="fit" src="...">）。
+  // official-card-cache.jsonに載っていないcardId（extraCardIds、スキャン漏れの救済用）でも
+  // ここから画像パスを取得できるため、cardThumbFileの別ソースとして使う
+  const imgM = html.match(/<img class="fit" src="([^"]+)"/);
+  const jaName = decodeHtmlEntities(rawName);
+  const cardThumbFile = imgM ? imgM[1] : null;
+  return numMs.map((numM, idx) => ({
+    local: numM[1],
+    total: numM[2],
+    rarity: rarMs[idx] ? (RARITY_CODE_MAP[rarMs[idx][1]] ?? null) : "",
+    jaName,
+    cardThumbFile,
+  }));
+}
+
 async function fetchCardDetail(cardId) {
   const url = `${API_BASE}/card-search/details.php/card/${cardId}`;
   for (let i = 0; i < 3; i++) {
@@ -301,28 +382,12 @@ async function fetchCardDetail(cardId) {
       const r = await fetch(url, { headers: HEADERS, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       const html = await r.text();
-      const numM = html.match(/&nbsp;(\d+)&nbsp;\/&nbsp;(\d+)&nbsp;/);
-      if (!numM) return null;
-      const rarM = html.match(/ic_rare_([a-z0-9_]+)\.gif/);
-      const titleM = html.match(/<title>([^<]*)<\/title>/);
-      const rawName = titleM ? titleM[1].replace(/\s*\|\s*ポケモンカードゲーム公式ホームページ$/, "") : null;
-      if (!rawName) return null;
-      // 画像パスはdetails.php自身にも埋め込まれている（<img class="fit" src="...">）。
-      // official-card-cache.jsonに載っていないcardId（extraCardIds、スキャン漏れの救済用）でも
-      // ここから画像パスを取得できるため、cardThumbFileの別ソースとして使う
-      const imgM = html.match(/<img class="fit" src="([^"]+)"/);
-      return {
-        local: numM[1],
-        total: numM[2],
-        rarity: rarM ? (RARITY_CODE_MAP[rarM[1]] ?? null) : "",
-        jaName: decodeHtmlEntities(rawName),
-        cardThumbFile: imgM ? imgM[1] : null,
-      };
+      return parseCardDetailsFromHtml(html);
     } catch {
       if (i < 2) await sleep(1000 * (i + 1));
     }
   }
-  return null;
+  return [];
 }
 
 async function downloadImage(cardThumbFile, destPath) {
@@ -392,7 +457,9 @@ export function validateAndBuildK(details, code) {
     const d = byLocal.get(n);
     return [String(n).padStart(3, "0"), d.jaName, "", d.rarity];
   });
-  return { k, total };
+  // byLocalも返す: cardThumbFile（画像ダウンロード用）はcardData.jsonのk配列には
+  // 保存しないが、main()側の画像取得ループが同じ検証済みデータを再利用できるようにする
+  return { k, total, byLocal };
 }
 
 async function main() {
@@ -446,13 +513,17 @@ async function main() {
     const workers = Array.from({ length: CONCURRENCY }, async () => {
       while (idx < jobs.length) {
         const job = jobs[idx++];
-        const detail = await fetchCardDetail(job.cardId);
+        const cardDetails = await fetchCardDetail(job.cardId);
         // cardThumbFileはキャッシュ側の値を優先（同一のはずだが、既存の挙動を変えないため）。
         // 無ければdetails.php自身から取得した値にフォールバックする（extraCardIds用）。
-        // 両方とも無ければ画像パスが取れていないため失敗扱いにする
-        const cardThumbFile = job.cardThumbFile || detail?.cardThumbFile;
-        if (detail && cardThumbFile) details.push({ ...detail, cardThumbFile });
-        else failed.push(job.cardId);
+        // 両方とも無ければ画像パスが取れていないため失敗扱いにする。
+        // LEGENDカードは1件のjobから2件（上下）のdetailsが返ることがある
+        const cardThumbFile = job.cardThumbFile || cardDetails[0]?.cardThumbFile;
+        if (cardDetails.length > 0 && cardThumbFile) {
+          for (const d of cardDetails) details.push({ ...d, cardThumbFile });
+        } else {
+          failed.push(job.cardId);
+        }
         await sleep(DELAY_MS);
       }
     });
@@ -467,7 +538,8 @@ async function main() {
 
     // 番号の重複・欠番・レアリティ未取得をチェックしてから採用する
     // （絶対にやってはいけないこと: 未検証データの投入、掲載順=番号順の無検証採用）
-    const { k, total } = validateAndBuildK(details, target.code);
+    const { k, total, byLocal } = validateAndBuildK(details, target.code);
+    const sortedLocals = [...byLocal.keys()].sort((a, b) => a - b);
 
     const newSet = { c: target.code, ja: target.ja, en: "", sr: target.sr, of: total, y: target.y, k };
     if (target.codeAlias) newSet.codeAlias = target.codeAlias;

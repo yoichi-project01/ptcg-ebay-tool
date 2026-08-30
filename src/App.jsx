@@ -3,7 +3,7 @@ import CARD_DATA from "./cardData.json";
 import IMAGE_INDEX from "./imageIndex.json";
 
 // ---------- 定数 ----------
-const RARITIES = ["", "SAR", "SR", "AR", "MA", "UR", "RR", "RRR", "CHR", "CSR", "HR", "SSR", "S", "TR", "ACE", "BWR", "R", "U", "C", "PROMO"];
+const RARITIES = ["", "SAR", "SR", "AR", "MA", "UR", "RR", "RRR", "CHR", "CSR", "HR", "SSR", "S", "TR", "ACE", "BWR", "LEGEND", "RH", "R", "U", "C", "PROMO"];
 const CONDITIONS = [
   { code: "NM", label: "NM（ほぼ完美品）", en: "Near Mint" },
   { code: "NM/M", label: "NM/M（完美品に近い）", en: "Near Mint / Mint" },
@@ -47,11 +47,16 @@ const SERIE_EN_NAMES = {
   M: "Mega Evolution",
   XY: "XY",
   BW: "Black & White",
+  // フェーズ5（LEGEND世代）で追加。国際版TCGでもこの世代（LEGENDカード導入期）は
+  // ゲーム本編と同じ"HeartGold & SoulSilver"のブランディングで発売されている
+  L: "HeartGold & SoulSilver",
 };
 // タイトルに "Holo" を追加するレアリティ（現代カードの優先度12）
 // TR（トレーナーズレア）はSM9(タッグボルト)の実カード画像でホロ加工を確認済みのため追加。
-// MA（メガアタックレア）はM2a(MEGAドリームex)の実カード画像でホロ加工を確認済みのため追加
-const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "MA", "UR", "RR", "HR", "CHR", "CSR", "SSR", "TR"]);
+// MA（メガアタックレア）はM2a(MEGAドリームex)の実カード画像でホロ加工を確認済みのため追加。
+// RH（Rare Holo）は名称の定義上ホロ前提のため追加（L1-Bhg 025/070オーダイルの実画像でも確認）。
+// LEGENDカードも実画像（エンテイ&ライコウLEGEND等）でホロ加工を確認済みのため追加
+const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "MA", "UR", "RR", "HR", "CHR", "CSR", "SSR", "TR", "RH", "LEGEND"]);
 const PRINT_VARIANTS = [
   { code: "", label: "指定しない" },
   { code: "No Rarity", label: "No Rarity（ノーレアリティ・レアリティマークなし）" },
@@ -432,11 +437,16 @@ export function buildPackTitle(f) {
 // 実際に使っている定訳を確認できていない（TRの"Trainer Rare"のような一次情報源が
 // 無い）。未登録でもUI側は`RARITY_EN_LABELS[f.rarity] || ""`等のフォールバックで
 // 安全に動作する（空欄になるだけ）。確実な出典が見つかったら追加すること
+// RH（Rare Holo）・LEGENDはLEGEND世代（フェーズ5、2009年前後）で追加。RHは1999年の
+// 英語版TCG発売当初から使われている公式レアリティ名（星マークだがホロ箔押し加工がある
+// 通常レア）。LEGENDは英語版TCGが実際にHeartGold & SoulSilver期の2枚1組カードの
+// レアリティ名として"LEGEND"をそのまま使っている（公式ブランディング）ため、
+// 直訳ではなくそのまま採用した。いずれもSV世代の直接対応表記と同じ扱い
 export const RARITY_EN_LABELS = {
   SAR: "Special Art Rare", SR: "Special Rare", AR: "Art Rare", UR: "Ultra Rare",
   RR: "Double Rare", RRR: "Triple Rare", CHR: "Character Rare", CSR: "Character Super Rare",
   HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", TR: "Trainer Rare", ACE: "ACE SPEC Rare",
-  BWR: "Black White Rare", R: "Rare", U: "Uncommon", C: "Common", PROMO: "Promo",
+  BWR: "Black White Rare", LEGEND: "LEGEND", RH: "Rare Holo", R: "Rare", U: "Uncommon", C: "Common", PROMO: "Promo",
 };
 // eBayの未鑑定シングルカード用コンディション記述子（2023年10月〜の新体系）のラベル文字列。
 // ※ File Exchange CSV等で必要になる数値ConditionID/DescriptionIDは提供元・カテゴリ
