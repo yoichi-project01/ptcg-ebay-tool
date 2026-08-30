@@ -302,6 +302,30 @@ const TARGET_SETS = [
   { code: "SVJP", sourceCacheKeys: ["SVJP"], ja: "バトルマスターデッキ「パオジアンex」", sr: "SV", y: 2024, codeAlias: "SVJP" },
   { code: "SVOD", sourceCacheKeys: ["SVOD"], ja: "スターターセットex「ダイゴのダンバル&メタグロスex」", sr: "SV", y: 2025, codeAlias: "SVOD" },
   { code: "SVOM", sourceCacheKeys: ["SVOM"], ja: "スターターセットex「マリィのモルペコ&オーロンゲex」", sr: "SV", y: 2025, codeAlias: "SVOM" },
+
+  // === フェーズ6-3: 記念・特殊セット ===
+  // 事前調査でWCP/20th/SM0/SMP1/SMP2/WCS23の6セットは番号あり（衝突・欠番なし）、
+  // ENE(85枚)は基本エネルギーのみで全件無番号と確認（対象外、未着手リストに記録）。
+  // 【重要】WCPは画像確認の結果、2007年発売の「ワールドチャンピオンズパック」と判明した
+  // （フェーズ3のMDB/MPS08/MMB-P/MMB-Sと同種のDP世代該当）。ただしDP除外の理由だった
+  // 「DPBP種族単位通し番号・印刷バリエーション判別不可」問題はここには当てはまらない
+  // （WCPは001/108という独立した連番で、CPr/CPs/CPmと同型）。CPr/CPs/CPmと同じ判断で
+  // 取り込んだ。
+  // 20thは"CP6"（拡張パック20th Anniversary、フェーズ4で取り込み済み）とは別物と判明
+  // （cardIdの範囲が完全に重複していないことを確認済み）。実体は2016年発売の
+  // 「ポケットモンスターカードゲーム スターターパック」（1996年第1弾スターターパックの
+  // 20周年復刻版）。
+  { code: "WCP", sourceCacheKeys: ["WCP"], ja: "ワールドチャンピオンズパック", sr: "DP", y: 2007, codeAlias: "WCP" },
+  // 基本エネルギー7種（cardId 31728-31734）は番号表記が無い汎用インサートのため除外
+  {
+    code: "20th", sourceCacheKeys: ["20th"],
+    excludeCardIds: [31728, 31729, 31730, 31731, 31732, 31733, 31734],
+    ja: "ポケットモンスターカードゲーム スターターパック", sr: "XY", y: 2016, codeAlias: "20th",
+  },
+  { code: "SM0", sourceCacheKeys: ["SM0"], ja: "ピカチュウと新しい仲間たち", sr: "SM", y: 2016, codeAlias: "SM0" },
+  { code: "SMP1", sourceCacheKeys: ["SMP1"], ja: "月刊コロコロコミック2017年1月号付録「イワンコ全力デッキ」", sr: "SM", y: 2017, codeAlias: "SMP1" },
+  { code: "SMP2", sourceCacheKeys: ["SMP2"], ja: "名探偵ピカチュウ", sr: "SM", y: 2019, codeAlias: "SMP2" },
+  { code: "WCS23", sourceCacheKeys: ["WCS23"], ja: "ポケモンワールドチャンピオンシップス2023横浜 記念デッキ「ピカチュウ」", sr: "SV", y: 2023, codeAlias: "WCS23" },
 ];
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
