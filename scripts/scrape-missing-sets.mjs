@@ -280,6 +280,28 @@ const TARGET_SETS = [
   // 無いことを確認済み（各19枚+secret1枚、重複なし、欠番なし）
   { code: "L2-Sb", sourceCacheKeys: ["L2-Sb"], ja: "", sr: "L", y: 2010, codeAlias: "L2-Sb" },
   { code: "L2-Sh", sourceCacheKeys: ["L2-Sh"], ja: "", sr: "L", y: 2010, codeAlias: "L2-Sh" },
+
+  // === フェーズ6-1: SV系の未収録セット ===
+  // 事前検証で全8セットとも番号衝突（SA/MG型）・欠番（M2a型のtotal超過範囲含む）とも
+  // 無いことを確認済み。レアリティアイコンは全セットで無し（rarity=""になる。
+  // 構築済みデッキ/スターター商品の既知パターン）。codeAliasは全セット画像で
+  // 目視確認済み（SVI/SVM/SVODの3セットは実カード画像でも照合、©2023-2025表記を確認）。
+  // ja/yはWeb検索（トレ研ポケカの一覧・各商品の公式発表記事）に基づく（確度: 高、
+  // 複数の情報源で日付が一致）
+  // 基本エネルギー8種（cardId 45440,45441,45464,45465,45489,45490,45513,45514）は
+  // details.phpで確認したところ番号表記自体が無い汎用インサートだったため除外した
+  {
+    code: "SVI", sourceCacheKeys: ["SVI"],
+    excludeCardIds: [45440, 45441, 45464, 45465, 45489, 45490, 45513, 45514],
+    ja: "バトルアカデミー", sr: "SV", y: 2024, codeAlias: "SVI",
+  },
+  { code: "SVM", sourceCacheKeys: ["SVM"], ja: "スタートデッキGenerations", sr: "SV", y: 2024, codeAlias: "SVM" },
+  { code: "SVG", sourceCacheKeys: ["SVG"], ja: "スペシャルデッキセットex フシギバナ・リザードン・カメックス", sr: "SV", y: 2023, codeAlias: "SVG" },
+  { code: "SVN", sourceCacheKeys: ["SVN"], ja: "デッキビルドBOX バトルパートナーズ", sr: "SV", y: 2025, codeAlias: "SVN" },
+  { code: "SVJL", sourceCacheKeys: ["SVJL"], ja: "バトルマスターデッキ テラスタル「リザードンex」", sr: "SV", y: 2024, codeAlias: "SVJL" },
+  { code: "SVJP", sourceCacheKeys: ["SVJP"], ja: "バトルマスターデッキ「パオジアンex」", sr: "SV", y: 2024, codeAlias: "SVJP" },
+  { code: "SVOD", sourceCacheKeys: ["SVOD"], ja: "スターターセットex「ダイゴのダンバル&メタグロスex」", sr: "SV", y: 2025, codeAlias: "SVOD" },
+  { code: "SVOM", sourceCacheKeys: ["SVOM"], ja: "スターターセットex「マリィのモルペコ&オーロンゲex」", sr: "SV", y: 2025, codeAlias: "SVOM" },
 ];
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }

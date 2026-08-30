@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-08-30T01:22:52.748Z",
+  "generatedAt": "2026-08-30T02:00:21.559Z",
   "sets": {
-    "L1-Bhg": {
-      "cards": 70,
+    "SVI": {
+      "cards": 66,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 70,
+      "imgDownloaded": 66,
       "imgSkipped": 0,
       "imgFailed": 0
     },
-    "L1-Bss": {
-      "cards": 70,
+    "SVM": {
+      "cards": 175,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 70,
+      "imgDownloaded": 175,
       "imgSkipped": 0,
       "imgFailed": 0
     },
-    "L2-B": {
-      "cards": 80,
+    "SVG": {
+      "cards": 52,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 80,
+      "imgDownloaded": 52,
       "imgSkipped": 0,
       "imgFailed": 0
     },
-    "L3-B": {
-      "cards": 80,
+    "SVN": {
+      "cards": 45,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 80,
+      "imgDownloaded": 45,
       "imgSkipped": 0,
       "imgFailed": 0
     },
-    "LL": {
-      "cards": 40,
+    "SVJL": {
+      "cards": 21,
       "cardFailed": 0,
       "cardFailedIds": [],
-      "imgDownloaded": 40,
+      "imgDownloaded": 21,
       "imgSkipped": 0,
       "imgFailed": 0
     },
-    "L2-Sb": {
+    "SVJP": {
       "cards": 19,
       "cardFailed": 0,
       "cardFailedIds": [],
@@ -49,11 +49,19 @@
       "imgSkipped": 0,
       "imgFailed": 0
     },
-    "L2-Sh": {
+    "SVOD": {
       "cards": 19,
       "cardFailed": 0,
       "cardFailedIds": [],
       "imgDownloaded": 19,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SVOM": {
+      "cards": 20,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 20,
       "imgSkipped": 0,
       "imgFailed": 0
     }
