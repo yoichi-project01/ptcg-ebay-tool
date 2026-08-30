@@ -328,7 +328,7 @@ const TARGET_SETS = [
   { code: "WCS23", sourceCacheKeys: ["WCS23"], ja: "ポケモンワールドチャンピオンシップス2023横浜 記念デッキ「ピカチュウ」", sr: "SV", y: 2023, codeAlias: "WCS23" },
 ];
 
-function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
+export function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
 
 // resultAPI.phpのcardNameViewText同様、details.phpの<title>もHTMLエスケープされて
 // 返る場合がある（過去の実例: S-PのTAG TEAMカード"グズマ&amp;ハラ"）。無条件で適用する
@@ -343,7 +343,7 @@ function decodeHtmlEntities(s) {
 }
 
 // cardThumbFile のファイル名先頭6桁 ("030046_P_FUSHIGIBANAEX.jpg") がそのまま cardID
-function extractCardId(cardThumbFile) {
+export function extractCardId(cardThumbFile) {
   const m = cardThumbFile.match(/\/(\d+)_/);
   return m ? String(parseInt(m[1], 10)) : null;
 }
@@ -378,7 +378,10 @@ function extractCardId(cardThumbFile) {
 // ssはLEGENDカード（2枚1組。詳細はparseCardDetailsFromHtmlのコメント参照）専用の
 // レアリティコード。英語版TCGが公式に"LEGEND"というレアリティ/シリーズ名をそのまま
 // 使っているため、そのままRARITIESに追加した（Web検索で確認）
-const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR", ar: "AR", sar: "SAR", ma: "MA", c: "C", u: "U", r: "R", s: "RH", ss: "LEGEND" };
+// csr→"CSR"（既存の"CSR"=Character Super Rareと一致、追加のUI側変更は不要。
+// 既存セットへのシークレット追加パッチ作業中、S9a「バトルリージョン」083/067
+// スターミーVで発見。2026-08-30）
+const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR", ar: "AR", sar: "SAR", ma: "MA", c: "C", u: "U", r: "R", s: "RH", ss: "LEGEND", csr: "CSR", hr: "HR" };
 
 async function exists(p) {
   try { await fs.access(p); return true; } catch { return false; }
@@ -421,7 +424,7 @@ export function parseCardDetailsFromHtml(html) {
   }));
 }
 
-async function fetchCardDetail(cardId) {
+export async function fetchCardDetail(cardId) {
   const url = `${API_BASE}/card-search/details.php/card/${cardId}`;
   for (let i = 0; i < 3; i++) {
     try {
@@ -436,7 +439,7 @@ async function fetchCardDetail(cardId) {
   return [];
 }
 
-async function downloadImage(cardThumbFile, destPath) {
+export async function downloadImage(cardThumbFile, destPath) {
   const url = `${API_BASE}${cardThumbFile}`;
   for (let i = 0; i < 3; i++) {
     try {

@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-08-30T14:03:01.234Z",
+  "sets": {
+    "S12a": {
+      "added": 0,
+      "cardFailed": 0
+    },
+    "SV5K": {
+      "added": 0,
+      "cardFailed": 0
+    },
+    "S9a": {
+      "added": 0,
+      "cardFailed": 0
+    },
+    "SV4a": {
+      "added": 0,
+      "cardFailed": 0
+    },
+    "SVI": {
+      "added": 0,
+      "cardFailed": 0
+    },
+    "SV10": {
+      "added": 34,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 34,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SV8": {
+      "added": 32,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 32,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SVHK": {
+      "added": 31,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 31,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    },
+    "SVHM": {
+      "added": 31,
+      "cardFailed": 0,
+      "cardFailedIds": [],
+      "imgDownloaded": 31,
+      "imgSkipped": 0,
+      "imgFailed": 0
+    }
+  }
+}
