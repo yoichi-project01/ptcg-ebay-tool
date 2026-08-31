@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-08-31T01:54:38.802Z",
+  "sets": {
+    "S4a": {
+      "oldCount": 190,
+      "newCount": 326,
+      "of": 190,
+      "imgDownloaded": 326,
+      "imgSkipped": 0,
+      "imgFailed": 0,
+      "orphansDeleted": 190
+    },
+    "SI": {
+      "oldCount": 422,
+      "newCount": 419,
+      "of": 414,
+      "imgDownloaded": 419,
+      "imgSkipped": 0,
+      "imgFailed": 0,
+      "orphansDeleted": 422
+    },
+    "S8b": {
+      "oldCount": 181,
+      "newCount": 277,
+      "of": 184,
+      "imgDownloaded": 277,
+      "imgSkipped": 0,
+      "imgFailed": 0,
+      "orphansDeleted": 181
+    },
+    "S11a": {
+      "oldCount": 68,
+      "newCount": 94,
+      "of": 68,
+      "imgDownloaded": 94,
+      "imgSkipped": 0,
+      "imgFailed": 0,
+      "orphansDeleted": 68
+    },
+    "SV6a": {
+      "oldCount": 64,
+      "newCount": 94,
+      "of": 64,
+      "imgDownloaded": 94,
+      "imgSkipped": 0,
+      "imgFailed": 0,
+      "orphansDeleted": 64
+    },
+    "S10D": {
+      "oldCount": 67,
+      "newCount": 88,
+      "of": 67,
+      "imgDownloaded": 88,
+      "imgSkipped": 0,
+      "imgFailed": 0,
+      "orphansDeleted": 67
+    },
+    "S5a": {
+      "oldCount": 70,
+      "newCount": 84,
+      "of": 70,
+      "imgDownloaded": 84,
+      "imgSkipped": 0,
+      "imgFailed": 0,
+      "orphansDeleted": 70
+    },
+    "S6H": {
+      "oldCount": 70,
+      "newCount": 83,
+      "of": 70,
+      "imgDownloaded": 83,
+      "imgSkipped": 0,
+      "imgFailed": 0,
+      "orphansDeleted": 70
+    },
+    "S7D": {
+      "oldCount": 67,
+      "newCount": 79,
+      "of": 67,
+      "imgDownloaded": 79,
+      "imgSkipped": 0,
+      "imgFailed": 0,
+      "orphansDeleted": 67
+    }
+  }
+}
