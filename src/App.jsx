@@ -62,6 +62,7 @@ const PRINT_VARIANTS = [
   { code: "No Rarity", label: "No Rarity（ノーレアリティ・レアリティマークなし）" },
   { code: "1st Edition", label: "1st Edition（初期版・マークあり）" },
   { code: "Unlimited", label: "Unlimited（通常版・マークなし）" },
+  { code: "Error", label: "Error（誤植版）" },
 ];
 // 1st Edition マークが存在する世代（拡張パック〜ジム拡張2）
 const PRINT_VARIANT_SET_RE = /^PMCG[1-6]$/i;
@@ -75,6 +76,16 @@ const NO_RARITY_SET_RE = /^PMCG1$/i;
 // 旧裏面（オールドバック）対象セット。新裏に切り替わるのは e シリーズ以降のため
 // PMCG（拡張パック〜ジム拡張2）に加え neo1-4 / VS1 / web1 も対象
 const OLD_BACK_SET_RE = /^(PMCG[1-6]|neo[1-4]|VS1|web1)$/i;
+// 各印刷バリエーションが有効なセット範囲。バリエーションごとに対象セットの広さが異なる
+// （No Rarity < 1st Edition/Unlimited < Error）ため、resolvePrintVariant はこの表を引いて
+// 検証する。Errorは「どのカードに誤植版があるか」をデータから判定できないため、
+// 旧裏世代全体（OLD_BACK_SET_RE）で選択可能にし、内容はユーザーの手入力に委ねる
+const PRINT_VARIANT_SCOPE = {
+  "No Rarity": NO_RARITY_SET_RE,
+  "1st Edition": PRINT_VARIANT_SET_RE,
+  "Unlimited": PRINT_VARIANT_SET_RE,
+  "Error": OLD_BACK_SET_RE,
+};
 const GRADING_COMPANIES = ["", "PSA", "BGS", "CGC", "SGC"];
 const GRADE_LABELS = {
   "10": "GEM MINT", "9.5": "MINT", "9": "MINT", "8.5": "NM-MT", "8": "NM-MT",
@@ -280,11 +291,10 @@ function localImage(setObj, local) {
 
 // f.printVariant をそのまま使わず、セットに対して有効な値かどうかを毎回検証する。
 // UIの選択肢自体もセットに応じてフィルタしているが、履歴読み込みなどでセットコードだけ
-// 後から変わった場合の防御も兼ねる（"No Rarity"はPMCG1のみ、それ以外はPMCG1-6全体）
+// 後から変わった場合の防御も兼ねる。有効範囲はバリエーションごとにPRINT_VARIANT_SCOPEで管理する
 function resolvePrintVariant(f) {
-  if (!PRINT_VARIANT_SET_RE.test(f.setCode)) return "";
-  if (f.printVariant === "No Rarity" && !NO_RARITY_SET_RE.test(f.setCode)) return "";
-  return f.printVariant;
+  const scope = PRINT_VARIANT_SCOPE[f.printVariant];
+  return scope && scope.test(f.setCode) ? f.printVariant : "";
 }
 
 // ---------- タイトル ----------
@@ -484,7 +494,7 @@ export function buildItemSpecifics(f) {
   const features = [];
   if (OLD_BACK_SET_RE.test(f.setCode) && f.oldBack) features.push("Old Back");
   const printVariant = resolvePrintVariant(f);
-  if (printVariant === "1st Edition" || printVariant === "No Rarity") features.push(printVariant);
+  if (printVariant === "1st Edition" || printVariant === "No Rarity" || printVariant === "Error") features.push(printVariant);
 
   const pairs = [
     ["Game", "Pokémon TCG"],
@@ -526,6 +536,7 @@ export function buildSku(f, mode) {
         f.graded && f.gradingCompany && f.grade.trim() ? `${f.gradingCompany}${f.grade.trim()}` : f.condition,
         resolvePrintVariant(f) === "1st Edition" ? "1ST" : "",
         resolvePrintVariant(f) === "No Rarity" ? "NR" : "",
+        resolvePrintVariant(f) === "Error" ? "ERR" : "",
       ];
   return parts.filter(Boolean).join("-").replace(/[^\w-]/g, "").toUpperCase();
 }
@@ -784,7 +795,9 @@ export function buildConditionPhrasesSentence(codes) {
 }
 export function buildSingleDesc(f) {
   const notes = f.conditionNotes.trim();
-  const inScope = PRINT_VARIANT_SET_RE.test(f.setCode);
+  // 印刷バリエーション（No Rarity/1st Edition/Unlimited/Error）が選べる範囲は
+  // OLD_BACK_SET_RE（旧裏世代全体）が最も広いため、自由記述欄もそれに合わせて表示する
+  const inScope = OLD_BACK_SET_RE.test(f.setCode);
   const printVariant = resolvePrintVariant(f);
   const printNote = inScope ? f.printVariantNote.trim() : "";
   const oldBack = OLD_BACK_SET_RE.test(f.setCode) && f.oldBack;
@@ -1396,17 +1409,21 @@ function AppInner() {
                     </Field>
                   </>
                 )}
-                {PRINT_VARIANT_SET_RE.test(f.setCode) && (
+                {(PRINT_VARIANT_SET_RE.test(f.setCode) || OLD_BACK_SET_RE.test(f.setCode)) && (
                   <>
                     <Field label="印刷バリエーション" hint={NO_RARITY_SET_RE.test(f.setCode)
                       ? "拡張パック（1996年初回印刷）はNo Rarity（レアリティマークなし）が最も価値に影響します。1st Editionマークの有無も価値が変わります"
-                      : "拡張パック〜ジム拡張2（PMCG1〜6）は1st Editionマークの有無で価値が変わります"}>
+                      : PRINT_VARIANT_SET_RE.test(f.setCode)
+                      ? "拡張パック〜ジム拡張2（PMCG1〜6）は1st Editionマークの有無で価値が変わります"
+                      : "誤植があり後の版で修正された「エラー版」がある場合のみ選択してください（どのカードにエラー版があるかは自動判定できません）"}>
                       <select style={inputStyle} value={f.printVariant} onChange={set("printVariant")}>
-                        {PRINT_VARIANTS.filter((v) => v.code !== "No Rarity" || NO_RARITY_SET_RE.test(f.setCode))
+                        {PRINT_VARIANTS.filter((v) => !PRINT_VARIANT_SCOPE[v.code] || PRINT_VARIANT_SCOPE[v.code].test(f.setCode))
                           .map((v) => <option key={v.code} value={v.code}>{v.label}</option>)}
                       </select>
                     </Field>
-                    <Field label="その他の印刷差異（英語・任意）" hint="例: Miscut / Error card">
+                    <Field label="その他の印刷差異（英語・任意）" hint={f.printVariant === "Error"
+                      ? '例: "Misprint: missing HP text" / "Error: wrong attack damage" — 何が誤植なのかを具体的に書いてください。バイヤーは実物と説明の一致を重視します。'
+                      : "例: Miscut / Error card"}>
                       <input style={inputStyle} value={f.printVariantNote} onChange={set("printVariantNote")} placeholder="エラーカードなど" />
                     </Field>
                   </>

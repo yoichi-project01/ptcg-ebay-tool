@@ -256,6 +256,65 @@ describe("buildVintageTitle", () => {
   });
 });
 
+// 修正依頼タスク1: エラー版（Error）印刷バリエーション。
+// どのカードにエラー版が存在するかはデータから判定できないため、ユーザーの手入力に委ねる。
+// 有効範囲は旧裏世代全体（OLD_BACK_SET_RE: PMCG1-6/neo1-4/VS1/web1）で、
+// 1st Edition/Unlimitedの範囲（PMCG1-6のみ）より広い
+describe("Error print variant", () => {
+  it("is available for old-back sets beyond PMCG1-6 (neo/VS1/web1), unlike 1st Edition", () => {
+    for (const setCode of ["neo1", "VS1", "web1", "PMCG3"]) {
+      const title = buildSingleTitle({ ...vintageCard, setCode, printVariant: "Error" });
+      expect(title).toContain("Error");
+    }
+  });
+
+  it("does not appear for sets outside the old-back era", () => {
+    const title = buildSingleTitle({ ...baseCard, printVariant: "Error" });
+    expect(title).not.toContain("Error");
+  });
+
+  it("does not put the free-text printVariantNote into the title", () => {
+    const title = buildVintageTitle({
+      ...vintageCard, printVariant: "Error", printVariantNote: "Misprint: missing HP text",
+    });
+    expect(title).not.toContain("Misprint");
+  });
+
+  it("includes the free-text note in the description for any old-back set, not just PMCG1-6", () => {
+    const desc = buildSingleDesc({
+      ...DEFAULT_FORM, ...vintageCard, setCode: "neo1", printVariant: "Error", printVariantNote: "Error: wrong attack damage",
+    });
+    expect(desc).toContain("Error: wrong attack damage");
+  });
+
+  it("appends ERR to the SKU only for eligible sets", () => {
+    const eligible = buildSku({ ...vintageCard, printVariant: "Error" }, "single");
+    expect(eligible).toContain("ERR");
+    const notEligible = buildSku({ ...baseCard, printVariant: "Error" }, "single");
+    expect(notEligible).not.toContain("ERR");
+  });
+
+  it("adds Error to Item Specifics Features for eligible sets only", () => {
+    const eligible = Object.fromEntries(buildItemSpecifics({ ...gyaradosCard, setCode: "neo1", printVariant: "Error" }));
+    expect(eligible["Features"]).toBe("Error");
+    const notEligible = Object.fromEntries(buildItemSpecifics({ ...gyaradosCard, setCode: "SV1S", printVariant: "Error" }));
+    expect(notEligible["Features"]).toBeUndefined();
+  });
+
+  it("re-validates the print variant when the set code no longer matches (e.g. after a history reload)", () => {
+    const stale = { ...gyaradosCard, setCode: "SV1S", printVariant: "Error" };
+    expect(Object.fromEntries(buildItemSpecifics(stale))["Features"]).toBeUndefined();
+    expect(buildSku(stale, "single")).not.toContain("ERR");
+  });
+
+  it("does not change existing No Rarity / 1st Edition / Unlimited behavior", () => {
+    expect(buildSingleTitle({ ...vintageCard, printVariant: "No Rarity" })).toContain("No Rarity");
+    expect(buildSingleTitle({ ...vintageCard, setCode: "PMCG2", printVariant: "No Rarity" })).not.toContain("No Rarity");
+    expect(buildSingleTitle({ ...vintageCard, printVariant: "1st Edition" })).toContain("1st Edition");
+    expect(buildSingleTitle({ ...vintageCard, printVariant: "Unlimited" })).toContain("Unlimited");
+  });
+});
+
 describe("calcProfit", () => {
   const base = {
     exchangeRate: "155",
