@@ -1010,6 +1010,18 @@ describe("buildSealedDesc", () => {
     expect(desc).toMatch(/tracking/i);
   });
 
+  // 修正依頼2: 単品カード用の梱包記述（penny sleeve/top loader）は外箱には使えないため、
+  // f.packingLevelの値に関わらずセット品専用の固定文言を使う
+  it("uses sealed-specific packing wording instead of the single-card penny sleeve/top loader text", () => {
+    const standard = buildSealedDesc({ ...sealedCard, packingLevel: "standard" });
+    const premium = buildSealedDesc({ ...sealedCard, packingLevel: "premium" });
+    for (const desc of [standard, premium]) {
+      expect(desc).not.toMatch(/penny sleeve/i);
+      expect(desc).not.toMatch(/top loader/i);
+      expect(desc).toContain("Shipped with bubble wrap protection in a sturdy cardboard box.");
+    }
+  });
+
   it("uses codeAlias instead of the internal setCode in the description", () => {
     const desc = buildSealedDesc({ ...sealedCard, setCode: "XY1-Bx", setNameEn: "Collection X" });
     expect(desc).toContain("(XY1)");

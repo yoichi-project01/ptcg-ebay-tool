@@ -126,6 +126,9 @@ export const PACKING_LEVELS = [
   { code: "standard", label: "簡易梱包（スリーブ+トップローダー+厚紙+防水封筒）", en: "Shipped in a penny sleeve and top loader, protected with cardboard and a water-resistant envelope." },
   { code: "premium",  label: "厳重梱包（+チームバッグ+リジッドメイラー）", en: "Shipped in a penny sleeve and top loader, protected with a team bag, cardboard, and a rigid waterproof mailer." },
 ];
+// セット品（未開封商品パッケージ）用の梱包記述。PACKING_LEVELSはpenny sleeve/top loader前提の
+// 単品カード用文言のため、スターターセットや箱物にはそのまま使えない。専用の固定文言を用意する
+const SEALED_PACKING_EN = "Shipped with bubble wrap protection in a sturdy cardboard box.";
 
 export const DEFAULT_FORM = {
   setNameJa: "", setNameEn: "", setCode: "", shipFrom: "Osaka, Japan", handlingDays: "3",
@@ -823,15 +826,19 @@ function saveQueueToStorage(list) {
 }
 
 // ---------- 説明文 ----------
-// 発送方法・梱包レベルの説明文断片を組み立てる。単品(single)・パック(pack)両方の
-// buildXxxDesc から呼ぶため共通化してある
-function buildShippingBlock(f) {
+// 発送方法・梱包レベルの説明文断片を組み立てる。単品(single)・パック(pack)・セット品(sealed)
+// 全てのbuildXxxDescから呼ぶため共通化してある。梱包の記述だけはモードで実態が異なるため
+// （単品カードのpenny sleeve/top loaderはセット品の外箱には使えない）、sealedのときは
+// PACKING_LEVELS（f.packingLevel）を無視し、専用の固定文言（SEALED_PACKING_EN）を使う
+function buildShippingBlock(f, mode = "single") {
   const method = SHIPPING_METHODS.find((m) => m.code === f.shippingMethod) || SHIPPING_METHODS[0];
-  const packing = PACKING_LEVELS.find((p) => p.code === f.packingLevel) || PACKING_LEVELS[0];
+  const packingEn = mode === "sealed"
+    ? SEALED_PACKING_EN
+    : (PACKING_LEVELS.find((p) => p.code === f.packingLevel) || PACKING_LEVELS[0]).en;
   return [
     `- Ships from ${f.shipFrom || "Japan"} within ${f.handlingDays || "3"} business days`,
     `- Shipped via ${method.en}`,
-    packing.en ? `- ${packing.en}` : "",
+    packingEn ? `- ${packingEn}` : "",
     // tracking: false の発送方法では「追跡番号」に関する記述を一切出さない
     // （実際には追跡できないのに追跡ありと誤解させないため）
     method.tracking ? "- Tracking number provided" : "",
@@ -961,7 +968,7 @@ export function buildSealedDesc(f) {
 ${itemLines}
 
 ■ Shipping from Japan
-${buildShippingBlock(f)}
+${buildShippingBlock(f, "sealed")}
 
 Please feel free to message me with any questions.
 Thank you and happy collecting!`;
@@ -1603,11 +1610,17 @@ function AppInner() {
                 </Field>
               </div>
               <div style={{ flex: 1 }}>
-                <Field label="梱包レベル" hint="少額カードは簡易梱包（送料倒れ防止）、高額品は厳重梱包を推奨">
-                  <select style={inputStyle} value={f.packingLevel} onChange={set("packingLevel")}>
-                    {PACKING_LEVELS.map((p) => <option key={p.code} value={p.code}>{p.label}</option>)}
-                  </select>
-                </Field>
+                {mode === "sealed" ? (
+                  <Field label="梱包" hint="セット品（外箱）は単品カード用のスリーブ+トップローダーが使えないため、専用の梱包記述を自動で使用します">
+                    <div style={{ ...inputStyle, background: "#f6f7fb", color: "#5b6478" }}>Bubble wrap + cardboard box（固定）</div>
+                  </Field>
+                ) : (
+                  <Field label="梱包レベル" hint="少額カードは簡易梱包（送料倒れ防止）、高額品は厳重梱包を推奨">
+                    <select style={inputStyle} value={f.packingLevel} onChange={set("packingLevel")}>
+                      {PACKING_LEVELS.map((p) => <option key={p.code} value={p.code}>{p.label}</option>)}
+                    </select>
+                  </Field>
+                )}
               </div>
             </div>
             <label style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14, fontSize: 13, fontWeight: 700, color: "#3b4256" }}>
