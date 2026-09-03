@@ -15,6 +15,13 @@ const PRODUCT_TYPES = [
   { code: "pack", label: "ブースターパック" },
   { code: "box", label: "ブースターBOX" },
 ];
+// 未開封セット品（スターターセット・構築済みデッキ・プレミアムトレーナーボックス等）の状態。
+// 単品カード用のCONDITIONS/CONDITION_PHRASESとは別に、外箱の状態を表す専用の選択肢を持つ
+export const SEALED_CONDITIONS = [
+  { code: "sealed_mint",  ja: "未開封・美品",           en: "Factory sealed, mint condition" },
+  { code: "sealed_good",  ja: "未開封・外箱に軽微な傷", en: "Factory sealed, minor shelf wear on the box" },
+  { code: "sealed_worn",  ja: "未開封・外箱に傷や凹み", en: "Factory sealed, visible wear and dents on the box" },
+];
 // 状態説明の定型フレーズ。日本語のカード用語を英語にする際の表現ブレを防ぐ。
 // INAD（Item Not As Described）クレームの主因である「状態の説明」を定型化する目的なので、
 // 自由記述（conditionNotes）と併用可能にしてあり、これで表現しきれない特殊な状態は
@@ -141,6 +148,8 @@ export const DEFAULT_FORM = {
   expectedItemsPerOrder: "1",
   targetMarginPercent: "30", quantity: "1", bestOfferEnabled: false, picUrl: "",
   productType: "pack", cardsPerPack: "", packsPerBox: "30", shrink: true,
+  // セット品（未開封商品パッケージ）タブ用
+  sealedQty: "1", sealedCondition: "sealed_mint", sealedContents: "", sealedProductType: "",
 };
 
 // 出品ごとに必ず変わる（=カードを切り替えたらリセットすべき）フィールド。
@@ -153,6 +162,7 @@ const PER_LISTING_FIELDS = {
   printVariant: "", printVariantNote: "", oldBack: false,
   graded: false, gradingCompany: "", grade: "", certNumber: "",
   costJpy: "", extraCostJpy: "", sellPriceUsd: "", picUrl: "",
+  sealedQty: "1", sealedCondition: "sealed_mint", sealedContents: "", sealedProductType: "",
 };
 
 const holoGrad =
@@ -250,6 +260,20 @@ function displaySetCode(setCode) {
   const setData = CARD_DATA.find((s) => s.c === setCode);
   return setData?.codeAlias || setCode;
 }
+
+// セット品（未開封商品パッケージ）タブの対象商品。ホワイトリスト方式で管理する
+// （BW/XY取り込み時の教訓: 名前のキーワードや接頭辞だけで機械的に対象を広げると、
+// 無関係な商品や別世代のカードが混入する事故が繰り返し起きたため）。
+// 対象を広げる場合は、cardData.json から実在するセットコードを確認した上でここに追記すること。
+// 2026-09-02時点でcardData.jsonに存在することを確認済みの12商品
+const SEALED_PRODUCT_SET_CODES = [
+  "SD", "SVM", "MA", "MBD", "MBG", "SVG", "SVJL", "SVJP", "SVOD", "SVOM", "SVI", "SVN",
+];
+// UIの商品選択プルダウン用。cardData.json側で商品名(ja)や発売年(y)が更新されても
+// 自動的に追随するよう、値を複製せずCARD_DATAから都度引く
+export const SEALED_PRODUCTS = SEALED_PRODUCT_SET_CODES
+  .map((c) => CARD_DATA.find((s) => s.c === c))
+  .filter(Boolean);
 // 候補カード選択時のフォーム更新ロジック（純関数化してテストしやすくする）。
 // 英語名・セット英語名が未登録の場合は必ず空文字にする — 前カードの値を引き継ぐと
 // 「タイトルは合っているように見えるが実は別カードの英語名」という事故になるため。
@@ -267,6 +291,17 @@ export function applyCandidateToForm(prev, r, { carryOverCondition = false } = {
     // 旧裏セットの一部は英語版が発売されていないためcardData.json側のen(公式訳)が空。
     // その場合はコミュニティで一貫して使われている英語通称(enAlias、タスク5-2)で補う
     setNameJa: r.set.ja, setNameEn: r.set.en || r.set.enAlias || "",
+  };
+}
+// セット品（未開封商品）タブの商品選択プルダウン用。applyCandidateToFormと同じ理由
+// （前の商品の英語名を引き継ぐ事故の防止）でPER_LISTING_FIELDSをリセットしてから適用する。
+// 未知のsetCodeが渡された場合（通常は起こらないが防御的に）はフォームを変更しない
+export function applySealedProductToForm(prev, setCode) {
+  const s = CARD_DATA.find((x) => x.c === setCode);
+  if (!s) return prev;
+  return {
+    ...prev, ...PER_LISTING_FIELDS,
+    setCode: s.c, setNameJa: s.ja || "", setNameEn: s.en || s.enAlias || "",
   };
 }
 // selectedKey ("setCode/local") からDB上のカード情報を引く。
@@ -436,6 +471,25 @@ export function buildPackTitle(f) {
     f.productType === "box" && f.shrink ? "w/ Shrink" : ""]
     .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
 }
+// セット品（スターターセット・構築済みデッキ・プレミアムトレーナーボックス等の未開封商品
+// パッケージ）向けのタイトル。中身が確定しているブースターパック/BOX（buildPackTitle）とは
+// 別の語順にする。英語名(setNameEn)はcardData.json側に無いことが多く、その場合は
+// missingSetEn（App側の既存ロジック）が警告するので、ここでは空なら単に省略するだけでよい
+export function buildSealedTitle(f) {
+  const setData = CARD_DATA.find((s) => s.c === f.setCode);
+  const serieEn = (setData && SERIE_EN_NAMES[setData.sr]) || "";
+  const setNameToken = buildSetNameToken(f.setNameEn, serieEn);
+  const year = setData?.y ? String(setData.y) : "";
+  return [
+    setNameToken, // 商品英語名
+    displaySetCode(f.setCode), // セット型番
+    "Japanese",
+    "Pokemon Card",
+    f.sealedProductType, // 商品種別（Starter Deck等、手入力）
+    "Sealed",
+    year,
+  ].filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
+}
 
 // ---------- アイテムスペシフィック ----------
 // 日本語の短縮レアリティ表記をeBayの出品で一般的に使われる英語表記に変換する。
@@ -530,6 +584,8 @@ export function buildItemSpecifics(f) {
 export function buildSku(f, mode) {
   const parts = mode === "pack"
     ? [f.setCode, f.productType === "box" ? "BOX" : "PACK"]
+    : mode === "sealed"
+    ? [f.setCode, "SEALED"]
     : [
         f.setCode,
         f.cardNo ? f.cardNo.split("/")[0] : "",
@@ -643,6 +699,9 @@ export function buildEbaySearchQuery(f, mode) {
   if (mode === "single") {
     return [f.pokemonEn, f.rarity, f.cardNo, displaySetCode(f.setCode)].filter(Boolean).join(" ");
   }
+  if (mode === "sealed") {
+    return [f.setNameEn, displaySetCode(f.setCode), "Japanese", f.sealedProductType].filter(Boolean).join(" ");
+  }
   const type = f.productType === "box" ? "Booster Box" : "Booster Pack";
   return [f.setNameEn, displaySetCode(f.setCode), "Japanese", type].filter(Boolean).join(" ");
 }
@@ -707,6 +766,12 @@ export function roundUpToPsychologicalPrice(usd) {
 }
 
 // ---------- 出品履歴（localStorage） ----------
+// 履歴のmode値を検証する。フィールド追加前（"sealed"モード新設前）の古い履歴や、
+// そもそも壊れたエントリを読み込んでも想定外の値でクラッシュしないよう、
+// 既知の値以外は安全な既定値"single"に丸める
+export function resolveHistoryMode(mode) {
+  return mode === "pack" || mode === "sealed" ? mode : "single";
+}
 function loadHistory() {
   try {
     const raw = localStorage.getItem(HISTORY_KEY);
@@ -871,6 +936,35 @@ ${buildShippingBlock(f)}
 - If you have any questions, feel free to message me. I usually reply within 24 hours
 
 Thank you for looking! Happy collecting!`;
+}
+// セット品（未開封商品パッケージ）向けの説明文。パック/BOX用（buildPackDesc）と違い、
+// 中身が確定しているため「開封結果は運（no refunds based on pack contents）」
+// 「Never weighed or searched」の文言は出さない。代わりに同梱物（sealedContents）を書ける
+export function buildSealedDesc(f) {
+  const cond = SEALED_CONDITIONS.find((c) => c.code === f.sealedCondition) || SEALED_CONDITIONS[0];
+  const qty = parseInt(f.sealedQty, 10);
+  const qtyToken = qty > 1 ? `${qty}x ` : "1x ";
+  const contents = f.sealedContents.trim();
+
+  const itemLines = [
+    "- Pokemon Card Game — Japanese version",
+    `- Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${displaySetCode(f.setCode)})` : ""}`,
+    `- ${qtyToken}Factory Sealed${f.sealedProductType ? ` ${f.sealedProductType}` : ""}`,
+    "- Language: Japanese",
+    `- Condition: ${cond.en}`,
+    contents ? `- Contents: ${contents}` : "",
+  ].filter(Boolean).join("\n");
+
+  return `Thank you for visiting my listing!
+
+■ Item Description
+${itemLines}
+
+■ Shipping from Japan
+${buildShippingBlock(f)}
+
+Please feel free to message me with any questions.
+Thank you and happy collecting!`;
 }
 
 // ---------- クリップボード ----------
@@ -1063,8 +1157,14 @@ function AppInner() {
     () => (searchQuery.trim().length >= 2 ? searchCards(searchQuery) : []),
     [searchQuery]
   );
-  const title = useMemo(() => (mode === "single" ? buildSingleTitle(f) : buildPackTitle(f)), [mode, f]);
-  const generatedDesc = useMemo(() => (mode === "single" ? buildSingleDesc(f) : buildPackDesc(f)), [mode, f]);
+  const title = useMemo(
+    () => (mode === "single" ? buildSingleTitle(f) : mode === "sealed" ? buildSealedTitle(f) : buildPackTitle(f)),
+    [mode, f]
+  );
+  const generatedDesc = useMemo(
+    () => (mode === "single" ? buildSingleDesc(f) : mode === "sealed" ? buildSealedDesc(f) : buildPackDesc(f)),
+    [mode, f]
+  );
   // 説明文の手動編集（textarea）。フォーム内容が変わったら再生成された説明文に戻す
   const [descOverride, setDescOverride] = useState(null);
   useEffect(() => { setDescOverride(null); }, [mode, f]);
@@ -1150,7 +1250,7 @@ function AppInner() {
     return history.filter((e) => normalize(`${e.f.pokemonJa} ${e.f.pokemonEn} ${e.f.setNameJa} ${e.f.setNameEn}`).includes(nq));
   }, [history, historyFilter]);
   const loadFromHistory = (entry) => {
-    setMode(entry.mode === "pack" ? "pack" : "single");
+    setMode(resolveHistoryMode(entry.mode));
     setF({ ...DEFAULT_FORM, ...(entry.f || {}) });
     const local = entry.f?.cardNo ? entry.f.cardNo.split("/")[0] : "";
     const n = parseInt(local, 10);
@@ -1232,6 +1332,9 @@ function AppInner() {
     setF((p) => applyCandidateToForm(p, r, { carryOverCondition }));
     setShowCandidates(false);
   };
+  const applySealedProduct = (code) => {
+    setF((p) => applySealedProductToForm(p, code));
+  };
   // 検索を使わない手入力派向け：出品固有フィールドだけを空に戻す
   const startNewListing = () => {
     setF((p) => ({ ...p, ...PER_LISTING_FIELDS }));
@@ -1263,7 +1366,7 @@ function AppInner() {
 
         <div style={{ display: "flex", flexWrap: "wrap", gap: 12, alignItems: "center", marginBottom: 20 }}>
           <div style={{ display: "inline-flex", background: "#e4e8f2", borderRadius: 999, padding: 4 }}>
-            {[{ k: "single", label: "シングルカード" }, { k: "pack", label: "未開封パック / BOX" }].map((t) => (
+            {[{ k: "single", label: "シングルカード" }, { k: "pack", label: "未開封パック / BOX" }, { k: "sealed", label: "セット品" }].map((t) => (
               <button key={t.k} onClick={() => setMode(t.k)} style={{
                 padding: "8px 20px", borderRadius: 999, border: "none", cursor: "pointer",
                 fontSize: 13, fontWeight: 700, color: mode === t.k ? "#fff" : "#3b4256",
@@ -1363,6 +1466,14 @@ function AppInner() {
                 </div>
               </>
             )}
+            {mode === "sealed" && (
+              <Field label="商品を選択" hint="選ぶとセット名・型番・発売年が自動入力されます。リストに無い商品は下の欄に直接入力してください">
+                <select style={inputStyle} value="" onChange={(e) => { if (e.target.value) applySealedProduct(e.target.value); }}>
+                  <option value="">選択してください（手入力も可）</option>
+                  {SEALED_PRODUCTS.map((s) => <option key={s.c} value={s.c}>{s.ja} ({s.c})</option>)}
+                </select>
+              </Field>
+            )}
             <div style={{ display: "flex", gap: 10 }}>
               <div style={{ flex: 1 }}><Field label="セット名（日本語）"><input style={inputStyle} value={f.setNameJa} onChange={set("setNameJa")} placeholder="例: ポケモンカード151" /></Field></div>
               <div style={{ flex: 1 }}><Field label="セット名（英語）"><input style={inputStyle} value={f.setNameEn} onChange={set("setNameEn")} placeholder="例: Pokemon 151" /></Field></div>
@@ -1433,6 +1544,32 @@ function AppInner() {
                     <input type="checkbox" checked={f.oldBack} onChange={set("oldBack")} />旧裏（オールドバック）
                   </label>
                 )}
+              </>
+            ) : mode === "sealed" ? (
+              <>
+                <div style={{ display: "flex", gap: 10 }}>
+                  <div style={{ flex: 1 }}>
+                    <Field label="商品種別（英語・任意）" hint="例: Starter Deck / Deck Build Box / Premium Trainer Box">
+                      <input style={inputStyle} value={f.sealedProductType} onChange={set("sealedProductType")} placeholder="Starter Deck" />
+                    </Field>
+                  </div>
+                  <div style={{ flex: 1 }}>
+                    <Field label="数量" hint="何個セットか（1個売り／2個セット等）">
+                      <input style={inputStyle} inputMode="numeric" value={f.sealedQty} onChange={set("sealedQty")} placeholder="1" />
+                    </Field>
+                  </div>
+                </div>
+                <Field label="外箱の状態">
+                  <select style={inputStyle} value={f.sealedCondition} onChange={set("sealedCondition")}>
+                    {SEALED_CONDITIONS.map((c) => <option key={c.code} value={c.code}>{c.ja}</option>)}
+                  </select>
+                </Field>
+                <Field label="同梱物の説明（英語・任意）" hint="例: 1x Charizard ex deck, 1x playmat, energy cards">
+                  <textarea style={{ ...inputStyle, minHeight: 60, resize: "vertical" }} value={f.sealedContents} onChange={set("sealedContents")} placeholder="同梱されているものを具体的に書いてください" />
+                </Field>
+                <p style={{ margin: "0 0 14px", fontSize: 11.5, color: "#a3352b", lineHeight: 1.6, background: "#fdecea", borderRadius: 10, padding: "10px 14px" }}>
+                  ⚠ セット品は単品カードより重量が大きいため、送料設定（発送方法・実費）が単品カード基準のままになっていないか確認してください。
+                </p>
               </>
             ) : (
               <>
@@ -1740,7 +1877,7 @@ function AppInner() {
                 <div key={entry.id} style={{ borderRadius: 12, padding: 10, border: "2px solid #e4e8f2", background: "#fafbfe" }}>
                   <CardImage src={entryImage(entry)} name={entry.f.pokemonJa || entry.f.pokemonEn || entry.f.setNameJa} />
                   <div style={{ marginTop: 8, fontSize: 12.5, fontWeight: 800, color: "#1a2238", lineHeight: 1.4 }}>
-                    {entry.f.pokemonJa || entry.f.pokemonEn || (entry.mode === "pack" ? entry.f.setNameJa : "(未入力)")}
+                    {entry.f.pokemonJa || entry.f.pokemonEn || (entry.mode === "pack" || entry.mode === "sealed" ? entry.f.setNameJa : "(未入力)")}
                   </div>
                   <div style={{ fontSize: 11, color: "#5b6478", marginTop: 2, lineHeight: 1.5 }}>
                     SKU: {entry.sku}<br />
@@ -1803,7 +1940,7 @@ function AppInner() {
                 <div key={entry.id} style={{ borderRadius: 12, padding: 10, border: "2px solid #e4e8f2", background: "#fafbfe" }}>
                   <CardImage src={entryImage(entry)} name={entry.f.pokemonJa || entry.f.pokemonEn || entry.f.setNameJa} />
                   <div style={{ marginTop: 8, fontSize: 12.5, fontWeight: 800, color: "#1a2238", lineHeight: 1.4 }}>
-                    {entry.f.pokemonJa || entry.f.pokemonEn || (entry.mode === "pack" ? entry.f.setNameJa : "(未入力)")}
+                    {entry.f.pokemonJa || entry.f.pokemonEn || (entry.mode === "pack" || entry.mode === "sealed" ? entry.f.setNameJa : "(未入力)")}
                   </div>
                   <div style={{ fontSize: 11, color: "#5b6478", marginTop: 2, lineHeight: 1.5 }}>
                     {[entry.f.rarity, entry.f.cardNo].filter(Boolean).join(" · ")}<br />

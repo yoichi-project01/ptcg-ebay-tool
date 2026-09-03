@@ -7,6 +7,8 @@ import {
   buildSingleDesc, buildPackDesc, SHIPPING_METHODS, PACKING_LEVELS,
   buildConditionPhrasesSentence, computeMonthlyUsage, DEFAULT_FORM,
   buildPackTitle, buildEbaySearchQuery,
+  buildSealedTitle, buildSealedDesc, applySealedProductToForm, resolveHistoryMode,
+  SEALED_CONDITIONS, SEALED_PRODUCTS,
 } from "./App.jsx";
 
 const DEFAULT_F = {
@@ -900,5 +902,143 @@ describe("buildListingCsvRow / buildListingCsv", () => {
     const row = buildListingCsvRow(withComma);
     const csv = buildListingCsv([withComma]);
     expect(csv).toContain('"Line with, a comma and ""quotes"""');
+  });
+});
+
+// 修正依頼タスク2: セット品（未開封商品パッケージ）タブ
+describe("SEALED_PRODUCTS", () => {
+  it("only lists set codes that actually exist in cardData.json", () => {
+    expect(SEALED_PRODUCTS.length).toBeGreaterThan(0);
+    for (const p of SEALED_PRODUCTS) {
+      expect(p.c).toBeTruthy();
+      expect(p.ja).toBeTruthy();
+    }
+  });
+});
+
+describe("applySealedProductToForm", () => {
+  it("fills setCode/setNameJa/setNameEn from cardData.json for a known sealed product", () => {
+    const next = applySealedProductToForm(DEFAULT_FORM, "SD");
+    expect(next.setCode).toBe("SD");
+    expect(next.setNameJa).toBe("スタートデッキ100");
+  });
+
+  it("resets per-listing fields (price, sealed condition) from the previous product", () => {
+    const prev = { ...DEFAULT_FORM, sellPriceUsd: "50", sealedCondition: "sealed_worn" };
+    const next = applySealedProductToForm(prev, "SD");
+    expect(next.sellPriceUsd).toBe("");
+    expect(next.sealedCondition).toBe("sealed_mint");
+  });
+
+  it("leaves the form unchanged for an unknown set code", () => {
+    const prev = { ...DEFAULT_FORM, setCode: "KEEP-ME" };
+    const next = applySealedProductToForm(prev, "NOT-A-REAL-CODE");
+    expect(next).toBe(prev);
+  });
+});
+
+// setCodeがcardData.jsonに存在しない架空の値を使い、シリーズ英語名・発売年の
+// CARD_DATA参照を切り離した状態で、優先度順の組み立てそのものを検証する
+describe("buildSealedTitle", () => {
+  it("assembles the title in priority order when the set isn't in the database", () => {
+    const f = { ...DEFAULT_FORM, setCode: "ZZFAKE", setNameEn: "Fake Starter Set", sealedProductType: "Starter Deck" };
+    expect(buildSealedTitle(f)).toBe("Fake Starter Set ZZFAKE Japanese Pokemon Card Starter Deck Sealed");
+  });
+
+  it("omits the product type token when not provided", () => {
+    const f = { ...DEFAULT_FORM, setCode: "ZZFAKE", setNameEn: "Fake Set", sealedProductType: "" };
+    expect(buildSealedTitle(f)).toBe("Fake Set ZZFAKE Japanese Pokemon Card Sealed");
+  });
+
+  it("looks up the release year and series name from cardData.json via setCode", () => {
+    const f = { ...DEFAULT_FORM, setCode: "SD", setNameEn: "Start Deck 100" };
+    const title = buildSealedTitle(f);
+    expect(title).toContain("SD");
+    expect(title).toContain("2021"); // SDの発売年（cardData.json）
+    expect(title).toContain("Sword & Shield"); // SDのsr="S"のシリーズ英語名
+  });
+
+  it("uses codeAlias instead of the internal setCode when present", () => {
+    const title = buildSealedTitle({ ...DEFAULT_FORM, setCode: "XY1-Bx", setNameEn: "Collection X" });
+    expect(title).toContain("XY1");
+    expect(title).not.toContain("XY1-Bx");
+  });
+
+  it("does not throw and simply omits the year for a set with no known release year", () => {
+    const f = { ...DEFAULT_FORM, setCode: "ZZFAKE", setNameEn: "Fake Set" };
+    expect(() => buildSealedTitle(f)).not.toThrow();
+    expect(buildSealedTitle(f)).not.toContain("undefined");
+  });
+});
+
+const sealedCard = {
+  ...DEFAULT_FORM,
+  setCode: "SD", setNameEn: "Start Deck 100", sealedProductType: "Starter Deck",
+  sealedQty: "1", sealedCondition: "sealed_mint", sealedContents: "",
+  shipFrom: "Osaka, Japan", handlingDays: "3", shippingMethod: "smallpacket", packingLevel: "standard", smokeFree: true,
+};
+
+describe("buildSealedDesc", () => {
+  it("includes Factory Sealed and omits the pack-mode luck disclaimer", () => {
+    const desc = buildSealedDesc(sealedCard);
+    expect(desc).toContain("Factory Sealed");
+    expect(desc).not.toMatch(/based on luck/i);
+    expect(desc).not.toMatch(/never weighed/i);
+  });
+
+  it("reflects the chosen box condition", () => {
+    const worn = buildSealedDesc({ ...sealedCard, sealedCondition: "sealed_worn" });
+    expect(worn).toContain("visible wear and dents on the box");
+    const mint = buildSealedDesc({ ...sealedCard, sealedCondition: "sealed_mint" });
+    expect(mint).toContain("mint condition");
+  });
+
+  it("includes a Contents line only when sealedContents is filled in", () => {
+    const withContents = buildSealedDesc({ ...sealedCard, sealedContents: "1x Charizard ex deck, energy cards, playmat" });
+    expect(withContents).toContain("Contents: 1x Charizard ex deck, energy cards, playmat");
+    const without = buildSealedDesc({ ...sealedCard, sealedContents: "" });
+    expect(without).not.toContain("Contents:");
+  });
+
+  it("shows the quantity token based on sealedQty", () => {
+    expect(buildSealedDesc({ ...sealedCard, sealedQty: "1" })).toContain("1x Factory Sealed");
+    expect(buildSealedDesc({ ...sealedCard, sealedQty: "2" })).toContain("2x Factory Sealed");
+  });
+
+  it("reuses the shared shipping block (tracking, packing level)", () => {
+    const desc = buildSealedDesc({ ...sealedCard, shippingMethod: "cpass" });
+    expect(desc).toMatch(/tracking/i);
+  });
+
+  it("uses codeAlias instead of the internal setCode in the description", () => {
+    const desc = buildSealedDesc({ ...sealedCard, setCode: "XY1-Bx", setNameEn: "Collection X" });
+    expect(desc).toContain("(XY1)");
+    expect(desc).not.toContain("XY1-Bx");
+  });
+});
+
+describe("buildSku — sealed mode", () => {
+  it("builds a {setCode}-SEALED SKU regardless of other card-only fields", () => {
+    expect(buildSku({ setCode: "SD" }, "sealed")).toBe("SD-SEALED");
+  });
+});
+
+describe("buildEbaySearchQuery — sealed mode", () => {
+  it("builds a sealed-product query without booster pack/box wording", () => {
+    const q = buildEbaySearchQuery(
+      { setNameEn: "Start Deck 100", setCode: "SD", sealedProductType: "Starter Deck" }, "sealed"
+    );
+    expect(q).toBe("Start Deck 100 SD Japanese Starter Deck");
+    expect(q).not.toContain("Booster");
+  });
+});
+
+describe("resolveHistoryMode", () => {
+  it("preserves known modes and defaults anything else (including old history without a sealed mode) to single", () => {
+    expect(resolveHistoryMode("single")).toBe("single");
+    expect(resolveHistoryMode("pack")).toBe("pack");
+    expect(resolveHistoryMode("sealed")).toBe("sealed");
+    expect(resolveHistoryMode(undefined)).toBe("single");
+    expect(resolveHistoryMode("garbage")).toBe("single");
   });
 });
