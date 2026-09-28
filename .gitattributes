@@ -1,0 +1,2 @@
+# vitest(oxc) は「#!」行の末尾が CRLF だと SyntaxError になるため、.mjs は常に LF で展開する
+*.mjs text eol=lf
