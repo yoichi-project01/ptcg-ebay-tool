@@ -378,7 +378,6 @@ async function main() {
   const args = process.argv.slice(2);
   const onlySet = args.includes("--set") ? args[args.indexOf("--set") + 1] : null;
   const targets = onlySet ? TARGET_SETS.filter((t) => t.code === onlySet) : TARGET_SETS;
-  if (targets.length === 0) throw new Error(`TARGET_SETS に ${onlySet} がありません`);
 
   const cache = JSON.parse(await fs.readFile(CACHE_PATH, "utf-8"));
   if (args.includes("--details-only")) {
@@ -389,6 +388,7 @@ async function main() {
   }
   if (args.includes("--rebuild")) {
     const rebuildTargets = onlySet ? REBUILD_SETS.filter((t) => t.code === onlySet) : REBUILD_SETS;
+    if (rebuildTargets.length === 0) throw new Error(`REBUILD_SETS に ${onlySet} がありません`);
     for (const target of rebuildTargets) {
       const cardData = JSON.parse(await fs.readFile(CARD_DATA_PATH, "utf-8"));
       const imageIndex = JSON.parse(await fs.readFile(path.join(ROOT, "src", "imageIndex.json"), "utf-8"));
@@ -396,6 +396,7 @@ async function main() {
     }
     return;
   }
+  if (targets.length === 0) throw new Error(`TARGET_SETS に ${onlySet} がありません`);
   for (const target of targets) {
     // 1弾ごとに読み直す（前の弾の書き込み結果を確実に反映するため）
     const cardData = JSON.parse(await fs.readFile(CARD_DATA_PATH, "utf-8"));
