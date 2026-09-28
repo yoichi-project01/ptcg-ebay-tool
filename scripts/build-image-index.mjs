@@ -28,8 +28,9 @@ async function walk(dir) {
   for (const e of entries) {
     const p = path.join(dir, e.name);
     if (e.isDirectory()) out.push(...(await walk(p)));
-    // .webp（TCGdex英語版）は除外。日本語カードの出品に英語アートワークを使わないため（CLAUDE.md参照）
-    else if (e.name.endsWith(".jpg") || e.name.endsWith(".png")) out.push(p);
+    // .webp（TCGdex英語版）は除外。日本語カードの出品に英語アートワークを使わないため（CLAUDE.md参照）。
+    // .gif は公式サイトが旧世代プロモ（DP-P/DPt-P/L-P 等）を GIF で配信しているため、元データのまま扱う
+    else if (/\.(jpg|png|gif)$/.test(e.name)) out.push(p);
   }
   return out;
 }
@@ -47,8 +48,8 @@ async function main() {
     const rel = path.relative(path.join(ROOT, "public"), f).split(path.sep).join("/");
     const parts = rel.split("/"); // cards, SERIE, SET, local.ext
     const set = parts[2];
-    const ext = f.endsWith(".jpg") ? ".jpg" : ".png";
-    const stem = parts[3].replace(/\.(jpg|png)$/, "");
+    const ext = path.extname(f);
+    const stem = parts[3].replace(/\.(jpg|png|gif)$/, "");
     const local = extractLocalId(stem, set);
     const n = parseInt(local, 10);
     const key = `${set}/${isNaN(n) ? local : n}`;
@@ -60,7 +61,8 @@ async function main() {
   await fs.writeFile(OUT, JSON.stringify(index), "utf-8");
   const jpgCount = Object.values(index).filter(v => v.endsWith(".jpg")).length;
   const pngCount = Object.values(index).filter(v => v.endsWith(".png")).length;
-  console.log(`画像インデックス生成: ${Object.keys(index).length} 件 (jpg=${jpgCount}, png=${pngCount}) -> src/imageIndex.json`);
+  const gifCount = Object.values(index).filter(v => v.endsWith(".gif")).length;
+  console.log(`画像インデックス生成: ${Object.keys(index).length} 件 (jpg=${jpgCount}, png=${pngCount}, gif=${gifCount}) -> src/imageIndex.json`);
 }
 
 main().catch((e) => {

@@ -25,7 +25,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
-import { extractCardId, validateAndBuildK } from "./scrape-missing-sets.mjs";
+import { extractCardId, RARITY_CODE_MAP, validateAndBuildK } from "./scrape-missing-sets.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -77,9 +77,18 @@ const TARGET_SETS = [
 
 // 既存の S-P / SV-P（旧 scrape-promo-images.mjs の位置マッチングで作られた）を
 // details.php の結果で1件ずつ突き合わせて作り直す対象
+// 公式サイトで検証できない旧データ（欠番位置・数字でない型番）は削除する（2026-09-28 ユーザー判断）。
+// allowRarity: details.php にレアリティアイコンがあるプロモ（S-P 341〜349・SV-P 183 の再録系）は
+//       RARITY_CODE_MAP で変換して登録する（2026-09-28 ユーザー判断）
 const REBUILD_SETS = [
-  { code: "S-P", sr: "S", sourceCacheKeys: ["S-P"] },
-  { code: "SV-P", sr: "SV", sourceCacheKeys: ["SV-P"] },
+  {
+    code: "S-P", label: "S-P", badge: "S-P", sr: "S", sourceCacheKeys: ["S-P"], allowRarity: true,
+    allowedGaps: [60, 61, 62, 63, 64, 65, 66, 67, 134, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 222, 233, 303, 329, 330, 331, 332, 333, 334, 335, 336],
+  },
+  {
+    code: "SV-P", label: "SV-P", badge: "SV-P", sr: "SV", sourceCacheKeys: ["SV-P"], allowRarity: true,
+    allowedGaps: [37, 38, 39, 40, 41, 42, 43, 44, 221, 223, 224, 225, 226, 227, 228, 229, 230, 231],
+  },
 ];
 
 export function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
@@ -155,6 +164,10 @@ async function saveProgress(code, progress) {
 // 基本エネルギーだけは番号なしを正常として除外する。それ以外の番号なしは異常扱い
 const isBasicEnergy = (name) => /^基本.+エネルギー$/.test(name);
 
+// 公式サイトは旧世代プロモ（DP-P/DPt-P/L-P 等）を GIF で配信しているため、
+// 保存時の拡張子は URL ではなく中身から決める（中身を変換せず元データのまま保存する）
+export const imageExt = (buf) => (buf.subarray(0, 3).toString("latin1") === "GIF" ? ".gif" : ".jpg");
+
 // details.php の結果を進捗ファイルに集めるだけで、検証・書き込みはしない（--details-only）
 async function fetchDetails(code, cardIds) {
   const progress = await loadProgress(code);
@@ -207,10 +220,10 @@ async function processSet(target, cache, cardData) {
   const imgFailed = [];
   for (const [n, d] of [...byLocal.entries()].sort((a, b) => a[0] - b[0])) {
     const localId = String(n).padStart(3, "0");
-    const dest = path.join(OUT_DIR, target.sr, code, buildFileName(d.jaName, code, localId, "", setTotal) + ".jpg");
-    if (await isUsableImage(dest)) { imgSkipped++; continue; }
+    const destBase = path.join(OUT_DIR, target.sr, code, buildFileName(d.jaName, code, localId, "", setTotal));
+    if (await isUsableImage(destBase + ".jpg") || await isUsableImage(destBase + ".gif")) { imgSkipped++; continue; }
     const buf = d.cardThumbFile ? await politeFetch(API_BASE + d.cardThumbFile, true) : null;
-    if (buf && buf.length > 1000) { await writeFileAtomic(dest, buf); imgDownloaded++; }
+    if (buf && buf.length > 1000) { await writeFileAtomic(destBase + imageExt(buf), buf); imgDownloaded++; }
     else imgFailed.push(localId);
     await politeDelay();
     if (imgFailed.length >= MAX_CONSECUTIVE_FAILURES && imgDownloaded === 0) {
@@ -248,11 +261,13 @@ function validatePromo(target, cardIds, progress) {
     throw new Error(`[${code}] 表記が想定（${target.badge} / ${target.label}）と異なるカードがあります: ${badLabel.map((e) => `${e.cardId}:${e.badge}/${e.label}`).join(", ")}`);
   }
   const withRarity = numbered.filter((e) => e.rarityCode);
-  if (withRarity.length) {
+  if (withRarity.length && !target.allowRarity) {
     throw new Error(`[${code}] プロモにレアリティアイコンがあるカードがあります（要確認）: ${withRarity.map((e) => `${e.cardId}:${e.rarityCode}`).join(", ")}`);
   }
   // 重複（同名は同一カードの二重掲載として後勝ち、別名は例外）・欠番（1〜最大番号）を検証
-  const details = numbered.map((e) => ({ local: e.number, total: "0", rarity: "", jaName: e.jaName, cardThumbFile: e.cardThumbFile, cardId: e.cardId }));
+  // 未知のレアリティコードは null になり、validateAndBuildK が例外を投げる
+  const rarityOf = (e) => (e.rarityCode ? (RARITY_CODE_MAP[e.rarityCode] ?? null) : "");
+  const details = numbered.map((e) => ({ local: e.number, total: "0", rarity: rarityOf(e), jaName: e.jaName, cardThumbFile: e.cardThumbFile, cardId: e.cardId }));
   const { k, byLocal } = validateAndBuildK(details, code, { allowedGaps: target.allowedGaps });
   return { k, byLocal, excluded, numberlessSkipped, dupSameName: details.length - byLocal.size };
 }
@@ -336,9 +351,10 @@ async function rebuildSet(target, cache, cardData, imageIndex) {
   const setDir = path.join(OUT_DIR, target.sr, code);
   const keep = new Set();
   for (const row of k) {
-    const name = buildFileName(row[1], code, row[0], "", setTotal) + ".jpg";
+    const buf = await fs.readFile(path.join(stageDir, `${row[0]}.jpg`));
+    const name = buildFileName(row[1], code, row[0], row[3], setTotal) + imageExt(buf);
     keep.add(name);
-    await writeFileAtomic(path.join(setDir, name), await fs.readFile(path.join(stageDir, `${row[0]}.jpg`)));
+    await writeFileAtomic(path.join(setDir, name), buf);
   }
   let orphansRemoved = 0;
   for (const f of await fs.readdir(setDir)) {

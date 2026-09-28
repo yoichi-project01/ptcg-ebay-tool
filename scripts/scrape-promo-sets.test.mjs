@@ -1,5 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { parsePromoDetailFromHtml } from "./scrape-promo-sets.mjs";
+import { imageExt, parsePromoDetailFromHtml } from "./scrape-promo-sets.mjs";
+
+describe("imageExt", () => {
+  it("中身が GIF なら .gif、それ以外は .jpg", () => {
+    expect(imageExt(Buffer.from("GIF89a..."))).toBe(".gif");
+    expect(imageExt(Buffer.from([0xff, 0xd8, 0xff, 0xe0]))).toBe(".jpg");
+  });
+});
 
 // details.php の実際の表記（SMP cardId 33211, 2026-09-28取得）を最小限に再現したもの
 const html = (numberPart) => `
