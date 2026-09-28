@@ -1,0 +1,3802 @@
+{
+ "30166": {
+  "jaName": "フレア団のしたっぱ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030166_T_FUREADANNOSHITAPPA.jpg"
+ },
+ "30167": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "001",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030167_P_PIKACHUU.jpg"
+ },
+ "30174": {
+  "jaName": "ライチュウ",
+  "badge": "XYP",
+  "number": "002",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030174_P_RAICHUU.jpg"
+ },
+ "30205": {
+  "jaName": "エネルギー回収",
+  "badge": "XYP",
+  "number": "003",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030205_T_ENERUGIKAISHUU.jpg"
+ },
+ "30206": {
+  "jaName": "エネルギーつけかえ",
+  "badge": "XYP",
+  "number": "004",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030206_T_ENERUGITSUKEKAE.jpg"
+ },
+ "30207": {
+  "jaName": "スーパーポケモン回収",
+  "badge": "XYP",
+  "number": "005",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030207_T_SUPAPOKEMONKAISHUU.jpg"
+ },
+ "30208": {
+  "jaName": "ともだちてちょう",
+  "badge": "XYP",
+  "number": "006",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030208_T_TOMODACHITECHOU.jpg"
+ },
+ "30209": {
+  "jaName": "なんでもなおし",
+  "badge": "XYP",
+  "number": "007",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030209_T_NANDEMONAOSHI.jpg"
+ },
+ "30210": {
+  "jaName": "オンバット",
+  "badge": "XYP",
+  "number": "008",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030210_P_ONBATTO.jpg"
+ },
+ "30211": {
+  "jaName": "オンバーン",
+  "badge": "XYP",
+  "number": "009",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030211_P_ONBAN.jpg"
+ },
+ "30212": {
+  "jaName": "ガブリアスEX",
+  "badge": "XYP",
+  "number": "010",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030212_P_GABURIASUEX.jpg"
+ },
+ "30213": {
+  "jaName": "メェークル",
+  "badge": "XYP",
+  "number": "011",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030213_P_MEEKURU.jpg"
+ },
+ "30214": {
+  "jaName": "ヒトツキ",
+  "badge": "XYP",
+  "number": "012",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030214_P_HITOTSUKI.jpg"
+ },
+ "30215": {
+  "jaName": "デデンネ",
+  "badge": "XYP",
+  "number": "013",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030215_P_DEDENNE.jpg"
+ },
+ "30216": {
+  "jaName": "エリキテル",
+  "badge": "XYP",
+  "number": "016",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030216_P_ERIKITERU.jpg"
+ },
+ "30217": {
+  "jaName": "ゴーゴート",
+  "badge": "XYP",
+  "number": "017",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030217_P_GOGOTO.jpg"
+ },
+ "30218": {
+  "jaName": "基本草エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030218_E_KIHONKUSAENERUGI.jpg"
+ },
+ "30219": {
+  "jaName": "基本炎エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030219_E_KIHONHONOOENERUGI.jpg"
+ },
+ "30220": {
+  "jaName": "基本水エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030220_E_KIHONMIZUENERUGI.jpg"
+ },
+ "30221": {
+  "jaName": "基本雷エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030221_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "30222": {
+  "jaName": "基本超エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030222_E_KIHONCHOUENERUGI.jpg"
+ },
+ "30223": {
+  "jaName": "基本闘エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030223_E_KIHONTOUENERUGI.jpg"
+ },
+ "30224": {
+  "jaName": "基本悪エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030224_E_KIHONAKUENERUGI.jpg"
+ },
+ "30225": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030225_E_KIHONKOUENERUGI.jpg"
+ },
+ "30226": {
+  "jaName": "基本フェアリーエネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030226_E_KIHONFEARIENERUGI.jpg"
+ },
+ "30227": {
+  "jaName": "ちからのハチマキ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030227_T_CHIKARANOHACHIMAKI.jpg"
+ },
+ "30228": {
+  "jaName": "ティエルノ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030228_T_TEIERUNO.jpg"
+ },
+ "30229": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030229_T_BIKUTORIRINGU.jpg"
+ },
+ "30230": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030230_T_BIKUTORIRINGU.jpg"
+ },
+ "30231": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030231_T_BIKUTORIRINGU.jpg"
+ },
+ "30335": {
+  "jaName": "ピッピ",
+  "badge": "XYP",
+  "number": "014",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030335_P_PIPPI.jpg"
+ },
+ "30336": {
+  "jaName": "ヤンチャム",
+  "badge": "XYP",
+  "number": "015",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030336_P_YANCHAMU.jpg"
+ },
+ "30337": {
+  "jaName": "ファイアロー",
+  "badge": "XYP",
+  "number": "018",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030337_P_FAIARO.jpg"
+ },
+ "30338": {
+  "jaName": "ちからのハチマキ",
+  "badge": "XYP",
+  "number": "019",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030338_T_CHIKARANOHACHIMAKI.jpg"
+ },
+ "30339": {
+  "jaName": "コフキムシ",
+  "badge": "XYP",
+  "number": "020",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030339_P_KOFUKIMUSHI.jpg"
+ },
+ "30340": {
+  "jaName": "ゲッコウガEX",
+  "badge": "XYP",
+  "number": "021",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030340_P_GEKKOUGAEX.jpg"
+ },
+ "30341": {
+  "jaName": "オーロット",
+  "badge": "XYP",
+  "number": "022",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030341_P_OROTTO.jpg"
+ },
+ "30342": {
+  "jaName": "ディグダ",
+  "badge": "XYP",
+  "number": "023",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030342_P_DEIGUDA.jpg"
+ },
+ "30343": {
+  "jaName": "ニダンギル",
+  "badge": "XYP",
+  "number": "024",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030343_P_NIDANGIRU.jpg"
+ },
+ "30344": {
+  "jaName": "ペロリーム",
+  "badge": "XYP",
+  "number": "025",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030344_P_PERORIMU.jpg"
+ },
+ "30345": {
+  "jaName": "ヌメラ",
+  "badge": "XYP",
+  "number": "026",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030345_P_NUMERA.jpg"
+ },
+ "30346": {
+  "jaName": "ハンドスコープ",
+  "badge": "XYP",
+  "number": "027",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030346_T_HANDOSUKOPU.jpg"
+ },
+ "30347": {
+  "jaName": "プラターヌ博士",
+  "badge": "XYP",
+  "number": "028",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030347_T_PURATANUHAKASE.jpg"
+ },
+ "30348": {
+  "jaName": "基本雷エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030348_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "30349": {
+  "jaName": "基本超エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030349_E_KIHONCHOUENERUGI.jpg"
+ },
+ "30350": {
+  "jaName": "基本闘エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030350_E_KIHONTOUENERUGI.jpg"
+ },
+ "30351": {
+  "jaName": "ブリガロンEX",
+  "badge": "XYP",
+  "number": "029",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030351_P_BURIGARONEX.jpg"
+ },
+ "30352": {
+  "jaName": "リザードンEX",
+  "badge": "XYP",
+  "number": "030",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030352_P_RIZADONEX.jpg"
+ },
+ "30353": {
+  "jaName": "ヌメルゴン",
+  "badge": "XYP",
+  "number": "031",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030353_P_NUMERUGON.jpg"
+ },
+ "30354": {
+  "jaName": "炎のトーチ",
+  "badge": "XYP",
+  "number": "032",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030354_T_HONOONOTOCHI.jpg"
+ },
+ "30355": {
+  "jaName": "ダーテング",
+  "badge": "XYP",
+  "number": "039",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030355_P_DATENGU.jpg"
+ },
+ "30356": {
+  "jaName": "タマザラシ",
+  "badge": "XYP",
+  "number": "040",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030356_P_TAMAZARASHI.jpg"
+ },
+ "30357": {
+  "jaName": "ニャオニクス",
+  "badge": "XYP",
+  "number": "041",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030357_P_NYAONIKUSU.jpg"
+ },
+ "30358": {
+  "jaName": "クズモー",
+  "badge": "XYP",
+  "number": "042",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030358_P_KUZUMO.jpg"
+ },
+ "30359": {
+  "jaName": "チゴラス",
+  "badge": "XYP",
+  "number": "043",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030359_P_CHIGORASU.jpg"
+ },
+ "30360": {
+  "jaName": "ワルビアルEX",
+  "badge": "XYP",
+  "number": "044",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030360_P_WARUBIARUEX.jpg"
+ },
+ "30361": {
+  "jaName": "ヌメイル",
+  "badge": "XYP",
+  "number": "045",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030361_P_NUMEIRU.jpg"
+ },
+ "30362": {
+  "jaName": "改造ハンマー",
+  "badge": "XYP",
+  "number": "046",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030362_T_KAIZOUHANMA.jpg"
+ },
+ "30363": {
+  "jaName": "イカサマコイン",
+  "badge": "XYP",
+  "number": "047",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030363_T_IKASAMAKOIN.jpg"
+ },
+ "30364": {
+  "jaName": "マフォクシーEX",
+  "badge": "XYP",
+  "number": "048",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030364_P_MAFOKUSHIEX.jpg"
+ },
+ "30365": {
+  "jaName": "プロテクトキューブ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030365_T_PUROTEKUTOKYUBU.jpg"
+ },
+ "30366": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030366_T_BIKUTORIRINGU.jpg"
+ },
+ "30367": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030367_T_BIKUTORIRINGU.jpg"
+ },
+ "30368": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030368_T_BIKUTORIRINGU.jpg"
+ },
+ "30369": {
+  "jaName": "鍛冶屋",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030369_T_KAJIYA.jpg"
+ },
+ "30370": {
+  "jaName": "基本炎エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030370_E_KIHONHONOOENERUGI.jpg"
+ },
+ "30371": {
+  "jaName": "カメテテ",
+  "badge": "XYP",
+  "number": "049",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030371_P_KAMETETE.jpg"
+ },
+ "30372": {
+  "jaName": "ゲッコウガ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030372_P_GEKKOUGA.jpg"
+ },
+ "30373": {
+  "jaName": "基本草エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030373_E_KIHONKUSAENERUGI.jpg"
+ },
+ "30374": {
+  "jaName": "基本炎エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030374_E_KIHONHONOOENERUGI.jpg"
+ },
+ "30375": {
+  "jaName": "基本悪エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030375_E_KIHONAKUENERUGI.jpg"
+ },
+ "30472": {
+  "jaName": "カエンジシ",
+  "badge": "XYP",
+  "number": "033",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030472_P_KAENJISHI.jpg"
+ },
+ "30473": {
+  "jaName": "ハリマロン",
+  "badge": "XYP",
+  "number": "034",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030473_P_HARIMARON.jpg"
+ },
+ "30474": {
+  "jaName": "フォッコ",
+  "badge": "XYP",
+  "number": "035",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030474_P_FOKKO.jpg"
+ },
+ "30475": {
+  "jaName": "ケロマツ",
+  "badge": "XYP",
+  "number": "036",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030475_P_KEROMATSU.jpg"
+ },
+ "30476": {
+  "jaName": "ダークライ",
+  "badge": "XYP",
+  "number": "037",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030476_P_DAKURAI.jpg"
+ },
+ "30477": {
+  "jaName": "ルチャブルEX",
+  "badge": "XYP",
+  "number": "038",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030477_P_RUCHABURUEX.jpg"
+ },
+ "30478": {
+  "jaName": "日本代表のピカチュウ",
+  "badge": "XYP",
+  "number": "050",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/noimage/poke_ura.jpg"
+ },
+ "30479": {
+  "jaName": "ゴロンダ",
+  "badge": "XYP",
+  "number": "059",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030479_P_GORONDA.jpg"
+ },
+ "30579": {
+  "jaName": "ゼルネアス",
+  "badge": "XYP",
+  "number": "051",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030579_P_ZERUNEASU.jpg"
+ },
+ "30580": {
+  "jaName": "イベルタル",
+  "badge": "XYP",
+  "number": "052",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030580_P_IBERUTARU.jpg"
+ },
+ "30581": {
+  "jaName": "ディアンシー",
+  "badge": "XYP",
+  "number": "053",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030581_P_DEIANSHI.jpg"
+ },
+ "30582": {
+  "jaName": "ディアンシー",
+  "badge": "XYP",
+  "number": "054",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030582_P_DEIANSHI.jpg"
+ },
+ "30583": {
+  "jaName": "メェークル",
+  "badge": "XYP",
+  "number": "011",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030583_P_MEEKURU.jpg"
+ },
+ "30584": {
+  "jaName": "デデンネ",
+  "badge": "XYP",
+  "number": "013",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030584_P_DEDENNE.jpg"
+ },
+ "30585": {
+  "jaName": "クレッフィ",
+  "badge": "XYP",
+  "number": "057",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030585_P_KUREFFI.jpg"
+ },
+ "30586": {
+  "jaName": "メレシー",
+  "badge": "XYP",
+  "number": "058",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030586_P_MERESHI.jpg"
+ },
+ "30587": {
+  "jaName": "ポケモンカードジムメダル",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030587_T_POKEMONKADOJIMUMEDARU.jpg"
+ },
+ "30588": {
+  "jaName": "殿堂の書",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030588_T_DENDOUNOSHO.jpg"
+ },
+ "30589": {
+  "jaName": "チャンピオンズフェスティバル",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030589_T_CHANPIONZUFESUTEIBARU.jpg"
+ },
+ "30590": {
+  "jaName": "ポケテレのADピカチュウ",
+  "badge": "XYP",
+  "number": "056",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030590_P_POKETERENOADPIKACHUU.jpg"
+ },
+ "30591": {
+  "jaName": "ランドロス",
+  "badge": "XYP",
+  "number": "060",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030591_P_RANDOROSU.jpg"
+ },
+ "30592": {
+  "jaName": "ハリマロン",
+  "badge": "XYP",
+  "number": "061",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030592_P_HARIMARON.jpg"
+ },
+ "30593": {
+  "jaName": "フォッコ",
+  "badge": "XYP",
+  "number": "062",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030593_P_FOKKO.jpg"
+ },
+ "30594": {
+  "jaName": "ケロマツ",
+  "badge": "XYP",
+  "number": "063",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030594_P_KEROMATSU.jpg"
+ },
+ "30595": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "064",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030595_P_PIKACHUU.jpg"
+ },
+ "30596": {
+  "jaName": "ルチャブル",
+  "badge": "XYP",
+  "number": "065",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030596_P_RUCHABURU.jpg"
+ },
+ "30597": {
+  "jaName": "ルカリオEX",
+  "badge": "XYP",
+  "number": "066",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030597_P_RUKARIOEX.jpg"
+ },
+ "30598": {
+  "jaName": "カイリキー",
+  "badge": "XYP",
+  "number": "067",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030598_P_KAIRIKI.jpg"
+ },
+ "30599": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "068",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030599_P_PIKACHUU.jpg"
+ },
+ "30600": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "069",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030600_P_PIKACHUU.jpg"
+ },
+ "30601": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "070",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030601_P_PIKACHUU.jpg"
+ },
+ "30602": {
+  "jaName": "ブリガロン",
+  "badge": "XYP",
+  "number": "071",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030602_P_BURIGARON.jpg"
+ },
+ "30603": {
+  "jaName": "マフォクシー",
+  "badge": "XYP",
+  "number": "072",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030603_P_MAFOKUSHI.jpg"
+ },
+ "30604": {
+  "jaName": "ゲッコウガ",
+  "badge": "XYP",
+  "number": "073",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030604_P_GEKKOUGA.jpg"
+ },
+ "30605": {
+  "jaName": "フシギバナEX",
+  "badge": "XYP",
+  "number": "074",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030605_P_FUSHIGIBANAEX.jpg"
+ },
+ "30606": {
+  "jaName": "リザードンEX",
+  "badge": "XYP",
+  "number": "075",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030606_P_RIZADONEX.jpg"
+ },
+ "30607": {
+  "jaName": "カメックスEX",
+  "badge": "XYP",
+  "number": "076",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030607_P_KAMEKKUSUEX.jpg"
+ },
+ "30641": {
+  "jaName": "ゲンガーソウルリンク",
+  "badge": "XYP",
+  "number": "055",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030641_T_GENGASOURURINKU.jpg"
+ },
+ "30642": {
+  "jaName": "メタモン",
+  "badge": "XYP",
+  "number": "077",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030642_P_METAMON.jpg"
+ },
+ "30643": {
+  "jaName": "デデンネ",
+  "badge": "XYP",
+  "number": "078",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030643_P_DEDENNE.jpg"
+ },
+ "30644": {
+  "jaName": "メガゲンガーEX",
+  "badge": "XYP",
+  "number": "079",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030644_P_MGENGAEX.jpg"
+ },
+ "30645": {
+  "jaName": "ソーナンス",
+  "badge": "XYP",
+  "number": "080",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030645_P_SONANSU.jpg"
+ },
+ "30646": {
+  "jaName": "シシコ",
+  "badge": "XYP",
+  "number": "081",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030646_P_SHISHIKO.jpg"
+ },
+ "30647": {
+  "jaName": "エレザード",
+  "badge": "XYP",
+  "number": "082",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030647_P_EREZADO.jpg"
+ },
+ "30648": {
+  "jaName": "ズバット",
+  "badge": "XYP",
+  "number": "083",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030648_P_ZUBATTO.jpg"
+ },
+ "30649": {
+  "jaName": "エルレイドEX",
+  "badge": "XYP",
+  "number": "084",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030649_P_ERUREIDOEX.jpg"
+ },
+ "30650": {
+  "jaName": "ペロッパフ",
+  "badge": "XYP",
+  "number": "085",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030650_P_PEROPPAFU.jpg"
+ },
+ "30651": {
+  "jaName": "ジヘッド",
+  "badge": "XYP",
+  "number": "086",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030651_P_JIHEDDO.jpg"
+ },
+ "30652": {
+  "jaName": "ハピナス",
+  "badge": "XYP",
+  "number": "087",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030652_P_HAPINASU.jpg"
+ },
+ "30653": {
+  "jaName": "いやしのはごろも",
+  "badge": "XYP",
+  "number": "088",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030653_T_IYASHINOHAGOROMO.jpg"
+ },
+ "30654": {
+  "jaName": "トロバ",
+  "badge": "XYP",
+  "number": "089",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030654_T_TOROBA.jpg"
+ },
+ "30655": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "090",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030655_P_PIKACHUU.jpg"
+ },
+ "30656": {
+  "jaName": "ニンフィア",
+  "badge": "XYP",
+  "number": "091",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030656_P_NINFIA.jpg"
+ },
+ "30657": {
+  "jaName": "アブソルEX",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030657_P_ABUSORUEX.jpg"
+ },
+ "30658": {
+  "jaName": "メガアブソルEX",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030658_P_MABUSORUEX.jpg"
+ },
+ "30659": {
+  "jaName": "みがわりロボ（フレア団ギア）",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030659_T_MIGAWARIROBOFUREADANGIA.jpg"
+ },
+ "30660": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030660_T_BIKUTORIRINGU.jpg"
+ },
+ "30661": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030661_T_BIKUTORIRINGU.jpg"
+ },
+ "30662": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030662_T_BIKUTORIRINGU.jpg"
+ },
+ "30803": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030803_P_PIKACHUU.jpg"
+ },
+ "30804": {
+  "jaName": "ディアンシーEX",
+  "badge": "XYP",
+  "number": "092",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030804_P_DEIANSHIEX.jpg"
+ },
+ "30805": {
+  "jaName": "メガディアンシーEX",
+  "badge": "XYP",
+  "number": "093",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030805_P_MDEIANSHIEX.jpg"
+ },
+ "30806": {
+  "jaName": "あったかピカチュウ",
+  "badge": "XYP",
+  "number": "094",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030806_P_ATTAKAPIKACHUU.jpg"
+ },
+ "30807": {
+  "jaName": "あったかピカチュウ",
+  "badge": "XYP",
+  "number": "095",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030807_P_ATTAKAPIKACHUU.jpg"
+ },
+ "30808": {
+  "jaName": "あったかピカチュウ",
+  "badge": "XYP",
+  "number": "096",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030808_P_ATTAKAPIKACHUU.jpg"
+ },
+ "30809": {
+  "jaName": "あったかピカチュウ",
+  "badge": "XYP",
+  "number": "097",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030809_P_ATTAKAPIKACHUU.jpg"
+ },
+ "30810": {
+  "jaName": "メガトウキョーのピカチュウ",
+  "badge": "XYP",
+  "number": "098",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030810_P_MEGATOUKYONOPIKACHUU.jpg"
+ },
+ "30811": {
+  "jaName": "おきがえピカチュウ",
+  "badge": "XYP",
+  "number": "099",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030811_P_OKIGAEPIKACHUU.jpg"
+ },
+ "30812": {
+  "jaName": "レックウザ",
+  "badge": "XYP",
+  "number": "100",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030812_P_REKKUUZA.jpg"
+ },
+ "30813": {
+  "jaName": "メタグロスEX",
+  "badge": "XYP",
+  "number": "101",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030813_P_METAGUROSUEX.jpg"
+ },
+ "30814": {
+  "jaName": "メガメタグロスEX",
+  "badge": "XYP",
+  "number": "102",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030814_P_MMETAGUROSUEX.jpg"
+ },
+ "30815": {
+  "jaName": "アチャモ",
+  "badge": "XYP",
+  "number": "103",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030815_P_ACHAMO.jpg"
+ },
+ "30850": {
+  "jaName": "レジロック",
+  "badge": "XYP",
+  "number": "104",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030850_P_REJIROKKU.jpg"
+ },
+ "30851": {
+  "jaName": "マーイーカ",
+  "badge": "XYP",
+  "number": "105",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030851_P_MAIKA.jpg"
+ },
+ "30852": {
+  "jaName": "ニャース",
+  "badge": "XYP",
+  "number": "106",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030852_P_NYASU.jpg"
+ },
+ "30853": {
+  "jaName": "フォッコ",
+  "badge": "XYP",
+  "number": "035",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030853_P_FOKKO.jpg"
+ },
+ "30854": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "064",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030854_P_PIKACHUU.jpg"
+ },
+ "30855": {
+  "jaName": "ルチャブル",
+  "badge": "XYP",
+  "number": "065",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030855_P_RUCHABURU.jpg"
+ },
+ "30954": {
+  "jaName": "キモリ",
+  "badge": "XYP",
+  "number": "107",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030954_P_KIMORI.jpg"
+ },
+ "30955": {
+  "jaName": "アチャモ",
+  "badge": "XYP",
+  "number": "108",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030955_P_ACHAMO.jpg"
+ },
+ "30956": {
+  "jaName": "ミズゴロウ",
+  "badge": "XYP",
+  "number": "109",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030956_P_MIZUGOROU.jpg"
+ },
+ "30957": {
+  "jaName": "ロコン",
+  "badge": "XYP",
+  "number": "110",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030957_P_ROKON.jpg"
+ },
+ "30958": {
+  "jaName": "ランターン",
+  "badge": "XYP",
+  "number": "111",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030958_P_RANTAN.jpg"
+ },
+ "30959": {
+  "jaName": "シビシラス",
+  "badge": "XYP",
+  "number": "112",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030959_P_SHIBISHIRASU.jpg"
+ },
+ "30960": {
+  "jaName": "サイドン",
+  "badge": "XYP",
+  "number": "113",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030960_P_SAIDON.jpg"
+ },
+ "30961": {
+  "jaName": "フライゴンEX",
+  "badge": "XYP",
+  "number": "114",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030961_P_FURAIGONEX.jpg"
+ },
+ "30962": {
+  "jaName": "オニドリル",
+  "badge": "XYP",
+  "number": "115",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030962_P_ONIDORIRU.jpg"
+ },
+ "30963": {
+  "jaName": "チルット",
+  "badge": "XYP",
+  "number": "116",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030963_P_CHIRUTTO.jpg"
+ },
+ "30964": {
+  "jaName": "エネルギーリサイクル",
+  "badge": "XYP",
+  "number": "117",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030964_T_ENERUGIRISAIKURU.jpg"
+ },
+ "30965": {
+  "jaName": "ダートじてんしゃ",
+  "badge": "XYP",
+  "number": "118",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030965_T_DATOJITENSHA.jpg"
+ },
+ "30966": {
+  "jaName": "基本草エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030966_E_KIHONKUSAENERUGI.jpg"
+ },
+ "30967": {
+  "jaName": "基本水エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030967_E_KIHONMIZUENERUGI.jpg"
+ },
+ "30968": {
+  "jaName": "基本闘エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030968_E_KIHONTOUENERUGI.jpg"
+ },
+ "30969": {
+  "jaName": "アクア団のしたっぱ",
+  "badge": "XYP",
+  "number": "119",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030969_T_AKUADANNOSHITAPPA.jpg"
+ },
+ "30970": {
+  "jaName": "マグマ団のしたっぱ",
+  "badge": "XYP",
+  "number": "120",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030970_T_MAGUMADANNOSHITAPPA.jpg"
+ },
+ "30971": {
+  "jaName": "ダイゴ",
+  "badge": "XYP",
+  "number": "121",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030971_T_DAIGO.jpg"
+ },
+ "30972": {
+  "jaName": "ちからのハチマキ",
+  "badge": "XYP",
+  "number": "125",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030972_T_CHIKARANOHACHIMAKI.jpg"
+ },
+ "30973": {
+  "jaName": "レックウザソウルリンク",
+  "badge": "XYP",
+  "number": "126",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/030973_T_REKKUUZASOURURINKU.jpg"
+ },
+ "31055": {
+  "jaName": "レックウザEX",
+  "badge": "XYP",
+  "number": "122",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031055_P_REKKUUZAEX.jpg"
+ },
+ "31056": {
+  "jaName": "レックウザEX",
+  "badge": "XYP",
+  "number": "123",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031056_P_REKKUUZAEX.jpg"
+ },
+ "31057": {
+  "jaName": "ボーマンダ",
+  "badge": "XYP",
+  "number": "124",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031057_P_BOMANDA.jpg"
+ },
+ "31058": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031058_T_JIMUBAJJI.jpg"
+ },
+ "31059": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031059_T_JIMUBAJJI.jpg"
+ },
+ "31060": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031060_T_JIMUBAJJI.jpg"
+ },
+ "31061": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031061_T_JIMUBAJJI.jpg"
+ },
+ "31062": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031062_T_JIMUBAJJI.jpg"
+ },
+ "31063": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031063_T_JIMUBAJJI.jpg"
+ },
+ "31064": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031064_T_JIMUBAJJI.jpg"
+ },
+ "31065": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031065_T_JIMUBAJJI.jpg"
+ },
+ "31066": {
+  "jaName": "バシャーモEX",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031066_P_BASHAMOEX.jpg"
+ },
+ "31067": {
+  "jaName": "ケムッソ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031067_P_KEMUSSO.jpg"
+ },
+ "31068": {
+  "jaName": "ジラーチ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031068_P_JIRACHI.jpg"
+ },
+ "31069": {
+  "jaName": "カラマネロ",
+  "badge": "XYP",
+  "number": "130",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031069_P_KARAMANERO.jpg"
+ },
+ "31070": {
+  "jaName": "ラルトス",
+  "badge": "XYP",
+  "number": "131",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031070_P_RARUTOSU.jpg"
+ },
+ "31071": {
+  "jaName": "ハクリュー",
+  "badge": "XYP",
+  "number": "132",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031071_P_HAKURYU.jpg"
+ },
+ "31072": {
+  "jaName": "ガチゴラスEX",
+  "badge": "XYP",
+  "number": "133",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031072_P_GACHIGORASUEX.jpg"
+ },
+ "31073": {
+  "jaName": "スバメ",
+  "badge": "XYP",
+  "number": "134",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031073_P_SUBAME.jpg"
+ },
+ "31074": {
+  "jaName": "ヘビーブーツ",
+  "badge": "XYP",
+  "number": "135",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031074_T_HEBIBUTSU.jpg"
+ },
+ "31075": {
+  "jaName": "ふしぎなアメ",
+  "badge": "XYP",
+  "number": "136",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031075_T_FUSHIGINAAME.jpg"
+ },
+ "31076": {
+  "jaName": "ラグラージEX",
+  "badge": "XYP",
+  "number": "137",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031076_P_RAGURAJIEX.jpg"
+ },
+ "31077": {
+  "jaName": "基本炎エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031077_E_KIHONHONOOENERUGI.jpg"
+ },
+ "31078": {
+  "jaName": "基本雷エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031078_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "31079": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031079_E_KIHONKOUENERUGI.jpg"
+ },
+ "31080": {
+  "jaName": "メガラグラージEX",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031080_P_MRAGURAJIEX.jpg"
+ },
+ "31081": {
+  "jaName": "メガバシャーモEX",
+  "badge": "XYP",
+  "number": "138",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031081_P_MBASHAMOEX.jpg"
+ },
+ "31082": {
+  "jaName": "メガターボ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031082_T_MEGATABO.jpg"
+ },
+ "31083": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031083_T_BIKUTORIRINGU.jpg"
+ },
+ "31084": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031084_T_BIKUTORIRINGU.jpg"
+ },
+ "31085": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031085_T_BIKUTORIRINGU.jpg"
+ },
+ "31086": {
+  "jaName": "オールナイトパーティ",
+  "badge": "XYP",
+  "number": "139",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031086_T_ORUNAITOPATEI.jpg"
+ },
+ "31087": {
+  "jaName": "ブラッキー",
+  "badge": "XYP",
+  "number": "140",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031087_P_BURAKKI.jpg"
+ },
+ "31088": {
+  "jaName": "ニンフィア",
+  "badge": "XYP",
+  "number": "141",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031088_P_NINFIA.jpg"
+ },
+ "31089": {
+  "jaName": "セレビィ",
+  "badge": "XYP",
+  "number": "142",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031089_P_SEREBII.jpg"
+ },
+ "31152": {
+  "jaName": "カイオーガ",
+  "badge": "XYP",
+  "number": "143",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031152_P_KAIOGA.jpg"
+ },
+ "31153": {
+  "jaName": "グラードン",
+  "badge": "XYP",
+  "number": "144",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031153_P_GURADON.jpg"
+ },
+ "31154": {
+  "jaName": "ラティアス",
+  "badge": "XYP",
+  "number": "145",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031154_P_RATEIASU.jpg"
+ },
+ "31155": {
+  "jaName": "ラティオス",
+  "badge": "XYP",
+  "number": "146",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031155_P_RATEIOSU.jpg"
+ },
+ "31156": {
+  "jaName": "ヤミラミ",
+  "badge": "XYP",
+  "number": "147",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031156_P_YAMIRAMI.jpg"
+ },
+ "31157": {
+  "jaName": "ハリマロン",
+  "badge": "XYP",
+  "number": "148",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031157_P_HARIMARON.jpg"
+ },
+ "31158": {
+  "jaName": "カビゴン",
+  "badge": "XYP",
+  "number": "149",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031158_P_KABIGON.jpg"
+ },
+ "31159": {
+  "jaName": "ケロマツ",
+  "badge": "XYP",
+  "number": "036",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031159_P_KEROMATSU.jpg"
+ },
+ "31160": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "064",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031160_P_PIKACHUU.jpg"
+ },
+ "31161": {
+  "jaName": "デデンネ",
+  "badge": "XYP",
+  "number": "013",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031161_P_DEDENNE.jpg"
+ },
+ "31162": {
+  "jaName": "コイキングごっこピカチュウ",
+  "badge": "XYP",
+  "number": "150",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031162_P_KOIKINGUGOKKOPIKACHUU.jpg"
+ },
+ "31163": {
+  "jaName": "ギャラドスごっこピカチュウ",
+  "badge": "XYP",
+  "number": "151",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031163_P_GYARADOSUGOKKOPIKACHUU.jpg"
+ },
+ "31164": {
+  "jaName": "カイオーガEX",
+  "badge": "XYP",
+  "number": "152",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031164_P_KAIOGAEX.jpg"
+ },
+ "31165": {
+  "jaName": "グラードンEX",
+  "badge": "XYP",
+  "number": "153",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031165_P_GURADONEX.jpg"
+ },
+ "31166": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "154",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031166_P_PIKACHUU.jpg"
+ },
+ "31167": {
+  "jaName": "フーパ",
+  "badge": "XYP",
+  "number": "155",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031167_P_FUPA.jpg"
+ },
+ "31168": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "156",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031168_P_PIKACHUU.jpg"
+ },
+ "31169": {
+  "jaName": "フーパ",
+  "badge": "XYP",
+  "number": "157",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031169_P_FUPA.jpg"
+ },
+ "31170": {
+  "jaName": "レックウザEX",
+  "badge": "XYP",
+  "number": "158",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031170_P_REKKUUZAEX.jpg"
+ },
+ "31171": {
+  "jaName": "ヒポポタス",
+  "badge": "XYP",
+  "number": "159",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031171_P_HIPOPOTASU.jpg"
+ },
+ "31172": {
+  "jaName": "レジギガス",
+  "badge": "XYP",
+  "number": "160",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031172_P_REJIGIGASU.jpg"
+ },
+ "31173": {
+  "jaName": "レシラム",
+  "badge": "XYP",
+  "number": "161",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031173_P_RESHIRAMU.jpg"
+ },
+ "31174": {
+  "jaName": "チルタリス",
+  "badge": "XYP",
+  "number": "162",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031174_P_CHIRUTARISU.jpg"
+ },
+ "31291": {
+  "jaName": "ヌメラ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031291_P_NUMERA.jpg"
+ },
+ "31292": {
+  "jaName": "ヤミラミ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031292_P_YAMIRAMI.jpg"
+ },
+ "31293": {
+  "jaName": "パンプジン",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031293_P_PANPUJIN.jpg"
+ },
+ "31294": {
+  "jaName": "ミズゴロウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031294_P_MIZUGOROU.jpg"
+ },
+ "31295": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031295_P_PIKACHUU.jpg"
+ },
+ "31296": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031296_P_PIKACHUU.jpg"
+ },
+ "31297": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031297_P_PIKACHUU.jpg"
+ },
+ "31298": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031298_P_PIKACHUU.jpg"
+ },
+ "31299": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031299_P_PIKACHUU.jpg"
+ },
+ "31300": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031300_P_PIKACHUU.jpg"
+ },
+ "31465": {
+  "jaName": "ジュカインEX",
+  "badge": "XYP",
+  "number": "163",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031465_P_JUKAINEX.jpg"
+ },
+ "31466": {
+  "jaName": "フウロ",
+  "badge": "XYP",
+  "number": "164",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031466_T_FUURO.jpg"
+ },
+ "31467": {
+  "jaName": "ギャラドス",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031467_P_GYARADOSU.jpg"
+ },
+ "31468": {
+  "jaName": "チャンピオンズフェスティバル",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031468_T_CHANPIONZUFESUTEIBARU.jpg"
+ },
+ "31469": {
+  "jaName": "シンカソーダ",
+  "badge": "XYP",
+  "number": "201",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031469_T_SHINKASODA.jpg"
+ },
+ "31470": {
+  "jaName": "アマルルガEX",
+  "badge": "XYP",
+  "number": "168",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031470_P_AMARURUGAEX.jpg"
+ },
+ "31471": {
+  "jaName": "ガラガラ",
+  "badge": "XYP",
+  "number": "169",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031471_P_GARAGARA.jpg"
+ },
+ "31472": {
+  "jaName": "エネルギーリセット",
+  "badge": "XYP",
+  "number": "172",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031472_T_ENERUGIRISETTO.jpg"
+ },
+ "31554": {
+  "jaName": "ビビヨン",
+  "badge": "XYP",
+  "number": "165",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031554_P_BIBIYON.jpg"
+ },
+ "31555": {
+  "jaName": "バオップ",
+  "badge": "XYP",
+  "number": "166",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031555_P_BAOPPU.jpg"
+ },
+ "31556": {
+  "jaName": "ケロマツ",
+  "badge": "XYP",
+  "number": "167",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031556_P_KEROMATSU.jpg"
+ },
+ "31557": {
+  "jaName": "ゴース",
+  "badge": "XYP",
+  "number": "170",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031557_P_GOSU.jpg"
+ },
+ "31558": {
+  "jaName": "フラエッテ",
+  "badge": "XYP",
+  "number": "171",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031558_P_FURAETTE.jpg"
+ },
+ "31559": {
+  "jaName": "オカルトマニア",
+  "badge": "XYP",
+  "number": "173",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031559_T_OKARUTOMANIA.jpg"
+ },
+ "31560": {
+  "jaName": "基本超エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031560_E_KIHONCHOUENERUGI.jpg"
+ },
+ "31561": {
+  "jaName": "基本悪エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031561_E_KIHONAKUENERUGI.jpg"
+ },
+ "31562": {
+  "jaName": "基本フェアリーエネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031562_E_KIHONFEARIENERUGI.jpg"
+ },
+ "31564": {
+  "jaName": "ラティオス",
+  "badge": "XYP",
+  "number": "174",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031564_P_RATEIOSU.jpg"
+ },
+ "31565": {
+  "jaName": "基本草エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031565_E_KIHONKUSAENERUGI.jpg"
+ },
+ "31566": {
+  "jaName": "基本悪エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031566_E_KIHONAKUENERUGI.jpg"
+ },
+ "31567": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "175",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031567_P_PIKACHUU.jpg"
+ },
+ "31568": {
+  "jaName": "ミュウツー",
+  "badge": "XYP",
+  "number": "176",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031568_P_MYUUTSU.jpg"
+ },
+ "31569": {
+  "jaName": "ドータクン",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031569_P_DOTAKUN.jpg"
+ },
+ "31571": {
+  "jaName": "ダブルドラゴンエネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031571_E_DABURUDORAGONENERUGI.jpg"
+ },
+ "31572": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031572_T_BIKUTORIRINGU.jpg"
+ },
+ "31573": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031573_T_BIKUTORIRINGU.jpg"
+ },
+ "31574": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031574_T_BIKUTORIRINGU.jpg"
+ },
+ "31575": {
+  "jaName": "まんたんのくすり",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031575_T_MANTANNOKUSURI.jpg"
+ },
+ "31576": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031576_T_BIKUTORIRINGU.jpg"
+ },
+ "31577": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031577_T_BIKUTORIRINGU.jpg"
+ },
+ "31578": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031578_T_BIKUTORIRINGU.jpg"
+ },
+ "31579": {
+  "jaName": "ミュウツー",
+  "badge": "XYP",
+  "number": "202",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031579_P_MYUUTSU.jpg"
+ },
+ "31580": {
+  "jaName": "コリンク",
+  "badge": "XYP",
+  "number": "178",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031580_P_KORINKU.jpg"
+ },
+ "31581": {
+  "jaName": "ルクシオ",
+  "badge": "XYP",
+  "number": "179",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031581_P_RUKUSHIO.jpg"
+ },
+ "31582": {
+  "jaName": "レントラー",
+  "badge": "XYP",
+  "number": "180",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031582_P_RENTORA.jpg"
+ },
+ "31583": {
+  "jaName": "レントラーBREAK",
+  "badge": "XYP",
+  "number": "181",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/legend/XYP/031583_P_RENTORABREAK.gif"
+ },
+ "31584": {
+  "jaName": "プテラEX",
+  "badge": "XYP",
+  "number": "182",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031584_P_PUTERAEX.jpg"
+ },
+ "31585": {
+  "jaName": "メガプテラEX",
+  "badge": "XYP",
+  "number": "183",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031585_P_MPUTERAEX.jpg"
+ },
+ "31586": {
+  "jaName": "グラードン",
+  "badge": "XYP",
+  "number": "184",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031586_P_GURADON.jpg"
+ },
+ "31587": {
+  "jaName": "カイオーガ",
+  "badge": "XYP",
+  "number": "177",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031587_P_KAIOGA.jpg"
+ },
+ "31588": {
+  "jaName": "クチートEX",
+  "badge": "XYP",
+  "number": "185",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031588_P_KUCHITOEX.jpg"
+ },
+ "31589": {
+  "jaName": "メガクチートEX",
+  "badge": "XYP",
+  "number": "186",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031589_P_MKUCHITOEX.jpg"
+ },
+ "31590": {
+  "jaName": "プテラソウルリンク",
+  "badge": "XYP",
+  "number": "187",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031590_T_PUTERASOURURINKU.jpg"
+ },
+ "31591": {
+  "jaName": "クチートソウルリンク",
+  "badge": "XYP",
+  "number": "188",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031591_T_KUCHITOSOURURINKU.jpg"
+ },
+ "31592": {
+  "jaName": "リーフィアEX",
+  "badge": "XYP",
+  "number": "192",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031592_P_RIFIAEX.jpg"
+ },
+ "31593": {
+  "jaName": "キュウコンEX",
+  "badge": "XYP",
+  "number": "193",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031593_P_KYUUKONEX.jpg"
+ },
+ "31594": {
+  "jaName": "シャワーズEX",
+  "badge": "XYP",
+  "number": "194",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031594_P_SHAWAZUEX.jpg"
+ },
+ "31595": {
+  "jaName": "サンダースEX",
+  "badge": "XYP",
+  "number": "195",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031595_P_SANDASUEX.jpg"
+ },
+ "31596": {
+  "jaName": "ニャオニクスEX",
+  "badge": "XYP",
+  "number": "196",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031596_P_NYAONIKUSUEX.jpg"
+ },
+ "31597": {
+  "jaName": "ゴローニャEX",
+  "badge": "XYP",
+  "number": "197",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031597_P_GORONYAEX.jpg"
+ },
+ "31598": {
+  "jaName": "活力剤",
+  "badge": "XYP",
+  "number": "198",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031598_T_KATSURYOKUZAI.jpg"
+ },
+ "31599": {
+  "jaName": "ゴジカ",
+  "badge": "XYP",
+  "number": "199",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031599_T_GOJIKA.jpg"
+ },
+ "31600": {
+  "jaName": "シトロン",
+  "badge": "XYP",
+  "number": "200",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031600_T_SHITORON.jpg"
+ },
+ "31633": {
+  "jaName": "基本水エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031633_E_KIHONMIZUENERUGI.jpg"
+ },
+ "31634": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031634_E_KIHONKOUENERUGI.jpg"
+ },
+ "31635": {
+  "jaName": "基本フェアリーエネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031635_E_KIHONFEARIENERUGI.jpg"
+ },
+ "31636": {
+  "jaName": "ミュウツーEX",
+  "badge": "XYP",
+  "number": "190",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031636_P_MYUUTSUEX.jpg"
+ },
+ "31637": {
+  "jaName": "ミュウツーEX",
+  "badge": "XYP",
+  "number": "191",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031637_P_MYUUTSUEX.jpg"
+ },
+ "31638": {
+  "jaName": "ポンチョを着たピカチュウ",
+  "badge": "XYP",
+  "number": "203",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031638_P_PONCHOWOKITAPIKACHUU.jpg"
+ },
+ "31639": {
+  "jaName": "メガトウキョーのピカチュウ",
+  "badge": "XYP",
+  "number": "204",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031639_P_MEGATOUKYONOPIKACHUU.jpg"
+ },
+ "31640": {
+  "jaName": "ポンチョを着たピカチュウ",
+  "badge": "XYP",
+  "number": "207",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031640_P_PONCHOWOKITAPIKACHUU.jpg"
+ },
+ "31641": {
+  "jaName": "ポンチョを着たピカチュウ",
+  "badge": "XYP",
+  "number": "208",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031641_P_PONCHOWOKITAPIKACHUU.jpg"
+ },
+ "31642": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "206",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031642_P_PIKACHUU.jpg"
+ },
+ "31643": {
+  "jaName": "ゲッコウガ",
+  "badge": "XYP",
+  "number": "209",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031643_P_GEKKOUGA.jpg"
+ },
+ "31644": {
+  "jaName": "レインボーエネルギー",
+  "badge": "XYP",
+  "number": "210",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031644_E_REINBOENERUGI.jpg"
+ },
+ "31645": {
+  "jaName": "エコアーム",
+  "badge": "XYP",
+  "number": "211",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031645_T_EKOAMU.jpg"
+ },
+ "31646": {
+  "jaName": "スイクン",
+  "badge": "XYP",
+  "number": "205",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031646_P_SUIKUN.jpg"
+ },
+ "31647": {
+  "jaName": "サトシゲッコウガEX",
+  "badge": "XYP",
+  "number": "218",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031647_P_SATOSHIGEKKOUGAEX.jpg"
+ },
+ "31648": {
+  "jaName": "サトシゲッコウガEX",
+  "badge": "XYP",
+  "number": "218",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031648_P_SATOSHIGEKKOUGAEX.jpg"
+ },
+ "31649": {
+  "jaName": "シェイミEX",
+  "badge": "XYP",
+  "number": "212",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031649_P_SHIEIMIEX.jpg"
+ },
+ "31650": {
+  "jaName": "ヨルノズクBREAK",
+  "badge": "XYP",
+  "number": "216",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/legend/XYP/031650_P_YORUNOZUKUBREAK.gif"
+ },
+ "31860": {
+  "jaName": "リザードンEX",
+  "badge": "XYP",
+  "number": "213",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031860_P_RIZADONEX.jpg"
+ },
+ "31861": {
+  "jaName": "ルカリオ",
+  "badge": "XYP",
+  "number": "214",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031861_P_RUKARIO.jpg"
+ },
+ "31862": {
+  "jaName": "レックウザ",
+  "badge": "XYP",
+  "number": "215",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031862_P_REKKUUZA.jpg"
+ },
+ "31864": {
+  "jaName": "お公家さまと舞妓はんピカチュウ",
+  "badge": "XYP",
+  "number": "221",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031864_P_OKUGESAMATOMAIKOHANPIKACHUU.jpg"
+ },
+ "31865": {
+  "jaName": "とつげきチョッキ",
+  "badge": "XYP",
+  "number": "220",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/031865_T_TOTSUGEKICHOKKI.jpg"
+ },
+ "32006": {
+  "jaName": "フーディンソウルリンク",
+  "badge": "XYP",
+  "number": "229",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032006_T_FUDEINSOURURINKU.jpg"
+ },
+ "32007": {
+  "jaName": "フシギバナEX",
+  "badge": "XYP",
+  "number": "233",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032007_P_FUSHIGIBANAEX.jpg"
+ },
+ "32009": {
+  "jaName": "カメックスEX",
+  "badge": "XYP",
+  "number": "234",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032009_P_KAMEKKUSUEX.jpg"
+ },
+ "32010": {
+  "jaName": "ジラーチ",
+  "badge": "XYP",
+  "number": "235",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032010_P_JIRACHI.jpg"
+ },
+ "32011": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032011_P_PIKACHUU.jpg"
+ },
+ "32012": {
+  "jaName": "魅惑のポフレ",
+  "badge": "XYP",
+  "number": "243",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032012_T_MIWAKUNOPOFURE.jpg"
+ },
+ "32121": {
+  "jaName": "アグノム",
+  "badge": "XYP",
+  "number": "219",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032121_P_AGUNOMU.jpg"
+ },
+ "32122": {
+  "jaName": "ミノムッチ",
+  "badge": "XYP",
+  "number": "236",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032122_P_MINOMUCCHI.jpg"
+ },
+ "32123": {
+  "jaName": "テールナー",
+  "badge": "XYP",
+  "number": "237",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032123_P_TERUNA.jpg"
+ },
+ "32124": {
+  "jaName": "ファイアローBREAK",
+  "badge": "XYP",
+  "number": "238",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/legend/XYP/032124_P_FAIAROBREAK.gif"
+ },
+ "32125": {
+  "jaName": "ブラックキュレム",
+  "badge": "XYP",
+  "number": "239",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032125_P_BURAKKUKYUREMU.jpg"
+ },
+ "32126": {
+  "jaName": "マタドガス",
+  "badge": "XYP",
+  "number": "240",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032126_P_MATADOGASU.jpg"
+ },
+ "32127": {
+  "jaName": "ヨーギラス",
+  "badge": "XYP",
+  "number": "241",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032127_P_YOGIRASU.jpg"
+ },
+ "32128": {
+  "jaName": "ドーミラー",
+  "badge": "XYP",
+  "number": "242",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032128_P_DOMIRA.jpg"
+ },
+ "32129": {
+  "jaName": "ピーピーマックス",
+  "badge": "XYP",
+  "number": "244",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032129_T_PIPIMAKKUSU.jpg"
+ },
+ "32130": {
+  "jaName": "基本炎エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032130_E_KIHONHONOOENERUGI.jpg"
+ },
+ "32131": {
+  "jaName": "基本闘エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032131_E_KIHONTOUENERUGI.jpg"
+ },
+ "32132": {
+  "jaName": "基本フェアリーエネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032132_E_KIHONFEARIENERUGI.jpg"
+ },
+ "32133": {
+  "jaName": "チコリータ",
+  "badge": "XYP",
+  "number": "222",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032133_P_CHIKORITA.jpg"
+ },
+ "32134": {
+  "jaName": "ヒノアラシ",
+  "badge": "XYP",
+  "number": "223",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032134_P_HINOARASHI.jpg"
+ },
+ "32135": {
+  "jaName": "ホウオウ",
+  "badge": "XYP",
+  "number": "224",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032135_P_HOUOU.jpg"
+ },
+ "32136": {
+  "jaName": "ホウオウBREAK",
+  "badge": "XYP",
+  "number": "225",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/legend/XYP/032136_P_HOUOUBREAK.gif"
+ },
+ "32137": {
+  "jaName": "ワニノコ",
+  "badge": "XYP",
+  "number": "226",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032137_P_WANINOKO.jpg"
+ },
+ "32138": {
+  "jaName": "ドーブル",
+  "badge": "XYP",
+  "number": "227",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032138_P_DOBURU.jpg"
+ },
+ "32139": {
+  "jaName": "ルギア",
+  "badge": "XYP",
+  "number": "228",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032139_P_RUGIA.jpg"
+ },
+ "32140": {
+  "jaName": "ガブリアスEX",
+  "badge": "XYP",
+  "number": "245",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032140_P_GABURIASUEX.jpg"
+ },
+ "32142": {
+  "jaName": "メガガブリアスEX",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032142_P_MGABURIASUEX.jpg"
+ },
+ "32143": {
+  "jaName": "ガブリアスソウルリンク",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032143_T_GABURIASUSOURURINKU.jpg"
+ },
+ "32144": {
+  "jaName": "闘魂のまわし",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032144_T_TOUKONNOMAWASHI.jpg"
+ },
+ "32145": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032145_T_BIKUTORIRINGU.jpg"
+ },
+ "32146": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032146_T_BIKUTORIRINGU.jpg"
+ },
+ "32147": {
+  "jaName": "ビクトリーリング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032147_T_BIKUTORIRINGU.jpg"
+ },
+ "32148": {
+  "jaName": "コダック",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032148_P_KODAKKU.jpg"
+ },
+ "32149": {
+  "jaName": "プラターヌ博士",
+  "badge": "XYP",
+  "number": "246",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032149_T_PURATANUHAKASE.jpg"
+ },
+ "32150": {
+  "jaName": "ボルケニオン",
+  "badge": "XYP",
+  "number": "249",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032150_P_BORUKENION.jpg"
+ },
+ "32151": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "064",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032151_P_PIKACHUU.jpg"
+ },
+ "32152": {
+  "jaName": "ニャース",
+  "badge": "XYP",
+  "number": "250",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032152_P_NYASU.jpg"
+ },
+ "32153": {
+  "jaName": "ハリマロン",
+  "badge": "XYP",
+  "number": "034",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032153_P_HARIMARON.jpg"
+ },
+ "32154": {
+  "jaName": "マスクド・ピカチュウ",
+  "badge": "XYP",
+  "number": "247",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032154_P_MASUKUDOPIKACHUU.jpg"
+ },
+ "32191": {
+  "jaName": "ポンチョを着たピカチュウ",
+  "badge": "XYP",
+  "number": "230",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032191_P_PONCHOWOKITAPIKACHUU.jpg"
+ },
+ "32192": {
+  "jaName": "ポンチョを着たピカチュウ",
+  "badge": "XYP",
+  "number": "231",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032192_P_PONCHOWOKITAPIKACHUU.jpg"
+ },
+ "32193": {
+  "jaName": "レックウザ",
+  "badge": "XYP",
+  "number": "232",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032193_P_REKKUUZA.jpg"
+ },
+ "32194": {
+  "jaName": "ビクティニ",
+  "badge": "XYP",
+  "number": "248",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032194_P_BIKUTEINI.jpg"
+ },
+ "32195": {
+  "jaName": "ジガルデ",
+  "badge": "XYP",
+  "number": "251",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032195_P_JIGARUDE.jpg"
+ },
+ "32196": {
+  "jaName": "ジガルデ",
+  "badge": "XYP",
+  "number": "252",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032196_P_JIGARUDE.jpg"
+ },
+ "32197": {
+  "jaName": "サナ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032197_T_SANA.jpg"
+ },
+ "32198": {
+  "jaName": "トロバ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032198_T_TOROBA.jpg"
+ },
+ "32199": {
+  "jaName": "きずぐすり",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032199_T_KIZUGUSURI.jpg"
+ },
+ "32200": {
+  "jaName": "レッドカード",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032200_T_REDDOKADO.jpg"
+ },
+ "32201": {
+  "jaName": "げんきのかたまり",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032201_T_GENKINOKATAMARI.jpg"
+ },
+ "32202": {
+  "jaName": "ポケモンいれかえ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032202_T_POKEMONIREKAE.jpg"
+ },
+ "32203": {
+  "jaName": "ポケモンキャッチャー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032203_T_POKEMONKYACCHA.jpg"
+ },
+ "32204": {
+  "jaName": "プラターヌ博士",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032204_T_PURATANUHAKASE.jpg"
+ },
+ "32205": {
+  "jaName": "ティエルノ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032205_T_TEIERUNO.jpg"
+ },
+ "32206": {
+  "jaName": "ボルケニオン",
+  "badge": "XYP",
+  "number": "266",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032206_P_BORUKENION.jpg"
+ },
+ "32297": {
+  "jaName": "ボーマンダEX",
+  "badge": "XYP",
+  "number": "253",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032297_P_BOMANDAEX.jpg"
+ },
+ "32298": {
+  "jaName": "ボーマンダEX",
+  "badge": "XYP",
+  "number": "254",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032298_P_BOMANDAEX.jpg"
+ },
+ "32299": {
+  "jaName": "トロバ",
+  "badge": "XYP",
+  "number": "255",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032299_T_TOROBA.jpg"
+ },
+ "32300": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "259",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032300_P_PIKACHUU.jpg"
+ },
+ "32301": {
+  "jaName": "ヤンチャム",
+  "badge": "XYP",
+  "number": "260",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032301_P_YANCHAMU.jpg"
+ },
+ "32302": {
+  "jaName": "カビゴン",
+  "badge": "XYP",
+  "number": "261",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032302_P_KABIGON.jpg"
+ },
+ "32303": {
+  "jaName": "デデンネ",
+  "badge": "XYP",
+  "number": "013",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032303_P_DEDENNE.jpg"
+ },
+ "32304": {
+  "jaName": "ハリマロン",
+  "badge": "XYP",
+  "number": "148",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032304_P_HARIMARON.jpg"
+ },
+ "32305": {
+  "jaName": "デンリュウ",
+  "badge": "XYP",
+  "number": "269",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032305_P_DENRYUU.jpg"
+ },
+ "32306": {
+  "jaName": "エルレイド",
+  "badge": "XYP",
+  "number": "270",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032306_P_ERUREIDO.jpg"
+ },
+ "32307": {
+  "jaName": "ディアンシー",
+  "badge": "XYP",
+  "number": "271",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032307_P_DEIANSHI.jpg"
+ },
+ "32308": {
+  "jaName": "メガレックウザEX",
+  "badge": "XYP",
+  "number": "272",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032308_P_MREKKUUZAEX.jpg"
+ },
+ "32309": {
+  "jaName": "ミミロップ",
+  "badge": "XYP",
+  "number": "273",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032309_P_MIMIROPPU.jpg"
+ },
+ "32310": {
+  "jaName": "ポンチョを着たピカチュウ",
+  "badge": "XYP",
+  "number": "274",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032310_P_PONCHOWOKITAPIKACHUU.jpg"
+ },
+ "32311": {
+  "jaName": "ポンチョを着たピカチュウ",
+  "badge": "XYP",
+  "number": "275",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032311_P_PONCHOWOKITAPIKACHUU.jpg"
+ },
+ "32312": {
+  "jaName": "なみのりピカチュウ",
+  "badge": "XYP",
+  "number": "264",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032312_P_NAMINORIPIKACHUU.jpg"
+ },
+ "32313": {
+  "jaName": "ヤドランEX",
+  "badge": "XYP",
+  "number": "262",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032313_P_YADORANEX.jpg"
+ },
+ "32314": {
+  "jaName": "メガヤドランEX",
+  "badge": "XYP",
+  "number": "263",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032314_P_MYADORANEX.jpg"
+ },
+ "32315": {
+  "jaName": "ヤドランソウルリンク",
+  "badge": "XYP",
+  "number": "265",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032315_T_YADORANSOURURINKU.jpg"
+ },
+ "32316": {
+  "jaName": "マギアナ",
+  "badge": "XYP",
+  "number": "268",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032316_P_MAGIANA.jpg"
+ },
+ "32317": {
+  "jaName": "リザードンEX",
+  "badge": "XYP",
+  "number": "276",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032317_P_RIZADONEX.jpg"
+ },
+ "32318": {
+  "jaName": "チャンピオンズフェスティバル",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032318_T_CHANPIONZUFESUTEIBARU.jpg"
+ },
+ "32319": {
+  "jaName": "リザードン",
+  "badge": "XYP",
+  "number": "280",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032319_P_RIZADON.jpg"
+ },
+ "32320": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "281",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032320_P_PIKACHUU.jpg"
+ },
+ "32321": {
+  "jaName": "とりかえっこプリーズ!",
+  "badge": "XYP",
+  "number": "282",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032321_T_TORIKAEKKOPURIZU.jpg"
+ },
+ "32322": {
+  "jaName": "メガボーマンダEX",
+  "badge": "XYP",
+  "number": "257",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032322_P_MBOMANDAEX.jpg"
+ },
+ "32323": {
+  "jaName": "ボーマンダソウルリンク",
+  "badge": "XYP",
+  "number": "258",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032323_T_BOMANDASOURURINKU.jpg"
+ },
+ "32324": {
+  "jaName": "ダブルドラゴンエネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032324_E_DABURUDORAGONENERUGI.jpg"
+ },
+ "32325": {
+  "jaName": "カリン",
+  "badge": "XYP",
+  "number": "256",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032325_T_KARIN.jpg"
+ },
+ "32326": {
+  "jaName": "アブソル",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032326_P_ABUSORU.jpg"
+ },
+ "32327": {
+  "jaName": "基本草エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032327_E_KIHONKUSAENERUGI.jpg"
+ },
+ "32328": {
+  "jaName": "基本炎エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032328_E_KIHONHONOOENERUGI.jpg"
+ },
+ "32329": {
+  "jaName": "基本水エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032329_E_KIHONMIZUENERUGI.jpg"
+ },
+ "32330": {
+  "jaName": "基本雷エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032330_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "32331": {
+  "jaName": "基本超エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032331_E_KIHONCHOUENERUGI.jpg"
+ },
+ "32332": {
+  "jaName": "基本闘エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032332_E_KIHONTOUENERUGI.jpg"
+ },
+ "32333": {
+  "jaName": "基本悪エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032333_E_KIHONAKUENERUGI.jpg"
+ },
+ "32334": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032334_E_KIHONKOUENERUGI.jpg"
+ },
+ "32335": {
+  "jaName": "基本フェアリーエネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032335_E_KIHONFEARIENERUGI.jpg"
+ },
+ "32336": {
+  "jaName": "サカキの計画",
+  "badge": "XYP",
+  "number": "277",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032336_T_SAKAKINOKEIKAKU.jpg"
+ },
+ "32337": {
+  "jaName": "ロケット団参上!",
+  "badge": "XYP",
+  "number": "278",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032337_T_ROKETTODANSANJOU.jpg"
+ },
+ "32338": {
+  "jaName": "メガヤンマ",
+  "badge": "XYP",
+  "number": "283",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032338_P_MEGAYANMA.jpg"
+ },
+ "32339": {
+  "jaName": "ギラティナ",
+  "badge": "XYP",
+  "number": "284",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032339_P_GIRATEINA.jpg"
+ },
+ "32340": {
+  "jaName": "オーロット",
+  "badge": "XYP",
+  "number": "285",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032340_P_OROTTO.jpg"
+ },
+ "32341": {
+  "jaName": "カイリキーEX",
+  "badge": "XYP",
+  "number": "286",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032341_P_KAIRIKIEX.jpg"
+ },
+ "32342": {
+  "jaName": "バンギラス",
+  "badge": "XYP",
+  "number": "287",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032342_P_BANGIRASU.jpg"
+ },
+ "32343": {
+  "jaName": "ドラミドロ",
+  "badge": "XYP",
+  "number": "288",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032343_P_DORAMIDORO.jpg"
+ },
+ "32344": {
+  "jaName": "ミニスカートのおすすめ",
+  "badge": "XYP",
+  "number": "289",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032344_T_MINISUKATONOOSUSUME.jpg"
+ },
+ "32345": {
+  "jaName": "サトシゲッコウガEX",
+  "badge": "XYP",
+  "number": "290",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032345_P_SATOSHIGEKKOUGAEX.jpg"
+ },
+ "32346": {
+  "jaName": "チルタリス",
+  "badge": "XYP",
+  "number": "291",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032346_P_CHIRUTARISU.jpg"
+ },
+ "32347": {
+  "jaName": "そらをとぶピカチュウ",
+  "badge": "XYP",
+  "number": "292",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032347_P_SORAWOTOBUPIKACHUU.jpg"
+ },
+ "32348": {
+  "jaName": "マリオピカチュウ",
+  "badge": "XYP",
+  "number": "293",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032348_P_MARIOPIKACHUU.jpg"
+ },
+ "32349": {
+  "jaName": "マリオピカチュウ",
+  "badge": "XYP",
+  "number": "294",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032349_P_MARIOPIKACHUU.jpg"
+ },
+ "32350": {
+  "jaName": "ルイージピカチュウ",
+  "badge": "XYP",
+  "number": "295",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032350_P_RUIJIPIKACHUU.jpg"
+ },
+ "32351": {
+  "jaName": "ルイージピカチュウ",
+  "badge": "XYP",
+  "number": "296",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032351_P_RUIJIPIKACHUU.jpg"
+ },
+ "32352": {
+  "jaName": "スズキサン",
+  "badge": "XYP",
+  "number": "297",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032352_T_SUZUKISAN.jpg"
+ },
+ "32353": {
+  "jaName": "メガサチコEX",
+  "badge": "XYP",
+  "number": "298",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032353_P_MSACHIKOEX.jpg"
+ },
+ "32354": {
+  "jaName": "ビクトリーリング（金）",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032354_T_BIKUTORIRINGUKIN.jpg"
+ },
+ "32355": {
+  "jaName": "ビクトリーリング（銀）",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032355_T_BIKUTORIRINGUGIN.jpg"
+ },
+ "32356": {
+  "jaName": "ビクトリーリング（銅）",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032356_T_BIKUTORIRINGUDOU.jpg"
+ },
+ "32357": {
+  "jaName": "センパイとコウハイ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032357_T_SENPAITOKOUHAI.jpg"
+ },
+ "32358": {
+  "jaName": "コイキング",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032358_P_KOIKINGU.jpg"
+ },
+ "32359": {
+  "jaName": "ミュウツーEX",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032359_P_MYUUTSUEX.jpg"
+ },
+ "32360": {
+  "jaName": "ミュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032360_P_MYUU.jpg"
+ },
+ "32361": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032361_P_PIKACHUU.jpg"
+ },
+ "32362": {
+  "jaName": "基本草エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032362_E_KIHONKUSAENERUGI.jpg"
+ },
+ "32363": {
+  "jaName": "基本炎エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032363_E_KIHONHONOOENERUGI.jpg"
+ },
+ "32364": {
+  "jaName": "基本水エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032364_E_KIHONMIZUENERUGI.jpg"
+ },
+ "32365": {
+  "jaName": "基本雷エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032365_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "32366": {
+  "jaName": "基本超エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032366_E_KIHONCHOUENERUGI.jpg"
+ },
+ "32367": {
+  "jaName": "基本闘エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032367_E_KIHONTOUENERUGI.jpg"
+ },
+ "32368": {
+  "jaName": "基本悪エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032368_E_KIHONAKUENERUGI.jpg"
+ },
+ "32369": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032369_E_KIHONKOUENERUGI.jpg"
+ },
+ "32370": {
+  "jaName": "基本フェアリーエネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032370_E_KIHONYOUENERUGI.jpg"
+ },
+ "32371": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032371_T_JIMUBAJJI.jpg"
+ },
+ "32372": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032372_T_JIMUBAJJI.jpg"
+ },
+ "32373": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032373_T_JIMUBAJJI.jpg"
+ },
+ "32374": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032374_T_JIMUBAJJI.jpg"
+ },
+ "32375": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032375_T_JIMUBAJJI.jpg"
+ },
+ "32376": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032376_T_JIMUBAJJI.jpg"
+ },
+ "32377": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032377_T_JIMUBAJJI.jpg"
+ },
+ "32378": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032378_T_JIMUBAJJI.jpg"
+ },
+ "32379": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032379_T_JIMUBAJJI.jpg"
+ },
+ "32380": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032380_T_JIMUBAJJI.jpg"
+ },
+ "32381": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032381_T_JIMUBAJJI.jpg"
+ },
+ "32382": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032382_T_JIMUBAJJI.jpg"
+ },
+ "32383": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032383_T_JIMUBAJJI.jpg"
+ },
+ "32384": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032384_T_JIMUBAJJI.jpg"
+ },
+ "32385": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032385_T_JIMUBAJJI.jpg"
+ },
+ "32386": {
+  "jaName": "ジムバッジ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032386_T_JIMUBAJJI.jpg"
+ },
+ "32387": {
+  "jaName": "ピカチュウ",
+  "badge": "XYP",
+  "number": "279",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/032387_P_PIKACHUU.jpg"
+ },
+ "33318": {
+  "jaName": "ピッチのピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/033318_P_PICCHINOPIKACHUU.jpg"
+ },
+ "33319": {
+  "jaName": "ピッチのピカチュウ",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XYP/033319_P_PICCHINOPIKACHUU.jpg"
+ },
+ "45645": {
+  "jaName": "エネルギー回収",
+  "badge": "XYP",
+  "number": "003",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045645_T_ENERUGIKAISHIXYUU.jpg"
+ },
+ "45646": {
+  "jaName": "エネルギーつけかえ",
+  "badge": "XYP",
+  "number": "004",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045646_T_ENERUGITSUKEKAE.jpg"
+ },
+ "45647": {
+  "jaName": "スーパーポケモン回収",
+  "badge": "XYP",
+  "number": "005",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045647_T_SUPAPOKEMONKAISHIXYUU.jpg"
+ },
+ "45648": {
+  "jaName": "ともだちてちょう",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045648_T_TOMODACHITECHIXYOU.jpg"
+ },
+ "45649": {
+  "jaName": "なんでもなおし",
+  "badge": "XYP",
+  "number": "007",
+  "label": "XY-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045649_T_NANDEMONAOSHI.jpg"
+ },
+ "45650": {
+  "jaName": "基本草エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045650_E_KIHONKUSAENERUGI.jpg"
+ },
+ "45651": {
+  "jaName": "基本炎エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045651_E_KIHONHONOOENERUGI.jpg"
+ },
+ "45652": {
+  "jaName": "基本水エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045652_E_KIHONMIZUENERUGI.jpg"
+ },
+ "45653": {
+  "jaName": "基本雷エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045653_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "45654": {
+  "jaName": "基本超エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045654_E_KIHONCHIXYOUENERUGI.jpg"
+ },
+ "45655": {
+  "jaName": "基本闘エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045655_E_KIHONTOUENERUGI.jpg"
+ },
+ "45656": {
+  "jaName": "基本悪エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045656_E_KIHONAKUENERUGI.jpg"
+ },
+ "45657": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045657_E_KIHONHAGANEENERUGI.jpg"
+ },
+ "45658": {
+  "jaName": "基本フェアリーエネルギー",
+  "badge": "XYP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY-P/045658_E_KIHONFUEARIENERUGI.jpg"
+ }
+}
