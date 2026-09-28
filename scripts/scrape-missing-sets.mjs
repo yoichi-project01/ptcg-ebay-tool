@@ -381,7 +381,7 @@ export function extractCardId(cardThumbFile) {
 // csr→"CSR"（既存の"CSR"=Character Super Rareと一致、追加のUI側変更は不要。
 // 既存セットへのシークレット追加パッチ作業中、S9a「バトルリージョン」083/067
 // スターミーVで発見。2026-08-30）
-const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR", ar: "AR", sar: "SAR", ma: "MA", c: "C", u: "U", r: "R", s: "RH", ss: "LEGEND", csr: "CSR", hr: "HR" };
+export const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR", ar: "AR", sar: "SAR", ma: "MA", c: "C", u: "U", r: "R", s: "RH", ss: "LEGEND", csr: "CSR", hr: "HR" };
 
 async function exists(p) {
   try { await fs.access(p); return true; } catch { return false; }
@@ -467,7 +467,9 @@ export async function downloadImage(cardThumbFile, destPath) {
 // 公式サイト上で別cardIDとして2重に掲載されていることがある（BW/XY調査のXYEで実例あり）。
 // jaNameが完全一致する場合に限りスキップ（後勝ちを採用）する。
 // jaNameが食い違う場合は本来の異常（絶対にやってはいけないこと）としてthrowする
-export function validateAndBuildK(details, code) {
+// allowedGaps: 公式サイトにカードページ自体が無いと確認済みの番号（プロモ用。
+// 未確認の欠番は従来どおり例外にする）
+export function validateAndBuildK(details, code, { allowedGaps = [] } = {}) {
   const byLocal = new Map();
   for (const d of details) {
     const n = parseInt(d.local, 10);
@@ -493,9 +495,10 @@ export function validateAndBuildK(details, code) {
   // 旧チェックをすり抜けて欠落したまま書き込まれた実例があったため、2026-08-29に
   // 範囲をmaxLocalまで拡張した）
   const maxLocal = Math.max(...byLocal.keys());
+  const allowed = new Set(allowedGaps);
   const missing = [];
   for (let n = 1; n <= maxLocal; n++) {
-    if (!byLocal.has(n)) missing.push(n);
+    if (!byLocal.has(n) && !allowed.has(n)) missing.push(n);
   }
   if (missing.length > 0) {
     throw new Error(`[${code}] 欠番があります（1〜${maxLocal}のうち。total=${total}）: ${missing.join(", ")}`);

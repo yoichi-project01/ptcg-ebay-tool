@@ -53,16 +53,33 @@ const HEADERS = {
 // badge: img-regulation の alt 属性
 // sourceCacheKeys: official-card-cache.json 上のキー。SMSMP（1枚）は details.php で
 //       badge=SMP・"325 / SM-P" と確認済みで、SM-P の一部として扱う
-// numberlessIds: 基本エネルギー以外で details.php に番号が無いと確認済みのカード。
-//       「弾コード-型番」の識別子を付けられないため今回は除外する（未着手リストに記録。
-//       details.php の cardID を使った識別子を付ける案は CLAUDE.md 参照）。
-//       ここに無い番号なしカードが出た場合は従来どおり停止する
+// 番号なしのカード（大会賞品・基本エネルギー等）は「弾コード-型番」の識別子を付けられない
+// ため自動で除外し、実行結果（excludedNumberless）に一覧を出す（未着手リストに記録。
+// details.php の cardID を使った識別子を付ける案は CLAUDE.md 参照）。
+// extraCardIds: official-card-cache.json のスキャンから漏れていたカード。欠番の前後の
+//       cardID 範囲でキャッシュに無い ID を details.php で1件ずつ確認して見つけたもの
+// allowedGaps: 同じ確認で、公式サイトにカードページ自体が無いと分かった番号
+//       （該当 cardID は「カード検索」トップに戻される）。これ以外の欠番は停止する
 const TARGET_SETS = [
+  { code: "SM-P", label: "SM-P", badge: "SMP", sr: "SM", sourceCacheKeys: ["SMP", "SMSMP"] },
+  // XY-P キー（14枚）はバッジが "XYP" で、XYP キーと同じ弾の一部（2026-08-30 のサンプルで確認）
   {
-    code: "SM-P", label: "SM-P", badge: "SMP", sr: "SM", sourceCacheKeys: ["SMP", "SMSMP"],
-    // 勝利の勲章×24・ふしぎなアメ×3・チャンピオンズフェスティバル×3・殿堂の書・ハイパーボール・ハウ・マーマネ
-    numberlessIds: [33300, 33301, 33302, 33404, 33405, 33467, 33855, 33856, 33857, 33975, 33976, 33977, 33978, 33979, 33980, 33981, 33982, 33983, 34205, 34209, 34210, 34211, 34382, 34535, 34536, 34537, 34846, 34847, 34848, 34853, 34854, 34855, 35389, 37179],
+    code: "XY-P", label: "XY-P", badge: "XYP", sr: "XY", sourceCacheKeys: ["XYP", "XY-P"],
+    // 050 日本代表のピカチュウ、181/216/225/238 の BREAK カード
+    extraCardIds: [30478, 31583, 31650, 32136, 32124],
+    allowedGaps: [127, 128, 129, 189, 217, 267],
   },
+  { code: "BW-P", label: "BW-P", badge: "BWP", sr: "BW", sourceCacheKeys: ["BWP"], allowedGaps: [25, 26, 27, 28, 29, 30, 31] },
+  { code: "DP-P", label: "DP-P", badge: "DPP", sr: "DP", sourceCacheKeys: ["DPP"] },
+  { code: "DPt-P", label: "DPt-P", badge: "DPtP", sr: "DPt", sourceCacheKeys: ["DPtP"] },
+  { code: "L-P", label: "L-P", badge: "LP", sr: "L", sourceCacheKeys: ["LP"] },
+];
+
+// 既存の S-P / SV-P（旧 scrape-promo-images.mjs の位置マッチングで作られた）を
+// details.php の結果で1件ずつ突き合わせて作り直す対象
+const REBUILD_SETS = [
+  { code: "S-P", sr: "S", sourceCacheKeys: ["S-P"] },
+  { code: "SV-P", sr: "SV", sourceCacheKeys: ["SV-P"] },
 ];
 
 export function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
@@ -138,19 +155,11 @@ async function saveProgress(code, progress) {
 // 基本エネルギーだけは番号なしを正常として除外する。それ以外の番号なしは異常扱い
 const isBasicEnergy = (name) => /^基本.+エネルギー$/.test(name);
 
-async function processSet(target, cache, cardData) {
-  const { code } = target;
-  if (cardData.some((s) => s.c === code)) {
-    console.log(`[${code}] 既に cardData.json に存在するためスキップ`);
-    return null;
-  }
-  const officialCards = target.sourceCacheKeys.flatMap((k) => cache.setMap[k] || []);
-  const cardIds = [...new Set(officialCards.map((c) => extractCardId(c.cardThumbFile)).filter(Boolean))];
+// details.php の結果を進捗ファイルに集めるだけで、検証・書き込みはしない（--details-only）
+async function fetchDetails(code, cardIds) {
   const progress = await loadProgress(code);
   const pending = cardIds.filter((id) => !progress[id]);
   console.log(`[${code}] ${cardIds.length}枚（取得済み ${cardIds.length - pending.length}、残り ${pending.length}）`);
-
-  // --- 1. details.php で1枚ずつ検証（同時接続1本） ---
   let consecutiveFailures = 0;
   for (const [i, cardId] of pending.entries()) {
     const html = await politeFetch(`${API_BASE}/card-search/details.php/card/${cardId}`);
@@ -169,33 +178,27 @@ async function processSet(target, cache, cardData) {
     if ((i + 1) % 25 === 0) console.log(`  ${i + 1}/${pending.length}`);
     await politeDelay();
   }
+  return progress;
+}
+
+export function cacheCardIds(target, cache) {
+  const officialCards = target.sourceCacheKeys.flatMap((k) => cache.setMap[k] || []);
+  const ids = officialCards.map((c) => extractCardId(c.cardThumbFile)).filter(Boolean);
+  return [...new Set([...ids, ...(target.extraCardIds || []).map(String)])];
+}
+
+async function processSet(target, cache, cardData) {
+  const { code } = target;
+  if (cardData.some((s) => s.c === code)) {
+    console.log(`[${code}] 既に cardData.json に存在するためスキップ`);
+    return null;
+  }
+  // --- 1. details.php で1枚ずつ検証（同時接続1本） ---
+  const cardIds = cacheCardIds(target, cache);
+  const progress = await fetchDetails(code, cardIds);
 
   // --- 2. 検証 ---
-  const entries = cardIds.map((id) => ({ cardId: id, ...progress[id] }));
-  const missingProgress = entries.filter((e) => !e.jaName);
-  if (missingProgress.length) throw new Error(`[${code}] 未取得のカードが残っています: ${missingProgress.map((e) => e.cardId).join(", ")}`);
-
-  const excluded = entries.filter((e) => e.number === null && isBasicEnergy(e.jaName));
-  const allowedNumberless = new Set((target.numberlessIds || []).map(String));
-  const numberlessSkipped = entries.filter((e) => e.number === null && allowedNumberless.has(e.cardId));
-  const noNumber = entries.filter((e) => e.number === null && !isBasicEnergy(e.jaName) && !allowedNumberless.has(e.cardId));
-  if (noNumber.length) {
-    throw new Error(`[${code}] 基本エネルギー以外で番号の無いカードがあります: ${noNumber.map((e) => `${e.cardId}:${e.jaName}`).join(", ")}`);
-  }
-  const numbered = entries.filter((e) => e.number !== null);
-  const badLabel = numbered.filter((e) => e.label !== target.label || e.badge !== target.badge);
-  if (badLabel.length) {
-    throw new Error(`[${code}] 表記が想定（${target.badge} / ${target.label}）と異なるカードがあります: ${badLabel.map((e) => `${e.cardId}:${e.badge}/${e.label}`).join(", ")}`);
-  }
-  const withRarity = numbered.filter((e) => e.rarityCode);
-  if (withRarity.length) {
-    throw new Error(`[${code}] プロモにレアリティアイコンがあるカードがあります（要確認）: ${withRarity.map((e) => `${e.cardId}:${e.rarityCode}`).join(", ")}`);
-  }
-  // 重複（同名は同一カードの二重掲載として後勝ち、別名は例外）・欠番（1〜最大番号）を検証
-  const details = numbered.map((e) => ({ local: e.number, total: "0", rarity: "", jaName: e.jaName, cardThumbFile: e.cardThumbFile, cardId: e.cardId }));
-  const { k, byLocal } = validateAndBuildK(details, code);
-  const dupSameName = details.length - byLocal.size;
-
+  const { k, byLocal, excluded, numberlessSkipped, dupSameName } = validatePromo(target, cardIds, progress);
   const newSet = { c: code, ja: "", en: "", sr: target.sr, of: 0, k };
 
   // --- 3. 画像（同時接続1本、取得済みはスキップ） ---
@@ -228,6 +231,133 @@ async function processSet(target, cache, cardData) {
   return summary;
 }
 
+// details.php の結果（進捗ファイル）を検証し、cardData.json の k 配列を組み立てる。
+// 想定外（未取得・バッジ/表記違い・レアリティあり・別名の番号重複・未確認の欠番）が
+// あれば例外を投げる。番号なしのカードは除外し、一覧を返す
+function validatePromo(target, cardIds, progress) {
+  const { code } = target;
+  const entries = cardIds.map((id) => ({ cardId: id, ...progress[id] }));
+  const missingProgress = entries.filter((e) => !e.jaName);
+  if (missingProgress.length) throw new Error(`[${code}] 未取得のカードが残っています: ${missingProgress.map((e) => e.cardId).join(", ")}`);
+
+  const excluded = entries.filter((e) => e.number === null && isBasicEnergy(e.jaName));
+  const numberlessSkipped = entries.filter((e) => e.number === null && !isBasicEnergy(e.jaName));
+  const numbered = entries.filter((e) => e.number !== null);
+  const badLabel = numbered.filter((e) => e.label !== target.label || e.badge !== target.badge);
+  if (badLabel.length) {
+    throw new Error(`[${code}] 表記が想定（${target.badge} / ${target.label}）と異なるカードがあります: ${badLabel.map((e) => `${e.cardId}:${e.badge}/${e.label}`).join(", ")}`);
+  }
+  const withRarity = numbered.filter((e) => e.rarityCode);
+  if (withRarity.length) {
+    throw new Error(`[${code}] プロモにレアリティアイコンがあるカードがあります（要確認）: ${withRarity.map((e) => `${e.cardId}:${e.rarityCode}`).join(", ")}`);
+  }
+  // 重複（同名は同一カードの二重掲載として後勝ち、別名は例外）・欠番（1〜最大番号）を検証
+  const details = numbered.map((e) => ({ local: e.number, total: "0", rarity: "", jaName: e.jaName, cardThumbFile: e.cardThumbFile, cardId: e.cardId }));
+  const { k, byLocal } = validateAndBuildK(details, code, { allowedGaps: target.allowedGaps });
+  return { k, byLocal, excluded, numberlessSkipped, dupSameName: details.length - byLocal.size };
+}
+
+const REPORT_DIR = path.join(__dirname, "promo-rebuild-report");
+const STAGING_DIR = path.join(PROGRESS_DIR, "staging");
+const cardIdOf = (code, localId) => `${code}-${localId}`;
+
+// 既存セット（S-P / SV-P）を details.php の結果で作り直す。
+// 1. 新しい k を検証して組み立てる
+// 2. 新しい画像をステージング領域に取得（再開可能）
+// 3. 旧データと型番ごとに突き合わせ、名前・画像（ファイル内容）の変化を一覧にする
+// 4. k を置き換え、画像ディレクトリを新しいファイル群に入れ替える（孤児画像は削除）
+async function rebuildSet(target, cache, cardData, imageIndex) {
+  const { code } = target;
+  const set = cardData.find((s) => s.c === code);
+  if (!set) throw new Error(`[${code}] cardData.json にセットがありません`);
+
+  const cardIds = cacheCardIds(target, cache);
+  const progress = await fetchDetails(code, cardIds);
+  const { k, byLocal, excluded, numberlessSkipped, dupSameName } = validatePromo(target, cardIds, progress);
+
+  // 新画像をステージング（取得済みはスキップ）
+  const stageDir = path.join(STAGING_DIR, code);
+  let staged = 0;
+  const imgFailed = [];
+  for (const [n, d] of [...byLocal.entries()].sort((a, b) => a[0] - b[0])) {
+    const localId = String(n).padStart(3, "0");
+    const stagePath = path.join(stageDir, `${localId}.jpg`);
+    if (await isUsableImage(stagePath)) continue;
+    const buf = d.cardThumbFile ? await politeFetch(API_BASE + d.cardThumbFile, true) : null;
+    if (buf && buf.length > 1000) { await writeFileAtomic(stagePath, buf); staged++; }
+    else imgFailed.push(localId);
+    await politeDelay();
+  }
+  if (imgFailed.length) {
+    throw new Error(`[${code}] 画像の取得に失敗した番号があります（cardData.json は未更新。再実行で続きから）: ${imgFailed.join(", ")}`);
+  }
+
+  // 旧データとの突き合わせ（型番は数値化して比較。"064" と "64" を同一視）
+  const keyOf = (localId) => (/^\d+$/.test(localId) ? String(parseInt(localId, 10)) : localId);
+  const oldByKey = new Map(set.k.map((row) => [keyOf(row[0]), row]));
+  const newByKey = new Map(k.map((row) => [keyOf(row[0]), row]));
+  const readOldImage = async (row) => {
+    const rel = imageIndex[`${code}/${keyOf(row[0])}`] || imageIndex[`${code}/${row[0]}`];
+    if (!rel) return null;
+    try { return await fs.readFile(path.join(ROOT, "public", rel)); } catch { return null; }
+  };
+  // 画像入れ替えの途中で止まった後の再実行では旧画像が既に消えているため、
+  // 最初に作った一覧をそのまま使う（上書きしない）
+  const reportPath = path.join(REPORT_DIR, `${code}.json`);
+  let report = null;
+  try { report = JSON.parse(await fs.readFile(reportPath, "utf-8")); } catch {}
+  if (!report) report = await diffAgainstOld();
+  async function diffAgainstOld() {
+  const report = { code, nameChanged: [], imageReplaced: [], added: [], removed: [] };
+  for (const [key, row] of newByKey) {
+    const id = cardIdOf(code, row[0]);
+    const old = oldByKey.get(key);
+    if (!old) { report.added.push({ id, ja: row[1] }); continue; }
+    if (old[1] !== row[1]) report.nameChanged.push({ id, oldJa: old[1], newJa: row[1] });
+    const oldBuf = await readOldImage(old);
+    const newBuf = await fs.readFile(path.join(stageDir, `${row[0]}.jpg`));
+    if (!oldBuf || !oldBuf.equals(newBuf)) report.imageReplaced.push({ id, ja: row[1], hadImage: !!oldBuf });
+  }
+  for (const [key, row] of oldByKey) {
+    if (!newByKey.has(key)) report.removed.push({ id: cardIdOf(code, row[0]), ja: row[1] });
+  }
+  await fs.mkdir(REPORT_DIR, { recursive: true });
+  await fs.writeFile(reportPath, JSON.stringify(report, null, 2) + "\n", "utf-8");
+  const changedIds = [...new Set([...report.nameChanged, ...report.imageReplaced].map((r) => r.id))];
+  const writeIds = (suffix, ids) => fs.writeFile(path.join(REPORT_DIR, `${code}-${suffix}.txt`), ids.join("\n") + (ids.length ? "\n" : ""), "utf-8");
+  await writeIds("changed-card-ids", changedIds);
+  await writeIds("added-card-ids", report.added.map((r) => r.id));
+  await writeIds("removed-card-ids", report.removed.map((r) => r.id));
+  return report;
+  }
+
+  // 画像ディレクトリを入れ替える: 新ファイルを書き、新ファイル名一覧に無い旧ファイルを削除
+  const setTotal = computeSetTotal(k);
+  const setDir = path.join(OUT_DIR, target.sr, code);
+  const keep = new Set();
+  for (const row of k) {
+    const name = buildFileName(row[1], code, row[0], "", setTotal) + ".jpg";
+    keep.add(name);
+    await writeFileAtomic(path.join(setDir, name), await fs.readFile(path.join(stageDir, `${row[0]}.jpg`)));
+  }
+  let orphansRemoved = 0;
+  for (const f of await fs.readdir(setDir)) {
+    if (!keep.has(f)) { await fs.unlink(path.join(setDir, f)); orphansRemoved++; }
+  }
+
+  set.k = k;
+  await fs.writeFile(CARD_DATA_PATH, JSON.stringify(cardData, null, 2) + "\n", "utf-8");
+
+  const summary = {
+    code, cacheCards: cardIds.length, oldCards: oldByKey.size, cards: k.length, maxNumber: setTotal,
+    excludedBasicEnergy: excluded.length, excludedNumberless: numberlessSkipped.length, dupSameName,
+    nameChanged: report.nameChanged.length, imageReplaced: report.imageReplaced.length,
+    added: report.added.length, removed: report.removed.length, staged, orphansRemoved,
+  };
+  console.log(`[${code}] 作り直し完了`, summary);
+  return summary;
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const onlySet = args.includes("--set") ? args[args.indexOf("--set") + 1] : null;
@@ -235,6 +365,21 @@ async function main() {
   if (targets.length === 0) throw new Error(`TARGET_SETS に ${onlySet} がありません`);
 
   const cache = JSON.parse(await fs.readFile(CACHE_PATH, "utf-8"));
+  if (args.includes("--details-only")) {
+    // 検証・書き込みの前に、全対象の details.php の結果を先に集める
+    const all = onlySet ? [...TARGET_SETS, ...REBUILD_SETS].filter((t) => t.code === onlySet) : [...TARGET_SETS, ...REBUILD_SETS];
+    for (const target of all) await fetchDetails(target.code, cacheCardIds(target, cache));
+    return;
+  }
+  if (args.includes("--rebuild")) {
+    const rebuildTargets = onlySet ? REBUILD_SETS.filter((t) => t.code === onlySet) : REBUILD_SETS;
+    for (const target of rebuildTargets) {
+      const cardData = JSON.parse(await fs.readFile(CARD_DATA_PATH, "utf-8"));
+      const imageIndex = JSON.parse(await fs.readFile(path.join(ROOT, "src", "imageIndex.json"), "utf-8"));
+      await rebuildSet(target, cache, cardData, imageIndex);
+    }
+    return;
+  }
   for (const target of targets) {
     // 1弾ごとに読み直す（前の弾の書き込み結果を確実に反映するため）
     const cardData = JSON.parse(await fs.readFile(CARD_DATA_PATH, "utf-8"));

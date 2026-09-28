@@ -55,6 +55,13 @@ describe("validateAndBuildK", () => {
     expect(k.length).toBe(2);
   });
 
+  it("allows only the gaps listed in allowedGaps (promo sets)", () => {
+    const details = [1, 2, 4, 6].map((n) => buildDetail(n, 0, `card${n}`, ""));
+    expect(() => validateAndBuildK(details, "TEST", { allowedGaps: [3] })).toThrow(/欠番があります.*: 5$/);
+    const { k } = validateAndBuildK(details, "TEST", { allowedGaps: [3, 5] });
+    expect(k.map((c) => c[0])).toEqual(["001", "002", "004", "006"]);
+  });
+
   it("rejects an unknown rarity code (rarity === null)", () => {
     const details = [{ local: "001", total: "001", jaName: "X", rarity: null }];
     expect(() => validateAndBuildK(details, "TEST")).toThrow(/レアリティコード/);
