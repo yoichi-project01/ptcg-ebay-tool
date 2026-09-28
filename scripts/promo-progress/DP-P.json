@@ -1,0 +1,1402 @@
+{
+ "5000": {
+  "jaName": "逆襲のミュウツー",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005000_P_GYAKUSHUUNOMYUUTSU.gif"
+ },
+ "5001": {
+  "jaName": "爆誕のルギア",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005001_P_BAKUTANNORUGIA.gif"
+ },
+ "5002": {
+  "jaName": "結晶塔のエンテイ",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005002_P_KESSHOUTOUNOENTEI.gif"
+ },
+ "5003": {
+  "jaName": "時を超えたセレビィ",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005003_P_TOKIWOKOETASEREBII.gif"
+ },
+ "5004": {
+  "jaName": "水の都のラティアス",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005004_P_MIZUNOMIYAKONORATEIASU.gif"
+ },
+ "5005": {
+  "jaName": "水の都のラティオス",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005005_P_MIZUNOMIYAKONORATEIOSU.gif"
+ },
+ "5006": {
+  "jaName": "七夜のジラーチ",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005006_P_SHICHIYORUNOJIRACHI.gif"
+ },
+ "5007": {
+  "jaName": "裂空の訪問者デオキシス",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005007_P_RETSUSORANOHOUMONSHADEOKISHISU.gif"
+ },
+ "5008": {
+  "jaName": "波導の勇者ルカリオ",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005008_P_HADOUNOYUUSHARUKARIO.gif"
+ },
+ "5009": {
+  "jaName": "はじまりの樹のミュウ",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005009_P_HAJIMARINOKINOMYUU.gif"
+ },
+ "5010": {
+  "jaName": "蒼海の王子マナフィ",
+  "badge": "MPS",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/005010_P_AOUMINOOUJIMANAFI.gif"
+ },
+ "6000": {
+  "jaName": "リオル",
+  "badge": "DPP",
+  "number": "001",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006000_P_RIORU.jpg"
+ },
+ "6001": {
+  "jaName": "ルカリオ",
+  "badge": "DPP",
+  "number": "002",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006001_P_RUKARIO.jpg"
+ },
+ "6002": {
+  "jaName": "マナフィ",
+  "badge": "DPP",
+  "number": "003",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006002_P_MANAFI.jpg"
+ },
+ "6003": {
+  "jaName": "ルカリオ",
+  "badge": "DPP",
+  "number": "004",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006003_P_RUKARIO.gif"
+ },
+ "6004": {
+  "jaName": "ナエトル",
+  "badge": "DPP",
+  "number": "005",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006004_P_NAETORU.jpg"
+ },
+ "6005": {
+  "jaName": "チェリンボ",
+  "badge": "DPP",
+  "number": "006",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006005_P_CHIERINBO.jpg"
+ },
+ "6006": {
+  "jaName": "ヒコザル",
+  "badge": "DPP",
+  "number": "007",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006006_P_HIKOZARU.jpg"
+ },
+ "6007": {
+  "jaName": "ポッチャマ",
+  "badge": "DPP",
+  "number": "008",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006007_P_POCCHAMA.jpg"
+ },
+ "6008": {
+  "jaName": "ブイゼル",
+  "badge": "DPP",
+  "number": "009",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006008_P_BUIZERU.jpg"
+ },
+ "6009": {
+  "jaName": "コリンク",
+  "badge": "DPP",
+  "number": "010",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006009_P_KORINKU.jpg"
+ },
+ "6010": {
+  "jaName": "パチリス",
+  "badge": "DPP",
+  "number": "011",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006010_P_PACHIRISU.jpg"
+ },
+ "6011": {
+  "jaName": "フワンテ",
+  "badge": "DPP",
+  "number": "012",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006011_P_FUWANTE.jpg"
+ },
+ "6012": {
+  "jaName": "ムックル",
+  "badge": "DPP",
+  "number": "013",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006012_P_MUKKURU.jpg"
+ },
+ "6013": {
+  "jaName": "ビッパ",
+  "badge": "DPP",
+  "number": "014",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006013_P_BIPPA.jpg"
+ },
+ "6014": {
+  "jaName": "ミミロル",
+  "badge": "DPP",
+  "number": "015",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006014_P_MIMIRORU.jpg"
+ },
+ "6015": {
+  "jaName": "ペラップ",
+  "badge": "DPP",
+  "number": "016",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006015_P_PERAPPU.jpg"
+ },
+ "6016": {
+  "jaName": "ナエトル",
+  "badge": "DPP",
+  "number": "017",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006016_P_NAETORU.jpg"
+ },
+ "6017": {
+  "jaName": "ヒコザル",
+  "badge": "DPP",
+  "number": "018",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006017_P_HIKOZARU.jpg"
+ },
+ "6018": {
+  "jaName": "ポッチャマ",
+  "badge": "DPP",
+  "number": "019",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006018_P_POCCHAMA.jpg"
+ },
+ "6019": {
+  "jaName": "パチリス",
+  "badge": "DPP",
+  "number": "020",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006019_P_PACHIRISU.jpg"
+ },
+ "6020": {
+  "jaName": "マネネ",
+  "badge": "DPP",
+  "number": "021",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006020_P_MANENE.jpg"
+ },
+ "6021": {
+  "jaName": "ムクバード",
+  "badge": "DPP",
+  "number": "022",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006021_P_MUKUBADO.jpg"
+ },
+ "6022": {
+  "jaName": "ミミロル",
+  "badge": "DPP",
+  "number": "023",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006022_P_MIMIRORU.jpg"
+ },
+ "6023": {
+  "jaName": "ニャルマー",
+  "badge": "DPP",
+  "number": "024",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006023_P_NYARUMA.jpg"
+ },
+ "6024": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "025",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006024_P_PIKACHUU.jpg"
+ },
+ "6025": {
+  "jaName": "フカマル",
+  "badge": "DPP",
+  "number": "026",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006025_P_FUKAMARU.jpg"
+ },
+ "6026": {
+  "jaName": "ナエトル",
+  "badge": "DPP",
+  "number": "027",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006026_P_NAETORU.jpg"
+ },
+ "6027": {
+  "jaName": "ヒコザル",
+  "badge": "DPP",
+  "number": "028",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006027_P_HIKOZARU.jpg"
+ },
+ "6028": {
+  "jaName": "ポッチャマ",
+  "badge": "DPP",
+  "number": "029",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006028_P_POCCHAMA.jpg"
+ },
+ "6029": {
+  "jaName": "パルキア",
+  "badge": "DPP",
+  "number": "030",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006029_P_PARUKIA.jpg"
+ },
+ "6030": {
+  "jaName": "フワライド",
+  "badge": "DPP",
+  "number": "031",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006030_P_FUWARAIDO.jpg"
+ },
+ "6031": {
+  "jaName": "グレッグル",
+  "badge": "DPP",
+  "number": "032",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006031_P_GUREGGURU.jpg"
+ },
+ "6032": {
+  "jaName": "ディアルガ",
+  "badge": "DPP",
+  "number": "033",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006032_P_DEIARUGA.jpg"
+ },
+ "6033": {
+  "jaName": "ハヤシガメ",
+  "badge": "DPP",
+  "number": "034",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006033_P_HAYASHIGAME.jpg"
+ },
+ "6034": {
+  "jaName": "チェリム",
+  "badge": "DPP",
+  "number": "035",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006034_P_CHIERIMU.jpg"
+ },
+ "6035": {
+  "jaName": "マスキッパ",
+  "badge": "DPP",
+  "number": "036",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006035_P_MASUKIPPA.jpg"
+ },
+ "6036": {
+  "jaName": "モウカザル",
+  "badge": "DPP",
+  "number": "037",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006036_P_MOUKAZARU.jpg"
+ },
+ "6037": {
+  "jaName": "ポッタイシ",
+  "badge": "DPP",
+  "number": "038",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006037_P_POTTAISHI.jpg"
+ },
+ "6038": {
+  "jaName": "パルキア",
+  "badge": "DPP",
+  "number": "039",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006038_P_PARUKIA.jpg"
+ },
+ "6039": {
+  "jaName": "ルクシオ",
+  "badge": "DPP",
+  "number": "040",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006039_P_RUKUSHIO.jpg"
+ },
+ "6040": {
+  "jaName": "グレッグル",
+  "badge": "DPP",
+  "number": "041",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006040_P_GUREGGURU.jpg"
+ },
+ "6041": {
+  "jaName": "ディアルガ",
+  "badge": "DPP",
+  "number": "042",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006041_P_DEIARUGA.jpg"
+ },
+ "6042": {
+  "jaName": "ピンプク",
+  "badge": "DPP",
+  "number": "043",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006042_P_PINPUKU.jpg"
+ },
+ "6043": {
+  "jaName": "エイパム",
+  "badge": "DPP",
+  "number": "044",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006043_P_EIPAMU.jpg"
+ },
+ "6044": {
+  "jaName": "ムクバード",
+  "badge": "DPP",
+  "number": "045",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006044_P_MUKUBADO.jpg"
+ },
+ "6045": {
+  "jaName": "ダークライ",
+  "badge": "DPP",
+  "number": "046",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006045_P_DAKURAI.gif"
+ },
+ "6046": {
+  "jaName": "チェリム",
+  "badge": "DPP",
+  "number": "047",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006046_P_CHIERIMU.gif"
+ },
+ "6047": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "048",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006047_P_PIKACHUU.gif"
+ },
+ "6048": {
+  "jaName": "ルクシオ",
+  "badge": "DPP",
+  "number": "049",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006048_P_RUKUSHIO.gif"
+ },
+ "6049": {
+  "jaName": "ドクロッグ",
+  "badge": "DPP",
+  "number": "050",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006049_P_DOKUROGGU.gif"
+ },
+ "6050": {
+  "jaName": "ミミロップ",
+  "badge": "DPP",
+  "number": "051",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006050_P_MIMIROPPU.gif"
+ },
+ "6051": {
+  "jaName": "ハヤシガメ",
+  "badge": "DPP",
+  "number": "052",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006051_P_HAYASHIGAME.gif"
+ },
+ "6052": {
+  "jaName": "モウカザル",
+  "badge": "DPP",
+  "number": "053",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006052_P_MOUKAZARU.gif"
+ },
+ "6053": {
+  "jaName": "ポッタイシ",
+  "badge": "DPP",
+  "number": "054",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006053_P_POTTAISHI.gif"
+ },
+ "6054": {
+  "jaName": "プラスル",
+  "badge": "DPP",
+  "number": "055",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006054_P_PURASURU.gif"
+ },
+ "6055": {
+  "jaName": "マイナン",
+  "badge": "DPP",
+  "number": "056",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006055_P_MAINAN.gif"
+ },
+ "6056": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "057",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006056_P_PIKACHUU.gif"
+ },
+ "6057": {
+  "jaName": "ガブリアス",
+  "badge": "DPP",
+  "number": "058",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/006057_P_GABURIASU.gif"
+ },
+ "7000": {
+  "jaName": "バトルロードスタジアム",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007000_T_BATORURODOSUTAJIAMU.gif"
+ },
+ "7001": {
+  "jaName": "勝利のメダル",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007001_T_SHOURINOMEDARUGIN.gif"
+ },
+ "7002": {
+  "jaName": "特殊悪エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007002_E_AKUENERUGI.jpg"
+ },
+ "7003": {
+  "jaName": "特殊鋼エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007003_E_KOUENERUGI.jpg"
+ },
+ "7004": {
+  "jaName": "特殊悪エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007004_E_AKUENERUGI.gif"
+ },
+ "7005": {
+  "jaName": "特殊鋼エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007005_E_KOUENERUGI.gif"
+ },
+ "7006": {
+  "jaName": "ミズキの検索",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007006_T_MIZUKINOKENSAKU.gif"
+ },
+ "7007": {
+  "jaName": "時空のゆがみ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007007_T_JIKUUNOYUGAMI.gif"
+ },
+ "7008": {
+  "jaName": "ミステリアス・パール",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007008_T_MISUTERIASUPARU.gif"
+ },
+ "7009": {
+  "jaName": "ミラクル・ダイヤモンド",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007009_T_MIRAKURUDAIYAMONDO.gif"
+ },
+ "7010": {
+  "jaName": "ずがいの化石",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007010_T_ZUGAINOKASEKI.gif"
+ },
+ "7011": {
+  "jaName": "たての化石",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007011_T_TATENOKASEKI.gif"
+ },
+ "7012": {
+  "jaName": "勝利のメダル",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007012_T_SHOURINOMEDARUKIN.gif"
+ },
+ "7013": {
+  "jaName": "チャンピオンズリーグ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007013_T_CHANPIONZURIGU.gif"
+ },
+ "7014": {
+  "jaName": "トロピカルウインド",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007014_T_TOROPIKARUUINDO.jpg"
+ },
+ "7015": {
+  "jaName": "ポケモンパルシティ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007015_T_POKEMONPARUSHITEI.jpg"
+ },
+ "7016": {
+  "jaName": "ポケモンパルシティ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007016_T_POKEMONPARUSHITEI.jpg"
+ },
+ "7017": {
+  "jaName": "ポケモンパルシティ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007017_T_POKEMONPARUSHITEI.jpg"
+ },
+ "7018": {
+  "jaName": "ポケモンパルシティ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007018_T_POKEMONPARUSHITEI.jpg"
+ },
+ "7019": {
+  "jaName": "ポケモンパルシティ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007019_T_POKEMONPARUSHITEI.jpg"
+ },
+ "7020": {
+  "jaName": "ポケモンパルシティ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007020_T_POKEMONPARUSHITEI.jpg"
+ },
+ "7021": {
+  "jaName": "ポケモンパルシティ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007021_T_POKEMONPARUSHITEI.jpg"
+ },
+ "7022": {
+  "jaName": "ハマナのリサーチ",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007022_T_HAMANANORISACHI.gif"
+ },
+ "7023": {
+  "jaName": "タッチ交換！",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007023_T_TACCHIKOUKAN.jpg"
+ },
+ "7024": {
+  "jaName": "オーキドはかせの訪問",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/007024_T_OKIDOHAKASENOHOUMON.gif"
+ },
+ "8006": {
+  "jaName": "イーブイ",
+  "badge": "DPP",
+  "number": "067",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/008006_P_IBUI.jpg"
+ },
+ "8007": {
+  "jaName": "クレセリア",
+  "badge": "DPP",
+  "number": "068",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/008007_P_KURESERIA.gif"
+ },
+ "8008": {
+  "jaName": "リーフィア",
+  "badge": "DPP",
+  "number": "069",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/008008_P_RIFIA.jpg"
+ },
+ "8009": {
+  "jaName": "グレイシア",
+  "badge": "DPP",
+  "number": "070",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/008009_P_GUREISHIA.jpg"
+ },
+ "8010": {
+  "jaName": "ゴウカザル",
+  "badge": "DPP",
+  "number": "071",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/008010_P_GOUKAZARU.gif"
+ },
+ "8011": {
+  "jaName": "ナエトル",
+  "badge": "DPP",
+  "number": "072",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/008011_P_NAETORU.gif"
+ },
+ "8012": {
+  "jaName": "ヒコザル",
+  "badge": "DPP",
+  "number": "073",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/008012_P_HIKOZARU.gif"
+ },
+ "8013": {
+  "jaName": "ポッチャマ",
+  "badge": "DPP",
+  "number": "074",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/008013_P_POCCHAMA.gif"
+ },
+ "9001": {
+  "jaName": "基本草エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/009001_E_KUSAENERUGI.jpg"
+ },
+ "9002": {
+  "jaName": "基本炎エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/009002_E_HONOOENERUGI.jpg"
+ },
+ "9003": {
+  "jaName": "基本水エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/009003_E_MIZUENERUGI.jpg"
+ },
+ "9004": {
+  "jaName": "基本雷エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/009004_E_KAMINARIENERUGI.jpg"
+ },
+ "9005": {
+  "jaName": "基本超エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/009005_E_CHOUENERUGI.jpg"
+ },
+ "9006": {
+  "jaName": "基本闘エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/009006_E_TOUENERUGI.jpg"
+ },
+ "9007": {
+  "jaName": "基本悪エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/009007_E_AKUENERUGI.jpg"
+ },
+ "9008": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/009008_E_KOUENERUGI.jpg"
+ },
+ "11001": {
+  "jaName": "ミノムッチ くさきのミノ",
+  "badge": "DPP",
+  "number": "059",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/011001_P_MINOMUCCHIKUSAKINOMINO.gif"
+ },
+ "11002": {
+  "jaName": "カラナクシ にしのうみ",
+  "badge": "DPP",
+  "number": "060",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/011002_P_KARANAKUSHINISHINOUMI.gif"
+ },
+ "11003": {
+  "jaName": "コリンク",
+  "badge": "DPP",
+  "number": "061",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/011003_P_KORINKU.gif"
+ },
+ "11004": {
+  "jaName": "ヤミカラス",
+  "badge": "DPP",
+  "number": "062",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/011004_P_YAMIKARASU.gif"
+ },
+ "11005": {
+  "jaName": "イーブイ",
+  "badge": "DPP",
+  "number": "063",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/011005_P_IBUI.gif"
+ },
+ "11006": {
+  "jaName": "ブーバー",
+  "badge": "DPP",
+  "number": "064",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/011006_P_BUBA.gif"
+ },
+ "11007": {
+  "jaName": "エレブー",
+  "badge": "DPP",
+  "number": "065",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/011007_P_EREBU.gif"
+ },
+ "11008": {
+  "jaName": "リオル",
+  "badge": "DPP",
+  "number": "066",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/011008_P_RIORU.gif"
+ },
+ "15042": {
+  "jaName": "ポリゴンZ",
+  "badge": "DPP",
+  "number": "075",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/015042_P_PORIGONZ.gif"
+ },
+ "16001": {
+  "jaName": "ドダイトス",
+  "badge": "DPP",
+  "number": "076",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/016001_P_DODAITOSU.gif"
+ },
+ "16002": {
+  "jaName": "ドータクン",
+  "badge": "DPP",
+  "number": "077",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/016002_P_DOTAKUN.gif"
+ },
+ "16003": {
+  "jaName": "エンペルト",
+  "badge": "DPP",
+  "number": "078",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/016003_P_ENPERUTO.gif"
+ },
+ "16004": {
+  "jaName": "ガーメイル",
+  "badge": "DPP",
+  "number": "079",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/016004_P_GAMEIRU.gif"
+ },
+ "17500": {
+  "jaName": "ヒードラン",
+  "badge": "DPP",
+  "number": "092",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/017500_P_HIDORAN.jpg"
+ },
+ "18000": {
+  "jaName": "ミノムッチ すなちのミノ",
+  "badge": "DPP",
+  "number": "080",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018000_P_MINOMUCCHISUNACHINOMINO.jpg"
+ },
+ "18001": {
+  "jaName": "ミツハニー",
+  "badge": "DPP",
+  "number": "081",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018001_P_MITSUHANI.jpg"
+ },
+ "18002": {
+  "jaName": "メガヤンマ",
+  "badge": "DPP",
+  "number": "082",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018002_P_MEGAYANMA.jpg"
+ },
+ "18003": {
+  "jaName": "ヒードラン",
+  "badge": "DPP",
+  "number": "083",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018003_P_HIDORAN.jpg"
+ },
+ "18004": {
+  "jaName": "カラナクシ ひがしのうみ",
+  "badge": "DPP",
+  "number": "084",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018004_P_KARANAKUSHIHIGASHINOUMI.jpg"
+ },
+ "18005": {
+  "jaName": "フィオネ",
+  "badge": "DPP",
+  "number": "085",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018005_P_FIONE.jpg"
+ },
+ "18006": {
+  "jaName": "レントラー",
+  "badge": "DPP",
+  "number": "086",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018006_P_RENTORA.jpg"
+ },
+ "18007": {
+  "jaName": "リーシャン",
+  "badge": "DPP",
+  "number": "087",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018007_P_RISHAN.jpg"
+ },
+ "18008": {
+  "jaName": "リオル",
+  "badge": "DPP",
+  "number": "088",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018008_P_RIORU.jpg"
+ },
+ "18009": {
+  "jaName": "スカンプー",
+  "badge": "DPP",
+  "number": "089",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018009_P_SUKANPU.jpg"
+ },
+ "18010": {
+  "jaName": "ダイノーズ",
+  "badge": "DPP",
+  "number": "090",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018010_P_DAINOZU.jpg"
+ },
+ "18011": {
+  "jaName": "ゴンベ",
+  "badge": "DPP",
+  "number": "091",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018011_P_GONBE.jpg"
+ },
+ "18500": {
+  "jaName": "ジバコイル",
+  "badge": "DPP",
+  "number": "093",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018500_P_JIBAKOIRU.jpg"
+ },
+ "18501": {
+  "jaName": "ヨノワール",
+  "badge": "DPP",
+  "number": "094",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018501_P_YONOWARU.gif"
+ },
+ "18502": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "095",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018502_P_PIKACHUU.gif"
+ },
+ "18503": {
+  "jaName": "ルカリオ",
+  "badge": "DPP",
+  "number": "096",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018503_P_RUKARIO.jpg"
+ },
+ "18504": {
+  "jaName": "シロナの想い",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018504_T_SHIRONANOOMOI.gif"
+ },
+ "18505": {
+  "jaName": "バクのトレーニング",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/018505_T_BAKUNOTORENINGU.gif"
+ },
+ "19500": {
+  "jaName": "現実世界のギラティナ",
+  "badge": "DPP",
+  "number": "109",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/019500_P_GENJITSUSEKAINOGIRATEINA.jpg"
+ },
+ "19501": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "098",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/019501_P_PIKACHUU.jpg"
+ },
+ "19503": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "099",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/019503_P_PIKACHUU.jpg"
+ },
+ "19505": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "100",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/019505_P_PIKACHUU.jpg"
+ },
+ "19507": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "101",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/019507_P_PIKACHUU.jpg"
+ },
+ "19509": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "102",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/019509_P_PIKACHUU.jpg"
+ },
+ "20000": {
+  "jaName": "コイル",
+  "badge": "DPP",
+  "number": "110",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020000_P_KOIRU.gif"
+ },
+ "20002": {
+  "jaName": "レジギガス",
+  "badge": "DPP",
+  "number": "111",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020002_P_REJIGIGASU.gif"
+ },
+ "20004": {
+  "jaName": "ピチュー",
+  "badge": "DPP",
+  "number": "112",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020004_P_PICHU.gif"
+ },
+ "20006": {
+  "jaName": "ピカチュウ",
+  "badge": "DPP",
+  "number": "113",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020006_P_PIKACHUU.gif"
+ },
+ "20008": {
+  "jaName": "ライチュウ",
+  "badge": "DPP",
+  "number": "114",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020008_P_RAICHUU.gif"
+ },
+ "20010": {
+  "jaName": "ミミロル",
+  "badge": "DPP",
+  "number": "115",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020010_P_MIMIRORU.gif"
+ },
+ "20012": {
+  "jaName": "ミミロップ",
+  "badge": "DPP",
+  "number": "116",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020012_P_MIMIROPPU.gif"
+ },
+ "20014": {
+  "jaName": "ナエトル",
+  "badge": "DPP",
+  "number": "117",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020014_P_NAETORU.jpg"
+ },
+ "20016": {
+  "jaName": "ヒコザル",
+  "badge": "DPP",
+  "number": "118",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020016_P_HIKOZARU.jpg"
+ },
+ "20018": {
+  "jaName": "ポッチャマ",
+  "badge": "DPP",
+  "number": "119",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020018_P_POCCHAMA.jpg"
+ },
+ "20020": {
+  "jaName": "ブイゼル",
+  "badge": "DPP",
+  "number": "120",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020020_P_BUIZERU.jpg"
+ },
+ "20022": {
+  "jaName": "パチリス",
+  "badge": "DPP",
+  "number": "121",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020022_P_PACHIRISU.jpg"
+ },
+ "20024": {
+  "jaName": "グレッグル",
+  "badge": "DPP",
+  "number": "122",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020024_P_GUREGGURU.jpg"
+ },
+ "20026": {
+  "jaName": "ゴージャスボール",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020026_T_GOJASUBORU.gif"
+ },
+ "20501": {
+  "jaName": "パルキア",
+  "badge": "DPP",
+  "number": "105",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020501_P_PARUKIA.gif"
+ },
+ "20503": {
+  "jaName": "ポリゴンZ",
+  "badge": "DPP",
+  "number": "106",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020503_P_PORIGONZ.gif"
+ },
+ "20506": {
+  "jaName": "ディアルガ",
+  "badge": "DPP",
+  "number": "107",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020506_P_DEIARUGA.gif"
+ },
+ "20508": {
+  "jaName": "グライオン",
+  "badge": "DPP",
+  "number": "108",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020508_P_GURAION.gif"
+ },
+ "20511": {
+  "jaName": "ドラピオン",
+  "badge": "DPP",
+  "number": "123",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020511_P_DORAPION.gif"
+ },
+ "20514": {
+  "jaName": "トロピカルウインド",
+  "badge": "DPP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020514_T_TOROPIKARUUINDO.jpg"
+ },
+ "20515": {
+  "jaName": "ヒトカゲ",
+  "badge": "DPP",
+  "number": "124",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020515_P_HITOKAGE.jpg"
+ },
+ "20517": {
+  "jaName": "ゴンベ",
+  "badge": "DPP",
+  "number": "125",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020517_P_GONBE.gif"
+ },
+ "20519": {
+  "jaName": "カビゴン",
+  "badge": "DPP",
+  "number": "126",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/020519_P_KABIGON.gif"
+ },
+ "21296": {
+  "jaName": "フカマル",
+  "badge": "DPP",
+  "number": "097",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/021296_P_FUKAMARU.gif"
+ },
+ "21297": {
+  "jaName": "ガバイト",
+  "badge": "DPP",
+  "number": "103",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/021297_P_GABAITO.gif"
+ },
+ "21299": {
+  "jaName": "ガブリアス",
+  "badge": "DPP",
+  "number": "104",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/021299_P_GABURIASU.gif"
+ },
+ "22277": {
+  "jaName": "カビゴン",
+  "badge": "DPP",
+  "number": "127",
+  "label": "DP-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/DPP/022277_P_KABIGON.gif"
+ }
+}
