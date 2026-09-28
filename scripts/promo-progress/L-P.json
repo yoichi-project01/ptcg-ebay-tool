@@ -1,0 +1,738 @@
+{
+ "25265": {
+  "jaName": "メガニウム",
+  "badge": "LP",
+  "number": "001",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025265_P_MEGANIUMU.jpg"
+ },
+ "25266": {
+  "jaName": "オーダイル",
+  "badge": "LP",
+  "number": "002",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025266_P_ODAIRU.jpg"
+ },
+ "25267": {
+  "jaName": "バクフーン",
+  "badge": "LP",
+  "number": "003",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025267_P_BAKUFUN.jpg"
+ },
+ "25268": {
+  "jaName": "ギャラドス",
+  "badge": "LP",
+  "number": "004",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025268_P_GYARADOSU.gif"
+ },
+ "25270": {
+  "jaName": "チコリータ",
+  "badge": "LP",
+  "number": "005",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025270_P_CHIKORITA.gif"
+ },
+ "25272": {
+  "jaName": "ヒノアラシ",
+  "badge": "LP",
+  "number": "006",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025272_P_HINOARASHI.gif"
+ },
+ "25273": {
+  "jaName": "ワニノコ",
+  "badge": "LP",
+  "number": "007",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025273_P_WANINOKO.gif"
+ },
+ "25274": {
+  "jaName": "メリープ",
+  "badge": "LP",
+  "number": "008",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025274_P_MERIPU.gif"
+ },
+ "25275": {
+  "jaName": "ゴマゾウ",
+  "badge": "LP",
+  "number": "009",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025275_P_GOMAZOU.gif"
+ },
+ "25277": {
+  "jaName": "ヒメグマ",
+  "badge": "LP",
+  "number": "010",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025277_P_HIMEGUMA.gif"
+ },
+ "25278": {
+  "jaName": "オタチ",
+  "badge": "LP",
+  "number": "022",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025278_P_OTACHI.gif"
+ },
+ "25280": {
+  "jaName": "ウツギはかせの育てかた",
+  "badge": "LP",
+  "number": "023",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025280_T_UTSUGIHAKASENOSODATEKATA.gif"
+ },
+ "25282": {
+  "jaName": "モノマネむすめ",
+  "badge": "LP",
+  "number": "024",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025282_T_MONOMANEMUSUME.gif"
+ },
+ "25284": {
+  "jaName": "草エネルギー",
+  "badge": "LP",
+  "number": "011",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025284_E_KUSAENERUGI.gif"
+ },
+ "25285": {
+  "jaName": "基本炎エネルギー",
+  "badge": "LP",
+  "number": "012",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025285_E_HONOOENERUGI.gif"
+ },
+ "25286": {
+  "jaName": "水エネルギー",
+  "badge": "LP",
+  "number": "013",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025286_E_MIZUENERUGI.gif"
+ },
+ "25287": {
+  "jaName": "雷エネルギー",
+  "badge": "LP",
+  "number": "014",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025287_E_KAMINARIENERUGI.gif"
+ },
+ "25288": {
+  "jaName": "基本超エネルギー",
+  "badge": "LP",
+  "number": "015",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025288_E_CHOUENERUGI.gif"
+ },
+ "25289": {
+  "jaName": "闘エネルギー",
+  "badge": "LP",
+  "number": "016",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025289_E_TOUENERUGI.gif"
+ },
+ "25290": {
+  "jaName": "基本悪エネルギー",
+  "badge": "LP",
+  "number": "017",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025290_E_AKUENERUGI.gif"
+ },
+ "25291": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "LP",
+  "number": "018",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025291_E_KOUENERUGI.gif"
+ },
+ "25292": {
+  "jaName": "ホーホー",
+  "badge": "LP",
+  "number": "025",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025292_P_HOHO.jpg"
+ },
+ "25294": {
+  "jaName": "ヨルノズク",
+  "badge": "LP",
+  "number": "026",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025294_P_YORUNOZUKU.gif"
+ },
+ "25296": {
+  "jaName": "勝利のメダル",
+  "badge": "LP",
+  "number": "027",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025296_T_SHOURINOMEDARU.gif"
+ },
+ "25313": {
+  "jaName": "ピカチュウ",
+  "badge": "LP",
+  "number": "019",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025313_P_PIKACHUU.gif"
+ },
+ "25315": {
+  "jaName": "クレセリア",
+  "badge": "LP",
+  "number": "020",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025315_P_KURESERIA.gif"
+ },
+ "25317": {
+  "jaName": "ダークライ",
+  "badge": "LP",
+  "number": "021",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025317_P_DAKURAI.gif"
+ },
+ "25319": {
+  "jaName": "ヤドン",
+  "badge": "LP",
+  "number": "028",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025319_P_YADON.jpg"
+ },
+ "25321": {
+  "jaName": "ヤドラン",
+  "badge": "LP",
+  "number": "029",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025321_P_YADORAN.gif"
+ },
+ "25323": {
+  "jaName": "ヤドキング",
+  "badge": "LP",
+  "number": "030",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025323_P_YADOKINGU.gif"
+ },
+ "25325": {
+  "jaName": "ルギア",
+  "badge": "LP",
+  "number": "047",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025325_P_RUGIA.gif"
+ },
+ "25327": {
+  "jaName": "ホウオウ",
+  "badge": "LP",
+  "number": "048",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025327_P_HOUOU.gif"
+ },
+ "25329": {
+  "jaName": "勝利のメダル",
+  "badge": "LP",
+  "number": "031",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025329_T_SHOURINOMEDARU.gif"
+ },
+ "25331": {
+  "jaName": "勝利のメダル",
+  "badge": "LP",
+  "number": "032",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025331_T_SHOURINOMEDARU.gif"
+ },
+ "25333": {
+  "jaName": "勝利のメダル",
+  "badge": "LP",
+  "number": "033",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025333_T_SHOURINOMEDARU.gif"
+ },
+ "25335": {
+  "jaName": "ソーナンス",
+  "badge": "LP",
+  "number": "040",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025335_P_SONANSU.gif"
+ },
+ "25337": {
+  "jaName": "勝利のメダル",
+  "badge": "LP",
+  "number": "041",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025337_T_SHOURINOMEDARU.gif"
+ },
+ "25339": {
+  "jaName": "勝利のメダル",
+  "badge": "LP",
+  "number": "042",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025339_T_SHOURINOMEDARU.gif"
+ },
+ "25341": {
+  "jaName": "勝利のメダル",
+  "badge": "LP",
+  "number": "043",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025341_T_SHOURINOMEDARU.gif"
+ },
+ "25343": {
+  "jaName": "チコリータ",
+  "badge": "LP",
+  "number": "034",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025343_P_CHIKORITA.jpg"
+ },
+ "25345": {
+  "jaName": "ヒノアラシ",
+  "badge": "LP",
+  "number": "035",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025345_P_HINOARASHI.jpg"
+ },
+ "25347": {
+  "jaName": "ワニノコ",
+  "badge": "LP",
+  "number": "036",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025347_P_WANINOKO.jpg"
+ },
+ "25349": {
+  "jaName": "メリープ",
+  "badge": "LP",
+  "number": "037",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025349_P_MERIPU.jpg"
+ },
+ "25351": {
+  "jaName": "ゴマゾウ",
+  "badge": "LP",
+  "number": "038",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025351_P_GOMAZOU.jpg"
+ },
+ "25352": {
+  "jaName": "ヒメグマ",
+  "badge": "LP",
+  "number": "039",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025352_P_HIMEGUMA.jpg"
+ },
+ "25483": {
+  "jaName": "ライチュウ",
+  "badge": "LP",
+  "number": "044",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025483_P_RAICHUU.gif"
+ },
+ "25485": {
+  "jaName": "ラティアス",
+  "badge": "LP",
+  "number": "045",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025485_P_RATEIASU.gif"
+ },
+ "25487": {
+  "jaName": "ラティオス",
+  "badge": "LP",
+  "number": "046",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025487_P_RATEIOSU.gif"
+ },
+ "25727": {
+  "jaName": "ストライク",
+  "badge": "LP",
+  "number": "049",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025727_P_SUTORAIKU.gif"
+ },
+ "25728": {
+  "jaName": "デルビル",
+  "badge": "LP",
+  "number": "050",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025728_P_DERUBIRU.gif"
+ },
+ "25729": {
+  "jaName": "レジェンドボックス",
+  "badge": "LP",
+  "number": "051",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025729_T_REJIENDOBOKKUSU.gif"
+ },
+ "25731": {
+  "jaName": "焼けた塔",
+  "badge": "LP",
+  "number": "052",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/025731_T_YAKETATOU.gif"
+ },
+ "26079": {
+  "jaName": "エーフィ",
+  "badge": "LP",
+  "number": "053",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026079_P_EFI.gif"
+ },
+ "26081": {
+  "jaName": "ブラッキー",
+  "badge": "LP",
+  "number": "054",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026081_P_BURAKKI.gif"
+ },
+ "26083": {
+  "jaName": "マスターの書",
+  "badge": "LP",
+  "number": "055",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026083_T_MASUTANOSHO.gif"
+ },
+ "26085": {
+  "jaName": "ザングース",
+  "badge": "LP",
+  "number": "056",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026085_P_ZANGUSU.gif"
+ },
+ "26087": {
+  "jaName": "ロストリムーバー",
+  "badge": "LP",
+  "number": "057",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026087_T_ROSUTORIMUBA.gif"
+ },
+ "26089": {
+  "jaName": "ラプラス",
+  "badge": "LP",
+  "number": "058",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026089_P_RAPURASU.gif"
+ },
+ "26091": {
+  "jaName": "ツボツボ",
+  "badge": "LP",
+  "number": "067",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026091_P_TSUBOTSUBO.gif"
+ },
+ "26178": {
+  "jaName": "マスターのカギ",
+  "badge": "LP",
+  "number": "068",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026178_T_MASUTANOKAGI.gif"
+ },
+ "26179": {
+  "jaName": "エンテイ",
+  "badge": "LP",
+  "number": "059",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026179_P_ENTEI.gif"
+ },
+ "26180": {
+  "jaName": "スイクン",
+  "badge": "LP",
+  "number": "060",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026180_P_SUIKUN.gif"
+ },
+ "26181": {
+  "jaName": "ライコウ",
+  "badge": "LP",
+  "number": "061",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026181_P_RAIKOU.gif"
+ },
+ "26182": {
+  "jaName": "エンテイ",
+  "badge": "LP",
+  "number": "062",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026182_P_ENTEI.gif"
+ },
+ "26183": {
+  "jaName": "スイクン",
+  "badge": "LP",
+  "number": "063",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026183_P_SUIKUN.gif"
+ },
+ "26184": {
+  "jaName": "ライコウ",
+  "badge": "LP",
+  "number": "064",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026184_P_RAIKOU.gif"
+ },
+ "26185": {
+  "jaName": "ホウオウ",
+  "badge": "LP",
+  "number": "065",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026185_P_HOUOU.gif"
+ },
+ "26186": {
+  "jaName": "ルギア",
+  "badge": "LP",
+  "number": "066",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026186_P_RUGIA.gif"
+ },
+ "26187": {
+  "jaName": "エレブー",
+  "badge": "LP",
+  "number": "069",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026187_P_EREBU.gif"
+ },
+ "26188": {
+  "jaName": "セキエイこうげん",
+  "badge": "LP",
+  "number": "070",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026188_T_SEKIEIKOUGEN.gif"
+ },
+ "26191": {
+  "jaName": "カイオーガ",
+  "badge": "LP",
+  "number": "071",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026191_P_KAIOGA.gif"
+ },
+ "26192": {
+  "jaName": "グラードン",
+  "badge": "LP",
+  "number": "072",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026192_P_GURADON.gif"
+ },
+ "26193": {
+  "jaName": "パルキア",
+  "badge": "LP",
+  "number": "073",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026193_P_PARUKIA.gif"
+ },
+ "26194": {
+  "jaName": "ディアルガ",
+  "badge": "LP",
+  "number": "074",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026194_P_DEIARUGA.gif"
+ },
+ "26195": {
+  "jaName": "レックウザ",
+  "badge": "LP",
+  "number": "075",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026195_P_REKKUUZA.gif"
+ },
+ "26196": {
+  "jaName": "デオキシス",
+  "badge": "LP",
+  "number": "076",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026196_P_DEOKISHISU.gif"
+ },
+ "26197": {
+  "jaName": "ポリゴン",
+  "badge": "LP",
+  "number": "077",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026197_P_PORIGON.jpg"
+ },
+ "26198": {
+  "jaName": "ポリゴン2",
+  "badge": "LP",
+  "number": "078",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026198_P_PORIGON.jpg"
+ },
+ "26199": {
+  "jaName": "幻影のゾロア",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026199_P_GENEINOZOROA.jpg"
+ },
+ "26200": {
+  "jaName": "幻影のゾロアーク",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026200_P_GENEINOZOROAKU.jpg"
+ },
+ "26201": {
+  "jaName": "幻影のゾロア",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026201_P_GENEINOZOROA.jpg"
+ },
+ "26202": {
+  "jaName": "幻影のゾロア",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026202_P_GENEINOZOROA.jpg"
+ },
+ "26203": {
+  "jaName": "幻影のゾロア",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026203_P_GENEINOZOROA.jpg"
+ },
+ "26204": {
+  "jaName": "幻影のゾロアーク",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026204_P_GENEINOZOROAKU.jpg"
+ },
+ "26205": {
+  "jaName": "幻影のゾロアーク",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026205_P_GENEINOZOROAKU.jpg"
+ },
+ "26206": {
+  "jaName": "幻影のゾロア",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026206_P_GENEINOZOROA.jpg"
+ },
+ "26207": {
+  "jaName": "幻影のゾロアーク",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026207_P_GENEINOZOROAKU.jpg"
+ },
+ "26208": {
+  "jaName": "幻影のゾロア",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026208_P_GENEINOZOROA.jpg"
+ },
+ "26209": {
+  "jaName": "幻影のゾロア",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026209_P_GENEINOZOROA.jpg"
+ },
+ "26210": {
+  "jaName": "幻影のゾロアーク",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026210_P_GENEINOZOROAKU.jpg"
+ },
+ "26211": {
+  "jaName": "トロピカルタイダルウェーブ",
+  "badge": "LP",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026211_T_TOROPIKARUTAIDARUUEBU.jpg"
+ },
+ "26212": {
+  "jaName": "おかいものピカチュウ",
+  "badge": "LP",
+  "number": "079",
+  "label": "L-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/LP/026212_P_OKAIMONOPIKACHUU.jpg"
+ }
+}
