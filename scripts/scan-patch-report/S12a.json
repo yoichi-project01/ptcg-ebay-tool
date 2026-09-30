@@ -1,0 +1,45 @@
+{
+  "code": "S12a",
+  "added": [],
+  "imageAdded": [],
+  "nameMismatch": [],
+  "otherBadge": [],
+  "noNumber": [
+    {
+      "cardId": "42944"
+    },
+    {
+      "cardId": "42945"
+    },
+    {
+      "cardId": "42946"
+    },
+    {
+      "cardId": "42947"
+    },
+    {
+      "cardId": "42948"
+    },
+    {
+      "cardId": "42949"
+    },
+    {
+      "cardId": "42950"
+    },
+    {
+      "cardId": "42951"
+    }
+  ],
+  "remainingGaps": [
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258
+  ],
+  "oldMax": 262,
+  "newMax": 262
+}
