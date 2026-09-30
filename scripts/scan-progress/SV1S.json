@@ -1,0 +1,28 @@
+{
+ "42622": {
+  "badge": "SV1S",
+  "cards": [
+   {
+    "local": "076",
+    "total": "078",
+    "rarity": "R",
+    "jaName": "博士の研究",
+    "cardThumbFile": "/assets/images/card_images/large/SV1S/042622_T_HAKASENOKENKIXYUUORIMUHAKASE.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV1S/042622_T_HAKASENOKENKIXYUUORIMUHAKASE.jpg"
+ },
+ "43059": {
+  "badge": "SV1S",
+  "cards": [
+   {
+    "local": "099",
+    "total": "078",
+    "rarity": "SR",
+    "jaName": "博士の研究",
+    "cardThumbFile": "/assets/images/card_images/large/SV1S/043059_T_HAKASENOKENKIXYUUORIMUHAKASE.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV1S/043059_T_HAKASENOKENKIXYUUORIMUHAKASE.jpg"
+ }
+}
