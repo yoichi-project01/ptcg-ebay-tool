@@ -1,0 +1,851 @@
+{
+  "code": "S10a",
+  "ofChange": null,
+  "nameChanged": [
+    {
+      "id": "S10a-002",
+      "oldJa": "パラス",
+      "newJa": "パラセクト"
+    },
+    {
+      "id": "S10a-003",
+      "oldJa": "パラセクト",
+      "newJa": "ヒスイ マルマインV"
+    },
+    {
+      "id": "S10a-004",
+      "oldJa": "パラセクト",
+      "newJa": "ケムッソ"
+    },
+    {
+      "id": "S10a-005",
+      "oldJa": "ヒスイ マルマインV",
+      "newJa": "カラサリス"
+    },
+    {
+      "id": "S10a-006",
+      "oldJa": "ケムッソ",
+      "newJa": "アゲハント"
+    },
+    {
+      "id": "S10a-007",
+      "oldJa": "ケムッソ",
+      "newJa": "マユルド"
+    },
+    {
+      "id": "S10a-008",
+      "oldJa": "カラサリス",
+      "newJa": "ドクケイル"
+    },
+    {
+      "id": "S10a-009",
+      "oldJa": "カラサリス",
+      "newJa": "ユキカブリ"
+    },
+    {
+      "id": "S10a-010",
+      "oldJa": "アゲハント",
+      "newJa": "ユキノオー"
+    },
+    {
+      "id": "S10a-011",
+      "oldJa": "マユルド",
+      "newJa": "フィオネ"
+    },
+    {
+      "id": "S10a-012",
+      "oldJa": "マユルド",
+      "newJa": "ヒスイ バスラオ"
+    },
+    {
+      "id": "S10a-013",
+      "oldJa": "ドクケイル",
+      "newJa": "ヒスイ イダイトウ"
+    },
+    {
+      "id": "S10a-014",
+      "oldJa": "ドクケイル",
+      "newJa": "ピカチュウ"
+    },
+    {
+      "id": "S10a-015",
+      "oldJa": "ユキカブリ",
+      "newJa": "ライチュウ"
+    },
+    {
+      "id": "S10a-016",
+      "oldJa": "ユキカブリ",
+      "newJa": "ジバコイルV"
+    },
+    {
+      "id": "S10a-017",
+      "oldJa": "ユキノオー",
+      "newJa": "ジバコイルVSTAR"
+    },
+    {
+      "id": "S10a-018",
+      "oldJa": "ユキノオー",
+      "newJa": "ロトム"
+    },
+    {
+      "id": "S10a-019",
+      "oldJa": "フィオネ",
+      "newJa": "ピッピ"
+    },
+    {
+      "id": "S10a-020",
+      "oldJa": "フィオネ",
+      "newJa": "ピクシー"
+    },
+    {
+      "id": "S10a-021",
+      "oldJa": "ヒスイ バスラオ",
+      "newJa": "ゴース"
+    },
+    {
+      "id": "S10a-022",
+      "oldJa": "ヒスイ バスラオ",
+      "newJa": "ゴースト"
+    },
+    {
+      "id": "S10a-023",
+      "oldJa": "ヒスイ イダイトウ",
+      "newJa": "ゲンガー"
+    },
+    {
+      "id": "S10a-024",
+      "oldJa": "ピカチュウ",
+      "newJa": "バリヤード"
+    },
+    {
+      "id": "S10a-025",
+      "oldJa": "ピカチュウ",
+      "newJa": "ムウマ"
+    },
+    {
+      "id": "S10a-026",
+      "oldJa": "ライチュウ",
+      "newJa": "ムウマージ"
+    },
+    {
+      "id": "S10a-027",
+      "oldJa": "ライチュウ",
+      "newJa": "かがやくサーナイト"
+    },
+    {
+      "id": "S10a-028",
+      "oldJa": "ジバコイルV",
+      "newJa": "チリーン"
+    },
+    {
+      "id": "S10a-029",
+      "oldJa": "ジバコイルVSTAR",
+      "newJa": "ヒスイ ゾロア"
+    },
+    {
+      "id": "S10a-030",
+      "oldJa": "ロトム",
+      "newJa": "ヒスイ ゾロアーク"
+    },
+    {
+      "id": "S10a-031",
+      "oldJa": "ロトム",
+      "newJa": "ラブトロスV"
+    },
+    {
+      "id": "S10a-032",
+      "oldJa": "ピッピ",
+      "newJa": "ヒスイ ガーディ"
+    },
+    {
+      "id": "S10a-033",
+      "oldJa": "ピッピ",
+      "newJa": "ヒスイ ウインディ"
+    },
+    {
+      "id": "S10a-034",
+      "oldJa": "ピクシー",
+      "newJa": "ワンリキー"
+    },
+    {
+      "id": "S10a-035",
+      "oldJa": "ピクシー",
+      "newJa": "ゴーリキー"
+    },
+    {
+      "id": "S10a-036",
+      "oldJa": "ゴース",
+      "newJa": "カイリキー"
+    },
+    {
+      "id": "S10a-037",
+      "oldJa": "ゴース",
+      "newJa": "ウソッキー"
+    },
+    {
+      "id": "S10a-038",
+      "oldJa": "ゴースト",
+      "newJa": "グライガー"
+    },
+    {
+      "id": "S10a-039",
+      "oldJa": "ゴースト",
+      "newJa": "グライオン"
+    },
+    {
+      "id": "S10a-040",
+      "oldJa": "ゲンガー",
+      "newJa": "エルレイドV"
+    },
+    {
+      "id": "S10a-041",
+      "oldJa": "バリヤード",
+      "newJa": "ズバット"
+    },
+    {
+      "id": "S10a-042",
+      "oldJa": "バリヤード",
+      "newJa": "ゴルバット"
+    },
+    {
+      "id": "S10a-043",
+      "oldJa": "ムウマ",
+      "newJa": "クロバット"
+    },
+    {
+      "id": "S10a-044",
+      "oldJa": "ムウマ",
+      "newJa": "ヤミカラス"
+    },
+    {
+      "id": "S10a-045",
+      "oldJa": "ムウマージ",
+      "newJa": "ドンカラス"
+    },
+    {
+      "id": "S10a-046",
+      "oldJa": "ムウマージ",
+      "newJa": "かがやくヒスイ オオニューラ"
+    },
+    {
+      "id": "S10a-047",
+      "oldJa": "かがやくサーナイト",
+      "newJa": "ミカルゲ"
+    },
+    {
+      "id": "S10a-048",
+      "oldJa": "チリーン",
+      "newJa": "グレッグル"
+    },
+    {
+      "id": "S10a-049",
+      "oldJa": "チリーン",
+      "newJa": "ドクロッグ"
+    },
+    {
+      "id": "S10a-050",
+      "oldJa": "ヒスイ ゾロア",
+      "newJa": "かがやくハガネール"
+    },
+    {
+      "id": "S10a-051",
+      "oldJa": "ヒスイ ゾロア",
+      "newJa": "ドーミラー"
+    },
+    {
+      "id": "S10a-052",
+      "oldJa": "ヒスイ ゾロアーク",
+      "newJa": "ドータクン"
+    },
+    {
+      "id": "S10a-053",
+      "oldJa": "ラブトロスV",
+      "newJa": "ヌメラ"
+    },
+    {
+      "id": "S10a-054",
+      "oldJa": "ヒスイ ガーディ",
+      "newJa": "ヒスイ ヌメイル"
+    },
+    {
+      "id": "S10a-055",
+      "oldJa": "ヒスイ ガーディ",
+      "newJa": "ヒスイ ヌメルゴン"
+    },
+    {
+      "id": "S10a-056",
+      "oldJa": "ヒスイ ウインディ",
+      "newJa": "ヒスイ ヌメルゴンV"
+    },
+    {
+      "id": "S10a-057",
+      "oldJa": "ワンリキー",
+      "newJa": "ヒスイ ヌメルゴンVSTAR"
+    },
+    {
+      "id": "S10a-058",
+      "oldJa": "ワンリキー",
+      "newJa": "カビゴン"
+    },
+    {
+      "id": "S10a-059",
+      "oldJa": "ゴーリキー",
+      "newJa": "エイパム"
+    },
+    {
+      "id": "S10a-060",
+      "oldJa": "ゴーリキー",
+      "newJa": "エテボース"
+    },
+    {
+      "id": "S10a-061",
+      "oldJa": "カイリキー",
+      "newJa": "ヒスイ ゾロアークV"
+    },
+    {
+      "id": "S10a-062",
+      "oldJa": "ウソッキー",
+      "newJa": "ヒスイ ゾロアークVSTAR"
+    },
+    {
+      "id": "S10a-063",
+      "oldJa": "ウソッキー",
+      "newJa": "アルセウスフォン"
+    },
+    {
+      "id": "S10a-064",
+      "oldJa": "グライガー",
+      "newJa": "ダメージポンプ"
+    },
+    {
+      "id": "S10a-065",
+      "oldJa": "グライガー",
+      "newJa": "からくりアーム"
+    },
+    {
+      "id": "S10a-066",
+      "oldJa": "グライオン",
+      "newJa": "災いの箱"
+    },
+    {
+      "id": "S10a-067",
+      "oldJa": "グライオン",
+      "newJa": "ウォロ"
+    },
+    {
+      "id": "S10a-068",
+      "oldJa": "エルレイドV",
+      "newJa": "ススキ"
+    },
+    {
+      "id": "S10a-069",
+      "oldJa": "ズバット",
+      "newJa": "ヒナツ"
+    },
+    {
+      "id": "S10a-070",
+      "oldJa": "ズバット",
+      "newJa": "野盗三姉妹"
+    },
+    {
+      "id": "S10a-071",
+      "oldJa": "ゴルバット",
+      "newJa": "エイチ湖"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "S10a-002",
+      "ja": "パラセクト",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-003",
+      "ja": "ヒスイ マルマインV",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-004",
+      "ja": "ケムッソ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-005",
+      "ja": "カラサリス",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-006",
+      "ja": "アゲハント",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-007",
+      "ja": "マユルド",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-008",
+      "ja": "ドクケイル",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-009",
+      "ja": "ユキカブリ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-010",
+      "ja": "ユキノオー",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-011",
+      "ja": "フィオネ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-012",
+      "ja": "ヒスイ バスラオ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-013",
+      "ja": "ヒスイ イダイトウ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-014",
+      "ja": "ピカチュウ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-015",
+      "ja": "ライチュウ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-016",
+      "ja": "ジバコイルV",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-017",
+      "ja": "ジバコイルVSTAR",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-018",
+      "ja": "ロトム",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-019",
+      "ja": "ピッピ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-020",
+      "ja": "ピクシー",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-021",
+      "ja": "ゴース",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-022",
+      "ja": "ゴースト",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-023",
+      "ja": "ゲンガー",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-024",
+      "ja": "バリヤード",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-025",
+      "ja": "ムウマ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-026",
+      "ja": "ムウマージ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-027",
+      "ja": "かがやくサーナイト",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-028",
+      "ja": "チリーン",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-029",
+      "ja": "ヒスイ ゾロア",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-030",
+      "ja": "ヒスイ ゾロアーク",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-031",
+      "ja": "ラブトロスV",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-032",
+      "ja": "ヒスイ ガーディ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-033",
+      "ja": "ヒスイ ウインディ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-034",
+      "ja": "ワンリキー",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-035",
+      "ja": "ゴーリキー",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-036",
+      "ja": "カイリキー",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-037",
+      "ja": "ウソッキー",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-038",
+      "ja": "グライガー",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-039",
+      "ja": "グライオン",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-040",
+      "ja": "エルレイドV",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-041",
+      "ja": "ズバット",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-042",
+      "ja": "ゴルバット",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-043",
+      "ja": "クロバット",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-044",
+      "ja": "ヤミカラス",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-045",
+      "ja": "ドンカラス",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-046",
+      "ja": "かがやくヒスイ オオニューラ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-047",
+      "ja": "ミカルゲ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-048",
+      "ja": "グレッグル",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-049",
+      "ja": "ドクロッグ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-050",
+      "ja": "かがやくハガネール",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-051",
+      "ja": "ドーミラー",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-052",
+      "ja": "ドータクン",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-053",
+      "ja": "ヌメラ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-054",
+      "ja": "ヒスイ ヌメイル",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-055",
+      "ja": "ヒスイ ヌメルゴン",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-056",
+      "ja": "ヒスイ ヌメルゴンV",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-057",
+      "ja": "ヒスイ ヌメルゴンVSTAR",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-058",
+      "ja": "カビゴン",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-059",
+      "ja": "エイパム",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-060",
+      "ja": "エテボース",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-061",
+      "ja": "ヒスイ ゾロアークV",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-062",
+      "ja": "ヒスイ ゾロアークVSTAR",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-063",
+      "ja": "アルセウスフォン",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-064",
+      "ja": "ダメージポンプ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-065",
+      "ja": "からくりアーム",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-066",
+      "ja": "災いの箱",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-067",
+      "ja": "ウォロ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-068",
+      "ja": "ススキ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-069",
+      "ja": "ヒナツ",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-070",
+      "ja": "野盗三姉妹",
+      "hadImage": true
+    },
+    {
+      "id": "S10a-071",
+      "ja": "エイチ湖",
+      "hadImage": true
+    }
+  ],
+  "added": [
+    {
+      "id": "S10a-072",
+      "ja": "パラセクト",
+      "rarity": "CHR"
+    },
+    {
+      "id": "S10a-073",
+      "ja": "ピカチュウ",
+      "rarity": "CHR"
+    },
+    {
+      "id": "S10a-074",
+      "ja": "ゲンガー",
+      "rarity": "CHR"
+    },
+    {
+      "id": "S10a-075",
+      "ja": "ヒスイ ウインディ",
+      "rarity": "CHR"
+    },
+    {
+      "id": "S10a-076",
+      "ja": "ミカルゲ",
+      "rarity": "CHR"
+    },
+    {
+      "id": "S10a-077",
+      "ja": "カビゴン",
+      "rarity": "CHR"
+    },
+    {
+      "id": "S10a-078",
+      "ja": "ヒスイ マルマインV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-079",
+      "ja": "ジバコイルV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-080",
+      "ja": "ラブトロスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-081",
+      "ja": "エルレイドV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-082",
+      "ja": "ヒスイ ヌメルゴンV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-083",
+      "ja": "ヒスイ ゾロアークV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-084",
+      "ja": "ウォロ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-085",
+      "ja": "ススキ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-086",
+      "ja": "ヒナツ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-087",
+      "ja": "野盗三姉妹",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10a-088",
+      "ja": "ラブトロスV",
+      "rarity": "CSR"
+    },
+    {
+      "id": "S10a-089",
+      "ja": "エルレイドV",
+      "rarity": "CSR"
+    },
+    {
+      "id": "S10a-090",
+      "ja": "ジバコイルVSTAR",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10a-091",
+      "ja": "ヒスイ ヌメルゴンVSTAR",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10a-092",
+      "ja": "ヒスイ ゾロアークVSTAR",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10a-093",
+      "ja": "ウォロ",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10a-094",
+      "ja": "ススキ",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10a-095",
+      "ja": "ヒナツ",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10a-096",
+      "ja": "野盗三姉妹",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10a-097",
+      "ja": "ヒスイ ゾロアークVSTAR",
+      "rarity": "UR"
+    },
+    {
+      "id": "S10a-098",
+      "ja": "ダークパッチ",
+      "rarity": "UR"
+    },
+    {
+      "id": "S10a-099",
+      "ja": "災いの箱",
+      "rarity": "UR"
+    }
+  ],
+  "removed": []
+}
