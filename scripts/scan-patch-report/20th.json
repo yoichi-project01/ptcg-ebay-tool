@@ -1,0 +1,43 @@
+{
+  "code": "20th",
+  "added": [],
+  "imageAdded": [
+    {
+      "id": "20th-002"
+    },
+    {
+      "id": "20th-011"
+    },
+    {
+      "id": "20th-074"
+    }
+  ],
+  "nameMismatch": [],
+  "otherBadge": [],
+  "noNumber": [
+    {
+      "cardId": "31728"
+    },
+    {
+      "cardId": "31729"
+    },
+    {
+      "cardId": "31730"
+    },
+    {
+      "cardId": "31731"
+    },
+    {
+      "cardId": "31732"
+    },
+    {
+      "cardId": "31733"
+    },
+    {
+      "cardId": "31734"
+    }
+  ],
+  "remainingGaps": [],
+  "oldMax": 77,
+  "newMax": 77
+}
