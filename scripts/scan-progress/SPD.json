@@ -1,0 +1,28 @@
+{
+ "41943": {
+  "badge": "SPD",
+  "cards": [
+   {
+    "local": "018",
+    "total": "020",
+    "rarity": "",
+    "jaName": "博士の研究",
+    "cardThumbFile": "/assets/images/card_images/large/SPD/041943_T_HAKASENOKENKIXYUUNANAKAMADOHAKASE.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SPD/041943_T_HAKASENOKENKIXYUUNANAKAMADOHAKASE.jpg"
+ },
+ "41945": {
+  "badge": "SPD",
+  "cards": [
+   {
+    "local": "020",
+    "total": "020",
+    "rarity": "",
+    "jaName": "ボスの指令",
+    "cardThumbFile": "/assets/images/card_images/large/SPD/041945_T_BOSUNOSHIREIAKAGI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SPD/041945_T_BOSUNOSHIREIAKAGI.jpg"
+ }
+}
