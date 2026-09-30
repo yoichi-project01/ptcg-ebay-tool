@@ -1,0 +1,28 @@
+{
+ "36842": {
+  "badge": "SMM",
+  "cards": [
+   {
+    "local": "001",
+    "total": "031",
+    "rarity": "",
+    "jaName": "エーフィ&デオキシスGX",
+    "cardThumbFile": "/assets/images/card_images/large/SMM/036842_P_EFIDEOKISHISUGX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SMM/036842_P_EFIDEOKISHISUGX.jpg"
+ },
+ "36851": {
+  "badge": "SMM",
+  "cards": [
+   {
+    "local": "010",
+    "total": "031",
+    "rarity": "",
+    "jaName": "ブラッキー&ダークライGX",
+    "cardThumbFile": "/assets/images/card_images/large/SMM/036851_P_BURAKKIDAKURAIGX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SMM/036851_P_BURAKKIDAKURAIGX.jpg"
+ }
+}
