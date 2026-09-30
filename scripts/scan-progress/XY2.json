@@ -1,0 +1,28 @@
+{
+ "30286": {
+  "badge": "XY2",
+  "cards": [
+   {
+    "local": "055",
+    "total": "080",
+    "rarity": "RR",
+    "jaName": "メガリザードンEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY2/030286_P_MRIZADONEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY2/030286_P_MRIZADONEX.jpg"
+ },
+ "30296": {
+  "badge": "XY2",
+  "cards": [
+   {
+    "local": "065",
+    "total": "080",
+    "rarity": "RR",
+    "jaName": "メガガルーラEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY2/030296_P_MGARURAEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY2/030296_P_MGARURAEX.jpg"
+ }
+}
