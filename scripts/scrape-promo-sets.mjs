@@ -92,7 +92,7 @@ const REBUILD_SETS = [
 ];
 
 export function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
-const politeDelay = () => sleep(MIN_DELAY_MS + Math.random() * (MAX_DELAY_MS - MIN_DELAY_MS));
+export const politeDelay = () => sleep(MIN_DELAY_MS + Math.random() * (MAX_DELAY_MS - MIN_DELAY_MS));
 
 function decodeHtmlEntities(s) {
   return s
@@ -125,7 +125,7 @@ export function parsePromoDetailFromHtml(html) {
 
 // 403 / 5xx / 通信エラー時は BACKOFF_MS に従って待ってから再試行する。
 // 404 は再試行しても変わらないので即失敗
-async function politeFetch(url, asBuffer = false) {
+export async function politeFetch(url, asBuffer = false) {
   for (let attempt = 0; attempt <= BACKOFF_MS.length; attempt++) {
     let reason;
     try {
