@@ -1,0 +1,290 @@
+{
+  "code": "SV6",
+  "nameChanged": [
+    {
+      "id": "SV6-102",
+      "oldJa": "オーガポン みどりのめんex",
+      "newJa": "キマワリ"
+    },
+    {
+      "id": "SV6-103",
+      "oldJa": "オーガポン かまどのめんex",
+      "newJa": "カミッチュ"
+    },
+    {
+      "id": "SV6-104",
+      "oldJa": "イルカマンex",
+      "newJa": "ユキメノコ"
+    },
+    {
+      "id": "SV6-105",
+      "oldJa": "オーガポン いどのめんex",
+      "newJa": "カイデン"
+    },
+    {
+      "id": "SV6-106",
+      "oldJa": "レントラーex",
+      "newJa": "チリーン"
+    },
+    {
+      "id": "SV6-107",
+      "oldJa": "オーガポン いしずえのめんex",
+      "newJa": "マシマシラ"
+    },
+    {
+      "id": "SV6-108",
+      "oldJa": "ドラパルトex",
+      "newJa": "キチキギス"
+    },
+    {
+      "id": "SV6-109",
+      "oldJa": "ハピナスex",
+      "newJa": "ドッコラー"
+    },
+    {
+      "id": "SV6-110",
+      "oldJa": "オーガポン みどりのめんex",
+      "newJa": "イイネイヌ"
+    },
+    {
+      "id": "SV6-111",
+      "oldJa": "オーガポン かまどのめんex",
+      "newJa": "コドラ"
+    },
+    {
+      "id": "SV6-112",
+      "oldJa": "オーガポン いどのめんex",
+      "newJa": "シャリタツ"
+    },
+    {
+      "id": "SV6-113",
+      "oldJa": "オーガポン いしずえのめんex",
+      "newJa": "ラッキー"
+    },
+    {
+      "id": "SV6-115",
+      "oldJa": "鬼の仮面",
+      "newJa": "オーガポン かまどのめんex"
+    },
+    {
+      "id": "SV6-116",
+      "oldJa": "おはやし笛",
+      "newJa": "イルカマンex"
+    },
+    {
+      "id": "SV6-117",
+      "oldJa": "シークレットボックス",
+      "newJa": "オーガポン いどのめんex"
+    },
+    {
+      "id": "SV6-118",
+      "oldJa": "ポケモン回収サイクロン",
+      "newJa": "レントラーex"
+    },
+    {
+      "id": "SV6-119",
+      "oldJa": "むしとりセット",
+      "newJa": "オーガポン いしずえのめんex"
+    },
+    {
+      "id": "SV6-120",
+      "oldJa": "ハンディサーキュレーター",
+      "newJa": "ドラパルトex"
+    },
+    {
+      "id": "SV6-121",
+      "oldJa": "スグリ",
+      "newJa": "ハピナスex"
+    },
+    {
+      "id": "SV6-122",
+      "oldJa": "ゼイユ",
+      "newJa": "スグリ"
+    },
+    {
+      "id": "SV6-123",
+      "oldJa": "ハッサク",
+      "newJa": "ゼイユ"
+    },
+    {
+      "id": "SV6-124",
+      "oldJa": "お祭り会場",
+      "newJa": "ハッサク"
+    },
+    {
+      "id": "SV6-125",
+      "oldJa": "ジャミングタワー",
+      "newJa": "オーガポン みどりのめんex"
+    },
+    {
+      "id": "SV6-126",
+      "oldJa": "スグリ",
+      "newJa": "オーガポン かまどのめんex"
+    },
+    {
+      "id": "SV6-127",
+      "oldJa": "ゼイユ",
+      "newJa": "オーガポン いどのめんex"
+    },
+    {
+      "id": "SV6-128",
+      "oldJa": "ハッサク",
+      "newJa": "オーガポン いしずえのめんex"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SV6-102",
+      "ja": "キマワリ",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-103",
+      "ja": "カミッチュ",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-104",
+      "ja": "ユキメノコ",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-105",
+      "ja": "カイデン",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-106",
+      "ja": "チリーン",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-107",
+      "ja": "マシマシラ",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-108",
+      "ja": "キチキギス",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-109",
+      "ja": "ドッコラー",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-110",
+      "ja": "イイネイヌ",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-111",
+      "ja": "コドラ",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-112",
+      "ja": "シャリタツ",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-113",
+      "ja": "ラッキー",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-114",
+      "ja": "オーガポン みどりのめんex",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-115",
+      "ja": "オーガポン かまどのめんex",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-116",
+      "ja": "イルカマンex",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-117",
+      "ja": "オーガポン いどのめんex",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-118",
+      "ja": "レントラーex",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-119",
+      "ja": "オーガポン いしずえのめんex",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-120",
+      "ja": "ドラパルトex",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-121",
+      "ja": "ハピナスex",
+      "hadImage": false
+    },
+    {
+      "id": "SV6-122",
+      "ja": "スグリ",
+      "hadImage": false
+    },
+    {
+      "id": "SV6-123",
+      "ja": "ゼイユ",
+      "hadImage": false
+    },
+    {
+      "id": "SV6-124",
+      "ja": "ハッサク",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-125",
+      "ja": "オーガポン みどりのめんex",
+      "hadImage": true
+    },
+    {
+      "id": "SV6-126",
+      "ja": "オーガポン かまどのめんex",
+      "hadImage": false
+    },
+    {
+      "id": "SV6-127",
+      "ja": "オーガポン いどのめんex",
+      "hadImage": false
+    },
+    {
+      "id": "SV6-128",
+      "ja": "オーガポン いしずえのめんex",
+      "hadImage": false
+    }
+  ],
+  "added": [
+    {
+      "id": "SV6-131",
+      "ja": "オーガポン みどりのめんex",
+      "rarity": "UR"
+    },
+    {
+      "id": "SV6-132",
+      "ja": "改造ハンマー",
+      "rarity": "UR"
+    },
+    {
+      "id": "SV6-133",
+      "ja": "なかよしポフィン",
+      "rarity": "UR"
+    }
+  ],
+  "removed": []
+}
