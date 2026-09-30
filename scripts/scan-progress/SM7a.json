@@ -1,0 +1,28 @@
+{
+ "35204": {
+  "badge": "SM7a",
+  "cards": [
+   {
+    "local": "043",
+    "total": "060",
+    "rarity": "",
+    "jaName": "メタモン プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM7a/035204_P_METAMON.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM7a/035204_P_METAMON.jpg"
+ },
+ "35219": {
+  "badge": "SM7a",
+  "cards": [
+   {
+    "local": "058",
+    "total": "060",
+    "rarity": "",
+    "jaName": "サンダーマウンテン プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM7a/035219_T_SANDAMAUNTEN.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM7a/035219_T_SANDAMAUNTEN.jpg"
+ }
+}
