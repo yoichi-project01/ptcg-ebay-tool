@@ -1,0 +1,93 @@
+{
+ "30981": {
+  "badge": "XY7-B",
+  "cards": [
+   {
+    "local": "008",
+    "total": "081",
+    "rarity": "RR",
+    "jaName": "メガジュカインEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY7-B/030981_P_MJUKAINEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY7-B/030981_P_MJUKAINEX.jpg"
+ },
+ "31001": {
+  "badge": "XY7-B",
+  "cards": [
+   {
+    "local": "028",
+    "total": "081",
+    "rarity": "RR",
+    "jaName": "メガデンリュウEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY7-B/031001_P_MDENRYUUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY7-B/031001_P_MDENRYUUEX.jpg"
+ },
+ "31016": {
+  "badge": "XY7-B",
+  "cards": [
+   {
+    "local": "043",
+    "total": "081",
+    "rarity": "RR",
+    "jaName": "メガバンギラスEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY7-B/031016_P_MBANGIRASUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY7-B/031016_P_MBANGIRASUEX.jpg"
+ },
+ "31092": {
+  "badge": "XY7-B",
+  "cards": [
+   {
+    "local": "095",
+    "total": "081",
+    "rarity": "UR",
+    "jaName": "メガレックウザEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY7-B/031092_P_MREKKUUZAEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY7-B/031092_P_MREKKUUZAEX.jpg"
+ },
+ "35813": {
+  "badge": "XY7",
+  "cards": [
+   {
+    "local": "083",
+    "total": "081",
+    "rarity": "SR",
+    "jaName": "メガジュカインEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY7/035813_P_MJUKAINEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY7/035813_P_MJUKAINEX.jpg"
+ },
+ "35816": {
+  "badge": "XY7",
+  "cards": [
+   {
+    "local": "086",
+    "total": "081",
+    "rarity": "SR",
+    "jaName": "メガデンリュウEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY7/035816_P_MDENRYUUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY7/035816_P_MDENRYUUEX.jpg"
+ },
+ "35820": {
+  "badge": "XY7",
+  "cards": [
+   {
+    "local": "090",
+    "total": "081",
+    "rarity": "SR",
+    "jaName": "メガバンギラスEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY7/035820_P_MBANGIRASUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY7/035820_P_MBANGIRASUEX.jpg"
+ }
+}
