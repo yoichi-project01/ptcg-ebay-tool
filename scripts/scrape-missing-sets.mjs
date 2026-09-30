@@ -381,7 +381,7 @@ export function extractCardId(cardThumbFile) {
 // csr→"CSR"（既存の"CSR"=Character Super Rareと一致、追加のUI側変更は不要。
 // 既存セットへのシークレット追加パッチ作業中、S9a「バトルリージョン」083/067
 // スターミーVで発見。2026-08-30）
-export const RARITY_CODE_MAP = { c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR", ar: "AR", sar: "SAR", ma: "MA", c: "C", u: "U", r: "R", s: "RH", ss: "LEGEND", csr: "CSR", hr: "HR" };
+export const RARITY_CODE_MAP = { rrr: "RRR", c_c: "C", u_c: "U", r_c: "R", rr: "RR", sr_c: "SR", ur_c: "UR", s_2: "S", ssr: "SSR", tr: "TR", chr: "CHR", ar: "AR", sar: "SAR", ma: "MA", c: "C", u: "U", r: "R", s: "RH", ss: "LEGEND", csr: "CSR", hr: "HR" };
 
 async function exists(p) {
   try { await fs.access(p); return true; } catch { return false; }

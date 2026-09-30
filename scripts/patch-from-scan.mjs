@@ -61,6 +61,13 @@ export function normalizeName(s) {
     .trim();
 }
 
+// 末尾の括弧注記（例:「博士の研究（ナナカマド博士）」）は cardData 側にだけ付いていることがあり、
+// 同じカードとして扱う（scrape-official-images.mjs の matchName と同じ既知パターン）
+const sameCard = (a, b) => {
+  const strip = (s) => normalizeName(s).replace(/[（(][^（()）]*[)）]$/, "").trim();
+  return normalizeName(a) === normalizeName(b) || strip(a) === strip(b);
+};
+
 const keyOf = (localId) => (/^\d+$/.test(localId) ? String(parseInt(localId, 10)) : localId);
 
 async function loadJson(p, fallback) {
@@ -138,7 +145,7 @@ async function applySet(set, cardData, imageIndex, RARITY_CODE_MAP) {
     if (rarity === null) throw new Error(`[${set.c}] 未知のレアリティコードです: cardId ${c.cardId}`);
     const row = rows.get(String(n));
     if (row) {
-      if (normalizeName(row[1]) !== normalizeName(c.jaName)) {
+      if (!sameCard(row[1], c.jaName)) {
         report.nameMismatch.push({ id: `${set.c}-${row[0]}`, cardData: row[1], official: c.jaName, cardId: c.cardId });
       } else if (!imageIndex[`${set.c}/${n}`]) {
         report.imageAdded.push({ id: `${set.c}-${row[0]}`, row, cardThumbFile: c.cardThumbFile });
@@ -150,6 +157,13 @@ async function applySet(set, cardData, imageIndex, RARITY_CODE_MAP) {
       throw new Error(`[${set.c}] 番号 ${n} に別名のカードが複数あります: ${prev.jaName} / ${c.jaName}`);
     }
     toAdd.set(n, { ...c, rarity });
+  }
+
+  // 既存行の名前が公式と食い違うセット（末尾が別カードで埋まっている S4a 型の破損）に
+  // 行だけ足すと誤ったデータが残るため、何も書き込まずに停止する
+  if (report.nameMismatch.length) {
+    throw new Error(`[${set.c}] 既存行の名前が公式と食い違うため補完しません（${report.nameMismatch.length}件、例: ` +
+      report.nameMismatch.slice(0, 3).map((m) => `${m.id} ${m.cardData}→${m.official}`).join(" / ") + "）");
   }
 
   const pad = (n) => String(n).padStart(3, "0");
@@ -193,6 +207,86 @@ async function applySet(set, cardData, imageIndex, RARITY_CODE_MAP) {
   return report;
 }
 
+// 既存行の名前が公式と食い違う（末尾が別カードで埋まっている S4a 型の破損）セットを、
+// details.php で全件確かめた結果で作り直す。2026-08-31 に9セットで行った方式、
+// 2026-09-28 の S-P/SV-P 作り直しと同じく、旧データと型番ごとに突き合わせて
+// 名前・画像（ファイル内容のバイト比較）の変化を card_id で出力する
+async function rebuildSet(set, scan, cardData, imageIndex) {
+  const { validateAndBuildK } = await import("./scrape-missing-sets.mjs");
+  const entries = scanEntriesFor(set, scan);
+  const progress = await loadJson(path.join(PROGRESS_DIR, `${set.c}.json`), {});
+  const notFetched = entries.map((e) => extractCardId(e.cardThumbFile)).filter((id) => !progress[id]);
+  if (notFetched.length) throw new Error(`[${set.c}] 未取得のカードがあります（先に --full-fetch）: ${notFetched.length}件`);
+
+  const badges = new Set([set.c, set.codeAlias].filter(Boolean));
+  const details = [];
+  for (const d of Object.values(progress)) {
+    if (!badges.has(d.badge)) continue;
+    for (const c of d.cards) details.push({ ...c, cardThumbFile: d.cardThumbFile });
+  }
+  // 重複（別名なら停止）・欠番（1〜最大番号）・未知のレアリティ・総数の不一致を検証
+  const { k, total, byLocal } = validateAndBuildK(details, set.c);
+  if (set.of && total !== set.of) throw new Error(`[${set.c}] 公式の総数 ${total} と cardData の of ${set.of} が一致しません`);
+
+  // 旧データとの突き合わせ。括弧注記だけの違いは同じカードとして旧名を残す
+  const oldByKey = new Map(set.k.map((r) => [keyOf(r[0]), r]));
+  for (const row of k) {
+    const old = oldByKey.get(keyOf(row[0]));
+    if (old && sameCard(old[1], row[1])) row[1] = old[1];
+  }
+  const stageDir = path.join(PROGRESS_DIR, "staging", set.c);
+  for (const [n, d] of [...byLocal].sort((a, b) => a[0] - b[0])) {
+    const p = path.join(stageDir, `${String(n).padStart(3, "0")}.img`);
+    if (await isUsableImage(p)) continue;
+    const buf = await politeFetch(API_BASE + d.cardThumbFile, true);
+    if (!buf || buf.length <= 1000) throw new Error(`[${set.c}] 画像の取得に失敗しました（再実行で続きから）: ${n}`);
+    await writeFileAtomic(p, buf);
+    await politeDelay();
+  }
+
+  const reportPath = path.join(REPORT_DIR, `${set.c}-rebuild.json`);
+  let report = await loadJson(reportPath, null); // 途中で止まった後の再実行では最初の一覧を使う
+  if (!report) {
+    report = { code: set.c, nameChanged: [], imageReplaced: [], added: [], removed: [] };
+    const newKeys = new Set(k.map((r) => keyOf(r[0])));
+    for (const row of k) {
+      const id = `${set.c}-${row[0]}`;
+      const old = oldByKey.get(keyOf(row[0]));
+      if (!old) { report.added.push({ id, ja: row[1], rarity: row[3] }); continue; }
+      if (old[1] !== row[1]) report.nameChanged.push({ id, oldJa: old[1], newJa: row[1] });
+      const rel = imageIndex[`${set.c}/${keyOf(row[0])}`];
+      let oldBuf = null;
+      if (rel) try { oldBuf = await fs.readFile(path.join(ROOT, "public", rel)); } catch {}
+      const newBuf = await fs.readFile(path.join(stageDir, `${row[0]}.img`));
+      if (!oldBuf || !oldBuf.equals(newBuf)) report.imageReplaced.push({ id, ja: row[1], hadImage: !!oldBuf });
+    }
+    for (const [key, row] of oldByKey) if (!newKeys.has(key)) report.removed.push({ id: `${set.c}-${row[0]}`, ja: row[1] });
+    await fs.mkdir(REPORT_DIR, { recursive: true });
+    await fs.writeFile(reportPath, JSON.stringify(report, null, 2) + "\n");
+  }
+
+  // 画像ディレクトリを入れ替える（新しいファイル名一覧に無い旧ファイルは削除）
+  const setTotal = computeSetTotal(k);
+  const dir = path.join(ROOT, "public", "cards", set.sr, set.c);
+  const keep = new Set();
+  for (const row of k) {
+    const buf = await fs.readFile(path.join(stageDir, `${row[0]}.img`));
+    const name = buildFileName(row[1], set.c, row[0], row[3], setTotal) + imageExt(buf);
+    keep.add(name);
+    await writeFileAtomic(path.join(dir, name), buf);
+  }
+  let orphansRemoved = 0;
+  for (const f of await fs.readdir(dir)) if (!keep.has(f)) { await fs.unlink(path.join(dir, f)); orphansRemoved++; }
+
+  set.k = k;
+  await fs.writeFile(CARD_DATA_PATH, JSON.stringify(cardData, null, 2) + "\n", "utf-8");
+  return {
+    code: set.c, old: oldByKey.size, new: k.length, of: total, maxNumber: setTotal,
+    nameChanged: report.nameChanged.length, imageReplaced: report.imageReplaced.length,
+    added: report.added.length, removed: report.removed.length, orphansRemoved,
+  };
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const onlySet = args.includes("--set") ? args[args.indexOf("--set") + 1] : null;
@@ -216,6 +310,22 @@ async function main() {
       if (args.includes("--fetch")) await fetchSet(set, candidates);
     }
     console.log(`候補の合計 ${total} 件`);
+    return;
+  }
+
+  if (args.includes("--full-fetch")) {
+    // 破損セットの作り直し用: 公式一覧のそのセットの全カードを details.php で確かめる
+    if (!onlySet) throw new Error("--full-fetch は --set で1セットずつ指定してください");
+    const entries = scanEntriesFor(sets[0], scan);
+    console.log(`[${onlySet}] 全 ${entries.length} 件を確認`);
+    await fetchSet(sets[0], entries);
+    return;
+  }
+
+  if (args.includes("--rebuild")) {
+    if (!onlySet) throw new Error("--rebuild は --set で1セットずつ指定してください");
+    const summary = await rebuildSet(sets[0], scan, cardData, imageIndex);
+    console.log(JSON.stringify(summary, null, 1));
     return;
   }
 

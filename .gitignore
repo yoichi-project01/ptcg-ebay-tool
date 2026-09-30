@@ -7,3 +7,4 @@ scripts/pg-scan-sv.txt
 .claude/scheduled_tasks.lock
 .DS_Store
 scripts/promo-progress/staging/
+scripts/scan-progress/staging/
