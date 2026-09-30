@@ -1,0 +1,28 @@
+{
+ "40997": {
+  "badge": "S9",
+  "cards": [
+   {
+    "local": "095",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "博士の研究",
+    "cardThumbFile": "/assets/images/card_images/large/S9/040997_T_HAKASENOKENKIXYUUNANAKAMADOHAKASE.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9/040997_T_HAKASENOKENKIXYUUNANAKAMADOHAKASE.jpg"
+ },
+ "40999": {
+  "badge": "S9",
+  "cards": [
+   {
+    "local": "097",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "ボスの指令",
+    "cardThumbFile": "/assets/images/card_images/large/S9/040999_T_BOSUNOSHIREIAKAGI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9/040999_T_BOSUNOSHIREIAKAGI.jpg"
+ }
+}
