@@ -1,0 +1,196 @@
+{
+  "code": "S10P",
+  "ofChange": null,
+  "nameChanged": [
+    {
+      "id": "S10P-060",
+      "oldJa": "スピアーV",
+      "newJa": "エネくじ"
+    },
+    {
+      "id": "S10P-061",
+      "oldJa": "スピアーV",
+      "newJa": "なぞの化石"
+    },
+    {
+      "id": "S10P-062",
+      "oldJa": "オリジンパルキアV",
+      "newJa": "ヒスイのヘビーボール"
+    },
+    {
+      "id": "S10P-063",
+      "oldJa": "オリジンパルキアV",
+      "newJa": "ばつぐんグラス"
+    },
+    {
+      "id": "S10P-064",
+      "oldJa": "ヒードランV",
+      "newJa": "カイ"
+    },
+    {
+      "id": "S10P-065",
+      "oldJa": "バサギリV",
+      "newJa": "ザクロ"
+    },
+    {
+      "id": "S10P-066",
+      "oldJa": "ヒスイ オオニューラV",
+      "newJa": "タイサイ"
+    },
+    {
+      "id": "S10P-067",
+      "oldJa": "ヒスイ オオニューラV",
+      "newJa": "シンオウ神殿"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "S10P-060",
+      "ja": "エネくじ",
+      "hadImage": true
+    },
+    {
+      "id": "S10P-061",
+      "ja": "なぞの化石",
+      "hadImage": true
+    },
+    {
+      "id": "S10P-062",
+      "ja": "ヒスイのヘビーボール",
+      "hadImage": true
+    },
+    {
+      "id": "S10P-063",
+      "ja": "ばつぐんグラス",
+      "hadImage": true
+    },
+    {
+      "id": "S10P-064",
+      "ja": "カイ",
+      "hadImage": true
+    },
+    {
+      "id": "S10P-065",
+      "ja": "ザクロ",
+      "hadImage": true
+    },
+    {
+      "id": "S10P-066",
+      "ja": "タイサイ",
+      "hadImage": true
+    },
+    {
+      "id": "S10P-067",
+      "ja": "シンオウ神殿",
+      "hadImage": true
+    }
+  ],
+  "added": [
+    {
+      "id": "S10P-068",
+      "ja": "スピアーV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-069",
+      "ja": "スピアーV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-070",
+      "ja": "オリジンパルキアV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-071",
+      "ja": "オリジンパルキアV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-072",
+      "ja": "ヒードランV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-073",
+      "ja": "バサギリV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-074",
+      "ja": "ヒスイ オオニューラV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-075",
+      "ja": "ヒスイ オオニューラV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-076",
+      "ja": "ヤレユータンV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-077",
+      "ja": "カイ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-078",
+      "ja": "ザクロ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-079",
+      "ja": "タイサイ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10P-080",
+      "ja": "ヒードランVMAX",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10P-081",
+      "ja": "オリジンパルキアVSTAR",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10P-082",
+      "ja": "バサギリVSTAR",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10P-083",
+      "ja": "カイ",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10P-084",
+      "ja": "ザクロ",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10P-085",
+      "ja": "タイサイ",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10P-086",
+      "ja": "オリジンパルキアVSTAR",
+      "rarity": "UR"
+    },
+    {
+      "id": "S10P-087",
+      "ja": "シンオウ神殿",
+      "rarity": "UR"
+    },
+    {
+      "id": "S10P-088",
+      "ja": "ダブルターボエネルギー",
+      "rarity": "UR"
+    }
+  ],
+  "removed": []
+}
