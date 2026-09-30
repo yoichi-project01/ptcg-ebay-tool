@@ -1,0 +1,41 @@
+{
+ "43034": {
+  "badge": "SV1a",
+  "cards": [
+   {
+    "local": "069",
+    "total": "073",
+    "rarity": "R",
+    "jaName": "ボスの指令",
+    "cardThumbFile": "/assets/images/card_images/large/SV1a/043034_T_BOSUNOSHIREIGECHISU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV1a/043034_T_BOSUNOSHIREIGECHISU.jpg"
+ },
+ "43300": {
+  "badge": "SV1a",
+  "cards": [
+   {
+    "local": "095",
+    "total": "073",
+    "rarity": "SR",
+    "jaName": "ボスの指令",
+    "cardThumbFile": "/assets/images/card_images/large/SV1a/043300_T_BOSUNOSHIREIGECHISU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV1a/043300_T_BOSUNOSHIREIGECHISU.jpg"
+ },
+ "43305": {
+  "badge": "SV1a",
+  "cards": [
+   {
+    "local": "100",
+    "total": "073",
+    "rarity": "SAR",
+    "jaName": "ボスの指令",
+    "cardThumbFile": "/assets/images/card_images/large/SV1a/043305_T_BOSUNOSHIREIGECHISU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV1a/043305_T_BOSUNOSHIREIGECHISU.jpg"
+ }
+}
