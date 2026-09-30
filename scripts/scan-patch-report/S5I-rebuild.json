@@ -1,0 +1,165 @@
+{
+  "code": "S5I",
+  "nameChanged": [
+    {
+      "id": "S5I-061",
+      "oldJa": "アップリューV",
+      "newJa": "あなぬけのヒモ"
+    },
+    {
+      "id": "S5I-062",
+      "oldJa": "カプ・コケコV",
+      "newJa": "活力の壺"
+    },
+    {
+      "id": "S5I-063",
+      "oldJa": "ミミッキュV",
+      "newJa": "キャンプセット"
+    },
+    {
+      "id": "S5I-064",
+      "oldJa": "いちげきウーラオスV",
+      "newJa": "いちげきの巻物 怒りの巻"
+    },
+    {
+      "id": "S5I-065",
+      "oldJa": "いちげきウーラオスV",
+      "newJa": "学習装置"
+    },
+    {
+      "id": "S5I-066",
+      "oldJa": "バンギラスV",
+      "newJa": "シバ"
+    },
+    {
+      "id": "S5I-067",
+      "oldJa": "バンギラスV",
+      "newJa": "フヨウ"
+    },
+    {
+      "id": "S5I-068",
+      "oldJa": "ムーランドV",
+      "newJa": "マスタード いちげきのかた"
+    },
+    {
+      "id": "S5I-069",
+      "oldJa": "あなぬけのヒモ",
+      "newJa": "あくの塔"
+    },
+    {
+      "id": "S5I-070",
+      "oldJa": "活力の壺",
+      "newJa": "いちげきエネルギー"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "S5I-061",
+      "ja": "あなぬけのヒモ",
+      "hadImage": true
+    },
+    {
+      "id": "S5I-062",
+      "ja": "活力の壺",
+      "hadImage": true
+    },
+    {
+      "id": "S5I-063",
+      "ja": "キャンプセット",
+      "hadImage": true
+    },
+    {
+      "id": "S5I-064",
+      "ja": "いちげきの巻物 怒りの巻",
+      "hadImage": true
+    },
+    {
+      "id": "S5I-065",
+      "ja": "学習装置",
+      "hadImage": true
+    },
+    {
+      "id": "S5I-066",
+      "ja": "シバ",
+      "hadImage": true
+    },
+    {
+      "id": "S5I-067",
+      "ja": "フヨウ",
+      "hadImage": true
+    },
+    {
+      "id": "S5I-068",
+      "ja": "マスタード いちげきのかた",
+      "hadImage": true
+    },
+    {
+      "id": "S5I-069",
+      "ja": "あくの塔",
+      "hadImage": true
+    },
+    {
+      "id": "S5I-070",
+      "ja": "いちげきエネルギー",
+      "hadImage": true
+    }
+  ],
+  "added": [
+    {
+      "id": "S5I-071",
+      "ja": "アップリューV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-072",
+      "ja": "カプ・コケコV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-073",
+      "ja": "ミミッキュV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-074",
+      "ja": "いちげきウーラオスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-075",
+      "ja": "いちげきウーラオスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-076",
+      "ja": "バンギラスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-077",
+      "ja": "バンギラスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-078",
+      "ja": "ムーランドV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-079",
+      "ja": "シバ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-080",
+      "ja": "フヨウ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S5I-081",
+      "ja": "マスタード いちげきのかた",
+      "rarity": "SR"
+    }
+  ],
+  "removed": []
+}
