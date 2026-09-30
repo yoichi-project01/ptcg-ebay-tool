@@ -1,0 +1,41 @@
+{
+ "34701": {
+  "badge": "SM6",
+  "cards": [
+   {
+    "local": "027",
+    "total": "094",
+    "rarity": "",
+    "jaName": "ボルケニオン プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM6/034701_P_BORUKENION.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM6/034701_P_BORUKENION.jpg"
+ },
+ "34725": {
+  "badge": "SM6",
+  "cards": [
+   {
+    "local": "051",
+    "total": "094",
+    "rarity": "",
+    "jaName": "ディアンシー プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM6/034725_P_DEIANSHI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM6/034725_P_DEIANSHI.jpg"
+ },
+ "34763": {
+  "badge": "SM6",
+  "cards": [
+   {
+    "local": "089",
+    "total": "094",
+    "rarity": "",
+    "jaName": "フラダリ プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM6/034763_T_FURADARI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM6/034763_T_FURADARI.jpg"
+ }
+}
