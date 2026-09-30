@@ -1,0 +1,228 @@
+{
+  "code": "SVAW",
+  "nameChanged": [
+    {
+      "id": "SVAW-003",
+      "oldJa": "クワッス",
+      "newJa": "ウェルカモ"
+    },
+    {
+      "id": "SVAW-004",
+      "oldJa": "ウェルカモ",
+      "newJa": "ウェーニバル"
+    },
+    {
+      "id": "SVAW-005",
+      "oldJa": "ウェルカモ",
+      "newJa": "デデンネ"
+    },
+    {
+      "id": "SVAW-006",
+      "oldJa": "ウェーニバル",
+      "newJa": "ミミッキュex"
+    },
+    {
+      "id": "SVAW-007",
+      "oldJa": "ウェーニバル",
+      "newJa": "ヒラヒナ"
+    },
+    {
+      "id": "SVAW-008",
+      "oldJa": "デデンネ",
+      "newJa": "ザングース"
+    },
+    {
+      "id": "SVAW-009",
+      "oldJa": "ミミッキュex",
+      "newJa": "グルトン"
+    },
+    {
+      "id": "SVAW-010",
+      "oldJa": "ヒラヒナ",
+      "newJa": "モトトカゲ"
+    },
+    {
+      "id": "SVAW-011",
+      "oldJa": "ザングース",
+      "newJa": "エネルギー回収"
+    },
+    {
+      "id": "SVAW-012",
+      "oldJa": "グルトン",
+      "newJa": "エネルギー転送"
+    },
+    {
+      "id": "SVAW-013",
+      "oldJa": "モトトカゲ",
+      "newJa": "クラッシュハンマー"
+    },
+    {
+      "id": "SVAW-014",
+      "oldJa": "エネルギー回収",
+      "newJa": "ネストボール"
+    },
+    {
+      "id": "SVAW-015",
+      "oldJa": "エネルギー転送",
+      "newJa": "ハイパーボール"
+    },
+    {
+      "id": "SVAW-016",
+      "oldJa": "クラッシュハンマー",
+      "newJa": "ポケギア3.0"
+    },
+    {
+      "id": "SVAW-017",
+      "oldJa": "ネストボール",
+      "newJa": "ポケモンいれかえ"
+    },
+    {
+      "id": "SVAW-018",
+      "oldJa": "ハイパーボール",
+      "newJa": "ポケモンキャッチャー"
+    },
+    {
+      "id": "SVAW-019",
+      "oldJa": "ポケギア3.0",
+      "newJa": "げんきのハチマキ"
+    },
+    {
+      "id": "SVAW-020",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "ジャッジマン"
+    },
+    {
+      "id": "SVAW-021",
+      "oldJa": "ポケモンキャッチャー",
+      "newJa": "たんぱんこぞう"
+    },
+    {
+      "id": "SVAW-022",
+      "oldJa": "げんきのハチマキ",
+      "newJa": "ネモ"
+    },
+    {
+      "id": "SVAW-023",
+      "oldJa": "ジャッジマン",
+      "newJa": "博士の研究"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SVAW-003",
+      "ja": "ウェルカモ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-004",
+      "ja": "ウェーニバル",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-005",
+      "ja": "デデンネ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-006",
+      "ja": "ミミッキュex",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-007",
+      "ja": "ヒラヒナ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-008",
+      "ja": "ザングース",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-009",
+      "ja": "グルトン",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-010",
+      "ja": "モトトカゲ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-011",
+      "ja": "エネルギー回収",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-012",
+      "ja": "エネルギー転送",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-013",
+      "ja": "クラッシュハンマー",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-014",
+      "ja": "ネストボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-015",
+      "ja": "ハイパーボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-016",
+      "ja": "ポケギア3.0",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-017",
+      "ja": "ポケモンいれかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-018",
+      "ja": "ポケモンキャッチャー",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-019",
+      "ja": "げんきのハチマキ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-020",
+      "ja": "ジャッジマン",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-021",
+      "ja": "たんぱんこぞう",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-022",
+      "ja": "ネモ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAW-023",
+      "ja": "博士の研究",
+      "hadImage": true
+    }
+  ],
+  "added": [],
+  "removed": [
+    {
+      "id": "SVAW-PSY",
+      "ja": "たんぱんこぞう"
+    },
+    {
+      "id": "SVAW-WAT",
+      "ja": "ネモ"
+    }
+  ]
+}
