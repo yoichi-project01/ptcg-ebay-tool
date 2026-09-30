@@ -1,0 +1,88 @@
+{
+  "code": "SMB",
+  "added": [],
+  "imageAdded": [],
+  "nameMismatch": [],
+  "otherBadge": [
+    {
+      "cardId": "33199",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33200",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33201",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33202",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33203",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33204",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33205",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33206",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33207",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33208",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33209",
+      "badge": "SM-XY"
+    },
+    {
+      "cardId": "33210",
+      "badge": "SM-XY"
+    }
+  ],
+  "noNumber": [
+    {
+      "cardId": "33190"
+    },
+    {
+      "cardId": "33191"
+    },
+    {
+      "cardId": "33192"
+    },
+    {
+      "cardId": "33193"
+    },
+    {
+      "cardId": "33194"
+    },
+    {
+      "cardId": "33195"
+    },
+    {
+      "cardId": "33196"
+    },
+    {
+      "cardId": "33197"
+    },
+    {
+      "cardId": "33198"
+    }
+  ],
+  "remainingGaps": [],
+  "oldMax": 18,
+  "newMax": 18
+}
