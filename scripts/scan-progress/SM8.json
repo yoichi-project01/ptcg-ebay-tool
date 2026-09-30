@@ -1,0 +1,41 @@
+{
+ "35307": {
+  "badge": "SM8",
+  "cards": [
+   {
+    "local": "015",
+    "total": "095",
+    "rarity": "",
+    "jaName": "セレビィ プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM8/035307_P_SEREBII.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM8/035307_P_SEREBII.jpg"
+ },
+ "35384": {
+  "badge": "SM8",
+  "cards": [
+   {
+    "local": "092",
+    "total": "095",
+    "rarity": "",
+    "jaName": "ルザミーネ プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM8/035384_T_RUZAMINE.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM8/035384_T_RUZAMINE.jpg"
+ },
+ "35385": {
+  "badge": "SM8",
+  "cards": [
+   {
+    "local": "093",
+    "total": "095",
+    "rarity": "",
+    "jaName": "ヒートファクトリー プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM8/035385_T_HITOFAKUTORI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM8/035385_T_HITOFAKUTORI.jpg"
+ }
+}
