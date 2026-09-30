@@ -226,7 +226,9 @@ async function rebuildSet(set, scan, cardData, imageIndex) {
   }
   // 重複（別名なら停止）・欠番（1〜最大番号）・未知のレアリティ・総数の不一致を検証
   const { k, total, byLocal } = validateAndBuildK(details, set.c);
-  if (set.of && total !== set.of) throw new Error(`[${set.c}] 公式の総数 ${total} と cardData の of ${set.of} が一致しません`);
+  // 総数（of）が公式の番号表記（"NNN / 053" の 053）と食い違う場合は公式に合わせ、変更として記録する
+  // （SH で cardData の of=38 に対し公式は 053 だった実例あり）
+  const ofChange = set.of !== total ? { from: set.of, to: total } : null;
 
   // 旧データとの突き合わせ。括弧注記だけの違いは同じカードとして旧名を残す
   const oldByKey = new Map(set.k.map((r) => [keyOf(r[0]), r]));
@@ -247,7 +249,7 @@ async function rebuildSet(set, scan, cardData, imageIndex) {
   const reportPath = path.join(REPORT_DIR, `${set.c}-rebuild.json`);
   let report = await loadJson(reportPath, null); // 途中で止まった後の再実行では最初の一覧を使う
   if (!report) {
-    report = { code: set.c, nameChanged: [], imageReplaced: [], added: [], removed: [] };
+    report = { code: set.c, ofChange, nameChanged: [], imageReplaced: [], added: [], removed: [] };
     const newKeys = new Set(k.map((r) => keyOf(r[0])));
     for (const row of k) {
       const id = `${set.c}-${row[0]}`;
@@ -279,8 +281,10 @@ async function rebuildSet(set, scan, cardData, imageIndex) {
   for (const f of await fs.readdir(dir)) if (!keep.has(f)) { await fs.unlink(path.join(dir, f)); orphansRemoved++; }
 
   set.k = k;
+  if (ofChange) set.of = total;
   await fs.writeFile(CARD_DATA_PATH, JSON.stringify(cardData, null, 2) + "\n", "utf-8");
   return {
+    ofChange,
     code: set.c, old: oldByKey.size, new: k.length, of: total, maxNumber: setTotal,
     nameChanged: report.nameChanged.length, imageReplaced: report.imageReplaced.length,
     added: report.added.length, removed: report.removed.length, orphansRemoved,

@@ -2001,6 +2001,42 @@ SM-P と同じ方式（`scripts/scrape-promo-sets.mjs`）で残りの世代の�
   保存しており、再実行時はネットワークに出ずに再検証できる。画像のステージング領域
   （`scripts/promo-progress/staging/`）は `.gitignore` 対象。
 
+### 作業中（2026-09-30）: シークレット欠落・画像欠けの補完と破損セットの作り直し【別PCで再開】
+
+別プロジェクトの検証で「SM12a 211番以降・S4 101番以降・S6a 70番以降などが無い」と指摘を受けて着手。
+**途中のため、再開手順を最初に読むこと。**
+
+- **最新の公式一覧を取り直した**: `scripts/rescan-official-list.mjs` → `scripts/official-card-scan.json`
+  （2026-09-29、23,451件。`sortBy=old` で取得し、旧キャッシュで漏れていた BREAK/LEGEND 等も含む）。
+- **補完（`scripts/patch-from-scan.mjs`）**: セットごと・カード名ごとの枚数差と画像欠けから候補を絞り、
+  details.php で番号を確かめて欠けた行・画像を補う。84セットを1セットずつコミット済み
+  （主に画像欠け391枚の回収: メガEX・BREAK・プリズムスター・TAG TEAM・LEGEND・MP1 等。
+  以前の取り込みで画像取得に失敗して残っていた）。
+- **破損セット（S4a 型）の作り直し**: 補完時に既存行の名前が公式と食い違ったセットは行を足さず停止する。
+  該当の20セットは `--full-fetch` → `--rebuild` で全件を確かめて作り直し、変化を
+  `scripts/scan-patch-report/{セット}-rebuild.json` に出す。**17セット完了・検証OK**:
+  SVAL SVAM SVAW SVC SVEL SVEM S4 S5I S5R S7R S6K S6a S8 SV5M SV6 S10b SH
+  （`node scripts/verify-rebuilt-sets.mjs <セット…>` で公式データと全行一致を確認）。
+  SH は cardData の `of` が 38 だったが公式は `/053` のため 53 に訂正。数字でない型番の行
+  （`FIR`/`LIG` 等、名前はたんぱんこぞう等）は検証できないため削除。
+- **SM12a の 211番以降は公式サイトに存在しない**（最新の一覧でも SM12a は 001〜210 の210件のみ）ため
+  補完不可。
+- **並行実行の事故（重要）**: セッション切れで前の処理が残ったまま再開したため2本の処理が同時に動き、
+  cardData.json の書き込みが上書きし合って S5R・SV5M の作り直しが消えた（作り直し直後の状態に戻った）。
+  再実行で復旧し検証済み。**`resume-rebuild.sh` は同時に1本だけ実行すること。**
+
+**別PCでの再開手順**:
+1. `git pull` する。
+2. **`public/cards/` をこのPCからコピーする**（`.gitignore` 対象のため git では届かない。今回の補完で
+   回収した画像もここにある。コピーしないと `src/imageIndex.json` が指す画像が別PCに無い状態になる）。
+   `scripts/scan-progress/staging/`（作り直し用の取得済み画像）もコピーすると再ダウンロードを省ける（任意）。
+3. `npm install` のあと `npx vitest run` が通ることを確認。
+4. `bash scripts/resume-rebuild.sh` を実行（残り S10P → S11 → S10a。同時接続1本・2〜3秒間隔で
+   1〜2時間。途中で止まっても再実行で続きから）。
+5. 完了後の残作業: 追加・変更した card_id の一覧ファイルを作る（`scripts/scan-patch-report/*.json` の
+   `added` と `*-rebuild.json` の `nameChanged`/`imageReplaced`/`added`/`removed` から集計）、
+   `npm run build` を確認、この節を完了報告に書き換える。
+
 ---
 
 ## ファイル構成
