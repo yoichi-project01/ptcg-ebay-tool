@@ -1,0 +1,41 @@
+{
+ "34413": {
+  "badge": "SM5S",
+  "cards": [
+   {
+    "local": "031",
+    "total": "066",
+    "rarity": "",
+    "jaName": "ダークライ プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM5S/034413_P_DAKURAI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM5S/034413_P_DAKURAI.jpg"
+ },
+ "34425": {
+  "badge": "SM5S",
+  "cards": [
+   {
+    "local": "043",
+    "total": "066",
+    "rarity": "",
+    "jaName": "ソルガレオ プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM5S/034425_P_SORUGAREO.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM5S/034425_P_SORUGAREO.jpg"
+ },
+ "34441": {
+  "badge": "SM5S",
+  "cards": [
+   {
+    "local": "059",
+    "total": "066",
+    "rarity": "",
+    "jaName": "アカギ プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM5S/034441_T_AKAGI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM5S/034441_T_AKAGI.jpg"
+ }
+}
