@@ -1,0 +1,185 @@
+{
+  "code": "S6K",
+  "nameChanged": [
+    {
+      "id": "S6K-060",
+      "oldJa": "セレビィV",
+      "newJa": "霧の水晶"
+    },
+    {
+      "id": "S6K-061",
+      "oldJa": "ウオチルドンV",
+      "newJa": "草取りグローブ"
+    },
+    {
+      "id": "S6K-062",
+      "oldJa": "ゼラオラV",
+      "newJa": "正義のグローブ"
+    },
+    {
+      "id": "S6K-063",
+      "oldJa": "ゼラオラV",
+      "newJa": "れんげきの巻物 天の巻"
+    },
+    {
+      "id": "S6K-064",
+      "oldJa": "こくばバドレックスV",
+      "newJa": "カトレア"
+    },
+    {
+      "id": "S6K-065",
+      "oldJa": "こくばバドレックスV",
+      "newJa": "キクコ"
+    },
+    {
+      "id": "S6K-066",
+      "oldJa": "メタグロスV",
+      "newJa": "シャクヤ"
+    },
+    {
+      "id": "S6K-067",
+      "oldJa": "ハピナスV",
+      "newJa": "ズミ"
+    },
+    {
+      "id": "S6K-068",
+      "oldJa": "ハピナスV",
+      "newJa": "いにしえの墓地"
+    },
+    {
+      "id": "S6K-069",
+      "oldJa": "霧の水晶",
+      "newJa": "スパイラルエネルギー"
+    },
+    {
+      "id": "S6K-070",
+      "oldJa": "草取りグローブ",
+      "newJa": "ラッキーエネルギー"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "S6K-060",
+      "ja": "霧の水晶",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-061",
+      "ja": "草取りグローブ",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-062",
+      "ja": "正義のグローブ",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-063",
+      "ja": "れんげきの巻物 天の巻",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-064",
+      "ja": "カトレア",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-065",
+      "ja": "キクコ",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-066",
+      "ja": "シャクヤ",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-067",
+      "ja": "ズミ",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-068",
+      "ja": "いにしえの墓地",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-069",
+      "ja": "スパイラルエネルギー",
+      "hadImage": true
+    },
+    {
+      "id": "S6K-070",
+      "ja": "ラッキーエネルギー",
+      "hadImage": true
+    }
+  ],
+  "added": [
+    {
+      "id": "S6K-071",
+      "ja": "セレビィV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-072",
+      "ja": "ウオチルドンV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-073",
+      "ja": "ゼラオラV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-074",
+      "ja": "ゼラオラV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-075",
+      "ja": "こくばバドレックスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-076",
+      "ja": "こくばバドレックスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-077",
+      "ja": "メタグロスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-078",
+      "ja": "ハピナスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-079",
+      "ja": "ハピナスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-080",
+      "ja": "カトレア",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-081",
+      "ja": "キクコ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-082",
+      "ja": "シャクヤ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6K-083",
+      "ja": "ズミ",
+      "rarity": "SR"
+    }
+  ],
+  "removed": []
+}
