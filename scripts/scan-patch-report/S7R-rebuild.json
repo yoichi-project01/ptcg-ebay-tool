@@ -1,0 +1,190 @@
+{
+  "code": "S7R",
+  "nameChanged": [
+    {
+      "id": "S7R-056",
+      "oldJa": "オーロットV",
+      "newJa": "当たりつきアイス"
+    },
+    {
+      "id": "S7R-057",
+      "oldJa": "ウルガモスV",
+      "newJa": "スーパーボール"
+    },
+    {
+      "id": "S7R-058",
+      "oldJa": "ギャラドスV",
+      "newJa": "トイキャッチャー"
+    },
+    {
+      "id": "S7R-059",
+      "oldJa": "チャーレムV",
+      "newJa": "ポケモンいれかえ"
+    },
+    {
+      "id": "S7R-060",
+      "oldJa": "チャーレムV",
+      "newJa": "ゴムのグローブ"
+    },
+    {
+      "id": "S7R-061",
+      "oldJa": "カイリューV",
+      "newJa": "れいかいのお面"
+    },
+    {
+      "id": "S7R-062",
+      "oldJa": "カイリューV",
+      "newJa": "れんげきの巻物 飛竜の巻"
+    },
+    {
+      "id": "S7R-063",
+      "oldJa": "レックウザV",
+      "newJa": "サナ"
+    },
+    {
+      "id": "S7R-064",
+      "oldJa": "レックウザV",
+      "newJa": "スクールボーイ"
+    },
+    {
+      "id": "S7R-065",
+      "oldJa": "当たりつきアイス",
+      "newJa": "ヒガナの決意"
+    },
+    {
+      "id": "S7R-066",
+      "oldJa": "スーパーボール",
+      "newJa": "嵐の山脈"
+    },
+    {
+      "id": "S7R-067",
+      "oldJa": "トイキャッチャー",
+      "newJa": "オーロラエネルギー"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "S7R-056",
+      "ja": "当たりつきアイス",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-057",
+      "ja": "スーパーボール",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-058",
+      "ja": "トイキャッチャー",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-059",
+      "ja": "ポケモンいれかえ",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-060",
+      "ja": "ゴムのグローブ",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-061",
+      "ja": "れいかいのお面",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-062",
+      "ja": "れんげきの巻物 飛竜の巻",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-063",
+      "ja": "サナ",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-064",
+      "ja": "スクールボーイ",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-065",
+      "ja": "ヒガナの決意",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-066",
+      "ja": "嵐の山脈",
+      "hadImage": true
+    },
+    {
+      "id": "S7R-067",
+      "ja": "オーロラエネルギー",
+      "hadImage": true
+    }
+  ],
+  "added": [
+    {
+      "id": "S7R-068",
+      "ja": "オーロットV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-069",
+      "ja": "ウルガモスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-070",
+      "ja": "ギャラドスV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-071",
+      "ja": "チャーレムV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-072",
+      "ja": "チャーレムV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-073",
+      "ja": "カイリューV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-074",
+      "ja": "カイリューV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-075",
+      "ja": "レックウザV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-076",
+      "ja": "レックウザV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-077",
+      "ja": "サナ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-078",
+      "ja": "スクールボーイ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S7R-079",
+      "ja": "ヒガナの決意",
+      "rarity": "SR"
+    }
+  ],
+  "removed": []
+}
