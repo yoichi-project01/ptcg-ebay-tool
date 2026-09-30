@@ -1,0 +1,74 @@
+{
+ "33532": {
+  "badge": "SMD",
+  "cards": [
+   {
+    "local": "022",
+    "total": "026",
+    "rarity": "",
+    "jaName": "ポケモンいれかえ",
+    "cardThumbFile": "/assets/images/card_images/large/SMD/033532_T_POKEMONIREKAE.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SMD/033532_T_POKEMONIREKAE.jpg"
+ },
+ "33533": {
+  "badge": "SMD",
+  "cards": [
+   {
+    "local": "024",
+    "total": "026",
+    "rarity": "",
+    "jaName": "モンスターボール",
+    "cardThumbFile": "/assets/images/card_images/large/SMD/033533_T_MONSUTABORU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SMD/033533_T_MONSUTABORU.jpg"
+ },
+ "33535": {
+  "badge": "SMD",
+  "cards": [],
+  "cardThumbFile": "/assets/images/card_images/large/SMD/033535_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "33536": {
+  "badge": "SMD",
+  "cards": [],
+  "cardThumbFile": "/assets/images/card_images/large/SMD/033536_E_KIHONTOUENERUGI.jpg"
+ },
+ "33547": {
+  "badge": "SMD",
+  "cards": [
+   {
+    "local": "022",
+    "total": "026",
+    "rarity": "",
+    "jaName": "ポケモンいれかえ",
+    "cardThumbFile": "/assets/images/card_images/large/SMD/033547_T_POKEMONIREKAE.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SMD/033547_T_POKEMONIREKAE.jpg"
+ },
+ "33549": {
+  "badge": "SMD",
+  "cards": [
+   {
+    "local": "024",
+    "total": "026",
+    "rarity": "",
+    "jaName": "モンスターボール",
+    "cardThumbFile": "/assets/images/card_images/large/SMD/033549_T_MONSUTABORU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SMD/033549_T_MONSUTABORU.jpg"
+ },
+ "33551": {
+  "badge": "SMD",
+  "cards": [],
+  "cardThumbFile": "/assets/images/card_images/large/SMD/033551_E_KIHONMIZUENERUGI.jpg"
+ },
+ "33552": {
+  "badge": "SMD",
+  "cards": [],
+  "cardThumbFile": "/assets/images/card_images/large/SMD/033552_E_KIHONCHOUENERUGI.jpg"
+ }
+}
