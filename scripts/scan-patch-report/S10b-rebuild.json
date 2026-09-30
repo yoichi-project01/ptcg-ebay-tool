@@ -1,0 +1,223 @@
+{
+  "code": "S10b",
+  "nameChanged": [
+    {
+      "id": "S10b-065",
+      "oldJa": "アローラ ナッシーV",
+      "newJa": "ふかそうち"
+    },
+    {
+      "id": "S10b-066",
+      "oldJa": "ミュウツーV",
+      "newJa": "ふしぎなアメ"
+    },
+    {
+      "id": "S10b-067",
+      "oldJa": "ミュウツーV",
+      "newJa": "ルアーモジュール"
+    },
+    {
+      "id": "S10b-068",
+      "oldJa": "ローブシンV",
+      "newJa": "キャンデラ"
+    },
+    {
+      "id": "S10b-069",
+      "oldJa": "ローブシンV",
+      "newJa": "スパーク"
+    },
+    {
+      "id": "S10b-070",
+      "oldJa": "メルメタルV",
+      "newJa": "ブランシェ"
+    },
+    {
+      "id": "S10b-071",
+      "oldJa": "カイリューV",
+      "newJa": "ポケストップ"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "S10b-065",
+      "ja": "ふかそうち",
+      "hadImage": true
+    },
+    {
+      "id": "S10b-066",
+      "ja": "ふしぎなアメ",
+      "hadImage": true
+    },
+    {
+      "id": "S10b-067",
+      "ja": "ルアーモジュール",
+      "hadImage": true
+    },
+    {
+      "id": "S10b-068",
+      "ja": "キャンデラ",
+      "hadImage": true
+    },
+    {
+      "id": "S10b-069",
+      "ja": "スパーク",
+      "hadImage": true
+    },
+    {
+      "id": "S10b-070",
+      "ja": "ブランシェ",
+      "hadImage": true
+    },
+    {
+      "id": "S10b-071",
+      "ja": "ポケストップ",
+      "hadImage": true
+    }
+  ],
+  "added": [
+    {
+      "id": "S10b-072",
+      "ja": "アローラ ナッシーV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-073",
+      "ja": "ミュウツーV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-074",
+      "ja": "ミュウツーV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-075",
+      "ja": "ローブシンV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-076",
+      "ja": "ローブシンV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-077",
+      "ja": "メルメタルV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-078",
+      "ja": "カイリューV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-079",
+      "ja": "ケッキングV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-080",
+      "ja": "キャンデラ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-081",
+      "ja": "スパーク",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-082",
+      "ja": "博士の研究",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-083",
+      "ja": "ブランシェ",
+      "rarity": "SR"
+    },
+    {
+      "id": "S10b-084",
+      "ja": "ミュウツーVSTAR",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10b-085",
+      "ja": "メルメタルVMAX",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10b-086",
+      "ja": "カイリューVSTAR",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10b-087",
+      "ja": "キャンデラ",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10b-088",
+      "ja": "スパーク",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10b-089",
+      "ja": "博士の研究",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10b-090",
+      "ja": "ブランシェ",
+      "rarity": "HR"
+    },
+    {
+      "id": "S10b-091",
+      "ja": "ミュウツーVSTAR",
+      "rarity": "UR"
+    },
+    {
+      "id": "S10b-092",
+      "ja": "ふかそうち",
+      "rarity": "UR"
+    },
+    {
+      "id": "S10b-093",
+      "ja": "ルアーモジュール",
+      "rarity": "UR"
+    }
+  ],
+  "removed": [
+    {
+      "id": "S10b-DAR",
+      "ja": "ケッキングV"
+    },
+    {
+      "id": "S10b-FIG",
+      "ja": "ミュウツーVSTAR"
+    },
+    {
+      "id": "S10b-FIR",
+      "ja": "メルメタルVMAX"
+    },
+    {
+      "id": "S10b-GRA",
+      "ja": "カイリューVSTAR"
+    },
+    {
+      "id": "S10b-LIG",
+      "ja": "ミュウツーVSTAR"
+    },
+    {
+      "id": "S10b-MET",
+      "ja": "ふかそうち"
+    },
+    {
+      "id": "S10b-PSY",
+      "ja": "ふしぎなアメ"
+    },
+    {
+      "id": "S10b-WAT",
+      "ja": "ルアーモジュール"
+    }
+  ]
+}
