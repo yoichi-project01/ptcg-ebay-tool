@@ -1,0 +1,28 @@
+{
+ "30380": {
+  "badge": "XY3",
+  "cards": [
+   {
+    "local": "005",
+    "total": "096",
+    "rarity": "RR",
+    "jaName": "メガヘラクロスEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY3/030380_P_MHERAKUROSUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY3/030380_P_MHERAKUROSUEX.jpg"
+ },
+ "30428": {
+  "badge": "XY3",
+  "cards": [
+   {
+    "local": "053",
+    "total": "096",
+    "rarity": "RR",
+    "jaName": "メガルカリオEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY3/030428_P_MRUKARIOEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY3/030428_P_MRUKARIOEX.jpg"
+ }
+}
