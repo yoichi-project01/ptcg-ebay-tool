@@ -1,0 +1,200 @@
+{
+  "code": "S6a",
+  "nameChanged": [
+    {
+      "id": "S6a-060",
+      "oldJa": "リーフィアV",
+      "newJa": "ぐんぐんシェイク"
+    },
+    {
+      "id": "S6a-061",
+      "oldJa": "リーフィアV",
+      "newJa": "ドリームボール"
+    },
+    {
+      "id": "S6a-062",
+      "oldJa": "ブースターV",
+      "newJa": "エレメンタルバッジ"
+    },
+    {
+      "id": "S6a-063",
+      "oldJa": "ブースターV",
+      "newJa": "スノーリーフバッジ"
+    },
+    {
+      "id": "S6a-064",
+      "oldJa": "シャワーズV",
+      "newJa": "月と太陽のバッジ"
+    },
+    {
+      "id": "S6a-065",
+      "oldJa": "シャワーズV",
+      "newJa": "リボンバッジ"
+    },
+    {
+      "id": "S6a-066",
+      "oldJa": "グレイシアV",
+      "newJa": "アロマなおねえさん"
+    },
+    {
+      "id": "S6a-067",
+      "oldJa": "グレイシアV",
+      "newJa": "マクワ"
+    },
+    {
+      "id": "S6a-068",
+      "oldJa": "サンダースV",
+      "newJa": "ファッションモール"
+    },
+    {
+      "id": "S6a-069",
+      "oldJa": "サンダースV",
+      "newJa": "トレジャーエネルギー"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "S6a-060",
+      "ja": "ぐんぐんシェイク",
+      "hadImage": true
+    },
+    {
+      "id": "S6a-061",
+      "ja": "ドリームボール",
+      "hadImage": true
+    },
+    {
+      "id": "S6a-062",
+      "ja": "エレメンタルバッジ",
+      "hadImage": true
+    },
+    {
+      "id": "S6a-063",
+      "ja": "スノーリーフバッジ",
+      "hadImage": true
+    },
+    {
+      "id": "S6a-064",
+      "ja": "月と太陽のバッジ",
+      "hadImage": true
+    },
+    {
+      "id": "S6a-065",
+      "ja": "リボンバッジ",
+      "hadImage": true
+    },
+    {
+      "id": "S6a-066",
+      "ja": "アロマなおねえさん",
+      "hadImage": true
+    },
+    {
+      "id": "S6a-067",
+      "ja": "マクワ",
+      "hadImage": true
+    },
+    {
+      "id": "S6a-068",
+      "ja": "ファッションモール",
+      "hadImage": true
+    },
+    {
+      "id": "S6a-069",
+      "ja": "トレジャーエネルギー",
+      "hadImage": true
+    }
+  ],
+  "added": [
+    {
+      "id": "S6a-070",
+      "ja": "リーフィアV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-071",
+      "ja": "リーフィアV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-072",
+      "ja": "ブースターV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-073",
+      "ja": "ブースターV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-074",
+      "ja": "シャワーズV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-075",
+      "ja": "シャワーズV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-076",
+      "ja": "グレイシアV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-077",
+      "ja": "グレイシアV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-078",
+      "ja": "サンダースV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-079",
+      "ja": "サンダースV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-080",
+      "ja": "エーフィV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-081",
+      "ja": "エーフィV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-082",
+      "ja": "ニンフィアV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-083",
+      "ja": "ニンフィアV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-084",
+      "ja": "ブラッキーV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-085",
+      "ja": "ブラッキーV",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-086",
+      "ja": "アロマなおねえさん",
+      "rarity": "SR"
+    },
+    {
+      "id": "S6a-087",
+      "ja": "マクワ",
+      "rarity": "SR"
+    }
+  ],
+  "removed": []
+}
