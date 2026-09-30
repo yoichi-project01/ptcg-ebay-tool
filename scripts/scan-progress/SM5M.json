@@ -1,0 +1,41 @@
+{
+ "34478": {
+  "badge": "SM5M",
+  "cards": [
+   {
+    "local": "030",
+    "total": "066",
+    "rarity": "",
+    "jaName": "ギラティナ プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM5M/034478_P_GIRATEINA.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM5M/034478_P_GIRATEINA.jpg"
+ },
+ "34480": {
+  "badge": "SM5M",
+  "cards": [
+   {
+    "local": "032",
+    "total": "066",
+    "rarity": "",
+    "jaName": "ルナアーラ プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM5M/034480_P_RUNAARA.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM5M/034480_P_RUNAARA.jpg"
+ },
+ "34513": {
+  "badge": "SM5M",
+  "cards": [
+   {
+    "local": "065",
+    "total": "066",
+    "rarity": "",
+    "jaName": "超ブーストエネルギー プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM5M/034513_E_CHOUBUSUTOENERUGI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM5M/034513_E_CHOUBUSUTOENERUGI.jpg"
+ }
+}
