@@ -1,0 +1,67 @@
+{
+ "32022": {
+  "badge": "XY11-Bb",
+  "cards": [
+   {
+    "local": "010",
+    "total": "054",
+    "rarity": "RR",
+    "jaName": "カエンジシBREAK",
+    "cardThumbFile": "/assets/images/card_images/legend/XY11-Bb/032022_P_KAENJISHIBREAK.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/legend/XY11-Bb/032022_P_KAENJISHIBREAK.jpg"
+ },
+ "32032": {
+  "badge": "XY11-Bb",
+  "cards": [
+   {
+    "local": "020",
+    "total": "054",
+    "rarity": "RR",
+    "jaName": "ブロスターBREAK",
+    "cardThumbFile": "/assets/images/card_images/legend/XY11-Bb/032032_P_BUROSUTABREAK.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/legend/XY11-Bb/032032_P_BUROSUTABREAK.jpg"
+ },
+ "32045": {
+  "badge": "XY11-Bb",
+  "cards": [
+   {
+    "local": "033",
+    "total": "054",
+    "rarity": "RR",
+    "jaName": "メガハガネールEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY11-Bb/032045_P_MHAGANERUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY11-Bb/032045_P_MHAGANERUEX.jpg"
+ },
+ "32054": {
+  "badge": "XY11-Bb",
+  "cards": [
+   {
+    "local": "042",
+    "total": "054",
+    "rarity": "RR",
+    "jaName": "ゼルネアスBREAK",
+    "cardThumbFile": "/assets/images/card_images/legend/XY11-Bb/032054_P_ZERUNEASUBREAK.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/legend/XY11-Bb/032054_P_ZERUNEASUBREAK.jpg"
+ },
+ "35852": {
+  "badge": "XY11-Bb",
+  "cards": [
+   {
+    "local": "057",
+    "total": "054",
+    "rarity": "SR",
+    "jaName": "メガハガネールEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY11-Bb/035852_P_MHAGANERUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY11-Bb/035852_P_MHAGANERUEX.jpg"
+ }
+}
