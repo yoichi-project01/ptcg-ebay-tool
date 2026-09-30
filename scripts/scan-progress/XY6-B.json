@@ -1,0 +1,80 @@
+{
+ "30886": {
+  "badge": "XY6-B",
+  "cards": [
+   {
+    "local": "031",
+    "total": "078",
+    "rarity": "RR",
+    "jaName": "メガエルレイドEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY6-B/030886_P_MERUREIDOEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY6-B/030886_P_MERUREIDOEX.jpg"
+ },
+ "30904": {
+  "badge": "XY6-B",
+  "cards": [
+   {
+    "local": "049",
+    "total": "078",
+    "rarity": "RR",
+    "jaName": "メガラティオスEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY6-B/030904_P_MRATEIOSUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY6-B/030904_P_MRATEIOSUEX.jpg"
+ },
+ "30917": {
+  "badge": "XY6-B",
+  "cards": [
+   {
+    "local": "062",
+    "total": "078",
+    "rarity": "RR",
+    "jaName": "メガレックウザEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY6-B/030917_P_MREKKUUZAEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY6-B/030917_P_MREKKUUZAEX.jpg"
+ },
+ "35807": {
+  "badge": "XY6",
+  "cards": [
+   {
+    "local": "081",
+    "total": "078",
+    "rarity": "SR",
+    "jaName": "メガエルレイドEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY6/035807_P_MERUREIDOEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY6/035807_P_MERUREIDOEX.jpg"
+ },
+ "35808": {
+  "badge": "XY6",
+  "cards": [
+   {
+    "local": "083",
+    "total": "078",
+    "rarity": "SR",
+    "jaName": "メガラティオスEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY6/035808_P_MRATEIOSUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY6/035808_P_MRATEIOSUEX.jpg"
+ },
+ "35809": {
+  "badge": "XY6",
+  "cards": [
+   {
+    "local": "086",
+    "total": "078",
+    "rarity": "SR",
+    "jaName": "メガレックウザEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY6/035809_P_MREKKUUZAEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY6/035809_P_MREKKUUZAEX.jpg"
+ }
+}
