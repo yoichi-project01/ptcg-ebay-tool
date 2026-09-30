@@ -1,0 +1,174 @@
+{
+  "code": "SVEM",
+  "nameChanged": [
+    {
+      "id": "SVEM-005",
+      "oldJa": "ネイティ",
+      "newJa": "ネイティオ"
+    },
+    {
+      "id": "SVEM-006",
+      "oldJa": "ネイティオ",
+      "newJa": "デオキシス"
+    },
+    {
+      "id": "SVEM-007",
+      "oldJa": "ネイティオ",
+      "newJa": "モンメン"
+    },
+    {
+      "id": "SVEM-008",
+      "oldJa": "デオキシス",
+      "newJa": "エルフーン"
+    },
+    {
+      "id": "SVEM-009",
+      "oldJa": "モンメン",
+      "newJa": "デデンネ"
+    },
+    {
+      "id": "SVEM-010",
+      "oldJa": "エルフーン",
+      "newJa": "霧の水晶"
+    },
+    {
+      "id": "SVEM-011",
+      "oldJa": "デデンネ",
+      "newJa": "すごいつりざお"
+    },
+    {
+      "id": "SVEM-012",
+      "oldJa": "霧の水晶",
+      "newJa": "ネストボール"
+    },
+    {
+      "id": "SVEM-013",
+      "oldJa": "すごいつりざお",
+      "newJa": "ハイパーボール"
+    },
+    {
+      "id": "SVEM-014",
+      "oldJa": "ネストボール",
+      "newJa": "ポケギア3.0"
+    },
+    {
+      "id": "SVEM-015",
+      "oldJa": "ハイパーボール",
+      "newJa": "ポケモンいれかえ"
+    },
+    {
+      "id": "SVEM-016",
+      "oldJa": "ポケギア3.0",
+      "newJa": "勇気のおまもり"
+    },
+    {
+      "id": "SVEM-017",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "ナンジャモ"
+    },
+    {
+      "id": "SVEM-018",
+      "oldJa": "勇気のおまもり",
+      "newJa": "ネモ"
+    },
+    {
+      "id": "SVEM-019",
+      "oldJa": "ナンジャモ",
+      "newJa": "博士の研究"
+    },
+    {
+      "id": "SVEM-020",
+      "oldJa": "ネモ",
+      "newJa": "ボスの指令"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SVEM-005",
+      "ja": "ネイティオ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-006",
+      "ja": "デオキシス",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-007",
+      "ja": "モンメン",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-008",
+      "ja": "エルフーン",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-009",
+      "ja": "デデンネ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-010",
+      "ja": "霧の水晶",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-011",
+      "ja": "すごいつりざお",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-012",
+      "ja": "ネストボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-013",
+      "ja": "ハイパーボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-014",
+      "ja": "ポケギア3.0",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-015",
+      "ja": "ポケモンいれかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-016",
+      "ja": "勇気のおまもり",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-017",
+      "ja": "ナンジャモ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-018",
+      "ja": "ネモ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-019",
+      "ja": "博士の研究",
+      "hadImage": true
+    },
+    {
+      "id": "SVEM-020",
+      "ja": "ボスの指令",
+      "hadImage": true
+    }
+  ],
+  "added": [],
+  "removed": [
+    {
+      "id": "SVEM-PSY",
+      "ja": "博士の研究"
+    }
+  ]
+}
