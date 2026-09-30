@@ -1,0 +1,41 @@
+{
+ "34980": {
+  "badge": "SM7",
+  "cards": [
+   {
+    "local": "057",
+    "total": "096",
+    "rarity": "",
+    "jaName": "ジラーチ プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM7/034980_P_JIRACHI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM7/034980_P_JIRACHI.jpg"
+ },
+ "34989": {
+  "badge": "SM7",
+  "cards": [
+   {
+    "local": "066",
+    "total": "096",
+    "rarity": "",
+    "jaName": "ラティアス プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM7/034989_P_RATEIASU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM7/034989_P_RATEIASU.jpg"
+ },
+ "34990": {
+  "badge": "SM7",
+  "cards": [
+   {
+    "local": "067",
+    "total": "096",
+    "rarity": "",
+    "jaName": "ラティオス プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM7/034990_P_RATEIOSU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM7/034990_P_RATEIOSU.jpg"
+ }
+}
