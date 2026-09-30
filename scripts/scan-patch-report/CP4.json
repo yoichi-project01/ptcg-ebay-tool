@@ -1,0 +1,73 @@
+{
+  "code": "CP4",
+  "added": [],
+  "imageAdded": [
+    {
+      "id": "CP4-002"
+    },
+    {
+      "id": "CP4-007"
+    },
+    {
+      "id": "CP4-015"
+    },
+    {
+      "id": "CP4-043"
+    },
+    {
+      "id": "CP4-049"
+    },
+    {
+      "id": "CP4-051"
+    },
+    {
+      "id": "CP4-052"
+    },
+    {
+      "id": "CP4-055"
+    },
+    {
+      "id": "CP4-075"
+    },
+    {
+      "id": "CP4-094"
+    },
+    {
+      "id": "CP4-097"
+    }
+  ],
+  "nameMismatch": [],
+  "otherBadge": [],
+  "noNumber": [
+    {
+      "cardId": "31997"
+    },
+    {
+      "cardId": "31998"
+    },
+    {
+      "cardId": "31999"
+    },
+    {
+      "cardId": "32000"
+    },
+    {
+      "cardId": "32001"
+    },
+    {
+      "cardId": "32002"
+    },
+    {
+      "cardId": "32003"
+    },
+    {
+      "cardId": "32004"
+    },
+    {
+      "cardId": "32005"
+    }
+  ],
+  "remainingGaps": [],
+  "oldMax": 131,
+  "newMax": 131
+}
