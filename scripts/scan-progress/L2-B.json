@@ -1,0 +1,62 @@
+{
+ "25693": {
+  "badge": "L2-B",
+  "cards": [
+   {
+    "local": "063",
+    "total": "080",
+    "rarity": "LEGEND",
+    "jaName": "エンテイ&ライコウLEGEND",
+    "cardThumbFile": "/assets/images/card_images/legend/L2-B/025693_P_ENTEIRAIKOULEGEND.gif"
+   },
+   {
+    "local": "064",
+    "total": "080",
+    "rarity": "LEGEND",
+    "jaName": "エンテイ&ライコウLEGEND",
+    "cardThumbFile": "/assets/images/card_images/legend/L2-B/025693_P_ENTEIRAIKOULEGEND.gif"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/legend/L2-B/025693_P_ENTEIRAIKOULEGEND.gif"
+ },
+ "25697": {
+  "badge": "L2-B",
+  "cards": [
+   {
+    "local": "065",
+    "total": "080",
+    "rarity": "LEGEND",
+    "jaName": "スイクン&エンテイLEGEND",
+    "cardThumbFile": "/assets/images/card_images/legend/L2-B/025697_P_SUIKUNENTEILEGEND.gif"
+   },
+   {
+    "local": "066",
+    "total": "080",
+    "rarity": "LEGEND",
+    "jaName": "スイクン&エンテイLEGEND",
+    "cardThumbFile": "/assets/images/card_images/legend/L2-B/025697_P_SUIKUNENTEILEGEND.gif"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/legend/L2-B/025697_P_SUIKUNENTEILEGEND.gif"
+ },
+ "25701": {
+  "badge": "L2-B",
+  "cards": [
+   {
+    "local": "067",
+    "total": "080",
+    "rarity": "LEGEND",
+    "jaName": "ライコウ&スイクンLEGEND",
+    "cardThumbFile": "/assets/images/card_images/legend/L2-B/025701_P_RAIKOUSUIKUNLEGEND.gif"
+   },
+   {
+    "local": "068",
+    "total": "080",
+    "rarity": "LEGEND",
+    "jaName": "ライコウ&スイクンLEGEND",
+    "cardThumbFile": "/assets/images/card_images/legend/L2-B/025701_P_RAIKOUSUIKUNLEGEND.gif"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/legend/L2-B/025701_P_RAIKOUSUIKUNLEGEND.gif"
+ }
+}
