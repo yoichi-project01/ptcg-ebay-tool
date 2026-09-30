@@ -1,0 +1,208 @@
+{
+  "code": "SVAM",
+  "nameChanged": [
+    {
+      "id": "SVAM-005",
+      "oldJa": "ニャオハ",
+      "newJa": "ニャローテ"
+    },
+    {
+      "id": "SVAM-006",
+      "oldJa": "ニャローテ",
+      "newJa": "マスカーニャ"
+    },
+    {
+      "id": "SVAM-007",
+      "oldJa": "ニャローテ",
+      "newJa": "タマンチュラ"
+    },
+    {
+      "id": "SVAM-008",
+      "oldJa": "マスカーニャ",
+      "newJa": "リオル"
+    },
+    {
+      "id": "SVAM-009",
+      "oldJa": "マスカーニャ",
+      "newJa": "ルカリオex"
+    },
+    {
+      "id": "SVAM-010",
+      "oldJa": "タマンチュラ",
+      "newJa": "イシヘンジン"
+    },
+    {
+      "id": "SVAM-011",
+      "oldJa": "リオル",
+      "newJa": "グルトン"
+    },
+    {
+      "id": "SVAM-012",
+      "oldJa": "ルカリオex",
+      "newJa": "エネルギーつけかえ"
+    },
+    {
+      "id": "SVAM-013",
+      "oldJa": "イシヘンジン",
+      "newJa": "エネルギー転送"
+    },
+    {
+      "id": "SVAM-014",
+      "oldJa": "グルトン",
+      "newJa": "きずぐすり"
+    },
+    {
+      "id": "SVAM-015",
+      "oldJa": "エネルギーつけかえ",
+      "newJa": "ネストボール"
+    },
+    {
+      "id": "SVAM-016",
+      "oldJa": "エネルギー転送",
+      "newJa": "ハイパーボール"
+    },
+    {
+      "id": "SVAM-017",
+      "oldJa": "きずぐすり",
+      "newJa": "ポケギア3.0"
+    },
+    {
+      "id": "SVAM-018",
+      "oldJa": "ネストボール",
+      "newJa": "ポケモンいれかえ"
+    },
+    {
+      "id": "SVAM-019",
+      "oldJa": "ハイパーボール",
+      "newJa": "ポケモンキャッチャー"
+    },
+    {
+      "id": "SVAM-020",
+      "oldJa": "ポケギア3.0",
+      "newJa": "ジャッジマン"
+    },
+    {
+      "id": "SVAM-021",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "たんぱんこぞう"
+    },
+    {
+      "id": "SVAM-022",
+      "oldJa": "ポケモンキャッチャー",
+      "newJa": "ネモ"
+    },
+    {
+      "id": "SVAM-023",
+      "oldJa": "ジャッジマン",
+      "newJa": "博士の研究"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SVAM-005",
+      "ja": "ニャローテ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-006",
+      "ja": "マスカーニャ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-007",
+      "ja": "タマンチュラ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-008",
+      "ja": "リオル",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-009",
+      "ja": "ルカリオex",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-010",
+      "ja": "イシヘンジン",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-011",
+      "ja": "グルトン",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-012",
+      "ja": "エネルギーつけかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-013",
+      "ja": "エネルギー転送",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-014",
+      "ja": "きずぐすり",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-015",
+      "ja": "ネストボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-016",
+      "ja": "ハイパーボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-017",
+      "ja": "ポケギア3.0",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-018",
+      "ja": "ポケモンいれかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-019",
+      "ja": "ポケモンキャッチャー",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-020",
+      "ja": "ジャッジマン",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-021",
+      "ja": "たんぱんこぞう",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-022",
+      "ja": "ネモ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAM-023",
+      "ja": "博士の研究",
+      "hadImage": true
+    }
+  ],
+  "added": [],
+  "removed": [
+    {
+      "id": "SVAM-FIG",
+      "ja": "たんぱんこぞう"
+    },
+    {
+      "id": "SVAM-GRA",
+      "ja": "ネモ"
+    }
+  ]
+}
