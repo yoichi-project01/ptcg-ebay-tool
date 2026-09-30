@@ -1,0 +1,154 @@
+{
+  "code": "SVC",
+  "nameChanged": [
+    {
+      "id": "SVC-008",
+      "oldJa": "パモ",
+      "newJa": "パモット"
+    },
+    {
+      "id": "SVC-009",
+      "oldJa": "パモット",
+      "newJa": "パーモット"
+    },
+    {
+      "id": "SVC-010",
+      "oldJa": "パモット",
+      "newJa": "グルトン"
+    },
+    {
+      "id": "SVC-011",
+      "oldJa": "パーモット",
+      "newJa": "エネルギーつけかえ"
+    },
+    {
+      "id": "SVC-012",
+      "oldJa": "パーモット",
+      "newJa": "エレキジェネレーター"
+    },
+    {
+      "id": "SVC-013",
+      "oldJa": "グルトン",
+      "newJa": "ネストボール"
+    },
+    {
+      "id": "SVC-014",
+      "oldJa": "エネルギーつけかえ",
+      "newJa": "ハイパーボール"
+    },
+    {
+      "id": "SVC-015",
+      "oldJa": "エレキジェネレーター",
+      "newJa": "ポケギア3.0"
+    },
+    {
+      "id": "SVC-016",
+      "oldJa": "ネストボール",
+      "newJa": "ポケモンいれかえ"
+    },
+    {
+      "id": "SVC-017",
+      "oldJa": "ハイパーボール",
+      "newJa": "ポケモンキャッチャー"
+    },
+    {
+      "id": "SVC-018",
+      "oldJa": "ポケギア3.0",
+      "newJa": "ジャッジマン"
+    },
+    {
+      "id": "SVC-019",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "たんぱんこぞう"
+    },
+    {
+      "id": "SVC-020",
+      "oldJa": "ポケモンキャッチャー",
+      "newJa": "ネモ"
+    },
+    {
+      "id": "SVC-021",
+      "oldJa": "ジャッジマン",
+      "newJa": "博士の研究"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SVC-008",
+      "ja": "パモット",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-009",
+      "ja": "パーモット",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-010",
+      "ja": "グルトン",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-011",
+      "ja": "エネルギーつけかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-012",
+      "ja": "エレキジェネレーター",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-013",
+      "ja": "ネストボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-014",
+      "ja": "ハイパーボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-015",
+      "ja": "ポケギア3.0",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-016",
+      "ja": "ポケモンいれかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-017",
+      "ja": "ポケモンキャッチャー",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-018",
+      "ja": "ジャッジマン",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-019",
+      "ja": "たんぱんこぞう",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-020",
+      "ja": "ネモ",
+      "hadImage": true
+    },
+    {
+      "id": "SVC-021",
+      "ja": "博士の研究",
+      "hadImage": true
+    }
+  ],
+  "added": [],
+  "removed": [
+    {
+      "id": "SVC-LIG",
+      "ja": "たんぱんこぞう"
+    }
+  ]
+}
