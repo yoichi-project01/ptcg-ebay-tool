@@ -1,0 +1,28 @@
+{
+ "34600": {
+  "badge": "SM5p",
+  "cards": [
+   {
+    "local": "037",
+    "total": "050",
+    "rarity": "",
+    "jaName": "アルセウス プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM5p/034600_P_ARUSEUSU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM5p/034600_P_ARUSEUSU.jpg"
+ },
+ "34611": {
+  "badge": "SM5p",
+  "cards": [
+   {
+    "local": "048",
+    "total": "050",
+    "rarity": "",
+    "jaName": "ビーストエネルギー プリズムスター",
+    "cardThumbFile": "/assets/images/card_images/large/SM5p/034611_E_BISUTOENERUGI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SM5p/034611_E_BISUTOENERUGI.jpg"
+ }
+}
