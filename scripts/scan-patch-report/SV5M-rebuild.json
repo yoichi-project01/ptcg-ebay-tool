@@ -1,0 +1,375 @@
+{
+  "code": "SV5M",
+  "nameChanged": [
+    {
+      "id": "SV5M-061",
+      "oldJa": "ダーテング",
+      "newJa": "ハンドトリマー"
+    },
+    {
+      "id": "SV5M-062",
+      "oldJa": "シキジカ",
+      "newJa": "プライムキャッチャー"
+    },
+    {
+      "id": "SV5M-063",
+      "oldJa": "メブキジカ",
+      "newJa": "リブートポッド"
+    },
+    {
+      "id": "SV5M-064",
+      "oldJa": "ニャビー",
+      "newJa": "ヒーローマント"
+    },
+    {
+      "id": "SV5M-065",
+      "oldJa": "デンヂムシ",
+      "newJa": "ブーストエナジー 未来"
+    },
+    {
+      "id": "SV5M-066",
+      "oldJa": "テツノイバラ",
+      "newJa": "ヘビーバトン"
+    },
+    {
+      "id": "SV5M-067",
+      "oldJa": "アブリー",
+      "newJa": "暗号マニアの解読"
+    },
+    {
+      "id": "SV5M-068",
+      "oldJa": "ドリュウズ",
+      "newJa": "セイジ"
+    },
+    {
+      "id": "SV5M-069",
+      "oldJa": "メタグロス",
+      "newJa": "ベルのまごころ"
+    },
+    {
+      "id": "SV5M-070",
+      "oldJa": "メルタン",
+      "newJa": "フルメタルラボ"
+    },
+    {
+      "id": "SV5M-071",
+      "oldJa": "ベロリンガ",
+      "newJa": "ミストエネルギー"
+    },
+    {
+      "id": "SV5M-072",
+      "oldJa": "ジジーロン",
+      "newJa": "ダーテング"
+    },
+    {
+      "id": "SV5M-073",
+      "oldJa": "テツノイサハex",
+      "newJa": "シキジカ"
+    },
+    {
+      "id": "SV5M-074",
+      "oldJa": "ガオガエンex",
+      "newJa": "メブキジカ"
+    },
+    {
+      "id": "SV5M-075",
+      "oldJa": "テツノカシラex",
+      "newJa": "ニャビー"
+    },
+    {
+      "id": "SV5M-076",
+      "oldJa": "テツノイワオex",
+      "newJa": "デンヂムシ"
+    },
+    {
+      "id": "SV5M-077",
+      "oldJa": "リキキリンex",
+      "newJa": "テツノイバラ"
+    },
+    {
+      "id": "SV5M-078",
+      "oldJa": "ハッサムex",
+      "newJa": "アブリー"
+    },
+    {
+      "id": "SV5M-079",
+      "oldJa": "テツノイサハex",
+      "newJa": "ドリュウズ"
+    },
+    {
+      "id": "SV5M-080",
+      "oldJa": "テツノカシラex",
+      "newJa": "メタグロス"
+    },
+    {
+      "id": "SV5M-081",
+      "oldJa": "テツノイワオex",
+      "newJa": "メルタン"
+    },
+    {
+      "id": "SV5M-082",
+      "oldJa": "テツノイサハex",
+      "newJa": "ベロリンガ"
+    },
+    {
+      "id": "SV5M-083",
+      "oldJa": "テツノカシラex",
+      "newJa": "ジジーロン"
+    },
+    {
+      "id": "SV5M-084",
+      "oldJa": "テツノイワオex",
+      "newJa": "テツノイサハex"
+    },
+    {
+      "id": "SV5M-085",
+      "oldJa": "ハンドトリマー",
+      "newJa": "ガオガエンex"
+    },
+    {
+      "id": "SV5M-086",
+      "oldJa": "プライムキャッチャー",
+      "newJa": "テツノカシラex"
+    },
+    {
+      "id": "SV5M-087",
+      "oldJa": "リブートポッド",
+      "newJa": "テツノイワオex"
+    },
+    {
+      "id": "SV5M-088",
+      "oldJa": "ヒーローマント",
+      "newJa": "リキキリンex"
+    },
+    {
+      "id": "SV5M-089",
+      "oldJa": "ブーストエナジー 未来",
+      "newJa": "ハッサムex"
+    },
+    {
+      "id": "SV5M-090",
+      "oldJa": "ヘビーバトン",
+      "newJa": "暗号マニアの解読"
+    },
+    {
+      "id": "SV5M-091",
+      "oldJa": "暗号マニアの解読",
+      "newJa": "セイジ"
+    },
+    {
+      "id": "SV5M-092",
+      "oldJa": "セイジ",
+      "newJa": "ベルのまごころ"
+    },
+    {
+      "id": "SV5M-093",
+      "oldJa": "ベルのまごころ",
+      "newJa": "テツノイサハex"
+    },
+    {
+      "id": "SV5M-094",
+      "oldJa": "フルメタルラボ",
+      "newJa": "テツノカシラex"
+    },
+    {
+      "id": "SV5M-095",
+      "oldJa": "暗号マニアの解読",
+      "newJa": "テツノイワオex"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SV5M-061",
+      "ja": "ハンドトリマー",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-062",
+      "ja": "プライムキャッチャー",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-063",
+      "ja": "リブートポッド",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-064",
+      "ja": "ヒーローマント",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-065",
+      "ja": "ブーストエナジー 未来",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-066",
+      "ja": "ヘビーバトン",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-067",
+      "ja": "暗号マニアの解読",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-068",
+      "ja": "セイジ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-069",
+      "ja": "ベルのまごころ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-070",
+      "ja": "フルメタルラボ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-071",
+      "ja": "ミストエネルギー",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-072",
+      "ja": "ダーテング",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-073",
+      "ja": "シキジカ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-074",
+      "ja": "メブキジカ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-075",
+      "ja": "ニャビー",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-076",
+      "ja": "デンヂムシ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-077",
+      "ja": "テツノイバラ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-078",
+      "ja": "アブリー",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-079",
+      "ja": "ドリュウズ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-080",
+      "ja": "メタグロス",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-081",
+      "ja": "メルタン",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-082",
+      "ja": "ベロリンガ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-083",
+      "ja": "ジジーロン",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-084",
+      "ja": "テツノイサハex",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-085",
+      "ja": "ガオガエンex",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-086",
+      "ja": "テツノカシラex",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-087",
+      "ja": "テツノイワオex",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-088",
+      "ja": "リキキリンex",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-089",
+      "ja": "ハッサムex",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-090",
+      "ja": "暗号マニアの解読",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-091",
+      "ja": "セイジ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-092",
+      "ja": "ベルのまごころ",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-093",
+      "ja": "テツノイサハex",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-094",
+      "ja": "テツノカシラex",
+      "hadImage": true
+    },
+    {
+      "id": "SV5M-095",
+      "ja": "テツノイワオex",
+      "hadImage": true
+    }
+  ],
+  "added": [
+    {
+      "id": "SV5M-098",
+      "ja": "テツノイサハex",
+      "rarity": "UR"
+    },
+    {
+      "id": "SV5M-099",
+      "ja": "テツノカシラex",
+      "rarity": "UR"
+    },
+    {
+      "id": "SV5M-100",
+      "ja": "テツノイワオex",
+      "rarity": "UR"
+    }
+  ],
+  "removed": []
+}
