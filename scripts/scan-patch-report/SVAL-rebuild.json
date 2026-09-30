@@ -1,0 +1,208 @@
+{
+  "code": "SVAL",
+  "nameChanged": [
+    {
+      "id": "SVAL-003",
+      "oldJa": "ホゲータ",
+      "newJa": "アチゲータ"
+    },
+    {
+      "id": "SVAL-004",
+      "oldJa": "アチゲータ",
+      "newJa": "ラウドボーン"
+    },
+    {
+      "id": "SVAL-005",
+      "oldJa": "アチゲータ",
+      "newJa": "メリープ"
+    },
+    {
+      "id": "SVAL-006",
+      "oldJa": "ラウドボーン",
+      "newJa": "モココ"
+    },
+    {
+      "id": "SVAL-007",
+      "oldJa": "ラウドボーン",
+      "newJa": "デンリュウex"
+    },
+    {
+      "id": "SVAL-008",
+      "oldJa": "メリープ",
+      "newJa": "ロトム"
+    },
+    {
+      "id": "SVAL-009",
+      "oldJa": "モココ",
+      "newJa": "グルトン"
+    },
+    {
+      "id": "SVAL-010",
+      "oldJa": "デンリュウex",
+      "newJa": "カラミンゴ"
+    },
+    {
+      "id": "SVAL-011",
+      "oldJa": "ロトム",
+      "newJa": "エネルギー転送"
+    },
+    {
+      "id": "SVAL-012",
+      "oldJa": "グルトン",
+      "newJa": "ネストボール"
+    },
+    {
+      "id": "SVAL-013",
+      "oldJa": "カラミンゴ",
+      "newJa": "ハイパーボール"
+    },
+    {
+      "id": "SVAL-014",
+      "oldJa": "エネルギー転送",
+      "newJa": "ふしぎなアメ"
+    },
+    {
+      "id": "SVAL-015",
+      "oldJa": "ネストボール",
+      "newJa": "ポケギア3.0"
+    },
+    {
+      "id": "SVAL-016",
+      "oldJa": "ハイパーボール",
+      "newJa": "ポケモンいれかえ"
+    },
+    {
+      "id": "SVAL-017",
+      "oldJa": "ふしぎなアメ",
+      "newJa": "ジニア"
+    },
+    {
+      "id": "SVAL-018",
+      "oldJa": "ポケギア3.0",
+      "newJa": "ジャッジマン"
+    },
+    {
+      "id": "SVAL-019",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "たんぱんこぞう"
+    },
+    {
+      "id": "SVAL-020",
+      "oldJa": "ジニア",
+      "newJa": "ネモ"
+    },
+    {
+      "id": "SVAL-021",
+      "oldJa": "ジャッジマン",
+      "newJa": "博士の研究"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SVAL-003",
+      "ja": "アチゲータ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-004",
+      "ja": "ラウドボーン",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-005",
+      "ja": "メリープ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-006",
+      "ja": "モココ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-007",
+      "ja": "デンリュウex",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-008",
+      "ja": "ロトム",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-009",
+      "ja": "グルトン",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-010",
+      "ja": "カラミンゴ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-011",
+      "ja": "エネルギー転送",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-012",
+      "ja": "ネストボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-013",
+      "ja": "ハイパーボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-014",
+      "ja": "ふしぎなアメ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-015",
+      "ja": "ポケギア3.0",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-016",
+      "ja": "ポケモンいれかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-017",
+      "ja": "ジニア",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-018",
+      "ja": "ジャッジマン",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-019",
+      "ja": "たんぱんこぞう",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-020",
+      "ja": "ネモ",
+      "hadImage": true
+    },
+    {
+      "id": "SVAL-021",
+      "ja": "博士の研究",
+      "hadImage": true
+    }
+  ],
+  "added": [],
+  "removed": [
+    {
+      "id": "SVAL-FIR",
+      "ja": "たんぱんこぞう"
+    },
+    {
+      "id": "SVAL-LIG",
+      "ja": "ネモ"
+    }
+  ]
+}
