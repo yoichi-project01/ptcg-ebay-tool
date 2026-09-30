@@ -1,0 +1,25 @@
+{
+ "30313": {
+  "badge": "XYA",
+  "cards": [
+   {
+    "local": "002",
+    "total": "021",
+    "rarity": "",
+    "jaName": "メガリザードンEX",
+    "cardThumbFile": "/assets/images/card_images/large/XYA/030313_P_MRIZADONEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XYA/030313_P_MRIZADONEX.jpg"
+ },
+ "30333": {
+  "badge": "XYA",
+  "cards": [],
+  "cardThumbFile": "/assets/images/card_images/large/XYA/030333_E_KIHONHONOOENERUGI.jpg"
+ },
+ "30334": {
+  "badge": "XYA",
+  "cards": [],
+  "cardThumbFile": "/assets/images/card_images/large/XYA/030334_E_KIHONAKUENERUGI.jpg"
+ }
+}
