@@ -1,0 +1,33 @@
+{
+ "41175": {
+  "badge": "SN",
+  "cards": [
+   {
+    "local": "023",
+    "total": "024",
+    "rarity": "",
+    "jaName": "博士の研究",
+    "cardThumbFile": "/assets/images/card_images/large/SN/041175_T_HAKASENOKENKIXYUUNANAKAMADOHAKASE.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SN/041175_T_HAKASENOKENKIXYUUNANAKAMADOHAKASE.jpg"
+ },
+ "41176": {
+  "badge": "SN",
+  "cards": [
+   {
+    "local": "024",
+    "total": "024",
+    "rarity": "",
+    "jaName": "ボスの指令",
+    "cardThumbFile": "/assets/images/card_images/large/SN/041176_T_BOSUNOSHIREIAKAGI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SN/041176_T_BOSUNOSHIREIAKAGI.jpg"
+ },
+ "41177": {
+  "badge": "SN",
+  "cards": [],
+  "cardThumbFile": "/assets/images/card_images/large/SN/041177_E_KIHONKAMINARIENERUGI.jpg"
+ }
+}
