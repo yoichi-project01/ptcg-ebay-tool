@@ -58,6 +58,17 @@ async function main() {
       index[key] = rel;
     }
   }
+  // public/cards は .gitignore 対象で PC ごとに中身が違う。画像を同期していない PC で実行すると
+  // 大量のキーが消えたインデックスができてしまう（2026-09-30 に実際に発生）ため、件数が大きく減るときは止める
+  if (!process.argv.includes("--force")) {
+    let prevCount = 0;
+    try { prevCount = Object.keys(JSON.parse(await fs.readFile(OUT, "utf-8"))).length; } catch {}
+    const newCount = Object.keys(index).length;
+    if (prevCount && newCount < prevCount * 0.98) {
+      console.error(`中断: 画像インデックスが ${prevCount} 件 → ${newCount} 件に減ります。public/cards が他の PC と同期されているか確認してください（意図した削除なら --force）。`);
+      process.exit(1);
+    }
+  }
   await fs.writeFile(OUT, JSON.stringify(index), "utf-8");
   const jpgCount = Object.values(index).filter(v => v.endsWith(".jpg")).length;
   const pngCount = Object.values(index).filter(v => v.endsWith(".png")).length;
