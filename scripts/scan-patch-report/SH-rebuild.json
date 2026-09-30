@@ -1,0 +1,168 @@
+{
+  "code": "SH",
+  "ofChange": {
+    "from": 38,
+    "to": 53
+  },
+  "nameChanged": [
+    {
+      "id": "SH-041",
+      "oldJa": "きずぐすり",
+      "newJa": "クラッシュハンマー"
+    },
+    {
+      "id": "SH-042",
+      "oldJa": "クラッシュハンマー",
+      "newJa": "スーパーボール"
+    },
+    {
+      "id": "SH-043",
+      "oldJa": "スーパーボール",
+      "newJa": "ポケモンいれかえ"
+    },
+    {
+      "id": "SH-044",
+      "oldJa": "スーパーボール",
+      "newJa": "ポケモンキャッチャー"
+    },
+    {
+      "id": "SH-045",
+      "oldJa": "スーパーボール",
+      "newJa": "レベルボール"
+    },
+    {
+      "id": "SH-046",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "コック"
+    },
+    {
+      "id": "SH-047",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "サナ"
+    },
+    {
+      "id": "SH-048",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "ジャッジマン"
+    },
+    {
+      "id": "SH-049",
+      "oldJa": "ポケモンキャッチャー",
+      "newJa": "ダンデ"
+    },
+    {
+      "id": "SH-050",
+      "oldJa": "ポケモンキャッチャー",
+      "newJa": "博士の研究"
+    },
+    {
+      "id": "SH-051",
+      "oldJa": "ポケモンキャッチャー",
+      "newJa": "ボスの指令"
+    },
+    {
+      "id": "SH-052",
+      "oldJa": "レベルボール",
+      "newJa": "ホップ"
+    },
+    {
+      "id": "SH-053",
+      "oldJa": "レベルボール",
+      "newJa": "むしとりしょうねん"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SH-041",
+      "ja": "クラッシュハンマー",
+      "hadImage": true
+    },
+    {
+      "id": "SH-042",
+      "ja": "スーパーボール",
+      "hadImage": true
+    },
+    {
+      "id": "SH-043",
+      "ja": "ポケモンいれかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SH-044",
+      "ja": "ポケモンキャッチャー",
+      "hadImage": true
+    },
+    {
+      "id": "SH-045",
+      "ja": "レベルボール",
+      "hadImage": true
+    },
+    {
+      "id": "SH-046",
+      "ja": "コック",
+      "hadImage": true
+    },
+    {
+      "id": "SH-047",
+      "ja": "サナ",
+      "hadImage": true
+    },
+    {
+      "id": "SH-048",
+      "ja": "ジャッジマン",
+      "hadImage": true
+    },
+    {
+      "id": "SH-049",
+      "ja": "ダンデ",
+      "hadImage": true
+    },
+    {
+      "id": "SH-050",
+      "ja": "博士の研究",
+      "hadImage": true
+    },
+    {
+      "id": "SH-051",
+      "ja": "ボスの指令",
+      "hadImage": true
+    },
+    {
+      "id": "SH-052",
+      "ja": "ホップ",
+      "hadImage": true
+    },
+    {
+      "id": "SH-053",
+      "ja": "むしとりしょうねん",
+      "hadImage": true
+    }
+  ],
+  "added": [],
+  "removed": [
+    {
+      "id": "SH-DAR",
+      "ja": "レベルボール"
+    },
+    {
+      "id": "SH-FIG",
+      "ja": "コック"
+    },
+    {
+      "id": "SH-FIR",
+      "ja": "サナ"
+    },
+    {
+      "id": "SH-GRA",
+      "ja": "サナ"
+    },
+    {
+      "id": "SH-LIG",
+      "ja": "サナ"
+    },
+    {
+      "id": "SH-WAT",
+      "ja": "ジャッジマン"
+    }
+  ]
+}
