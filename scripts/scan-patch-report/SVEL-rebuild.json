@@ -1,0 +1,164 @@
+{
+  "code": "SVEL",
+  "nameChanged": [
+    {
+      "id": "SVEL-006",
+      "oldJa": "ホゲータ",
+      "newJa": "アチゲータ"
+    },
+    {
+      "id": "SVEL-007",
+      "oldJa": "アチゲータ",
+      "newJa": "ミュウ"
+    },
+    {
+      "id": "SVEL-008",
+      "oldJa": "アチゲータ",
+      "newJa": "ラウドボーンex"
+    },
+    {
+      "id": "SVEL-009",
+      "oldJa": "ミュウ",
+      "newJa": "スーパーエネルギー回収"
+    },
+    {
+      "id": "SVEL-010",
+      "oldJa": "ラウドボーンex",
+      "newJa": "すごいつりざお"
+    },
+    {
+      "id": "SVEL-011",
+      "oldJa": "スーパーエネルギー回収",
+      "newJa": "ネストボール"
+    },
+    {
+      "id": "SVEL-012",
+      "oldJa": "すごいつりざお",
+      "newJa": "ハイパーボール"
+    },
+    {
+      "id": "SVEL-013",
+      "oldJa": "ネストボール",
+      "newJa": "ふしぎなアメ"
+    },
+    {
+      "id": "SVEL-014",
+      "oldJa": "ハイパーボール",
+      "newJa": "ポケギア3.0"
+    },
+    {
+      "id": "SVEL-015",
+      "oldJa": "ふしぎなアメ",
+      "newJa": "ポケモンいれかえ"
+    },
+    {
+      "id": "SVEL-016",
+      "oldJa": "ポケギア3.0",
+      "newJa": "ナンジャモ"
+    },
+    {
+      "id": "SVEL-017",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "ネモ"
+    },
+    {
+      "id": "SVEL-018",
+      "oldJa": "ナンジャモ",
+      "newJa": "博士の研究"
+    },
+    {
+      "id": "SVEL-019",
+      "oldJa": "ネモ",
+      "newJa": "ボスの指令"
+    },
+    {
+      "id": "SVEL-020",
+      "oldJa": "博士の研究",
+      "newJa": "マグマの滝壺"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SVEL-006",
+      "ja": "アチゲータ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-007",
+      "ja": "ミュウ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-008",
+      "ja": "ラウドボーンex",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-009",
+      "ja": "スーパーエネルギー回収",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-010",
+      "ja": "すごいつりざお",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-011",
+      "ja": "ネストボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-012",
+      "ja": "ハイパーボール",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-013",
+      "ja": "ふしぎなアメ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-014",
+      "ja": "ポケギア3.0",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-015",
+      "ja": "ポケモンいれかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-016",
+      "ja": "ナンジャモ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-017",
+      "ja": "ネモ",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-018",
+      "ja": "博士の研究",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-019",
+      "ja": "ボスの指令",
+      "hadImage": true
+    },
+    {
+      "id": "SVEL-020",
+      "ja": "マグマの滝壺",
+      "hadImage": true
+    }
+  ],
+  "added": [],
+  "removed": [
+    {
+      "id": "SVEL-FIR",
+      "ja": "ボスの指令"
+    }
+  ]
+}
