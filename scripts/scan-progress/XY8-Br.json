@@ -1,0 +1,80 @@
+{
+ "31374": {
+  "badge": "XY8-Br",
+  "cards": [
+   {
+    "local": "006",
+    "total": "059",
+    "rarity": "RR",
+    "jaName": "ブリガロンBREAK",
+    "cardThumbFile": "/assets/images/card_images/legend/XY8-Br/031374_P_BURIGARONBREAK.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/legend/XY8-Br/031374_P_BURIGARONBREAK.jpg"
+ },
+ "31378": {
+  "badge": "XY8-Br",
+  "cards": [
+   {
+    "local": "010",
+    "total": "059",
+    "rarity": "RR",
+    "jaName": "メガヘルガーEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY8-Br/031378_P_MHERUGAEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY8-Br/031378_P_MHERUGAEX.jpg"
+ },
+ "31396": {
+  "badge": "XY8-Br",
+  "cards": [
+   {
+    "local": "028",
+    "total": "059",
+    "rarity": "RR",
+    "jaName": "メガミュウツーEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY8-Br/031396_P_MMYUUTSUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY8-Br/031396_P_MMYUUTSUEX.jpg"
+ },
+ "31404": {
+  "badge": "XY8-Br",
+  "cards": [
+   {
+    "local": "036",
+    "total": "059",
+    "rarity": "RR",
+    "jaName": "ガラガラBREAK",
+    "cardThumbFile": "/assets/images/card_images/legend/XY8-Br/031404_P_GARAGARABREAK.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/legend/XY8-Br/031404_P_GARAGARABREAK.jpg"
+ },
+ "35829": {
+  "badge": "XY8-Br",
+  "cards": [
+   {
+    "local": "061",
+    "total": "059",
+    "rarity": "SR",
+    "jaName": "メガヘルガーEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY8-Br/035829_P_MHERUGAEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY8-Br/035829_P_MHERUGAEX.jpg"
+ },
+ "35831": {
+  "badge": "XY8-Br",
+  "cards": [
+   {
+    "local": "063",
+    "total": "059",
+    "rarity": "SR",
+    "jaName": "メガミュウツーEX",
+    "cardThumbFile": "/assets/images/card_images/large/XY8-Br/035831_P_MMYUUTSUEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/XY8-Br/035831_P_MMYUUTSUEX.jpg"
+ }
+}
