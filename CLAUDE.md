@@ -20,6 +20,22 @@
 
 ---
 
+## 作業環境（2026-10-02〜）
+
+今後の作業はすべてこの PC（1台）で行う。以前のメイン PC は使わない。
+
+| プロジェクト | 場所 |
+|---|---|
+| ptcg-ebay-tool | `D:\product\ptcg-ebay-tool` |
+| カイトリレーダー | `C:\Users\setoy\Documents\psa-kaitori` |
+
+- `public/cards/`（`.gitignore` 対象）はこの PC にすべてそろっている。Git の `src/imageIndex.json` の全20,665件にファイルが
+  あることを 2026-10-02 に確認済み（`node scripts/restore-images-from-index.mjs --verify`）。
+- 今後 PC 間で画像を同期する必要は無い。画像を足したときは従来どおり `node scripts/build-image-index.mjs` で再生成してよい
+  （件数が2%超減る場合は書き込まずに止まる安全装置あり）。
+
+---
+
 ## 現在の状態（2026-08-01時点）
 
 ### 出品作成機能（`src/App.jsx`）
@@ -2053,11 +2069,11 @@ SM-P と同じ方式（`scripts/scrape-promo-sets.mjs`）で残りの世代の�
   再発防止に `build-image-index.mjs` は件数が2%超減る場合に書き込まず止めるようにした（意図した削除は `--force`）。
 
 **残った課題**:
-1. **PC間の画像の同期（要対応）**: S10P/S11/S10a の画像（`public/cards/S/S10P`・`S11`・`S10a`）は作業したPCにしか無い。
-   メインPCへコピーすること。逆に作業したPCの `public/cards/` は古いままなので、メインPCからコピーすること。
+1. ~~PC間の画像の同期~~ → **解消（2026-10-02）**。作業を現在の PC に一本化し、`scripts/restore-images-from-index.mjs` で
+   `public/cards/` を Git の `imageIndex.json` どおりにそろえた（全20,665件そろっていることを確認済み）。上記「作業環境」参照。
 2. **画像なしの81行**: SMB 007-018・SMF 013-020・SMG 013-041（裸 `XY` キー由来の49枚）、PMCG1 082/091・PMCG5 074/091・PMCG6 093、
-   SLD/SLL/SN 各1、SVB/SVD/SVF 各8（大半が `DAR`/`FIG` 等の数字でない型番）。うち81枚すべてについて、作業したPCの古い
-   `public/cards/` に cardData の名前と一致するファイルが残っているが、メインPCのインデックスに一度も入っていない理由
+   SLD/SLL/SN 各1、SVB/SVD/SVF 各8（大半が `DAR`/`FIG` 等の数字でない型番）。うち81枚すべてについて、現在の PC の
+   `public/cards/` に cardData の名前と一致する古いファイルが残っているが、旧メイン PC のインデックスに一度も入っていなかった理由
    （取り損ねか、意図的な削除か）が不明なためインデックスには入れていない。使う場合は画像を確かめてから入れること。
    SVB/SVD/SVF・SLD/SLL/SN の数字でない型番の行は、他セットと同様に検証できない行として削除を検討してよい。
 3. S12a 251-258（基本エネルギーのシークレット8枚）は引き続き未回収（公式に番号なしで掲載）。SM12a 211以降は公式に存在しない。
