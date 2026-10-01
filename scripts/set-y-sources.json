@@ -1,0 +1,220 @@
+{
+ "_about": "cardData.json の弾の発売年（y）の出典。Limitless TCG の日本版一覧（https://limitlesstcg.com/cards/jp、型番で一致）の発売日。PSA の登録年（set-en-sources.json の URL の年）がある弾は一致を確認済み。2026-10-02 調査。fill-set-en-y.mjs が空欄の y にだけ反映する",
+ "SH": {
+  "y": 2021,
+  "date": "2021-07-09",
+  "source": "https://limitlesstcg.com/cards/jp/SH",
+  "psaYear": 2021
+ },
+ "SI": {
+  "y": 2021,
+  "date": "2021-12-17",
+  "source": "https://limitlesstcg.com/cards/jp/SI",
+  "psaYear": 2021
+ },
+ "SJ": {
+  "y": 2021,
+  "date": "2021-11-05",
+  "source": "https://limitlesstcg.com/cards/jp/SJ",
+  "psaYear": 2021
+ },
+ "SK": {
+  "y": 2022,
+  "date": "2022-01-14",
+  "source": "https://limitlesstcg.com/cards/jp/SK"
+ },
+ "SLD": {
+  "y": 2022,
+  "date": "2022-02-25",
+  "source": "https://limitlesstcg.com/cards/jp/SLD",
+  "psaYear": 2022
+ },
+ "SLL": {
+  "y": 2022,
+  "date": "2022-02-25",
+  "source": "https://limitlesstcg.com/cards/jp/SLL",
+  "psaYear": 2022
+ },
+ "SN": {
+  "y": 2022,
+  "date": "2022-03-01",
+  "source": "https://limitlesstcg.com/cards/jp/SN",
+  "psaYear": 2022
+ },
+ "SP5": {
+  "y": 2021,
+  "date": "2021-08-20",
+  "source": "https://limitlesstcg.com/cards/jp/SP5"
+ },
+ "SP6": {
+  "y": 2022,
+  "date": "2022-08-05",
+  "source": "https://limitlesstcg.com/cards/jp/SP6"
+ },
+ "SPD": {
+  "y": 2022,
+  "date": "2022-07-15",
+  "source": "https://limitlesstcg.com/cards/jp/SPD",
+  "psaYear": 2022
+ },
+ "SPZ": {
+  "y": 2022,
+  "date": "2022-07-15",
+  "source": "https://limitlesstcg.com/cards/jp/SPZ",
+  "psaYear": 2022
+ },
+ "SVAL": {
+  "y": 2023,
+  "date": "2023-01-20",
+  "source": "https://limitlesstcg.com/cards/jp/SVAL",
+  "psaYear": 2023
+ },
+ "SVAM": {
+  "y": 2023,
+  "date": "2023-01-20",
+  "source": "https://limitlesstcg.com/cards/jp/SVAM",
+  "psaYear": 2023
+ },
+ "SVAW": {
+  "y": 2023,
+  "date": "2023-01-20",
+  "source": "https://limitlesstcg.com/cards/jp/SVAW",
+  "psaYear": 2023
+ },
+ "SVB": {
+  "y": 2023,
+  "date": "2023-01-20",
+  "source": "https://limitlesstcg.com/cards/jp/SVB",
+  "psaYear": 2023
+ },
+ "SVC": {
+  "y": 2023,
+  "date": "2023-03-24",
+  "source": "https://limitlesstcg.com/cards/jp/SVC",
+  "psaYear": 2023
+ },
+ "SVD": {
+  "y": 2023,
+  "date": "2023-07-07",
+  "source": "https://limitlesstcg.com/cards/jp/SVD",
+  "psaYear": 2023
+ },
+ "SVEL": {
+  "y": 2023,
+  "date": "2023-09-22",
+  "source": "https://limitlesstcg.com/cards/jp/SVEL",
+  "psaYear": 2023
+ },
+ "SVEM": {
+  "y": 2023,
+  "date": "2023-09-22",
+  "source": "https://limitlesstcg.com/cards/jp/SVEM",
+  "psaYear": 2023
+ },
+ "SVF": {
+  "y": 2023,
+  "date": "2023-07-28",
+  "source": "https://limitlesstcg.com/cards/jp/SVF",
+  "psaYear": 2023
+ },
+ "SVHK": {
+  "y": 2024,
+  "date": "2024-01-26",
+  "source": "https://limitlesstcg.com/cards/jp/SVHK",
+  "psaYear": 2024
+ },
+ "SVHM": {
+  "y": 2024,
+  "date": "2024-01-26",
+  "source": "https://limitlesstcg.com/cards/jp/SVHM",
+  "psaYear": 2024
+ },
+ "SVP1": {
+  "y": 2023,
+  "date": "2023-05-19",
+  "source": "https://limitlesstcg.com/cards/jp/SVP1",
+  "psaYear": 2023
+ },
+ "BW1-Bb": {
+  "y": 2010,
+  "date": "2010-12-17",
+  "source": "https://limitlesstcg.com/cards/jp/BW1b"
+ },
+ "BW1-Bw": {
+  "y": 2010,
+  "date": "2010-12-17",
+  "source": "https://limitlesstcg.com/cards/jp/BW1w"
+ },
+ "BW2-B": {
+  "y": 2011,
+  "date": "2011-07-15",
+  "source": "https://limitlesstcg.com/cards/jp/BW2",
+  "psaYear": 2011
+ },
+ "BW3-Bh": {
+  "y": 2011,
+  "date": "2011-09-16",
+  "source": "https://limitlesstcg.com/cards/jp/BW3h",
+  "psaYear": 2011
+ },
+ "BW3-Bp": {
+  "y": 2011,
+  "date": "2011-09-16",
+  "source": "https://limitlesstcg.com/cards/jp/BW3p",
+  "psaYear": 2011
+ },
+ "BW4-B": {
+  "y": 2011,
+  "date": "2011-12-16",
+  "source": "https://limitlesstcg.com/cards/jp/BW4",
+  "psaYear": 2011
+ },
+ "BW5-Brn": {
+  "y": 2012,
+  "date": "2012-03-16",
+  "source": "https://limitlesstcg.com/cards/jp/BW5z",
+  "psaYear": 2012
+ },
+ "BW5-Brz": {
+  "y": 2012,
+  "date": "2012-03-16",
+  "source": "https://limitlesstcg.com/cards/jp/BW5n",
+  "psaYear": 2012
+ },
+ "BW6-Bc": {
+  "y": 2012,
+  "date": "2012-07-13",
+  "source": "https://limitlesstcg.com/cards/jp/BW6c",
+  "psaYear": 2012
+ },
+ "BW6-Bf": {
+  "y": 2012,
+  "date": "2012-07-13",
+  "source": "https://limitlesstcg.com/cards/jp/BW6f",
+  "psaYear": 2012
+ },
+ "BW7-B": {
+  "y": 2012,
+  "date": "2012-09-14",
+  "source": "https://limitlesstcg.com/cards/jp/BW7",
+  "psaYear": 2012
+ },
+ "BW8-Brf": {
+  "y": 2012,
+  "date": "2012-12-14",
+  "source": "https://limitlesstcg.com/cards/jp/BW8f",
+  "psaYear": 2012
+ },
+ "BW8-Brn": {
+  "y": 2012,
+  "date": "2012-12-14",
+  "source": "https://limitlesstcg.com/cards/jp/BW8n",
+  "psaYear": 2012
+ },
+ "BW9-B": {
+  "y": 2013,
+  "date": "2013-03-15",
+  "source": "https://limitlesstcg.com/cards/jp/BW9",
+  "psaYear": 2013
+ }
+}

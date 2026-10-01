@@ -2063,6 +2063,36 @@ SM-P と同じ方式（`scripts/scrape-promo-sets.mjs`）で残りの世代の�
 3. S12a 251-258（基本エネルギーのシークレット8枚）は引き続き未回収（公式に番号なしで掲載）。SM12a 211以降は公式に存在しない。
 4. 番号なしプロモ（勝利の勲章等）、`M-P` 残り91枚、SA/MG の番号衝突などは「未着手・要再分類リスト」のまま。
 
+### 対応（2026-10-02）: 弾の英語名（en）・発売年（y）の補完
+
+別プロジェクトで PSA ラベルの英語の弾名（例: FUSION ARTS）から弾を特定するため、空欄だった en・y を埋めた。
+既存の値は変更していない。全244弾の状況と出典は `scripts/set-en-y-status.tsv`。
+
+- **en は PSA の日本版カードのラベル表記に合わせた**（ユーザー判断）。日本版の弾名の英訳は情報源ごとに違い
+  （例: SM9b は Limitless「Full Metal Force」・Serebii「Full Metal Wall」・PSA「Full Metal Wall」、
+  SM7 は PSA だけ「Sky-Splitting Charisma」）、英語版の商品名（S8＝Fusion Strike 等）も PSA の日本版ラベルとは一致しない。
+  psacard.com はスクリプトから直接開けない（Cloudflare）ため、検索結果に出る PSA のページタイトルで1弾ずつ確認した。
+  159弾を補完、出典 URL は `scripts/set-en-sources.json`。年・"Pokemon Japanese"・世代名・型番の前置きは除き、
+  大文字小文字のみ公式表記に合わせた（Vmax→VMAX、Vstar→VSTAR、SV/M 世代の EX→ex）。
+- **y は Limitless TCG の日本版一覧**（型番で一致）の発売日から37弾を補完。PSA の登録年がある弾はすべて一致。
+  出典は `scripts/set-y-sources.json`。反映は `node scripts/fill-set-en-y.mjs`（空欄にだけ書く）。
+- **en が空欄のまま（36弾）**: PSA で確認できなかった構築済みデッキ等（SK SVLS SVJP XYE XYF XYH 20th SM2p SMA〜SMN の一部 MA M5 MC
+  L2-Sb L2-Sh CPr CPs CPm）、PSA で X/Y・黒/白を分けずに1弾として扱っている XY1-Bx/By・BW1-Bb/Bw（PSA は「2013 Pokemon Japanese XY」
+  「2010 Pokemon Japanese Black & White」）、PSA で年ごとの「Pokemon Japanese Promo」にまとめられている DP-P・DPt-P・L-P、
+  日本語名と食い違いのある SD（下記）。PMCG1/5/6・neo2・VS1・web1 は en が空だが enAlias あり（今回は対象外）。
+- **y が空欄のまま（8弾）**: プロモ（S-P SV-P SM-P XY-P BW-P DP-P DPt-P L-P）。複数年にまたがるため空欄が正しい。
+- **調査中に見つかった既存データの誤り（未修正、要判断）**:
+  - **BW6-Bc / BW6-Bf の ja が逆**: BW6-Bc はホワイトキュレムEX（041）を収録しており、PSA の記録（Cold Flare に White Kyurem EX）・
+    Limitless（BW6c＝Cold Flare）とも「コールドフレア」。cardData は BW6-Bc＝フリーズボルト、BW6-Bf＝コールドフレアになっている。
+    en は収録カードで照合した正しい側（BW6-Bc＝Cold Flare）を入れたため、現状 ja と en が食い違っている。
+  - **MP1 の ja が誤り**: PSA は「MP1-Start Deck 100 Battle Collection Corociao Version」、Limitless も同じ商品。
+    cardData の ja「プロモカードパック第1弾」は誤り（en は PSA の表記を入れた）。
+  - **SD の ja・y が誤りの可能性**: Limitless では SD＝Vスタートデッキ（2020-07-10）、スタートデッキ100（2021-12-17）は SI。
+    cardData の SD は ja「スタートデッキ100」・y 2021。未確認のため en は入れていない。
+  - **既存 y の食い違い**: CP6（cardData 2017／Limitless・PSA 2016）、SMP1（2017／Limitless 2016-12-15、コロコロ2017年1月号付録）。
+  - **既存 en と PSA 表記の違い**: SV8a（cardData「Terastal Festival ex」／PSA「Terastal Fest ex」）、SV2a（「Pokemon 151」／
+    Limitless「Pokémon Card 151」）。既存 en は今回の対象外のため全件は照合していない。
+
 ---
 
 ## ファイル構成
