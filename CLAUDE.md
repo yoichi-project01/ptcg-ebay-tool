@@ -2097,17 +2097,31 @@ SM-P と同じ方式（`scripts/scrape-promo-sets.mjs`）で残りの世代の�
   「2010 Pokemon Japanese Black & White」）、PSA で年ごとの「Pokemon Japanese Promo」にまとめられている DP-P・DPt-P・L-P、
   日本語名と食い違いのある SD（下記）。PMCG1/5/6・neo2・VS1・web1 は en が空だが enAlias あり（今回は対象外）。
 - **y が空欄のまま（8弾）**: プロモ（S-P SV-P SM-P XY-P BW-P DP-P DPt-P L-P）。複数年にまたがるため空欄が正しい。
-- **調査中に見つかった既存データの誤り（未修正、要判断）**:
-  - **BW6-Bc / BW6-Bf の ja が逆**: BW6-Bc はホワイトキュレムEX（041）を収録しており、PSA の記録（Cold Flare に White Kyurem EX）・
-    Limitless（BW6c＝Cold Flare）とも「コールドフレア」。cardData は BW6-Bc＝フリーズボルト、BW6-Bf＝コールドフレアになっている。
-    en は収録カードで照合した正しい側（BW6-Bc＝Cold Flare）を入れたため、現状 ja と en が食い違っている。
-  - **MP1 の ja が誤り**: PSA は「MP1-Start Deck 100 Battle Collection Corociao Version」、Limitless も同じ商品。
-    cardData の ja「プロモカードパック第1弾」は誤り（en は PSA の表記を入れた）。
-  - **SD の ja・y が誤りの可能性**: Limitless では SD＝Vスタートデッキ（2020-07-10）、スタートデッキ100（2021-12-17）は SI。
-    cardData の SD は ja「スタートデッキ100」・y 2021。未確認のため en は入れていない。
-  - **既存 y の食い違い**: CP6（cardData 2017／Limitless・PSA 2016）、SMP1（2017／Limitless 2016-12-15、コロコロ2017年1月号付録）。
-  - **既存 en と PSA 表記の違い**: SV8a（cardData「Terastal Festival ex」／PSA「Terastal Fest ex」）、SV2a（「Pokemon 151」／
-    Limitless「Pokémon Card 151」）。既存 en は今回の対象外のため全件は照合していない。
+- **調査中に見つかった既存データの誤り** → 下記「対応（2026-10-02）: 弾情報の誤りの修正・PSA 表記（psaName）の追加」で修正済み。
+
+### 対応（2026-10-02）: 弾情報の誤りの修正・PSA 表記（psaName）の追加
+
+修正内容と根拠は `scripts/set-data-fixes.json`、PSA 表記と出典は `scripts/set-psa-names.json`。
+反映は `node scripts/apply-set-metadata.mjs`（修正は現在値が想定どおりのときだけ書き換え、再実行しても変化なし）。
+
+- **ja・y の修正（7弾・8件）**:
+  - BW6-Bc の ja を フリーズボルト→**コールドフレア**、BW6-Bf を コールドフレア→**フリーズボルト**（入れ替え）。
+    根拠は収録カード（BW6-Bc 041 ホワイトキュレムEX／BW6-Bf 045 ブラックキュレムEX）と PSA の記録・Limitless。
+  - MP1 の ja を プロモカードパック第1弾→**スタートデッキ100 バトルコレクション コロチャオver.**（PSA・Limitless）。
+  - SD の ja を スタートデッキ100→**Vスタートデッキ**、y を 2021→**2020**。根拠: SD の V ポケモンは9タイプの主役9枚
+    （フシギバナV〜イーブイV）で9種の Vスタートデッキと一致、公式の商品ページ URL が `/ex/sd/`、公式カードID（38273〜38399）が
+    S2a と S3a（2020年7月）のあいだ。あわせて空欄だった SI の ja を **スタートデッキ100** に（PSA の Start Deck 100 の 415番 ピカチュウV と一致）。
+  - CP6 の y を 2017→**2016**、SMP1 の y を 2017→**2016**（PSA の登録年・Limitless の発売日）。
+- **psaName（PSA のラベル表記）を新しい項目として追加（170弾）**: en とは別に持ち、en は変更していない。
+  英語名補完で PSA から入れた159弾に加え、既存の en を持つ弾で PSA と照合できた11弾
+  （S6a S7R S9a S11a S12a SV1V SV2P SV3 SV8a M1L VS1）。SV8a は en「Terastal Festival ex」のまま psaName「Terastal Fest ex」、
+  VS1 は psaName「VS」。PSA で1弾にまとめられている XY1・BW1、年ごとの Promo にまとめられている DP-P・DPt-P・L-P には入れていない。
+- **アプリへの影響**: `src/App.jsx` は psaName を参照しない（弾は型番で引いて en・ja・y などを名前で読むだけ）ため、
+  出品文への影響は無い。en・カード一覧（k）の変更は0件。ja は画面の表示・検索のみ、y はタイトルの発売年と
+  Item Specifics の Year Manufactured に出るため、SD・CP6・SMP1 の出品文の年が正しい値に変わる。
+  未開封セット品タブの商品一覧（`SEALED_PRODUCT_SET_CODES`）は SD を含み、表示名は cardData から引くため
+  「スタートデッキ100」→「Vスタートデッキ」に変わった（スタートデッキ100 の SI は一覧に入っていない）。
+  これにあわせて SD を前提にした `src/App.test.jsx` の期待値2件（ja・発売年）を更新した。
 
 ---
 

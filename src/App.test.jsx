@@ -920,7 +920,8 @@ describe("applySealedProductToForm", () => {
   it("fills setCode/setNameJa/setNameEn from cardData.json for a known sealed product", () => {
     const next = applySealedProductToForm(DEFAULT_FORM, "SD");
     expect(next.setCode).toBe("SD");
-    expect(next.setNameJa).toBe("スタートデッキ100");
+    // SD は Vスタートデッキ（2026-10-02 に収録カードで確認して ja を訂正。スタートデッキ100 は SI）
+    expect(next.setNameJa).toBe("Vスタートデッキ");
   });
 
   it("resets per-listing fields (price, sealed condition) from the previous product", () => {
@@ -954,7 +955,7 @@ describe("buildSealedTitle", () => {
     const f = { ...DEFAULT_FORM, setCode: "SD", setNameEn: "Start Deck 100" };
     const title = buildSealedTitle(f);
     expect(title).toContain("SD");
-    expect(title).toContain("2021"); // SDの発売年（cardData.json）
+    expect(title).toContain("2020"); // SDの発売年（cardData.json。Vスタートデッキは2020-07-10発売）
     expect(title).toContain("Sword & Shield"); // SDのsr="S"のシリーズ英語名
   });
 

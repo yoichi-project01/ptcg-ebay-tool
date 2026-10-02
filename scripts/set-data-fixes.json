@@ -1,0 +1,65 @@
+{
+ "_about": "cardData.json の弾情報（ja / y）の誤りの修正と根拠。apply-set-metadata.mjs が反映する（現在値が from のときだけ書き換え、to になっていれば何もしない）。2026-10-02 調査",
+ "fixes": [
+  {
+   "code": "BW6-Bc", "field": "ja", "from": "フリーズボルト", "to": "コールドフレア",
+   "evidence": [
+    "収録カード: BW6-Bc の 041 がホワイトキュレムEX（ブラックキュレムEX は BW6-Bf の 045）",
+    "PSA: Cold Flare に Full Art/White Kyurem EX が登録 https://www.psacard.com/auctionprices/tcg-cards/2012-pokemon-japanese-black-white-cold-flare/full-art-white-kyurem-ex/summary/2078494",
+    "Limitless: BW6c = Cold Flare（公式サイトの画像フォルダ名 BW6-Bc の c と一致） https://limitlesstcg.com/cards/jp/BW6c"
+   ]
+  },
+  {
+   "code": "BW6-Bf", "field": "ja", "from": "コールドフレア", "to": "フリーズボルト",
+   "evidence": [
+    "収録カード: BW6-Bf の 045 がブラックキュレムEX",
+    "PSA: Freeze Bolt に Full Art/Black Kyurem EX が登録 https://www.psacard.com/auctionprices/tcg-cards/2012-pokemon-japanese-black-white-freeze-bolt/full-art-black-kyurem-ex/1913692",
+    "Limitless: BW6f = Freeze Bolt https://limitlesstcg.com/cards/jp/BW6f"
+   ]
+  },
+  {
+   "code": "MP1", "field": "ja", "from": "プロモカードパック第1弾", "to": "スタートデッキ100 バトルコレクション コロチャオver.",
+   "evidence": [
+    "PSA: 「2025 Pokemon Japanese MP1-Start Deck 100 Battle Collection Corociao Version」（型番 MP1 付きで登録）",
+    "Limitless: MP1 = Starter Decks 100 Battle Collection CoroCiao ver.（2025-12-19） https://limitlesstcg.com/cards/jp/MP1"
+   ]
+  },
+  {
+   "code": "SD", "field": "ja", "from": "スタートデッキ100", "to": "Vスタートデッキ",
+   "evidence": [
+    "収録カード: SD の V ポケモンは 001フシギバナV・015ガオガエンV・024ホエルオーV・028ピカチュウV・038ミュウV・050ルカリオV・059ガラル ヤドランV・073ジュラルドンV・075イーブイV の9枚で、Vスタートデッキ（草・炎・水・雷・超・闘・悪・鋼・無色の9種）と一致",
+    "公式サイト: Vスタートデッキの商品ページは https://www.pokemon-card.com/ex/sd/index.html（URL が SD）。草デッキの主役はフシギバナV、ターフスタジアムを使うと説明（SD の 001 フシギバナV・126 ターフスタジアムと一致）",
+    "公式のカードID: SD は 38273〜38399 で、S2a（2020年4月、〜38246）と S3a（2020年7月10日、38407〜）のあいだ。スタートデッキ100 の SI は 40334〜41015（2021年）",
+    "Limitless: SD = V Starter Decks（2020-07-10）、SI = Starter Decks 100（2021-12-17）"
+   ]
+  },
+  {
+   "code": "SD", "field": "y", "from": 2021, "to": 2020,
+   "evidence": [
+    "Vスタートデッキは 2020-07-10 発売（公式プレスリリース https://prtimes.jp/main/html/rd/p/000000187.000026665.html 、Limitless の SD の発売日も 2020-07-10）"
+   ]
+  },
+  {
+   "code": "SI", "field": "ja", "from": "", "to": "スタートデッキ100",
+   "evidence": [
+    "PSA: 「2021 Pokemon Japanese Sword & Shield Start Deck 100」、415番 Full Art/Pikachu V が登録（SI の 415 はピカチュウV） https://www.psacard.com/pop/tcg-cards/2021/pokemon-japanese-sword-shield-start-deck-100/204941",
+    "Limitless: SI = Starter Decks 100（2021-12-17）",
+    "SD を Vスタートデッキに直したことにあわせて、空欄だった SI の ja を埋めた"
+   ]
+  },
+  {
+   "code": "CP6", "field": "y", "from": 2017, "to": 2016,
+   "evidence": [
+    "PSA: 「2016 Pokemon Japanese Expansion 20th Anniversary」 https://www.psacard.com/auctionprices/tcg-cards/2016-pokemon-japanese-expansion-20th-anniversary/full-art-charizard-ex/2344483",
+    "Limitless: CP6 = 20th Anniversary Pack（2016-09-16） https://limitlesstcg.com/cards/jp/CP6"
+   ]
+  },
+  {
+   "code": "SMP1", "field": "y", "from": 2017, "to": 2016,
+   "evidence": [
+    "PSA: 「2016 Pokemon Japanese Sun & Moon Rockruff Full Power Deck」 https://www.psacard.com/pop/tcg-cards/2016/pokemon-japanese-sun-moon-rockruff-full-power-deck/141927",
+    "Limitless: SMP1 = Rockruff Full Strength Deck（2016-12-15。月刊コロコロコミック2017年1月号の付録で、発売は2016年12月） https://limitlesstcg.com/cards/jp/SMP1"
+   ]
+  }
+ ]
+}
