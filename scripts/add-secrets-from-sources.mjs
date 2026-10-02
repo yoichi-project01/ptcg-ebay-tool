@@ -32,6 +32,8 @@ const arg = (name) => { const i = process.argv.indexOf(name); return i > 0 ? pro
 const SET = arg("--set");
 const FROM = parseInt(arg("--from") || "0", 10);
 const DRY = process.argv.includes("--dry-run");
+// 3つ目の情報源（任意）: ポケカくらぶの弾別一覧ページ（例 https://www.pokeca.net/product-list/680）
+const EXTRA = arg("--extra");
 if (!SET || !FROM) { console.error("使い方: --set <弾> --from <開始番号>"); process.exit(1); }
 
 // 遊々亭の URL の弾名（S8 → s08、S4a → s04a、S1W → s01w）
@@ -45,6 +47,22 @@ export function parseYuyutei(html) {
     const before = html.slice(Math.max(0, m.index - 600), m.index);
     const links = [...before.matchAll(/href="(https:\/\/yuyu-tei\.jp\/sell\/poc\/card\/[^"]+)"/g)];
     out.push({ url: links.length ? links[links.length - 1][1] : null, number: parseInt(m[1], 10), total: m[2], rarity: m[3], name: m[4] });
+  }
+  return out;
+}
+
+// ポケカくらぶの一覧: <span class="goods_name">名前 レアリティ</span> <span class="model_number">…[S8EF129]…
+export function parsePokeca(html) {
+  const out = [];
+  for (const m of html.matchAll(/<span class="goods_name">([^<]*)<\/span>\s*<span class="model_number"><span class="bracket">\[<\/span><span class="model_number_value">([^<]*)<\/span>/g)) {
+    const num = (m[2].match(/(\d+)$/) || [])[1];
+    if (!num) continue;
+    // 名前の前後や括弧注記の隣にレアリティ表記が付く（例「パワータブレット（FUSION）UR」「ミュウVMAX HR（スペシャルアート・FUSION）」）
+    const raw = m[1].trim();
+    const rm = [...raw.matchAll(/(?:^|[^A-Za-z])(SAR|SSR|CSR|CHR|RRR|HR|UR|SR|AR|RR|PR|R|U|C)(?![A-Za-z])/g)];
+    const rarity = rm.length ? rm[rm.length - 1][1] : null;
+    const name = raw.replace(/[（(][^（()）]*[)）]/g, " ").replace(rarity ? new RegExp("(^|[^A-Za-z])" + rarity + "(?![A-Za-z])") : /$^/, "$1").replace(/\s+/g, " ").trim();
+    out.push({ number: parseInt(num, 10), name, rarity, model: m[2] });
   }
   return out;
 }
@@ -100,33 +118,62 @@ async function main() {
   const ytTitle = progress.yuyutei.title;
   if (!ytTitle.includes(`[${SET}]`)) throw new Error(`遊々亭のページが別の弾の可能性: ${ytTitle}`);
 
-  // 照合
+  // 情報源3（任意）: ポケカくらぶの弾別一覧
+  if (EXTRA && progress.pokeca?.url !== EXTRA) {
+    const html = await politeFetch(EXTRA);
+    note(!!html, "ポケカくらぶ");
+    if (!html) throw new Error(`ポケカくらぶのページを取得できません: ${EXTRA}`);
+    const title = (html.match(/<title>([^<]*)/) || [])[1] || "";
+    progress.pokeca = { url: EXTRA, title, entries: parsePokeca(html) };
+    await save(); await politeDelay();
+  }
+  const pk = EXTRA ? progress.pokeca.entries : [];
+
+  // 照合: 番号ごとに、情報源ごとの名前に票を入れ、同じ名前に2票以上集まったものだけ採用する。
+  // レアリティは、レアリティを持つ情報源（遊々亭・ポケカくらぶ）のうち採用した名前を挙げたものの表記がそろう場合だけ使う
+  const tdByNum = new Map(targets.map((c) => [parseInt(c.localId, 10), c]));
+  const nums = [...new Set([...tdByNum.keys(), ...progress.yuyutei.entries.map((e) => e.number), ...pk.map((e) => e.number)])]
+    .filter((n) => n >= FROM).sort((x, y) => x - y);
   const results = [];
-  for (const c of targets) {
-    const n = parseInt(c.localId, 10);
-    const td = progress.tcgdexCards[c.localId];
+  for (const n of nums) {
+    const c = tdByNum.get(n);
+    const td = c ? (progress.tcgdexCards[c.localId] || { name: c.name }) : null;
     const yt = progress.yuyutei.entries.filter((e) => e.number === n);
+    const pe = pk.filter((e) => e.number === n);
     const id = `${SET}-${String(n).padStart(3, "0")}`;
-    const r = { cardId: id, number: n, tcgdex: { name: td?.name ?? c.name, rarityClass: td?.rarity ?? null, url: `${TCGDEX}/cards/${SET}-${c.localId}` },
-      yuyutei: yt.map((e) => ({ name: e.name, rarity: e.rarity, total: e.total, url: e.url })) };
-    const ytNames = [...new Set(yt.map((e) => normName(e.name)))];
-    const ytRar = [...new Set(yt.map((e) => e.rarity))];
+    const r = { cardId: id, number: n,
+      tcgdex: td ? { name: td.name, rarityClass: td.rarity ?? null, url: `${TCGDEX}/cards/${SET}-${c.localId}` } : null,
+      yuyutei: yt.map((e) => ({ name: e.name, rarity: e.rarity, total: e.total, url: e.url })),
+      ...(EXTRA ? { pokeca: pe.map((e) => ({ name: e.name, rarity: e.rarity, model: e.model, url: EXTRA })) } : {}) };
+    // 各情報源の名前（1情報源の中で名前が割れていれば、その情報源は票を入れない）
+    const votes = new Map();
+    const vote = (src, names) => { const u = [...new Set(names.map(normName))]; if (u.length === 1) votes.set(u[0], [...(votes.get(u[0]) || []), src]); };
+    if (td) vote("TCGdex", [td.name]);
+    if (yt.length) vote("遊々亭", yt.map((e) => e.name));
+    if (pe.length) vote("ポケカくらぶ", pe.map((e) => e.name));
+    const ranked = [...votes].sort((x, y) => y[1].length - x[1].length);
+    const top = ranked[0];
     if (have.has(n)) r.status = "既に cardData にある";
-    else if (!yt.length) r.status = "遊々亭に無い";
-    else if (ytNames.length > 1 || ytRar.length > 1) r.status = "遊々亭の中で名前・レアリティが割れている";
-    else if (yt[0].total !== String(set.of).padStart(yt[0].total.length, "0") && parseInt(yt[0].total, 10) !== set.of) r.status = `総数が違う（遊々亭 ${yt[0].total} / cardData ${set.of}）`;
-    else if (ytNames[0] !== normName(r.tcgdex.name)) r.status = "名前が一致しない";
-    else { r.status = "一致"; r.add = { local: String(n).padStart(3, "0"), ja: r.tcgdex.name, rarity: ytRar[0] }; }
+    else if (!top || top[1].length < 2) r.status = "2つ以上の情報源で一致する名前が無い";
+    else if (ranked[1] && ranked[1][1].length === top[1].length) r.status = "票が割れている";
+    else {
+      const rar = [...new Set([...yt.filter((e) => normName(e.name) === top[0]).map((e) => e.rarity), ...pe.filter((e) => normName(e.name) === top[0]).map((e) => e.rarity)].filter(Boolean))];
+      const totals = [...new Set(yt.map((e) => parseInt(e.total, 10)))];
+      if (rar.length !== 1) r.status = rar.length ? "レアリティが割れている" : "レアリティの情報が無い";
+      else if (totals.length && !totals.includes(set.of)) r.status = `総数が違う（遊々亭 ${totals.join("/")} / cardData ${set.of}）`;
+      else {
+        const ja = td && normName(td.name) === top[0] ? td.name : (yt.find((e) => normName(e.name) === top[0])?.name.replace(/[（(][^（()）]*[)）]\s*$/, "") ?? pe.find((e) => normName(e.name) === top[0]).name);
+        r.status = "一致"; r.agreedBy = top[1]; r.add = { local: String(n).padStart(3, "0"), ja, rarity: rar[0] };
+      }
+    }
+    if (!r.add && !have.has(n)) r.candidates = ranked.map(([name, srcs]) => ({ name, sources: srcs }));
     results.push(r);
   }
-  // 遊々亭にあって TCGdex に無い番号も記録する
-  const tdNums = new Set(targets.map((c) => parseInt(c.localId, 10)));
-  const ytOnly = [...new Set(progress.yuyutei.entries.filter((e) => e.number >= FROM && !tdNums.has(e.number) && !have.has(e.number)).map((e) => e.number))];
 
-  for (const r of results) console.log(`${r.cardId}\t${r.status}\tTCGdex「${r.tcgdex.name}」\t遊々亭「${r.yuyutei.map((e) => `${e.rarity} ${e.name}`).join(" / ")}」`);
-  if (ytOnly.length) console.log(`遊々亭にだけある番号: ${ytOnly.join(", ")}`);
+  for (const r of results) console.log(`${r.cardId}\t${r.status}${r.agreedBy ? "（" + r.agreedBy.join("・") + "）" : ""}\tTCGdex「${r.tcgdex?.name ?? "-"}」\t遊々亭「${r.yuyutei.map((e) => `${e.rarity} ${e.name}`).join(" / ")}」${EXTRA ? `\tポケカくらぶ「${r.pokeca.map((e) => `${e.rarity ?? ""} ${e.name}`).join(" / ")}」` : ""}`);
   const toAdd = results.filter((r) => r.add);
-  console.log(`追加: ${toAdd.length} 枚 / 追加しない: ${results.length - toAdd.length} 枚${DRY ? "（dry-run）" : ""}`);
+  const held = results.filter((r) => !r.add && !have.has(r.number));
+  console.log(`追加: ${toAdd.length} 枚 / 保留: ${held.length} 枚${DRY ? "（dry-run）" : ""}`);
   if (DRY) return;
 
   // 画像（TCGdex に画像があるものだけ）
@@ -154,10 +201,19 @@ async function main() {
   set.k.sort((a, b) => (parseInt(a[0], 10) || 0) - (parseInt(b[0], 10) || 0));
   fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
 
-  const report = { set: SET, checkedAt: new Date().toISOString(), sources: { tcgdex: `${TCGDEX}/sets/${SET}`, yuyutei: progress.yuyutei.url },
-    rule: "番号と名前が TCGdex と遊々亭で一致したものだけ追加。レアリティは遊々亭の表記", results, yuyuteiOnly: ytOnly };
-  fs.writeFileSync(path.join(OUT_DIR, `${SET}.json`), JSON.stringify(report, null, 1) + "\n");
-  fs.writeFileSync(path.join(OUT_DIR, `${SET}-added-card-ids.txt`), toAdd.map((r) => r.cardId).join("\n") + (toAdd.length ? "\n" : ""));
+  const reportPath = path.join(OUT_DIR, `${SET}.json`);
+  const prev = readJson(reportPath, { results: [] });
+  const merged = new Map(prev.results.map((x) => [x.cardId, x]));
+  for (const x of results) if (!(x.status === "既に cardData にある" && merged.has(x.cardId))) merged.set(x.cardId, x);
+  const report = { set: SET, checkedAt: new Date().toISOString(),
+    sources: { tcgdex: `${TCGDEX}/sets/${SET}`, yuyutei: progress.yuyutei.url, ...(EXTRA || prev.sources?.pokeca ? { pokeca: EXTRA || prev.sources.pokeca } : {}) },
+    rule: "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+    results: [...merged.values()].sort((x, y) => x.number - y.number) };
+  fs.writeFileSync(reportPath, JSON.stringify(report, null, 1) + "\n");
+  const idsPath = path.join(OUT_DIR, `${SET}-added-card-ids.txt`);
+  const ids = new Set(fs.existsSync(idsPath) ? fs.readFileSync(idsPath, "utf8").split(/\r?\n/).filter(Boolean) : []);
+  for (const r of toAdd) ids.add(r.cardId);
+  fs.writeFileSync(idsPath, [...ids].sort().join("\n") + (ids.size ? "\n" : ""));
   console.log(`cardData に ${toAdd.length} 枚追加。根拠: scripts/secret-sources/${SET}.json`);
 }
 
