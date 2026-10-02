@@ -1,0 +1,360 @@
+{
+ "set": "S8",
+ "checkedAt": "2026-10-02T01:33:09.192Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S8",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s08"
+ },
+ "rule": "番号と名前が TCGdex と遊々亭で一致したものだけ追加。レアリティは遊々亭の表記",
+ "results": [
+  {
+   "cardId": "S8-116",
+   "number": 116,
+   "tcgdex": {
+    "name": "シャンデラVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-116"
+   },
+   "yuyutei": [
+    {
+     "name": "シャンデラVMAX(エラー版：目の外側の線あり)",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10116"
+    },
+    {
+     "name": "シャンデラVMAX(通常版：目の外側の線無し)",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10131"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "116",
+    "ja": "シャンデラVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-117",
+   "number": 117,
+   "tcgdex": {
+    "name": "パルスワンVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-117"
+   },
+   "yuyutei": [
+    {
+     "name": "パルスワンVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10117"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "117",
+    "ja": "パルスワンVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-118",
+   "number": 118,
+   "tcgdex": {
+    "name": "ミュウVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-118"
+   },
+   "yuyutei": [
+    {
+     "name": "ミュウVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10118"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "118",
+    "ja": "ミュウVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-119",
+   "number": 119,
+   "tcgdex": {
+    "name": "ミュウVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-119"
+   },
+   "yuyutei": [
+    {
+     "name": "ミュウVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10119"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "119",
+    "ja": "ミュウVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-120",
+   "number": 120,
+   "tcgdex": {
+    "name": "ヨクバリスVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-120"
+   },
+   "yuyutei": [
+    {
+     "name": "ヨクバリスVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10120"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "120",
+    "ja": "ヨクバリスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-121",
+   "number": 121,
+   "tcgdex": {
+    "name": "カゲツ",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-121"
+   },
+   "yuyutei": [
+    {
+     "name": "カゲツ",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10121"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "121",
+    "ja": "カゲツ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-122",
+   "number": 122,
+   "tcgdex": {
+    "name": "カミツレのきらめき",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-122"
+   },
+   "yuyutei": [
+    {
+     "name": "カミツレのきらめき",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10122"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "122",
+    "ja": "カミツレのきらめき",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-123",
+   "number": 123,
+   "tcgdex": {
+    "name": "ダンサー",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-123"
+   },
+   "yuyutei": [
+    {
+     "name": "ダンサー",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10123"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "123",
+    "ja": "ダンサー",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-124",
+   "number": 124,
+   "tcgdex": {
+    "name": "ポッドとデントとコーン",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-124"
+   },
+   "yuyutei": [
+    {
+     "name": "ポッドとデントとコーン",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10124"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "124",
+    "ja": "ポッドとデントとコーン",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-125",
+   "number": 125,
+   "tcgdex": {
+    "name": "モココ",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-125"
+   },
+   "yuyutei": [
+    {
+     "name": "モココ",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10125"
+    }
+   ],
+   "status": "一致",
+   "add": {
+    "local": "125",
+    "ja": "モココ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8-126",
+   "number": 126,
+   "tcgdex": {
+    "name": "トレーニングコート",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-126"
+   },
+   "yuyutei": [
+    {
+     "name": "パワータブレット",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10126"
+    }
+   ],
+   "status": "名前が一致しない"
+  },
+  {
+   "cardId": "S8-127",
+   "number": 127,
+   "tcgdex": {
+    "name": "基本草エネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-127"
+   },
+   "yuyutei": [
+    {
+     "name": "トレーニングコート",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10127"
+    }
+   ],
+   "status": "名前が一致しない"
+  },
+  {
+   "cardId": "S8-128",
+   "number": 128,
+   "tcgdex": {
+    "name": "基本炎エネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-128"
+   },
+   "yuyutei": [
+    {
+     "name": "基本草エネルギー",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10128"
+    }
+   ],
+   "status": "名前が一致しない"
+  },
+  {
+   "cardId": "S8-129",
+   "number": 129,
+   "tcgdex": {
+    "name": "パワータブレット",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8-129"
+   },
+   "yuyutei": [
+    {
+     "name": "基本炎エネルギー",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08/10129"
+    }
+   ],
+   "status": "名前が一致しない"
+  }
+ ],
+ "yuyuteiOnly": []
+}
