@@ -1,0 +1,257 @@
+{
+ "set": "S1H",
+ "checkedAt": "2026-10-03T14:46:43.364Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S1H",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s01h",
+  "pokeca": "https://www.pokeca.net/product-list/531"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S1H-069",
+   "number": 69,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "モルペコVMAX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01h/10069"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "モルペコVMAX",
+     "rarity": "HR",
+     "model": "S1HD069",
+     "url": "https://www.pokeca.net/product-list/531"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "069",
+    "ja": "モルペコVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1H-070",
+   "number": 70,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "カビゴンVMAX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01h/10070"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カビゴンVMAX",
+     "rarity": "HR",
+     "model": "S1HD070",
+     "url": "https://www.pokeca.net/product-list/531"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "070",
+    "ja": "カビゴンVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1H-071",
+   "number": 71,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "エール団のしたっぱ",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01h/10071"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エール団のしたっぱ",
+     "rarity": "HR",
+     "model": "S1HD071",
+     "url": "https://www.pokeca.net/product-list/531"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "071",
+    "ja": "エール団のしたっぱ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1H-072",
+   "number": 72,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "マリィ",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01h/10072"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マリィ",
+     "rarity": "HR",
+     "model": "S1HD072",
+     "url": "https://www.pokeca.net/product-list/531"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "072",
+    "ja": "マリィ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1H-073",
+   "number": 73,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ザマゼンタV",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01h/10073"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ザマゼンタV",
+     "rarity": "UR",
+     "model": "S1HD073",
+     "url": "https://www.pokeca.net/product-list/531"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "073",
+    "ja": "ザマゼンタV",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1H-074",
+   "number": 74,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "クイックボール",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01h/10074"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "クイックボール",
+     "rarity": "UR",
+     "model": "S1HD074",
+     "url": "https://www.pokeca.net/product-list/531"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "074",
+    "ja": "クイックボール",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1H-075",
+   "number": 75,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "メタルソーサー",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01h/10075"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "メタルソーサー",
+     "rarity": "UR",
+     "model": "S1HD075",
+     "url": "https://www.pokeca.net/product-list/531"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "075",
+    "ja": "メタルソーサー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
