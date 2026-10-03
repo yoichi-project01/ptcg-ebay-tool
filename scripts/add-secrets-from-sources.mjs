@@ -48,7 +48,8 @@ const NO_RARITY_MARK = process.argv.includes("--no-rarity-mark");
 export const yuyuteiSlug = (code) => code.toLowerCase().replace(/^s(\d)(?=\D|$)/, "s0$1");
 // 末尾の括弧注記（エラー版・通常版など）と表記ゆれを除いて比べる
 // 末尾の注記（エラー版・通常版・[マグノリア博士] など）を外した名前。cardData（公式サイトの表記）も注記なしで登録している
-export const stripNote = (s) => (s || "").replace(/(\s*([（(][^（()）]*[)）]|\[[^\]]*\]))+\s*$/, "").trim();
+// 店舗の状態注記（例「【裏面微キズ有】ソルガレオGX」）も先頭の【】ごと外す
+export const stripNote = (s) => (s || "").replace(/^(\s*【[^】]*】)+/, "").replace(/(\s*([（(][^（()）]*[)）]|\[[^\]]*\]))+\s*$/, "").trim();
 export const normName = (s) => stripNote((s || "").normalize("NFKC")).replace(/\s+/g, "");
 export function parseYuyutei(html) {
   // 各カードは「<a href=カードページ>…<img alt="番号/総数 レアリティ 名前">」。説明文を起点に、直前のカードページのリンクを拾う
