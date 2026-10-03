@@ -1,0 +1,292 @@
+{
+ "set": "S2a",
+ "checkedAt": "2026-10-03T14:46:47.514Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S2a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s02a",
+  "pokeca": "https://www.pokeca.net/product-list/556"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S2a-079",
+   "number": 79,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "バタフリーVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s02a/10079"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "バタフリーVMAX",
+     "rarity": "HR",
+     "model": "S2AB079",
+     "url": "https://www.pokeca.net/product-list/556"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "079",
+    "ja": "バタフリーVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S2a-080",
+   "number": 80,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "マルヤクデVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s02a/10080"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マルヤクデVMAX",
+     "rarity": "HR",
+     "model": "S2AB080",
+     "url": "https://www.pokeca.net/product-list/556"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "080",
+    "ja": "マルヤクデVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S2a-081",
+   "number": 81,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "サーナイトVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s02a/10081"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "サーナイトVMAX",
+     "rarity": "HR",
+     "model": "S2AB081",
+     "url": "https://www.pokeca.net/product-list/556"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "081",
+    "ja": "サーナイトVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S2a-082",
+   "number": 82,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "カブ",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s02a/10082"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カブ",
+     "rarity": "HR",
+     "model": "S2AB082",
+     "url": "https://www.pokeca.net/product-list/556"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "082",
+    "ja": "カブ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S2a-083",
+   "number": 83,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ポケモンブリーダーの育成",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s02a/10083"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ポケモンブリーダーの育成",
+     "rarity": "HR",
+     "model": "S2AB083",
+     "url": "https://www.pokeca.net/product-list/556"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "083",
+    "ja": "ポケモンブリーダーの育成",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S2a-084",
+   "number": 84,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ゴリランダー",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s02a/10084"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゴリランダー",
+     "rarity": "UR",
+     "model": "S2AB084",
+     "url": "https://www.pokeca.net/product-list/556"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "084",
+    "ja": "ゴリランダー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S2a-085",
+   "number": 85,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "妖しいカンヅメ",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s02a/10085"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "妖しいカンヅメ",
+     "rarity": "UR",
+     "model": "S2AB085",
+     "url": "https://www.pokeca.net/product-list/556"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "085",
+    "ja": "妖しいカンヅメ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S2a-086",
+   "number": 86,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ビッグパラソル",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s02a/10086"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ビッグパラソル",
+     "rarity": "UR",
+     "model": "S2AB086",
+     "url": "https://www.pokeca.net/product-list/556"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "086",
+    "ja": "ビッグパラソル",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
