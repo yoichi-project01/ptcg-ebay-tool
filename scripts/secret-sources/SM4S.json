@@ -40,12 +40,17 @@
    ],
    "add": {
     "local": "056",
-    "ja": "アローラゴローニャGX",
+    "ja": "アローラ ゴローニャGX",
     "rarity": "HR"
    },
    "image": {
     "source": null,
     "note": "TCGdex に画像なし"
+   },
+   "nameAdjusted": {
+    "from": "アローラゴローニャGX",
+    "to": "アローラ ゴローニャGX",
+    "basis": "SM4S-018（公式 details.php）の表記"
    }
   },
   {
