@@ -1,0 +1,502 @@
+{
+ "set": "S6a",
+ "checkedAt": "2026-10-03T14:46:55.395Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S6a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s06a",
+  "pokeca": "https://www.pokeca.net/product-list/651"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S6a-088",
+   "number": 88,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "リーフィアVMAX",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10088"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "リーフィアVMAX",
+     "rarity": "HR",
+     "model": "S6AI088",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "088",
+    "ja": "リーフィアVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-089",
+   "number": 89,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "リーフィアVMAX",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10089"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "リーフィアVMAX",
+     "rarity": "HR",
+     "model": "S6AI089",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "089",
+    "ja": "リーフィアVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-090",
+   "number": 90,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "グレイシアVMAX",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10090"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "グレイシアVMAX",
+     "rarity": "HR",
+     "model": "S6AI090",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "090",
+    "ja": "グレイシアVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-091",
+   "number": 91,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "グレイシアVMAX",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10091"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "グレイシアVMAX",
+     "rarity": "HR",
+     "model": "S6AI091",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "091",
+    "ja": "グレイシアVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-092",
+   "number": 92,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ニンフィアVMAX",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10092"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ニンフィアVMAX",
+     "rarity": "HR",
+     "model": "S6AI092",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "092",
+    "ja": "ニンフィアVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-093",
+   "number": 93,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ニンフィアVMAX",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10093"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ニンフィアVMAX",
+     "rarity": "HR",
+     "model": "S6AI093",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "093",
+    "ja": "ニンフィアVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-094",
+   "number": 94,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ブラッキーVMAX",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10094"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ブラッキーVMAX",
+     "rarity": "HR",
+     "model": "S6AI094",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "094",
+    "ja": "ブラッキーVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-095",
+   "number": 95,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ブラッキーVMAX",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10095"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ブラッキーVMAX",
+     "rarity": "HR",
+     "model": "S6AI095",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "095",
+    "ja": "ブラッキーVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-096",
+   "number": 96,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "アロマなおねえさん",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10096"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "アロマなおねえさん",
+     "rarity": "HR",
+     "model": "S6AI096",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "096",
+    "ja": "アロマなおねえさん",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-097",
+   "number": 97,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "マクワ",
+     "rarity": "HR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10097"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マクワ",
+     "rarity": "HR",
+     "model": "S6AI097",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "097",
+    "ja": "マクワ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-098",
+   "number": 98,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "インテレオン",
+     "rarity": "UR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10098"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "インテレオン",
+     "rarity": "UR",
+     "model": "S6AI098",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "098",
+    "ja": "インテレオン",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-099",
+   "number": 99,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ぐんぐんシェイク",
+     "rarity": "UR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10099"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ぐんぐんシェイク",
+     "rarity": "UR",
+     "model": "S6AI099",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "099",
+    "ja": "ぐんぐんシェイク",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-100",
+   "number": 100,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ターフスタジアム",
+     "rarity": "UR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10100"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ターフスタジアム",
+     "rarity": "UR",
+     "model": "S6AI100",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "100",
+    "ja": "ターフスタジアム",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6a-101",
+   "number": 101,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "基本悪エネルギー",
+     "rarity": "UR",
+     "total": "069",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06a/10101"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "基本悪エネルギー",
+     "rarity": "UR",
+     "model": "S6AI101",
+     "url": "https://www.pokeca.net/product-list/651"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "101",
+    "ja": "基本悪エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
