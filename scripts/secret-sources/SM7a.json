@@ -1,0 +1,292 @@
+{
+ "set": "SM7a",
+ "checkedAt": "2026-10-03T16:36:51.439Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM7a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm07a",
+  "pokeca": "https://www.pokeca.net/product-list/313"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM7a-067",
+   "number": 67,
+   "tcgdex": {
+    "name": "ビリジオンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7a-067"
+   },
+   "yuyutei": [
+    {
+     "name": "ビリジオンGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07a/10067"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ビリジオンGX",
+     "rarity": "HR",
+     "model": "SM7a067",
+     "url": "https://www.pokeca.net/product-list/313"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "067",
+    "ja": "ビリジオンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7a-068",
+   "number": 68,
+   "tcgdex": {
+    "name": "マグカルゴGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7a-068"
+   },
+   "yuyutei": [
+    {
+     "name": "マグカルゴGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07a/10068"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マグカルゴGX",
+     "rarity": "HR",
+     "model": "SM7a068",
+     "url": "https://www.pokeca.net/product-list/313"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "068",
+    "ja": "マグカルゴGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7a-069",
+   "number": 69,
+   "tcgdex": {
+    "name": "ゼラオラGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7a-069"
+   },
+   "yuyutei": [
+    {
+     "name": "ゼラオラGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07a/10069"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゼラオラGX",
+     "rarity": "HR",
+     "model": "SM7a069",
+     "url": "https://www.pokeca.net/product-list/313"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "069",
+    "ja": "ゼラオラGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7a-070",
+   "number": 70,
+   "tcgdex": {
+    "name": "ゲノセクトGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7a-070"
+   },
+   "yuyutei": [
+    {
+     "name": "ゲノセクトGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07a/10070"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゲノセクトGX",
+     "rarity": "HR",
+     "model": "SM7a070",
+     "url": "https://www.pokeca.net/product-list/313"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "070",
+    "ja": "ゲノセクトGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7a-071",
+   "number": 71,
+   "tcgdex": {
+    "name": "エレキパワー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7a-071"
+   },
+   "yuyutei": [
+    {
+     "name": "エレキパワー",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07a/10071"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エレキパワー",
+     "rarity": "UR",
+     "model": "SM7a071",
+     "url": "https://www.pokeca.net/product-list/313"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "071",
+    "ja": "エレキパワー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7a-072",
+   "number": 72,
+   "tcgdex": {
+    "name": "カスタムキャッチャー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7a-072"
+   },
+   "yuyutei": [
+    {
+     "name": "カスタムキャッチャー",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07a/10072"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カスタムキャッチャー",
+     "rarity": "UR",
+     "model": "SM7a072",
+     "url": "https://www.pokeca.net/product-list/313"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "072",
+    "ja": "カスタムキャッチャー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7a-073",
+   "number": 73,
+   "tcgdex": {
+    "name": "カウンターゲイン",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7a-073"
+   },
+   "yuyutei": [
+    {
+     "name": "カウンターゲイン",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07a/10073"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カウンターゲイン",
+     "rarity": "UR",
+     "model": "SM7a073",
+     "url": "https://www.pokeca.net/product-list/313"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "073",
+    "ja": "カウンターゲイン",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
