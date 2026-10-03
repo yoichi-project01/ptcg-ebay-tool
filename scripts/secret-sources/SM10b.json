@@ -40,12 +40,17 @@
    ],
    "add": {
     "local": "063",
-    "ja": "モクロー&アローラナッシーGX",
+    "ja": "モクロー&アローラ ナッシーGX",
     "rarity": "HR"
    },
    "image": {
     "source": null,
     "note": "TCGdex に画像なし"
+   },
+   "nameAdjusted": {
+    "from": "モクロー&アローラナッシーGX",
+    "to": "モクロー&アローラ ナッシーGX",
+    "basis": "SM10b-001（公式 details.php）の表記"
    }
   },
   {
