@@ -1,0 +1,292 @@
+{
+ "set": "SM8b",
+ "checkedAt": "2026-10-03T16:39:35.899Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM8b",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm08b",
+  "pokeca": "https://www.pokeca.net/product-list/357"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM8b-244",
+   "number": 244,
+   "tcgdex": {
+    "name": "カプ・ブルルGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8b-244"
+   },
+   "yuyutei": [
+    {
+     "name": "カプ・ブルルGX",
+     "rarity": "UR",
+     "total": "150",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08b/10369"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カプ・ブルルGX",
+     "rarity": "UR",
+     "model": "SM8B244",
+     "url": "https://www.pokeca.net/product-list/357"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "244",
+    "ja": "カプ・ブルルGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8b-245",
+   "number": 245,
+   "tcgdex": {
+    "name": "カプ・レヒレGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8b-245"
+   },
+   "yuyutei": [
+    {
+     "name": "カプ・レヒレGX",
+     "rarity": "UR",
+     "total": "150",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08b/10370"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カプ・レヒレGX",
+     "rarity": "UR",
+     "model": "SM8B245",
+     "url": "https://www.pokeca.net/product-list/357"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "245",
+    "ja": "カプ・レヒレGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8b-246",
+   "number": 246,
+   "tcgdex": {
+    "name": "カプ・コケコGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8b-246"
+   },
+   "yuyutei": [
+    {
+     "name": "カプ・コケコGX",
+     "rarity": "UR",
+     "total": "150",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08b/10371"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カプ・コケコGX",
+     "rarity": "UR",
+     "model": "SM8B246",
+     "url": "https://www.pokeca.net/product-list/357"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "246",
+    "ja": "カプ・コケコGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8b-247",
+   "number": 247,
+   "tcgdex": {
+    "name": "カプ・テテフGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8b-247"
+   },
+   "yuyutei": [
+    {
+     "name": "カプ・テテフGX",
+     "rarity": "UR",
+     "total": "150",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08b/10372"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カプ・テテフGX",
+     "rarity": "UR",
+     "model": "SM8B247",
+     "url": "https://www.pokeca.net/product-list/357"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "247",
+    "ja": "カプ・テテフGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8b-248",
+   "number": 248,
+   "tcgdex": {
+    "name": "ルナアーラGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8b-248"
+   },
+   "yuyutei": [
+    {
+     "name": "ルナアーラGX",
+     "rarity": "UR",
+     "total": "150",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08b/10373"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ルナアーラGX",
+     "rarity": "UR",
+     "model": "SM8B248",
+     "url": "https://www.pokeca.net/product-list/357"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "248",
+    "ja": "ルナアーラGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8b-249",
+   "number": 249,
+   "tcgdex": {
+    "name": "ソルガレオGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8b-249"
+   },
+   "yuyutei": [
+    {
+     "name": "ソルガレオGX",
+     "rarity": "UR",
+     "total": "150",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08b/10374"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ソルガレオGX",
+     "rarity": "UR",
+     "model": "SM8B249",
+     "url": "https://www.pokeca.net/product-list/357"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "249",
+    "ja": "ソルガレオGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8b-250",
+   "number": 250,
+   "tcgdex": {
+    "name": "ウルトラネクロズマGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8b-250"
+   },
+   "yuyutei": [
+    {
+     "name": "ウルトラネクロズマGX",
+     "rarity": "UR",
+     "total": "150",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08b/10375"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ウルトラネクロズマGX",
+     "rarity": "UR",
+     "model": "SM8B250",
+     "url": "https://www.pokeca.net/product-list/357"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "250",
+    "ja": "ウルトラネクロズマGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
