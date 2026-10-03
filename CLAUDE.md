@@ -2169,6 +2169,24 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
   弾を作り直した後は `--only` を使うこと。全体の作り直しでも既存キーの2%超の指す先が変わる場合は止まる。
   `resume-rebuild.sh` も `--only` を使うよう変更済み。
 
+### 対応（2026-10-04）: ハイクラスパック THE BEST OF XY（XY-BEST）の追加
+
+- **弾コード `XY-BEST`（codeAlias `XY`、sr `XY`、y 2017、発売 2017-04-21）**: 公式の記号（details.php の img-regulation alt・画像フォルダ）は
+  「XY」だが、同じ「XY」は SMB/SMF/SMG の再録（/020・/041）や構築済みデッキ（/048）とも共通で区別できないため、
+  S8a-G/S8a-P と同じ「記号＋ハイフン＋区別」の形にした。SNKRDUNK も「XY-BEST 187/171」と表記している。
+  en・psaName は PSA の「The Best of XY」（https://www.psacard.com/pop/tcg-cards/2017/pokemon-japanese-best-xy/143894）。
+- **001〜186 は公式 details.php で確認**（`scrape-missing-sets.mjs`、公式一覧の「XY」キーの cardID 33553〜33851 と 35873〜35887、計314件。
+  リバースホロは同じ番号・同じ名前の別 cardID なので1行にまとめた）。画像186枚。レアリティのアイコンは全件無い（カードにマークが無い弾）ため空欄。
+- **187 イベルタルEX・188 シェイミEX は公式に無い**ため、遊々亭（https://yuyu-tei.jp/sell/poc/s/hp）とポケカくらぶ
+  （https://www.pokeca.net/product-list/449?page=4、型番 XYHC187/188）の一致で追加（画像なし）。根拠は `scripts/secret-sources/XY-BEST.json`。
+  `add-secrets-from-sources.mjs` に `--no-tcgdex`（TCGdex に弾が無い）・`--yuyutei-slug`（遊々亭の弾名が弾コードと違う）・
+  `--no-rarity-mark`（マークの無い弾。店舗の「UR」等は使わずレアリティ空）を追加し、遊々亭のレアリティ欄「-」も読めるようにした。
+- 遊々亭の 001〜188 と名前を突き合わせ、違いは「メガ〜」/「M〜」、「（フレア団ギア）」の有無の表記ゆれ16件のみ。
+- card_id: 全188件 `scripts/secret-sources/XY-BEST-all-added-card-ids.txt`（うち公式以外の情報源で追加した2件は `XY-BEST-added-card-ids.txt`）。
+- **副次的な発見（未対応）**: 公式一覧の「XY」キーに SV-P 223〜231・M-P 056〜065 の cardID（46997〜47005・49623〜49632）が入っていた。
+  SV-P の作り直しでは 223〜231 を「公式にページ無し」の欠番としていたが、実際にはページがある（例 46997＝223 トレーナーズポスト）。
+  SV-P・M-P の補完は別タスク。
+
 ---
 
 ## ファイル構成

@@ -333,6 +333,17 @@ const TARGET_SETS = [
   { code: "S8a-G", sourceCacheKeys: ["S8a-G"], ja: "25th ANNIVERSARY GOLDEN BOX", sr: "S", y: 2021, codeAlias: "S8a-G", excludeCardIds: ["41679"] },
   { code: "S8a-P", sourceCacheKeys: [], ja: "プロモカードパック 25th ANNIVERSARY edition", sr: "S", y: 2021, codeAlias: "S8a-P",
     extraCardIds: Array.from({ length: 25 }, (_, i) => String(50753 + i)) },
+  // 2026-10-04: ハイクラスパック THE BEST OF XY（2017-04-21発売、Bulbapedia・tcgcollector）。
+  // 公式の記号（details.php の img-regulation alt・画像フォルダ）は「XY」だが、同じ「XY」の記号は
+  // SMB/SMF/SMG の再録カード（/020・/041）や構築済みデッキ（/048）とも共通で、記号だけでは弾を区別できない。
+  // このため弾コードは S8a-G・S8a-P と同じ「記号＋ハイフン＋区別」の形で XY-BEST とし、型番表示は codeAlias で XY にする。
+  // 公式一覧（official-card-scan.json）の「XY」キーのうち、details.php で /171 と確認した cardID
+  // 33553〜33851（001〜171、リバースホロは同じ番号で別 cardID）と 35873〜35887（172〜186）を指定する
+  { code: "XY-BEST", sourceCacheKeys: [], ja: "ハイクラスパック THE BEST OF XY", sr: "XY", y: 2017, codeAlias: "XY",
+    extraCardIds: [
+      ...Array.from({ length: 33851 - 33553 + 1 }, (_, i) => String(33553 + i)),
+      ...Array.from({ length: 35887 - 35873 + 1 }, (_, i) => String(35873 + i)),
+    ] },
 ];
 
 export function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }

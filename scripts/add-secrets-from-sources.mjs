@@ -36,6 +36,11 @@ const DRY = process.argv.includes("--dry-run");
 const EXTRA = arg("--extra");
 // ポケカくらぶの型番の先頭が弾コードと違う場合に指定（例: S8a は S825）
 const EXTRA_PREFIX = (arg("--extra-prefix") || SET).toUpperCase();
+// 遊々亭の弾名が弾コードから作れない場合に指定（例: XY-BEST は hp）
+const YUYUTEI_SLUG = arg("--yuyutei-slug");
+// TCGdex に弾が無い場合（例: XY-BEST）は使わない。遊々亭とポケカくらぶの2つで照合する
+const NO_TCGDEX = process.argv.includes("--no-tcgdex");
+const NO_RARITY_MARK = process.argv.includes("--no-rarity-mark");
 if (!SET || !FROM) { console.error("使い方: --set <弾> --from <開始番号>"); process.exit(1); }
 
 // 遊々亭の URL の弾名（S8 → s08、S4a → s04a、S1W → s01w）
@@ -47,10 +52,11 @@ export const normName = (s) => stripNote((s || "").normalize("NFKC")).replace(/\
 export function parseYuyutei(html) {
   // 各カードは「<a href=カードページ>…<img alt="番号/総数 レアリティ 名前">」。説明文を起点に、直前のカードページのリンクを拾う
   const out = [];
-  for (const m of html.matchAll(/alt="(\d+)\/(\d+) ([A-Za-z]+) ([^"]*)"/g)) {
+  // レアリティの欄は、マークの無いカードでは「-」（例: XY-BEST「187/171 - イベルタルEX(UR仕様)」）。その場合は rarity を空にする
+  for (const m of html.matchAll(/alt="(\d+)\/(\d+) ([A-Za-z]+|-) ([^"]*)"/g)) {
     const before = html.slice(Math.max(0, m.index - 600), m.index);
     const links = [...before.matchAll(/href="(https:\/\/yuyu-tei\.jp\/sell\/poc\/card\/[^"]+)"/g)];
-    out.push({ url: links.length ? links[links.length - 1][1] : null, number: parseInt(m[1], 10), total: m[2], rarity: m[3], name: m[4] });
+    out.push({ url: links.length ? links[links.length - 1][1] : null, number: parseInt(m[1], 10), total: m[2], rarity: m[3] === "-" ? "" : m[3], name: m[4] });
   }
   return out;
 }
@@ -92,6 +98,7 @@ async function main() {
   const have = new Set(set.k.map((r) => parseInt(r[0], 10)));
 
   // 情報源1: TCGdex の弾の一覧と、対象番号のカード詳細（画像・レアリティ分類の記録用）
+  if (NO_TCGDEX) progress.tcgdexSet = { total: null, cards: [], skipped: true };
   if (!progress.tcgdexSet) {
     const text = await politeFetch(`${TCGDEX}/sets/${SET}`);
     note(!!text, "TCGdex 弾一覧");
@@ -111,7 +118,7 @@ async function main() {
 
   // 情報源2: 遊々亭の販売ページ（弾の全カードが1ページにある）
   if (!progress.yuyutei) {
-    const url = `${YUYUTEI}/${yuyuteiSlug(SET)}`;
+    const url = `${YUYUTEI}/${YUYUTEI_SLUG || yuyuteiSlug(SET)}`;
     const html = await politeFetch(url);
     note(!!html, "遊々亭");
     if (!html) throw new Error(`遊々亭のページを取得できません: ${url}`);
@@ -120,7 +127,7 @@ async function main() {
     await save(); await politeDelay();
   }
   const ytTitle = progress.yuyutei.title;
-  if (!ytTitle.includes(`[${SET}]`)) throw new Error(`遊々亭のページが別の弾の可能性: ${ytTitle}`);
+  if (!ytTitle.includes(`[${(YUYUTEI_SLUG || SET).toUpperCase()}]`) && !ytTitle.includes(`[${SET}]`)) throw new Error(`遊々亭のページが別の弾の可能性: ${ytTitle}`);
 
   // 情報源3（任意）: ポケカくらぶの弾別一覧
   if (EXTRA && progress.pokeca?.url !== EXTRA) {
@@ -165,7 +172,9 @@ async function main() {
     else if (!top || top[1].length < 2) r.status = "2つ以上の情報源で一致する名前が無い";
     else if (ranked[1] && ranked[1][1].length === top[1].length) r.status = "票が割れている";
     else {
-      const rar = [...new Set([...yt.filter((e) => normName(e.name) === top[0]).map((e) => e.rarity), ...pe.filter((e) => normName(e.name) === top[0]).map((e) => e.rarity)].filter(Boolean))];
+      // --no-rarity-mark: カードにレアリティマークが無い弾（公式 details.php に全件レアリティのアイコンが無いことを確認したもの。例: XY-BEST）。
+      // 店舗の「UR」「SR仕様」などは販売上の区分なので使わず、レアリティは空で登録する
+      const rar = NO_RARITY_MARK ? [""] : [...new Set([...yt.filter((e) => normName(e.name) === top[0]).map((e) => e.rarity), ...pe.filter((e) => normName(e.name) === top[0]).map((e) => e.rarity)].filter(Boolean))];
       const totals = [...new Set(yt.map((e) => parseInt(e.total, 10)))];
       if (rar.length !== 1) r.status = rar.length ? "レアリティが割れている" : "レアリティの情報が無い";
       else if (totals.length && !totals.includes(set.of)) r.status = `総数が違う（遊々亭 ${totals.join("/")} / cardData ${set.of}）`;

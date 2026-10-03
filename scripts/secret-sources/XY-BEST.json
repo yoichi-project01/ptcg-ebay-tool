@@ -1,0 +1,82 @@
+{
+ "set": "XY-BEST",
+ "checkedAt": "2026-10-03T16:04:48.129Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/XY-BEST",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/hp",
+  "pokeca": "https://www.pokeca.net/product-list/449?page=4"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "XY-BEST-187",
+   "number": 187,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "イベルタルEX(UR仕様)",
+     "rarity": "",
+     "total": "171",
+     "url": "https://yuyu-tei.jp/sell/poc/card/hp/10315"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "イベルタルEX",
+     "rarity": "UR",
+     "model": "XYHC187",
+     "url": "https://www.pokeca.net/product-list/449?page=4"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "187",
+    "ja": "イベルタルEX",
+    "rarity": ""
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "XY-BEST-188",
+   "number": 188,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "シェイミEX(UR仕様)",
+     "rarity": "",
+     "total": "171",
+     "url": "https://yuyu-tei.jp/sell/poc/card/hp/10316"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "シェイミEX",
+     "rarity": "UR",
+     "model": "XYHC188",
+     "url": "https://www.pokeca.net/product-list/449?page=4"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "188",
+    "ja": "シェイミEX",
+    "rarity": ""
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
