@@ -1,0 +1,292 @@
+{
+ "set": "SM9b",
+ "checkedAt": "2026-10-03T16:41:14.353Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM9b",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm09b",
+  "pokeca": "https://www.pokeca.net/product-list/391"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM9b-063",
+   "number": 63,
+   "tcgdex": {
+    "name": "フェローチェ&マッシブーンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9b-063"
+   },
+   "yuyutei": [
+    {
+     "name": "フェローチェ＆マッシブーンGX",
+     "rarity": "HR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09b/10063"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "フェローチェ＆マッシブーンGX",
+     "rarity": "HR",
+     "model": "SM9bF63",
+     "url": "https://www.pokeca.net/product-list/391"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "063",
+    "ja": "フェローチェ&マッシブーンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9b-064",
+   "number": 64,
+   "tcgdex": {
+    "name": "カメックスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9b-064"
+   },
+   "yuyutei": [
+    {
+     "name": "カメックスGX",
+     "rarity": "HR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09b/10064"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カメックスGX",
+     "rarity": "HR",
+     "model": "SM9bF64",
+     "url": "https://www.pokeca.net/product-list/391"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "064",
+    "ja": "カメックスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9b-065",
+   "number": 65,
+   "tcgdex": {
+    "name": "ルカリオ&メルメタルGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9b-065"
+   },
+   "yuyutei": [
+    {
+     "name": "ルカリオ＆メルメタルGX",
+     "rarity": "HR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09b/10065"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ルカリオ＆メルメタルGX",
+     "rarity": "HR",
+     "model": "SM9bF65",
+     "url": "https://www.pokeca.net/product-list/391"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "065",
+    "ja": "ルカリオ&メルメタルGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9b-066",
+   "number": 66,
+   "tcgdex": {
+    "name": "テッカグヤGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9b-066"
+   },
+   "yuyutei": [
+    {
+     "name": "テッカグヤGX",
+     "rarity": "HR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09b/10066"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "テッカグヤGX",
+     "rarity": "HR",
+     "model": "SM9bF66",
+     "url": "https://www.pokeca.net/product-list/391"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "066",
+    "ja": "テッカグヤGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9b-067",
+   "number": 67,
+   "tcgdex": {
+    "name": "ビーストブリンガー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9b-067"
+   },
+   "yuyutei": [
+    {
+     "name": "ビーストブリンガー",
+     "rarity": "UR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09b/10067"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ビーストブリンガー",
+     "rarity": "UR",
+     "model": "SM9bF67",
+     "url": "https://www.pokeca.net/product-list/391"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "067",
+    "ja": "ビーストブリンガー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9b-068",
+   "number": 68,
+   "tcgdex": {
+    "name": "メタルコアバリア",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9b-068"
+   },
+   "yuyutei": [
+    {
+     "name": "メタルコアバリア",
+     "rarity": "UR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09b/10068"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "メタルコアバリア",
+     "rarity": "UR",
+     "model": "SM9bF68",
+     "url": "https://www.pokeca.net/product-list/391"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "068",
+    "ja": "メタルコアバリア",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9b-069",
+   "number": 69,
+   "tcgdex": {
+    "name": "テンガン山",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9b-069"
+   },
+   "yuyutei": [
+    {
+     "name": "テンガン山",
+     "rarity": "UR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09b/10069"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "テンガン山",
+     "rarity": "UR",
+     "model": "SM9bF69",
+     "url": "https://www.pokeca.net/product-list/391"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "069",
+    "ja": "テンガン山",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
