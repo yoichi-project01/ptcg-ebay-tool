@@ -1,0 +1,292 @@
+{
+ "set": "S1a",
+ "checkedAt": "2026-10-03T14:46:44.973Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S1a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s01a",
+  "pokeca": "https://www.pokeca.net/product-list/538"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S1a-079",
+   "number": 79,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ゴリランダーVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01a/10079"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゴリランダーVMAX",
+     "rarity": "HR",
+     "model": "S1AV079",
+     "url": "https://www.pokeca.net/product-list/538"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "079",
+    "ja": "ゴリランダーVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1a-080",
+   "number": 80,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "エースバーンVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01a/10080"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エースバーンVMAX",
+     "rarity": "HR",
+     "model": "S1AV080",
+     "url": "https://www.pokeca.net/product-list/538"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "080",
+    "ja": "エースバーンVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1a-081",
+   "number": 81,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "インテレオンVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01a/10081"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "インテレオンVMAX",
+     "rarity": "HR",
+     "model": "S1AV081",
+     "url": "https://www.pokeca.net/product-list/538"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "081",
+    "ja": "インテレオンVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1a-082",
+   "number": 82,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ソニア",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01a/10082"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ソニア",
+     "rarity": "HR",
+     "model": "S1AV082",
+     "url": "https://www.pokeca.net/product-list/538"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "082",
+    "ja": "ソニア",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1a-083",
+   "number": 83,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ヤロー",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01a/10083"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ヤロー",
+     "rarity": "HR",
+     "model": "S1AV083",
+     "url": "https://www.pokeca.net/product-list/538"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "083",
+    "ja": "ヤロー",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1a-084",
+   "number": 84,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "モスノウ",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01a/10084"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "モスノウ",
+     "rarity": "UR",
+     "model": "S1AV084",
+     "url": "https://www.pokeca.net/product-list/538"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "084",
+    "ja": "モスノウ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1a-085",
+   "number": 85,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "大きなおまもり",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01a/10085"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "大きなおまもり",
+     "rarity": "UR",
+     "model": "S1AV085",
+     "url": "https://www.pokeca.net/product-list/538"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "085",
+    "ja": "大きなおまもり",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1a-086",
+   "number": 86,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ツインエネルギー",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01a/10086"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ツインエネルギー",
+     "rarity": "UR",
+     "model": "S1AV086",
+     "url": "https://www.pokeca.net/product-list/538"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "086",
+    "ja": "ツインエネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
