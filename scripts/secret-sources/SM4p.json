@@ -1,0 +1,188 @@
+{
+ "set": "SM4p",
+ "checkedAt": "2026-10-03T16:32:25.256Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM4%2B",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm04plus",
+  "pokeca": "https://www.pokeca.net/product-list/220"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM4p-121",
+   "number": 121,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "フェローチェGX",
+     "rarity": "HR",
+     "total": "114",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04plus/10121"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "フェローチェGX",
+     "rarity": "HR",
+     "model": "SM4+121",
+     "url": "https://www.pokeca.net/product-list/220"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "121",
+    "ja": "フェローチェGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4p-122",
+   "number": 122,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "デンジュモクGX",
+     "rarity": "HR",
+     "total": "114",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04plus/10122"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "デンジュモクGX",
+     "rarity": "HR",
+     "model": "SM4+122",
+     "url": "https://www.pokeca.net/product-list/220"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "122",
+    "ja": "デンジュモクGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4p-123",
+   "number": 123,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "テッカグヤGX",
+     "rarity": "HR",
+     "total": "114",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04plus/10123"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "テッカグヤGX",
+     "rarity": "HR",
+     "model": "SM4+123",
+     "url": "https://www.pokeca.net/product-list/220"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "123",
+    "ja": "テッカグヤGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4p-124",
+   "number": 124,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ルナアーラGX",
+     "rarity": "UR",
+     "total": "114",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04plus/10124"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ルナアーラGX",
+     "rarity": "UR",
+     "model": "SM4+124",
+     "url": "https://www.pokeca.net/product-list/220"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "124",
+    "ja": "ルナアーラGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4p-125",
+   "number": 125,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ソルガレオGX",
+     "rarity": "UR",
+     "total": "114",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04plus/10125"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "【裏面微キズ有】ソルガレオGX",
+     "rarity": "UR",
+     "model": "SM4+125",
+     "url": "https://www.pokeca.net/product-list/220"
+    },
+    {
+     "name": "ソルガレオGX",
+     "rarity": "UR",
+     "model": "SM4+125",
+     "url": "https://www.pokeca.net/product-list/220"
+    }
+   ],
+   "status": "2つ以上の情報源で一致する名前が無い",
+   "candidates": [
+    {
+     "name": "ソルガレオGX",
+     "sources": [
+      "遊々亭"
+     ]
+    }
+   ]
+  }
+ ]
+}
