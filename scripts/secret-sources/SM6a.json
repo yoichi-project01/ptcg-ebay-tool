@@ -1,0 +1,292 @@
+{
+ "set": "SM6a",
+ "checkedAt": "2026-10-03T16:34:52.434Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM6a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm06a",
+  "pokeca": "https://www.pokeca.net/product-list/290"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM6a-060",
+   "number": 60,
+   "tcgdex": {
+    "name": "レシラムGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6a-060"
+   },
+   "yuyutei": [
+    {
+     "name": "レシラムGX",
+     "rarity": "HR",
+     "total": "053",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06a/10060"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "レシラムGX",
+     "rarity": "HR",
+     "model": "SM6a060",
+     "url": "https://www.pokeca.net/product-list/290"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "060",
+    "ja": "レシラムGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6a-061",
+   "number": 61,
+   "tcgdex": {
+    "name": "キングドラGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6a-061"
+   },
+   "yuyutei": [
+    {
+     "name": "キングドラGX",
+     "rarity": "HR",
+     "total": "053",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06a/10061"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "キングドラGX",
+     "rarity": "HR",
+     "model": "SM6a061",
+     "url": "https://www.pokeca.net/product-list/290"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "061",
+    "ja": "キングドラGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6a-062",
+   "number": 62,
+   "tcgdex": {
+    "name": "カイリューGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6a-062"
+   },
+   "yuyutei": [
+    {
+     "name": "カイリューGX",
+     "rarity": "HR",
+     "total": "053",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06a/10062"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カイリューGX",
+     "rarity": "HR",
+     "model": "SM6a062",
+     "url": "https://www.pokeca.net/product-list/290"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "062",
+    "ja": "カイリューGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6a-063",
+   "number": 63,
+   "tcgdex": {
+    "name": "ホワイトキュレムGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6a-063"
+   },
+   "yuyutei": [
+    {
+     "name": "ホワイトキュレムGX",
+     "rarity": "HR",
+     "total": "053",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06a/10063"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ホワイトキュレムGX",
+     "rarity": "HR",
+     "model": "SM6a063",
+     "url": "https://www.pokeca.net/product-list/290"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "063",
+    "ja": "ホワイトキュレムGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6a-064",
+   "number": 64,
+   "tcgdex": {
+    "name": "いれかえフロート",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6a-064"
+   },
+   "yuyutei": [
+    {
+     "name": "いれかえフロート",
+     "rarity": "UR",
+     "total": "053",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06a/10064"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "いれかえフロート",
+     "rarity": "UR",
+     "model": "SM6a064",
+     "url": "https://www.pokeca.net/product-list/290"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "064",
+    "ja": "いれかえフロート",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6a-065",
+   "number": 65,
+   "tcgdex": {
+    "name": "火打石",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6a-065"
+   },
+   "yuyutei": [
+    {
+     "name": "火打石",
+     "rarity": "UR",
+     "total": "053",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06a/10065"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "火打石",
+     "rarity": "UR",
+     "model": "SM6a065",
+     "url": "https://www.pokeca.net/product-list/290"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "065",
+    "ja": "火打石",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6a-066",
+   "number": 66,
+   "tcgdex": {
+    "name": "竜の鉤爪",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6a-066"
+   },
+   "yuyutei": [
+    {
+     "name": "竜の鉤爪",
+     "rarity": "UR",
+     "total": "053",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06a/10066"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "竜の鉤爪",
+     "rarity": "UR",
+     "model": "SM6a066",
+     "url": "https://www.pokeca.net/product-list/290"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "066",
+    "ja": "竜の鉤爪",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
