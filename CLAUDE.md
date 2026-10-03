@@ -2187,6 +2187,25 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
   SV-P の作り直しでは 223〜231 を「公式にページ無し」の欠番としていたが、実際にはページがある（例 46997＝223 トレーナーズポスト）。
   SV-P・M-P の補完は別タスク。
 
+### 対応（2026-10-04）: SM 世代のシークレット（HR・UR）を公式以外の情報源の照合で補完・S8a-G の psaName
+
+- **SM 本弾・強化拡張パック・ハイクラスパック35弾（SM1S〜SM12a）で、公式 details.php に無い総数超えのシークレット 266枚を追加**
+  （S 世代と同じ方式。`scripts/run-sm-secrets.sh` → `add-secrets-from-sources.mjs`、弾ごとにコミット、画像なし）。
+  情報源は TCGdex（SM 世代はカード名あり・画像なし。強化拡張パックは `SM1+` 等でカードデータ無し）・遊々亭（`sm01s`/`sm01plus` 等）・
+  ポケカくらぶ（SM シリーズ拡張パック一覧 product-list/735 配下、型番の先頭は弾ごとに違う: SM6K・SM7R・SM8C・SM8aD・SM9T 等）。
+  レアリティは遊々亭とポケカくらぶの表記（HR・UR 等）。保留0件。
+  弾別: SM1S 7・SM1M 7・SM1p 10・SM2K 7・SM2L 7・SM2p 9・SM3H 7・SM3N 7・SM3p 5・SM4S 7・SM4A 7・SM4p 5・SM5S 6・SM5M 6・SM5p 7・
+  SM6 8・SM6a 7・SM6b 9・SM7 8・SM7a 7・SM7b 7・SM8 8・SM8a 7・SM8b 7・SM9 9・SM9a 7・SM9b 7・SM10 9・SM10a 7・SM10b 7・
+  SM11 9・SM11a 7・SM11b 7・SM12 9・SM12a 16（211〜226、221 ピカチュウ&ゼクロムGX・222 ミュウツー&ミュウGX 等）。
+  card_id は `scripts/secret-sources/sm-added-card-ids.txt`、件数は `sm-summary.json`、根拠は `{弾}.json`。
+- **名前は同じ弾の公式表記にそろえた**（`fix-secret-name-spelling.mjs`、10件）: 店舗・TCGdex の「アローラベトベトンGX」→公式「アローラ ベトベトンGX」など
+  空白の違い9件と、SM6-110「ユニットエネルギー闘悪妖」→「ユニットエネルギー闘悪フェアリー」（SM6-094 の公式表記）。変更は根拠ファイルの `nameAdjusted` に記録。
+- **`add-secrets-from-sources.mjs` の改善**: ポケカくらぶの全ページ読み込み、`--tcgdex-id`、遊々亭の「[SM1+]」表記、
+  店舗の状態注記（「【裏面微キズ有】ソルガレオGX」）を名前の比較で外す（SM4p-125 が票割れで保留になっていた）。
+- **S8a-G の psaName を「Asia 25th Anniversary Promo」に**: PSA はゴールデンボックスのカードを中国語版などと同じ
+  「2021 Pokemon Asia 25th Anniversary Promo」にまとめ、カードごとの欄に「Golden Box-Japanese」と記載している（`set-psa-names.json` の note）。en は空欄のまま。
+- **作業中の注意**: VS Code の git 連携が `.git/index` を掴み「Unable to write new index file」が頻発したため、`run-sm-secrets.sh` は git 操作をやり直す。
+
 ---
 
 ## ファイル構成
