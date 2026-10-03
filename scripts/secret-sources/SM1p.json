@@ -1,0 +1,362 @@
+{
+ "set": "SM1p",
+ "checkedAt": "2026-10-03T16:28:18.404Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM1%2B",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm01plus",
+  "pokeca": "https://www.pokeca.net/product-list/135"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM1p-059",
+   "number": 59,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ジュナイパーGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10059"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ジュナイパーGX",
+     "rarity": "HR",
+     "model": "SM1+059",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "059",
+    "ja": "ジュナイパーGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1p-060",
+   "number": 60,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ガオガエンGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10060"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ガオガエンGX",
+     "rarity": "HR",
+     "model": "SM1+060",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "060",
+    "ja": "ガオガエンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1p-061",
+   "number": 61,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "アシレーヌGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10061"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "アシレーヌGX",
+     "rarity": "HR",
+     "model": "SM1+061",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "061",
+    "ja": "アシレーヌGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1p-062",
+   "number": 62,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "クワガノンGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10062"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "クワガノンGX",
+     "rarity": "HR",
+     "model": "SM1+062",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "062",
+    "ja": "クワガノンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1p-063",
+   "number": 63,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ドヒドイデGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10063"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ドヒドイデGX",
+     "rarity": "HR",
+     "model": "SM1+063",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "063",
+    "ja": "ドヒドイデGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1p-064",
+   "number": 64,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ニンフィアGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10064"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ニンフィアGX",
+     "rarity": "HR",
+     "model": "SM1+064",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "064",
+    "ja": "ニンフィアGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1p-065",
+   "number": 65,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ジジーロンGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10065"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ジジーロンGX",
+     "rarity": "HR",
+     "model": "SM1+065",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "065",
+    "ja": "ジジーロンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1p-066",
+   "number": 66,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ふしぎなアメ",
+     "rarity": "UR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10066"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ふしぎなアメ",
+     "rarity": "UR",
+     "model": "SM1+066",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "066",
+    "ja": "ふしぎなアメ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1p-067",
+   "number": 67,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ダブル無色エネルギー",
+     "rarity": "UR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10067"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ダブル無色エネルギー",
+     "rarity": "UR",
+     "model": "SM1+067",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "067",
+    "ja": "ダブル無色エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1p-068",
+   "number": 68,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "基本草エネルギー",
+     "rarity": "UR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01plus/10068"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "基本草エネルギー",
+     "rarity": "UR",
+     "model": "SM1+068",
+     "url": "https://www.pokeca.net/product-list/135"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "068",
+    "ja": "基本草エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
