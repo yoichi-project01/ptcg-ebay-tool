@@ -1,0 +1,379 @@
+{
+ "set": "SM6",
+ "checkedAt": "2026-10-03T16:34:11.621Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM6",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm06",
+  "pokeca": "https://www.pokeca.net/product-list/281"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM6-103",
+   "number": 103,
+   "tcgdex": {
+    "name": "ゲッコウガGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6-103"
+   },
+   "yuyutei": [
+    {
+     "name": "ゲッコウガGX(通常版:表面加工あり)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10103"
+    },
+    {
+     "name": "ゲッコウガGX(エラー版:表面加工なし)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10114"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゲッコウガGX",
+     "rarity": "HR",
+     "model": "SM6K103",
+     "url": "https://www.pokeca.net/product-list/281"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "103",
+    "ja": "ゲッコウガGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6-104",
+   "number": 104,
+   "tcgdex": {
+    "name": "ジガルデGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6-104"
+   },
+   "yuyutei": [
+    {
+     "name": "ジガルデGX(通常版:表面加工あり)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10104"
+    },
+    {
+     "name": "ジガルデGX(エラー版:表面加工なし)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10115"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ジガルデGX",
+     "rarity": "HR",
+     "model": "SM6K104",
+     "url": "https://www.pokeca.net/product-list/281"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "104",
+    "ja": "ジガルデGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6-105",
+   "number": 105,
+   "tcgdex": {
+    "name": "イベルタルGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6-105"
+   },
+   "yuyutei": [
+    {
+     "name": "イベルタルGX(通常版:表面加工あり)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10105"
+    },
+    {
+     "name": "イベルタルGX(エラー版:表面加工なし)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10116"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "イベルタルGX",
+     "rarity": "HR",
+     "model": "SM6K105",
+     "url": "https://www.pokeca.net/product-list/281"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "105",
+    "ja": "イベルタルGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6-106",
+   "number": 106,
+   "tcgdex": {
+    "name": "ゼルネアスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6-106"
+   },
+   "yuyutei": [
+    {
+     "name": "ゼルネアスGX(通常版:表面加工あり)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10106"
+    },
+    {
+     "name": "ゼルネアスGX(エラー版:表面加工なし)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10117"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゼルネアスGX",
+     "rarity": "HR",
+     "model": "SM6K106",
+     "url": "https://www.pokeca.net/product-list/281"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "106",
+    "ja": "ゼルネアスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6-107",
+   "number": 107,
+   "tcgdex": {
+    "name": "ウルトラネクロズマGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6-107"
+   },
+   "yuyutei": [
+    {
+     "name": "ウルトラネクロズマGX(通常版:表面加工あり)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10107"
+    },
+    {
+     "name": "ウルトラネクロズマGX(エラー版:表面加工なし)",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10118"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ウルトラネクロズマGX",
+     "rarity": "HR",
+     "model": "SM6K107",
+     "url": "https://www.pokeca.net/product-list/281"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "107",
+    "ja": "ウルトラネクロズマGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6-108",
+   "number": 108,
+   "tcgdex": {
+    "name": "エネポーター",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6-108"
+   },
+   "yuyutei": [
+    {
+     "name": "エネポーター(通常版:表面加工あり)",
+     "rarity": "UR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10108"
+    },
+    {
+     "name": "エネポーター(エラー版:表面加工なし)",
+     "rarity": "UR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10119"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エネポーター",
+     "rarity": "UR",
+     "model": "SM6K108",
+     "url": "https://www.pokeca.net/product-list/281"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "108",
+    "ja": "エネポーター",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6-109",
+   "number": 109,
+   "tcgdex": {
+    "name": "ミステリートレジャー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6-109"
+   },
+   "yuyutei": [
+    {
+     "name": "ミステリートレジャー(通常版:表面加工あり)",
+     "rarity": "UR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10109"
+    },
+    {
+     "name": "ミステリートレジャー(エラー版:表面加工なし)",
+     "rarity": "UR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10120"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ミステリートレジャー",
+     "rarity": "UR",
+     "model": "SM6K109",
+     "url": "https://www.pokeca.net/product-list/281"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "109",
+    "ja": "ミステリートレジャー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6-110",
+   "number": 110,
+   "tcgdex": {
+    "name": "ユニットエネルギー闘悪妖",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6-110"
+   },
+   "yuyutei": [
+    {
+     "name": "ユニットエネルギー闘悪妖(通常版:表面加工あり)",
+     "rarity": "UR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10110"
+    },
+    {
+     "name": "ユニットエネルギー闘悪妖(エラー版:表面加工なし)",
+     "rarity": "UR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06/10121"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ユニットエネルギー闘悪フェアリー",
+     "rarity": "UR",
+     "model": "SM6K110",
+     "url": "https://www.pokeca.net/product-list/281"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "110",
+    "ja": "ユニットエネルギー闘悪妖",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
