@@ -120,12 +120,17 @@
    ],
    "add": {
     "local": "059",
-    "ja": "アローラキュウコンGX",
+    "ja": "アローラ キュウコンGX",
     "rarity": "HR"
    },
    "image": {
     "source": null,
     "note": "TCGdex に画像なし"
+   },
+   "nameAdjusted": {
+    "from": "アローラキュウコンGX",
+    "to": "アローラ キュウコンGX",
+    "basis": "SM7b-025（公式 details.php）の表記"
    }
   },
   {
