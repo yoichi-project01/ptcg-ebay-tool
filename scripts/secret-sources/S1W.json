@@ -1,0 +1,257 @@
+{
+ "set": "S1W",
+ "checkedAt": "2026-10-03T14:46:41.816Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S1W",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s01w",
+  "pokeca": "https://www.pokeca.net/product-list/530"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S1W-069",
+   "number": 69,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ラプラスVMAX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01w/10069"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ラプラスＶMAX",
+     "rarity": "HR",
+     "model": "S1WD069",
+     "url": "https://www.pokeca.net/product-list/530"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "069",
+    "ja": "ラプラスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1W-070",
+   "number": 70,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "イシヘンジンVMAX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01w/10070"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "イシヘンジンVMAX",
+     "rarity": "HR",
+     "model": "S1WD070",
+     "url": "https://www.pokeca.net/product-list/530"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "070",
+    "ja": "イシヘンジンVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1W-071",
+   "number": 71,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "博士の研究[マグノリア博士]",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01w/10071"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "博士の研究",
+     "rarity": "HR",
+     "model": "S1WD071",
+     "url": "https://www.pokeca.net/product-list/530"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "071",
+    "ja": "博士の研究",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1W-072",
+   "number": 72,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ビート",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01w/10072"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ビート",
+     "rarity": "HR",
+     "model": "S1WD072",
+     "url": "https://www.pokeca.net/product-list/530"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "072",
+    "ja": "ビート",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1W-073",
+   "number": 73,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ザシアンV",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01w/10073"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ザシアンV",
+     "rarity": "UR",
+     "model": "S1WD073",
+     "url": "https://www.pokeca.net/product-list/530"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "073",
+    "ja": "ザシアンV",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1W-074",
+   "number": 74,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ふつうのつりざお",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01w/10074"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ふつうのつりざお",
+     "rarity": "UR",
+     "model": "S1WD074",
+     "url": "https://www.pokeca.net/product-list/530"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "074",
+    "ja": "ふつうのつりざお",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S1W-075",
+   "number": 75,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ふうせん",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s01w/10075"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ふうせん",
+     "rarity": "UR",
+     "model": "S1WD075",
+     "url": "https://www.pokeca.net/product-list/530"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "075",
+    "ja": "ふうせん",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}

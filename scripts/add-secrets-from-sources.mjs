@@ -39,7 +39,9 @@ if (!SET || !FROM) { console.error("使い方: --set <弾> --from <開始番号>
 // 遊々亭の URL の弾名（S8 → s08、S4a → s04a、S1W → s01w）
 export const yuyuteiSlug = (code) => code.toLowerCase().replace(/^s(\d)(?=\D|$)/, "s0$1");
 // 末尾の括弧注記（エラー版・通常版など）と表記ゆれを除いて比べる
-export const normName = (s) => (s || "").normalize("NFKC").replace(/[（(][^（()）]*[)）]\s*$/, "").replace(/\s+/g, "").trim();
+// 末尾の注記（エラー版・通常版・[マグノリア博士] など）を外した名前。cardData（公式サイトの表記）も注記なしで登録している
+export const stripNote = (s) => (s || "").replace(/(\s*([（(][^（()）]*[)）]|\[[^\]]*\]))+\s*$/, "").trim();
+export const normName = (s) => stripNote((s || "").normalize("NFKC")).replace(/\s+/g, "");
 export function parseYuyutei(html) {
   // 各カードは「<a href=カードページ>…<img alt="番号/総数 レアリティ 名前">」。説明文を起点に、直前のカードページのリンクを拾う
   const out = [];
@@ -127,7 +129,8 @@ async function main() {
     progress.pokeca = { url: EXTRA, title, entries: parsePokeca(html) };
     await save(); await politeDelay();
   }
-  const pk = EXTRA ? progress.pokeca.entries : [];
+  // 型番の先頭が対象の弾と一致するものだけ使う（例: S1W なら S1WD061）
+  const pk = EXTRA ? progress.pokeca.entries.filter((e) => e.model.toUpperCase().startsWith(SET.toUpperCase())) : [];
 
   // 照合: 番号ごとに、情報源ごとの名前に票を入れ、同じ名前に2票以上集まったものだけ採用する。
   // レアリティは、レアリティを持つ情報源（遊々亭・ポケカくらぶ）のうち採用した名前を挙げたものの表記がそろう場合だけ使う
@@ -162,7 +165,7 @@ async function main() {
       if (rar.length !== 1) r.status = rar.length ? "レアリティが割れている" : "レアリティの情報が無い";
       else if (totals.length && !totals.includes(set.of)) r.status = `総数が違う（遊々亭 ${totals.join("/")} / cardData ${set.of}）`;
       else {
-        const ja = td && normName(td.name) === top[0] ? td.name : (yt.find((e) => normName(e.name) === top[0])?.name.replace(/[（(][^（()）]*[)）]\s*$/, "") ?? pe.find((e) => normName(e.name) === top[0]).name);
+        const ja = td && normName(td.name) === top[0] ? td.name : (yt.find((e) => normName(e.name) === top[0])?.name && stripNote(yt.find((e) => normName(e.name) === top[0]).name) || pe.find((e) => normName(e.name) === top[0]).name);
         r.status = "一致"; r.agreedBy = top[1]; r.add = { local: String(n).padStart(3, "0"), ja, rarity: rar[0] };
       }
     }
