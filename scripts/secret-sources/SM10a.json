@@ -80,12 +80,17 @@
    ],
    "add": {
     "local": "064",
-    "ja": "ライチュウ&アローラライチュウGX",
+    "ja": "ライチュウ&アローラ ライチュウGX",
     "rarity": "HR"
    },
    "image": {
     "source": null,
     "note": "TCGdex に画像なし"
+   },
+   "nameAdjusted": {
+    "from": "ライチュウ&アローラライチュウGX",
+    "to": "ライチュウ&アローラ ライチュウGX",
+    "basis": "SM10a-008（公式 details.php）の表記"
    }
   },
   {
