@@ -1,0 +1,257 @@
+{
+ "set": "SM5p",
+ "checkedAt": "2026-10-03T16:33:38.161Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM5%2B",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm05plus",
+  "pokeca": "https://www.pokeca.net/product-list/266"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM5p-057",
+   "number": 57,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "パルキアGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05plus/10057"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "パルキアGX",
+     "rarity": "HR",
+     "model": "SM5+057",
+     "url": "https://www.pokeca.net/product-list/266"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "057",
+    "ja": "パルキアGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5p-058",
+   "number": 58,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "アーゴヨンGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05plus/10058"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "アーゴヨンGX",
+     "rarity": "HR",
+     "model": "SM5+058",
+     "url": "https://www.pokeca.net/product-list/266"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "058",
+    "ja": "アーゴヨンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5p-059",
+   "number": 59,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ルカリオGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05plus/10059"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ルカリオGX",
+     "rarity": "HR",
+     "model": "SM5+059",
+     "url": "https://www.pokeca.net/product-list/266"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "059",
+    "ja": "ルカリオGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5p-060",
+   "number": 60,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ディアルガGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05plus/10060"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ディアルガGX",
+     "rarity": "HR",
+     "model": "SM5+060",
+     "url": "https://www.pokeca.net/product-list/266"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "060",
+    "ja": "ディアルガGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5p-061",
+   "number": 61,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "エネルギーリサイクル",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05plus/10061"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エネルギーリサイクル",
+     "rarity": "UR",
+     "model": "SM5+061",
+     "url": "https://www.pokeca.net/product-list/266"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "061",
+    "ja": "エネルギーリサイクル",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5p-062",
+   "number": 62,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ビーストリング",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05plus/10062"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ビーストリング",
+     "rarity": "UR",
+     "model": "SM5+062",
+     "url": "https://www.pokeca.net/product-list/266"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "062",
+    "ja": "ビーストリング",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5p-063",
+   "number": 63,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "鋼鉄のフライパン",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05plus/10063"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "鋼鉄のフライパン",
+     "rarity": "UR",
+     "model": "SM5+063",
+     "url": "https://www.pokeca.net/product-list/266"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "063",
+    "ja": "鋼鉄のフライパン",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
