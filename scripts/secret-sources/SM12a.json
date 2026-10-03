@@ -1,0 +1,651 @@
+{
+ "set": "SM12a",
+ "checkedAt": "2026-10-03T16:47:35.541Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM12a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm12a",
+  "pokeca": "https://www.pokeca.net/product-list/500"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM12a-211",
+   "number": 211,
+   "tcgdex": {
+    "name": "ヨワシGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-211"
+   },
+   "yuyutei": [
+    {
+     "name": "ヨワシGX",
+     "rarity": "HR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10345"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ヨワシGX",
+     "rarity": "HR",
+     "model": "SM12a211",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "211",
+    "ja": "ヨワシGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-212",
+   "number": 212,
+   "tcgdex": {
+    "name": "エーフィ&デオキシスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-212"
+   },
+   "yuyutei": [
+    {
+     "name": "エーフィ＆デオキシスGX",
+     "rarity": "HR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10346"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エーフィ＆デオキシスGX",
+     "rarity": "HR",
+     "model": "SM12a212",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "212",
+    "ja": "エーフィ&デオキシスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-213",
+   "number": 213,
+   "tcgdex": {
+    "name": "オーロット&ヨノワールGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-213"
+   },
+   "yuyutei": [
+    {
+     "name": "オーロット＆ヨノワールGX",
+     "rarity": "HR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10347"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "オーロット＆ヨノワールGX",
+     "rarity": "HR",
+     "model": "SM12a213",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "213",
+    "ja": "オーロット&ヨノワールGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-214",
+   "number": 214,
+   "tcgdex": {
+    "name": "ジラーチGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-214"
+   },
+   "yuyutei": [
+    {
+     "name": "ジラーチGX",
+     "rarity": "HR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10348"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ジラーチGX",
+     "rarity": "HR",
+     "model": "SM12a214",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "214",
+    "ja": "ジラーチGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-215",
+   "number": 215,
+   "tcgdex": {
+    "name": "ブラッキー&ダークライGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-215"
+   },
+   "yuyutei": [
+    {
+     "name": "ブラッキー＆ダークライGX",
+     "rarity": "HR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10349"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ブラッキー＆ダークライGX",
+     "rarity": "HR",
+     "model": "SM12a215",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "215",
+    "ja": "ブラッキー&ダークライGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-216",
+   "number": 216,
+   "tcgdex": {
+    "name": "マニューラGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-216"
+   },
+   "yuyutei": [
+    {
+     "name": "マニューラGX",
+     "rarity": "HR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10350"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マニューラGX",
+     "rarity": "HR",
+     "model": "SM12a216",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "216",
+    "ja": "マニューラGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-217",
+   "number": 217,
+   "tcgdex": {
+    "name": "ルカリオ&メルメタルGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-217"
+   },
+   "yuyutei": [
+    {
+     "name": "メルメタルGX",
+     "rarity": "HR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10351"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "メルメタルGX",
+     "rarity": "HR",
+     "model": "SM12a217",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "217",
+    "ja": "メルメタルGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-218",
+   "number": 218,
+   "tcgdex": {
+    "name": "トゲピー&ピィ&ププリンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-218"
+   },
+   "yuyutei": [
+    {
+     "name": "トゲピー＆ピィ＆ププリンGX",
+     "rarity": "HR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10352"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "トゲピー＆ピィ＆ププリンGX",
+     "rarity": "HR",
+     "model": "SM12a218",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "218",
+    "ja": "トゲピー&ピィ&ププリンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-219",
+   "number": 219,
+   "tcgdex": {
+    "name": "イーブイGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-219"
+   },
+   "yuyutei": [
+    {
+     "name": "イーブイGX",
+     "rarity": "HR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10353"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "イーブイGX",
+     "rarity": "HR",
+     "model": "SM12a219",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "219",
+    "ja": "イーブイGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-220",
+   "number": 220,
+   "tcgdex": {
+    "name": "レシラム&リザードンGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-220"
+   },
+   "yuyutei": [
+    {
+     "name": "レシラム＆リザードンGX",
+     "rarity": "UR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10354"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "レシラム＆リザードンGX",
+     "rarity": "UR",
+     "model": "SM12a220",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "220",
+    "ja": "レシラム&リザードンGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-221",
+   "number": 221,
+   "tcgdex": {
+    "name": "ピカチュウ&ゼクロムGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-221"
+   },
+   "yuyutei": [
+    {
+     "name": "ピカチュウ＆ゼクロムGX",
+     "rarity": "UR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10355"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ピカチュウ＆ゼクロムGX",
+     "rarity": "UR",
+     "model": "SM12a221",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "221",
+    "ja": "ピカチュウ&ゼクロムGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-222",
+   "number": 222,
+   "tcgdex": {
+    "name": "ミュウツー&ミュウGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-222"
+   },
+   "yuyutei": [
+    {
+     "name": "ミュウツー＆ミュウGX",
+     "rarity": "UR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10356"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ミュウツー＆ミュウGX",
+     "rarity": "UR",
+     "model": "SM12a222",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "222",
+    "ja": "ミュウツー&ミュウGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-223",
+   "number": 223,
+   "tcgdex": {
+    "name": "ゲッコウガ&ゾロアークGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-223"
+   },
+   "yuyutei": [
+    {
+     "name": "ゲッコウガ＆ゾロアークGX",
+     "rarity": "UR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10357"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゲッコウガ＆ゾロアークGX",
+     "rarity": "UR",
+     "model": "SM12a223",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "223",
+    "ja": "ゲッコウガ&ゾロアークGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-224",
+   "number": 224,
+   "tcgdex": {
+    "name": "ルカリオ&メルメタルGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-224"
+   },
+   "yuyutei": [
+    {
+     "name": "ルカリオ＆メルメタルGX",
+     "rarity": "UR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10358"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ルカリオ＆メルメタルGX",
+     "rarity": "UR",
+     "model": "SM12a224",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "224",
+    "ja": "ルカリオ&メルメタルGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-225",
+   "number": 225,
+   "tcgdex": {
+    "name": "ガブリアス&ギラティナGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-225"
+   },
+   "yuyutei": [
+    {
+     "name": "ガブリアス＆ギラティナGX",
+     "rarity": "UR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10359"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ガブリアス＆ギラティナGX",
+     "rarity": "UR",
+     "model": "SM12a225",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "225",
+    "ja": "ガブリアス&ギラティナGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM12a-226",
+   "number": 226,
+   "tcgdex": {
+    "name": "ファイヤー&サンダー&フリーザーGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM12a-226"
+   },
+   "yuyutei": [
+    {
+     "name": "ファイヤー＆サンダー＆フリーザーGX",
+     "rarity": "UR",
+     "total": "173",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm12a/10360"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ファイヤー＆サンダー＆フリーザーGX",
+     "rarity": "UR",
+     "model": "SM12a226",
+     "url": "https://www.pokeca.net/product-list/500"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "226",
+    "ja": "ファイヤー&サンダー&フリーザーGX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
