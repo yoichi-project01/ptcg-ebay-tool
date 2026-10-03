@@ -1,0 +1,259 @@
+{
+ "set": "S8b",
+ "checkedAt": "2026-10-03T14:43:04.068Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S8b",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s08b"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S8b-278",
+   "number": 278,
+   "tcgdex": {
+    "name": "はくばバドレックスVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8b-278"
+   },
+   "yuyutei": [
+    {
+     "name": "はくばバドレックスVMAX",
+     "rarity": "UR",
+     "total": "184",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08b/10388"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "278",
+    "ja": "はくばバドレックスVMAX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8b-279",
+   "number": 279,
+   "tcgdex": {
+    "name": "ピカチュウVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8b-279"
+   },
+   "yuyutei": [
+    {
+     "name": "ピカチュウVMAX",
+     "rarity": "UR",
+     "total": "184",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08b/10389"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "279",
+    "ja": "ピカチュウVMAX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8b-280",
+   "number": 280,
+   "tcgdex": {
+    "name": "ミュウVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8b-280"
+   },
+   "yuyutei": [
+    {
+     "name": "ミュウVMAX",
+     "rarity": "UR",
+     "total": "184",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08b/10390"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "280",
+    "ja": "ミュウVMAX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8b-281",
+   "number": 281,
+   "tcgdex": {
+    "name": "こくばバドレックスVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8b-281"
+   },
+   "yuyutei": [
+    {
+     "name": "こくばバドレックスVMAX",
+     "rarity": "UR",
+     "total": "184",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08b/10391"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "281",
+    "ja": "こくばバドレックスVMAX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8b-282",
+   "number": 282,
+   "tcgdex": {
+    "name": "いちげきウーラオスVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8b-282"
+   },
+   "yuyutei": [
+    {
+     "name": "いちげきウーラオスVMAX",
+     "rarity": "UR",
+     "total": "184",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08b/10392"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "282",
+    "ja": "いちげきウーラオスVMAX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8b-283",
+   "number": 283,
+   "tcgdex": {
+    "name": "れんげきウーラオスVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8b-283"
+   },
+   "yuyutei": [
+    {
+     "name": "れんげきウーラオスVMAX",
+     "rarity": "UR",
+     "total": "184",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08b/10393"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "283",
+    "ja": "れんげきウーラオスVMAX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8b-284",
+   "number": 284,
+   "tcgdex": {
+    "name": "レックウザVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8b-284"
+   },
+   "yuyutei": [
+    {
+     "name": "レックウザVMAX",
+     "rarity": "UR",
+     "total": "184",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08b/10394"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "284",
+    "ja": "レックウザVMAX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S8b-285",
+   "number": 285,
+   "tcgdex": {
+    "name": "ジュラルドンVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8b-285"
+   },
+   "yuyutei": [
+    {
+     "name": "ジュラルドンVMAX",
+     "rarity": "UR",
+     "total": "184",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08b/10395"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "285",
+    "ja": "ジュラルドンVMAX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
