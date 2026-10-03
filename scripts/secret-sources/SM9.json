@@ -1,0 +1,372 @@
+{
+ "set": "SM9",
+ "checkedAt": "2026-10-03T16:40:13.215Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM9",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm09",
+  "pokeca": "https://www.pokeca.net/product-list/374"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM9-110",
+   "number": 110,
+   "tcgdex": {
+    "name": "セレビィ&フシギバナGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9-110"
+   },
+   "yuyutei": [
+    {
+     "name": "セレビィ＆フシギバナGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09/10110"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "セレビィ＆フシギバナGX",
+     "rarity": "HR",
+     "model": "SM9T110",
+     "url": "https://www.pokeca.net/product-list/374"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "110",
+    "ja": "セレビィ&フシギバナGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9-111",
+   "number": 111,
+   "tcgdex": {
+    "name": "コイキング&ホエルオーGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9-111"
+   },
+   "yuyutei": [
+    {
+     "name": "コイキング＆ホエルオーGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09/10111"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "コイキング＆ホエルオーGX",
+     "rarity": "HR",
+     "model": "SM9T111",
+     "url": "https://www.pokeca.net/product-list/374"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "111",
+    "ja": "コイキング&ホエルオーGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9-112",
+   "number": 112,
+   "tcgdex": {
+    "name": "ピカチュウ&ゼクロムGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9-112"
+   },
+   "yuyutei": [
+    {
+     "name": "ピカチュウ＆ゼクロムGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09/10112"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ピカチュウ＆ゼクロムGX",
+     "rarity": "HR",
+     "model": "SM9T112",
+     "url": "https://www.pokeca.net/product-list/374"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "112",
+    "ja": "ピカチュウ&ゼクロムGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9-113",
+   "number": 113,
+   "tcgdex": {
+    "name": "ゲンガー&ミミッキュGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9-113"
+   },
+   "yuyutei": [
+    {
+     "name": "ゲンガー＆ミミッキュGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09/10113"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゲンガー＆ミミッキュGX",
+     "rarity": "HR",
+     "model": "SM9T113",
+     "url": "https://www.pokeca.net/product-list/374"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "113",
+    "ja": "ゲンガー&ミミッキュGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9-114",
+   "number": 114,
+   "tcgdex": {
+    "name": "ラティアス&ラティオスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9-114"
+   },
+   "yuyutei": [
+    {
+     "name": "ラティアス＆ラティオスGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09/10114"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ラティアス＆ラティオスGX",
+     "rarity": "HR",
+     "model": "SM9T114",
+     "url": "https://www.pokeca.net/product-list/374"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "114",
+    "ja": "ラティアス&ラティオスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9-115",
+   "number": 115,
+   "tcgdex": {
+    "name": "イーブイ&カビゴンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9-115"
+   },
+   "yuyutei": [
+    {
+     "name": "イーブイ＆カビゴンGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09/10115"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "イーブイ＆カビゴンGX",
+     "rarity": "HR",
+     "model": "SM9T115",
+     "url": "https://www.pokeca.net/product-list/374"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "115",
+    "ja": "イーブイ&カビゴンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9-116",
+   "number": 116,
+   "tcgdex": {
+    "name": "ポケモン通信",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9-116"
+   },
+   "yuyutei": [
+    {
+     "name": "ポケモン通信",
+     "rarity": "UR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09/10116"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ポケモン通信",
+     "rarity": "UR",
+     "model": "SM9T116",
+     "url": "https://www.pokeca.net/product-list/374"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "116",
+    "ja": "ポケモン通信",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9-117",
+   "number": 117,
+   "tcgdex": {
+    "name": "ジャッジマンホイッスル",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9-117"
+   },
+   "yuyutei": [
+    {
+     "name": "ジャッジマンホイッスル",
+     "rarity": "UR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09/10117"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ジャッジマンホイッスル",
+     "rarity": "UR",
+     "model": "SM9T117",
+     "url": "https://www.pokeca.net/product-list/374"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "117",
+    "ja": "ジャッジマンホイッスル",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9-118",
+   "number": 118,
+   "tcgdex": {
+    "name": "せせらぎの丘",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9-118"
+   },
+   "yuyutei": [
+    {
+     "name": "せせらぎの丘",
+     "rarity": "UR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09/10118"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "せせらぎの丘",
+     "rarity": "UR",
+     "model": "SM9T118",
+     "url": "https://www.pokeca.net/product-list/374"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "118",
+    "ja": "せせらぎの丘",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
