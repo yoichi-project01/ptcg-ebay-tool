@@ -1,0 +1,362 @@
+{
+ "set": "S4",
+ "checkedAt": "2026-10-03T14:46:50.957Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S4",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s04",
+  "pokeca": "https://www.pokeca.net/product-list/592"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S4-112",
+   "number": 112,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "イオルブVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10112"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "イオルブVMAX",
+     "rarity": "HR",
+     "model": "S4DB112",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "112",
+    "ja": "イオルブVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4-113",
+   "number": 113,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ガラルヒヒダルマVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10113"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ガラルヒヒダルマVMAX",
+     "rarity": "HR",
+     "model": "S4DB113",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "113",
+    "ja": "ガラルヒヒダルマVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4-114",
+   "number": 114,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ピカチュウVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10114"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ピカチュウVMAX",
+     "rarity": "HR",
+     "model": "S4DB114",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "114",
+    "ja": "ピカチュウVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4-115",
+   "number": 115,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ギルガルドVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10115"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ギルガルドVMAX",
+     "rarity": "HR",
+     "model": "S4DB115",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "115",
+    "ja": "ギルガルドVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4-116",
+   "number": 116,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "サイトウ",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10116"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "サイトウ",
+     "rarity": "HR",
+     "model": "S4DB116",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "116",
+    "ja": "サイトウ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4-117",
+   "number": 117,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ダンデ",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10117"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ダンデ",
+     "rarity": "HR",
+     "model": "S4DB117",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "117",
+    "ja": "ダンデ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4-118",
+   "number": 118,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ルリナ",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10118"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ルリナ",
+     "rarity": "HR",
+     "model": "S4DB118",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "118",
+    "ja": "ルリナ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4-119",
+   "number": 119,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ガラルタチフサグマ",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10119"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ガラルタチフサグマ",
+     "rarity": "UR",
+     "model": "S4DB119",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "119",
+    "ja": "ガラルタチフサグマ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4-120",
+   "number": 120,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "望遠スコープ",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10120"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "望遠スコープ",
+     "rarity": "UR",
+     "model": "S4DB120",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "120",
+    "ja": "望遠スコープ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4-121",
+   "number": 121,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "メモリーカプセル",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04/10121"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "メモリーカプセル",
+     "rarity": "UR",
+     "model": "S4DB121",
+     "url": "https://www.pokeca.net/product-list/592"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "121",
+    "ja": "メモリーカプセル",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
