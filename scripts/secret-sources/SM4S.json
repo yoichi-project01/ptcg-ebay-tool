@@ -1,0 +1,292 @@
+{
+ "set": "SM4S",
+ "checkedAt": "2026-10-03T16:31:21.423Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM4S",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm04s",
+  "pokeca": "https://www.pokeca.net/product-list/204"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM4S-056",
+   "number": 56,
+   "tcgdex": {
+    "name": "アローラゴローニャGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM4S-056"
+   },
+   "yuyutei": [
+    {
+     "name": "アローラゴローニャGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04s/10056"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "アローラゴローニャGX",
+     "rarity": "HR",
+     "model": "SM4S056",
+     "url": "https://www.pokeca.net/product-list/204"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "056",
+    "ja": "アローラゴローニャGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4S-057",
+   "number": 57,
+   "tcgdex": {
+    "name": "マッシブーンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM4S-057"
+   },
+   "yuyutei": [
+    {
+     "name": "マッシブーンGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04s/10057"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マッシブーンGX",
+     "rarity": "HR",
+     "model": "SM4S057",
+     "url": "https://www.pokeca.net/product-list/204"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "057",
+    "ja": "マッシブーンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4S-058",
+   "number": 58,
+   "tcgdex": {
+    "name": "カミツルギGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM4S-058"
+   },
+   "yuyutei": [
+    {
+     "name": "カミツルギGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04s/10058"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カミツルギGX",
+     "rarity": "HR",
+     "model": "SM4S058",
+     "url": "https://www.pokeca.net/product-list/204"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "058",
+    "ja": "カミツルギGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4S-059",
+   "number": 59,
+   "tcgdex": {
+    "name": "シルヴァディGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM4S-059"
+   },
+   "yuyutei": [
+    {
+     "name": "シルヴァディGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04s/10059"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "シルヴァディGX",
+     "rarity": "HR",
+     "model": "SM4S059",
+     "url": "https://www.pokeca.net/product-list/204"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "059",
+    "ja": "シルヴァディGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4S-060",
+   "number": 60,
+   "tcgdex": {
+    "name": "カウンターキャッチャー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM4S-060"
+   },
+   "yuyutei": [
+    {
+     "name": "カウンターキャッチャー",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04s/10060"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カウンターキャッチャー",
+     "rarity": "UR",
+     "model": "SM4S060",
+     "url": "https://www.pokeca.net/product-list/204"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "060",
+    "ja": "カウンターキャッチャー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4S-061",
+   "number": 61,
+   "tcgdex": {
+    "name": "ワープエネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM4S-061"
+   },
+   "yuyutei": [
+    {
+     "name": "ワープエネルギー",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04s/10061"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ワープエネルギー",
+     "rarity": "UR",
+     "model": "SM4S061",
+     "url": "https://www.pokeca.net/product-list/204"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "061",
+    "ja": "ワープエネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM4S-062",
+   "number": 62,
+   "tcgdex": {
+    "name": "基本鋼エネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM4S-062"
+   },
+   "yuyutei": [
+    {
+     "name": "基本鋼エネルギー",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm04s/10062"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "基本鋼エネルギー",
+     "rarity": "UR",
+     "model": "SM4S062",
+     "url": "https://www.pokeca.net/product-list/204"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "062",
+    "ja": "基本鋼エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
