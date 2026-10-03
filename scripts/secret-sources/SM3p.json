@@ -1,0 +1,187 @@
+{
+ "set": "SM3p",
+ "checkedAt": "2026-10-03T16:30:50.786Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM3%2B",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm03plus",
+  "pokeca": "https://www.pokeca.net/product-list/195"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM3p-078",
+   "number": 78,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "エンテイGX",
+     "rarity": "HR",
+     "total": "072",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03plus/10078"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エンテイGX",
+     "rarity": "HR",
+     "model": "SM3+078",
+     "url": "https://www.pokeca.net/product-list/195"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "078",
+    "ja": "エンテイGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3p-079",
+   "number": 79,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ライチュウGX",
+     "rarity": "HR",
+     "total": "072",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03plus/10079"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ライチュウGX",
+     "rarity": "HR",
+     "model": "SM3+079",
+     "url": "https://www.pokeca.net/product-list/195"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "079",
+    "ja": "ライチュウGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3p-080",
+   "number": 80,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ミュウツーGX",
+     "rarity": "HR",
+     "total": "072",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03plus/10080"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ミュウツーGX",
+     "rarity": "HR",
+     "model": "SM3+080",
+     "url": "https://www.pokeca.net/product-list/195"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "080",
+    "ja": "ミュウツーGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3p-081",
+   "number": 81,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ゾロアークGX",
+     "rarity": "HR",
+     "total": "072",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03plus/10081"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゾロアークGX",
+     "rarity": "HR",
+     "model": "SM3+081",
+     "url": "https://www.pokeca.net/product-list/195"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "081",
+    "ja": "ゾロアークGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3p-082",
+   "number": 82,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ミュウツーGX(シークレット)",
+     "rarity": "H",
+     "total": "072",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03plus/10082"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ミュウツーGX",
+     "rarity": null,
+     "model": "SM3+082",
+     "url": "https://www.pokeca.net/product-list/195"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "082",
+    "ja": "ミュウツーGX",
+    "rarity": "H"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
