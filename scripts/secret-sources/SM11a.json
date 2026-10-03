@@ -160,12 +160,17 @@
    ],
    "add": {
     "local": "077",
-    "ja": "アローラペルシアンGX",
+    "ja": "アローラ ペルシアンGX",
     "rarity": "HR"
    },
    "image": {
     "source": null,
     "note": "TCGdex に画像なし"
+   },
+   "nameAdjusted": {
+    "from": "アローラペルシアンGX",
+    "to": "アローラ ペルシアンGX",
+    "basis": "SM11a-040（公式 details.php）の表記"
    }
   },
   {
