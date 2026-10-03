@@ -1,0 +1,292 @@
+{
+ "set": "SM8a",
+ "checkedAt": "2026-10-03T16:38:57.145Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM8a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm08a",
+  "pokeca": "https://www.pokeca.net/product-list/350"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM8a-059",
+   "number": 59,
+   "tcgdex": {
+    "name": "デンリュウGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8a-059"
+   },
+   "yuyutei": [
+    {
+     "name": "デンリュウGX",
+     "rarity": "HR",
+     "total": "052",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08a/10059"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "デンリュウGX",
+     "rarity": "HR",
+     "model": "SM8aD59",
+     "url": "https://www.pokeca.net/product-list/350"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "059",
+    "ja": "デンリュウGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8a-060",
+   "number": 60,
+   "tcgdex": {
+    "name": "フーパGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8a-060"
+   },
+   "yuyutei": [
+    {
+     "name": "フーパGX",
+     "rarity": "HR",
+     "total": "052",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08a/10060"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "フーパGX",
+     "rarity": "HR",
+     "model": "SM8aD60",
+     "url": "https://www.pokeca.net/product-list/350"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "060",
+    "ja": "フーパGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8a-061",
+   "number": 61,
+   "tcgdex": {
+    "name": "ガオガエンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8a-061"
+   },
+   "yuyutei": [
+    {
+     "name": "ガオガエンGX",
+     "rarity": "HR",
+     "total": "052",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08a/10061"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ガオガエンGX",
+     "rarity": "HR",
+     "model": "SM8aD61",
+     "url": "https://www.pokeca.net/product-list/350"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "061",
+    "ja": "ガオガエンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8a-062",
+   "number": 62,
+   "tcgdex": {
+    "name": "コバルオンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8a-062"
+   },
+   "yuyutei": [
+    {
+     "name": "コバルオンGX",
+     "rarity": "HR",
+     "total": "052",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08a/10062"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "コバルオンGX",
+     "rarity": "HR",
+     "model": "SM8aD62",
+     "url": "https://www.pokeca.net/product-list/350"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "062",
+    "ja": "コバルオンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8a-063",
+   "number": 63,
+   "tcgdex": {
+    "name": "エレキチャージャー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8a-063"
+   },
+   "yuyutei": [
+    {
+     "name": "エレキチャージャー",
+     "rarity": "UR",
+     "total": "052",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08a/10063"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エレキチャージャー",
+     "rarity": "UR",
+     "model": "SM8aD63",
+     "url": "https://www.pokeca.net/product-list/350"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "063",
+    "ja": "エレキチャージャー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8a-064",
+   "number": 64,
+   "tcgdex": {
+    "name": "デンジャラスドリル",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8a-064"
+   },
+   "yuyutei": [
+    {
+     "name": "デンジャラスドリル",
+     "rarity": "UR",
+     "total": "052",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08a/10064"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "デンジャラスドリル",
+     "rarity": "UR",
+     "model": "SM8aD64",
+     "url": "https://www.pokeca.net/product-list/350"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "064",
+    "ja": "デンジャラスドリル",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8a-065",
+   "number": 65,
+   "tcgdex": {
+    "name": "メタルゴーグル",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8a-065"
+   },
+   "yuyutei": [
+    {
+     "name": "メタルゴーグル",
+     "rarity": "UR",
+     "total": "052",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08a/10065"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "メタルゴーグル",
+     "rarity": "UR",
+     "model": "SM8aD65",
+     "url": "https://www.pokeca.net/product-list/350"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "065",
+    "ja": "メタルゴーグル",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
