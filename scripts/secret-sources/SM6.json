@@ -367,12 +367,17 @@
    ],
    "add": {
     "local": "110",
-    "ja": "ユニットエネルギー闘悪妖",
+    "ja": "ユニットエネルギー闘悪フェアリー",
     "rarity": "UR"
    },
    "image": {
     "source": null,
     "note": "TCGdex に画像なし"
+   },
+   "nameAdjusted": {
+    "from": "ユニットエネルギー闘悪妖",
+    "to": "ユニットエネルギー闘悪フェアリー",
+    "basis": "SM6-094（公式 details.php）の表記。ポケカくらぶも同じ表記"
    }
   }
  ]
