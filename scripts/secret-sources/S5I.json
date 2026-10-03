@@ -1,0 +1,321 @@
+{
+ "set": "S5I",
+ "checkedAt": "2026-10-03T14:43:00.304Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S5I",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s05i"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S5I-082",
+   "number": 82,
+   "tcgdex": {
+    "name": "アップリューVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-082"
+   },
+   "yuyutei": [
+    {
+     "name": "アップリューVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10082"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "082",
+    "ja": "アップリューVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5I-083",
+   "number": 83,
+   "tcgdex": {
+    "name": "カプ・コケコVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-083"
+   },
+   "yuyutei": [
+    {
+     "name": "カプ・コケコVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10083"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "083",
+    "ja": "カプ・コケコVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5I-084",
+   "number": 84,
+   "tcgdex": {
+    "name": "いちげきウーラオスVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-084"
+   },
+   "yuyutei": [
+    {
+     "name": "いちげきウーラオスVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10084"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "084",
+    "ja": "いちげきウーラオスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5I-085",
+   "number": 85,
+   "tcgdex": {
+    "name": "いちげきウーラオスVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-085"
+   },
+   "yuyutei": [
+    {
+     "name": "いちげきウーラオスVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10085"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "085",
+    "ja": "いちげきウーラオスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5I-086",
+   "number": 86,
+   "tcgdex": {
+    "name": "シバ",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-086"
+   },
+   "yuyutei": [
+    {
+     "name": "シバ",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10086"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "086",
+    "ja": "シバ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5I-087",
+   "number": 87,
+   "tcgdex": {
+    "name": "フヨウ",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-087"
+   },
+   "yuyutei": [
+    {
+     "name": "フヨウ",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10087"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "087",
+    "ja": "フヨウ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5I-088",
+   "number": 88,
+   "tcgdex": {
+    "name": "マスタード いちげきのかた",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-088"
+   },
+   "yuyutei": [
+    {
+     "name": "マスタード いちげきのかた",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10088"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "088",
+    "ja": "マスタード いちげきのかた",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5I-089",
+   "number": 89,
+   "tcgdex": {
+    "name": "ヘルガー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-089"
+   },
+   "yuyutei": [
+    {
+     "name": "ヘルガー",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10089"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "089",
+    "ja": "ヘルガー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5I-090",
+   "number": 90,
+   "tcgdex": {
+    "name": "学習装置",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-090"
+   },
+   "yuyutei": [
+    {
+     "name": "学習装置",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10090"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "090",
+    "ja": "学習装置",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5I-091",
+   "number": 91,
+   "tcgdex": {
+    "name": "いちげきエネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S5I-091"
+   },
+   "yuyutei": [
+    {
+     "name": "いちげきエネルギー",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05i/10091"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "091",
+    "ja": "いちげきエネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
