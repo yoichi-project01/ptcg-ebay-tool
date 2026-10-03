@@ -34,6 +34,8 @@ const FROM = parseInt(arg("--from") || "0", 10);
 const DRY = process.argv.includes("--dry-run");
 // 3つ目の情報源（任意）: ポケカくらぶの弾別一覧ページ（例 https://www.pokeca.net/product-list/680）
 const EXTRA = arg("--extra");
+// ポケカくらぶの型番の先頭が弾コードと違う場合に指定（例: S8a は S825）
+const EXTRA_PREFIX = (arg("--extra-prefix") || SET).toUpperCase();
 if (!SET || !FROM) { console.error("使い方: --set <弾> --from <開始番号>"); process.exit(1); }
 
 // 遊々亭の URL の弾名（S8 → s08、S4a → s04a、S1W → s01w）
@@ -130,7 +132,10 @@ async function main() {
     await save(); await politeDelay();
   }
   // 型番の先頭が対象の弾と一致するものだけ使う（例: S1W なら S1WD061）
-  const pk = EXTRA ? progress.pokeca.entries.filter((e) => e.model.toUpperCase().startsWith(SET.toUpperCase())) : [];
+  const pk = EXTRA ? progress.pokeca.entries.filter((e) => e.model.toUpperCase().startsWith(EXTRA_PREFIX))
+    // 番号は型番から弾の部分（EXTRA_PREFIX）を外した残りの末尾の数字（S8EF129→129、S825030→030）
+    .map((e) => ({ ...e, number: parseInt((e.model.slice(EXTRA_PREFIX.length).match(/(\d+)$/) || [])[1], 10) }))
+    .filter((e) => Number.isFinite(e.number)) : [];
 
   // 照合: 番号ごとに、情報源ごとの名前に票を入れ、同じ名前に2票以上集まったものだけ採用する。
   // レアリティは、レアリティを持つ情報源（遊々亭・ポケカくらぶ）のうち採用した名前を挙げたものの表記がそろう場合だけ使う
