@@ -1,0 +1,128 @@
+{
+ "set": "S8a",
+ "checkedAt": "2026-10-03T14:47:13.227Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S8a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s08a",
+  "pokeca": "https://www.pokeca.net/product-list/681"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S8a-026",
+   "number": 26,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ピカチュウV-UNION(右上)",
+     "rarity": "RRR",
+     "total": "028",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08a/10043"
+    }
+   ],
+   "pokeca": [],
+   "status": "2つ以上の情報源で一致する名前が無い",
+   "candidates": [
+    {
+     "name": "ピカチュウV-UNION",
+     "sources": [
+      "遊々亭"
+     ]
+    }
+   ]
+  },
+  {
+   "cardId": "S8a-027",
+   "number": 27,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ピカチュウV-UNION(左下)",
+     "rarity": "RRR",
+     "total": "028",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08a/10044"
+    }
+   ],
+   "pokeca": [],
+   "status": "2つ以上の情報源で一致する名前が無い",
+   "candidates": [
+    {
+     "name": "ピカチュウV-UNION",
+     "sources": [
+      "遊々亭"
+     ]
+    }
+   ]
+  },
+  {
+   "cardId": "S8a-028",
+   "number": 28,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ピカチュウV-UNION(右下)",
+     "rarity": "RRR",
+     "total": "028",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08a/10045"
+    }
+   ],
+   "pokeca": [],
+   "status": "2つ以上の情報源で一致する名前が無い",
+   "candidates": [
+    {
+     "name": "ピカチュウV-UNION",
+     "sources": [
+      "遊々亭"
+     ]
+    }
+   ]
+  },
+  {
+   "cardId": "S8a-029",
+   "number": 29,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "博士の研究[オーキド博士]",
+     "rarity": "SR",
+     "total": "028",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08a/10046"
+    }
+   ],
+   "pokeca": [],
+   "status": "2つ以上の情報源で一致する名前が無い",
+   "candidates": [
+    {
+     "name": "博士の研究",
+     "sources": [
+      "遊々亭"
+     ]
+    }
+   ]
+  },
+  {
+   "cardId": "S8a-030",
+   "number": 30,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ミュウ",
+     "rarity": "UR",
+     "total": "028",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s08a/10047"
+    }
+   ],
+   "pokeca": [],
+   "status": "2つ以上の情報源で一致する名前が無い",
+   "candidates": [
+    {
+     "name": "ミュウ",
+     "sources": [
+      "遊々亭"
+     ]
+    }
+   ]
+  }
+ ],
+ "note": "追加なし（保留）。cardData の S8a 自体がずれている可能性が高いため見送り: cardData は 025＝博士の研究・型番 DAR の行があるが、ポケカくらぶ（https://www.pokeca.net/product-list/682 / 683）では 025＝ピカチュウV-union（4枚1セット）、003＝博士の研究（オーキド博士）。遊々亭は 026〜028＝ピカチュウV-UNION の各パーツ（RRR）、029＝博士の研究[オーキド博士]（SR）、030＝ミュウ（UR）。S8a 全体の照合（公式 details.php との全件照合）が先に必要"
+}

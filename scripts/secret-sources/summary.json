@@ -1,0 +1,134 @@
+{
+ "total": {
+  "added": 185,
+  "held": 5
+ },
+ "sets": [
+  {
+   "set": "S1a",
+   "added": 8,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S1H",
+   "added": 7,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S1W",
+   "added": 7,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S2",
+   "added": 9,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S2a",
+   "added": 8,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S3",
+   "added": 9,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S3a",
+   "added": 9,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S4",
+   "added": 10,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S4a",
+   "added": 4,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S5a",
+   "added": 12,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S5I",
+   "added": 10,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S5R",
+   "added": 10,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S6a",
+   "added": 14,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S6H",
+   "added": 12,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S6K",
+   "added": 12,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S7D",
+   "added": 11,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S7R",
+   "added": 11,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S8",
+   "added": 14,
+   "held": 0,
+   "heldIds": []
+  },
+  {
+   "set": "S8a",
+   "added": 0,
+   "held": 5,
+   "heldIds": [
+    "S8a-026",
+    "S8a-027",
+    "S8a-028",
+    "S8a-029",
+    "S8a-030"
+   ]
+  },
+  {
+   "set": "S8b",
+   "added": 8,
+   "held": 0,
+   "heldIds": []
+  }
+ ]
+}
