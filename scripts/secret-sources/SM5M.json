@@ -1,0 +1,252 @@
+{
+ "set": "SM5M",
+ "checkedAt": "2026-10-03T16:33:26.806Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM5M",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm05m",
+  "pokeca": "https://www.pokeca.net/product-list/248"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM5M-073",
+   "number": 73,
+   "tcgdex": {
+    "name": "グレイシアGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM5M-073"
+   },
+   "yuyutei": [
+    {
+     "name": "グレイシアGX",
+     "rarity": "HR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05m/10073"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "グレイシアGX",
+     "rarity": "HR",
+     "model": "SM5M073",
+     "url": "https://www.pokeca.net/product-list/248"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "073",
+    "ja": "グレイシアGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5M-074",
+   "number": 74,
+   "tcgdex": {
+    "name": "ネクロズマ あかつきのつばさGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM5M-074"
+   },
+   "yuyutei": [
+    {
+     "name": "ネクロズマ あかつきのつばさGX",
+     "rarity": "HR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05m/10074"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ネクロズマあかつきのつばさGX",
+     "rarity": "HR",
+     "model": "SM5M074",
+     "url": "https://www.pokeca.net/product-list/248"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "074",
+    "ja": "ネクロズマ あかつきのつばさGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5M-075",
+   "number": 75,
+   "tcgdex": {
+    "name": "パルキアGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM5M-075"
+   },
+   "yuyutei": [
+    {
+     "name": "パルキアGX",
+     "rarity": "HR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05m/10075"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "パルキアGX",
+     "rarity": "HR",
+     "model": "SM5M075",
+     "url": "https://www.pokeca.net/product-list/248"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "075",
+    "ja": "パルキアGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5M-076",
+   "number": 76,
+   "tcgdex": {
+    "name": "クラッシュハンマー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM5M-076"
+   },
+   "yuyutei": [
+    {
+     "name": "クラッシュハンマー",
+     "rarity": "UR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05m/10076"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "クラッシュハンマー",
+     "rarity": "UR",
+     "model": "SM5M076",
+     "url": "https://www.pokeca.net/product-list/248"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "076",
+    "ja": "クラッシュハンマー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5M-077",
+   "number": 77,
+   "tcgdex": {
+    "name": "エスケープボード",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM5M-077"
+   },
+   "yuyutei": [
+    {
+     "name": "エスケープボード",
+     "rarity": "UR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05m/10077"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エスケープボード",
+     "rarity": "UR",
+     "model": "SM5M077",
+     "url": "https://www.pokeca.net/product-list/248"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "077",
+    "ja": "エスケープボード",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM5M-078",
+   "number": 78,
+   "tcgdex": {
+    "name": "ユニットエネルギー雷超鋼",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM5M-078"
+   },
+   "yuyutei": [
+    {
+     "name": "ユニットエネルギー雷超鋼",
+     "rarity": "UR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm05m/10078"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ユニットエネルギー雷超鋼",
+     "rarity": "UR",
+     "model": "SM5M078",
+     "url": "https://www.pokeca.net/product-list/248"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "078",
+    "ja": "ユニットエネルギー雷超鋼",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
