@@ -1,0 +1,332 @@
+{
+ "set": "SM8",
+ "checkedAt": "2026-10-03T16:38:26.034Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM8",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm08",
+  "pokeca": "https://www.pokeca.net/product-list/342"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM8-104",
+   "number": 104,
+   "tcgdex": {
+    "name": "ツボツボGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8-104"
+   },
+   "yuyutei": [
+    {
+     "name": "ツボツボGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08/10104"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ツボツボGX",
+     "rarity": "HR",
+     "model": "SM8C104",
+     "url": "https://www.pokeca.net/product-list/342"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "104",
+    "ja": "ツボツボGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8-105",
+   "number": 105,
+   "tcgdex": {
+    "name": "ズガドーンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8-105"
+   },
+   "yuyutei": [
+    {
+     "name": "ズガドーンGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08/10105"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ズガドーンGX",
+     "rarity": "HR",
+     "model": "SM8C105",
+     "url": "https://www.pokeca.net/product-list/342"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "105",
+    "ja": "ズガドーンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8-106",
+   "number": 106,
+   "tcgdex": {
+    "name": "スイクンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8-106"
+   },
+   "yuyutei": [
+    {
+     "name": "スイクンGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08/10106"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "スイクンGX",
+     "rarity": "HR",
+     "model": "SM8C106",
+     "url": "https://www.pokeca.net/product-list/342"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "106",
+    "ja": "スイクンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8-107",
+   "number": 107,
+   "tcgdex": {
+    "name": "バンギラスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8-107"
+   },
+   "yuyutei": [
+    {
+     "name": "バンギラスGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08/10107"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "バンギラスGX",
+     "rarity": "HR",
+     "model": "SM8C107",
+     "url": "https://www.pokeca.net/product-list/342"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "107",
+    "ja": "バンギラスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8-108",
+   "number": 108,
+   "tcgdex": {
+    "name": "ルギアGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8-108"
+   },
+   "yuyutei": [
+    {
+     "name": "ルギアGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08/10108"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ルギアGX",
+     "rarity": "HR",
+     "model": "SM8C108",
+     "url": "https://www.pokeca.net/product-list/342"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "108",
+    "ja": "ルギアGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8-109",
+   "number": 109,
+   "tcgdex": {
+    "name": "あとだしハンマー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8-109"
+   },
+   "yuyutei": [
+    {
+     "name": "あとだしハンマー",
+     "rarity": "UR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08/10109"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "あとだしハンマー",
+     "rarity": "UR",
+     "model": "SM8C109",
+     "url": "https://www.pokeca.net/product-list/342"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "109",
+    "ja": "あとだしハンマー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8-110",
+   "number": 110,
+   "tcgdex": {
+    "name": "ロストミキサー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8-110"
+   },
+   "yuyutei": [
+    {
+     "name": "ロストミキサー",
+     "rarity": "UR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08/10110"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ロストミキサー",
+     "rarity": "UR",
+     "model": "SM8C110",
+     "url": "https://www.pokeca.net/product-list/342"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "110",
+    "ja": "ロストミキサー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM8-111",
+   "number": 111,
+   "tcgdex": {
+    "name": "こだわりメット",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM8-111"
+   },
+   "yuyutei": [
+    {
+     "name": "こだわりメット",
+     "rarity": "UR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm08/10111"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "こだわりメット",
+     "rarity": "UR",
+     "model": "SM8C111",
+     "url": "https://www.pokeca.net/product-list/342"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "111",
+    "ja": "こだわりメット",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
