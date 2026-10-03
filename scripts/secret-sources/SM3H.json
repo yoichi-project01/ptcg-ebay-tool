@@ -1,0 +1,292 @@
+{
+ "set": "SM3H",
+ "checkedAt": "2026-10-03T16:30:08.237Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM3H",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm03h",
+  "pokeca": "https://www.pokeca.net/product-list/176"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM3H-058",
+   "number": 58,
+   "tcgdex": {
+    "name": "リザードンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3H-058"
+   },
+   "yuyutei": [
+    {
+     "name": "リザードンGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03h/10058"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "リザードンGX",
+     "rarity": "HR",
+     "model": "SM3H058",
+     "url": "https://www.pokeca.net/product-list/176"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "058",
+    "ja": "リザードンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3H-059",
+   "number": 59,
+   "tcgdex": {
+    "name": "ホウオウGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3H-059"
+   },
+   "yuyutei": [
+    {
+     "name": "ホウオウGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03h/10059"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ホウオウGX",
+     "rarity": "HR",
+     "model": "SM3H059",
+     "url": "https://www.pokeca.net/product-list/176"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "059",
+    "ja": "ホウオウGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3H-060",
+   "number": 60,
+   "tcgdex": {
+    "name": "アローラベトベトンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3H-060"
+   },
+   "yuyutei": [
+    {
+     "name": "アローラベトベトンGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03h/10060"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "アローラベトベトンGX",
+     "rarity": "HR",
+     "model": "SM3H060",
+     "url": "https://www.pokeca.net/product-list/176"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "060",
+    "ja": "アローラベトベトンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3H-061",
+   "number": 61,
+   "tcgdex": {
+    "name": "オンバーンGX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3H-061"
+   },
+   "yuyutei": [
+    {
+     "name": "オンバーンGX",
+     "rarity": "HR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03h/10061"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "オンバーンGX",
+     "rarity": "HR",
+     "model": "SM3H061",
+     "url": "https://www.pokeca.net/product-list/176"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "061",
+    "ja": "オンバーンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3H-062",
+   "number": 62,
+   "tcgdex": {
+    "name": "あなぬけのヒモ",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3H-062"
+   },
+   "yuyutei": [
+    {
+     "name": "あなぬけのヒモ",
+     "rarity": "UR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03h/10062"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "あなぬけのヒモ",
+     "rarity": "UR",
+     "model": "SM3H062",
+     "url": "https://www.pokeca.net/product-list/176"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "062",
+    "ja": "あなぬけのヒモ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3H-063",
+   "number": 63,
+   "tcgdex": {
+    "name": "ムキムキダンベル",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3H-063"
+   },
+   "yuyutei": [
+    {
+     "name": "ムキムキダンベル",
+     "rarity": "UR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03h/10063"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ムキムキダンベル",
+     "rarity": "UR",
+     "model": "SM3H063",
+     "url": "https://www.pokeca.net/product-list/176"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "063",
+    "ja": "ムキムキダンベル",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM3H-064",
+   "number": 64,
+   "tcgdex": {
+    "name": "基本炎エネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3H-064"
+   },
+   "yuyutei": [
+    {
+     "name": "基本炎エネルギー",
+     "rarity": "UR",
+     "total": "051",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm03h/10064"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "基本炎エネルギー",
+     "rarity": "UR",
+     "model": "SM3H064",
+     "url": "https://www.pokeca.net/product-list/176"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "064",
+    "ja": "基本炎エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
