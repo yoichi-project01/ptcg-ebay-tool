@@ -1,0 +1,292 @@
+{
+ "set": "SM7b",
+ "checkedAt": "2026-10-03T16:37:53.039Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM7b",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm07b",
+  "pokeca": "https://www.pokeca.net/product-list/321"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM7b-057",
+   "number": 57,
+   "tcgdex": {
+    "name": "ジュカインGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7b-057"
+   },
+   "yuyutei": [
+    {
+     "name": "ジュカインGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07b/10057"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ジュカインGX",
+     "rarity": "HR",
+     "model": "sm7b057",
+     "url": "https://www.pokeca.net/product-list/321"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "057",
+    "ja": "ジュカインGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7b-058",
+   "number": 58,
+   "tcgdex": {
+    "name": "シンボラーGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7b-058"
+   },
+   "yuyutei": [
+    {
+     "name": "シンボラーGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07b/10058"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "シンボラーGX",
+     "rarity": "HR",
+     "model": "sm7b058",
+     "url": "https://www.pokeca.net/product-list/321"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "058",
+    "ja": "シンボラーGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7b-059",
+   "number": 59,
+   "tcgdex": {
+    "name": "アローラキュウコンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7b-059"
+   },
+   "yuyutei": [
+    {
+     "name": "アローラキュウコンGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07b/10059"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "アローラキュウコンGX",
+     "rarity": "HR",
+     "model": "sm7b059",
+     "url": "https://www.pokeca.net/product-list/321"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "059",
+    "ja": "アローラキュウコンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7b-060",
+   "number": 60,
+   "tcgdex": {
+    "name": "ミミッキュGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7b-060"
+   },
+   "yuyutei": [
+    {
+     "name": "ミミッキュGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07b/10060"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ミミッキュGX",
+     "rarity": "HR",
+     "model": "sm7b060",
+     "url": "https://www.pokeca.net/product-list/321"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "060",
+    "ja": "ミミッキュGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7b-061",
+   "number": 61,
+   "tcgdex": {
+    "name": "ネットボール",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7b-061"
+   },
+   "yuyutei": [
+    {
+     "name": "ネットボール",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07b/10061"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ネットボール",
+     "rarity": "UR",
+     "model": "sm7b061",
+     "url": "https://www.pokeca.net/product-list/321"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "061",
+    "ja": "ネットボール",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7b-062",
+   "number": 62,
+   "tcgdex": {
+    "name": "ぼうけんのカバン",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7b-062"
+   },
+   "yuyutei": [
+    {
+     "name": "ぼうけんのカバン",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07b/10062"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ぼうけんのカバン",
+     "rarity": "UR",
+     "model": "sm7b062",
+     "url": "https://www.pokeca.net/product-list/321"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "062",
+    "ja": "ぼうけんのカバン",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7b-063",
+   "number": 63,
+   "tcgdex": {
+    "name": "のろいのおふだ",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7b-063"
+   },
+   "yuyutei": [
+    {
+     "name": "のろいのおふだ",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07b/10063"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "のろいのおふだ",
+     "rarity": "UR",
+     "model": "sm7b063",
+     "url": "https://www.pokeca.net/product-list/321"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "063",
+    "ja": "のろいのおふだ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
