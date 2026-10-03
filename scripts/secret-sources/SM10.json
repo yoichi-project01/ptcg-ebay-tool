@@ -80,12 +80,17 @@
    ],
    "add": {
     "local": "109",
-    "ja": "ベトベトン&アローラベトベトンGX",
+    "ja": "ベトベトン&アローラ ベトベトンGX",
     "rarity": "HR"
    },
    "image": {
     "source": null,
     "note": "TCGdex に画像なし"
+   },
+   "nameAdjusted": {
+    "from": "ベトベトン&アローラベトベトンGX",
+    "to": "ベトベトン&アローラ ベトベトンGX",
+    "basis": "SM10-029（公式 details.php）の表記"
    }
   },
   {
