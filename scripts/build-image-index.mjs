@@ -36,10 +36,19 @@ async function walk(dir) {
 }
 
 async function main() {
+  // --only S8a,S9 … 指定した弾のフォルダだけを読み直し、ほかの弾は既存のインデックスのまま残す。
+  // public/cards には古い名前のファイルも残っているため（画像の復元でコピーした元ファイル等）、
+  // 全体を作り直すと古いファイルを拾ってしまう。1つの弾を作り直した後などはこちらを使うこと
+  const onlyArg = process.argv.find((a) => a.startsWith("--only="))?.slice(7) ?? (process.argv.includes("--only") ? process.argv[process.argv.indexOf("--only") + 1] : null);
+  const onlySets = onlyArg ? new Set(onlyArg.split(",").filter(Boolean)) : null;
+  let prevIndex = {};
+  try { prevIndex = JSON.parse(await fs.readFile(OUT, "utf-8")); } catch {}
   const files = await walk(CARDS_DIR);
   // キー "SET/local" -> 相対パス
   const index = {};
+  if (onlySets) for (const [k, v] of Object.entries(prevIndex)) if (!onlySets.has(k.split("/")[0])) index[k] = v;
   for (const f of files) {
+    if (onlySets && !onlySets.has(path.relative(CARDS_DIR, f).split(path.sep)[1])) continue;
     // .part（ダウンロード中の一時ファイル）や極小ファイル（壊れたダウンロード）は無視
     if (f.endsWith(".part")) continue;
     const stat = await fs.stat(f);
@@ -61,12 +70,21 @@ async function main() {
   // public/cards は .gitignore 対象で PC ごとに中身が違う。画像を同期していない PC で実行すると
   // 大量のキーが消えたインデックスができてしまう（2026-09-30 に実際に発生）ため、件数が大きく減るときは止める
   if (!process.argv.includes("--force")) {
-    let prevCount = 0;
-    try { prevCount = Object.keys(JSON.parse(await fs.readFile(OUT, "utf-8"))).length; } catch {}
+    const prevCount = Object.keys(prevIndex).length;
     const newCount = Object.keys(index).length;
     if (prevCount && newCount < prevCount * 0.98) {
       console.error(`中断: 画像インデックスが ${prevCount} 件 → ${newCount} 件に減ります。public/cards が他の PC と同期されているか確認してください（意図した削除なら --force）。`);
       process.exit(1);
+    }
+    // 全体の作り直しで既存キーの指す先が大量に変わる場合も止める（古い名前のファイルを拾っている可能性。2026-10-03 に発生）
+    if (!onlySets) {
+      const changed = Object.keys(prevIndex).filter((k) => index[k] && index[k] !== prevIndex[k]);
+      if (prevCount && changed.length > prevCount * 0.02) {
+        const bySet = {};
+        for (const k of changed) bySet[k.split("/")[0]] = (bySet[k.split("/")[0]] || 0) + 1;
+        console.error(`中断: 既存の ${changed.length} 件で画像の指す先が変わります（${Object.entries(bySet).slice(0, 10).map(([s, n]) => `${s}:${n}`).join(" ")} …）。古い名前のファイルを拾っている可能性があります。1つの弾だけ更新するなら --only <弾>（意図した変更なら --force）。`);
+        process.exit(1);
+      }
     }
   }
   await fs.writeFile(OUT, JSON.stringify(index), "utf-8");

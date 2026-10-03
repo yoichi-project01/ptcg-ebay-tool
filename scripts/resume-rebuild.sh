@@ -18,7 +18,7 @@ for code in "${codes[@]}"; do
   if ! node scripts/patch-from-scan.mjs --rebuild --set "$code"; then
     echo "FAIL-REBUILD $code"; git checkout -- src/cardData.json; exit 1
   fi
-  node scripts/build-image-index.mjs | tail -1
+  node scripts/build-image-index.mjs --only "$code" | tail -1
   node scripts/check-row-alignment.mjs | tail -1
   node scripts/verify-rebuilt-sets.mjs "$code" || { echo "VERIFY-NG $code"; exit 1; }
   git add src/cardData.json src/imageIndex.json "scripts/scan-progress/$code.json" "scripts/scan-patch-report/$code-rebuild.json"

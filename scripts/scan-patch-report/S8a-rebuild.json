@@ -1,0 +1,294 @@
+{
+  "code": "S8a",
+  "ofChange": null,
+  "nameChanged": [
+    {
+      "id": "S8a-003",
+      "oldJa": "ホウオウ",
+      "newJa": "博士の研究"
+    },
+    {
+      "id": "S8a-004",
+      "oldJa": "ルギア",
+      "newJa": "ホウオウ"
+    },
+    {
+      "id": "S8a-005",
+      "oldJa": "グラードン",
+      "newJa": "ルギア"
+    },
+    {
+      "id": "S8a-006",
+      "oldJa": "カイオーガ",
+      "newJa": "グラードン"
+    },
+    {
+      "id": "S8a-007",
+      "oldJa": "ディアルガ",
+      "newJa": "カイオーガ"
+    },
+    {
+      "id": "S8a-008",
+      "oldJa": "パルキア",
+      "newJa": "ディアルガ"
+    },
+    {
+      "id": "S8a-009",
+      "oldJa": "レシラム",
+      "newJa": "パルキア"
+    },
+    {
+      "id": "S8a-010",
+      "oldJa": "ゼクロム",
+      "newJa": "レシラム"
+    },
+    {
+      "id": "S8a-011",
+      "oldJa": "ゼルネアス",
+      "newJa": "ゼクロム"
+    },
+    {
+      "id": "S8a-012",
+      "oldJa": "イベルタル",
+      "newJa": "ゼルネアス"
+    },
+    {
+      "id": "S8a-013",
+      "oldJa": "コスモッグ",
+      "newJa": "イベルタル"
+    },
+    {
+      "id": "S8a-014",
+      "oldJa": "コスモウム",
+      "newJa": "コスモッグ"
+    },
+    {
+      "id": "S8a-015",
+      "oldJa": "ソルガレオ",
+      "newJa": "コスモウム"
+    },
+    {
+      "id": "S8a-016",
+      "oldJa": "ルナアーラ",
+      "newJa": "ソルガレオ"
+    },
+    {
+      "id": "S8a-017",
+      "oldJa": "ザシアンV",
+      "newJa": "ルナアーラ"
+    },
+    {
+      "id": "S8a-018",
+      "oldJa": "ザマゼンタV",
+      "newJa": "ザシアンV"
+    },
+    {
+      "id": "S8a-019",
+      "oldJa": "ピカチュウV",
+      "newJa": "ザマゼンタV"
+    },
+    {
+      "id": "S8a-020",
+      "oldJa": "なみのりピカチュウV",
+      "newJa": "ピカチュウV"
+    },
+    {
+      "id": "S8a-021",
+      "oldJa": "なみのりピカチュウVMAX",
+      "newJa": "なみのりピカチュウV"
+    },
+    {
+      "id": "S8a-022",
+      "oldJa": "そらをとぶピカチュウV",
+      "newJa": "なみのりピカチュウVMAX"
+    },
+    {
+      "id": "S8a-023",
+      "oldJa": "そらをとぶピカチュウVMAX",
+      "newJa": "そらをとぶピカチュウV"
+    },
+    {
+      "id": "S8a-024",
+      "oldJa": "ピカチュウV-UNION",
+      "newJa": "そらをとぶピカチュウVMAX"
+    },
+    {
+      "id": "S8a-025",
+      "oldJa": "博士の研究",
+      "newJa": "ピカチュウV-UNION"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "S8a-003",
+      "ja": "博士の研究",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-004",
+      "ja": "ホウオウ",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-005",
+      "ja": "ルギア",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-006",
+      "ja": "グラードン",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-007",
+      "ja": "カイオーガ",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-008",
+      "ja": "ディアルガ",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-009",
+      "ja": "パルキア",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-010",
+      "ja": "レシラム",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-011",
+      "ja": "ゼクロム",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-012",
+      "ja": "ゼルネアス",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-013",
+      "ja": "イベルタル",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-014",
+      "ja": "コスモッグ",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-015",
+      "ja": "コスモウム",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-016",
+      "ja": "ソルガレオ",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-017",
+      "ja": "ルナアーラ",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-018",
+      "ja": "ザシアンV",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-019",
+      "ja": "ザマゼンタV",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-020",
+      "ja": "ピカチュウV",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-021",
+      "ja": "なみのりピカチュウV",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-022",
+      "ja": "なみのりピカチュウVMAX",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-023",
+      "ja": "そらをとぶピカチュウV",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-024",
+      "ja": "そらをとぶピカチュウVMAX",
+      "hadImage": true
+    },
+    {
+      "id": "S8a-025",
+      "ja": "ピカチュウV-UNION",
+      "hadImage": true
+    }
+  ],
+  "added": [
+    {
+      "id": "S8a-026",
+      "ja": "ピカチュウV-UNION",
+      "rarity": ""
+    },
+    {
+      "id": "S8a-027",
+      "ja": "ピカチュウV-UNION",
+      "rarity": ""
+    },
+    {
+      "id": "S8a-028",
+      "ja": "ピカチュウV-UNION",
+      "rarity": ""
+    },
+    {
+      "id": "S8a-029",
+      "ja": "博士の研究",
+      "rarity": "SR"
+    }
+  ],
+  "removed": [
+    {
+      "id": "S8a-DAR",
+      "ja": "博士の研究"
+    },
+    {
+      "id": "S8a-FIG",
+      "ja": "基本草エネルギー"
+    },
+    {
+      "id": "S8a-FIR",
+      "ja": "基本炎エネルギー"
+    },
+    {
+      "id": "S8a-GRA",
+      "ja": "基本水エネルギー"
+    },
+    {
+      "id": "S8a-LIG",
+      "ja": "基本雷エネルギー"
+    },
+    {
+      "id": "S8a-MET",
+      "ja": "基本超エネルギー"
+    },
+    {
+      "id": "S8a-PSY",
+      "ja": "基本闘エネルギー"
+    },
+    {
+      "id": "S8a-WAT",
+      "ja": "基本悪エネルギー"
+    }
+  ]
+}
