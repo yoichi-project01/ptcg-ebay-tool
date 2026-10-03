@@ -1,0 +1,362 @@
+{
+ "set": "S5R",
+ "checkedAt": "2026-10-03T14:46:53.027Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S5R",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s05r",
+  "pokeca": "https://www.pokeca.net/product-list/623"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S5R-082",
+   "number": 82,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ビクティニVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10082"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ビクティニVMAX",
+     "rarity": "HR",
+     "model": "S5RE082",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "082",
+    "ja": "ビクティニVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5R-083",
+   "number": 83,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "れんげきウーラオスVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10083"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "れんげきウーラオスVMAX",
+     "rarity": "HR",
+     "model": "S5RE083",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "083",
+    "ja": "れんげきウーラオスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5R-084",
+   "number": 84,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "れんげきウーラオスVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10084"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "れんげきウーラオスVMAX",
+     "rarity": "HR",
+     "model": "S5RE084",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "084",
+    "ja": "れんげきウーラオスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5R-085",
+   "number": 85,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "アーマーガアVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10085"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "アーマーガアVMAX",
+     "rarity": "HR",
+     "model": "S5RE085",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "085",
+    "ja": "アーマーガアVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5R-086",
+   "number": 86,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "コルニの気合い",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10086"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "コルニの気合い",
+     "rarity": "HR",
+     "model": "S5RE086",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "086",
+    "ja": "コルニの気合い",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5R-087",
+   "number": 87,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "マスタード れんげきのかた",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10087"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マスタードれんげきのかた",
+     "rarity": "HR",
+     "model": "S5RE087",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "087",
+    "ja": "マスタード れんげきのかた",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5R-088",
+   "number": 88,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "モミ",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10088"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "モミ",
+     "rarity": "HR",
+     "model": "S5RE088",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "088",
+    "ja": "モミ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5R-089",
+   "number": 89,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "オクタン",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10089"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "オクタン",
+     "rarity": "UR",
+     "model": "S5RE089",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "089",
+    "ja": "オクタン",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5R-090",
+   "number": 90,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "レベルボール",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10090"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "レベルボール",
+     "rarity": "UR",
+     "model": "S5RE090",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "090",
+    "ja": "レベルボール",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S5R-091",
+   "number": 91,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "れんげきエネルギー",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s05r/10091"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "れんげきエネルギー",
+     "rarity": "UR",
+     "model": "S5RE091",
+     "url": "https://www.pokeca.net/product-list/623"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "091",
+    "ja": "れんげきエネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
