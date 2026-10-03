@@ -1,0 +1,372 @@
+{
+ "set": "SM6b",
+ "checkedAt": "2026-10-03T16:35:27.422Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM6b",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm06b",
+  "pokeca": "https://www.pokeca.net/product-list/297"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM6b-078",
+   "number": 78,
+   "tcgdex": {
+    "name": "フリーザーGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6b-078"
+   },
+   "yuyutei": [
+    {
+     "name": "フリーザーGX",
+     "rarity": "HR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06b/10078"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "フリーザーGX",
+     "rarity": "HR",
+     "model": "SM6b078",
+     "url": "https://www.pokeca.net/product-list/297"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "078",
+    "ja": "フリーザーGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6b-079",
+   "number": 79,
+   "tcgdex": {
+    "name": "マルマインGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6b-079"
+   },
+   "yuyutei": [
+    {
+     "name": "マルマインGX",
+     "rarity": "HR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06b/10079"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マルマインGX",
+     "rarity": "HR",
+     "model": "SM6b079",
+     "url": "https://www.pokeca.net/product-list/297"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "079",
+    "ja": "マルマインGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6b-080",
+   "number": 80,
+   "tcgdex": {
+    "name": "バリヤードGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6b-080"
+   },
+   "yuyutei": [
+    {
+     "name": "バリヤードGX",
+     "rarity": "HR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06b/10080"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "バリヤードGX",
+     "rarity": "HR",
+     "model": "SM6b080",
+     "url": "https://www.pokeca.net/product-list/297"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "080",
+    "ja": "バリヤードGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6b-081",
+   "number": 81,
+   "tcgdex": {
+    "name": "ジュペッタGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6b-081"
+   },
+   "yuyutei": [
+    {
+     "name": "ジュペッタGX",
+     "rarity": "HR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06b/10081"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ジュペッタGX",
+     "rarity": "HR",
+     "model": "SM6b081",
+     "url": "https://www.pokeca.net/product-list/297"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "081",
+    "ja": "ジュペッタGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6b-082",
+   "number": 82,
+   "tcgdex": {
+    "name": "ハッサムGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6b-082"
+   },
+   "yuyutei": [
+    {
+     "name": "ハッサムGX",
+     "rarity": "HR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06b/10082"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ハッサムGX",
+     "rarity": "HR",
+     "model": "SM6b082",
+     "url": "https://www.pokeca.net/product-list/297"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "082",
+    "ja": "ハッサムGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6b-083",
+   "number": 83,
+   "tcgdex": {
+    "name": "ボーマンダGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6b-083"
+   },
+   "yuyutei": [
+    {
+     "name": "ボーマンダGX",
+     "rarity": "HR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06b/10083"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ボーマンダGX",
+     "rarity": "HR",
+     "model": "SM6b083",
+     "url": "https://www.pokeca.net/product-list/297"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "083",
+    "ja": "ボーマンダGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6b-084",
+   "number": 84,
+   "tcgdex": {
+    "name": "ふっかつそう",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6b-084"
+   },
+   "yuyutei": [
+    {
+     "name": "ふっかつそう",
+     "rarity": "UR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06b/10084"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ふっかつそう",
+     "rarity": "UR",
+     "model": "SM6b084",
+     "url": "https://www.pokeca.net/product-list/297"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "084",
+    "ja": "ふっかつそう",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6b-085",
+   "number": 85,
+   "tcgdex": {
+    "name": "ポケナビ",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6b-085"
+   },
+   "yuyutei": [
+    {
+     "name": "ポケナビ",
+     "rarity": "UR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06b/10085"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ポケナビ",
+     "rarity": "UR",
+     "model": "SM6b085",
+     "url": "https://www.pokeca.net/product-list/297"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "085",
+    "ja": "ポケナビ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM6b-086",
+   "number": 86,
+   "tcgdex": {
+    "name": "レインボーエネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM6b-086"
+   },
+   "yuyutei": [
+    {
+     "name": "レインボーエネルギー",
+     "rarity": "UR",
+     "total": "066",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm06b/10086"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "レインボーエネルギー",
+     "rarity": "UR",
+     "model": "SM6b086",
+     "url": "https://www.pokeca.net/product-list/297"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "086",
+    "ja": "レインボーエネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
