@@ -120,12 +120,17 @@
    ],
    "add": {
     "local": "060",
-    "ja": "アローラベトベトンGX",
+    "ja": "アローラ ベトベトンGX",
     "rarity": "HR"
    },
    "image": {
     "source": null,
     "note": "TCGdex に画像なし"
+   },
+   "nameAdjusted": {
+    "from": "アローラベトベトンGX",
+    "to": "アローラ ベトベトンGX",
+    "basis": "SM3H-033（公式 details.php）の表記"
    }
   },
   {
