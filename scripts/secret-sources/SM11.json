@@ -1,0 +1,372 @@
+{
+ "set": "SM11",
+ "checkedAt": "2026-10-03T16:44:56.104Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM11",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm11",
+  "pokeca": "https://www.pokeca.net/product-list/431"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM11-107",
+   "number": 107,
+   "tcgdex": {
+    "name": "ヤドン&コダックGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11-107"
+   },
+   "yuyutei": [
+    {
+     "name": "ヤドン＆コダックGX",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11/10107"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ヤドン＆コダックGX",
+     "rarity": "HR",
+     "model": "SM11107",
+     "url": "https://www.pokeca.net/product-list/431"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "107",
+    "ja": "ヤドン&コダックGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11-108",
+   "number": 108,
+   "tcgdex": {
+    "name": "ミュウツー&ミュウGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11-108"
+   },
+   "yuyutei": [
+    {
+     "name": "ミュウツー＆ミュウGX",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11/10108"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ミュウツー＆ミュウGX",
+     "rarity": "HR",
+     "model": "SM11108",
+     "url": "https://www.pokeca.net/product-list/431"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "108",
+    "ja": "ミュウツー&ミュウGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11-109",
+   "number": 109,
+   "tcgdex": {
+    "name": "ラティオスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11-109"
+   },
+   "yuyutei": [
+    {
+     "name": "ラティオスGX",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11/10109"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ラティオスGX",
+     "rarity": "HR",
+     "model": "SM11109",
+     "url": "https://www.pokeca.net/product-list/431"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "109",
+    "ja": "ラティオスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11-110",
+   "number": 110,
+   "tcgdex": {
+    "name": "プテラGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11-110"
+   },
+   "yuyutei": [
+    {
+     "name": "プテラGX",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11/10110"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "プテラGX",
+     "rarity": "HR",
+     "model": "SM11110",
+     "url": "https://www.pokeca.net/product-list/431"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "110",
+    "ja": "プテラGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11-111",
+   "number": 111,
+   "tcgdex": {
+    "name": "メガヤミラミ&バンギラスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11-111"
+   },
+   "yuyutei": [
+    {
+     "name": "メガヤミラミ＆バンギラスGX",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11/10111"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "メガヤミラミ＆バンギラスGX",
+     "rarity": "HR",
+     "model": "SM11111",
+     "url": "https://www.pokeca.net/product-list/431"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "111",
+    "ja": "メガヤミラミ&バンギラスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11-112",
+   "number": 112,
+   "tcgdex": {
+    "name": "カイリューGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11-112"
+   },
+   "yuyutei": [
+    {
+     "name": "カイリューGX",
+     "rarity": "HR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11/10112"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カイリューGX",
+     "rarity": "HR",
+     "model": "SM11112",
+     "url": "https://www.pokeca.net/product-list/431"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "112",
+    "ja": "カイリューGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11-113",
+   "number": 113,
+   "tcgdex": {
+    "name": "プレシャスボール",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11-113"
+   },
+   "yuyutei": [
+    {
+     "name": "プレシャスボール",
+     "rarity": "UR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11/10113"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "プレシャスボール",
+     "rarity": "UR",
+     "model": "SM11113",
+     "url": "https://www.pokeca.net/product-list/431"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "113",
+    "ja": "プレシャスボール",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11-114",
+   "number": 114,
+   "tcgdex": {
+    "name": "ジャイアントボム",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11-114"
+   },
+   "yuyutei": [
+    {
+     "name": "ジャイアントボム",
+     "rarity": "UR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11/10114"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ジャイアントボム",
+     "rarity": "UR",
+     "model": "SM11114",
+     "url": "https://www.pokeca.net/product-list/431"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "114",
+    "ja": "ジャイアントボム",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11-115",
+   "number": 115,
+   "tcgdex": {
+    "name": "ウィークガードエネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11-115"
+   },
+   "yuyutei": [
+    {
+     "name": "ウィークガードエネルギー",
+     "rarity": "UR",
+     "total": "094",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11/10115"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ウィークガードエネルギー",
+     "rarity": "UR",
+     "model": "SM11115",
+     "url": "https://www.pokeca.net/product-list/431"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "115",
+    "ja": "ウィークガードエネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
