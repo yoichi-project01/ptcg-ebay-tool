@@ -35,13 +35,14 @@ const DRY = process.argv.includes("--dry-run");
 // 3つ目の情報源（任意）: ポケカくらぶの弾別一覧ページ（例 https://www.pokeca.net/product-list/680）
 const EXTRA = arg("--extra");
 // ポケカくらぶの型番の先頭が弾コードと違う場合に指定（例: S8a は S825）
-const EXTRA_PREFIX = (arg("--extra-prefix") || SET).toUpperCase();
+const EXTRA_PREFIX = (arg("--extra-prefix") || SET || "").toUpperCase();
 // 遊々亭の弾名が弾コードから作れない場合に指定（例: XY-BEST は hp）
 const YUYUTEI_SLUG = arg("--yuyutei-slug");
 // TCGdex に弾が無い場合（例: XY-BEST）は使わない。遊々亭とポケカくらぶの2つで照合する
 const NO_TCGDEX = process.argv.includes("--no-tcgdex");
+// TCGdex の弾 ID が弾コードと違う場合に指定（例: SM1p は SM1+）
+const TCGDEX_ID = arg("--tcgdex-id") || SET;
 const NO_RARITY_MARK = process.argv.includes("--no-rarity-mark");
-if (!SET || !FROM) { console.error("使い方: --set <弾> --from <開始番号>"); process.exit(1); }
 
 // 遊々亭の URL の弾名（S8 → s08、S4a → s04a、S1W → s01w）
 export const yuyuteiSlug = (code) => code.toLowerCase().replace(/^s(\d)(?=\D|$)/, "s0$1");
@@ -85,6 +86,7 @@ function note(ok, what) {
 }
 
 async function main() {
+  if (!SET || !FROM) throw new Error("使い方: --set <弾> --from <開始番号>");
   fs.mkdirSync(PROGRESS_DIR, { recursive: true });
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const progressPath = path.join(PROGRESS_DIR, `${SET}.json`);
@@ -100,7 +102,7 @@ async function main() {
   // 情報源1: TCGdex の弾の一覧と、対象番号のカード詳細（画像・レアリティ分類の記録用）
   if (NO_TCGDEX) progress.tcgdexSet = { total: null, cards: [], skipped: true };
   if (!progress.tcgdexSet) {
-    const text = await politeFetch(`${TCGDEX}/sets/${SET}`);
+    const text = await politeFetch(`${TCGDEX}/sets/${encodeURIComponent(TCGDEX_ID)}`);
     note(!!text, "TCGdex 弾一覧");
     if (!text) throw new Error("TCGdex の弾一覧を取得できません");
     const j = JSON.parse(text);
@@ -110,7 +112,7 @@ async function main() {
   const targets = progress.tcgdexSet.cards.filter((c) => /^\d+$/.test(c.localId) && parseInt(c.localId, 10) >= FROM);
   for (const c of targets) {
     if (progress.tcgdexCards[c.localId]) continue;
-    const text = await politeFetch(`${TCGDEX}/cards/${SET}-${c.localId}`);
+    const text = await politeFetch(`${TCGDEX}/cards/${encodeURIComponent(TCGDEX_ID)}-${c.localId}`);
     note(!!text, `TCGdex ${SET}-${c.localId}`);
     if (text) { const j = JSON.parse(text); progress.tcgdexCards[c.localId] = { name: j.name, rarity: j.rarity || null, image: j.image || null }; await save(); }
     await politeDelay();
@@ -127,7 +129,8 @@ async function main() {
     await save(); await politeDelay();
   }
   const ytTitle = progress.yuyutei.title;
-  if (!ytTitle.includes(`[${(YUYUTEI_SLUG || SET).toUpperCase()}]`) && !ytTitle.includes(`[${SET}]`)) throw new Error(`遊々亭のページが別の弾の可能性: ${ytTitle}`);
+  // 遊々亭の表記は強化拡張パックの「p」が「+」（SM1p → [SM1+]）
+  if (![`[${SET}]`, `[${SET.replace(/p$/, "+")}]`, `[${(YUYUTEI_SLUG || SET).toUpperCase()}]`].some((t) => ytTitle.includes(t))) throw new Error(`遊々亭のページが別の弾の可能性: ${ytTitle}`);
 
   // 情報源3（任意）: ポケカくらぶの弾別一覧
   if (EXTRA && progress.pokeca?.url !== EXTRA) {
@@ -135,7 +138,20 @@ async function main() {
     note(!!html, "ポケカくらぶ");
     if (!html) throw new Error(`ポケカくらぶのページを取得できません: ${EXTRA}`);
     const title = (html.match(/<title>([^<]*)/) || [])[1] || "";
-    progress.pokeca = { url: EXTRA, title, entries: parsePokeca(html) };
+    const entries = parsePokeca(html);
+    // 一覧は60件ずつのページに分かれる。URL にページ指定が無ければ、ページ送りのリンクにある全ページを読む
+    if (!/[?&]page=/.test(EXTRA)) {
+      const base = EXTRA.replace(/^https:\/\/www\.pokeca\.net/, "");
+      const pages = [...html.matchAll(/href="(?:https:\/\/www\.pokeca\.net)?([^"?]*)\?page=(\d+)"/g)].filter((m) => m[1] === base).map((m) => parseInt(m[2], 10));
+      for (let pg = 2; pg <= Math.max(1, ...pages); pg++) {
+        await politeDelay();
+        const h = await politeFetch(`${EXTRA}?page=${pg}`);
+        note(!!h, `ポケカくらぶ ${pg}ページ目`);
+        if (!h) throw new Error(`ポケカくらぶのページを取得できません: ${EXTRA}?page=${pg}`);
+        entries.push(...parsePokeca(h));
+      }
+    }
+    progress.pokeca = { url: EXTRA, title, entries };
     await save(); await politeDelay();
   }
   // 型番の先頭が対象の弾と一致するものだけ使う（例: S1W なら S1WD061）
@@ -157,7 +173,7 @@ async function main() {
     const pe = pk.filter((e) => e.number === n);
     const id = `${SET}-${String(n).padStart(3, "0")}`;
     const r = { cardId: id, number: n,
-      tcgdex: td ? { name: td.name, rarityClass: td.rarity ?? null, url: `${TCGDEX}/cards/${SET}-${c.localId}` } : null,
+      tcgdex: td ? { name: td.name, rarityClass: td.rarity ?? null, url: `${TCGDEX}/cards/${encodeURIComponent(TCGDEX_ID)}-${c.localId}` } : null,
       yuyutei: yt.map((e) => ({ name: e.name, rarity: e.rarity, total: e.total, url: e.url })),
       ...(EXTRA ? { pokeca: pe.map((e) => ({ name: e.name, rarity: e.rarity, model: e.model, url: EXTRA })) } : {}) };
     // 各情報源の名前（1情報源の中で名前が割れていれば、その情報源は票を入れない）
@@ -223,7 +239,7 @@ async function main() {
   const merged = new Map(prev.results.map((x) => [x.cardId, x]));
   for (const x of results) if (!(x.status === "既に cardData にある" && merged.has(x.cardId))) merged.set(x.cardId, x);
   const report = { set: SET, checkedAt: new Date().toISOString(),
-    sources: { tcgdex: `${TCGDEX}/sets/${SET}`, yuyutei: progress.yuyutei.url, ...(EXTRA || prev.sources?.pokeca ? { pokeca: EXTRA || prev.sources.pokeca } : {}) },
+    sources: { tcgdex: `${TCGDEX}/sets/${encodeURIComponent(TCGDEX_ID)}`, yuyutei: progress.yuyutei.url, ...(EXTRA || prev.sources?.pokeca ? { pokeca: EXTRA || prev.sources.pokeca } : {}) },
     rule: "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
     results: [...merged.values()].sort((x, y) => x.number - y.number) };
   fs.writeFileSync(reportPath, JSON.stringify(report, null, 1) + "\n");
