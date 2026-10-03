@@ -1,0 +1,327 @@
+{
+ "set": "S3a",
+ "checkedAt": "2026-10-03T14:46:49.961Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S3a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s03a",
+  "pokeca": "https://www.pokeca.net/product-list/573"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S3a-086",
+   "number": 86,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "マホイップVMAX",
+     "rarity": "HR",
+     "total": "076",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03a/10086"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マホイップVMAX",
+     "rarity": "HR",
+     "model": "S3AD086",
+     "url": "https://www.pokeca.net/product-list/573"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "086",
+    "ja": "マホイップVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3a-087",
+   "number": 87,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "セキタンザンVMAX",
+     "rarity": "HR",
+     "total": "076",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03a/10087"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "セキタンザンVMAX",
+     "rarity": "HR",
+     "model": "S3AD087",
+     "url": "https://www.pokeca.net/product-list/573"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "087",
+    "ja": "セキタンザンVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3a-088",
+   "number": 88,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "トゲキッスVMAX",
+     "rarity": "HR",
+     "total": "076",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03a/10088"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "トゲキッスVMAX",
+     "rarity": "HR",
+     "model": "S3AD088",
+     "url": "https://www.pokeca.net/product-list/573"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "088",
+    "ja": "トゲキッスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3a-089",
+   "number": 89,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "おとなのおねえさん",
+     "rarity": "HR",
+     "total": "076",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03a/10089"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "おとなのおねえさん",
+     "rarity": "HR",
+     "model": "S3AD089",
+     "url": "https://www.pokeca.net/product-list/573"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "089",
+    "ja": "おとなのおねえさん",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3a-090",
+   "number": 90,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "オニオン",
+     "rarity": "HR",
+     "total": "076",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03a/10090"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "オニオン",
+     "rarity": "HR",
+     "model": "S3AD090",
+     "url": "https://www.pokeca.net/product-list/573"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "090",
+    "ja": "オニオン",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3a-091",
+   "number": 91,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ポプラ",
+     "rarity": "HR",
+     "total": "076",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03a/10091"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ポプラ",
+     "rarity": "HR",
+     "model": "S3AD091",
+     "url": "https://www.pokeca.net/product-list/573"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "091",
+    "ja": "ポプラ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3a-092",
+   "number": 92,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ヤレユータン",
+     "rarity": "UR",
+     "total": "076",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03a/10092"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ヤレユータン",
+     "rarity": "UR",
+     "model": "S3AD092",
+     "url": "https://www.pokeca.net/product-list/573"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "092",
+    "ja": "ヤレユータン",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3a-093",
+   "number": 93,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "英雄のメダル",
+     "rarity": "UR",
+     "total": "076",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03a/10093"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "英雄のメダル",
+     "rarity": "UR",
+     "model": "S3AD093",
+     "url": "https://www.pokeca.net/product-list/573"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "093",
+    "ja": "英雄のメダル",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3a-094",
+   "number": 94,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "タフネスマント",
+     "rarity": "UR",
+     "total": "076",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03a/10094"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "タフネスマント",
+     "rarity": "UR",
+     "model": "S3AD094",
+     "url": "https://www.pokeca.net/product-list/573"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "094",
+    "ja": "タフネスマント",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
