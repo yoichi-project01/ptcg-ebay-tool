@@ -1,0 +1,287 @@
+{
+ "set": "SM2K",
+ "checkedAt": "2026-10-03T16:28:45.522Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM2K",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm02k",
+  "pokeca": "https://www.pokeca.net/product-list/141"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM2K-056",
+   "number": 56,
+   "tcgdex": {
+    "name": "バクガメスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM2K-056"
+   },
+   "yuyutei": [
+    {
+     "name": "バクガメスGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02k/10056"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "バクガメスGX",
+     "rarity": "HR",
+     "model": "SM2K056",
+     "url": "https://www.pokeca.net/product-list/141"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "056",
+    "ja": "バクガメスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2K-057",
+   "number": 57,
+   "tcgdex": {
+    "name": "アローラキュウコンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM2K-057"
+   },
+   "yuyutei": [
+    {
+     "name": "アローラキュウコンGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02k/10057"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "アローラキュウコンGX",
+     "rarity": "HR",
+     "model": "SM2K057",
+     "url": "https://www.pokeca.net/product-list/141"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "057",
+    "ja": "アローラキュウコンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2K-058",
+   "number": 58,
+   "tcgdex": {
+    "name": "カプ・コケコGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM2K-058"
+   },
+   "yuyutei": [
+    {
+     "name": "カプ・コケコGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02k/10058"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カプ・コケコGX",
+     "rarity": "HR",
+     "model": "SM2K058",
+     "url": "https://www.pokeca.net/product-list/141"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "058",
+    "ja": "カプ・コケコGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2K-059",
+   "number": 59,
+   "tcgdex": {
+    "name": "ジャラランガGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM2K-059"
+   },
+   "yuyutei": [
+    {
+     "name": "ジャラランガGX",
+     "rarity": "HR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02k/10059"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ジャラランガGX",
+     "rarity": "HR",
+     "model": "SM2K059",
+     "url": "https://www.pokeca.net/product-list/141"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "059",
+    "ja": "ジャラランガGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2K-060",
+   "number": 60,
+   "tcgdex": {
+    "name": "フィールドブロアー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM2K-060"
+   },
+   "yuyutei": [
+    {
+     "name": "フィールドブロアー",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02k/10060"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "フィールドブロアー",
+     "rarity": "UR",
+     "model": "SM2K060",
+     "url": "https://www.pokeca.net/product-list/141"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "060",
+    "ja": "フィールドブロアー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2K-061",
+   "number": 61,
+   "tcgdex": {
+    "name": "まんたんのくすり",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM2K-061"
+   },
+   "yuyutei": [
+    {
+     "name": "まんたんのくすり",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02k/10061"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "まんたんのくすり",
+     "rarity": "UR",
+     "model": "SM2K061",
+     "url": "https://www.pokeca.net/product-list/141"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "061",
+    "ja": "まんたんのくすり",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2K-062",
+   "number": 62,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "基本雷エネルギー",
+     "rarity": "UR",
+     "total": "050",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02k/10062"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "基本雷エネルギー",
+     "rarity": "UR",
+     "model": "SM2K062",
+     "url": "https://www.pokeca.net/product-list/141"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "062",
+    "ja": "基本雷エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
