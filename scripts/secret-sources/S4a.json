@@ -1,0 +1,152 @@
+{
+ "set": "S4a",
+ "checkedAt": "2026-10-03T14:46:51.984Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S4a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s04a",
+  "pokeca": "https://www.pokeca.net/product-list/605"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S4a-327",
+   "number": 327,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ムゲンダイナV",
+     "rarity": "UR",
+     "total": "190",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04a/10451"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ムゲンダイナV",
+     "rarity": "UR",
+     "model": "S4AD327",
+     "url": "https://www.pokeca.net/product-list/605"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "327",
+    "ja": "ムゲンダイナV",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4a-328",
+   "number": 328,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ムゲンダイナVMAX",
+     "rarity": "UR",
+     "total": "190",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04a/10452"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ムゲンダイナVMAX",
+     "rarity": "UR",
+     "model": "S4AD328",
+     "url": "https://www.pokeca.net/product-list/605"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "328",
+    "ja": "ムゲンダイナVMAX",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4a-329",
+   "number": 329,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ザシアンV",
+     "rarity": "UR",
+     "total": "190",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04a/10453"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ザシアンV",
+     "rarity": "UR",
+     "model": "S4AD329",
+     "url": "https://www.pokeca.net/product-list/605"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "329",
+    "ja": "ザシアンV",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S4a-330",
+   "number": 330,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ザマゼンタV",
+     "rarity": "UR",
+     "total": "190",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s04a/10454"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ザマゼンタV",
+     "rarity": "UR",
+     "model": "S4AD330",
+     "url": "https://www.pokeca.net/product-list/605"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "330",
+    "ja": "ザマゼンタV",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
