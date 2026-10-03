@@ -1,0 +1,292 @@
+{
+ "set": "SM11b",
+ "checkedAt": "2026-10-03T16:45:59.009Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM11b",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm11b",
+  "pokeca": "https://www.pokeca.net/product-list/472"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM11b-069",
+   "number": 69,
+   "tcgdex": {
+    "name": "ラフレシアGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11b-069"
+   },
+   "yuyutei": [
+    {
+     "name": "ラフレシアGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11b/10069"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ラフレシアGX",
+     "rarity": "HR",
+     "model": "sm11b69",
+     "url": "https://www.pokeca.net/product-list/472"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "069",
+    "ja": "ラフレシアGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11b-070",
+   "number": 70,
+   "tcgdex": {
+    "name": "ソルガレオ&ルナアーラGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11b-070"
+   },
+   "yuyutei": [
+    {
+     "name": "ソルガレオ＆ルナアーラGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11b/10070"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ソルガレオ＆ルナアーラGX",
+     "rarity": "HR",
+     "model": "sm11b70",
+     "url": "https://www.pokeca.net/product-list/472"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "070",
+    "ja": "ソルガレオ&ルナアーラGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11b-071",
+   "number": 71,
+   "tcgdex": {
+    "name": "レシラム&ゼクロムGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11b-071"
+   },
+   "yuyutei": [
+    {
+     "name": "レシラム＆ゼクロムGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11b/10071"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "レシラム＆ゼクロムGX",
+     "rarity": "HR",
+     "model": "sm11b71",
+     "url": "https://www.pokeca.net/product-list/472"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "071",
+    "ja": "レシラム&ゼクロムGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11b-072",
+   "number": 72,
+   "tcgdex": {
+    "name": "シルヴァディGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11b-072"
+   },
+   "yuyutei": [
+    {
+     "name": "シルヴァディGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11b/10072"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "シルヴァディGX",
+     "rarity": "HR",
+     "model": "sm11b72",
+     "url": "https://www.pokeca.net/product-list/472"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "072",
+    "ja": "シルヴァディGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11b-073",
+   "number": 73,
+   "tcgdex": {
+    "name": "スイレンのつりざお",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11b-073"
+   },
+   "yuyutei": [
+    {
+     "name": "スイレンのつりざお",
+     "rarity": "UR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11b/10073"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "スイレンのつりざお",
+     "rarity": "UR",
+     "model": "sm11b73",
+     "url": "https://www.pokeca.net/product-list/472"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "073",
+    "ja": "スイレンのつりざお",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11b-074",
+   "number": 74,
+   "tcgdex": {
+    "name": "リーリエのピッピ人形",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11b-074"
+   },
+   "yuyutei": [
+    {
+     "name": "リーリエのピッピ人形",
+     "rarity": "UR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11b/10074"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "リーリエのピッピ人形",
+     "rarity": "UR",
+     "model": "sm11b74",
+     "url": "https://www.pokeca.net/product-list/472"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "074",
+    "ja": "リーリエのピッピ人形",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11b-075",
+   "number": 75,
+   "tcgdex": {
+    "name": "無人発電所",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11b-075"
+   },
+   "yuyutei": [
+    {
+     "name": "無人発電所",
+     "rarity": "UR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11b/10075"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "無人発電所",
+     "rarity": "UR",
+     "model": "sm11b75",
+     "url": "https://www.pokeca.net/product-list/472"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "075",
+    "ja": "無人発電所",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
