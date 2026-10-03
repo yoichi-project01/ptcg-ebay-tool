@@ -1,0 +1,292 @@
+{
+ "set": "SM11a",
+ "checkedAt": "2026-10-03T16:45:27.674Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM11a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm11a",
+  "pokeca": "https://www.pokeca.net/product-list/440"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM11a-074",
+   "number": 74,
+   "tcgdex": {
+    "name": "フシギバナ&ツタージャGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11a-074"
+   },
+   "yuyutei": [
+    {
+     "name": "フシギバナ＆ツタージャGX",
+     "rarity": "HR",
+     "total": "064",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11a/10074"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "フシギバナ＆ツタージャGX",
+     "rarity": "HR",
+     "model": "SM11a74",
+     "url": "https://www.pokeca.net/product-list/440"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "074",
+    "ja": "フシギバナ&ツタージャGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11a-075",
+   "number": 75,
+   "tcgdex": {
+    "name": "リザードン&テールナーGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11a-075"
+   },
+   "yuyutei": [
+    {
+     "name": "リザードン＆テールナーGX",
+     "rarity": "HR",
+     "total": "064",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11a/10075"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "リザードン＆テールナーGX",
+     "rarity": "HR",
+     "model": "SM11a75",
+     "url": "https://www.pokeca.net/product-list/440"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "075",
+    "ja": "リザードン&テールナーGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11a-076",
+   "number": 76,
+   "tcgdex": {
+    "name": "カメックス&ポッチャマGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11a-076"
+   },
+   "yuyutei": [
+    {
+     "name": "カメックス＆ポッチャマGX",
+     "rarity": "HR",
+     "total": "064",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11a/10076"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カメックス＆ポッチャマGX",
+     "rarity": "HR",
+     "model": "SM11a76",
+     "url": "https://www.pokeca.net/product-list/440"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "076",
+    "ja": "カメックス&ポッチャマGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11a-077",
+   "number": 77,
+   "tcgdex": {
+    "name": "アローラペルシアンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11a-077"
+   },
+   "yuyutei": [
+    {
+     "name": "アローラペルシアンGX",
+     "rarity": "HR",
+     "total": "064",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11a/10077"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "アローラペルシアンGX",
+     "rarity": "HR",
+     "model": "SM11a77",
+     "url": "https://www.pokeca.net/product-list/440"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "077",
+    "ja": "アローラペルシアンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11a-078",
+   "number": 78,
+   "tcgdex": {
+    "name": "グレートキャッチャー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11a-078"
+   },
+   "yuyutei": [
+    {
+     "name": "グレートキャッチャー",
+     "rarity": "UR",
+     "total": "064",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11a/10078"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "グレートキャッチャー",
+     "rarity": "UR",
+     "model": "SM11a78",
+     "url": "https://www.pokeca.net/product-list/440"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "078",
+    "ja": "グレートキャッチャー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11a-079",
+   "number": 79,
+   "tcgdex": {
+    "name": "格闘道場",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11a-079"
+   },
+   "yuyutei": [
+    {
+     "name": "格闘道場",
+     "rarity": "UR",
+     "total": "064",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11a/10079"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "格闘道場",
+     "rarity": "UR",
+     "model": "SM11a79",
+     "url": "https://www.pokeca.net/product-list/440"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "079",
+    "ja": "格闘道場",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM11a-080",
+   "number": 80,
+   "tcgdex": {
+    "name": "ドローエネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM11a-080"
+   },
+   "yuyutei": [
+    {
+     "name": "ドローエネルギー",
+     "rarity": "UR",
+     "total": "064",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm11a/10080"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ドローエネルギー",
+     "rarity": "UR",
+     "model": "SM11a80",
+     "url": "https://www.pokeca.net/product-list/440"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "080",
+    "ja": "ドローエネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
