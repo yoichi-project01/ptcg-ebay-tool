@@ -1,0 +1,292 @@
+{
+ "set": "SM9a",
+ "checkedAt": "2026-10-03T16:40:43.212Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM9a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm09a",
+  "pokeca": "https://www.pokeca.net/product-list/384"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM9a-064",
+   "number": 64,
+   "tcgdex": {
+    "name": "モルフォンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9a-064"
+   },
+   "yuyutei": [
+    {
+     "name": "モルフォンGX",
+     "rarity": "HR",
+     "total": "055",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09a/10064"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "モルフォンGX",
+     "rarity": "HR",
+     "model": "SM9aN64",
+     "url": "https://www.pokeca.net/product-list/384"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "064",
+    "ja": "モルフォンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9a-065",
+   "number": 65,
+   "tcgdex": {
+    "name": "デデンネGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9a-065"
+   },
+   "yuyutei": [
+    {
+     "name": "デデンネGX",
+     "rarity": "HR",
+     "total": "055",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09a/10065"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "デデンネGX",
+     "rarity": "HR",
+     "model": "SM9aN65",
+     "url": "https://www.pokeca.net/product-list/384"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "065",
+    "ja": "デデンネGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9a-066",
+   "number": 66,
+   "tcgdex": {
+    "name": "ゲッコウガ&ゾロアークGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9a-066"
+   },
+   "yuyutei": [
+    {
+     "name": "ゲッコウガ＆ゾロアークGX",
+     "rarity": "HR",
+     "total": "055",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09a/10066"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ゲッコウガ＆ゾロアークGX",
+     "rarity": "HR",
+     "model": "SM9aN66",
+     "url": "https://www.pokeca.net/product-list/384"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "066",
+    "ja": "ゲッコウガ&ゾロアークGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9a-067",
+   "number": 67,
+   "tcgdex": {
+    "name": "サーナイト&ニンフィアGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9a-067"
+   },
+   "yuyutei": [
+    {
+     "name": "サーナイト＆ニンフィアGX",
+     "rarity": "HR",
+     "total": "055",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09a/10067"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "サーナイト＆ニンフィアGX",
+     "rarity": "HR",
+     "model": "SM9aN67",
+     "url": "https://www.pokeca.net/product-list/384"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "067",
+    "ja": "サーナイト&ニンフィアGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9a-068",
+   "number": 68,
+   "tcgdex": {
+    "name": "電磁レーダー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9a-068"
+   },
+   "yuyutei": [
+    {
+     "name": "電磁レーダー",
+     "rarity": "UR",
+     "total": "055",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09a/10068"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "電磁レーダー",
+     "rarity": "UR",
+     "model": "SM9aN68",
+     "url": "https://www.pokeca.net/product-list/384"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "068",
+    "ja": "電磁レーダー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9a-069",
+   "number": 69,
+   "tcgdex": {
+    "name": "ポケギア3.0",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9a-069"
+   },
+   "yuyutei": [
+    {
+     "name": "ポケギア3.0",
+     "rarity": "UR",
+     "total": "055",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09a/10069"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ポケギア3.0",
+     "rarity": "UR",
+     "model": "SM9aN69",
+     "url": "https://www.pokeca.net/product-list/384"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "069",
+    "ja": "ポケギア3.0",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM9a-070",
+   "number": 70,
+   "tcgdex": {
+    "name": "エーテルパラダイス保護区",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM9a-070"
+   },
+   "yuyutei": [
+    {
+     "name": "エーテルパラダイス保護区",
+     "rarity": "UR",
+     "total": "055",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm09a/10070"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エーテルパラダイス保護区",
+     "rarity": "UR",
+     "model": "SM9aN70",
+     "url": "https://www.pokeca.net/product-list/384"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "070",
+    "ja": "エーテルパラダイス保護区",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
