@@ -1,0 +1,383 @@
+{
+ "set": "S6H",
+ "checkedAt": "2026-10-03T14:43:01.243Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S6H",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s06h"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S6H-084",
+   "number": 84,
+   "tcgdex": {
+    "name": "はくばバドレックスVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-084"
+   },
+   "yuyutei": [
+    {
+     "name": "はくばバドレックスVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10084"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "084",
+    "ja": "はくばバドレックスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-085",
+   "number": 85,
+   "tcgdex": {
+    "name": "はくばバドレックスVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-085"
+   },
+   "yuyutei": [
+    {
+     "name": "はくばバドレックスVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10085"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "085",
+    "ja": "はくばバドレックスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-086",
+   "number": 86,
+   "tcgdex": {
+    "name": "サダイジャVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-086"
+   },
+   "yuyutei": [
+    {
+     "name": "サダイジャVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10086"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "086",
+    "ja": "サダイジャVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-087",
+   "number": 87,
+   "tcgdex": {
+    "name": "トルネロスVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-087"
+   },
+   "yuyutei": [
+    {
+     "name": "トルネロスVMAX",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10087"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "087",
+    "ja": "トルネロスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-088",
+   "number": 88,
+   "tcgdex": {
+    "name": "アスナ",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-088"
+   },
+   "yuyutei": [
+    {
+     "name": "アスナ",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10088"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "088",
+    "ja": "アスナ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-089",
+   "number": 89,
+   "tcgdex": {
+    "name": "ドクター",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-089"
+   },
+   "yuyutei": [
+    {
+     "name": "ドクター",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10089"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "089",
+    "ja": "ドクター",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-090",
+   "number": 90,
+   "tcgdex": {
+    "name": "ピオニー",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-090"
+   },
+   "yuyutei": [
+    {
+     "name": "ピオニー",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10090"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "090",
+    "ja": "ピオニー",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-091",
+   "number": 91,
+   "tcgdex": {
+    "name": "メロン",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-091"
+   },
+   "yuyutei": [
+    {
+     "name": "メロン",
+     "rarity": "HR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10091"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "091",
+    "ja": "メロン",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-092",
+   "number": 92,
+   "tcgdex": {
+    "name": "ドータクン",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-092"
+   },
+   "yuyutei": [
+    {
+     "name": "ドータクン",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10092"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "092",
+    "ja": "ドータクン",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-093",
+   "number": 93,
+   "tcgdex": {
+    "name": "おむかえちょうちん",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-093"
+   },
+   "yuyutei": [
+    {
+     "name": "おむかえちょうちん",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10093"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "093",
+    "ja": "おむかえちょうちん",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-094",
+   "number": 94,
+   "tcgdex": {
+    "name": "いかついメット",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-094"
+   },
+   "yuyutei": [
+    {
+     "name": "いかついメット",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10094"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "094",
+    "ja": "いかついメット",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S6H-095",
+   "number": 95,
+   "tcgdex": {
+    "name": "基本水エネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S6H-095"
+   },
+   "yuyutei": [
+    {
+     "name": "基本水エネルギー",
+     "rarity": "UR",
+     "total": "070",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s06h/10095"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "095",
+    "ja": "基本水エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
