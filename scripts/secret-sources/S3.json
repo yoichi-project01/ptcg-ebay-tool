@@ -1,0 +1,327 @@
+{
+ "set": "S3",
+ "checkedAt": "2026-10-03T14:46:48.869Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S3",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s03",
+  "pokeca": "https://www.pokeca.net/product-list/564"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S3-111",
+   "number": 111,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "カジリガメVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03/10111"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カジリガメVMAX",
+     "rarity": "HR",
+     "model": "S3DM111",
+     "url": "https://www.pokeca.net/product-list/564"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "111",
+    "ja": "カジリガメVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3-112",
+   "number": 112,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ムゲンダイナVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03/10112"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ムゲンダイナVMAX",
+     "rarity": "HR",
+     "model": "S3DM112",
+     "url": "https://www.pokeca.net/product-list/564"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "112",
+    "ja": "ムゲンダイナVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3-113",
+   "number": 113,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ハッサムVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03/10113"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ハッサムVMAX",
+     "rarity": "HR",
+     "model": "S3DM113",
+     "url": "https://www.pokeca.net/product-list/564"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "113",
+    "ja": "ハッサムVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3-114",
+   "number": 114,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ボーマンダVMAX",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03/10114"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ボーマンダVMAX",
+     "rarity": "HR",
+     "model": "S3DM114",
+     "url": "https://www.pokeca.net/product-list/564"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "114",
+    "ja": "ボーマンダVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3-115",
+   "number": 115,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ネズ",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03/10115"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ネズ",
+     "rarity": "HR",
+     "model": "S3DM115",
+     "url": "https://www.pokeca.net/product-list/564"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "115",
+    "ja": "ネズ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3-116",
+   "number": 116,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ローズ",
+     "rarity": "HR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03/10116"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ローズ",
+     "rarity": "HR",
+     "model": "S3DM116",
+     "url": "https://www.pokeca.net/product-list/564"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "116",
+    "ja": "ローズ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3-117",
+   "number": 117,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "セキタンザン",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03/10117"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "セキタンザン",
+     "rarity": "UR",
+     "model": "S3DM117",
+     "url": "https://www.pokeca.net/product-list/564"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "117",
+    "ja": "セキタンザン",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3-118",
+   "number": 118,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ターボパッチ",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03/10118"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ターボパッチ",
+     "rarity": "UR",
+     "model": "S3DM118",
+     "url": "https://www.pokeca.net/product-list/564"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "118",
+    "ja": "ターボパッチ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S3-119",
+   "number": 119,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "キャプチャーエネルギー",
+     "rarity": "UR",
+     "total": "100",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s03/10119"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "キャプチャーエネルギー",
+     "rarity": "UR",
+     "model": "S3DM119",
+     "url": "https://www.pokeca.net/product-list/564"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "119",
+    "ja": "キャプチャーエネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
