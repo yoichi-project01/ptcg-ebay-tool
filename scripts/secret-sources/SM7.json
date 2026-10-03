@@ -1,0 +1,332 @@
+{
+ "set": "SM7",
+ "checkedAt": "2026-10-03T16:36:00.330Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM7",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm07",
+  "pokeca": "https://www.pokeca.net/product-list/305"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM7-105",
+   "number": 105,
+   "tcgdex": {
+    "name": "ダーテングGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7-105"
+   },
+   "yuyutei": [
+    {
+     "name": "ダーテングGX",
+     "rarity": "HR",
+     "total": "096",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07/10105"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ダーテングGX",
+     "rarity": "HR",
+     "model": "sm7r105",
+     "url": "https://www.pokeca.net/product-list/305"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "105",
+    "ja": "ダーテングGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7-106",
+   "number": 106,
+   "tcgdex": {
+    "name": "バシャーモGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7-106"
+   },
+   "yuyutei": [
+    {
+     "name": "バシャーモGX",
+     "rarity": "HR",
+     "total": "096",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07/10106"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "バシャーモGX",
+     "rarity": "HR",
+     "model": "sm7r106",
+     "url": "https://www.pokeca.net/product-list/305"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "106",
+    "ja": "バシャーモGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7-107",
+   "number": 107,
+   "tcgdex": {
+    "name": "ツンデツンデGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7-107"
+   },
+   "yuyutei": [
+    {
+     "name": "ツンデツンデGX",
+     "rarity": "HR",
+     "total": "096",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07/10107"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ツンデツンデGX",
+     "rarity": "HR",
+     "model": "sm7r107",
+     "url": "https://www.pokeca.net/product-list/305"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "107",
+    "ja": "ツンデツンデGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7-108",
+   "number": 108,
+   "tcgdex": {
+    "name": "チルタリスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7-108"
+   },
+   "yuyutei": [
+    {
+     "name": "チルタリスGX",
+     "rarity": "HR",
+     "total": "096",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07/10108"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "チルタリスGX",
+     "rarity": "HR",
+     "model": "sm7r108",
+     "url": "https://www.pokeca.net/product-list/305"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "108",
+    "ja": "チルタリスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7-109",
+   "number": 109,
+   "tcgdex": {
+    "name": "レックウザGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7-109"
+   },
+   "yuyutei": [
+    {
+     "name": "レックウザGX",
+     "rarity": "HR",
+     "total": "096",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07/10109"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "レックウザGX",
+     "rarity": "HR",
+     "model": "sm7r109",
+     "url": "https://www.pokeca.net/product-list/305"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "109",
+    "ja": "レックウザGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7-110",
+   "number": 110,
+   "tcgdex": {
+    "name": "ダートじてんしゃ",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7-110"
+   },
+   "yuyutei": [
+    {
+     "name": "ダートじてんしゃ",
+     "rarity": "UR",
+     "total": "096",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07/10110"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ダートじてんしゃ",
+     "rarity": "UR",
+     "model": "sm7r110",
+     "url": "https://www.pokeca.net/product-list/305"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "110",
+    "ja": "ダートじてんしゃ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7-111",
+   "number": 111,
+   "tcgdex": {
+    "name": "レインボーブラシ",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7-111"
+   },
+   "yuyutei": [
+    {
+     "name": "レインボーブラシ",
+     "rarity": "UR",
+     "total": "096",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07/10111"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "レインボーブラシ",
+     "rarity": "UR",
+     "model": "sm7r111",
+     "url": "https://www.pokeca.net/product-list/305"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "111",
+    "ja": "レインボーブラシ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM7-112",
+   "number": 112,
+   "tcgdex": {
+    "name": "ハッスルベルト",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM7-112"
+   },
+   "yuyutei": [
+    {
+     "name": "ハッスルベルト",
+     "rarity": "UR",
+     "total": "096",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm07/10112"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ハッスルベルト",
+     "rarity": "UR",
+     "model": "sm7r112",
+     "url": "https://www.pokeca.net/product-list/305"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "112",
+    "ja": "ハッスルベルト",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
