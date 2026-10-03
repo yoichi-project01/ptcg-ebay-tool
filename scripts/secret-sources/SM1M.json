@@ -1,0 +1,292 @@
+{
+ "set": "SM1M",
+ "checkedAt": "2026-10-03T16:27:34.481Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM1M",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm01m",
+  "pokeca": "https://www.pokeca.net/product-list/119"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM1M-067",
+   "number": 67,
+   "tcgdex": {
+    "name": "ラランテスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1M-067"
+   },
+   "yuyutei": [
+    {
+     "name": "ラランテスGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01m/10067"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ラランテスGX",
+     "rarity": "HR",
+     "model": "SM1M067",
+     "url": "https://www.pokeca.net/product-list/119"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "067",
+    "ja": "ラランテスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1M-068",
+   "number": 68,
+   "tcgdex": {
+    "name": "ルナアーラGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1M-068"
+   },
+   "yuyutei": [
+    {
+     "name": "ルナアーラGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01m/10068"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ルナアーラGX",
+     "rarity": "HR",
+     "model": "SM1M068",
+     "url": "https://www.pokeca.net/product-list/119"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "068",
+    "ja": "ルナアーラGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1M-069",
+   "number": 69,
+   "tcgdex": {
+    "name": "ブラッキーGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1M-069"
+   },
+   "yuyutei": [
+    {
+     "name": "ブラッキーGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01m/10069"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ブラッキーGX",
+     "rarity": "HR",
+     "model": "SM1M069",
+     "url": "https://www.pokeca.net/product-list/119"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "069",
+    "ja": "ブラッキーGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1M-070",
+   "number": 70,
+   "tcgdex": {
+    "name": "ケンタロスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1M-070"
+   },
+   "yuyutei": [
+    {
+     "name": "ケンタロスGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01m/10070"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ケンタロスGX",
+     "rarity": "HR",
+     "model": "SM1M070",
+     "url": "https://www.pokeca.net/product-list/119"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "070",
+    "ja": "ケンタロスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1M-071",
+   "number": 71,
+   "tcgdex": {
+    "name": "ネストボール",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1M-071"
+   },
+   "yuyutei": [
+    {
+     "name": "ネストボール",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01m/10071"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ネストボール",
+     "rarity": "UR",
+     "model": "SM1M071",
+     "url": "https://www.pokeca.net/product-list/119"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "071",
+    "ja": "ネストボール",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1M-072",
+   "number": 72,
+   "tcgdex": {
+    "name": "ポケモンいれかえ",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1M-072"
+   },
+   "yuyutei": [
+    {
+     "name": "ポケモンいれかえ",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01m/10072"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ポケモンいれかえ",
+     "rarity": "UR",
+     "model": "SM1M072",
+     "url": "https://www.pokeca.net/product-list/119"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "072",
+    "ja": "ポケモンいれかえ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1M-073",
+   "number": 73,
+   "tcgdex": {
+    "name": "基本超エネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1M-073"
+   },
+   "yuyutei": [
+    {
+     "name": "基本超エネルギー",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01m/10073"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "基本超エネルギー",
+     "rarity": "UR",
+     "model": "SM1M073",
+     "url": "https://www.pokeca.net/product-list/119"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "073",
+    "ja": "基本超エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
