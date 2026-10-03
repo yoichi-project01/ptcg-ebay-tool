@@ -2143,6 +2143,31 @@ cardData にも1枚も無かった（S10D 以降は登録あり）。公式で�
   - S9・S9a・S10D〜S12a は情報源にも cardData の最大番号を超えるカードが無く、追加なし。
 - **保留（S8a 26〜30番）**: cardData の S8a 自体がずれている可能性が高い（cardData は 025＝博士の研究・型番 DAR の行あり、
   ポケカくらぶでは 025＝ピカチュウV-union、003＝博士の研究）。S8a 全体を公式 details.php と全件照合してから扱うこと。
+  → 下記「対応（2026-10-04）」で解消。
+
+### 対応（2026-10-04）: S8a の作り直し・25周年プロモ（S8a-G / S8a-P）の追加
+
+card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`changed-card-ids.txt` 23件・
+`removed-card-ids.txt` 8件、件数は `summary.json`）。
+
+- **S8a（25th ANNIVERSARY COLLECTION）を公式 details.php と全件照合して作り直し**（`patch-from-scan.mjs --full-fetch` →
+  `--rebuild`、根拠は `scripts/scan-patch-report/S8a-rebuild.json`）。cardData は 003 博士の研究が抜けていて 003〜025 が
+  1つずつずれていた。公式は 001〜028（025〜028 はピカチュウV-UNION、1ページに4番号）と 029 博士の研究 SR、基本エネルギー8種は番号なし。
+  名前変更・画像差し替え 23件（003〜025）、追加 026〜029、数字でない型番の8行（DAR FIG FIR GRA LIG MET PSY WAT）を削除。
+  `verify-rebuilt-sets.mjs` で 29/29 一致。
+- **S8a-030（ミュウ UR）**: 公式に無いため、遊々亭とポケカくらぶ（https://www.pokeca.net/product-list/684）の一致で追加（画像なし）。
+  ポケカくらぶの型番は「S825…」のため `add-secrets-from-sources.mjs` に `--extra-prefix` を追加した。
+- **25周年プロモはどの弾にも入っていなかったため新しい弾として追加**（`scrape-missing-sets.mjs`、公式 details.php で全件確認、画像あり）:
+  - `S8a-G` 25th ANNIVERSARY GOLDEN BOX（15枚、001〜015/015。ピカチュウV×2・ピカチュウVMAX・トレーナーズ等）。基本雷エネルギーは番号なしで除外。
+    PSA は「2021 Pokemon Asia 25th Anniversary Promo」（Golden Box-Japanese）にまとめているため en・psaName は空欄。
+  - `S8a-P` プロモカードパック 25th ANNIVERSARY edition（25枚、001〜025/025。お誕生日ピカチュウ＝007「＿＿＿＿＿＿＿のピカチュウ」、
+    014 ミュウex 等）。旧キャッシュに無いため cardID 50753〜50777 を `extraCardIds` で指定。en・psaName は PSA の
+    「Promo Card Pack 25th Anniversary Edition」。
+  - y はどちらも 2021（発売 2021-10-22、公式25周年サイト）。
+- **`build-image-index.mjs` に `--only <弾>` を追加**: `public/cards` には復元時にコピーした古い名前のファイルが残っており、
+  全体を作り直すと 480件の画像の指す先が古いファイルに変わった（S-P・SV10・PMCG 等、実行前に戻して未コミット）。
+  弾を作り直した後は `--only` を使うこと。全体の作り直しでも既存キーの2%超の指す先が変わる場合は止まる。
+  `resume-rebuild.sh` も `--only` を使うよう変更済み。
 
 ---
 
