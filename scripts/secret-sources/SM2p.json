@@ -1,0 +1,327 @@
+{
+ "set": "SM2p",
+ "checkedAt": "2026-10-03T16:29:37.908Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM2%2B",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm02plus",
+  "pokeca": "https://www.pokeca.net/product-list/159"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM2p-058",
+   "number": 58,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "カプ・ブルルGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02plus/10058"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カプ・ブルルGX",
+     "rarity": "HR",
+     "model": "SM2+058",
+     "url": "https://www.pokeca.net/product-list/159"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "058",
+    "ja": "カプ・ブルルGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2p-059",
+   "number": 59,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "エンニュートGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02plus/10059"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エンニュートGX",
+     "rarity": "HR",
+     "model": "SM2+059",
+     "url": "https://www.pokeca.net/product-list/159"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "059",
+    "ja": "エンニュートGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2p-060",
+   "number": 60,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "カプ・レヒレGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02plus/10060"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カプ・レヒレGX",
+     "rarity": "HR",
+     "model": "SM2+060",
+     "url": "https://www.pokeca.net/product-list/159"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "060",
+    "ja": "カプ・レヒレGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2p-061",
+   "number": 61,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "カイリキーGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02plus/10061"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "カイリキーGX",
+     "rarity": "HR",
+     "model": "SM2+061",
+     "url": "https://www.pokeca.net/product-list/159"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "061",
+    "ja": "カイリキーGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2p-062",
+   "number": 62,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ルガルガンGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02plus/10062"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ルガルガンGX",
+     "rarity": "HR",
+     "model": "SM2+062",
+     "url": "https://www.pokeca.net/product-list/159"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "062",
+    "ja": "ルガルガンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2p-063",
+   "number": 63,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "ダークライGX",
+     "rarity": "HR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02plus/10063"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ダークライGX",
+     "rarity": "HR",
+     "model": "SM2+063",
+     "url": "https://www.pokeca.net/product-list/159"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "063",
+    "ja": "ダークライGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2p-064",
+   "number": 64,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "こだわりハチマキ",
+     "rarity": "UR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02plus/10064"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "こだわりハチマキ",
+     "rarity": "UR",
+     "model": "SM2+064",
+     "url": "https://www.pokeca.net/product-list/159"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "064",
+    "ja": "こだわりハチマキ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2p-065",
+   "number": 65,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "マルチつけかえ",
+     "rarity": "UR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02plus/10065"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マルチつけかえ",
+     "rarity": "UR",
+     "model": "SM2+065",
+     "url": "https://www.pokeca.net/product-list/159"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "065",
+    "ja": "マルチつけかえ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM2p-066",
+   "number": 66,
+   "tcgdex": null,
+   "yuyutei": [
+    {
+     "name": "基本悪エネルギー",
+     "rarity": "UR",
+     "total": "049",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm02plus/10066"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "基本悪エネルギー",
+     "rarity": "UR",
+     "model": "SM2+066",
+     "url": "https://www.pokeca.net/product-list/159"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "066",
+    "ja": "基本悪エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
