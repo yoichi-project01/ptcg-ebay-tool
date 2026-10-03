@@ -326,6 +326,13 @@ const TARGET_SETS = [
   { code: "SMP1", sourceCacheKeys: ["SMP1"], ja: "月刊コロコロコミック2017年1月号付録「イワンコ全力デッキ」", sr: "SM", y: 2017, codeAlias: "SMP1" },
   { code: "SMP2", sourceCacheKeys: ["SMP2"], ja: "名探偵ピカチュウ", sr: "SM", y: 2019, codeAlias: "SMP2" },
   { code: "WCS23", sourceCacheKeys: ["WCS23"], ja: "ポケモンワールドチャンピオンシップス2023横浜 記念デッキ「ピカチュウ」", sr: "SV", y: 2023, codeAlias: "WCS23" },
+  // 2026-10-04: 25周年関連。details.php で S8a-G は 001〜015/015（基本雷エネルギー 41679 は番号なし「LIG」のため除外）、
+  // S8a-P は 001〜025/025 を確認。商品名・発売日（2021-10-22）は公式の25周年記念サイト・発売時の報道
+  // （https://www.pokemon-card.com/ex/25th/products/ 、https://hobby.watch.impress.co.jp/docs/news/1338265.html ）。
+  // S8a-P は旧キャッシュ（official-card-cache.json）に無いため、最新の公式一覧（official-card-scan.json）のカードIDを指定する
+  { code: "S8a-G", sourceCacheKeys: ["S8a-G"], ja: "25th ANNIVERSARY GOLDEN BOX", sr: "S", y: 2021, codeAlias: "S8a-G", excludeCardIds: ["41679"] },
+  { code: "S8a-P", sourceCacheKeys: [], ja: "プロモカードパック 25th ANNIVERSARY edition", sr: "S", y: 2021, codeAlias: "S8a-P",
+    extraCardIds: Array.from({ length: 25 }, (_, i) => String(50753 + i)) },
 ];
 
 export function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
@@ -536,7 +543,8 @@ async function main() {
     }
     const sourceKeys = target.sourceCacheKeys || [target.code];
     const officialCards = sourceKeys.flatMap((key) => setMap[key] || []);
-    if (officialCards.length === 0) {
+    // extraCardIds だけで指定する弾（旧キャッシュに無い新しい弾）は、キャッシュに無くても続ける
+    if (officialCards.length === 0 && !(target.extraCardIds || []).length) {
       throw new Error(
         `[${target.code}] official-card-cache.jsonに見つかりません（探索キー: ${sourceKeys.join(", ")}）。` +
         `--rescanを試すか、setCodeを確認してください。`
