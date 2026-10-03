@@ -1,0 +1,292 @@
+{
+ "set": "SM1S",
+ "checkedAt": "2026-10-03T16:27:03.672Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM1S",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm01s",
+  "pokeca": "https://www.pokeca.net/product-list/118"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM1S-067",
+   "number": 67,
+   "tcgdex": {
+    "name": "ラプラスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1S-067"
+   },
+   "yuyutei": [
+    {
+     "name": "ラプラスGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01s/10067"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ラプラスGX",
+     "rarity": "HR",
+     "model": "SM1S067",
+     "url": "https://www.pokeca.net/product-list/118"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "067",
+    "ja": "ラプラスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1S-068",
+   "number": 68,
+   "tcgdex": {
+    "name": "エーフィGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1S-068"
+   },
+   "yuyutei": [
+    {
+     "name": "エーフィGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01s/10068"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エーフィGX",
+     "rarity": "HR",
+     "model": "SM1S068",
+     "url": "https://www.pokeca.net/product-list/118"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "068",
+    "ja": "エーフィGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1S-069",
+   "number": 69,
+   "tcgdex": {
+    "name": "ソルガレオGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1S-069"
+   },
+   "yuyutei": [
+    {
+     "name": "ソルガレオGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01s/10069"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ソルガレオGX",
+     "rarity": "HR",
+     "model": "SM1S069",
+     "url": "https://www.pokeca.net/product-list/118"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "069",
+    "ja": "ソルガレオGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1S-070",
+   "number": 70,
+   "tcgdex": {
+    "name": "デカグースGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1S-070"
+   },
+   "yuyutei": [
+    {
+     "name": "デカグースGX",
+     "rarity": "HR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01s/10070"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "デカグースGX",
+     "rarity": "HR",
+     "model": "SM1S070",
+     "url": "https://www.pokeca.net/product-list/118"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "070",
+    "ja": "デカグースGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1S-071",
+   "number": 71,
+   "tcgdex": {
+    "name": "ハイパーボール",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1S-071"
+   },
+   "yuyutei": [
+    {
+     "name": "ハイパーボール",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01s/10071"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ハイパーボール",
+     "rarity": "UR",
+     "model": "SM1S071",
+     "url": "https://www.pokeca.net/product-list/118"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "071",
+    "ja": "ハイパーボール",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1S-072",
+   "number": 72,
+   "tcgdex": {
+    "name": "ロトム図鑑",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1S-072"
+   },
+   "yuyutei": [
+    {
+     "name": "ロトム図鑑",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01s/10072"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ロトム図鑑",
+     "rarity": "UR",
+     "model": "SM1S072",
+     "url": "https://www.pokeca.net/product-list/118"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "072",
+    "ja": "ロトム図鑑",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM1S-073",
+   "number": 73,
+   "tcgdex": {
+    "name": "基本鋼エネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM1S-073"
+   },
+   "yuyutei": [
+    {
+     "name": "基本鋼エネルギー",
+     "rarity": "UR",
+     "total": "060",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm01s/10073"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "基本鋼エネルギー",
+     "rarity": "UR",
+     "model": "SM1S073",
+     "url": "https://www.pokeca.net/product-list/118"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "073",
+    "ja": "基本鋼エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
