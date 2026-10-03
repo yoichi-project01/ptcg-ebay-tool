@@ -1,0 +1,292 @@
+{
+ "set": "SM10a",
+ "checkedAt": "2026-10-03T16:43:20.343Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM10a",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm10a",
+  "pokeca": "https://www.pokeca.net/product-list/411"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM10a-063",
+   "number": 63,
+   "tcgdex": {
+    "name": "ヒードランGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10a-063"
+   },
+   "yuyutei": [
+    {
+     "name": "ヒードランGX",
+     "rarity": "HR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10a/10063"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ヒードランGX",
+     "rarity": "HR",
+     "model": "SM10a63",
+     "url": "https://www.pokeca.net/product-list/411"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "063",
+    "ja": "ヒードランGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10a-064",
+   "number": 64,
+   "tcgdex": {
+    "name": "ライチュウ&アローラライチュウGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10a-064"
+   },
+   "yuyutei": [
+    {
+     "name": "ライチュウ＆アローラライチュウGX",
+     "rarity": "HR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10a/10064"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ライチュウ＆アローラライチュウGX",
+     "rarity": "HR",
+     "model": "SM10a64",
+     "url": "https://www.pokeca.net/product-list/411"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "064",
+    "ja": "ライチュウ&アローラライチュウGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10a-065",
+   "number": 65,
+   "tcgdex": {
+    "name": "クチートGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10a-065"
+   },
+   "yuyutei": [
+    {
+     "name": "クチートGX",
+     "rarity": "HR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10a/10065"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "クチートGX",
+     "rarity": "HR",
+     "model": "SM10a65",
+     "url": "https://www.pokeca.net/product-list/411"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "065",
+    "ja": "クチートGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10a-066",
+   "number": 66,
+   "tcgdex": {
+    "name": "ガブリアス&ギラティナGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10a-066"
+   },
+   "yuyutei": [
+    {
+     "name": "ガブリアス＆ギラティナGX",
+     "rarity": "HR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10a/10066"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ガブリアス＆ギラティナGX",
+     "rarity": "HR",
+     "model": "SM10a66",
+     "url": "https://www.pokeca.net/product-list/411"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "066",
+    "ja": "ガブリアス&ギラティナGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10a-067",
+   "number": 67,
+   "tcgdex": {
+    "name": "タッグスイッチ",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10a-067"
+   },
+   "yuyutei": [
+    {
+     "name": "タッグスイッチ",
+     "rarity": "UR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10a/10067"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "タッグスイッチ",
+     "rarity": "UR",
+     "model": "SM10a67",
+     "url": "https://www.pokeca.net/product-list/411"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "067",
+    "ja": "タッグスイッチ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10a-068",
+   "number": 68,
+   "tcgdex": {
+    "name": "リセットスタンプ",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10a-068"
+   },
+   "yuyutei": [
+    {
+     "name": "リセットスタンプ",
+     "rarity": "UR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10a/10068"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "リセットスタンプ",
+     "rarity": "UR",
+     "model": "SM10a68",
+     "url": "https://www.pokeca.net/product-list/411"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "068",
+    "ja": "リセットスタンプ",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10a-069",
+   "number": 69,
+   "tcgdex": {
+    "name": "くろおび",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10a-069"
+   },
+   "yuyutei": [
+    {
+     "name": "くろおび",
+     "rarity": "UR",
+     "total": "054",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10a/10069"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "くろおび",
+     "rarity": "UR",
+     "model": "SM10a69",
+     "url": "https://www.pokeca.net/product-list/411"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "069",
+    "ja": "くろおび",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
