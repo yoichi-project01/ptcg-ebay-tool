@@ -1,0 +1,352 @@
+{
+ "set": "S7D",
+ "checkedAt": "2026-10-03T14:43:03.194Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/S7D",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/s07d"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "S7D-080",
+   "number": 80,
+   "tcgdex": {
+    "name": "ルガルガンVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-080"
+   },
+   "yuyutei": [
+    {
+     "name": "ルガルガンVMAX",
+     "rarity": "HR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10080"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "080",
+    "ja": "ルガルガンVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-081",
+   "number": 81,
+   "tcgdex": {
+    "name": "ダストダスVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-081"
+   },
+   "yuyutei": [
+    {
+     "name": "ダストダスVMAX",
+     "rarity": "HR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10081"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "081",
+    "ja": "ダストダスVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-082",
+   "number": 82,
+   "tcgdex": {
+    "name": "ジュラルドンVMAX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-082"
+   },
+   "yuyutei": [
+    {
+     "name": "ジュラルドンVMAX",
+     "rarity": "HR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10082"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "082",
+    "ja": "ジュラルドンVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-083",
+   "number": 83,
+   "tcgdex": {
+    "name": "ジュラルドンVMAX",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-083"
+   },
+   "yuyutei": [
+    {
+     "name": "ジュラルドンVMAX",
+     "rarity": "HR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10083"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "083",
+    "ja": "ジュラルドンVMAX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-084",
+   "number": 84,
+   "tcgdex": {
+    "name": "キバナ",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-084"
+   },
+   "yuyutei": [
+    {
+     "name": "キバナ",
+     "rarity": "HR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10084"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "084",
+    "ja": "キバナ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-085",
+   "number": 85,
+   "tcgdex": {
+    "name": "スクールガール",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-085"
+   },
+   "yuyutei": [
+    {
+     "name": "スクールガール",
+     "rarity": "HR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10085"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "085",
+    "ja": "スクールガール",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-086",
+   "number": 86,
+   "tcgdex": {
+    "name": "モノマネむすめ",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-086"
+   },
+   "yuyutei": [
+    {
+     "name": "モノマネむすめ",
+     "rarity": "HR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10086"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "086",
+    "ja": "モノマネむすめ",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-087",
+   "number": 87,
+   "tcgdex": {
+    "name": "クレセリア",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-087"
+   },
+   "yuyutei": [
+    {
+     "name": "クレセリア",
+     "rarity": "UR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10087"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "087",
+    "ja": "クレセリア",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-088",
+   "number": 88,
+   "tcgdex": {
+    "name": "フルフェイスガード",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-088"
+   },
+   "yuyutei": [
+    {
+     "name": "フルフェイスガード",
+     "rarity": "UR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10088"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "088",
+    "ja": "フルフェイスガード",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-089",
+   "number": 89,
+   "tcgdex": {
+    "name": "結晶の洞窟",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-089"
+   },
+   "yuyutei": [
+    {
+     "name": "結晶の洞窟",
+     "rarity": "UR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10089"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "089",
+    "ja": "結晶の洞窟",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "S7D-090",
+   "number": 90,
+   "tcgdex": {
+    "name": "基本鋼エネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S7D-090"
+   },
+   "yuyutei": [
+    {
+     "name": "基本鋼エネルギー",
+     "rarity": "UR",
+     "total": "067",
+     "url": "https://yuyu-tei.jp/sell/poc/card/s07d/10090"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭"
+   ],
+   "add": {
+    "local": "090",
+    "ja": "基本鋼エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
