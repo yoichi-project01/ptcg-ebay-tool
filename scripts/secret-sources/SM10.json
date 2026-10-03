@@ -1,0 +1,372 @@
+{
+ "set": "SM10",
+ "checkedAt": "2026-10-03T16:42:49.719Z",
+ "sources": {
+  "tcgdex": "https://api.tcgdex.net/v2/ja/sets/SM10",
+  "yuyutei": "https://yuyu-tei.jp/sell/poc/s/sm10",
+  "pokeca": "https://www.pokeca.net/product-list/400"
+ },
+ "rule": "番号ごとに TCGdex・遊々亭・ポケカくらぶ（指定時）の名前を照合し、2つ以上の情報源で一致したものだけ追加。レアリティは遊々亭・ポケカくらぶの表記（一致する場合のみ）。画像は TCGdex にある場合のみ（店舗の画像は使わない）",
+ "results": [
+  {
+   "cardId": "SM10-108",
+   "number": 108,
+   "tcgdex": {
+    "name": "レシラム&リザードンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10-108"
+   },
+   "yuyutei": [
+    {
+     "name": "レシラム＆リザードンGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10/10108"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "レシラム＆リザードンGX",
+     "rarity": "HR",
+     "model": "SM10108",
+     "url": "https://www.pokeca.net/product-list/400"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "108",
+    "ja": "レシラム&リザードンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10-109",
+   "number": 109,
+   "tcgdex": {
+    "name": "ベトベトン&アローラベトベトンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10-109"
+   },
+   "yuyutei": [
+    {
+     "name": "ベトベトン＆アローラベトベトンGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10/10109"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ベトベトン＆アローラベトベトンGX",
+     "rarity": "HR",
+     "model": "SM10109",
+     "url": "https://www.pokeca.net/product-list/400"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "109",
+    "ja": "ベトベトン&アローラベトベトンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10-110",
+   "number": 110,
+   "tcgdex": {
+    "name": "マーシャドー&カイリキーGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10-110"
+   },
+   "yuyutei": [
+    {
+     "name": "マーシャドー＆カイリキーGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10/10110"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "マーシャドー＆カイリキーGX",
+     "rarity": "HR",
+     "model": "SM10110",
+     "url": "https://www.pokeca.net/product-list/400"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "110",
+    "ja": "マーシャドー&カイリキーGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10-111",
+   "number": 111,
+   "tcgdex": {
+    "name": "ドンカラスGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10-111"
+   },
+   "yuyutei": [
+    {
+     "name": "ドンカラスGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10/10111"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ドンカラスGX",
+     "rarity": "HR",
+     "model": "SM10111",
+     "url": "https://www.pokeca.net/product-list/400"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "111",
+    "ja": "ドンカラスGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10-112",
+   "number": 112,
+   "tcgdex": {
+    "name": "エルフーンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10-112"
+   },
+   "yuyutei": [
+    {
+     "name": "エルフーンGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10/10112"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "エルフーンGX",
+     "rarity": "HR",
+     "model": "SM10112",
+     "url": "https://www.pokeca.net/product-list/400"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "112",
+    "ja": "エルフーンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10-113",
+   "number": 113,
+   "tcgdex": {
+    "name": "ペルシアンGX",
+    "rarityClass": "Hyper rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10-113"
+   },
+   "yuyutei": [
+    {
+     "name": "ペルシアンGX",
+     "rarity": "HR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10/10113"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "ペルシアンGX",
+     "rarity": "HR",
+     "model": "SM10113",
+     "url": "https://www.pokeca.net/product-list/400"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "113",
+    "ja": "ペルシアンGX",
+    "rarity": "HR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10-114",
+   "number": 114,
+   "tcgdex": {
+    "name": "炎の結晶",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10-114"
+   },
+   "yuyutei": [
+    {
+     "name": "炎の結晶",
+     "rarity": "UR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10/10114"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "炎の結晶",
+     "rarity": "UR",
+     "model": "SM10114",
+     "url": "https://www.pokeca.net/product-list/400"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "114",
+    "ja": "炎の結晶",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10-115",
+   "number": 115,
+   "tcgdex": {
+    "name": "戒めの祠",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10-115"
+   },
+   "yuyutei": [
+    {
+     "name": "戒めの祠",
+     "rarity": "UR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10/10115"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "戒めの祠",
+     "rarity": "UR",
+     "model": "SM10115",
+     "url": "https://www.pokeca.net/product-list/400"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "115",
+    "ja": "戒めの祠",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  },
+  {
+   "cardId": "SM10-116",
+   "number": 116,
+   "tcgdex": {
+    "name": "トリプル加速エネルギー",
+    "rarityClass": "Secret Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM10-116"
+   },
+   "yuyutei": [
+    {
+     "name": "トリプル加速エネルギー",
+     "rarity": "UR",
+     "total": "095",
+     "url": "https://yuyu-tei.jp/sell/poc/card/sm10/10116"
+    }
+   ],
+   "pokeca": [
+    {
+     "name": "トリプル加速エネルギー",
+     "rarity": "UR",
+     "model": "SM10116",
+     "url": "https://www.pokeca.net/product-list/400"
+    }
+   ],
+   "status": "一致",
+   "agreedBy": [
+    "TCGdex",
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "add": {
+    "local": "116",
+    "ja": "トリプル加速エネルギー",
+    "rarity": "UR"
+   },
+   "image": {
+    "source": null,
+    "note": "TCGdex に画像なし"
+   }
+  }
+ ]
+}
