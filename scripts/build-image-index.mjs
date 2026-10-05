@@ -67,6 +67,20 @@ async function main() {
       index[key] = rel;
     }
   }
+  // --only の弾は、フォルダに残る古い名前のファイル（作り直し前の「／71」など、中身が別のカード）を拾わないよう、
+  // 既存の索引のファイルがまだあればそれを使い続け、新しく足すのは cardData にある番号だけにする（2026-10-05：S10b で
+  // 古いファイルに入れ替わり、数字でない型番の行も復活した）
+  if (onlySets) {
+    const cardData = JSON.parse(await fs.readFile(path.join(ROOT, "src", "cardData.json"), "utf-8"));
+    const valid = new Set();
+    for (const s of cardData) if (onlySets.has(s.c)) for (const r of s.k) valid.add(`${s.c}/${/^\d+$/.test(r[0]) ? parseInt(r[0], 10) : r[0]}`);
+    for (const k of Object.keys(index)) {
+      if (!onlySets.has(k.split("/")[0])) continue;
+      const prev = prevIndex[k];
+      if (prev && (await fs.stat(path.join(ROOT, "public", prev)).then((st) => st.size >= MIN_IMAGE_BYTES, () => false))) index[k] = prev;
+      else if (!valid.has(k)) delete index[k];
+    }
+  }
   // public/cards は .gitignore 対象で PC ごとに中身が違う。画像を同期していない PC で実行すると
   // 大量のキーが消えたインデックスができてしまう（2026-09-30 に実際に発生）ため、件数が大きく減るときは止める
   if (!process.argv.includes("--force")) {
