@@ -1,0 +1,68 @@
+{
+ "at": "2026-10-05T15:07:28.338Z",
+ "set": "S5a",
+ "count": {
+  "入れる": 3
+ },
+ "renamed": [
+  {
+   "id": "S5a-008",
+   "from": "cards/S/S5a/バシャーモVMAX_S5a-08／84.jpg",
+   "to": "cards/S/S5a/バシャーモVMAX_S5a-08／84_RRR.jpg"
+  },
+  {
+   "id": "S5a-024",
+   "from": "cards/S/S5a/パッチラゴンVMAX_S5a-24／84.jpg",
+   "to": "cards/S/S5a/パッチラゴンVMAX_S5a-24／84_RRR.jpg"
+  },
+  {
+   "id": "S5a-047",
+   "from": "cards/S/S5a/ガラル ヤドキングVMAX_S5a-47／84.jpg",
+   "to": "cards/S/S5a/ガラル ヤドキングVMAX_S5a-47／84_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S5a-008",
+   "ja": "バシャーモVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "39275",
+     "jaName": "バシャーモVMAX",
+     "rarity": "RRR",
+     "badge": "S5a"
+    }
+   ]
+  },
+  {
+   "id": "S5a-024",
+   "ja": "パッチラゴンVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "39291",
+     "jaName": "パッチラゴンVMAX",
+     "rarity": "RRR",
+     "badge": "S5a"
+    }
+   ]
+  },
+  {
+   "id": "S5a-047",
+   "ja": "ガラル ヤドキングVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "39314",
+     "jaName": "ガラル ヤドキングVMAX",
+     "rarity": "RRR",
+     "badge": "S5a"
+    }
+   ]
+  }
+ ]
+}
