@@ -1,0 +1,39 @@
+{
+ "set": "SVHK",
+ "checkedAt": "2026-10-05T05:18:25.351Z",
+ "refetched": [
+  {
+   "cardId": "SVHK-023",
+   "set": "SVHK",
+   "local": "023",
+   "name": "すごいつりざお",
+   "rarity": "",
+   "image": "cards/SV/SVHK/すごいつりざお_SVHK-23／53.jpg",
+   "officialCardId": "45311",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVHK/045311_T_SUGOITSURIZAO.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SVHK/すごいつりざお_SVHK-23／53.jpg"
+  },
+  {
+   "cardId": "SVHK-024",
+   "set": "SVHK",
+   "local": "024",
+   "name": "ダークパッチ",
+   "rarity": "",
+   "image": "cards/SV/SVHK/ダークパッチ_SVHK-24／53.jpg",
+   "officialCardId": "45312",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVHK/045312_T_DAKUPATCHI.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SVHK/ダークパッチ_SVHK-24／53.jpg"
+  }
+ ],
+ "notFound": [],
+ "nameMismatch": [],
+ "verify": {
+  "checkedAt": "2026-10-05T05:18:26.219Z",
+  "remainingDuplicates": [],
+  "officialSameImage": []
+ }
+}

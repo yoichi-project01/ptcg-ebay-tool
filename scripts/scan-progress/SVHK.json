@@ -1,0 +1,28 @@
+{
+ "45311": {
+  "badge": "SVHK",
+  "cards": [
+   {
+    "local": "023",
+    "total": "053",
+    "rarity": "",
+    "jaName": "すごいつりざお",
+    "cardThumbFile": "/assets/images/card_images/large/SVHK/045311_T_SUGOITSURIZAO.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVHK/045311_T_SUGOITSURIZAO.jpg"
+ },
+ "45312": {
+  "badge": "SVHK",
+  "cards": [
+   {
+    "local": "024",
+    "total": "053",
+    "rarity": "",
+    "jaName": "ダークパッチ",
+    "cardThumbFile": "/assets/images/card_images/large/SVHK/045312_T_DAKUPATCHI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVHK/045312_T_DAKUPATCHI.jpg"
+ }
+}
