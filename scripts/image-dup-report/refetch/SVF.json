@@ -1,0 +1,39 @@
+{
+ "set": "SVF",
+ "checkedAt": "2026-10-05T05:16:59.316Z",
+ "refetched": [
+  {
+   "cardId": "SVF-030",
+   "set": "SVF",
+   "local": "030",
+   "name": "博士の研究",
+   "rarity": "",
+   "image": "cards/SV/SVF/博士の研究_SVF-30／38.jpg",
+   "officialCardId": "44064",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVF/044064_T_HAKASENOKENKIXYUU.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SVF/博士の研究_SVF-30／38.jpg"
+  },
+  {
+   "cardId": "SVF-031",
+   "set": "SVF",
+   "local": "031",
+   "name": "博士の研究",
+   "rarity": "",
+   "image": "cards/SV/SVF/博士の研究_SVF-31／38.jpg",
+   "officialCardId": "44065",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVF/044065_T_HAKASENOKENKIXYUU.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SVF/博士の研究_SVF-31／38.jpg"
+  }
+ ],
+ "notFound": [],
+ "nameMismatch": [],
+ "verify": {
+  "checkedAt": "2026-10-05T05:17:05.030Z",
+  "remainingDuplicates": [],
+  "officialSameImage": []
+ }
+}
