@@ -1,0 +1,1434 @@
+{
+ "48247": {
+  "jaName": "チコリータ",
+  "badge": "M-P",
+  "number": "001",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048247_P_CHIKORITA.jpg"
+ },
+ "48248": {
+  "jaName": "ラプラスex",
+  "badge": "M-P",
+  "number": "002",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048248_P_RAPURASUEX.jpg"
+ },
+ "48249": {
+  "jaName": "マシマシラ",
+  "badge": "M-P",
+  "number": "003",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048249_P_MASHIMASHIRA.jpg"
+ },
+ "48250": {
+  "jaName": "マクノシタ",
+  "badge": "M-P",
+  "number": "004",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048250_P_MAKUNOSHITA.jpg"
+ },
+ "48251": {
+  "jaName": "あなあけスコップ",
+  "badge": "M-P",
+  "number": "005",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048251_T_ANAAKESUKOPPU.jpg"
+ },
+ "48252": {
+  "jaName": "カウンターゲイン",
+  "badge": "M-P",
+  "number": "006",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048252_T_KAUNTAGEIN.jpg"
+ },
+ "48253": {
+  "jaName": "リーリエの決心",
+  "badge": "M-P",
+  "number": "007",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048253_T_RIRIENOKESSHIN.jpg"
+ },
+ "48255": {
+  "jaName": "ニャオハ",
+  "badge": "M-P",
+  "number": "017",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048255_P_NIXYAOHA.jpg"
+ },
+ "48256": {
+  "jaName": "ホゲータ",
+  "badge": "M-P",
+  "number": "018",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048256_P_HOGETA.jpg"
+ },
+ "48257": {
+  "jaName": "クワッス",
+  "badge": "M-P",
+  "number": "019",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048257_P_KUWASSU.jpg"
+ },
+ "48258": {
+  "jaName": "ピカチュウ",
+  "badge": "M-P",
+  "number": "020",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048258_P_PIKACHIXYUU.jpg"
+ },
+ "48259": {
+  "jaName": "ラルトス",
+  "badge": "M-P",
+  "number": "021",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048259_P_RARUTOSU.jpg"
+ },
+ "48260": {
+  "jaName": "リオル",
+  "badge": "M-P",
+  "number": "022",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048260_P_RIORU.jpg"
+ },
+ "48308": {
+  "jaName": "基本草エネルギー",
+  "badge": "M-P",
+  "number": "023",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048308_E_KIHONKUSAENERUGI.jpg"
+ },
+ "48309": {
+  "jaName": "基本炎エネルギー",
+  "badge": "M-P",
+  "number": "024",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048309_E_KIHONHONOOENERUGI.jpg"
+ },
+ "48310": {
+  "jaName": "基本水エネルギー",
+  "badge": "M-P",
+  "number": "025",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048310_E_KIHONMIZUENERUGI.jpg"
+ },
+ "48311": {
+  "jaName": "基本雷エネルギー",
+  "badge": "M-P",
+  "number": "026",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048311_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "48312": {
+  "jaName": "基本超エネルギー",
+  "badge": "M-P",
+  "number": "027",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048312_E_KIHONCHIXYOUENERUGI.jpg"
+ },
+ "48313": {
+  "jaName": "基本闘エネルギー",
+  "badge": "M-P",
+  "number": "028",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048313_E_KIHONTOUENERUGI.jpg"
+ },
+ "48314": {
+  "jaName": "基本悪エネルギー",
+  "badge": "M-P",
+  "number": "029",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048314_E_KIHONAKUENERUGI.jpg"
+ },
+ "48315": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "M-P",
+  "number": "030",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048315_E_KIHONHAGANEENERUGI.jpg"
+ },
+ "48316": {
+  "jaName": "夜のタンカ",
+  "badge": "M-P",
+  "number": "031",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048316_T_YORUNOTANKA.jpg"
+ },
+ "48317": {
+  "jaName": "ラティアスex",
+  "badge": "M-P",
+  "number": "032",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048317_P_RATEIASUEX.jpg"
+ },
+ "48318": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048318_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "48319": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048319_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "48320": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048320_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "48321": {
+  "jaName": "シェイミ",
+  "badge": "M-P",
+  "number": "034",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048321_P_SHIEIMI.jpg"
+ },
+ "48322": {
+  "jaName": "基本草エネルギー",
+  "badge": "M-P",
+  "number": "035",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048322_E_KIHONKUSAENERUGI.jpg"
+ },
+ "48323": {
+  "jaName": "基本炎エネルギー",
+  "badge": "M-P",
+  "number": "036",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048323_E_KIHONHONOOENERUGI.jpg"
+ },
+ "48324": {
+  "jaName": "基本水エネルギー",
+  "badge": "M-P",
+  "number": "037",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048324_E_KIHONMIZUENERUGI.jpg"
+ },
+ "48325": {
+  "jaName": "基本雷エネルギー",
+  "badge": "M-P",
+  "number": "038",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048325_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "48326": {
+  "jaName": "基本超エネルギー",
+  "badge": "M-P",
+  "number": "039",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048326_E_KIHONCHIXYOUENERUGI.jpg"
+ },
+ "48327": {
+  "jaName": "基本闘エネルギー",
+  "badge": "M-P",
+  "number": "040",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048327_E_KIHONTOUENERUGI.jpg"
+ },
+ "48328": {
+  "jaName": "基本悪エネルギー",
+  "badge": "M-P",
+  "number": "041",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048328_E_KIHONAKUENERUGI.jpg"
+ },
+ "48329": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "M-P",
+  "number": "042",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048329_E_KIHONHAGANEENERUGI.jpg"
+ },
+ "48330": {
+  "jaName": "ロケット団のミュウツーex",
+  "badge": "M-P",
+  "number": "043",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048330_P_ROKETTODANNOMIXYUUTSUEX.jpg"
+ },
+ "48331": {
+  "jaName": "ブレイブバングル",
+  "badge": "M-P",
+  "number": "044",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048331_T_BUREIBUBANGURU.jpg"
+ },
+ "48332": {
+  "jaName": "基本草エネルギー",
+  "badge": "M-P",
+  "number": "009",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048332_E_KIHONKUSAENERUGI.jpg"
+ },
+ "48333": {
+  "jaName": "基本炎エネルギー",
+  "badge": "M-P",
+  "number": "010",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048333_E_KIHONHONOOENERUGI.jpg"
+ },
+ "48334": {
+  "jaName": "基本水エネルギー",
+  "badge": "M-P",
+  "number": "011",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048334_E_KIHONMIZUENERUGI.jpg"
+ },
+ "48335": {
+  "jaName": "基本雷エネルギー",
+  "badge": "M-P",
+  "number": "012",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048335_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "48336": {
+  "jaName": "基本超エネルギー",
+  "badge": "M-P",
+  "number": "013",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048336_E_KIHONCHIXYOUENERUGI.jpg"
+ },
+ "48337": {
+  "jaName": "基本闘エネルギー",
+  "badge": "M-P",
+  "number": "014",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048337_E_KIHONTOUENERUGI.jpg"
+ },
+ "48338": {
+  "jaName": "基本悪エネルギー",
+  "badge": "M-P",
+  "number": "015",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048338_E_KIHONAKUENERUGI.jpg"
+ },
+ "48339": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "M-P",
+  "number": "016",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048339_E_KIHONHAGANEENERUGI.jpg"
+ },
+ "48340": {
+  "jaName": "メガシグナル",
+  "badge": "M-P",
+  "number": "008",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048340_T_MSHIGUNARU.jpg"
+ },
+ "48479": {
+  "jaName": "おいわいファンファーレ",
+  "badge": "M-P",
+  "number": "033",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048479_T_OIWAIFUANFUARE.jpg"
+ },
+ "48480": {
+  "jaName": "リザード",
+  "badge": "M-P",
+  "number": "045",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048480_P_RIZADO.jpg.jpg"
+ },
+ "48481": {
+  "jaName": "ワルビアルex",
+  "badge": "M-P",
+  "number": "046",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048481_P_WARUBIARUEX.jpg"
+ },
+ "48482": {
+  "jaName": "エレズン",
+  "badge": "M-P",
+  "number": "047",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048482_P_EREZUN.jpg"
+ },
+ "48483": {
+  "jaName": "ノココッチ",
+  "badge": "M-P",
+  "number": "048",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048483_P_NOKOKOTCHI.jpg"
+ },
+ "48484": {
+  "jaName": "逆境ほけん",
+  "badge": "M-P",
+  "number": "049",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048484_T_GIXYAKKIXYOUHOKEN.jpg"
+ },
+ "48485": {
+  "jaName": "ふうせん",
+  "badge": "M-P",
+  "number": "050",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048485_T_FUUSEN.jpg"
+ },
+ "48486": {
+  "jaName": "トウコ",
+  "badge": "M-P",
+  "number": "051",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/048486_T_TOUKO.jpg"
+ },
+ "49587": {
+  "jaName": "アイアント",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049587_P_AIANTO.jpg"
+ },
+ "49588": {
+  "jaName": "ビリジオン",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049588_P_BIRIJION.jpg"
+ },
+ "49589": {
+  "jaName": "ニャオハ",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049589_P_NIXYAOHA.jpg"
+ },
+ "49590": {
+  "jaName": "ニャローテ",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049590_P_NIXYAROTE.jpg"
+ },
+ "49591": {
+  "jaName": "マスカーニャ",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049591_P_MASUKANIXYA.jpg"
+ },
+ "49592": {
+  "jaName": "ピカチュウex",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049592_P_PIKACHIXYUUEX.jpg"
+ },
+ "49593": {
+  "jaName": "エモンガ",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049593_P_EMONGA.jpg"
+ },
+ "49594": {
+  "jaName": "ワンパチ",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049594_P_WANPACHI.jpg"
+ },
+ "49595": {
+  "jaName": "パルスワン",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049595_P_PARUSUWAN.jpg"
+ },
+ "49596": {
+  "jaName": "ズピカ",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049596_P_ZUPIKA.jpg"
+ },
+ "49597": {
+  "jaName": "ハラバリー",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049597_P_HARABARI.jpg"
+ },
+ "49598": {
+  "jaName": "カビゴン",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049598_P_KABIGON.jpg"
+ },
+ "49599": {
+  "jaName": "きずぐすり",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049599_T_KIZUGUSURI.jpg"
+ },
+ "49600": {
+  "jaName": "ハイパーボール",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049600_T_HAIPABORU.jpg"
+ },
+ "49601": {
+  "jaName": "ポケパッド",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049601_T_POKEPADDO.jpg"
+ },
+ "49602": {
+  "jaName": "ポケモンいれかえ",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049602_T_POKEMONIREKAE.jpg"
+ },
+ "49603": {
+  "jaName": "ポケモンキャッチャー",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049603_T_POKEMONKIXYATCHIXYA.jpg"
+ },
+ "49604": {
+  "jaName": "アイリスの闘志",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049604_T_AIRISUNOTOUSHI.jpg"
+ },
+ "49605": {
+  "jaName": "インフルエンサーの紹介",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049605_T_INFURUENSANOSHIXYOUKAI.jpg"
+ },
+ "49606": {
+  "jaName": "ウエートレス",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049606_T_UETORESU.jpg"
+ },
+ "49607": {
+  "jaName": "ガイ",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049607_T_GAI.jpg"
+ },
+ "49608": {
+  "jaName": "ジャッジマン",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049608_T_JIXYAJJIMAN.jpg"
+ },
+ "49609": {
+  "jaName": "リーリエの決心",
+  "badge": "MP1",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049609_T_RIRIENOKESSHIN.jpg"
+ },
+ "49621": {
+  "jaName": "デデンネGX",
+  "badge": "M-P",
+  "number": "054",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049621_P_DEDENNEGX.jpg"
+ },
+ "49622": {
+  "jaName": "ミカルゲ",
+  "badge": "M-P",
+  "number": "055",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/BW/049622_P_MIKARUGE.jpg"
+ },
+ "49623": {
+  "jaName": "ホルビー",
+  "badge": "M-P",
+  "number": "056",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/049623_P_HORUBI.jpg"
+ },
+ "49624": {
+  "jaName": "スペシャルチャージ",
+  "badge": "M-P",
+  "number": "057",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049624_T_SUPESHIXYARUCHIXYAJI.jpg"
+ },
+ "49625": {
+  "jaName": "トレーナーズポスト",
+  "badge": "M-P",
+  "number": "058",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/049625_T_TORENAZUPOSUTO.jpg"
+ },
+ "49626": {
+  "jaName": "バトルコンプレッサー",
+  "badge": "M-P",
+  "number": "059",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/049626_T_BATORUKONPURESSA.jpg"
+ },
+ "49627": {
+  "jaName": "バトルサーチャー",
+  "badge": "M-P",
+  "number": "060",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/049627_T_BATORUSACHIXYA.jpg"
+ },
+ "49628": {
+  "jaName": "フィールドブロアー",
+  "badge": "M-P",
+  "number": "061",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049628_T_FUIRUDOBUROA.jpg"
+ },
+ "49629": {
+  "jaName": "かるいし",
+  "badge": "M-P",
+  "number": "062",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/049629_T_KARUISHI.jpg"
+ },
+ "49630": {
+  "jaName": "プルメリ",
+  "badge": "M-P",
+  "number": "063",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049630_T_PURUMERI.jpg"
+ },
+ "49631": {
+  "jaName": "パラレルシティ",
+  "badge": "M-P",
+  "number": "064",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/049631_T_PARARERUSHITEI.jpg"
+ },
+ "49632": {
+  "jaName": "ダブルドラゴンエネルギー",
+  "badge": "M-P",
+  "number": "065",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/049632_E_DABURUDORAGONENERUGI.jpg"
+ },
+ "49714": {
+  "jaName": "ラルトス",
+  "badge": "M-P",
+  "number": "066",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049714_P_RARUTOSU.jpg"
+ },
+ "49715": {
+  "jaName": "キルリア",
+  "badge": "M-P",
+  "number": "067",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049715_P_KIRURIA.jpg"
+ },
+ "49716": {
+  "jaName": "メガエルレイドex",
+  "badge": "M-P",
+  "number": "068",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049716_P_MERUREIDOEX.jpg"
+ },
+ "49717": {
+  "jaName": "パワープロテイン",
+  "badge": "M-P",
+  "number": "069",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/049717_T_PAWAPUROTEIN.jpg"
+ },
+ "50035": {
+  "jaName": "ヤドン",
+  "badge": "M-P",
+  "number": "070",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050035_P_YADON.jpg"
+ },
+ "50036": {
+  "jaName": "メガヤドランex",
+  "badge": "M-P",
+  "number": "071",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050036_P_MYADORANEX.jpg"
+ },
+ "50037": {
+  "jaName": "ジーランス",
+  "badge": "M-P",
+  "number": "072",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050037_P_JIRANSU.jpg"
+ },
+ "50038": {
+  "jaName": "カメテテ",
+  "badge": "M-P",
+  "number": "073",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050038_P_KAMETETE.jpg"
+ },
+ "50039": {
+  "jaName": "ブレイブバングル",
+  "badge": "M-P",
+  "number": "074",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050039_T_BUREIBUBANGURU.jpg"
+ },
+ "50040": {
+  "jaName": "ジェット",
+  "badge": "M-P",
+  "number": "075",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050040_T_JIETTO.jpg"
+ },
+ "50041": {
+  "jaName": "ミツルの思いやり",
+  "badge": "M-P",
+  "number": "076",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050041_T_MITSURUNOOMOIYARI.jpg"
+ },
+ "50042": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050042_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50043": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050043_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50044": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050044_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50045": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050045_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50046": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050046_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50047": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050047_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50168": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050168_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50169": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050169_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50170": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050170_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50171": {
+  "jaName": "ポケパッド",
+  "badge": "M-P",
+  "number": "085",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050171_T_POKEPADDO.jpg"
+ },
+ "50172": {
+  "jaName": "メガガルーラex",
+  "badge": "M-P",
+  "number": "086",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050172_P_MGARURAEX.jpg"
+ },
+ "50173": {
+  "jaName": "シェイミ",
+  "badge": "M-P",
+  "number": "095",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050173_P_SHIEIMI.jpg"
+ },
+ "50174": {
+  "jaName": "メガマフォクシーex",
+  "badge": "M-P",
+  "number": "096",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050174_P_MMAFUOKUSHIEX.jpg"
+ },
+ "50175": {
+  "jaName": "パウワウ",
+  "badge": "M-P",
+  "number": "097",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050175_P_PAUWAU.jpg"
+ },
+ "50176": {
+  "jaName": "シュシュプ",
+  "badge": "M-P",
+  "number": "098",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050176_P_SHIXYUSHIXYUPU.jpg"
+ },
+ "50177": {
+  "jaName": "グリ",
+  "badge": "M-P",
+  "number": "099",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050177_T_GURI.jpg"
+ },
+ "50178": {
+  "jaName": "ヒカリ",
+  "badge": "M-P",
+  "number": "100",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050178_T_HIKARI.jpg"
+ },
+ "50179": {
+  "jaName": "ペパー",
+  "badge": "M-P",
+  "number": "053",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050179_T_PEPA.jpg"
+ },
+ "50180": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050180_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50181": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050181_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50182": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050182_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50301": {
+  "jaName": "ピカチュウ",
+  "badge": "M-P",
+  "number": "133",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050301_P_PIKACHIXYUU.jpg"
+ },
+ "50470": {
+  "jaName": "コソクムシ",
+  "badge": "M-P",
+  "number": "138",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050470_P_KOSOKUMUSHI.jpg"
+ },
+ "50471": {
+  "jaName": "メガシャリタツex",
+  "badge": "M-P",
+  "number": "139",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050471_P_MSHIXYARITATSUEX.jpg"
+ },
+ "50472": {
+  "jaName": "シビシラス",
+  "badge": "M-P",
+  "number": "140",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050472_P_SHIBISHIRASU.jpg"
+ },
+ "50473": {
+  "jaName": "ミネズミ",
+  "badge": "M-P",
+  "number": "141",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050473_P_MINEZUMI.jpg"
+ },
+ "50474": {
+  "jaName": "スペシャルレッドカード",
+  "badge": "M-P",
+  "number": "142",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050474_T_SUPESHIXYARUREDDOKADO.jpg"
+ },
+ "50475": {
+  "jaName": "デウロ",
+  "badge": "M-P",
+  "number": "143",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050475_T_DEURO.jpg"
+ },
+ "50476": {
+  "jaName": "ボスの指令",
+  "badge": "M-P",
+  "number": "144",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050476_T_BOSUNOSHIREI.jpg"
+ },
+ "50477": {
+  "jaName": "基本草エネルギー",
+  "badge": "M-P",
+  "number": "087",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050477_E_KIHONKUSAENERUGI.jpg"
+ },
+ "50478": {
+  "jaName": "基本炎エネルギー",
+  "badge": "M-P",
+  "number": "088",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050478_E_KIHONHONOOENERUGI.jpg"
+ },
+ "50479": {
+  "jaName": "基本水エネルギー",
+  "badge": "M-P",
+  "number": "089",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050479_E_KIHONMIZUENERUGI.jpg"
+ },
+ "50480": {
+  "jaName": "基本雷エネルギー",
+  "badge": "M-P",
+  "number": "090",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050480_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "50481": {
+  "jaName": "基本超エネルギー",
+  "badge": "M-P",
+  "number": "091",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050481_E_KIHONCHIXYOUENERUGI.jpg"
+ },
+ "50482": {
+  "jaName": "基本闘エネルギー",
+  "badge": "M-P",
+  "number": "092",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050482_E_KIHONTOUENERUGI.jpg"
+ },
+ "50483": {
+  "jaName": "基本悪エネルギー",
+  "badge": "M-P",
+  "number": "093",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050483_E_KIHONAKUENERUGI.jpg"
+ },
+ "50484": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "M-P",
+  "number": "094",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050484_E_KIHONHAGANEENERUGI.jpg"
+ },
+ "50485": {
+  "jaName": "イーブイ",
+  "badge": "M-P",
+  "number": "134",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050485_P_IBUI.jpg"
+ },
+ "50486": {
+  "jaName": "ポケパッド",
+  "badge": "M-P",
+  "number": "135",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050486_T_POKEPADDO.jpg"
+ },
+ "50487": {
+  "jaName": "ガイ",
+  "badge": "M-P",
+  "number": "136",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050487_T_GAI.jpg"
+ },
+ "50488": {
+  "jaName": "メガエルレイドex",
+  "badge": "M-P",
+  "number": "137",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050488_P_MERUREIDOIEKKUSU.jpg"
+ },
+ "50489": {
+  "jaName": "リーリエの決心",
+  "badge": "M-P",
+  "number": "145",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050489_T_RIRIENOKESSHIN.jpg"
+ },
+ "50490": {
+  "jaName": "メガタブンネex",
+  "badge": "M-P",
+  "number": "146",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050490_P_MTABUNNEIEKKUSU.jpg"
+ },
+ "50491": {
+  "jaName": "おいわいファンファーレ",
+  "badge": "M-P",
+  "number": "147",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050491_T_OIWAIFUANFUARE.jpg"
+ },
+ "50492": {
+  "jaName": "リオル",
+  "badge": "M-P",
+  "number": "155",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050492_P_RIORU.jpg"
+ },
+ "50493": {
+  "jaName": "基本草エネルギー",
+  "badge": "M-P",
+  "number": "156",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050493_E_KIHONKUSAENERUGI.jpg"
+ },
+ "50494": {
+  "jaName": "基本炎エネルギー",
+  "badge": "M-P",
+  "number": "157",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050494_E_KIHONHONOOENERUGI.jpg"
+ },
+ "50495": {
+  "jaName": "基本水エネルギー",
+  "badge": "M-P",
+  "number": "158",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050495_E_KIHONMIZUENERUGI.jpg"
+ },
+ "50496": {
+  "jaName": "基本雷エネルギー",
+  "badge": "M-P",
+  "number": "159",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050496_E_KIHONKAMINARIENERUGI.jpg"
+ },
+ "50497": {
+  "jaName": "基本超エネルギー",
+  "badge": "M-P",
+  "number": "160",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050497_E_KIHONCHIXYOUENERUGI.jpg"
+ },
+ "50498": {
+  "jaName": "基本闘エネルギー",
+  "badge": "M-P",
+  "number": "161",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050498_E_KIHONTOUENERUGI.jpg"
+ },
+ "50499": {
+  "jaName": "基本悪エネルギー",
+  "badge": "M-P",
+  "number": "162",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050499_E_KIHONAKUENERUGI.jpg"
+ },
+ "50500": {
+  "jaName": "基本鋼エネルギー",
+  "badge": "M-P",
+  "number": "163",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050500_E_KIHONHAGANEENERUGI.jpg"
+ },
+ "50501": {
+  "jaName": "メガゼラオラex",
+  "badge": "M-P",
+  "number": "164",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050501_P_MZERAORAIEKKUSU.jpg"
+ },
+ "50502": {
+  "jaName": "メガシグナル",
+  "badge": "M-P",
+  "number": "165",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050502_T_MSHIGUNARU.jpg"
+ },
+ "50503": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050503_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50504": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050504_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50505": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050505_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50506": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050506_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50507": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050507_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50508": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050508_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50509": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050509_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50510": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050510_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50511": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050511_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50512": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050512_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50513": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050513_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50514": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050514_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50515": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050515_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50516": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050516_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50517": {
+  "jaName": "勝利のしるし",
+  "badge": "M-P",
+  "number": null,
+  "label": null,
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050517_T_SHIXYOURINOSHIRUSHI.jpg"
+ },
+ "50555": {
+  "jaName": "ピカチュウex",
+  "badge": "M-P",
+  "number": "131",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050555_P_PIKACHIXYUUIEKKUSU.jpg"
+ },
+ "50556": {
+  "jaName": "ピカチュウex",
+  "badge": "M-P",
+  "number": "132",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050556_P_PIKACHIXYUUIEKKUSU.jpg"
+ },
+ "50557": {
+  "jaName": "アローラ ナッシー",
+  "badge": "M-P",
+  "number": "148",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050557_P_ARORANASSHI.jpg"
+ },
+ "50558": {
+  "jaName": "ファイヤー",
+  "badge": "M-P",
+  "number": "149",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050558_P_FUAIYA.jpg"
+ },
+ "50559": {
+  "jaName": "フリーザー",
+  "badge": "M-P",
+  "number": "150",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050559_P_FURIZA.jpg"
+ },
+ "50560": {
+  "jaName": "ゲッコウガex",
+  "badge": "M-P",
+  "number": "151",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050560_P_GEKKOUGAIEKKUSU.jpg"
+ },
+ "50561": {
+  "jaName": "サンダー",
+  "badge": "M-P",
+  "number": "152",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050561_P_SANDA.jpg"
+ },
+ "50562": {
+  "jaName": "ニンフィアex",
+  "badge": "M-P",
+  "number": "153",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050562_P_NINFUIAIEKKUSU.jpg"
+ },
+ "50563": {
+  "jaName": "ルカリオ",
+  "badge": "M-P",
+  "number": "154",
+  "label": "M-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/M-P/050563_P_RUKARIO.jpg"
+ }
+}
