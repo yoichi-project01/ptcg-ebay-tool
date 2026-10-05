@@ -1,0 +1,49 @@
+{
+ "at": "2026-10-05T15:09:52.278Z",
+ "set": "S1W",
+ "count": {
+  "入れる": 2
+ },
+ "renamed": [
+  {
+   "id": "S1W-015",
+   "from": "cards/S/S1W/ラプラスVMAX_S1W-15／68.jpg",
+   "to": "cards/S/S1W/ラプラスVMAX_S1W-15／68_RRR.jpg"
+  },
+  {
+   "id": "S1W-035",
+   "from": "cards/S/S1W/イシヘンジンVMAX_S1W-35／68.jpg",
+   "to": "cards/S/S1W/イシヘンジンVMAX_S1W-35／68_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S1W-015",
+   "ja": "ラプラスVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "37625",
+     "jaName": "ラプラスVMAX",
+     "rarity": "RRR",
+     "badge": "S1W"
+    }
+   ]
+  },
+  {
+   "id": "S1W-035",
+   "ja": "イシヘンジンVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "37645",
+     "jaName": "イシヘンジンVMAX",
+     "rarity": "RRR",
+     "badge": "S1W"
+    }
+   ]
+  }
+ ]
+}
