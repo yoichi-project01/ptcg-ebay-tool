@@ -1,0 +1,68 @@
+{
+ "at": "2026-10-05T15:10:02.928Z",
+ "set": "S1a",
+ "count": {
+  "入れる": 3
+ },
+ "renamed": [
+  {
+   "id": "S1a-009",
+   "from": "cards/S/S1a/ゴリランダーVMAX_S1a-09／78.jpg",
+   "to": "cards/S/S1a/ゴリランダーVMAX_S1a-09／78_RRR.jpg"
+  },
+  {
+   "id": "S1a-017",
+   "from": "cards/S/S1a/エースバーンVMAX_S1a-17／78.jpg",
+   "to": "cards/S/S1a/エースバーンVMAX_S1a-17／78_RRR.jpg"
+  },
+  {
+   "id": "S1a-023",
+   "from": "cards/S/S1a/インテレオンVMAX_S1a-23／78.jpg",
+   "to": "cards/S/S1a/インテレオンVMAX_S1a-23／78_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S1a-009",
+   "ja": "ゴリランダーVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "37806",
+     "jaName": "ゴリランダーVMAX",
+     "rarity": "RRR",
+     "badge": "S1a"
+    }
+   ]
+  },
+  {
+   "id": "S1a-017",
+   "ja": "エースバーンVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "37814",
+     "jaName": "エースバーンVMAX",
+     "rarity": "RRR",
+     "badge": "S1a"
+    }
+   ]
+  },
+  {
+   "id": "S1a-023",
+   "ja": "インテレオンVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "37820",
+     "jaName": "インテレオンVMAX",
+     "rarity": "RRR",
+     "badge": "S1a"
+    }
+   ]
+  }
+ ]
+}
