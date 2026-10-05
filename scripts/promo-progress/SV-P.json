@@ -1919,6 +1919,14 @@
   "rarityCode": null,
   "cardThumbFile": "/assets/images/card_images/large/SV-P/046994_P_KIRINRIKI.jpg"
  },
+ "46995": {
+  "jaName": "ダストダス",
+  "badge": "SV-P",
+  "number": "221",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/BW/046995_P_DASUTODASU.jpg"
+ },
  "46996": {
   "jaName": "クロバットV",
   "badge": "SV-P",
@@ -1926,6 +1934,78 @@
   "label": "SV-P",
   "rarityCode": null,
   "cardThumbFile": "/assets/images/card_images/large/SV-P/046996_P_KUROBATTOV.jpg"
+ },
+ "46997": {
+  "jaName": "トレーナーズポスト",
+  "badge": "SV-P",
+  "number": "223",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/046997_T_TORENAZUPOSUTO.jpg"
+ },
+ "46998": {
+  "jaName": "パソコン通信",
+  "badge": "SV-P",
+  "number": "224",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/BW/046998_T_PASOKONTSUUSHIN.jpg"
+ },
+ "46999": {
+  "jaName": "バトルコンプレッサー",
+  "badge": "SV-P",
+  "number": "225",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/046999_T_BATORUKONPURESSA.jpg"
+ },
+ "47000": {
+  "jaName": "バトルサーチャー",
+  "badge": "SV-P",
+  "number": "226",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/047000_T_BATORUSACHIXYA.jpg"
+ },
+ "47001": {
+  "jaName": "かるいし",
+  "badge": "SV-P",
+  "number": "227",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/047001_T_KARUISHI.jpg"
+ },
+ "47002": {
+  "jaName": "ちからのハチマキ",
+  "badge": "SV-P",
+  "number": "228",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/047002_T_CHIKARANOHACHIMAKI.jpg"
+ },
+ "47003": {
+  "jaName": "ポケモンレンジャー",
+  "badge": "SV-P",
+  "number": "229",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/047003_T_POKEMONRENJIXYA.jpg"
+ },
+ "47004": {
+  "jaName": "サイレントラボ",
+  "badge": "SV-P",
+  "number": "230",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/047004_T_SAIRENTORABO.jpg"
+ },
+ "47005": {
+  "jaName": "ダブルドラゴンエネルギー",
+  "badge": "SV-P",
+  "number": "231",
+  "label": "SV-P",
+  "rarityCode": null,
+  "cardThumbFile": "/assets/images/card_images/large/XY/047005_E_DABURUDORAGONENERUGI.jpg"
  },
  "47006": {
   "jaName": "勝利のしるし",

@@ -22,6 +22,7 @@
  */
 
 import fs from "node:fs/promises";
+import { readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
@@ -60,7 +61,7 @@ const HEADERS = {
 //       cardID 範囲でキャッシュに無い ID を details.php で1件ずつ確認して見つけたもの
 // allowedGaps: 同じ確認で、公式サイトにカードページ自体が無いと分かった番号
 //       （該当 cardID は「カード検索」トップに戻される）。これ以外の欠番は停止する
-const TARGET_SETS = [
+export const TARGET_SETS = [
   { code: "SM-P", label: "SM-P", badge: "SMP", sr: "SM", sourceCacheKeys: ["SMP", "SMSMP"] },
   // XY-P キー（14枚）はバッジが "XYP" で、XYP キーと同じ弾の一部（2026-08-30 のサンプルで確認）
   {
@@ -73,6 +74,17 @@ const TARGET_SETS = [
   { code: "DP-P", label: "DP-P", badge: "DPP", sr: "DP", sourceCacheKeys: ["DPP"] },
   { code: "DPt-P", label: "DPt-P", badge: "DPtP", sr: "DPt", sourceCacheKeys: ["DPtP"] },
   { code: "L-P", label: "L-P", badge: "LP", sr: "L", sourceCacheKeys: ["LP"] },
+  // M-P（2026-10-05）: 旧キャッシュ（official-card-cache.json、2026-07-04）より後のカードが多いため、最新の公式一覧
+  // （official-card-scan.json、2026-09-29）の M-P キーも使う（useScan）。画像フォルダが BW・XY になっていて M-P キーから漏れていた
+  // 056〜065 番（check-promo-gaps.mjs で details.php を確認）を extraCardIds で足す。M-P キーには MP1（001〜023 / 023）の
+  // カードも入っているが、番号が「NNN / 023」でプロモの表記ではないため番号なしとして除外される（MP1 は登録済み）
+  {
+    code: "M-P", label: "M-P", badge: "M-P", sr: "M", sourceCacheKeys: ["M-P"], useScan: true,
+    extraCardIds: [49622, 49623, 49625, 49626, 49627, 49629, 49631, 49632],
+    // 公式の一覧（2026-09-29）に見つからない番号。欠番の前後の cardID の範囲にあるカードは登録済みの弾（M2〜M5・MC 等）か、
+    // details.php でプロモの番号が無いと確かめたもの（M6・MEE・MEZ・MEM）。一覧に無い cardID も見本6件が MC・M2a の別刷りだった
+    allowedGaps: [52, 77, 78, 79, 80, 81, 82, 83, 84, ...Array.from({ length: 30 }, (_, i) => 101 + i)],
+  },
 ];
 
 // 既存の S-P / SV-P（旧 scrape-promo-images.mjs の位置マッチングで作られた）を
@@ -80,14 +92,17 @@ const TARGET_SETS = [
 // 公式サイトで検証できない旧データ（欠番位置・数字でない型番）は削除する（2026-09-28 ユーザー判断）。
 // allowRarity: details.php にレアリティアイコンがあるプロモ（S-P 341〜349・SV-P 183 の再録系）は
 //       RARITY_CODE_MAP で変換して登録する（2026-09-28 ユーザー判断）
-const REBUILD_SETS = [
+export const REBUILD_SETS = [
   {
     code: "S-P", label: "S-P", badge: "S-P", sr: "S", sourceCacheKeys: ["S-P"], allowRarity: true,
     allowedGaps: [60, 61, 62, 63, 64, 65, 66, 67, 134, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 222, 233, 303, 329, 330, 331, 332, 333, 334, 335, 336],
   },
   {
     code: "SV-P", label: "SV-P", badge: "SV-P", sr: "SV", sourceCacheKeys: ["SV-P"], allowRarity: true,
-    allowedGaps: [37, 38, 39, 40, 41, 42, 43, 44, 221, 223, 224, 225, 226, 227, 228, 229, 230, 231],
+    // 221・223〜231 は画像フォルダが BW・XY で SV-P キーから漏れていた（2026-10-05、check-promo-gaps.mjs で details.php を確認し
+    // add-promo-rows.mjs で追加）。以前は「公式ページなし」としていた
+    extraCardIds: [46995, 46997, 46998, 46999, 47000, 47001, 47002, 47003, 47004, 47005],
+    allowedGaps: [37, 38, 39, 40, 41, 42, 43, 44],
   },
 ];
 
@@ -169,7 +184,7 @@ const isBasicEnergy = (name) => /^基本.+エネルギー$/.test(name);
 export const imageExt = (buf) => (buf.subarray(0, 3).toString("latin1") === "GIF" ? ".gif" : ".jpg");
 
 // details.php の結果を進捗ファイルに集めるだけで、検証・書き込みはしない（--details-only）
-async function fetchDetails(code, cardIds) {
+export async function fetchDetails(code, cardIds) {
   const progress = await loadProgress(code);
   const pending = cardIds.filter((id) => !progress[id]);
   console.log(`[${code}] ${cardIds.length}枚（取得済み ${cardIds.length - pending.length}、残り ${pending.length}）`);
@@ -194,8 +209,12 @@ async function fetchDetails(code, cardIds) {
   return progress;
 }
 
+const SCAN_PATH = path.join(__dirname, "official-card-scan.json");
+let scanCache = null;
 export function cacheCardIds(target, cache) {
-  const officialCards = target.sourceCacheKeys.flatMap((k) => cache.setMap[k] || []);
+  // useScan: 最新の公式一覧（official-card-scan.json）の同じキーのカードも使う
+  if (target.useScan && !scanCache) scanCache = JSON.parse(readFileSync(SCAN_PATH, "utf-8"));
+  const officialCards = target.sourceCacheKeys.flatMap((k) => [...(cache.setMap[k] || []), ...(target.useScan ? scanCache.setMap[k] || [] : [])]);
   const ids = officialCards.map((c) => extractCardId(c.cardThumbFile)).filter(Boolean);
   return [...new Set([...ids, ...(target.extraCardIds || []).map(String)])];
 }
@@ -247,7 +266,7 @@ async function processSet(target, cache, cardData) {
 // details.php の結果（進捗ファイル）を検証し、cardData.json の k 配列を組み立てる。
 // 想定外（未取得・バッジ/表記違い・レアリティあり・別名の番号重複・未確認の欠番）が
 // あれば例外を投げる。番号なしのカードは除外し、一覧を返す
-function validatePromo(target, cardIds, progress) {
+export function validatePromo(target, cardIds, progress) {
   const { code } = target;
   const entries = cardIds.map((id) => ({ cardId: id, ...progress[id] }));
   const missingProgress = entries.filter((e) => !e.jaName);
