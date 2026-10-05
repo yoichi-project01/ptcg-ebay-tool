@@ -1,0 +1,87 @@
+{
+ "at": "2026-10-05T15:10:08.222Z",
+ "set": "S2",
+ "count": {
+  "入れる": 4
+ },
+ "renamed": [
+  {
+   "id": "S2-037",
+   "from": "cards/S/S2/ストリンダーVMAX_S2-037／106.jpg",
+   "to": "cards/S/S2/ストリンダーVMAX_S2-037／106_RRR.jpg"
+  },
+  {
+   "id": "S2-050",
+   "from": "cards/S/S2/ドラパルトVMAX_S2-050／106.jpg",
+   "to": "cards/S/S2/ドラパルトVMAX_S2-050／106_RRR.jpg"
+  },
+  {
+   "id": "S2-071",
+   "from": "cards/S/S2/カラマネロVMAX_S2-071／106.jpg",
+   "to": "cards/S/S2/カラマネロVMAX_S2-071／106_RRR.jpg"
+  },
+  {
+   "id": "S2-076",
+   "from": "cards/S/S2/ダイオウドウVMAX_S2-076／106.jpg",
+   "to": "cards/S/S2/ダイオウドウVMAX_S2-076／106_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S2-037",
+   "ja": "ストリンダーVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "37921",
+     "jaName": "ストリンダーVMAX",
+     "rarity": "RRR",
+     "badge": "S2"
+    }
+   ]
+  },
+  {
+   "id": "S2-050",
+   "ja": "ドラパルトVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "37934",
+     "jaName": "ドラパルトVMAX",
+     "rarity": "RRR",
+     "badge": "S2"
+    }
+   ]
+  },
+  {
+   "id": "S2-071",
+   "ja": "カラマネロVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "37955",
+     "jaName": "カラマネロVMAX",
+     "rarity": "RRR",
+     "badge": "S2"
+    }
+   ]
+  },
+  {
+   "id": "S2-076",
+   "ja": "ダイオウドウVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "37960",
+     "jaName": "ダイオウドウVMAX",
+     "rarity": "RRR",
+     "badge": "S2"
+    }
+   ]
+  }
+ ]
+}
