@@ -2371,12 +2371,12 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
 **1. レアリティ**（作業前 8,310行 → 7,312行）。推測では埋めていない。全体の card_id は `scripts/rarity-fix/changed-card-ids.txt`（998件）、
 弾ごとの件数と残りは `summary.json`。
 
-- **公式 details.php のアイコンで入れた 944行**（`fill-rarity-from-details.mjs`、弾ごとに `run-fill-rarity.sh` でコミット）。
+- **公式 details.php のアイコンで入れた 962行**（`fill-rarity-from-details.mjs`、弾ごとに `run-fill-rarity.sh` でコミット）。
   details.php の結果は `scan-progress/{弾}.json`（`fetch-rarity-details.mjs` が `rarity-fix/fetch-plan.json` の cardID を取得。マークの有無は
   見本 `sample-icons.json` で確かめた）。同じ番号・同じ日本語名で、既知のコードのアイコンがあるものだけ。弾ごとの根拠は `rarity-fix/{弾}.json`。
   主に SV1S〜SV9a・S9〜S12a・S1W〜S3a 等のシークレット（TCGdex 由来の行にレアリティが無かった）と、SV4a 170・S12a 99・SV8a 50 など。
-- **公式にアイコンが無いカードを、公式以外の情報源の2つ以上の一致で入れた 54行**（`fill-rarity-from-sources.mjs`、根拠 `rarity-fix/second-sources.json`・
-  `second-sources-result-{弾}.json`）: ACE SPEC 50枚（SV5K・SV5M・SV5a・SV6・SV6a・SV7・SV7a・SV8・SV8a。遊々亭「ACE」とポケカくらぶ「（ACE SPEC）」
+- **公式にアイコンが無いカードを、公式以外の情報源の2つ以上の一致で入れた 36行**（`fill-rarity-from-sources.mjs`、根拠 `rarity-fix/second-sources.json`・
+  `second-sources-result-{弾}.json`）: ACE SPEC 32枚（SV5K・SV5M・SV5a・SV6・SV6a・SV7・SV7a・SV8・SV8a。遊々亭「ACE」とポケカくらぶ「（ACE SPEC）」
   または TCGdex「ACE SPEC Rare」が一致）と S8b のモルペコV-UNION 4枚（遊々亭「RRR」と TCGdex「Triple Rare」）。details.php は ACE SPEC・かがやく・
   ひかる・プリズムスター・V-UNION などにアイコンを出さない。
 - 画像のファイル名もレアリティ付きの規則に直し、imageIndex.json の指す先を合わせた（キーは変えていない）。`archive-stray-images.mjs --verify` は0件。
