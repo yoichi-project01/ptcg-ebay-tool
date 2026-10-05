@@ -87,7 +87,14 @@ async function main() {
       }
     }
   }
-  await fs.writeFile(OUT, JSON.stringify(index), "utf-8");
+  // --only のときは既存のキーの並びを保つ（差分を対象の弾の行だけにする。新しいキーは後ろに足す）
+  let out = index;
+  if (onlySets) {
+    out = {};
+    for (const k of Object.keys(prevIndex)) if (k in index) out[k] = index[k];
+    for (const k of Object.keys(index)) if (!(k in out)) out[k] = index[k];
+  }
+  await fs.writeFile(OUT, JSON.stringify(out), "utf-8");
   const jpgCount = Object.values(index).filter(v => v.endsWith(".jpg")).length;
   const pngCount = Object.values(index).filter(v => v.endsWith(".png")).length;
   const gifCount = Object.values(index).filter(v => v.endsWith(".gif")).length;
