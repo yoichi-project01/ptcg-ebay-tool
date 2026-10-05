@@ -1,0 +1,600 @@
+{
+ "at": "2026-10-05T15:07:53.157Z",
+ "set": "S9",
+ "count": {
+  "入れる": 31
+ },
+ "renamed": [
+  {
+   "id": "S9-013",
+   "from": "cards/S/S9/シェイミVSTAR_S9-013／127.jpg",
+   "to": "cards/S/S9/シェイミVSTAR_S9-013／127_RRR.jpg"
+  },
+  {
+   "id": "S9-015",
+   "from": "cards/S/S9/リザードンVSTAR_S9-015／127.jpg",
+   "to": "cards/S/S9/リザードンVSTAR_S9-015／127_RRR.jpg"
+  },
+  {
+   "id": "S9-050",
+   "from": "cards/S/S9/エルフーンVSTAR_S9-050／127.jpg",
+   "to": "cards/S/S9/エルフーンVSTAR_S9-050／127_RRR.jpg"
+  },
+  {
+   "id": "S9-084",
+   "from": "cards/S/S9/アルセウスVSTAR_S9-084／127.jpg",
+   "to": "cards/S/S9/アルセウスVSTAR_S9-084／127_RRR.jpg"
+  },
+  {
+   "id": "S9-101",
+   "from": "cards/S/S9/シェイミV_S9-101／127.jpg",
+   "to": "cards/S/S9/シェイミV_S9-101／127_SR.jpg"
+  },
+  {
+   "id": "S9-102",
+   "from": "cards/S/S9/リザードンV_S9-102／127.jpg",
+   "to": "cards/S/S9/リザードンV_S9-102／127_SR.jpg"
+  },
+  {
+   "id": "S9-103",
+   "from": "cards/S/S9/リザードンV_S9-103／127.jpg",
+   "to": "cards/S/S9/リザードンV_S9-103／127_SR.jpg"
+  },
+  {
+   "id": "S9-104",
+   "from": "cards/S/S9/ネオラントV_S9-104／127.jpg",
+   "to": "cards/S/S9/ネオラントV_S9-104／127_SR.jpg"
+  },
+  {
+   "id": "S9-105",
+   "from": "cards/S/S9/ネオラントV_S9-105／127.jpg",
+   "to": "cards/S/S9/ネオラントV_S9-105／127_SR.jpg"
+  },
+  {
+   "id": "S9-106",
+   "from": "cards/S/S9/ライチュウV_S9-106／127.jpg",
+   "to": "cards/S/S9/ライチュウV_S9-106／127_SR.jpg"
+  },
+  {
+   "id": "S9-107",
+   "from": "cards/S/S9/エルフーンV_S9-107／127.jpg",
+   "to": "cards/S/S9/エルフーンV_S9-107／127_SR.jpg"
+  },
+  {
+   "id": "S9-108",
+   "from": "cards/S/S9/ドンカラスV_S9-108／127.jpg",
+   "to": "cards/S/S9/ドンカラスV_S9-108／127_SR.jpg"
+  },
+  {
+   "id": "S9-109",
+   "from": "cards/S/S9/ドンカラスV_S9-109／127.jpg",
+   "to": "cards/S/S9/ドンカラスV_S9-109／127_SR.jpg"
+  },
+  {
+   "id": "S9-110",
+   "from": "cards/S/S9/フライゴンV_S9-110／127.jpg",
+   "to": "cards/S/S9/フライゴンV_S9-110／127_SR.jpg"
+  },
+  {
+   "id": "S9-111",
+   "from": "cards/S/S9/アルセウスV_S9-111／127.jpg",
+   "to": "cards/S/S9/アルセウスV_S9-111／127_SR.jpg"
+  },
+  {
+   "id": "S9-112",
+   "from": "cards/S/S9/アルセウスV_S9-112／127.jpg",
+   "to": "cards/S/S9/アルセウスV_S9-112／127_SR.jpg"
+  },
+  {
+   "id": "S9-113",
+   "from": "cards/S/S9/キャンプファイヤー_S9-113／127.jpg",
+   "to": "cards/S/S9/キャンプファイヤー_S9-113／127_SR.jpg"
+  },
+  {
+   "id": "S9-114",
+   "from": "cards/S/S9/シロナの覇気_S9-114／127.jpg",
+   "to": "cards/S/S9/シロナの覇気_S9-114／127_SR.jpg"
+  },
+  {
+   "id": "S9-115",
+   "from": "cards/S/S9/チェレンの気くばり_S9-115／127.jpg",
+   "to": "cards/S/S9/チェレンの気くばり_S9-115／127_SR.jpg"
+  },
+  {
+   "id": "S9-116",
+   "from": "cards/S/S9/ハマナのバックアップ_S9-116／127.jpg",
+   "to": "cards/S/S9/ハマナのバックアップ_S9-116／127_SR.jpg"
+  },
+  {
+   "id": "S9-117",
+   "from": "cards/S/S9/シェイミVSTAR_S9-117／127.jpg",
+   "to": "cards/S/S9/シェイミVSTAR_S9-117／127_HR.jpg"
+  },
+  {
+   "id": "S9-118",
+   "from": "cards/S/S9/リザードンVSTAR_S9-118／127.jpg",
+   "to": "cards/S/S9/リザードンVSTAR_S9-118／127_HR.jpg"
+  },
+  {
+   "id": "S9-119",
+   "from": "cards/S/S9/エルフーンVSTAR_S9-119／127.jpg",
+   "to": "cards/S/S9/エルフーンVSTAR_S9-119／127_HR.jpg"
+  },
+  {
+   "id": "S9-120",
+   "from": "cards/S/S9/アルセウスVSTAR_S9-120／127.jpg",
+   "to": "cards/S/S9/アルセウスVSTAR_S9-120／127_HR.jpg"
+  },
+  {
+   "id": "S9-121",
+   "from": "cards/S/S9/キャンプファイヤー_S9-121／127.jpg",
+   "to": "cards/S/S9/キャンプファイヤー_S9-121／127_HR.jpg"
+  },
+  {
+   "id": "S9-122",
+   "from": "cards/S/S9/シロナの覇気_S9-122／127.jpg",
+   "to": "cards/S/S9/シロナの覇気_S9-122／127_HR.jpg"
+  },
+  {
+   "id": "S9-123",
+   "from": "cards/S/S9/チェレンの気くばり_S9-123／127.jpg",
+   "to": "cards/S/S9/チェレンの気くばり_S9-123／127_HR.jpg"
+  },
+  {
+   "id": "S9-124",
+   "from": "cards/S/S9/ハマナのバックアップ_S9-124／127.jpg",
+   "to": "cards/S/S9/ハマナのバックアップ_S9-124／127_HR.jpg"
+  },
+  {
+   "id": "S9-125",
+   "from": "cards/S/S9/アルセウスVSTAR_S9-125／127.jpg",
+   "to": "cards/S/S9/アルセウスVSTAR_S9-125／127_UR.jpg"
+  },
+  {
+   "id": "S9-126",
+   "from": "cards/S/S9/ハイパーボール_S9-126／127.jpg",
+   "to": "cards/S/S9/ハイパーボール_S9-126／127_UR.jpg"
+  },
+  {
+   "id": "S9-127",
+   "from": "cards/S/S9/マグマの滝壺_S9-127／127.jpg",
+   "to": "cards/S/S9/マグマの滝壺_S9-127／127_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S9-013",
+   "ja": "シェイミVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "40915",
+     "jaName": "シェイミVSTAR",
+     "rarity": "RRR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-015",
+   "ja": "リザードンVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "40917",
+     "jaName": "リザードンVSTAR",
+     "rarity": "RRR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-050",
+   "ja": "エルフーンVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "40952",
+     "jaName": "エルフーンVSTAR",
+     "rarity": "RRR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-084",
+   "ja": "アルセウスVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "40986",
+     "jaName": "アルセウスVSTAR",
+     "rarity": "RRR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-101",
+   "ja": "シェイミV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41343",
+     "jaName": "シェイミV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-102",
+   "ja": "リザードンV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41344",
+     "jaName": "リザードンV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-103",
+   "ja": "リザードンV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41345",
+     "jaName": "リザードンV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-104",
+   "ja": "ネオラントV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41346",
+     "jaName": "ネオラントV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-105",
+   "ja": "ネオラントV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41347",
+     "jaName": "ネオラントV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-106",
+   "ja": "ライチュウV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41348",
+     "jaName": "ライチュウV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-107",
+   "ja": "エルフーンV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41349",
+     "jaName": "エルフーンV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-108",
+   "ja": "ドンカラスV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41350",
+     "jaName": "ドンカラスV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-109",
+   "ja": "ドンカラスV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41351",
+     "jaName": "ドンカラスV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-110",
+   "ja": "フライゴンV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41352",
+     "jaName": "フライゴンV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-111",
+   "ja": "アルセウスV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41353",
+     "jaName": "アルセウスV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-112",
+   "ja": "アルセウスV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41354",
+     "jaName": "アルセウスV",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-113",
+   "ja": "キャンプファイヤー",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41355",
+     "jaName": "キャンプファイヤー",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-114",
+   "ja": "シロナの覇気",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41356",
+     "jaName": "シロナの覇気",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-115",
+   "ja": "チェレンの気くばり",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41357",
+     "jaName": "チェレンの気くばり",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-116",
+   "ja": "ハマナのバックアップ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41358",
+     "jaName": "ハマナのバックアップ",
+     "rarity": "SR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-117",
+   "ja": "シェイミVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44852",
+     "jaName": "シェイミVSTAR",
+     "rarity": "HR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-118",
+   "ja": "リザードンVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44853",
+     "jaName": "リザードンVSTAR",
+     "rarity": "HR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-119",
+   "ja": "エルフーンVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44854",
+     "jaName": "エルフーンVSTAR",
+     "rarity": "HR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-120",
+   "ja": "アルセウスVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44855",
+     "jaName": "アルセウスVSTAR",
+     "rarity": "HR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-121",
+   "ja": "キャンプファイヤー",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44856",
+     "jaName": "キャンプファイヤー",
+     "rarity": "HR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-122",
+   "ja": "シロナの覇気",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44857",
+     "jaName": "シロナの覇気",
+     "rarity": "HR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-123",
+   "ja": "チェレンの気くばり",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44858",
+     "jaName": "チェレンの気くばり",
+     "rarity": "HR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-124",
+   "ja": "ハマナのバックアップ",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44859",
+     "jaName": "ハマナのバックアップ",
+     "rarity": "HR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-125",
+   "ja": "アルセウスVSTAR",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44860",
+     "jaName": "アルセウスVSTAR",
+     "rarity": "UR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-126",
+   "ja": "ハイパーボール",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44861",
+     "jaName": "ハイパーボール",
+     "rarity": "UR",
+     "badge": "S9"
+    }
+   ]
+  },
+  {
+   "id": "S9-127",
+   "ja": "マグマの滝壺",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44862",
+     "jaName": "マグマの滝壺",
+     "rarity": "UR",
+     "badge": "S9"
+    }
+   ]
+  }
+ ]
+}
