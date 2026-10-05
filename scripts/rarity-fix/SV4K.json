@@ -1,0 +1,562 @@
+{
+ "at": "2026-10-05T15:08:59.201Z",
+ "set": "SV4K",
+ "count": {
+  "入れる": 29
+ },
+ "renamed": [
+  {
+   "id": "SV4K-067",
+   "from": "cards/SV/SV4K/イワパレス_SV4K-67／95.jpg",
+   "to": "cards/SV/SV4K/イワパレス_SV4K-67／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-068",
+   "from": "cards/SV/SV4K/ブビィ_SV4K-68／95.jpg",
+   "to": "cards/SV/SV4K/ブビィ_SV4K-68／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-069",
+   "from": "cards/SV/SV4K/コソクムシ_SV4K-69／95.jpg",
+   "to": "cards/SV/SV4K/コソクムシ_SV4K-69／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-070",
+   "from": "cards/SV/SV4K/ミガルーサ_SV4K-70／95.jpg",
+   "to": "cards/SV/SV4K/ミガルーサ_SV4K-70／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-071",
+   "from": "cards/SV/SV4K/サケブシッポ_SV4K-71／95.jpg",
+   "to": "cards/SV/SV4K/サケブシッポ_SV4K-71／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-072",
+   "from": "cards/SV/SV4K/コジョンド_SV4K-72／95.jpg",
+   "to": "cards/SV/SV4K/コジョンド_SV4K-72／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-073",
+   "from": "cards/SV/SV4K/キョジオーン_SV4K-73／95.jpg",
+   "to": "cards/SV/SV4K/キョジオーン_SV4K-73／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-074",
+   "from": "cards/SV/SV4K/チヲハウハネ_SV4K-74／95.jpg",
+   "to": "cards/SV/SV4K/チヲハウハネ_SV4K-74／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-075",
+   "from": "cards/SV/SV4K/ダストダス_SV4K-75／95.jpg",
+   "to": "cards/SV/SV4K/ダストダス_SV4K-75／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-076",
+   "from": "cards/SV/SV4K/モルペコ_SV4K-76／95.jpg",
+   "to": "cards/SV/SV4K/モルペコ_SV4K-76／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-077",
+   "from": "cards/SV/SV4K/アラブルタケ_SV4K-77／95.jpg",
+   "to": "cards/SV/SV4K/アラブルタケ_SV4K-77／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-078",
+   "from": "cards/SV/SV4K/ドゴーム_SV4K-78／95.jpg",
+   "to": "cards/SV/SV4K/ドゴーム_SV4K-78／95_AR.jpg"
+  },
+  {
+   "id": "SV4K-079",
+   "from": "cards/SV/SV4K/グレンアルマex_SV4K-79／95.jpg",
+   "to": "cards/SV/SV4K/グレンアルマex_SV4K-79／95_SR.jpg"
+  },
+  {
+   "id": "SV4K-080",
+   "from": "cards/SV/SV4K/アマージョex_SV4K-80／95.jpg",
+   "to": "cards/SV/SV4K/アマージョex_SV4K-80／95_SR.jpg"
+  },
+  {
+   "id": "SV4K-081",
+   "from": "cards/SV/SV4K/グソクムシャex_SV4K-81／95.jpg",
+   "to": "cards/SV/SV4K/グソクムシャex_SV4K-81／95_SR.jpg"
+  },
+  {
+   "id": "SV4K-082",
+   "from": "cards/SV/SV4K/デスカーンex_SV4K-82／95.jpg",
+   "to": "cards/SV/SV4K/デスカーンex_SV4K-82／95_SR.jpg"
+  },
+  {
+   "id": "SV4K-083",
+   "from": "cards/SV/SV4K/スナノケガワex_SV4K-83／95.jpg",
+   "to": "cards/SV/SV4K/スナノケガワex_SV4K-83／95_SR.jpg"
+  },
+  {
+   "id": "SV4K-084",
+   "from": "cards/SV/SV4K/トドロクツキex_SV4K-84／95.jpg",
+   "to": "cards/SV/SV4K/トドロクツキex_SV4K-84／95_SR.jpg"
+  },
+  {
+   "id": "SV4K-085",
+   "from": "cards/SV/SV4K/オーリム博士の気迫_SV4K-85／95.jpg",
+   "to": "cards/SV/SV4K/オーリム博士の気迫_SV4K-85／95_SR.jpg"
+  },
+  {
+   "id": "SV4K-086",
+   "from": "cards/SV/SV4K/センリ_SV4K-86／95.jpg",
+   "to": "cards/SV/SV4K/センリ_SV4K-86／95_SR.jpg"
+  },
+  {
+   "id": "SV4K-087",
+   "from": "cards/SV/SV4K/メロコ_SV4K-87／95.jpg",
+   "to": "cards/SV/SV4K/メロコ_SV4K-87／95_SR.jpg"
+  },
+  {
+   "id": "SV4K-088",
+   "from": "cards/SV/SV4K/グソクムシャex_SV4K-88／95.jpg",
+   "to": "cards/SV/SV4K/グソクムシャex_SV4K-88／95_SAR.jpg"
+  },
+  {
+   "id": "SV4K-089",
+   "from": "cards/SV/SV4K/スナノケガワex_SV4K-89／95.jpg",
+   "to": "cards/SV/SV4K/スナノケガワex_SV4K-89／95_SAR.jpg"
+  },
+  {
+   "id": "SV4K-090",
+   "from": "cards/SV/SV4K/トドロクツキex_SV4K-90／95.jpg",
+   "to": "cards/SV/SV4K/トドロクツキex_SV4K-90／95_SAR.jpg"
+  },
+  {
+   "id": "SV4K-091",
+   "from": "cards/SV/SV4K/オーリム博士の気迫_SV4K-91／95.jpg",
+   "to": "cards/SV/SV4K/オーリム博士の気迫_SV4K-91／95_SAR.jpg"
+  },
+  {
+   "id": "SV4K-092",
+   "from": "cards/SV/SV4K/メロコ_SV4K-92／95.jpg",
+   "to": "cards/SV/SV4K/メロコ_SV4K-92／95_SAR.jpg"
+  },
+  {
+   "id": "SV4K-093",
+   "from": "cards/SV/SV4K/トドロクツキex_SV4K-93／95.jpg",
+   "to": "cards/SV/SV4K/トドロクツキex_SV4K-93／95_UR.jpg"
+  },
+  {
+   "id": "SV4K-094",
+   "from": "cards/SV/SV4K/ゴージャスマント_SV4K-94／95.jpg",
+   "to": "cards/SV/SV4K/ゴージャスマント_SV4K-94／95_UR.jpg"
+  },
+  {
+   "id": "SV4K-095",
+   "from": "cards/SV/SV4K/基本悪エネルギー_SV4K-95／95.jpg",
+   "to": "cards/SV/SV4K/基本悪エネルギー_SV4K-95／95_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV4K-067",
+   "ja": "イワパレス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44420",
+     "jaName": "イワパレス",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-068",
+   "ja": "ブビィ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44421",
+     "jaName": "ブビィ",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-069",
+   "ja": "コソクムシ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44422",
+     "jaName": "コソクムシ",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-070",
+   "ja": "ミガルーサ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44423",
+     "jaName": "ミガルーサ",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-071",
+   "ja": "サケブシッポ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44424",
+     "jaName": "サケブシッポ",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-072",
+   "ja": "コジョンド",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44425",
+     "jaName": "コジョンド",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-073",
+   "ja": "キョジオーン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44426",
+     "jaName": "キョジオーン",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-074",
+   "ja": "チヲハウハネ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44427",
+     "jaName": "チヲハウハネ",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-075",
+   "ja": "ダストダス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44428",
+     "jaName": "ダストダス",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-076",
+   "ja": "モルペコ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44429",
+     "jaName": "モルペコ",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-077",
+   "ja": "アラブルタケ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44430",
+     "jaName": "アラブルタケ",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-078",
+   "ja": "ドゴーム",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44431",
+     "jaName": "ドゴーム",
+     "rarity": "AR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-079",
+   "ja": "グレンアルマex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44432",
+     "jaName": "グレンアルマex",
+     "rarity": "SR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-080",
+   "ja": "アマージョex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44433",
+     "jaName": "アマージョex",
+     "rarity": "SR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-081",
+   "ja": "グソクムシャex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44434",
+     "jaName": "グソクムシャex",
+     "rarity": "SR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-082",
+   "ja": "デスカーンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44435",
+     "jaName": "デスカーンex",
+     "rarity": "SR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-083",
+   "ja": "スナノケガワex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44436",
+     "jaName": "スナノケガワex",
+     "rarity": "SR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-084",
+   "ja": "トドロクツキex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44437",
+     "jaName": "トドロクツキex",
+     "rarity": "SR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-085",
+   "ja": "オーリム博士の気迫",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44438",
+     "jaName": "オーリム博士の気迫",
+     "rarity": "SR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-086",
+   "ja": "センリ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44439",
+     "jaName": "センリ",
+     "rarity": "SR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-087",
+   "ja": "メロコ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44440",
+     "jaName": "メロコ",
+     "rarity": "SR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-088",
+   "ja": "グソクムシャex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44441",
+     "jaName": "グソクムシャex",
+     "rarity": "SAR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-089",
+   "ja": "スナノケガワex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44442",
+     "jaName": "スナノケガワex",
+     "rarity": "SAR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-090",
+   "ja": "トドロクツキex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44443",
+     "jaName": "トドロクツキex",
+     "rarity": "SAR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-091",
+   "ja": "オーリム博士の気迫",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44444",
+     "jaName": "オーリム博士の気迫",
+     "rarity": "SAR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-092",
+   "ja": "メロコ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44445",
+     "jaName": "メロコ",
+     "rarity": "SAR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-093",
+   "ja": "トドロクツキex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44969",
+     "jaName": "トドロクツキex",
+     "rarity": "UR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-094",
+   "ja": "ゴージャスマント",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44970",
+     "jaName": "ゴージャスマント",
+     "rarity": "UR",
+     "badge": "SV4K"
+    }
+   ]
+  },
+  {
+   "id": "SV4K-095",
+   "ja": "基本悪エネルギー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44971",
+     "jaName": "基本悪エネルギー",
+     "rarity": "UR",
+     "badge": "SV4K"
+    }
+   ]
+  }
+ ]
+}

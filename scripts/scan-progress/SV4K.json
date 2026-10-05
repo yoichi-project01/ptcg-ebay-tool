@@ -726,5 +726,37 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV4K/044969_P_TODOROKUTSUKIEX.jpg"
+ },
+ "44970": {
+  "badge": "SV4K",
+  "cards": [
+   {
+    "local": "094",
+    "total": "066",
+    "rarity": "UR",
+    "jaName": "ゴージャスマント",
+    "cardThumbFile": "/assets/images/card_images/large/SV4K/044970_T_GOJIXYASUMANTO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV4K/044970_T_GOJIXYASUMANTO.jpg"
+ },
+ "44971": {
+  "badge": "SV4K",
+  "cards": [
+   {
+    "local": "095",
+    "total": "066",
+    "rarity": "UR",
+    "jaName": "基本悪エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV4K/044971_E_KIHONAKUENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV4K/044971_E_KIHONAKUENERUGI.jpg"
  }
 }
