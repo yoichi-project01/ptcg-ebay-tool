@@ -1,0 +1,562 @@
+{
+ "at": "2026-10-05T15:09:04.436Z",
+ "set": "SV4M",
+ "count": {
+  "入れる": 29
+ },
+ "renamed": [
+  {
+   "id": "SV4M-067",
+   "from": "cards/SV/SV4M/レドームシ_SV4M-67／95.jpg",
+   "to": "cards/SV/SV4M/レドームシ_SV4M-67／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-068",
+   "from": "cards/SV/SV4M/リククラゲ_SV4M-68／95.jpg",
+   "to": "cards/SV/SV4M/リククラゲ_SV4M-68／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-069",
+   "from": "cards/SV/SV4M/テツノドクガ_SV4M-69／95.jpg",
+   "to": "cards/SV/SV4M/テツノドクガ_SV4M-69／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-070",
+   "from": "cards/SV/SV4M/バニリッチ_SV4M-70／95.jpg",
+   "to": "cards/SV/SV4M/バニリッチ_SV4M-70／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-071",
+   "from": "cards/SV/SV4M/テツノツツミ_SV4M-71／95.jpg",
+   "to": "cards/SV/SV4M/テツノツツミ_SV4M-71／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-072",
+   "from": "cards/SV/SV4M/シママ_SV4M-72／95.jpg",
+   "to": "cards/SV/SV4M/シママ_SV4M-72／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-073",
+   "from": "cards/SV/SV4M/クエスパトラ_SV4M-73／95.jpg",
+   "to": "cards/SV/SV4M/クエスパトラ_SV4M-73／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-074",
+   "from": "cards/SV/SV4M/ハガネール_SV4M-74／95.jpg",
+   "to": "cards/SV/SV4M/ハガネール_SV4M-74／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-075",
+   "from": "cards/SV/SV4M/エイパム_SV4M-75／95.jpg",
+   "to": "cards/SV/SV4M/エイパム_SV4M-75／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-076",
+   "from": "cards/SV/SV4M/チルット_SV4M-76／95.jpg",
+   "to": "cards/SV/SV4M/チルット_SV4M-76／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-077",
+   "from": "cards/SV/SV4M/ポリゴンZ_SV4M-77／95.jpg",
+   "to": "cards/SV/SV4M/ポリゴンZ_SV4M-77／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-078",
+   "from": "cards/SV/SV4M/テツノコウベ_SV4M-78／95.jpg",
+   "to": "cards/SV/SV4M/テツノコウベ_SV4M-78／95_AR.jpg"
+  },
+  {
+   "id": "SV4M-079",
+   "from": "cards/SV/SV4M/テツノカイナex_SV4M-79／95.jpg",
+   "to": "cards/SV/SV4M/テツノカイナex_SV4M-79／95_SR.jpg"
+  },
+  {
+   "id": "SV4M-080",
+   "from": "cards/SV/SV4M/テツノブジンex_SV4M-80／95.jpg",
+   "to": "cards/SV/SV4M/テツノブジンex_SV4M-80／95_SR.jpg"
+  },
+  {
+   "id": "SV4M-081",
+   "from": "cards/SV/SV4M/ストリンダーex_SV4M-81／95.jpg",
+   "to": "cards/SV/SV4M/ストリンダーex_SV4M-81／95_SR.jpg"
+  },
+  {
+   "id": "SV4M-082",
+   "from": "cards/SV/SV4M/ギルガルドex_SV4M-82／95.jpg",
+   "to": "cards/SV/SV4M/ギルガルドex_SV4M-82／95_SR.jpg"
+  },
+  {
+   "id": "SV4M-083",
+   "from": "cards/SV/SV4M/チルタリスex_SV4M-83／95.jpg",
+   "to": "cards/SV/SV4M/チルタリスex_SV4M-83／95_SR.jpg"
+  },
+  {
+   "id": "SV4M-084",
+   "from": "cards/SV/SV4M/イッカネズミex_SV4M-84／95.jpg",
+   "to": "cards/SV/SV4M/イッカネズミex_SV4M-84／95_SR.jpg"
+  },
+  {
+   "id": "SV4M-085",
+   "from": "cards/SV/SV4M/ヒョウタ_SV4M-85／95.jpg",
+   "to": "cards/SV/SV4M/ヒョウタ_SV4M-85／95_SR.jpg"
+  },
+  {
+   "id": "SV4M-086",
+   "from": "cards/SV/SV4M/フトゥー博士のシナリオ_SV4M-86／95.jpg",
+   "to": "cards/SV/SV4M/フトゥー博士のシナリオ_SV4M-86／95_SR.jpg"
+  },
+  {
+   "id": "SV4M-087",
+   "from": "cards/SV/SV4M/リップ_SV4M-87／95.jpg",
+   "to": "cards/SV/SV4M/リップ_SV4M-87／95_SR.jpg"
+  },
+  {
+   "id": "SV4M-088",
+   "from": "cards/SV/SV4M/テツノカイナex_SV4M-88／95.jpg",
+   "to": "cards/SV/SV4M/テツノカイナex_SV4M-88／95_SAR.jpg"
+  },
+  {
+   "id": "SV4M-089",
+   "from": "cards/SV/SV4M/テツノブジンex_SV4M-89／95.jpg",
+   "to": "cards/SV/SV4M/テツノブジンex_SV4M-89／95_SAR.jpg"
+  },
+  {
+   "id": "SV4M-090",
+   "from": "cards/SV/SV4M/チルタリスex_SV4M-90／95.jpg",
+   "to": "cards/SV/SV4M/チルタリスex_SV4M-90／95_SAR.jpg"
+  },
+  {
+   "id": "SV4M-091",
+   "from": "cards/SV/SV4M/フトゥー博士のシナリオ_SV4M-91／95.jpg",
+   "to": "cards/SV/SV4M/フトゥー博士のシナリオ_SV4M-91／95_SAR.jpg"
+  },
+  {
+   "id": "SV4M-092",
+   "from": "cards/SV/SV4M/リップ_SV4M-92／95.jpg",
+   "to": "cards/SV/SV4M/リップ_SV4M-92／95_SAR.jpg"
+  },
+  {
+   "id": "SV4M-093",
+   "from": "cards/SV/SV4M/テツノブジンex_SV4M-93／95.jpg",
+   "to": "cards/SV/SV4M/テツノブジンex_SV4M-93／95_UR.jpg"
+  },
+  {
+   "id": "SV4M-094",
+   "from": "cards/SV/SV4M/カウンターキャッチャー_SV4M-94／95.jpg",
+   "to": "cards/SV/SV4M/カウンターキャッチャー_SV4M-94／95_UR.jpg"
+  },
+  {
+   "id": "SV4M-095",
+   "from": "cards/SV/SV4M/基本鋼エネルギー_SV4M-95／95.jpg",
+   "to": "cards/SV/SV4M/基本鋼エネルギー_SV4M-95／95_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV4M-067",
+   "ja": "レドームシ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44446",
+     "jaName": "レドームシ",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-068",
+   "ja": "リククラゲ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44447",
+     "jaName": "リククラゲ",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-069",
+   "ja": "テツノドクガ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44448",
+     "jaName": "テツノドクガ",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-070",
+   "ja": "バニリッチ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44449",
+     "jaName": "バニリッチ",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-071",
+   "ja": "テツノツツミ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44450",
+     "jaName": "テツノツツミ",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-072",
+   "ja": "シママ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44451",
+     "jaName": "シママ",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-073",
+   "ja": "クエスパトラ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44452",
+     "jaName": "クエスパトラ",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-074",
+   "ja": "ハガネール",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44453",
+     "jaName": "ハガネール",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-075",
+   "ja": "エイパム",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44454",
+     "jaName": "エイパム",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-076",
+   "ja": "チルット",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44455",
+     "jaName": "チルット",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-077",
+   "ja": "ポリゴンZ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44456",
+     "jaName": "ポリゴンZ",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-078",
+   "ja": "テツノコウベ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44457",
+     "jaName": "テツノコウベ",
+     "rarity": "AR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-079",
+   "ja": "テツノカイナex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44458",
+     "jaName": "テツノカイナex",
+     "rarity": "SR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-080",
+   "ja": "テツノブジンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44459",
+     "jaName": "テツノブジンex",
+     "rarity": "SR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-081",
+   "ja": "ストリンダーex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44460",
+     "jaName": "ストリンダーex",
+     "rarity": "SR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-082",
+   "ja": "ギルガルドex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44461",
+     "jaName": "ギルガルドex",
+     "rarity": "SR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-083",
+   "ja": "チルタリスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44462",
+     "jaName": "チルタリスex",
+     "rarity": "SR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-084",
+   "ja": "イッカネズミex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44463",
+     "jaName": "イッカネズミex",
+     "rarity": "SR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-085",
+   "ja": "ヒョウタ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44464",
+     "jaName": "ヒョウタ",
+     "rarity": "SR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-086",
+   "ja": "フトゥー博士のシナリオ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44465",
+     "jaName": "フトゥー博士のシナリオ",
+     "rarity": "SR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-087",
+   "ja": "リップ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44466",
+     "jaName": "リップ",
+     "rarity": "SR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-088",
+   "ja": "テツノカイナex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44467",
+     "jaName": "テツノカイナex",
+     "rarity": "SAR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-089",
+   "ja": "テツノブジンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44468",
+     "jaName": "テツノブジンex",
+     "rarity": "SAR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-090",
+   "ja": "チルタリスex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44469",
+     "jaName": "チルタリスex",
+     "rarity": "SAR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-091",
+   "ja": "フトゥー博士のシナリオ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44470",
+     "jaName": "フトゥー博士のシナリオ",
+     "rarity": "SAR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-092",
+   "ja": "リップ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44471",
+     "jaName": "リップ",
+     "rarity": "SAR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-093",
+   "ja": "テツノブジンex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44972",
+     "jaName": "テツノブジンex",
+     "rarity": "UR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-094",
+   "ja": "カウンターキャッチャー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44973",
+     "jaName": "カウンターキャッチャー",
+     "rarity": "UR",
+     "badge": "SV4M"
+    }
+   ]
+  },
+  {
+   "id": "SV4M-095",
+   "ja": "基本鋼エネルギー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44974",
+     "jaName": "基本鋼エネルギー",
+     "rarity": "UR",
+     "badge": "SV4M"
+    }
+   ]
+  }
+ ]
+}

@@ -506,6 +506,22 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV4M/044455_P_CHIRUTTO.jpg"
  },
+ "44456": {
+  "badge": "SV4M",
+  "cards": [
+   {
+    "local": "077",
+    "total": "066",
+    "rarity": "AR",
+    "jaName": "ポリゴンZ",
+    "cardThumbFile": "/assets/images/card_images/large/SV4M/044456_P_PORIGONZ.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ar"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV4M/044456_P_PORIGONZ.jpg"
+ },
  "44457": {
   "badge": "SV4M",
   "cards": [
@@ -726,5 +742,21 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV4M/044973_T_KAUNTAKIXYATCHIXYA.jpg"
+ },
+ "44974": {
+  "badge": "SV4M",
+  "cards": [
+   {
+    "local": "095",
+    "total": "066",
+    "rarity": "UR",
+    "jaName": "基本鋼エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV4M/044974_E_KIHONHAGANEENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV4M/044974_E_KIHONHAGANEENERUGI.jpg"
  }
 }
