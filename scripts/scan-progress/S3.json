@@ -1,0 +1,1762 @@
+{
+ "38139": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "001",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "パラス",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038139_P_PARASU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038139_P_PARASU.jpg"
+ },
+ "38140": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "002",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "パラセクト",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038140_P_PARASEKUTO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038140_P_PARASEKUTO.jpg"
+ },
+ "38141": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "003",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "マスキッパ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038141_P_MASUKIPPA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038141_P_MASUKIPPA.jpg"
+ },
+ "38142": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "004",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ヤナップ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038142_P_YANAPPU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038142_P_YANAPPU.jpg"
+ },
+ "38143": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "005",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ヤナッキー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038143_P_YANAKKI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038143_P_YANAKKI.jpg"
+ },
+ "38144": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "006",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "モクロー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038144_P_MOKURO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038144_P_MOKURO.jpg"
+ },
+ "38145": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "007",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "フクスロー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038145_P_FUKUSURO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038145_P_FUKUSURO.jpg"
+ },
+ "38146": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "008",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "ジュナイパー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038146_P_JUNAIPA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038146_P_JUNAIPA.jpg"
+ },
+ "38147": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "009",
+    "total": "100",
+    "rarity": "RR",
+    "jaName": "ヘルガーV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038147_P_HERUGAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038147_P_HERUGAV.jpg"
+ },
+ "38148": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "010",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "アチャモ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038148_P_ACHAMO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038148_P_ACHAMO.jpg"
+ },
+ "38149": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "011",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ワカシャモ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038149_P_WAKASHAMO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038149_P_WAKASHAMO.jpg"
+ },
+ "38150": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "012",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "バシャーモ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038150_P_BASHAMO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038150_P_BASHAMO.jpg"
+ },
+ "38151": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "013",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "バオップ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038151_P_BAOPPU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038151_P_BAOPPU.jpg"
+ },
+ "38152": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "014",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "バオッキー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038152_P_BAOKKI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038152_P_BAOKKI.jpg"
+ },
+ "38153": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "015",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ガラル ヒヒダルマ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038153_P_GARARUHIHIDARUMA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038153_P_GARARUHIHIDARUMA.jpg"
+ },
+ "38154": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "016",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "スイクン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038154_P_SUIKUN.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038154_P_SUIKUN.jpg"
+ },
+ "38155": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "017",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ジーランス",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038155_P_JIRANSU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038155_P_JIRANSU.jpg"
+ },
+ "38156": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "018",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ヒヤップ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038156_P_HIYAPPU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038156_P_HIYAPPU.jpg"
+ },
+ "38157": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "019",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ヒヤッキー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038157_P_HIYAKKI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038157_P_HIYAKKI.jpg"
+ },
+ "38158": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "020",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ガラル ダルマッカ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038158_P_GARARUDARUMAKKA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038158_P_GARARUDARUMAKKA.jpg"
+ },
+ "38159": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "021",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "バニプッチ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038159_P_BANIPUCCHI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038159_P_BANIPUCCHI.jpg"
+ },
+ "38160": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "022",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "バニリッチ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038160_P_BANIRICCHI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038160_P_BANIRICCHI.jpg"
+ },
+ "38161": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "023",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "バイバニラ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038161_P_BAIBANIRA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038161_P_BAIBANIRA.jpg"
+ },
+ "38162": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "024",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ヒドイデ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038162_P_HIDOIDE.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038162_P_HIDOIDE.jpg"
+ },
+ "38163": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "025",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ドヒドイデ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038163_P_DOHIDOIDE.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038163_P_DOHIDOIDE.jpg"
+ },
+ "38164": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "026",
+    "total": "100",
+    "rarity": "RR",
+    "jaName": "カジリガメV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038164_P_KAJIRIGAMEV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038164_P_KAJIRIGAMEV.jpg"
+ },
+ "38165": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "027",
+    "total": "100",
+    "rarity": "RRR",
+    "jaName": "カジリガメVMAX",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038165_P_KAJIRIGAMEVMAX.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rrr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038165_P_KAJIRIGAMEVMAX.jpg"
+ },
+ "38166": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "028",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "ウオノラゴン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038166_P_UONORAGON.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038166_P_UONORAGON.jpg"
+ },
+ "38167": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "029",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ウオチルドン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038167_P_UOCHIRUDON.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038167_P_UOCHIRUDON.jpg"
+ },
+ "38168": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "030",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ラクライ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038168_P_RAKURAI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038168_P_RAKURAI.jpg"
+ },
+ "38169": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "031",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ライボルト",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038169_P_RAIBORUTO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038169_P_RAIBORUTO.jpg"
+ },
+ "38170": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "032",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "カプ・コケコ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038170_P_KAPUKOKEKO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038170_P_KAPUKOKEKO.jpg"
+ },
+ "38171": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "033",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "パッチラゴン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038171_P_PACCHIRAGON.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038171_P_PACCHIRAGON.jpg"
+ },
+ "38172": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "034",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "パッチルドン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038172_P_PACCHIRUDON.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038172_P_PACCHIRUDON.jpg"
+ },
+ "38173": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "035",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "プリン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038173_P_PURIN.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038173_P_PURIN.jpg"
+ },
+ "38174": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "036",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "プクリン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038174_P_PUKURIN.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038174_P_PUKURIN.jpg"
+ },
+ "38175": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "037",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ゴチム",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038175_P_GOCHIMU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038175_P_GOCHIMU.jpg"
+ },
+ "38176": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "038",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ゴチミル",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038176_P_GOCHIMIRU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038176_P_GOCHIMIRU.jpg"
+ },
+ "38177": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "039",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ゴチルゼル",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038177_P_GOCHIRUZERU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038177_P_GOCHIRUZERU.jpg"
+ },
+ "38178": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "040",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ゴビット",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038178_P_GOBITTO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038178_P_GOBITTO.jpg"
+ },
+ "38179": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "041",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ゴルーグ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038179_P_GORUGU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038179_P_GORUGU.jpg"
+ },
+ "38180": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "042",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ミミッキュ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038180_P_MIMIKKYU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038180_P_MIMIKKYU.jpg"
+ },
+ "38181": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "043",
+    "total": "100",
+    "rarity": "RR",
+    "jaName": "ガラル サニゴーンV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038181_P_GARARUSANIGONV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038181_P_GARARUSANIGONV.jpg"
+ },
+ "38182": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "044",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ナックラー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038182_P_NAKKURA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038182_P_NAKKURA.jpg"
+ },
+ "38183": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "045",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ビブラーバ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038183_P_BIBURABA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038183_P_BIBURABA.jpg"
+ },
+ "38184": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "046",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "フライゴン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038184_P_FURAIGON.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038184_P_FURAIGON.jpg"
+ },
+ "38185": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "047",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ヒポポタス",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038185_P_HIPOPOTASU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038185_P_HIPOPOTASU.jpg"
+ },
+ "38186": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "048",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "カバルドン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038186_P_KABARUDON.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038186_P_KABARUDON.jpg"
+ },
+ "38187": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "049",
+    "total": "100",
+    "rarity": "RR",
+    "jaName": "ドサイドンV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038187_P_DOSAIDONV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038187_P_DOSAIDONV.jpg"
+ },
+ "38188": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "050",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ナゲツケサル",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038188_P_NAGETSUKESARU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038188_P_NAGETSUKESARU.jpg"
+ },
+ "38189": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "051",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "イトマル",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038189_P_ITOMARU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038189_P_ITOMARU.jpg"
+ },
+ "38190": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "052",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "アリアドス",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038190_P_ARIADOSU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038190_P_ARIADOSU.jpg"
+ },
+ "38191": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "053",
+    "total": "100",
+    "rarity": "RR",
+    "jaName": "クロバットV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038191_P_KUROBATTOV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038191_P_KUROBATTOV.jpg"
+ },
+ "38192": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "054",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ガラル ジグザグマ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038192_P_GARARUJIGUZAGUMA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038192_P_GARARUJIGUZAGUMA.jpg"
+ },
+ "38193": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "055",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ガラル マッスグマ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038193_P_GARARUMASSUGUMA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038193_P_GARARUMASSUGUMA.jpg"
+ },
+ "38194": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "056",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "ガラル タチフサグマ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038194_P_GARARUTACHIFUSAGUMA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038194_P_GARARUTACHIFUSAGUMA.jpg"
+ },
+ "38195": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "057",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ズルッグ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038195_P_ZURUGGU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038195_P_ZURUGGU.jpg"
+ },
+ "38196": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "058",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ズルズキン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038196_P_ZURUZUKIN.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038196_P_ZURUZUKIN.jpg"
+ },
+ "38197": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "059",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "マーイーカ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038197_P_MAIKA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038197_P_MAIKA.jpg"
+ },
+ "38198": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "060",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "カラマネロ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038198_P_KARAMANERO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038198_P_KARAMANERO.jpg"
+ },
+ "38199": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "061",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "フーパ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038199_P_FUPA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038199_P_FUPA.jpg"
+ },
+ "38200": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "062",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "クスネ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038200_P_KUSUNE.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038200_P_KUSUNE.jpg"
+ },
+ "38201": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "063",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "フォクスライ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038201_P_FOKUSURAI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038201_P_FOKUSURAI.jpg"
+ },
+ "38202": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "064",
+    "total": "100",
+    "rarity": "RR",
+    "jaName": "ムゲンダイナV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038202_P_MUGENDAINAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038202_P_MUGENDAINAV.jpg"
+ },
+ "38203": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "065",
+    "total": "100",
+    "rarity": "RRR",
+    "jaName": "ムゲンダイナVMAX",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038203_P_MUGENDAINAVMAX.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rrr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038203_P_MUGENDAINAVMAX.jpg"
+ },
+ "38204": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "066",
+    "total": "100",
+    "rarity": "RR",
+    "jaName": "ハッサムV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038204_P_HASSAMUV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038204_P_HASSAMUV.jpg"
+ },
+ "38205": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "067",
+    "total": "100",
+    "rarity": "RRR",
+    "jaName": "ハッサムVMAX",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038205_P_HASSAMUVMAX.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rrr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038205_P_HASSAMUVMAX.jpg"
+ },
+ "38206": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "068",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "エアームド",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038206_P_EAMUDO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038206_P_EAMUDO.jpg"
+ },
+ "38207": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "069",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ギアル",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038207_P_GIARU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038207_P_GIARU.jpg"
+ },
+ "38208": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "070",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ギギアル",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038208_P_GIGIARU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038208_P_GIGIARU.jpg"
+ },
+ "38209": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "071",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ギギギアル",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038209_P_GIGIGIARU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038209_P_GIGIGIARU.jpg"
+ },
+ "38210": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "072",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ゾウドウ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038210_P_ZOUDOU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038210_P_ZOUDOU.jpg"
+ },
+ "38211": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "073",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "ダイオウドウ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038211_P_DAIOUDOU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038211_P_DAIOUDOU.jpg"
+ },
+ "38212": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "074",
+    "total": "100",
+    "rarity": "R",
+    "jaName": "ガルーラ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038212_P_GARURA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038212_P_GARURA.jpg"
+ },
+ "38213": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "075",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ノコッチ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038213_P_NOKOCCHI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038213_P_NOKOCCHI.jpg"
+ },
+ "38214": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "076",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ヒメグマ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038214_P_HIMEGUMA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038214_P_HIMEGUMA.jpg"
+ },
+ "38215": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "077",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "リングマ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038215_P_RINGUMA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038215_P_RINGUMA.jpg"
+ },
+ "38216": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "078",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "エネコ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038216_P_ENEKO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038216_P_ENEKO.jpg"
+ },
+ "38217": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "079",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "エネコロロ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038217_P_ENEKORORO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038217_P_ENEKORORO.jpg"
+ },
+ "38218": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "080",
+    "total": "100",
+    "rarity": "RR",
+    "jaName": "ボーマンダV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038218_P_BOMANDAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038218_P_BOMANDAV.jpg"
+ },
+ "38219": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "081",
+    "total": "100",
+    "rarity": "RRR",
+    "jaName": "ボーマンダVMAX",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038219_P_BOMANDAVMAX.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rrr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038219_P_BOMANDAVMAX.jpg"
+ },
+ "38220": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "082",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ムックル",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038220_P_MUKKURU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038220_P_MUKKURU.jpg"
+ },
+ "38221": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "083",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ムクバード",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038221_P_MUKUBADO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038221_P_MUKUBADO.jpg"
+ },
+ "38222": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "084",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ムクホーク",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038222_P_MUKUHOKU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038222_P_MUKUHOKU.jpg"
+ },
+ "38223": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "085",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "コアルヒー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038223_P_KOARUHI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038223_P_KOARUHI.jpg"
+ },
+ "38224": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "086",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "スワンナ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038224_P_SUWANNA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038224_P_SUWANNA.jpg"
+ },
+ "38225": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "087",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "ホシガリス",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038225_P_HOSHIGARISU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038225_P_HOSHIGARISU.jpg"
+ },
+ "38226": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "088",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ヨクバリス",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038226_P_YOKUBARISU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038226_P_YOKUBARISU.jpg"
+ },
+ "38227": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "089",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "おうえんYホーン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038227_T_OUENYHON.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038227_T_OUENYHON.jpg"
+ },
+ "38228": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "090",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ターボパッチ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038228_T_TABOPACCHI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038228_T_TABOPACCHI.jpg"
+ },
+ "38229": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "091",
+    "total": "100",
+    "rarity": "C",
+    "jaName": "めずらしい化石",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038229_T_MEZURASHIIKASEKI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "c_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038229_T_MEZURASHIIKASEKI.jpg"
+ },
+ "38230": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "092",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "タフネスマント",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038230_T_TAFUNESUMANTO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038230_T_TAFUNESUMANTO.jpg"
+ },
+ "38231": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "093",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "もくもくスモーク",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038231_T_MOKUMOKUSUMOKU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038231_T_MOKUMOKUSUMOKU.jpg"
+ },
+ "38232": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "094",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "とりつかい",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038232_T_TORITSUKAI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038232_T_TORITSUKAI.jpg"
+ },
+ "38233": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "095",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ネズ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038233_T_NEZU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038233_T_NEZU.jpg"
+ },
+ "38234": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "096",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ローズ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038234_T_ROZU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038234_T_ROZU.jpg"
+ },
+ "38235": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "097",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "スパイクタウン",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038235_T_SUPAIKUTAUN.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038235_T_SUPAIKUTAUN.jpg"
+ },
+ "38236": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "098",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ローズタワー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038236_T_ROZUTAWA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038236_T_ROZUTAWA.jpg"
+ },
+ "38237": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "099",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "ハイド悪エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038237_E_HAIDOAKUENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038237_E_HAIDOAKUENERUGI.jpg"
+ },
+ "38238": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "100",
+    "total": "100",
+    "rarity": "U",
+    "jaName": "パワフル無色エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038238_E_PAWAFURUMUSHOKUENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038238_E_PAWAFURUMUSHOKUENERUGI.jpg"
+ },
+ "38483": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "101",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "ヘルガーV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038483_P_HERUGAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038483_P_HERUGAV.jpg"
+ },
+ "38484": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "102",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "カジリガメV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038484_P_KAJIRIGAMEV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038484_P_KAJIRIGAMEV.jpg"
+ },
+ "38485": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "103",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "ガラル サニゴーンV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038485_P_GARARUSANIGONV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038485_P_GARARUSANIGONV.jpg"
+ },
+ "38486": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "104",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "ドサイドンV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038486_P_DOSAIDONV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038486_P_DOSAIDONV.jpg"
+ },
+ "38487": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "105",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "クロバットV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038487_P_KUROBATTOV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038487_P_KUROBATTOV.jpg"
+ },
+ "38488": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "106",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "ムゲンダイナV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038488_P_MUGENDAINAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038488_P_MUGENDAINAV.jpg"
+ },
+ "38489": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "107",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "ハッサムV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038489_P_HASSAMUV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038489_P_HASSAMUV.jpg"
+ },
+ "38490": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "108",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "ボーマンダV",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038490_P_BOMANDAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038490_P_BOMANDAV.jpg"
+ },
+ "38491": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "109",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "ネズ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038491_T_NEZU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038491_T_NEZU.jpg"
+ },
+ "38492": {
+  "badge": "S3",
+  "cards": [
+   {
+    "local": "110",
+    "total": "100",
+    "rarity": "SR",
+    "jaName": "ローズ",
+    "cardThumbFile": "/assets/images/card_images/large/S3/038492_T_ROZU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S3/038492_T_ROZU.jpg"
+ }
+}

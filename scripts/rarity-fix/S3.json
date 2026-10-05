@@ -1,0 +1,87 @@
+{
+ "at": "2026-10-05T15:10:17.904Z",
+ "set": "S3",
+ "count": {
+  "入れる": 4
+ },
+ "renamed": [
+  {
+   "id": "S3-027",
+   "from": "cards/S/S3/カジリガメVMAX_S3-027／110.jpg",
+   "to": "cards/S/S3/カジリガメVMAX_S3-027／110_RRR.jpg"
+  },
+  {
+   "id": "S3-065",
+   "from": "cards/S/S3/ムゲンダイナVMAX_S3-065／110.jpg",
+   "to": "cards/S/S3/ムゲンダイナVMAX_S3-065／110_RRR.jpg"
+  },
+  {
+   "id": "S3-067",
+   "from": "cards/S/S3/ハッサムVMAX_S3-067／110.jpg",
+   "to": "cards/S/S3/ハッサムVMAX_S3-067／110_RRR.jpg"
+  },
+  {
+   "id": "S3-081",
+   "from": "cards/S/S3/ボーマンダVMAX_S3-081／110.jpg",
+   "to": "cards/S/S3/ボーマンダVMAX_S3-081／110_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S3-027",
+   "ja": "カジリガメVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38165",
+     "jaName": "カジリガメVMAX",
+     "rarity": "RRR",
+     "badge": "S3"
+    }
+   ]
+  },
+  {
+   "id": "S3-065",
+   "ja": "ムゲンダイナVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38203",
+     "jaName": "ムゲンダイナVMAX",
+     "rarity": "RRR",
+     "badge": "S3"
+    }
+   ]
+  },
+  {
+   "id": "S3-067",
+   "ja": "ハッサムVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38205",
+     "jaName": "ハッサムVMAX",
+     "rarity": "RRR",
+     "badge": "S3"
+    }
+   ]
+  },
+  {
+   "id": "S3-081",
+   "ja": "ボーマンダVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38219",
+     "jaName": "ボーマンダVMAX",
+     "rarity": "RRR",
+     "badge": "S3"
+    }
+   ]
+  }
+ ]
+}
