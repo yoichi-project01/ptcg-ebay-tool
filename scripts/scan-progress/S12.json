@@ -531,5 +531,37 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S12/044938_P_RUGIAVSTAR.jpg"
+ },
+ "44939": {
+  "badge": "S12",
+  "cards": [
+   {
+    "local": "124",
+    "total": "098",
+    "rarity": "UR",
+    "jaName": "葉隠れポンチョ",
+    "cardThumbFile": "/assets/images/card_images/large/S12/044939_T_HAGAKUREPONCHIXYO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S12/044939_T_HAGAKUREPONCHIXYO.jpg"
+ },
+ "44940": {
+  "badge": "S12",
+  "cards": [
+   {
+    "local": "125",
+    "total": "098",
+    "rarity": "UR",
+    "jaName": "大口の沼",
+    "cardThumbFile": "/assets/images/card_images/large/S12/044940_T_OOGUCHINONUMA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S12/044940_T_OOGUCHINONUMA.jpg"
  }
 }

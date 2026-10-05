@@ -1,0 +1,600 @@
+{
+ "at": "2026-10-05T13:44:39.530Z",
+ "set": "S12",
+ "count": {
+  "入れる": 31
+ },
+ "renamed": [
+  {
+   "id": "S12-034",
+   "from": "cards/S/S12/レジエレキVMAX_S12-034／125.jpg",
+   "to": "cards/S/S12/レジエレキVMAX_S12-034／125_RRR.jpg"
+  },
+  {
+   "id": "S12-036",
+   "from": "cards/S/S12/アンノーンVSTAR_S12-036／125.jpg",
+   "to": "cards/S/S12/アンノーンVSTAR_S12-036／125_RRR.jpg"
+  },
+  {
+   "id": "S12-077",
+   "from": "cards/S/S12/レジドラゴVSTAR_S12-077／125.jpg",
+   "to": "cards/S/S12/レジドラゴVSTAR_S12-077／125_RRR.jpg"
+  },
+  {
+   "id": "S12-080",
+   "from": "cards/S/S12/ルギアVSTAR_S12-080／125.jpg",
+   "to": "cards/S/S12/ルギアVSTAR_S12-080／125_RRR.jpg"
+  },
+  {
+   "id": "S12-099",
+   "from": "cards/S/S12/ブリガロンV_S12-099／125.jpg",
+   "to": "cards/S/S12/ブリガロンV_S12-099／125_SR.jpg"
+  },
+  {
+   "id": "S12-100",
+   "from": "cards/S/S12/オムスターV_S12-100／125.jpg",
+   "to": "cards/S/S12/オムスターV_S12-100／125_SR.jpg"
+  },
+  {
+   "id": "S12-101",
+   "from": "cards/S/S12/レジエレキV_S12-101／125.jpg",
+   "to": "cards/S/S12/レジエレキV_S12-101／125_SR.jpg"
+  },
+  {
+   "id": "S12-102",
+   "from": "cards/S/S12/アンノーンV_S12-102／125.jpg",
+   "to": "cards/S/S12/アンノーンV_S12-102／125_SR.jpg"
+  },
+  {
+   "id": "S12-103",
+   "from": "cards/S/S12/アンノーンV_S12-103／125.jpg",
+   "to": "cards/S/S12/アンノーンV_S12-103／125_SR.jpg"
+  },
+  {
+   "id": "S12-104",
+   "from": "cards/S/S12/ヒスイ ウインディV_S12-104／125.jpg",
+   "to": "cards/S/S12/ヒスイ ウインディV_S12-104／125_SR.jpg"
+  },
+  {
+   "id": "S12-105",
+   "from": "cards/S/S12/スカタンクV_S12-105／125.jpg",
+   "to": "cards/S/S12/スカタンクV_S12-105／125_SR.jpg"
+  },
+  {
+   "id": "S12-106",
+   "from": "cards/S/S12/スカタンクV_S12-106／125.jpg",
+   "to": "cards/S/S12/スカタンクV_S12-106／125_SR.jpg"
+  },
+  {
+   "id": "S12-107",
+   "from": "cards/S/S12/レジドラゴV_S12-107／125.jpg",
+   "to": "cards/S/S12/レジドラゴV_S12-107／125_SR.jpg"
+  },
+  {
+   "id": "S12-108",
+   "from": "cards/S/S12/レジドラゴV_S12-108／125.jpg",
+   "to": "cards/S/S12/レジドラゴV_S12-108／125_SR.jpg"
+  },
+  {
+   "id": "S12-109",
+   "from": "cards/S/S12/ルギアV_S12-109／125.jpg",
+   "to": "cards/S/S12/ルギアV_S12-109／125_SR.jpg"
+  },
+  {
+   "id": "S12-110",
+   "from": "cards/S/S12/ルギアV_S12-110／125.jpg",
+   "to": "cards/S/S12/ルギアV_S12-110／125_SR.jpg"
+  },
+  {
+   "id": "S12-111",
+   "from": "cards/S/S12/さぎょういん_S12-111／125.jpg",
+   "to": "cards/S/S12/さぎょういん_S12-111／125_SR.jpg"
+  },
+  {
+   "id": "S12-112",
+   "from": "cards/S/S12/ジンダイ_S12-112／125.jpg",
+   "to": "cards/S/S12/ジンダイ_S12-112／125_SR.jpg"
+  },
+  {
+   "id": "S12-113",
+   "from": "cards/S/S12/スズナ_S12-113／125.jpg",
+   "to": "cards/S/S12/スズナ_S12-113／125_SR.jpg"
+  },
+  {
+   "id": "S12-114",
+   "from": "cards/S/S12/ワタル_S12-114／125.jpg",
+   "to": "cards/S/S12/ワタル_S12-114／125_SR.jpg"
+  },
+  {
+   "id": "S12-115",
+   "from": "cards/S/S12/レジエレキVMAX_S12-115／125.jpg",
+   "to": "cards/S/S12/レジエレキVMAX_S12-115／125_HR.jpg"
+  },
+  {
+   "id": "S12-116",
+   "from": "cards/S/S12/アンノーンVSTAR_S12-116／125.jpg",
+   "to": "cards/S/S12/アンノーンVSTAR_S12-116／125_HR.jpg"
+  },
+  {
+   "id": "S12-117",
+   "from": "cards/S/S12/レジドラゴVSTAR_S12-117／125.jpg",
+   "to": "cards/S/S12/レジドラゴVSTAR_S12-117／125_HR.jpg"
+  },
+  {
+   "id": "S12-118",
+   "from": "cards/S/S12/ルギアVSTAR_S12-118／125.jpg",
+   "to": "cards/S/S12/ルギアVSTAR_S12-118／125_HR.jpg"
+  },
+  {
+   "id": "S12-119",
+   "from": "cards/S/S12/さぎょういん_S12-119／125.jpg",
+   "to": "cards/S/S12/さぎょういん_S12-119／125_HR.jpg"
+  },
+  {
+   "id": "S12-120",
+   "from": "cards/S/S12/ジンダイ_S12-120／125.jpg",
+   "to": "cards/S/S12/ジンダイ_S12-120／125_HR.jpg"
+  },
+  {
+   "id": "S12-121",
+   "from": "cards/S/S12/スズナ_S12-121／125.jpg",
+   "to": "cards/S/S12/スズナ_S12-121／125_HR.jpg"
+  },
+  {
+   "id": "S12-122",
+   "from": "cards/S/S12/ワタル_S12-122／125.jpg",
+   "to": "cards/S/S12/ワタル_S12-122／125_HR.jpg"
+  },
+  {
+   "id": "S12-123",
+   "from": "cards/S/S12/ルギアVSTAR_S12-123／125.jpg",
+   "to": "cards/S/S12/ルギアVSTAR_S12-123／125_UR.jpg"
+  },
+  {
+   "id": "S12-124",
+   "from": "cards/S/S12/葉隠れポンチョ_S12-124／125.jpg",
+   "to": "cards/S/S12/葉隠れポンチョ_S12-124／125_UR.jpg"
+  },
+  {
+   "id": "S12-125",
+   "from": "cards/S/S12/大口の沼_S12-125／125.jpg",
+   "to": "cards/S/S12/大口の沼_S12-125／125_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S12-034",
+   "ja": "レジエレキVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "42126",
+     "jaName": "レジエレキVMAX",
+     "rarity": "RRR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-036",
+   "ja": "アンノーンVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "42128",
+     "jaName": "アンノーンVSTAR",
+     "rarity": "RRR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-077",
+   "ja": "レジドラゴVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "42169",
+     "jaName": "レジドラゴVSTAR",
+     "rarity": "RRR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-080",
+   "ja": "ルギアVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "42172",
+     "jaName": "ルギアVSTAR",
+     "rarity": "RRR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-099",
+   "ja": "ブリガロンV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42531",
+     "jaName": "ブリガロンV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-100",
+   "ja": "オムスターV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42532",
+     "jaName": "オムスターV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-101",
+   "ja": "レジエレキV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42533",
+     "jaName": "レジエレキV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-102",
+   "ja": "アンノーンV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42534",
+     "jaName": "アンノーンV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-103",
+   "ja": "アンノーンV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42535",
+     "jaName": "アンノーンV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-104",
+   "ja": "ヒスイ ウインディV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42536",
+     "jaName": "ヒスイ ウインディV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-105",
+   "ja": "スカタンクV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42537",
+     "jaName": "スカタンクV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-106",
+   "ja": "スカタンクV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42538",
+     "jaName": "スカタンクV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-107",
+   "ja": "レジドラゴV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42539",
+     "jaName": "レジドラゴV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-108",
+   "ja": "レジドラゴV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42540",
+     "jaName": "レジドラゴV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-109",
+   "ja": "ルギアV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42541",
+     "jaName": "ルギアV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-110",
+   "ja": "ルギアV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42542",
+     "jaName": "ルギアV",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-111",
+   "ja": "さぎょういん",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42543",
+     "jaName": "さぎょういん",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-112",
+   "ja": "ジンダイ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42544",
+     "jaName": "ジンダイ",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-113",
+   "ja": "スズナ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42545",
+     "jaName": "スズナ",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-114",
+   "ja": "ワタル",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "42546",
+     "jaName": "ワタル",
+     "rarity": "SR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-115",
+   "ja": "レジエレキVMAX",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44930",
+     "jaName": "レジエレキVMAX",
+     "rarity": "HR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-116",
+   "ja": "アンノーンVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44931",
+     "jaName": "アンノーンVSTAR",
+     "rarity": "HR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-117",
+   "ja": "レジドラゴVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44932",
+     "jaName": "レジドラゴVSTAR",
+     "rarity": "HR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-118",
+   "ja": "ルギアVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44933",
+     "jaName": "ルギアVSTAR",
+     "rarity": "HR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-119",
+   "ja": "さぎょういん",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44934",
+     "jaName": "さぎょういん",
+     "rarity": "HR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-120",
+   "ja": "ジンダイ",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44935",
+     "jaName": "ジンダイ",
+     "rarity": "HR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-121",
+   "ja": "スズナ",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44936",
+     "jaName": "スズナ",
+     "rarity": "HR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-122",
+   "ja": "ワタル",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44937",
+     "jaName": "ワタル",
+     "rarity": "HR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-123",
+   "ja": "ルギアVSTAR",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44938",
+     "jaName": "ルギアVSTAR",
+     "rarity": "UR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-124",
+   "ja": "葉隠れポンチョ",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44939",
+     "jaName": "葉隠れポンチョ",
+     "rarity": "UR",
+     "badge": "S12"
+    }
+   ]
+  },
+  {
+   "id": "S12-125",
+   "ja": "大口の沼",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44940",
+     "jaName": "大口の沼",
+     "rarity": "UR",
+     "badge": "S12"
+    }
+   ]
+  }
+ ]
+}
