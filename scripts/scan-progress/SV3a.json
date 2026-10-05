@@ -661,5 +661,37 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV3a/044966_P_GABURIASUEX.jpg"
+ },
+ "44967": {
+  "badge": "SV3a",
+  "cards": [
+   {
+    "local": "091",
+    "total": "062",
+    "rarity": "UR",
+    "jaName": "ビーチコート",
+    "cardThumbFile": "/assets/images/card_images/large/SV3a/044967_T_BICHIKOTO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV3a/044967_T_BICHIKOTO.jpg"
+ },
+ "44968": {
+  "badge": "SV3a",
+  "cards": [
+   {
+    "local": "092",
+    "total": "062",
+    "rarity": "UR",
+    "jaName": "リバーサルエネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV3a/044968_E_RIBASARUENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV3a/044968_E_RIBASARUENERUGI.jpg"
  }
 }
