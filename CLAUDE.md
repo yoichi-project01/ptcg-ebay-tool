@@ -1442,7 +1442,7 @@ SMG:29枚）は、タイトル生成・SKU等の型番表示が実物の印字�
 | 番号なしプロモ（各世代） | 276 | 2026-09-28 | XY-P 106・BW-P 17・DP-P 40・DPt-P 14・L-P 13・S-P 10・SV-P 42・SM-P 34（下記「対応（2026-09-28）: 番号付きプロモ XY-P/…」参照） | **大会賞品は優先度高**。cardID識別子案 |
 | ~~SMP~~ | ~~443~~ | フェーズ6-2 | **2026-09-28 対応済み**（`SM-P`として408枚登録。番号なしの34枚のみ下記「番号なしプロモ」に残す） | — |
 | ENE | 85 | フェーズ6-3 | 基本エネルギーのみ・全件無番号 | 位置マッチング方式の別スクリプトが必要（本スクリプトの対象外） |
-| 退避した画像（データにあるカード） | 56 | 2026-10-05 | `public/cards` から退避した、cardData にあるが対応表に入れていないカードの画像（SMG 29・SMB 12・SMF 8・PMCG1 2・PMCG5 2・PMCG6 1・SVD 1・SVF 1）。場所は `D:\product\ptcg-ebay-tool-stray-images6-10-05\cards\…`（一覧 `scripts/stray-images-report/unindexed-in-data.csv`） | 画像を確かめてから戻す（下記「対応（2026-10-05）: 対応表に無い画像ファイル 1,813件を退避」の手順） |
+| 退避した画像（データにあるカード） | 56 | 2026-10-05 | `public/cards` から退避した、cardData にあるが対応表に入れていないカードの画像（SMG 29・SMB 12・SMF 8・PMCG1 2・PMCG5 2・PMCG6 1・SVD 1・SVF 1）。場所は `D:\product\ptcg-ebay-tool-stray-images\2026-10-05\cards\…`（一覧 `scripts/stray-images-report/unindexed-in-data.csv`） | 画像を確かめてから戻す（下記「対応（2026-10-05）: 対応表に無い画像ファイル 1,813件を退避」の手順） |
 
 合計18セットコード・2,041枚が保留中。うち`MG`/`SA`は同一の設計課題（番号帯を共有する
 複数商品を1つのcardData.jsonエントリで表現できない）のため、対応する場合はまとめて
@@ -2256,7 +2256,7 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
 
 `public/cards` に、画像の対応表（`src/imageIndex.json`）に載っていないファイルが 1,813件残っていた（作り直し・取り直し前の古い名前のファイル、
 復元時にコピーした旧 PC のファイルなど）。`build-image-index.mjs` の全体の作り直しで古いファイルを拾う原因になるため、すべて
-**リポジトリの外**の `D:\product\ptcg-ebay-tool-stray-images6-10-05\`（元のフォルダ構成のまま `cards/<シリーズ>/<弾>/…`）へ移した。削除はしていない。
+**リポジトリの外**の `D:\product\ptcg-ebay-tool-stray-images\2026-10-05\`（元のフォルダ構成のまま `cards/<シリーズ>/<弾>/…`）へ移した。削除はしていない。
 
 - スクリプト: `scripts/archive-stray-images.mjs`（引数なしで一覧、`--move` で移す、`--verify` で確認、`--restore` で戻す）。
 - 内訳: 対応表のどれかと中身が同じ 1,689件・同じ card_id に対応表の別の画像がある 56件（SV-P 22・SH 11・SVAL/SVAM/SVAW/SVC 各4 ほか）・
