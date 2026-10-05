@@ -1,0 +1,111 @@
+{
+ "at": "2026-10-05T15:07:06.437Z",
+ "set": "S11a",
+ "count": {
+  "入れる": 3,
+  "アイコンなし（マークの無いカード）": 3
+ },
+ "renamed": [
+  {
+   "id": "S11a-006",
+   "from": "cards/S/S11a/ジャローダVSTAR_S11a-06／94.jpg",
+   "to": "cards/S/S11a/ジャローダVSTAR_S11a-06／94_RRR.jpg"
+  },
+  {
+   "id": "S11a-023",
+   "from": "cards/S/S11a/アローラ ロコンVSTAR_S11a-23／94.jpg",
+   "to": "cards/S/S11a/アローラ ロコンVSTAR_S11a-23／94_RRR.jpg"
+  },
+  {
+   "id": "S11a-040",
+   "from": "cards/S/S11a/クチートVSTAR_S11a-40／94.jpg",
+   "to": "cards/S/S11a/クチートVSTAR_S11a-40／94_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S11a-006",
+   "ja": "ジャローダVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "41967",
+     "jaName": "ジャローダVSTAR",
+     "rarity": "RRR",
+     "badge": "S11a"
+    }
+   ]
+  },
+  {
+   "id": "S11a-009",
+   "ja": "かがやくアマージョ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "41970",
+     "jaName": "かがやくアマージョ",
+     "rarity": "",
+     "badge": "S11a"
+    }
+   ]
+  },
+  {
+   "id": "S11a-023",
+   "ja": "アローラ ロコンVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "41984",
+     "jaName": "アローラ ロコンVSTAR",
+     "rarity": "RRR",
+     "badge": "S11a"
+    }
+   ]
+  },
+  {
+   "id": "S11a-031",
+   "ja": "かがやくフーディン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "41992",
+     "jaName": "かがやくフーディン",
+     "rarity": "",
+     "badge": "S11a"
+    }
+   ]
+  },
+  {
+   "id": "S11a-040",
+   "ja": "クチートVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "42001",
+     "jaName": "クチートVSTAR",
+     "rarity": "RRR",
+     "badge": "S11a"
+    }
+   ]
+  },
+  {
+   "id": "S11a-045",
+   "ja": "かがやくジラーチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "42006",
+     "jaName": "かがやくジラーチ",
+     "rarity": "",
+     "badge": "S11a"
+    }
+   ]
+  }
+ ]
+}

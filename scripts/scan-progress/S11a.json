@@ -51,6 +51,38 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/041965_P_MASUKIPPA.jpg"
  },
+ "41966": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "005",
+    "total": "068",
+    "rarity": "RR",
+    "jaName": "ジャローダV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041966_P_JIXYARODAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041966_P_JIXYARODAV.jpg"
+ },
+ "41967": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "006",
+    "total": "068",
+    "rarity": "RRR",
+    "jaName": "ジャローダVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041967_P_JIXYARODAVSTAR.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rrr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041967_P_JIXYARODAVSTAR.jpg"
+ },
  "41968": {
   "badge": "S11a",
   "cards": [
@@ -77,6 +109,52 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/041969_P_HISUIDOREDEIA.jpg"
  },
+ "41970": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "009",
+    "total": "068",
+    "rarity": "",
+    "jaName": "かがやくアマージョ",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041970_P_KAGAYAKUAMAJIXYO.jpg"
+   }
+  ],
+  "rarityCodes": [],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041970_P_KAGAYAKUAMAJIXYO.jpg"
+ },
+ "41971": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "010",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "ザルード",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041971_P_ZARUDO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041971_P_ZARUDO.jpg"
+ },
+ "41972": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "011",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "バドレックス",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041972_P_BADOREKKUSU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041972_P_BADOREKKUSU.jpg"
+ },
  "41973": {
   "badge": "S11a",
   "cards": [
@@ -102,6 +180,38 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/041974_P_UINDEI.jpg"
+ },
+ "41975": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "014",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "エンテイ",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041975_P_ENTEI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041975_P_ENTEI.jpg"
+ },
+ "41976": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "015",
+    "total": "068",
+    "rarity": "RR",
+    "jaName": "レシラムV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041976_P_RESHIRAMUV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041976_P_RESHIRAMUV.jpg"
  },
  "41977": {
   "badge": "S11a",
@@ -142,6 +252,22 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/041979_P_MAFUOKUSHI.jpg"
  },
+ "41980": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "019",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "ボルケニオン",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041980_P_BORUKENION.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041980_P_BORUKENION.jpg"
+ },
  "41981": {
   "badge": "S11a",
   "cards": [
@@ -167,6 +293,54 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/041982_P_ENNIXYUTO.jpg"
+ },
+ "41983": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "022",
+    "total": "068",
+    "rarity": "RR",
+    "jaName": "アローラ ロコンV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041983_P_ARORAROKONV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041983_P_ARORAROKONV.jpg"
+ },
+ "41984": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "023",
+    "total": "068",
+    "rarity": "RRR",
+    "jaName": "アローラ ロコンVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041984_P_ARORAROKONVSTAR.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rrr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041984_P_ARORAROKONVSTAR.jpg"
+ },
+ "41985": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "024",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "フリーザー",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041985_P_FURIZA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041985_P_FURIZA.jpg"
  },
  "41986": {
   "badge": "S11a",
@@ -233,6 +407,36 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/041990_P_RABUKASU.jpg"
  },
+ "41991": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "030",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "カイオーガ",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041991_P_KAIOGA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041991_P_KAIOGA.jpg"
+ },
+ "41992": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "031",
+    "total": "068",
+    "rarity": "",
+    "jaName": "かがやくフーディン",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041992_P_KAGAYAKUFUDEIN.jpg"
+   }
+  ],
+  "rarityCodes": [],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041992_P_KAGAYAKUFUDEIN.jpg"
+ },
  "41993": {
   "badge": "S11a",
   "cards": [
@@ -271,6 +475,22 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/041995_P_RUJIXYURA.jpg"
+ },
+ "41996": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "035",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "ミュウツー",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/041996_P_MIXYUUTSU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/041996_P_MIXYUUTSU.jpg"
  },
  "41997": {
   "badge": "S11a",
@@ -311,6 +531,38 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/041999_P_SANAITO.jpg"
  },
+ "42000": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "039",
+    "total": "068",
+    "rarity": "RR",
+    "jaName": "クチートV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042000_P_KUCHITOV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042000_P_KUCHITOV.jpg"
+ },
+ "42001": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "040",
+    "total": "068",
+    "rarity": "RRR",
+    "jaName": "クチートVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042001_P_KUCHITOVSTAR.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rrr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042001_P_KUCHITOVSTAR.jpg"
+ },
  "42002": {
   "badge": "S11a",
   "cards": [
@@ -337,6 +589,22 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/042003_P_NIXYAONIKUSU.jpg"
  },
+ "42004": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "043",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "カプ・テテフ",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042004_P_KAPUTETEFU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042004_P_KAPUTETEFU.jpg"
+ },
  "42005": {
   "badge": "S11a",
   "cards": [
@@ -349,6 +617,20 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/042005_P_HASSAMU.jpg"
+ },
+ "42006": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "045",
+    "total": "068",
+    "rarity": "",
+    "jaName": "かがやくジラーチ",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042006_P_KAGAYAKUJIRACHI.jpg"
+   }
+  ],
+  "rarityCodes": [],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042006_P_KAGAYAKUJIRACHI.jpg"
  },
  "42007": {
   "badge": "S11a",
@@ -415,6 +697,54 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/042011_P_KIRIKIZAN.jpg"
  },
+ "42012": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "051",
+    "total": "068",
+    "rarity": "RR",
+    "jaName": "マギアナV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042012_P_MAGIANAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042012_P_MAGIANAV.jpg"
+ },
+ "42013": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "052",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "ザシアン",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042013_P_ZASHIAN.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042013_P_ZASHIAN.jpg"
+ },
+ "42014": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "053",
+    "total": "068",
+    "rarity": "R",
+    "jaName": "ザマゼンタ",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042014_P_ZAMAZENTA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042014_P_ZAMAZENTA.jpg"
+ },
  "42015": {
   "badge": "S11a",
   "cards": [
@@ -427,6 +757,22 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/042015_P_DOBURU.jpg"
+ },
+ "42016": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "055",
+    "total": "068",
+    "rarity": "RR",
+    "jaName": "ホウオウV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042016_P_HOUOUV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "rr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042016_P_HOUOUV.jpg"
  },
  "42017": {
   "badge": "S11a",
@@ -1273,6 +1619,102 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/042196_P_CHIRUTARISU.jpg"
  },
+ "42197": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "075",
+    "total": "068",
+    "rarity": "SR",
+    "jaName": "ジャローダV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042197_P_JIXYARODAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042197_P_JIXYARODAV.jpg"
+ },
+ "42198": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "076",
+    "total": "068",
+    "rarity": "SR",
+    "jaName": "レシラムV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042198_P_RESHIRAMUV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042198_P_RESHIRAMUV.jpg"
+ },
+ "42199": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "077",
+    "total": "068",
+    "rarity": "SR",
+    "jaName": "アローラ ロコンV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042199_P_ARORAROKONV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042199_P_ARORAROKONV.jpg"
+ },
+ "42200": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "078",
+    "total": "068",
+    "rarity": "SR",
+    "jaName": "クチートV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042200_P_KUCHITOV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042200_P_KUCHITOV.jpg"
+ },
+ "42201": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "079",
+    "total": "068",
+    "rarity": "SR",
+    "jaName": "マギアナV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042201_P_MAGIANAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042201_P_MAGIANAV.jpg"
+ },
+ "42202": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "080",
+    "total": "068",
+    "rarity": "SR",
+    "jaName": "ホウオウV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042202_P_HOUOUV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "sr_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042202_P_HOUOUV.jpg"
+ },
  "42203": {
   "badge": "S11a",
   "cards": [
@@ -1312,6 +1754,86 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/042205_T_MIKURI.jpg"
  },
+ "42206": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "084",
+    "total": "068",
+    "rarity": "CSR",
+    "jaName": "ジャローダV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042206_P_JIXYARODAV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "csr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042206_P_JIXYARODAV.jpg"
+ },
+ "42207": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "085",
+    "total": "068",
+    "rarity": "CSR",
+    "jaName": "クチートV",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/042207_P_KUCHITOV.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "csr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/042207_P_KUCHITOV.jpg"
+ },
+ "44921": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "086",
+    "total": "068",
+    "rarity": "HR",
+    "jaName": "ジャローダVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/044921_P_JIXYARODAVSTAR.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "hr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/044921_P_JIXYARODAVSTAR.jpg"
+ },
+ "44922": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "087",
+    "total": "068",
+    "rarity": "HR",
+    "jaName": "アローラ ロコンVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/044922_P_ARORAROKONVSTAR.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "hr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/044922_P_ARORAROKONVSTAR.jpg"
+ },
+ "44923": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "088",
+    "total": "068",
+    "rarity": "HR",
+    "jaName": "クチートVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/044923_P_KUCHITOVSTAR.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "hr"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/044923_P_KUCHITOVSTAR.jpg"
+ },
  "44924": {
   "badge": "S11a",
   "cards": [
@@ -1350,6 +1872,22 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S11a/044926_T_MIKURI.jpg"
+ },
+ "44927": {
+  "badge": "S11a",
+  "cards": [
+   {
+    "local": "092",
+    "total": "068",
+    "rarity": "UR",
+    "jaName": "ジャローダVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S11a/044927_P_JIXYARODAVSTAR.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S11a/044927_P_JIXYARODAVSTAR.jpg"
  },
  "44928": {
   "badge": "S11a",
