@@ -3,7 +3,9 @@ import CARD_DATA from "./cardData.json";
 import IMAGE_INDEX from "./imageIndex.json";
 
 // ---------- 定数 ----------
-const RARITIES = ["", "SAR", "SR", "AR", "MA", "UR", "RR", "RRR", "CHR", "CSR", "HR", "SSR", "S", "TR", "ACE", "BWR", "LEGEND", "RH", "R", "U", "C", "PROMO"];
+// K（かがやく）・A（アメイジングレア）・H（ひかる）・PR（プリズムスター）・MUR（メガウルトラレア）は 2026-10-06 追加。カードに印刷されたマーク
+// （公式の画像で確認。H はひかるポケモンの文字の無い星形のマークで、コードは遊々亭の表記）。根拠は scripts/rarity-fix/new-codes.json
+const RARITIES = ["", "SAR", "SR", "AR", "MA", "UR", "RR", "RRR", "CHR", "CSR", "HR", "SSR", "S", "TR", "ACE", "BWR", "LEGEND", "RH", "K", "A", "H", "PR", "MUR", "R", "U", "C", "PROMO"];
 const CONDITIONS = [
   { code: "NM", label: "NM（ほぼ完美品）", en: "Near Mint" },
   { code: "NM/M", label: "NM/M（完美品に近い）", en: "Near Mint / Mint" },
@@ -63,7 +65,9 @@ const SERIE_EN_NAMES = {
 // MA（メガアタックレア）はM2a(MEGAドリームex)の実カード画像でホロ加工を確認済みのため追加。
 // RH（Rare Holo）は名称の定義上ホロ前提のため追加（L1-Bhg 025/070オーダイルの実画像でも確認）。
 // LEGENDカードも実画像（エンテイ&ライコウLEGEND等）でホロ加工を確認済みのため追加
-const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "MA", "UR", "RR", "HR", "CHR", "CSR", "SSR", "TR", "RH", "LEGEND"]);
+const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "MA", "UR", "RR", "HR", "CHR", "CSR", "SSR", "TR", "RH", "LEGEND", "K", "A", "H", "PR", "MUR"]);
+// タイトルに入れるレアリティの略号。カードに印刷された文字をそのまま使う。H（ひかる）はマークに文字が無いため略号を入れない
+const RARITY_TITLE_CODES = { H: "" };
 const PRINT_VARIANTS = [
   { code: "", label: "指定しない" },
   { code: "No Rarity", label: "No Rarity（ノーレアリティ・レアリティマークなし）" },
@@ -448,7 +452,7 @@ function assembleModernTitle(f, maxLength) {
   const assemble = () => [
     gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
     f.pokemonEn, // 2. カード名
-    f.rarity, // 3. レアリティ略号
+    RARITY_TITLE_CODES[f.rarity] ?? f.rarity, // 3. レアリティ略号（印刷された文字。H は文字が無いので入れない）
     f.cardNo, // 4. カード番号
     "Japanese", // 5.
     displaySetCode(f.setCode), // 6. セット型番（codeAlias優先。買い手は印刷された型番で検索するため）
@@ -530,6 +534,10 @@ export const RARITY_EN_LABELS = {
   RR: "Double Rare", RRR: "Triple Rare", CHR: "Character Rare", CSR: "Character Super Rare",
   HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", TR: "Trainer Rare", ACE: "ACE SPEC Rare",
   BWR: "Black White Rare", LEGEND: "LEGEND", RH: "Rare Holo", R: "Rare", U: "Uncommon", C: "Common", PROMO: "Promo",
+  // 2026-10-06: 英語版の公式のレアリティ名（TCGdex 英語版）。eBay の Rarity の値にあるのは Amazing Rare・Ultra Rare・Rare。
+  // Radiant Rare・Mega Hyper Rare は eBay の値に無いが、Rarity は自由入力できる（自由入力の出品を確認）ため英語版の名前をそのまま使う。
+  // H（ひかる）は英語版 Shining Legends のひかるポケモンが Ultra Rare、PR（プリズムスター）は英語版で Rare（scripts/rarity-fix/new-codes.json）
+  K: "Radiant Rare", A: "Amazing Rare", H: "Ultra Rare", PR: "Rare", MUR: "Mega Hyper Rare",
 };
 // eBayの未鑑定シングルカード用コンディション記述子（2023年10月〜の新体系）のラベル文字列。
 // ※ File Exchange CSV等で必要になる数値ConditionID/DescriptionIDは提供元・カテゴリ
