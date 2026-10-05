@@ -1,0 +1,567 @@
+{
+ "at": "2026-10-05T15:09:14.847Z",
+ "set": "SV5K",
+ "count": {
+  "アイコンなし（マークの無いカード）": 3,
+  "入れる": 27
+ },
+ "renamed": [
+  {
+   "id": "SV5K-074",
+   "from": "cards/SV/SV5K/ドーミラー_SV5K-074／100.jpg",
+   "to": "cards/SV/SV5K/ドーミラー_SV5K-074／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-075",
+   "from": "cards/SV/SV5K/ランクルス_SV5K-075／100.jpg",
+   "to": "cards/SV/SV5K/ランクルス_SV5K-075／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-076",
+   "from": "cards/SV/SV5K/ハバタクカミ_SV5K-076／100.jpg",
+   "to": "cards/SV/SV5K/ハバタクカミ_SV5K-076／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-077",
+   "from": "cards/SV/SV5K/ジーランス_SV5K-077／100.jpg",
+   "to": "cards/SV/SV5K/ジーランス_SV5K-077／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-078",
+   "from": "cards/SV/SV5K/バンバドロ_SV5K-078／100.jpg",
+   "to": "cards/SV/SV5K/バンバドロ_SV5K-078／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-079",
+   "from": "cards/SV/SV5K/アーボック_SV5K-079／100.jpg",
+   "to": "cards/SV/SV5K/アーボック_SV5K-079／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-080",
+   "from": "cards/SV/SV5K/ゴース_SV5K-080／100.jpg",
+   "to": "cards/SV/SV5K/ゴース_SV5K-080／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-081",
+   "from": "cards/SV/SV5K/ペラップ_SV5K-081／100.jpg",
+   "to": "cards/SV/SV5K/ペラップ_SV5K-081／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-082",
+   "from": "cards/SV/SV5K/チラーミィ_SV5K-082／100.jpg",
+   "to": "cards/SV/SV5K/チラーミィ_SV5K-082／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-083",
+   "from": "cards/SV/SV5K/チラチーノ_SV5K-083／100.jpg",
+   "to": "cards/SV/SV5K/チラチーノ_SV5K-083／100_AR.jpg"
+  },
+  {
+   "id": "SV5K-084",
+   "from": "cards/SV/SV5K/ドダイトスex_SV5K-084／100.jpg",
+   "to": "cards/SV/SV5K/ドダイトスex_SV5K-084／100_SR.jpg"
+  },
+  {
+   "id": "SV5K-085",
+   "from": "cards/SV/SV5K/ウガツホムラex_SV5K-085／100.jpg",
+   "to": "cards/SV/SV5K/ウガツホムラex_SV5K-085／100_SR.jpg"
+  },
+  {
+   "id": "SV5K-086",
+   "from": "cards/SV/SV5K/ウネルミナモex_SV5K-086／100.jpg",
+   "to": "cards/SV/SV5K/ウネルミナモex_SV5K-086／100_SR.jpg"
+  },
+  {
+   "id": "SV5K-087",
+   "from": "cards/SV/SV5K/ウミトリオex_SV5K-087／100.jpg",
+   "to": "cards/SV/SV5K/ウミトリオex_SV5K-087／100_SR.jpg"
+  },
+  {
+   "id": "SV5K-088",
+   "from": "cards/SV/SV5K/ゲンガーex_SV5K-088／100.jpg",
+   "to": "cards/SV/SV5K/ゲンガーex_SV5K-088／100_SR.jpg"
+  },
+  {
+   "id": "SV5K-089",
+   "from": "cards/SV/SV5K/タケルライコex_SV5K-089／100.jpg",
+   "to": "cards/SV/SV5K/タケルライコex_SV5K-089／100_SR.jpg"
+  },
+  {
+   "id": "SV5K-090",
+   "from": "cards/SV/SV5K/探検家の先導_SV5K-090／100.jpg",
+   "to": "cards/SV/SV5K/探検家の先導_SV5K-090／100_SR.jpg"
+  },
+  {
+   "id": "SV5K-091",
+   "from": "cards/SV/SV5K/ビワ_SV5K-091／100.jpg",
+   "to": "cards/SV/SV5K/ビワ_SV5K-091／100_SR.jpg"
+  },
+  {
+   "id": "SV5K-092",
+   "from": "cards/SV/SV5K/マツバの確信_SV5K-092／100.jpg",
+   "to": "cards/SV/SV5K/マツバの確信_SV5K-092／100_SR.jpg"
+  },
+  {
+   "id": "SV5K-093",
+   "from": "cards/SV/SV5K/ウガツホムラex_SV5K-093／100.jpg",
+   "to": "cards/SV/SV5K/ウガツホムラex_SV5K-093／100_SAR.jpg"
+  },
+  {
+   "id": "SV5K-094",
+   "from": "cards/SV/SV5K/ウネルミナモex_SV5K-094／100.jpg",
+   "to": "cards/SV/SV5K/ウネルミナモex_SV5K-094／100_SAR.jpg"
+  },
+  {
+   "id": "SV5K-095",
+   "from": "cards/SV/SV5K/タケルライコex_SV5K-095／100.jpg",
+   "to": "cards/SV/SV5K/タケルライコex_SV5K-095／100_SAR.jpg"
+  },
+  {
+   "id": "SV5K-096",
+   "from": "cards/SV/SV5K/ビワ_SV5K-096／100.jpg",
+   "to": "cards/SV/SV5K/ビワ_SV5K-096／100_SAR.jpg"
+  },
+  {
+   "id": "SV5K-097",
+   "from": "cards/SV/SV5K/マツバの確信_SV5K-097／100.jpg",
+   "to": "cards/SV/SV5K/マツバの確信_SV5K-097／100_SAR.jpg"
+  },
+  {
+   "id": "SV5K-098",
+   "from": "cards/SV/SV5K/ウガツホムラex_SV5K-098／100.jpg",
+   "to": "cards/SV/SV5K/ウガツホムラex_SV5K-098／100_UR.jpg"
+  },
+  {
+   "id": "SV5K-099",
+   "from": "cards/SV/SV5K/ウネルミナモex_SV5K-099／100.jpg",
+   "to": "cards/SV/SV5K/ウネルミナモex_SV5K-099／100_UR.jpg"
+  },
+  {
+   "id": "SV5K-100",
+   "from": "cards/SV/SV5K/タケルライコex_SV5K-100／100.jpg",
+   "to": "cards/SV/SV5K/タケルライコex_SV5K-100／100_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV5K-062",
+   "ja": "覚醒のドラム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "45208",
+     "jaName": "覚醒のドラム",
+     "rarity": "",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-066",
+   "ja": "マキシマムベルト",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "45212",
+     "jaName": "マキシマムベルト",
+     "rarity": "",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-071",
+   "ja": "ネオアッパーエネルギー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "45217",
+     "jaName": "ネオアッパーエネルギー",
+     "rarity": "",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-074",
+   "ja": "ドーミラー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45517",
+     "jaName": "ドーミラー",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-075",
+   "ja": "ランクルス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45518",
+     "jaName": "ランクルス",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-076",
+   "ja": "ハバタクカミ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45519",
+     "jaName": "ハバタクカミ",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-077",
+   "ja": "ジーランス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45520",
+     "jaName": "ジーランス",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-078",
+   "ja": "バンバドロ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45521",
+     "jaName": "バンバドロ",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-079",
+   "ja": "アーボック",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45522",
+     "jaName": "アーボック",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-080",
+   "ja": "ゴース",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45523",
+     "jaName": "ゴース",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-081",
+   "ja": "ペラップ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45524",
+     "jaName": "ペラップ",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-082",
+   "ja": "チラーミィ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45525",
+     "jaName": "チラーミィ",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-083",
+   "ja": "チラチーノ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45526",
+     "jaName": "チラチーノ",
+     "rarity": "AR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-084",
+   "ja": "ドダイトスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45527",
+     "jaName": "ドダイトスex",
+     "rarity": "SR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-085",
+   "ja": "ウガツホムラex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45528",
+     "jaName": "ウガツホムラex",
+     "rarity": "SR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-086",
+   "ja": "ウネルミナモex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45529",
+     "jaName": "ウネルミナモex",
+     "rarity": "SR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-087",
+   "ja": "ウミトリオex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45530",
+     "jaName": "ウミトリオex",
+     "rarity": "SR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-088",
+   "ja": "ゲンガーex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45531",
+     "jaName": "ゲンガーex",
+     "rarity": "SR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-089",
+   "ja": "タケルライコex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45532",
+     "jaName": "タケルライコex",
+     "rarity": "SR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-090",
+   "ja": "探検家の先導",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45533",
+     "jaName": "探検家の先導",
+     "rarity": "SR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-091",
+   "ja": "ビワ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45534",
+     "jaName": "ビワ",
+     "rarity": "SR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-092",
+   "ja": "マツバの確信",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45535",
+     "jaName": "マツバの確信",
+     "rarity": "SR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-093",
+   "ja": "ウガツホムラex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45536",
+     "jaName": "ウガツホムラex",
+     "rarity": "SAR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-094",
+   "ja": "ウネルミナモex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45537",
+     "jaName": "ウネルミナモex",
+     "rarity": "SAR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-095",
+   "ja": "タケルライコex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45538",
+     "jaName": "タケルライコex",
+     "rarity": "SAR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-096",
+   "ja": "ビワ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45539",
+     "jaName": "ビワ",
+     "rarity": "SAR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-097",
+   "ja": "マツバの確信",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45540",
+     "jaName": "マツバの確信",
+     "rarity": "SAR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-098",
+   "ja": "ウガツホムラex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "45541",
+     "jaName": "ウガツホムラex",
+     "rarity": "UR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-099",
+   "ja": "ウネルミナモex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "45542",
+     "jaName": "ウネルミナモex",
+     "rarity": "UR",
+     "badge": "SV5K"
+    }
+   ]
+  },
+  {
+   "id": "SV5K-100",
+   "ja": "タケルライコex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "45543",
+     "jaName": "タケルライコex",
+     "rarity": "UR",
+     "badge": "SV5K"
+    }
+   ]
+  }
+ ]
+}
