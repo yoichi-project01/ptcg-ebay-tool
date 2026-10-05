@@ -1,0 +1,52 @@
+{
+ "set": "SV8",
+ "checkedAt": "2026-10-05T05:00:09.366Z",
+ "refetched": [
+  {
+   "cardId": "SV8-011",
+   "set": "SV8",
+   "local": "011",
+   "name": "パルデア ケンタロス",
+   "rarity": "U",
+   "image": "cards/SV/SV8/パルデア ケンタロス_SV8-011／138_U.jpg",
+   "officialCardId": "46351",
+   "officialRarity": "U",
+   "thumb": "/assets/images/card_images/large/SV8/046351_P_PARUDEAKENTAROSU.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SV8/パルデア ケンタロス_SV8-011／138_U.jpg"
+  },
+  {
+   "cardId": "SV8-024",
+   "set": "SV8",
+   "local": "024",
+   "name": "パルデア ケンタロス",
+   "rarity": "U",
+   "image": "cards/SV/SV8/パルデア ケンタロス_SV8-024／138_U.jpg",
+   "officialCardId": "46364",
+   "officialRarity": "U",
+   "thumb": "/assets/images/card_images/large/SV8/046364_P_PARUDEAKENTAROSU.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SV8/パルデア ケンタロス_SV8-024／138_U.jpg"
+  },
+  {
+   "cardId": "SV8-063",
+   "set": "SV8",
+   "local": "063",
+   "name": "パルデア ケンタロス",
+   "rarity": "U",
+   "image": "cards/SV/SV8/パルデア ケンタロス_SV8-063／138_U.jpg",
+   "officialCardId": "46403",
+   "officialRarity": "U",
+   "thumb": "/assets/images/card_images/large/SV8/046403_P_PARUDEAKENTAROSU.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SV8/パルデア ケンタロス_SV8-063／138_U.jpg"
+  }
+ ],
+ "notFound": [],
+ "nameMismatch": [],
+ "verify": {
+  "checkedAt": "2026-10-05T05:00:10.667Z",
+  "remainingDuplicates": [],
+  "officialSameImage": []
+ }
+}
