@@ -1,0 +1,140 @@
+{
+  "code": "SJ",
+  "ofChange": null,
+  "nameChanged": [
+    {
+      "id": "SJ-018",
+      "oldJa": "ザシアンV",
+      "newJa": "クイックボール"
+    },
+    {
+      "id": "SJ-019",
+      "oldJa": "ザマゼンタV",
+      "newJa": "しんかのおこう"
+    },
+    {
+      "id": "SJ-020",
+      "oldJa": "クイックボール",
+      "newJa": "スーパーボール"
+    },
+    {
+      "id": "SJ-021",
+      "oldJa": "しんかのおこう",
+      "newJa": "ポケギア3.0"
+    },
+    {
+      "id": "SJ-022",
+      "oldJa": "スーパーボール",
+      "newJa": "ポケモンいれかえ"
+    },
+    {
+      "id": "SJ-023",
+      "oldJa": "ポケギア3.0",
+      "newJa": "メタルソーサー"
+    },
+    {
+      "id": "SJ-024",
+      "oldJa": "ポケモンいれかえ",
+      "newJa": "博士の研究"
+    },
+    {
+      "id": "SJ-025",
+      "oldJa": "メタルソーサー",
+      "newJa": "ビート"
+    },
+    {
+      "id": "SJ-026",
+      "oldJa": "博士の研究",
+      "newJa": "ボスの指令"
+    },
+    {
+      "id": "SJ-027",
+      "oldJa": "ビート",
+      "newJa": "ホップ"
+    },
+    {
+      "id": "SJ-028",
+      "oldJa": "ボスの指令",
+      "newJa": "マリィ"
+    },
+    {
+      "id": "SJ-029",
+      "oldJa": "ホップ",
+      "newJa": "ザシアンV"
+    },
+    {
+      "id": "SJ-030",
+      "oldJa": "マリィ",
+      "newJa": "ザマゼンタV"
+    }
+  ],
+  "imageReplaced": [
+    {
+      "id": "SJ-018",
+      "ja": "クイックボール",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-019",
+      "ja": "しんかのおこう",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-020",
+      "ja": "スーパーボール",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-021",
+      "ja": "ポケギア3.0",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-022",
+      "ja": "ポケモンいれかえ",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-023",
+      "ja": "メタルソーサー",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-024",
+      "ja": "博士の研究",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-025",
+      "ja": "ビート",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-026",
+      "ja": "ボスの指令",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-027",
+      "ja": "ホップ",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-028",
+      "ja": "マリィ",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-029",
+      "ja": "ザシアンV",
+      "hadImage": true
+    },
+    {
+      "id": "SJ-030",
+      "ja": "ザマゼンタV",
+      "hadImage": true
+    }
+  ],
+  "added": [],
+  "removed": []
+}
