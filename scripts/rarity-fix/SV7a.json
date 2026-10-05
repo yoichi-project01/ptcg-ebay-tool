@@ -1,0 +1,624 @@
+{
+ "at": "2026-10-05T15:09:30.699Z",
+ "set": "SV7a",
+ "count": {
+  "アイコンなし（マークの無いカード）": 3,
+  "入れる": 30
+ },
+ "renamed": [
+  {
+   "id": "SV7a-065",
+   "from": "cards/SV/SV7a/タマタマ_SV7a-65／94.jpg",
+   "to": "cards/SV/SV7a/タマタマ_SV7a-65／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-066",
+   "from": "cards/SV/SV7a/マシェード_SV7a-66／94.jpg",
+   "to": "cards/SV/SV7a/マシェード_SV7a-66／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-067",
+   "from": "cards/SV/SV7a/ポワルン たいようのすがた_SV7a-67／94.jpg",
+   "to": "cards/SV/SV7a/ポワルン たいようのすがた_SV7a-67／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-068",
+   "from": "cards/SV/SV7a/ハギギシリ_SV7a-68／94.jpg",
+   "to": "cards/SV/SV7a/ハギギシリ_SV7a-68／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-069",
+   "from": "cards/SV/SV7a/ハルクジラ_SV7a-69／94.jpg",
+   "to": "cards/SV/SV7a/ハルクジラ_SV7a-69／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-070",
+   "from": "cards/SV/SV7a/ラティオス_SV7a-70／94.jpg",
+   "to": "cards/SV/SV7a/ラティオス_SV7a-70／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-071",
+   "from": "cards/SV/SV7a/ビブラーバ_SV7a-71／94.jpg",
+   "to": "cards/SV/SV7a/ビブラーバ_SV7a-71／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-072",
+   "from": "cards/SV/SV7a/タタッコ_SV7a-72／94.jpg",
+   "to": "cards/SV/SV7a/タタッコ_SV7a-72／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-073",
+   "from": "cards/SV/SV7a/エアームド_SV7a-73／94.jpg",
+   "to": "cards/SV/SV7a/エアームド_SV7a-73／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-074",
+   "from": "cards/SV/SV7a/アップリュー_SV7a-74／94.jpg",
+   "to": "cards/SV/SV7a/アップリュー_SV7a-74／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-075",
+   "from": "cards/SV/SV7a/タルップル_SV7a-75／94.jpg",
+   "to": "cards/SV/SV7a/タルップル_SV7a-75／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-076",
+   "from": "cards/SV/SV7a/ウォーグル_SV7a-76／94.jpg",
+   "to": "cards/SV/SV7a/ウォーグル_SV7a-76／94_AR.jpg"
+  },
+  {
+   "id": "SV7a-077",
+   "from": "cards/SV/SV7a/ブラックキュレムex_SV7a-77／94.jpg",
+   "to": "cards/SV/SV7a/ブラックキュレムex_SV7a-77／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-078",
+   "from": "cards/SV/SV7a/ラティアスex_SV7a-78／94.jpg",
+   "to": "cards/SV/SV7a/ラティアスex_SV7a-78／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-079",
+   "from": "cards/SV/SV7a/フライゴンex_SV7a-79／94.jpg",
+   "to": "cards/SV/SV7a/フライゴンex_SV7a-79／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-080",
+   "from": "cards/SV/SV7a/ブリジュラスex_SV7a-80／94.jpg",
+   "to": "cards/SV/SV7a/ブリジュラスex_SV7a-80／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-081",
+   "from": "cards/SV/SV7a/アローラ ナッシーex_SV7a-81／94.jpg",
+   "to": "cards/SV/SV7a/アローラ ナッシーex_SV7a-81／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-082",
+   "from": "cards/SV/SV7a/モトトカゲex_SV7a-82／94.jpg",
+   "to": "cards/SV/SV7a/モトトカゲex_SV7a-82／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-083",
+   "from": "cards/SV/SV7a/カキツバタ_SV7a-83／94.jpg",
+   "to": "cards/SV/SV7a/カキツバタ_SV7a-83／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-084",
+   "from": "cards/SV/SV7a/サーファー_SV7a-84／94.jpg",
+   "to": "cards/SV/SV7a/サーファー_SV7a-84／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-085",
+   "from": "cards/SV/SV7a/ドラセナ_SV7a-85／94.jpg",
+   "to": "cards/SV/SV7a/ドラセナ_SV7a-85／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-086",
+   "from": "cards/SV/SV7a/ルチアのアピール_SV7a-86／94.jpg",
+   "to": "cards/SV/SV7a/ルチアのアピール_SV7a-86／94_SR.jpg"
+  },
+  {
+   "id": "SV7a-087",
+   "from": "cards/SV/SV7a/ラティアスex_SV7a-87／94.jpg",
+   "to": "cards/SV/SV7a/ラティアスex_SV7a-87／94_SAR.jpg"
+  },
+  {
+   "id": "SV7a-088",
+   "from": "cards/SV/SV7a/ブリジュラスex_SV7a-88／94.jpg",
+   "to": "cards/SV/SV7a/ブリジュラスex_SV7a-88／94_SAR.jpg"
+  },
+  {
+   "id": "SV7a-089",
+   "from": "cards/SV/SV7a/アローラ ナッシーex_SV7a-89／94.jpg",
+   "to": "cards/SV/SV7a/アローラ ナッシーex_SV7a-89／94_SAR.jpg"
+  },
+  {
+   "id": "SV7a-090",
+   "from": "cards/SV/SV7a/カキツバタ_SV7a-90／94.jpg",
+   "to": "cards/SV/SV7a/カキツバタ_SV7a-90／94_SAR.jpg"
+  },
+  {
+   "id": "SV7a-091",
+   "from": "cards/SV/SV7a/ルチアのアピール_SV7a-91／94.jpg",
+   "to": "cards/SV/SV7a/ルチアのアピール_SV7a-91／94_SAR.jpg"
+  },
+  {
+   "id": "SV7a-092",
+   "from": "cards/SV/SV7a/アローラ ナッシーex_SV7a-92／94.jpg",
+   "to": "cards/SV/SV7a/アローラ ナッシーex_SV7a-92／94_UR.jpg"
+  },
+  {
+   "id": "SV7a-093",
+   "from": "cards/SV/SV7a/カウンターゲイン_SV7a-93／94.jpg",
+   "to": "cards/SV/SV7a/カウンターゲイン_SV7a-93／94_UR.jpg"
+  },
+  {
+   "id": "SV7a-094",
+   "from": "cards/SV/SV7a/ジェットエネルギー_SV7a-94／94.jpg",
+   "to": "cards/SV/SV7a/ジェットエネルギー_SV7a-94／94_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV7a-052",
+   "ja": "エネルギー転送PRO",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46281",
+     "jaName": "エネルギー転送PRO",
+     "rarity": "",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-056",
+   "ja": "メガトンブロアー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46285",
+     "jaName": "メガトンブロアー",
+     "rarity": "",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-064",
+   "ja": "リッチエネルギー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46293",
+     "jaName": "リッチエネルギー",
+     "rarity": "",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-065",
+   "ja": "タマタマ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46311",
+     "jaName": "タマタマ",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-066",
+   "ja": "マシェード",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46312",
+     "jaName": "マシェード",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-067",
+   "ja": "ポワルン たいようのすがた",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46313",
+     "jaName": "ポワルン たいようのすがた",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-068",
+   "ja": "ハギギシリ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46314",
+     "jaName": "ハギギシリ",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-069",
+   "ja": "ハルクジラ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46315",
+     "jaName": "ハルクジラ",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-070",
+   "ja": "ラティオス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46316",
+     "jaName": "ラティオス",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-071",
+   "ja": "ビブラーバ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46317",
+     "jaName": "ビブラーバ",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-072",
+   "ja": "タタッコ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46318",
+     "jaName": "タタッコ",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-073",
+   "ja": "エアームド",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46319",
+     "jaName": "エアームド",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-074",
+   "ja": "アップリュー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46320",
+     "jaName": "アップリュー",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-075",
+   "ja": "タルップル",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46321",
+     "jaName": "タルップル",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-076",
+   "ja": "ウォーグル",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46322",
+     "jaName": "ウォーグル",
+     "rarity": "AR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-077",
+   "ja": "ブラックキュレムex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46323",
+     "jaName": "ブラックキュレムex",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-078",
+   "ja": "ラティアスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46324",
+     "jaName": "ラティアスex",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-079",
+   "ja": "フライゴンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46325",
+     "jaName": "フライゴンex",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-080",
+   "ja": "ブリジュラスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46326",
+     "jaName": "ブリジュラスex",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-081",
+   "ja": "アローラ ナッシーex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46327",
+     "jaName": "アローラ ナッシーex",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-082",
+   "ja": "モトトカゲex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46328",
+     "jaName": "モトトカゲex",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-083",
+   "ja": "カキツバタ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46329",
+     "jaName": "カキツバタ",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-084",
+   "ja": "サーファー",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46330",
+     "jaName": "サーファー",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-085",
+   "ja": "ドラセナ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46331",
+     "jaName": "ドラセナ",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-086",
+   "ja": "ルチアのアピール",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46332",
+     "jaName": "ルチアのアピール",
+     "rarity": "SR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-087",
+   "ja": "ラティアスex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46333",
+     "jaName": "ラティアスex",
+     "rarity": "SAR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-088",
+   "ja": "ブリジュラスex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46334",
+     "jaName": "ブリジュラスex",
+     "rarity": "SAR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-089",
+   "ja": "アローラ ナッシーex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46335",
+     "jaName": "アローラ ナッシーex",
+     "rarity": "SAR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-090",
+   "ja": "カキツバタ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46336",
+     "jaName": "カキツバタ",
+     "rarity": "SAR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-091",
+   "ja": "ルチアのアピール",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46337",
+     "jaName": "ルチアのアピール",
+     "rarity": "SAR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-092",
+   "ja": "アローラ ナッシーex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "46338",
+     "jaName": "アローラ ナッシーex",
+     "rarity": "UR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-093",
+   "ja": "カウンターゲイン",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "46339",
+     "jaName": "カウンターゲイン",
+     "rarity": "UR",
+     "badge": "SV7a"
+    }
+   ]
+  },
+  {
+   "id": "SV7a-094",
+   "ja": "ジェットエネルギー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "46340",
+     "jaName": "ジェットエネルギー",
+     "rarity": "UR",
+     "badge": "SV7a"
+    }
+   ]
+  }
+ ]
+}
