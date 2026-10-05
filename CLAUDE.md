@@ -2414,6 +2414,32 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
   英語版の公式名をそのまま入れる方針にした。5つとも `HOLO_RARITIES` に入れた。H のコードは遊々亭の表記（カードのマークに文字が無い）。
 - **注意**: PR はタイトルでプロモ（Promo）と読まれるおそれがある（eBay ではプリズムスターを「Prism Star」と書く出品が多い）。
   英語名が空のカードは、タイトルがレアリティの略号から始まる（出品時に英語名を入れる。「英語名なし」の警告は出る）。
+  → 2026-10-06 にタイトルの略号を「Prism Star」に変えた（6552a6e、`RARITY_TITLE_CODES`）。
+
+### 対応（2026-10-06）: 英語名が空の高レア 2,066行に英語名を入れた（2つの情報源の一致）
+
+対象は英語名が空で、レアリティが SAR・SR・HR・UR・AR・CSR・CHR・BWR・MUR・K・A・H・PR・ACE 等か、番号が弾の総数を超える **2,675行（131弾）**。
+**2,066行に入れ、609行は空欄のまま**（118弾、弾ごとにコミット）。card_id は `scripts/en-name-fix2/changed-card-ids.txt`（弾ごとは `{弾}-changed-card-ids.txt`）、
+各行の根拠・空欄の理由は `decisions.tsv`、弾ごとの件数は `summary.json`。反映は `scripts/fill-high-rarity-en.mjs`（`--apply --set <弾>`）・`run-fill-high-rarity-en.sh`。
+
+- **入れる条件**: Bulbapedia の日本版の弾の一覧（`bulbapedia.tsv`）の英語名と、TCGdex 英語版に**同じ名前・同じイラストレーター・同じ種類**（ポケモンは図鑑番号も）のカードがあること。
+  - イラストレーターは TCGdex 日本語版、無ければ公式 details.php（`fetch-illustrators.mjs`、番号が一致したものだけ。1,021件を取得し496件で判明）。
+    綴りの違い（Souichirou/Souchirou 等、8文字以上で2文字以内）は同じ人とみなし `decisions.tsv` の note に記録（5件）。
+  - Bulbapedia の一覧は、ブラウザで各弾のページの wikitext から取り出した（Cloudflare のためスクリプトから開けない）。同じページに英語版や別の日本版の一覧が並ぶため、
+    節の見出しと番号の分母（例 /067）が cardData の総数と一致する節だけ使った。PMCG4・neo2・VS1・20th は日本版の一覧が無い。
+  - 書き込む名前は Bulbapedia の書き方（英語版の正式な書き方 "Lycanroc-GX"・"M Rayquaza-EX"、プリズムスターは "Volcanion ◇"）。TCGdex は "Lycanroc GX" と
+    "Lycanroc-GX" が混在するため空白・ハイフンの違いは同じ名前として照合（末尾の ex と EX は区別）。
+- **名前の付け方の確認**（合わないものは入れない）: かがやく→Radiant（9/9）、ひかる→Shining（8/8）、プリズムスター→末尾 ◇（43/43）、メガ〜ex/EX→Mega/M（63/63）、
+  ポケモンの ex/EX/GX/V/VMAX/VSTAR/V-UNION/BREAK の末尾・地方名（Alolan 等）・TAG TEAM の &。
+- **空欄のまま 609行の理由**: イラストレーターが分からない 516（公式サイトに無く店舗の情報で追加したシークレット、カードにイラストレーターの記載が無い特殊エネルギー、
+  SVHK/SVHM の再録 58・XY-BEST 17 等）、英語版の同じ名前のカードとイラストレーターが違う 75（日本版だけの絵柄。SM12a の TAG TEAM・サポート等）、
+  Bulbapedia の一覧に無い 13、種類が食い違う 3（S8-126 は TCGdex 日本語版が Stadium、SV2a-198・206 は下記）、その他 2。
+- **気づいた点（未対応）**: SV2a 198・206 は Bulbapedia の番号と cardData の名前が合わない（cardData 198＝ナナミの手助け・206＝エリカの招待、Bulbapedia 198＝Venusaur ex・206＝Switch。
+  Bulbapedia の一覧は 207 まで）。どちらが正しいか未確認。
+- 検査スクリプトの修正: `check-en-names.mjs` は GX・EX の前の空白とハイフンを同じとみなす（直後 0件）。`detect-contaminated-en-names.py` の除外に Raihan・Cara Liss
+  （英語版の公式名。インドネシア語の一般語と同じ綴り）を追加（直後 0件）。
+- 出品文: SM6-027 は `Volcanion ◇ Prism Star 027/094 Japanese SM6 Pokemon Card NM 2018 Holo Rare`（74文字）。Item Specifics の Character も
+  "Volcanion ◇" になる（◇ を外していない）。
 
 ---
 

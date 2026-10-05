@@ -25,7 +25,8 @@ const getJson = async (url) => {
 
 const enList = await getJson("https://api.tcgdex.net/v2/en/cards");
 const idList = await getJson("https://api.tcgdex.net/v2/id/cards");
-const norm = (s) => s.replace(/[‘’]/g, "'");
+// TCGdex 英語版は "Lycanroc GX" と "Lycanroc-GX" が混在し、cardData は英語版の正式な書き方 "Lycanroc-GX"・"Venusaur-EX" を使うので、末尾の GX・EX の前の空白とハイフンは同じとみなす。プリズムスターの ♢ は ◇ と同じ
+const norm = (s) => s.replace(/[‘’]/g, "'").replace(/♢/g, "◇").replace(/[\s-](GX|EX)$/, " $1");
 const enNames = new Set(enList.map((c) => norm(c.name)));
 const idName = new Map(idList.map((c) => [c.id, c.name]));
 
