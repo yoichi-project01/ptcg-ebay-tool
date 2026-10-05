@@ -2392,6 +2392,29 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
 全件が「優先度の高い要素から収まるものを足す」参照と一致することを確かめた。SV8a-149 はセット英語名を落として発売年を残す形
 （レアリティが入った後は `Scoop Up Cyclone ACE 149/187 Japanese SV8a Pokemon Card NM 2024 ACE SPEC Rare`、77文字）。
 
+### 対応（2026-10-06）: レアリティに K・A・H・PR・MUR を追加し、保留の91行を埋めた
+
+上の「マークがあるのに入れていない91行」を埋めた（`pending-marked.json` の全件。根拠 `scripts/rarity-fix/new-codes.json`、
+反映 `scripts/fill-rarity-printed-marks.mjs --set <弾>`、card_id は `rarity-fix/printed-marks-changed-card-ids-{弾}.txt`）。
+- **2つの情報源**: 遊々亭の表記と、**公式サイトのカード画像に印刷されたマーク**（画像を切り出して目で確認。`public/cards` ではなく公式から取り直した画像）。
+  91行すべて一致。S8a のピカチュウV-UNION 4行は1枚の公式画像に 025〜028 の4枚分が載っており、全部に RRR と印刷されている。
+- **アプリの変更**（`src/App.jsx`、d3cdfd8）:
+
+  | コード | カード | 印刷されたマーク | Item Specifics の Rarity（英語） | eBay の Rarity の値 | タイトルの略号 |
+  |---|---|---|---|---|---|
+  | K | かがやく 19 | K | Radiant Rare | 無い（自由入力） | K |
+  | A | アメイジングレア 9 | 星形の A | Amazing Rare | ある（約8,000件） | A |
+  | H | ひかる（SM3p）8 | 文字の無い星形 | Ultra Rare | ある | なし（`RARITY_TITLE_CODES`） |
+  | PR | プリズムスター 48 | PR | Rare | ある | PR |
+  | MUR | メガウルトラレア 3 | MUR | Mega Hyper Rare | 無い（自由入力） | MUR |
+
+  英語は TCGdex 英語版の公式のレアリティ名（かがやく＝Radiant Rare、アメイジング＝Amazing Rare、英語版 Shining Legends のひかる＝Ultra Rare、
+  英語版のプリズムスター＝Rare、メガウルトラレアに当たる英語版のカード＝Mega Hyper Rare）。eBay の Rarity の値は eBay の検索の絞り込みのデータで確かめた
+  （Radiant Rare・Mega Hyper Rare・Prism Star・Shining は値に無い）。eBay の Rarity は自由入力でき（「Kagayaku」と入力した出品を確認）、
+  英語版の公式名をそのまま入れる方針にした。5つとも `HOLO_RARITIES` に入れた。H のコードは遊々亭の表記（カードのマークに文字が無い）。
+- **注意**: PR はタイトルでプロモ（Promo）と読まれるおそれがある（eBay ではプリズムスターを「Prism Star」と書く出品が多い）。
+  英語名が空のカードは、タイトルがレアリティの略号から始まる（出品時に英語名を入れる。「英語名なし」の警告は出る）。
+
 ---
 
 ## ファイル構成
