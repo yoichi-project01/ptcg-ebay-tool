@@ -2221,6 +2221,31 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
   （`upload-card-images --ids-file … --force`）と見本の特徴の作り直しが要る（カイトリレーダーの docs/card-image-mismatch-2026-10-05.md）。
 - **画像の取り直しで通常版と同じファイルを書かないこと**: 名前での照合は使わず、details.php の番号と画像パスを使う（`patch-from-scan.mjs` と同じ方式）。
 
+### 対応（2026-10-05）: 上の一覧の画像を公式 details.php で番号を確かめて取り直し（39弾・2,191枚）
+
+- `scripts/refetch-duplicate-images.mjs`（1弾ずつ、再開可能）＋ `scripts/run-refetch-images.sh`（取り直し → 画像索引をその弾だけ更新 →
+  確認 → 弾ごとにコミット・push）。一覧のカードと同じ名前の公式カードの details.php を取得し（同時接続1本・2〜3秒間隔、
+  403・通信エラーは待って再試行、連続3件失敗で停止。結果は `scan-progress/{弾}.json`、画像は `scan-progress/staging/refetch/{弾}/` に
+  保存して再開時に飛ばす）、**その番号の公式画像**で置き換えた（ファイル名はそのまま）。プロモ（SV-P、番号が「031 / SV-P」）は
+  `promo-progress/` の details.php の結果を使った。
+- **結果: 2,191枚を取り直し、うち中身が変わった 1,199枚**（残りはもともと正しかった方）。card_id は
+  `scripts/image-dup-report/refetch/refetched-card-ids.txt`（1行1件）・中身が変わったものは `changed-card-ids.txt`、弾ごとの件数は `summary.json`、
+  各カードの公式 cardID・画像パスは `refetch/{弾}.json`。
+- **確認**: 取り直した後、全弾で別の番号とバイト一致する画像を調べ、残りは対象外の PMCG（14グループ）と保留の SJ（2グループ）だけ
+  （LEGEND・V-UNION・数字でない型番の行は除く）。
+- **対象外・保留**:
+  - PMCG1/3/5/6（28枚）：公式サイトに無く、画像は pcg-search.com 由来（例 PMCG1-018 ガーディ＝019 ウィンディ の画像）。別途 pcg-search.com で番号を確かめて取り直す必要あり。
+  - SVHK/SVHM/SVB/SVD/SVF などの数字でない型番の行（FIG 等）：公式で確かめられないため対象外（削除の候補）。
+  - **SJ（保留）**: cardData の番号が 018 以降ずれている（公式は 016 ザシアンV・017 ザマゼンタV・029 ザシアンV・030 ザマゼンタV（/028）で、
+    cardData は 018・019 に2枚目のザシアンV・ザマゼンタV、020〜030 にトレーナーズ）。S4a 型の破損で、`patch-from-scan.mjs --full-fetch --set SJ` →
+    `--rebuild --set SJ` での作り直しが必要（未着手）。016・017 の画像は公式どおり。
+- **build-image-index の --only の修正**: フォルダに残る古い名前のファイル（作り直し前の「／71」など、中身が別のカード）を拾って S10b の索引が
+  入れ替わったため、既存の索引のファイルがあれば使い続けるようにした。さらに `--keep-keys` で既存のキーだけ更新できるようにした
+  （SVD・SVF で画像の無い行に確かめていない古いファイルが入ったため。入った16件は外して元に戻した）。取り直し前（dfe99d4）と比べて、
+  画像索引のキー・パスの変化は0件（取り直しはファイルの中身だけを置き換えた）。
+- **カイトリレーダーへの反映**: 取り直した card_id（`refetched-card-ids.txt`、少なくとも `changed-card-ids.txt`）を R2 へ送り直し
+  （`upload-card-images --remote --ids-file … --force`）、見本の特徴を作り直す（`build-card-features --remote`）。
+
 ---
 
 ## ファイル構成
