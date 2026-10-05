@@ -1,0 +1,68 @@
+{
+ "at": "2026-10-05T15:10:13.296Z",
+ "set": "S2a",
+ "count": {
+  "入れる": 3
+ },
+ "renamed": [
+  {
+   "id": "S2a-002",
+   "from": "cards/S/S2a/バタフリーVMAX_S2a-02／78.jpg",
+   "to": "cards/S/S2a/バタフリーVMAX_S2a-02／78_RRR.jpg"
+  },
+  {
+   "id": "S2a-017",
+   "from": "cards/S/S2a/マルヤクデVMAX_S2a-17／78.jpg",
+   "to": "cards/S/S2a/マルヤクデVMAX_S2a-17／78_RRR.jpg"
+  },
+  {
+   "id": "S2a-031",
+   "from": "cards/S/S2a/サーナイトVMAX_S2a-31／78.jpg",
+   "to": "cards/S/S2a/サーナイトVMAX_S2a-31／78_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S2a-002",
+   "ja": "バタフリーVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38064",
+     "jaName": "バタフリーVMAX",
+     "rarity": "RRR",
+     "badge": "S2a"
+    }
+   ]
+  },
+  {
+   "id": "S2a-017",
+   "ja": "マルヤクデVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38079",
+     "jaName": "マルヤクデVMAX",
+     "rarity": "RRR",
+     "badge": "S2a"
+    }
+   ]
+  },
+  {
+   "id": "S2a-031",
+   "ja": "サーナイトVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38093",
+     "jaName": "サーナイトVMAX",
+     "rarity": "RRR",
+     "badge": "S2a"
+    }
+   ]
+  }
+ ]
+}
