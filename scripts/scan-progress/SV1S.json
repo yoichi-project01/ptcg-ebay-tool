@@ -856,5 +856,21 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV1S/044946_T_NESUTOBORU.jpg"
+ },
+ "44947": {
+  "badge": "SV1S",
+  "cards": [
+   {
+    "local": "108",
+    "total": "078",
+    "rarity": "UR",
+    "jaName": "基本闘エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV1S/044947_E_KIHONTOUENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV1S/044947_E_KIHONTOUENERUGI.jpg"
  }
 }

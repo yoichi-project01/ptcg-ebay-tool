@@ -1,0 +1,581 @@
+{
+ "at": "2026-10-05T15:08:07.824Z",
+ "set": "SV1S",
+ "count": {
+  "入れる": 30
+ },
+ "renamed": [
+  {
+   "id": "SV1S-079",
+   "from": "cards/SV/SV1S/オリーニョ_SV1S-079／108.jpg",
+   "to": "cards/SV/SV1S/オリーニョ_SV1S-079／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-080",
+   "from": "cards/SV/SV1S/グレンアルマ_SV1S-080／108.jpg",
+   "to": "cards/SV/SV1S/グレンアルマ_SV1S-080／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-081",
+   "from": "cards/SV/SV1S/ウミディグダ_SV1S-081／108.jpg",
+   "to": "cards/SV/SV1S/ウミディグダ_SV1S-081／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-082",
+   "from": "cards/SV/SV1S/ヘイラッシャ_SV1S-082／108.jpg",
+   "to": "cards/SV/SV1S/ヘイラッシャ_SV1S-082／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-083",
+   "from": "cards/SV/SV1S/ラルトス_SV1S-083／108.jpg",
+   "to": "cards/SV/SV1S/ラルトス_SV1S-083／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-084",
+   "from": "cards/SV/SV1S/キルリア_SV1S-084／108.jpg",
+   "to": "cards/SV/SV1S/キルリア_SV1S-084／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-085",
+   "from": "cards/SV/SV1S/パピモッチ_SV1S-085／108.jpg",
+   "to": "cards/SV/SV1S/パピモッチ_SV1S-085／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-086",
+   "from": "cards/SV/SV1S/リオル_SV1S-086／108.jpg",
+   "to": "cards/SV/SV1S/リオル_SV1S-086／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-087",
+   "from": "cards/SV/SV1S/メグロコ_SV1S-087／108.jpg",
+   "to": "cards/SV/SV1S/メグロコ_SV1S-087／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-088",
+   "from": "cards/SV/SV1S/ガケガニ_SV1S-088／108.jpg",
+   "to": "cards/SV/SV1S/ガケガニ_SV1S-088／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-089",
+   "from": "cards/SV/SV1S/ドドゲザン_SV1S-089／108.jpg",
+   "to": "cards/SV/SV1S/ドドゲザン_SV1S-089／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-090",
+   "from": "cards/SV/SV1S/ムックル_SV1S-090／108.jpg",
+   "to": "cards/SV/SV1S/ムックル_SV1S-090／108_AR.jpg"
+  },
+  {
+   "id": "SV1S-091",
+   "from": "cards/SV/SV1S/ギャラドスex_SV1S-091／108.jpg",
+   "to": "cards/SV/SV1S/ギャラドスex_SV1S-091／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-092",
+   "from": "cards/SV/SV1S/サーナイトex_SV1S-092／108.jpg",
+   "to": "cards/SV/SV1S/サーナイトex_SV1S-092／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-093",
+   "from": "cards/SV/SV1S/イダイナキバex_SV1S-093／108.jpg",
+   "to": "cards/SV/SV1S/イダイナキバex_SV1S-093／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-094",
+   "from": "cards/SV/SV1S/コライドンex_SV1S-094／108.jpg",
+   "to": "cards/SV/SV1S/コライドンex_SV1S-094／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-095",
+   "from": "cards/SV/SV1S/ドクロッグex_SV1S-095／108.jpg",
+   "to": "cards/SV/SV1S/ドクロッグex_SV1S-095／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-096",
+   "from": "cards/SV/SV1S/パフュートンex_SV1S-096／108.jpg",
+   "to": "cards/SV/SV1S/パフュートンex_SV1S-096／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-097",
+   "from": "cards/SV/SV1S/ジニア_SV1S-097／108.jpg",
+   "to": "cards/SV/SV1S/ジニア_SV1S-097／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-098",
+   "from": "cards/SV/SV1S/スター団のしたっぱ_SV1S-098／108.jpg",
+   "to": "cards/SV/SV1S/スター団のしたっぱ_SV1S-098／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-099",
+   "from": "cards/SV/SV1S/博士の研究（オーリム博士）_SV1S-099／108.jpg",
+   "to": "cards/SV/SV1S/博士の研究（オーリム博士）_SV1S-099／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-100",
+   "from": "cards/SV/SV1S/ボタン_SV1S-100／108.jpg",
+   "to": "cards/SV/SV1S/ボタン_SV1S-100／108_SR.jpg"
+  },
+  {
+   "id": "SV1S-101",
+   "from": "cards/SV/SV1S/サーナイトex_SV1S-101／108.jpg",
+   "to": "cards/SV/SV1S/サーナイトex_SV1S-101／108_SAR.jpg"
+  },
+  {
+   "id": "SV1S-102",
+   "from": "cards/SV/SV1S/イダイナキバex_SV1S-102／108.jpg",
+   "to": "cards/SV/SV1S/イダイナキバex_SV1S-102／108_SAR.jpg"
+  },
+  {
+   "id": "SV1S-103",
+   "from": "cards/SV/SV1S/コライドンex_SV1S-103／108.jpg",
+   "to": "cards/SV/SV1S/コライドンex_SV1S-103／108_SAR.jpg"
+  },
+  {
+   "id": "SV1S-104",
+   "from": "cards/SV/SV1S/ジニア_SV1S-104／108.jpg",
+   "to": "cards/SV/SV1S/ジニア_SV1S-104／108_SAR.jpg"
+  },
+  {
+   "id": "SV1S-105",
+   "from": "cards/SV/SV1S/ボタン_SV1S-105／108.jpg",
+   "to": "cards/SV/SV1S/ボタン_SV1S-105／108_SAR.jpg"
+  },
+  {
+   "id": "SV1S-106",
+   "from": "cards/SV/SV1S/コライドンex_SV1S-106／108.jpg",
+   "to": "cards/SV/SV1S/コライドンex_SV1S-106／108_UR.jpg"
+  },
+  {
+   "id": "SV1S-107",
+   "from": "cards/SV/SV1S/ネストボール_SV1S-107／108.jpg",
+   "to": "cards/SV/SV1S/ネストボール_SV1S-107／108_UR.jpg"
+  },
+  {
+   "id": "SV1S-108",
+   "from": "cards/SV/SV1S/基本闘エネルギー_SV1S-108／108.jpg",
+   "to": "cards/SV/SV1S/基本闘エネルギー_SV1S-108／108_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV1S-079",
+   "ja": "オリーニョ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43039",
+     "jaName": "オリーニョ",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-080",
+   "ja": "グレンアルマ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43040",
+     "jaName": "グレンアルマ",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-081",
+   "ja": "ウミディグダ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43041",
+     "jaName": "ウミディグダ",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-082",
+   "ja": "ヘイラッシャ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43042",
+     "jaName": "ヘイラッシャ",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-083",
+   "ja": "ラルトス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43043",
+     "jaName": "ラルトス",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-084",
+   "ja": "キルリア",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43044",
+     "jaName": "キルリア",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-085",
+   "ja": "パピモッチ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43045",
+     "jaName": "パピモッチ",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-086",
+   "ja": "リオル",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43046",
+     "jaName": "リオル",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-087",
+   "ja": "メグロコ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43047",
+     "jaName": "メグロコ",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-088",
+   "ja": "ガケガニ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43048",
+     "jaName": "ガケガニ",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-089",
+   "ja": "ドドゲザン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43049",
+     "jaName": "ドドゲザン",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-090",
+   "ja": "ムックル",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43050",
+     "jaName": "ムックル",
+     "rarity": "AR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-091",
+   "ja": "ギャラドスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43051",
+     "jaName": "ギャラドスex",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-092",
+   "ja": "サーナイトex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43052",
+     "jaName": "サーナイトex",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-093",
+   "ja": "イダイナキバex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43053",
+     "jaName": "イダイナキバex",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-094",
+   "ja": "コライドンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43054",
+     "jaName": "コライドンex",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-095",
+   "ja": "ドクロッグex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43055",
+     "jaName": "ドクロッグex",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-096",
+   "ja": "パフュートンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43056",
+     "jaName": "パフュートンex",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-097",
+   "ja": "ジニア",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43057",
+     "jaName": "ジニア",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-098",
+   "ja": "スター団のしたっぱ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43058",
+     "jaName": "スター団のしたっぱ",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-099",
+   "ja": "博士の研究（オーリム博士）",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43059",
+     "jaName": "博士の研究",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-100",
+   "ja": "ボタン",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43060",
+     "jaName": "ボタン",
+     "rarity": "SR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-101",
+   "ja": "サーナイトex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43061",
+     "jaName": "サーナイトex",
+     "rarity": "SAR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-102",
+   "ja": "イダイナキバex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43062",
+     "jaName": "イダイナキバex",
+     "rarity": "SAR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-103",
+   "ja": "コライドンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43063",
+     "jaName": "コライドンex",
+     "rarity": "SAR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-104",
+   "ja": "ジニア",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43064",
+     "jaName": "ジニア",
+     "rarity": "SAR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-105",
+   "ja": "ボタン",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43065",
+     "jaName": "ボタン",
+     "rarity": "SAR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-106",
+   "ja": "コライドンex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44945",
+     "jaName": "コライドンex",
+     "rarity": "UR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-107",
+   "ja": "ネストボール",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44946",
+     "jaName": "ネストボール",
+     "rarity": "UR",
+     "badge": "SV1S"
+    }
+   ]
+  },
+  {
+   "id": "SV1S-108",
+   "ja": "基本闘エネルギー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44947",
+     "jaName": "基本闘エネルギー",
+     "rarity": "UR",
+     "badge": "SV1S"
+    }
+   ]
+  }
+ ]
+}
