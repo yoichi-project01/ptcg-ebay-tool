@@ -1,0 +1,619 @@
+{
+ "at": "2026-10-05T15:09:41.949Z",
+ "set": "SV9",
+ "count": {
+  "入れる": 32
+ },
+ "renamed": [
+  {
+   "id": "SV9-101",
+   "from": "cards/SV/SV9/マラカッチ_SV9-101／132.jpg",
+   "to": "cards/SV/SV9/マラカッチ_SV9-101／132_AR.jpg"
+  },
+  {
+   "id": "SV9-102",
+   "from": "cards/SV/SV9/フリーザー_SV9-102／132.jpg",
+   "to": "cards/SV/SV9/フリーザー_SV9-102／132_AR.jpg"
+  },
+  {
+   "id": "SV9-103",
+   "from": "cards/SV/SV9/ホエルオー_SV9-103／132.jpg",
+   "to": "cards/SV/SV9/ホエルオー_SV9-103／132_AR.jpg"
+  },
+  {
+   "id": "SV9-104",
+   "from": "cards/SV/SV9/ナンジャモのタイカイデン_SV9-104／132.jpg",
+   "to": "cards/SV/SV9/ナンジャモのタイカイデン_SV9-104／132_AR.jpg"
+  },
+  {
+   "id": "SV9-105",
+   "from": "cards/SV/SV9/リーリエのアブリボン_SV9-105／132.jpg",
+   "to": "cards/SV/SV9/リーリエのアブリボン_SV9-105／132_AR.jpg"
+  },
+  {
+   "id": "SV9-106",
+   "from": "cards/SV/SV9/ウリムー_SV9-106／132.jpg",
+   "to": "cards/SV/SV9/ウリムー_SV9-106／132_AR.jpg"
+  },
+  {
+   "id": "SV9-107",
+   "from": "cards/SV/SV9/ルガルガン_SV9-107／132.jpg",
+   "to": "cards/SV/SV9/ルガルガン_SV9-107／132_AR.jpg"
+  },
+  {
+   "id": "SV9-108",
+   "from": "cards/SV/SV9/Nのゾロア_SV9-108／132.jpg",
+   "to": "cards/SV/SV9/Nのゾロア_SV9-108／132_AR.jpg"
+  },
+  {
+   "id": "SV9-109",
+   "from": "cards/SV/SV9/Nのレシラム_SV9-109／132.jpg",
+   "to": "cards/SV/SV9/Nのレシラム_SV9-109／132_AR.jpg"
+  },
+  {
+   "id": "SV9-110",
+   "from": "cards/SV/SV9/オオタチ_SV9-110／132.jpg",
+   "to": "cards/SV/SV9/オオタチ_SV9-110／132_AR.jpg"
+  },
+  {
+   "id": "SV9-111",
+   "from": "cards/SV/SV9/オンバット_SV9-111／132.jpg",
+   "to": "cards/SV/SV9/オンバット_SV9-111／132_AR.jpg"
+  },
+  {
+   "id": "SV9-112",
+   "from": "cards/SV/SV9/ホップのウールー_SV9-112／132.jpg",
+   "to": "cards/SV/SV9/ホップのウールー_SV9-112／132_AR.jpg"
+  },
+  {
+   "id": "SV9-113",
+   "from": "cards/SV/SV9/ボルケニオンex_SV9-113／132.jpg",
+   "to": "cards/SV/SV9/ボルケニオンex_SV9-113／132_SR.jpg"
+  },
+  {
+   "id": "SV9-114",
+   "from": "cards/SV/SV9/ナンジャモのハラバリーex_SV9-114／132.jpg",
+   "to": "cards/SV/SV9/ナンジャモのハラバリーex_SV9-114／132_SR.jpg"
+  },
+  {
+   "id": "SV9-115",
+   "from": "cards/SV/SV9/リーリエのピッピex_SV9-115／132.jpg",
+   "to": "cards/SV/SV9/リーリエのピッピex_SV9-115／132_SR.jpg"
+  },
+  {
+   "id": "SV9-116",
+   "from": "cards/SV/SV9/マンムーex_SV9-116／132.jpg",
+   "to": "cards/SV/SV9/マンムーex_SV9-116／132_SR.jpg"
+  },
+  {
+   "id": "SV9-117",
+   "from": "cards/SV/SV9/Nのゾロアークex_SV9-117／132.jpg",
+   "to": "cards/SV/SV9/Nのゾロアークex_SV9-117／132_SR.jpg"
+  },
+  {
+   "id": "SV9-118",
+   "from": "cards/SV/SV9/ホップのザシアンex_SV9-118／132.jpg",
+   "to": "cards/SV/SV9/ホップのザシアンex_SV9-118／132_SR.jpg"
+  },
+  {
+   "id": "SV9-119",
+   "from": "cards/SV/SV9/ボーマンダex_SV9-119／132.jpg",
+   "to": "cards/SV/SV9/ボーマンダex_SV9-119／132_SR.jpg"
+  },
+  {
+   "id": "SV9-120",
+   "from": "cards/SV/SV9/ノココッチex_SV9-120／132.jpg",
+   "to": "cards/SV/SV9/ノココッチex_SV9-120／132_SR.jpg"
+  },
+  {
+   "id": "SV9-121",
+   "from": "cards/SV/SV9/アイリスの闘志_SV9-121／132.jpg",
+   "to": "cards/SV/SV9/アイリスの闘志_SV9-121／132_SR.jpg"
+  },
+  {
+   "id": "SV9-122",
+   "from": "cards/SV/SV9/怖いお兄さん_SV9-122／132.jpg",
+   "to": "cards/SV/SV9/怖いお兄さん_SV9-122／132_SR.jpg"
+  },
+  {
+   "id": "SV9-123",
+   "from": "cards/SV/SV9/タケシのスカウト_SV9-123／132.jpg",
+   "to": "cards/SV/SV9/タケシのスカウト_SV9-123／132_SR.jpg"
+  },
+  {
+   "id": "SV9-124",
+   "from": "cards/SV/SV9/ボルケニオンex_SV9-124／132.jpg",
+   "to": "cards/SV/SV9/ボルケニオンex_SV9-124／132_SAR.jpg"
+  },
+  {
+   "id": "SV9-125",
+   "from": "cards/SV/SV9/ナンジャモのハラバリーex_SV9-125／132.jpg",
+   "to": "cards/SV/SV9/ナンジャモのハラバリーex_SV9-125／132_SAR.jpg"
+  },
+  {
+   "id": "SV9-126",
+   "from": "cards/SV/SV9/リーリエのピッピex_SV9-126／132.jpg",
+   "to": "cards/SV/SV9/リーリエのピッピex_SV9-126／132_SAR.jpg"
+  },
+  {
+   "id": "SV9-127",
+   "from": "cards/SV/SV9/Nのゾロアークex_SV9-127／132.jpg",
+   "to": "cards/SV/SV9/Nのゾロアークex_SV9-127／132_SAR.jpg"
+  },
+  {
+   "id": "SV9-128",
+   "from": "cards/SV/SV9/ホップのザシアンex_SV9-128／132.jpg",
+   "to": "cards/SV/SV9/ホップのザシアンex_SV9-128／132_SAR.jpg"
+  },
+  {
+   "id": "SV9-129",
+   "from": "cards/SV/SV9/ボーマンダex_SV9-129／132.jpg",
+   "to": "cards/SV/SV9/ボーマンダex_SV9-129／132_SAR.jpg"
+  },
+  {
+   "id": "SV9-130",
+   "from": "cards/SV/SV9/ナンジャモのハラバリーex_SV9-130／132.jpg",
+   "to": "cards/SV/SV9/ナンジャモのハラバリーex_SV9-130／132_UR.jpg"
+  },
+  {
+   "id": "SV9-131",
+   "from": "cards/SV/SV9/Nのゾロアークex_SV9-131／132.jpg",
+   "to": "cards/SV/SV9/Nのゾロアークex_SV9-131／132_UR.jpg"
+  },
+  {
+   "id": "SV9-132",
+   "from": "cards/SV/SV9/スパイクエネルギー_SV9-132／132.jpg",
+   "to": "cards/SV/SV9/スパイクエネルギー_SV9-132／132_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV9-101",
+   "ja": "マラカッチ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47221",
+     "jaName": "マラカッチ",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-102",
+   "ja": "フリーザー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47222",
+     "jaName": "フリーザー",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-103",
+   "ja": "ホエルオー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47223",
+     "jaName": "ホエルオー",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-104",
+   "ja": "ナンジャモのタイカイデン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47224",
+     "jaName": "ナンジャモのタイカイデン",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-105",
+   "ja": "リーリエのアブリボン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47225",
+     "jaName": "リーリエのアブリボン",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-106",
+   "ja": "ウリムー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47226",
+     "jaName": "ウリムー",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-107",
+   "ja": "ルガルガン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47227",
+     "jaName": "ルガルガン",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-108",
+   "ja": "Nのゾロア",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47228",
+     "jaName": "Nのゾロア",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-109",
+   "ja": "Nのレシラム",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47229",
+     "jaName": "Nのレシラム",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-110",
+   "ja": "オオタチ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47230",
+     "jaName": "オオタチ",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-111",
+   "ja": "オンバット",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47231",
+     "jaName": "オンバット",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-112",
+   "ja": "ホップのウールー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47232",
+     "jaName": "ホップのウールー",
+     "rarity": "AR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-113",
+   "ja": "ボルケニオンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47233",
+     "jaName": "ボルケニオンex",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-114",
+   "ja": "ナンジャモのハラバリーex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47234",
+     "jaName": "ナンジャモのハラバリーex",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-115",
+   "ja": "リーリエのピッピex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47235",
+     "jaName": "リーリエのピッピex",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-116",
+   "ja": "マンムーex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47236",
+     "jaName": "マンムーex",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-117",
+   "ja": "Nのゾロアークex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47237",
+     "jaName": "Nのゾロアークex",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-118",
+   "ja": "ホップのザシアンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47238",
+     "jaName": "ホップのザシアンex",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-119",
+   "ja": "ボーマンダex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47239",
+     "jaName": "ボーマンダex",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-120",
+   "ja": "ノココッチex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47240",
+     "jaName": "ノココッチex",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-121",
+   "ja": "アイリスの闘志",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47241",
+     "jaName": "アイリスの闘志",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-122",
+   "ja": "怖いお兄さん",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47242",
+     "jaName": "怖いお兄さん",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-123",
+   "ja": "タケシのスカウト",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47243",
+     "jaName": "タケシのスカウト",
+     "rarity": "SR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-124",
+   "ja": "ボルケニオンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47244",
+     "jaName": "ボルケニオンex",
+     "rarity": "SAR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-125",
+   "ja": "ナンジャモのハラバリーex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47245",
+     "jaName": "ナンジャモのハラバリーex",
+     "rarity": "SAR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-126",
+   "ja": "リーリエのピッピex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47246",
+     "jaName": "リーリエのピッピex",
+     "rarity": "SAR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-127",
+   "ja": "Nのゾロアークex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47247",
+     "jaName": "Nのゾロアークex",
+     "rarity": "SAR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-128",
+   "ja": "ホップのザシアンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47248",
+     "jaName": "ホップのザシアンex",
+     "rarity": "SAR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-129",
+   "ja": "ボーマンダex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47249",
+     "jaName": "ボーマンダex",
+     "rarity": "SAR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-130",
+   "ja": "ナンジャモのハラバリーex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47250",
+     "jaName": "ナンジャモのハラバリーex",
+     "rarity": "UR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-131",
+   "ja": "Nのゾロアークex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47251",
+     "jaName": "Nのゾロアークex",
+     "rarity": "UR",
+     "badge": "SV9"
+    }
+   ]
+  },
+  {
+   "id": "SV9-132",
+   "ja": "スパイクエネルギー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47252",
+     "jaName": "スパイクエネルギー",
+     "rarity": "UR",
+     "badge": "SV9"
+    }
+   ]
+  }
+ ]
+}
