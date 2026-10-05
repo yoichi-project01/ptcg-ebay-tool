@@ -1,0 +1,681 @@
+{
+ "at": "2026-10-05T15:09:24.661Z",
+ "set": "SV7",
+ "count": {
+  "アイコンなし（マークの無いカード）": 3,
+  "入れる": 33
+ },
+ "renamed": [
+  {
+   "id": "SV7-103",
+   "from": "cards/SV/SV7/レディアン_SV7-103／135.jpg",
+   "to": "cards/SV/SV7/レディアン_SV7-103／135_AR.jpg"
+  },
+  {
+   "id": "SV7-104",
+   "from": "cards/SV/SV7/リリーラ_SV7-104／135.jpg",
+   "to": "cards/SV/SV7/リリーラ_SV7-104／135_AR.jpg"
+  },
+  {
+   "id": "SV7-105",
+   "from": "cards/SV/SV7/バクガメス_SV7-105／135.jpg",
+   "to": "cards/SV/SV7/バクガメス_SV7-105／135_AR.jpg"
+  },
+  {
+   "id": "SV7-106",
+   "from": "cards/SV/SV7/ラビフット_SV7-106／135.jpg",
+   "to": "cards/SV/SV7/ラビフット_SV7-106／135_AR.jpg"
+  },
+  {
+   "id": "SV7-107",
+   "from": "cards/SV/SV7/ケケンカニ_SV7-107／135.jpg",
+   "to": "cards/SV/SV7/ケケンカニ_SV7-107／135_AR.jpg"
+  },
+  {
+   "id": "SV7-108",
+   "from": "cards/SV/SV7/バチュル_SV7-108／135.jpg",
+   "to": "cards/SV/SV7/バチュル_SV7-108／135_AR.jpg"
+  },
+  {
+   "id": "SV7-109",
+   "from": "cards/SV/SV7/ゼラオラ_SV7-109／135.jpg",
+   "to": "cards/SV/SV7/ゼラオラ_SV7-109／135_AR.jpg"
+  },
+  {
+   "id": "SV7-110",
+   "from": "cards/SV/SV7/マホミル_SV7-110／135.jpg",
+   "to": "cards/SV/SV7/マホミル_SV7-110／135_AR.jpg"
+  },
+  {
+   "id": "SV7-111",
+   "from": "cards/SV/SV7/アサナン_SV7-111／135.jpg",
+   "to": "cards/SV/SV7/アサナン_SV7-111／135_AR.jpg"
+  },
+  {
+   "id": "SV7-112",
+   "from": "cards/SV/SV7/ゴクリン_SV7-112／135.jpg",
+   "to": "cards/SV/SV7/ゴクリン_SV7-112／135_AR.jpg"
+  },
+  {
+   "id": "SV7-113",
+   "from": "cards/SV/SV7/ブリジュラス_SV7-113／135.jpg",
+   "to": "cards/SV/SV7/ブリジュラス_SV7-113／135_AR.jpg"
+  },
+  {
+   "id": "SV7-114",
+   "from": "cards/SV/SV7/ヨルノズク_SV7-114／135.jpg",
+   "to": "cards/SV/SV7/ヨルノズク_SV7-114／135_AR.jpg"
+  },
+  {
+   "id": "SV7-115",
+   "from": "cards/SV/SV7/カミツオロチex_SV7-115／135.jpg",
+   "to": "cards/SV/SV7/カミツオロチex_SV7-115／135_SR.jpg"
+  },
+  {
+   "id": "SV7-116",
+   "from": "cards/SV/SV7/エースバーンex_SV7-116／135.jpg",
+   "to": "cards/SV/SV7/エースバーンex_SV7-116／135_SR.jpg"
+  },
+  {
+   "id": "SV7-117",
+   "from": "cards/SV/SV7/ラプラスex_SV7-117／135.jpg",
+   "to": "cards/SV/SV7/ラプラスex_SV7-117／135_SR.jpg"
+  },
+  {
+   "id": "SV7-118",
+   "from": "cards/SV/SV7/デンチュラex_SV7-118／135.jpg",
+   "to": "cards/SV/SV7/デンチュラex_SV7-118／135_SR.jpg"
+  },
+  {
+   "id": "SV7-119",
+   "from": "cards/SV/SV7/バウッツェルex_SV7-119／135.jpg",
+   "to": "cards/SV/SV7/バウッツェルex_SV7-119／135_SR.jpg"
+  },
+  {
+   "id": "SV7-120",
+   "from": "cards/SV/SV7/チャーレムex_SV7-120／135.jpg",
+   "to": "cards/SV/SV7/チャーレムex_SV7-120／135_SR.jpg"
+  },
+  {
+   "id": "SV7-121",
+   "from": "cards/SV/SV7/ミミズズex_SV7-121／135.jpg",
+   "to": "cards/SV/SV7/ミミズズex_SV7-121／135_SR.jpg"
+  },
+  {
+   "id": "SV7-122",
+   "from": "cards/SV/SV7/テラパゴスex_SV7-122／135.jpg",
+   "to": "cards/SV/SV7/テラパゴスex_SV7-122／135_SR.jpg"
+  },
+  {
+   "id": "SV7-123",
+   "from": "cards/SV/SV7/アカマツ_SV7-123／135.jpg",
+   "to": "cards/SV/SV7/アカマツ_SV7-123／135_SR.jpg"
+  },
+  {
+   "id": "SV7-124",
+   "from": "cards/SV/SV7/タロ_SV7-124／135.jpg",
+   "to": "cards/SV/SV7/タロ_SV7-124／135_SR.jpg"
+  },
+  {
+   "id": "SV7-125",
+   "from": "cards/SV/SV7/ハイダイ_SV7-125／135.jpg",
+   "to": "cards/SV/SV7/ハイダイ_SV7-125／135_SR.jpg"
+  },
+  {
+   "id": "SV7-126",
+   "from": "cards/SV/SV7/ブライア_SV7-126／135.jpg",
+   "to": "cards/SV/SV7/ブライア_SV7-126／135_SR.jpg"
+  },
+  {
+   "id": "SV7-127",
+   "from": "cards/SV/SV7/カミツオロチex_SV7-127／135.jpg",
+   "to": "cards/SV/SV7/カミツオロチex_SV7-127／135_SAR.jpg"
+  },
+  {
+   "id": "SV7-128",
+   "from": "cards/SV/SV7/デンチュラex_SV7-128／135.jpg",
+   "to": "cards/SV/SV7/デンチュラex_SV7-128／135_SAR.jpg"
+  },
+  {
+   "id": "SV7-129",
+   "from": "cards/SV/SV7/バウッツェルex_SV7-129／135.jpg",
+   "to": "cards/SV/SV7/バウッツェルex_SV7-129／135_SAR.jpg"
+  },
+  {
+   "id": "SV7-130",
+   "from": "cards/SV/SV7/テラパゴスex_SV7-130／135.jpg",
+   "to": "cards/SV/SV7/テラパゴスex_SV7-130／135_SAR.jpg"
+  },
+  {
+   "id": "SV7-131",
+   "from": "cards/SV/SV7/タロ_SV7-131／135.jpg",
+   "to": "cards/SV/SV7/タロ_SV7-131／135_SAR.jpg"
+  },
+  {
+   "id": "SV7-132",
+   "from": "cards/SV/SV7/ブライア_SV7-132／135.jpg",
+   "to": "cards/SV/SV7/ブライア_SV7-132／135_SAR.jpg"
+  },
+  {
+   "id": "SV7-133",
+   "from": "cards/SV/SV7/テラパゴスex_SV7-133／135.jpg",
+   "to": "cards/SV/SV7/テラパゴスex_SV7-133／135_UR.jpg"
+  },
+  {
+   "id": "SV7-134",
+   "from": "cards/SV/SV7/勇気のおまもり_SV7-134／135.jpg",
+   "to": "cards/SV/SV7/勇気のおまもり_SV7-134／135_UR.jpg"
+  },
+  {
+   "id": "SV7-135",
+   "from": "cards/SV/SV7/ゼロの大空洞_SV7-135／135.jpg",
+   "to": "cards/SV/SV7/ゼロの大空洞_SV7-135／135_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV7-094",
+   "ja": "きらめく結晶",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46033",
+     "jaName": "きらめく結晶",
+     "rarity": "",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-096",
+   "ja": "デラックスボム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46035",
+     "jaName": "デラックスボム",
+     "rarity": "",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-101",
+   "ja": "偉大な大樹",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46040",
+     "jaName": "偉大な大樹",
+     "rarity": "",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-103",
+   "ja": "レディアン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46151",
+     "jaName": "レディアン",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-104",
+   "ja": "リリーラ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46152",
+     "jaName": "リリーラ",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-105",
+   "ja": "バクガメス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46153",
+     "jaName": "バクガメス",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-106",
+   "ja": "ラビフット",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46154",
+     "jaName": "ラビフット",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-107",
+   "ja": "ケケンカニ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46155",
+     "jaName": "ケケンカニ",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-108",
+   "ja": "バチュル",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46156",
+     "jaName": "バチュル",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-109",
+   "ja": "ゼラオラ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46157",
+     "jaName": "ゼラオラ",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-110",
+   "ja": "マホミル",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46158",
+     "jaName": "マホミル",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-111",
+   "ja": "アサナン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46159",
+     "jaName": "アサナン",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-112",
+   "ja": "ゴクリン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46160",
+     "jaName": "ゴクリン",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-113",
+   "ja": "ブリジュラス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46161",
+     "jaName": "ブリジュラス",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-114",
+   "ja": "ヨルノズク",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "46162",
+     "jaName": "ヨルノズク",
+     "rarity": "AR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-115",
+   "ja": "カミツオロチex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46163",
+     "jaName": "カミツオロチex",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-116",
+   "ja": "エースバーンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46164",
+     "jaName": "エースバーンex",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-117",
+   "ja": "ラプラスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46165",
+     "jaName": "ラプラスex",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-118",
+   "ja": "デンチュラex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46166",
+     "jaName": "デンチュラex",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-119",
+   "ja": "バウッツェルex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46167",
+     "jaName": "バウッツェルex",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-120",
+   "ja": "チャーレムex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46168",
+     "jaName": "チャーレムex",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-121",
+   "ja": "ミミズズex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46169",
+     "jaName": "ミミズズex",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-122",
+   "ja": "テラパゴスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46170",
+     "jaName": "テラパゴスex",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-123",
+   "ja": "アカマツ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46171",
+     "jaName": "アカマツ",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-124",
+   "ja": "タロ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46172",
+     "jaName": "タロ",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-125",
+   "ja": "ハイダイ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46173",
+     "jaName": "ハイダイ",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-126",
+   "ja": "ブライア",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "46174",
+     "jaName": "ブライア",
+     "rarity": "SR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-127",
+   "ja": "カミツオロチex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46175",
+     "jaName": "カミツオロチex",
+     "rarity": "SAR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-128",
+   "ja": "デンチュラex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46176",
+     "jaName": "デンチュラex",
+     "rarity": "SAR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-129",
+   "ja": "バウッツェルex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46177",
+     "jaName": "バウッツェルex",
+     "rarity": "SAR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-130",
+   "ja": "テラパゴスex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46178",
+     "jaName": "テラパゴスex",
+     "rarity": "SAR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-131",
+   "ja": "タロ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46179",
+     "jaName": "タロ",
+     "rarity": "SAR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-132",
+   "ja": "ブライア",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "46180",
+     "jaName": "ブライア",
+     "rarity": "SAR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-133",
+   "ja": "テラパゴスex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "46181",
+     "jaName": "テラパゴスex",
+     "rarity": "UR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-134",
+   "ja": "勇気のおまもり",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "46182",
+     "jaName": "勇気のおまもり",
+     "rarity": "UR",
+     "badge": "SV7"
+    }
+   ]
+  },
+  {
+   "id": "SV7-135",
+   "ja": "ゼロの大空洞",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "46183",
+     "jaName": "ゼロの大空洞",
+     "rarity": "UR",
+     "badge": "SV7"
+    }
+   ]
+  }
+ ]
+}
