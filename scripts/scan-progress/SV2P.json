@@ -752,5 +752,21 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV2P/044955_T_SUGOITSURIZAO.jpg"
+ },
+ "44956": {
+  "badge": "SV2P",
+  "cards": [
+   {
+    "local": "099",
+    "total": "071",
+    "rarity": "UR",
+    "jaName": "基本水エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV2P/044956_E_KIHONMIZUENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV2P/044956_E_KIHONMIZUENERUGI.jpg"
  }
 }
