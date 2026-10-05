@@ -1,0 +1,581 @@
+{
+ "at": "2026-10-05T15:08:22.476Z",
+ "set": "SV1a",
+ "count": {
+  "入れる": 30
+ },
+ "renamed": [
+  {
+   "id": "SV1a-074",
+   "from": "cards/SV/SV1a/トロピウス_SV1a-074／103.jpg",
+   "to": "cards/SV/SV1a/トロピウス_SV1a-074／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-075",
+   "from": "cards/SV/SV1a/ニャオハ_SV1a-075／103.jpg",
+   "to": "cards/SV/SV1a/ニャオハ_SV1a-075／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-076",
+   "from": "cards/SV/SV1a/ニャローテ_SV1a-076／103.jpg",
+   "to": "cards/SV/SV1a/ニャローテ_SV1a-076／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-077",
+   "from": "cards/SV/SV1a/カエンジシ_SV1a-077／103.jpg",
+   "to": "cards/SV/SV1a/カエンジシ_SV1a-077／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-078",
+   "from": "cards/SV/SV1a/ホゲータ_SV1a-078／103.jpg",
+   "to": "cards/SV/SV1a/ホゲータ_SV1a-078／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-079",
+   "from": "cards/SV/SV1a/アチゲータ_SV1a-079／103.jpg",
+   "to": "cards/SV/SV1a/アチゲータ_SV1a-079／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-080",
+   "from": "cards/SV/SV1a/コイキング_SV1a-080／103.jpg",
+   "to": "cards/SV/SV1a/コイキング_SV1a-080／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-081",
+   "from": "cards/SV/SV1a/クワッス_SV1a-081／103.jpg",
+   "to": "cards/SV/SV1a/クワッス_SV1a-081／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-082",
+   "from": "cards/SV/SV1a/ウェルカモ_SV1a-082／103.jpg",
+   "to": "cards/SV/SV1a/ウェルカモ_SV1a-082／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-083",
+   "from": "cards/SV/SV1a/ムウマージ_SV1a-083／103.jpg",
+   "to": "cards/SV/SV1a/ムウマージ_SV1a-083／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-084",
+   "from": "cards/SV/SV1a/パルデア ケンタロス_SV1a-084／103.jpg",
+   "to": "cards/SV/SV1a/パルデア ケンタロス_SV1a-084／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-085",
+   "from": "cards/SV/SV1a/パルデア ウパー_SV1a-085／103.jpg",
+   "to": "cards/SV/SV1a/パルデア ウパー_SV1a-085／103_AR.jpg"
+  },
+  {
+   "id": "SV1a-086",
+   "from": "cards/SV/SV1a/マスカーニャex_SV1a-086／103.jpg",
+   "to": "cards/SV/SV1a/マスカーニャex_SV1a-086／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-087",
+   "from": "cards/SV/SV1a/ラウドボーンex_SV1a-087／103.jpg",
+   "to": "cards/SV/SV1a/ラウドボーンex_SV1a-087／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-088",
+   "from": "cards/SV/SV1a/ウェーニバルex_SV1a-088／103.jpg",
+   "to": "cards/SV/SV1a/ウェーニバルex_SV1a-088／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-089",
+   "from": "cards/SV/SV1a/デデンネex_SV1a-089／103.jpg",
+   "to": "cards/SV/SV1a/デデンネex_SV1a-089／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-090",
+   "from": "cards/SV/SV1a/ルガルガンex_SV1a-090／103.jpg",
+   "to": "cards/SV/SV1a/ルガルガンex_SV1a-090／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-091",
+   "from": "cards/SV/SV1a/パルデア ドオーex_SV1a-091／103.jpg",
+   "to": "cards/SV/SV1a/パルデア ドオーex_SV1a-091／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-092",
+   "from": "cards/SV/SV1a/キハダ_SV1a-092／103.jpg",
+   "to": "cards/SV/SV1a/キハダ_SV1a-092／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-093",
+   "from": "cards/SV/SV1a/クラベル_SV1a-093／103.jpg",
+   "to": "cards/SV/SV1a/クラベル_SV1a-093／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-094",
+   "from": "cards/SV/SV1a/ハヤト_SV1a-094／103.jpg",
+   "to": "cards/SV/SV1a/ハヤト_SV1a-094／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-095",
+   "from": "cards/SV/SV1a/ボスの指令（ゲーチス）_SV1a-095／103.jpg",
+   "to": "cards/SV/SV1a/ボスの指令（ゲーチス）_SV1a-095／103_SR.jpg"
+  },
+  {
+   "id": "SV1a-096",
+   "from": "cards/SV/SV1a/マスカーニャex_SV1a-096／103.jpg",
+   "to": "cards/SV/SV1a/マスカーニャex_SV1a-096／103_SAR.jpg"
+  },
+  {
+   "id": "SV1a-097",
+   "from": "cards/SV/SV1a/ラウドボーンex_SV1a-097／103.jpg",
+   "to": "cards/SV/SV1a/ラウドボーンex_SV1a-097／103_SAR.jpg"
+  },
+  {
+   "id": "SV1a-098",
+   "from": "cards/SV/SV1a/ウェーニバルex_SV1a-098／103.jpg",
+   "to": "cards/SV/SV1a/ウェーニバルex_SV1a-098／103_SAR.jpg"
+  },
+  {
+   "id": "SV1a-099",
+   "from": "cards/SV/SV1a/キハダ_SV1a-099／103.jpg",
+   "to": "cards/SV/SV1a/キハダ_SV1a-099／103_SAR.jpg"
+  },
+  {
+   "id": "SV1a-100",
+   "from": "cards/SV/SV1a/ボスの指令（ゲーチス）_SV1a-100／103.jpg",
+   "to": "cards/SV/SV1a/ボスの指令（ゲーチス）_SV1a-100／103_SAR.jpg"
+  },
+  {
+   "id": "SV1a-101",
+   "from": "cards/SV/SV1a/マスカーニャex_SV1a-101／103.jpg",
+   "to": "cards/SV/SV1a/マスカーニャex_SV1a-101／103_UR.jpg"
+  },
+  {
+   "id": "SV1a-102",
+   "from": "cards/SV/SV1a/ラウドボーンex_SV1a-102／103.jpg",
+   "to": "cards/SV/SV1a/ラウドボーンex_SV1a-102／103_UR.jpg"
+  },
+  {
+   "id": "SV1a-103",
+   "from": "cards/SV/SV1a/ウェーニバルex_SV1a-103／103.jpg",
+   "to": "cards/SV/SV1a/ウェーニバルex_SV1a-103／103_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV1a-074",
+   "ja": "トロピウス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43279",
+     "jaName": "トロピウス",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-075",
+   "ja": "ニャオハ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43280",
+     "jaName": "ニャオハ",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-076",
+   "ja": "ニャローテ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43281",
+     "jaName": "ニャローテ",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-077",
+   "ja": "カエンジシ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43282",
+     "jaName": "カエンジシ",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-078",
+   "ja": "ホゲータ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43283",
+     "jaName": "ホゲータ",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-079",
+   "ja": "アチゲータ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43284",
+     "jaName": "アチゲータ",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-080",
+   "ja": "コイキング",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43285",
+     "jaName": "コイキング",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-081",
+   "ja": "クワッス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43286",
+     "jaName": "クワッス",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-082",
+   "ja": "ウェルカモ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43287",
+     "jaName": "ウェルカモ",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-083",
+   "ja": "ムウマージ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43288",
+     "jaName": "ムウマージ",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-084",
+   "ja": "パルデア ケンタロス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43289",
+     "jaName": "パルデア ケンタロス",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-085",
+   "ja": "パルデア ウパー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43290",
+     "jaName": "パルデア ウパー",
+     "rarity": "AR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-086",
+   "ja": "マスカーニャex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43291",
+     "jaName": "マスカーニャex",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-087",
+   "ja": "ラウドボーンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43292",
+     "jaName": "ラウドボーンex",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-088",
+   "ja": "ウェーニバルex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43293",
+     "jaName": "ウェーニバルex",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-089",
+   "ja": "デデンネex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43294",
+     "jaName": "デデンネex",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-090",
+   "ja": "ルガルガンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43295",
+     "jaName": "ルガルガンex",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-091",
+   "ja": "パルデア ドオーex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43296",
+     "jaName": "パルデア ドオーex",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-092",
+   "ja": "キハダ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43297",
+     "jaName": "キハダ",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-093",
+   "ja": "クラベル",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43298",
+     "jaName": "クラベル",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-094",
+   "ja": "ハヤト",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43299",
+     "jaName": "ハヤト",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-095",
+   "ja": "ボスの指令（ゲーチス）",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43300",
+     "jaName": "ボスの指令",
+     "rarity": "SR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-096",
+   "ja": "マスカーニャex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43301",
+     "jaName": "マスカーニャex",
+     "rarity": "SAR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-097",
+   "ja": "ラウドボーンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43302",
+     "jaName": "ラウドボーンex",
+     "rarity": "SAR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-098",
+   "ja": "ウェーニバルex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43303",
+     "jaName": "ウェーニバルex",
+     "rarity": "SAR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-099",
+   "ja": "キハダ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43304",
+     "jaName": "キハダ",
+     "rarity": "SAR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-100",
+   "ja": "ボスの指令（ゲーチス）",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43305",
+     "jaName": "ボスの指令",
+     "rarity": "SAR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-101",
+   "ja": "マスカーニャex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44951",
+     "jaName": "マスカーニャex",
+     "rarity": "UR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-102",
+   "ja": "ラウドボーンex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44952",
+     "jaName": "ラウドボーンex",
+     "rarity": "UR",
+     "badge": "SV1a"
+    }
+   ]
+  },
+  {
+   "id": "SV1a-103",
+   "ja": "ウェーニバルex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44953",
+     "jaName": "ウェーニバルex",
+     "rarity": "UR",
+     "badge": "SV1a"
+    }
+   ]
+  }
+ ]
+}
