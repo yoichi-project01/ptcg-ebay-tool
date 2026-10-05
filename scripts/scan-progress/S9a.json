@@ -25,6 +25,22 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041188_P_KUSAIHANA.jpg"
  },
+ "41189": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "003",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "ラフレシア",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041189_P_RAFURESHIA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041189_P_RAFURESHIA.jpg"
+ },
  "41190": {
   "badge": "S9a",
   "cards": [
@@ -116,6 +132,20 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041196_P_BIRIJIONV_2.jpg"
  },
+ "41197": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "011",
+    "total": "067",
+    "rarity": "",
+    "jaName": "かがやくヒードラン",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041197_P_KAGAYAKUHIDORAN.jpg"
+   }
+  ],
+  "rarityCodes": [],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041197_P_KAGAYAKUHIDORAN.jpg"
+ },
  "41198": {
   "badge": "S9a",
   "cards": [
@@ -167,6 +197,22 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041201_P_SHISHIKO.jpg"
+ },
+ "41202": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "016",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "カエンジシ",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041202_P_KAENJISHI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041202_P_KAENJISHI.jpg"
  },
  "41203": {
   "badge": "S9a",
@@ -272,6 +318,36 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041210_P_HISUIIDAITOU.jpg"
  },
+ "41211": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "025",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "ケルディオ",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041211_P_KERUDEIO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041211_P_KERUDEIO.jpg"
+ },
+ "41212": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "026",
+    "total": "067",
+    "rarity": "",
+    "jaName": "かがやくゲッコウガ",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041212_P_KAGAYAKUGEKKOUGA.jpg"
+   }
+  ],
+  "rarityCodes": [],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041212_P_KAGAYAKUGEKKOUGA.jpg"
+ },
  "41213": {
   "badge": "S9a",
   "cards": [
@@ -362,6 +438,38 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041219_P_KIRURIA.jpg"
+ },
+ "41220": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "034",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "エルレイド",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041220_P_ERUREIDO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041220_P_ERUREIDO.jpg"
+ },
+ "41221": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "035",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "ディアンシー",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041221_P_DEIANSHI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041221_P_DEIANSHI.jpg"
  },
  "41222": {
   "badge": "S9a",
@@ -454,6 +562,20 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041228_P_KABARUDON.jpg"
  },
+ "41229": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "043",
+    "total": "067",
+    "rarity": "",
+    "jaName": "かがやくルチャブル",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041229_P_KAGAYAKURUCHIXYABURU.jpg"
+   }
+  ],
+  "rarityCodes": [],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041229_P_KAGAYAKURUCHIXYABURU.jpg"
+ },
  "41230": {
   "badge": "S9a",
   "cards": [
@@ -545,6 +667,22 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041236_P_GURAENA.jpg"
  },
+ "41237": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "051",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "アブソル",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041237_P_ABUSORU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041237_P_ABUSORU.jpg"
+ },
  "41238": {
   "badge": "S9a",
   "cards": [
@@ -622,6 +760,22 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041243_P_ODOSHISHI.jpg"
+ },
+ "41244": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "058",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "ミルタンク",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041244_P_MIRUTANKU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "r_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041244_P_MIRUTANKU.jpg"
  },
  "41245": {
   "badge": "S9a",
@@ -1636,6 +1790,22 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/044869_P_HISUIDAIKENKIVSTAR.jpg"
+ },
+ "44870": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "092",
+    "total": "067",
+    "rarity": "UR",
+    "jaName": "こだわりベルト",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/044870_T_KODAWARIBERUTO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/044870_T_KODAWARIBERUTO.jpg"
  },
  "44871": {
   "badge": "S9a",

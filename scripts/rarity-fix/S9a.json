@@ -1,0 +1,605 @@
+{
+ "at": "2026-10-05T15:08:03.269Z",
+ "set": "S9a",
+ "count": {
+  "アイコンなし（マークの無いカード）": 3,
+  "入れる": 29
+ },
+ "renamed": [
+  {
+   "id": "S9a-029",
+   "from": "cards/S/S9a/ヒスイ バクフーンVSTAR_S9a-29／93.jpg",
+   "to": "cards/S/S9a/ヒスイ バクフーンVSTAR_S9a-29／93_RRR.jpg"
+  },
+  {
+   "id": "S9a-045",
+   "from": "cards/S/S9a/ヒスイ ジュナイパーVSTAR_S9a-45／93.jpg",
+   "to": "cards/S/S9a/ヒスイ ジュナイパーVSTAR_S9a-45／93_RRR.jpg"
+  },
+  {
+   "id": "S9a-053",
+   "from": "cards/S/S9a/ヒスイ ダイケンキVSTAR_S9a-53／93.jpg",
+   "to": "cards/S/S9a/ヒスイ ダイケンキVSTAR_S9a-53／93_RRR.jpg"
+  },
+  {
+   "id": "S9a-068",
+   "from": "cards/S/S9a/ロズレイド_S9a-68／93.jpg",
+   "to": "cards/S/S9a/ロズレイド_S9a-68／93_CHR.jpg"
+  },
+  {
+   "id": "S9a-069",
+   "from": "cards/S/S9a/シャンデラ_S9a-69／93.jpg",
+   "to": "cards/S/S9a/シャンデラ_S9a-69／93_CHR.jpg"
+  },
+  {
+   "id": "S9a-070",
+   "from": "cards/S/S9a/アヤシシ_S9a-70／93.jpg",
+   "to": "cards/S/S9a/アヤシシ_S9a-70／93_CHR.jpg"
+  },
+  {
+   "id": "S9a-071",
+   "from": "cards/S/S9a/バサギリ_S9a-71／93.jpg",
+   "to": "cards/S/S9a/バサギリ_S9a-71／93_CHR.jpg"
+  },
+  {
+   "id": "S9a-072",
+   "from": "cards/S/S9a/グラエナ_S9a-72／93.jpg",
+   "to": "cards/S/S9a/グラエナ_S9a-72／93_CHR.jpg"
+  },
+  {
+   "id": "S9a-073",
+   "from": "cards/S/S9a/ホーホー_S9a-73／93.jpg",
+   "to": "cards/S/S9a/ホーホー_S9a-73／93_CHR.jpg"
+  },
+  {
+   "id": "S9a-074",
+   "from": "cards/S/S9a/ビリジオンV_S9a-74／93.jpg",
+   "to": "cards/S/S9a/ビリジオンV_S9a-74／93_SR.jpg"
+  },
+  {
+   "id": "S9a-075",
+   "from": "cards/S/S9a/スターミーV_S9a-75／93.jpg",
+   "to": "cards/S/S9a/スターミーV_S9a-75／93_SR.jpg"
+  },
+  {
+   "id": "S9a-076",
+   "from": "cards/S/S9a/ヒスイ バクフーンV_S9a-76／93.jpg",
+   "to": "cards/S/S9a/ヒスイ バクフーンV_S9a-76／93_SR.jpg"
+  },
+  {
+   "id": "S9a-077",
+   "from": "cards/S/S9a/ヒスイ ジュナイパーV_S9a-77／93.jpg",
+   "to": "cards/S/S9a/ヒスイ ジュナイパーV_S9a-77／93_SR.jpg"
+  },
+  {
+   "id": "S9a-078",
+   "from": "cards/S/S9a/ヒスイ ダイケンキV_S9a-78／93.jpg",
+   "to": "cards/S/S9a/ヒスイ ダイケンキV_S9a-78／93_SR.jpg"
+  },
+  {
+   "id": "S9a-079",
+   "from": "cards/S/S9a/ガブリアスV_S9a-79／93.jpg",
+   "to": "cards/S/S9a/ガブリアスV_S9a-79／93_SR.jpg"
+  },
+  {
+   "id": "S9a-080",
+   "from": "cards/S/S9a/シマボシ_S9a-80／93.jpg",
+   "to": "cards/S/S9a/シマボシ_S9a-80／93_SR.jpg"
+  },
+  {
+   "id": "S9a-081",
+   "from": "cards/S/S9a/ツツジ_S9a-81／93.jpg",
+   "to": "cards/S/S9a/ツツジ_S9a-81／93_SR.jpg"
+  },
+  {
+   "id": "S9a-082",
+   "from": "cards/S/S9a/デンボク_S9a-82／93.jpg",
+   "to": "cards/S/S9a/デンボク_S9a-82／93_SR.jpg"
+  },
+  {
+   "id": "S9a-083",
+   "from": "cards/S/S9a/スターミーV_S9a-83／93.jpg",
+   "to": "cards/S/S9a/スターミーV_S9a-83／93_CSR.jpg"
+  },
+  {
+   "id": "S9a-084",
+   "from": "cards/S/S9a/ガブリアスV_S9a-84／93.jpg",
+   "to": "cards/S/S9a/ガブリアスV_S9a-84／93_CSR.jpg"
+  },
+  {
+   "id": "S9a-085",
+   "from": "cards/S/S9a/ヒスイ バクフーンVSTAR_S9a-85／93.jpg",
+   "to": "cards/S/S9a/ヒスイ バクフーンVSTAR_S9a-85／93_HR.jpg"
+  },
+  {
+   "id": "S9a-086",
+   "from": "cards/S/S9a/ヒスイ ジュナイパーVSTAR_S9a-86／93.jpg",
+   "to": "cards/S/S9a/ヒスイ ジュナイパーVSTAR_S9a-86／93_HR.jpg"
+  },
+  {
+   "id": "S9a-087",
+   "from": "cards/S/S9a/ヒスイ ダイケンキVSTAR_S9a-87／93.jpg",
+   "to": "cards/S/S9a/ヒスイ ダイケンキVSTAR_S9a-87／93_HR.jpg"
+  },
+  {
+   "id": "S9a-088",
+   "from": "cards/S/S9a/シマボシ_S9a-88／93.jpg",
+   "to": "cards/S/S9a/シマボシ_S9a-88／93_HR.jpg"
+  },
+  {
+   "id": "S9a-089",
+   "from": "cards/S/S9a/ツツジ_S9a-89／93.jpg",
+   "to": "cards/S/S9a/ツツジ_S9a-89／93_HR.jpg"
+  },
+  {
+   "id": "S9a-090",
+   "from": "cards/S/S9a/デンボク_S9a-90／93.jpg",
+   "to": "cards/S/S9a/デンボク_S9a-90／93_HR.jpg"
+  },
+  {
+   "id": "S9a-091",
+   "from": "cards/S/S9a/ヒスイ ダイケンキVSTAR_S9a-91／93.jpg",
+   "to": "cards/S/S9a/ヒスイ ダイケンキVSTAR_S9a-91／93_UR.jpg"
+  },
+  {
+   "id": "S9a-092",
+   "from": "cards/S/S9a/こだわりベルト_S9a-92／93.jpg",
+   "to": "cards/S/S9a/こだわりベルト_S9a-92／93_UR.jpg"
+  },
+  {
+   "id": "S9a-093",
+   "from": "cards/S/S9a/コトブキムラ_S9a-93／93.jpg",
+   "to": "cards/S/S9a/コトブキムラ_S9a-93／93_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S9a-011",
+   "ja": "かがやくヒードラン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "41197",
+     "jaName": "かがやくヒードラン",
+     "rarity": "",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-026",
+   "ja": "かがやくゲッコウガ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "41212",
+     "jaName": "かがやくゲッコウガ",
+     "rarity": "",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-029",
+   "ja": "ヒスイ バクフーンVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "41215",
+     "jaName": "ヒスイ バクフーンVSTAR",
+     "rarity": "RRR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-043",
+   "ja": "かがやくルチャブル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "41229",
+     "jaName": "かがやくルチャブル",
+     "rarity": "",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-045",
+   "ja": "ヒスイ ジュナイパーVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "41231",
+     "jaName": "ヒスイ ジュナイパーVSTAR",
+     "rarity": "RRR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-053",
+   "ja": "ヒスイ ダイケンキVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "41239",
+     "jaName": "ヒスイ ダイケンキVSTAR",
+     "rarity": "RRR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-068",
+   "ja": "ロズレイド",
+   "status": "入れる",
+   "rarity": "CHR",
+   "details": [
+    {
+     "cardId": "41496",
+     "jaName": "ロズレイド",
+     "rarity": "CHR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-069",
+   "ja": "シャンデラ",
+   "status": "入れる",
+   "rarity": "CHR",
+   "details": [
+    {
+     "cardId": "41497",
+     "jaName": "シャンデラ",
+     "rarity": "CHR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-070",
+   "ja": "アヤシシ",
+   "status": "入れる",
+   "rarity": "CHR",
+   "details": [
+    {
+     "cardId": "41498",
+     "jaName": "アヤシシ",
+     "rarity": "CHR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-071",
+   "ja": "バサギリ",
+   "status": "入れる",
+   "rarity": "CHR",
+   "details": [
+    {
+     "cardId": "41499",
+     "jaName": "バサギリ",
+     "rarity": "CHR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-072",
+   "ja": "グラエナ",
+   "status": "入れる",
+   "rarity": "CHR",
+   "details": [
+    {
+     "cardId": "41500",
+     "jaName": "グラエナ",
+     "rarity": "CHR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-073",
+   "ja": "ホーホー",
+   "status": "入れる",
+   "rarity": "CHR",
+   "details": [
+    {
+     "cardId": "41501",
+     "jaName": "ホーホー",
+     "rarity": "CHR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-074",
+   "ja": "ビリジオンV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41502",
+     "jaName": "ビリジオンV",
+     "rarity": "SR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-075",
+   "ja": "スターミーV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41503",
+     "jaName": "スターミーV",
+     "rarity": "SR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-076",
+   "ja": "ヒスイ バクフーンV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41504",
+     "jaName": "ヒスイ バクフーンV",
+     "rarity": "SR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-077",
+   "ja": "ヒスイ ジュナイパーV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41505",
+     "jaName": "ヒスイ ジュナイパーV",
+     "rarity": "SR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-078",
+   "ja": "ヒスイ ダイケンキV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41506",
+     "jaName": "ヒスイ ダイケンキV",
+     "rarity": "SR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-079",
+   "ja": "ガブリアスV",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41507",
+     "jaName": "ガブリアスV",
+     "rarity": "SR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-080",
+   "ja": "シマボシ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41508",
+     "jaName": "シマボシ",
+     "rarity": "SR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-081",
+   "ja": "ツツジ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41509",
+     "jaName": "ツツジ",
+     "rarity": "SR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-082",
+   "ja": "デンボク",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "41510",
+     "jaName": "デンボク",
+     "rarity": "SR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-083",
+   "ja": "スターミーV",
+   "status": "入れる",
+   "rarity": "CSR",
+   "details": [
+    {
+     "cardId": "41511",
+     "jaName": "スターミーV",
+     "rarity": "CSR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-084",
+   "ja": "ガブリアスV",
+   "status": "入れる",
+   "rarity": "CSR",
+   "details": [
+    {
+     "cardId": "41512",
+     "jaName": "ガブリアスV",
+     "rarity": "CSR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-085",
+   "ja": "ヒスイ バクフーンVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44863",
+     "jaName": "ヒスイ バクフーンVSTAR",
+     "rarity": "HR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-086",
+   "ja": "ヒスイ ジュナイパーVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44864",
+     "jaName": "ヒスイ ジュナイパーVSTAR",
+     "rarity": "HR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-087",
+   "ja": "ヒスイ ダイケンキVSTAR",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44865",
+     "jaName": "ヒスイ ダイケンキVSTAR",
+     "rarity": "HR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-088",
+   "ja": "シマボシ",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44866",
+     "jaName": "シマボシ",
+     "rarity": "HR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-089",
+   "ja": "ツツジ",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44867",
+     "jaName": "ツツジ",
+     "rarity": "HR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-090",
+   "ja": "デンボク",
+   "status": "入れる",
+   "rarity": "HR",
+   "details": [
+    {
+     "cardId": "44868",
+     "jaName": "デンボク",
+     "rarity": "HR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-091",
+   "ja": "ヒスイ ダイケンキVSTAR",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44869",
+     "jaName": "ヒスイ ダイケンキVSTAR",
+     "rarity": "UR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-092",
+   "ja": "こだわりベルト",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44870",
+     "jaName": "こだわりベルト",
+     "rarity": "UR",
+     "badge": "S9a"
+    }
+   ]
+  },
+  {
+   "id": "S9a-093",
+   "ja": "コトブキムラ",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44871",
+     "jaName": "コトブキムラ",
+     "rarity": "UR",
+     "badge": "S9a"
+    }
+   ]
+  }
+ ]
+}
