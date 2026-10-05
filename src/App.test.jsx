@@ -37,9 +37,10 @@ describe("buildSingleTitle", () => {
     // SV1S(スカーレットex)の実データはsetNameEn="Scarlet ex"のため、シリーズ名
     // "Scarlet & Violet"と組み合わせると"Scarlet & Violet Scarlet ex"となり、
     // 年号・Holo・レアリティフルスペルまで全部載せると80文字を超える。
-    // 優先度の低いものから落とされ、最終的に必須要素（優先度1〜8）だけが残ることを確認する
+    // 優先度の低いものから落とし、そのあと落とした要素を優先度の高い順に戻して収まるものは残す
+    // （セット英語名は入らないが、発売年と Holo は入る。2026-10-05 までは必須要素だけの54文字になっていた）
     expect(buildSingleTitle(baseCard)).toBe(
-      "Charizard ex SAR 201/165 Japanese SV1S Pokemon Card NM"
+      "Charizard ex SAR 201/165 Japanese SV1S Pokemon Card NM 2023 Holo"
     );
   });
 
@@ -147,6 +148,14 @@ describe("buildModernTitle", () => {
     const noYearSet = { ...modernCard, setCode: "S-P" }; // TCGdexに存在しないためy無し
     expect(() => buildModernTitle(noYearSet)).not.toThrow();
     expect(buildModernTitle(noYearSet)).not.toContain("undefined");
+  });
+
+  it("puts back an earlier-dropped element when dropping a later one alone is enough (SV8a-149)", () => {
+    // 発売年→セット英語名の順に落とすと両方消えて54文字になるが、セット英語名だけ落とせば発売年は入る（59文字）
+    const card = { ...DEFAULT_FORM, pokemonEn: "Scoop Up Cyclone", rarity: "", cardNo: "149/187", setCode: "SV8a", setNameEn: "Terastal Festival ex", condition: "NM" };
+    const title = buildModernTitle(card);
+    expect(title).toBe("Scoop Up Cyclone 149/187 Japanese SV8a Pokemon Card NM 2024");
+    expect(title.length).toBe(59);
   });
 
   it("respects a custom maxLength option, dropping all optional elements when it's tight", () => {

@@ -400,14 +400,29 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
 
   let title = assemble();
   // 優先度の低いものから順に1要素ずつ落とす
+  const dropped = [];
   for (const key of ["condition", "rarityWord"]) {
     if (title.length <= maxLength) break;
     if (include[key]) {
       include[key] = false;
+      dropped.push(key);
       title = assemble();
     }
   }
-  return title;
+  return restoreDroppedParts(include, dropped, ["rarityWord", "condition"], assemble, maxLength);
+}
+
+// 80文字調整の後、落とした要素（dropped）を優先度の高い順（priority）に1つずつ戻してみて、戻しても maxLength 以内なら残す。
+// 後から落とした要素だけで十分短くなる場合に、先に落とした要素まで失わないようにするため（例: SV8a-149 は発売年→セット英語名の順に
+// 落とすと54文字になるが、セット英語名だけ落とせば発売年は入る）。dropped からも戻した要素を除き、組み立て直したタイトルを返す
+function restoreDroppedParts(include, dropped, priority, assemble, maxLength) {
+  for (const key of priority) {
+    if (!dropped.includes(key)) continue;
+    include[key] = true;
+    if (assemble().length <= maxLength) dropped.splice(dropped.indexOf(key), 1);
+    else include[key] = false;
+  }
+  return assemble();
 }
 // 削除可能な4要素（優先度9〜12）の内部キー→UI表示用の日本語ラベル
 const MODERN_TITLE_DROPPABLE_LABELS = {
@@ -456,6 +471,7 @@ function assembleModernTitle(f, maxLength) {
       title = assemble();
     }
   }
+  title = restoreDroppedParts(include, dropped, ["setName", "year", "holo", "rarityFull"], assemble, maxLength);
   return { title, dropped };
 }
 export function buildModernTitle(f, { maxLength = 80 } = {}) {
