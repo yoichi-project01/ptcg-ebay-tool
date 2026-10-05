@@ -1,0 +1,1135 @@
+{
+ "note": "公式 details.php にレアリティのアイコンが無いカードについて、TCGdex（日本語版）・遊々亭・ポケカくらぶの表記を集めたもの（2026-10-06）。2つ以上で同じレアリティを示し、そのコードがアプリの選択肢（RARITIES）にあるものだけ fill-rarity-from-sources.mjs で入れる",
+ "cards": {
+  "S10a-027": {
+   "ja": "かがやくサーナイト",
+   "tcgdex": {
+    "rarity": "Radiant Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S10a-027"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくサーナイト"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s10a"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくサーナイト [S10A027]"
+    ],
+    "url": "https://www.pokeca.net/product-list/751"
+   }
+  },
+  "S10a-046": {
+   "ja": "かがやくヒスイ オオニューラ",
+   "tcgdex": {
+    "rarity": "Radiant Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S10a-046"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくヒスイオオニューラ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s10a"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくヒスイオオニューラ [S10A046]"
+    ],
+    "url": "https://www.pokeca.net/product-list/751"
+   }
+  },
+  "S10a-050": {
+   "ja": "かがやくハガネール",
+   "tcgdex": {
+    "rarity": "Radiant Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S10a-050"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくハガネール"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s10a"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくハガネール [S10A050]"
+    ],
+    "url": "https://www.pokeca.net/product-list/751"
+   }
+  },
+  "S10b-004": {
+   "ja": "かがやくフシギバナ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S10b-004"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくフシギバナ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s10b"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくフシギバナ [S10B004]"
+    ],
+    "url": "https://www.pokeca.net/product-list/760"
+   }
+  },
+  "S10b-011": {
+   "ja": "かがやくリザードン",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S10b-011"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくリザードン"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s10b"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくリザードン（オリジナルイラスト） [S10B011]"
+    ],
+    "url": "https://www.pokeca.net/product-list/760"
+   }
+  },
+  "S10b-018": {
+   "ja": "かがやくカメックス",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S10b-018"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくカメックス"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s10b"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくカメックス [S10B018]"
+    ],
+    "url": "https://www.pokeca.net/product-list/760"
+   }
+  },
+  "S10b-053": {
+   "ja": "メタモン",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S10b-053"
+   },
+   "yuyutei": {
+    "entries": [
+     "- メタモン"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s10b"
+   },
+   "pokeca": {
+    "entries": [
+     "メタモン（イトマルタイプ） [S10B053]",
+     "メタモン（ドンメルタイプ） [S10B053]",
+     "メタモン（ビッパタイプ） [S10B053]"
+    ],
+    "url": "https://www.pokeca.net/product-list/760"
+   }
+  },
+  "S10b-055": {
+   "ja": "かがやくイーブイ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S10b-055"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくイーブイ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s10b"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくイーブイ [S10B055]"
+    ],
+    "url": "https://www.pokeca.net/product-list/760"
+   }
+  },
+  "S11a-009": {
+   "ja": "かがやくアマージョ",
+   "tcgdex": {
+    "rarity": "Radiant Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S11a-009"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくアマージョ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s11a"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくアマージョ [S11A009]"
+    ],
+    "url": "https://www.pokeca.net/product-list/778"
+   }
+  },
+  "S11a-031": {
+   "ja": "かがやくフーディン",
+   "tcgdex": {
+    "rarity": "Radiant Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S11a-031"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくフーディン"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s11a"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくフーディン [S11A031]"
+    ],
+    "url": "https://www.pokeca.net/product-list/778"
+   }
+  },
+  "S11a-045": {
+   "ja": "かがやくジラーチ",
+   "tcgdex": {
+    "rarity": "Radiant Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S11a-045"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくジラーチ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s11a"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくジラーチ [S11A045]"
+    ],
+    "url": "https://www.pokeca.net/product-list/778"
+   }
+  },
+  "S9a-011": {
+   "ja": "かがやくヒードラン",
+   "tcgdex": {
+    "rarity": "(なし)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S9a-011"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくヒードラン"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s09a"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくヒードラン [S9AB011]"
+    ],
+    "url": "https://www.pokeca.net/product-list/723"
+   }
+  },
+  "S9a-026": {
+   "ja": "かがやくゲッコウガ",
+   "tcgdex": {
+    "rarity": "(なし)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S9a-026"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくゲッコウガ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s09a"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくゲッコウガ（オリジナル） [S9AB026]"
+    ],
+    "url": "https://www.pokeca.net/product-list/723"
+   }
+  },
+  "S9a-043": {
+   "ja": "かがやくルチャブル",
+   "tcgdex": {
+    "rarity": "(なし)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S9a-043"
+   },
+   "yuyutei": {
+    "entries": [
+     "K かがやくルチャブル"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s09a"
+   },
+   "pokeca": {
+    "entries": [
+     "かがやくルチャブル [S9AB043]"
+    ],
+    "url": "https://www.pokeca.net/product-list/723"
+   }
+  },
+  "SV5M-062": {
+   "ja": "プライムキャッチャー",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV5M-062"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE プライムキャッチャー"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv05m"
+   },
+   "pokeca": {
+    "entries": [
+     "プライムキャッチャー（ACE SPEC） [SV5M062]"
+    ],
+    "url": "https://www.pokeca.net/product-list/940"
+   }
+  },
+  "SV5M-063": {
+   "ja": "リブートポッド",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV5M-063"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE リブートポッド"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv05m"
+   },
+   "pokeca": {
+    "entries": [
+     "リブートポッド（ACE SPEC・未来） [SV5M063]"
+    ],
+    "url": "https://www.pokeca.net/product-list/940"
+   }
+  },
+  "SV5M-064": {
+   "ja": "ヒーローマント",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV5M-064"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE ヒーローマント"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv05m"
+   },
+   "pokeca": {
+    "entries": [
+     "ヒーローマント（ACE SPEC） [SV5M064]"
+    ],
+    "url": "https://www.pokeca.net/product-list/940"
+   }
+  },
+  "SV6-092": {
+   "ja": "シークレットボックス",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV6-092"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE シークレットボックス"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv06"
+   },
+   "pokeca": {
+    "entries": [
+     "シークレットボックス（ACE SPEC） [SV6H092]"
+    ],
+    "url": "https://www.pokeca.net/product-list/985"
+   }
+  },
+  "SV6-093": {
+   "ja": "ポケモン回収サイクロン",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV6-093"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE ポケモン回収サイクロン"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv06"
+   },
+   "pokeca": {
+    "entries": [
+     "ポケモン回収サイクロン（ACE SPEC） [SV6H093]"
+    ],
+    "url": "https://www.pokeca.net/product-list/985"
+   }
+  },
+  "SV6-101": {
+   "ja": "レガシーエネルギー",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV6-101"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE レガシーエネルギー"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv06"
+   },
+   "pokeca": {
+    "entries": [
+     "レガシーエネルギー（ACE SPEC） [SV6H101]"
+    ],
+    "url": "https://www.pokeca.net/product-list/985"
+   }
+  },
+  "SV6a-054": {
+   "ja": "デンジャラス光線",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV6a-054"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE デンジャラス光線"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv06a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": null
+   }
+  },
+  "SV6a-055": {
+   "ja": "ポケバイタルA",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV6a-055"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE ポケバイタルA"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv06a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": null
+   }
+  },
+  "SV6a-063": {
+   "ja": "ニュートラルセンター",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV6a-063"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE ニュートラルセンター"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv06a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": null
+   }
+  },
+  "SV7-094": {
+   "ja": "きらめく結晶",
+   "tcgdex": {
+    "rarity": "None",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV7-094"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE きらめく結晶"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv07"
+   },
+   "pokeca": {
+    "entries": [
+     "きらめく結晶（ACE SPEC） [SV7S094]"
+    ],
+    "url": "https://www.pokeca.net/product-list/1006"
+   }
+  },
+  "SV7-096": {
+   "ja": "デラックスボム",
+   "tcgdex": {
+    "rarity": "None",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV7-096"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE デラックスボム"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv07"
+   },
+   "pokeca": {
+    "entries": [
+     "デラックスボム（ACE SPEC） [SV7S096]"
+    ],
+    "url": "https://www.pokeca.net/product-list/1006"
+   }
+  },
+  "SV7-101": {
+   "ja": "偉大な大樹",
+   "tcgdex": {
+    "rarity": "None",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV7-101"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE 偉大な大樹"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv07"
+   },
+   "pokeca": {
+    "entries": [
+     "偉大な大樹（ACE SPEC） [SV7S101]"
+    ],
+    "url": "https://www.pokeca.net/product-list/1006"
+   }
+  },
+  "SV8-095": {
+   "ja": "スクランブルスイッチ",
+   "tcgdex": {
+    "rarity": "None",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV8-095"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE スクランブルスイッチ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv08"
+   },
+   "pokeca": {
+    "entries": [
+     "スクランブルスイッチ（ACE SPEC） [SV8C095]"
+    ],
+    "url": "https://www.pokeca.net/product-list/1032"
+   }
+  },
+  "SV8-097": {
+   "ja": "ミラクルインカム",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV8-097"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE ミラクルインカム"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv08"
+   },
+   "pokeca": {
+    "entries": [
+     "ミラクルインカム（ACE SPEC） [SV8C097]"
+    ],
+    "url": "https://www.pokeca.net/product-list/1032"
+   }
+  },
+  "SV8-098": {
+   "ja": "希望のアミュレット",
+   "tcgdex": {
+    "rarity": "ACE SPEC Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV8-098"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE 希望のアミュレット"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv08"
+   },
+   "pokeca": {
+    "entries": [
+     "希望のアミュレット（ACE SPEC） [SV8C098]"
+    ],
+    "url": "https://www.pokeca.net/product-list/1032"
+   }
+  },
+  "SV5a-053": {
+   "ja": "アンフェアスタンプ",
+   "tcgdex": {
+    "rarity": "(なし)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV5a-053"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE アンフェアスタンプ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv05a"
+   },
+   "pokeca": {
+    "entries": [
+     "アンフェアスタンプ（ACE SPEC） [SV5A053]"
+    ],
+    "url": "https://www.pokeca.net/product-list/973"
+   }
+  },
+  "SV5a-055": {
+   "ja": "ハイパーアロマ",
+   "tcgdex": {
+    "rarity": "(なし)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV5a-055"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE ハイパーアロマ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv05a"
+   },
+   "pokeca": {
+    "entries": [
+     "ハイパーアロマ（ACE SPEC） [SV5A055]"
+    ],
+    "url": "https://www.pokeca.net/product-list/973"
+   }
+  },
+  "SV5a-059": {
+   "ja": "サバイブギプス",
+   "tcgdex": {
+    "rarity": "(なし)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SV5a-059"
+   },
+   "yuyutei": {
+    "entries": [
+     "ACE サバイブギプス"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sv05a"
+   },
+   "pokeca": {
+    "entries": [
+     "サバイブギプス（ACE SPEC） [SV5A059]"
+    ],
+    "url": "https://www.pokeca.net/product-list/973"
+   }
+  },
+  "SM3p-004": {
+   "ja": "ひかるセレビィ",
+   "tcgdex": {
+    "rarity": "Shiny Ultra Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3p-004"
+   },
+   "yuyutei": {
+    "entries": [
+     "H ひかるセレビィ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+   },
+   "pokeca": {
+    "entries": [
+     "ひかるセレビィ [SM3+004]"
+    ],
+    "url": "https://www.pokeca.net/product-list/195"
+   }
+  },
+  "SM3p-010": {
+   "ja": "ひかるゲノセクト",
+   "tcgdex": {
+    "rarity": "Shiny Ultra Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3p-010"
+   },
+   "yuyutei": {
+    "entries": [
+     "H ひかるゲノセクト"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+   },
+   "pokeca": {
+    "entries": [
+     "ひかるゲノセクト [SM3+010]"
+    ],
+    "url": "https://www.pokeca.net/product-list/195"
+   }
+  },
+  "SM3p-028": {
+   "ja": "ひかるボルケニオン",
+   "tcgdex": {
+    "rarity": "Shiny Ultra Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3p-028"
+   },
+   "yuyutei": {
+    "entries": [
+     "H ひかるボルケニオン"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+   },
+   "pokeca": {
+    "entries": [
+     "ひかるボルケニオン [SM3+028]"
+    ],
+    "url": "https://www.pokeca.net/product-list/195"
+   }
+  },
+  "SM3p-041": {
+   "ja": "ひかるミュウ",
+   "tcgdex": {
+    "rarity": "Shiny Ultra Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3p-041"
+   },
+   "yuyutei": {
+    "entries": [
+     "H ひかるミュウ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+   },
+   "pokeca": {
+    "entries": [
+     "ひかるミュウ [SM3+041]"
+    ],
+    "url": "https://www.pokeca.net/product-list/195"
+   }
+  },
+  "SM3p-043": {
+   "ja": "ひかるジラーチ",
+   "tcgdex": {
+    "rarity": "Shiny Ultra Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3p-043"
+   },
+   "yuyutei": {
+    "entries": [
+     "H ひかるジラーチ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+   },
+   "pokeca": {
+    "entries": [
+     "ひかるジラーチ [SM3+043]"
+    ],
+    "url": "https://www.pokeca.net/product-list/195"
+   }
+  },
+  "SM3p-057": {
+   "ja": "ひかるレックウザ",
+   "tcgdex": {
+    "rarity": "Shiny Ultra Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3p-057"
+   },
+   "yuyutei": {
+    "entries": [
+     "H ひかるレックウザ"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+   },
+   "pokeca": {
+    "entries": [
+     "ひかるレックウザ [SM3+057]"
+    ],
+    "url": "https://www.pokeca.net/product-list/195"
+   }
+  },
+  "SM3p-058": {
+   "ja": "ひかるルギア",
+   "tcgdex": {
+    "rarity": "Shiny Ultra Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3p-058"
+   },
+   "yuyutei": {
+    "entries": [
+     "H ひかるルギア"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+   },
+   "pokeca": {
+    "entries": [
+     "ひかるルギア [SM3+058]"
+    ],
+    "url": "https://www.pokeca.net/product-list/195"
+   }
+  },
+  "SM3p-059": {
+   "ja": "ひかるアルセウス",
+   "tcgdex": {
+    "rarity": "Shiny Ultra Rare",
+    "url": "https://api.tcgdex.net/v2/ja/cards/SM3p-059"
+   },
+   "yuyutei": {
+    "entries": [
+     "H ひかるアルセウス"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+   },
+   "pokeca": {
+    "entries": [
+     "ひかるアルセウス [SM3+059]"
+    ],
+    "url": "https://www.pokeca.net/product-list/195"
+   }
+  },
+  "S8a-001": {
+   "ja": "ピカチュウ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-001"
+   },
+   "yuyutei": {
+    "entries": [
+     "- ピカチュウ(キラ)",
+     "- ピカチュウ(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-002": {
+   "ja": "ミュウ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-002"
+   },
+   "yuyutei": {
+    "entries": [
+     "- ミュウ(キラ)",
+     "- ミュウ(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-003": {
+   "ja": "博士の研究",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-003"
+   },
+   "yuyutei": {
+    "entries": [
+     "- 博士の研究[オーキド博士](キラ)",
+     "- 博士の研究[オーキド博士](ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-004": {
+   "ja": "ホウオウ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-004"
+   },
+   "yuyutei": {
+    "entries": [
+     "- ホウオウ(キラ)",
+     "- ホウオウ(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-005": {
+   "ja": "ルギア",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-005"
+   },
+   "yuyutei": {
+    "entries": [
+     "- ルギア(ミラー)",
+     "- ルギア(キラ)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-006": {
+   "ja": "グラードン",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-006"
+   },
+   "yuyutei": {
+    "entries": [
+     "- グラードン(キラ)",
+     "- グラードン(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-007": {
+   "ja": "カイオーガ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-007"
+   },
+   "yuyutei": {
+    "entries": [
+     "- カイオーガ(キラ)",
+     "- カイオーガ(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-008": {
+   "ja": "ディアルガ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-008"
+   },
+   "yuyutei": {
+    "entries": [
+     "- ディアルガ(キラ)",
+     "- ディアルガ(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-009": {
+   "ja": "パルキア",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-009"
+   },
+   "yuyutei": {
+    "entries": [
+     "- パルキア(キラ)",
+     "- パルキア(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-010": {
+   "ja": "レシラム",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-010"
+   },
+   "yuyutei": {
+    "entries": [
+     "- レシラム(キラ)",
+     "- レシラム(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-011": {
+   "ja": "ゼクロム",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-011"
+   },
+   "yuyutei": {
+    "entries": [
+     "- ゼクロム(キラ)",
+     "- ゼクロム(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-012": {
+   "ja": "ゼルネアス",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-012"
+   },
+   "yuyutei": {
+    "entries": [
+     "- ゼルネアス(キラ)",
+     "- ゼルネアス(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-013": {
+   "ja": "イベルタル",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-013"
+   },
+   "yuyutei": {
+    "entries": [
+     "- イベルタル(キラ)",
+     "- イベルタル(ミラー)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-014": {
+   "ja": "コスモッグ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-014"
+   },
+   "yuyutei": {
+    "entries": [
+     "- コスモッグ(ミラー)",
+     "- コスモッグ(キラ)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-015": {
+   "ja": "コスモウム",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-015"
+   },
+   "yuyutei": {
+    "entries": [
+     "- コスモウム(ミラー)",
+     "- コスモウム(キラ)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-016": {
+   "ja": "ソルガレオ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-016"
+   },
+   "yuyutei": {
+    "entries": [
+     "- ソルガレオ(ミラー)",
+     "- ソルガレオ(キラ)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-017": {
+   "ja": "ルナアーラ",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-017"
+   },
+   "yuyutei": {
+    "entries": [
+     "- ルナアーラ(ミラー)",
+     "- ルナアーラ(キラ)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-025": {
+   "ja": "ピカチュウV-UNION",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-025"
+   },
+   "yuyutei": {
+    "entries": [
+     "RRR ピカチュウV-UNION(左上)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-026": {
+   "ja": "ピカチュウV-UNION",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-026"
+   },
+   "yuyutei": {
+    "entries": [
+     "RRR ピカチュウV-UNION(右上)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-027": {
+   "ja": "ピカチュウV-UNION",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-027"
+   },
+   "yuyutei": {
+    "entries": [
+     "RRR ピカチュウV-UNION(左下)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  },
+  "S8a-028": {
+   "ja": "ピカチュウV-UNION",
+   "tcgdex": {
+    "rarity": "(404)",
+    "url": "https://api.tcgdex.net/v2/ja/cards/S8a-028"
+   },
+   "yuyutei": {
+    "entries": [
+     "RRR ピカチュウV-UNION(右下)"
+    ],
+    "url": "https://yuyu-tei.jp/sell/poc/s/s08a"
+   },
+   "pokeca": {
+    "entries": [],
+    "url": "https://www.pokeca.net/product-list/681"
+   }
+  }
+ }
+}
