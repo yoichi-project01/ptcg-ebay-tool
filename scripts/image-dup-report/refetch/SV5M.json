@@ -1,0 +1,65 @@
+{
+ "set": "SV5M",
+ "checkedAt": "2026-10-05T04:45:20.897Z",
+ "refetched": [
+  {
+   "cardId": "SV5M-068",
+   "set": "SV5M",
+   "local": "068",
+   "name": "セイジ",
+   "rarity": "U",
+   "image": "cards/SV/SV5M/セイジ_SV5M-068／100_U.jpg",
+   "officialCardId": "45285",
+   "officialRarity": "U",
+   "thumb": "/assets/images/card_images/large/SV5M/045285_T_SEIJI.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SV5M/セイジ_SV5M-068／100_U.jpg"
+  },
+  {
+   "cardId": "SV5M-069",
+   "set": "SV5M",
+   "local": "069",
+   "name": "ベルのまごころ",
+   "rarity": "U",
+   "image": "cards/SV/SV5M/ベルのまごころ_SV5M-069／100_U.jpg",
+   "officialCardId": "45286",
+   "officialRarity": "U",
+   "thumb": "/assets/images/card_images/large/SV5M/045286_T_BERUNOMAGOKORO.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SV5M/ベルのまごころ_SV5M-069／100_U.jpg"
+  },
+  {
+   "cardId": "SV5M-096",
+   "set": "SV5M",
+   "local": "096",
+   "name": "セイジ",
+   "rarity": "SAR",
+   "image": "cards/SV/SV5M/セイジ_SV5M-096／100_SAR.jpg",
+   "officialCardId": "45568",
+   "officialRarity": "SAR",
+   "thumb": "/assets/images/card_images/large/SV5M/045568_T_SEIJI.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SV5M/セイジ_SV5M-096／100_SAR.jpg"
+  },
+  {
+   "cardId": "SV5M-097",
+   "set": "SV5M",
+   "local": "097",
+   "name": "ベルのまごころ",
+   "rarity": "SAR",
+   "image": "cards/SV/SV5M/ベルのまごころ_SV5M-097／100_SAR.jpg",
+   "officialCardId": "45569",
+   "officialRarity": "SAR",
+   "thumb": "/assets/images/card_images/large/SV5M/045569_T_BERUNOMAGOKORO.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SV5M/ベルのまごころ_SV5M-097／100_SAR.jpg"
+  }
+ ],
+ "notFound": [],
+ "nameMismatch": [],
+ "verify": {
+  "checkedAt": "2026-10-05T04:45:34.635Z",
+  "remainingDuplicates": [],
+  "officialSameImage": []
+ }
+}
