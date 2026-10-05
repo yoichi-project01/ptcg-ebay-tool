@@ -1,0 +1,562 @@
+{
+ "at": "2026-10-05T15:09:47.311Z",
+ "set": "SV9a",
+ "count": {
+  "入れる": 29
+ },
+ "renamed": [
+  {
+   "id": "SV9a-064",
+   "from": "cards/SV/SV9a/ヤンヤンマ_SV9a-64／92.jpg",
+   "to": "cards/SV/SV9a/ヤンヤンマ_SV9a-64／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-065",
+   "from": "cards/SV/SV9a/シロナのロズレイド_SV9a-65／92.jpg",
+   "to": "cards/SV/SV9a/シロナのロズレイド_SV9a-65／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-066",
+   "from": "cards/SV/SV9a/シェイミ_SV9a-66／92.jpg",
+   "to": "cards/SV/SV9a/シェイミ_SV9a-66／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-067",
+   "from": "cards/SV/SV9a/イワパレス_SV9a-67／92.jpg",
+   "to": "cards/SV/SV9a/イワパレス_SV9a-67／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-068",
+   "from": "cards/SV/SV9a/カミツオロチ_SV9a-68／92.jpg",
+   "to": "cards/SV/SV9a/カミツオロチ_SV9a-68／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-069",
+   "from": "cards/SV/SV9a/ギャロップ_SV9a-69／92.jpg",
+   "to": "cards/SV/SV9a/ギャロップ_SV9a-69／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-070",
+   "from": "cards/SV/SV9a/ヒビキのバクフーン_SV9a-70／92.jpg",
+   "to": "cards/SV/SV9a/ヒビキのバクフーン_SV9a-70／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-071",
+   "from": "cards/SV/SV9a/カスミのコダック_SV9a-71／92.jpg",
+   "to": "cards/SV/SV9a/カスミのコダック_SV9a-71／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-072",
+   "from": "cards/SV/SV9a/カスミのラプラス_SV9a-72／92.jpg",
+   "to": "cards/SV/SV9a/カスミのラプラス_SV9a-72／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-073",
+   "from": "cards/SV/SV9a/ラクライ_SV9a-73／92.jpg",
+   "to": "cards/SV/SV9a/ラクライ_SV9a-73／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-074",
+   "from": "cards/SV/SV9a/ロトム_SV9a-74／92.jpg",
+   "to": "cards/SV/SV9a/ロトム_SV9a-74／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-075",
+   "from": "cards/SV/SV9a/ペパーのヨクバリス_SV9a-75／92.jpg",
+   "to": "cards/SV/SV9a/ペパーのヨクバリス_SV9a-75／92_AR.jpg"
+  },
+  {
+   "id": "SV9a-076",
+   "from": "cards/SV/SV9a/メガヤンマex_SV9a-76／92.jpg",
+   "to": "cards/SV/SV9a/メガヤンマex_SV9a-76／92_SR.jpg"
+  },
+  {
+   "id": "SV9a-077",
+   "from": "cards/SV/SV9a/ヒビキのホウオウex_SV9a-77／92.jpg",
+   "to": "cards/SV/SV9a/ヒビキのホウオウex_SV9a-77／92_SR.jpg"
+  },
+  {
+   "id": "SV9a-078",
+   "from": "cards/SV/SV9a/ヘイラッシャex_SV9a-78／92.jpg",
+   "to": "cards/SV/SV9a/ヘイラッシャex_SV9a-78／92_SR.jpg"
+  },
+  {
+   "id": "SV9a-079",
+   "from": "cards/SV/SV9a/エレキブルex_SV9a-79／92.jpg",
+   "to": "cards/SV/SV9a/エレキブルex_SV9a-79／92_SR.jpg"
+  },
+  {
+   "id": "SV9a-080",
+   "from": "cards/SV/SV9a/シロナのガブリアスex_SV9a-80／92.jpg",
+   "to": "cards/SV/SV9a/シロナのガブリアスex_SV9a-80／92_SR.jpg"
+  },
+  {
+   "id": "SV9a-081",
+   "from": "cards/SV/SV9a/ペパーのマフィティフex_SV9a-81／92.jpg",
+   "to": "cards/SV/SV9a/ペパーのマフィティフex_SV9a-81／92_SR.jpg"
+  },
+  {
+   "id": "SV9a-082",
+   "from": "cards/SV/SV9a/MCの盛り上げ_SV9a-82／92.jpg",
+   "to": "cards/SV/SV9a/MCの盛り上げ_SV9a-82／92_SR.jpg"
+  },
+  {
+   "id": "SV9a-083",
+   "from": "cards/SV/SV9a/ジャッジマン_SV9a-83／92.jpg",
+   "to": "cards/SV/SV9a/ジャッジマン_SV9a-83／92_SR.jpg"
+  },
+  {
+   "id": "SV9a-084",
+   "from": "cards/SV/SV9a/ヒビキの冒険_SV9a-84／92.jpg",
+   "to": "cards/SV/SV9a/ヒビキの冒険_SV9a-84／92_SR.jpg"
+  },
+  {
+   "id": "SV9a-085",
+   "from": "cards/SV/SV9a/メガヤンマex_SV9a-85／92.jpg",
+   "to": "cards/SV/SV9a/メガヤンマex_SV9a-85／92_SAR.jpg"
+  },
+  {
+   "id": "SV9a-086",
+   "from": "cards/SV/SV9a/ヒビキのホウオウex_SV9a-86／92.jpg",
+   "to": "cards/SV/SV9a/ヒビキのホウオウex_SV9a-86／92_SAR.jpg"
+  },
+  {
+   "id": "SV9a-087",
+   "from": "cards/SV/SV9a/シロナのガブリアスex_SV9a-87／92.jpg",
+   "to": "cards/SV/SV9a/シロナのガブリアスex_SV9a-87／92_SAR.jpg"
+  },
+  {
+   "id": "SV9a-088",
+   "from": "cards/SV/SV9a/ペパーのマフィティフex_SV9a-88／92.jpg",
+   "to": "cards/SV/SV9a/ペパーのマフィティフex_SV9a-88／92_SAR.jpg"
+  },
+  {
+   "id": "SV9a-089",
+   "from": "cards/SV/SV9a/ヒビキの冒険_SV9a-89／92.jpg",
+   "to": "cards/SV/SV9a/ヒビキの冒険_SV9a-89／92_SAR.jpg"
+  },
+  {
+   "id": "SV9a-090",
+   "from": "cards/SV/SV9a/ヒビキのホウオウex_SV9a-90／92.jpg",
+   "to": "cards/SV/SV9a/ヒビキのホウオウex_SV9a-90／92_UR.jpg"
+  },
+  {
+   "id": "SV9a-091",
+   "from": "cards/SV/SV9a/シロナのガブリアスex_SV9a-91／92.jpg",
+   "to": "cards/SV/SV9a/シロナのガブリアスex_SV9a-91／92_UR.jpg"
+  },
+  {
+   "id": "SV9a-092",
+   "from": "cards/SV/SV9a/ハッコウシティ_SV9a-92／92.jpg",
+   "to": "cards/SV/SV9a/ハッコウシティ_SV9a-92／92_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV9a-064",
+   "ja": "ヤンヤンマ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47365",
+     "jaName": "ヤンヤンマ",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-065",
+   "ja": "シロナのロズレイド",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47366",
+     "jaName": "シロナのロズレイド",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-066",
+   "ja": "シェイミ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47367",
+     "jaName": "シェイミ",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-067",
+   "ja": "イワパレス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47368",
+     "jaName": "イワパレス",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-068",
+   "ja": "カミツオロチ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47369",
+     "jaName": "カミツオロチ",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-069",
+   "ja": "ギャロップ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47370",
+     "jaName": "ギャロップ",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-070",
+   "ja": "ヒビキのバクフーン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47371",
+     "jaName": "ヒビキのバクフーン",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-071",
+   "ja": "カスミのコダック",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47372",
+     "jaName": "カスミのコダック",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-072",
+   "ja": "カスミのラプラス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47373",
+     "jaName": "カスミのラプラス",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-073",
+   "ja": "ラクライ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47374",
+     "jaName": "ラクライ",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-074",
+   "ja": "ロトム",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47375",
+     "jaName": "ロトム",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-075",
+   "ja": "ペパーのヨクバリス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "47376",
+     "jaName": "ペパーのヨクバリス",
+     "rarity": "AR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-076",
+   "ja": "メガヤンマex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47377",
+     "jaName": "メガヤンマex",
+     "rarity": "SR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-077",
+   "ja": "ヒビキのホウオウex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47378",
+     "jaName": "ヒビキのホウオウex",
+     "rarity": "SR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-078",
+   "ja": "ヘイラッシャex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47379",
+     "jaName": "ヘイラッシャex",
+     "rarity": "SR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-079",
+   "ja": "エレキブルex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47380",
+     "jaName": "エレキブルex",
+     "rarity": "SR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-080",
+   "ja": "シロナのガブリアスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47381",
+     "jaName": "シロナのガブリアスex",
+     "rarity": "SR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-081",
+   "ja": "ペパーのマフィティフex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47382",
+     "jaName": "ペパーのマフィティフex",
+     "rarity": "SR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-082",
+   "ja": "MCの盛り上げ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47383",
+     "jaName": "MCの盛り上げ",
+     "rarity": "SR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-083",
+   "ja": "ジャッジマン",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47384",
+     "jaName": "ジャッジマン",
+     "rarity": "SR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-084",
+   "ja": "ヒビキの冒険",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47385",
+     "jaName": "ヒビキの冒険",
+     "rarity": "SR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-085",
+   "ja": "メガヤンマex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47386",
+     "jaName": "メガヤンマex",
+     "rarity": "SAR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-086",
+   "ja": "ヒビキのホウオウex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47387",
+     "jaName": "ヒビキのホウオウex",
+     "rarity": "SAR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-087",
+   "ja": "シロナのガブリアスex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47388",
+     "jaName": "シロナのガブリアスex",
+     "rarity": "SAR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-088",
+   "ja": "ペパーのマフィティフex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47389",
+     "jaName": "ペパーのマフィティフex",
+     "rarity": "SAR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-089",
+   "ja": "ヒビキの冒険",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47390",
+     "jaName": "ヒビキの冒険",
+     "rarity": "SAR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-090",
+   "ja": "ヒビキのホウオウex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47391",
+     "jaName": "ヒビキのホウオウex",
+     "rarity": "UR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-091",
+   "ja": "シロナのガブリアスex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47392",
+     "jaName": "シロナのガブリアスex",
+     "rarity": "UR",
+     "badge": "SV9a"
+    }
+   ]
+  },
+  {
+   "id": "SV9a-092",
+   "ja": "ハッコウシティ",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47393",
+     "jaName": "ハッコウシティ",
+     "rarity": "UR",
+     "badge": "SV9a"
+    }
+   ]
+  }
+ ]
+}

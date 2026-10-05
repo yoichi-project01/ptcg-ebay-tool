@@ -635,5 +635,21 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV9a/047392_P_SHIRONANOGABURIASUEX.jpg"
+ },
+ "47393": {
+  "badge": "SV9a",
+  "cards": [
+   {
+    "local": "092",
+    "total": "063",
+    "rarity": "UR",
+    "jaName": "ハッコウシティ",
+    "cardThumbFile": "/assets/images/card_images/large/SV9a/047393_T_HAKKOUSHITEI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV9a/047393_T_HAKKOUSHITEI.jpg"
  }
 }
