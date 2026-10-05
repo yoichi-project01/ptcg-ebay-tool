@@ -1,0 +1,39 @@
+{
+ "set": "S5I",
+ "checkedAt": "2026-10-05T02:38:50.077Z",
+ "refetched": [
+  {
+   "cardId": "S5I-053",
+   "set": "S5I",
+   "local": "053",
+   "name": "ギルガルド",
+   "rarity": "R",
+   "image": "cards/S/S5I/ギルガルド_S5I-53／81_R.jpg",
+   "officialCardId": "39113",
+   "officialRarity": "R",
+   "thumb": "/assets/images/card_images/large/S5I/039113_P_GIRUGARUDO.jpg",
+   "changed": false,
+   "newImage": "cards/S/S5I/ギルガルド_S5I-53／81_R.jpg"
+  },
+  {
+   "cardId": "S5I-054",
+   "set": "S5I",
+   "local": "054",
+   "name": "ギルガルド",
+   "rarity": "U",
+   "image": "cards/S/S5I/ギルガルド_S5I-54／81_U.jpg",
+   "officialCardId": "39114",
+   "officialRarity": "U",
+   "thumb": "/assets/images/card_images/large/S5I/039114_P_GIRUGARUDO.jpg",
+   "changed": true,
+   "newImage": "cards/S/S5I/ギルガルド_S5I-54／81_U.jpg"
+  }
+ ],
+ "notFound": [],
+ "nameMismatch": [],
+ "verify": {
+  "checkedAt": "2026-10-05T02:38:56.179Z",
+  "remainingDuplicates": [],
+  "officialSameImage": []
+ }
+}
