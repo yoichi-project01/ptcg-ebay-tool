@@ -843,5 +843,21 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV1V/044949_T_FUSHIGINAAME.jpg"
+ },
+ "44950": {
+  "badge": "SV1V",
+  "cards": [
+   {
+    "local": "108",
+    "total": "078",
+    "rarity": "UR",
+    "jaName": "基本雷エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV1V/044950_E_KIHONKAMINARIENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV1V/044950_E_KIHONKAMINARIENERUGI.jpg"
  }
 }
