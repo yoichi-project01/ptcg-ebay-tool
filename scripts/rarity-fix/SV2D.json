@@ -1,0 +1,543 @@
+{
+ "at": "2026-10-05T15:08:27.962Z",
+ "set": "SV2D",
+ "count": {
+  "入れる": 28
+ },
+ "renamed": [
+  {
+   "id": "SV2D-072",
+   "from": "cards/SV/SV2D/ヘラクロス_SV2D-72／99.jpg",
+   "to": "cards/SV/SV2D/ヘラクロス_SV2D-72／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-073",
+   "from": "cards/SV/SV2D/ヒノヤコマ_SV2D-73／99.jpg",
+   "to": "cards/SV/SV2D/ヒノヤコマ_SV2D-73／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-074",
+   "from": "cards/SV/SV2D/ライチュウ_SV2D-74／99.jpg",
+   "to": "cards/SV/SV2D/ライチュウ_SV2D-74／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-075",
+   "from": "cards/SV/SV2D/スナバァ_SV2D-75／99.jpg",
+   "to": "cards/SV/SV2D/スナバァ_SV2D-75／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-076",
+   "from": "cards/SV/SV2D/カヌチャン_SV2D-76／99.jpg",
+   "to": "cards/SV/SV2D/カヌチャン_SV2D-76／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-077",
+   "from": "cards/SV/SV2D/ナカヌチャン_SV2D-77／99.jpg",
+   "to": "cards/SV/SV2D/ナカヌチャン_SV2D-77／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-078",
+   "from": "cards/SV/SV2D/コジオ_SV2D-78／99.jpg",
+   "to": "cards/SV/SV2D/コジオ_SV2D-78／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-079",
+   "from": "cards/SV/SV2D/バンギラス_SV2D-79／99.jpg",
+   "to": "cards/SV/SV2D/バンギラス_SV2D-79／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-080",
+   "from": "cards/SV/SV2D/タギングル_SV2D-80／99.jpg",
+   "to": "cards/SV/SV2D/タギングル_SV2D-80／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-081",
+   "from": "cards/SV/SV2D/イッカネズミ_SV2D-81／99.jpg",
+   "to": "cards/SV/SV2D/イッカネズミ_SV2D-81／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-082",
+   "from": "cards/SV/SV2D/カラミンゴ_SV2D-82／99.jpg",
+   "to": "cards/SV/SV2D/カラミンゴ_SV2D-82／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-083",
+   "from": "cards/SV/SV2D/リキキリン_SV2D-83／99.jpg",
+   "to": "cards/SV/SV2D/リキキリン_SV2D-83／99_AR.jpg"
+  },
+  {
+   "id": "SV2D-084",
+   "from": "cards/SV/SV2D/フォレトスex_SV2D-84／99.jpg",
+   "to": "cards/SV/SV2D/フォレトスex_SV2D-84／99_SR.jpg"
+  },
+  {
+   "id": "SV2D-085",
+   "from": "cards/SV/SV2D/イーユイex_SV2D-85／99.jpg",
+   "to": "cards/SV/SV2D/イーユイex_SV2D-85／99_SR.jpg"
+  },
+  {
+   "id": "SV2D-086",
+   "from": "cards/SV/SV2D/ハラバリーex_SV2D-86／99.jpg",
+   "to": "cards/SV/SV2D/ハラバリーex_SV2D-86／99_SR.jpg"
+  },
+  {
+   "id": "SV2D-087",
+   "from": "cards/SV/SV2D/デカヌチャンex_SV2D-87／99.jpg",
+   "to": "cards/SV/SV2D/デカヌチャンex_SV2D-87／99_SR.jpg"
+  },
+  {
+   "id": "SV2D-088",
+   "from": "cards/SV/SV2D/ディンルーex_SV2D-88／99.jpg",
+   "to": "cards/SV/SV2D/ディンルーex_SV2D-88／99_SR.jpg"
+  },
+  {
+   "id": "SV2D-089",
+   "from": "cards/SV/SV2D/オンバーンex_SV2D-89／99.jpg",
+   "to": "cards/SV/SV2D/オンバーンex_SV2D-89／99_SR.jpg"
+  },
+  {
+   "id": "SV2D-090",
+   "from": "cards/SV/SV2D/サワロ_SV2D-90／99.jpg",
+   "to": "cards/SV/SV2D/サワロ_SV2D-90／99_SR.jpg"
+  },
+  {
+   "id": "SV2D-091",
+   "from": "cards/SV/SV2D/ナンジャモ_SV2D-91／99.jpg",
+   "to": "cards/SV/SV2D/ナンジャモ_SV2D-91／99_SR.jpg"
+  },
+  {
+   "id": "SV2D-092",
+   "from": "cards/SV/SV2D/イーユイex_SV2D-92／99.jpg",
+   "to": "cards/SV/SV2D/イーユイex_SV2D-92／99_SAR.jpg"
+  },
+  {
+   "id": "SV2D-093",
+   "from": "cards/SV/SV2D/デカヌチャンex_SV2D-93／99.jpg",
+   "to": "cards/SV/SV2D/デカヌチャンex_SV2D-93／99_SAR.jpg"
+  },
+  {
+   "id": "SV2D-094",
+   "from": "cards/SV/SV2D/ディンルーex_SV2D-94／99.jpg",
+   "to": "cards/SV/SV2D/ディンルーex_SV2D-94／99_SAR.jpg"
+  },
+  {
+   "id": "SV2D-095",
+   "from": "cards/SV/SV2D/サワロ_SV2D-95／99.jpg",
+   "to": "cards/SV/SV2D/サワロ_SV2D-95／99_SAR.jpg"
+  },
+  {
+   "id": "SV2D-096",
+   "from": "cards/SV/SV2D/ナンジャモ_SV2D-96／99.jpg",
+   "to": "cards/SV/SV2D/ナンジャモ_SV2D-96／99_SAR.jpg"
+  },
+  {
+   "id": "SV2D-097",
+   "from": "cards/SV/SV2D/ディンルーex_SV2D-97／99.jpg",
+   "to": "cards/SV/SV2D/ディンルーex_SV2D-97／99_UR.jpg"
+  },
+  {
+   "id": "SV2D-098",
+   "from": "cards/SV/SV2D/スーパーエネルギー回収_SV2D-98／99.jpg",
+   "to": "cards/SV/SV2D/スーパーエネルギー回収_SV2D-98／99_UR.jpg"
+  },
+  {
+   "id": "SV2D-099",
+   "from": "cards/SV/SV2D/基本草エネルギー_SV2D-99／99.jpg",
+   "to": "cards/SV/SV2D/基本草エネルギー_SV2D-99／99_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV2D-072",
+   "ja": "ヘラクロス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43640",
+     "jaName": "ヘラクロス",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-073",
+   "ja": "ヒノヤコマ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43641",
+     "jaName": "ヒノヤコマ",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-074",
+   "ja": "ライチュウ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43642",
+     "jaName": "ライチュウ",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-075",
+   "ja": "スナバァ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43643",
+     "jaName": "スナバァ",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-076",
+   "ja": "カヌチャン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43644",
+     "jaName": "カヌチャン",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-077",
+   "ja": "ナカヌチャン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43645",
+     "jaName": "ナカヌチャン",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-078",
+   "ja": "コジオ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43646",
+     "jaName": "コジオ",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-079",
+   "ja": "バンギラス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43647",
+     "jaName": "バンギラス",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-080",
+   "ja": "タギングル",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43648",
+     "jaName": "タギングル",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-081",
+   "ja": "イッカネズミ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43649",
+     "jaName": "イッカネズミ",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-082",
+   "ja": "カラミンゴ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43650",
+     "jaName": "カラミンゴ",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-083",
+   "ja": "リキキリン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43651",
+     "jaName": "リキキリン",
+     "rarity": "AR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-084",
+   "ja": "フォレトスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43652",
+     "jaName": "フォレトスex",
+     "rarity": "SR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-085",
+   "ja": "イーユイex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43653",
+     "jaName": "イーユイex",
+     "rarity": "SR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-086",
+   "ja": "ハラバリーex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43654",
+     "jaName": "ハラバリーex",
+     "rarity": "SR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-087",
+   "ja": "デカヌチャンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43655",
+     "jaName": "デカヌチャンex",
+     "rarity": "SR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-088",
+   "ja": "ディンルーex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43656",
+     "jaName": "ディンルーex",
+     "rarity": "SR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-089",
+   "ja": "オンバーンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43657",
+     "jaName": "オンバーンex",
+     "rarity": "SR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-090",
+   "ja": "サワロ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43658",
+     "jaName": "サワロ",
+     "rarity": "SR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-091",
+   "ja": "ナンジャモ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43659",
+     "jaName": "ナンジャモ",
+     "rarity": "SR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-092",
+   "ja": "イーユイex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43660",
+     "jaName": "イーユイex",
+     "rarity": "SAR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-093",
+   "ja": "デカヌチャンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43661",
+     "jaName": "デカヌチャンex",
+     "rarity": "SAR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-094",
+   "ja": "ディンルーex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43662",
+     "jaName": "ディンルーex",
+     "rarity": "SAR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-095",
+   "ja": "サワロ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43663",
+     "jaName": "サワロ",
+     "rarity": "SAR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-096",
+   "ja": "ナンジャモ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43664",
+     "jaName": "ナンジャモ",
+     "rarity": "SAR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-097",
+   "ja": "ディンルーex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44957",
+     "jaName": "ディンルーex",
+     "rarity": "UR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-098",
+   "ja": "スーパーエネルギー回収",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44958",
+     "jaName": "スーパーエネルギー回収",
+     "rarity": "UR",
+     "badge": "SV2D"
+    }
+   ]
+  },
+  {
+   "id": "SV2D-099",
+   "ja": "基本草エネルギー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44959",
+     "jaName": "基本草エネルギー",
+     "rarity": "UR",
+     "badge": "SV2D"
+    }
+   ]
+  }
+ ]
+}

@@ -752,5 +752,37 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV2D/044957_P_DEINRUEX.jpg"
+ },
+ "44958": {
+  "badge": "SV2D",
+  "cards": [
+   {
+    "local": "098",
+    "total": "071",
+    "rarity": "UR",
+    "jaName": "スーパーエネルギー回収",
+    "cardThumbFile": "/assets/images/card_images/large/SV2D/044958_T_SUPAENERUGIKAISHIXYUU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV2D/044958_T_SUPAENERUGIKAISHIXYUU.jpg"
+ },
+ "44959": {
+  "badge": "SV2D",
+  "cards": [
+   {
+    "local": "099",
+    "total": "071",
+    "rarity": "UR",
+    "jaName": "基本草エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV2D/044959_E_KIHONKUSAENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV2D/044959_E_KIHONKUSAENERUGI.jpg"
  }
 }
