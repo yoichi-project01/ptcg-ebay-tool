@@ -2316,6 +2316,34 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
     「英語名なし」の警告を出す方法もある（すぐできる。出品時は手入力）。
   - 英語名が空のカードは 16,579件（全21,389件のうち英語名があるのは 4,810件）。こちらを埋めるのは同じ方法の延長だが件数が多く、別の作業。
 
+### 対応（2026-10-05）: 英語版に無い英語名 71件を空欄にし、2つの情報源で一致した英語名を入れた（デルタ種28件の δ も）
+
+上の調査の続き。英語名が空の 16,579件を埋めるのは対象外。
+
+1. **空欄化（71725d1）**: `scripts/blank-en-not-in-english.mjs` で `scripts/en-name-check/affected.tsv` の71件（インドネシア語版の名前 57件・
+   メガニウム等の誤り 14件）の英語名を空欄にした（出品時に「英語名なし」の警告が出るつなぎ）。
+2. **正しい英語名を入れた（98件 = 上の71件＋デルタ種28件のうち δ が無かった27件と、71件に含まれていた PCG9-045）**:
+   `scripts/fix-en-names.mjs --apply`。次の2つが一致したものだけ入れた。
+   - Bulbapedia の日本版の弾のカード一覧（Setlist）の英語名。Bulbapedia はスクリプトから開けない（Cloudflare）ため、ブラウザで各弾のページの
+     wikitext から書き写した（`scripts/en-name-fix/bulbapedia.tsv`。日本版の弾は英語版の弾のページに載っている。例 SV4a は「Paldean Fates (TCG)」の
+     Shiny Treasure ex の一覧、SV8a は「Terastal Fest ex (TCG)」、SV9a は「Hot Wind Arena (TCG)」）
+   - TCGdex 英語版に、その英語名で、TCGdex 日本語版と同じイラストレーター・同じ種類（サポート/グッズ/どうぐ。ポケモンは図鑑番号）のカードがあること。
+     旧裏・PCG（TCGdex 日本語版にイラストレーターが無い）は、対応する英語版の弾（EX Delta Species＝ex11 等）に同じ英語名・図鑑番号のカードがあること。
+   - 日本版と英語版の弾の対応は、TCGdex のポケモンのカード（図鑑番号＋イラストレーター）の重なりで確かめた（SV1S/SV1V→sv01、SV1a/SV2D/SV2P→sv02、
+     SV2a→sv03.5、SV4a→sv04.5、SV8a→sv08.5、SV9a→sv10、M1S→me01、M2→me02）。ただし再録は別の弾の英語版にある（例 SV8a-145 テラスタルオーブ＝
+     sv08 の Tera Orb、SV4a-171 オモダカ＝sv03 の Geeta）ため、イラストレーターと種類だけで決めると取り違える（テラスタルオーブ→Hand Trimmer に
+     なった）。そのため TCGdex だけでは決めず、Bulbapedia の名前が TCGdex に実在するかで確かめた。
+   - **結果: 98件すべて一致して直した。空欄のまま残ったものは0件**。例: ペパー→Arven、ナンジャモ→Iono、ボタン→Penny、ネモ→Nemona、
+     ポケモン回収サイクロン→Scoop Up Cyclone、テラスタルオーブ→Tera Orb、ゴージャスマント→Luxurious Cape、ワザマシン エヴォリューション→
+     Technical Machine: Evolution、メガニウム→Meganium（6件、PCG9-045 は Meganium δ）、メガリザードンXex→Mega Charizard X ex、
+     オーガポン みどりのめん→Teal Mask Ogerpon、ギャラドススター（デルタ種）→Gyarados ☆ δ、クロバット（デルタ種）→Crobat δ。
+   - 確認: 直した後、英語版のカード名に無い英語名は0件（`check-en-names.mjs`）。テスト157件通過。
+   - 根拠: `scripts/en-name-fix/decisions.tsv`（各カードの変更前後・Bulbapedia のページ・日本語版のイラストレーター・一致した TCGdex 英語版のカード）、
+     `summary.json`、直した card_id は `changed-card-ids.txt`（98件）。`fix-en-names.mjs` を `--apply` なしで実行すると `decisions-check.tsv` に書く
+     （根拠ファイルは上書きしない）。`check-en-names.mjs` は実行すると `en-name-check/affected.tsv` を作り直す（空欄化した71件の一覧は 0c75b61 の版）。
+- **気づいた別の誤り（未修正）**: SV4a の ja（弾名）が「レイジングサーフ」になっている（正しくはハイクラスパック シャイニートレジャーex。
+  レイジングサーフは SV3a）。
+
 ---
 
 ## ファイル構成
