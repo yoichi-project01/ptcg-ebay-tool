@@ -1,0 +1,68 @@
+{
+ "at": "2026-10-05T15:07:33.398Z",
+ "set": "S6H",
+ "count": {
+  "入れる": 3
+ },
+ "renamed": [
+  {
+   "id": "S6H-028",
+   "from": "cards/S/S6H/はくばバドレックスVMAX_S6H-28／83.jpg",
+   "to": "cards/S/S6H/はくばバドレックスVMAX_S6H-28／83_RRR.jpg"
+  },
+  {
+   "id": "S6H-044",
+   "from": "cards/S/S6H/サダイジャVMAX_S6H-44／83.jpg",
+   "to": "cards/S/S6H/サダイジャVMAX_S6H-44／83_RRR.jpg"
+  },
+  {
+   "id": "S6H-058",
+   "from": "cards/S/S6H/トルネロスVMAX_S6H-58／83.jpg",
+   "to": "cards/S/S6H/トルネロスVMAX_S6H-58／83_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S6H-028",
+   "ja": "はくばバドレックスVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "39388",
+     "jaName": "はくばバドレックスVMAX",
+     "rarity": "RRR",
+     "badge": "S6H"
+    }
+   ]
+  },
+  {
+   "id": "S6H-044",
+   "ja": "サダイジャVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "39404",
+     "jaName": "サダイジャVMAX",
+     "rarity": "RRR",
+     "badge": "S6H"
+    }
+   ]
+  },
+  {
+   "id": "S6H-058",
+   "ja": "トルネロスVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "39418",
+     "jaName": "トルネロスVMAX",
+     "rarity": "RRR",
+     "badge": "S6H"
+    }
+   ]
+  }
+ ]
+}
