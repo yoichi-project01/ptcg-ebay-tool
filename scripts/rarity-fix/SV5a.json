@@ -1,0 +1,603 @@
+{
+ "at": "2026-10-05T15:09:19.724Z",
+ "set": "SV5a",
+ "count": {
+  "details.php 未取得": 3,
+  "入れる": 30
+ },
+ "renamed": [
+  {
+   "id": "SV5a-067",
+   "from": "cards/SV/SV5a/カイロス_SV5a-67／96.jpg",
+   "to": "cards/SV/SV5a/カイロス_SV5a-67／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-068",
+   "from": "cards/SV/SV5a/チャデス_SV5a-68／96.jpg",
+   "to": "cards/SV/SV5a/チャデス_SV5a-68／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-069",
+   "from": "cards/SV/SV5a/コータス_SV5a-69／96.jpg",
+   "to": "cards/SV/SV5a/コータス_SV5a-69／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-070",
+   "from": "cards/SV/SV5a/ゴウカザル_SV5a-70／96.jpg",
+   "to": "cards/SV/SV5a/ゴウカザル_SV5a-70／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-071",
+   "from": "cards/SV/SV5a/フィオネ_SV5a-71／96.jpg",
+   "to": "cards/SV/SV5a/フィオネ_SV5a-71／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-072",
+   "from": "cards/SV/SV5a/ウッウ_SV5a-72／96.jpg",
+   "to": "cards/SV/SV5a/ウッウ_SV5a-72／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-073",
+   "from": "cards/SV/SV5a/エレザード_SV5a-73／96.jpg",
+   "to": "cards/SV/SV5a/エレザード_SV5a-73／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-074",
+   "from": "cards/SV/SV5a/ラブトロス_SV5a-74／96.jpg",
+   "to": "cards/SV/SV5a/ラブトロス_SV5a-74／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-075",
+   "from": "cards/SV/SV5a/ヒスイ ガーディ_SV5a-75／96.jpg",
+   "to": "cards/SV/SV5a/ヒスイ ガーディ_SV5a-75／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-076",
+   "from": "cards/SV/SV5a/ダイノーズ_SV5a-76／96.jpg",
+   "to": "cards/SV/SV5a/ダイノーズ_SV5a-76／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-077",
+   "from": "cards/SV/SV5a/カジッチュ_SV5a-77／96.jpg",
+   "to": "cards/SV/SV5a/カジッチュ_SV5a-77／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-078",
+   "from": "cards/SV/SV5a/イーブイ_SV5a-78／96.jpg",
+   "to": "cards/SV/SV5a/イーブイ_SV5a-78／96_AR.jpg"
+  },
+  {
+   "id": "SV5a-079",
+   "from": "cards/SV/SV5a/ヤバソチャex_SV5a-79／96.jpg",
+   "to": "cards/SV/SV5a/ヤバソチャex_SV5a-79／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-080",
+   "from": "cards/SV/SV5a/マグカルゴex_SV5a-80／96.jpg",
+   "to": "cards/SV/SV5a/マグカルゴex_SV5a-80／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-081",
+   "from": "cards/SV/SV5a/テツノイバラex_SV5a-81／96.jpg",
+   "to": "cards/SV/SV5a/テツノイバラex_SV5a-81／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-082",
+   "from": "cards/SV/SV5a/サケブシッポex_SV5a-82／96.jpg",
+   "to": "cards/SV/SV5a/サケブシッポex_SV5a-82／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-083",
+   "from": "cards/SV/SV5a/ゲッコウガex_SV5a-83／96.jpg",
+   "to": "cards/SV/SV5a/ゲッコウガex_SV5a-83／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-084",
+   "from": "cards/SV/SV5a/ガチグマ アカツキex_SV5a-84／96.jpg",
+   "to": "cards/SV/SV5a/ガチグマ アカツキex_SV5a-84／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-085",
+   "from": "cards/SV/SV5a/管理人_SV5a-85／96.jpg",
+   "to": "cards/SV/SV5a/管理人_SV5a-85／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-086",
+   "from": "cards/SV/SV5a/ゴヨウ_SV5a-86／96.jpg",
+   "to": "cards/SV/SV5a/ゴヨウ_SV5a-86／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-087",
+   "from": "cards/SV/SV5a/サザレ_SV5a-87／96.jpg",
+   "to": "cards/SV/SV5a/サザレ_SV5a-87／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-088",
+   "from": "cards/SV/SV5a/スイレンのお世話_SV5a-88／96.jpg",
+   "to": "cards/SV/SV5a/スイレンのお世話_SV5a-88／96_SR.jpg"
+  },
+  {
+   "id": "SV5a-089",
+   "from": "cards/SV/SV5a/ヤバソチャex_SV5a-89／96.jpg",
+   "to": "cards/SV/SV5a/ヤバソチャex_SV5a-89／96_SAR.jpg"
+  },
+  {
+   "id": "SV5a-090",
+   "from": "cards/SV/SV5a/ゲッコウガex_SV5a-90／96.jpg",
+   "to": "cards/SV/SV5a/ゲッコウガex_SV5a-90／96_SAR.jpg"
+  },
+  {
+   "id": "SV5a-091",
+   "from": "cards/SV/SV5a/ガチグマ アカツキex_SV5a-91／96.jpg",
+   "to": "cards/SV/SV5a/ガチグマ アカツキex_SV5a-91／96_SAR.jpg"
+  },
+  {
+   "id": "SV5a-092",
+   "from": "cards/SV/SV5a/サザレ_SV5a-92／96.jpg",
+   "to": "cards/SV/SV5a/サザレ_SV5a-92／96_SAR.jpg"
+  },
+  {
+   "id": "SV5a-093",
+   "from": "cards/SV/SV5a/スイレンのお世話_SV5a-93／96.jpg",
+   "to": "cards/SV/SV5a/スイレンのお世話_SV5a-93／96_SAR.jpg"
+  },
+  {
+   "id": "SV5a-094",
+   "from": "cards/SV/SV5a/ガチグマ アカツキex_SV5a-94／96.jpg",
+   "to": "cards/SV/SV5a/ガチグマ アカツキex_SV5a-94／96_UR.jpg"
+  },
+  {
+   "id": "SV5a-095",
+   "from": "cards/SV/SV5a/緊急ボード_SV5a-95／96.jpg",
+   "to": "cards/SV/SV5a/緊急ボード_SV5a-95／96_UR.jpg"
+  },
+  {
+   "id": "SV5a-096",
+   "from": "cards/SV/SV5a/ルミナスエネルギー_SV5a-96／96.jpg",
+   "to": "cards/SV/SV5a/ルミナスエネルギー_SV5a-96／96_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV5a-053",
+   "ja": "アンフェアスタンプ",
+   "status": "details.php 未取得",
+   "rarity": null,
+   "details": []
+  },
+  {
+   "id": "SV5a-055",
+   "ja": "ハイパーアロマ",
+   "status": "details.php 未取得",
+   "rarity": null,
+   "details": []
+  },
+  {
+   "id": "SV5a-059",
+   "ja": "サバイブギプス",
+   "status": "details.php 未取得",
+   "rarity": null,
+   "details": []
+  },
+  {
+   "id": "SV5a-067",
+   "ja": "カイロス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45662",
+     "jaName": "カイロス",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-068",
+   "ja": "チャデス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45663",
+     "jaName": "チャデス",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-069",
+   "ja": "コータス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45664",
+     "jaName": "コータス",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-070",
+   "ja": "ゴウカザル",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45665",
+     "jaName": "ゴウカザル",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-071",
+   "ja": "フィオネ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45666",
+     "jaName": "フィオネ",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-072",
+   "ja": "ウッウ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45667",
+     "jaName": "ウッウ",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-073",
+   "ja": "エレザード",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45668",
+     "jaName": "エレザード",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-074",
+   "ja": "ラブトロス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45669",
+     "jaName": "ラブトロス",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-075",
+   "ja": "ヒスイ ガーディ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45670",
+     "jaName": "ヒスイ ガーディ",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-076",
+   "ja": "ダイノーズ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45671",
+     "jaName": "ダイノーズ",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-077",
+   "ja": "カジッチュ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45672",
+     "jaName": "カジッチュ",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-078",
+   "ja": "イーブイ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "45673",
+     "jaName": "イーブイ",
+     "rarity": "AR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-079",
+   "ja": "ヤバソチャex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45674",
+     "jaName": "ヤバソチャex",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-080",
+   "ja": "マグカルゴex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45675",
+     "jaName": "マグカルゴex",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-081",
+   "ja": "テツノイバラex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45676",
+     "jaName": "テツノイバラex",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-082",
+   "ja": "サケブシッポex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45677",
+     "jaName": "サケブシッポex",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-083",
+   "ja": "ゲッコウガex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45678",
+     "jaName": "ゲッコウガex",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-084",
+   "ja": "ガチグマ アカツキex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45679",
+     "jaName": "ガチグマ アカツキex",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-085",
+   "ja": "管理人",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45680",
+     "jaName": "管理人",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-086",
+   "ja": "ゴヨウ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45681",
+     "jaName": "ゴヨウ",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-087",
+   "ja": "サザレ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45682",
+     "jaName": "サザレ",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-088",
+   "ja": "スイレンのお世話",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "45683",
+     "jaName": "スイレンのお世話",
+     "rarity": "SR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-089",
+   "ja": "ヤバソチャex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45684",
+     "jaName": "ヤバソチャex",
+     "rarity": "SAR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-090",
+   "ja": "ゲッコウガex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45685",
+     "jaName": "ゲッコウガex",
+     "rarity": "SAR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-091",
+   "ja": "ガチグマ アカツキex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45686",
+     "jaName": "ガチグマ アカツキex",
+     "rarity": "SAR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-092",
+   "ja": "サザレ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45687",
+     "jaName": "サザレ",
+     "rarity": "SAR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-093",
+   "ja": "スイレンのお世話",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "45688",
+     "jaName": "スイレンのお世話",
+     "rarity": "SAR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-094",
+   "ja": "ガチグマ アカツキex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "45689",
+     "jaName": "ガチグマ アカツキex",
+     "rarity": "UR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-095",
+   "ja": "緊急ボード",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "45690",
+     "jaName": "緊急ボード",
+     "rarity": "UR",
+     "badge": "SV5a"
+    }
+   ]
+  },
+  {
+   "id": "SV5a-096",
+   "ja": "ルミナスエネルギー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "45691",
+     "jaName": "ルミナスエネルギー",
+     "rarity": "UR",
+     "badge": "SV5a"
+    }
+   ]
+  }
+ ]
+}

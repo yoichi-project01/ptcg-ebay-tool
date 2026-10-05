@@ -233,6 +233,86 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV5a/045628_P_GACHIGUMAAKATSUKIEX.jpg"
  },
+ "45629": {
+  "badge": "SV5a",
+  "cards": [
+   {
+    "local": "054",
+    "total": "066",
+    "rarity": "U",
+    "jaName": "改造ハンマー",
+    "cardThumbFile": "/assets/images/card_images/large/SV5a/045629_T_KAIZOUHANMA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV5a/045629_T_KAIZOUHANMA.jpg"
+ },
+ "45630": {
+  "badge": "SV5a",
+  "cards": [
+   {
+    "local": "056",
+    "total": "066",
+    "rarity": "U",
+    "jaName": "ポケモンいれかえ",
+    "cardThumbFile": "/assets/images/card_images/large/SV5a/045630_T_POKEMONIREKAE.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV5a/045630_T_POKEMONIREKAE.jpg"
+ },
+ "45631": {
+  "badge": "SV5a",
+  "cards": [
+   {
+    "local": "057",
+    "total": "066",
+    "rarity": "U",
+    "jaName": "ポケモンキャッチャー",
+    "cardThumbFile": "/assets/images/card_images/large/SV5a/045631_T_POKEMONKIXYATCHIXYA.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV5a/045631_T_POKEMONKIXYATCHIXYA.jpg"
+ },
+ "45632": {
+  "badge": "SV5a",
+  "cards": [
+   {
+    "local": "058",
+    "total": "066",
+    "rarity": "U",
+    "jaName": "ラブラブボール",
+    "cardThumbFile": "/assets/images/card_images/large/SV5a/045632_T_RABURABUBORU.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV5a/045632_T_RABURABUBORU.jpg"
+ },
+ "45633": {
+  "badge": "SV5a",
+  "cards": [
+   {
+    "local": "060",
+    "total": "066",
+    "rarity": "U",
+    "jaName": "ラッキーメット",
+    "cardThumbFile": "/assets/images/card_images/large/SV5a/045633_T_RAKKIMETTO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "u_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV5a/045633_T_RAKKIMETTO.jpg"
+ },
  "45634": {
   "badge": "SV5a",
   "cards": [
@@ -648,5 +728,37 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV5a/045689_P_GACHIGUMAAKATSUKIEX.jpg"
+ },
+ "45690": {
+  "badge": "SV5a",
+  "cards": [
+   {
+    "local": "095",
+    "total": "066",
+    "rarity": "UR",
+    "jaName": "緊急ボード",
+    "cardThumbFile": "/assets/images/card_images/large/SV5a/045690_T_KINKIXYUUBODO.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV5a/045690_T_KINKIXYUUBODO.jpg"
+ },
+ "45691": {
+  "badge": "SV5a",
+  "cards": [
+   {
+    "local": "096",
+    "total": "066",
+    "rarity": "UR",
+    "jaName": "ルミナスエネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV5a/045691_E_RUMINASUENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV5a/045691_E_RUMINASUENERUGI.jpg"
  }
 }
