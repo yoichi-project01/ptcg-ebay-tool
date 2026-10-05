@@ -1,0 +1,153 @@
+{
+ "at": "2026-10-05T15:10:24.027Z",
+ "set": "S3a",
+ "count": {
+  "アイコンなし（マークの無いカード）": 6,
+  "入れる": 3
+ },
+ "renamed": [
+  {
+   "id": "S3a-032",
+   "from": "cards/S/S3a/マホイップVMAX_S3a-32／85.jpg",
+   "to": "cards/S/S3a/マホイップVMAX_S3a-32／85_RRR.jpg"
+  },
+  {
+   "id": "S3a-043",
+   "from": "cards/S/S3a/セキタンザンVMAX_S3a-43／85.jpg",
+   "to": "cards/S/S3a/セキタンザンVMAX_S3a-43／85_RRR.jpg"
+  },
+  {
+   "id": "S3a-059",
+   "from": "cards/S/S3a/トゲキッスVMAX_S3a-59／85.jpg",
+   "to": "cards/S/S3a/トゲキッスVMAX_S3a-59／85_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S3a-009",
+   "ja": "セレビィ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "38415",
+     "jaName": "セレビィ",
+     "rarity": "",
+     "badge": "S3a"
+    }
+   ]
+  },
+  {
+   "id": "S3a-015",
+   "ja": "ライコウ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "38421",
+     "jaName": "ライコウ",
+     "rarity": "",
+     "badge": "S3a"
+    }
+   ]
+  },
+  {
+   "id": "S3a-032",
+   "ja": "マホイップVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38438",
+     "jaName": "マホイップVMAX",
+     "rarity": "RRR",
+     "badge": "S3a"
+    }
+   ]
+  },
+  {
+   "id": "S3a-033",
+   "ja": "ザシアン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "38439",
+     "jaName": "ザシアン",
+     "rarity": "",
+     "badge": "S3a"
+    }
+   ]
+  },
+  {
+   "id": "S3a-043",
+   "ja": "セキタンザンVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38449",
+     "jaName": "セキタンザンVMAX",
+     "rarity": "RRR",
+     "badge": "S3a"
+    }
+   ]
+  },
+  {
+   "id": "S3a-044",
+   "ja": "ザマゼンタ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "38450",
+     "jaName": "ザマゼンタ",
+     "rarity": "",
+     "badge": "S3a"
+    }
+   ]
+  },
+  {
+   "id": "S3a-050",
+   "ja": "ジラーチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "38456",
+     "jaName": "ジラーチ",
+     "rarity": "",
+     "badge": "S3a"
+    }
+   ]
+  },
+  {
+   "id": "S3a-056",
+   "ja": "レックウザ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "38462",
+     "jaName": "レックウザ",
+     "rarity": "",
+     "badge": "S3a"
+    }
+   ]
+  },
+  {
+   "id": "S3a-059",
+   "ja": "トゲキッスVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "38465",
+     "jaName": "トゲキッスVMAX",
+     "rarity": "RRR",
+     "badge": "S3a"
+    }
+   ]
+  }
+ ]
+}
