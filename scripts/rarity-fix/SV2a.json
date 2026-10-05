@@ -1,0 +1,866 @@
+{
+ "at": "2026-10-05T15:08:37.529Z",
+ "set": "SV2a",
+ "count": {
+  "入れる": 45
+ },
+ "renamed": [
+  {
+   "id": "SV2a-166",
+   "from": "cards/SV/SV2a/フシギダネ_SV2a-166／210.jpg",
+   "to": "cards/SV/SV2a/フシギダネ_SV2a-166／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-167",
+   "from": "cards/SV/SV2a/フシギソウ_SV2a-167／210.jpg",
+   "to": "cards/SV/SV2a/フシギソウ_SV2a-167／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-168",
+   "from": "cards/SV/SV2a/ヒトカゲ_SV2a-168／210.jpg",
+   "to": "cards/SV/SV2a/ヒトカゲ_SV2a-168／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-169",
+   "from": "cards/SV/SV2a/リザード_SV2a-169／210.jpg",
+   "to": "cards/SV/SV2a/リザード_SV2a-169／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-170",
+   "from": "cards/SV/SV2a/ゼニガメ_SV2a-170／210.jpg",
+   "to": "cards/SV/SV2a/ゼニガメ_SV2a-170／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-171",
+   "from": "cards/SV/SV2a/カメール_SV2a-171／210.jpg",
+   "to": "cards/SV/SV2a/カメール_SV2a-171／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-172",
+   "from": "cards/SV/SV2a/キャタピー_SV2a-172／210.jpg",
+   "to": "cards/SV/SV2a/キャタピー_SV2a-172／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-173",
+   "from": "cards/SV/SV2a/ピカチュウ_SV2a-173／210.jpg",
+   "to": "cards/SV/SV2a/ピカチュウ_SV2a-173／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-174",
+   "from": "cards/SV/SV2a/ニドキング_SV2a-174／210.jpg",
+   "to": "cards/SV/SV2a/ニドキング_SV2a-174／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-175",
+   "from": "cards/SV/SV2a/コダック_SV2a-175／210.jpg",
+   "to": "cards/SV/SV2a/コダック_SV2a-175／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-176",
+   "from": "cards/SV/SV2a/ニョロゾ_SV2a-176／210.jpg",
+   "to": "cards/SV/SV2a/ニョロゾ_SV2a-176／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-177",
+   "from": "cards/SV/SV2a/ゴーリキー_SV2a-177／210.jpg",
+   "to": "cards/SV/SV2a/ゴーリキー_SV2a-177／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-178",
+   "from": "cards/SV/SV2a/モンジャラ_SV2a-178／210.jpg",
+   "to": "cards/SV/SV2a/モンジャラ_SV2a-178／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-179",
+   "from": "cards/SV/SV2a/バリヤード_SV2a-179／210.jpg",
+   "to": "cards/SV/SV2a/バリヤード_SV2a-179／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-180",
+   "from": "cards/SV/SV2a/オムナイト_SV2a-180／210.jpg",
+   "to": "cards/SV/SV2a/オムナイト_SV2a-180／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-181",
+   "from": "cards/SV/SV2a/カビゴン_SV2a-181／210.jpg",
+   "to": "cards/SV/SV2a/カビゴン_SV2a-181／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-182",
+   "from": "cards/SV/SV2a/ハクリュー_SV2a-182／210.jpg",
+   "to": "cards/SV/SV2a/ハクリュー_SV2a-182／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-183",
+   "from": "cards/SV/SV2a/ミュウツー_SV2a-183／210.jpg",
+   "to": "cards/SV/SV2a/ミュウツー_SV2a-183／210_AR.jpg"
+  },
+  {
+   "id": "SV2a-184",
+   "from": "cards/SV/SV2a/フシギバナex_SV2a-184／210.jpg",
+   "to": "cards/SV/SV2a/フシギバナex_SV2a-184／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-185",
+   "from": "cards/SV/SV2a/リザードンex_SV2a-185／210.jpg",
+   "to": "cards/SV/SV2a/リザードンex_SV2a-185／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-186",
+   "from": "cards/SV/SV2a/カメックスex_SV2a-186／210.jpg",
+   "to": "cards/SV/SV2a/カメックスex_SV2a-186／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-187",
+   "from": "cards/SV/SV2a/アーボックex_SV2a-187／210.jpg",
+   "to": "cards/SV/SV2a/アーボックex_SV2a-187／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-188",
+   "from": "cards/SV/SV2a/キュウコンex_SV2a-188／210.jpg",
+   "to": "cards/SV/SV2a/キュウコンex_SV2a-188／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-189",
+   "from": "cards/SV/SV2a/プクリンex_SV2a-189／210.jpg",
+   "to": "cards/SV/SV2a/プクリンex_SV2a-189／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-190",
+   "from": "cards/SV/SV2a/フーディンex_SV2a-190／210.jpg",
+   "to": "cards/SV/SV2a/フーディンex_SV2a-190／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-191",
+   "from": "cards/SV/SV2a/ゴローニャex_SV2a-191／210.jpg",
+   "to": "cards/SV/SV2a/ゴローニャex_SV2a-191／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-192",
+   "from": "cards/SV/SV2a/ガルーラex_SV2a-192／210.jpg",
+   "to": "cards/SV/SV2a/ガルーラex_SV2a-192／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-193",
+   "from": "cards/SV/SV2a/ルージュラex_SV2a-193／210.jpg",
+   "to": "cards/SV/SV2a/ルージュラex_SV2a-193／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-194",
+   "from": "cards/SV/SV2a/サンダーex_SV2a-194／210.jpg",
+   "to": "cards/SV/SV2a/サンダーex_SV2a-194／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-195",
+   "from": "cards/SV/SV2a/ミュウex_SV2a-195／210.jpg",
+   "to": "cards/SV/SV2a/ミュウex_SV2a-195／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-196",
+   "from": "cards/SV/SV2a/エリカの招待_SV2a-196／210.jpg",
+   "to": "cards/SV/SV2a/エリカの招待_SV2a-196／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-197",
+   "from": "cards/SV/SV2a/サカキのカリスマ_SV2a-197／210.jpg",
+   "to": "cards/SV/SV2a/サカキのカリスマ_SV2a-197／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-198",
+   "from": "cards/SV/SV2a/ナナミの手助け_SV2a-198／210.jpg",
+   "to": "cards/SV/SV2a/ナナミの手助け_SV2a-198／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-199",
+   "from": "cards/SV/SV2a/マサキの転送_SV2a-199／210.jpg",
+   "to": "cards/SV/SV2a/マサキの転送_SV2a-199／210_SR.jpg"
+  },
+  {
+   "id": "SV2a-200",
+   "from": "cards/SV/SV2a/フシギバナex_SV2a-200／210.jpg",
+   "to": "cards/SV/SV2a/フシギバナex_SV2a-200／210_SAR.jpg"
+  },
+  {
+   "id": "SV2a-201",
+   "from": "cards/SV/SV2a/リザードンex_SV2a-201／210.jpg",
+   "to": "cards/SV/SV2a/リザードンex_SV2a-201／210_SAR.jpg"
+  },
+  {
+   "id": "SV2a-202",
+   "from": "cards/SV/SV2a/カメックスex_SV2a-202／210.jpg",
+   "to": "cards/SV/SV2a/カメックスex_SV2a-202／210_SAR.jpg"
+  },
+  {
+   "id": "SV2a-203",
+   "from": "cards/SV/SV2a/フーディンex_SV2a-203／210.jpg",
+   "to": "cards/SV/SV2a/フーディンex_SV2a-203／210_SAR.jpg"
+  },
+  {
+   "id": "SV2a-204",
+   "from": "cards/SV/SV2a/サンダーex_SV2a-204／210.jpg",
+   "to": "cards/SV/SV2a/サンダーex_SV2a-204／210_SAR.jpg"
+  },
+  {
+   "id": "SV2a-205",
+   "from": "cards/SV/SV2a/ミュウex_SV2a-205／210.jpg",
+   "to": "cards/SV/SV2a/ミュウex_SV2a-205／210_SAR.jpg"
+  },
+  {
+   "id": "SV2a-206",
+   "from": "cards/SV/SV2a/エリカの招待_SV2a-206／210.jpg",
+   "to": "cards/SV/SV2a/エリカの招待_SV2a-206／210_SAR.jpg"
+  },
+  {
+   "id": "SV2a-207",
+   "from": "cards/SV/SV2a/サカキのカリスマ_SV2a-207／210.jpg",
+   "to": "cards/SV/SV2a/サカキのカリスマ_SV2a-207／210_SAR.jpg"
+  },
+  {
+   "id": "SV2a-208",
+   "from": "cards/SV/SV2a/ミュウex_SV2a-208／210.jpg",
+   "to": "cards/SV/SV2a/ミュウex_SV2a-208／210_UR.jpg"
+  },
+  {
+   "id": "SV2a-209",
+   "from": "cards/SV/SV2a/ポケモンいれかえ_SV2a-209／210.jpg",
+   "to": "cards/SV/SV2a/ポケモンいれかえ_SV2a-209／210_UR.jpg"
+  },
+  {
+   "id": "SV2a-210",
+   "from": "cards/SV/SV2a/基本超エネルギー_SV2a-210／210.jpg",
+   "to": "cards/SV/SV2a/基本超エネルギー_SV2a-210／210_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV2a-166",
+   "ja": "フシギダネ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43951",
+     "jaName": "フシギダネ",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-167",
+   "ja": "フシギソウ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43952",
+     "jaName": "フシギソウ",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-168",
+   "ja": "ヒトカゲ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43953",
+     "jaName": "ヒトカゲ",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-169",
+   "ja": "リザード",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43954",
+     "jaName": "リザード",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-170",
+   "ja": "ゼニガメ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43955",
+     "jaName": "ゼニガメ",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-171",
+   "ja": "カメール",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43956",
+     "jaName": "カメール",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-172",
+   "ja": "キャタピー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43957",
+     "jaName": "キャタピー",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-173",
+   "ja": "ピカチュウ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43958",
+     "jaName": "ピカチュウ",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-174",
+   "ja": "ニドキング",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43959",
+     "jaName": "ニドキング",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-175",
+   "ja": "コダック",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43960",
+     "jaName": "コダック",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-176",
+   "ja": "ニョロゾ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43961",
+     "jaName": "ニョロゾ",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-177",
+   "ja": "ゴーリキー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43962",
+     "jaName": "ゴーリキー",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-178",
+   "ja": "モンジャラ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43963",
+     "jaName": "モンジャラ",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-179",
+   "ja": "バリヤード",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43964",
+     "jaName": "バリヤード",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-180",
+   "ja": "オムナイト",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43965",
+     "jaName": "オムナイト",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-181",
+   "ja": "カビゴン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43966",
+     "jaName": "カビゴン",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-182",
+   "ja": "ハクリュー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43967",
+     "jaName": "ハクリュー",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-183",
+   "ja": "ミュウツー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "43968",
+     "jaName": "ミュウツー",
+     "rarity": "AR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-184",
+   "ja": "フシギバナex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43969",
+     "jaName": "フシギバナex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-185",
+   "ja": "リザードンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43970",
+     "jaName": "リザードンex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-186",
+   "ja": "カメックスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43971",
+     "jaName": "カメックスex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-187",
+   "ja": "アーボックex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43972",
+     "jaName": "アーボックex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-188",
+   "ja": "キュウコンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43973",
+     "jaName": "キュウコンex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-189",
+   "ja": "プクリンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43974",
+     "jaName": "プクリンex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-190",
+   "ja": "フーディンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43975",
+     "jaName": "フーディンex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-191",
+   "ja": "ゴローニャex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43976",
+     "jaName": "ゴローニャex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-192",
+   "ja": "ガルーラex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43977",
+     "jaName": "ガルーラex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-193",
+   "ja": "ルージュラex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43978",
+     "jaName": "ルージュラex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-194",
+   "ja": "サンダーex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43979",
+     "jaName": "サンダーex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-195",
+   "ja": "ミュウex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43980",
+     "jaName": "ミュウex",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-196",
+   "ja": "エリカの招待",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43981",
+     "jaName": "エリカの招待",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-197",
+   "ja": "サカキのカリスマ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43982",
+     "jaName": "サカキのカリスマ",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-198",
+   "ja": "ナナミの手助け",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43983",
+     "jaName": "ナナミの手助け",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-199",
+   "ja": "マサキの転送",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "43984",
+     "jaName": "マサキの転送",
+     "rarity": "SR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-200",
+   "ja": "フシギバナex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43985",
+     "jaName": "フシギバナex",
+     "rarity": "SAR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-201",
+   "ja": "リザードンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43986",
+     "jaName": "リザードンex",
+     "rarity": "SAR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-202",
+   "ja": "カメックスex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43987",
+     "jaName": "カメックスex",
+     "rarity": "SAR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-203",
+   "ja": "フーディンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43988",
+     "jaName": "フーディンex",
+     "rarity": "SAR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-204",
+   "ja": "サンダーex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43989",
+     "jaName": "サンダーex",
+     "rarity": "SAR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-205",
+   "ja": "ミュウex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43990",
+     "jaName": "ミュウex",
+     "rarity": "SAR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-206",
+   "ja": "エリカの招待",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43991",
+     "jaName": "エリカの招待",
+     "rarity": "SAR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-207",
+   "ja": "サカキのカリスマ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "43992",
+     "jaName": "サカキのカリスマ",
+     "rarity": "SAR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-208",
+   "ja": "ミュウex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44960",
+     "jaName": "ミュウex",
+     "rarity": "UR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-209",
+   "ja": "ポケモンいれかえ",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44961",
+     "jaName": "ポケモンいれかえ",
+     "rarity": "UR",
+     "badge": "SV2a"
+    }
+   ]
+  },
+  {
+   "id": "SV2a-210",
+   "ja": "基本超エネルギー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44962",
+     "jaName": "基本超エネルギー",
+     "rarity": "UR",
+     "badge": "SV2a"
+    }
+   ]
+  }
+ ]
+}

@@ -999,5 +999,37 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV2a/044960_P_MIXYUUEX.jpg"
+ },
+ "44961": {
+  "badge": "SV2a",
+  "cards": [
+   {
+    "local": "209",
+    "total": "165",
+    "rarity": "UR",
+    "jaName": "ポケモンいれかえ",
+    "cardThumbFile": "/assets/images/card_images/large/SV2a/044961_T_POKEMONIREKAE.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV2a/044961_T_POKEMONIREKAE.jpg"
+ },
+ "44962": {
+  "badge": "SV2a",
+  "cards": [
+   {
+    "local": "210",
+    "total": "165",
+    "rarity": "UR",
+    "jaName": "基本超エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV2a/044962_E_KIHONCHIXYOUENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV2a/044962_E_KIHONCHIXYOUENERUGI.jpg"
  }
 }
