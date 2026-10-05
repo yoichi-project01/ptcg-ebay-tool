@@ -1,0 +1,37 @@
+{
+ "at": "2026-10-05T15:25:35.429Z",
+ "results": [
+  {
+   "id": "SV8-095",
+   "ja": "スクランブルスイッチ",
+   "votes": {
+    "yuyutei": "ACE",
+    "pokeca": "ACE"
+   },
+   "status": "入れる",
+   "rarity": "ACE"
+  },
+  {
+   "id": "SV8-097",
+   "ja": "ミラクルインカム",
+   "votes": {
+    "yuyutei": "ACE",
+    "pokeca": "ACE",
+    "tcgdex": "ACE"
+   },
+   "status": "入れる",
+   "rarity": "ACE"
+  },
+  {
+   "id": "SV8-098",
+   "ja": "希望のアミュレット",
+   "votes": {
+    "yuyutei": "ACE",
+    "pokeca": "ACE",
+    "tcgdex": "ACE"
+   },
+   "status": "入れる",
+   "rarity": "ACE"
+  }
+ ]
+}
