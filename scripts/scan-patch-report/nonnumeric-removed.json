@@ -1,0 +1,204 @@
+{
+ "removedAt": "2026-10-05",
+ "reason": "数字でない型番の行。公式 details.php の番号で確かめられないため削除（ユーザー判断）",
+ "removed": [
+  {
+   "cardId": "SLD-DAR",
+   "ja": "基本悪エネルギー",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SLL-FIG",
+   "ja": "基本闘エネルギー",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SN-LIG",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SPD-PSY",
+   "ja": "基本超エネルギー",
+   "rarity": "",
+   "image": "cards/S/SPD/基本超エネルギー_SPD-PSY.jpg"
+  },
+  {
+   "cardId": "SPZ-LIG",
+   "ja": "基本雷エネルギー",
+   "rarity": "",
+   "image": "cards/S/SPZ/基本雷エネルギー_SPZ-LIG.jpg"
+  },
+  {
+   "cardId": "SVB-DAR",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVB-FIG",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVB-FIR",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVB-GRA",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVB-LIG",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVB-MET",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVB-PSY",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVB-WAT",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVD-DAR",
+   "ja": "リバーサルエネルギー",
+   "rarity": "",
+   "image": "cards/SV/SVD/リバーサルエネルギー_SVD-DAR.jpg"
+  },
+  {
+   "cardId": "SVD-FIG",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVD-FIR",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVD-GRA",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVD-LIG",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVD-MET",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVD-PSY",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVD-WAT",
+   "ja": "",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVF-DAR",
+   "ja": "基本炎エネルギー",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVF-FIG",
+   "ja": "基本水エネルギー",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVF-FIR",
+   "ja": "基本雷エネルギー",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVF-GRA",
+   "ja": "基本超エネルギー",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVF-LIG",
+   "ja": "基本闘エネルギー",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVF-MET",
+   "ja": "基本悪エネルギー",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVF-PSY",
+   "ja": "基本鋼エネルギー",
+   "rarity": "",
+   "image": null
+  },
+  {
+   "cardId": "SVF-WAT",
+   "ja": "ダブルターボエネルギー",
+   "rarity": "",
+   "image": "cards/SV/SVF/ダブルターボエネルギー_SVF-WAT.jpg"
+  },
+  {
+   "cardId": "SVHK-FIG",
+   "ja": "すごいつりざお",
+   "rarity": "",
+   "image": "cards/SV/SVHK/すごいつりざお_SVHK-FIG.jpg"
+  },
+  {
+   "cardId": "SVHK-FIR",
+   "ja": "ダークパッチ",
+   "rarity": "",
+   "image": "cards/SV/SVHK/ダークパッチ_SVHK-FIR.jpg"
+  },
+  {
+   "cardId": "SVHM-LIG",
+   "ja": "すごいつりざお",
+   "rarity": "",
+   "image": "cards/SV/SVHM/すごいつりざお_SVHM-LIG.jpg"
+  },
+  {
+   "cardId": "SVHM-PSY",
+   "ja": "ダークパッチ",
+   "rarity": "",
+   "image": "cards/SV/SVHM/ダークパッチ_SVHM-PSY.jpg"
+  }
+ ]
+}

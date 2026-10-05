@@ -2243,6 +2243,11 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
   入れ替わったため、既存の索引のファイルがあれば使い続けるようにした。さらに `--keep-keys` で既存のキーだけ更新できるようにした
   （SVD・SVF で画像の無い行に確かめていない古いファイルが入ったため。入った16件は外して元に戻した）。取り直し前（dfe99d4）と比べて、
   画像索引のキー・パスの変化は0件（取り直しはファイルの中身だけを置き換えた）。
+- **追記（2026-10-05）**: SJ は `patch-from-scan.mjs --full-fetch --set SJ` → `--rebuild --set SJ` で作り直した（018〜030 の名前・画像を訂正、13枚、
+  追加・削除なし。`scan-patch-report/SJ-rebuild.json`・`SJ-changed-card-ids.txt`、verify-rebuilt-sets で 30/30 一致）。
+  **数字でない型番の行 33件を削除**（SLD・SLL・SN・SPD・SPZ・SVB・SVD・SVF・SVHK・SVHM の DAR・FIG・FIR 等。公式で確かめられないため、ユーザー判断。
+  画像の対応表からも8キーを外した。画像ファイルは残す）。`scripts/remove-nonnumeric-rows.mjs`、一覧は
+  `scan-patch-report/nonnumeric-removed-card-ids.txt`・`nonnumeric-removed.json`。PMCG（28枚）は引き続き対象外。
 - **カイトリレーダーへの反映**: 取り直した card_id（`refetched-card-ids.txt`、少なくとも `changed-card-ids.txt`）を R2 へ送り直し
   （`upload-card-images --remote --ids-file … --force`）、見本の特徴を作り直す（`build-card-features --remote`）。
 
