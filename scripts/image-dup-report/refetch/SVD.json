@@ -1,0 +1,143 @@
+{
+ "set": "SVD",
+ "checkedAt": "2026-10-05T05:16:23.403Z",
+ "refetched": [
+  {
+   "cardId": "SVD-043",
+   "set": "SVD",
+   "local": "043",
+   "name": "カイデン",
+   "rarity": "",
+   "image": "cards/SV/SVD/カイデン_SVD-043／139.jpg",
+   "officialCardId": "43745",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043745_P_KAIDEN.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SVD/カイデン_SVD-043／139.jpg"
+  },
+  {
+   "cardId": "SVD-044",
+   "set": "SVD",
+   "local": "044",
+   "name": "カイデン",
+   "rarity": "",
+   "image": "cards/SV/SVD/カイデン_SVD-044／139.jpg",
+   "officialCardId": "43746",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043746_P_KAIDEN.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SVD/カイデン_SVD-044／139.jpg"
+  },
+  {
+   "cardId": "SVD-101",
+   "set": "SVD",
+   "local": "101",
+   "name": "グルトン",
+   "rarity": "",
+   "image": "cards/SV/SVD/グルトン_SVD-101／139.jpg",
+   "officialCardId": "43803",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043803_P_GURUTON.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SVD/グルトン_SVD-101／139.jpg"
+  },
+  {
+   "cardId": "SVD-102",
+   "set": "SVD",
+   "local": "102",
+   "name": "グルトン",
+   "rarity": "",
+   "image": "cards/SV/SVD/グルトン_SVD-102／139.jpg",
+   "officialCardId": "43804",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043804_P_GURUTON.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SVD/グルトン_SVD-102／139.jpg"
+  },
+  {
+   "cardId": "SVD-104",
+   "set": "SVD",
+   "local": "104",
+   "name": "ワッカネズミ",
+   "rarity": "",
+   "image": "cards/SV/SVD/ワッカネズミ_SVD-104／139.jpg",
+   "officialCardId": "43806",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043806_P_WAKKANEZUMI.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SVD/ワッカネズミ_SVD-104／139.jpg"
+  },
+  {
+   "cardId": "SVD-105",
+   "set": "SVD",
+   "local": "105",
+   "name": "ワッカネズミ",
+   "rarity": "",
+   "image": "cards/SV/SVD/ワッカネズミ_SVD-105／139.jpg",
+   "officialCardId": "43807",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043807_P_WAKKANEZUMI.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SVD/ワッカネズミ_SVD-105／139.jpg"
+  },
+  {
+   "cardId": "SVD-133",
+   "set": "SVD",
+   "local": "133",
+   "name": "ネモ",
+   "rarity": "",
+   "image": "cards/SV/SVD/ネモ_SVD-133／139.jpg",
+   "officialCardId": "43835",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043835_T_NEMOKAKO.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SVD/ネモ_SVD-133／139.jpg"
+  },
+  {
+   "cardId": "SVD-134",
+   "set": "SVD",
+   "local": "134",
+   "name": "ネモ",
+   "rarity": "",
+   "image": "cards/SV/SVD/ネモ_SVD-134／139.jpg",
+   "officialCardId": "43836",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043836_T_NEMOMIRAI.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SVD/ネモ_SVD-134／139.jpg"
+  },
+  {
+   "cardId": "SVD-135",
+   "set": "SVD",
+   "local": "135",
+   "name": "博士の研究",
+   "rarity": "",
+   "image": "cards/SV/SVD/博士の研究_SVD-135／139.jpg",
+   "officialCardId": "43837",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043837_T_HAKASENOKENKIXYUUORIMUHAKASE.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SVD/博士の研究_SVD-135／139.jpg"
+  },
+  {
+   "cardId": "SVD-136",
+   "set": "SVD",
+   "local": "136",
+   "name": "博士の研究",
+   "rarity": "",
+   "image": "cards/SV/SVD/博士の研究_SVD-136／139.jpg",
+   "officialCardId": "43838",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SVD/043838_T_HAKASENOKENKIXYUUFUTOUHAKASE.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SVD/博士の研究_SVD-136／139.jpg"
+  }
+ ],
+ "notFound": [],
+ "nameMismatch": [],
+ "verify": {
+  "checkedAt": "2026-10-05T05:16:50.474Z",
+  "remainingDuplicates": [],
+  "officialSameImage": []
+ }
+}
