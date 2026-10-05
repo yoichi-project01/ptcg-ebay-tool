@@ -1,0 +1,65 @@
+{
+ "set": "SV6",
+ "checkedAt": "2026-10-05T04:49:55.507Z",
+ "refetched": [
+  {
+   "cardId": "SV6-096",
+   "set": "SV6",
+   "local": "096",
+   "name": "スグリ",
+   "rarity": "U",
+   "image": "cards/SV/SV6/スグリ_SV6-096／133_U.jpg",
+   "officialCardId": "45787",
+   "officialRarity": "U",
+   "thumb": "/assets/images/card_images/large/SV6/045787_T_SUGURI.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SV6/スグリ_SV6-096／133_U.jpg"
+  },
+  {
+   "cardId": "SV6-097",
+   "set": "SV6",
+   "local": "097",
+   "name": "ゼイユ",
+   "rarity": "U",
+   "image": "cards/SV/SV6/ゼイユ_SV6-097／133_U.jpg",
+   "officialCardId": "45788",
+   "officialRarity": "U",
+   "thumb": "/assets/images/card_images/large/SV6/045788_T_ZEIYU.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SV6/ゼイユ_SV6-097／133_U.jpg"
+  },
+  {
+   "cardId": "SV6-129",
+   "set": "SV6",
+   "local": "129",
+   "name": "スグリ",
+   "rarity": "SAR",
+   "image": "cards/SV/SV6/スグリ_SV6-129／133_SAR.jpg",
+   "officialCardId": "45871",
+   "officialRarity": "SAR",
+   "thumb": "/assets/images/card_images/large/SV6/045871_T_SUGURI.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SV6/スグリ_SV6-129／133_SAR.jpg"
+  },
+  {
+   "cardId": "SV6-130",
+   "set": "SV6",
+   "local": "130",
+   "name": "ゼイユ",
+   "rarity": "SAR",
+   "image": "cards/SV/SV6/ゼイユ_SV6-130／133_SAR.jpg",
+   "officialCardId": "45872",
+   "officialRarity": "SAR",
+   "thumb": "/assets/images/card_images/large/SV6/045872_T_ZEIYU.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SV6/ゼイユ_SV6-130／133_SAR.jpg"
+  }
+ ],
+ "notFound": [],
+ "nameMismatch": [],
+ "verify": {
+  "checkedAt": "2026-10-05T04:50:07.766Z",
+  "remainingDuplicates": [],
+  "officialSameImage": []
+ }
+}
