@@ -1,0 +1,638 @@
+{
+ "at": "2026-10-05T15:08:47.703Z",
+ "set": "SV3",
+ "count": {
+  "入れる": 33
+ },
+ "renamed": [
+  {
+   "id": "SV3-109",
+   "from": "cards/SV/SV3/クサイハナ_SV3-109／141.jpg",
+   "to": "cards/SV/SV3/クサイハナ_SV3-109／141_AR.jpg"
+  },
+  {
+   "id": "SV3-110",
+   "from": "cards/SV/SV3/キュウコン_SV3-110／141.jpg",
+   "to": "cards/SV/SV3/キュウコン_SV3-110／141_AR.jpg"
+  },
+  {
+   "id": "SV3-111",
+   "from": "cards/SV/SV3/イルカマン_SV3-111／141.jpg",
+   "to": "cards/SV/SV3/イルカマン_SV3-111／141_AR.jpg"
+  },
+  {
+   "id": "SV3-112",
+   "from": "cards/SV/SV3/ハラバリー_SV3-112／141.jpg",
+   "to": "cards/SV/SV3/ハラバリー_SV3-112／141_AR.jpg"
+  },
+  {
+   "id": "SV3-113",
+   "from": "cards/SV/SV3/ピィ_SV3-113／141.jpg",
+   "to": "cards/SV/SV3/ピィ_SV3-113／141_AR.jpg"
+  },
+  {
+   "id": "SV3-114",
+   "from": "cards/SV/SV3/ヨーギラス_SV3-114／141.jpg",
+   "to": "cards/SV/SV3/ヨーギラス_SV3-114／141_AR.jpg"
+  },
+  {
+   "id": "SV3-115",
+   "from": "cards/SV/SV3/デルビル_SV3-115／141.jpg",
+   "to": "cards/SV/SV3/デルビル_SV3-115／141_AR.jpg"
+  },
+  {
+   "id": "SV3-116",
+   "from": "cards/SV/SV3/ハッサム_SV3-116／141.jpg",
+   "to": "cards/SV/SV3/ハッサム_SV3-116／141_AR.jpg"
+  },
+  {
+   "id": "SV3-117",
+   "from": "cards/SV/SV3/ブロロン_SV3-117／141.jpg",
+   "to": "cards/SV/SV3/ブロロン_SV3-117／141_AR.jpg"
+  },
+  {
+   "id": "SV3-118",
+   "from": "cards/SV/SV3/ポッポ_SV3-118／141.jpg",
+   "to": "cards/SV/SV3/ポッポ_SV3-118／141_AR.jpg"
+  },
+  {
+   "id": "SV3-119",
+   "from": "cards/SV/SV3/ピジョン_SV3-119／141.jpg",
+   "to": "cards/SV/SV3/ピジョン_SV3-119／141_AR.jpg"
+  },
+  {
+   "id": "SV3-120",
+   "from": "cards/SV/SV3/グルトン_SV3-120／141.jpg",
+   "to": "cards/SV/SV3/グルトン_SV3-120／141_AR.jpg"
+  },
+  {
+   "id": "SV3-121",
+   "from": "cards/SV/SV3/コオリッポex_SV3-121／141.jpg",
+   "to": "cards/SV/SV3/コオリッポex_SV3-121／141_SR.jpg"
+  },
+  {
+   "id": "SV3-122",
+   "from": "cards/SV/SV3/バンギラスex_SV3-122／141.jpg",
+   "to": "cards/SV/SV3/バンギラスex_SV3-122／141_SR.jpg"
+  },
+  {
+   "id": "SV3-123",
+   "from": "cards/SV/SV3/ビークインex_SV3-123／141.jpg",
+   "to": "cards/SV/SV3/ビークインex_SV3-123／141_SR.jpg"
+  },
+  {
+   "id": "SV3-124",
+   "from": "cards/SV/SV3/キラフロルex_SV3-124／141.jpg",
+   "to": "cards/SV/SV3/キラフロルex_SV3-124／141_SR.jpg"
+  },
+  {
+   "id": "SV3-125",
+   "from": "cards/SV/SV3/リザードンex_SV3-125／141.jpg",
+   "to": "cards/SV/SV3/リザードンex_SV3-125／141_SR.jpg"
+  },
+  {
+   "id": "SV3-126",
+   "from": "cards/SV/SV3/アブソルex_SV3-126／141.jpg",
+   "to": "cards/SV/SV3/アブソルex_SV3-126／141_SR.jpg"
+  },
+  {
+   "id": "SV3-127",
+   "from": "cards/SV/SV3/ブロロロームex_SV3-127／141.jpg",
+   "to": "cards/SV/SV3/ブロロロームex_SV3-127／141_SR.jpg"
+  },
+  {
+   "id": "SV3-128",
+   "from": "cards/SV/SV3/ピジョットex_SV3-128／141.jpg",
+   "to": "cards/SV/SV3/ピジョットex_SV3-128／141_SR.jpg"
+  },
+  {
+   "id": "SV3-129",
+   "from": "cards/SV/SV3/オモダカ_SV3-129／141.jpg",
+   "to": "cards/SV/SV3/オモダカ_SV3-129／141_SR.jpg"
+  },
+  {
+   "id": "SV3-130",
+   "from": "cards/SV/SV3/オルティガ_SV3-130／141.jpg",
+   "to": "cards/SV/SV3/オルティガ_SV3-130／141_SR.jpg"
+  },
+  {
+   "id": "SV3-131",
+   "from": "cards/SV/SV3/ポピー_SV3-131／141.jpg",
+   "to": "cards/SV/SV3/ポピー_SV3-131／141_SR.jpg"
+  },
+  {
+   "id": "SV3-132",
+   "from": "cards/SV/SV3/ライム_SV3-132／141.jpg",
+   "to": "cards/SV/SV3/ライム_SV3-132／141_SR.jpg"
+  },
+  {
+   "id": "SV3-133",
+   "from": "cards/SV/SV3/コオリッポex_SV3-133／141.jpg",
+   "to": "cards/SV/SV3/コオリッポex_SV3-133／141_SAR.jpg"
+  },
+  {
+   "id": "SV3-134",
+   "from": "cards/SV/SV3/リザードンex_SV3-134／141.jpg",
+   "to": "cards/SV/SV3/リザードンex_SV3-134／141_SAR.jpg"
+  },
+  {
+   "id": "SV3-135",
+   "from": "cards/SV/SV3/ブロロロームex_SV3-135／141.jpg",
+   "to": "cards/SV/SV3/ブロロロームex_SV3-135／141_SAR.jpg"
+  },
+  {
+   "id": "SV3-136",
+   "from": "cards/SV/SV3/ピジョットex_SV3-136／141.jpg",
+   "to": "cards/SV/SV3/ピジョットex_SV3-136／141_SAR.jpg"
+  },
+  {
+   "id": "SV3-137",
+   "from": "cards/SV/SV3/オモダカ_SV3-137／141.jpg",
+   "to": "cards/SV/SV3/オモダカ_SV3-137／141_SAR.jpg"
+  },
+  {
+   "id": "SV3-138",
+   "from": "cards/SV/SV3/ポピー_SV3-138／141.jpg",
+   "to": "cards/SV/SV3/ポピー_SV3-138／141_SAR.jpg"
+  },
+  {
+   "id": "SV3-139",
+   "from": "cards/SV/SV3/リザードンex_SV3-139／141.jpg",
+   "to": "cards/SV/SV3/リザードンex_SV3-139／141_UR.jpg"
+  },
+  {
+   "id": "SV3-140",
+   "from": "cards/SV/SV3/ボウルタウン_SV3-140／141.jpg",
+   "to": "cards/SV/SV3/ボウルタウン_SV3-140／141_UR.jpg"
+  },
+  {
+   "id": "SV3-141",
+   "from": "cards/SV/SV3/基本炎エネルギー_SV3-141／141.jpg",
+   "to": "cards/SV/SV3/基本炎エネルギー_SV3-141／141_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV3-109",
+   "ja": "クサイハナ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44135",
+     "jaName": "クサイハナ",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-110",
+   "ja": "キュウコン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44136",
+     "jaName": "キュウコン",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-111",
+   "ja": "イルカマン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44137",
+     "jaName": "イルカマン",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-112",
+   "ja": "ハラバリー",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44138",
+     "jaName": "ハラバリー",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-113",
+   "ja": "ピィ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44139",
+     "jaName": "ピィ",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-114",
+   "ja": "ヨーギラス",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44140",
+     "jaName": "ヨーギラス",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-115",
+   "ja": "デルビル",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44141",
+     "jaName": "デルビル",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-116",
+   "ja": "ハッサム",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44142",
+     "jaName": "ハッサム",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-117",
+   "ja": "ブロロン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44143",
+     "jaName": "ブロロン",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-118",
+   "ja": "ポッポ",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44144",
+     "jaName": "ポッポ",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-119",
+   "ja": "ピジョン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44145",
+     "jaName": "ピジョン",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-120",
+   "ja": "グルトン",
+   "status": "入れる",
+   "rarity": "AR",
+   "details": [
+    {
+     "cardId": "44146",
+     "jaName": "グルトン",
+     "rarity": "AR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-121",
+   "ja": "コオリッポex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44147",
+     "jaName": "コオリッポex",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-122",
+   "ja": "バンギラスex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44148",
+     "jaName": "バンギラスex",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-123",
+   "ja": "ビークインex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44149",
+     "jaName": "ビークインex",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-124",
+   "ja": "キラフロルex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44150",
+     "jaName": "キラフロルex",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-125",
+   "ja": "リザードンex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44151",
+     "jaName": "リザードンex",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-126",
+   "ja": "アブソルex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44152",
+     "jaName": "アブソルex",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-127",
+   "ja": "ブロロロームex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44153",
+     "jaName": "ブロロロームex",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-128",
+   "ja": "ピジョットex",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44154",
+     "jaName": "ピジョットex",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-129",
+   "ja": "オモダカ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44155",
+     "jaName": "オモダカ",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-130",
+   "ja": "オルティガ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44156",
+     "jaName": "オルティガ",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-131",
+   "ja": "ポピー",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44157",
+     "jaName": "ポピー",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-132",
+   "ja": "ライム",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "44158",
+     "jaName": "ライム",
+     "rarity": "SR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-133",
+   "ja": "コオリッポex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44159",
+     "jaName": "コオリッポex",
+     "rarity": "SAR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-134",
+   "ja": "リザードンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44160",
+     "jaName": "リザードンex",
+     "rarity": "SAR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-135",
+   "ja": "ブロロロームex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44161",
+     "jaName": "ブロロロームex",
+     "rarity": "SAR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-136",
+   "ja": "ピジョットex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44162",
+     "jaName": "ピジョットex",
+     "rarity": "SAR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-137",
+   "ja": "オモダカ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44163",
+     "jaName": "オモダカ",
+     "rarity": "SAR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-138",
+   "ja": "ポピー",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "44164",
+     "jaName": "ポピー",
+     "rarity": "SAR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-139",
+   "ja": "リザードンex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44963",
+     "jaName": "リザードンex",
+     "rarity": "UR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-140",
+   "ja": "ボウルタウン",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44964",
+     "jaName": "ボウルタウン",
+     "rarity": "UR",
+     "badge": "SV3"
+    }
+   ]
+  },
+  {
+   "id": "SV3-141",
+   "ja": "基本炎エネルギー",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "44965",
+     "jaName": "基本炎エネルギー",
+     "rarity": "UR",
+     "badge": "SV3"
+    }
+   ]
+  }
+ ]
+}

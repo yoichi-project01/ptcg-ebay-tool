@@ -895,5 +895,37 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SV3/044963_P_RIZADONEX.jpg"
+ },
+ "44964": {
+  "badge": "SV3",
+  "cards": [
+   {
+    "local": "140",
+    "total": "108",
+    "rarity": "UR",
+    "jaName": "ボウルタウン",
+    "cardThumbFile": "/assets/images/card_images/large/SV3/044964_T_BOURUTAUN.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV3/044964_T_BOURUTAUN.jpg"
+ },
+ "44965": {
+  "badge": "SV3",
+  "cards": [
+   {
+    "local": "141",
+    "total": "108",
+    "rarity": "UR",
+    "jaName": "基本炎エネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SV3/044965_E_KIHONHONOOENERUGI.jpg"
+   }
+  ],
+  "rarityCodes": [
+   "ur_c"
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SV3/044965_E_KIHONHONOOENERUGI.jpg"
  }
 }
