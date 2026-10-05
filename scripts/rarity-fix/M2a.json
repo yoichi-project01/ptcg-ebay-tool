@@ -1,0 +1,2348 @@
+{
+ "at": "2026-10-05T15:31:53.419Z",
+ "set": "M2a",
+ "count": {
+  "アイコンなし（マークの無いカード）": 167
+ },
+ "renamed": [],
+ "rows": [
+  {
+   "id": "M2a-001",
+   "ja": "ヒビキのカイロス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48523",
+     "jaName": "ヒビキのカイロス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-002",
+   "ja": "ヤンヤンマ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48524",
+     "jaName": "ヤンヤンマ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-004",
+   "ja": "ケムッソ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48526",
+     "jaName": "ケムッソ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-005",
+   "ja": "カラサリス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48527",
+     "jaName": "カラサリス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-006",
+   "ja": "アゲハント",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48528",
+     "jaName": "アゲハント",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-007",
+   "ja": "マユルド",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48529",
+     "jaName": "マユルド",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-008",
+   "ja": "ドクケイル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48530",
+     "jaName": "ドクケイル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-009",
+   "ja": "シロナのロゼリア",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48531",
+     "jaName": "シロナのロゼリア",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-010",
+   "ja": "シロナのロズレイド",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48532",
+     "jaName": "シロナのロズレイド",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-011",
+   "ja": "スボミー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48533",
+     "jaName": "スボミー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-012",
+   "ja": "シェイミ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48534",
+     "jaName": "シェイミ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-013",
+   "ja": "イシズマイ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48535",
+     "jaName": "イシズマイ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-014",
+   "ja": "イワパレス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48536",
+     "jaName": "イワパレス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-015",
+   "ja": "ロケット団のタマンチュラ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48537",
+     "jaName": "ロケット団のタマンチュラ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-016",
+   "ja": "ロケット団のワナイダー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48538",
+     "jaName": "ロケット団のワナイダー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-018",
+   "ja": "ヒビキのマグマッグ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48540",
+     "jaName": "ヒビキのマグマッグ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-019",
+   "ja": "ヒビキのマグカルゴ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48541",
+     "jaName": "ヒビキのマグカルゴ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-020",
+   "ja": "エンテイ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48542",
+     "jaName": "エンテイ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-022",
+   "ja": "ドンメル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48544",
+     "jaName": "ドンメル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-023",
+   "ja": "バクーダ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48545",
+     "jaName": "バクーダ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-024",
+   "ja": "ポカブ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48546",
+     "jaName": "ポカブ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-025",
+   "ja": "チャオブー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48547",
+     "jaName": "チャオブー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-026",
+   "ja": "エンブオー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48548",
+     "jaName": "エンブオー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-027",
+   "ja": "Nのダルマッカ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48549",
+     "jaName": "Nのダルマッカ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-028",
+   "ja": "Nのヒヒダルマ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48550",
+     "jaName": "Nのヒヒダルマ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-030",
+   "ja": "カルボウ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48552",
+     "jaName": "カルボウ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-032",
+   "ja": "コダック",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48554",
+     "jaName": "コダック",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-033",
+   "ja": "ゴルダック",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48555",
+     "jaName": "ゴルダック",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-034",
+   "ja": "ロケット団のフリーザー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48556",
+     "jaName": "ロケット団のフリーザー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-035",
+   "ja": "ユキワラシ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48557",
+     "jaName": "ユキワラシ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-037",
+   "ja": "Nのバニプッチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48559",
+     "jaName": "Nのバニプッチ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-038",
+   "ja": "Nのバニリッチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48560",
+     "jaName": "Nのバニリッチ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-039",
+   "ja": "Nのバイバニラ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48561",
+     "jaName": "Nのバイバニラ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-040",
+   "ja": "ユキハミ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48562",
+     "jaName": "ユキハミ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-041",
+   "ja": "モスノウ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48563",
+     "jaName": "モスノウ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-042",
+   "ja": "ブリザポス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48564",
+     "jaName": "ブリザポス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-043",
+   "ja": "パオジアン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48565",
+     "jaName": "パオジアン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-045",
+   "ja": "コイル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48567",
+     "jaName": "コイル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-046",
+   "ja": "レアコイル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48568",
+     "jaName": "レアコイル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-047",
+   "ja": "シビシラス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48569",
+     "jaName": "シビシラス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-048",
+   "ja": "シビビール",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48570",
+     "jaName": "シビビール",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-050",
+   "ja": "マッギョ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48572",
+     "jaName": "マッギョ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-052",
+   "ja": "エリキテル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48574",
+     "jaName": "エリキテル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-053",
+   "ja": "エレザード",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48575",
+     "jaName": "エレザード",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-054",
+   "ja": "カプ・コケコ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48576",
+     "jaName": "カプ・コケコ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-055",
+   "ja": "ゼラオラ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48577",
+     "jaName": "ゼラオラ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-056",
+   "ja": "ナンジャモのズピカ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48578",
+     "jaName": "ナンジャモのズピカ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-058",
+   "ja": "ナンジャモのカイデン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48580",
+     "jaName": "ナンジャモのカイデン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-059",
+   "ja": "ナンジャモのタイカイデン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48581",
+     "jaName": "ナンジャモのタイカイデン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-061",
+   "ja": "ロケット団のタマタマ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48583",
+     "jaName": "ロケット団のタマタマ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-062",
+   "ja": "ロケット団のナッシー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48584",
+     "jaName": "ロケット団のナッシー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-064",
+   "ja": "トゲピー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48586",
+     "jaName": "トゲピー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-065",
+   "ja": "トゲチック",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48587",
+     "jaName": "トゲチック",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-066",
+   "ja": "トゲキッス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48588",
+     "jaName": "トゲキッス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-067",
+   "ja": "ムウマ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48589",
+     "jaName": "ムウマ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-068",
+   "ja": "ムウマージ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48590",
+     "jaName": "ムウマージ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-069",
+   "ja": "ラルトス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48591",
+     "jaName": "ラルトス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-070",
+   "ja": "キルリア",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48592",
+     "jaName": "キルリア",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-072",
+   "ja": "ヨマワル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48594",
+     "jaName": "ヨマワル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-073",
+   "ja": "サマヨール",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48595",
+     "jaName": "サマヨール",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-074",
+   "ja": "ヨノワール",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48596",
+     "jaName": "ヨノワール",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-076",
+   "ja": "ロトム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48598",
+     "jaName": "ロトム",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-077",
+   "ja": "ホップのボクレー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48599",
+     "jaName": "ホップのボクレー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-078",
+   "ja": "ホップのオーロット",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48600",
+     "jaName": "ホップのオーロット",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-079",
+   "ja": "ロケット団のミミッキュ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48601",
+     "jaName": "ロケット団のミミッキュ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-080",
+   "ja": "レイスポス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48602",
+     "jaName": "レイスポス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-081",
+   "ja": "マシマシラ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48603",
+     "jaName": "マシマシラ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-082",
+   "ja": "ロケット団のディグダ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48604",
+     "jaName": "ロケット団のディグダ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-083",
+   "ja": "ロケット団のダグトリオ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48605",
+     "jaName": "ロケット団のダグトリオ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-084",
+   "ja": "アサナン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48606",
+     "jaName": "アサナン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-085",
+   "ja": "チャーレム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48607",
+     "jaName": "チャーレム",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-086",
+   "ja": "ルナトーン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48608",
+     "jaName": "ルナトーン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-087",
+   "ja": "ソルロック",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48609",
+     "jaName": "ソルロック",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-088",
+   "ja": "シロナのフカマル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48610",
+     "jaName": "シロナのフカマル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-089",
+   "ja": "シロナのガバイト",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48611",
+     "jaName": "シロナのガバイト",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-091",
+   "ja": "リオル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48613",
+     "jaName": "リオル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-093",
+   "ja": "ヤンチャム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48615",
+     "jaName": "ヤンチャム",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-095",
+   "ja": "タンドン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48617",
+     "jaName": "タンドン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-096",
+   "ja": "トロッゴン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48618",
+     "jaName": "トロッゴン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-097",
+   "ja": "セキタンザン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48619",
+     "jaName": "セキタンザン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-098",
+   "ja": "イイネイヌ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48620",
+     "jaName": "イイネイヌ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-099",
+   "ja": "ロケット団のズバット",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48621",
+     "jaName": "ロケット団のズバット",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-100",
+   "ja": "ロケット団のゴルバット",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48622",
+     "jaName": "ロケット団のゴルバット",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-102",
+   "ja": "ロケット団のヤミカラス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48624",
+     "jaName": "ロケット団のヤミカラス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-103",
+   "ja": "ロケット団のドンカラス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48625",
+     "jaName": "ロケット団のドンカラス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-104",
+   "ja": "ロケット団のニューラ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48626",
+     "jaName": "ロケット団のニューラ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-105",
+   "ja": "ガラル ジグザグマ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48627",
+     "jaName": "ガラル ジグザグマ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-106",
+   "ja": "ガラル マッスグマ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48628",
+     "jaName": "ガラル マッスグマ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-107",
+   "ja": "ガラル タチフサグマ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48629",
+     "jaName": "ガラル タチフサグマ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-108",
+   "ja": "シロナのミカルゲ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48630",
+     "jaName": "シロナのミカルゲ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-109",
+   "ja": "ズルッグ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48631",
+     "jaName": "ズルッグ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-111",
+   "ja": "Nのゾロア",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48633",
+     "jaName": "Nのゾロア",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-113",
+   "ja": "ゴロンダ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48635",
+     "jaName": "ゴロンダ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-115",
+   "ja": "モモワロウ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48637",
+     "jaName": "モモワロウ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-116",
+   "ja": "コマタナ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48638",
+     "jaName": "コマタナ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-117",
+   "ja": "キリキザン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48639",
+     "jaName": "キリキザン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-118",
+   "ja": "ドドゲザン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48640",
+     "jaName": "ドドゲザン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-120",
+   "ja": "マギアナ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48642",
+     "jaName": "マギアナ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-121",
+   "ja": "ジュラルドン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48643",
+     "jaName": "ジュラルドン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-124",
+   "ja": "ミニリュウ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48646",
+     "jaName": "ミニリュウ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-125",
+   "ja": "ハクリュー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48647",
+     "jaName": "ハクリュー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-127",
+   "ja": "レックウザ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48649",
+     "jaName": "レックウザ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-128",
+   "ja": "Nのレシラム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48650",
+     "jaName": "Nのレシラム",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-129",
+   "ja": "Nのゼクロム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48651",
+     "jaName": "Nのゼクロム",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-130",
+   "ja": "オンバット",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48652",
+     "jaName": "オンバット",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-131",
+   "ja": "オンバーン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48653",
+     "jaName": "オンバーン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-132",
+   "ja": "ドラメシヤ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48654",
+     "jaName": "ドラメシヤ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-133",
+   "ja": "ドロンチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48655",
+     "jaName": "ドロンチ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-135",
+   "ja": "シャリタツ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48657",
+     "jaName": "シャリタツ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-136",
+   "ja": "ホップのカビゴン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48658",
+     "jaName": "ホップのカビゴン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-137",
+   "ja": "ホーホー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48659",
+     "jaName": "ホーホー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-138",
+   "ja": "ヨルノズク",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48660",
+     "jaName": "ヨルノズク",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-139",
+   "ja": "スピンロトム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48661",
+     "jaName": "スピンロトム",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-140",
+   "ja": "バッフロン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48662",
+     "jaName": "バッフロン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-141",
+   "ja": "ホップのウールー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48663",
+     "jaName": "ホップのウールー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-142",
+   "ja": "ホップのバイウールー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48664",
+     "jaName": "ホップのバイウールー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-143",
+   "ja": "ホップのウッウ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48665",
+     "jaName": "ホップのウッウ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-144",
+   "ja": "テラパゴス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48666",
+     "jaName": "テラパゴス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-146",
+   "ja": "Nのポイントアップ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48668",
+     "jaName": "Nのポイントアップ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-147",
+   "ja": "エネルギーリサイクル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48669",
+     "jaName": "エネルギーリサイクル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-148",
+   "ja": "改造ハンマー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48670",
+     "jaName": "改造ハンマー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-149",
+   "ja": "ガラスのラッパ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48671",
+     "jaName": "ガラスのラッパ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-150",
+   "ja": "せいなるはい",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48672",
+     "jaName": "せいなるはい",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-151",
+   "ja": "ツールスクラッパー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48673",
+     "jaName": "ツールスクラッパー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-152",
+   "ja": "テラスタルオーブ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48674",
+     "jaName": "テラスタルオーブ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-153",
+   "ja": "なかよしポフィン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48675",
+     "jaName": "なかよしポフィン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-154",
+   "ja": "パワープロテイン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48676",
+     "jaName": "パワープロテイン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-155",
+   "ja": "ファイトゴング",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48677",
+     "jaName": "ファイトゴング",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-156",
+   "ja": "ホップのバッグ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48678",
+     "jaName": "ホップのバッグ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-157",
+   "ja": "むしとりセット",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48679",
+     "jaName": "むしとりセット",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-158",
+   "ja": "メガシグナル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48680",
+     "jaName": "メガシグナル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-159",
+   "ja": "夜のタンカ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48681",
+     "jaName": "夜のタンカ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-160",
+   "ja": "ロケット団のレシーバー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48682",
+     "jaName": "ロケット団のレシーバー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-161",
+   "ja": "カウンターゲイン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48683",
+     "jaName": "カウンターゲイン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-162",
+   "ja": "シロナのパワーウエイト",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48684",
+     "jaName": "シロナのパワーウエイト",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-163",
+   "ja": "でんきだま",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48685",
+     "jaName": "でんきだま",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-164",
+   "ja": "ぶあついうろこ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48686",
+     "jaName": "ぶあついうろこ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-165",
+   "ja": "ふうせん",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48687",
+     "jaName": "ふうせん",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-166",
+   "ja": "ブレイブバングル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48688",
+     "jaName": "ブレイブバングル",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-167",
+   "ja": "ホップのこだわりハチマキ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48689",
+     "jaName": "ホップのこだわりハチマキ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-168",
+   "ja": "アイリスの闘志",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48690",
+     "jaName": "アイリスの闘志",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-169",
+   "ja": "アセロラのいたずら",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48691",
+     "jaName": "アセロラのいたずら",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-170",
+   "ja": "カナリィ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48692",
+     "jaName": "カナリィ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-171",
+   "ja": "サーファー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48693",
+     "jaName": "サーファー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-172",
+   "ja": "トウコ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48694",
+     "jaName": "トウコ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-173",
+   "ja": "バーベナとヘレナ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48695",
+     "jaName": "バーベナとヘレナ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-174",
+   "ja": "ヒビキの冒険",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48696",
+     "jaName": "ヒビキの冒険",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-175",
+   "ja": "リーリエの決心",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48697",
+     "jaName": "リーリエの決心",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-176",
+   "ja": "ロケット団のアテナ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48698",
+     "jaName": "ロケット団のアテナ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-177",
+   "ja": "ロケット団のアポロ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48699",
+     "jaName": "ロケット団のアポロ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-178",
+   "ja": "ロケット団のサカキ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48700",
+     "jaName": "ロケット団のサカキ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-179",
+   "ja": "ロケット団のラムダ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48701",
+     "jaName": "ロケット団のラムダ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-180",
+   "ja": "ロケット団のランス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48702",
+     "jaName": "ロケット団のランス",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-181",
+   "ja": "Nの城",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48703",
+     "jaName": "Nの城",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-182",
+   "ja": "活力の森",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48704",
+     "jaName": "活力の森",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-183",
+   "ja": "グラビティーマウンテン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48705",
+     "jaName": "グラビティーマウンテン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-184",
+   "ja": "ゼロの大空洞",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48706",
+     "jaName": "ゼロの大空洞",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-185",
+   "ja": "ハッコウシティ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48707",
+     "jaName": "ハッコウシティ",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-186",
+   "ja": "ハロンタウン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48708",
+     "jaName": "ハロンタウン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-187",
+   "ja": "ミステリーガーデン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48709",
+     "jaName": "ミステリーガーデン",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-188",
+   "ja": "夜の鉱山",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48710",
+     "jaName": "夜の鉱山",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-189",
+   "ja": "ロケット団の監視塔",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48711",
+     "jaName": "ロケット団の監視塔",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-190",
+   "ja": "ロケット団のファクトリー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48712",
+     "jaName": "ロケット団のファクトリー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-191",
+   "ja": "イグニッションエネルギー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48713",
+     "jaName": "イグニッションエネルギー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-192",
+   "ja": "プリズムエネルギー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48714",
+     "jaName": "プリズムエネルギー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-193",
+   "ja": "ロケット団エネルギー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "48715",
+     "jaName": "ロケット団エネルギー",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  },
+  {
+   "id": "M2a-250",
+   "ja": "メガカイリューex",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "50010",
+     "jaName": "メガカイリューex",
+     "rarity": "",
+     "badge": "M2a"
+    }
+   ]
+  }
+ ]
+}

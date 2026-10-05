@@ -2366,6 +2366,32 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
   無いことを確かめ、変化が足したキー（SV-P 10・M-P 126）だけで削除・変更0件であることを比べた）。`archive-stray-images.mjs --verify` は0件。
 - 未着手リストの「M-P（残り）91枚」はこれで解消（番号付きだった。番号なしは勝利のしるし30枚）。
 
+### 対応（2026-10-05〜06）: レアリティが空の行を埋めた（998行）・タイトルの80文字調整の削りすぎを直した
+
+**1. レアリティ**（作業前 8,310行 → 7,312行）。推測では埋めていない。全体の card_id は `scripts/rarity-fix/changed-card-ids.txt`（998件）、
+弾ごとの件数と残りは `summary.json`。
+
+- **公式 details.php のアイコンで入れた 944行**（`fill-rarity-from-details.mjs`、弾ごとに `run-fill-rarity.sh` でコミット）。
+  details.php の結果は `scan-progress/{弾}.json`（`fetch-rarity-details.mjs` が `rarity-fix/fetch-plan.json` の cardID を取得。マークの有無は
+  見本 `sample-icons.json` で確かめた）。同じ番号・同じ日本語名で、既知のコードのアイコンがあるものだけ。弾ごとの根拠は `rarity-fix/{弾}.json`。
+  主に SV1S〜SV9a・S9〜S12a・S1W〜S3a 等のシークレット（TCGdex 由来の行にレアリティが無かった）と、SV4a 170・S12a 99・SV8a 50 など。
+- **公式にアイコンが無いカードを、公式以外の情報源の2つ以上の一致で入れた 54行**（`fill-rarity-from-sources.mjs`、根拠 `rarity-fix/second-sources.json`・
+  `second-sources-result-{弾}.json`）: ACE SPEC 50枚（SV5K・SV5M・SV5a・SV6・SV6a・SV7・SV7a・SV8・SV8a。遊々亭「ACE」とポケカくらぶ「（ACE SPEC）」
+  または TCGdex「ACE SPEC Rare」が一致）と S8b のモルペコV-UNION 4枚（遊々亭「RRR」と TCGdex「Triple Rare」）。details.php は ACE SPEC・かがやく・
+  ひかる・プリズムスター・V-UNION などにアイコンを出さない。
+- 画像のファイル名もレアリティ付きの規則に直し、imageIndex.json の指す先を合わせた（キーは変えていない）。`archive-stray-images.mjs --verify` は0件。
+- **空欄のまま（7,312行）**: マークの無いカード（プロモ・構築済みデッキ・スターター・ハイクラスパックの通常カード・基本エネルギー等。details.php に
+  アイコンが無く、遊々亭も「-」か店舗独自の「TD」）。ただし次の **91行はマークがあるのに入れていない**（`rarity-fix/pending-marked.json`）:
+  アプリのレアリティの選択肢（`RARITIES`）に無いコードの K（かがやく）19・A（アメイジングレア）9・H（ひかる）8・PR（プリズムスター）48・
+  MUR（メガウルトラレア）3、情報源が遊々亭だけの S8a のピカチュウV-UNION（RRR）4。選択肢に足すか（英語表記の出典も要る）は未決定。
+- **作業中の事故**: セッションが途中で終わり、`scan-progress/S4a.json` が中身が全部ゼロのバイトの壊れたファイルになった（取り直して解決）。
+  また取得中に別のコマンドで同じ進捗ファイルを読むと Windows で置き換え（rename）が EPERM で失敗する。取得中は進捗ファイルを開かないこと。
+
+**2. タイトルの80文字調整**（f1a3a9c）: 優先度の低い要素から落とした後、落とした要素を優先度の高い順に戻して収まるものは残す
+（`restoreDroppedParts`、現代カード・旧裏の両方）。全21,525件のうち必要以上に削っていた 2,496件が長くなり（短くなったもの・80文字超は0件）、
+全件が「優先度の高い要素から収まるものを足す」参照と一致することを確かめた。SV8a-149 はセット英語名を落として発売年を残す形
+（レアリティが入った後は `Scoop Up Cyclone ACE 149/187 Japanese SV8a Pokemon Card NM 2024 ACE SPEC Rare`、77文字）。
+
 ---
 
 ## ファイル構成

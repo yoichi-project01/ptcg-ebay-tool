@@ -1,0 +1,651 @@
+{
+ "note": "公式 details.php にアイコンが無く、遊々亭ではマークがあるのに入れていない行（2026-10-06）。K=かがやく、A=アメイジングレア、H=ひかる、PR=プリズムスター、MUR=メガウルトラレア（遊々亭の表記）",
+ "count": 91,
+ "byCode": {
+  "K": 19,
+  "A": 9,
+  "RRR": 4,
+  "H": 8,
+  "PR": 48,
+  "MUR": 3
+ },
+ "rows": [
+  {
+   "id": "S10a-027",
+   "ja": "かがやくサーナイト",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s10a"
+  },
+  {
+   "id": "S10a-046",
+   "ja": "かがやくヒスイ オオニューラ",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s10a"
+  },
+  {
+   "id": "S10a-050",
+   "ja": "かがやくハガネール",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s10a"
+  },
+  {
+   "id": "S10b-004",
+   "ja": "かがやくフシギバナ",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s10b"
+  },
+  {
+   "id": "S10b-011",
+   "ja": "かがやくリザードン",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s10b"
+  },
+  {
+   "id": "S10b-018",
+   "ja": "かがやくカメックス",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s10b"
+  },
+  {
+   "id": "S10b-055",
+   "ja": "かがやくイーブイ",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s10b"
+  },
+  {
+   "id": "S11a-009",
+   "ja": "かがやくアマージョ",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s11a"
+  },
+  {
+   "id": "S11a-031",
+   "ja": "かがやくフーディン",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s11a"
+  },
+  {
+   "id": "S11a-045",
+   "ja": "かがやくジラーチ",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s11a"
+  },
+  {
+   "id": "S12a-015",
+   "ja": "かがやくリザードン",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s12a"
+  },
+  {
+   "id": "S12a-033",
+   "ja": "かがやくゲッコウガ",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s12a"
+  },
+  {
+   "id": "S12a-039",
+   "ja": "かがやくデンヂムシ",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s12a"
+  },
+  {
+   "id": "S12a-055",
+   "ja": "かがやくサーナイト",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s12a"
+  },
+  {
+   "id": "S12a-078",
+   "ja": "かがやくルチャブル",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s12a"
+  },
+  {
+   "id": "S12a-115",
+   "ja": "かがやくムゲンダイナ",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s12a"
+  },
+  {
+   "id": "S4a-021",
+   "ja": "レシラム",
+   "yuyutei": "A",
+   "reason": "アプリのレアリティの選択肢に無いコード（A）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s04a"
+  },
+  {
+   "id": "S4a-036",
+   "ja": "カイオーガ",
+   "yuyutei": "A",
+   "reason": "アプリのレアリティの選択肢に無いコード（A）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s04a"
+  },
+  {
+   "id": "S4a-117",
+   "ja": "イベルタル",
+   "yuyutei": "A",
+   "reason": "アプリのレアリティの選択肢に無いコード（A）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s04a"
+  },
+  {
+   "id": "S8a-025",
+   "ja": "ピカチュウV-UNION",
+   "yuyutei": "RRR",
+   "reason": "遊々亭だけ（2つ目の情報源で確かめられない）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s08a"
+  },
+  {
+   "id": "S8a-026",
+   "ja": "ピカチュウV-UNION",
+   "yuyutei": "RRR",
+   "reason": "遊々亭だけ（2つ目の情報源で確かめられない）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s08a"
+  },
+  {
+   "id": "S8a-027",
+   "ja": "ピカチュウV-UNION",
+   "yuyutei": "RRR",
+   "reason": "遊々亭だけ（2つ目の情報源で確かめられない）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s08a"
+  },
+  {
+   "id": "S8a-028",
+   "ja": "ピカチュウV-UNION",
+   "yuyutei": "RRR",
+   "reason": "遊々亭だけ（2つ目の情報源で確かめられない）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s08a"
+  },
+  {
+   "id": "S9a-011",
+   "ja": "かがやくヒードラン",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s09a"
+  },
+  {
+   "id": "S9a-026",
+   "ja": "かがやくゲッコウガ",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s09a"
+  },
+  {
+   "id": "S9a-043",
+   "ja": "かがやくルチャブル",
+   "yuyutei": "K",
+   "reason": "アプリのレアリティの選択肢に無いコード（K）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s09a"
+  },
+  {
+   "id": "S3a-009",
+   "ja": "セレビィ",
+   "yuyutei": "A",
+   "reason": "アプリのレアリティの選択肢に無いコード（A）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s03a"
+  },
+  {
+   "id": "S3a-015",
+   "ja": "ライコウ",
+   "yuyutei": "A",
+   "reason": "アプリのレアリティの選択肢に無いコード（A）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s03a"
+  },
+  {
+   "id": "S3a-033",
+   "ja": "ザシアン",
+   "yuyutei": "A",
+   "reason": "アプリのレアリティの選択肢に無いコード（A）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s03a"
+  },
+  {
+   "id": "S3a-044",
+   "ja": "ザマゼンタ",
+   "yuyutei": "A",
+   "reason": "アプリのレアリティの選択肢に無いコード（A）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s03a"
+  },
+  {
+   "id": "S3a-050",
+   "ja": "ジラーチ",
+   "yuyutei": "A",
+   "reason": "アプリのレアリティの選択肢に無いコード（A）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s03a"
+  },
+  {
+   "id": "S3a-056",
+   "ja": "レックウザ",
+   "yuyutei": "A",
+   "reason": "アプリのレアリティの選択肢に無いコード（A）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/s03a"
+  },
+  {
+   "id": "SM3p-004",
+   "ja": "ひかるセレビィ",
+   "yuyutei": "H",
+   "reason": "アプリのレアリティの選択肢に無いコード（H）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+  },
+  {
+   "id": "SM3p-010",
+   "ja": "ひかるゲノセクト",
+   "yuyutei": "H",
+   "reason": "アプリのレアリティの選択肢に無いコード（H）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+  },
+  {
+   "id": "SM3p-028",
+   "ja": "ひかるボルケニオン",
+   "yuyutei": "H",
+   "reason": "アプリのレアリティの選択肢に無いコード（H）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+  },
+  {
+   "id": "SM3p-041",
+   "ja": "ひかるミュウ",
+   "yuyutei": "H",
+   "reason": "アプリのレアリティの選択肢に無いコード（H）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+  },
+  {
+   "id": "SM3p-043",
+   "ja": "ひかるジラーチ",
+   "yuyutei": "H",
+   "reason": "アプリのレアリティの選択肢に無いコード（H）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+  },
+  {
+   "id": "SM3p-057",
+   "ja": "ひかるレックウザ",
+   "yuyutei": "H",
+   "reason": "アプリのレアリティの選択肢に無いコード（H）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+  },
+  {
+   "id": "SM3p-058",
+   "ja": "ひかるルギア",
+   "yuyutei": "H",
+   "reason": "アプリのレアリティの選択肢に無いコード（H）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+  },
+  {
+   "id": "SM3p-059",
+   "ja": "ひかるアルセウス",
+   "yuyutei": "H",
+   "reason": "アプリのレアリティの選択肢に無いコード（H）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm03plus"
+  },
+  {
+   "id": "SM5S-031",
+   "ja": "ダークライ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm05s"
+  },
+  {
+   "id": "SM5S-043",
+   "ja": "ソルガレオ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm05s"
+  },
+  {
+   "id": "SM5S-059",
+   "ja": "アカギ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm05s"
+  },
+  {
+   "id": "SM5M-030",
+   "ja": "ギラティナ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm05m"
+  },
+  {
+   "id": "SM5M-032",
+   "ja": "ルナアーラ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm05m"
+  },
+  {
+   "id": "SM5M-065",
+   "ja": "超ブーストエネルギー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm05m"
+  },
+  {
+   "id": "SM5p-037",
+   "ja": "アルセウス プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm05plus"
+  },
+  {
+   "id": "SM5p-048",
+   "ja": "ビーストエネルギー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm05plus"
+  },
+  {
+   "id": "SM6-027",
+   "ja": "ボルケニオン プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm06"
+  },
+  {
+   "id": "SM6-051",
+   "ja": "ディアンシー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm06"
+  },
+  {
+   "id": "SM6-089",
+   "ja": "フラダリ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm06"
+  },
+  {
+   "id": "SM6a-004",
+   "ja": "ビクティニ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm06a"
+  },
+  {
+   "id": "SM6a-050",
+   "ja": "ワタル プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm06a"
+  },
+  {
+   "id": "SM7-057",
+   "ja": "ジラーチ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm07"
+  },
+  {
+   "id": "SM7-066",
+   "ja": "ラティアス プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm07"
+  },
+  {
+   "id": "SM7-067",
+   "ja": "ラティオス プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm07"
+  },
+  {
+   "id": "SM7a-043",
+   "ja": "メタモン プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm07a"
+  },
+  {
+   "id": "SM7a-058",
+   "ja": "サンダーマウンテン プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm07a"
+  },
+  {
+   "id": "SM7b-033",
+   "ja": "ゼルネアス プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm07b"
+  },
+  {
+   "id": "SM7b-050",
+   "ja": "ライフフォレスト プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm07b"
+  },
+  {
+   "id": "SM8-015",
+   "ja": "セレビィ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08"
+  },
+  {
+   "id": "SM8-092",
+   "ja": "ルザミーネ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08"
+  },
+  {
+   "id": "SM8-093",
+   "ja": "ヒートファクトリー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08"
+  },
+  {
+   "id": "SM8a-014",
+   "ja": "カプ・コケコ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08a"
+  },
+  {
+   "id": "SM8a-052",
+   "ja": "ブラックマーケット プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08a"
+  },
+  {
+   "id": "SM8b-006",
+   "ja": "シェイミ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08b"
+  },
+  {
+   "id": "SM8b-047",
+   "ja": "ルナアーラ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08b"
+  },
+  {
+   "id": "SM8b-058",
+   "ja": "ディアンシー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08b"
+  },
+  {
+   "id": "SM8b-082",
+   "ja": "ソルガレオ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08b"
+  },
+  {
+   "id": "SM8b-145",
+   "ja": "ワンダーラビリンス プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08b"
+  },
+  {
+   "id": "SM8b-147",
+   "ja": "ビーストエネルギー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm08b"
+  },
+  {
+   "id": "SM12a-011",
+   "ja": "シェイミ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-021",
+   "ja": "ビクティニ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-037",
+   "ja": "ボルケニオン プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-049",
+   "ja": "カプ・コケコ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-058",
+   "ja": "ギラティナ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-070",
+   "ja": "ディアンシー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-077",
+   "ja": "ダークライ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-091",
+   "ja": "ジラーチ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-108",
+   "ja": "メタモン プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-144",
+   "ja": "アカギ プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-163",
+   "ja": "サンダーマウンテン プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-166",
+   "ja": "ヒートファクトリー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-167",
+   "ja": "ブラックマーケット プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-168",
+   "ja": "ライフフォレスト プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-169",
+   "ja": "ワンダーラビリンス プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-170",
+   "ja": "超ブーストエネルギー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "SM12a-172",
+   "ja": "ビーストエネルギー プリズムスター",
+   "yuyutei": "PR",
+   "reason": "アプリのレアリティの選択肢に無いコード（PR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/sm12a"
+  },
+  {
+   "id": "M5-118",
+   "ja": "メガダークライex",
+   "yuyutei": "MUR",
+   "reason": "アプリのレアリティの選択肢に無いコード（MUR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/m05"
+  },
+  {
+   "id": "M4-120",
+   "ja": "メガゲッコウガex",
+   "yuyutei": "MUR",
+   "reason": "アプリのレアリティの選択肢に無いコード（MUR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/m04"
+  },
+  {
+   "id": "M2a-250",
+   "ja": "メガカイリューex",
+   "yuyutei": "MUR",
+   "reason": "アプリのレアリティの選択肢に無いコード（MUR）",
+   "yuyuteiUrl": "https://yuyu-tei.jp/sell/poc/s/m02a"
+  }
+ ]
+}
