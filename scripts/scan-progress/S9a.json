@@ -103,6 +103,19 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041195_P_BIKUIN.jpg"
  },
+ "41196": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "010",
+    "total": "067",
+    "rarity": "RR",
+    "jaName": "ビリジオンV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041196_P_BIRIJIONV_2.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041196_P_BIRIJIONV_2.jpg"
+ },
  "41198": {
   "badge": "S9a",
   "cards": [
@@ -129,6 +142,19 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041199_P_RANPURA.jpg"
  },
+ "41200": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "014",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "シャンデラ",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041200_P_SHIXYANDERA.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041200_P_SHIXYANDERA.jpg"
+ },
  "41201": {
   "badge": "S9a",
   "cards": [
@@ -141,6 +167,19 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041201_P_SHISHIKO.jpg"
+ },
+ "41203": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "017",
+    "total": "067",
+    "rarity": "RR",
+    "jaName": "スターミーV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041203_P_SUTAMIV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041203_P_SUTAMIV.jpg"
  },
  "41204": {
   "badge": "S9a",
@@ -246,6 +285,32 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041213_P_RUJIXYURA.jpg"
  },
+ "41214": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "028",
+    "total": "067",
+    "rarity": "RR",
+    "jaName": "ヒスイ バクフーンV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041214_P_HISUIBAKUFUNV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041214_P_HISUIBAKUFUNV.jpg"
+ },
+ "41215": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "029",
+    "total": "067",
+    "rarity": "RRR",
+    "jaName": "ヒスイ バクフーンVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041215_P_HISUIBAKUFUNVSTAR.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041215_P_HISUIBAKUFUNVSTAR.jpg"
+ },
  "41216": {
   "badge": "S9a",
   "cards": [
@@ -297,6 +362,19 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041219_P_KIRURIA.jpg"
+ },
+ "41222": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "036",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "アヤシシ",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041222_P_AYASHISHI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041222_P_AYASHISHI.jpg"
  },
  "41223": {
   "badge": "S9a",
@@ -376,6 +454,45 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041228_P_KABARUDON.jpg"
  },
+ "41230": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "044",
+    "total": "067",
+    "rarity": "RR",
+    "jaName": "ヒスイ ジュナイパーV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041230_P_HISUIJIXYUNAIPAV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041230_P_HISUIJIXYUNAIPAV.jpg"
+ },
+ "41231": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "045",
+    "total": "067",
+    "rarity": "RRR",
+    "jaName": "ヒスイ ジュナイパーVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041231_P_HISUIJIXYUNAIPAVSTAR.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041231_P_HISUIJIXYUNAIPAVSTAR.jpg"
+ },
+ "41232": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "046",
+    "total": "067",
+    "rarity": "R",
+    "jaName": "バサギリ",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041232_P_BASAGIRI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041232_P_BASAGIRI.jpg"
+ },
  "41233": {
   "badge": "S9a",
   "cards": [
@@ -427,6 +544,45 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041236_P_GURAENA.jpg"
+ },
+ "41238": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "052",
+    "total": "067",
+    "rarity": "RR",
+    "jaName": "ヒスイ ダイケンキV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041238_P_HISUIDAIKENKIV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041238_P_HISUIDAIKENKIV.jpg"
+ },
+ "41239": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "053",
+    "total": "067",
+    "rarity": "RRR",
+    "jaName": "ヒスイ ダイケンキVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041239_P_HISUIDAIKENKIVSTAR.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041239_P_HISUIDAIKENKIVSTAR.jpg"
+ },
+ "41240": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "054",
+    "total": "067",
+    "rarity": "RR",
+    "jaName": "ガブリアスV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041240_P_GABURIASUV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041240_P_GABURIASUV.jpg"
  },
  "41241": {
   "badge": "S9a",
@@ -1182,6 +1338,45 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041496_P_ROZUREIDO.jpg"
  },
+ "41497": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "069",
+    "total": "067",
+    "rarity": "CHR",
+    "jaName": "シャンデラ",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041497_P_SHIXYANDERA.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041497_P_SHIXYANDERA.jpg"
+ },
+ "41498": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "070",
+    "total": "067",
+    "rarity": "CHR",
+    "jaName": "アヤシシ",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041498_P_AYASHISHI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041498_P_AYASHISHI.jpg"
+ },
+ "41499": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "071",
+    "total": "067",
+    "rarity": "CHR",
+    "jaName": "バサギリ",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041499_P_BASAGIRI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041499_P_BASAGIRI.jpg"
+ },
  "41500": {
   "badge": "S9a",
   "cards": [
@@ -1207,6 +1402,84 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041501_P_HOHO.jpg"
+ },
+ "41502": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "074",
+    "total": "067",
+    "rarity": "SR",
+    "jaName": "ビリジオンV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041502_P_BIRIJIONV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041502_P_BIRIJIONV.jpg"
+ },
+ "41503": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "075",
+    "total": "067",
+    "rarity": "SR",
+    "jaName": "スターミーV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041503_P_SUTAMIV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041503_P_SUTAMIV.jpg"
+ },
+ "41504": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "076",
+    "total": "067",
+    "rarity": "SR",
+    "jaName": "ヒスイ バクフーンV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041504_P_HISUIBAKUFUNV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041504_P_HISUIBAKUFUNV.jpg"
+ },
+ "41505": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "077",
+    "total": "067",
+    "rarity": "SR",
+    "jaName": "ヒスイ ジュナイパーV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041505_P_HISUIJIXYUNAIPAV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041505_P_HISUIJIXYUNAIPAV.jpg"
+ },
+ "41506": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "078",
+    "total": "067",
+    "rarity": "SR",
+    "jaName": "ヒスイ ダイケンキV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041506_P_HISUIDAIKENKIV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041506_P_HISUIDAIKENKIV.jpg"
+ },
+ "41507": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "079",
+    "total": "067",
+    "rarity": "SR",
+    "jaName": "ガブリアスV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041507_P_GABURIASUV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041507_P_GABURIASUV.jpg"
  },
  "41508": {
   "badge": "S9a",
@@ -1247,6 +1520,71 @@
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/041510_T_DENBOKU.jpg"
  },
+ "41511": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "083",
+    "total": "067",
+    "rarity": "CSR",
+    "jaName": "スターミーV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041511_P_SUTAMIV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041511_P_SUTAMIV.jpg"
+ },
+ "41512": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "084",
+    "total": "067",
+    "rarity": "CSR",
+    "jaName": "ガブリアスV",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/041512_P_GABURIASUV.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/041512_P_GABURIASUV.jpg"
+ },
+ "44863": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "085",
+    "total": "067",
+    "rarity": "HR",
+    "jaName": "ヒスイ バクフーンVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/044863_P_HISUIBAKUFUNVSTAR.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/044863_P_HISUIBAKUFUNVSTAR.jpg"
+ },
+ "44864": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "086",
+    "total": "067",
+    "rarity": "HR",
+    "jaName": "ヒスイ ジュナイパーVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/044864_P_HISUIJIXYUNAIPAVSTAR.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/044864_P_HISUIJIXYUNAIPAVSTAR.jpg"
+ },
+ "44865": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "087",
+    "total": "067",
+    "rarity": "HR",
+    "jaName": "ヒスイ ダイケンキVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/044865_P_HISUIDAIKENKIVSTAR.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/044865_P_HISUIDAIKENKIVSTAR.jpg"
+ },
  "44866": {
   "badge": "S9a",
   "cards": [
@@ -1285,6 +1623,19 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/S9a/044868_T_DENBOKU.jpg"
+ },
+ "44869": {
+  "badge": "S9a",
+  "cards": [
+   {
+    "local": "091",
+    "total": "067",
+    "rarity": "UR",
+    "jaName": "ヒスイ ダイケンキVSTAR",
+    "cardThumbFile": "/assets/images/card_images/large/S9a/044869_P_HISUIDAIKENKIVSTAR.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/S9a/044869_P_HISUIDAIKENKIVSTAR.jpg"
  },
  "44871": {
   "badge": "S9a",
