@@ -1,0 +1,3090 @@
+{
+ "at": "2026-10-05T15:09:36.510Z",
+ "set": "SV8a",
+ "count": {
+  "アイコンなし（マークの無いカード）": 152,
+  "入れる": 50
+ },
+ "renamed": [
+  {
+   "id": "SV8a-188",
+   "from": "cards/SV/SV8a/アオキの手際_SV8a-188／237.jpg",
+   "to": "cards/SV/SV8a/アオキの手際_SV8a-188／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-189",
+   "from": "cards/SV/SV8a/オルティガ_SV8a-189／237.jpg",
+   "to": "cards/SV/SV8a/オルティガ_SV8a-189／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-190",
+   "from": "cards/SV/SV8a/コルサ_SV8a-190／237.jpg",
+   "to": "cards/SV/SV8a/コルサ_SV8a-190／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-191",
+   "from": "cards/SV/SV8a/シュウメイ_SV8a-191／237.jpg",
+   "to": "cards/SV/SV8a/シュウメイ_SV8a-191／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-192",
+   "from": "cards/SV/SV8a/シュウメイ_SV8a-192／237.jpg",
+   "to": "cards/SV/SV8a/シュウメイ_SV8a-192／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-193",
+   "from": "cards/SV/SV8a/タイム_SV8a-193／237.jpg",
+   "to": "cards/SV/SV8a/タイム_SV8a-193／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-194",
+   "from": "cards/SV/SV8a/ネリネ_SV8a-194／237.jpg",
+   "to": "cards/SV/SV8a/ネリネ_SV8a-194／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-195",
+   "from": "cards/SV/SV8a/パルデアの仲間たち_SV8a-195／237.jpg",
+   "to": "cards/SV/SV8a/パルデアの仲間たち_SV8a-195／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-196",
+   "from": "cards/SV/SV8a/ピーニャ_SV8a-196／237.jpg",
+   "to": "cards/SV/SV8a/ピーニャ_SV8a-196／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-197",
+   "from": "cards/SV/SV8a/ビワ_SV8a-197／237.jpg",
+   "to": "cards/SV/SV8a/ビワ_SV8a-197／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-198",
+   "from": "cards/SV/SV8a/メロコ_SV8a-198／237.jpg",
+   "to": "cards/SV/SV8a/メロコ_SV8a-198／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-199",
+   "from": "cards/SV/SV8a/レホール_SV8a-199／237.jpg",
+   "to": "cards/SV/SV8a/レホール_SV8a-199／237_SR.jpg"
+  },
+  {
+   "id": "SV8a-200",
+   "from": "cards/SV/SV8a/リーフィアex_SV8a-200／237.jpg",
+   "to": "cards/SV/SV8a/リーフィアex_SV8a-200／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-201",
+   "from": "cards/SV/SV8a/オーガポン みどりのめんex_SV8a-201／237.jpg",
+   "to": "cards/SV/SV8a/オーガポン みどりのめんex_SV8a-201／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-202",
+   "from": "cards/SV/SV8a/ブースターex_SV8a-202／237.jpg",
+   "to": "cards/SV/SV8a/ブースターex_SV8a-202／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-203",
+   "from": "cards/SV/SV8a/ソウブレイズex_SV8a-203／237.jpg",
+   "to": "cards/SV/SV8a/ソウブレイズex_SV8a-203／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-204",
+   "from": "cards/SV/SV8a/オーガポン かまどのめんex_SV8a-204／237.jpg",
+   "to": "cards/SV/SV8a/オーガポン かまどのめんex_SV8a-204／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-205",
+   "from": "cards/SV/SV8a/シャワーズex_SV8a-205／237.jpg",
+   "to": "cards/SV/SV8a/シャワーズex_SV8a-205／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-206",
+   "from": "cards/SV/SV8a/グレイシアex_SV8a-206／237.jpg",
+   "to": "cards/SV/SV8a/グレイシアex_SV8a-206／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-207",
+   "from": "cards/SV/SV8a/イルカマンex_SV8a-207／237.jpg",
+   "to": "cards/SV/SV8a/イルカマンex_SV8a-207／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-208",
+   "from": "cards/SV/SV8a/オーガポン いどのめんex_SV8a-208／237.jpg",
+   "to": "cards/SV/SV8a/オーガポン いどのめんex_SV8a-208／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-209",
+   "from": "cards/SV/SV8a/サンダースex_SV8a-209／237.jpg",
+   "to": "cards/SV/SV8a/サンダースex_SV8a-209／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-210",
+   "from": "cards/SV/SV8a/テツノカイナex_SV8a-210／237.jpg",
+   "to": "cards/SV/SV8a/テツノカイナex_SV8a-210／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-211",
+   "from": "cards/SV/SV8a/エーフィex_SV8a-211／237.jpg",
+   "to": "cards/SV/SV8a/エーフィex_SV8a-211／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-212",
+   "from": "cards/SV/SV8a/ニンフィアex_SV8a-212／237.jpg",
+   "to": "cards/SV/SV8a/ニンフィアex_SV8a-212／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-213",
+   "from": "cards/SV/SV8a/テツノブジンex_SV8a-213／237.jpg",
+   "to": "cards/SV/SV8a/テツノブジンex_SV8a-213／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-214",
+   "from": "cards/SV/SV8a/テツノカシラex_SV8a-214／237.jpg",
+   "to": "cards/SV/SV8a/テツノカシラex_SV8a-214／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-215",
+   "from": "cards/SV/SV8a/スナノケガワex_SV8a-215／237.jpg",
+   "to": "cards/SV/SV8a/スナノケガワex_SV8a-215／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-216",
+   "from": "cards/SV/SV8a/オーガポン いしずえのめんex_SV8a-216／237.jpg",
+   "to": "cards/SV/SV8a/オーガポン いしずえのめんex_SV8a-216／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-217",
+   "from": "cards/SV/SV8a/ブラッキーex_SV8a-217／237.jpg",
+   "to": "cards/SV/SV8a/ブラッキーex_SV8a-217／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-218",
+   "from": "cards/SV/SV8a/トドロクツキex_SV8a-218／237.jpg",
+   "to": "cards/SV/SV8a/トドロクツキex_SV8a-218／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-219",
+   "from": "cards/SV/SV8a/モモワロウex_SV8a-219／237.jpg",
+   "to": "cards/SV/SV8a/モモワロウex_SV8a-219／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-220",
+   "from": "cards/SV/SV8a/サーフゴーex_SV8a-220／237.jpg",
+   "to": "cards/SV/SV8a/サーフゴーex_SV8a-220／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-221",
+   "from": "cards/SV/SV8a/ドラパルトex_SV8a-221／237.jpg",
+   "to": "cards/SV/SV8a/ドラパルトex_SV8a-221／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-222",
+   "from": "cards/SV/SV8a/タケルライコex_SV8a-222／237.jpg",
+   "to": "cards/SV/SV8a/タケルライコex_SV8a-222／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-223",
+   "from": "cards/SV/SV8a/イーブイex_SV8a-223／237.jpg",
+   "to": "cards/SV/SV8a/イーブイex_SV8a-223／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-224",
+   "from": "cards/SV/SV8a/イーブイex_SV8a-224／237.jpg",
+   "to": "cards/SV/SV8a/イーブイex_SV8a-224／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-225",
+   "from": "cards/SV/SV8a/ガチグマ アカツキex_SV8a-225／237.jpg",
+   "to": "cards/SV/SV8a/ガチグマ アカツキex_SV8a-225／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-226",
+   "from": "cards/SV/SV8a/テラパゴスex_SV8a-226／237.jpg",
+   "to": "cards/SV/SV8a/テラパゴスex_SV8a-226／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-227",
+   "from": "cards/SV/SV8a/アカマツ_SV8a-227／237.jpg",
+   "to": "cards/SV/SV8a/アカマツ_SV8a-227／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-228",
+   "from": "cards/SV/SV8a/アンズの秘技_SV8a-228／237.jpg",
+   "to": "cards/SV/SV8a/アンズの秘技_SV8a-228／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-229",
+   "from": "cards/SV/SV8a/カキツバタ_SV8a-229／237.jpg",
+   "to": "cards/SV/SV8a/カキツバタ_SV8a-229／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-230",
+   "from": "cards/SV/SV8a/スグリ_SV8a-230／237.jpg",
+   "to": "cards/SV/SV8a/スグリ_SV8a-230／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-231",
+   "from": "cards/SV/SV8a/タロ_SV8a-231／237.jpg",
+   "to": "cards/SV/SV8a/タロ_SV8a-231／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-232",
+   "from": "cards/SV/SV8a/ネリネ_SV8a-232／237.jpg",
+   "to": "cards/SV/SV8a/ネリネ_SV8a-232／237_SAR.jpg"
+  },
+  {
+   "id": "SV8a-233",
+   "from": "cards/SV/SV8a/テツノイサハex_SV8a-233／237.jpg",
+   "to": "cards/SV/SV8a/テツノイサハex_SV8a-233／237_UR.jpg"
+  },
+  {
+   "id": "SV8a-234",
+   "from": "cards/SV/SV8a/オーガポン みどりのめんex_SV8a-234／237.jpg",
+   "to": "cards/SV/SV8a/オーガポン みどりのめんex_SV8a-234／237_UR.jpg"
+  },
+  {
+   "id": "SV8a-235",
+   "from": "cards/SV/SV8a/ウネルミナモex_SV8a-235／237.jpg",
+   "to": "cards/SV/SV8a/ウネルミナモex_SV8a-235／237_UR.jpg"
+  },
+  {
+   "id": "SV8a-236",
+   "from": "cards/SV/SV8a/ピカチュウex_SV8a-236／237.jpg",
+   "to": "cards/SV/SV8a/ピカチュウex_SV8a-236／237_UR.jpg"
+  },
+  {
+   "id": "SV8a-237",
+   "from": "cards/SV/SV8a/テラパゴスex_SV8a-237／237.jpg",
+   "to": "cards/SV/SV8a/テラパゴスex_SV8a-237／237_UR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "SV8a-001",
+   "ja": "スボミー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46662",
+     "jaName": "スボミー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-002",
+   "ja": "リーフィア",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46663",
+     "jaName": "リーフィア",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-004",
+   "ja": "モンメン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46665",
+     "jaName": "モンメン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-005",
+   "ja": "エルフーン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46666",
+     "jaName": "エルフーン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-006",
+   "ja": "サルノリ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46667",
+     "jaName": "サルノリ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-007",
+   "ja": "バチンキー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46668",
+     "jaName": "バチンキー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-008",
+   "ja": "カジッチュ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46669",
+     "jaName": "カジッチュ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-009",
+   "ja": "カミッチュ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46670",
+     "jaName": "カミッチュ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-011",
+   "ja": "アノクサ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46672",
+     "jaName": "アノクサ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-012",
+   "ja": "アノホラグサ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46673",
+     "jaName": "アノホラグサ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-013",
+   "ja": "シガロコ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46674",
+     "jaName": "シガロコ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-014",
+   "ja": "ベラカス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46675",
+     "jaName": "ベラカス",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-015",
+   "ja": "チオンジェン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46676",
+     "jaName": "チオンジェン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-017",
+   "ja": "チャデス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46678",
+     "jaName": "チャデス",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-018",
+   "ja": "ヤバソチャ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46679",
+     "jaName": "ヤバソチャ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-021",
+   "ja": "ブースター",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46682",
+     "jaName": "ブースター",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-023",
+   "ja": "カルボウ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46684",
+     "jaName": "カルボウ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-024",
+   "ja": "テツノドクガ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46685",
+     "jaName": "テツノドクガ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-025",
+   "ja": "イーユイ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46686",
+     "jaName": "イーユイ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-028",
+   "ja": "トサキント",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46689",
+     "jaName": "トサキント",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-029",
+   "ja": "アズマオウ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46690",
+     "jaName": "アズマオウ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-030",
+   "ja": "シャワーズ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46691",
+     "jaName": "シャワーズ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-032",
+   "ja": "ワニノコ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46693",
+     "jaName": "ワニノコ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-033",
+   "ja": "アリゲイツ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46694",
+     "jaName": "アリゲイツ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-034",
+   "ja": "オーダイル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46695",
+     "jaName": "オーダイル",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-035",
+   "ja": "ヒンバス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46696",
+     "jaName": "ヒンバス",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-036",
+   "ja": "ミロカロス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46697",
+     "jaName": "ミロカロス",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-037",
+   "ja": "ユキワラシ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46698",
+     "jaName": "ユキワラシ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-038",
+   "ja": "ユキメノコ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46699",
+     "jaName": "ユキメノコ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-040",
+   "ja": "グレイシア",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46701",
+     "jaName": "グレイシア",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-042",
+   "ja": "ウミディグダ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46703",
+     "jaName": "ウミディグダ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-043",
+   "ja": "ウミトリオ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46704",
+     "jaName": "ウミトリオ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-044",
+   "ja": "ナミイルカ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46705",
+     "jaName": "ナミイルカ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-045",
+   "ja": "イルカマン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46706",
+     "jaName": "イルカマン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-047",
+   "ja": "テツノツツミ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46708",
+     "jaName": "テツノツツミ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-048",
+   "ja": "パオジアン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46709",
+     "jaName": "パオジアン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-051",
+   "ja": "サンダース",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46712",
+     "jaName": "サンダース",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-053",
+   "ja": "ゼラオラ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46714",
+     "jaName": "ゼラオラ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-055",
+   "ja": "テツノイバラ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46716",
+     "jaName": "テツノイバラ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-057",
+   "ja": "ケーシィ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46718",
+     "jaName": "ケーシィ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-058",
+   "ja": "ユンゲラー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46719",
+     "jaName": "ユンゲラー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-059",
+   "ja": "フーディン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46720",
+     "jaName": "フーディン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-060",
+   "ja": "ネイティ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46721",
+     "jaName": "ネイティ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-061",
+   "ja": "ネイティオ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46722",
+     "jaName": "ネイティオ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-062",
+   "ja": "エーフィ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46723",
+     "jaName": "エーフィ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-064",
+   "ja": "ヨマワル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46725",
+     "jaName": "ヨマワル",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-065",
+   "ja": "サマヨール",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46726",
+     "jaName": "サマヨール",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-066",
+   "ja": "ヨノワール",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46727",
+     "jaName": "ヨノワール",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-067",
+   "ja": "ペロッパフ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46728",
+     "jaName": "ペロッパフ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-068",
+   "ja": "ニンフィア",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46729",
+     "jaName": "ニンフィア",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-070",
+   "ja": "ソウブレイズ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46731",
+     "jaName": "ソウブレイズ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-071",
+   "ja": "サケブシッポ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46732",
+     "jaName": "サケブシッポ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-072",
+   "ja": "ハバタクカミ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46733",
+     "jaName": "ハバタクカミ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-073",
+   "ja": "コレクレー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46734",
+     "jaName": "コレクレー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-075",
+   "ja": "マシマシラ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46736",
+     "jaName": "マシマシラ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-076",
+   "ja": "キチキギス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46737",
+     "jaName": "キチキギス",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-077",
+   "ja": "テツノイワオ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46738",
+     "jaName": "テツノイワオ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-079",
+   "ja": "ジーランス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46740",
+     "jaName": "ジーランス",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-080",
+   "ja": "グラードン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46741",
+     "jaName": "グラードン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-081",
+   "ja": "フカマル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46742",
+     "jaName": "フカマル",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-082",
+   "ja": "ガバイト",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46743",
+     "jaName": "ガバイト",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-083",
+   "ja": "モグリュー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46744",
+     "jaName": "モグリュー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-084",
+   "ja": "ルチャブル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46745",
+     "jaName": "ルチャブル",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-085",
+   "ja": "ガチグマ アカツキ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46746",
+     "jaName": "ガチグマ アカツキ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-086",
+   "ja": "イダイナキバ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46747",
+     "jaName": "イダイナキバ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-087",
+   "ja": "チヲハウハネ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46748",
+     "jaName": "チヲハウハネ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-089",
+   "ja": "ディンルー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46750",
+     "jaName": "ディンルー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-090",
+   "ja": "イイネイヌ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46751",
+     "jaName": "イイネイヌ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-092",
+   "ja": "ブラッキー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46753",
+     "jaName": "ブラッキー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-094",
+   "ja": "ヤブクロン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46755",
+     "jaName": "ヤブクロン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-095",
+   "ja": "ダストダス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46756",
+     "jaName": "ダストダス",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-096",
+   "ja": "ゾロア",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46757",
+     "jaName": "ゾロア",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-097",
+   "ja": "ゾロアーク",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46758",
+     "jaName": "ゾロアーク",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-098",
+   "ja": "モルペコ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46759",
+     "jaName": "モルペコ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-099",
+   "ja": "アラブルタケ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46760",
+     "jaName": "アラブルタケ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-100",
+   "ja": "トドロクツキ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46761",
+     "jaName": "トドロクツキ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-106",
+   "ja": "ダンバル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46767",
+     "jaName": "ダンバル",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-107",
+   "ja": "メタング",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46768",
+     "jaName": "メタング",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-108",
+   "ja": "ジラーチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46769",
+     "jaName": "ジラーチ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-109",
+   "ja": "ヒトツキ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46770",
+     "jaName": "ヒトツキ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-110",
+   "ja": "ニダンギル",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46771",
+     "jaName": "ニダンギル",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-111",
+   "ja": "ギルガルド",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46772",
+     "jaName": "ギルガルド",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-112",
+   "ja": "ジュラルドン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46773",
+     "jaName": "ジュラルドン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-113",
+   "ja": "ブリジュラス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46774",
+     "jaName": "ブリジュラス",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-114",
+   "ja": "ブロロン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46775",
+     "jaName": "ブロロン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-115",
+   "ja": "ブロロローム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46776",
+     "jaName": "ブロロローム",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-116",
+   "ja": "テツノワダチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46777",
+     "jaName": "テツノワダチ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-118",
+   "ja": "ドラメシヤ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46779",
+     "jaName": "ドラメシヤ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-119",
+   "ja": "ドロンチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46780",
+     "jaName": "ドロンチ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-121",
+   "ja": "シャリタツ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46782",
+     "jaName": "シャリタツ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-122",
+   "ja": "コライドン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46783",
+     "jaName": "コライドン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-123",
+   "ja": "ミライドン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46784",
+     "jaName": "ミライドン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-125",
+   "ja": "イーブイ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46786",
+     "jaName": "イーブイ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-127",
+   "ja": "ホーホー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46788",
+     "jaName": "ホーホー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-128",
+   "ja": "ヨルノズク",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46789",
+     "jaName": "ヨルノズク",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-129",
+   "ja": "ノコッチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46790",
+     "jaName": "ノコッチ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-130",
+   "ja": "ノココッチ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46791",
+     "jaName": "ノココッチ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-131",
+   "ja": "スピンロトム",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46792",
+     "jaName": "スピンロトム",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-132",
+   "ja": "レジギガス",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46793",
+     "jaName": "レジギガス",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-133",
+   "ja": "バッフロン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46794",
+     "jaName": "バッフロン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-135",
+   "ja": "テツノコウベ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46796",
+     "jaName": "テツノコウベ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-137",
+   "ja": "鬼の仮面",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46798",
+     "jaName": "鬼の仮面",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-138",
+   "ja": "改造ハンマー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46799",
+     "jaName": "改造ハンマー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-139",
+   "ja": "カウンターキャッチャー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46800",
+     "jaName": "カウンターキャッチャー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-140",
+   "ja": "ガラスのラッパ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46801",
+     "jaName": "ガラスのラッパ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-141",
+   "ja": "スーパーエネルギー回収",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46802",
+     "jaName": "スーパーエネルギー回収",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-142",
+   "ja": "つりざおMAX",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46803",
+     "jaName": "つりざおMAX",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-143",
+   "ja": "大地の器",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46804",
+     "jaName": "大地の器",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-144",
+   "ja": "テクノレーダー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46805",
+     "jaName": "テクノレーダー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-145",
+   "ja": "テラスタルオーブ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46806",
+     "jaName": "テラスタルオーブ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-146",
+   "ja": "トレジャーガジェット",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46807",
+     "jaName": "トレジャーガジェット",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-147",
+   "ja": "なかよしポフィン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46808",
+     "jaName": "なかよしポフィン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-148",
+   "ja": "プライムキャッチャー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46809",
+     "jaName": "プライムキャッチャー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-149",
+   "ja": "ポケモン回収サイクロン",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46810",
+     "jaName": "ポケモン回収サイクロン",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-150",
+   "ja": "むしとりセット",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46811",
+     "jaName": "むしとりセット",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-151",
+   "ja": "夜のタンカ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46812",
+     "jaName": "夜のタンカ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-152",
+   "ja": "きらめく結晶",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46813",
+     "jaName": "きらめく結晶",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-153",
+   "ja": "緊急ボード",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46814",
+     "jaName": "緊急ボード",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-154",
+   "ja": "くさりもち",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46815",
+     "jaName": "くさりもち",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-155",
+   "ja": "ゴージャスマント",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46816",
+     "jaName": "ゴージャスマント",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-156",
+   "ja": "ハバンのみ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46817",
+     "jaName": "ハバンのみ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-157",
+   "ja": "ブーストエナジー 古代",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46818",
+     "jaName": "ブーストエナジー 古代",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-158",
+   "ja": "ブーストエナジー 未来",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46819",
+     "jaName": "ブーストエナジー 未来",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-159",
+   "ja": "マキシマムベルト",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46820",
+     "jaName": "マキシマムベルト",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-160",
+   "ja": "ワザマシン エヴォリューション",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46821",
+     "jaName": "ワザマシン エヴォリューション",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-161",
+   "ja": "ワザマシン デヴォリューション",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46822",
+     "jaName": "ワザマシン デヴォリューション",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-162",
+   "ja": "アオキの手際",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46823",
+     "jaName": "アオキの手際",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-163",
+   "ja": "アカマツ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46824",
+     "jaName": "アカマツ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-164",
+   "ja": "アクロマの執念",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46825",
+     "jaName": "アクロマの執念",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-165",
+   "ja": "暗号マニアの解読",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46826",
+     "jaName": "暗号マニアの解読",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-166",
+   "ja": "アンズの秘技",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46827",
+     "jaName": "アンズの秘技",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-167",
+   "ja": "オーリム博士の気迫",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46828",
+     "jaName": "オーリム博士の気迫",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-168",
+   "ja": "スイレンのお世話",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46829",
+     "jaName": "スイレンのお世話",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-169",
+   "ja": "スグリ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46830",
+     "jaName": "スグリ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-170",
+   "ja": "ゼイユ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46831",
+     "jaName": "ゼイユ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-171",
+   "ja": "タロ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46832",
+     "jaName": "タロ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-172",
+   "ja": "探検家の先導",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46833",
+     "jaName": "探検家の先導",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-173",
+   "ja": "ネリネ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46834",
+     "jaName": "ネリネ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-174",
+   "ja": "パルデアの仲間たち",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46835",
+     "jaName": "パルデアの仲間たち",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-175",
+   "ja": "フトゥー博士のシナリオ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46836",
+     "jaName": "フトゥー博士のシナリオ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-176",
+   "ja": "ブライア",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46837",
+     "jaName": "ブライア",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-177",
+   "ja": "ベルのまごころ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46838",
+     "jaName": "ベルのまごころ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-178",
+   "ja": "マツバの確信",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46839",
+     "jaName": "マツバの確信",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-179",
+   "ja": "メロコ",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46840",
+     "jaName": "メロコ",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-180",
+   "ja": "お祭り会場",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46841",
+     "jaName": "お祭り会場",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-181",
+   "ja": "ジャミングタワー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46842",
+     "jaName": "ジャミングタワー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-182",
+   "ja": "ゼロの大空洞",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46843",
+     "jaName": "ゼロの大空洞",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-183",
+   "ja": "月明かりの丘",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46844",
+     "jaName": "月明かりの丘",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-184",
+   "ja": "ニュートラルセンター",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46845",
+     "jaName": "ニュートラルセンター",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-185",
+   "ja": "ジェットエネルギー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46846",
+     "jaName": "ジェットエネルギー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-186",
+   "ja": "ミストエネルギー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46847",
+     "jaName": "ミストエネルギー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-187",
+   "ja": "レガシーエネルギー",
+   "status": "アイコンなし（マークの無いカード）",
+   "rarity": null,
+   "details": [
+    {
+     "cardId": "46848",
+     "jaName": "レガシーエネルギー",
+     "rarity": "",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-188",
+   "ja": "アオキの手際",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47109",
+     "jaName": "アオキの手際",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-189",
+   "ja": "オルティガ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47110",
+     "jaName": "オルティガ",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-190",
+   "ja": "コルサ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47111",
+     "jaName": "コルサ",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-191",
+   "ja": "シュウメイ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47112",
+     "jaName": "シュウメイ",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-192",
+   "ja": "シュウメイ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47113",
+     "jaName": "シュウメイ",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-193",
+   "ja": "タイム",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47114",
+     "jaName": "タイム",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-194",
+   "ja": "ネリネ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47115",
+     "jaName": "ネリネ",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-195",
+   "ja": "パルデアの仲間たち",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47116",
+     "jaName": "パルデアの仲間たち",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-196",
+   "ja": "ピーニャ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47117",
+     "jaName": "ピーニャ",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-197",
+   "ja": "ビワ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47118",
+     "jaName": "ビワ",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-198",
+   "ja": "メロコ",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47119",
+     "jaName": "メロコ",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-199",
+   "ja": "レホール",
+   "status": "入れる",
+   "rarity": "SR",
+   "details": [
+    {
+     "cardId": "47120",
+     "jaName": "レホール",
+     "rarity": "SR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-200",
+   "ja": "リーフィアex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47121",
+     "jaName": "リーフィアex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-201",
+   "ja": "オーガポン みどりのめんex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47122",
+     "jaName": "オーガポン みどりのめんex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-202",
+   "ja": "ブースターex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47123",
+     "jaName": "ブースターex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-203",
+   "ja": "ソウブレイズex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47124",
+     "jaName": "ソウブレイズex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-204",
+   "ja": "オーガポン かまどのめんex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47125",
+     "jaName": "オーガポン かまどのめんex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-205",
+   "ja": "シャワーズex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47126",
+     "jaName": "シャワーズex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-206",
+   "ja": "グレイシアex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47127",
+     "jaName": "グレイシアex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-207",
+   "ja": "イルカマンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47128",
+     "jaName": "イルカマンex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-208",
+   "ja": "オーガポン いどのめんex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47129",
+     "jaName": "オーガポン いどのめんex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-209",
+   "ja": "サンダースex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47130",
+     "jaName": "サンダースex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-210",
+   "ja": "テツノカイナex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47131",
+     "jaName": "テツノカイナex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-211",
+   "ja": "エーフィex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47132",
+     "jaName": "エーフィex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-212",
+   "ja": "ニンフィアex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47133",
+     "jaName": "ニンフィアex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-213",
+   "ja": "テツノブジンex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47134",
+     "jaName": "テツノブジンex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-214",
+   "ja": "テツノカシラex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47135",
+     "jaName": "テツノカシラex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-215",
+   "ja": "スナノケガワex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47136",
+     "jaName": "スナノケガワex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-216",
+   "ja": "オーガポン いしずえのめんex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47137",
+     "jaName": "オーガポン いしずえのめんex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-217",
+   "ja": "ブラッキーex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47138",
+     "jaName": "ブラッキーex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-218",
+   "ja": "トドロクツキex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47139",
+     "jaName": "トドロクツキex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-219",
+   "ja": "モモワロウex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47140",
+     "jaName": "モモワロウex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-220",
+   "ja": "サーフゴーex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47141",
+     "jaName": "サーフゴーex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-221",
+   "ja": "ドラパルトex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47142",
+     "jaName": "ドラパルトex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-222",
+   "ja": "タケルライコex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47143",
+     "jaName": "タケルライコex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-223",
+   "ja": "イーブイex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47144",
+     "jaName": "イーブイex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-224",
+   "ja": "イーブイex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47145",
+     "jaName": "イーブイex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-225",
+   "ja": "ガチグマ アカツキex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47146",
+     "jaName": "ガチグマ アカツキex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-226",
+   "ja": "テラパゴスex",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47147",
+     "jaName": "テラパゴスex",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-227",
+   "ja": "アカマツ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47148",
+     "jaName": "アカマツ",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-228",
+   "ja": "アンズの秘技",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47149",
+     "jaName": "アンズの秘技",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-229",
+   "ja": "カキツバタ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47150",
+     "jaName": "カキツバタ",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-230",
+   "ja": "スグリ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47151",
+     "jaName": "スグリ",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-231",
+   "ja": "タロ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47152",
+     "jaName": "タロ",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-232",
+   "ja": "ネリネ",
+   "status": "入れる",
+   "rarity": "SAR",
+   "details": [
+    {
+     "cardId": "47153",
+     "jaName": "ネリネ",
+     "rarity": "SAR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-233",
+   "ja": "テツノイサハex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47154",
+     "jaName": "テツノイサハex",
+     "rarity": "UR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-234",
+   "ja": "オーガポン みどりのめんex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47155",
+     "jaName": "オーガポン みどりのめんex",
+     "rarity": "UR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-235",
+   "ja": "ウネルミナモex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47156",
+     "jaName": "ウネルミナモex",
+     "rarity": "UR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-236",
+   "ja": "ピカチュウex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47157",
+     "jaName": "ピカチュウex",
+     "rarity": "UR",
+     "badge": "SV8a"
+    }
+   ]
+  },
+  {
+   "id": "SV8a-237",
+   "ja": "テラパゴスex",
+   "status": "入れる",
+   "rarity": "UR",
+   "details": [
+    {
+     "cardId": "47158",
+     "jaName": "テラパゴスex",
+     "rarity": "UR",
+     "badge": "SV8a"
+    }
+   ]
+  }
+ ]
+}
