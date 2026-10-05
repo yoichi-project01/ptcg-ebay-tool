@@ -1,0 +1,68 @@
+{
+ "at": "2026-10-05T15:07:43.644Z",
+ "set": "S7D",
+ "count": {
+  "入れる": 3
+ },
+ "renamed": [
+  {
+   "id": "S7D-025",
+   "from": "cards/S/S7D/ルガルガンVMAX_S7D-25／79.jpg",
+   "to": "cards/S/S7D/ルガルガンVMAX_S7D-25／79_RRR.jpg"
+  },
+  {
+   "id": "S7D-031",
+   "from": "cards/S/S7D/ダストダスVMAX_S7D-31／79.jpg",
+   "to": "cards/S/S7D/ダストダスVMAX_S7D-31／79_RRR.jpg"
+  },
+  {
+   "id": "S7D-049",
+   "from": "cards/S/S7D/ジュラルドンVMAX_S7D-49／79.jpg",
+   "to": "cards/S/S7D/ジュラルドンVMAX_S7D-49／79_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S7D-025",
+   "ja": "ルガルガンVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "39694",
+     "jaName": "ルガルガンVMAX",
+     "rarity": "RRR",
+     "badge": "S7D"
+    }
+   ]
+  },
+  {
+   "id": "S7D-031",
+   "ja": "ダストダスVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "39700",
+     "jaName": "ダストダスVMAX",
+     "rarity": "RRR",
+     "badge": "S7D"
+    }
+   ]
+  },
+  {
+   "id": "S7D-049",
+   "ja": "ジュラルドンVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "39718",
+     "jaName": "ジュラルドンVMAX",
+     "rarity": "RRR",
+     "badge": "S7D"
+    }
+   ]
+  }
+ ]
+}
