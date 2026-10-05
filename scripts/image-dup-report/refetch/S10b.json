@@ -1,0 +1,39 @@
+{
+ "set": "S10b",
+ "checkedAt": "2026-10-05T02:25:05.948Z",
+ "refetched": [
+  {
+   "cardId": "S10b-027",
+   "set": "S10b",
+   "local": "027",
+   "name": "ピカチュウ",
+   "rarity": "C",
+   "image": "cards/S/S10b/ピカチュウ_S10b-27／93_C.jpg",
+   "officialCardId": "41708",
+   "officialRarity": "C",
+   "thumb": "/assets/images/card_images/large/S10b/041708_P_PIKACHIXYUU.jpg",
+   "changed": false,
+   "newImage": "cards/S/S10b/ピカチュウ_S10b-27／93_C.jpg"
+  },
+  {
+   "cardId": "S10b-028",
+   "set": "S10b",
+   "local": "028",
+   "name": "ピカチュウ",
+   "rarity": "R",
+   "image": "cards/S/S10b/ピカチュウ_S10b-28／93_R.jpg",
+   "officialCardId": "41709",
+   "officialRarity": "R",
+   "thumb": "/assets/images/card_images/large/S10b/041709_P_PIKACHIXYUU.jpg",
+   "changed": false,
+   "newImage": "cards/S/S10b/ピカチュウ_S10b-28／93_R.jpg"
+  }
+ ],
+ "notFound": [],
+ "nameMismatch": [],
+ "verify": {
+  "checkedAt": "2026-10-05T02:25:06.900Z",
+  "remainingDuplicates": [],
+  "officialSameImage": []
+ }
+}
