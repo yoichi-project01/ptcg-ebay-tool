@@ -1,0 +1,39 @@
+{
+ "set": "SV-P",
+ "checkedAt": "2026-10-05T05:18:27.365Z",
+ "refetched": [
+  {
+   "cardId": "SV-P-031",
+   "set": "SV-P",
+   "local": "031",
+   "name": "イーブイ",
+   "rarity": "",
+   "image": "cards/SV/SV-P/イーブイ_SV-P-031／290.jpg",
+   "officialCardId": "42964",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SV-P/042964_P_IBUI.jpg",
+   "changed": false,
+   "newImage": "cards/SV/SV-P/イーブイ_SV-P-031／290.jpg"
+  },
+  {
+   "cardId": "SV-P-033",
+   "set": "SV-P",
+   "local": "033",
+   "name": "イーブイ",
+   "rarity": "",
+   "image": "cards/SV/SV-P/イーブイ_SV-P-033／290.jpg",
+   "officialCardId": "42965",
+   "officialRarity": "",
+   "thumb": "/assets/images/card_images/large/SV-P/042965_P_IBUI.jpg",
+   "changed": true,
+   "newImage": "cards/SV/SV-P/イーブイ_SV-P-033／290.jpg"
+  }
+ ],
+ "notFound": [],
+ "nameMismatch": [],
+ "verify": {
+  "checkedAt": "2026-10-05T05:18:33.954Z",
+  "remainingDuplicates": [],
+  "officialSameImage": []
+ }
+}
