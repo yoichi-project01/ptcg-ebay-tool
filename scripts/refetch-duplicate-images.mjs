@@ -110,6 +110,14 @@ async function refetchSet(set, targets, scan, cardData) {
       if (!prev) official.set(n, entry);
     }
   }
+  // プロモ（番号が「031 / SV-P」の形）は上の読み取りでは番号が取れないので、scrape-promo-sets.mjs が details.php で
+  // 確かめた結果（scripts/promo-progress/{弾}.json の number・cardThumbFile）を使う
+  const promo = await loadJson(path.join(__dirname, "promo-progress", `${set}.json`), null);
+  for (const [cardId, d] of Object.entries(promo?.details || promo || {})) {
+    if (!d?.number || !/^\d+$/.test(d.number) || !badges.has(d.badge)) continue;
+    const n = keyOf(d.number);
+    if (!official.has(n)) official.set(n, { cardId, jaName: d.jaName, rarity: "", thumb: d.cardThumbFile });
+  }
 
   const result = { set, checkedAt: new Date().toISOString(), refetched: [], notFound: [], nameMismatch: [] };
   const stage = path.join(STAGE_DIR, set);
@@ -138,14 +146,17 @@ async function refetchSet(set, targets, scan, cardData) {
   if (result.nameMismatch.length) throw new Error(`[${set}] cardData と公式で名前が違うカードがあります（public/cards は未変更）: ` +
     result.nameMismatch.map((m) => `${m.cardId} ${m.cardData}→${m.official}`).join(" / "));
 
-  // 置き換え（ファイル名はそのまま。中身の形式が違えば拡張子だけ変える）
+  // 置き換え（ファイル名はそのまま。中身の形式が違えば拡張子だけ変える）。
+  // 再実行のときは既に置き換え済みなので、前回の記録の「中身が変わった」を引き継ぐ
+  const prevResult = await loadJson(path.join(OUT_DIR, `${set}.json`), { refetched: [] });
+  const prevChanged = new Set((prevResult.refetched || []).filter((r) => r.changed).map((r) => r.cardId));
   for (const r of result.refetched) {
     const buf = await fs.readFile(path.join(stage, `${r.local}.img`));
     const oldPath = path.join(ROOT, "public", r.image);
     let old = null; try { old = await fs.readFile(oldPath); } catch {}
     const ext = imageExt(buf);
     const newPath = oldPath.replace(/\.(jpg|png|gif|webp)$/i, ext);
-    r.changed = !old || !old.equals(buf);
+    r.changed = prevChanged.has(r.cardId) || !old || !old.equals(buf);
     r.newImage = path.relative(path.join(ROOT, "public"), newPath).split(path.sep).join("/");
     if (r.changed || newPath !== oldPath) {
       await writeFileAtomic(newPath, buf);
@@ -173,7 +184,8 @@ async function verifySet(set, cardData) {
   const groups = new Map();
   for (const [key, rel] of Object.entries(ii)) {
     const [s, n] = key.split("/");
-    if (s !== set || !rows.has(n)) continue;
+    // 数字でない型番の行（FIG・FIR など。公式で確かめられず対象外にした行）は確認からも除く
+    if (s !== set || !rows.has(n) || !/^\d+$/.test(n)) continue;
     if (/LEGEND$|V-UNION$/.test(rows.get(n)[1])) continue;
     const h = crypto.createHash("md5").update(await fs.readFile(path.join(ROOT, "public", rel))).digest("hex");
     if (!groups.has(h)) groups.set(h, []);

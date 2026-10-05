@@ -41,6 +41,7 @@ async function main() {
   // 全体を作り直すと古いファイルを拾ってしまう。1つの弾を作り直した後などはこちらを使うこと
   const onlyArg = process.argv.find((a) => a.startsWith("--only="))?.slice(7) ?? (process.argv.includes("--only") ? process.argv[process.argv.indexOf("--only") + 1] : null);
   const onlySets = onlyArg ? new Set(onlyArg.split(",").filter(Boolean)) : null;
+  const keepKeys = process.argv.includes("--keep-keys");
   let prevIndex = {};
   try { prevIndex = JSON.parse(await fs.readFile(OUT, "utf-8")); } catch {}
   const files = await walk(CARDS_DIR);
@@ -78,7 +79,9 @@ async function main() {
       if (!onlySets.has(k.split("/")[0])) continue;
       const prev = prevIndex[k];
       if (prev && (await fs.stat(path.join(ROOT, "public", prev)).then((st) => st.size >= MIN_IMAGE_BYTES, () => false))) index[k] = prev;
-      else if (!valid.has(k)) delete index[k];
+      // --keep-keys：既存の索引に無いキーは足さない（画像の取り直しなど、新しいカードを足さない作業で、確かめていない古いファイルを
+      // 拾わないため。2026-10-05：SVD・SVF で画像の無かった行に古いファイルが入った）
+      else if (!valid.has(k) || (keepKeys && !prev)) delete index[k];
     }
   }
   // public/cards は .gitignore 対象で PC ごとに中身が違う。画像を同期していない PC で実行すると
