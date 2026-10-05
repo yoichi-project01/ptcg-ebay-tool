@@ -1,0 +1,18 @@
+{
+ "movedAt": "2026-10-05T11:27:44.893Z",
+ "dest": "../ptcg-ebay-tool-stray-images/2026-10-05",
+ "moved": 1813,
+ "skipped": 0,
+ "byCategory": {
+  "same_content": 1689,
+  "unindexed_in_data": 56,
+  "old_number": 56,
+  "unindexed_not_in_data": 12
+ },
+ "verify": {
+  "indexEntries": 20879,
+  "missingFiles": 0,
+  "cardIdsWithMultipleImages": 0,
+  "filesNotInIndex": 0
+ }
+}
