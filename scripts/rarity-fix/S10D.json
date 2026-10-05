@@ -1,0 +1,68 @@
+{
+ "at": "2026-10-05T15:07:00.768Z",
+ "set": "S10D",
+ "count": {
+  "入れる": 3
+ },
+ "renamed": [
+  {
+   "id": "S10D-008",
+   "from": "cards/S/S10D/ヒスイ ドレディアVSTAR_S10D-08／88.jpg",
+   "to": "cards/S/S10D/ヒスイ ドレディアVSTAR_S10D-08／88_RRR.jpg"
+  },
+  {
+   "id": "S10D-033",
+   "from": "cards/S/S10D/カイリキーVMAX_S10D-33／88.jpg",
+   "to": "cards/S/S10D/カイリキーVMAX_S10D-33／88_RRR.jpg"
+  },
+  {
+   "id": "S10D-049",
+   "from": "cards/S/S10D/オリジンディアルガVSTAR_S10D-49／88.jpg",
+   "to": "cards/S/S10D/オリジンディアルガVSTAR_S10D-49／88_RRR.jpg"
+  }
+ ],
+ "rows": [
+  {
+   "id": "S10D-008",
+   "ja": "ヒスイ ドレディアVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "41369",
+     "jaName": "ヒスイ ドレディアVSTAR",
+     "rarity": "RRR",
+     "badge": "S10D"
+    }
+   ]
+  },
+  {
+   "id": "S10D-033",
+   "ja": "カイリキーVMAX",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "41394",
+     "jaName": "カイリキーVMAX",
+     "rarity": "RRR",
+     "badge": "S10D"
+    }
+   ]
+  },
+  {
+   "id": "S10D-049",
+   "ja": "オリジンディアルガVSTAR",
+   "status": "入れる",
+   "rarity": "RRR",
+   "details": [
+    {
+     "cardId": "41410",
+     "jaName": "オリジンディアルガVSTAR",
+     "rarity": "RRR",
+     "badge": "S10D"
+    }
+   ]
+  }
+ ]
+}
