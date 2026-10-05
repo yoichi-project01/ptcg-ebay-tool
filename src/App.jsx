@@ -66,8 +66,9 @@ const SERIE_EN_NAMES = {
 // RH（Rare Holo）は名称の定義上ホロ前提のため追加（L1-Bhg 025/070オーダイルの実画像でも確認）。
 // LEGENDカードも実画像（エンテイ&ライコウLEGEND等）でホロ加工を確認済みのため追加
 const HOLO_RARITIES = new Set(["SAR", "SR", "AR", "MA", "UR", "RR", "HR", "CHR", "CSR", "SSR", "TR", "RH", "LEGEND", "K", "A", "H", "PR", "MUR"]);
-// タイトルに入れるレアリティの略号。カードに印刷された文字をそのまま使う。H（ひかる）はマークに文字が無いため略号を入れない
-const RARITY_TITLE_CODES = { H: "" };
+// タイトルに入れるレアリティの略号。カードに印刷された文字をそのまま使う。H（ひかる）はマークに文字が無いため略号を入れない。
+// PR（プリズムスター）は "PR" だとプロモ（Promo）と読まれるおそれがあるため、eBay の出品で多い書き方の "Prism Star" にする（2026-10-06）
+const RARITY_TITLE_CODES = { H: "", PR: "Prism Star" };
 const PRINT_VARIANTS = [
   { code: "", label: "指定しない" },
   { code: "No Rarity", label: "No Rarity（ノーレアリティ・レアリティマークなし）" },
