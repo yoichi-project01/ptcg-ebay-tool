@@ -2206,6 +2206,21 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
   「2021 Pokemon Asia 25th Anniversary Promo」にまとめ、カードごとの欄に「Golden Box-Japanese」と記載している（`set-psa-names.json` の note）。en は空欄のまま。
 - **作業中の注意**: VS Code の git 連携が `.git/index` を掴み「Unable to write new index file」が頻発したため、`run-sm-secrets.sh` は git 操作をやり直す。
 
+### 調査（2026-10-05）: 高レアの画像ファイルの中身が通常版と同じ（未修正・直すべき一覧あり）
+
+カイトリレーダーで見本画像が違う絵柄になる件（SV11W-174 レシラムex BWR など）の調査で、**画像ファイルの中身が同じ弾の別の番号の
+カードとバイト単位で同じ**ものが多数見つかった（ファイル名・型番は正しい）。旧 `scrape-official-images.mjs` がカード名で画像を探していたため、
+同じ名前の別番号（RR と SR・SAR・BWR、通常版と AR など）に同じ絵柄を保存していたと考えられる（ファイルの日付は 2026-07-05）。
+
+- `node scripts/find-duplicate-images.mjs` → `scripts/image-dup-report/duplicate-images.tsv`（card_id・今の画像・同じ中身のカード・
+  正しいはずのもの）・`summary.json`。**1,008グループ・2,227枚**（LEGEND・V-UNION の意図した重複30枚を除く）。多い順に SV4a 330・
+  SV11B 168・SV11W 168・S12a 144・SV2a 77・SV8a 76 …。名前の違うカードと同じ画像のもの（PMCG1-018 ガーディ＝019 ウィンディ等）もある。
+  SVHK/SVHM の `FIG`・`FIR` など数字でない型番の行が画像索引に残っている（cardData から削除済みの行。索引から外す候補）。
+- **直し方（未着手）**: 同じグループのどれが正しいかは分からないので、グループの全員を公式 details.php で番号を確かめて取り直す
+  （対象のカード名の公式カードだけ調べれば、1件2〜3秒で1時間程度の見込み）。取り直した後、カイトリレーダーで R2 への送り直し
+  （`upload-card-images --ids-file … --force`）と見本の特徴の作り直しが要る（カイトリレーダーの docs/card-image-mismatch-2026-10-05.md）。
+- **画像の取り直しで通常版と同じファイルを書かないこと**: 名前での照合は使わず、details.php の番号と画像パスを使う（`patch-from-scan.mjs` と同じ方式）。
+
 ---
 
 ## ファイル構成
