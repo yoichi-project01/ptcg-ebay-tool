@@ -1,0 +1,6092 @@
+{
+ "SV1S-002": {
+  "name": "Cacturne",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-001": {
+  "name": "Cacnea",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-003": {
+  "name": "Skiddo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-004": {
+  "name": "Gogoat",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-006": {
+  "name": "Smoliv",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-007": {
+  "name": "Dolliv",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-008": {
+  "name": "Arboliva",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-010": {
+  "name": "Charcadet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-009": {
+  "name": "Torkoal",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-005": {
+  "name": "Smoliv",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-012": {
+  "name": "Armarouge",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-013": {
+  "name": "Magikarp",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-011": {
+  "name": "Charcadet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-014": {
+  "name": "Gyarados ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-016": {
+  "name": "Floatzel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-015": {
+  "name": "Buizel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-018": {
+  "name": "Wiglett",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-017": {
+  "name": "Bruxish",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-019": {
+  "name": "Wiglett",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-020": {
+  "name": "Wugtrio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-022": {
+  "name": "Tatsugiri",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-023": {
+  "name": "Wattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-021": {
+  "name": "Dondozo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-024": {
+  "name": "Wattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-025": {
+  "name": "Kilowattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-026": {
+  "name": "Ralts",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-027": {
+  "name": "Kirlia",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-028": {
+  "name": "Gardevoir ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-030": {
+  "name": "Drifblim",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-029": {
+  "name": "Drifloon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-031": {
+  "name": "Dedenne",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-032": {
+  "name": "Fidough",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-034": {
+  "name": "Dachsbun",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-035": {
+  "name": "Flittle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-033": {
+  "name": "Fidough",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-036": {
+  "name": "Flittle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-037": {
+  "name": "Espathra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-038": {
+  "name": "Meditite",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-039": {
+  "name": "Medicham",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-040": {
+  "name": "Riolu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-041": {
+  "name": "Lucario",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-042": {
+  "name": "Sandile",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-043": {
+  "name": "Krokorok",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-044": {
+  "name": "Krookodile",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-046": {
+  "name": "Silicobra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-047": {
+  "name": "Sandaconda",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-045": {
+  "name": "Hawlucha",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-048": {
+  "name": "Klawf",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-049": {
+  "name": "Great Tusk ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-050": {
+  "name": "Koraidon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-051": {
+  "name": "Grimer",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-052": {
+  "name": "Muk",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-054": {
+  "name": "Croagunk",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-053": {
+  "name": "Seviper",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-055": {
+  "name": "Toxicroak ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-056": {
+  "name": "Pawniard",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-058": {
+  "name": "Kingambit",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-059": {
+  "name": "Varoom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-057": {
+  "name": "Bisharp",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-060": {
+  "name": "Varoom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-061": {
+  "name": "Revavroom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-062": {
+  "name": "Zangoose",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-063": {
+  "name": "Starly",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-064": {
+  "name": "Staravia",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-065": {
+  "name": "Staraptor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-067": {
+  "name": "Lechonk",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-066": {
+  "name": "Lechonk",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-068": {
+  "name": "Oinkologne ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-001": {
+  "name": "Pineco",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1S-077": {
+  "name": "Pania",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV1S-074": {
+  "name": "Jim",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV1V-002": {
+  "name": "Heracross",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-003": {
+  "name": "Scatterbug",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-004": {
+  "name": "Spewpa",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-005": {
+  "name": "Vivillon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-006": {
+  "name": "Tarountula",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-007": {
+  "name": "Tarountula",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-008": {
+  "name": "Spidops ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-009": {
+  "name": "Toedscool",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-010": {
+  "name": "Toedscool",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-012": {
+  "name": "Capsakid",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-013": {
+  "name": "Capsakid",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-011": {
+  "name": "Toedscruel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-014": {
+  "name": "Scovillain",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-015": {
+  "name": "Growlithe",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-016": {
+  "name": "Arcanine ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-017": {
+  "name": "Houndour",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-018": {
+  "name": "Houndoom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-019": {
+  "name": "Slowpoke",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-020": {
+  "name": "Slowbro",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-021": {
+  "name": "Clauncher",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-022": {
+  "name": "Clawitzer",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-023": {
+  "name": "Cetoddle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-024": {
+  "name": "Cetoddle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-025": {
+  "name": "Cetitan",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-026": {
+  "name": "Magnemite",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-027": {
+  "name": "Magneton",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-028": {
+  "name": "Magnezone ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-029": {
+  "name": "Pachirisu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-030": {
+  "name": "Rotom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-031": {
+  "name": "Toxel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-032": {
+  "name": "Toxtricity",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-033": {
+  "name": "Pawmi",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-034": {
+  "name": "Pawmi",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-035": {
+  "name": "Pawmo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-036": {
+  "name": "Pawmot",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-037": {
+  "name": "Miraidon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-038": {
+  "name": "Drowzee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-039": {
+  "name": "Hypno",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-041": {
+  "name": "Banette ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-040": {
+  "name": "Shuppet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-042": {
+  "name": "Flabébé",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-043": {
+  "name": "Floette",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-044": {
+  "name": "Florges",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-045": {
+  "name": "Klefki",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-046": {
+  "name": "Greavard",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-047": {
+  "name": "Greavard",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-049": {
+  "name": "Mankey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-048": {
+  "name": "Houndstone",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-050": {
+  "name": "Primeape",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-051": {
+  "name": "Annihilape",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-053": {
+  "name": "Maschiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-052": {
+  "name": "Spiritomb",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-054": {
+  "name": "Maschiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-055": {
+  "name": "Mabosstiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-057": {
+  "name": "Forretress",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-058": {
+  "name": "Iron Treads ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-056": {
+  "name": "Bombirdier",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-059": {
+  "name": "Chansey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-061": {
+  "name": "Skwovet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-060": {
+  "name": "Blissey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-062": {
+  "name": "Greedent",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-063": {
+  "name": "Indeedee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-064": {
+  "name": "Tandemaus",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-065": {
+  "name": "Tandemaus",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-066": {
+  "name": "Maushold",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-067": {
+  "name": "Squawkabilly",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-069": {
+  "name": "Electric Generator",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV1V-074": {
+  "name": "Sera",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV1V-068": {
+  "name": "Cyclizar",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1V-076": {
+  "name": "Arvin",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV1V-077": {
+  "name": "Mimi",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV1a-001": {
+  "name": "Tropius",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-002": {
+  "name": "Foongus",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-003": {
+  "name": "Amoonguss",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-005": {
+  "name": "Sprigatito",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-004": {
+  "name": "Sprigatito",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-006": {
+  "name": "Floragato",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-007": {
+  "name": "Meowscarada ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-009": {
+  "name": "Nymble",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-010": {
+  "name": "Lokix",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-008": {
+  "name": "Nymble",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-011": {
+  "name": "Paldean Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-012": {
+  "name": "Larvesta",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-013": {
+  "name": "Volcarona",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-014": {
+  "name": "Litleo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-015": {
+  "name": "Pyroar",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-016": {
+  "name": "Oricorio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-017": {
+  "name": "Fuecoco",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-018": {
+  "name": "Fuecoco",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-019": {
+  "name": "Crocalor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-021": {
+  "name": "Paldean Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-022": {
+  "name": "Magikarp",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-020": {
+  "name": "Skeledirge ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-023": {
+  "name": "Gyarados",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-025": {
+  "name": "Buizel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-024": {
+  "name": "Delibird",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-026": {
+  "name": "Floatzel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-027": {
+  "name": "Quaxly",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-028": {
+  "name": "Quaxly",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-030": {
+  "name": "Quaquaval ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-029": {
+  "name": "Quaxwell",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-031": {
+  "name": "Wattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-033": {
+  "name": "Kilowattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-034": {
+  "name": "Misdreavus",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-032": {
+  "name": "Wattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-035": {
+  "name": "Mismagius",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-036": {
+  "name": "Spoink",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-037": {
+  "name": "Grumpig",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-038": {
+  "name": "Dedenne ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-039": {
+  "name": "Oranguru",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-040": {
+  "name": "Tinkatink",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-041": {
+  "name": "Tinkatink",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-042": {
+  "name": "Tinkatuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-043": {
+  "name": "Tinkaton",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-045": {
+  "name": "Dugtrio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-046": {
+  "name": "Paldean Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-044": {
+  "name": "Diglett",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-047": {
+  "name": "Makuhita",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-048": {
+  "name": "Hariyama",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-049": {
+  "name": "Rockruff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-050": {
+  "name": "Lycanroc ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-051": {
+  "name": "Falinks",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-052": {
+  "name": "Paldean Wooper",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-053": {
+  "name": "Paldean Wooper",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-054": {
+  "name": "Paldean Clodsire ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-055": {
+  "name": "Sableye",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-057": {
+  "name": "Deino",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-058": {
+  "name": "Zweilous",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-056": {
+  "name": "Seviper",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-059": {
+  "name": "Hydreigon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-060": {
+  "name": "Salandit",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-061": {
+  "name": "Salazzle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-062": {
+  "name": "Yungoos",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-063": {
+  "name": "Gumshoos",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV1a-066": {
+  "name": "Amura",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV1a-068": {
+  "name": "Falkner",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV1a-067": {
+  "name": "Dion",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV2D-001": {
+  "name": "Hoppip",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-003": {
+  "name": "Jumpluff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-004": {
+  "name": "Pineco",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-002": {
+  "name": "Skiploom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-005": {
+  "name": "Forretress ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-006": {
+  "name": "Heracross",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-007": {
+  "name": "Tarountula",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-008": {
+  "name": "Tarountula",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-009": {
+  "name": "Spidops",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-010": {
+  "name": "Numel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-011": {
+  "name": "Camerupt",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-012": {
+  "name": "Fletchinder",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-013": {
+  "name": "Talonflame",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-016": {
+  "name": "Chi-Yu ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-015": {
+  "name": "Charcadet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-014": {
+  "name": "Charcadet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-017": {
+  "name": "Pikachu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-018": {
+  "name": "Raichu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-019": {
+  "name": "Shinx",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-020": {
+  "name": "Luxio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-022": {
+  "name": "Pincurchin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-023": {
+  "name": "Tadbulb",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-024": {
+  "name": "Tadbulb",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-021": {
+  "name": "Luxray",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-025": {
+  "name": "Bellibolt ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-026": {
+  "name": "Jigglypuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-027": {
+  "name": "Wigglytuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-028": {
+  "name": "Spiritomb",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-030": {
+  "name": "Palossand",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-031": {
+  "name": "Ceruledge",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-032": {
+  "name": "Tinkatink",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-029": {
+  "name": "Sandygast",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-033": {
+  "name": "Tinkatink",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-034": {
+  "name": "Tinkatuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-035": {
+  "name": "Tinkaton ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-036": {
+  "name": "Larvitar",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-037": {
+  "name": "Pupitar",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-039": {
+  "name": "Whiscash",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-040": {
+  "name": "Croagunk",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-038": {
+  "name": "Barboach",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-042": {
+  "name": "Crabrawler",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-041": {
+  "name": "Toxicroak",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-045": {
+  "name": "Nacli",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-046": {
+  "name": "Nacli",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-047": {
+  "name": "Naclstack",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-048": {
+  "name": "Garganacl",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-043": {
+  "name": "Crabominable",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-044": {
+  "name": "Passimian",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-050": {
+  "name": "Sneasel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-049": {
+  "name": "Ting-Lu ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-051": {
+  "name": "Weavile",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-052": {
+  "name": "Tyranitar",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-053": {
+  "name": "Shroodle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-054": {
+  "name": "Shroodle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-056": {
+  "name": "Bombirdier",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-055": {
+  "name": "Grafaiai",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-057": {
+  "name": "Noibat",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-058": {
+  "name": "Noivern ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-059": {
+  "name": "Girafarig",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-060": {
+  "name": "Farigiraf",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-062": {
+  "name": "Tandemaus",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-061": {
+  "name": "Fletchling",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-063": {
+  "name": "Tandemaus",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-064": {
+  "name": "Maushold",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-065": {
+  "name": "Flamigo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2D-068": {
+  "name": "Saguro",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV2D-069": {
+  "name": "Mistika",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV2P-001": {
+  "name": "Surskit",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-002": {
+  "name": "Masquerain",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-003": {
+  "name": "Combee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-004": {
+  "name": "Vespiquen",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-005": {
+  "name": "Snover",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-006": {
+  "name": "Abomasnow",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-007": {
+  "name": "Bounsweet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-008": {
+  "name": "Steenee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-009": {
+  "name": "Tsareena",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-011": {
+  "name": "Bramblin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-010": {
+  "name": "Bramblin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-012": {
+  "name": "Brambleghast",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-013": {
+  "name": "Rellor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-015": {
+  "name": "Wo-Chien ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-014": {
+  "name": "Rellor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-016": {
+  "name": "Marill",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-017": {
+  "name": "Azumarill",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-019": {
+  "name": "Eiscue",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-018": {
+  "name": "Luvdisc",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-020": {
+  "name": "Cetoddle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-021": {
+  "name": "Cetoddle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-022": {
+  "name": "Cetitan",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-023": {
+  "name": "Veluza",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-024": {
+  "name": "Frigibax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-025": {
+  "name": "Frigibax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-027": {
+  "name": "Baxcalibur",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-026": {
+  "name": "Arctibax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-028": {
+  "name": "Chien-Pao ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-029": {
+  "name": "Slowpoke",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-030": {
+  "name": "Slowking ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-031": {
+  "name": "Gothita",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-032": {
+  "name": "Gothorita",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-033": {
+  "name": "Gothitelle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-034": {
+  "name": "Mimikyu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-035": {
+  "name": "Sinistea",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-036": {
+  "name": "Polteageist",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-038": {
+  "name": "Mankey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-037": {
+  "name": "Rabsca",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-039": {
+  "name": "Primeape",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-040": {
+  "name": "Annihilape ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-041": {
+  "name": "Sudowoodo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-042": {
+  "name": "Glimmet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-043": {
+  "name": "Glimmet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-044": {
+  "name": "Glimmora",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-045": {
+  "name": "Murkrow",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-046": {
+  "name": "Honchkrow",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-047": {
+  "name": "Maschiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-048": {
+  "name": "Maschiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-049": {
+  "name": "Mabosstiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-050": {
+  "name": "Bronzor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-051": {
+  "name": "Bronzong",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-052": {
+  "name": "Corviknight",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-054": {
+  "name": "Copperajah ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-053": {
+  "name": "Cufant",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-055": {
+  "name": "Orthworm",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-056": {
+  "name": "Dunsparce",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-057": {
+  "name": "Dudunsparce",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-058": {
+  "name": "Wingull",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-059": {
+  "name": "Pelipper",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-060": {
+  "name": "Slakoth",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-061": {
+  "name": "Vigoroth",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-062": {
+  "name": "Slaking",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-063": {
+  "name": "Rookidee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-064": {
+  "name": "Corvisquire",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-066": {
+  "name": "Kail Hiper",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV2P-065": {
+  "name": "Squawkabilly ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-067": {
+  "name": "Fight Au Lait",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV2P-068": {
+  "name": "Grusha",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV2a-001": {
+  "name": "Bulbasaur",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2P-069": {
+  "name": "Nanio",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV2a-002": {
+  "name": "Ivysaur",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-003": {
+  "name": "Venusaur ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-004": {
+  "name": "Charmander",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-005": {
+  "name": "Charmeleon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-006": {
+  "name": "Charizard ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-007": {
+  "name": "Squirtle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-008": {
+  "name": "Wartortle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-009": {
+  "name": "Blastoise ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-010": {
+  "name": "Caterpie",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-011": {
+  "name": "Metapod",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-012": {
+  "name": "Butterfree",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-013": {
+  "name": "Weedle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-014": {
+  "name": "Kakuna",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-015": {
+  "name": "Beedrill",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-017": {
+  "name": "Pidgeotto",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-016": {
+  "name": "Pidgey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-018": {
+  "name": "Pidgeot",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-019": {
+  "name": "Rattata",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-020": {
+  "name": "Raticate",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-021": {
+  "name": "Spearow",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-022": {
+  "name": "Fearow",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-023": {
+  "name": "Ekans",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-024": {
+  "name": "Arbok ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-025": {
+  "name": "Pikachu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-026": {
+  "name": "Raichu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-028": {
+  "name": "Sandslash",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-027": {
+  "name": "Sandshrew",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-029": {
+  "name": "Nidoran♀",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-030": {
+  "name": "Nidorina",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-031": {
+  "name": "Nidoqueen",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-032": {
+  "name": "Nidoran♂",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-033": {
+  "name": "Nidorino",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-034": {
+  "name": "Nidoking",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-035": {
+  "name": "Clefairy",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-036": {
+  "name": "Clefable",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-037": {
+  "name": "Vulpix",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-038": {
+  "name": "Ninetales ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-039": {
+  "name": "Jigglypuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-041": {
+  "name": "Zubat",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-040": {
+  "name": "Wigglytuff ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-042": {
+  "name": "Golbat",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-044": {
+  "name": "Gloom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-045": {
+  "name": "Vileplume",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-043": {
+  "name": "Oddish",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-046": {
+  "name": "Paras",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-048": {
+  "name": "Venonat",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-047": {
+  "name": "Parasect",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-049": {
+  "name": "Venomoth",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-050": {
+  "name": "Diglett",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-051": {
+  "name": "Dugtrio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-052": {
+  "name": "Meowth",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-053": {
+  "name": "Persian",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-054": {
+  "name": "Psyduck",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-057": {
+  "name": "Primeape",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-056": {
+  "name": "Mankey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-055": {
+  "name": "Golduck",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-058": {
+  "name": "Growlithe",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-060": {
+  "name": "Poliwag",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-059": {
+  "name": "Arcanine",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-061": {
+  "name": "Poliwhirl",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-062": {
+  "name": "Poliwrath",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-063": {
+  "name": "Abra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-064": {
+  "name": "Kadabra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-065": {
+  "name": "Alakazam ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-066": {
+  "name": "Machop",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-068": {
+  "name": "Machamp",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-067": {
+  "name": "Machoke",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-069": {
+  "name": "Bellsprout",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-070": {
+  "name": "Weepinbell",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-071": {
+  "name": "Victreebel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-072": {
+  "name": "Tentacool",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-073": {
+  "name": "Tentacruel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-074": {
+  "name": "Geodude",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-076": {
+  "name": "Golem ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-077": {
+  "name": "Ponyta",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-075": {
+  "name": "Graveler",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-078": {
+  "name": "Rapidash",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-079": {
+  "name": "Slowpoke",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-080": {
+  "name": "Slowbro",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-081": {
+  "name": "Magnemite",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-082": {
+  "name": "Magneton",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-083": {
+  "name": "Farfetch'd",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-084": {
+  "name": "Doduo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-085": {
+  "name": "Dodrio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-086": {
+  "name": "Seel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-088": {
+  "name": "Grimer",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-087": {
+  "name": "Dewgong",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-089": {
+  "name": "Muk",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-090": {
+  "name": "Shellder",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-091": {
+  "name": "Cloyster",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-092": {
+  "name": "Gastly",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-093": {
+  "name": "Haunter",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-094": {
+  "name": "Gengar",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-095": {
+  "name": "Onix",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-096": {
+  "name": "Drowzee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-097": {
+  "name": "Hypno",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-098": {
+  "name": "Krabby",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-099": {
+  "name": "Kingler",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-100": {
+  "name": "Voltorb",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-101": {
+  "name": "Electrode",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-102": {
+  "name": "Exeggcute",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-103": {
+  "name": "Exeggutor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-104": {
+  "name": "Cubone",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-105": {
+  "name": "Marowak",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-106": {
+  "name": "Hitmonlee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-107": {
+  "name": "Hitmonchan",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-108": {
+  "name": "Lickitung",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-109": {
+  "name": "Koffing",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-110": {
+  "name": "Weezing",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-112": {
+  "name": "Rhydon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-113": {
+  "name": "Chansey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-114": {
+  "name": "Tangela",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-111": {
+  "name": "Rhyhorn",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-115": {
+  "name": "Kangaskhan ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-116": {
+  "name": "Horsea",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-117": {
+  "name": "Seadra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-118": {
+  "name": "Goldeen",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-119": {
+  "name": "Seaking",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-120": {
+  "name": "Staryu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-121": {
+  "name": "Starmie",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-122": {
+  "name": "Mr. Mime",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-123": {
+  "name": "Scyther",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-124": {
+  "name": "Jynx ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-125": {
+  "name": "Electabuzz",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-126": {
+  "name": "Magmar",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-127": {
+  "name": "Pinsir",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-128": {
+  "name": "Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-129": {
+  "name": "Magikarp",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-130": {
+  "name": "Gyarados",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-131": {
+  "name": "Lapras",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-132": {
+  "name": "Ditto",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-133": {
+  "name": "Eevee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-134": {
+  "name": "Vaporeon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-135": {
+  "name": "Jolteon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-136": {
+  "name": "Flareon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-137": {
+  "name": "Porygon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-138": {
+  "name": "Omanyte",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-139": {
+  "name": "Omastar",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-140": {
+  "name": "Kabuto",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-141": {
+  "name": "Kabutops",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-142": {
+  "name": "Aerodactyl",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-143": {
+  "name": "Snorlax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-144": {
+  "name": "Articuno",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-145": {
+  "name": "Zapdos ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-146": {
+  "name": "Moltres",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-147": {
+  "name": "Dratini",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-148": {
+  "name": "Dragonair",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-149": {
+  "name": "Dragonite",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-151": {
+  "name": "Mew ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-153": {
+  "name": "Snatch Arm",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV2a-162": {
+  "name": "Karisma Giovanni",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV2a-150": {
+  "name": "Mewtwo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-164": {
+  "name": "Transfer Bill",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV2a-166": {
+  "name": "Bulbasaur",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-167": {
+  "name": "Ivysaur",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-168": {
+  "name": "Charmander",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-169": {
+  "name": "Charmeleon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-170": {
+  "name": "Squirtle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-171": {
+  "name": "Wartortle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-172": {
+  "name": "Caterpie",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-173": {
+  "name": "Pikachu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-174": {
+  "name": "Nidoking",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-176": {
+  "name": "Poliwhirl",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-175": {
+  "name": "Psyduck",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-178": {
+  "name": "Tangela",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-179": {
+  "name": "Mr. Mime",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-180": {
+  "name": "Omanyte",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-177": {
+  "name": "Machoke",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-181": {
+  "name": "Snorlax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-182": {
+  "name": "Dragonair",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-183": {
+  "name": "Mewtwo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-184": {
+  "name": "Venusaur ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-185": {
+  "name": "Charizard ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-187": {
+  "name": "Arbok ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-188": {
+  "name": "Ninetales ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-186": {
+  "name": "Blastoise ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-189": {
+  "name": "Wigglytuff ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-192": {
+  "name": "Kangaskhan ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-191": {
+  "name": "Golem ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-190": {
+  "name": "Alakazam ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-193": {
+  "name": "Jynx ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-194": {
+  "name": "Zapdos ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-195": {
+  "name": "Mew ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-200": {
+  "name": "Venusaur ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-201": {
+  "name": "Charizard ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-202": {
+  "name": "Blastoise ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-204": {
+  "name": "Zapdos ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-203": {
+  "name": "Alakazam ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV2a-205": {
+  "name": "Mew ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-001": {
+  "name": "Oddish",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-002": {
+  "name": "Gloom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-003": {
+  "name": "Vileplume",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-004": {
+  "name": "Scyther",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-005": {
+  "name": "Hoppip",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-007": {
+  "name": "Jumpluff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-006": {
+  "name": "Skiploom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-008": {
+  "name": "Pineco",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-009": {
+  "name": "Forretress ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-010": {
+  "name": "Snover",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-011": {
+  "name": "Abomasnow",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-012": {
+  "name": "Sprigatito",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-013": {
+  "name": "Floragato",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-014": {
+  "name": "Meowscarada ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-015": {
+  "name": "Smoliv",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-016": {
+  "name": "Dolliv",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-017": {
+  "name": "Arboliva",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-019": {
+  "name": "Toedscruel ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-018": {
+  "name": "Toedscool",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-020": {
+  "name": "Capsakid",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-021": {
+  "name": "Scovillain",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-023": {
+  "name": "Espathra ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-022": {
+  "name": "Rellor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-024": {
+  "name": "Wo-Chien ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-025": {
+  "name": "Charmander",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-026": {
+  "name": "Charmeleon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-027": {
+  "name": "Paldean Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-029": {
+  "name": "Oricorio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-028": {
+  "name": "Entei",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-030": {
+  "name": "Fuecoco",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-031": {
+  "name": "Crocalor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-032": {
+  "name": "Skeledirge ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-033": {
+  "name": "Charcadet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-034": {
+  "name": "Armarouge",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-035": {
+  "name": "Chi-Yu ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-036": {
+  "name": "Slowpoke",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-037": {
+  "name": "Slowbro",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-038": {
+  "name": "Staryu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-039": {
+  "name": "Starmie",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-040": {
+  "name": "Paldean Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-041": {
+  "name": "Quaxly",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-042": {
+  "name": "Quaxwell",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-043": {
+  "name": "Quaquaval ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-045": {
+  "name": "Wugtrio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-044": {
+  "name": "Wiglett",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-046": {
+  "name": "Finizen",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-047": {
+  "name": "Palafin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-048": {
+  "name": "Veluza",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-049": {
+  "name": "Dondozo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-051": {
+  "name": "Frigibax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-050": {
+  "name": "Tatsugiri",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-053": {
+  "name": "Baxcalibur",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-052": {
+  "name": "Arctibax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-054": {
+  "name": "Chien-Pao ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-055": {
+  "name": "Pikachu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-057": {
+  "name": "Voltorb",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-056": {
+  "name": "Raichu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-058": {
+  "name": "Electrode",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-059": {
+  "name": "Shinx",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-060": {
+  "name": "Luxio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-061": {
+  "name": "Luxray",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-063": {
+  "name": "Thundurus",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-062": {
+  "name": "Pachirisu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-064": {
+  "name": "Toxel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-065": {
+  "name": "Toxtricity",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-066": {
+  "name": "Pawmi",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-067": {
+  "name": "Pawmo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-068": {
+  "name": "Pawmot",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-069": {
+  "name": "Wattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-070": {
+  "name": "Kilowattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-071": {
+  "name": "Miraidon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-072": {
+  "name": "Wigglytuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-074": {
+  "name": "Kadabra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-073": {
+  "name": "Abra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-075": {
+  "name": "Alakazam ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-076": {
+  "name": "Mew ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-077": {
+  "name": "Cleffa",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-078": {
+  "name": "Natu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-079": {
+  "name": "Xatu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-080": {
+  "name": "Ralts",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-081": {
+  "name": "Kirlia",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-082": {
+  "name": "Gardevoir ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-083": {
+  "name": "Drifloon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-085": {
+  "name": "Mime Jr.",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-084": {
+  "name": "Drifblim",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-086": {
+  "name": "Spiritomb",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-087": {
+  "name": "Klefki",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-088": {
+  "name": "Mimikyu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-089": {
+  "name": "Fidough",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-090": {
+  "name": "Dachsbun",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-091": {
+  "name": "Ceruledge",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-092": {
+  "name": "Rabsca",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-093": {
+  "name": "Flittle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-094": {
+  "name": "Tinkatink",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-095": {
+  "name": "Tinkatuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-096": {
+  "name": "Tinkaton",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-097": {
+  "name": "Greavard",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-098": {
+  "name": "Houndstone",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-099": {
+  "name": "Gimmighoul",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-101": {
+  "name": "Primeape",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-100": {
+  "name": "Mankey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-102": {
+  "name": "Annihilape",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-103": {
+  "name": "Paldean Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-104": {
+  "name": "Riolu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-105": {
+  "name": "Lucario",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-107": {
+  "name": "Nacli",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-106": {
+  "name": "Hawlucha",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-108": {
+  "name": "Naclstack",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-109": {
+  "name": "Garganacl",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-110": {
+  "name": "Glimmet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-111": {
+  "name": "Glimmora ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-112": {
+  "name": "Great Tusk ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-113": {
+  "name": "Ting-Lu ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-115": {
+  "name": "Charizard ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-114": {
+  "name": "Koraidon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-116": {
+  "name": "Paldean Wooper",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-117": {
+  "name": "Paldean Clodsire ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-119": {
+  "name": "Sneasel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-118": {
+  "name": "Murkrow",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-120": {
+  "name": "Weavile",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-121": {
+  "name": "Sableye",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-122": {
+  "name": "Pawniard",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-123": {
+  "name": "Bisharp",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-126": {
+  "name": "Mabosstiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-125": {
+  "name": "Maschiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-124": {
+  "name": "Kingambit",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-147": {
+  "name": "Pelipper",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-171": {
+  "name": "Sagitta",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-180": {
+  "name": "Arvin",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-182": {
+  "name": "Pania",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-191": {
+  "name": "Oddish",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-192": {
+  "name": "Gloom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-194": {
+  "name": "Scyther",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-193": {
+  "name": "Vileplume",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-195": {
+  "name": "Hoppip",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-196": {
+  "name": "Skiploom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-197": {
+  "name": "Jumpluff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-198": {
+  "name": "Pineco",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-199": {
+  "name": "Snover",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-201": {
+  "name": "Sprigatito",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-200": {
+  "name": "Abomasnow",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-202": {
+  "name": "Floragato",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-203": {
+  "name": "Smoliv",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-204": {
+  "name": "Dolliv",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-205": {
+  "name": "Arboliva",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-206": {
+  "name": "Toedscool",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-207": {
+  "name": "Capsakid",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-209": {
+  "name": "Rellor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-208": {
+  "name": "Scovillain",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-210": {
+  "name": "Charmander",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-211": {
+  "name": "Charmeleon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-212": {
+  "name": "Paldean Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-213": {
+  "name": "Entei",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-214": {
+  "name": "Oricorio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-215": {
+  "name": "Fuecoco",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-217": {
+  "name": "Charcadet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-216": {
+  "name": "Crocalor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-218": {
+  "name": "Armarouge",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-219": {
+  "name": "Slowpoke",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-220": {
+  "name": "Slowbro",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-221": {
+  "name": "Staryu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-222": {
+  "name": "Starmie",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-223": {
+  "name": "Paldean Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-225": {
+  "name": "Quaxwell",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-224": {
+  "name": "Quaxly",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-226": {
+  "name": "Wiglett",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-227": {
+  "name": "Wugtrio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-228": {
+  "name": "Finizen",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-229": {
+  "name": "Palafin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-231": {
+  "name": "Dondozo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-230": {
+  "name": "Veluza",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-232": {
+  "name": "Tatsugiri",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-233": {
+  "name": "Frigibax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-234": {
+  "name": "Arctibax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-235": {
+  "name": "Baxcalibur",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-237": {
+  "name": "Raichu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-236": {
+  "name": "Pikachu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-238": {
+  "name": "Voltorb",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-239": {
+  "name": "Electrode",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-240": {
+  "name": "Shinx",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-241": {
+  "name": "Luxio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-243": {
+  "name": "Pachirisu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-242": {
+  "name": "Luxray",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-244": {
+  "name": "Thundurus",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-245": {
+  "name": "Toxel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-246": {
+  "name": "Toxtricity",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-247": {
+  "name": "Pawmi",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-249": {
+  "name": "Pawmot",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-248": {
+  "name": "Pawmo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-250": {
+  "name": "Wattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-251": {
+  "name": "Kilowattrel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-252": {
+  "name": "Wigglytuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-253": {
+  "name": "Abra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-255": {
+  "name": "Cleffa",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-254": {
+  "name": "Kadabra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-256": {
+  "name": "Natu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-257": {
+  "name": "Xatu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-258": {
+  "name": "Ralts",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-259": {
+  "name": "Kirlia",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-261": {
+  "name": "Drifblim",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-260": {
+  "name": "Drifloon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-262": {
+  "name": "Mime Jr.",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-263": {
+  "name": "Spiritomb",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-264": {
+  "name": "Klefki",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-265": {
+  "name": "Mimikyu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-267": {
+  "name": "Dachsbun",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-266": {
+  "name": "Fidough",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-268": {
+  "name": "Ceruledge",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-269": {
+  "name": "Rabsca",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-270": {
+  "name": "Flittle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-271": {
+  "name": "Tinkatink",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-273": {
+  "name": "Tinkaton",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-272": {
+  "name": "Tinkatuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-275": {
+  "name": "Houndstone",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-274": {
+  "name": "Greavard",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-276": {
+  "name": "Mankey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-277": {
+  "name": "Primeape",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-279": {
+  "name": "Paldean Tauros",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-278": {
+  "name": "Annihilape",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-282": {
+  "name": "Hawlucha",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-280": {
+  "name": "Riolu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-281": {
+  "name": "Lucario",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-283": {
+  "name": "Nacli",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-285": {
+  "name": "Garganacl",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-286": {
+  "name": "Glimmet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-287": {
+  "name": "Paldean Wooper",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-284": {
+  "name": "Naclstack",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-289": {
+  "name": "Sneasel",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-288": {
+  "name": "Murkrow",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-290": {
+  "name": "Weavile",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-291": {
+  "name": "Sableye",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-294": {
+  "name": "Kingambit",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-293": {
+  "name": "Bisharp",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-295": {
+  "name": "Maschiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-292": {
+  "name": "Pawniard",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-296": {
+  "name": "Mabosstiff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-297": {
+  "name": "Shroodle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-298": {
+  "name": "Grafaiai",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-299": {
+  "name": "Scizor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-300": {
+  "name": "Varoom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-301": {
+  "name": "Revavroom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-303": {
+  "name": "Cyclizar",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-302": {
+  "name": "Noibat",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-304": {
+  "name": "Pidgey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-305": {
+  "name": "Pidgeotto",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-306": {
+  "name": "Jigglypuff",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-307": {
+  "name": "Doduo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-309": {
+  "name": "Ditto",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-308": {
+  "name": "Dodrio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-310": {
+  "name": "Snorlax",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-311": {
+  "name": "Wingull",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-312": {
+  "name": "Pelipper",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-314": {
+  "name": "Greedent",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-315": {
+  "name": "Lechonk",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-313": {
+  "name": "Skwovet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-319": {
+  "name": "Flamigo",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-318": {
+  "name": "Maushold",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-316": {
+  "name": "Oinkologne",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-317": {
+  "name": "Tandemaus",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-320": {
+  "name": "Forretress ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-321": {
+  "name": "Meowscarada ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-322": {
+  "name": "Toedscruel ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-323": {
+  "name": "Espathra ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-324": {
+  "name": "Skeledirge ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-325": {
+  "name": "Quaquaval ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-326": {
+  "name": "Alakazam ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-327": {
+  "name": "Mew ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-328": {
+  "name": "Gardevoir ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-330": {
+  "name": "Great Tusk ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-331": {
+  "name": "Charizard ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-332": {
+  "name": "Paldean Clodsire ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-329": {
+  "name": "Glimmora ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-333": {
+  "name": "Iron Treads ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-334": {
+  "name": "Noivern ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-335": {
+  "name": "Pidgeot ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-336": {
+  "name": "Wigglytuff ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-337": {
+  "name": "Squawkabilly ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-338": {
+  "name": "Wugtrio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-339": {
+  "name": "Palafin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-340": {
+  "name": "Pawmi",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-341": {
+  "name": "Mimikyu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-342": {
+  "name": "Judge",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-343": {
+  "name": "Nemola",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-344": {
+  "name": "Don",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-347": {
+  "name": "Mew ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-348": {
+  "name": "Gardevoir ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-349": {
+  "name": "Charizard ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV4a-350": {
+  "name": "Mistika",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-351": {
+  "name": "Nemola",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-352": {
+  "name": "Don",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-353": {
+  "name": "Arvin",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV4a-354": {
+  "name": "Pania",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-001": {
+  "name": "Budew",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-002": {
+  "name": "Leafeon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-003": {
+  "name": "Leafeon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-004": {
+  "name": "Cottonee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-006": {
+  "name": "Grookey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-005": {
+  "name": "Whimsicott",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-007": {
+  "name": "Thwackey",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-008": {
+  "name": "Applin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-009": {
+  "name": "Dipplin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-011": {
+  "name": "Bramblin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-012": {
+  "name": "Brambleghast",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-013": {
+  "name": "Rellor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-014": {
+  "name": "Rabsca",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-010": {
+  "name": "Hydrapple ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-015": {
+  "name": "Wo-Chien",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-016": {
+  "name": "Iron Leaves ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-017": {
+  "name": "Poltchageist",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-018": {
+  "name": "Sinistcha",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-019": {
+  "name": "Sinistcha ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-021": {
+  "name": "Flareon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-022": {
+  "name": "Flareon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-023": {
+  "name": "Charcadet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-024": {
+  "name": "Iron Moth",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-025": {
+  "name": "Chi-Yu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-028": {
+  "name": "Goldeen",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-027": {
+  "name": "Gouging Fire ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-029": {
+  "name": "Seaking",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-030": {
+  "name": "Vaporeon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-031": {
+  "name": "Vaporeon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-032": {
+  "name": "Totodile",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-033": {
+  "name": "Croconaw",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-034": {
+  "name": "Feraligatr",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-035": {
+  "name": "Feebas",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-036": {
+  "name": "Milotic",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-037": {
+  "name": "Snorunt",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-038": {
+  "name": "Froslass",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-039": {
+  "name": "Garchomp ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-040": {
+  "name": "Glaceon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-041": {
+  "name": "Glaceon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-042": {
+  "name": "Wiglett",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-043": {
+  "name": "Wugtrio",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-044": {
+  "name": "Finizen",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-045": {
+  "name": "Palafin",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-046": {
+  "name": "Palafin ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-047": {
+  "name": "Iron Bundle",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-048": {
+  "name": "Chien-Pao",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-049": {
+  "name": "Walking Wake ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-051": {
+  "name": "Jolteon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-052": {
+  "name": "Jolteon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-053": {
+  "name": "Zeraora",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-054": {
+  "name": "Iron Hands ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-055": {
+  "name": "Iron Thorns",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-056": {
+  "name": "Iron Thorns ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-057": {
+  "name": "Abra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-058": {
+  "name": "Kadabra",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-059": {
+  "name": "Alakazam",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-060": {
+  "name": "Natu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-061": {
+  "name": "Xatu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-062": {
+  "name": "Espeon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-063": {
+  "name": "Espeon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-064": {
+  "name": "Duskull",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-065": {
+  "name": "Dusclops",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-066": {
+  "name": "Dusknoir",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-067": {
+  "name": "Swirlix",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-068": {
+  "name": "Sylveon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-069": {
+  "name": "Sylveon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-070": {
+  "name": "Ceruledge",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-071": {
+  "name": "Scream Tail",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-072": {
+  "name": "Flutter Mane",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-073": {
+  "name": "Gimmighoul",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-074": {
+  "name": "Iron Valiant ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-075": {
+  "name": "Munkidori",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-076": {
+  "name": "Fezandipiti",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-077": {
+  "name": "Iron Boulder",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-078": {
+  "name": "Iron Crown ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-079": {
+  "name": "Relicanth",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-080": {
+  "name": "Groudon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-081": {
+  "name": "Gible",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-082": {
+  "name": "Gabite",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-083": {
+  "name": "Drilbur",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-086": {
+  "name": "Great Tusk",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-084": {
+  "name": "Hawlucha",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-087": {
+  "name": "Slither Wing",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-088": {
+  "name": "Sandy Shocks ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-089": {
+  "name": "Ting-Lu",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-090": {
+  "name": "Okidogi",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-092": {
+  "name": "Umbreon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-093": {
+  "name": "Umbreon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-094": {
+  "name": "Trubbish",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-095": {
+  "name": "Garbodor",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-096": {
+  "name": "Zorua",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-097": {
+  "name": "Zoroark",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-098": {
+  "name": "Morpeko",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-099": {
+  "name": "Brute Bonnet",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-100": {
+  "name": "Roaring Moon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-101": {
+  "name": "Roaring Moon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-104": {
+  "name": "Fezandipiti ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-102": {
+  "name": "Okidogi ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-105": {
+  "name": "Pecharunt ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-106": {
+  "name": "Beldum",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-107": {
+  "name": "Metang",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-108": {
+  "name": "Jirachi",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-110": {
+  "name": "Doublade",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-109": {
+  "name": "Honedge",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-112": {
+  "name": "Duraludon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-111": {
+  "name": "Aegislash",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-113": {
+  "name": "Archaludon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-114": {
+  "name": "Varoom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-116": {
+  "name": "Iron Treads",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-115": {
+  "name": "Revavroom",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-117": {
+  "name": "Gholdengo ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-118": {
+  "name": "Dreepy",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-120": {
+  "name": "Dragapult ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-119": {
+  "name": "Drakloak",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-121": {
+  "name": "Tatsugiri",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-122": {
+  "name": "Koraidon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-124": {
+  "name": "Raging Bolt ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-123": {
+  "name": "Miraidon",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-125": {
+  "name": "Eevee",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-126": {
+  "name": "Eevee ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-127": {
+  "name": "Hoothoot",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-128": {
+  "name": "Noctowl",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-129": {
+  "name": "Dunsparce",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-130": {
+  "name": "Dudunsparce",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-133": {
+  "name": "Bouffalant",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-132": {
+  "name": "Regigigas",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-139": {
+  "name": "Counter Catcher",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV8a-142": {
+  "name": "Kail MAX",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV8a-135": {
+  "name": "Iron Jugulis",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-136": {
+  "name": "Terapagos ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-145": {
+  "name": "Terastal Orb",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV8a-144": {
+  "name": "Techno Radar",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV8a-146": {
+  "name": "Treasure Gadget",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV8a-148": {
+  "name": "Prime Catcher",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV8a-149": {
+  "name": "Siklon Pengangkat Pokémon",
+  "category": "Trainer",
+  "trainerType": "Item",
+  "energyType": null
+ },
+ "SV8a-153": {
+  "name": "Emergency Board",
+  "category": "Trainer",
+  "trainerType": "Tool",
+  "energyType": null
+ },
+ "SV8a-161": {
+  "name": "MJ Devolution",
+  "category": "Trainer",
+  "trainerType": "Tool",
+  "energyType": null
+ },
+ "SV8a-162": {
+  "name": "Kecekatan Dafin",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-160": {
+  "name": "MJ Evolution",
+  "category": "Trainer",
+  "trainerType": "Tool",
+  "energyType": null
+ },
+ "SV8a-155": {
+  "name": "Gorgeous Mantle",
+  "category": "Trainer",
+  "trainerType": "Tool",
+  "energyType": null
+ },
+ "SV8a-163": {
+  "name": "Akamatsu",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-169": {
+  "name": "Suguri",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-170": {
+  "name": "Seile",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-171": {
+  "name": "Tara",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-173": {
+  "name": "Nerine",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-176": {
+  "name": "Briar",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-179": {
+  "name": "Mela",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-188": {
+  "name": "Kecekatan Dafin",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-189": {
+  "name": "Orto",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-190": {
+  "name": "Brassio",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-191": {
+  "name": "Rio",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-192": {
+  "name": "Rio",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-193": {
+  "name": "Tima",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-194": {
+  "name": "Nerine",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-197": {
+  "name": "Eria",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-196": {
+  "name": "Nanio",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-198": {
+  "name": "Mela",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-199": {
+  "name": "Arasia",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-202": {
+  "name": "Flareon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-200": {
+  "name": "Leafeon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-205": {
+  "name": "Vaporeon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-206": {
+  "name": "Glaceon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-207": {
+  "name": "Palafin ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-203": {
+  "name": "Ceruledge ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-209": {
+  "name": "Jolteon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-211": {
+  "name": "Espeon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-210": {
+  "name": "Iron Hands ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-212": {
+  "name": "Sylveon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-214": {
+  "name": "Iron Crown ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-215": {
+  "name": "Sandy Shocks ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-217": {
+  "name": "Umbreon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-213": {
+  "name": "Iron Valiant ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-218": {
+  "name": "Roaring Moon ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-219": {
+  "name": "Pecharunt ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-220": {
+  "name": "Gholdengo ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-221": {
+  "name": "Dragapult ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-223": {
+  "name": "Eevee ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-222": {
+  "name": "Raging Bolt ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-224": {
+  "name": "Eevee ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-226": {
+  "name": "Terapagos ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-227": {
+  "name": "Akamatsu",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-229": {
+  "name": "Levigato",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-230": {
+  "name": "Suguri",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-231": {
+  "name": "Tara",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-232": {
+  "name": "Nerine",
+  "category": "Trainer",
+  "trainerType": "Supporter",
+  "energyType": null
+ },
+ "SV8a-233": {
+  "name": "Iron Leaves ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-235": {
+  "name": "Walking Wake ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-236": {
+  "name": "Pikachu ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ },
+ "SV8a-237": {
+  "name": "Terapagos ex",
+  "category": "Pokemon",
+  "trainerType": null,
+  "energyType": null
+ }
+}

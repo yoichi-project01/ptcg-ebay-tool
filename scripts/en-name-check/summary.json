@@ -1,0 +1,49 @@
+{
+ "at": "2026-10-05T11:36:11.214Z",
+ "cards": 21389,
+ "withEnglishName": 4810,
+ "notInEnglishCardNames": 71,
+ "fromIndonesian": {
+  "total": 1015,
+  "bySet": {
+   "SV1S": 70,
+   "SV1V": 72,
+   "SV1a": 66,
+   "SV2D": 67,
+   "SV2P": 69,
+   "SV2a": 190,
+   "SV4a": 292,
+   "SV8a": 189
+  },
+  "byKind": {
+   "ポケモン": 951,
+   "トレーナーズ/Supporter": 49,
+   "トレーナーズ/Item": 11,
+   "トレーナーズ/Tool": 4
+  },
+  "notInEnglishByKind": {
+   "トレーナーズ/Supporter": 43,
+   "トレーナーズ/Item": 7,
+   "トレーナーズ/Tool": 4
+  }
+ },
+ "otherNotInEnglish": [
+  "M1S-005 メガニウム → Mega Meganium",
+  "M2-013 メガリザードンXex → Mega Charizard ex",
+  "M2-094 メガリザードンXex → Mega Charizard ex",
+  "M2-110 メガリザードンXex → Mega Charizard ex",
+  "M2-116 メガリザードンXex → Mega Charizard ex",
+  "PCG4-004 メガニウム → Mega Meganium",
+  "PCG9-045 メガニウム（デルタ種） → Mega Meganium",
+  "SV2a-197 サカキのカリスマ → Karisma Giovanni",
+  "SV2a-199 マサキの転送 → Transfer Bill",
+  "SV2a-207 サカキのカリスマ → Karisma Giovanni",
+  "SV9a-012 オーガポン みどりのめん → Ogerpon",
+  "SV9a-021 オーガポン かまどのめん → Ogerpon",
+  "SV9a-033 オーガポン いどのめん → Ogerpon",
+  "SV9a-049 オーガポン いしずえのめん → Ogerpon",
+  "E1-070 メガニウム → Mega Meganium",
+  "E1-102 メガニウム → Mega Meganium",
+  "neo1-014 メガニウム → Mega Meganium"
+ ]
+}

@@ -2273,6 +2273,49 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
 3. 戻しただけでは対応表は変わらない。対応表に入れるときは画像を確かめてから `node scripts/build-image-index.mjs --only <弾>`
    （全体の作り直しは古いファイルを拾うので使わない）
 
+### 調査（2026-10-05）: トレーナーズの英語名がインドネシア語版の名前になっている（未修正）
+
+ペパー→"Arvin"、ナンジャモ→"Mistika" などの英語名（`k[2]`）を調べた。修正はしていない。再計算は `node scripts/check-en-names.mjs`
+（TCGdex の英語版の全カード名・インドネシア語版の名前と照合。結果は `scripts/en-name-check/affected.tsv`・`summary.json`）。
+
+- **取得元**: TCGdex の**インドネシア語版**（`/v2/id/cards`）。SV1S・SV1V・SV1a・SV2D・SV2P・SV2a・SV4a・SV8a の英語名 1,015件が、
+  インドネシア語版の同じ弾・型番の名前と一致する（例 `https://api.tcgdex.net/v2/id/cards/SV4a-180` の name が "Arvin"）。
+  リポジトリの最初のコミット（215f1f2、2026-07-06）から入っており、cardData はリポジトリ外（Claude のチャット版）で作られたため、
+  生成スクリプトは残っていない。TCGdex には日本版のセットに英語版が無いため、インドネシア語版の名前を英語名として使ったと考えられる。
+  2026-08-02〜03 の対応（インドネシア語の一般語の検出・行ズレの空欄化）は一般語を含む名前だけを空欄にしたので、人名・固有名詞は残った。
+- **何語か**: インドネシア語版の公式の名前（人名はインドネシア語版独自の名前: Arvin=ペパー、Mistika=ナンジャモ、Pania=ボタン、Nemola=ネモ、
+  Sagitta=オモダカ、Kecekatan Dafin=アオキの手際 など）。
+- **種類ごと**（インドネシア語版由来の1,015件）:
+
+  | 種類 | 件数 | 英語版に同じ名前のカードが無い |
+  |---|---:|---:|
+  | ポケモン | 951 | 0（ポケモン名はインドネシア語版も英語名と同じ） |
+  | サポート | 49 | 43（28種類。同じ名前があるのは Falkner・Grusha・Judge・Briar・Mela の5種類） |
+  | グッズ | 11 | 7（Kail Hiper・Fight Au Lait・Snatch Arm・Kail MAX・Terastal Orb・Treasure Gadget・Siklon Pengangkat Pokémon） |
+  | ポケモンのどうぐ | 4 | 4（Emergency Board・MJ Evolution・MJ Devolution・Gorgeous Mantle） |
+  | エネルギー | 0 | 0 |
+
+  ほかに SV2a-197・199・207（Karisma Giovanni・Transfer Bill）もインドネシア語。合計 **57件**。英語らしく見える名前も英語版とは違う
+  （例 Terastal Orb は英語版の Tera Orb、Fight Au Lait は Fighting Au Lait）。
+- **インドネシア語以外の誤り（14件、同じく最初のコミットから）**: メガニウム→"Mega Meganium"（M1S-005・PCG4-004・PCG9-045・E1-070・E1-102・neo1-014。
+  英語は Meganium。「メガ」を Mega と訳した誤り）、メガリザードンXex→"Mega Charizard ex"（M2-013・094・110・116。X が抜けている）、
+  オーガポン みどりのめん 等→"Ogerpon"（SV9a-012・021・033・049。面の名前が抜けている）。デルタ種（28件）は英語名に δ が付いていない。
+- **出品への影響**: 英語名はそのままタイトルの先頭（カード名）・Item Specifics の Card Name と Character・相場リンクの検索語・説明文に使われる。
+  英語名が空でないので「英語名なし」の警告は出ない。例（`buildSingleTitle` で生成）:
+  - SV4a-353 ペパー → `Arvin 353/190 Japanese SV4a Pokemon Card NM Scarlet & Violet Shiny Treasure ex`（Card Name=Arvin）
+  - SV8a-149 ポケモン回収サイクロン → `Siklon Pengangkat Pokémon 149/187 Japanese SV8a Pokemon Card NM`
+  - E1-070 メガニウム → `Mega Meganium R 070/128 Japanese E1 Pokemon Card NM Expedition 2001 Rare`
+  影響を受けるカードは 71件（57＋14、一覧は `affected.tsv`）。英語圏の買い手は英語名で検索するため、検索に出ない・別のカードと誤解される。
+- **直し方の案（推測で埋めない）**:
+  1. 日本版の弾と英語版の弾の対応（SV1S/SV1V→sv01、SV2a→sv03.5、SV4a→sv04.5、SV8a→sv08.5 など）で、TCGdex の日本語版と英語版の
+     同じ種類のカードを、イラストレーター・種類（サポート/グッズ等）で1対1に対応づけ、英語版の名前を使う。一意に決まらないものは空欄。
+  2. Bulbapedia の日本版の弾のカード一覧（英語名の列がある）と照合し、1. と一致したものだけ採用する（2つの情報源で一致したものだけ入れる、
+     HR・UR の補完と同じ方針）。
+  3. メガニウム・メガリザードンX・オーガポンの面などは、英語版の同じカードの名前（TCGdex 英語版）で確かめて直す。
+  - 作業量: 対象 71件・名前の種類で約45種類。1.＋2. のスクリプト化と照合で半日程度。直すまでの間は、該当の英語名を空欄にして
+    「英語名なし」の警告を出す方法もある（すぐできる。出品時は手入力）。
+  - 英語名が空のカードは 16,579件（全21,389件のうち英語名があるのは 4,810件）。こちらを埋めるのは同じ方法の延長だが件数が多く、別の作業。
+
 ---
 
 ## ファイル構成
