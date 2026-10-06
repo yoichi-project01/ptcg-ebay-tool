@@ -1,0 +1,102 @@
+{
+ "at": "2026-10-06T01:31:49.871Z",
+ "set": "SMF",
+ "results": [
+  {
+   "cardId": 34527,
+   "badge": "XY",
+   "local": "013",
+   "total": "020",
+   "jaName": "バトルサーチャー",
+   "image": "/assets/images/card_images/large/XY/034527_T_BATORUSACHA.jpg",
+   "id": "SMF-013",
+   "file": "cards/SM/SMF/バトルサーチャー_SMF-13／20.jpg",
+   "bytes": 164273,
+   "status": "取得"
+  },
+  {
+   "cardId": 34528,
+   "badge": "XY",
+   "local": "014",
+   "total": "020",
+   "jaName": "ピーピーマックス",
+   "image": "/assets/images/card_images/large/XY/034528_T_PIPIMAKKUSU.jpg",
+   "id": "SMF-014",
+   "file": "cards/SM/SMF/ピーピーマックス_SMF-14／20.jpg",
+   "bytes": 166463,
+   "status": "取得"
+  },
+  {
+   "cardId": 34529,
+   "badge": "XY",
+   "local": "015",
+   "total": "020",
+   "jaName": "闘魂のまわし",
+   "image": "/assets/images/card_images/large/XY/034529_T_TOUKONNOMAWASHI.jpg",
+   "id": "SMF-015",
+   "file": "cards/SM/SMF/闘魂のまわし_SMF-15／20.jpg",
+   "bytes": 185430,
+   "status": "取得"
+  },
+  {
+   "cardId": 34530,
+   "badge": "XY",
+   "local": "016",
+   "total": "020",
+   "jaName": "N",
+   "image": "/assets/images/card_images/large/XY/034530_T_N.jpg",
+   "id": "SMF-016",
+   "file": "cards/SM/SMF/N_SMF-16／20.jpg",
+   "bytes": 178198,
+   "status": "取得"
+  },
+  {
+   "cardId": 34531,
+   "badge": "XY",
+   "local": "017",
+   "total": "020",
+   "jaName": "フウロ",
+   "image": "/assets/images/card_images/large/XY/034531_T_FUURO.jpg",
+   "id": "SMF-017",
+   "file": "cards/SM/SMF/フウロ_SMF-17／20.jpg",
+   "bytes": 163929,
+   "status": "取得"
+  },
+  {
+   "cardId": 34532,
+   "badge": "XY",
+   "local": "018",
+   "total": "020",
+   "jaName": "プラターヌ博士",
+   "image": "/assets/images/card_images/large/XY/034532_T_PURATANUHAKASE.jpg",
+   "id": "SMF-018",
+   "file": "cards/SM/SMF/プラターヌ博士_SMF-18／20.jpg",
+   "bytes": 163266,
+   "status": "取得"
+  },
+  {
+   "cardId": 34533,
+   "badge": "XY",
+   "local": "019",
+   "total": "020",
+   "jaName": "フラダリ",
+   "image": "/assets/images/card_images/large/XY/034533_T_FURADARI.jpg",
+   "id": "SMF-019",
+   "file": "cards/SM/SMF/フラダリ_SMF-19／20.jpg",
+   "bytes": 149410,
+   "status": "取得"
+  },
+  {
+   "cardId": 34534,
+   "badge": "XY",
+   "local": "020",
+   "total": "020",
+   "jaName": "ストロングエネルギー",
+   "image": "/assets/images/card_images/large/XY/034534_E_SUTORONGUENERUGI.jpg",
+   "id": "SMF-020",
+   "file": "cards/SM/SMF/ストロングエネルギー_SMF-20／20.jpg",
+   "bytes": 150847,
+   "status": "取得"
+  }
+ ]
+}
