@@ -1,0 +1,15 @@
+{
+ "checked": 21015,
+ "brokenFound": [
+  {"cardKey": "PMCG1/6", "path": "cards/PMCG/PMCG1/ドガース_PMCG1-006／102_C.png", "bytes": 600409, "mtime": "2026-07-11 14:09",
+   "error": "OSError: broken data stream when reading image file",
+   "cause": "1ビットの反転（オフセット 85859: 0xa4 ← 正しくは 0x24）。その IDAT チャンクの CRC が合わない＝書いた後に中身が変わった",
+   "refetched": "https://pcg-search.com/img/1st/1st1012.png（pcg-search の PMCG1 ドガースは 012 番。ページ名で確認、scripts/pcg-search-cache/1st1-namemap.json と一致）"},
+  {"cardKey": "E4/87", "path": "cards/e/E4/地下湖_E4-87／91_U.png", "bytes": 688040, "mtime": "2026-07-05 22:49",
+   "error": "OSError: unrecognized data stream contents when reading image file",
+   "cause": "1ビットの反転（オフセット 10739: 0xdc ← 正しくは 0xdd）。IDAT チャンクの CRC が合わない",
+   "refetched": "https://pcg-search.com/img/e/e4087.png"}
+ ],
+ "afterFix": {"checked": 21015, "broken": 0},
+ "pngCrcCheck": "PNG 2,179枚のチャンク CRC を全件確認し、合わないのはこの2枚だけ。JPG（18,6xx枚）は CRC が無いため全画素を読めることだけ確認"
+}

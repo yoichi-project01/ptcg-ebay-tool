@@ -2419,7 +2419,7 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
 ### 対応（2026-10-06）: 英語名が空の高レア 2,066行に英語名を入れた（2つの情報源の一致）
 
 対象は英語名が空で、レアリティが SAR・SR・HR・UR・AR・CSR・CHR・BWR・MUR・K・A・H・PR・ACE 等か、番号が弾の総数を超える **2,675行（131弾）**。
-**2,066行に入れ、609行は空欄のまま**（118弾、弾ごとにコミット）。card_id は `scripts/en-name-fix2/changed-card-ids.txt`（弾ごとは `{弾}-changed-card-ids.txt`）、
+**2,070行に入れ、605行は空欄のまま**（118弾、弾ごとにコミット。SV2a の4行は下記の訂正で後から追加）。card_id は `scripts/en-name-fix2/changed-card-ids.txt`（弾ごとは `{弾}-changed-card-ids.txt`）、
 各行の根拠・空欄の理由は `decisions.tsv`、弾ごとの件数は `summary.json`。反映は `scripts/fill-high-rarity-en.mjs`（`--apply --set <弾>`）・`run-fill-high-rarity-en.sh`。
 
 - **入れる条件**: Bulbapedia の日本版の弾の一覧（`bulbapedia.tsv`）の英語名と、TCGdex 英語版に**同じ名前・同じイラストレーター・同じ種類**（ポケモンは図鑑番号も）のカードがあること。
@@ -2434,12 +2434,29 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
 - **空欄のまま 609行の理由**: イラストレーターが分からない 516（公式サイトに無く店舗の情報で追加したシークレット、カードにイラストレーターの記載が無い特殊エネルギー、
   SVHK/SVHM の再録 58・XY-BEST 17 等）、英語版の同じ名前のカードとイラストレーターが違う 75（日本版だけの絵柄。SM12a の TAG TEAM・サポート等）、
   Bulbapedia の一覧に無い 13、種類が食い違う 3（S8-126 は TCGdex 日本語版が Stadium、SV2a-198・206 は下記）、その他 2。
-- **気づいた点（未対応）**: SV2a 198・206 は Bulbapedia の番号と cardData の名前が合わない（cardData 198＝ナナミの手助け・206＝エリカの招待、Bulbapedia 198＝Venusaur ex・206＝Switch。
-  Bulbapedia の一覧は 207 まで）。どちらが正しいか未確認。
+- **訂正（SV2a）**: 「SV2a 198・206 は Bulbapedia と名前が合わない」としていたのは、英語版「151」の一覧の節を拾っていたため
+  （日本版・英語版とも分母が /165 で、対応づけの節の名前が英語版の弾名 "151" だった）。公式 details.php と全210件照合して cardData は全件一致
+  （`patch-from-scan.mjs --full-fetch --set SV2a` → `verify-rebuilt-sets.mjs SV2a`、198＝ナナミの手助け・206＝エリカの招待で正しい）。
+  Bulbapedia の日本版の節「Pokémon Card 151」で `bulbapedia.tsv` の SV2a を置き換え、198 Daisy's Help・206 Erika's Invitation・208 Mew ex・209 Switch を入れた（ef005a6）。
+  ほかの弾は日本版の節を使っていることを確認（新しく入れた英語名を、同じ日本語名の既存の行の英語名と照合して食い違うのは下記の12件だけで、すべて既存の行の誤り）。
+- **既存の行の英語名の誤り（未修正）**: 「ロケット団の〜」「ヒビキの〜」「シロナの〜」「スピンロトム」の既存の行の英語名が持ち主の名前・フォルムを落としている
+  （例 SV10 以外のロケット団のワナイダー → "Spidops"、正しくは "Team Rocket's Spidops"。今回入れた SV10-099〜109・M2a-197/205/208/213 の方が正しい）。
 - 検査スクリプトの修正: `check-en-names.mjs` は GX・EX の前の空白とハイフンを同じとみなす（直後 0件）。`detect-contaminated-en-names.py` の除外に Raihan・Cara Liss
   （英語版の公式名。インドネシア語の一般語と同じ綴り）を追加（直後 0件）。
-- 出品文: SM6-027 は `Volcanion ◇ Prism Star 027/094 Japanese SM6 Pokemon Card NM 2018 Holo Rare`（74文字）。Item Specifics の Character も
-  "Volcanion ◇" になる（◇ を外していない）。
+- 出品文: タイトルと Character では ◇ を外す（下記）。
+
+### 対応（2026-10-06）: プリズムスターの ◇ の扱い・壊れた画像2枚の取り直し
+
+- **◇**（`src/App.jsx` の `titleCardName`）: タイトル（現代カード・旧裏）では英語名の末尾の ◇ を外す。Item Specifics の Character も ◇ を外した名前、
+  Card Name は ◇ 付きのまま。SM6-027 `Volcanion Prism Star 027/094 Japanese SM6 Pokemon Card NM 2018 Holo Rare`（72文字、Card Name "Volcanion ◇"・Character "Volcanion"）。
+  プリズムスターのスタジアム（SM12a-166 Heat Factory 等）も Character に名前が入る（トレーナーズにも Character が入る既知の制約のまま）。
+- **画像の検査**（`scripts/check-image-decode.py`、結果 `scripts/image-decode-report/`）: `public/cards` の全21,015枚を Pillow で全画素まで読み、
+  読めないのは PMCG1-006 ドガースと E4-087 地下湖の2枚だけ。どちらも**1ビットの反転**（正しい画像と比べて1バイトだけ違い、その IDAT チャンクの CRC が合わない）で、
+  書いた後に中身が変わった形。PNG 2,179枚の CRC を全件確かめ、合わないのはこの2枚だけ。pcg-search.com から取り直して置き換えた（ドガースはサイトの 012 番）。
+  詳細は `fixed-2026-10-06.json`。
+  - 原因: レアリティ付きのファイル名への変更（`fill-rarity-*.mjs`・`rename-images.mjs`）は `fs.rename` だけで中身に触れない。ファイルの更新日時は
+    2026-07-05・07-11（取得時のまま）で、作業の処理が書き換えた形跡は無い。保存媒体かコピー（旧 PC からの移動・復元）のときのビット化けとみられる。
+    JPG は CRC が無いため、画素を読めても1ビット程度の化けは検出できない。
 
 ---
 

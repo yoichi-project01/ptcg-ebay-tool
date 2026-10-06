@@ -391,7 +391,7 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
   const include = { rarityWord: Boolean(rarityWord), condition: !isGraded && Boolean(f.condition) };
   const assemble = () => [
     gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
-    f.pokemonEn, // 2. カード名
+    titleCardName(f.pokemonEn), // 2. カード名（プリズムスターの ◇ は外す）
     vintageCardNoToken(f.cardNo), // 3. No.006
     setNameToken, // 4. セット通称
     printVariant, // 5. 印刷バリエーション（No Rarity / 1st Edition）
@@ -452,7 +452,7 @@ function assembleModernTitle(f, maxLength) {
   const include = { setName: Boolean(setNameToken), year: Boolean(year), holo, rarityFull: Boolean(rarityFull) };
   const assemble = () => [
     gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
-    f.pokemonEn, // 2. カード名
+    titleCardName(f.pokemonEn), // 2. カード名（プリズムスターの ◇ は外す）
     RARITY_TITLE_CODES[f.rarity] ?? f.rarity, // 3. レアリティ略号（印刷された文字。H は文字が無いので入れない）
     f.cardNo, // 4. カード番号
     "Japanese", // 5.
@@ -557,7 +557,12 @@ export const CONDITION_DESCRIPTOR_LABELS = {
 // できるが、TCGdexから12,654枚分のcategoryを個別取得する必要がありこのセッションでは未対応
 function extractCharacter(en) {
   if (!en) return "";
-  return en.replace(/\s+(VMAX|VSTAR|V-UNION|GX|EX|ex)$/, "").replace(/\s+V$/, "").trim();
+  return titleCardName(en).replace(/\s+(VMAX|VSTAR|V-UNION|GX|EX|ex)$/, "").replace(/\s+V$/, "").trim();
+}
+// タイトル用のカード名。プリズムスターの英語名 "Volcanion ◇" の ◇ は外す（記号は検索されにくく、
+// タイトルにはレアリティの略号 "Prism Star" が入るため）。Card Name には ◇ 付きの英語名をそのまま使う
+export function titleCardName(en) {
+  return (en || "").replace(/\s*[◇♢]\s*$/, "").trim();
 }
 // eBayのCondition欄（Ungraded/Graded）でどの選択肢を選ぶべきかを案内する短い文
 export function buildConditionGuide(f) {

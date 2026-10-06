@@ -1,4 +1,5 @@
 import { describe, it, expect } from "vitest";
+import CARD_DATA_FOR_TEST from "./cardData.json";
 import {
   buildSingleTitle, buildModernTitle, buildVintageTitle, calcProfit, applyCandidateToForm, searchCards,
   buildItemSpecifics, buildConditionGuide, buildSku,
@@ -1062,5 +1063,24 @@ describe("resolveHistoryMode", () => {
     expect(resolveHistoryMode("sealed")).toBe("sealed");
     expect(resolveHistoryMode(undefined)).toBe("single");
     expect(resolveHistoryMode("garbage")).toBe("single");
+  });
+});
+
+describe("プリズムスター（◇）の扱い", () => {
+  const cardFor = (id) => {
+    const i = id.lastIndexOf("-");
+    const set = CARD_DATA_FOR_TEST.find((s) => s.c === id.slice(0, i));
+    const card = set.k.find((k) => k[0] === id.slice(i + 1));
+    return applyCandidateToForm({ ...DEFAULT_FORM, condition: "NM" }, { set, card });
+  };
+  it("タイトルでは英語名の ◇ を外し、略号は Prism Star にする", () => {
+    const t = buildSingleTitle(cardFor("SM6-027"));
+    expect(t).toBe("Volcanion Prism Star 027/094 Japanese SM6 Pokemon Card NM 2018 Holo Rare");
+    expect(t).not.toContain("◇");
+  });
+  it("Card Name は ◇ 付きのまま、Character は ◇ を外したポケモン名", () => {
+    const map = Object.fromEntries(buildItemSpecifics(cardFor("SM6-027")));
+    expect(map["Card Name"]).toBe("Volcanion ◇");
+    expect(map["Character"]).toBe("Volcanion");
   });
 });
