@@ -21,7 +21,8 @@ const removed = [];
 for (const s of data) {
   const keep = [];
   for (const r of s.k) {
-    if (/^\d+$/.test(r[0])) { keep.push(r); continue; }
+    // 番号の無いプロモの型番（X＋公式の cardID、add-numberless-promos.mjs）は公式で確かめた行なので残す（2026-10-06）
+    if (/^\d+$/.test(r[0]) || /^X\d+$/.test(r[0])) { keep.push(r); continue; }
     const key = `${s.c}/${r[0]}`;
     removed.push({ cardId: `${s.c}-${r[0]}`, ja: r[1], rarity: r[3] || "", image: index[key] || null });
     delete index[key];

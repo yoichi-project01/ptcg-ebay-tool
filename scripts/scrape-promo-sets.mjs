@@ -304,6 +304,9 @@ async function rebuildSet(target, cache, cardData, imageIndex) {
   const { code } = target;
   const set = cardData.find((s) => s.c === code);
   if (!set) throw new Error(`[${code}] cardData.json にセットがありません`);
+  // 番号の無いプロモ（公式の cardID を使った型番 X12345、add-numberless-promos.mjs で追加）は番号付きの一覧から作り直せず、
+  // 行も画像も消えてしまうため、ある弾では作り直さない（2026-10-06）
+  if (set.k.some((r) => /^X\d+$/.test(r[0]))) throw new Error(`[${code}] 番号の無いプロモ（X…）の行があるため --rebuild は使えません`);
 
   const cardIds = cacheCardIds(target, cache);
   const progress = await fetchDetails(code, cardIds);
