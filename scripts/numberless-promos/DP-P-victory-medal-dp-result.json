@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-06T03:36:07.928Z",
+ "set": "DP-P",
+ "results": [
+  {
+   "cardId": "7001",
+   "id": "DP-P-X7001",
+   "ja": "勝利のメダル（ジム☆チャレンジ 入賞者）",
+   "name": "勝利のメダル",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007001_T_SHOURINOMEDARUGIN.gif",
+   "file": "cards/DP/DP-P/勝利のメダル（ジム☆チャレンジ 入賞者）_DP-P-X7001.gif",
+   "bytes": 62084,
+   "status": "追加"
+  },
+  {
+   "cardId": "7012",
+   "id": "DP-P-X7012",
+   "ja": "勝利のメダル（ジム☆ファイナル 入賞者）",
+   "name": "勝利のメダル",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007012_T_SHOURINOMEDARUKIN.gif",
+   "file": "cards/DP/DP-P/勝利のメダル（ジム☆ファイナル 入賞者）_DP-P-X7012.gif",
+   "bytes": 62781,
+   "status": "追加"
+  }
+ ]
+}
