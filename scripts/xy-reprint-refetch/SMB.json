@@ -1,0 +1,150 @@
+{
+ "at": "2026-10-06T01:30:25.204Z",
+ "set": "SMB",
+ "results": [
+  {
+   "cardId": 33199,
+   "badge": null,
+   "local": "007",
+   "total": "018",
+   "jaName": "はかせのてがみ",
+   "image": "/assets/images/card_images/large/SM-XY/033199_T_HAKASENOTEGAMI.jpg",
+   "id": "SMB-007",
+   "file": "cards/SM/SMB/はかせのてがみ_SMB-07／18.jpg",
+   "bytes": 100834,
+   "status": "取得"
+  },
+  {
+   "cardId": 33200,
+   "badge": null,
+   "local": "008",
+   "total": "018",
+   "jaName": "バトルサーチャー",
+   "image": "/assets/images/card_images/large/SM-XY/033200_T_BATORUSACHA.jpg",
+   "id": "SMB-008",
+   "file": "cards/SM/SMB/バトルサーチャー_SMB-08／18.jpg",
+   "bytes": 113533,
+   "status": "取得"
+  },
+  {
+   "cardId": 33201,
+   "badge": null,
+   "local": "009",
+   "total": "018",
+   "jaName": "ピーピーマックス",
+   "image": "/assets/images/card_images/large/SM-XY/033201_T_PIPIMAKKUSU.jpg",
+   "id": "SMB-009",
+   "file": "cards/SM/SMB/ピーピーマックス_SMB-09／18.jpg",
+   "bytes": 114807,
+   "status": "取得"
+  },
+  {
+   "cardId": 33202,
+   "badge": null,
+   "local": "010",
+   "total": "018",
+   "jaName": "闘魂のまわし",
+   "image": "/assets/images/card_images/large/SM-XY/033202_T_TOUKONNOMAWASHI.jpg",
+   "id": "SMB-010",
+   "file": "cards/SM/SMB/闘魂のまわし_SMB-10／18.jpg",
+   "bytes": 126816,
+   "status": "取得"
+  },
+  {
+   "cardId": 33203,
+   "badge": null,
+   "local": "011",
+   "total": "018",
+   "jaName": "N",
+   "image": "/assets/images/card_images/large/SM-XY/033203_T_N.jpg",
+   "id": "SMB-011",
+   "file": "cards/SM/SMB/N_SMB-11／18.jpg",
+   "bytes": 124986,
+   "status": "取得"
+  },
+  {
+   "cardId": 33204,
+   "badge": null,
+   "local": "012",
+   "total": "018",
+   "jaName": "フウロ",
+   "image": "/assets/images/card_images/large/SM-XY/033204_T_FUURO.jpg",
+   "id": "SMB-012",
+   "file": "cards/SM/SMB/フウロ_SMB-12／18.jpg",
+   "bytes": 115896,
+   "status": "取得"
+  },
+  {
+   "cardId": 33205,
+   "badge": null,
+   "local": "013",
+   "total": "018",
+   "jaName": "プラターヌ博士",
+   "image": "/assets/images/card_images/large/SM-XY/033205_T_PURATANUHAKASE.jpg",
+   "id": "SMB-013",
+   "file": "cards/SM/SMB/プラターヌ博士_SMB-13／18.jpg",
+   "bytes": 115510,
+   "status": "取得"
+  },
+  {
+   "cardId": 33206,
+   "badge": null,
+   "local": "014",
+   "total": "018",
+   "jaName": "フラダリ",
+   "image": "/assets/images/card_images/large/SM-XY/033206_T_FURADARI.jpg",
+   "id": "SMB-014",
+   "file": "cards/SM/SMB/フラダリ_SMB-14／18.jpg",
+   "bytes": 103928,
+   "status": "取得"
+  },
+  {
+   "cardId": 33207,
+   "badge": null,
+   "local": "015",
+   "total": "018",
+   "jaName": "うねりの大海",
+   "image": "/assets/images/card_images/large/SM-XY/033207_T_UNERINOTAIKAI.jpg",
+   "id": "SMB-015",
+   "file": "cards/SM/SMB/うねりの大海_SMB-15／18.jpg",
+   "bytes": 132747,
+   "status": "取得"
+  },
+  {
+   "cardId": 33208,
+   "badge": null,
+   "local": "016",
+   "total": "018",
+   "jaName": "巨大植物の森",
+   "image": "/assets/images/card_images/large/SM-XY/033208_T_KYODAISHOKUBUTSUNOMORI.jpg",
+   "id": "SMB-016",
+   "file": "cards/SM/SMB/巨大植物の森_SMB-16／18.jpg",
+   "bytes": 117638,
+   "status": "取得"
+  },
+  {
+   "cardId": 33209,
+   "badge": null,
+   "local": "017",
+   "total": "018",
+   "jaName": "ストロングエネルギー",
+   "image": "/assets/images/card_images/large/SM-XY/033209_E_SUTORONGUENERUGI.jpg",
+   "id": "SMB-017",
+   "file": "cards/SM/SMB/ストロングエネルギー_SMB-17／18.jpg",
+   "bytes": 102326,
+   "status": "取得"
+  },
+  {
+   "cardId": 33210,
+   "badge": null,
+   "local": "018",
+   "total": "018",
+   "jaName": "ミステリーエネルギー",
+   "image": "/assets/images/card_images/large/SM-XY/033210_E_MISUTERIENERUGI.jpg",
+   "id": "SMB-018",
+   "file": "cards/SM/SMB/ミステリーエネルギー_SMB-18／18.jpg",
+   "bytes": 94982,
+   "status": "取得"
+  }
+ ]
+}
