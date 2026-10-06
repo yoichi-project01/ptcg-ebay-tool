@@ -1,0 +1,42 @@
+{
+ "at": "2026-10-06T03:37:30.343Z",
+ "set": "SM-P",
+ "results": [
+  {
+   "cardId": "34205",
+   "id": "SM-P-X34205",
+   "ja": "チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2017）",
+   "name": "チャンピオンズフェスティバル",
+   "badge": "SMP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/SMP/034205_T_CHANPIONZUFESUTEIBARU.jpg",
+   "file": "cards/SM/SM-P/チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2017）_SM-P-X34205.jpg",
+   "bytes": 187836,
+   "status": "追加"
+  },
+  {
+   "cardId": "35389",
+   "id": "SM-P-X35389",
+   "ja": "チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2018）",
+   "name": "チャンピオンズフェスティバル",
+   "badge": "SMP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/SMP/035389_T_CHANPIONZUFESUTEIBARU.jpg",
+   "file": "cards/SM/SM-P/チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2018）_SM-P-X35389.jpg",
+   "bytes": 201980,
+   "status": "追加"
+  },
+  {
+   "cardId": "37179",
+   "id": "SM-P-X37179",
+   "ja": "チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2019）",
+   "name": "チャンピオンズフェスティバル",
+   "badge": "SMP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/SMP/037179_T_CHANPIONZUFESUTEIBARU.jpg",
+   "file": "cards/SM/SM-P/チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2019）_SM-P-X37179.jpg",
+   "bytes": 210326,
+   "status": "追加"
+  }
+ ]
+}
