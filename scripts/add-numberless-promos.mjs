@@ -18,7 +18,7 @@ const ROOT = path.resolve(__dirname, "..");
 const planPath = process.argv[2];
 if (!planPath) throw new Error("計画ファイルを指定してください");
 const plan = JSON.parse(fs.readFileSync(planPath, "utf8"));
-const BADGE = { "SM-P": "SMP", "XY-P": "XYP", "BW-P": "BWP", "S-P": "SP", "SV-P": "SVP", "M-P": "MP", "DP-P": "DPP", "DPt-P": "DPtP", "L-P": "LP" };
+// 印刷記号（details.php の img-regulation の alt）は弾ごとに違う（SM-P は SMP、S-P は S-P 等）ので計画ファイルの badge で指定する
 
 const DATA = path.join(ROOT, "src", "cardData.json");
 const raw = fs.readFileSync(DATA, "utf8");
@@ -46,9 +46,9 @@ for (const c of plan.cards) {
   const img = (html.match(/<img class="fit" src="([^"]+)"/) || [])[1] ?? null;
   const text = textOf(html);
   Object.assign(r, { name, badge, hasNumber, image: img });
-  if (name !== plan.name) { r.status = `名前が違う（${name}）`; continue; }
+  if (name !== (c.name ?? plan.name)) { r.status = `名前が違う（${name}）`; continue; } // 公式の名前に順位が入っているもの（勝利の証（優勝）等）はカードごとに name を指定
   if (hasNumber) { r.status = "番号がある（番号付きの行として扱う）"; continue; }
-  if (badge !== BADGE[plan.set]) { r.status = `印刷記号が違う（${badge}）`; continue; }
+  if (badge !== plan.badge) { r.status = `印刷記号が違う（${badge}）`; continue; }
   if (c.eventDetails && !text.includes(c.eventDetails)) { r.status = "本文の大会名が計画と違う"; continue; }
   if (!img) { r.status = "画像が無い"; continue; }
   const buf = await politeFetch(`https://www.pokemon-card.com${img}`, true);
