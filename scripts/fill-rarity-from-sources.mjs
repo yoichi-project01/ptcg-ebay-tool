@@ -7,6 +7,7 @@
 // 2つ以上が同じコードを示し、そのコードが src/App.jsx の RARITIES にあるものだけ入れる。RARITIES に無いコード（K 等）は保留して一覧に出す。
 // 結果は scripts/rarity-fix/second-sources-result.json、変えた card_id は second-sources-changed-card-ids.txt。
 import fs from "node:fs";
+import { renameHashPaths } from "./image-hashes.mjs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -46,6 +47,7 @@ for (const [id, s] of Object.entries(src)) {
 }
 
 const changed = [];
+const hashRenames = [];
 if (APPLY) {
   for (const r of results.filter((x) => x.status === "入れる")) {
     const set = data.find((x) => x.c === r.id.slice(0, r.id.lastIndexOf("-")));
@@ -60,11 +62,13 @@ if (APPLY) {
       const newRel = `${m[1]}_${r.rarity}${m[2]}`;
       fs.renameSync(path.join(ROOT, "public", rel), path.join(ROOT, "public", newRel));
       index[key] = newRel;
+      hashRenames.push({ key, to: newRel });
     }
     changed.push(r.id);
   }
   fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
   fs.writeFileSync(INDEX, JSON.stringify(index));
+  renameHashPaths(hashRenames, index); // 画像の SHA-256 の一覧のパスも合わせる（中身は照合する）
   fs.writeFileSync(path.join(OUT, ONLY ? `second-sources-result-${ONLY}.json` : "second-sources-result.json"), JSON.stringify({ at: new Date().toISOString(), results }, null, 1));
   fs.writeFileSync(path.join(OUT, ONLY ? `second-sources-changed-card-ids-${ONLY}.txt` : "second-sources-changed-card-ids.txt"), changed.join("\n") + (changed.length ? "\n" : ""));
 }

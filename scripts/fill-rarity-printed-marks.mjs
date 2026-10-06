@@ -2,6 +2,7 @@
 //   node scripts/fill-rarity-printed-marks.mjs --set S10a     1弾分を cardData.json・画像のファイル名・imageIndex.json に反映
 // 今のレアリティが空の行だけ書き換える（再実行しても変化なし）。変えた card_id は rarity-fix/printed-marks-changed-card-ids-{弾}.txt。
 import fs from "node:fs";
+import { renameHashPaths } from "./image-hashes.mjs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -17,6 +18,7 @@ const data = JSON.parse(raw);
 const index = JSON.parse(fs.readFileSync(INDEX, "utf8"));
 const set = data.find((s) => s.c === SET);
 const changed = [];
+const hashRenames = [];
 for (const r of rows) {
   const row = set.k.find((k) => `${SET}-${k[0]}` === r.id);
   if (!row || row[1] !== r.ja) throw new Error(`cardData の行が想定と違います: ${r.id}`);
@@ -29,10 +31,12 @@ for (const r of rows) {
     const newRel = `${m[1]}_${r.rarity}${m[2]}`;
     fs.renameSync(path.join(ROOT, "public", rel), path.join(ROOT, "public", newRel));
     index[key] = newRel;
+    hashRenames.push({ key, to: newRel });
   }
   changed.push(r.id);
 }
 fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
 fs.writeFileSync(INDEX, JSON.stringify(index));
+renameHashPaths(hashRenames, index); // 画像の SHA-256 の一覧のパスも合わせる（中身は照合する）
 fs.writeFileSync(path.join(__dirname, "rarity-fix", `printed-marks-changed-card-ids-${SET}.txt`), changed.join("\n") + (changed.length ? "\n" : ""));
 console.log(`[${SET}] ${changed.length}件`);

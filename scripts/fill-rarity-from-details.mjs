@@ -11,6 +11,7 @@
 // 画像のファイル名もレアリティ付きの規則（{名前}_{弾}-{番号}／{総数}_{レアリティ}.ext）に直し、imageIndex.json の指す先を合わせる。
 // 根拠は scripts/rarity-fix/{弾}.json、変えた card_id は {弾}-changed-card-ids.txt。
 import fs from "node:fs";
+import { renameHashPaths } from "./image-hashes.mjs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { normalizeName } from "./patch-from-scan.mjs";
@@ -90,10 +91,11 @@ for (const set of data) {
     if (fs.existsSync(to)) throw new Error(`変更先に同じ名前の画像があります: ${newRel}`);
     fs.renameSync(from, to);
     index[key] = newRel;
-    renamed.push({ id: r.id, from: rel, to: newRel });
+    renamed.push({ id: r.id, key, from: rel, to: newRel });
   }
   fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
   fs.writeFileSync(INDEX, JSON.stringify(index));
+  renameHashPaths(renamed, index); // 画像の SHA-256 の一覧のパスも合わせる（中身は照合する）
   fs.writeFileSync(path.join(OUT, `${set.c}.json`), JSON.stringify({ at: new Date().toISOString(), set: set.c, count, renamed, rows }, null, 1));
   fs.writeFileSync(path.join(OUT, `${set.c}-changed-card-ids.txt`), fill.map((r) => r.id).join("\n") + (fill.length ? "\n" : ""));
   console.log(`[${set.c}] ${fill.length}件にレアリティを入れました（画像のファイル名を直した ${renamed.length}件）`);

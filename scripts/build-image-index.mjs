@@ -11,6 +11,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { extractLocalId, MIN_IMAGE_BYTES } from "./filename-utils.mjs";
+import { syncHashesWithIndex } from "./image-hashes.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -116,6 +117,10 @@ async function main() {
   const pngCount = Object.values(index).filter(v => v.endsWith(".png")).length;
   const gifCount = Object.values(index).filter(v => v.endsWith(".gif")).length;
   console.log(`画像インデックス生成: ${Object.keys(index).length} 件 (jpg=${jpgCount}, png=${pngCount}, gif=${gifCount}) -> src/imageIndex.json`);
+  // 画像の SHA-256 の一覧（scripts/image-hashes.tsv）も合わせる。--only の弾は取り直した画像を反映するため全キーを計算し直し、
+  // 全体の作り直しでは新しいキー・パスが変わったキーだけ（既存のキーを計算し直すと、化けたファイルの値で一覧を上書きしてしまう）
+  const h = syncHashesWithIndex(out, { rehashSets: onlySets });
+  console.log(h.skipped ? `画像の SHA-256 の一覧: ${h.skipped}` : `画像の SHA-256 の一覧を更新: 追加 ${h.added}・計算し直し ${h.rehashed}・削除 ${h.removed}`);
 }
 
 main().catch((e) => {

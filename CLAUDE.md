@@ -2471,6 +2471,22 @@ card_id の一覧は `scripts/s8a-25th-report/`（`added-card-ids.txt` 45件・`
 - 対応表は `build-image-index.mjs --only <弾>` で更新し、追加は各弾のキーだけ（SMB 12・SMF 8・SMG 29、削除・変更0）。`archive-stray-images.mjs --verify` は0件。
   弾ごとにコミット（074bb4d・1b8832a・b212e00）。card_id は `scripts/xy-reprint-refetch/refetched-card-ids.txt`（49件）、各カードの cardID・画像パスは `{弾}.json`。
 
+### 対応（2026-10-06）: 画像の SHA-256 の一覧（ビット化けの検出）
+
+1ビットの反転（PMCG1-006・E4-087）を今後も見つけられるよう、`public/cards` の全画像の SHA-256 の一覧 `scripts/image-hashes.tsv`
+（列 card_id・key・path・sha256・bytes、21,064件、2.9MB）をリポジトリに入れた。作成時点で全画像が画素まで読めることを確認済み。
+JPG は中身にチェックサムを持たないので、画素が読めても化けは分からない。この一覧で検出する。
+
+- **照合**: `node scripts/image-hashes.mjs --verify`（約13秒）。画像の対応表のキーごとに今のファイルの SHA-256 を計算し、中身が変わった・ファイルが無い・
+  一覧に無いキーを報告する（中身の変化かファイルの欠けがあれば終了コード 1）。ファイル名の変更だけなら中身が同じなので一致する。
+  1枚を1ビット反転させて検出できることを確かめた（すぐ元に戻した）。
+- **自動で更新されるもの**: `build-image-index.mjs` の最後に一覧も合わせる。`--only <弾>` はその弾の全キーを計算し直す（取り直した画像を反映）。
+  全体の作り直しは新しいキー・パスが変わったキーだけで、既存のキーは計算し直さない（化けたファイルの値で一覧を上書きしないため）。
+  `fill-rarity-*.mjs`（ファイル名の変更だけ）はパスを書き換え、SHA-256 は照合して違えば止まる（`renameHashPaths`）。
+- **手で更新するとき**: 同じパスのまま画像を置き換え、`--only` を通さないとき（pcg-search から取り直した等）は
+  `node scripts/image-hashes.mjs --update --set <弾>`（キー単位は `--keys SV2a/198,…`）。一覧を丸ごと作り直す `--build --force` は、
+  今のファイルが正しいと確かめたときだけ使う。
+
 ---
 
 ## ファイル構成

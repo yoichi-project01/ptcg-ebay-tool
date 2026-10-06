@@ -3,6 +3,7 @@
 // cardID は取り込んだときに公式の番号で確かめたもの（SMB は公式一覧の SM-XY キー、SMF・SMG は scrape-missing-sets.mjs の extraCardIds）。
 // details.php で番号・名前をもう一度確かめ（cardData の行と一致したものだけ）、その details.php に載っている画像を取る。
 // 退避してある古い画像は使わない。同時接続1本・2〜3秒間隔（scrape-promo-sets.mjs の politeFetch）。
+// 取得後は node scripts/build-image-index.mjs --only <弾> で画像の対応表と SHA-256 の一覧（image-hashes.tsv）を合わせる。
 // 結果は scripts/xy-reprint-refetch/{弾}.json、取り直した card_id は {弾}-refetched-card-ids.txt。
 import fs from "node:fs";
 import path from "node:path";
