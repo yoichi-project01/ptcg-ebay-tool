@@ -145,6 +145,9 @@ export const DEFAULT_FORM = {
   // 設定完了後にtrueへ切り替える（ユーザー指示）
   combinedShipping: false,
   pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
+  // 候補から選んだカードの「弾/型番」（例 "SM-P/X33404"）。カード番号を持たないプロモ（総数0の弾）でも SKU・履歴の画像を
+  // 一意にするために使う（買い手向けの出力には使わない）。弾を手で書き換えたら使わない（buildSku・entryImage で setCode と照合）
+  localRef: "",
   conditionPhrases: [],
   printVariant: "", printVariantNote: "", oldBack: false,
   graded: false, gradingCompany: "", grade: "", certNumber: "",
@@ -164,7 +167,7 @@ export const DEFAULT_FORM = {
 // shipFrom / handlingDays / exchangeRate / ebayFeePercent / ebayFixedFeeUsd は
 // 毎回だいたい同じ値を使うので引き継ぐ（PER_LISTING_FIELDSに含めない）
 const PER_LISTING_FIELDS = {
-  pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "",
+  pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", localRef: "",
   setNameJa: "", setNameEn: "", setCode: "",
   condition: "NM", conditionNotes: "", conditionPhrases: [],
   printVariant: "", printVariantNote: "", oldBack: false,
@@ -295,7 +298,7 @@ export function applyCandidateToForm(prev, r, { carryOverCondition = false } = {
     ...base,
     pokemonJa: ja, pokemonEn: en || "",
     rarity: RARITIES.includes(rarity) ? rarity : "",
-    cardNo: cardNoOf(r.set, local), setCode: r.set.c,
+    cardNo: cardNoOf(r.set, local), setCode: r.set.c, localRef: `${r.set.c}/${local}`,
     // 旧裏セットの一部は英語版が発売されていないためcardData.json側のen(公式訳)が空。
     // その場合はコミュニティで一貫して使われている英語通称(enAlias、タスク5-2)で補う
     setNameJa: r.set.ja, setNameEn: r.set.en || r.set.enAlias || "",
@@ -614,6 +617,11 @@ export function buildItemSpecifics(f) {
 // ---------- SKU（カスタムラベル） ----------
 // 在庫管理・CSV出品・写真ファイル名で共通して使えるSKUを機械的に組み立てる。
 // 例: SV2a-201-NM / PMCG1-004-1ST-PSA10
+// localRef の型番（弾が今の setCode と同じときだけ）。カード番号を持たないプロモの SKU・履歴の画像用
+function localOf(f) {
+  const ref = f.localRef || "";
+  return f.setCode && ref.startsWith(`${f.setCode}/`) ? ref.slice(f.setCode.length + 1) : "";
+}
 export function buildSku(f, mode) {
   const parts = mode === "pack"
     ? [f.setCode, f.productType === "box" ? "BOX" : "PACK"]
@@ -621,7 +629,7 @@ export function buildSku(f, mode) {
     ? [f.setCode, "SEALED"]
     : [
         f.setCode,
-        f.cardNo ? f.cardNo.split("/")[0] : "",
+        f.cardNo ? f.cardNo.split("/")[0] : localOf(f),
         f.graded && f.gradingCompany && f.grade.trim() ? `${f.gradingCompany}${f.grade.trim()}` : f.condition,
         resolvePrintVariant(f) === "1st Edition" ? "1ST" : "",
         resolvePrintVariant(f) === "No Rarity" ? "NR" : "",
@@ -832,10 +840,11 @@ export function computeMonthlyUsage(history, now = new Date()) {
 }
 // history・queue の両方で使う: entry.f から画像パスを引く
 function entryImage(entry) {
-  const local = entry.f.cardNo ? entry.f.cardNo.split("/")[0] : "";
+  const local = entry.f.cardNo ? entry.f.cardNo.split("/")[0] : localOf(entry.f);
   const n = parseInt(local, 10);
-  if (!entry.f.setCode || isNaN(n)) return null;
-  const key = `${entry.f.setCode}/${n}`;
+  if (!entry.f.setCode || !local) return null;
+  // 型番が数字ならキーは数値（"064" → 64）、X33404 のような番号の無いプロモの型番はそのまま
+  const key = `${entry.f.setCode}/${/^\d+$/.test(local) ? n : local}`;
   return IMAGE_INDEX[key] ? `/${IMAGE_INDEX[key]}` : null;
 }
 

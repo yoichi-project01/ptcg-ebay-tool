@@ -1084,3 +1084,26 @@ describe("プリズムスター（◇）の扱い", () => {
     expect(map["Character"]).toBe("Volcanion");
   });
 });
+
+describe("プロモの SKU（カード番号を持たない弾は型番を含める）", () => {
+  const formFor = (id) => {
+    const i = id.lastIndexOf("-");
+    const set = CARD_DATA_FOR_TEST.find((s) => s.c === id.slice(0, i));
+    const card = set.k.find((k) => k[0] === id.slice(i + 1));
+    return applyCandidateToForm({ ...DEFAULT_FORM, condition: "NM" }, { set, card });
+  };
+  it("番号付きのプロモは型番を含める", () => {
+    expect(buildSku(formFor("SM-P-001"), "single")).toBe("SM-P-001-NM");
+  });
+  it("番号の無いプロモは X＋cardID の型番を含める", () => {
+    expect(buildSku(formFor("SM-P-X33404"), "single")).toBe("SM-P-X33404-NM");
+  });
+  it("カード番号のある弾は今までどおり（型番はカード番号から）", () => {
+    expect(buildSku(formFor("SV1S-014"), "single")).toBe("SV1S-014-NM");
+  });
+  it("弾を手で書き換えたら古い型番を使わない・localRef の無い古い履歴は今までどおり", () => {
+    expect(buildSku({ ...formFor("SM-P-X33404"), setCode: "SV-P" }, "single")).toBe("SV-P-NM");
+    const { localRef, ...old } = formFor("SM-P-001");
+    expect(buildSku({ ...DEFAULT_FORM, ...old }, "single")).toBe("SM-P-NM");
+  });
+});
