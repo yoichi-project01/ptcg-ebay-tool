@@ -1,0 +1,42 @@
+{
+ "at": "2026-10-06T03:38:03.880Z",
+ "set": "XY-P",
+ "results": [
+  {
+   "cardId": "30589",
+   "id": "XY-P-X30589",
+   "ja": "チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2014）",
+   "name": "チャンピオンズフェスティバル",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/030589_T_CHANPIONZUFESUTEIBARU.jpg",
+   "file": "cards/XY/XY-P/チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2014）_XY-P-X30589.jpg",
+   "bytes": 215383,
+   "status": "追加"
+  },
+  {
+   "cardId": "31468",
+   "id": "XY-P-X31468",
+   "ja": "チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2015）",
+   "name": "チャンピオンズフェスティバル",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/031468_T_CHANPIONZUFESUTEIBARU.jpg",
+   "file": "cards/XY/XY-P/チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2015）_XY-P-X31468.jpg",
+   "bytes": 217977,
+   "status": "追加"
+  },
+  {
+   "cardId": "32318",
+   "id": "XY-P-X32318",
+   "ja": "チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2016）",
+   "name": "チャンピオンズフェスティバル",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/032318_T_CHANPIONZUFESUTEIBARU.jpg",
+   "file": "cards/XY/XY-P/チャンピオンズフェスティバル（ポケモンワールドチャンピオンシップス2016）_XY-P-X32318.jpg",
+   "bytes": 213377,
+   "status": "追加"
+  }
+ ]
+}
