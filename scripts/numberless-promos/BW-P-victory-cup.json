@@ -11,7 +11,8 @@
    "eventPrinted": "ポケモンカードゲーム バトルカーニバル2011",
    "rank": "優勝",
    "medal": "金",
-   "ja": "ビクトリーカップ（バトルカーニバル2011 優勝）"
+   "ja": "ビクトリーカップ（バトルカーニバル2011 優勝）",
+   "en": "Victory Cup 1st Place"
   },
   {
    "cardId": "27757",
@@ -20,7 +21,8 @@
    "eventPrinted": "ポケモンカードゲーム バトルカーニバル2011",
    "rank": "2位",
    "medal": "銀",
-   "ja": "ビクトリーカップ（バトルカーニバル2011 2位）"
+   "ja": "ビクトリーカップ（バトルカーニバル2011 2位）",
+   "en": "Victory Cup 2nd Place"
   },
   {
    "cardId": "27758",
@@ -29,7 +31,8 @@
    "eventPrinted": "ポケモンカードゲーム バトルカーニバル2011",
    "rank": "3位",
    "medal": "銅",
-   "ja": "ビクトリーカップ（バトルカーニバル2011 3位）"
+   "ja": "ビクトリーカップ（バトルカーニバル2011 3位）",
+   "en": "Victory Cup 3rd Place"
   },
   {
    "cardId": "28082",
@@ -38,7 +41,8 @@
    "eventPrinted": "ポケモンカードゲーム バトルカーニバル2012 スプリング",
    "rank": "優勝",
    "medal": "金",
-   "ja": "ビクトリーカップ（バトルカーニバル2012 スプリング 優勝）"
+   "ja": "ビクトリーカップ（バトルカーニバル2012 スプリング 優勝）",
+   "en": "Victory Cup 1st Place"
   },
   {
    "cardId": "28083",
@@ -47,7 +51,8 @@
    "eventPrinted": "ポケモンカードゲーム バトルカーニバル2012 スプリング",
    "rank": "2位",
    "medal": "銀",
-   "ja": "ビクトリーカップ（バトルカーニバル2012 スプリング 2位）"
+   "ja": "ビクトリーカップ（バトルカーニバル2012 スプリング 2位）",
+   "en": "Victory Cup 2nd Place"
   },
   {
    "cardId": "28084",
@@ -56,7 +61,8 @@
    "eventPrinted": "ポケモンカードゲーム バトルカーニバル2012 スプリング",
    "rank": "3位",
    "medal": "銅",
-   "ja": "ビクトリーカップ（バトルカーニバル2012 スプリング 3位）"
+   "ja": "ビクトリーカップ（バトルカーニバル2012 スプリング 3位）",
+   "en": "Victory Cup 3rd Place"
   },
   {
    "cardId": "28651",
@@ -65,7 +71,8 @@
    "eventPrinted": "ポケモンカードゲーム バトルカーニバル2012 オータム",
    "rank": "優勝",
    "medal": "金",
-   "ja": "ビクトリーカップ（バトルカーニバル2012 オータム 優勝）"
+   "ja": "ビクトリーカップ（バトルカーニバル2012 オータム 優勝）",
+   "en": "Victory Cup Autumn Battle Carnival 1st Place"
   },
   {
    "cardId": "28652",
@@ -74,7 +81,8 @@
    "eventPrinted": "ポケモンカードゲーム バトルカーニバル2012 オータム",
    "rank": "2位",
    "medal": "銀",
-   "ja": "ビクトリーカップ（バトルカーニバル2012 オータム 2位）"
+   "ja": "ビクトリーカップ（バトルカーニバル2012 オータム 2位）",
+   "en": "Victory Cup Autumn Battle Carnival 2nd Place"
   },
   {
    "cardId": "28653",
@@ -83,7 +91,9 @@
    "eventPrinted": "ポケモンカードゲーム バトルカーニバル2012 オータム",
    "rank": "3位",
    "medal": "銅",
-   "ja": "ビクトリーカップ（バトルカーニバル2012 オータム 3位）"
+   "ja": "ビクトリーカップ（バトルカーニバル2012 オータム 3位）",
+   "en": "Victory Cup Autumn Battle Carnival 3rd Place"
   }
- ]
+ ],
+ "enRule": "英語版の公式カード名「Victory Cup」（BW 世代の英語版プロモ）。PSA の鑑定書 #43212113「2012 POKEMON JAPANESE BLACK & WHITE PROMO #BW-P VICTORY CUP / A.B. CRNVL. VIC. CUP 2ND PL.」（https://www.psacard.com/cert/43212113）。順位は PSA の書き方（1st/2nd/3rd Place）。大会名は PSA で確認できた2012オータム（Autumn Battle Carnival）だけ入れ、ほかは順位だけ。"
 }

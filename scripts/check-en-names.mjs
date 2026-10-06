@@ -33,6 +33,8 @@ const idName = new Map(idList.map((c) => [c.id, c.name]));
 const rows = [];
 for (const s of cardData) for (const [num, ja, en] of s.k) {
   if (!en) continue;
+  // 番号の無いプロモ（型番 X＋cardID）の英語名は PSA の書き方で順位・大会名を付けている（Victory Cup 1st Place 等）ので照合しない
+  if (/^X\d+$/.test(num)) continue;
   const id = `${s.c}-${num}`;
   rows.push({ id, set: s.c, ja, en, inEnglish: enNames.has(norm(en)), fromIndonesian: idName.get(id) === en });
 }

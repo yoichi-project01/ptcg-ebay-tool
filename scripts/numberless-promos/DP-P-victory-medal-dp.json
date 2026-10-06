@@ -9,14 +9,17 @@
    "name": "勝利のメダル",
    "eventDetails": "『ジム☆チャレンジ』入賞者カード",
    "medal": "銀",
-   "ja": "勝利のメダル（ジム☆チャレンジ 入賞者）"
+   "ja": "勝利のメダル（ジム☆チャレンジ 入賞者）",
+   "en": "Victory Medal Gym Challenge Silver"
   },
   {
    "cardId": "7012",
    "name": "勝利のメダル",
    "eventDetails": "「ジム☆ファイナル」入賞者カード",
    "medal": "金",
-   "ja": "勝利のメダル（ジム☆ファイナル 入賞者）"
+   "ja": "勝利のメダル（ジム☆ファイナル 入賞者）",
+   "en": "Victory Medal"
   }
- ]
+ ],
+ "enRule": "英語版の公式カード名「Victory Medal」（DP 世代の英語版プロモ）。PSA のラベル「2006 POKEMON JAPANESE PROMO Victory Medal（Gym Challenge Silver）」（https://www.psacard.com/auctionprices/tcg-cards/2006-pokemon-japanese-promo/victory-medal-gym-challenge-silver/2010451）・「2007 POKEMON JAPANESE PROMO Victory Medal」（…/2007-pokemon-japanese-promo/victory-medal/1754863）。ジム☆ファイナルの金は PSA の書き方を確認できなかったので名前だけ。"
 }
