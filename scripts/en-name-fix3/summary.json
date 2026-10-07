@@ -255,5 +255,20 @@
   "filledByRule": 85,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S4a-pokemon": {
+  "set": "S4a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Shining Fates (TCG)",
+   "section": "Shiny Star V",
+   "den": "den=190",
+   "file": "S-2.txt"
+  },
+  "targets": 144,
+  "filled": 144,
+  "filledByRule": 144,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
