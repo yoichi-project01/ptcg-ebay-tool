@@ -390,5 +390,20 @@
   "filledByRule": 52,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S8-pokemon": {
+  "set": "S8",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Fusion Strike (TCG)",
+   "section": "Fusion Arts",
+   "den": "den=100",
+   "file": "S-3.txt"
+  },
+  "targets": 84,
+  "filled": 84,
+  "filledByRule": 84,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
