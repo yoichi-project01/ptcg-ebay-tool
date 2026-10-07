@@ -5522,5 +5522,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MBG-trainer": {
+  "set": "MBG",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "MEGA Starter Set Mega Gengar ex (TCG)",
+   "section": "MEGA Starter Set Mega Gengar ex",
+   "den": "den=021,",
+   "file": "M.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
