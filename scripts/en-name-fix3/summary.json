@@ -4501,5 +4501,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVM-pokemon": {
+  "set": "SVM",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Generations Start Decks (TCG)",
+   "section": "Generations Start Decks",
+   "den": "den=175",
+   "file": "D-2.txt"
+  },
+  "targets": 124,
+  "filled": 124,
+  "filledByRule": 124,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVM-trainer": {
+  "set": "SVM",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Generations Start Decks (TCG)",
+   "section": "Generations Start Decks",
+   "den": "den=175",
+   "file": "D-2.txt"
+  },
+  "targets": 51,
+  "filled": 51,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
