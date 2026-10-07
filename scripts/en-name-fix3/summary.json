@@ -360,5 +360,20 @@
   "filledByRule": 55,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S7D-pokemon": {
+  "set": "S7D",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Evolving Skies (TCG)",
+   "section": "Skyscraping Perfection",
+   "den": "den=067",
+   "file": "S-3.txt"
+  },
+  "targets": 52,
+  "filled": 52,
+  "filledByRule": 52,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
