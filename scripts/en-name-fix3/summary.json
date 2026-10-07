@@ -2345,5 +2345,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM4p-pokemon": {
+  "set": "SM4p",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "GX Battle Boost (TCG)",
+   "section": "GX Battle Boost",
+   "den": "den=114",
+   "file": "SM6-2.txt"
+  },
+  "targets": 87,
+  "filled": 87,
+  "filledByRule": 87,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM4p-trainer": {
+  "set": "SM4p",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "GX Battle Boost (TCG)",
+   "section": "GX Battle Boost",
+   "den": "den=114",
+   "file": "SM6-2.txt"
+  },
+  "targets": 27,
+  "filled": 27,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
