@@ -2315,5 +2315,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM4A-pokemon": {
+  "set": "SM4A",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Crimson Invasion (TCG)",
+   "section": "Ultradimensional Beasts",
+   "den": "den=050",
+   "file": "SM6-2.txt"
+  },
+  "targets": 45,
+  "filled": 45,
+  "filledByRule": 45,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM4A-trainer": {
+  "set": "SM4A",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Crimson Invasion (TCG)",
+   "section": "Ultradimensional Beasts",
+   "den": "den=050",
+   "file": "SM6-2.txt"
+  },
+  "targets": 5,
+  "filled": 5,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
