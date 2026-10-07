@@ -5477,5 +5477,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVOD-pokemon": {
+  "set": "SVOD",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ex Starter Set Steven's Beldum & Metagross ex (TCG)",
+   "section": "<small>ex Starter Set Steven's Beldum & Metagross ex</small>",
+   "den": "den=018,",
+   "file": "D-7.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVOD-trainer": {
+  "set": "SVOD",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ex Starter Set Steven's Beldum & Metagross ex (TCG)",
+   "section": "<small>ex Starter Set Steven's Beldum & Metagross ex</small>",
+   "den": "den=018,",
+   "file": "D-7.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
