@@ -32,6 +32,7 @@ EXEMPT = {
     "fini",  # Tapu Fini
     "rotom",  # Rotom
     "raihan",  # Raihan（キバナ。英語版の公式名。インドネシア語の raihan=成果 と同じ綴り）
+    "dan",  # Dan（ダンペイ。英語版の公式名 Dan。インドネシア語の dan=〜と と同じ綴り）
     "cara",  # Cara Liss（ウカッツ。英語版の公式名。インドネシア語の cara=方法 と同じ綴り）
     "mega",  # Mega Evolution
     "solo",  # Solgaleo / Solrock 系 "Solo" を含むカード名との衝突を避けるための保険
