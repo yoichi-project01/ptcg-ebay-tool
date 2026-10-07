@@ -150,5 +150,20 @@
   "filledByRule": 49,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S1H-pokemon": {
+  "set": "S1H",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Sword & Shield (TCG)",
+   "section": "Shield",
+   "den": "den=060",
+   "file": "S-1.txt"
+  },
+  "targets": 49,
+  "filled": 49,
+  "filledByRule": 49,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
