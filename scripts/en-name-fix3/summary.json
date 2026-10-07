@@ -822,5 +822,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV6a-trainer": {
+  "set": "SV6a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Shrouded Fable (TCG)",
+   "section": "Night Wanderer",
+   "den": "den=064",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
