@@ -3697,5 +3697,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW5-Brn-pokemon": {
+  "set": "BW5-Brn",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Dragons Exalted (TCG)",
+   "section": "Dragon Blade",
+   "den": "den=050",
+   "file": "BW-2.txt"
+  },
+  "targets": 47,
+  "filled": 47,
+  "filledByRule": 47,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW5-Brn-trainer": {
+  "set": "BW5-Brn",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Dragons Exalted (TCG)",
+   "section": "Dragon Blade",
+   "den": "den=050",
+   "file": "BW-2.txt"
+  },
+  "targets": 3,
+  "filled": 3,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
