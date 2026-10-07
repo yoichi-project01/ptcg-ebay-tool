@@ -225,5 +225,20 @@
   "filledByRule": 84,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S3a-pokemon": {
+  "set": "S3a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Legendary Heartbeat (TCG)",
+   "section": "Legendary Heartbeat",
+   "den": "den=076",
+   "file": "S-1.txt"
+  },
+  "targets": 54,
+  "filled": 54,
+  "filledByRule": 54,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
