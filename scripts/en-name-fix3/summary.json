@@ -5648,5 +5648,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVP1-pokemon": {
+  "set": "SVP1",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ex Special Set (TCG)",
+   "section": "ex Special Set",
+   "den": "den=007",
+   "file": "D-7.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 7,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVP1-trainer": {
+  "set": "SVP1",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ex Special Set (TCG)",
+   "section": "ex Special Set",
+   "den": "den=007",
+   "file": "D-7.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
