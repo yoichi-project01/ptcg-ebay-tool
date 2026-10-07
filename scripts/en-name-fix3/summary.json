@@ -2000,5 +2000,20 @@
   "filledByRule": 3,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV10-pokemon": {
+  "set": "SV10",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Glory of the Rocket Gang (TCG)",
+   "section": "Glory of the Rocket Gang",
+   "den": "den=098",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 3,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
