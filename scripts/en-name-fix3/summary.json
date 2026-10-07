@@ -315,5 +315,20 @@
   "filledByRule": 57,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S6H-pokemon": {
+  "set": "S6H",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Chilling Reign (TCG)",
+   "section": "Silver Lance",
+   "den": "den=070",
+   "file": "S-6.txt"
+  },
+  "targets": 54,
+  "filled": 54,
+  "filledByRule": 53,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
