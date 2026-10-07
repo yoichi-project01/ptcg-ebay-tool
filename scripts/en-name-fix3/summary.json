@@ -5051,5 +5051,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SMM-pokemon": {
+  "set": "SMM",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "TAG TEAM GX Starter Sets (TCG)",
+   "section": "TAG TEAM GX Starter Sets",
+   "den": "den=031",
+   "file": "D-5.txt"
+  },
+  "targets": 16,
+  "filled": 16,
+  "filledByRule": 14,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SMM-trainer": {
+  "set": "SMM",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "TAG TEAM GX Starter Sets (TCG)",
+   "section": "TAG TEAM GX Starter Sets",
+   "den": "den=031",
+   "file": "D-5.txt"
+  },
+  "targets": 15,
+  "filled": 15,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
