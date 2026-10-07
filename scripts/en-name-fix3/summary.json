@@ -2495,5 +2495,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM6a-pokemon": {
+  "set": "SM6a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Dragon Majesty (TCG)",
+   "section": "Dragon Storm",
+   "den": "den=053",
+   "file": "SM6-3.txt"
+  },
+  "targets": 41,
+  "filled": 41,
+  "filledByRule": 40,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM6a-trainer": {
+  "set": "SM6a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Dragon Majesty (TCG)",
+   "section": "Dragon Storm",
+   "den": "den=053",
+   "file": "SM6-3.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
