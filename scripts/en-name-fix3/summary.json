@@ -4852,5 +4852,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVN-pokemon": {
+  "set": "SVN",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Battle Partners Deck Build Box (TCG)",
+   "section": "Battle Partners Deck Build Box",
+   "den": "den=045,",
+   "file": "D-5.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 9,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVN-trainer": {
+  "set": "SVN",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Battle Partners Deck Build Box (TCG)",
+   "section": "Battle Partners Deck Build Box",
+   "den": "den=045,",
+   "file": "D-5.txt"
+  },
+  "targets": 36,
+  "filled": 36,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
