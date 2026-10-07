@@ -4732,5 +4732,35 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 2
   }
+ },
+ "SVG-pokemon": {
+  "set": "SVG",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Venusaur & Charizard & Blastoise Special Deck Set ex (TCG)",
+   "section": "Venusaur & Charizard & Blastoise Special Deck Set ex",
+   "den": "den=049",
+   "file": "D-4.txt"
+  },
+  "targets": 29,
+  "filled": 29,
+  "filledByRule": 29,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVG-trainer": {
+  "set": "SVG",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Venusaur & Charizard & Blastoise Special Deck Set ex (TCG)",
+   "section": "Venusaur & Charizard & Blastoise Special Deck Set ex",
+   "den": "den=049",
+   "file": "D-4.txt"
+  },
+  "targets": 20,
+  "filled": 20,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
