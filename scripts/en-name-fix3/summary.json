@@ -75,5 +75,20 @@
   "filledByRule": 12,
   "blank": 0,
   "blankReasons": {}
+ },
+ "M4-pokemon": {
+  "set": "M4",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ninja Spinner (TCG)",
+   "section": "Ninja Spinner",
+   "den": "den=083",
+   "file": "M.txt"
+  },
+  "targets": 71,
+  "filled": 71,
+  "filledByRule": 71,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
