@@ -4762,5 +4762,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVHK-pokemon": {
+  "set": "SVHK",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Starter Deck & Build Sets (TCG)",
+   "section": "Ancient Koraidon ex Starter Deck & Build Set",
+   "den": "den=053,",
+   "file": "D-4.txt"
+  },
+  "targets": 17,
+  "filled": 17,
+  "filledByRule": 16,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVHK-trainer": {
+  "set": "SVHK",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Starter Deck & Build Sets (TCG)",
+   "section": "Ancient Koraidon ex Starter Deck & Build Set",
+   "den": "den=053,",
+   "file": "D-4.txt"
+  },
+  "targets": 34,
+  "filled": 34,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
