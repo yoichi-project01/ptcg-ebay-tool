@@ -3907,5 +3907,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW9-B-pokemon": {
+  "set": "BW9-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Plasma Blast (TCG)",
+   "section": "Megalo Cannon",
+   "den": "den=076",
+   "file": "BW-3.txt"
+  },
+  "targets": 64,
+  "filled": 64,
+  "filledByRule": 64,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW9-B-trainer": {
+  "set": "BW9-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Plasma Blast (TCG)",
+   "section": "Megalo Cannon",
+   "den": "den=076",
+   "file": "BW-3.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
