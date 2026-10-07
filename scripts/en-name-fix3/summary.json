@@ -4976,5 +4976,35 @@
   "blankReasons": {
    "イラストレーターが分からない": 1
   }
+ },
+ "SMI-pokemon": {
+  "set": "SMI",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Eevee-GX Starter Sets (TCG)",
+   "section": "Eevee-GX Starter Sets",
+   "den": "den=038",
+   "file": "D-5.txt"
+  },
+  "targets": 20,
+  "filled": 20,
+  "filledByRule": 20,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SMI-trainer": {
+  "set": "SMI",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Eevee-GX Starter Sets (TCG)",
+   "section": "Eevee-GX Starter Sets",
+   "den": "den=038",
+   "file": "D-5.txt"
+  },
+  "targets": 18,
+  "filled": 18,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
