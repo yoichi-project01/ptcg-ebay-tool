@@ -330,5 +330,20 @@
   "filledByRule": 53,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S6K-pokemon": {
+  "set": "S6K",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Chilling Reign (TCG)",
+   "section": "Jet-Black Spirit",
+   "den": "den=070",
+   "file": "S-6.txt"
+  },
+  "targets": 55,
+  "filled": 55,
+  "filledByRule": 54,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
