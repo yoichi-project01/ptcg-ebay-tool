@@ -2615,5 +2615,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM8-pokemon": {
+  "set": "SM8",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Lost Thunder (TCG)",
+   "section": "Super-Burst Impact",
+   "den": "den=095",
+   "file": "SM6-4.txt"
+  },
+  "targets": 75,
+  "filled": 75,
+  "filledByRule": 75,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM8-trainer": {
+  "set": "SM8",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Lost Thunder (TCG)",
+   "section": "Super-Burst Impact",
+   "den": "den=095",
+   "file": "SM6-4.txt"
+  },
+  "targets": 17,
+  "filled": 17,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
