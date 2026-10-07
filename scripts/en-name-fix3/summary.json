@@ -336,10 +336,10 @@
    "page": "Chilling Reign (TCG)",
    "section": "Jet-Black Spirit",
    "den": "den=070",
-   "file": "S-6.txt"
+   "file": "S6-1.txt"
   },
-  "targets": 55,
-  "filled": 55,
+  "targets": 56,
+  "filled": 56,
   "filledByRule": 54,
   "blank": 0,
   "blankReasons": {}
@@ -1491,6 +1491,21 @@
   "bulbapedia": {
    "page": "Chilling Reign (TCG)",
    "section": "Silver Lance",
+   "den": "den=070",
+   "file": "S6-1.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S6K-trainer": {
+  "set": "S6K",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Chilling Reign (TCG)",
+   "section": "Jet-Black Spirit",
    "den": "den=070",
    "file": "S6-1.txt"
   },
