@@ -3967,5 +3967,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "L1-Bss-pokemon": {
+  "set": "L1-Bss",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "HeartGold & SoulSilver (TCG)",
+   "section": "SoulSilver Collection",
+   "den": "den=070",
+   "file": "BW-4.txt"
+  },
+  "targets": 60,
+  "filled": 60,
+  "filledByRule": 60,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "L1-Bss-trainer": {
+  "set": "L1-Bss",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "HeartGold & SoulSilver (TCG)",
+   "section": "SoulSilver Collection",
+   "den": "den=070",
+   "file": "BW-4.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
