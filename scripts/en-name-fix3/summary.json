@@ -5205,5 +5205,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S8a-P-pokemon": {
+  "set": "S8a-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Promo Card Pack 25th Anniversary Edition (TCG)",
+   "section": "Promo Card Pack 25th Anniversary Edition",
+   "den": "den=025",
+   "file": "D-6.txt"
+  },
+  "targets": 22,
+  "filled": 21,
+  "filledByRule": 13,
+  "blank": 1,
+  "blankReasons": {
+   "規則で作れない・英語版に同じ名前のポケモンが無い": 1
+  }
+ },
+ "S8a-P-trainer": {
+  "set": "S8a-P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Promo Card Pack 25th Anniversary Edition (TCG)",
+   "section": "Promo Card Pack 25th Anniversary Edition",
+   "den": "den=025",
+   "file": "D-6.txt"
+  },
+  "targets": 3,
+  "filled": 3,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
