@@ -4029,5 +4029,35 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "L3-B-pokemon": {
+  "set": "L3-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Triumphant (TCG)",
+   "section": "Clash at the Summit",
+   "den": "den=080",
+   "file": "BW-4.txt"
+  },
+  "targets": 69,
+  "filled": 69,
+  "filledByRule": 69,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "L3-B-trainer": {
+  "set": "L3-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Triumphant (TCG)",
+   "section": "Clash at the Summit",
+   "den": "den=080",
+   "file": "BW-4.txt"
+  },
+  "targets": 5,
+  "filled": 5,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
