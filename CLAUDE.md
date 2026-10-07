@@ -820,8 +820,8 @@ XY世代に続き、BW世代の拡張パック本弾を取り込んだ。文字�
 | BW3-Bh | BW3 | 52 | ヘイルブリザード |
 | BW3-Bp | BW3 | 52 | サイコドライブ |
 | BW4-B | BW4 | 69 | ダークラッシュ |
-| BW5-Brn | BW5 | 50 | リューズブラスト |
-| BW5-Brz | BW5 | 50 | リューノブレード |
+| BW5-Brn | BW5 | 50 | リューノブレード（2026-10-08 訂正。以前はリューズブラストと取り違え） |
+| BW5-Brz | BW5 | 50 | リューズブラスト（同上） |
 | BW6-Bc | BW6 | 59 | フリーズボルト |
 | BW6-Bf | BW6 | 59 | コールドフレア |
 | BW7-B | BW7 | 70 | プラズマゲイル |
@@ -2585,6 +2585,40 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
     空欄16: SM12a の OOYAMA 版のグッズ7（日本版だけの絵柄）、特殊エネルギー9（同上。ユニットエネルギーは TCGdex の名前も「Unit Energy GrassFireWater」と違う）。
     SM 世代の Bulbapedia はどうぐも「Item」と書くため、Item は TCGdex の Item・Tool の両方と照合する。
   - 入れた英語名の合計 3,448件（1〜5）はすべて TCGdex 英語版のカード名にある。
+
+### 対応（2026-10-07〜08）: 特殊エネルギー・弾の総数の照合・英語名の補完（6. XY・BW など 7. プロモと構築済みデッキ）
+
+- **特殊エネルギー（22件、bdcdc21 以降）**: カードにイラストレーターの記載が無いため、Bulbapedia と TCGdex 英語版に同じ名前のエネルギーがあれば入れる（ユーザー判断）。
+  書くのは Bulbapedia（英語版のカード）の書き方: 「Unit Energy GRW」「Heat R Energy」「Blend Energy GRPD」。TCGdex は「Unit Energy GrassFireWater」
+  「Heat Fire Energy」「Blend Energy Grass Fire Psychic Darkness」と書くので、照合のときだけ読み替える（`fill-common-en.mjs` の `lookName`）。
+- **弾の総数（of）の照合**（`scripts/check-set-totals.mjs`、結果 `scripts/set-total-check/`）: 全弾の of を公式 details.php のカード番号の分母と照合。
+  公式サイトにある212弾のうち、食い違いは SV11B（174→86、照合の前に訂正済み）・SVHK・SVHM（22→53）の3弾で、いずれも最初のコミットからの誤り。
+  直す前はタイトル・説明文のカード番号が「079/174」「001/022」「053/022」のように出ていた。旧裏・neo・VS・web・e・PCG の26弾は公式サイトに無いため照合していない。
+- **BW5-Brn・BW5-Brz の弾名の取り違えを訂正**（565e8f0、根拠は `scripts/set-data-fixes.json`）: Brn＝リューノブレード / Dragon Blade（001 ハネッコ・037 レックウザEX）、
+  Brz＝リューズブラスト / Dragon Blast（001 ヤンヤンマ・039 ギラティナEX）。ja・en・psaName をすべて入れ替えた。Limitless（BW5n/BW5z）・Bulbapedia と一致。
+  公式の画像フォルダ名も Brn＝リューノ、Brz＝リューズ。以前の en・psaName の根拠（PSA の Dragon Blast/Rayquaza）は収録弾の取り違えだった。
+- **6. XY・BW など（124弾・5,516件、a76524f〜3b9b04e）**: M・S・SV・SM の残り、XY 本弾15弾・CP1〜6・XY-BEST、BW 本弾14弾、L1〜L3・LL、WCP。
+  方法はステップ1〜5と同じ（ポケモンは規則と Bulbapedia の一致、トレーナーズ・エネルギーは Bulbapedia と TCGdex 英語版で同じ名前・種類・イラストレーター）。
+  イラストレーターは公式 details.php から取得（`fetch-illustrators.mjs`、XY 234件・BW など133件）。XY-BEST は公式一覧の「XY」キーの cardID 範囲で探した。
+  フレア団ギアのグッズは TCGdex が「Battle Compressor Team Flare Gear」と書くので照合のときだけ読み替える（書くのは Bulbapedia の「Battle Compressor」）。
+  **空欄のまま18件**: 英語版の同じ名前のカードとイラストレーターが違う12（S4a-174 博士の研究・SM12-088 シロナ&カトレア・L2-B-071 ふしぎなアメ 等の日本版だけの絵柄）、
+  WCP の基本エネルギー6（イラストレーターの記載なし）。
+- **7. プロモと構築済みデッキ（56弾・3,873件、3b9b04e〜）**: プロモ9弾（SM-P・S-P・XY-P・SV-P・BW-P・DP-P・DPt-P・L-P・M-P）と、Bulbapedia に番号付きの一覧がある
+  構築済みデッキ等47弾（SI・SVM・SVD・SMH・SD・MC・SVI・SMA・SH・SVG・SVHK/M・SML・SVN・SMG・SVK・SVF・SMI・MA・SMK・SMM・WCS23・SMN・SVB・SMP2・S8a-P/G・
+  SVAL/M/W・SVC・SVJL/P・SVEL/M・SVOD・MBD・MBG・MP1・SN・SK・SP6・SVP1・SM0・20th・SVLN/S）。デッキの英語名は Limitless の弾名から Bulbapedia のページを探した。
+  プロモのイラストレーターは `promo-progress/{弾}.json` の番号ごとの cardID で取得。SMB・SMF・SMG の「XY」マークの再録は `xy-reprint-refetch/` の cardID で取得。
+  **空欄のまま376件**: 基本エネルギー194（イラストレーターの記載なし）、規則で作れないポケモン84（サッポロのピカチュウ・ポンチョを着たピカチュウ・
+  名探偵ピカチュウ・LV.X〔cardData の日本語名に LV.X が無い〕など。英語版に同じ名前・イラストレーターのカードが無い）、英語版の同じ名前のカードとイラストレーターが違う23
+  （SM-P のハウ・アセロラ・グズマ等）、英語版に同じ名前・種類のカードが無い30（プレイヤーズセレモニー・あばれる君 等）、イラストレーターが分からない40、
+  Bulbapedia の一覧に無い3（XY-P の番号の無いジムバッジ）、Bulbapedia の行が読めない2（SV-P-133・134）。
+- **対象外**（Bulbapedia に番号付きの一覧が無い）: SJ・SLD・SLL・SPD・SPZ・SP5・SMB〜SMF・SMJ・SMP1・XYA〜XYH・CPr/s/m・L2-Sb/Sh。
+  旧裏・PCG・e・neo・VS・web は残りがトレーナーズだけで、**日本語名が英語からの機械翻訳のような名前になっている**（PCG1-075「素晴らしいボール」・neo4-109「exp。共有」・
+  E1-053「オーク教授の研究」等）。日本語名の誤り自体を別途直す必要があるため、英語名は入れていない。
+- 確認: ステップ1以降に入れた英語名 9,411件のうち、TCGdex 英語版のカード名に無いのは S-P-311 Quagsire V（日本だけのプロモ）・M-P-139 Mega Tatsugiri ex
+  （TCGdex の取得より新しい）の2件だけで、どちらも規則と Bulbapedia が一致。既存の英語名の上書きは0件。テスト164件通過、混入検出0件（Dan＝ダンペイを除外に追加）、
+  行ズレ検査・画像の照合とも問題なし。
+- Bulbapedia の一覧はブラウザで wikitext から取り出して書き写し、ファイルごとに SHA-256 をブラウザの値と照合した（`en-name-fix3/bulbapedia/XY6-*.txt`・`BW-*.txt`・
+  `P-*.txt`・`D-*.txt`。見出し行の弾コードは手で対応づけたもの）。
 
 ---
 
