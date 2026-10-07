@@ -5740,5 +5740,37 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "20th-pokemon": {
+  "set": "20th",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Generations (TCG)",
+   "section": "Starter Pack",
+   "den": "den=072",
+   "file": "D-7.txt"
+  },
+  "targets": 47,
+  "filled": 47,
+  "filledByRule": 47,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "20th-trainer": {
+  "set": "20th",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Generations (TCG)",
+   "section": "Starter Pack",
+   "den": "den=072",
+   "file": "D-7.txt"
+  },
+  "targets": 25,
+  "filled": 24,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "イラストレーターが分からない": 1
+  }
  }
 }
