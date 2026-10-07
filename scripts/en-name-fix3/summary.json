@@ -3457,5 +3457,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "CP6-pokemon": {
+  "set": "CP6",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Evolutions (TCG)",
+   "section": "Expansion Pack 20th Anniversary",
+   "den": "den=087",
+   "file": "XY6-4.txt"
+  },
+  "targets": 70,
+  "filled": 70,
+  "filledByRule": 70,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "CP6-trainer": {
+  "set": "CP6",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Evolutions (TCG)",
+   "section": "Expansion Pack 20th Anniversary",
+   "den": "den=087",
+   "file": "XY6-4.txt"
+  },
+  "targets": 17,
+  "filled": 17,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
