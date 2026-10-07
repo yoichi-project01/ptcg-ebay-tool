@@ -2550,6 +2550,25 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   （ファイルではなく読み取りの化け）。画像は置き換えず（中身が同じ）、`image-hashes.mjs --update --keys S10D/85` で一覧の値を訂正した。
 - 訂正後の全件照合: 21,233件、中身が変わった0件・ファイルが無い0件・一覧に無いキー0件・対応表に無いキー0件。
 - 一覧のほかの値にも同じ読み取りの化けが残っている可能性はある（照合で「中身が変わった」と出たら、公式の画像と比べてどちらが正しいか確かめること）。
+### 対応（2026-10-07）: 高レア以外の英語名の補完（1. M 世代のポケモン 2. S 世代のポケモン 3. 番号の無いプロモ）
+
+英語名が空の高レア以外 14,120行のうち、ユーザーの決めた順番の1〜3を行った（4. SV のトレーナーズ以降は未着手）。
+- **ポケモン**（`scripts/fill-common-en.mjs --set <弾> [--apply]`）: 日本語名から作った名前（PokeAPI の種族名の日本語・英語 `en-name-fix3/species-ja-en.json`
+  ＋前（アローラ/ガラル/ヒスイ/パルデア/メガ）・末尾（ex/V/VMAX/VSTAR/GX/EX/BREAK））と、Bulbapedia の日本版の一覧の同じ番号の名前が一致したら入れる。
+  規則で作れない名前（「〜の」付き・フォルム名など）と食い違った行は、TCGdex 英語版に同じ名前・同じイラストレーター（TCGdex 日本語版か公式 details.php）があるときだけ入れる。
+  - 規則は既存の英語名 5,743件と全件一致を確かめた。Bulbapedia の一覧は `en-name-fix3/bulbapedia/*.txt`（ブラウザで wikitext から取り出し、
+    書き写しは SHA-256 で元と一致を確認。スクリプトから Bulbapedia は開けない）。一覧の分母が弾の総数と一致しなければ止まる
+    （S10b で同じ名前の英語版の節 /078 を拾いかけた。日本版の節 /071 は 056 以降が英語版と違う）。
+  - 結果: M 世代 9弾 942件（空欄1: MA-003 キチキギスex は Bulbapedia の綴り誤り「Fezandipti ex」）、S 世代 30弾（S1W〜S12a）1,732件（空欄0）。
+    入れた 2,674件はすべて TCGdex 英語版のカード名にある。根拠は `en-name-fix3/decisions/{弾}-pokemon.tsv`、card_id は `{弾}-pokemon-changed-card-ids.txt`、件数は `summary.json`。
+  - `fetch-illustrators.mjs` に出力先の引数を足し、公式一覧（official-card-scan.json）の名前の項目 `jaName` に対応させた（以前は `cardNameViewText` だけ見ていて見つけられなかった）。
+- **番号の無いプロモ**（98件、`numberless-promos/en-changed-card-ids-2026-10-07.txt`）: PSA の表記で確かめたものだけ。順位は 1st/2nd/3rd Place。
+  - 勝利の勲章（SM-P 24）→ Victory Decoration（PSA 公式の eBay ストアの出品のラベル「VICTORY DECORATION / CHAMPS. LEAGUE-1ST PLACE」）
+  - 勝利のしるし（SV-P 39・M-P 30）→ Victory Symbol（PSA 鑑定書 #94654630、インドネシア語版の同じカード。日本版の PSA 鑑定済みは見つからず）
+  - ホウエンのジムバッジ 5件 → Gym Badge Roxanne・Wattson・Flannery・Tate & Liza・Wallace（鑑定書 #65720267・#44165667・#43611100、ほかはラベルの写真）。
+    トウキ・センリ・ナギは PSA 鑑定済みが見つからず空欄。
+  - PSA の集計（pop）・落札価格（APR）のページはログインが必要（ログインはしていない）。鑑定書のページ（/cert/番号）はログインなしで見られる。
+
 - **残り（未着手）**: 大会賞品以外の番号の無いプロモ 約110枚（DP-P の MPS 映画プロモ・ポケモンパルシティ×7 等、DPt-P アルセウス×7・ギザみみピチュー×6、
   L-P ゾロア×7・ゾロアーク×5、XY-P ピカチュウ×9 ほか、SM-P ふしぎなアメ×3 ほか、SV-P パラダイスリゾート×3、BW-P トロピカルビーチ×2 ほか）。
 
