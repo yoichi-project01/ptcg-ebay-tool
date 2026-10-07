@@ -948,5 +948,22 @@
   "blankReasons": {
    "イラストレーターが分からない": 1
   }
+ },
+ "SV11B-trainer": {
+  "set": "SV11B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Black Bolt/White Flare (TCG)",
+   "section": "Black Bolt",
+   "den": "den=086",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "イラストレーターが分からない": 1
+  }
  }
 }
