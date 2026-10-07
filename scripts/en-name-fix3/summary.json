@@ -3367,5 +3367,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "CP2-pokemon": {
+  "set": "CP2",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Legendary Shine Collection (TCG)",
+   "section": "Legendary Shine Collection",
+   "den": "den=027",
+   "file": "XY6-4.txt"
+  },
+  "targets": 27,
+  "filled": 27,
+  "filledByRule": 25,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "CP2-trainer": {
+  "set": "CP2",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Legendary Shine Collection (TCG)",
+   "section": "Legendary Shine Collection",
+   "den": "den=027",
+   "file": "XY6-4.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
