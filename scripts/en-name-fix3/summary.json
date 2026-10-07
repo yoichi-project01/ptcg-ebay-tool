@@ -1148,12 +1148,9 @@
    "file": "SM-2.txt"
   },
   "targets": 15,
-  "filled": 13,
+  "filled": 15,
   "filledByRule": 0,
-  "blank": 2,
-  "blankReasons": {
-   "イラストレーターが分からない": 1,
-   "英語版に同じ名前・種類のカードが無い": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  }
 }
