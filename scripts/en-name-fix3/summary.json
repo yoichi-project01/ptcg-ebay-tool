@@ -664,5 +664,20 @@
   "blankReasons": {
    "イラストレーターが分からない": 1
   }
+ },
+ "SV2a-trainer": {
+  "set": "SV2a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "151 (TCG)",
+   "section": "Pokémon Card 151",
+   "den": "den=165",
+   "file": "SV-T.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
