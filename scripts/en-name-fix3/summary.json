@@ -930,12 +930,10 @@
    "file": "SV-T.txt"
   },
   "targets": 12,
-  "filled": 11,
+  "filled": 12,
   "filledByRule": 0,
-  "blank": 1,
-  "blankReasons": {
-   "イラストレーターが分からない": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "SV11B-trainer": {
   "set": "SV11B",
