@@ -4792,5 +4792,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVHM-pokemon": {
+  "set": "SVHM",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Starter Deck & Build Sets (TCG)",
+   "section": "Future Miraidon ex Starter Deck & Build Set",
+   "den": "den=053,",
+   "file": "D-4.txt"
+  },
+  "targets": 17,
+  "filled": 17,
+  "filledByRule": 16,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVHM-trainer": {
+  "set": "SVHM",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Starter Deck & Build Sets (TCG)",
+   "section": "Future Miraidon ex Starter Deck & Build Set",
+   "den": "den=053,",
+   "file": "D-4.txt"
+  },
+  "targets": 34,
+  "filled": 34,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
