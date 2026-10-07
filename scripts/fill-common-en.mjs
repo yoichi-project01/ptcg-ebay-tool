@@ -166,8 +166,10 @@ for (const k of set.k) {
     // SM 世代以前の Bulbapedia はポケモンのどうぐも「Item」と書く（当時どうぐはグッズの一種）ので、Item は TCGdex の Item・Tool の両方と照合する
     const sameType = (t) => !tt || t === tt || (tt === "Item" && t === "Tool");
     // ユニットエネルギー: Bulbapedia・英語版のカードは「Unit Energy GRW」、TCGdex は「Unit Energy GrassFireWater」と書く
-    const UNIT = { G: "Grass", R: "Fire", W: "Water", L: "Lightning", P: "Psychic", F: "Fighting", D: "Darkness", M: "Metal", Y: "Fairy" };
-    const lookName = b.name.replace(/^Unit Energy ([GRWLPFDMY]{3})$/, (_, s) => "Unit Energy " + [...s].map((x) => UNIT[x]).join(""));
+    // 「Heat R Energy」（Bulbapedia はカードのエネルギー記号を文字で書く）も TCGdex では「Heat Fire Energy」
+    const UNIT = { G: "Grass", R: "Fire", W: "Water", L: "Lightning", P: "Psychic", F: "Fighting", D: "Darkness", M: "Metal", Y: "Fairy", C: "Colorless" };
+    const lookName = b.name.replace(/^Unit Energy ([GRWLPFDMY]{3})$/, (_, s) => "Unit Energy " + [...s].map((x) => UNIT[x]).join(""))
+      .replace(/^(.+) ([GRWLPFDMYC]) Energy$/, (_, a, x) => `${a} ${UNIT[x]} Energy`);
     const cands = (enByKey.get(key(lookName)) || []).filter((c) => (isEnergy ? c.category === "Energy" : c.category === "Trainer" && sameType(c.trainerType)));
     if (!cands.length) { r.note = "英語版に同じ名前・種類のカードが無い"; continue; }
     if (ji.category && ji.category !== (isEnergy ? "Energy" : "Trainer")) { r.note = `TCGdex 日本語版の種類が違う（${ji.category}）`; continue; }
