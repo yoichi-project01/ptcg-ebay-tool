@@ -13,5 +13,22 @@
   "filledByRule": 1,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MA-pokemon": {
+  "set": "MA",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Premium Trainer Box MEGA (TCG)",
+   "section": "Premium Trainer Box MEGA",
+   "den": "den=043,",
+   "file": "M.txt"
+  },
+  "targets": 10,
+  "filled": 9,
+  "filledByRule": 9,
+  "blank": 1,
+  "blankReasons": {
+   "規則と Bulbapedia が食い違う・英語版に同じ名前のポケモンが無い": 1
+  }
  }
 }
