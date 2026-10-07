@@ -17388,146 +17388,6 @@
   "illustrator": "Ken Sugimori",
   "cardId": "34635"
  },
- "SMG-013": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-014": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-015": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-016": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-017": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-018": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-019": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-020": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-021": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-022": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-023": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-024": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-025": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-026": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-027": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-028": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-029": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-030": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-031": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-032": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-033": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-034": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-035": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-036": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-037": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-038": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-039": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
- "SMG-040": {
-  "tried": [],
-  "illustrator": null,
-  "cardId": null
- },
  "SVF-001": {
   "tried": [
    {
@@ -22743,5 +22603,629 @@
   ],
   "illustrator": "Yusuke Ohmura",
   "cardId": "31721"
+ },
+ "SMB-007": {
+  "tried": [
+   {
+    "cardId": "33199",
+    "nums": [
+     7
+    ],
+    "illustrator": "5ban Graphics"
+   }
+  ],
+  "illustrator": "5ban Graphics",
+  "cardId": "33199"
+ },
+ "SMB-008": {
+  "tried": [
+   {
+    "cardId": "33200",
+    "nums": [
+     8
+    ],
+    "illustrator": "5ban Graphics"
+   }
+  ],
+  "illustrator": "5ban Graphics",
+  "cardId": "33200"
+ },
+ "SMB-009": {
+  "tried": [
+   {
+    "cardId": "33201",
+    "nums": [
+     9
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "33201"
+ },
+ "SMB-010": {
+  "tried": [
+   {
+    "cardId": "33202",
+    "nums": [
+     10
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "33202"
+ },
+ "SMB-011": {
+  "tried": [
+   {
+    "cardId": "33203",
+    "nums": [
+     11
+    ],
+    "illustrator": "Megumi Mizutani"
+   }
+  ],
+  "illustrator": "Megumi Mizutani",
+  "cardId": "33203"
+ },
+ "SMB-012": {
+  "tried": [
+   {
+    "cardId": "33204",
+    "nums": [
+     12
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "33204"
+ },
+ "SMB-013": {
+  "tried": [
+   {
+    "cardId": "33205",
+    "nums": [
+     13
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "33205"
+ },
+ "SMB-014": {
+  "tried": [
+   {
+    "cardId": "33206",
+    "nums": [
+     14
+    ],
+    "illustrator": "Ken Sugimori"
+   }
+  ],
+  "illustrator": "Ken Sugimori",
+  "cardId": "33206"
+ },
+ "SMB-015": {
+  "tried": [
+   {
+    "cardId": "33207",
+    "nums": [
+     15
+    ],
+    "illustrator": "Ryo Ueda"
+   }
+  ],
+  "illustrator": "Ryo Ueda",
+  "cardId": "33207"
+ },
+ "SMB-016": {
+  "tried": [
+   {
+    "cardId": "33208",
+    "nums": [
+     16
+    ],
+    "illustrator": "Ryo Ueda"
+   }
+  ],
+  "illustrator": "Ryo Ueda",
+  "cardId": "33208"
+ },
+ "SMB-017": {
+  "tried": [
+   {
+    "cardId": "33209",
+    "nums": [
+     17
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SMB-018": {
+  "tried": [
+   {
+    "cardId": "33210",
+    "nums": [
+     18
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SMF-013": {
+  "tried": [
+   {
+    "cardId": "34527",
+    "nums": [
+     13
+    ],
+    "illustrator": "5ban Graphics"
+   }
+  ],
+  "illustrator": "5ban Graphics",
+  "cardId": "34527"
+ },
+ "SMF-014": {
+  "tried": [
+   {
+    "cardId": "34528",
+    "nums": [
+     14
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34528"
+ },
+ "SMF-015": {
+  "tried": [
+   {
+    "cardId": "34529",
+    "nums": [
+     15
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34529"
+ },
+ "SMF-016": {
+  "tried": [
+   {
+    "cardId": "34530",
+    "nums": [
+     16
+    ],
+    "illustrator": "Megumi Mizutani"
+   }
+  ],
+  "illustrator": "Megumi Mizutani",
+  "cardId": "34530"
+ },
+ "SMF-017": {
+  "tried": [
+   {
+    "cardId": "34531",
+    "nums": [
+     17
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "34531"
+ },
+ "SMF-018": {
+  "tried": [
+   {
+    "cardId": "34532",
+    "nums": [
+     18
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "34532"
+ },
+ "SMF-019": {
+  "tried": [
+   {
+    "cardId": "34533",
+    "nums": [
+     19
+    ],
+    "illustrator": "Ken Sugimori"
+   }
+  ],
+  "illustrator": "Ken Sugimori",
+  "cardId": "34533"
+ },
+ "SMF-020": {
+  "tried": [
+   {
+    "cardId": "34534",
+    "nums": [
+     20
+    ],
+    "illustrator": "5ban Graphics"
+   }
+  ],
+  "illustrator": "5ban Graphics",
+  "cardId": "34534"
+ },
+ "SMG-013": {
+  "tried": [
+   {
+    "cardId": "34637",
+    "nums": [
+     13
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34637"
+ },
+ "SMG-014": {
+  "tried": [
+   {
+    "cardId": "34638",
+    "nums": [
+     14
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34638"
+ },
+ "SMG-015": {
+  "tried": [
+   {
+    "cardId": "34639",
+    "nums": [
+     15
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34639"
+ },
+ "SMG-016": {
+  "tried": [
+   {
+    "cardId": "34640",
+    "nums": [
+     16
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34640"
+ },
+ "SMG-017": {
+  "tried": [
+   {
+    "cardId": "34641",
+    "nums": [
+     17
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34641"
+ },
+ "SMG-018": {
+  "tried": [
+   {
+    "cardId": "34642",
+    "nums": [
+     18
+    ],
+    "illustrator": "5ban Graphics"
+   }
+  ],
+  "illustrator": "5ban Graphics",
+  "cardId": "34642"
+ },
+ "SMG-019": {
+  "tried": [
+   {
+    "cardId": "34643",
+    "nums": [
+     19
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34643"
+ },
+ "SMG-020": {
+  "tried": [
+   {
+    "cardId": "34644",
+    "nums": [
+     20
+    ],
+    "illustrator": "5ban Graphics"
+   }
+  ],
+  "illustrator": "5ban Graphics",
+  "cardId": "34644"
+ },
+ "SMG-021": {
+  "tried": [
+   {
+    "cardId": "34645",
+    "nums": [
+     21
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34645"
+ },
+ "SMG-022": {
+  "tried": [
+   {
+    "cardId": "34646",
+    "nums": [
+     22
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34646"
+ },
+ "SMG-023": {
+  "tried": [
+   {
+    "cardId": "34647",
+    "nums": [
+     23
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34647"
+ },
+ "SMG-024": {
+  "tried": [
+   {
+    "cardId": "34648",
+    "nums": [
+     24
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "34648"
+ },
+ "SMG-025": {
+  "tried": [
+   {
+    "cardId": "34649",
+    "nums": [
+     25
+    ],
+    "illustrator": "Megumi Mizutani"
+   }
+  ],
+  "illustrator": "Megumi Mizutani",
+  "cardId": "34649"
+ },
+ "SMG-026": {
+  "tried": [
+   {
+    "cardId": "34650",
+    "nums": [
+     26
+    ],
+    "illustrator": "Megumi Mizutani"
+   }
+  ],
+  "illustrator": "Megumi Mizutani",
+  "cardId": "34650"
+ },
+ "SMG-027": {
+  "tried": [
+   {
+    "cardId": "34651",
+    "nums": [
+     27
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "34651"
+ },
+ "SMG-028": {
+  "tried": [
+   {
+    "cardId": "34652",
+    "nums": [
+     28
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "34652"
+ },
+ "SMG-029": {
+  "tried": [
+   {
+    "cardId": "34653",
+    "nums": [
+     29
+    ],
+    "illustrator": "Ken Sugimori"
+   }
+  ],
+  "illustrator": "Ken Sugimori",
+  "cardId": "34653"
+ },
+ "SMG-030": {
+  "tried": [
+   {
+    "cardId": "34654",
+    "nums": [
+     30
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "34654"
+ },
+ "SMG-031": {
+  "tried": [
+   {
+    "cardId": "34655",
+    "nums": [
+     31
+    ],
+    "illustrator": "Megumi Mizutani"
+   }
+  ],
+  "illustrator": "Megumi Mizutani",
+  "cardId": "34655"
+ },
+ "SMG-032": {
+  "tried": [
+   {
+    "cardId": "34656",
+    "nums": [
+     32
+    ],
+    "illustrator": "Megumi Mizutani"
+   }
+  ],
+  "illustrator": "Megumi Mizutani",
+  "cardId": "34656"
+ },
+ "SMG-033": {
+  "tried": [
+   {
+    "cardId": "34657",
+    "nums": [
+     33
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "34657"
+ },
+ "SMG-034": {
+  "tried": [
+   {
+    "cardId": "34658",
+    "nums": [
+     34
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "34658"
+ },
+ "SMG-035": {
+  "tried": [
+   {
+    "cardId": "34659",
+    "nums": [
+     35
+    ],
+    "illustrator": "Yusuke Ohmura"
+   }
+  ],
+  "illustrator": "Yusuke Ohmura",
+  "cardId": "34659"
+ },
+ "SMG-036": {
+  "tried": [
+   {
+    "cardId": "34660",
+    "nums": [
+     36
+    ],
+    "illustrator": "Megumi Mizutani"
+   }
+  ],
+  "illustrator": "Megumi Mizutani",
+  "cardId": "34660"
+ },
+ "SMG-037": {
+  "tried": [
+   {
+    "cardId": "34661",
+    "nums": [
+     37
+    ],
+    "illustrator": "Ryo Ueda"
+   }
+  ],
+  "illustrator": "Ryo Ueda",
+  "cardId": "34661"
+ },
+ "SMG-038": {
+  "tried": [
+   {
+    "cardId": "34662",
+    "nums": [
+     38
+    ],
+    "illustrator": "Ryo Ueda"
+   }
+  ],
+  "illustrator": "Ryo Ueda",
+  "cardId": "34662"
+ },
+ "SMG-039": {
+  "tried": [
+   {
+    "cardId": "34663",
+    "nums": [
+     39
+    ],
+    "illustrator": "Ryo Ueda"
+   }
+  ],
+  "illustrator": "Ryo Ueda",
+  "cardId": "34663"
+ },
+ "SMG-040": {
+  "tried": [
+   {
+    "cardId": "34664",
+    "nums": [
+     40
+    ],
+    "illustrator": "Ayaka Yoshida"
+   }
+  ],
+  "illustrator": "Ayaka Yoshida",
+  "cardId": "34664"
  }
 }
