@@ -1140,5 +1140,38 @@
    "イラストレーターが分からない": 1,
    "英語版に同じ名前・種類のカードが無い": 3
   }
+ },
+ "SM7a-pokemon": {
+  "set": "SM7a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Thunderclap Spark (TCG)",
+   "section": "Thunderclap Spark",
+   "den": "den=060",
+   "file": "SM-2.txt"
+  },
+  "targets": 43,
+  "filled": 43,
+  "filledByRule": 42,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM7a-trainer": {
+  "set": "SM7a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Thunderclap Spark (TCG)",
+   "section": "Thunderclap Spark",
+   "den": "den=060",
+   "file": "SM-2.txt"
+  },
+  "targets": 15,
+  "filled": 13,
+  "filledByRule": 0,
+  "blank": 2,
+  "blankReasons": {
+   "イラストレーターが分からない": 1,
+   "英語版に同じ名前・種類のカードが無い": 1
+  }
  }
 }
