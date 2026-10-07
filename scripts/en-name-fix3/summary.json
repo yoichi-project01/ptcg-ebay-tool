@@ -396,7 +396,7 @@
    "page": "Fusion Strike (TCG)",
    "section": "Fusion Arts",
    "den": "den=100",
-   "file": "S-3.txt"
+   "file": "S6-1.txt"
   },
   "targets": 84,
   "filled": 84,
@@ -1552,6 +1552,21 @@
    "page": "Evolving Skies (TCG)",
    "section": "Blue Sky Stream",
    "den": "den=067",
+   "file": "S6-1.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S8-trainer": {
+  "set": "S8",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Fusion Strike (TCG)",
+   "section": "Fusion Arts",
+   "den": "den=100",
    "file": "S6-1.txt"
   },
   "targets": 12,
