@@ -1985,5 +1985,20 @@
   "filledByRule": 4,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV9a-pokemon": {
+  "set": "SV9a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Hot Wind Arena (TCG)",
+   "section": "Hot Wind Arena",
+   "den": "den=063",
+   "file": "SV-T.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 3,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
