@@ -3127,5 +3127,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY7-B-pokemon": {
+  "set": "XY7-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ancient Origins (TCG)",
+   "section": "Bandit Ring",
+   "den": "den=081",
+   "file": "XY6-2.txt"
+  },
+  "targets": 68,
+  "filled": 68,
+  "filledByRule": 68,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY7-B-trainer": {
+  "set": "XY7-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ancient Origins (TCG)",
+   "section": "Bandit Ring",
+   "den": "den=081",
+   "file": "XY6-2.txt"
+  },
+  "targets": 13,
+  "filled": 13,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
