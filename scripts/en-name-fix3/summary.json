@@ -2285,5 +2285,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM4S-pokemon": {
+  "set": "SM4S",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Crimson Invasion (TCG)",
+   "section": "Awakened Heroes",
+   "den": "den=050",
+   "file": "SM6-2.txt"
+  },
+  "targets": 45,
+  "filled": 45,
+  "filledByRule": 45,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM4S-trainer": {
+  "set": "SM4S",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Crimson Invasion (TCG)",
+   "section": "Awakened Heroes",
+   "den": "den=050",
+   "file": "SM6-2.txt"
+  },
+  "targets": 5,
+  "filled": 5,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
