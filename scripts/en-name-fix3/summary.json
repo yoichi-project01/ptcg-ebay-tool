@@ -2045,5 +2045,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM1M-pokemon": {
+  "set": "SM1M",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Sun & Moon (TCG)",
+   "section": "Collection Moon",
+   "den": "den=060",
+   "file": "SM6-1.txt"
+  },
+  "targets": 52,
+  "filled": 52,
+  "filledByRule": 52,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM1M-trainer": {
+  "set": "SM1M",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Sun & Moon (TCG)",
+   "section": "Collection Moon",
+   "den": "den=060",
+   "file": "SM6-1.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
