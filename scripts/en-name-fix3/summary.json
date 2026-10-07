@@ -4944,5 +4944,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVF-pokemon": {
+  "set": "SVF",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ruler of the Black Flame Deck Build Box (TCG)",
+   "section": "Ruler of the Black Flame Deck Build Box",
+   "den": "den=038,",
+   "file": "D-5.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 7,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVF-trainer": {
+  "set": "SVF",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ruler of the Black Flame Deck Build Box (TCG)",
+   "section": "Ruler of the Black Flame Deck Build Box",
+   "den": "den=038,",
+   "file": "D-5.txt"
+  },
+  "targets": 29,
+  "filled": 28,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "イラストレーターが分からない": 1
+  }
  }
 }
