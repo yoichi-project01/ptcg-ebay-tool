@@ -852,5 +852,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV7a-trainer": {
+  "set": "SV7a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Paradise Dragona (TCG)",
+   "section": "Paradise Dragona",
+   "den": "den=064",
+   "file": "SV-T.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
