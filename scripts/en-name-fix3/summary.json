@@ -345,5 +345,20 @@
   "filledByRule": 54,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S6a-pokemon": {
+  "set": "S6a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Eevee Heroes (TCG)",
+   "section": "Eevee Heroes",
+   "den": "den=069",
+   "file": "S-3.txt"
+  },
+  "targets": 55,
+  "filled": 55,
+  "filledByRule": 55,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
