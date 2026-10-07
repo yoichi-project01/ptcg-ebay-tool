@@ -4225,5 +4225,42 @@
    "英語版の同じ名前のカードとイラストレーターが違う": 7,
    "英語版に同じ名前・種類のカードが無い": 3
   }
+ },
+ "XY-P-pokemon": {
+  "set": "XY-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "XY-P Promotional cards (TCG)",
+   "section": "XY-P Promotional cards",
+   "den": "den=XY-P,",
+   "file": "P-3.txt"
+  },
+  "targets": 243,
+  "filled": 219,
+  "filledByRule": 213,
+  "blank": 24,
+  "blankReasons": {
+   "規則で作れない・英語版に同じ名前のポケモンが無い": 23,
+   "規則で作れない・イラストレーターが分からない": 1
+  }
+ },
+ "XY-P-trainer": {
+  "set": "XY-P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "XY-P Promotional cards (TCG)",
+   "section": "XY-P Promotional cards",
+   "den": "den=XY-P,",
+   "file": "P-3.txt"
+  },
+  "targets": 52,
+  "filled": 44,
+  "filledByRule": 0,
+  "blank": 8,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 3,
+   "英語版に同じ名前・種類のカードが無い": 2,
+   "Bulbapedia の一覧に無い": 3
+  }
  }
 }
