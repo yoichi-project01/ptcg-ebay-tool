@@ -4089,5 +4089,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "CP3-pokemon": {
+  "set": "CP3",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "PokéKyun Collection (TCG)",
+   "section": "PokéKyun Collection",
+   "den": "den=032",
+   "file": "BW-4.txt"
+  },
+  "targets": 30,
+  "filled": 30,
+  "filledByRule": 30,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "CP3-trainer": {
+  "set": "CP3",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "PokéKyun Collection (TCG)",
+   "section": "PokéKyun Collection",
+   "den": "den=032",
+   "file": "BW-4.txt"
+  },
+  "targets": 2,
+  "filled": 2,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
