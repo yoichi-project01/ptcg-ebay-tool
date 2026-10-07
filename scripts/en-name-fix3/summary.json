@@ -613,5 +613,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV1a-trainer": {
+  "set": "SV1a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Triplet Beat (TCG)",
+   "section": "Triplet Beat",
+   "den": "den=073",
+   "file": "SV-T.txt"
+  },
+  "targets": 7,
+  "filled": 5,
+  "filledByRule": 0,
+  "blank": 2,
+  "blankReasons": {
+   "イラストレーターが分からない": 2
+  }
  }
 }
