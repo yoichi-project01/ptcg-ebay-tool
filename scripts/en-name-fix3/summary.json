@@ -2135,5 +2135,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM2L-pokemon": {
+  "set": "SM2L",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Guardians Rising (TCG)",
+   "section": "Alolan Moonlight",
+   "den": "den=050",
+   "file": "SM6-1.txt"
+  },
+  "targets": 46,
+  "filled": 46,
+  "filledByRule": 46,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM2L-trainer": {
+  "set": "SM2L",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Guardians Rising (TCG)",
+   "section": "Alolan Moonlight",
+   "den": "den=050",
+   "file": "SM6-1.txt"
+  },
+  "targets": 4,
+  "filled": 4,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
