@@ -3007,5 +3007,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY4-pokemon": {
+  "set": "XY4",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Phantom Forces (TCG)",
+   "section": "Phantom Gate",
+   "den": "den=088",
+   "file": "XY6-1.txt"
+  },
+  "targets": 77,
+  "filled": 77,
+  "filledByRule": 77,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY4-trainer": {
+  "set": "XY4",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Phantom Forces (TCG)",
+   "section": "Phantom Gate",
+   "den": "den=088",
+   "file": "XY6-1.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
