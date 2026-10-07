@@ -105,5 +105,20 @@
   "filledByRule": 69,
   "blank": 0,
   "blankReasons": {}
+ },
+ "M2a-pokemon": {
+  "set": "M2a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "MEGA Dream ex (TCG)",
+   "section": "MEGA Dream ex",
+   "den": "den=193",
+   "file": "M.txt"
+  },
+  "targets": 144,
+  "filled": 144,
+  "filledByRule": 97,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
