@@ -2435,5 +2435,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM5p-pokemon": {
+  "set": "SM5p",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ultra Force (TCG)",
+   "section": "Ultra Force",
+   "den": "den=050,",
+   "file": "SM6-3.txt"
+  },
+  "targets": 36,
+  "filled": 36,
+  "filledByRule": 34,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM5p-trainer": {
+  "set": "SM5p",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ultra Force (TCG)",
+   "section": "Ultra Force",
+   "den": "den=050,",
+   "file": "SM6-3.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
