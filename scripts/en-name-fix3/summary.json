@@ -3727,5 +3727,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW5-Brz-pokemon": {
+  "set": "BW5-Brz",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Dragons Exalted (TCG)",
+   "section": "Dragon Blast",
+   "den": "den=050",
+   "file": "BW-2.txt"
+  },
+  "targets": 47,
+  "filled": 47,
+  "filledByRule": 47,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW5-Brz-trainer": {
+  "set": "BW5-Brz",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Dragons Exalted (TCG)",
+   "section": "Dragon Blast",
+   "den": "den=050",
+   "file": "BW-2.txt"
+  },
+  "targets": 3,
+  "filled": 3,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
