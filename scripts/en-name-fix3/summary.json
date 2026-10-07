@@ -2555,5 +2555,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM7-pokemon": {
+  "set": "SM7",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Celestial Storm (TCG)",
+   "section": "Sky-Splitting Charisma",
+   "den": "den=096",
+   "file": "SM6-4.txt"
+  },
+  "targets": 75,
+  "filled": 75,
+  "filledByRule": 75,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM7-trainer": {
+  "set": "SM7",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Celestial Storm (TCG)",
+   "section": "Sky-Splitting Charisma",
+   "den": "den=096",
+   "file": "SM6-4.txt"
+  },
+  "targets": 18,
+  "filled": 18,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
