@@ -1775,5 +1775,65 @@
   "filledByRule": 8,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV3a-pokemon": {
+  "set": "SV3a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Raging Surf (TCG)",
+   "section": "Raging Surf",
+   "den": "den=062",
+   "file": "SV-T.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 6,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SV4K-pokemon": {
+  "set": "SV4K",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Paradox Rift (TCG)",
+   "section": "Ancient Roar",
+   "den": "den=066",
+   "file": "SV-T.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 6,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SV4M-pokemon": {
+  "set": "SV4M",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Paradox Rift (TCG)",
+   "section": "Future Flash",
+   "den": "den=066",
+   "file": "SV-T.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 6,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SV4a-pokemon": {
+  "set": "SV4a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Paldean Fates (TCG)",
+   "section": "Shiny Treasure ex",
+   "den": "den=190",
+   "file": "SV-T.txt"
+  },
+  "targets": 28,
+  "filled": 28,
+  "filledByRule": 28,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
