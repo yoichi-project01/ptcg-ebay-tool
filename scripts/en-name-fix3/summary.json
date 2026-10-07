@@ -4908,12 +4908,10 @@
    "file": "D-5.txt"
   },
   "targets": 41,
-  "filled": 13,
+  "filled": 41,
   "filledByRule": 0,
-  "blank": 28,
-  "blankReasons": {
-   "イラストレーターが分からない": 28
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "SVK-pokemon": {
   "set": "SVK",
