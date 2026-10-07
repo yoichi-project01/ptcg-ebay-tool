@@ -867,5 +867,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV8-trainer": {
+  "set": "SV8",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Super Electric Breaker (TCG)",
+   "section": "Super Electric Breaker",
+   "den": "den=106",
+   "file": "SV-T.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
