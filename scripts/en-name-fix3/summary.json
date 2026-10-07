@@ -90,5 +90,20 @@
   "filledByRule": 71,
   "blank": 0,
   "blankReasons": {}
+ },
+ "M5-pokemon": {
+  "set": "M5",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Abyss Eye (TCG)",
+   "section": "Abyss Eye",
+   "den": "den=081",
+   "file": "M.txt"
+  },
+  "targets": 69,
+  "filled": 69,
+  "filledByRule": 69,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
