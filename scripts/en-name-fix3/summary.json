@@ -6,7 +6,7 @@
    "page": "Mega Brave/Mega Symphonia (TCG)",
    "section": "Mega Symphonia",
    "den": "den=063",
-   "file": "M.txt"
+   "file": "S6-1.txt"
   },
   "targets": 1,
   "filled": 1,
@@ -1168,6 +1168,21 @@
   "bulbapedia": {
    "page": "Mega Brave/Mega Symphonia (TCG)",
    "section": "Mega Brave",
+   "den": "den=063",
+   "file": "S6-1.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "M1S-trainer": {
+  "set": "M1S",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Mega Brave/Mega Symphonia (TCG)",
+   "section": "Mega Symphonia",
    "den": "den=063",
    "file": "S6-1.txt"
   },
