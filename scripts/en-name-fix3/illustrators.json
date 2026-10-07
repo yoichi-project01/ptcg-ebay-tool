@@ -89,5 +89,337 @@
   ],
   "illustrator": "takuyoa",
   "cardId": "47862"
+ },
+ "SV10-098": {
+  "tried": [
+   {
+    "cardId": "47491",
+    "nums": [
+     98
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV11B-086": {
+  "tried": [
+   {
+    "cardId": "47622",
+    "nums": [
+     86
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV11W-086": {
+  "tried": [
+   {
+    "cardId": "47708",
+    "nums": [
+     86
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV1a-072": {
+  "tried": [
+   {
+    "cardId": "43037",
+    "nums": [
+     72
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV1a-073": {
+  "tried": [
+   {
+    "cardId": "43038",
+    "nums": [
+     73
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV2D-071": {
+  "tried": [
+   {
+    "cardId": "43207",
+    "nums": [
+     71
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV2P-071": {
+  "tried": [
+   {
+    "cardId": "43278",
+    "nums": [
+     71
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV4a-156": {
+  "tried": [
+   {
+    "cardId": "44679",
+    "nums": [
+     156
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "44679"
+ },
+ "SV4a-157": {
+  "tried": [
+   {
+    "cardId": "44680",
+    "nums": [
+     157
+    ],
+    "illustrator": "Studio Bora Inc."
+   }
+  ],
+  "illustrator": "Studio Bora Inc.",
+  "cardId": "44680"
+ },
+ "SV4a-158": {
+  "tried": [
+   {
+    "cardId": "44681",
+    "nums": [
+     158
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "44681"
+ },
+ "SV4a-159": {
+  "tried": [
+   {
+    "cardId": "44682",
+    "nums": [
+     159
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "44682"
+ },
+ "SV4a-160": {
+  "tried": [
+   {
+    "cardId": "44683",
+    "nums": [
+     160
+    ],
+    "illustrator": "AYUMI ODASHIMA"
+   }
+  ],
+  "illustrator": "AYUMI ODASHIMA",
+  "cardId": "44683"
+ },
+ "SV4a-161": {
+  "tried": [
+   {
+    "cardId": "44684",
+    "nums": [
+     161
+    ],
+    "illustrator": "Ayaka Yoshida"
+   }
+  ],
+  "illustrator": "Ayaka Yoshida",
+  "cardId": "44684"
+ },
+ "SV4a-162": {
+  "tried": [
+   {
+    "cardId": "44685",
+    "nums": [
+     162
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "44685"
+ },
+ "SV4a-163": {
+  "tried": [
+   {
+    "cardId": "44686",
+    "nums": [
+     163
+    ],
+    "illustrator": "Studio Bora Inc."
+   }
+  ],
+  "illustrator": "Studio Bora Inc.",
+  "cardId": "44686"
+ },
+ "SV4a-164": {
+  "tried": [
+   {
+    "cardId": "44687",
+    "nums": [
+     164
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "44687"
+ },
+ "SV4a-165": {
+  "tried": [
+   {
+    "cardId": "44688",
+    "nums": [
+     165
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "44688"
+ },
+ "SV4a-166": {
+  "tried": [
+   {
+    "cardId": "44689",
+    "nums": [
+     166
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "44689"
+ },
+ "SV4a-167": {
+  "tried": [
+   {
+    "cardId": "44690",
+    "nums": [
+     167
+    ],
+    "illustrator": "Studio Bora Inc."
+   }
+  ],
+  "illustrator": "Studio Bora Inc.",
+  "cardId": "44690"
+ },
+ "SV4a-188": {
+  "tried": [
+   {
+    "cardId": "44711",
+    "nums": [
+     188
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV4a-189": {
+  "tried": [
+   {
+    "cardId": "44712",
+    "nums": [
+     189
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV4a-190": {
+  "tried": [
+   {
+    "cardId": "44713",
+    "nums": [
+     190
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV8a-185": {
+  "tried": [
+   {
+    "cardId": "46846",
+    "nums": [
+     185
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV8a-186": {
+  "tried": [
+   {
+    "cardId": "46847",
+    "nums": [
+     186
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
+ },
+ "SV9-100": {
+  "tried": [
+   {
+    "cardId": "47108",
+    "nums": [
+     100
+    ],
+    "illustrator": null
+   },
+   {
+    "cardId": "47252",
+    "nums": [
+     132
+    ],
+    "illustrator": null
+   }
+  ],
+  "illustrator": null,
+  "cardId": null
  }
 }
