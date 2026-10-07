@@ -270,5 +270,20 @@
   "filledByRule": 144,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S5I-pokemon": {
+  "set": "S5I",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Battle Styles (TCG)",
+   "section": "Single Strike Master",
+   "den": "den=070",
+   "file": "S-6.txt"
+  },
+  "targets": 57,
+  "filled": 57,
+  "filledByRule": 56,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
