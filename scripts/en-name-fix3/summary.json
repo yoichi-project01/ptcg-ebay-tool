@@ -3397,5 +3397,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "CP4-pokemon": {
+  "set": "CP4",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Premium Champion Pack (TCG)",
+   "section": "Premium Champion Pack",
+   "den": "den=131,",
+   "file": "XY6-4.txt"
+  },
+  "targets": 99,
+  "filled": 99,
+  "filledByRule": 98,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "CP4-trainer": {
+  "set": "CP4",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Premium Champion Pack (TCG)",
+   "section": "Premium Champion Pack",
+   "den": "den=131,",
+   "file": "XY6-4.txt"
+  },
+  "targets": 32,
+  "filled": 32,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
