@@ -60,5 +60,20 @@
   "filledByRule": 9,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MP1-pokemon": {
+  "set": "MP1",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Start Deck 100 Battle Collection CoroCiao Version (TCG)",
+   "section": "Start Deck 100 Battle Collection CoroCiao Version",
+   "den": "den=023,",
+   "file": "M.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 12,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
