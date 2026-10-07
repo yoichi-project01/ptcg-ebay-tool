@@ -531,7 +531,7 @@
    "page": "Lost Origin (TCG)",
    "section": "Lost Abyss",
    "den": "den=100",
-   "file": "S-5.txt"
+   "file": "S6-2.txt"
   },
   "targets": 86,
   "filled": 86,
@@ -1695,6 +1695,21 @@
   },
   "targets": 7,
   "filled": 7,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S11-trainer": {
+  "set": "S11",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Lost Origin (TCG)",
+   "section": "Lost Abyss",
+   "den": "den=100",
+   "file": "S6-2.txt"
+  },
+  "targets": 10,
+  "filled": 10,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
