@@ -5678,5 +5678,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM0-pokemon": {
+  "set": "SM0",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Pikachu's New Friends (TCG)",
+   "section": "Pikachu's New Friends",
+   "den": "den=004",
+   "file": "D-7.txt"
+  },
+  "targets": 4,
+  "filled": 4,
+  "filledByRule": 4,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM0-trainer": {
+  "set": "SM0",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Pikachu's New Friends (TCG)",
+   "section": "Pikachu's New Friends",
+   "den": "den=004",
+   "file": "D-7.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
