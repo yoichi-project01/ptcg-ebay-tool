@@ -1880,5 +1880,20 @@
   "filledByRule": 5,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV6-pokemon": {
+  "set": "SV6",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Twilight Masquerade (TCG)",
+   "section": "Transformation Mask",
+   "den": "den=101",
+   "file": "SV-T.txt"
+  },
+  "targets": 89,
+  "filled": 89,
+  "filledByRule": 84,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
