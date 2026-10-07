@@ -1191,5 +1191,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "M2-pokemon": {
+  "set": "M2",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Inferno X (TCG)",
+   "section": "Inferno X",
+   "den": "den=080",
+   "file": "S6-1.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "M2-trainer": {
+  "set": "M2",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Inferno X (TCG)",
+   "section": "Inferno X",
+   "den": "den=080",
+   "file": "S6-1.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
