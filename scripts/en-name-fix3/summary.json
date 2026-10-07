@@ -510,5 +510,20 @@
   "filledByRule": 56,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S10b-pokemon": {
+  "set": "S10b",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Pokémon GO (TCG)",
+   "section": "Pokémon GO",
+   "den": "den=071,",
+   "file": "S-5.txt"
+  },
+  "targets": 57,
+  "filled": 57,
+  "filledByRule": 57,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
