@@ -1,0 +1,17 @@
+{
+ "M1S-pokemon": {
+  "set": "M1S",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Mega Brave/Mega Symphonia (TCG)",
+   "section": "Mega Symphonia",
+   "den": "den=063",
+   "file": "M.txt"
+  },
+  "targets": 1,
+  "filled": 1,
+  "filledByRule": 1,
+  "blank": 0,
+  "blankReasons": {}
+ }
+}
