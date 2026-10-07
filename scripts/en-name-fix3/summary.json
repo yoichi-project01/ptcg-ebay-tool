@@ -2465,5 +2465,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM6-pokemon": {
+  "set": "SM6",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Forbidden Light (TCG)",
+   "section": "Forbidden Light",
+   "den": "den=094",
+   "file": "SM6-3.txt"
+  },
+  "targets": 73,
+  "filled": 73,
+  "filledByRule": 72,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM6-trainer": {
+  "set": "SM6",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Forbidden Light (TCG)",
+   "section": "Forbidden Light",
+   "den": "den=094",
+   "file": "SM6-3.txt"
+  },
+  "targets": 18,
+  "filled": 18,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
