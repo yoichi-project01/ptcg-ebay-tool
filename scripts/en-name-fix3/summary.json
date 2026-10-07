@@ -3067,5 +3067,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY5-Bt-pokemon": {
+  "set": "XY5-Bt",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Primal Clash (TCG)",
+   "section": "Tidal Storm",
+   "den": "den=070",
+   "file": "XY6-2.txt"
+  },
+  "targets": 59,
+  "filled": 59,
+  "filledByRule": 58,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY5-Bt-trainer": {
+  "set": "XY5-Bt",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Primal Clash (TCG)",
+   "section": "Tidal Storm",
+   "den": "den=070",
+   "file": "XY6-2.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
