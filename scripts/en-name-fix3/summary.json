@@ -916,5 +916,20 @@
   "blankReasons": {
    "イラストレーターが分からない": 1
   }
+ },
+ "SV9a-trainer": {
+  "set": "SV9a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Hot Wind Arena (TCG)",
+   "section": "Hot Wind Arena",
+   "den": "den=063",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
