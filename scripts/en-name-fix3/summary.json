@@ -1115,13 +1115,10 @@
    "file": "SM-3.txt"
   },
   "targets": 37,
-  "filled": 33,
+  "filled": 37,
   "filledByRule": 0,
-  "blank": 4,
-  "blankReasons": {
-   "イラストレーターが分からない": 1,
-   "英語版に同じ名前・種類のカードが無い": 3
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "SM7a-pokemon": {
   "set": "SM7a",
