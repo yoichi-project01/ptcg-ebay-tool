@@ -630,5 +630,22 @@
   "blankReasons": {
    "イラストレーターが分からない": 2
   }
+ },
+ "SV2D-trainer": {
+  "set": "SV2D",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Paldea Evolved (TCG)",
+   "section": "Clay Burst",
+   "den": "den=071",
+   "file": "SV-T.txt"
+  },
+  "targets": 4,
+  "filled": 3,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "イラストレーターが分からない": 1
+  }
  }
 }
