@@ -4438,5 +4438,38 @@
    "イラストレーターが分からない": 4,
    "英語版に同じ名前・種類のカードが無い": 9
   }
+ },
+ "M-P-pokemon": {
+  "set": "M-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "M-P Promotional cards (TCG)",
+   "section": "M-P Promotional cards",
+   "den": "den=M-P",
+   "file": "P-6.txt"
+  },
+  "targets": 51,
+  "filled": 51,
+  "filledByRule": 50,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "M-P-trainer": {
+  "set": "M-P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "M-P Promotional cards (TCG)",
+   "section": "M-P Promotional cards",
+   "den": "den=M-P",
+   "file": "P-6.txt"
+  },
+  "targets": 75,
+  "filled": 32,
+  "filledByRule": 0,
+  "blank": 43,
+  "blankReasons": {
+   "イラストレーターが分からない": 40,
+   "英語版に同じ名前・種類のカードが無い": 3
+  }
  }
 }
