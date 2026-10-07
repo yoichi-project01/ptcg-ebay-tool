@@ -306,7 +306,7 @@
    "page": "Peerless Fighters (TCG)",
    "section": "Peerless Fighters",
    "den": "den=070",
-   "file": "S-6.txt"
+   "file": "S6-1.txt"
   },
   "targets": 59,
   "filled": 59,
@@ -1466,6 +1466,21 @@
   },
   "targets": 10,
   "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S5a-trainer": {
+  "set": "S5a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Peerless Fighters (TCG)",
+   "section": "Peerless Fighters",
+   "den": "den=070",
+   "file": "S6-1.txt"
+  },
+  "targets": 8,
+  "filled": 8,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
