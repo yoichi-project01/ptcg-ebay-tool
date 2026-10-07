@@ -10,7 +10,8 @@
    "eventDetails": "ポケモンカードゲーム レックウザプレバトル 参加賞",
    "leader": "ツツジ",
    "badgeName": "ストーンバッジ",
-   "ja": "ジムバッジ（ツツジ レックウザプレバトル 参加賞）"
+   "ja": "ジムバッジ（ツツジ レックウザプレバトル 参加賞）",
+   "en": "Gym Badge Roxanne"
   },
   {
    "cardId": "31059",
@@ -26,7 +27,8 @@
    "eventDetails": "ポケモンカードゲーム レックウザプレバトル 参加賞",
    "leader": "テッセン",
    "badgeName": "ダイナモバッジ",
-   "ja": "ジムバッジ（テッセン レックウザプレバトル 参加賞）"
+   "ja": "ジムバッジ（テッセン レックウザプレバトル 参加賞）",
+   "en": "Gym Badge Wattson"
   },
   {
    "cardId": "31061",
@@ -34,7 +36,8 @@
    "eventDetails": "ポケモンカードゲーム レックウザプレバトル 参加賞",
    "leader": "アスナ",
    "badgeName": "ヒートバッジ",
-   "ja": "ジムバッジ（アスナ レックウザプレバトル 参加賞）"
+   "ja": "ジムバッジ（アスナ レックウザプレバトル 参加賞）",
+   "en": "Gym Badge Flannery"
   },
   {
    "cardId": "31062",
@@ -58,7 +61,8 @@
    "eventDetails": "ポケモンカードゲーム レックウザプレバトル 参加賞",
    "leader": "フウとラン",
    "badgeName": "マインドバッジ",
-   "ja": "ジムバッジ（フウとラン レックウザプレバトル 参加賞）"
+   "ja": "ジムバッジ（フウとラン レックウザプレバトル 参加賞）",
+   "en": "Gym Badge Tate & Liza"
   },
   {
    "cardId": "31065",
@@ -66,7 +70,8 @@
    "eventDetails": "ポケモンカードゲーム レックウザプレバトル 参加賞",
    "leader": "ミクリ",
    "badgeName": "レインバッジ",
-   "ja": "ジムバッジ（ミクリ レックウザプレバトル 参加賞）"
+   "ja": "ジムバッジ（ミクリ レックウザプレバトル 参加賞）",
+   "en": "Gym Badge Wallace"
   },
   {
    "cardId": "32371",
@@ -213,5 +218,5 @@
    "en": "Gym Badge Giovanni"
   }
  ],
- "enRule": "PSA の鑑定書（2016 POKEMON JAPANESE XY PROMO、GYM BDG-LT.SRG-HOLO、#95684362 等）と、英語圏の価格サイトの「Gym Badge (Misty)」「Gym Badge (Koga)」「Gym Badge (Sabrina)」「Gym Badge (Giovanni)」。カントーのジムリーダーは英語版の公式の名前（Brock・Misty・Lt. Surge・Erika・Koga・Sabrina・Blaine・Giovanni）。ホウエンの8枚は PSA の表記を確認できなかったので空欄。"
+ "enRule": "PSA の鑑定書（2016 POKEMON JAPANESE XY PROMO、GYM BDG-LT.SRG-HOLO、#95684362 等）と、英語圏の価格サイトの「Gym Badge (Misty)」「Gym Badge (Koga)」「Gym Badge (Sabrina)」「Gym Badge (Giovanni)」。カントーのジムリーダーは英語版の公式の名前（Brock・Misty・Lt. Surge・Erika・Koga・Sabrina・Blaine・Giovanni）。ホウエンの8枚は PSA の表記を確認できなかったので空欄。 ホウエンの5人は2026-10-07に PSA で確認: フラナリー（鑑定書 #65720267「GYM BADGE-FLANNERY RAYQUAZA PRE/MEGA BTL.」）・テッセン（#44165667「GYM BADGE-WATTSON」）・フウとラン（#43611100「GYM BADGE-TATE & LIZA」）は https://www.psacard.com/cert/ で、ツツジ（「GYM BADGE-ROXANNE」、eBay 407100189802 の写真）・ミクリ（「GYM BADGE-WALLACE」、eBay 398448930287 の写真）は PSA のラベルの写真で確認。トウキ・センリ・ナギは PSA 鑑定済みが見つからず空欄。"
 }
