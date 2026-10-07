@@ -3637,5 +3637,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW3-Bp-pokemon": {
+  "set": "BW3-Bp",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Next Destinies (TCG)",
+   "section": "Psycho Drive",
+   "den": "den=052",
+   "file": "BW-1.txt"
+  },
+  "targets": 48,
+  "filled": 48,
+  "filledByRule": 48,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW3-Bp-trainer": {
+  "set": "BW3-Bp",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Next Destinies (TCG)",
+   "section": "Psycho Drive",
+   "den": "den=052",
+   "file": "BW-1.txt"
+  },
+  "targets": 4,
+  "filled": 4,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
