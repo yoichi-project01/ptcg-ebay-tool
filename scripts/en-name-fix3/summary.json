@@ -4882,5 +4882,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SMG-pokemon": {
+  "set": "SMG",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ultra Sun & Ultra Moon Deck Build Boxes (TCG)",
+   "section": "Ultra Sun & Ultra Moon Deck Build Boxes",
+   "den": "den=041",
+   "file": "D-5.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SMG-trainer": {
+  "set": "SMG",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ultra Sun & Ultra Moon Deck Build Boxes (TCG)",
+   "section": "Ultra Sun & Ultra Moon Deck Build Boxes",
+   "den": "den=041",
+   "file": "D-5.txt"
+  },
+  "targets": 41,
+  "filled": 13,
+  "filledByRule": 0,
+  "blank": 28,
+  "blankReasons": {
+   "イラストレーターが分からない": 28
+  }
  }
 }
