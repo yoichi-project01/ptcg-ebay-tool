@@ -5006,5 +5006,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MA-trainer": {
+  "set": "MA",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Premium Trainer Box MEGA (TCG)",
+   "section": "Premium Trainer Box MEGA",
+   "den": "den=043,",
+   "file": "M.txt"
+  },
+  "targets": 33,
+  "filled": 33,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
