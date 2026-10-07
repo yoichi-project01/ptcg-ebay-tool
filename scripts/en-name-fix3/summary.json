@@ -45,5 +45,20 @@
   "filledByRule": 9,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MBG-pokemon": {
+  "set": "MBG",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "MEGA Starter Set Mega Gengar ex (TCG)",
+   "section": "MEGA Starter Set Mega Gengar ex",
+   "den": "den=021,",
+   "file": "M.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 9,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
