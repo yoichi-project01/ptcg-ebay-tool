@@ -81,7 +81,7 @@
    "page": "Ninja Spinner (TCG)",
    "section": "Ninja Spinner",
    "den": "den=083",
-   "file": "M.txt"
+   "file": "S6-1.txt"
   },
   "targets": 71,
   "filled": 71,
@@ -1248,6 +1248,21 @@
   },
   "targets": 14,
   "filled": 14,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "M4-trainer": {
+  "set": "M4",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ninja Spinner (TCG)",
+   "section": "Ninja Spinner",
+   "den": "den=083",
+   "file": "S6-1.txt"
+  },
+  "targets": 12,
+  "filled": 12,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
