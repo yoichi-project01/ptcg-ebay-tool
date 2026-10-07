@@ -480,5 +480,20 @@
   "filledByRule": 55,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S10P-pokemon": {
+  "set": "S10P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Astral Radiance (TCG)",
+   "section": "Space Juggler",
+   "den": "den=067",
+   "file": "S-6.txt"
+  },
+  "targets": 56,
+  "filled": 56,
+  "filledByRule": 55,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
