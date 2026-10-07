@@ -405,5 +405,20 @@
   "filledByRule": 84,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S8a-pokemon": {
+  "set": "S8a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Celebrations (TCG)",
+   "section": "25th Anniversary Collection",
+   "den": "den=028,",
+   "file": "S-6.txt"
+  },
+  "targets": 21,
+  "filled": 21,
+  "filledByRule": 19,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
