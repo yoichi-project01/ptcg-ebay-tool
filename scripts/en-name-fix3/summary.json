@@ -5327,5 +5327,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVC-pokemon": {
+  "set": "SVC",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ex Starter Set Pikachu ex & Pawmot (TCG)",
+   "section": "ex Starter Set Pikachu ex & Pawmot",
+   "den": "den=021,",
+   "file": "D-6.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 10,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVC-trainer": {
+  "set": "SVC",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ex Starter Set Pikachu ex & Pawmot (TCG)",
+   "section": "ex Starter Set Pikachu ex & Pawmot",
+   "den": "den=021,",
+   "file": "D-6.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
