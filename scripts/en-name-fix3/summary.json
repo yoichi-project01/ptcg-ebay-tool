@@ -5586,5 +5586,37 @@
   "blankReasons": {
    "イラストレーターが分からない": 2
   }
+ },
+ "SK-pokemon": {
+  "set": "SK",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "VSTAR Premium Trainer Box (TCG)",
+   "section": "VSTAR Premium Trainer Box",
+   "den": "den=030,",
+   "file": "D-7.txt"
+  },
+  "targets": 1,
+  "filled": 1,
+  "filledByRule": 1,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SK-trainer": {
+  "set": "SK",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "VSTAR Premium Trainer Box (TCG)",
+   "section": "VSTAR Premium Trainer Box",
+   "den": "den=030,",
+   "file": "D-7.txt"
+  },
+  "targets": 20,
+  "filled": 18,
+  "filledByRule": 0,
+  "blank": 2,
+  "blankReasons": {
+   "イラストレーターが分からない": 2
+  }
  }
 }
