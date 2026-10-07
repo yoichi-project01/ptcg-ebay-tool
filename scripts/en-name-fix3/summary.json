@@ -5081,5 +5081,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "WCS23-pokemon": {
+  "set": "WCS23",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "2023 Pokémon World Championships Yokohama Deck: Pikachu (TCG)",
+   "section": "2023 Pokémon World Championships Yokohama Deck: Pikachu",
+   "den": "den=030,",
+   "file": "D-6.txt"
+  },
+  "targets": 15,
+  "filled": 15,
+  "filledByRule": 15,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "WCS23-trainer": {
+  "set": "WCS23",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "2023 Pokémon World Championships Yokohama Deck: Pikachu (TCG)",
+   "section": "2023 Pokémon World Championships Yokohama Deck: Pikachu",
+   "den": "den=030,",
+   "file": "D-6.txt"
+  },
+  "targets": 15,
+  "filled": 15,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
