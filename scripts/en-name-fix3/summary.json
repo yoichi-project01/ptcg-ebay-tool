@@ -561,7 +561,7 @@
    "page": "Silver Tempest (TCG)",
    "section": "Paradigm Trigger",
    "den": "den=098",
-   "file": "S-5.txt"
+   "file": "S6-2.txt"
   },
   "targets": 8,
   "filled": 8,
@@ -1728,5 +1728,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S12-trainer": {
+  "set": "S12",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Silver Tempest (TCG)",
+   "section": "Paradigm Trigger",
+   "den": "den=098",
+   "file": "S6-2.txt"
+  },
+  "targets": 10,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
