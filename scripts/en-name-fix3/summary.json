@@ -2525,5 +2525,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM6b-pokemon": {
+  "set": "SM6b",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Champion Road (TCG)",
+   "section": "Champion Road",
+   "den": "den=066",
+   "file": "SM6-3.txt"
+  },
+  "targets": 51,
+  "filled": 51,
+  "filledByRule": 51,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM6b-trainer": {
+  "set": "SM6b",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Champion Road (TCG)",
+   "section": "Champion Road",
+   "den": "den=066",
+   "file": "SM6-3.txt"
+  },
+  "targets": 15,
+  "filled": 15,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
