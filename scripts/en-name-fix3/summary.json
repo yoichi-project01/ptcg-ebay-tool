@@ -1895,5 +1895,20 @@
   "filledByRule": 84,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV6a-pokemon": {
+  "set": "SV6a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Shrouded Fable (TCG)",
+   "section": "Night Wanderer",
+   "den": "den=064",
+   "file": "SV-T.txt"
+  },
+  "targets": 53,
+  "filled": 53,
+  "filledByRule": 52,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
