@@ -1,0 +1,619 @@
+id	ja	rarity	rule	bpName	bpType	illustrator	illSrc	tcgdexIds	status	note	en
+MC-001	エリカのナゾノクサ			Erika's Oddish	Grass	Yoriyuki Ikegami	TCGdex日本語版	me02.5-001	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Erika's Oddish
+MC-002	エリカのクサイハナ			Erika's Gloom	Grass	MARINA Chikazawa	TCGdex日本語版	me02.5-002	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Erika's Gloom
+MC-003	エリカのラフレシアex			Erika's Vileplume ex	Grass	5ban Graphics	TCGdex日本語版	me02.5-003	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Erika's Vileplume ex
+MC-004	パラス		Paras	Paras	Grass				入れる	規則と Bulbapedia が一致	Paras
+MC-005	パラセクト		Parasect	Parasect	Grass				入れる	規則と Bulbapedia が一致	Parasect
+MC-006	エリカのマダツボミ			Erika's Bellsprout	Grass	sui	TCGdex日本語版	me02.5-004	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Erika's Bellsprout
+MC-007	エリカのウツドン			Erika's Weepinbell	Grass	LINNE	TCGdex日本語版	me02.5-005	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Erika's Weepinbell
+MC-008	エリカのウツボット			Erika's Victreebel	Grass	takashi shiraishi	TCGdex日本語版	me02.5-006	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Erika's Victreebel
+MC-009	タマタマ		Exeggcute	Exeggcute	Grass				入れる	規則と Bulbapedia が一致	Exeggcute
+MC-010	タマタマ		Exeggcute	Exeggcute	Grass				入れる	規則と Bulbapedia が一致	Exeggcute
+MC-011	ナッシー		Exeggutor	Exeggutor	Grass				入れる	規則と Bulbapedia が一致	Exeggutor
+MC-012	モンジャラ		Tangela	Tangela	Grass				入れる	規則と Bulbapedia が一致	Tangela
+MC-013	モジャンボ		Tangrowth	Tangrowth	Grass				入れる	規則と Bulbapedia が一致	Tangrowth
+MC-014	エリカのモンジャラ			Erika's Tangela	Grass	GIDORA	TCGdex日本語版	me02.5-007	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Erika's Tangela
+MC-015	ストライク		Scyther	Scyther	Grass				入れる	規則と Bulbapedia が一致	Scyther
+MC-016	チコリータ		Chikorita	Chikorita	Grass				入れる	規則と Bulbapedia が一致	Chikorita
+MC-017	ベイリーフ		Bayleef	Bayleef	Grass				入れる	規則と Bulbapedia が一致	Bayleef
+MC-018	メガメガニウムex		Mega Meganium ex	Mega Meganium ex	Grass				入れる	規則と Bulbapedia が一致	Mega Meganium ex
+MC-019	レディバ		Ledyba	Ledyba	Grass				入れる	規則と Bulbapedia が一致	Ledyba
+MC-020	レディアン		Ledian	Ledian	Grass				入れる	規則と Bulbapedia が一致	Ledian
+MC-021	ヤンヤンマ		Yanma	Yanma	Grass				入れる	規則と Bulbapedia が一致	Yanma
+MC-022	メガヤンマex		Yanmega ex	Yanmega ex	Grass				入れる	規則と Bulbapedia が一致	Yanmega ex
+MC-023	ツボツボ		Shuckle	Shuckle	Grass				入れる	規則と Bulbapedia が一致	Shuckle
+MC-024	ヘラクロス		Heracross	Heracross	Grass				入れる	規則と Bulbapedia が一致	Heracross
+MC-025	セレビィ		Celebi	Celebi	Grass				入れる	規則と Bulbapedia が一致	Celebi
+MC-026	キノココ		Shroomish	Shroomish	Grass				入れる	規則と Bulbapedia が一致	Shroomish
+MC-027	キノココ		Shroomish	Shroomish	Grass				入れる	規則と Bulbapedia が一致	Shroomish
+MC-028	キノガッサ		Breloom	Breloom	Grass				入れる	規則と Bulbapedia が一致	Breloom
+MC-029	キノガッサ		Breloom	Breloom	Grass				入れる	規則と Bulbapedia が一致	Breloom
+MC-030	ロゼリア		Roselia	Roselia	Grass				入れる	規則と Bulbapedia が一致	Roselia
+MC-031	ロズレイド		Roserade	Roserade	Grass				入れる	規則と Bulbapedia が一致	Roserade
+MC-032	シロナのロゼリア			Cynthia's Roselia	Grass	nisimono	TCGdex日本語版	sv10-007	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Cynthia's Roselia
+MC-033	シロナのロズレイド			Cynthia's Roserade	Grass	En Morikura	TCGdex日本語版	sv10-008	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Cynthia's Roserade
+MC-034	ナエトル		Turtwig	Turtwig	Grass				入れる	規則と Bulbapedia が一致	Turtwig
+MC-035	ハヤシガメ		Grotle	Grotle	Grass				入れる	規則と Bulbapedia が一致	Grotle
+MC-036	ドダイトスex		Torterra ex	Torterra ex	Grass				入れる	規則と Bulbapedia が一致	Torterra ex
+MC-037	リーフィア		Leafeon	Leafeon	Grass				入れる	規則と Bulbapedia が一致	Leafeon
+MC-038	リーフィアex		Leafeon ex	Leafeon ex	Grass				入れる	規則と Bulbapedia が一致	Leafeon ex
+MC-039	シェイミ		Shaymin	Shaymin	Grass				入れる	規則と Bulbapedia が一致	Shaymin
+MC-040	ツタージャ		Snivy	Snivy	Grass				入れる	規則と Bulbapedia が一致	Snivy
+MC-041	ジャノビー		Servine	Servine	Grass				入れる	規則と Bulbapedia が一致	Servine
+MC-042	ジャローダex		Serperior ex	Serperior ex	Grass				入れる	規則と Bulbapedia が一致	Serperior ex
+MC-043	モンメン		Cottonee	Cottonee	Grass				入れる	規則と Bulbapedia が一致	Cottonee
+MC-044	エルフーンex		Whimsicott ex	Whimsicott ex	Grass				入れる	規則と Bulbapedia が一致	Whimsicott ex
+MC-045	イシズマイ		Dwebble	Dwebble	Grass				入れる	規則と Bulbapedia が一致	Dwebble
+MC-046	イワパレス		Crustle	Crustle	Grass				入れる	規則と Bulbapedia が一致	Crustle
+MC-047	カブルモ		Karrablast	Karrablast	Grass				入れる	規則と Bulbapedia が一致	Karrablast
+MC-048	タマゲタケ		Foongus	Foongus	Grass				入れる	規則と Bulbapedia が一致	Foongus
+MC-049	モロバレル		Amoonguss	Amoonguss	Grass				入れる	規則と Bulbapedia が一致	Amoonguss
+MC-050	デンチュラ		Galvantula	Galvantula	Grass				入れる	規則と Bulbapedia が一致	Galvantula
+MC-051	アイアント		Durant	Durant	Grass				入れる	規則と Bulbapedia が一致	Durant
+MC-052	アイアントex		Durant ex	Durant ex	Grass				入れる	規則と Bulbapedia が一致	Durant ex
+MC-053	ビリジオン		Virizion	Virizion	Grass				入れる	規則と Bulbapedia が一致	Virizion
+MC-054	ビリジオン		Virizion	Virizion	Grass				入れる	規則と Bulbapedia が一致	Virizion
+MC-055	ボクレー		Phantump	Phantump	Grass				入れる	規則と Bulbapedia が一致	Phantump
+MC-056	オーロット		Trevenant	Trevenant	Grass				入れる	規則と Bulbapedia が一致	Trevenant
+MC-057	アゴジムシ		Grubbin	Grubbin	Grass				入れる	規則と Bulbapedia が一致	Grubbin
+MC-058	ネマシュ		Morelull	Morelull	Grass				入れる	規則と Bulbapedia が一致	Morelull
+MC-059	マシェード		Shiinotic	Shiinotic	Grass				入れる	規則と Bulbapedia が一致	Shiinotic
+MC-060	ダダリン		Dhelmise	Dhelmise	Grass				入れる	規則と Bulbapedia が一致	Dhelmise
+MC-061	カプ・ブルル		Tapu Bulu	Tapu Bulu	Grass				入れる	規則と Bulbapedia が一致	Tapu Bulu
+MC-062	カジッチュ		Applin	Applin	Grass				入れる	規則と Bulbapedia が一致	Applin
+MC-063	カミッチュ		Dipplin	Dipplin	Grass				入れる	規則と Bulbapedia が一致	Dipplin
+MC-064	カミツオロチex		Hydrapple ex	Hydrapple ex	Grass				入れる	規則と Bulbapedia が一致	Hydrapple ex
+MC-065	ニャオハ		Sprigatito	Sprigatito	Grass				入れる	規則と Bulbapedia が一致	Sprigatito
+MC-066	ニャローテ		Floragato	Floragato	Grass				入れる	規則と Bulbapedia が一致	Floragato
+MC-067	マスカーニャ		Meowscarada	Meowscarada	Grass				入れる	規則と Bulbapedia が一致	Meowscarada
+MC-068	ニャオハex		Sprigatito ex	Sprigatito ex	Grass				入れる	規則と Bulbapedia が一致	Sprigatito ex
+MC-069	ミニーブ		Smoliv	Smoliv	Grass				入れる	規則と Bulbapedia が一致	Smoliv
+MC-070	オリーニョ		Dolliv	Dolliv	Grass				入れる	規則と Bulbapedia が一致	Dolliv
+MC-071	オリーヴァex		Arboliva ex	Arboliva ex	Grass				入れる	規則と Bulbapedia が一致	Arboliva ex
+MC-072	アノクサ		Bramblin	Bramblin	Grass				入れる	規則と Bulbapedia が一致	Bramblin
+MC-073	アノホラグサ		Brambleghast	Brambleghast	Grass				入れる	規則と Bulbapedia が一致	Brambleghast
+MC-074	ノノクラゲ		Toedscool	Toedscool	Grass				入れる	規則と Bulbapedia が一致	Toedscool
+MC-075	リククラゲ		Toedscruel	Toedscruel	Grass				入れる	規則と Bulbapedia が一致	Toedscruel
+MC-076	カプサイジ		Capsakid	Capsakid	Grass				入れる	規則と Bulbapedia が一致	Capsakid
+MC-077	テツノイサハex		Iron Leaves ex	Iron Leaves ex	Grass				入れる	規則と Bulbapedia が一致	Iron Leaves ex
+MC-078	チャデス		Poltchageist	Poltchageist	Grass				入れる	規則と Bulbapedia が一致	Poltchageist
+MC-079	ヤバソチャex		Sinistcha ex	Sinistcha ex	Grass				入れる	規則と Bulbapedia が一致	Sinistcha ex
+MC-083	ヒトカゲ		Charmander	Charmander	Fire				入れる	規則と Bulbapedia が一致	Charmander
+MC-084	リザード		Charmeleon	Charmeleon	Fire				入れる	規則と Bulbapedia が一致	Charmeleon
+MC-086	ポニータ		Ponyta	Ponyta	Fire				入れる	規則と Bulbapedia が一致	Ponyta
+MC-087	ポニータ		Ponyta	Ponyta	Fire				入れる	規則と Bulbapedia が一致	Ponyta
+MC-088	ギャロップ		Rapidash	Rapidash	Fire				入れる	規則と Bulbapedia が一致	Rapidash
+MC-089	ギャロップ		Rapidash	Rapidash	Fire				入れる	規則と Bulbapedia が一致	Rapidash
+MC-090	ギャロップ		Rapidash	Rapidash	Fire				入れる	規則と Bulbapedia が一致	Rapidash
+MC-091	ブーバー		Magmar	Magmar	Fire				入れる	規則と Bulbapedia が一致	Magmar
+MC-092	ブーバーン		Magmortar	Magmortar	Fire				入れる	規則と Bulbapedia が一致	Magmortar
+MC-093	パルデア ケンタロス		Paldean Tauros	Paldean Tauros	Fire				入れる	規則と Bulbapedia が一致	Paldean Tauros
+MC-094	ブースターex		Flareon ex	Flareon ex	Fire				入れる	規則と Bulbapedia が一致	Flareon ex
+MC-095	マグマッグ		Slugma	Slugma	Fire				入れる	規則と Bulbapedia が一致	Slugma
+MC-096	マグカルゴex		Magcargo ex	Magcargo ex	Fire				入れる	規則と Bulbapedia が一致	Magcargo ex
+MC-097	デルビル		Houndour	Houndour	Fire				入れる	規則と Bulbapedia が一致	Houndour
+MC-098	ヘルガー		Houndoom	Houndoom	Fire				入れる	規則と Bulbapedia が一致	Houndoom
+MC-099	ロケット団のデルビル			Team Rocket's Houndour	Fire	Krgc	TCGdex日本語版	sv10-037	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Houndour
+MC-100	ロケット団のヘルガー			Team Rocket's Houndoom	Fire	Anesaki Dynamic	TCGdex日本語版	sv10-038	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Houndoom
+MC-101	コータス		Torkoal	Torkoal	Fire				入れる	規則と Bulbapedia が一致	Torkoal
+MC-102	ポワルン たいようのすがた			Castform Sunny Form	Fire	osare	TCGdex日本語版	sv08-020	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Castform Sunny Form
+MC-103	ヒコザル		Chimchar	Chimchar	Fire				入れる	規則と Bulbapedia が一致	Chimchar
+MC-104	モウカザル		Monferno	Monferno	Fire				入れる	規則と Bulbapedia が一致	Monferno
+MC-105	ゴウカザル		Infernape	Infernape	Fire				入れる	規則と Bulbapedia が一致	Infernape
+MC-106	ビクティニ		Victini	Victini	Fire				入れる	規則と Bulbapedia が一致	Victini
+MC-107	ビクティニ		Victini	Victini	Fire				入れる	規則と Bulbapedia が一致	Victini
+MC-108	ポカブ		Tepig	Tepig	Fire				入れる	規則と Bulbapedia が一致	Tepig
+MC-109	ポカブ		Tepig	Tepig	Fire				入れる	規則と Bulbapedia が一致	Tepig
+MC-110	チャオブー		Pignite	Pignite	Fire				入れる	規則と Bulbapedia が一致	Pignite
+MC-111	チャオブー		Pignite	Pignite	Fire				入れる	規則と Bulbapedia が一致	Pignite
+MC-112	エンブオー		Emboar	Emboar	Fire				入れる	規則と Bulbapedia が一致	Emboar
+MC-113	メガエンブオーex		Mega Emboar ex	Mega Emboar ex	Fire				入れる	規則と Bulbapedia が一致	Mega Emboar ex
+MC-114	バオップ		Pansear	Pansear	Fire				入れる	規則と Bulbapedia が一致	Pansear
+MC-115	バオッキー		Simisear	Simisear	Fire				入れる	規則と Bulbapedia が一致	Simisear
+MC-116	ダルマッカ		Darumaka	Darumaka	Fire				入れる	規則と Bulbapedia が一致	Darumaka
+MC-117	ヒヒダルマ		Darmanitan	Darmanitan	Fire				入れる	規則と Bulbapedia が一致	Darmanitan
+MC-118	Nのダルマッカ			N's Darumaka	Fire	Gemi	TCGdex日本語版	sv09-026 me02.5-032	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	N's Darumaka
+MC-119	Nのヒヒダルマ			N's Darmanitan	Fire	nagimiso	TCGdex日本語版	sv09-027 me02.5-033	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	N's Darmanitan
+MC-120	クイタラン		Heatmor	Heatmor	Fire				入れる	規則と Bulbapedia が一致	Heatmor
+MC-121	メラルバ		Larvesta	Larvesta	Fire				入れる	規則と Bulbapedia が一致	Larvesta
+MC-122	ウルガモス		Volcarona	Volcarona	Fire				入れる	規則と Bulbapedia が一致	Volcarona
+MC-123	ウルガモス		Volcarona	Volcarona	Fire				入れる	規則と Bulbapedia が一致	Volcarona
+MC-124	ウルガモス		Volcarona	Volcarona	Fire				入れる	規則と Bulbapedia が一致	Volcarona
+MC-125	レシラム		Reshiram	Reshiram	Fire				入れる	規則と Bulbapedia が一致	Reshiram
+MC-126	レシラムex		Reshiram ex	Reshiram ex	Fire				入れる	規則と Bulbapedia が一致	Reshiram ex
+MC-127	シシコ		Litleo	Litleo	Fire				入れる	規則と Bulbapedia が一致	Litleo
+MC-128	カエンジシ		Pyroar	Pyroar	Fire				入れる	規則と Bulbapedia が一致	Pyroar
+MC-129	ボルケニオンex		Volcanion ex	Volcanion ex	Fire				入れる	規則と Bulbapedia が一致	Volcanion ex
+MC-130	ニャビー		Litten	Litten	Fire				入れる	規則と Bulbapedia が一致	Litten
+MC-131	ニャヒート		Torracat	Torracat	Fire				入れる	規則と Bulbapedia が一致	Torracat
+MC-132	ガオガエンex		Incineroar ex	Incineroar ex	Fire				入れる	規則と Bulbapedia が一致	Incineroar ex
+MC-133	オドリドリ		Oricorio	Oricorio	Fire				入れる	規則と Bulbapedia が一致	Oricorio
+MC-134	ヤトウモリ		Salandit	Salandit	Fire				入れる	規則と Bulbapedia が一致	Salandit
+MC-135	エンニュート		Salazzle	Salazzle	Fire				入れる	規則と Bulbapedia が一致	Salazzle
+MC-136	バクガメス		Turtonator	Turtonator	Fire				入れる	規則と Bulbapedia が一致	Turtonator
+MC-137	ヒバニー		Scorbunny	Scorbunny	Fire				入れる	規則と Bulbapedia が一致	Scorbunny
+MC-138	ラビフット		Raboot	Raboot	Fire				入れる	規則と Bulbapedia が一致	Raboot
+MC-139	エースバーンex		Cinderace ex	Cinderace ex	Fire				入れる	規則と Bulbapedia が一致	Cinderace ex
+MC-140	ヤクデ		Sizzlipede	Sizzlipede	Fire				入れる	規則と Bulbapedia が一致	Sizzlipede
+MC-141	マルヤクデ		Centiskorch	Centiskorch	Fire				入れる	規則と Bulbapedia が一致	Centiskorch
+MC-142	ホゲータ		Fuecoco	Fuecoco	Fire				入れる	規則と Bulbapedia が一致	Fuecoco
+MC-143	アチゲータ		Crocalor	Crocalor	Fire				入れる	規則と Bulbapedia が一致	Crocalor
+MC-144	ラウドボーン		Skeledirge	Skeledirge	Fire				入れる	規則と Bulbapedia が一致	Skeledirge
+MC-145	カルボウ		Charcadet	Charcadet	Fire				入れる	規則と Bulbapedia が一致	Charcadet
+MC-146	グレンアルマex		Armarouge ex	Armarouge ex	Fire				入れる	規則と Bulbapedia が一致	Armarouge ex
+MC-147	スコヴィランex		Scovillain ex	Scovillain ex	Fire				入れる	規則と Bulbapedia が一致	Scovillain ex
+MC-150	ウガツホムラ		Gouging Fire	Gouging Fire	Fire				入れる	規則と Bulbapedia が一致	Gouging Fire
+MC-151	ウガツホムラex		Gouging Fire ex	Gouging Fire ex	Fire				入れる	規則と Bulbapedia が一致	Gouging Fire ex
+MC-152	タッツー		Horsea	Horsea	Water				入れる	規則と Bulbapedia が一致	Horsea
+MC-153	シードラ		Seadra	Seadra	Water				入れる	規則と Bulbapedia が一致	Seadra
+MC-154	キングドラex		Kingdra ex	Kingdra ex	Water				入れる	規則と Bulbapedia が一致	Kingdra ex
+MC-155	カスミのヒトデマン			Misty's Staryu	Water	Shinya Komatsu	TCGdex日本語版	sv10-046	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Misty's Staryu
+MC-156	カスミのスターミー			Misty's Starmie	Water	Natsumi Yoshida	TCGdex日本語版	sv10-047	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Misty's Starmie
+MC-157	カスミのコイキング			Misty's Magikarp	Water	Shimaris Yukichi	TCGdex日本語版	sv10-048	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Misty's Magikarp
+MC-158	カスミのギャラドス			Misty's Gyarados	Water	GOSSAN	TCGdex日本語版	sv10-049	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Misty's Gyarados
+MC-159	ラプラス		Lapras	Lapras	Water				入れる	規則と Bulbapedia が一致	Lapras
+MC-160	カスミのラプラス			Misty's Lapras	Water	En Morikura	TCGdex日本語版	sv10-050	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Misty's Lapras
+MC-161	シャワーズex		Vaporeon ex	Vaporeon ex	Water				入れる	規則と Bulbapedia が一致	Vaporeon ex
+MC-162	グレイシアex		Glaceon ex	Glaceon ex	Water				入れる	規則と Bulbapedia が一致	Glaceon ex
+MC-163	フリーザー		Articuno	Articuno	Water				入れる	規則と Bulbapedia が一致	Articuno
+MC-164	ワニノコ		Totodile	Totodile	Water				入れる	規則と Bulbapedia が一致	Totodile
+MC-165	ワニノコ		Totodile	Totodile	Water				入れる	規則と Bulbapedia が一致	Totodile
+MC-166	アリゲイツ		Croconaw	Croconaw	Water				入れる	規則と Bulbapedia が一致	Croconaw
+MC-167	アリゲイツ		Croconaw	Croconaw	Water				入れる	規則と Bulbapedia が一致	Croconaw
+MC-168	オーダイル		Feraligatr	Feraligatr	Water				入れる	規則と Bulbapedia が一致	Feraligatr
+MC-169	メガオーダイルex		Mega Feraligatr ex	Mega Feraligatr ex	Water				入れる	規則と Bulbapedia が一致	Mega Feraligatr ex
+MC-170	ニューラ		Sneasel	Sneasel	Water				入れる	規則と Bulbapedia が一致	Sneasel
+MC-171	マニューラ		Weavile	Weavile	Water				入れる	規則と Bulbapedia が一致	Weavile
+MC-172	マンタイン		Mantine	Mantine	Water				入れる	規則と Bulbapedia が一致	Mantine
+MC-173	マンタイン		Mantine	Mantine	Water				入れる	規則と Bulbapedia が一致	Mantine
+MC-174	スイクン		Suicune	Suicune	Water				入れる	規則と Bulbapedia が一致	Suicune
+MC-175	ハスボー		Lotad	Lotad	Water				入れる	規則と Bulbapedia が一致	Lotad
+MC-176	ハスブレロ		Lombre	Lombre	Water				入れる	規則と Bulbapedia が一致	Lombre
+MC-177	ルンパッパ		Ludicolo	Ludicolo	Water				入れる	規則と Bulbapedia が一致	Ludicolo
+MC-178	キバニア		Carvanha	Carvanha	Water				入れる	規則と Bulbapedia が一致	Carvanha
+MC-179	サメハダー		Sharpedo	Sharpedo	Water				入れる	規則と Bulbapedia が一致	Sharpedo
+MC-180	ホエルコ		Wailmer	Wailmer	Water				入れる	規則と Bulbapedia が一致	Wailmer
+MC-181	ホエルオー		Wailord	Wailord	Water				入れる	規則と Bulbapedia が一致	Wailord
+MC-182	ヘイガニ		Corphish	Corphish	Water				入れる	規則と Bulbapedia が一致	Corphish
+MC-183	シザリガー		Crawdaunt	Crawdaunt	Water				入れる	規則と Bulbapedia が一致	Crawdaunt
+MC-184	ヒンバス		Feebas	Feebas	Water				入れる	規則と Bulbapedia が一致	Feebas
+MC-185	ミロカロスex		Milotic ex	Milotic ex	Water				入れる	規則と Bulbapedia が一致	Milotic ex
+MC-186	ユキワラシ		Snorunt	Snorunt	Water				入れる	規則と Bulbapedia が一致	Snorunt
+MC-187	オニゴーリ		Glalie	Glalie	Water				入れる	規則と Bulbapedia が一致	Glalie
+MC-188	タマザラシ		Spheal	Spheal	Water				入れる	規則と Bulbapedia が一致	Spheal
+MC-189	トドグラー		Sealeo	Sealeo	Water				入れる	規則と Bulbapedia が一致	Sealeo
+MC-190	トドゼルガ		Walrein	Walrein	Water				入れる	規則と Bulbapedia が一致	Walrein
+MC-191	レジアイス		Regice	Regice	Water				入れる	規則と Bulbapedia が一致	Regice
+MC-192	レジアイスex		Regice ex	Regice ex	Water				入れる	規則と Bulbapedia が一致	Regice ex
+MC-193	ブイゼル		Buizel	Buizel	Water				入れる	規則と Bulbapedia が一致	Buizel
+MC-194	フローゼル		Floatzel	Floatzel	Water				入れる	規則と Bulbapedia が一致	Floatzel
+MC-195	ケイコウオ		Finneon	Finneon	Water				入れる	規則と Bulbapedia が一致	Finneon
+MC-196	ネオラント		Lumineon	Lumineon	Water				入れる	規則と Bulbapedia が一致	Lumineon
+MC-197	コアルヒー		Ducklett	Ducklett	Water				入れる	規則と Bulbapedia が一致	Ducklett
+MC-198	スワンナ		Swanna	Swanna	Water				入れる	規則と Bulbapedia が一致	Swanna
+MC-199	バニプッチ		Vanillite	Vanillite	Water				入れる	規則と Bulbapedia が一致	Vanillite
+MC-200	バニリッチ		Vanillish	Vanillish	Water				入れる	規則と Bulbapedia が一致	Vanillish
+MC-201	バイバニラ		Vanilluxe	Vanilluxe	Water				入れる	規則と Bulbapedia が一致	Vanilluxe
+MC-202	フリージオ		Cryogonal	Cryogonal	Water				入れる	規則と Bulbapedia が一致	Cryogonal
+MC-203	キュレムex		Kyurem ex	Kyurem ex	Water				入れる	規則と Bulbapedia が一致	Kyurem ex
+MC-204	ブラックキュレムex			Black Kyurem ex	Water	kawayoo	TCGdex日本語版	sv08-048	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Black Kyurem ex
+MC-205	ケルディオex		Keldeo ex	Keldeo ex	Water				入れる	規則と Bulbapedia が一致	Keldeo ex
+MC-206	ケロマツ		Froakie	Froakie	Water				入れる	規則と Bulbapedia が一致	Froakie
+MC-207	ゲコガシラ		Frogadier	Frogadier	Water				入れる	規則と Bulbapedia が一致	Frogadier
+MC-208	ゲッコウガex		Greninja ex	Greninja ex	Water				入れる	規則と Bulbapedia が一致	Greninja ex
+MC-209	ケケンカニ		Crabominable	Crabominable	Water				入れる	規則と Bulbapedia が一致	Crabominable
+MC-210	ウッウ		Cramorant	Cramorant	Water				入れる	規則と Bulbapedia が一致	Cramorant
+MC-211	クワッス		Quaxly	Quaxly	Water				入れる	規則と Bulbapedia が一致	Quaxly
+MC-212	ウェルカモ		Quaxwell	Quaxwell	Water				入れる	規則と Bulbapedia が一致	Quaxwell
+MC-213	ウェーニバル		Quaquaval	Quaquaval	Water				入れる	規則と Bulbapedia が一致	Quaquaval
+MC-214	ナミイルカ		Finizen	Finizen	Water				入れる	規則と Bulbapedia が一致	Finizen
+MC-215	イルカマン		Palafin	Palafin	Water				入れる	規則と Bulbapedia が一致	Palafin
+MC-216	イルカマンex		Palafin ex	Palafin ex	Water				入れる	規則と Bulbapedia が一致	Palafin ex
+MC-217	アルクジラ		Cetoddle	Cetoddle	Water				入れる	規則と Bulbapedia が一致	Cetoddle
+MC-218	ハルクジラ		Cetitan	Cetitan	Water				入れる	規則と Bulbapedia が一致	Cetitan
+MC-219	ミガルーサ		Veluza	Veluza	Water				入れる	規則と Bulbapedia が一致	Veluza
+MC-220	ヘイラッシャex		Dondozo ex	Dondozo ex	Water				入れる	規則と Bulbapedia が一致	Dondozo ex
+MC-221	ウネルミナモ		Walking Wake	Walking Wake	Water				入れる	規則と Bulbapedia が一致	Walking Wake
+MC-222	ウネルミナモex		Walking Wake ex	Walking Wake ex	Water				入れる	規則と Bulbapedia が一致	Walking Wake ex
+MC-225	ピカチュウ		Pikachu	Pikachu	Lightning				入れる	規則と Bulbapedia が一致	Pikachu
+MC-226	ライチュウ		Raichu	Raichu	Lightning				入れる	規則と Bulbapedia が一致	Raichu
+MC-227	ピカチュウex		Pikachu ex	Pikachu ex	Lightning				入れる	規則と Bulbapedia が一致	Pikachu ex
+MC-228	アローラ イシツブテ		Alolan Geodude	Alolan Geodude	Lightning				入れる	規則と Bulbapedia が一致	Alolan Geodude
+MC-229	アローラ ゴローン		Alolan Graveler	Alolan Graveler	Lightning				入れる	規則と Bulbapedia が一致	Alolan Graveler
+MC-230	アローラ ゴローニャ		Alolan Golem	Alolan Golem	Lightning				入れる	規則と Bulbapedia が一致	Alolan Golem
+MC-231	コイル		Magnemite	Magnemite	Lightning				入れる	規則と Bulbapedia が一致	Magnemite
+MC-232	レアコイル		Magneton	Magneton	Lightning				入れる	規則と Bulbapedia が一致	Magneton
+MC-233	ビリリダマex		Voltorb ex	Voltorb ex	Lightning				入れる	規則と Bulbapedia が一致	Voltorb ex
+MC-234	ナンジャモのビリリダマ			Iono's Voltorb	Lightning	Kazumasa Yasukuni	TCGdex日本語版	sv09-047	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Iono's Voltorb
+MC-235	ナンジャモのマルマイン			Iono's Electrode	Lightning	GOTO minori	TCGdex日本語版	sv09-048	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Iono's Electrode
+MC-236	エレブー		Electabuzz	Electabuzz	Lightning				入れる	規則と Bulbapedia が一致	Electabuzz
+MC-237	エレキブルex		Electivire ex	Electivire ex	Lightning				入れる	規則と Bulbapedia が一致	Electivire ex
+MC-238	サンダースex		Jolteon ex	Jolteon ex	Lightning				入れる	規則と Bulbapedia が一致	Jolteon ex
+MC-239	サンダー		Zapdos	Zapdos	Lightning				入れる	規則と Bulbapedia が一致	Zapdos
+MC-240	サンダー		Zapdos	Zapdos	Lightning				入れる	規則と Bulbapedia が一致	Zapdos
+MC-241	ヒビキのピチュー			Ethan's Pichu	Lightning	Narumi Sato	TCGdex日本語版	sv10-071	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Ethan's Pichu
+MC-242	ラクライ		Electrike	Electrike	Lightning				入れる	規則と Bulbapedia が一致	Electrike
+MC-243	ライボルト		Manectric	Manectric	Lightning				入れる	規則と Bulbapedia が一致	Manectric
+MC-244	コリンク		Shinx	Shinx	Lightning				入れる	規則と Bulbapedia が一致	Shinx
+MC-245	ルクシオ		Luxio	Luxio	Lightning				入れる	規則と Bulbapedia が一致	Luxio
+MC-246	レントラーex		Luxray ex	Luxray ex	Lightning				入れる	規則と Bulbapedia が一致	Luxray ex
+MC-247	パチリス		Pachirisu	Pachirisu	Lightning				入れる	規則と Bulbapedia が一致	Pachirisu
+MC-248	ロトム		Rotom	Rotom	Lightning				入れる	規則と Bulbapedia が一致	Rotom
+MC-249	シママ		Blitzle	Blitzle	Lightning				入れる	規則と Bulbapedia が一致	Blitzle
+MC-250	シママ		Blitzle	Blitzle	Lightning				入れる	規則と Bulbapedia が一致	Blitzle
+MC-251	ゼブライカ		Zebstrika	Zebstrika	Lightning				入れる	規則と Bulbapedia が一致	Zebstrika
+MC-252	ゼブライカ		Zebstrika	Zebstrika	Lightning				入れる	規則と Bulbapedia が一致	Zebstrika
+MC-253	エモンガ		Emolga	Emolga	Lightning				入れる	規則と Bulbapedia が一致	Emolga
+MC-254	バチュル		Joltik	Joltik	Lightning				入れる	規則と Bulbapedia が一致	Joltik
+MC-255	デンチュラex		Galvantula ex	Galvantula ex	Lightning				入れる	規則と Bulbapedia が一致	Galvantula ex
+MC-256	シビシラス		Tynamo	Tynamo	Lightning				入れる	規則と Bulbapedia が一致	Tynamo
+MC-257	シビビール		Eelektrik	Eelektrik	Lightning				入れる	規則と Bulbapedia が一致	Eelektrik
+MC-258	ボルトロス		Thundurus	Thundurus	Lightning				入れる	規則と Bulbapedia が一致	Thundurus
+MC-259	ゼクロムex		Zekrom ex	Zekrom ex	Lightning				入れる	規則と Bulbapedia が一致	Zekrom ex
+MC-260	エリキテル		Helioptile	Helioptile	Lightning				入れる	規則と Bulbapedia が一致	Helioptile
+MC-261	エレザード		Heliolisk	Heliolisk	Lightning				入れる	規則と Bulbapedia が一致	Heliolisk
+MC-262	デンヂムシ		Charjabug	Charjabug	Lightning				入れる	規則と Bulbapedia が一致	Charjabug
+MC-263	クワガノン		Vikavolt	Vikavolt	Lightning				入れる	規則と Bulbapedia が一致	Vikavolt
+MC-264	トゲデマル		Togedemaru	Togedemaru	Lightning				入れる	規則と Bulbapedia が一致	Togedemaru
+MC-265	カプ・コケコ		Tapu Koko	Tapu Koko	Lightning				入れる	規則と Bulbapedia が一致	Tapu Koko
+MC-266	ゼラオラ		Zeraora	Zeraora	Lightning				入れる	規則と Bulbapedia が一致	Zeraora
+MC-267	ゼラオラ		Zeraora	Zeraora	Lightning				入れる	規則と Bulbapedia が一致	Zeraora
+MC-268	ワンパチ		Yamper	Yamper	Lightning				入れる	規則と Bulbapedia が一致	Yamper
+MC-269	パルスワン		Boltund	Boltund	Lightning				入れる	規則と Bulbapedia が一致	Boltund
+MC-270	モルペコ		Morpeko	Morpeko	Lightning				入れる	規則と Bulbapedia が一致	Morpeko
+MC-271	ズピカ		Tadbulb	Tadbulb	Lightning				入れる	規則と Bulbapedia が一致	Tadbulb
+MC-272	ハラバリー		Bellibolt	Bellibolt	Lightning				入れる	規則と Bulbapedia が一致	Bellibolt
+MC-273	ナンジャモのズピカ			Iono's Tadbulb	Lightning	kurumitsu	TCGdex日本語版	sv09-052 me02.5-069	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Iono's Tadbulb
+MC-274	ナンジャモのハラバリーex			Iono's Bellibolt ex	Lightning	5ban Graphics	TCGdex日本語版	sv09-053 me02.5-070 sv09-172 sv09-188	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Iono's Bellibolt ex
+MC-275	カイデン		Wattrel	Wattrel	Lightning				入れる	規則と Bulbapedia が一致	Wattrel
+MC-276	タイカイデン		Kilowattrel	Kilowattrel	Lightning				入れる	規則と Bulbapedia が一致	Kilowattrel
+MC-277	タイカイデン		Kilowattrel	Kilowattrel	Lightning				入れる	規則と Bulbapedia が一致	Kilowattrel
+MC-278	ナンジャモのカイデン			Iono's Wattrel	Lightning	Akira Komayama	TCGdex日本語版	sv09-054 me02.5-071	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Iono's Wattrel
+MC-279	ナンジャモのタイカイデン			Iono's Kilowattrel	Lightning	chibi	TCGdex日本語版	sv09-055 me02.5-072	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Iono's Kilowattrel
+MC-280	テツノカイナ		Iron Hands	Iron Hands	Lightning				入れる	規則と Bulbapedia が一致	Iron Hands
+MC-281	テツノイバラ		Iron Thorns	Iron Thorns	Lightning				入れる	規則と Bulbapedia が一致	Iron Thorns
+MC-282	テツノイバラex		Iron Thorns ex	Iron Thorns ex	Lightning				入れる	規則と Bulbapedia が一致	Iron Thorns ex
+MC-283	ミライドン		Miraidon	Miraidon	Lightning				入れる	規則と Bulbapedia が一致	Miraidon
+MC-284	ミライドンex		Miraidon ex	Miraidon ex	Lightning				入れる	規則と Bulbapedia が一致	Miraidon ex
+MC-285	ピッピ		Clefairy	Clefairy	Psychic				入れる	規則と Bulbapedia が一致	Clefairy
+MC-286	ピクシー		Clefable	Clefable	Psychic				入れる	規則と Bulbapedia が一致	Clefable
+MC-287	リーリエのピッピex			Lillie's Clefairy ex	Psychic	5ban Graphics	TCGdex日本語版	sv09-056 me02.5-076 sv09-173	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Lillie's Clefairy ex
+MC-288	ロケット団のスリープ			Team Rocket's Drowzee	Psychic	matazo	TCGdex日本語版	sv10-079	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Drowzee
+MC-289	ロケット団のスリーパー			Team Rocket's Hypno	Psychic	Yuya Oka	TCGdex日本語版	sv10-080	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Hypno
+MC-290	ロケット団のミュウツーex			Team Rocket's Mewtwo ex	Psychic	aky CG Works	TCGdex日本語版	me02.5-079 sv10-081 svp-205 sv10-213 svp-216 sv10-240	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Mewtwo ex
+MC-291	トゲピー		Togepi	Togepi	Psychic				入れる	規則と Bulbapedia が一致	Togepi
+MC-292	トゲチック		Togetic	Togetic	Psychic				入れる	規則と Bulbapedia が一致	Togetic
+MC-293	トゲキッス		Togekiss	Togekiss	Psychic				入れる	規則と Bulbapedia が一致	Togekiss
+MC-294	マリル		Marill	Marill	Psychic				入れる	規則と Bulbapedia が一致	Marill
+MC-295	マリル		Marill	Marill	Psychic				入れる	規則と Bulbapedia が一致	Marill
+MC-296	マリルリ		Azumarill	Azumarill	Psychic				入れる	規則と Bulbapedia が一致	Azumarill
+MC-297	マリルリex		Azumarill ex	Azumarill ex	Psychic				入れる	規則と Bulbapedia が一致	Azumarill ex
+MC-298	エーフィex		Espeon ex	Espeon ex	Psychic				入れる	規則と Bulbapedia が一致	Espeon ex
+MC-299	ニンフィアex		Sylveon ex	Sylveon ex	Psychic				入れる	規則と Bulbapedia が一致	Sylveon ex
+MC-300	キリンリキ		Girafarig	Girafarig	Psychic				入れる	規則と Bulbapedia が一致	Girafarig
+MC-301	キリンリキ		Girafarig	Girafarig	Psychic				入れる	規則と Bulbapedia が一致	Girafarig
+MC-302	リキキリン		Farigiraf	Farigiraf	Psychic				入れる	規則と Bulbapedia が一致	Farigiraf
+MC-303	ブルー		Snubbull	Snubbull	Psychic				入れる	規則と Bulbapedia が一致	Snubbull
+MC-304	グランブル		Granbull	Granbull	Psychic				入れる	規則と Bulbapedia が一致	Granbull
+MC-305	バネブー		Spoink	Spoink	Psychic				入れる	規則と Bulbapedia が一致	Spoink
+MC-306	ブーピッグ		Grumpig	Grumpig	Psychic				入れる	規則と Bulbapedia が一致	Grumpig
+MC-307	カゲボウズ		Shuppet	Shuppet	Psychic				入れる	規則と Bulbapedia が一致	Shuppet
+MC-308	ヨマワル		Duskull	Duskull	Psychic				入れる	規則と Bulbapedia が一致	Duskull
+MC-309	サマヨール		Dusclops	Dusclops	Psychic				入れる	規則と Bulbapedia が一致	Dusclops
+MC-310	ヨノワール		Dusknoir	Dusknoir	Psychic				入れる	規則と Bulbapedia が一致	Dusknoir
+MC-311	ラティアス		Latias	Latias	Psychic				入れる	規則と Bulbapedia が一致	Latias
+MC-312	ラティアスex		Latias ex	Latias ex	Psychic				入れる	規則と Bulbapedia が一致	Latias ex
+MC-313	ラティオス		Latios	Latios	Psychic				入れる	規則と Bulbapedia が一致	Latios
+MC-314	ユクシー		Uxie	Uxie	Psychic				入れる	規則と Bulbapedia が一致	Uxie
+MC-315	エムリット		Mesprit	Mesprit	Psychic				入れる	規則と Bulbapedia が一致	Mesprit
+MC-316	アグノム		Azelf	Azelf	Psychic				入れる	規則と Bulbapedia が一致	Azelf
+MC-317	クレセリア		Cresselia	Cresselia	Psychic				入れる	規則と Bulbapedia が一致	Cresselia
+MC-318	シンボラー		Sigilyph	Sigilyph	Psychic				入れる	規則と Bulbapedia が一致	Sigilyph
+MC-319	デスマス		Yamask	Yamask	Psychic				入れる	規則と Bulbapedia が一致	Yamask
+MC-320	デスマス		Yamask	Yamask	Psychic				入れる	規則と Bulbapedia が一致	Yamask
+MC-321	デスカーン		Cofagrigus	Cofagrigus	Psychic				入れる	規則と Bulbapedia が一致	Cofagrigus
+MC-322	デスカーン		Cofagrigus	Cofagrigus	Psychic				入れる	規則と Bulbapedia が一致	Cofagrigus
+MC-323	ゴチム		Gothita	Gothita	Psychic				入れる	規則と Bulbapedia が一致	Gothita
+MC-324	ゴチミル		Gothorita	Gothorita	Psychic				入れる	規則と Bulbapedia が一致	Gothorita
+MC-325	ゴチルゼル		Gothitelle	Gothitelle	Psychic				入れる	規則と Bulbapedia が一致	Gothitelle
+MC-326	リグレー		Elgyem	Elgyem	Psychic				入れる	規則と Bulbapedia が一致	Elgyem
+MC-327	オーベム		Beheeyem	Beheeyem	Psychic				入れる	規則と Bulbapedia が一致	Beheeyem
+MC-328	フラベベ		Flabébé	Flabébé	Psychic				入れる	規則と Bulbapedia が一致	Flabébé
+MC-329	フラエッテ		Floette	Floette	Psychic				入れる	規則と Bulbapedia が一致	Floette
+MC-330	フラージェス		Florges	Florges	Psychic				入れる	規則と Bulbapedia が一致	Florges
+MC-331	ニャスパー		Espurr	Espurr	Psychic				入れる	規則と Bulbapedia が一致	Espurr
+MC-332	ニャオニクス		Meowstic	Meowstic	Psychic				入れる	規則と Bulbapedia が一致	Meowstic
+MC-333	ペロッパフ		Swirlix	Swirlix	Psychic				入れる	規則と Bulbapedia が一致	Swirlix
+MC-334	ペロリーム		Slurpuff	Slurpuff	Psychic				入れる	規則と Bulbapedia が一致	Slurpuff
+MC-335	ゼルネアス		Xerneas	Xerneas	Psychic				入れる	規則と Bulbapedia が一致	Xerneas
+MC-336	オドリドリ		Oricorio	Oricorio	Psychic				入れる	規則と Bulbapedia が一致	Oricorio
+MC-337	オドリドリ		Oricorio	Oricorio	Psychic				入れる	規則と Bulbapedia が一致	Oricorio
+MC-338	リーリエのアブリー			Lillie's Cutiefly	Psychic	Saya Tsuruta	TCGdex日本語版	sv09-066	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Lillie's Cutiefly
+MC-339	リーリエのアブリボン			Lillie's Ribombee	Psychic	tono	TCGdex日本語版	svp-183	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Lillie's Ribombee
+MC-340	リーリエのキュワワー			Lillie's Comfey	Psychic	Narumi Sato	TCGdex日本語版	sv09-068	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Lillie's Comfey
+MC-341	ロケット団のミミッキュ			Team Rocket's Mimikyu	Psychic	DOM	TCGdex日本語版	sv10-087 me02.5-097	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Mimikyu
+MC-342	カプ・テテフ		Tapu Lele	Tapu Lele	Psychic				入れる	規則と Bulbapedia が一致	Tapu Lele
+MC-343	ベロバー		Impidimp	Impidimp	Psychic				入れる	規則と Bulbapedia が一致	Impidimp
+MC-344	ギモー		Morgrem	Morgrem	Psychic				入れる	規則と Bulbapedia が一致	Morgrem
+MC-345	オーロンゲ		Grimmsnarl	Grimmsnarl	Psychic				入れる	規則と Bulbapedia が一致	Grimmsnarl
+MC-346	ラブトロス		Enamorus	Enamorus	Psychic				入れる	規則と Bulbapedia が一致	Enamorus
+MC-347	パピモッチ		Fidough	Fidough	Psychic				入れる	規則と Bulbapedia が一致	Fidough
+MC-348	バウッツェルex		Dachsbun ex	Dachsbun ex	Psychic				入れる	規則と Bulbapedia が一致	Dachsbun ex
+MC-349	ボチ		Greavard	Greavard	Psychic				入れる	規則と Bulbapedia が一致	Greavard
+MC-350	ハカドッグ		Houndstone	Houndstone	Psychic				入れる	規則と Bulbapedia が一致	Houndstone
+MC-351	ハカドッグex		Houndstone ex	Houndstone ex	Psychic				入れる	規則と Bulbapedia が一致	Houndstone ex
+MC-352	サケブシッポ		Scream Tail	Scream Tail	Psychic				入れる	規則と Bulbapedia が一致	Scream Tail
+MC-353	サケブシッポex		Scream Tail ex	Scream Tail ex	Psychic				入れる	規則と Bulbapedia が一致	Scream Tail ex
+MC-354	ハバタクカミ		Flutter Mane	Flutter Mane	Psychic				入れる	規則と Bulbapedia が一致	Flutter Mane
+MC-355	ハバタクカミ		Flutter Mane	Flutter Mane	Psychic				入れる	規則と Bulbapedia が一致	Flutter Mane
+MC-356	コレクレー		Gimmighoul	Gimmighoul	Psychic				入れる	規則と Bulbapedia が一致	Gimmighoul
+MC-357	テツノブジン		Iron Valiant	Iron Valiant	Psychic				入れる	規則と Bulbapedia が一致	Iron Valiant
+MC-358	マシマシラ		Munkidori	Munkidori	Psychic				入れる	規則と Bulbapedia が一致	Munkidori
+MC-359	キチキギス		Fezandipiti	Fezandipiti	Psychic				入れる	規則と Bulbapedia が一致	Fezandipiti
+MC-360	テツノイワオ		Iron Boulder	Iron Boulder	Psychic				入れる	規則と Bulbapedia が一致	Iron Boulder
+MC-361	テツノカシラex		Iron Crown ex	Iron Crown ex	Psychic				入れる	規則と Bulbapedia が一致	Iron Crown ex
+MC-362	ウリムー		Swinub	Swinub	Fighting				入れる	規則と Bulbapedia が一致	Swinub
+MC-363	イノムー		Piloswine	Piloswine	Fighting				入れる	規則と Bulbapedia が一致	Piloswine
+MC-364	マンムーex		Mamoswine ex	Mamoswine ex	Fighting				入れる	規則と Bulbapedia が一致	Mamoswine ex
+MC-365	ゴマゾウ		Phanpy	Phanpy	Fighting				入れる	規則と Bulbapedia が一致	Phanpy
+MC-366	ドンファン		Donphan	Donphan	Fighting				入れる	規則と Bulbapedia が一致	Donphan
+MC-367	カポエラー		Hitmontop	Hitmontop	Fighting				入れる	規則と Bulbapedia が一致	Hitmontop
+MC-368	アサナン		Meditite	Meditite	Fighting				入れる	規則と Bulbapedia が一致	Meditite
+MC-369	チャーレム		Medicham	Medicham	Fighting				入れる	規則と Bulbapedia が一致	Medicham
+MC-370	チャーレムex		Medicham ex	Medicham ex	Fighting				入れる	規則と Bulbapedia が一致	Medicham ex
+MC-371	ルナトーン		Lunatone	Lunatone	Fighting				入れる	規則と Bulbapedia が一致	Lunatone
+MC-372	ソルロック		Solrock	Solrock	Fighting				入れる	規則と Bulbapedia が一致	Solrock
+MC-373	レジロック		Regirock	Regirock	Fighting				入れる	規則と Bulbapedia が一致	Regirock
+MC-374	レジロックex		Regirock ex	Regirock ex	Fighting				入れる	規則と Bulbapedia が一致	Regirock ex
+MC-375	グラードン		Groudon	Groudon	Fighting				入れる	規則と Bulbapedia が一致	Groudon
+MC-376	シロナのフカマル			Cynthia's Gible	Fighting	Tomomi Ozaki	TCGdex日本語版	sv10-102 me02.5-109	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Cynthia's Gible
+MC-377	シロナのガバイト			Cynthia's Gabite	Fighting	Taira Akitsu	TCGdex日本語版	sv10-103 me02.5-110	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Cynthia's Gabite
+MC-378	シロナのガブリアスex			Cynthia's Garchomp ex	Fighting	5ban Graphics	TCGdex日本語版	sv10-104 me02.5-111 sv10-215 sv10-241	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Cynthia's Garchomp ex
+MC-379	リオル		Riolu	Riolu	Fighting				入れる	規則と Bulbapedia が一致	Riolu
+MC-380	ルカリオex		Lucario ex	Lucario ex	Fighting				入れる	規則と Bulbapedia が一致	Lucario ex
+MC-381	グレッグル		Croagunk	Croagunk	Fighting				入れる	規則と Bulbapedia が一致	Croagunk
+MC-382	グレッグル		Croagunk	Croagunk	Fighting				入れる	規則と Bulbapedia が一致	Croagunk
+MC-383	ドクロッグ		Toxicroak	Toxicroak	Fighting				入れる	規則と Bulbapedia が一致	Toxicroak
+MC-384	ドクロッグ		Toxicroak	Toxicroak	Fighting				入れる	規則と Bulbapedia が一致	Toxicroak
+MC-385	モグリュー		Drilbur	Drilbur	Fighting				入れる	規則と Bulbapedia が一致	Drilbur
+MC-386	ドリュウズ		Excadrill	Excadrill	Fighting				入れる	規則と Bulbapedia が一致	Excadrill
+MC-387	ドリュウズex		Excadrill ex	Excadrill ex	Fighting				入れる	規則と Bulbapedia が一致	Excadrill ex
+MC-388	ドッコラー		Timburr	Timburr	Fighting				入れる	規則と Bulbapedia が一致	Timburr
+MC-389	ドテッコツ		Gurdurr	Gurdurr	Fighting				入れる	規則と Bulbapedia が一致	Gurdurr
+MC-390	ローブシン		Conkeldurr	Conkeldurr	Fighting				入れる	規則と Bulbapedia が一致	Conkeldurr
+MC-391	ダゲキ		Sawk	Sawk	Fighting				入れる	規則と Bulbapedia が一致	Sawk
+MC-392	アーケン		Archen	Archen	Fighting				入れる	規則と Bulbapedia が一致	Archen
+MC-393	アーケオス		Archeops	Archeops	Fighting				入れる	規則と Bulbapedia が一致	Archeops
+MC-394	マッギョex		Stunfisk ex	Stunfisk ex	Fighting				入れる	規則と Bulbapedia が一致	Stunfisk ex
+MC-395	コジョフー		Mienfoo	Mienfoo	Fighting				入れる	規則と Bulbapedia が一致	Mienfoo
+MC-396	コジョンド		Mienshao	Mienshao	Fighting				入れる	規則と Bulbapedia が一致	Mienshao
+MC-397	ランドロス		Landorus	Landorus	Fighting				入れる	規則と Bulbapedia が一致	Landorus
+MC-398	ランドロス		Landorus	Landorus	Fighting				入れる	規則と Bulbapedia が一致	Landorus
+MC-399	ヤンチャム		Pancham	Pancham	Fighting				入れる	規則と Bulbapedia が一致	Pancham
+MC-400	メレシー		Carbink	Carbink	Fighting				入れる	規則と Bulbapedia が一致	Carbink
+MC-401	マケンカニ		Crabrawler	Crabrawler	Fighting				入れる	規則と Bulbapedia が一致	Crabrawler
+MC-402	イワンコ		Rockruff	Rockruff	Fighting				入れる	規則と Bulbapedia が一致	Rockruff
+MC-403	ルガルガン		Lycanroc	Lycanroc	Fighting				入れる	規則と Bulbapedia が一致	Lycanroc
+MC-404	ドロバンコ		Mudbray	Mudbray	Fighting				入れる	規則と Bulbapedia が一致	Mudbray
+MC-405	バンバドロ		Mudsdale	Mudsdale	Fighting				入れる	規則と Bulbapedia が一致	Mudsdale
+MC-406	バンバドロ		Mudsdale	Mudsdale	Fighting				入れる	規則と Bulbapedia が一致	Mudsdale
+MC-407	ナゲツケサル		Passimian	Passimian	Fighting				入れる	規則と Bulbapedia が一致	Passimian
+MC-408	マーシャドー		Marshadow	Marshadow	Fighting				入れる	規則と Bulbapedia が一致	Marshadow
+MC-409	タンドン		Rolycoly	Rolycoly	Fighting				入れる	規則と Bulbapedia が一致	Rolycoly
+MC-410	トロッゴン		Carkol	Carkol	Fighting				入れる	規則と Bulbapedia が一致	Carkol
+MC-411	セキタンザン		Coalossal	Coalossal	Fighting				入れる	規則と Bulbapedia が一致	Coalossal
+MC-412	タタッコ		Clobbopus	Clobbopus	Fighting				入れる	規則と Bulbapedia が一致	Clobbopus
+MC-413	オトスパス		Grapploct	Grapploct	Fighting				入れる	規則と Bulbapedia が一致	Grapploct
+MC-414	イシヘンジン		Stonjourner	Stonjourner	Fighting				入れる	規則と Bulbapedia が一致	Stonjourner
+MC-416	コジオ		Nacli	Nacli	Fighting				入れる	規則と Bulbapedia が一致	Nacli
+MC-417	ジオヅム		Naclstack	Naclstack	Fighting				入れる	規則と Bulbapedia が一致	Naclstack
+MC-418	キョジオーン		Garganacl	Garganacl	Fighting				入れる	規則と Bulbapedia が一致	Garganacl
+MC-419	ペパーのノノクラゲ			Arven's Toedscool	Fighting	Fujimoto Gold	TCGdex日本語版	sv10-109	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Arven's Toedscool
+MC-420	ペパーのリククラゲ			Arven's Toedscruel	Fighting	Yuya Oka	TCGdex日本語版	sv10-110	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Arven's Toedscruel
+MC-421	ガケガニ		Klawf	Klawf	Fighting				入れる	規則と Bulbapedia が一致	Klawf
+MC-422	イダイナキバ		Great Tusk	Great Tusk	Fighting				入れる	規則と Bulbapedia が一致	Great Tusk
+MC-423	チヲハウハネ		Slither Wing	Slither Wing	Fighting				入れる	規則と Bulbapedia が一致	Slither Wing
+MC-424	スナノケガワ		Sandy Shocks	Sandy Shocks	Fighting				入れる	規則と Bulbapedia が一致	Sandy Shocks
+MC-425	コライドンex		Koraidon ex	Koraidon ex	Fighting				入れる	規則と Bulbapedia が一致	Koraidon ex
+MC-426	イイネイヌ		Okidogi	Okidogi	Fighting				入れる	規則と Bulbapedia が一致	Okidogi
+MC-429	テツノイワオex		Iron Boulder ex	Iron Boulder ex	Fighting				入れる	規則と Bulbapedia が一致	Iron Boulder ex
+MC-430	アーボ		Ekans	Ekans	Darkness				入れる	規則と Bulbapedia が一致	Ekans
+MC-431	アーボック		Arbok	Arbok	Darkness				入れる	規則と Bulbapedia が一致	Arbok
+MC-432	ロケット団のニドラン♀			Team Rocket's Nidoran♀	Darkness	REND	TCGdex日本語版	sv10-114	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Nidoran♀
+MC-433	ロケット団のニドリーナ			Team Rocket's Nidorina	Darkness	Taiga Kasai	TCGdex日本語版	sv10-115	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Nidorina
+MC-434	ロケット団のニドクイン			Team Rocket's Nidoqueen	Darkness	hncl	TCGdex日本語版	sv10-116	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Nidoqueen
+MC-435	ロケット団のニドラン♂			Team Rocket's Nidoran♂	Darkness	buchi	TCGdex日本語版	sv10-117	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Nidoran♂
+MC-436	ロケット団のニドリーノ			Team Rocket's Nidorino	Darkness	KEIICHIRO ITO	TCGdex日本語版	sv10-118	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Nidorino
+MC-437	ロケット団のニドキングex			Team Rocket's Nidoking ex	Darkness	5ban Graphics	TCGdex日本語版	sv10-119 sv10-216 svp-217	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Nidoking ex
+MC-438	ロケット団のズバット			Team Rocket's Zubat	Darkness	toi8	TCGdex日本語版	sv10-120	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Zubat
+MC-439	ロケット団のゴルバット			Team Rocket's Golbat	Darkness	AKIRA EGAWA	TCGdex日本語版	sv10-121	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Golbat
+MC-440	ロケット団のクロバットex			Team Rocket's Crobat ex	Darkness	5ban Graphics	TCGdex日本語版	sv10-122 sv10-217 sv10-242	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Crobat ex
+MC-441	ゴース		Gastly	Gastly	Darkness				入れる	規則と Bulbapedia が一致	Gastly
+MC-442	ゴース		Gastly	Gastly	Darkness				入れる	規則と Bulbapedia が一致	Gastly
+MC-443	ゴースト		Haunter	Haunter	Darkness				入れる	規則と Bulbapedia が一致	Haunter
+MC-444	ゴースト		Haunter	Haunter	Darkness				入れる	規則と Bulbapedia が一致	Haunter
+MC-445	ゲンガーex		Gengar ex	Gengar ex	Darkness				入れる	規則と Bulbapedia が一致	Gengar ex
+MC-446	ブラッキーex		Umbreon ex	Umbreon ex	Darkness				入れる	規則と Bulbapedia が一致	Umbreon ex
+MC-447	ロケット団のヤミカラス			Team Rocket's Murkrow	Darkness	Mugi Hamada	TCGdex日本語版	me02.5-126 sv10-127	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Murkrow
+MC-448	ロケット団のニューラ			Team Rocket's Sneasel	Darkness	GIDORA	TCGdex日本語版	sv10-128	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Sneasel
+MC-449	デルビル		Houndour	Houndour	Darkness				入れる	規則と Bulbapedia が一致	Houndour
+MC-450	ヘルガー		Houndoom	Houndoom	Darkness				入れる	規則と Bulbapedia が一致	Houndoom
+MC-451	ポチエナ		Poochyena	Poochyena	Darkness				入れる	規則と Bulbapedia が一致	Poochyena
+MC-452	グラエナ		Mightyena	Mightyena	Darkness				入れる	規則と Bulbapedia が一致	Mightyena
+MC-453	ヤミラミ		Sableye	Sableye	Darkness				入れる	規則と Bulbapedia が一致	Sableye
+MC-454	アブソル		Absol	Absol	Darkness				入れる	規則と Bulbapedia が一致	Absol
+MC-455	ミカルゲ		Spiritomb	Spiritomb	Darkness				入れる	規則と Bulbapedia が一致	Spiritomb
+MC-456	ダークライex		Darkrai ex	Darkrai ex	Darkness				入れる	規則と Bulbapedia が一致	Darkrai ex
+MC-457	Nのチョロネコ			N's Purrloin	Darkness	Keisin	TCGdex日本語版	sv09-096	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	N's Purrloin
+MC-458	マリィのチョロネコ			Marnie's Purrloin	Darkness	REND	TCGdex日本語版	sv10-130	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Marnie's Purrloin
+MC-459	マリィのレパルダス			Marnie's Liepard	Darkness	Hasuno	TCGdex日本語版	sv10-131	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Marnie's Liepard
+MC-460	フシデ		Venipede	Venipede	Darkness				入れる	規則と Bulbapedia が一致	Venipede
+MC-461	ホイーガ		Whirlipede	Whirlipede	Darkness				入れる	規則と Bulbapedia が一致	Whirlipede
+MC-462	ペンドラー		Scolipede	Scolipede	Darkness				入れる	規則と Bulbapedia が一致	Scolipede
+MC-463	マリィのズルッグ			Marnie's Scraggy	Darkness	Teeziro	TCGdex日本語版	sv10-132	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Marnie's Scraggy
+MC-464	マリィのズルズキン			Marnie's Scrafty	Darkness	Kazumasa Yasukuni	TCGdex日本語版	sv10-133	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Marnie's Scrafty
+MC-465	ヤブクロン		Trubbish	Trubbish	Darkness				入れる	規則と Bulbapedia が一致	Trubbish
+MC-466	ダストダス		Garbodor	Garbodor	Darkness				入れる	規則と Bulbapedia が一致	Garbodor
+MC-467	ゾロア		Zorua	Zorua	Darkness				入れる	規則と Bulbapedia が一致	Zorua
+MC-468	ゾロアーク		Zoroark	Zoroark	Darkness				入れる	規則と Bulbapedia が一致	Zoroark
+MC-469	Nのゾロア			N's Zorua	Darkness	Jiro Sasumo	TCGdex日本語版	sv09-097 me02.5-136	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	N's Zorua
+MC-470	Nのゾロアークex			N's Zoroark ex	Darkness	takuyoa	TCGdex日本語版	sv09-098 me02.5-137 sv09-175 sv09-189	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	N's Zoroark ex
+MC-471	コマタナ		Pawniard	Pawniard	Darkness				入れる	規則と Bulbapedia が一致	Pawniard
+MC-472	キリキザン		Bisharp	Bisharp	Darkness				入れる	規則と Bulbapedia が一致	Bisharp
+MC-473	ドドゲザン		Kingambit	Kingambit	Darkness				入れる	規則と Bulbapedia が一致	Kingambit
+MC-474	バルチャイ		Vullaby	Vullaby	Darkness				入れる	規則と Bulbapedia が一致	Vullaby
+MC-475	バルジーナex		Mandibuzz ex	Mandibuzz ex	Darkness				入れる	規則と Bulbapedia が一致	Mandibuzz ex
+MC-476	モノズ		Deino	Deino	Darkness				入れる	規則と Bulbapedia が一致	Deino
+MC-477	ジヘッド		Zweilous	Zweilous	Darkness				入れる	規則と Bulbapedia が一致	Zweilous
+MC-478	サザンドラex		Hydreigon ex	Hydreigon ex	Darkness				入れる	規則と Bulbapedia が一致	Hydreigon ex
+MC-479	ゴロンダ		Pangoro	Pangoro	Darkness				入れる	規則と Bulbapedia が一致	Pangoro
+MC-480	イベルタル		Yveltal	Yveltal	Darkness				入れる	規則と Bulbapedia が一致	Yveltal
+MC-481	イベルタル		Yveltal	Yveltal	Darkness				入れる	規則と Bulbapedia が一致	Yveltal
+MC-482	フーパ		Hoopa	Hoopa	Darkness				入れる	規則と Bulbapedia が一致	Hoopa
+MC-483	ペパーのオラチフ			Arven's Maschiff	Darkness	Mina Nakai	TCGdex日本語版	sv10-138	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Arven's Maschiff
+MC-484	ペパーのマフィティフex			Arven's Mabosstiff ex	Darkness	akagi	TCGdex日本語版	sv10-139	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Arven's Mabosstiff ex
+MC-485	オトシドリ		Bombirdier	Bombirdier	Darkness				入れる	規則と Bulbapedia が一致	Bombirdier
+MC-486	リキキリンex		Farigiraf ex	Farigiraf ex	Darkness				入れる	規則と Bulbapedia が一致	Farigiraf ex
+MC-487	アラブルタケ		Brute Bonnet	Brute Bonnet	Darkness				入れる	規則と Bulbapedia が一致	Brute Bonnet
+MC-488	イイネイヌex		Okidogi ex	Okidogi ex	Darkness				入れる	規則と Bulbapedia が一致	Okidogi ex
+MC-489	キチキギスex		Fezandipiti ex	Fezandipiti ex	Darkness				入れる	規則と Bulbapedia が一致	Fezandipiti ex
+MC-490	モモワロウ		Pecharunt	Pecharunt	Darkness				入れる	規則と Bulbapedia が一致	Pecharunt
+MC-491	モモワロウex		Pecharunt ex	Pecharunt ex	Darkness				入れる	規則と Bulbapedia が一致	Pecharunt ex
+MC-492	ハッサムex		Scizor ex	Scizor ex	Metal				入れる	規則と Bulbapedia が一致	Scizor ex
+MC-493	エアームド		Skarmory	Skarmory	Metal				入れる	規則と Bulbapedia が一致	Skarmory
+MC-494	ダイゴのエアームド			Steven's Skarmory	Metal	Nisota Niso	TCGdex日本語版	sv10-142	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Steven's Skarmory
+MC-495	クチート		Mawile	Mawile	Metal				入れる	規則と Bulbapedia が一致	Mawile
+MC-496	ダンバル		Beldum	Beldum	Metal				入れる	規則と Bulbapedia が一致	Beldum
+MC-497	メタング		Metang	Metang	Metal				入れる	規則と Bulbapedia が一致	Metang
+MC-498	レジスチル		Registeel	Registeel	Metal				入れる	規則と Bulbapedia が一致	Registeel
+MC-499	レジスチルex		Registeel ex	Registeel ex	Metal				入れる	規則と Bulbapedia が一致	Registeel ex
+MC-500	ドーミラー		Bronzor	Bronzor	Metal				入れる	規則と Bulbapedia が一致	Bronzor
+MC-501	ドータクン		Bronzong	Bronzong	Metal				入れる	規則と Bulbapedia が一致	Bronzong
+MC-502	ディアルガ		Dialga	Dialga	Metal				入れる	規則と Bulbapedia が一致	Dialga
+MC-503	ヒードラン		Heatran	Heatran	Metal				入れる	規則と Bulbapedia が一致	Heatran
+MC-504	シュバルゴ		Escavalier	Escavalier	Metal				入れる	規則と Bulbapedia が一致	Escavalier
+MC-505	シュバルゴ		Escavalier	Escavalier	Metal				入れる	規則と Bulbapedia が一致	Escavalier
+MC-506	ギアル		Klink	Klink	Metal				入れる	規則と Bulbapedia が一致	Klink
+MC-507	ギギアル		Klang	Klang	Metal				入れる	規則と Bulbapedia が一致	Klang
+MC-508	ギギギアル		Klinklang	Klinklang	Metal				入れる	規則と Bulbapedia が一致	Klinklang
+MC-509	ガラル マッギョ		Galarian Stunfisk	Galarian Stunfisk	Metal				入れる	規則と Bulbapedia が一致	Galarian Stunfisk
+MC-510	コマタナ		Pawniard	Pawniard	Metal				入れる	規則と Bulbapedia が一致	Pawniard
+MC-511	キリキザン		Bisharp	Bisharp	Metal				入れる	規則と Bulbapedia が一致	Bisharp
+MC-512	ゲノセクトex		Genesect ex	Genesect ex	Metal				入れる	規則と Bulbapedia が一致	Genesect ex
+MC-513	クレッフィ		Klefki	Klefki	Metal				入れる	規則と Bulbapedia が一致	Klefki
+MC-514	トゲデマルex		Togedemaru ex	Togedemaru ex	Metal				入れる	規則と Bulbapedia が一致	Togedemaru ex
+MC-515	マギアナ		Magearna	Magearna	Metal				入れる	規則と Bulbapedia が一致	Magearna
+MC-516	メルタン		Meltan	Meltan	Metal				入れる	規則と Bulbapedia が一致	Meltan
+MC-517	メルタン		Meltan	Meltan	Metal				入れる	規則と Bulbapedia が一致	Meltan
+MC-518	メルメタル		Melmetal	Melmetal	Metal				入れる	規則と Bulbapedia が一致	Melmetal
+MC-519	メルメタルex		Melmetal ex	Melmetal ex	Metal				入れる	規則と Bulbapedia が一致	Melmetal ex
+MC-520	ホップのアーマーガア			Hop's Corviknight	Metal	GIDORA	TCGdex日本語版	sv09-108	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Hop's Corviknight
+MC-521	ゾウドウ		Cufant	Cufant	Metal				入れる	規則と Bulbapedia が一致	Cufant
+MC-522	ダイオウドウ		Copperajah	Copperajah	Metal				入れる	規則と Bulbapedia が一致	Copperajah
+MC-523	ジュラルドン		Duraludon	Duraludon	Metal				入れる	規則と Bulbapedia が一致	Duraludon
+MC-524	ジュラルドン		Duraludon	Duraludon	Metal				入れる	規則と Bulbapedia が一致	Duraludon
+MC-525	ブリジュラス		Archaludon	Archaludon	Metal				入れる	規則と Bulbapedia が一致	Archaludon
+MC-526	ブリジュラスex		Archaludon ex	Archaludon ex	Metal				入れる	規則と Bulbapedia が一致	Archaludon ex
+MC-527	ホップのザシアンex			Hop's Zacian ex	Metal	aky CG Works	TCGdex日本語版	sv09-111 sv09-176	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Hop's Zacian ex
+MC-528	カヌチャン		Tinkatink	Tinkatink	Metal				入れる	規則と Bulbapedia が一致	Tinkatink
+MC-529	ナカヌチャン		Tinkatuff	Tinkatuff	Metal				入れる	規則と Bulbapedia が一致	Tinkatuff
+MC-530	デカヌチャン		Tinkaton	Tinkaton	Metal				入れる	規則と Bulbapedia が一致	Tinkaton
+MC-531	ブロロン		Varoom	Varoom	Metal				入れる	規則と Bulbapedia が一致	Varoom
+MC-532	ブロロローム		Revavroom	Revavroom	Metal				入れる	規則と Bulbapedia が一致	Revavroom
+MC-533	ミミズズex		Orthworm ex	Orthworm ex	Metal				入れる	規則と Bulbapedia が一致	Orthworm ex
+MC-534	サーフゴー		Gholdengo	Gholdengo	Metal				入れる	規則と Bulbapedia が一致	Gholdengo
+MC-535	サーフゴー		Gholdengo	Gholdengo	Metal				入れる	規則と Bulbapedia が一致	Gholdengo
+MC-536	テツノカシラ		Iron Crown	Iron Crown	Metal				入れる	規則と Bulbapedia が一致	Iron Crown
+MC-537	アローラ ナッシーex		Alolan Exeggutor ex	Alolan Exeggutor ex	Dragon				入れる	規則と Bulbapedia が一致	Alolan Exeggutor ex
+MC-538	タツベイ		Bagon	Bagon	Dragon				入れる	規則と Bulbapedia が一致	Bagon
+MC-539	コモルー		Shelgon	Shelgon	Dragon				入れる	規則と Bulbapedia が一致	Shelgon
+MC-540	ボーマンダex		Salamence ex	Salamence ex	Dragon				入れる	規則と Bulbapedia が一致	Salamence ex
+MC-541	キバゴ		Axew	Axew	Dragon				入れる	規則と Bulbapedia が一致	Axew
+MC-542	オノンド		Fraxure	Fraxure	Dragon				入れる	規則と Bulbapedia が一致	Fraxure
+MC-543	オノノクス		Haxorus	Haxorus	Dragon				入れる	規則と Bulbapedia が一致	Haxorus
+MC-544	クリムガン		Druddigon	Druddigon	Dragon				入れる	規則と Bulbapedia が一致	Druddigon
+MC-545	Nのレシラム			N's Reshiram	Dragon	rika	TCGdex日本語版	sv09-116 me02.5-154	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	N's Reshiram
+MC-546	ドラメシヤ		Dreepy	Dreepy	Dragon				入れる	規則と Bulbapedia が一致	Dreepy
+MC-547	ドロンチ		Drakloak	Drakloak	Dragon				入れる	規則と Bulbapedia が一致	Drakloak
+MC-548	ドラパルトex		Dragapult ex	Dragapult ex	Dragon				入れる	規則と Bulbapedia が一致	Dragapult ex
+MC-549	シャリタツ		Tatsugiri	Tatsugiri	Dragon				入れる	規則と Bulbapedia が一致	Tatsugiri
+MC-550	コライドン		Koraidon	Koraidon	Dragon				入れる	規則と Bulbapedia が一致	Koraidon
+MC-551	コライドンex		Koraidon ex	Koraidon ex	Dragon				入れる	規則と Bulbapedia が一致	Koraidon ex
+MC-552	ミライドン		Miraidon	Miraidon	Dragon				入れる	規則と Bulbapedia が一致	Miraidon
+MC-553	ミライドンex		Miraidon ex	Miraidon ex	Dragon				入れる	規則と Bulbapedia が一致	Miraidon ex
+MC-554	タケルライコex		Raging Bolt ex	Raging Bolt ex	Dragon				入れる	規則と Bulbapedia が一致	Raging Bolt ex
+MC-555	ロケット団のコラッタ			Team Rocket's Rattata	Colorless	Dsuke	TCGdex日本語版	sv10-147	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Rattata
+MC-556	ロケット団のラッタ			Team Rocket's Raticate	Colorless	Uninori	TCGdex日本語版	sv10-148	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Raticate
+MC-557	オニスズメ		Spearow	Spearow	Colorless				入れる	規則と Bulbapedia が一致	Spearow
+MC-558	オニドリル		Fearow	Fearow	Colorless				入れる	規則と Bulbapedia が一致	Fearow
+MC-559	ロケット団のニャース			Team Rocket's Meowth	Colorless	Megumi Mizutani	TCGdex日本語版	sv10-149 me02.5-161	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Meowth
+MC-560	ロケット団のペルシアンex			Team Rocket's Persian ex	Colorless	5ban Graphics	TCGdex日本語版	sv10-150 svp-218 sv10-219	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Team Rocket's Persian ex
+MC-561	ラッキー		Chansey	Chansey	Colorless				入れる	規則と Bulbapedia が一致	Chansey
+MC-562	ハピナスex		Blissey ex	Blissey ex	Colorless				入れる	規則と Bulbapedia が一致	Blissey ex
+MC-563	ケンタロス		Tauros	Tauros	Colorless				入れる	規則と Bulbapedia が一致	Tauros
+MC-564	イーブイ		Eevee	Eevee	Colorless				入れる	規則と Bulbapedia が一致	Eevee
+MC-565	イーブイ		Eevee	Eevee	Colorless				入れる	規則と Bulbapedia が一致	Eevee
+MC-566	イーブイex		Eevee ex	Eevee ex	Colorless				入れる	規則と Bulbapedia が一致	Eevee ex
+MC-567	カビゴン		Snorlax	Snorlax	Colorless				入れる	規則と Bulbapedia が一致	Snorlax
+MC-568	カビゴン		Snorlax	Snorlax	Colorless				入れる	規則と Bulbapedia が一致	Snorlax
+MC-569	ホップのカビゴン			Hop's Snorlax	Colorless	GOSSAN	TCGdex日本語版	sv09-117	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Hop's Snorlax
+MC-570	オタチ		Sentret	Sentret	Colorless				入れる	規則と Bulbapedia が一致	Sentret
+MC-571	オオタチ		Furret	Furret	Colorless				入れる	規則と Bulbapedia が一致	Furret
+MC-572	ホーホー		Hoothoot	Hoothoot	Colorless				入れる	規則と Bulbapedia が一致	Hoothoot
+MC-573	ヨルノズク		Noctowl	Noctowl	Colorless				入れる	規則と Bulbapedia が一致	Noctowl
+MC-574	ノコッチ		Dunsparce	Dunsparce	Colorless				入れる	規則と Bulbapedia が一致	Dunsparce
+MC-575	ノココッチex		Dudunsparce ex	Dudunsparce ex	Colorless				入れる	規則と Bulbapedia が一致	Dudunsparce ex
+MC-576	アオキのノコッチ			Larry's Dunsparce	Colorless	0313	TCGdex日本語版	me02.5-163	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Larry's Dunsparce
+MC-577	アオキのノココッチex			Larry's Dudunsparce ex	Colorless	5ban Graphics	TCGdex日本語版	me02.5-164	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Larry's Dudunsparce ex
+MC-578	ミルタンク		Miltank	Miltank	Colorless				入れる	規則と Bulbapedia が一致	Miltank
+MC-579	スバメ		Taillow	Taillow	Colorless				入れる	規則と Bulbapedia が一致	Taillow
+MC-580	オオスバメ		Swellow	Swellow	Colorless				入れる	規則と Bulbapedia が一致	Swellow
+MC-581	ナマケロ		Slakoth	Slakoth	Colorless				入れる	規則と Bulbapedia が一致	Slakoth
+MC-582	ヤルキモノ		Vigoroth	Vigoroth	Colorless				入れる	規則と Bulbapedia が一致	Vigoroth
+MC-583	ケッキングex		Slaking ex	Slaking ex	Colorless				入れる	規則と Bulbapedia が一致	Slaking ex
+MC-584	エネコ		Skitty	Skitty	Colorless				入れる	規則と Bulbapedia が一致	Skitty
+MC-585	エネコ		Skitty	Skitty	Colorless				入れる	規則と Bulbapedia が一致	Skitty
+MC-586	エネコロロ		Delcatty	Delcatty	Colorless				入れる	規則と Bulbapedia が一致	Delcatty
+MC-587	ザングース		Zangoose	Zangoose	Colorless				入れる	規則と Bulbapedia が一致	Zangoose
+MC-588	ザングースex		Zangoose ex	Zangoose ex	Colorless				入れる	規則と Bulbapedia が一致	Zangoose ex
+MC-589	トロピウス		Tropius	Tropius	Colorless				入れる	規則と Bulbapedia が一致	Tropius
+MC-590	アオキのムックル			Larry's Starly	Colorless	Natsumi Miyanose	TCGdex日本語版	me02.5-168	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Larry's Starly
+MC-591	アオキのムクバード			Larry's Staravia	Colorless	Fujimoto Gold	TCGdex日本語版	me02.5-169	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Larry's Staravia
+MC-592	アオキのムクホーク			Larry's Staraptor	Colorless	Po-Suzuki	TCGdex日本語版	me02.5-170	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Larry's Staraptor
+MC-593	ミミロル		Buneary	Buneary	Colorless				入れる	規則と Bulbapedia が一致	Buneary
+MC-594	ミミロップ		Lopunny	Lopunny	Colorless				入れる	規則と Bulbapedia が一致	Lopunny
+MC-595	ニャルマー		Glameow	Glameow	Colorless				入れる	規則と Bulbapedia が一致	Glameow
+MC-596	ブニャット		Purugly	Purugly	Colorless				入れる	規則と Bulbapedia が一致	Purugly
+MC-597	ペラップ		Chatot	Chatot	Colorless				入れる	規則と Bulbapedia が一致	Chatot
+MC-598	マメパト		Pidove	Pidove	Colorless				入れる	規則と Bulbapedia が一致	Pidove
+MC-599	ハトーボー		Tranquill	Tranquill	Colorless				入れる	規則と Bulbapedia が一致	Tranquill
+MC-600	ケンホロウ		Unfezant	Unfezant	Colorless				入れる	規則と Bulbapedia が一致	Unfezant
+MC-601	タブンネ		Audino	Audino	Colorless				入れる	規則と Bulbapedia が一致	Audino
+MC-602	メガタブンネex		Mega Audino ex	Mega Audino ex	Colorless				入れる	規則と Bulbapedia が一致	Mega Audino ex
+MC-603	チラーミィ		Minccino	Minccino	Colorless				入れる	規則と Bulbapedia が一致	Minccino
+MC-604	チラチーノ		Cinccino	Cinccino	Colorless				入れる	規則と Bulbapedia が一致	Cinccino
+MC-605	バッフロンex		Bouffalant ex	Bouffalant ex	Colorless				入れる	規則と Bulbapedia が一致	Bouffalant ex
+MC-606	ワシボン		Rufflet	Rufflet	Colorless				入れる	規則と Bulbapedia が一致	Rufflet
+MC-607	ウォーグル		Braviary	Braviary	Colorless				入れる	規則と Bulbapedia が一致	Braviary
+MC-608	アオキのワシボン			Larry's Rufflet	Colorless	cochi8i	TCGdex日本語版	me02.5-173	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Larry's Rufflet
+MC-609	アオキのウォーグル			Larry's Braviary	Colorless	Ryuta Fuse	TCGdex日本語版	me02.5-174	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Larry's Braviary
+MC-610	トルネロス		Tornadus	Tornadus	Colorless				入れる	規則と Bulbapedia が一致	Tornadus
+MC-611	トリミアン		Furfrou	Furfrou	Colorless				入れる	規則と Bulbapedia が一致	Furfrou
+MC-612	トリミアン		Furfrou	Furfrou	Colorless				入れる	規則と Bulbapedia が一致	Furfrou
+MC-613	ルチャブル		Hawlucha	Hawlucha	Colorless				入れる	規則と Bulbapedia が一致	Hawlucha
+MC-614	オンバット		Noibat	Noibat	Colorless				入れる	規則と Bulbapedia が一致	Noibat
+MC-615	オンバーン		Noivern	Noivern	Colorless				入れる	規則と Bulbapedia が一致	Noivern
+MC-616	ヌイコグマ		Stufful	Stufful	Colorless				入れる	規則と Bulbapedia が一致	Stufful
+MC-617	キテルグマ		Bewear	Bewear	Colorless				入れる	規則と Bulbapedia が一致	Bewear
+MC-618	ヤレユータン		Oranguru	Oranguru	Colorless				入れる	規則と Bulbapedia が一致	Oranguru
+MC-619	アオキのネッコアラ			Larry's Komala	Colorless	ryoma uratsuka	TCGdex日本語版	me02.5-175	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Larry's Komala
+MC-620	ジジーロン		Drampa	Drampa	Colorless				入れる	規則と Bulbapedia が一致	Drampa
+MC-621	ジジーロン		Drampa	Drampa	Colorless				入れる	規則と Bulbapedia が一致	Drampa
+MC-622	ホップのココガラ			Hop's Rookidee	Colorless	Shinya Mizuno	TCGdex日本語版	sv09-133	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Hop's Rookidee
+MC-623	ホップのアオガラス			Hop's Corvisquire	Colorless	Souichirou Gunjima	TCGdex日本語版	sv09-134	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Hop's Corvisquire
+MC-624	ホップのウッウ			Hop's Cramorant	Colorless	Saboteri	TCGdex日本語版	sv09-138 me02.5-177	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Hop's Cramorant
+MC-626	イキリンコ		Squawkabilly	Squawkabilly	Colorless				入れる	規則と Bulbapedia が一致	Squawkabilly
+MC-627	モトトカゲ		Cyclizar	Cyclizar	Colorless				入れる	規則と Bulbapedia が一致	Cyclizar
+MC-628	テツノコウベ		Iron Jugulis	Iron Jugulis	Colorless				入れる	規則と Bulbapedia が一致	Iron Jugulis
+MC-629	テラパゴス		Terapagos	Terapagos	Colorless				入れる	規則と Bulbapedia が一致	Terapagos
+MC-630	テラパゴスex		Terapagos ex	Terapagos ex	Colorless				入れる	規則と Bulbapedia が一致	Terapagos ex

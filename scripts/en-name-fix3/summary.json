@@ -120,5 +120,20 @@
   "filledByRule": 97,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MC-pokemon": {
+  "set": "MC",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Start Deck 100 Battle Collection (TCG)",
+   "section": "Start Deck 100 Battle Collection",
+   "den": "den=742,",
+   "file": "MC.txt"
+  },
+  "targets": 618,
+  "filled": 618,
+  "filledByRule": 538,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
