@@ -2645,5 +2645,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM8a-pokemon": {
+  "set": "SM8a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Dark Order (TCG)",
+   "section": "Dark Order",
+   "den": "den=052",
+   "file": "SM6-4.txt"
+  },
+  "targets": 44,
+  "filled": 44,
+  "filledByRule": 44,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM8a-trainer": {
+  "set": "SM8a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Dark Order (TCG)",
+   "section": "Dark Order",
+   "den": "den=052",
+   "file": "SM6-4.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
