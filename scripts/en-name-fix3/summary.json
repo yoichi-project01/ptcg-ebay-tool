@@ -2015,5 +2015,35 @@
   "filledByRule": 3,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM1S-pokemon": {
+  "set": "SM1S",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Sun & Moon (TCG)",
+   "section": "Collection Sun",
+   "den": "den=060",
+   "file": "SM6-1.txt"
+  },
+  "targets": 52,
+  "filled": 52,
+  "filledByRule": 52,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM1S-trainer": {
+  "set": "SM1S",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Sun & Moon (TCG)",
+   "section": "Collection Sun",
+   "den": "den=060",
+   "file": "SM6-1.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
