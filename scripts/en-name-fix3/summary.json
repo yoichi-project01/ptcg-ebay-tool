@@ -2765,5 +2765,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM10a-pokemon": {
+  "set": "SM10a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "GG End (TCG)",
+   "section": "GG End",
+   "den": "den=054",
+   "file": "SM6-5.txt"
+  },
+  "targets": 44,
+  "filled": 44,
+  "filledByRule": 42,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM10a-trainer": {
+  "set": "SM10a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "GG End (TCG)",
+   "section": "GG End",
+   "den": "den=054",
+   "file": "SM6-5.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
