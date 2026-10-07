@@ -495,5 +495,20 @@
   "filledByRule": 55,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S10a-pokemon": {
+  "set": "S10a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Dark Phantasma (TCG)",
+   "section": "Dark Phantasma",
+   "den": "den=071",
+   "file": "S-5.txt"
+  },
+  "targets": 56,
+  "filled": 56,
+  "filledByRule": 56,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
