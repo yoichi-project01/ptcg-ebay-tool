@@ -5447,5 +5447,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVEM-pokemon": {
+  "set": "SVEM",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Terastal Starter Sets (TCG)",
+   "section": "Terastal Starter Set Mewtwo ex",
+   "den": "den=020,",
+   "file": "D-7.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 9,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVEM-trainer": {
+  "set": "SVEM",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Terastal Starter Sets (TCG)",
+   "section": "Terastal Starter Set Mewtwo ex",
+   "den": "den=020,",
+   "file": "D-7.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
