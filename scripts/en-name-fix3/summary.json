@@ -990,12 +990,11 @@
    "file": "SM-1.txt"
   },
   "targets": 48,
-  "filled": 39,
+  "filled": 41,
   "filledByRule": 0,
-  "blank": 9,
+  "blank": 7,
   "blankReasons": {
-   "英語版の同じ名前のカードとイラストレーターが違う": 7,
-   "イラストレーターが分からない": 2
+   "英語版の同じ名前のカードとイラストレーターが違う": 7
   }
  },
  "SM11b-pokemon": {
