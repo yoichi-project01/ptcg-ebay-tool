@@ -3097,5 +3097,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY6-B-pokemon": {
+  "set": "XY6-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Roaring Skies (TCG)",
+   "section": "Emerald Break",
+   "den": "den=078",
+   "file": "XY6-2.txt"
+  },
+  "targets": 68,
+  "filled": 68,
+  "filledByRule": 68,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY6-B-trainer": {
+  "set": "XY6-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Roaring Skies (TCG)",
+   "section": "Emerald Break",
+   "den": "den=078",
+   "file": "XY6-2.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
