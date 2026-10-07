@@ -2225,5 +2225,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM3N-pokemon": {
+  "set": "SM3N",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Burning Shadows (TCG)",
+   "section": "Darkness that Consumes Light",
+   "den": "den=051",
+   "file": "SM6-2.txt"
+  },
+  "targets": 46,
+  "filled": 46,
+  "filledByRule": 46,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM3N-trainer": {
+  "set": "SM3N",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Burning Shadows (TCG)",
+   "section": "Darkness that Consumes Light",
+   "den": "den=051",
+   "file": "SM6-2.txt"
+  },
+  "targets": 5,
+  "filled": 5,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
