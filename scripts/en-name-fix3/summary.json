@@ -1045,5 +1045,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM10b-pokemon": {
+  "set": "SM10b",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Sky Legend (TCG)",
+   "section": "Sky Legend",
+   "den": "den=054",
+   "file": "SM-2.txt"
+  },
+  "targets": 43,
+  "filled": 43,
+  "filledByRule": 41,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM10b-trainer": {
+  "set": "SM10b",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Sky Legend (TCG)",
+   "section": "Sky Legend",
+   "den": "den=054",
+   "file": "SM-2.txt"
+  },
+  "targets": 7,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "イラストレーターが分からない": 1
+  }
  }
 }
