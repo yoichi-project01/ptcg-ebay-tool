@@ -3607,5 +3607,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW3-Bh-pokemon": {
+  "set": "BW3-Bh",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Next Destinies (TCG)",
+   "section": "Hail Blizzard",
+   "den": "den=052",
+   "file": "BW-1.txt"
+  },
+  "targets": 48,
+  "filled": 48,
+  "filledByRule": 48,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW3-Bh-trainer": {
+  "set": "BW3-Bh",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Next Destinies (TCG)",
+   "section": "Hail Blizzard",
+   "den": "den=052",
+   "file": "BW-1.txt"
+  },
+  "targets": 4,
+  "filled": 4,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
