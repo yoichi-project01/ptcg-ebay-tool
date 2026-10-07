@@ -3757,5 +3757,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW6-Bc-pokemon": {
+  "set": "BW6-Bc",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Boundaries Crossed (TCG)",
+   "section": "Cold Flare",
+   "den": "den=059",
+   "file": "BW-2.txt"
+  },
+  "targets": 53,
+  "filled": 53,
+  "filledByRule": 52,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW6-Bc-trainer": {
+  "set": "BW6-Bc",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Boundaries Crossed (TCG)",
+   "section": "Cold Flare",
+   "den": "den=059",
+   "file": "BW-2.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
