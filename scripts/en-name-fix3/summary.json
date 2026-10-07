@@ -2705,5 +2705,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM9b-pokemon": {
+  "set": "SM9b",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Full Metal Wall (TCG)",
+   "section": "Full Metal Wall",
+   "den": "den=054",
+   "file": "SM6-4.txt"
+  },
+  "targets": 43,
+  "filled": 43,
+  "filledByRule": 41,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM9b-trainer": {
+  "set": "SM9b",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Full Metal Wall (TCG)",
+   "section": "Full Metal Wall",
+   "den": "den=054",
+   "file": "SM6-4.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
