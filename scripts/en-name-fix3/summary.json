@@ -899,5 +899,22 @@
   "blankReasons": {
    "イラストレーターが分からない": 2
   }
+ },
+ "SV9-trainer": {
+  "set": "SV9",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Battle Partners (TCG)",
+   "section": "Battle Partners",
+   "den": "den=100",
+   "file": "SV-T.txt"
+  },
+  "targets": 13,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "イラストレーターが分からない": 1
+  }
  }
 }
