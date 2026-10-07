@@ -180,5 +180,20 @@
   "filledByRule": 59,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S2-pokemon": {
+  "set": "S2",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Rebel Clash (TCG)",
+   "section": "Rebellion Crash",
+   "den": "den=096",
+   "file": "S-1.txt"
+  },
+  "targets": 81,
+  "filled": 81,
+  "filledByRule": 81,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
