@@ -5357,5 +5357,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVJL-pokemon": {
+  "set": "SVJL",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Battle Master Decks (TCG)",
+   "section": "Battle Master Deck Terastal Charizard ex",
+   "den": "den=021,",
+   "file": "D-6.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 9,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVJL-trainer": {
+  "set": "SVJL",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Battle Master Decks (TCG)",
+   "section": "Battle Master Deck Terastal Charizard ex",
+   "den": "den=021,",
+   "file": "D-6.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
