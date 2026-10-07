@@ -982,5 +982,38 @@
   "blankReasons": {
    "イラストレーターが分からない": 1
   }
+ },
+ "SM12a-pokemon": {
+  "set": "SM12a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Tag All Stars (TCG)",
+   "section": "Tag All Stars",
+   "den": "den=173,",
+   "file": "SM-1.txt"
+  },
+  "targets": 108,
+  "filled": 108,
+  "filledByRule": 95,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM12a-trainer": {
+  "set": "SM12a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Tag All Stars (TCG)",
+   "section": "Tag All Stars",
+   "den": "den=173,",
+   "file": "SM-1.txt"
+  },
+  "targets": 48,
+  "filled": 39,
+  "filledByRule": 0,
+  "blank": 9,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 7,
+   "イラストレーターが分からない": 2
+  }
  }
 }
