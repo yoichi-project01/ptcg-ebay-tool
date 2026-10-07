@@ -30,5 +30,20 @@
   "blankReasons": {
    "規則と Bulbapedia が食い違う・英語版に同じ名前のポケモンが無い": 1
   }
+ },
+ "MBD-pokemon": {
+  "set": "MBD",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "MEGA Starter Set Mega Diancie ex (TCG)",
+   "section": "MEGA Starter Set Mega Diancie ex",
+   "den": "den=021,",
+   "file": "M.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 9,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
