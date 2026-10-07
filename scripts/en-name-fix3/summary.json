@@ -2675,5 +2675,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM9a-pokemon": {
+  "set": "SM9a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Night Unison (TCG)",
+   "section": "Night Unison",
+   "den": "den=055",
+   "file": "SM6-4.txt"
+  },
+  "targets": 42,
+  "filled": 42,
+  "filledByRule": 40,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM9a-trainer": {
+  "set": "SM9a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Night Unison (TCG)",
+   "section": "Night Unison",
+   "den": "den=055",
+   "file": "SM6-4.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
