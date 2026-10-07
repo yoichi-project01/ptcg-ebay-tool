@@ -5267,5 +5267,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVAW-pokemon": {
+  "set": "SVAW",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ex Starter Sets (TCG)",
+   "section": "ex Starter Set Quaxly & Mimikyu ex",
+   "den": "den=023,",
+   "file": "D-6.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 10,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVAW-trainer": {
+  "set": "SVAW",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ex Starter Sets (TCG)",
+   "section": "ex Starter Set Quaxly & Mimikyu ex",
+   "den": "den=023,",
+   "file": "D-6.txt"
+  },
+  "targets": 13,
+  "filled": 13,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
