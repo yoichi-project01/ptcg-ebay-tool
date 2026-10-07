@@ -450,5 +450,20 @@
   "filledByRule": 8,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S9a-pokemon": {
+  "set": "S9a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Battle Region (TCG)",
+   "section": "Battle Region",
+   "den": "den=067",
+   "file": "S-4.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 6,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
