@@ -2795,5 +2795,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM11-pokemon": {
+  "set": "SM11",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Unified Minds (TCG)",
+   "section": "Miracle Twin",
+   "den": "den=094",
+   "file": "SM6-5.txt"
+  },
+  "targets": 80,
+  "filled": 80,
+  "filledByRule": 77,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM11-trainer": {
+  "set": "SM11",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Unified Minds (TCG)",
+   "section": "Miracle Twin",
+   "den": "den=094",
+   "file": "SM6-5.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
