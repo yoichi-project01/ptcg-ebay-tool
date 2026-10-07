@@ -3547,5 +3547,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW1-Bw-pokemon": {
+  "set": "BW1-Bw",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Black & White (TCG)",
+   "section": "White Collection",
+   "den": "den=053",
+   "file": "BW-1.txt"
+  },
+  "targets": 47,
+  "filled": 47,
+  "filledByRule": 47,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW1-Bw-trainer": {
+  "set": "BW1-Bw",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Black & White (TCG)",
+   "section": "White Collection",
+   "den": "den=053",
+   "file": "BW-1.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
