@@ -11,3 +11,5 @@ scripts/scan-progress/staging/
 scripts/en-name-fix2/.cache/
 scripts/en-name-fix2/decisions-check.tsv
 scripts/en-name-fix2/summary-check.json
+scripts/en-name-fix3/.cache/
+scripts/en-name-fix3/decisions-check/
