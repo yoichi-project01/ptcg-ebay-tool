@@ -216,7 +216,7 @@
    "page": "Darkness Ablaze (TCG)",
    "section": "Infinity Zone",
    "den": "den=100",
-   "file": "S-1.txt"
+   "file": "S6-1.txt"
   },
   "targets": 84,
   "filled": 84,
@@ -1374,6 +1374,21 @@
   },
   "targets": 8,
   "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S3-trainer": {
+  "set": "S3",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Darkness Ablaze (TCG)",
+   "section": "Infinity Zone",
+   "den": "den=100",
+   "file": "S6-1.txt"
+  },
+  "targets": 12,
+  "filled": 12,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
