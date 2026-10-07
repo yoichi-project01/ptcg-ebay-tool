@@ -4262,5 +4262,43 @@
    "英語版に同じ名前・種類のカードが無い": 2,
    "Bulbapedia の一覧に無い": 3
   }
+ },
+ "SV-P-pokemon": {
+  "set": "SV-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "SV-P Promotional cards (TCG)",
+   "section": "SV-P Promotional cards",
+   "den": "den=SV-P",
+   "file": "P-4.txt"
+  },
+  "targets": 141,
+  "filled": 137,
+  "filledByRule": 125,
+  "blank": 4,
+  "blankReasons": {
+   "規則で作れない・英語版の同じ名前のカードとイラストレーターが違う": 1,
+   "規則で作れない・英語版に同じ名前のポケモンが無い": 3
+  }
+ },
+ "SV-P-trainer": {
+  "set": "SV-P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "SV-P Promotional cards (TCG)",
+   "section": "SV-P Promotional cards",
+   "den": "den=SV-P",
+   "file": "P-4.txt"
+  },
+  "targets": 141,
+  "filled": 96,
+  "filledByRule": 0,
+  "blank": 45,
+  "blankReasons": {
+   "イラストレーターが分からない": 40,
+   "英語版の同じ名前のカードとイラストレーターが違う": 2,
+   "Bulbapedia の種類が分からない（{{OBP）": 2,
+   "英語版に同じ名前・種類のカードが無い": 1
+  }
  }
 }
