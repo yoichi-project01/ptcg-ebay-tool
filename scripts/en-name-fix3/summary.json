@@ -3577,5 +3577,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW2-B-pokemon": {
+  "set": "BW2-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Noble Victories (TCG)",
+   "section": "Red Collection",
+   "den": "den=066",
+   "file": "BW-1.txt"
+  },
+  "targets": 59,
+  "filled": 59,
+  "filledByRule": 59,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW2-B-trainer": {
+  "set": "BW2-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Noble Victories (TCG)",
+   "section": "Red Collection",
+   "den": "den=066",
+   "file": "BW-1.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
