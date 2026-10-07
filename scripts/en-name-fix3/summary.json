@@ -758,5 +758,20 @@
   "blankReasons": {
    "イラストレーターが分からない": 3
   }
+ },
+ "SV5K-trainer": {
+  "set": "SV5K",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Temporal Forces (TCG)",
+   "section": "Wild Force",
+   "den": "den=071",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
