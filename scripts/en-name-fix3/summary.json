@@ -540,5 +540,20 @@
   "filledByRule": 86,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S11a-pokemon": {
+  "set": "S11a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Incandescent Arcana (TCG)",
+   "section": "Incandescent Arcana",
+   "den": "den=068",
+   "file": "S-5.txt"
+  },
+  "targets": 52,
+  "filled": 52,
+  "filledByRule": 52,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
