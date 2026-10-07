@@ -5111,5 +5111,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SMN-pokemon": {
+  "set": "SMN",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "TAG TEAM GX Deck Build Box (TCG)",
+   "section": "Japanese TAG TEAM GX Deck Build Box",
+   "den": "den=029",
+   "file": "D-6.txt"
+  },
+  "targets": 1,
+  "filled": 1,
+  "filledByRule": 1,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SMN-trainer": {
+  "set": "SMN",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "TAG TEAM GX Deck Build Box (TCG)",
+   "section": "Japanese TAG TEAM GX Deck Build Box",
+   "den": "den=029",
+   "file": "D-6.txt"
+  },
+  "targets": 28,
+  "filled": 28,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
