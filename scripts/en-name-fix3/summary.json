@@ -1760,5 +1760,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV3-pokemon": {
+  "set": "SV3",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Obsidian Flames (TCG)",
+   "section": "Ruler of the Black Flame",
+   "den": "den=108",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 8,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
