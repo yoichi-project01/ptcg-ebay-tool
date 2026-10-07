@@ -525,5 +525,20 @@
   "filledByRule": 57,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S11-pokemon": {
+  "set": "S11",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Lost Origin (TCG)",
+   "section": "Lost Abyss",
+   "den": "den=100",
+   "file": "S-5.txt"
+  },
+  "targets": 86,
+  "filled": 86,
+  "filledByRule": 86,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
