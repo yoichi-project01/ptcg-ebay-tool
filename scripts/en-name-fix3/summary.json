@@ -3157,5 +3157,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY8-Bb-pokemon": {
+  "set": "XY8-Bb",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "BREAKthrough (TCG)",
+   "section": "Blue Shock",
+   "den": "den=059",
+   "file": "XY6-2.txt"
+  },
+  "targets": 53,
+  "filled": 53,
+  "filledByRule": 53,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY8-Bb-trainer": {
+  "set": "XY8-Bb",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "BREAKthrough (TCG)",
+   "section": "Blue Shock",
+   "den": "den=059",
+   "file": "XY6-2.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
