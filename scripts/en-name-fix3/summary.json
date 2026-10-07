@@ -3307,5 +3307,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY11-Br-pokemon": {
+  "set": "XY11-Br",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Steam Siege (TCG)",
+   "section": "Cruel Traitor",
+   "den": "den=054",
+   "file": "XY6-3.txt"
+  },
+  "targets": 48,
+  "filled": 48,
+  "filledByRule": 48,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY11-Br-trainer": {
+  "set": "XY11-Br",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Steam Siege (TCG)",
+   "section": "Cruel Traitor",
+   "den": "den=054",
+   "file": "XY6-3.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
