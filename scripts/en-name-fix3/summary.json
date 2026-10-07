@@ -4914,5 +4914,35 @@
   "blankReasons": {
    "イラストレーターが分からない": 28
   }
+ },
+ "SVK-pokemon": {
+  "set": "SVK",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Stellar Miracle Deck Build Box (TCG)",
+   "section": "Stellar Miracle Deck Build Box",
+   "den": "den=044,",
+   "file": "D-5.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 4,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVK-trainer": {
+  "set": "SVK",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Stellar Miracle Deck Build Box (TCG)",
+   "section": "Stellar Miracle Deck Build Box",
+   "den": "den=044,",
+   "file": "D-5.txt"
+  },
+  "targets": 32,
+  "filled": 32,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
