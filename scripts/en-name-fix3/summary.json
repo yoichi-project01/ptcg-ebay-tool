@@ -5708,5 +5708,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S8a-G-pokemon": {
+  "set": "S8a-G",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "25th Anniversary Golden Box (TCG)",
+   "section": "25th Anniversary Golden Box",
+   "den": "den=015<br>Indonesia: 001,015<br>Indonesia: 002,015,",
+   "file": "D-7.txt"
+  },
+  "targets": 5,
+  "filled": 5,
+  "filledByRule": 5,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S8a-G-trainer": {
+  "set": "S8a-G",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "25th Anniversary Golden Box (TCG)",
+   "section": "25th Anniversary Golden Box",
+   "den": "den=015<br>Indonesia: 001,015<br>Indonesia: 002,015,",
+   "file": "D-7.txt"
+  },
+  "targets": 10,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
