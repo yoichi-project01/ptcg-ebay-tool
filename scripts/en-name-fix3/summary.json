@@ -2255,5 +2255,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM3p-pokemon": {
+  "set": "SM3p",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Shining Legends (TCG)",
+   "section": "Shining Legends",
+   "den": "den=072",
+   "file": "SM6-2.txt"
+  },
+  "targets": 51,
+  "filled": 51,
+  "filledByRule": 51,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM3p-trainer": {
+  "set": "SM3p",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Shining Legends (TCG)",
+   "section": "Shining Legends",
+   "den": "den=072",
+   "file": "SM6-2.txt"
+  },
+  "targets": 13,
+  "filled": 13,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
