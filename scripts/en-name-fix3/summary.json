@@ -1146,5 +1146,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "M1L-pokemon": {
+  "set": "M1L",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Mega Brave/Mega Symphonia (TCG)",
+   "section": "Mega Brave",
+   "den": "den=063",
+   "file": "S6-1.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "M1L-trainer": {
+  "set": "M1L",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Mega Brave/Mega Symphonia (TCG)",
+   "section": "Mega Brave",
+   "den": "den=063",
+   "file": "S6-1.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
