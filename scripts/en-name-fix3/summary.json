@@ -2947,5 +2947,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY2-pokemon": {
+  "set": "XY2",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Flashfire (TCG)",
+   "section": "Wild Blaze",
+   "den": "den=080",
+   "file": "XY6-1.txt"
+  },
+  "targets": 71,
+  "filled": 71,
+  "filledByRule": 71,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY2-trainer": {
+  "set": "XY2",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Flashfire (TCG)",
+   "section": "Wild Blaze",
+   "den": "den=080",
+   "file": "XY6-1.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
