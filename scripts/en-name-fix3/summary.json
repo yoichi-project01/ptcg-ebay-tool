@@ -598,5 +598,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV1V-trainer": {
+  "set": "SV1V",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Scarlet & Violet (TCG)",
+   "section": "Violet ex",
+   "den": "den=078",
+   "file": "SV-T.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
