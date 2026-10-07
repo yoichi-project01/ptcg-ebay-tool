@@ -165,5 +165,20 @@
   "filledByRule": 49,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S1a-pokemon": {
+  "set": "S1a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "VMAX Rising (TCG)",
+   "section": "VMAX Rising",
+   "den": "den=070",
+   "file": "S-1.txt"
+  },
+  "targets": 59,
+  "filled": 59,
+  "filledByRule": 59,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
