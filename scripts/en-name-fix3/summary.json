@@ -3427,5 +3427,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "CP5-pokemon": {
+  "set": "CP5",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Mythical & Legendary Dream Shine Collection (TCG)",
+   "section": "Mythical & Legendary Dream Shine Collection",
+   "den": "den=036",
+   "file": "XY6-4.txt"
+  },
+  "targets": 36,
+  "filled": 36,
+  "filledByRule": 35,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "CP5-trainer": {
+  "set": "CP5",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Mythical & Legendary Dream Shine Collection (TCG)",
+   "section": "Mythical & Legendary Dream Shine Collection",
+   "den": "den=036",
+   "file": "XY6-4.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
