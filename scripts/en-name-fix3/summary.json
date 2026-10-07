@@ -2977,5 +2977,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY3-pokemon": {
+  "set": "XY3",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Furious Fists (TCG)",
+   "section": "Rising Fist",
+   "den": "den=096",
+   "file": "XY6-1.txt"
+  },
+  "targets": 82,
+  "filled": 82,
+  "filledByRule": 82,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY3-trainer": {
+  "set": "XY3",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Furious Fists (TCG)",
+   "section": "Rising Fist",
+   "den": "den=096",
+   "file": "XY6-1.txt"
+  },
+  "targets": 14,
+  "filled": 14,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
