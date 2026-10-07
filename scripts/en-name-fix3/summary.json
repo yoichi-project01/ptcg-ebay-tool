@@ -366,7 +366,7 @@
    "page": "Evolving Skies (TCG)",
    "section": "Skyscraping Perfection",
    "den": "den=067",
-   "file": "S-3.txt"
+   "file": "S6-1.txt"
   },
   "targets": 52,
   "filled": 52,
@@ -1526,6 +1526,21 @@
   },
   "targets": 10,
   "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S7D-trainer": {
+  "set": "S7D",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Evolving Skies (TCG)",
+   "section": "Skyscraping Perfection",
+   "den": "den=067",
+   "file": "S6-1.txt"
+  },
+  "targets": 12,
+  "filled": 12,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
