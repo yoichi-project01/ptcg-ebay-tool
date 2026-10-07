@@ -3217,5 +3217,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY9-B-pokemon": {
+  "set": "XY9-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "BREAKpoint (TCG)",
+   "section": "Rage of the Broken Heavens",
+   "den": "den=080",
+   "file": "XY6-3.txt"
+  },
+  "targets": 70,
+  "filled": 70,
+  "filledByRule": 70,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY9-B-trainer": {
+  "set": "XY9-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "BREAKpoint (TCG)",
+   "section": "Rage of the Broken Heavens",
+   "den": "den=080",
+   "file": "XY6-3.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
