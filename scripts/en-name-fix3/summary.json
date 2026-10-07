@@ -4471,5 +4471,35 @@
    "イラストレーターが分からない": 40,
    "英語版に同じ名前・種類のカードが無い": 3
   }
+ },
+ "SI-pokemon": {
+  "set": "SI",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Start Deck 100 (TCG)",
+   "section": "Start Deck 100",
+   "den": "den=414",
+   "file": "D-1.txt"
+  },
+  "targets": 363,
+  "filled": 363,
+  "filledByRule": 357,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SI-trainer": {
+  "set": "SI",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Start Deck 100 (TCG)",
+   "section": "Start Deck 100",
+   "den": "den=414",
+   "file": "D-1.txt"
+  },
+  "targets": 51,
+  "filled": 51,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
