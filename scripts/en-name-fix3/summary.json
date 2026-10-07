@@ -3037,5 +3037,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY5-Bg-pokemon": {
+  "set": "XY5-Bg",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Primal Clash (TCG)",
+   "section": "Gaia Volcano",
+   "den": "den=070",
+   "file": "XY6-2.txt"
+  },
+  "targets": 59,
+  "filled": 59,
+  "filledByRule": 58,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY5-Bg-trainer": {
+  "set": "XY5-Bg",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Primal Clash (TCG)",
+   "section": "Gaia Volcano",
+   "den": "den=070",
+   "file": "XY6-2.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
