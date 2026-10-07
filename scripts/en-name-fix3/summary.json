@@ -741,5 +741,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV4a-trainer": {
+  "set": "SV4a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Paldean Fates (TCG)",
+   "section": "Shiny Treasure ex",
+   "den": "den=190",
+   "file": "SV-T.txt"
+  },
+  "targets": 32,
+  "filled": 29,
+  "filledByRule": 0,
+  "blank": 3,
+  "blankReasons": {
+   "イラストレーターが分からない": 3
+  }
  }
 }
