@@ -79,6 +79,12 @@ for (const f of readdirSync(path.join(DIR, "bulbapedia")).filter((f) => f.endsWi
   }
 }
 
+// Bulbapedia の一覧は日本版の節を使う（同じ名前の英語版の節を拾わないよう、番号の分母が弾の総数と一致することを確かめる）
+if (bpMeta && set.of > 0) {
+  const dens = bpMeta.den.replace(/^den=/, "").split(",").filter(Boolean);
+  if (!dens.includes(String(set.of).padStart(3, "0"))) throw new Error(`Bulbapedia の一覧の分母（${bpMeta.den}）が弾の総数 ${set.of} と一致しません: ${SET}`);
+}
+
 // --- TCGdex 英語版（.cache、無ければ取得） ---
 const isPocket = (id) => /^(A\d|B\d|P-A)/.test(id);
 async function loadEn(cat) {
