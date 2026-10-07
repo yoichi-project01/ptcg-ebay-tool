@@ -1940,5 +1940,20 @@
   "filledByRule": 5,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV8-pokemon": {
+  "set": "SV8",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Super Electric Breaker (TCG)",
+   "section": "Super Electric Breaker",
+   "den": "den=106",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 8,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
