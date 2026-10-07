@@ -2735,5 +2735,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM10-pokemon": {
+  "set": "SM10",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Unbroken Bonds (TCG)",
+   "section": "Double Blaze",
+   "den": "den=095",
+   "file": "SM6-5.txt"
+  },
+  "targets": 78,
+  "filled": 78,
+  "filledByRule": 75,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM10-trainer": {
+  "set": "SM10",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Unbroken Bonds (TCG)",
+   "section": "Double Blaze",
+   "den": "den=095",
+   "file": "SM6-5.txt"
+  },
+  "targets": 13,
+  "filled": 13,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
