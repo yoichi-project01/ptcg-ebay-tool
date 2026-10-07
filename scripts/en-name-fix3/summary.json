@@ -654,12 +654,10 @@
    "file": "SV-T.txt"
   },
   "targets": 2,
-  "filled": 1,
+  "filled": 2,
   "filledByRule": 0,
-  "blank": 1,
-  "blankReasons": {
-   "イラストレーターが分からない": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "SV2a-trainer": {
   "set": "SV2a",
