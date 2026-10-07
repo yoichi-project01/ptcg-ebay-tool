@@ -3667,5 +3667,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW4-B-pokemon": {
+  "set": "BW4-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Dark Explorers (TCG)",
+   "section": "Dark Rush",
+   "den": "den=069",
+   "file": "BW-2.txt"
+  },
+  "targets": 62,
+  "filled": 62,
+  "filledByRule": 62,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW4-B-trainer": {
+  "set": "BW4-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Dark Explorers (TCG)",
+   "section": "Dark Rush",
+   "den": "den=069",
+   "file": "BW-2.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
