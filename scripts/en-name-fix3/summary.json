@@ -411,7 +411,7 @@
    "page": "Celebrations (TCG)",
    "section": "25th Anniversary Collection",
    "den": "den=028,",
-   "file": "S-6.txt"
+   "file": "S6-1.txt"
   },
   "targets": 21,
   "filled": 21,
@@ -1574,5 +1574,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S8a-trainer": {
+  "set": "S8a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Celebrations (TCG)",
+   "section": "25th Anniversary Collection",
+   "den": "den=028,",
+   "file": "S6-1.txt"
+  },
+  "targets": 1,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
