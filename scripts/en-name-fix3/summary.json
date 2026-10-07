@@ -790,5 +790,22 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "SV5a-trainer": {
+  "set": "SV5a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Crimson Haze (TCG)",
+   "section": "Crimson Haze",
+   "den": "den=066",
+   "file": "SV-T.txt"
+  },
+  "targets": 11,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
