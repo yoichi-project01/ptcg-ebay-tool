@@ -2887,5 +2887,35 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "XY1-Bx-pokemon": {
+  "set": "XY1-Bx",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "XY (TCG)",
+   "section": "Collection X",
+   "den": "den=060",
+   "file": "XY6-1.txt"
+  },
+  "targets": 53,
+  "filled": 53,
+  "filledByRule": 53,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY1-Bx-trainer": {
+  "set": "XY1-Bx",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "XY (TCG)",
+   "section": "Collection X",
+   "den": "den=060",
+   "file": "XY6-1.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
