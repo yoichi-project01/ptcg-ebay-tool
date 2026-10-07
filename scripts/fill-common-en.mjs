@@ -61,7 +61,7 @@ const isPokemonName = (name) => {
 
 // --- 比較用のキー ---
 const norm = (s) => (s ?? "").replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/♢/g, "◇").replace(/\s+/g, " ").trim();
-const key = (s) => { const n = norm(s); const tail = /\bex$/.test(n) ? "|ex" : /EX$/.test(n) ? "|EX" : ""; return n.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[\s\-–.':]/g, "") + tail; };
+const key = (s) => { const n = norm(s); const tail = /\bex$/.test(n) ? "|ex" : /EX$/.test(n) ? "|EX" : ""; return n.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[\s\-–—.':]/g, "") + tail; };
 const illKey = (s) => norm(s).normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\s+/g, "");
 function lev(a, b) { const d = Array.from({ length: a.length + 1 }, (_, i) => [i]); for (let j = 1; j <= b.length; j++) d[0][j] = j; for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); return d[a.length][b.length]; }
 const sameIll = (a, b) => { const x = illKey(a), y = illKey(b); if (!x || !y) return false; return x === y || (Math.min(x.length, y.length) >= 8 && lev(x, y) <= 2); };
@@ -167,9 +167,10 @@ for (const k of set.k) {
     const sameType = (t) => !tt || t === tt || (tt === "Item" && t === "Tool");
     // ユニットエネルギー: Bulbapedia・英語版のカードは「Unit Energy GRW」、TCGdex は「Unit Energy GrassFireWater」と書く
     // 「Heat R Energy」（Bulbapedia はカードのエネルギー記号を文字で書く）も TCGdex では「Heat Fire Energy」
-    const UNIT = { G: "Grass", R: "Fire", W: "Water", L: "Lightning", P: "Psychic", F: "Fighting", D: "Darkness", M: "Metal", Y: "Fairy", C: "Colorless" };
+    const UNIT = { G: "Grass", R: "Fire", W: "Water", L: "Lightning", P: "Psychic", F: "Fighting", D: "Darkness", M: "Metal", Y: "Fairy", C: "Colorless", N: "Dragon" };
     const lookName = b.name.replace(/^Unit Energy ([GRWLPFDMY]{3})$/, (_, s) => "Unit Energy " + [...s].map((x) => UNIT[x]).join(""))
-      .replace(/^(.+) ([GRWLPFDMYC]) Energy$/, (_, a, x) => `${a} ${UNIT[x]} Energy`);
+      .replace(/^(.+) ([GRWLPFDMYC]) Energy$/, (_, a, x) => `${a} ${UNIT[x]} Energy`)
+      .replace(/^Fairy Charm ([GRWLPFDMYN])$/, (_, x) => `Fairy Charm ${UNIT[x]}`);
     const cands = (enByKey.get(key(lookName)) || []).filter((c) => (isEnergy ? c.category === "Energy" : c.category === "Trainer" && sameType(c.trainerType)));
     if (!cands.length) { r.note = "英語版に同じ名前・種類のカードが無い"; continue; }
     if (ji.category && ji.category !== (isEnergy ? "Energy" : "Trainer")) { r.note = `TCGdex 日本語版の種類が違う（${ji.category}）`; continue; }
