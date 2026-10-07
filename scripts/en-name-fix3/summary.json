@@ -2195,5 +2195,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM3H-pokemon": {
+  "set": "SM3H",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Burning Shadows (TCG)",
+   "section": "To Have Seen the Battle Rainbow",
+   "den": "den=051",
+   "file": "SM6-2.txt"
+  },
+  "targets": 46,
+  "filled": 46,
+  "filledByRule": 46,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM3H-trainer": {
+  "set": "SM3H",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Burning Shadows (TCG)",
+   "section": "To Have Seen the Battle Rainbow",
+   "den": "den=051",
+   "file": "SM6-2.txt"
+  },
+  "targets": 5,
+  "filled": 5,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
