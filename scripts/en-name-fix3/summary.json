@@ -4300,5 +4300,39 @@
    "Bulbapedia の種類が分からない（{{OBP）": 2,
    "英語版に同じ名前・種類のカードが無い": 1
   }
+ },
+ "BW-P-pokemon": {
+  "set": "BW-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "BW-P Promotional cards (TCG)",
+   "section": "BW-P Promotional cards",
+   "den": "den=BW-P",
+   "file": "P-5.txt"
+  },
+  "targets": 168,
+  "filled": 168,
+  "filledByRule": 166,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW-P-trainer": {
+  "set": "BW-P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "BW-P Promotional cards (TCG)",
+   "section": "BW-P Promotional cards",
+   "den": "den=BW-P",
+   "file": "P-5.txt"
+  },
+  "targets": 61,
+  "filled": 21,
+  "filledByRule": 0,
+  "blank": 40,
+  "blankReasons": {
+   "イラストレーターが分からない": 37,
+   "英語版の同じ名前のカードとイラストレーターが違う": 2,
+   "英語版に同じ名前・種類のカードが無い": 1
+  }
  }
 }
