@@ -527,14 +527,14 @@
   "source": "https://www.psacard.com/pop/tcg-cards/2011/pokemon-japanese-black-white-dark-rush/105275"
  },
  "BW5-Brn": {
-  "psaName": "Dragon Blast",
-  "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-dragon-blast/103154",
-  "note": "レックウザEX（037）収録。PSA の Dragon Blast/Rayquaza の記録と照合"
- },
- "BW5-Brz": {
   "psaName": "Dragon Blade",
   "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-dragon-blade/103904",
-  "note": "BW5 のもう一方"
+  "note": "2026-10-08 訂正（以前は Dragon Blast と取り違え）。BW5-Brn は 037 レックウザEX・001 ハネッコを収録し、Limitless の BW5n Dragon Blade・Bulbapedia の Dragon Blade の一覧と一致（set-data-fixes.json 参照）"
+ },
+ "BW5-Brz": {
+  "psaName": "Dragon Blast",
+  "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-dragon-blast/103154",
+  "note": "2026-10-08 訂正（以前は Dragon Blade と取り違え）。BW5-Brz は 039 ギラティナEX・001 ヤンヤンマを収録し、Limitless の BW5z Dragon Blast と一致"
  },
  "BW6-Bc": {
   "psaName": "Cold Flare",

@@ -130,8 +130,8 @@
  "BW3-Bh": { "en": "Hail Blizzard", "source": "https://www.psacard.com/auctionprices/tcg-cards/2011-pokemon-japanese-black-white-hail-blizzard/pikachu/2838511" },
  "BW3-Bp": { "en": "Psycho Drive", "source": "https://www.psacard.com/pop/tcg-cards/2011/pokemon-japanese-black-white-psycho-drive/101530" },
  "BW4-B": { "en": "Dark Rush", "source": "https://www.psacard.com/pop/tcg-cards/2011/pokemon-japanese-black-white-dark-rush/105275" },
- "BW5-Brn": { "en": "Dragon Blast", "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-dragon-blast/103154", "note": "レックウザEX（037）収録。PSA の Dragon Blast/Rayquaza の記録と照合" },
- "BW5-Brz": { "en": "Dragon Blade", "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-dragon-blade/103904", "note": "BW5 のもう一方" },
+ "BW5-Brn": { "en": "Dragon Blade", "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-dragon-blade/103904", "note": "2026-10-08 訂正（以前は Dragon Blast と取り違え。set-data-fixes.json 参照）" },
+ "BW5-Brz": { "en": "Dragon Blast", "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-dragon-blast/103154", "note": "2026-10-08 訂正（以前は Dragon Blade と取り違え）" },
  "BW6-Bc": { "en": "Cold Flare", "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-cold-flare/107974", "note": "ホワイトキュレムEX（041）収録。PSA の Cold Flare/White Kyurem EX の記録と照合。cardData の ja（フリーズボルト）は逆" },
  "BW6-Bf": { "en": "Freeze Bolt", "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-freeze-bolt/107969", "note": "ブラックキュレムEX（045）収録。PSA の Freeze Bolt/Black Kyurem EX の記録と照合。cardData の ja（コールドフレア）は逆" },
  "BW7-B": { "en": "Plasma Gale", "source": "https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-plasma-gale/106648" },
@@ -158,7 +158,8 @@
  "E2": { "en": "The Town on No Map", "source": "https://www.psacard.com/auctionprices/tcg-cards/2002-pokemon-japanese-town-no-map/114452" },
  "E3": { "en": "Wind from the Sea", "source": "https://www.psacard.com/auctionprices/tcg-cards/2002-pokemon-japanese-wind-from-sea/105654" },
  "E4": { "en": "Split Earth", "source": "https://www.psacard.com/priceguide/non-sports-tcg-card-values/2002-poke-mon-japanese-split-earth/4001" },
- "E5": { "en": "Mysterious Mountains", "source": "https://www.psacard.com/priceguide/non-sports-tcg-card-values/2002-poke-mon-japanese-mysterious-mountains/4002" },
+ "E5": { "en": "Mysterious Mountains", "source": "https://www.psacard.com/priceguide/non-sports-tcg-card-values/2002-poke-mon-japanese-mysterious-mountains/4002" }
+,
  "S8a-P": { "en": "Promo Card Pack 25th Anniversary Edition", "source": "https://www.psacard.com/psasetregistry/tcg/company-sets/2021-pokemon-japanese-promo-card-pack-25th-anniversary-edition/22379" },
  "XY-BEST": { "en": "The Best of XY", "source": "https://www.psacard.com/pop/tcg-cards/2017/pokemon-japanese-best-xy/143894" }
 }
