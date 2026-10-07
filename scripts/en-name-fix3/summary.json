@@ -4563,5 +4563,35 @@
   "blankReasons": {
    "イラストレーターが分からない": 1
   }
+ },
+ "SMH-pokemon": {
+  "set": "SMH",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "GX Starter Decks (TCG)",
+   "section": "GX Starter Decks",
+   "den": "den=131",
+   "file": "D-3.txt"
+  },
+  "targets": 104,
+  "filled": 104,
+  "filledByRule": 104,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SMH-trainer": {
+  "set": "SMH",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "GX Starter Decks (TCG)",
+   "section": "GX Starter Decks",
+   "den": "den=131",
+   "file": "D-3.txt"
+  },
+  "targets": 27,
+  "filled": 27,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
