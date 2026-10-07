@@ -156,7 +156,7 @@
    "page": "Sword & Shield (TCG)",
    "section": "Shield",
    "den": "den=060",
-   "file": "S-1.txt"
+   "file": "S6-1.txt"
   },
   "targets": 49,
   "filled": 49,
@@ -1315,5 +1315,20 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "S1H-trainer": {
+  "set": "S1H",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Sword & Shield (TCG)",
+   "section": "Shield",
+   "den": "den=060",
+   "file": "S6-1.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
