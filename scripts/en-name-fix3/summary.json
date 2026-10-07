@@ -4531,5 +4531,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVD-pokemon": {
+  "set": "SVD",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ex Start Decks (TCG)",
+   "section": "ex Start Decks",
+   "den": "den=139",
+   "file": "D-2.txt"
+  },
+  "targets": 109,
+  "filled": 109,
+  "filledByRule": 109,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVD-trainer": {
+  "set": "SVD",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ex Start Decks (TCG)",
+   "section": "ex Start Decks",
+   "den": "den=139",
+   "file": "D-2.txt"
+  },
+  "targets": 30,
+  "filled": 29,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "イラストレーターが分からない": 1
+  }
  }
 }
