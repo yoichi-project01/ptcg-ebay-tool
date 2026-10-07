@@ -3877,5 +3877,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW8-Brn-pokemon": {
+  "set": "BW8-Brn",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Plasma Freeze (TCG)",
+   "section": "Thunder Knuckle",
+   "den": "den=051",
+   "file": "BW-3.txt"
+  },
+  "targets": 46,
+  "filled": 46,
+  "filledByRule": 46,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW8-Brn-trainer": {
+  "set": "BW8-Brn",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Plasma Freeze (TCG)",
+   "section": "Thunder Knuckle",
+   "den": "den=051",
+   "file": "BW-3.txt"
+  },
+  "targets": 5,
+  "filled": 5,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
