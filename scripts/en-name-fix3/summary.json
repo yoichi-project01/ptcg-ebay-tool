@@ -456,7 +456,7 @@
    "page": "Battle Region (TCG)",
    "section": "Battle Region",
    "den": "den=067",
-   "file": "S-4.txt"
+   "file": "S6-2.txt"
   },
   "targets": 6,
   "filled": 6,
@@ -1620,6 +1620,21 @@
   },
   "targets": 13,
   "filled": 13,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S9a-trainer": {
+  "set": "S9a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Battle Region (TCG)",
+   "section": "Battle Region",
+   "den": "den=067",
+   "file": "S6-2.txt"
+  },
+  "targets": 7,
+  "filled": 7,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
