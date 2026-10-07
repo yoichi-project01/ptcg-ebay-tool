@@ -3487,5 +3487,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY-BEST-pokemon": {
+  "set": "XY-BEST",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "The Best of XY (TCG)",
+   "section": "THE BEST OF XY",
+   "den": "den=171",
+   "file": "XY6-4.txt"
+  },
+  "targets": 107,
+  "filled": 107,
+  "filledByRule": 106,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY-BEST-trainer": {
+  "set": "XY-BEST",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "The Best of XY (TCG)",
+   "section": "THE BEST OF XY",
+   "den": "den=171",
+   "file": "XY6-4.txt"
+  },
+  "targets": 64,
+  "filled": 64,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
