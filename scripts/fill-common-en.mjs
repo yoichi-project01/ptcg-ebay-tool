@@ -163,7 +163,9 @@ for (const k of set.k) {
     const isEnergy = /Energy/.test(b.type) || ENERGY_TYPES.has(b.type) && /エネルギー/.test(k[1]);
     const tt = TRAINER_OF[b.type] ?? null;
     if (!isEnergy && !tt && b.type !== "Trainer") { r.note = `Bulbapedia の種類が分からない（${b.type}）`; continue; }
-    const cands = (enByKey.get(key(b.name)) || []).filter((c) => (isEnergy ? c.category === "Energy" : c.category === "Trainer" && (!tt || c.trainerType === tt)));
+    // SM 世代以前の Bulbapedia はポケモンのどうぐも「Item」と書く（当時どうぐはグッズの一種）ので、Item は TCGdex の Item・Tool の両方と照合する
+    const sameType = (t) => !tt || t === tt || (tt === "Item" && t === "Tool");
+    const cands = (enByKey.get(key(b.name)) || []).filter((c) => (isEnergy ? c.category === "Energy" : c.category === "Trainer" && sameType(c.trainerType)));
     if (!cands.length) { r.note = "英語版に同じ名前・種類のカードが無い"; continue; }
     if (ji.category && ji.category !== (isEnergy ? "Energy" : "Trainer")) { r.note = `TCGdex 日本語版の種類が違う（${ji.category}）`; continue; }
     if (!ji.illustrator) {
