@@ -837,5 +837,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV7-trainer": {
+  "set": "SV7",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Stellar Crown (TCG)",
+   "section": "Stellar Miracle",
+   "den": "den=102",
+   "file": "SV-T.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
