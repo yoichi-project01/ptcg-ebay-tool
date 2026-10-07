@@ -195,5 +195,20 @@
   "filledByRule": 81,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S2a-pokemon": {
+  "set": "S2a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Explosive Walker (TCG)",
+   "section": "Explosive Walker",
+   "den": "den=070",
+   "file": "S-1.txt"
+  },
+  "targets": 59,
+  "filled": 59,
+  "filledByRule": 59,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
