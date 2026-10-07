@@ -773,5 +773,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV5M-trainer": {
+  "set": "SV5M",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Temporal Forces (TCG)",
+   "section": "Cyber Judge",
+   "den": "den=071",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
