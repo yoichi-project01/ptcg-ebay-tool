@@ -4119,5 +4119,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "WCP-pokemon": {
+  "set": "WCP",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "EX Power Keepers (TCG)",
+   "section": "World Champions Pack",
+   "den": "den=108",
+   "file": "BW-4.txt"
+  },
+  "targets": 78,
+  "filled": 78,
+  "filledByRule": 78,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "WCP-trainer": {
+  "set": "WCP",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "EX Power Keepers (TCG)",
+   "section": "World Champions Pack",
+   "den": "den=108",
+   "file": "BW-4.txt"
+  },
+  "targets": 27,
+  "filled": 21,
+  "filledByRule": 0,
+  "blank": 6,
+  "blankReasons": {
+   "イラストレーターが分からない": 6
+  }
  }
 }
