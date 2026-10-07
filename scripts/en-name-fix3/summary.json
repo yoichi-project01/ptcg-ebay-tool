@@ -1053,12 +1053,10 @@
    "file": "SM-2.txt"
   },
   "targets": 7,
-  "filled": 6,
+  "filled": 7,
   "filledByRule": 0,
-  "blank": 1,
-  "blankReasons": {
-   "イラストレーターが分からない": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "SM9-pokemon": {
   "set": "SM9",
