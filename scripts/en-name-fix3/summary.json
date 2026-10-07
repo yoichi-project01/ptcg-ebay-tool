@@ -210,5 +210,20 @@
   "filledByRule": 59,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S3-pokemon": {
+  "set": "S3",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Darkness Ablaze (TCG)",
+   "section": "Infinity Zone",
+   "den": "den=100",
+   "file": "S-1.txt"
+  },
+  "targets": 84,
+  "filled": 84,
+  "filledByRule": 84,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
