@@ -1,0 +1,2330 @@
+[
+ {
+  "set": "M1L",
+  "sr": "M",
+  "of": 63,
+  "dens": {
+   "063": 48
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "M1S",
+  "sr": "M",
+  "of": 63,
+  "dens": {
+   "063": 48
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "M2",
+  "sr": "M",
+  "of": 80,
+  "dens": {
+   "080": 59
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "M3",
+  "sr": "M",
+  "of": 80,
+  "dens": {
+   "080": 59
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "PCG1",
+  "sr": "PCG",
+  "of": 82,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PCG2",
+  "sr": "PCG",
+  "of": 82,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PCG3",
+  "sr": "PCG",
+  "of": 84,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PCG4",
+  "sr": "PCG",
+  "of": 106,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PCG5",
+  "sr": "PCG",
+  "of": 86,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PCG6",
+  "sr": "PCG",
+  "of": 86,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PCG7",
+  "sr": "PCG",
+  "of": 52,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PCG8",
+  "sr": "PCG",
+  "of": 75,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PCG9",
+  "sr": "PCG",
+  "of": 68,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PMCG1",
+  "sr": "PMCG",
+  "of": 102,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PMCG2",
+  "sr": "PMCG",
+  "of": 48,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PMCG3",
+  "sr": "PMCG",
+  "of": 48,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PMCG4",
+  "sr": "PMCG",
+  "of": 65,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PMCG5",
+  "sr": "PMCG",
+  "of": 96,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "PMCG6",
+  "sr": "PMCG",
+  "of": 98,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "S10D",
+  "sr": "S",
+  "of": 67,
+  "dens": {
+   "067": 88
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S10P",
+  "sr": "S",
+  "of": 67,
+  "dens": {
+   "067": 88
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S10a",
+  "sr": "S",
+  "of": 71,
+  "dens": {
+   "071": 148
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S10b",
+  "sr": "S",
+  "of": 71,
+  "dens": {
+   "071": 93
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S11",
+  "sr": "S",
+  "of": 100,
+  "dens": {
+   "100": 127
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S11a",
+  "sr": "S",
+  "of": 68,
+  "dens": {
+   "068": 140
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S12",
+  "sr": "S",
+  "of": 98,
+  "dens": {
+   "098": 43
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S12a",
+  "sr": "S",
+  "of": 172,
+  "dens": {
+   "172": 343
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S4",
+  "sr": "S",
+  "of": 100,
+  "dens": {
+   "100": 111
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S4a",
+  "sr": "S",
+  "of": 190,
+  "dens": {
+   "190": 326
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S5I",
+  "sr": "S",
+  "of": 70,
+  "dens": {
+   "070": 81
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S5R",
+  "sr": "S",
+  "of": 70,
+  "dens": {
+   "070": 81
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S5a",
+  "sr": "S",
+  "of": 70,
+  "dens": {
+   "070": 84
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S6H",
+  "sr": "S",
+  "of": 70,
+  "dens": {
+   "070": 83
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S6K",
+  "sr": "S",
+  "of": 70,
+  "dens": {
+   "070": 83
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S6a",
+  "sr": "S",
+  "of": 69,
+  "dens": {
+   "069": 87
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S7D",
+  "sr": "S",
+  "of": 67,
+  "dens": {
+   "067": 79
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S7R",
+  "sr": "S",
+  "of": 67,
+  "dens": {
+   "067": 79
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S8",
+  "sr": "S",
+  "of": 100,
+  "dens": {
+   "100": 115
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S8a",
+  "sr": "S",
+  "of": 28,
+  "dens": {
+   "028": 29
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S8b",
+  "sr": "S",
+  "of": 184,
+  "dens": {
+   "184": 229
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S9",
+  "sr": "S",
+  "of": 100,
+  "dens": {
+   "100": 50
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S9a",
+  "sr": "S",
+  "of": 67,
+  "dens": {
+   "067": 138
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SH",
+  "sr": "S",
+  "of": 53,
+  "dens": {
+   "053": 72
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SI",
+  "sr": "S",
+  "of": 414,
+  "dens": {
+   "414": 260
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SJ",
+  "sr": "S",
+  "of": 28,
+  "dens": {
+   "028": 30
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SK",
+  "sr": "S",
+  "of": 30,
+  "dens": {
+   "030": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SLD",
+  "sr": "S",
+  "of": 20,
+  "dens": {
+   "020": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SLL",
+  "sr": "S",
+  "of": 21,
+  "dens": {
+   "021": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SN",
+  "sr": "S",
+  "of": 24,
+  "dens": {
+   "024": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SP6",
+  "sr": "S",
+  "of": 6,
+  "dens": {
+   "006": 3
+  },
+  "source": "details.php（41955 41958 41960）",
+  "status": "一致"
+ },
+ {
+  "set": "SPD",
+  "sr": "S",
+  "of": 20,
+  "dens": {
+   "020": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SPZ",
+  "sr": "S",
+  "of": 20,
+  "dens": {
+   "020": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV10",
+  "sr": "SV",
+  "of": 98,
+  "dens": {
+   "098": 83
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV11B",
+  "sr": "SV",
+  "of": 86,
+  "dens": {
+   "086": 168
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV11W",
+  "sr": "SV",
+  "of": 86,
+  "dens": {
+   "086": 168
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV1S",
+  "sr": "SV",
+  "of": 78,
+  "dens": {
+   "078": 67
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV1V",
+  "sr": "SV",
+  "of": 78,
+  "dens": {
+   "078": 66
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV1a",
+  "sr": "SV",
+  "of": 73,
+  "dens": {
+   "073": 64
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV2D",
+  "sr": "SV",
+  "of": 71,
+  "dens": {
+   "071": 60
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV2P",
+  "sr": "SV",
+  "of": 71,
+  "dens": {
+   "071": 59
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV2a",
+  "sr": "SV",
+  "of": 165,
+  "dens": {
+   "165": 210
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV3",
+  "sr": "SV",
+  "of": 108,
+  "dens": {
+   "108": 71
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV3a",
+  "sr": "SV",
+  "of": 62,
+  "dens": {
+   "062": 53
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV4K",
+  "sr": "SV",
+  "of": 66,
+  "dens": {
+   "066": 58
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV4M",
+  "sr": "SV",
+  "of": 66,
+  "dens": {
+   "066": 58
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV4a",
+  "sr": "SV",
+  "of": 190,
+  "dens": {
+   "190": 360
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV5K",
+  "sr": "SV",
+  "of": 71,
+  "dens": {
+   "071": 56
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV5M",
+  "sr": "SV",
+  "of": 71,
+  "dens": {
+   "071": 100
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV5a",
+  "sr": "SV",
+  "of": 66,
+  "dens": {
+   "066": 57
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV6",
+  "sr": "SV",
+  "of": 101,
+  "dens": {
+   "101": 133
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV6a",
+  "sr": "SV",
+  "of": 64,
+  "dens": {
+   "064": 94
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV7",
+  "sr": "SV",
+  "of": 102,
+  "dens": {
+   "102": 67
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV7a",
+  "sr": "SV",
+  "of": 64,
+  "dens": {
+   "064": 61
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV8",
+  "sr": "SV",
+  "of": 106,
+  "dens": {
+   "106": 78
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV8a",
+  "sr": "SV",
+  "of": 187,
+  "dens": {
+   "187": 234
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV9",
+  "sr": "SV",
+  "of": 100,
+  "dens": {
+   "100": 56
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SV9a",
+  "sr": "SV",
+  "of": 63,
+  "dens": {
+   "063": 50
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVAL",
+  "sr": "SV",
+  "of": 21,
+  "dens": {
+   "021": 24
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVAM",
+  "sr": "SV",
+  "of": 23,
+  "dens": {
+   "023": 26
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVAW",
+  "sr": "SV",
+  "of": 23,
+  "dens": {
+   "023": 26
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVB",
+  "sr": "SV",
+  "of": 28,
+  "dens": {
+   "028": 3
+  },
+  "source": "details.php（42794 42801 42814）",
+  "status": "一致"
+ },
+ {
+  "set": "SVC",
+  "sr": "SV",
+  "of": 21,
+  "dens": {
+   "021": 24
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVD",
+  "sr": "SV",
+  "of": 139,
+  "dens": {
+   "139": 10
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVEL",
+  "sr": "SV",
+  "of": 20,
+  "dens": {
+   "020": 22
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVEM",
+  "sr": "SV",
+  "of": 20,
+  "dens": {
+   "020": 22
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVF",
+  "sr": "SV",
+  "of": 38,
+  "dens": {
+   "038": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVHK",
+  "sr": "SV",
+  "of": 22,
+  "dens": {
+   "053": 3
+  },
+  "source": "details.php（45289 45315 45341）",
+  "status": "食い違い"
+ },
+ {
+  "set": "SVHM",
+  "sr": "SV",
+  "of": 22,
+  "dens": {
+   "053": 3
+  },
+  "source": "details.php（45342 45368 45394）",
+  "status": "食い違い"
+ },
+ {
+  "set": "SVK",
+  "sr": "SV",
+  "of": 44,
+  "dens": {
+   "044": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVLN",
+  "sr": "SV",
+  "of": 22,
+  "dens": {
+   "022": 3
+  },
+  "source": "details.php（46206 46217 46227）",
+  "status": "一致"
+ },
+ {
+  "set": "SVLS",
+  "sr": "SV",
+  "of": 22,
+  "dens": {
+   "022": 3
+  },
+  "source": "details.php（46184 46195 46205）",
+  "status": "一致"
+ },
+ {
+  "set": "SVP1",
+  "sr": "SV",
+  "of": 7,
+  "dens": {
+   "007": 3
+  },
+  "source": "details.php（43314 43317 43320）",
+  "status": "一致"
+ },
+ {
+  "set": "VS1",
+  "sr": "VS",
+  "of": 141,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "E1",
+  "sr": "e",
+  "of": 128,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "E2",
+  "sr": "e",
+  "of": 92,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "E3",
+  "sr": "e",
+  "of": 87,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "E4",
+  "sr": "e",
+  "of": 88,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "E5",
+  "sr": "e",
+  "of": 88,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "neo1",
+  "sr": "neo",
+  "of": 96,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "neo2",
+  "sr": "neo",
+  "of": 56,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "neo3",
+  "sr": "neo",
+  "of": 57,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "neo4",
+  "sr": "neo",
+  "of": 113,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "web1",
+  "sr": "web",
+  "of": 48,
+  "dens": {},
+  "source": "公式サイトに無い",
+  "status": "調べていない"
+ },
+ {
+  "set": "XY1-Bx",
+  "sr": "XY",
+  "of": 60,
+  "dens": {
+   "060": 63
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY1-By",
+  "sr": "XY",
+  "of": 60,
+  "dens": {
+   "060": 63
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY2",
+  "sr": "XY",
+  "of": 80,
+  "dens": {
+   "080": 87
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY3",
+  "sr": "XY",
+  "of": 96,
+  "dens": {
+   "096": 103
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY4",
+  "sr": "XY",
+  "of": 88,
+  "dens": {
+   "088": 95
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY5-Bg",
+  "sr": "XY",
+  "of": 70,
+  "dens": {
+   "070": 78
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY5-Bt",
+  "sr": "XY",
+  "of": 70,
+  "dens": {
+   "070": 78
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY6-B",
+  "sr": "XY",
+  "of": 78,
+  "dens": {
+   "078": 89
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY7-B",
+  "sr": "XY",
+  "of": 81,
+  "dens": {
+   "081": 95
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY8-Bb",
+  "sr": "XY",
+  "of": 59,
+  "dens": {
+   "059": 64
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY8-Br",
+  "sr": "XY",
+  "of": 59,
+  "dens": {
+   "059": 64
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY9-B",
+  "sr": "XY",
+  "of": 80,
+  "dens": {
+   "080": 88
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY10-B",
+  "sr": "XY",
+  "of": 78,
+  "dens": {
+   "078": 87
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY11-Bb",
+  "sr": "XY",
+  "of": 54,
+  "dens": {
+   "054": 58
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XY11-Br",
+  "sr": "XY",
+  "of": 54,
+  "dens": {
+   "054": 58
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW1-Bb",
+  "sr": "BW",
+  "of": 53,
+  "dens": {
+   "053": 53
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW1-Bw",
+  "sr": "BW",
+  "of": 53,
+  "dens": {
+   "053": 53
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW2-B",
+  "sr": "BW",
+  "of": 66,
+  "dens": {
+   "066": 66
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW3-Bh",
+  "sr": "BW",
+  "of": 52,
+  "dens": {
+   "052": 52
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW3-Bp",
+  "sr": "BW",
+  "of": 52,
+  "dens": {
+   "052": 52
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW4-B",
+  "sr": "BW",
+  "of": 69,
+  "dens": {
+   "069": 69
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW5-Brn",
+  "sr": "BW",
+  "of": 50,
+  "dens": {
+   "050": 50
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW5-Brz",
+  "sr": "BW",
+  "of": 50,
+  "dens": {
+   "050": 50
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW6-Bc",
+  "sr": "BW",
+  "of": 59,
+  "dens": {
+   "059": 59
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW6-Bf",
+  "sr": "BW",
+  "of": 59,
+  "dens": {
+   "059": 59
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW7-B",
+  "sr": "BW",
+  "of": 70,
+  "dens": {
+   "070": 70
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW8-Brf",
+  "sr": "BW",
+  "of": 51,
+  "dens": {
+   "051": 51
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW8-Brn",
+  "sr": "BW",
+  "of": 51,
+  "dens": {
+   "051": 51
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "BW9-B",
+  "sr": "BW",
+  "of": 76,
+  "dens": {
+   "076": 76
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "CP1",
+  "sr": "XY",
+  "of": 34,
+  "dens": {
+   "034": 3
+  },
+  "source": "details.php（30816 30833 30849）",
+  "status": "一致"
+ },
+ {
+  "set": "CP2",
+  "sr": "XY",
+  "of": 27,
+  "dens": {
+   "027": 3
+  },
+  "source": "details.php（31093 31105 31119）",
+  "status": "一致"
+ },
+ {
+  "set": "CP3",
+  "sr": "XY",
+  "of": 32,
+  "dens": {
+   "032": 1
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "CP4",
+  "sr": "XY",
+  "of": 131,
+  "dens": {
+   "131": 11
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "CP5",
+  "sr": "XY",
+  "of": 36,
+  "dens": {
+   "036": 3
+  },
+  "source": "details.php（32155 32174 35859）",
+  "status": "一致"
+ },
+ {
+  "set": "CP6",
+  "sr": "XY",
+  "of": 87,
+  "dens": {
+   "087": 12
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XYA",
+  "sr": "XY",
+  "of": 21,
+  "dens": {
+   "021": 1
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XYB",
+  "sr": "XY",
+  "of": 18,
+  "dens": {
+   "018": 3
+  },
+  "source": "details.php（30560 30569 30577）",
+  "status": "一致"
+ },
+ {
+  "set": "XYC",
+  "sr": "XY",
+  "of": 23,
+  "dens": {
+   "023": 3
+  },
+  "source": "details.php（30616 30628 30638）",
+  "status": "一致"
+ },
+ {
+  "set": "XYD",
+  "sr": "XY",
+  "of": 18,
+  "dens": {
+   "018": 1
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XYE",
+  "sr": "XY",
+  "of": 22,
+  "dens": {
+   "022": 12
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XYF",
+  "sr": "XY",
+  "of": 16,
+  "dens": {
+   "016": 1
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XYG",
+  "sr": "XY",
+  "of": 19,
+  "dens": {
+   "019": 1
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "XYH",
+  "sr": "XY",
+  "of": 26,
+  "dens": {
+   "026": 1
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "CPr",
+  "sr": "DP",
+  "of": 12,
+  "dens": {
+   "012": 3
+  },
+  "source": "details.php（23501 23514 23525）",
+  "status": "一致"
+ },
+ {
+  "set": "CPs",
+  "sr": "DP",
+  "of": 12,
+  "dens": {
+   "012": 3
+  },
+  "source": "details.php（23526 23540 23550）",
+  "status": "一致"
+ },
+ {
+  "set": "CPm",
+  "sr": "DP",
+  "of": 12,
+  "dens": {
+   "012": 3
+  },
+  "source": "details.php（23551 23564 23575）",
+  "status": "一致"
+ },
+ {
+  "set": "S1W",
+  "sr": "S",
+  "of": 60,
+  "dens": {
+   "060": 68
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S1H",
+  "sr": "S",
+  "of": 60,
+  "dens": {
+   "060": 68
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S1a",
+  "sr": "S",
+  "of": 70,
+  "dens": {
+   "070": 78
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S2",
+  "sr": "S",
+  "of": 96,
+  "dens": {
+   "096": 106
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S2a",
+  "sr": "S",
+  "of": 70,
+  "dens": {
+   "070": 78
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S3",
+  "sr": "S",
+  "of": 100,
+  "dens": {
+   "100": 110
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "S3a",
+  "sr": "S",
+  "of": 76,
+  "dens": {
+   "076": 85
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SD",
+  "sr": "S",
+  "of": 127,
+  "dens": {
+   "127": 3
+  },
+  "source": "details.php（38273 38312 38399）",
+  "status": "一致"
+ },
+ {
+  "set": "SM1S",
+  "sr": "SM",
+  "of": 60,
+  "dens": {
+   "060": 3
+  },
+  "source": "details.php（33005 33038 33064）",
+  "status": "一致"
+ },
+ {
+  "set": "SM1M",
+  "sr": "SM",
+  "of": 60,
+  "dens": {
+   "060": 3
+  },
+  "source": "details.php（33065 33098 33124）",
+  "status": "一致"
+ },
+ {
+  "set": "SM1p",
+  "sr": "SM",
+  "of": 51,
+  "dens": {
+   "051": 2
+  },
+  "source": "details.php（33230 33261 33283）",
+  "status": "一致"
+ },
+ {
+  "set": "SM2K",
+  "sr": "SM",
+  "of": 50,
+  "dens": {
+   "050": 3
+  },
+  "source": "details.php（33320 33347 35639）",
+  "status": "一致"
+ },
+ {
+  "set": "SM2L",
+  "sr": "SM",
+  "of": 50,
+  "dens": {
+   "050": 3
+  },
+  "source": "details.php（33417 33444 35634）",
+  "status": "一致"
+ },
+ {
+  "set": "SM2p",
+  "sr": "SM",
+  "of": 49,
+  "dens": {
+   "049": 2
+  },
+  "source": "details.php（33468 33498 33517）",
+  "status": "一致"
+ },
+ {
+  "set": "SM3H",
+  "sr": "SM",
+  "of": 51,
+  "dens": {
+   "051": 3
+  },
+  "source": "details.php（33864 33892 35653）",
+  "status": "一致"
+ },
+ {
+  "set": "SM3N",
+  "sr": "SM",
+  "of": 51,
+  "dens": {
+   "051": 3
+  },
+  "source": "details.php（33915 33943 35659）",
+  "status": "一致"
+ },
+ {
+  "set": "SM3p",
+  "sr": "SM",
+  "of": 72,
+  "dens": {
+   "072": 77
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM4S",
+  "sr": "SM",
+  "of": 50,
+  "dens": {
+   "050": 3
+  },
+  "source": "details.php（34130 34157 35669）",
+  "status": "一致"
+ },
+ {
+  "set": "SM4A",
+  "sr": "SM",
+  "of": 50,
+  "dens": {
+   "050": 3
+  },
+  "source": "details.php（34080 34107 34129）",
+  "status": "一致"
+ },
+ {
+  "set": "SM4p",
+  "sr": "SM",
+  "of": 114,
+  "dens": {
+   "114": 120
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM5S",
+  "sr": "SM",
+  "of": 66,
+  "dens": {
+   "066": 3
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM5M",
+  "sr": "SM",
+  "of": 66,
+  "dens": {
+   "066": 3
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM5p",
+  "sr": "SM",
+  "of": 50,
+  "dens": {
+   "050": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM6",
+  "sr": "SM",
+  "of": 94,
+  "dens": {
+   "094": 3
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM6a",
+  "sr": "SM",
+  "of": 53,
+  "dens": {
+   "053": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM6b",
+  "sr": "SM",
+  "of": 66,
+  "dens": {
+   "066": 3
+  },
+  "source": "details.php（34856 34894 34921）",
+  "status": "一致"
+ },
+ {
+  "set": "SM7",
+  "sr": "SM",
+  "of": 96,
+  "dens": {
+   "096": 3
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM7a",
+  "sr": "SM",
+  "of": 60,
+  "dens": {
+   "060": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM7b",
+  "sr": "SM",
+  "of": 50,
+  "dens": {
+   "050": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM8",
+  "sr": "SM",
+  "of": 95,
+  "dens": {
+   "095": 3
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM8a",
+  "sr": "SM",
+  "of": 52,
+  "dens": {
+   "052": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM8b",
+  "sr": "SM",
+  "of": 150,
+  "dens": {
+   "150": 6
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM9",
+  "sr": "SM",
+  "of": 95,
+  "dens": {
+   "095": 17
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM9a",
+  "sr": "SM",
+  "of": 55,
+  "dens": {
+   "055": 6
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM9b",
+  "sr": "SM",
+  "of": 54,
+  "dens": {
+   "054": 6
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM10",
+  "sr": "SM",
+  "of": 95,
+  "dens": {
+   "095": 9
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM10a",
+  "sr": "SM",
+  "of": 54,
+  "dens": {
+   "054": 6
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM10b",
+  "sr": "SM",
+  "of": 54,
+  "dens": {
+   "054": 6
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM11",
+  "sr": "SM",
+  "of": 94,
+  "dens": {
+   "094": 9
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM11a",
+  "sr": "SM",
+  "of": 64,
+  "dens": {
+   "064": 9
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM11b",
+  "sr": "SM",
+  "of": 49,
+  "dens": {
+   "049": 4
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM12",
+  "sr": "SM",
+  "of": 95,
+  "dens": {
+   "095": 17
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM12a",
+  "sr": "SM",
+  "of": 173,
+  "dens": {
+   "173": 183
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SMA",
+  "sr": "SM",
+  "of": 59,
+  "dens": {
+   "059": 2
+  },
+  "source": "details.php（33125 33159 33220）",
+  "status": "一致"
+ },
+ {
+  "set": "SMB",
+  "sr": "SM",
+  "of": 18,
+  "dens": {
+   "018": 12
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SMC",
+  "sr": "SM",
+  "of": 21,
+  "dens": {
+   "021": 3
+  },
+  "source": "details.php（33370 33380 33390）",
+  "status": "一致"
+ },
+ {
+  "set": "SMD",
+  "sr": "SM",
+  "of": 26,
+  "dens": {
+   "026": 4
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SME",
+  "sr": "SM",
+  "of": 21,
+  "dens": {
+   "021": 3
+  },
+  "source": "details.php（34357 34367 34377）",
+  "status": "一致"
+ },
+ {
+  "set": "SMF",
+  "sr": "SM",
+  "of": 20,
+  "dens": {
+   "020": 3
+  },
+  "source": "details.php（34515 34521 34526）",
+  "status": "一致"
+ },
+ {
+  "set": "SMG",
+  "sr": "SM",
+  "of": 41,
+  "dens": {
+   "041": 3
+  },
+  "source": "details.php（34629 34631 34636）",
+  "status": "一致"
+ },
+ {
+  "set": "SMH",
+  "sr": "SM",
+  "of": 131,
+  "dens": {
+   "131": 3
+  },
+  "source": "details.php（35030 35075 35148）",
+  "status": "一致"
+ },
+ {
+  "set": "SMI",
+  "sr": "SM",
+  "of": 38,
+  "dens": {
+   "038": 3
+  },
+  "source": "details.php（35898 35917 35935）",
+  "status": "一致"
+ },
+ {
+  "set": "SMJ",
+  "sr": "SM",
+  "of": 35,
+  "dens": {
+   "035": 3
+  },
+  "source": "details.php（36595 36612 36629）",
+  "status": "一致"
+ },
+ {
+  "set": "SMK",
+  "sr": "SM",
+  "of": 31,
+  "dens": {
+   "031": 3
+  },
+  "source": "details.php（36224 36239 36254）",
+  "status": "一致"
+ },
+ {
+  "set": "SML",
+  "sr": "SM",
+  "of": 51,
+  "dens": {
+   "051": 19
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SMM",
+  "sr": "SM",
+  "of": 31,
+  "dens": {
+   "031": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SMN",
+  "sr": "SM",
+  "of": 29,
+  "dens": {
+   "029": 3
+  },
+  "source": "details.php（36434 36448 36462）",
+  "status": "一致"
+ },
+ {
+  "set": "MA",
+  "sr": "M",
+  "of": 43,
+  "dens": {
+   "043": 3
+  },
+  "source": "details.php（47860 47881 47902）",
+  "status": "一致"
+ },
+ {
+  "set": "MBD",
+  "sr": "M",
+  "of": 21,
+  "dens": {
+   "021": 3
+  },
+  "source": "details.php（48285 48295 48305）",
+  "status": "一致"
+ },
+ {
+  "set": "MBG",
+  "sr": "M",
+  "of": 21,
+  "dens": {
+   "021": 3
+  },
+  "source": "details.php（48262 48272 48282）",
+  "status": "一致"
+ },
+ {
+  "set": "M5",
+  "sr": "M",
+  "of": 81,
+  "dens": {
+   "081": 63
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "M4",
+  "sr": "M",
+  "of": 83,
+  "dens": {
+   "083": 120
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "MP1",
+  "sr": "M",
+  "of": 23,
+  "dens": {
+   "023": 23
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "MC",
+  "sr": "M",
+  "of": 742,
+  "dens": {
+   "742": 3
+  },
+  "source": "details.php（48717 49104 49458）",
+  "status": "一致"
+ },
+ {
+  "set": "M2a",
+  "sr": "M",
+  "of": 193,
+  "dens": {
+   "193": 250
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "L1-Bhg",
+  "sr": "L",
+  "of": 70,
+  "dens": {
+   "070": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "L1-Bss",
+  "sr": "L",
+  "of": 70,
+  "dens": {
+   "070": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "L2-B",
+  "sr": "L",
+  "of": 80,
+  "dens": {
+   "080": 6
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "L3-B",
+  "sr": "L",
+  "of": 80,
+  "dens": {
+   "080": 6
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "LL",
+  "sr": "L",
+  "of": 40,
+  "dens": {
+   "040": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "L2-Sb",
+  "sr": "L",
+  "of": 19,
+  "dens": {
+   "019": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "L2-Sh",
+  "sr": "L",
+  "of": 19,
+  "dens": {
+   "019": 2
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVI",
+  "sr": "SV",
+  "of": 66,
+  "dens": {
+   "066": 44
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SVM",
+  "sr": "SV",
+  "of": 175,
+  "dens": {
+   "175": 3
+  },
+  "source": "details.php（46455 46542 46629）",
+  "status": "一致"
+ },
+ {
+  "set": "SVG",
+  "sr": "SV",
+  "of": 49,
+  "dens": {
+   "049": 3
+  },
+  "source": "details.php（44472 44498 44520）",
+  "status": "一致"
+ },
+ {
+  "set": "SVN",
+  "sr": "SV",
+  "of": 45,
+  "dens": {
+   "045": 3
+  },
+  "source": "details.php（47176 47198 47220）",
+  "status": "一致"
+ },
+ {
+  "set": "SVJL",
+  "sr": "SV",
+  "of": 21,
+  "dens": {
+   "021": 3
+  },
+  "source": "details.php（45801 45811 45821）",
+  "status": "一致"
+ },
+ {
+  "set": "SVJP",
+  "sr": "SV",
+  "of": 19,
+  "dens": {
+   "019": 3
+  },
+  "source": "details.php（45822 45831 45840）",
+  "status": "一致"
+ },
+ {
+  "set": "SVOD",
+  "sr": "SV",
+  "of": 18,
+  "dens": {
+   "018": 3
+  },
+  "source": "details.php（47272 47280 47289）",
+  "status": "一致"
+ },
+ {
+  "set": "SVOM",
+  "sr": "SV",
+  "of": 19,
+  "dens": {
+   "019": 3
+  },
+  "source": "details.php（47253 47262 47271）",
+  "status": "一致"
+ },
+ {
+  "set": "WCP",
+  "sr": "DP",
+  "of": 108,
+  "dens": {
+   "108": 3
+  },
+  "source": "details.php（4000 4054 4107）",
+  "status": "一致"
+ },
+ {
+  "set": "20th",
+  "sr": "XY",
+  "of": 72,
+  "dens": {
+   "072": 3
+  },
+  "source": "scan-progress",
+  "status": "一致"
+ },
+ {
+  "set": "SM0",
+  "sr": "SM",
+  "of": 4,
+  "dens": {
+   "004": 3
+  },
+  "source": "details.php（33001 33003 33004）",
+  "status": "一致"
+ },
+ {
+  "set": "SMP1",
+  "sr": "SM",
+  "of": 13,
+  "dens": {
+   "013": 3
+  },
+  "source": "details.php（33305 33311 33317）",
+  "status": "一致"
+ },
+ {
+  "set": "SMP2",
+  "sr": "SM",
+  "of": 24,
+  "dens": {
+   "024": 3
+  },
+  "source": "details.php（36718 36730 36742）",
+  "status": "一致"
+ },
+ {
+  "set": "WCS23",
+  "sr": "SV",
+  "of": 30,
+  "dens": {
+   "030": 2
+  },
+  "source": "details.php（43993 44009 44024）",
+  "status": "一致"
+ },
+ {
+  "set": "S8a-G",
+  "sr": "S",
+  "of": 15,
+  "dens": {
+   "015": 2
+  },
+  "source": "details.php（41664 41672 41679）",
+  "status": "一致"
+ },
+ {
+  "set": "S8a-P",
+  "sr": "S",
+  "of": 25,
+  "dens": {
+   "025": 3
+  },
+  "source": "details.php（50753 50768 50765）",
+  "status": "一致"
+ },
+ {
+  "set": "XY-BEST",
+  "sr": "XY",
+  "of": 171,
+  "dens": {
+   "171": 3
+  },
+  "source": "details.php（33553 33700 33851）",
+  "status": "一致"
+ }
+]
