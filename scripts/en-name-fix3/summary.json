@@ -5141,5 +5141,39 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVB-pokemon": {
+  "set": "SVB",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Premium Trainer Box ex (TCG)",
+   "section": "Premium Trainer Box ex",
+   "den": "den=028,",
+   "file": "D-6.txt"
+  },
+  "targets": 4,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 4,
+  "blankReasons": {
+   "規則で作れない・イラストレーターが分からない": 4
+  }
+ },
+ "SVB-trainer": {
+  "set": "SVB",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Premium Trainer Box ex (TCG)",
+   "section": "Premium Trainer Box ex",
+   "den": "den=028,",
+   "file": "D-6.txt"
+  },
+  "targets": 24,
+  "filled": 17,
+  "filledByRule": 0,
+  "blank": 7,
+  "blankReasons": {
+   "イラストレーターが分からない": 7
+  }
  }
 }
