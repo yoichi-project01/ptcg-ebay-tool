@@ -111,10 +111,10 @@
    "page": "MEGA Dream ex (TCG)",
    "section": "MEGA Dream ex",
    "den": "den=193",
-   "file": "M.txt"
+   "file": "S6-1.txt"
   },
-  "targets": 144,
-  "filled": 144,
+  "targets": 145,
+  "filled": 145,
   "filledByRule": 97,
   "blank": 0,
   "blankReasons": {}
@@ -1281,5 +1281,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "M2a-trainer": {
+  "set": "M2a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "MEGA Dream ex (TCG)",
+   "section": "MEGA Dream ex",
+   "den": "den=193",
+   "file": "S6-1.txt"
+  },
+  "targets": 48,
+  "filled": 47,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
