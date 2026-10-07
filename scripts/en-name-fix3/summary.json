@@ -3337,5 +3337,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "CP1-pokemon": {
+  "set": "CP1",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Double Crisis (TCG)",
+   "section": "Magma Gang VS Aqua Gang: Double Crisis",
+   "den": "den=034",
+   "file": "XY6-4.txt"
+  },
+  "targets": 22,
+  "filled": 22,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "CP1-trainer": {
+  "set": "CP1",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Double Crisis (TCG)",
+   "section": "Magma Gang VS Aqua Gang: Double Crisis",
+   "den": "den=034",
+   "file": "XY6-4.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
