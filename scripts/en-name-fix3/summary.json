@@ -3187,5 +3187,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY8-Br-pokemon": {
+  "set": "XY8-Br",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "BREAKthrough (TCG)",
+   "section": "Red Flash",
+   "den": "den=059",
+   "file": "XY6-3.txt"
+  },
+  "targets": 53,
+  "filled": 53,
+  "filledByRule": 53,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY8-Br-trainer": {
+  "set": "XY8-Br",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "BREAKthrough (TCG)",
+   "section": "Red Flash",
+   "den": "den=059",
+   "file": "XY6-3.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
