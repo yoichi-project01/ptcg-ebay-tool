@@ -201,7 +201,7 @@
    "page": "Explosive Walker (TCG)",
    "section": "Explosive Walker",
    "den": "den=070",
-   "file": "S-1.txt"
+   "file": "S6-1.txt"
   },
   "targets": 59,
   "filled": 59,
@@ -1362,5 +1362,20 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "S2a-trainer": {
+  "set": "S2a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Explosive Walker (TCG)",
+   "section": "Explosive Walker",
+   "den": "den=070",
+   "file": "S6-1.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
