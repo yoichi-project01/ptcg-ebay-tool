@@ -4059,5 +4059,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "LL-pokemon": {
+  "set": "LL",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Lost Link (TCG)",
+   "section": "Lost Link",
+   "den": "den=040",
+   "file": "BW-4.txt"
+  },
+  "targets": 34,
+  "filled": 34,
+  "filledByRule": 34,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "LL-trainer": {
+  "set": "LL",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Lost Link (TCG)",
+   "section": "Lost Link",
+   "den": "den=040",
+   "file": "BW-4.txt"
+  },
+  "targets": 4,
+  "filled": 4,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
