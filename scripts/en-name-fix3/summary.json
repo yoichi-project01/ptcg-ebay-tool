@@ -231,7 +231,7 @@
    "page": "Legendary Heartbeat (TCG)",
    "section": "Legendary Heartbeat",
    "den": "den=076",
-   "file": "S-1.txt"
+   "file": "S6-1.txt"
   },
   "targets": 54,
   "filled": 54,
@@ -1389,6 +1389,21 @@
   },
   "targets": 12,
   "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S3a-trainer": {
+  "set": "S3a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Legendary Heartbeat (TCG)",
+   "section": "Legendary Heartbeat",
+   "den": "den=076",
+   "file": "S6-1.txt"
+  },
+  "targets": 13,
+  "filled": 13,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
