@@ -5237,5 +5237,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVAM-pokemon": {
+  "set": "SVAM",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ex Starter Sets (TCG)",
+   "section": "ex Starter Set Sprigatito & Lucario ex",
+   "den": "den=023,",
+   "file": "D-6.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 11,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVAM-trainer": {
+  "set": "SVAM",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ex Starter Sets (TCG)",
+   "section": "ex Starter Set Sprigatito & Lucario ex",
+   "den": "den=023,",
+   "file": "D-6.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
