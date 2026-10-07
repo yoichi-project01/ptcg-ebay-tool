@@ -441,7 +441,7 @@
    "page": "Brilliant Stars (TCG)",
    "section": "Star Birth",
    "den": "den=100",
-   "file": "S-6.txt"
+   "file": "S6-2.txt"
   },
   "targets": 8,
   "filled": 8,
@@ -1608,5 +1608,20 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "S9-trainer": {
+  "set": "S9",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Brilliant Stars (TCG)",
+   "section": "Star Birth",
+   "den": "den=100",
+   "file": "S6-2.txt"
+  },
+  "targets": 13,
+  "filled": 13,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
