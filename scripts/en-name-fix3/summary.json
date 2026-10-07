@@ -3997,5 +3997,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "L2-B-pokemon": {
+  "set": "L2-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Undaunted (TCG)",
+   "section": "Reviving Legends",
+   "den": "den=080",
+   "file": "BW-4.txt"
+  },
+  "targets": 62,
+  "filled": 62,
+  "filledByRule": 62,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "L2-B-trainer": {
+  "set": "L2-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Undaunted (TCG)",
+   "section": "Reviving Legends",
+   "den": "den=080",
+   "file": "BW-4.txt"
+  },
+  "targets": 12,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
