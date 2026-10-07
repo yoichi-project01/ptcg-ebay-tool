@@ -2825,5 +2825,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM11a-pokemon": {
+  "set": "SM11a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Remix Bout (TCG)",
+   "section": "Remix Bout",
+   "den": "den=064",
+   "file": "SM6-5.txt"
+  },
+  "targets": 49,
+  "filled": 49,
+  "filledByRule": 46,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM11a-trainer": {
+  "set": "SM11a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Remix Bout (TCG)",
+   "section": "Remix Bout",
+   "den": "den=064",
+   "file": "SM6-5.txt"
+  },
+  "targets": 11,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
