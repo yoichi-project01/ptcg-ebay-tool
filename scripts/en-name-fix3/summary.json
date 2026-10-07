@@ -570,5 +570,20 @@
   "filledByRule": 8,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S12a-pokemon": {
+  "set": "S12a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Crown Zenith (TCG)",
+   "section": "VSTAR Universe",
+   "den": "den=172",
+   "file": "S-6.txt"
+  },
+  "targets": 30,
+  "filled": 30,
+  "filledByRule": 28,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
