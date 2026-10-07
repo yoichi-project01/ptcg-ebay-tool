@@ -5802,5 +5802,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVLS-pokemon": {
+  "set": "SVLS",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Stellar Tera Type Starter Sets (TCG)",
+   "section": "Stellar Tera Type Starter Set Ceruledge ex",
+   "den": "den=022,",
+   "file": "D-7.txt"
+  },
+  "targets": 1,
+  "filled": 1,
+  "filledByRule": 1,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVLS-trainer": {
+  "set": "SVLS",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Stellar Tera Type Starter Sets (TCG)",
+   "section": "Stellar Tera Type Starter Set Ceruledge ex",
+   "den": "den=022,",
+   "file": "D-7.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
