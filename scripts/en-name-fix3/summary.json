@@ -885,12 +885,10 @@
    "file": "SV-T.txt"
   },
   "targets": 28,
-  "filled": 26,
+  "filled": 28,
   "filledByRule": 0,
-  "blank": 2,
-  "blankReasons": {
-   "イラストレーターが分からない": 2
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "SV9-trainer": {
   "set": "SV9",
