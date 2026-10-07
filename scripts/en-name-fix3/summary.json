@@ -5618,5 +5618,35 @@
   "blankReasons": {
    "イラストレーターが分からない": 2
   }
+ },
+ "SP6-pokemon": {
+  "set": "SP6",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "VSTAR Special Set (TCG)",
+   "section": "VSTAR Special Set",
+   "den": "den=006",
+   "file": "D-7.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 6,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SP6-trainer": {
+  "set": "SP6",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "VSTAR Special Set (TCG)",
+   "section": "VSTAR Special Set",
+   "den": "den=006",
+   "file": "D-7.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
