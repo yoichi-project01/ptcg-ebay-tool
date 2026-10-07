@@ -291,7 +291,7 @@
    "page": "Battle Styles (TCG)",
    "section": "Rapid Strike Master",
    "den": "den=070",
-   "file": "S-6.txt"
+   "file": "S6-1.txt"
   },
   "targets": 57,
   "filled": 57,
@@ -1446,6 +1446,21 @@
   "bulbapedia": {
    "page": "Battle Styles (TCG)",
    "section": "Single Strike Master",
+   "den": "den=070",
+   "file": "S6-1.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S5R-trainer": {
+  "set": "S5R",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Battle Styles (TCG)",
+   "section": "Rapid Strike Master",
    "den": "den=070",
    "file": "S6-1.txt"
   },
