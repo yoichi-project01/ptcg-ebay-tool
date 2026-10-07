@@ -1015,5 +1015,35 @@
    "英語版の同じ名前のカードとイラストレーターが違う": 7,
    "イラストレーターが分からない": 2
   }
+ },
+ "SM11b-pokemon": {
+  "set": "SM11b",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Dream League (TCG)",
+   "section": "Dream League",
+   "den": "den=049",
+   "file": "SM-2.txt"
+  },
+  "targets": 41,
+  "filled": 41,
+  "filledByRule": 39,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM11b-trainer": {
+  "set": "SM11b",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Dream League (TCG)",
+   "section": "Dream League",
+   "den": "den=049",
+   "file": "SM-2.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
