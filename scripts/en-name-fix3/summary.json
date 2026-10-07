@@ -5417,5 +5417,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVEL-pokemon": {
+  "set": "SVEL",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Terastal Starter Sets (TCG)",
+   "section": "Terastal Starter Set Skeledirge ex",
+   "den": "den=020,",
+   "file": "D-7.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 7,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVEL-trainer": {
+  "set": "SVEL",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Terastal Starter Sets (TCG)",
+   "section": "Terastal Starter Set Skeledirge ex",
+   "den": "den=020,",
+   "file": "D-7.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
