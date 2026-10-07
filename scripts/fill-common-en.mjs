@@ -147,15 +147,16 @@ for (const k of set.k) {
     // 規則で作れない・食い違う → TCGdex 英語版で確かめる
     const ji = await jaInfo(id);
     r.illustrator = ji.illustrator ?? ""; r.illSrc = ji.illSrc;
-    const cands = (enByKey.get(key(b.name)) || []).filter((c) => c.category === "Pokemon");
-    if (!cands.length) { r.note = (r.rule ? "規則と Bulbapedia が食い違う・" : "規則で作れない・") + "英語版に同じ名前のポケモンが無い"; continue; }
     if (!ji.illustrator) { r.note = (r.rule ? "規則と Bulbapedia が食い違う・" : "規則で作れない・") + "イラストレーターが分からない"; continue; }
     const p = parsePokemon(k[1]);
     const dex = ji.dexId?.length ? ji.dexId : p?.dex ? [p.dex] : null;
-    const m = cands.filter((c) => sameIll(c.illustrator, ji.illustrator) && (!dex || !c.dexId?.length || c.dexId.some((d) => dex.includes(d))));
-    r.tcgdexIds = m.map((c) => c.id).join(" ");
-    if (m.length) { r.status = "入れる"; r.note = (r.rule ? "規則と食い違うが" : "規則で作れないが") + " TCGdex 英語版で同じ名前・イラストレーターを確認"; r.en = b.name; }
-    else r.note = (r.rule ? "規則と Bulbapedia が食い違う・" : "規則で作れない・") + "英語版の同じ名前のカードとイラストレーターが違う";
+    const match = (name) => (enByKey.get(key(name)) || []).filter((c) => c.category === "Pokemon" && sameIll(c.illustrator, ji.illustrator) && (!dex || !c.dexId?.length || c.dexId.some((d) => dex.includes(d))));
+    const m = match(b.name);
+    if (m.length) { r.tcgdexIds = m.map((c) => c.id).join(" "); r.status = "入れる"; r.note = (r.rule ? "規則と食い違うが" : "規則で作れないが") + " TCGdex 英語版で同じ名前・イラストレーターを確認"; r.en = b.name; continue; }
+    // 規則と Bulbapedia が食い違うとき、規則の名前のカードが英語版に同じイラストレーターであれば規則の名前を入れる（Bulbapedia の誤字。例 MA-003 Fezandipti ex）
+    const mr = r.rule ? match(r.rule) : [];
+    if (mr.length) { r.tcgdexIds = mr.map((c) => c.id).join(" "); r.status = "入れる"; r.note = "Bulbapedia と食い違うが、規則の名前を TCGdex 英語版で同じ名前・イラストレーターを確認"; r.en = r.rule; continue; }
+    r.note = (r.rule ? "規則と Bulbapedia が食い違う・" : "規則で作れない・") + ((enByKey.get(key(b.name)) || []).some((c) => c.category === "Pokemon") ? "英語版の同じ名前のカードとイラストレーターが違う" : "英語版に同じ名前のポケモンが無い");
   } else {
     const ji = await jaInfo(id);
     r.illustrator = ji.illustrator ?? ""; r.illSrc = ji.illSrc;
@@ -191,11 +192,23 @@ if (!APPLY) {
 } else {
   for (const r of fill) { const row = set.k.find((k) => `${SET}-${k[0]}` === r.id); if (row[2]) throw new Error(`英語名が既にあります: ${r.id}`); row[2] = r.en; }
   writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+  // 2回目以降の実行（前回空欄だった行をあとから入れる等）では、前回の根拠に追記・更新する
   mkdirSync(path.join(DIR, "decisions"), { recursive: true });
-  writeFileSync(path.join(DIR, "decisions", `${SET}-${KIND}.tsv`), tsv);
-  writeFileSync(path.join(DIR, "decisions", `${SET}-${KIND}-changed-card-ids.txt`), fill.map((r) => r.id).join("\n") + (fill.length ? "\n" : ""));
+  const DEC = path.join(DIR, "decisions", `${SET}-${KIND}.tsv`);
+  const merged = new Map();
+  if (existsSync(DEC)) for (const l of readFileSync(DEC, "utf8").split(/\r?\n/).slice(1).filter(Boolean)) { const v = l.split("\t"); merged.set(v[0], Object.fromEntries(COLS.map((c, i) => [c, v[i] ?? ""]))); }
+  for (const r of rows) merged.set(r.id, r);
+  const all = [...merged.values()].sort((a, b) => a.id.localeCompare(b.id, "en", { numeric: true }));
+  writeFileSync(DEC, [COLS.join("\t"), ...all.map((r) => COLS.map((c) => r[c]).join("\t"))].join("\n") + "\n");
+  const IDS = path.join(DIR, "decisions", `${SET}-${KIND}-changed-card-ids.txt`);
+  const ids = new Set(existsSync(IDS) ? readFileSync(IDS, "utf8").split(/\r?\n/).filter(Boolean) : []);
+  for (const r of fill) ids.add(r.id);
+  writeFileSync(IDS, [...ids].join("\n") + (ids.size ? "\n" : ""));
+  const allFill = all.filter((r) => r.status === "入れる");
+  const allReasons = {};
+  for (const r of all.filter((r) => r.status !== "入れる")) allReasons[r.note] = (allReasons[r.note] || 0) + 1;
   const SUM = path.join(DIR, "summary.json");
   const sum = existsSync(SUM) ? JSON.parse(readFileSync(SUM, "utf8")) : {};
-  sum[`${SET}-${KIND}`] = result;
+  sum[`${SET}-${KIND}`] = { ...result, targets: all.length, filled: allFill.length, filledByRule: allFill.filter((r) => r.note === "規則と Bulbapedia が一致").length, blank: all.length - allFill.length, blankReasons: allReasons };
   writeFileSync(SUM, JSON.stringify(sum, null, 1) + "\n");
 }

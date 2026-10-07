@@ -24,12 +24,10 @@
    "file": "M.txt"
   },
   "targets": 10,
-  "filled": 9,
+  "filled": 10,
   "filledByRule": 9,
-  "blank": 1,
-  "blankReasons": {
-   "規則と Bulbapedia が食い違う・英語版に同じ名前のポケモンが無い": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "MBD-pokemon": {
   "set": "MBD",

@@ -1,7 +1,7 @@
 id	ja	rarity	rule	bpName	bpType	illustrator	illSrc	tcgdexIds	status	note	en
 MA-001	シェイミ		Shaymin	Shaymin	Grass				入れる	規則と Bulbapedia が一致	Shaymin
 MA-002	ミュウex		Mew ex	Mew ex	Psychic				入れる	規則と Bulbapedia が一致	Mew ex
-MA-003	キチキギスex		Fezandipiti ex	Fezandipti ex	Darkness				空欄	規則と Bulbapedia が食い違う・英語版に同じ名前のポケモンが無い	
+MA-003	キチキギスex		Fezandipiti ex	Fezandipti ex	Darkness	takuyoa	公式details.php	sv06.5-038 me02.5-142	入れる	Bulbapedia と食い違うが、規則の名前を TCGdex 英語版で同じ名前・イラストレーターを確認	Fezandipiti ex
 MA-004	シャリタツ		Tatsugiri	Tatsugiri	Dragon				入れる	規則と Bulbapedia が一致	Tatsugiri
 MA-005	ポッポ		Pidgey	Pidgey	Colorless				入れる	規則と Bulbapedia が一致	Pidgey
 MA-006	ピジョン		Pidgeotto	Pidgeotto	Colorless				入れる	規則と Bulbapedia が一致	Pidgeotto
