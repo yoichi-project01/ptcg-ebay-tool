@@ -2855,5 +2855,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM12-pokemon": {
+  "set": "SM12",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Cosmic Eclipse (TCG)",
+   "section": "Alter Genesis",
+   "den": "den=095",
+   "file": "SM6-5.txt"
+  },
+  "targets": 82,
+  "filled": 82,
+  "filledByRule": 77,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM12-trainer": {
+  "set": "SM12",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Cosmic Eclipse (TCG)",
+   "section": "Alter Genesis",
+   "den": "den=095",
+   "file": "SM6-5.txt"
+  },
+  "targets": 9,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
