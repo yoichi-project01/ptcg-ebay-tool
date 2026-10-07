@@ -1910,5 +1910,20 @@
   "filledByRule": 52,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV7-pokemon": {
+  "set": "SV7",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Stellar Crown (TCG)",
+   "section": "Stellar Miracle",
+   "den": "den=102",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 8,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
