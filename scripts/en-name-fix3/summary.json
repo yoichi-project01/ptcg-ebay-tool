@@ -5387,5 +5387,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVJP-pokemon": {
+  "set": "SVJP",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Battle Master Decks (TCG)",
+   "section": "Battle Master Deck Chien-Pao ex",
+   "den": "den=019,",
+   "file": "D-6.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 6,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVJP-trainer": {
+  "set": "SVJP",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Battle Master Decks (TCG)",
+   "section": "Battle Master Deck Chien-Pao ex",
+   "den": "den=019,",
+   "file": "D-6.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
