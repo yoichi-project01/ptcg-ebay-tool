@@ -170,7 +170,9 @@ for (const k of set.k) {
     const UNIT = { G: "Grass", R: "Fire", W: "Water", L: "Lightning", P: "Psychic", F: "Fighting", D: "Darkness", M: "Metal", Y: "Fairy", C: "Colorless", N: "Dragon" };
     const lookName = b.name.replace(/^Unit Energy ([GRWLPFDMY]{3})$/, (_, s) => "Unit Energy " + [...s].map((x) => UNIT[x]).join(""))
       .replace(/^(.+) ([GRWLPFDMYC]) Energy$/, (_, a, x) => `${a} ${UNIT[x]} Energy`)
-      .replace(/^Fairy Charm ([GRWLPFDMYN])$/, (_, x) => `Fairy Charm ${UNIT[x]}`);
+      .replace(/^Fairy Charm ([GRWLPFDMYN])$/, (_, x) => `Fairy Charm ${UNIT[x]}`)
+      // フレア団ギア: Bulbapedia は名前だけ、TCGdex 英語版は「Battle Compressor Team Flare Gear」の形
+      .replace(/$/, /（フレア団ハイパーギア）$/.test(k[1]) ? " Team Flare Hyper Gear" : /（フレア団ギア）$/.test(k[1]) ? " Team Flare Gear" : "");
     const cands = (enByKey.get(key(lookName)) || []).filter((c) => (isEnergy ? c.category === "Energy" : c.category === "Trainer" && sameType(c.trainerType)));
     if (!cands.length) { r.note = "英語版に同じ名前・種類のカードが無い"; continue; }
     if (ji.category && ji.category !== (isEnergy ? "Energy" : "Trainer")) { r.note = `TCGdex 日本語版の種類が違う（${ji.category}）`; continue; }
