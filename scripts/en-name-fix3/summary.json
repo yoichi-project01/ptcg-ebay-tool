@@ -2585,5 +2585,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM7b-pokemon": {
+  "set": "SM7b",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Fairy Rise (TCG)",
+   "section": "Fairy Rise",
+   "den": "den=050",
+   "file": "SM6-4.txt"
+  },
+  "targets": 40,
+  "filled": 40,
+  "filledByRule": 40,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM7b-trainer": {
+  "set": "SM7b",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Fairy Rise (TCG)",
+   "section": "Fairy Rise",
+   "den": "den=050",
+   "file": "SM6-4.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
