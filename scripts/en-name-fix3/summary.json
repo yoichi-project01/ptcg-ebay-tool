@@ -807,5 +807,20 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "SV6-trainer": {
+  "set": "SV6",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Twilight Masquerade (TCG)",
+   "section": "Transformation Mask",
+   "den": "den=101",
+   "file": "SV-T.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
