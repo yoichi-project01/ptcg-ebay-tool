@@ -3277,5 +3277,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY11-Bb-pokemon": {
+  "set": "XY11-Bb",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Steam Siege (TCG)",
+   "section": "Fever-Burst Fighter",
+   "den": "den=054",
+   "file": "XY6-3.txt"
+  },
+  "targets": 48,
+  "filled": 48,
+  "filledByRule": 48,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY11-Bb-trainer": {
+  "set": "XY11-Bb",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Steam Siege (TCG)",
+   "section": "Fever-Burst Fighter",
+   "den": "den=054",
+   "file": "XY6-3.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
