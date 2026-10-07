@@ -3817,5 +3817,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "BW7-B-pokemon": {
+  "set": "BW7-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Plasma Storm (TCG)",
+   "section": "Plasma Gale",
+   "den": "den=070",
+   "file": "BW-3.txt"
+  },
+  "targets": 61,
+  "filled": 61,
+  "filledByRule": 61,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "BW7-B-trainer": {
+  "set": "BW7-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Plasma Storm (TCG)",
+   "section": "Plasma Gale",
+   "den": "den=070",
+   "file": "BW-3.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
