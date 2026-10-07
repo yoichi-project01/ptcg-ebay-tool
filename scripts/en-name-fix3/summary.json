@@ -351,7 +351,7 @@
    "page": "Eevee Heroes (TCG)",
    "section": "Eevee Heroes",
    "den": "den=069",
-   "file": "S-3.txt"
+   "file": "S6-1.txt"
   },
   "targets": 55,
   "filled": 55,
@@ -1511,6 +1511,21 @@
   },
   "targets": 11,
   "filled": 11,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S6a-trainer": {
+  "set": "S6a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Eevee Heroes (TCG)",
+   "section": "Eevee Heroes",
+   "den": "den=069",
+   "file": "S6-1.txt"
+  },
+  "targets": 10,
+  "filled": 10,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
