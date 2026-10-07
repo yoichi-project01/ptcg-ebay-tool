@@ -1970,5 +1970,20 @@
   "filledByRule": 1,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV9-pokemon": {
+  "set": "SV9",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Battle Partners (TCG)",
+   "section": "Battle Partners",
+   "den": "den=100",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 4,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
