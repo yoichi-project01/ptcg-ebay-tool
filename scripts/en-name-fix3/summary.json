@@ -694,5 +694,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV3a-trainer": {
+  "set": "SV3a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Raging Surf (TCG)",
+   "section": "Raging Surf",
+   "den": "den=062",
+   "file": "SV-T.txt"
+  },
+  "targets": 10,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
