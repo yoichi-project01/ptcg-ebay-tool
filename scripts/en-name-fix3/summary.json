@@ -4367,5 +4367,41 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "DPt-P-pokemon": {
+  "set": "DPt-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "DPt-P Promotional cards (TCG)",
+   "section": "DPt-P Promotional cards",
+   "den": "den=DPt-P",
+   "file": "P-6.txt"
+  },
+  "targets": 31,
+  "filled": 28,
+  "filledByRule": 17,
+  "blank": 3,
+  "blankReasons": {
+   "規則で作れない・英語版に同じ名前のポケモンが無い": 3
+  }
+ },
+ "DPt-P-trainer": {
+  "set": "DPt-P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "DPt-P Promotional cards (TCG)",
+   "section": "DPt-P Promotional cards",
+   "den": "den=DPt-P",
+   "file": "P-6.txt"
+  },
+  "targets": 20,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 14,
+  "blankReasons": {
+   "イラストレーターが分からない": 8,
+   "英語版に同じ名前・種類のカードが無い": 5,
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
