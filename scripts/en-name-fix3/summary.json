@@ -135,5 +135,20 @@
   "filledByRule": 538,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S1W-pokemon": {
+  "set": "S1W",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Sword & Shield (TCG)",
+   "section": "Sword",
+   "den": "den=060",
+   "file": "S-1.txt"
+  },
+  "targets": 49,
+  "filled": 49,
+  "filledByRule": 49,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
