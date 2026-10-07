@@ -1107,5 +1107,38 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM8b-pokemon": {
+  "set": "SM8b",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Hidden Fates (TCG)",
+   "section": "GX Ultra Shiny",
+   "den": "den=150",
+   "file": "SM-3.txt"
+  },
+  "targets": 107,
+  "filled": 107,
+  "filledByRule": 97,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM8b-trainer": {
+  "set": "SM8b",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Hidden Fates (TCG)",
+   "section": "GX Ultra Shiny",
+   "den": "den=150",
+   "file": "SM-3.txt"
+  },
+  "targets": 37,
+  "filled": 33,
+  "filledByRule": 0,
+  "blank": 4,
+  "blankReasons": {
+   "イラストレーターが分からない": 1,
+   "英語版に同じ名前・種類のカードが無い": 3
+  }
  }
 }

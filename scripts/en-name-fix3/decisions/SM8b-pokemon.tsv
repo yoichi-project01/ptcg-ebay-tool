@@ -1,0 +1,108 @@
+id	ja	rarity	rule	bpName	bpType	illustrator	illSrc	tcgdexIds	status	note	en
+SM8b-001	フシギダネ		Bulbasaur	Bulbasaur	Grass				入れる	規則と Bulbapedia が一致	Bulbasaur
+SM8b-002	フシギソウ		Ivysaur	Ivysaur	Grass				入れる	規則と Bulbapedia が一致	Ivysaur
+SM8b-003	フシギバナ		Venusaur	Venusaur	Grass				入れる	規則と Bulbapedia が一致	Venusaur
+SM8b-004	タマタマ		Exeggcute	Exeggcute	Grass				入れる	規則と Bulbapedia が一致	Exeggcute
+SM8b-005	カットロトム			Mow Rotom	Grass	kawayoo	TCGdex日本語版	sm5-14	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Mow Rotom
+SM8b-007	コソクムシ		Wimpod	Wimpod	Grass				入れる	規則と Bulbapedia が一致	Wimpod
+SM8b-008	グソクムシャGX	RR	Golisopod-GX	Golisopod-GX	Grass				入れる	規則と Bulbapedia が一致	Golisopod-GX
+SM8b-009	フェローチェ		Pheromosa	Pheromosa	Grass				入れる	規則と Bulbapedia が一致	Pheromosa
+SM8b-010	マグマッグ		Slugma	Slugma	Fire				入れる	規則と Bulbapedia が一致	Slugma
+SM8b-011	マグカルゴ		Magcargo	Magcargo	Fire				入れる	規則と Bulbapedia が一致	Magcargo
+SM8b-012	アチャモ		Torchic	Torchic	Fire				入れる	規則と Bulbapedia が一致	Torchic
+SM8b-013	ワカシャモ		Combusken	Combusken	Fire				入れる	規則と Bulbapedia が一致	Combusken
+SM8b-014	バシャーモ		Blaziken	Blaziken	Fire				入れる	規則と Bulbapedia が一致	Blaziken
+SM8b-015	ヒートロトム			Heat Rotom	Fire	Shin Nagasawa	TCGdex日本語版	sm5-24	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Heat Rotom
+SM8b-016	クイタラン		Heatmor	Heatmor	Fire				入れる	規則と Bulbapedia が一致	Heatmor
+SM8b-017	レシラム		Reshiram	Reshiram	Fire				入れる	規則と Bulbapedia が一致	Reshiram
+SM8b-018	レシラムGX	RR	Reshiram-GX	Reshiram-GX	Fire				入れる	規則と Bulbapedia が一致	Reshiram-GX
+SM8b-019	フォッコ		Fennekin	Fennekin	Fire				入れる	規則と Bulbapedia が一致	Fennekin
+SM8b-020	テールナー		Braixen	Braixen	Fire				入れる	規則と Bulbapedia が一致	Braixen
+SM8b-021	マフォクシー		Delphox	Delphox	Fire				入れる	規則と Bulbapedia が一致	Delphox
+SM8b-022	アローラ ロコン		Alolan Vulpix	Alolan Vulpix	Water				入れる	規則と Bulbapedia が一致	Alolan Vulpix
+SM8b-023	ウパー		Wooper	Wooper	Water				入れる	規則と Bulbapedia が一致	Wooper
+SM8b-024	ヌオー		Quagsire	Quagsire	Water				入れる	規則と Bulbapedia が一致	Quagsire
+SM8b-025	ユキカブリ		Snover	Snover	Water				入れる	規則と Bulbapedia が一致	Snover
+SM8b-026	ユキノオー		Abomasnow	Abomasnow	Water				入れる	規則と Bulbapedia が一致	Abomasnow
+SM8b-027	グレイシアGX	RR	Glaceon-GX	Glaceon-GX	Water				入れる	規則と Bulbapedia が一致	Glaceon-GX
+SM8b-028	ウォッシュロトム			Wash Rotom	Water	Shigenori Negishi	TCGdex日本語版	sm5-40 smp-SM94	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Wash Rotom
+SM8b-029	フロストロトム			Frost Rotom	Water	MAHOU	TCGdex日本語版	sm5-41	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Frost Rotom
+SM8b-030	マナフィ		Manaphy	Manaphy	Water				入れる	規則と Bulbapedia が一致	Manaphy
+SM8b-031	ケロマツ		Froakie	Froakie	Water				入れる	規則と Bulbapedia が一致	Froakie
+SM8b-032	ゲコガシラ		Frogadier	Frogadier	Water				入れる	規則と Bulbapedia が一致	Frogadier
+SM8b-033	ゲッコウガGX	RR	Greninja-GX	Greninja-GX	Water				入れる	規則と Bulbapedia が一致	Greninja-GX
+SM8b-034	ライコウ		Raikou	Raikou	Lightning				入れる	規則と Bulbapedia が一致	Raikou
+SM8b-035	パチリス		Pachirisu	Pachirisu	Lightning				入れる	規則と Bulbapedia が一致	Pachirisu
+SM8b-036	ロトム		Rotom	Rotom	Lightning				入れる	規則と Bulbapedia が一致	Rotom
+SM8b-037	ゼクロム		Zekrom	Zekrom	Lightning				入れる	規則と Bulbapedia が一致	Zekrom
+SM8b-038	デンジュモク		Xurkitree	Xurkitree	Lightning				入れる	規則と Bulbapedia が一致	Xurkitree
+SM8b-039	デンジュモクGX	RR	Xurkitree-GX	Xurkitree-GX	Lightning				入れる	規則と Bulbapedia が一致	Xurkitree-GX
+SM8b-040	アローラ ガラガラ		Alolan Marowak	Alolan Marowak	Psychic				入れる	規則と Bulbapedia が一致	Alolan Marowak
+SM8b-041	ハブネーク		Seviper	Seviper	Psychic				入れる	規則と Bulbapedia が一致	Seviper
+SM8b-042	マーイーカ		Inkay	Inkay	Psychic				入れる	規則と Bulbapedia が一致	Inkay
+SM8b-043	カラマネロ		Malamar	Malamar	Psychic				入れる	規則と Bulbapedia が一致	Malamar
+SM8b-044	カプ・テテフGX	RR	Tapu Lele-GX	Tapu Lele-GX	Psychic				入れる	規則と Bulbapedia が一致	Tapu Lele-GX
+SM8b-045	コスモッグ		Cosmog	Cosmog	Psychic				入れる	規則と Bulbapedia が一致	Cosmog
+SM8b-046	コスモウム		Cosmoem	Cosmoem	Psychic				入れる	規則と Bulbapedia が一致	Cosmoem
+SM8b-048	ネクロズマ あかつきのつばさ			Dawn Wings Necrozma	Psychic	nagimiso	TCGdex日本語版	smp-SM123	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Dawn Wings Necrozma
+SM8b-049	ネクロズマ あかつきのつばさGX	RR		Dawn Wings Necrozma-GX	Psychic	5ban Graphics	TCGdex日本語版	sm5-63 sm5-143 sm5-161 smp-SM101	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Dawn Wings Necrozma-GX
+SM8b-050	マーシャドー		Marshadow	Marshadow	Psychic				入れる	規則と Bulbapedia が一致	Marshadow
+SM8b-051	ベベノム		Poipole	Poipole	Psychic				入れる	規則と Bulbapedia が一致	Poipole
+SM8b-052	アーゴヨンGX	RR	Naganadel-GX	Naganadel-GX	Psychic				入れる	規則と Bulbapedia が一致	Naganadel-GX
+SM8b-053	カラカラ		Cubone	Cubone	Fighting				入れる	規則と Bulbapedia が一致	Cubone
+SM8b-054	ウソッキー		Sudowoodo	Sudowoodo	Fighting				入れる	規則と Bulbapedia が一致	Sudowoodo
+SM8b-055	リオル		Riolu	Riolu	Fighting				入れる	規則と Bulbapedia が一致	Riolu
+SM8b-056	ルカリオ		Lucario	Lucario	Fighting				入れる	規則と Bulbapedia が一致	Lucario
+SM8b-057	ジガルデ		Zygarde	Zygarde	Fighting				入れる	規則と Bulbapedia が一致	Zygarde
+SM8b-059	イワンコ		Rockruff	Rockruff	Fighting				入れる	規則と Bulbapedia が一致	Rockruff
+SM8b-060	ルガルガンGX	RR	Lycanroc-GX	Lycanroc-GX	Fighting				入れる	規則と Bulbapedia が一致	Lycanroc-GX
+SM8b-061	ルガルガンGX	RR	Lycanroc-GX	Lycanroc-GX	Fighting				入れる	規則と Bulbapedia が一致	Lycanroc-GX
+SM8b-062	マッシブーン		Buzzwole	Buzzwole	Fighting				入れる	規則と Bulbapedia が一致	Buzzwole
+SM8b-063	マッシブーンGX	RR	Buzzwole-GX	Buzzwole-GX	Fighting				入れる	規則と Bulbapedia が一致	Buzzwole-GX
+SM8b-064	マーシャドーGX	RR	Marshadow-GX	Marshadow-GX	Fighting				入れる	規則と Bulbapedia が一致	Marshadow-GX
+SM8b-065	ニューラ		Sneasel	Sneasel	Darkness				入れる	規則と Bulbapedia が一致	Sneasel
+SM8b-066	マニューラ		Weavile	Weavile	Darkness				入れる	規則と Bulbapedia が一致	Weavile
+SM8b-067	ヤミラミ		Sableye	Sableye	Darkness				入れる	規則と Bulbapedia が一致	Sableye
+SM8b-068	ダークライ		Darkrai	Darkrai	Darkness				入れる	規則と Bulbapedia が一致	Darkrai
+SM8b-069	ゾロア		Zorua	Zorua	Darkness				入れる	規則と Bulbapedia が一致	Zorua
+SM8b-070	ゾロアークGX	RR	Zoroark-GX	Zoroark-GX	Darkness				入れる	規則と Bulbapedia が一致	Zoroark-GX
+SM8b-071	モノズ		Deino	Deino	Darkness				入れる	規則と Bulbapedia が一致	Deino
+SM8b-072	ジヘッド		Zweilous	Zweilous	Darkness				入れる	規則と Bulbapedia が一致	Zweilous
+SM8b-073	サザンドラ		Hydreigon	Hydreigon	Darkness				入れる	規則と Bulbapedia が一致	Hydreigon
+SM8b-074	フーパ		Hoopa	Hoopa	Darkness				入れる	規則と Bulbapedia が一致	Hoopa
+SM8b-075	アクジキング		Guzzlord	Guzzlord	Darkness				入れる	規則と Bulbapedia が一致	Guzzlord
+SM8b-076	アローラ ディグダ		Alolan Diglett	Alolan Diglett	Metal				入れる	規則と Bulbapedia が一致	Alolan Diglett
+SM8b-077	アローラ ダグトリオ		Alolan Dugtrio	Alolan Dugtrio	Metal				入れる	規則と Bulbapedia が一致	Alolan Dugtrio
+SM8b-078	コイル		Magnemite	Magnemite	Metal				入れる	規則と Bulbapedia が一致	Magnemite
+SM8b-079	レアコイル		Magneton	Magneton	Metal				入れる	規則と Bulbapedia が一致	Magneton
+SM8b-080	ジバコイル		Magnezone	Magnezone	Metal				入れる	規則と Bulbapedia が一致	Magnezone
+SM8b-081	ヒードラン		Heatran	Heatran	Metal				入れる	規則と Bulbapedia が一致	Heatran
+SM8b-083	テッカグヤ		Celesteela	Celesteela	Metal				入れる	規則と Bulbapedia が一致	Celesteela
+SM8b-084	カミツルギ		Kartana	Kartana	Metal				入れる	規則と Bulbapedia が一致	Kartana
+SM8b-085	ネクロズマ たそがれのたてがみ			Dusk Mane Necrozma	Metal	nagimiso	TCGdex日本語版	smp-SM124	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Dusk Mane Necrozma
+SM8b-086	ネクロズマ たそがれのたてがみGX	RR		Dusk Mane Necrozma-GX	Metal	5ban Graphics	TCGdex日本語版	sm5-90 sm5-145 sm5-163 smp-SM102	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Dusk Mane Necrozma-GX
+SM8b-087	マギアナ		Magearna	Magearna	Metal				入れる	規則と Bulbapedia が一致	Magearna
+SM8b-088	ツンデツンデGX	RR	Stakataka-GX	Stakataka-GX	Metal				入れる	規則と Bulbapedia が一致	Stakataka-GX
+SM8b-089	アローラ キュウコン		Alolan Ninetales	Alolan Ninetales	Fairy				入れる	規則と Bulbapedia が一致	Alolan Ninetales
+SM8b-090	ラルトス		Ralts	Ralts	Fairy				入れる	規則と Bulbapedia が一致	Ralts
+SM8b-091	キルリア		Kirlia	Kirlia	Fairy				入れる	規則と Bulbapedia が一致	Kirlia
+SM8b-092	サーナイトGX	RR	Gardevoir-GX	Gardevoir-GX	Fairy				入れる	規則と Bulbapedia が一致	Gardevoir-GX
+SM8b-093	ゼルネアス		Xerneas	Xerneas	Fairy				入れる	規則と Bulbapedia が一致	Xerneas
+SM8b-094	ディアンシー		Diancie	Diancie	Fairy				入れる	規則と Bulbapedia が一致	Diancie
+SM8b-095	ミミッキュ		Mimikyu	Mimikyu	Fairy				入れる	規則と Bulbapedia が一致	Mimikyu
+SM8b-096	アローラ ナッシー		Alolan Exeggutor	Alolan Exeggutor	Dragon				入れる	規則と Bulbapedia が一致	Alolan Exeggutor
+SM8b-097	チルタリス		Altaria	Altaria	Dragon				入れる	規則と Bulbapedia が一致	Altaria
+SM8b-098	レックウザGX	RR	Rayquaza-GX	Rayquaza-GX	Dragon				入れる	規則と Bulbapedia が一致	Rayquaza-GX
+SM8b-099	フカマル		Gible	Gible	Dragon				入れる	規則と Bulbapedia が一致	Gible
+SM8b-100	ガバイト		Gabite	Gabite	Dragon				入れる	規則と Bulbapedia が一致	Gabite
+SM8b-101	ガブリアス		Garchomp	Garchomp	Dragon				入れる	規則と Bulbapedia が一致	Garchomp
+SM8b-102	ジガルデ		Zygarde	Zygarde	Dragon				入れる	規則と Bulbapedia が一致	Zygarde
+SM8b-103	バクガメス		Turtonator	Turtonator	Dragon				入れる	規則と Bulbapedia が一致	Turtonator
+SM8b-104	ウルトラネクロズマGX	RR		Ultra Necrozma-GX	Dragon	PLANETA Otani	TCGdex日本語版	sm6-95	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Ultra Necrozma-GX
+SM8b-105	イーブイ		Eevee	Eevee	Colorless				入れる	規則と Bulbapedia が一致	Eevee
+SM8b-106	ノコッチ		Dunsparce	Dunsparce	Colorless				入れる	規則と Bulbapedia が一致	Dunsparce
+SM8b-107	チルット		Swablu	Swablu	Colorless				入れる	規則と Bulbapedia が一致	Swablu
+SM8b-108	スピンロトム			Fan Rotom	Colorless	Masakazu Fukuda	TCGdex日本語版	sm5-110	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Fan Rotom
+SM8b-109	ヤレユータン		Oranguru	Oranguru	Colorless				入れる	規則と Bulbapedia が一致	Oranguru
+SM8b-110	タイプ：ヌル		Type: Null	Type: Null	Colorless				入れる	規則と Bulbapedia が一致	Type: Null
+SM8b-111	シルヴァディGX	RR	Silvally-GX	Silvally-GX	Colorless				入れる	規則と Bulbapedia が一致	Silvally-GX
