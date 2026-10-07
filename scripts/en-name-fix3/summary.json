@@ -1221,5 +1221,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "M3-pokemon": {
+  "set": "M3",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Nihil Zero (TCG)",
+   "section": "Nihil Zero",
+   "den": "den=080",
+   "file": "S6-1.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "M3-trainer": {
+  "set": "M3",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Nihil Zero (TCG)",
+   "section": "Nihil Zero",
+   "den": "den=080",
+   "file": "S6-1.txt"
+  },
+  "targets": 14,
+  "filled": 14,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
