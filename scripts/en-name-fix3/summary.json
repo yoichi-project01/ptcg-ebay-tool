@@ -240,5 +240,20 @@
   "filledByRule": 54,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S4-pokemon": {
+  "set": "S4",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Vivid Voltage (TCG)",
+   "section": "Amazing Volt Tackle",
+   "den": "den=100",
+   "file": "S-6.txt"
+  },
+  "targets": 85,
+  "filled": 85,
+  "filledByRule": 85,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
