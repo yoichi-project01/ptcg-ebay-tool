@@ -726,5 +726,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV4M-trainer": {
+  "set": "SV4M",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Paradox Rift (TCG)",
+   "section": "Future Flash",
+   "den": "den=066",
+   "file": "SV-T.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
