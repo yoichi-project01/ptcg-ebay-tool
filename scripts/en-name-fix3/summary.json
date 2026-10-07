@@ -2917,5 +2917,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "XY1-By-pokemon": {
+  "set": "XY1-By",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "XY (TCG)",
+   "section": "Collection Y",
+   "den": "den=060",
+   "file": "XY6-1.txt"
+  },
+  "targets": 53,
+  "filled": 53,
+  "filledByRule": 53,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "XY1-By-trainer": {
+  "set": "XY1-By",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "XY (TCG)",
+   "section": "Collection Y",
+   "den": "den=060",
+   "file": "XY6-1.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
