@@ -4670,5 +4670,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SMA-pokemon": {
+  "set": "SMA",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Sun & Moon Starter Set (TCG)",
+   "section": "Sun & Moon Starter Set",
+   "den": "den=059",
+   "file": "D-4.txt"
+  },
+  "targets": 35,
+  "filled": 35,
+  "filledByRule": 35,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SMA-trainer": {
+  "set": "SMA",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Sun & Moon Starter Set (TCG)",
+   "section": "Sun & Moon Starter Set",
+   "den": "den=059",
+   "file": "D-4.txt"
+  },
+  "targets": 24,
+  "filled": 24,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
