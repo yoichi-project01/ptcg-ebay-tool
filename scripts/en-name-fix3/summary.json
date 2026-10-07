@@ -2165,5 +2165,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM2p-pokemon": {
+  "set": "SM2p",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Facing a New Trial (TCG)",
+   "section": "Facing a New Trial",
+   "den": "den=049,",
+   "file": "SM6-1.txt"
+  },
+  "targets": 43,
+  "filled": 43,
+  "filledByRule": 43,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM2p-trainer": {
+  "set": "SM2p",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Facing a New Trial (TCG)",
+   "section": "Facing a New Trial",
+   "den": "den=049,",
+   "file": "SM6-1.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
