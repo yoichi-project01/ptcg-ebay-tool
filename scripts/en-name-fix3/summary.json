@@ -1850,5 +1850,20 @@
   "filledByRule": 41,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV5M-pokemon": {
+  "set": "SV5M",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Temporal Forces (TCG)",
+   "section": "Cyber Judge",
+   "den": "den=071",
+   "file": "SV-T.txt"
+  },
+  "targets": 60,
+  "filled": 60,
+  "filledByRule": 60,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
