@@ -1835,5 +1835,20 @@
   "filledByRule": 28,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV5K-pokemon": {
+  "set": "SV5K",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Temporal Forces (TCG)",
+   "section": "Wild Force",
+   "den": "den=071",
+   "file": "SV-T.txt"
+  },
+  "targets": 41,
+  "filled": 41,
+  "filledByRule": 41,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
