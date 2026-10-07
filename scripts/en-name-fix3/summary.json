@@ -647,5 +647,22 @@
   "blankReasons": {
    "イラストレーターが分からない": 1
   }
+ },
+ "SV2P-trainer": {
+  "set": "SV2P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Paldea Evolved (TCG)",
+   "section": "Snow Hazard",
+   "den": "den=071",
+   "file": "SV-T.txt"
+  },
+  "targets": 2,
+  "filled": 1,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "イラストレーターが分からない": 1
+  }
  }
 }
