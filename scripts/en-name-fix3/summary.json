@@ -2405,5 +2405,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM5M-pokemon": {
+  "set": "SM5M",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ultra Prism (TCG)",
+   "section": "Ultra Moon",
+   "den": "den=066",
+   "file": "SM6-3.txt"
+  },
+  "targets": 50,
+  "filled": 50,
+  "filledByRule": 47,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM5M-trainer": {
+  "set": "SM5M",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ultra Prism (TCG)",
+   "section": "Ultra Moon",
+   "den": "den=066",
+   "file": "SM6-3.txt"
+  },
+  "targets": 13,
+  "filled": 13,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
