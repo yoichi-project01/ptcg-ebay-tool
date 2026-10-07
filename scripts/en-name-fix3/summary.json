@@ -931,5 +931,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SV10-trainer": {
+  "set": "SV10",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Glory of the Rocket Gang (TCG)",
+   "section": "Glory of the Rocket Gang",
+   "den": "den=098",
+   "file": "SV-T.txt"
+  },
+  "targets": 12,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "イラストレーターが分からない": 1
+  }
  }
 }
