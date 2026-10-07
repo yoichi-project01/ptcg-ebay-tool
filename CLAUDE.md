@@ -26,8 +26,14 @@
 
 | プロジェクト | 場所 |
 |---|---|
-| ptcg-ebay-tool | `D:\product\ptcg-ebay-tool` |
+| ptcg-ebay-tool | `C:\Users\setoy\Documents\ptcg-ebay-tool`（2026-10-07〜。以前は `D:\product\ptcg-ebay-tool`） |
 | カイトリレーダー | `C:\Users\setoy\Documents\psa-kaitori` |
+
+- **2026-10-07 に D: ドライブから C: へ移した**。D: ドライブで画像のビット化けが続いたため（SATA の CRC エラー 997回、
+  ドライブの使用時間は約10年。化けた画像は PMCG1-006・E4-087・SM11-034 の3件。S10D-085 は SHA-256 の一覧の値の方が化けていた）。
+  **D: のフォルダ（`D:\product\ptcg-ebay-tool`）では作業しないこと**。
+- 退避した画像（`D:\product\ptcg-ebay-tool-stray-images`）は D: に残したまま（移していない）。
+- コミット前に `node scripts/image-hashes.mjs --verify` で画像の中身を照合すること。
 
 - `public/cards/`（`.gitignore` 対象）はこの PC にすべてそろっている。Git の `src/imageIndex.json` の全20,665件にファイルが
   あることを 2026-10-02 に確認済み（`node scripts/restore-images-from-index.mjs --verify`）。
@@ -2533,6 +2539,17 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   （型番が分からないため）。eBay に出品済みの CustomLabel は変わらない。
 - **D: ドライブのビット化け（3件目）**: SM11-034 が `image-hashes.mjs --verify` で見つかった（更新日時は変わらず1ビットの反転、公式の画像が一覧の SHA-256 と一致したので取り直して戻した）。
   PMCG1-006・E4-087 と合わせて3件。コミット前に `--verify` を続けること。
+
+### 対応（2026-10-07）: C: への移動・S10D-085 の SHA-256 の一覧の値を訂正
+
+- 作業フォルダを `C:\Users\setoy\Documents\ptcg-ebay-tool` に移した（上の「作業環境」）。
+- 移した後の `image-hashes.mjs --verify` で S10D-085（ペリーラ HR）が「中身が変わった」と出た。公式 details.php（cardID 44877）で
+  番号 085/067・名前ペリーラ・レアリティ HR・印刷記号 S10D を確かめ、画像（`/assets/images/card_images/large/S10D/044877_T_PERIRA.jpg`、322,005バイト）を
+  取り直したところ、**今のファイル（C:）と D: のファイルの両方と、公式の画像がバイト単位で同じ**（SHA-256 `fc403c67…`）だった。
+  一覧の値（`629567e7…`、一覧を作った a19d3c1 のときの値、サイズは同じ）の方が誤りで、一覧を作ったときに D: からの読み取りが化けたとみられる
+  （ファイルではなく読み取りの化け）。画像は置き換えず（中身が同じ）、`image-hashes.mjs --update --keys S10D/85` で一覧の値を訂正した。
+- 訂正後の全件照合: 21,233件、中身が変わった0件・ファイルが無い0件・一覧に無いキー0件・対応表に無いキー0件。
+- 一覧のほかの値にも同じ読み取りの化けが残っている可能性はある（照合で「中身が変わった」と出たら、公式の画像と比べてどちらが正しいか確かめること）。
 - **残り（未着手）**: 大会賞品以外の番号の無いプロモ 約110枚（DP-P の MPS 映画プロモ・ポケモンパルシティ×7 等、DPt-P アルセウス×7・ギザみみピチュー×6、
   L-P ゾロア×7・ゾロアーク×5、XY-P ピカチュウ×9 ほか、SM-P ふしぎなアメ×3 ほか、SV-P パラダイスリゾート×3、BW-P トロピカルビーチ×2 ほか）。
 
