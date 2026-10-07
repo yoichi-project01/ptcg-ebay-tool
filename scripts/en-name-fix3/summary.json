@@ -186,7 +186,7 @@
    "page": "Rebel Clash (TCG)",
    "section": "Rebellion Crash",
    "den": "den=096",
-   "file": "S-1.txt"
+   "file": "S6-1.txt"
   },
   "targets": 81,
   "filled": 81,
@@ -1345,5 +1345,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S2-trainer": {
+  "set": "S2",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Rebel Clash (TCG)",
+   "section": "Rebellion Crash",
+   "den": "den=096",
+   "file": "S6-1.txt"
+  },
+  "targets": 11,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
