@@ -375,5 +375,20 @@
   "filledByRule": 52,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S7R-pokemon": {
+  "set": "S7R",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Evolving Skies (TCG)",
+   "section": "Blue Sky Stream",
+   "den": "den=067",
+   "file": "S-3.txt"
+  },
+  "targets": 52,
+  "filled": 52,
+  "filledByRule": 52,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
