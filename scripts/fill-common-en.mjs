@@ -169,6 +169,8 @@ for (const k of set.k) {
     // 「Heat R Energy」（Bulbapedia はカードのエネルギー記号を文字で書く）も TCGdex では「Heat Fire Energy」
     const UNIT = { G: "Grass", R: "Fire", W: "Water", L: "Lightning", P: "Psychic", F: "Fighting", D: "Darkness", M: "Metal", Y: "Fairy", C: "Colorless", N: "Dragon" };
     const lookName = b.name.replace(/^Unit Energy ([GRWLPFDMY]{3})$/, (_, s) => "Unit Energy " + [...s].map((x) => UNIT[x]).join(""))
+      // ブレンドエネルギー: Bulbapedia は「Blend Energy GRPD」、TCGdex 英語版は「Blend Energy Grass Fire Psychic Darkness」
+      .replace(/^Blend Energy ([GRWLPFDMY]{4})$/, (_, s) => "Blend Energy " + [...s].map((x) => UNIT[x]).join(" "))
       .replace(/^(.+) ([GRWLPFDMYC]) Energy$/, (_, a, x) => `${a} ${UNIT[x]} Energy`)
       .replace(/^Fairy Charm ([GRWLPFDMYN])$/, (_, x) => `Fairy Charm ${UNIT[x]}`)
       // フレア団ギア: Bulbapedia は名前だけ、TCGdex 英語版は「Battle Compressor Team Flare Gear」の形
