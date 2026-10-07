@@ -5021,5 +5021,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SMK-pokemon": {
+  "set": "SMK",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Trainer Battle Decks (TCG)",
+   "section": "Trainer Battle Decks",
+   "den": "den=031",
+   "file": "D-5.txt"
+  },
+  "targets": 15,
+  "filled": 15,
+  "filledByRule": 15,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SMK-trainer": {
+  "set": "SMK",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Trainer Battle Decks (TCG)",
+   "section": "Trainer Battle Decks",
+   "den": "den=031",
+   "file": "D-5.txt"
+  },
+  "targets": 16,
+  "filled": 16,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
