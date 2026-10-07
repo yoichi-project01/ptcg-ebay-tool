@@ -276,7 +276,7 @@
    "page": "Battle Styles (TCG)",
    "section": "Single Strike Master",
    "den": "den=070",
-   "file": "S-6.txt"
+   "file": "S6-1.txt"
   },
   "targets": 57,
   "filled": 57,
@@ -1439,5 +1439,20 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 2
   }
+ },
+ "S5I-trainer": {
+  "set": "S5I",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Battle Styles (TCG)",
+   "section": "Single Strike Master",
+   "den": "den=070",
+   "file": "S6-1.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
