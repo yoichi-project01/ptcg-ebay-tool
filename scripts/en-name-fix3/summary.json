@@ -5554,5 +5554,37 @@
   "blankReasons": {
    "英語版に同じ名前・種類のカードが無い": 1
   }
+ },
+ "SN-pokemon": {
+  "set": "SN",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Start Deck 100 CoroCoro Comic Version (TCG)",
+   "section": "Start Deck 100 CoroCoro Comic Version",
+   "den": "den=024,",
+   "file": "D-7.txt"
+  },
+  "targets": 2,
+  "filled": 2,
+  "filledByRule": 2,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SN-trainer": {
+  "set": "SN",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Start Deck 100 CoroCoro Comic Version (TCG)",
+   "section": "Start Deck 100 CoroCoro Comic Version",
+   "den": "den=024,",
+   "file": "D-7.txt"
+  },
+  "targets": 12,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 2,
+  "blankReasons": {
+   "イラストレーターが分からない": 2
+  }
  }
 }
