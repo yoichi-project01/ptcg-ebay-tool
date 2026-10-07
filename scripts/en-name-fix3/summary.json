@@ -4188,5 +4188,42 @@
    "英語版の同じ名前のカードとイラストレーターが違う": 4,
    "英語版に同じ名前・種類のカードが無い": 5
   }
+ },
+ "S-P-pokemon": {
+  "set": "S-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "S-P Promotional cards (TCG)",
+   "section": "S-P Promotional cards",
+   "den": "den=S-P,",
+   "file": "P-2.txt"
+  },
+  "targets": 212,
+  "filled": 204,
+  "filledByRule": 203,
+  "blank": 8,
+  "blankReasons": {
+   "規則で作れない・イラストレーターが分からない": 2,
+   "規則で作れない・英語版に同じ名前のポケモンが無い": 6
+  }
+ },
+ "S-P-trainer": {
+  "set": "S-P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "S-P Promotional cards (TCG)",
+   "section": "S-P Promotional cards",
+   "den": "den=S-P,",
+   "file": "P-2.txt"
+  },
+  "targets": 104,
+  "filled": 66,
+  "filledByRule": 0,
+  "blank": 38,
+  "blankReasons": {
+   "イラストレーターが分からない": 28,
+   "英語版の同じ名前のカードとイラストレーターが違う": 7,
+   "英語版に同じ名前・種類のカードが無い": 3
+  }
  }
 }
