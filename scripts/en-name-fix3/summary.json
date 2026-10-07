@@ -1077,5 +1077,35 @@
   "blankReasons": {
    "イラストレーターが分からない": 1
   }
+ },
+ "SM9-pokemon": {
+  "set": "SM9",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Team Up (TCG)",
+   "section": "Tag Bolt",
+   "den": "den=095",
+   "file": "SM-3.txt"
+  },
+  "targets": 76,
+  "filled": 76,
+  "filledByRule": 70,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM9-trainer": {
+  "set": "SM9",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Team Up (TCG)",
+   "section": "Tag Bolt",
+   "den": "den=095",
+   "file": "SM-3.txt"
+  },
+  "targets": 15,
+  "filled": 15,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
