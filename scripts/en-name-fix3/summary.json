@@ -4334,5 +4334,38 @@
    "英語版の同じ名前のカードとイラストレーターが違う": 2,
    "英語版に同じ名前・種類のカードが無い": 1
   }
+ },
+ "DP-P-pokemon": {
+  "set": "DP-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "DP-P Promotional cards (TCG)",
+   "section": "DP-P Promotional cards",
+   "den": "den=DP-P",
+   "file": "P-5.txt"
+  },
+  "targets": 127,
+  "filled": 123,
+  "filledByRule": 111,
+  "blank": 4,
+  "blankReasons": {
+   "規則で作れない・英語版の同じ名前のカードとイラストレーターが違う": 3,
+   "規則で作れない・英語版に同じ名前のポケモンが無い": 1
+  }
+ },
+ "DP-P-trainer": {
+  "set": "DP-P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "DP-P Promotional cards (TCG)",
+   "section": "DP-P Promotional cards",
+   "den": "den=DP-P",
+   "file": "P-5.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
