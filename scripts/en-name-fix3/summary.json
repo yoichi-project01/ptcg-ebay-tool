@@ -420,5 +420,20 @@
   "filledByRule": 19,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S8b-pokemon": {
+  "set": "S8b",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "VMAX Climax (TCG)",
+   "section": "VMAX Climax",
+   "den": "den=184,",
+   "file": "S-6.txt"
+  },
+  "targets": 107,
+  "filled": 107,
+  "filledByRule": 101,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
