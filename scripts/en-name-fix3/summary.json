@@ -4403,5 +4403,40 @@
    "英語版に同じ名前・種類のカードが無い": 5,
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "L-P-pokemon": {
+  "set": "L-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "L-P Promotional cards (TCG)",
+   "section": "L-P Promotional cards",
+   "den": "den=L-P",
+   "file": "P-6.txt"
+  },
+  "targets": 56,
+  "filled": 55,
+  "filledByRule": 55,
+  "blank": 1,
+  "blankReasons": {
+   "規則で作れない・英語版に同じ名前のポケモンが無い": 1
+  }
+ },
+ "L-P-trainer": {
+  "set": "L-P",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "L-P Promotional cards (TCG)",
+   "section": "L-P Promotional cards",
+   "den": "den=L-P",
+   "file": "P-6.txt"
+  },
+  "targets": 23,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 13,
+  "blankReasons": {
+   "イラストレーターが分からない": 4,
+   "英語版に同じ名前・種類のカードが無い": 9
+  }
  }
 }
