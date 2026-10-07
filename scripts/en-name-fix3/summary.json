@@ -300,5 +300,20 @@
   "filledByRule": 56,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S5a-pokemon": {
+  "set": "S5a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Peerless Fighters (TCG)",
+   "section": "Peerless Fighters",
+   "den": "den=070",
+   "file": "S-6.txt"
+  },
+  "targets": 59,
+  "filled": 59,
+  "filledByRule": 57,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
