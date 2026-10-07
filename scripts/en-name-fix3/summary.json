@@ -4593,5 +4593,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SD-pokemon": {
+  "set": "SD",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "V Starter Decks (TCG)",
+   "section": "V Starter Decks",
+   "den": "den=127",
+   "file": "D-3.txt"
+  },
+  "targets": 84,
+  "filled": 84,
+  "filledByRule": 84,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SD-trainer": {
+  "set": "SD",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "V Starter Decks (TCG)",
+   "section": "V Starter Decks",
+   "den": "den=127",
+   "file": "D-3.txt"
+  },
+  "targets": 43,
+  "filled": 42,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
