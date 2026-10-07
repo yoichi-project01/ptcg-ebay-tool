@@ -128,8 +128,8 @@
    "den": "den=742,",
    "file": "MC.txt"
   },
-  "targets": 618,
-  "filled": 618,
+  "targets": 630,
+  "filled": 630,
   "filledByRule": 538,
   "blank": 0,
   "blankReasons": {}
@@ -4625,5 +4625,20 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "MC-trainer": {
+  "set": "MC",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Start Deck 100 Battle Collection (TCG)",
+   "section": "Start Deck 100 Battle Collection",
+   "den": "den=742,",
+   "file": "MC.txt"
+  },
+  "targets": 112,
+  "filled": 112,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
