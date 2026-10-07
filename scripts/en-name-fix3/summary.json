@@ -900,12 +900,10 @@
    "file": "SV-T.txt"
   },
   "targets": 13,
-  "filled": 12,
+  "filled": 13,
   "filledByRule": 0,
-  "blank": 1,
-  "blankReasons": {
-   "イラストレーターが分からない": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "SV9a-trainer": {
   "set": "SV9a",
