@@ -261,7 +261,7 @@
    "page": "Shining Fates (TCG)",
    "section": "Shiny Star V",
    "den": "den=190",
-   "file": "S-2.txt"
+   "file": "S6-1.txt"
   },
   "targets": 144,
   "filled": 144,
@@ -1422,5 +1422,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S4a-trainer": {
+  "set": "S4a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Shining Fates (TCG)",
+   "section": "Shiny Star V",
+   "den": "den=190",
+   "file": "S6-1.txt"
+  },
+  "targets": 35,
+  "filled": 33,
+  "filledByRule": 0,
+  "blank": 2,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 2
+  }
  }
 }
