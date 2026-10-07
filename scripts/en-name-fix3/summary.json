@@ -2075,5 +2075,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SM1p-pokemon": {
+  "set": "SM1p",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Enhanced Expansion Pack Sun & Moon (TCG)",
+   "section": "Sun & Moon",
+   "den": "den=051,",
+   "file": "SM6-1.txt"
+  },
+  "targets": 42,
+  "filled": 42,
+  "filledByRule": 42,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SM1p-trainer": {
+  "set": "SM1p",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Enhanced Expansion Pack Sun & Moon (TCG)",
+   "section": "Sun & Moon",
+   "den": "den=051,",
+   "file": "SM6-1.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
