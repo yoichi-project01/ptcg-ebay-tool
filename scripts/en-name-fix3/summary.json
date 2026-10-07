@@ -501,7 +501,7 @@
    "page": "Dark Phantasma (TCG)",
    "section": "Dark Phantasma",
    "den": "den=071",
-   "file": "S-5.txt"
+   "file": "S6-2.txt"
   },
   "targets": 56,
   "filled": 56,
@@ -1665,6 +1665,21 @@
   },
   "targets": 8,
   "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S10a-trainer": {
+  "set": "S10a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Dark Phantasma (TCG)",
+   "section": "Dark Phantasma",
+   "den": "den=071",
+   "file": "S6-2.txt"
+  },
+  "targets": 9,
+  "filled": 9,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
