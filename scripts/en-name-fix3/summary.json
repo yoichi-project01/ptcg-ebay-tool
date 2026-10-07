@@ -96,7 +96,7 @@
    "page": "Abyss Eye (TCG)",
    "section": "Abyss Eye",
    "den": "den=081",
-   "file": "M.txt"
+   "file": "S6-1.txt"
   },
   "targets": 69,
   "filled": 69,
@@ -1259,6 +1259,21 @@
    "page": "Ninja Spinner (TCG)",
    "section": "Ninja Spinner",
    "den": "den=083",
+   "file": "S6-1.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "M5-trainer": {
+  "set": "M5",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Abyss Eye (TCG)",
+   "section": "Abyss Eye",
+   "den": "den=081",
    "file": "S6-1.txt"
   },
   "targets": 12,
