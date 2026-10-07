@@ -4700,5 +4700,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SH-pokemon": {
+  "set": "SH",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Sword & Shield Family Pokémon Card Game (TCG)",
+   "section": "Family Pokémon Card Game",
+   "den": "den=053",
+   "file": "D-4.txt"
+  },
+  "targets": 39,
+  "filled": 39,
+  "filledByRule": 39,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SH-trainer": {
+  "set": "SH",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Sword & Shield Family Pokémon Card Game (TCG)",
+   "section": "Family Pokémon Card Game",
+   "den": "den=053",
+   "file": "D-4.txt"
+  },
+  "targets": 14,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 2,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 2
+  }
  }
 }
