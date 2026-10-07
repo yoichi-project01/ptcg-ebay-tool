@@ -555,5 +555,20 @@
   "filledByRule": 52,
   "blank": 0,
   "blankReasons": {}
+ },
+ "S12-pokemon": {
+  "set": "S12",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Silver Tempest (TCG)",
+   "section": "Paradigm Trigger",
+   "den": "den=098",
+   "file": "S-5.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 8,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
