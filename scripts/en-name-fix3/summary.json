@@ -4640,5 +4640,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SVI-pokemon": {
+  "set": "SVI",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Pokémon Card Game Battle Academy (TCG)",
+   "section": "Pokémon Card Game Battle Academy",
+   "den": "den=066,",
+   "file": "D-4.txt"
+  },
+  "targets": 48,
+  "filled": 48,
+  "filledByRule": 48,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SVI-trainer": {
+  "set": "SVI",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Pokémon Card Game Battle Academy (TCG)",
+   "section": "Pokémon Card Game Battle Academy",
+   "den": "den=066,",
+   "file": "D-4.txt"
+  },
+  "targets": 18,
+  "filled": 18,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
