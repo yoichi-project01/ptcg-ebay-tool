@@ -165,11 +165,17 @@ for (const k of set.k) {
     if (!isEnergy && !tt && b.type !== "Trainer") { r.note = `Bulbapedia の種類が分からない（${b.type}）`; continue; }
     // SM 世代以前の Bulbapedia はポケモンのどうぐも「Item」と書く（当時どうぐはグッズの一種）ので、Item は TCGdex の Item・Tool の両方と照合する
     const sameType = (t) => !tt || t === tt || (tt === "Item" && t === "Tool");
-    const cands = (enByKey.get(key(b.name)) || []).filter((c) => (isEnergy ? c.category === "Energy" : c.category === "Trainer" && sameType(c.trainerType)));
+    // ユニットエネルギー: Bulbapedia・英語版のカードは「Unit Energy GRW」、TCGdex は「Unit Energy GrassFireWater」と書く
+    const UNIT = { G: "Grass", R: "Fire", W: "Water", L: "Lightning", P: "Psychic", F: "Fighting", D: "Darkness", M: "Metal", Y: "Fairy" };
+    const lookName = b.name.replace(/^Unit Energy ([GRWLPFDMY]{3})$/, (_, s) => "Unit Energy " + [...s].map((x) => UNIT[x]).join(""));
+    const cands = (enByKey.get(key(lookName)) || []).filter((c) => (isEnergy ? c.category === "Energy" : c.category === "Trainer" && sameType(c.trainerType)));
     if (!cands.length) { r.note = "英語版に同じ名前・種類のカードが無い"; continue; }
     if (ji.category && ji.category !== (isEnergy ? "Energy" : "Trainer")) { r.note = `TCGdex 日本語版の種類が違う（${ji.category}）`; continue; }
     if (!ji.illustrator) {
-      // 基本エネルギー等、イラストレーターの記載が無いカード
+      // 特殊エネルギー（カードにイラストレーターの記載が無い）は、Bulbapedia と TCGdex 英語版で同じ名前のエネルギーがあれば入れる（2026-10-07 ユーザー判断）
+      if (isEnergy && !/^基本/.test(k[1]) && !/^Basic /.test(b.name)) {
+        r.tcgdexIds = cands.map((c) => c.id).join(" "); r.status = "入れる"; r.note = "特殊エネルギー: Bulbapedia と TCGdex 英語版で同じ名前のエネルギーを確認（イラストレーターの記載なし）"; r.en = b.name; continue;
+      }
       r.note = "イラストレーターが分からない"; continue;
     }
     const m = cands.filter((c) => sameIll(c.illustrator, ji.illustrator));
