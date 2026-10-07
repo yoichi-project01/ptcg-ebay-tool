@@ -5537,5 +5537,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MP1-trainer": {
+  "set": "MP1",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Start Deck 100 Battle Collection CoroCiao Version (TCG)",
+   "section": "Start Deck 100 Battle Collection CoroCiao Version",
+   "den": "den=023,",
+   "file": "M.txt"
+  },
+  "targets": 11,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版に同じ名前・種類のカードが無い": 1
+  }
  }
 }
