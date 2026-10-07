@@ -576,7 +576,7 @@
    "page": "Crown Zenith (TCG)",
    "section": "VSTAR Universe",
    "den": "den=172",
-   "file": "S-6.txt"
+   "file": "S6-2.txt"
   },
   "targets": 30,
   "filled": 30,
@@ -1745,5 +1745,20 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "S12a-trainer": {
+  "set": "S12a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Crown Zenith (TCG)",
+   "section": "VSTAR Universe",
+   "den": "den=172",
+   "file": "S6-2.txt"
+  },
+  "targets": 41,
+  "filled": 41,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
