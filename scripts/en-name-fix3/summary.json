@@ -516,7 +516,7 @@
    "page": "Pokémon GO (TCG)",
    "section": "Pokémon GO",
    "den": "den=071,",
-   "file": "S-5.txt"
+   "file": "S6-2.txt"
   },
   "targets": 57,
   "filled": 57,
@@ -1680,6 +1680,21 @@
   },
   "targets": 9,
   "filled": 9,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "S10b-trainer": {
+  "set": "S10b",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Pokémon GO (TCG)",
+   "section": "Pokémon GO",
+   "den": "den=071,",
+   "file": "S6-2.txt"
+  },
+  "targets": 7,
+  "filled": 7,
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
