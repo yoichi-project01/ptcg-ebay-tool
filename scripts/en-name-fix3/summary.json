@@ -5175,5 +5175,35 @@
   "blankReasons": {
    "イラストレーターが分からない": 7
   }
+ },
+ "SMP2-pokemon": {
+  "set": "SMP2",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Detective Pikachu (TCG)",
+   "section": "Great Detective Pikachu",
+   "den": "den=024",
+   "file": "D-6.txt"
+  },
+  "targets": 24,
+  "filled": 24,
+  "filledByRule": 23,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SMP2-trainer": {
+  "set": "SMP2",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Detective Pikachu (TCG)",
+   "section": "Great Detective Pikachu",
+   "den": "den=024",
+   "file": "D-6.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
