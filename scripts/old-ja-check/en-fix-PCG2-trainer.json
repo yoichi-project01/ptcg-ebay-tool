@@ -1,0 +1,47 @@
+{
+ "set": "PCG2",
+ "kind": "trainer",
+ "fixed": 5,
+ "rows": [
+  {
+   "id": "PCG2-076",
+   "ja": "ソライシはかせの発見",
+   "bulbapedia": "Professor Cozmo's Discovery",
+   "bulbapediaJa": "ソライシはかせの発見",
+   "after": "Professor Cozmo's Discovery",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-077",
+   "ja": "水晶のかけら",
+   "bulbapedia": "Crystal Shard",
+   "bulbapediaJa": "水晶のかけら",
+   "after": "Crystal Shard",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-079",
+   "ja": "流星の滝",
+   "bulbapedia": "Meteor Falls",
+   "bulbapediaJa": "流星の滝",
+   "after": "Meteor Falls",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-081",
+   "ja": "ヒーリングエネルギー",
+   "bulbapedia": "Heal Energy",
+   "bulbapediaJa": "ヒーリングエネルギー",
+   "after": "Heal Energy",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-082",
+   "ja": "ブーストエネルギー",
+   "bulbapedia": "Boost Energy",
+   "bulbapediaJa": "ブーストエネルギー",
+   "after": "Boost Energy",
+   "status": "直す"
+  }
+ ]
+}
