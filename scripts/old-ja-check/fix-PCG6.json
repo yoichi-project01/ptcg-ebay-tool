@@ -1,0 +1,475 @@
+{
+ "set": "PCG6",
+ "fixed": 52,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "PCG6-010",
+   "before": "スピアー",
+   "pcgSearch": "スピアーδ-デルタ種",
+   "pokemonWiki": "スピアーδ-デルタ種",
+   "after": "スピアーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/スピアー_PCG6-10／86_R.png → cards/PCG/PCG6/スピアーδ-デルタ種_PCG6-10／86_R.png"
+  },
+  {
+   "id": "PCG6-011",
+   "before": "クロバット（デルタ種）",
+   "pcgSearch": "クロバットδ-デルタ種",
+   "pokemonWiki": "クロバットδ-デルタ種",
+   "after": "クロバットδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/クロバット（デルタ種）_PCG6-11／86_R.png → cards/PCG/PCG6/クロバットδ-デルタ種_PCG6-11／86_R.png"
+  },
+  {
+   "id": "PCG6-013",
+   "before": "ヨーギラス",
+   "pcgSearch": "ヨーギラスδ-デルタ種",
+   "pokemonWiki": "ヨーギラスδ-デルタ種",
+   "after": "ヨーギラスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ヨーギラス_PCG6-13／86_C.png → cards/PCG/PCG6/ヨーギラスδ-デルタ種_PCG6-13／86_C.png"
+  },
+  {
+   "id": "PCG6-014",
+   "before": "サナギラス",
+   "pcgSearch": "サナギラスδ-デルタ種",
+   "pokemonWiki": "サナギラスδ-デルタ種",
+   "after": "サナギラスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/サナギラス_PCG6-14／86_U.png → cards/PCG/PCG6/サナギラスδ-デルタ種_PCG6-14／86_U.png"
+  },
+  {
+   "id": "PCG6-015",
+   "before": "ポワルン",
+   "pcgSearch": "太陽のポワルン",
+   "pokemonWiki": "太陽のポワルン",
+   "after": "太陽のポワルン",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ポワルン_PCG6-15／86_R.png → cards/PCG/PCG6/太陽のポワルン_PCG6-15／86_R.png"
+  },
+  {
+   "id": "PCG6-016",
+   "before": "タツベイ",
+   "pcgSearch": "タツベイδ-デルタ種",
+   "pokemonWiki": "タツベイδ-デルタ種",
+   "after": "タツベイδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/タツベイ_PCG6-16／86_C.png → cards/PCG/PCG6/タツベイδ-デルタ種_PCG6-16／86_C.png"
+  },
+  {
+   "id": "PCG6-017",
+   "before": "コモルー",
+   "pcgSearch": "コモルーδ-デルタ種",
+   "pokemonWiki": "コモルーδ-デルタ種",
+   "after": "コモルーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/コモルー_PCG6-17／86_U.png → cards/PCG/PCG6/コモルーδ-デルタ種_PCG6-17／86_U.png"
+  },
+  {
+   "id": "PCG6-018",
+   "before": "ブースター",
+   "pcgSearch": "ブースターδ-デルタ種",
+   "pokemonWiki": "ブースターδ-デルタ種",
+   "after": "ブースターδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ブースター_PCG6-18／86_R.png → cards/PCG/PCG6/ブースターδ-デルタ種_PCG6-18／86_R.png"
+  },
+  {
+   "id": "PCG6-019",
+   "before": "ミュウツー",
+   "pcgSearch": "ミュウツーδ-デルタ種",
+   "pokemonWiki": "ミュウツーδ-デルタ種",
+   "after": "ミュウツーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ミュウツー_PCG6-19／86_R.png → cards/PCG/PCG6/ミュウツーδ-デルタ種_PCG6-19／86_R.png"
+  },
+  {
+   "id": "PCG6-020",
+   "before": "バンギラス",
+   "pcgSearch": "バンギラスδ-デルタ種",
+   "pokemonWiki": "バンギラスδ-デルタ種",
+   "after": "バンギラスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/バンギラス_PCG6-20／86_R.png → cards/PCG/PCG6/バンギラスδ-デルタ種_PCG6-20／86_R.png"
+  },
+  {
+   "id": "PCG6-021",
+   "before": "ボーマンダ",
+   "pcgSearch": "ボーマンダδ-デルタ種",
+   "pokemonWiki": "ボーマンダδ-デルタ種",
+   "after": "ボーマンダδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ボーマンダ_PCG6-21／86_R.png → cards/PCG/PCG6/ボーマンダδ-デルタ種_PCG6-21／86_R.png"
+  },
+  {
+   "id": "PCG6-026",
+   "before": "ポワルン",
+   "pcgSearch": "雨水のポワルン",
+   "pokemonWiki": "雨水のポワルン",
+   "after": "雨水のポワルン",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ポワルン_PCG6-26／86_R.png → cards/PCG/PCG6/雨水のポワルン_PCG6-26／86_R.png"
+  },
+  {
+   "id": "PCG6-027",
+   "before": "ポワルン",
+   "pcgSearch": "雪雲のポワルン",
+   "pokemonWiki": "雪雲のポワルン",
+   "after": "雪雲のポワルン",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ポワルン_PCG6-27／86_R.png → cards/PCG/PCG6/雪雲のポワルン_PCG6-27／86_R.png"
+  },
+  {
+   "id": "PCG6-028",
+   "before": "カイオーガ",
+   "pcgSearch": "カイオーガ☆",
+   "pokemonWiki": "カイオーガ☆",
+   "after": "カイオーガ☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/カイオーガ_PCG6-28／86_S.png → cards/PCG/PCG6/カイオーガ☆_PCG6-28／86_S.png"
+  },
+  {
+   "id": "PCG6-029",
+   "before": "スターミー（デルタ種）",
+   "pcgSearch": "スターミーδ-デルタ種",
+   "pokemonWiki": "スターミーδ-デルタ種",
+   "after": "スターミーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/スターミー（デルタ種）_PCG6-29／86_R.png → cards/PCG/PCG6/スターミーδ-デルタ種_PCG6-29／86_R.png"
+  },
+  {
+   "id": "PCG6-030",
+   "before": "シャワーズ",
+   "pcgSearch": "シャワーズδ-デルタ種",
+   "pokemonWiki": "シャワーズδ-デルタ種",
+   "after": "シャワーズδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/シャワーズ_PCG6-30／86_R.png → cards/PCG/PCG6/シャワーズδ-デルタ種_PCG6-30／86_R.png"
+  },
+  {
+   "id": "PCG6-031",
+   "before": "ビリリダマ",
+   "pcgSearch": "ホロンのビリリダマ",
+   "pokemonWiki": "ホロンのビリリダマ",
+   "after": "ホロンのビリリダマ",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ビリリダマ_PCG6-31／86_U.png → cards/PCG/PCG6/ホロンのビリリダマ_PCG6-31／86_U.png"
+  },
+  {
+   "id": "PCG6-032",
+   "before": "マルマイン",
+   "pcgSearch": "ホロンのマルマイン",
+   "pokemonWiki": "ホロンのマルマイン",
+   "after": "ホロンのマルマイン",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/マルマイン_PCG6-32／86_R.png → cards/PCG/PCG6/ホロンのマルマイン_PCG6-32／86_R.png"
+  },
+  {
+   "id": "PCG6-034",
+   "before": "ミニリュウ",
+   "pcgSearch": "ミニリュウδ-デルタ種",
+   "pokemonWiki": "ミニリュウδ-デルタ種",
+   "after": "ミニリュウδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ミニリュウ_PCG6-34／86_C.png → cards/PCG/PCG6/ミニリュウδ-デルタ種_PCG6-34／86_C.png"
+  },
+  {
+   "id": "PCG6-035",
+   "before": "ハクリュー",
+   "pcgSearch": "ハクリューδ-デルタ種",
+   "pokemonWiki": "ハクリューδ-デルタ種",
+   "after": "ハクリューδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ハクリュー_PCG6-35／86_U.png → cards/PCG/PCG6/ハクリューδ-デルタ種_PCG6-35／86_U.png"
+  },
+  {
+   "id": "PCG6-036",
+   "before": "ダンバル",
+   "pcgSearch": "ダンバルδ-デルタ種",
+   "pokemonWiki": "ダンバルδ-デルタ種",
+   "after": "ダンバルδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ダンバル_PCG6-36／86_C.png → cards/PCG/PCG6/ダンバルδ-デルタ種_PCG6-36／86_C.png"
+  },
+  {
+   "id": "PCG6-037",
+   "before": "メタング",
+   "pcgSearch": "メタングδ-デルタ種",
+   "pokemonWiki": "メタングδ-デルタ種",
+   "after": "メタングδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/メタング_PCG6-37／86_U.png → cards/PCG/PCG6/メタングδ-デルタ種_PCG6-37／86_U.png"
+  },
+  {
+   "id": "PCG6-038",
+   "before": "サンダース",
+   "pcgSearch": "サンダースδ-デルタ種",
+   "pokemonWiki": "サンダースδ-デルタ種",
+   "after": "サンダースδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/サンダース_PCG6-38／86_R.png → cards/PCG/PCG6/サンダースδ-デルタ種_PCG6-38／86_R.png"
+  },
+  {
+   "id": "PCG6-039",
+   "before": "カイリュー",
+   "pcgSearch": "カイリューδ-デルタ種",
+   "pokemonWiki": "カイリューδ-デルタ種",
+   "after": "カイリューδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/カイリュー_PCG6-39／86_R.png → cards/PCG/PCG6/カイリューδ-デルタ種_PCG6-39／86_R.png"
+  },
+  {
+   "id": "PCG6-040",
+   "before": "メタグロス（デルタ種）",
+   "pcgSearch": "メタグロスδ-デルタ種",
+   "pokemonWiki": "メタグロスδ-デルタ種",
+   "after": "メタグロスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/メタグロス（デルタ種）_PCG6-40／86_R.png → cards/PCG/PCG6/メタグロスδ-デルタ種_PCG6-40／86_R.png"
+  },
+  {
+   "id": "PCG6-041",
+   "before": "ラティアス（デルタ種）",
+   "pcgSearch": "ラティアスδ-デルタ種",
+   "pokemonWiki": "ラティアスδ-デルタ種",
+   "after": "ラティアスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ラティアス（デルタ種）_PCG6-41／86_R.png → cards/PCG/PCG6/ラティアスδ-デルタ種_PCG6-41／86_R.png"
+  },
+  {
+   "id": "PCG6-042",
+   "before": "ラティオス（デルタ種）",
+   "pcgSearch": "ラティオスδ-デルタ種",
+   "pokemonWiki": "ラティオスδ-デルタ種",
+   "after": "ラティオスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ラティオス（デルタ種）_PCG6-42／86_R.png → cards/PCG/PCG6/ラティオスδ-デルタ種_PCG6-42／86_R.png"
+  },
+  {
+   "id": "PCG6-043",
+   "before": "レックウザ",
+   "pcgSearch": "レックウザδ-デルタ種",
+   "pokemonWiki": "レックウザδ-デルタ種",
+   "after": "レックウザδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/レックウザ_PCG6-43／86_R.png → cards/PCG/PCG6/レックウザδ-デルタ種_PCG6-43／86_R.png"
+  },
+  {
+   "id": "PCG6-049",
+   "before": "エーフィ",
+   "pcgSearch": "エーフィδ-デルタ種",
+   "pokemonWiki": "エーフィδ-デルタ種",
+   "after": "エーフィδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/エーフィ_PCG6-49／86_R.png → cards/PCG/PCG6/エーフィδ-デルタ種_PCG6-49／86_R.png"
+  },
+  {
+   "id": "PCG6-050",
+   "before": "サーナイト",
+   "pcgSearch": "サーナイトδ-デルタ種",
+   "pokemonWiki": "サーナイトδ-デルタ種",
+   "after": "サーナイトδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/サーナイト_PCG6-50／86_R.png → cards/PCG/PCG6/サーナイトδ-デルタ種_PCG6-50／86_R.png"
+  },
+  {
+   "id": "PCG6-051",
+   "before": "サンドシュー",
+   "pcgSearch": "サンド",
+   "pokemonWiki": "サンド",
+   "after": "サンド",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/サンドシュー_PCG6-51／86_C.png → cards/PCG/PCG6/サンド_PCG6-51／86_C.png"
+  },
+  {
+   "id": "PCG6-056",
+   "before": "グラードン",
+   "pcgSearch": "グラードン☆",
+   "pokemonWiki": "グラードン☆",
+   "after": "グラードン☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/グラードン_PCG6-56／86_S.png → cards/PCG/PCG6/グラードン☆_PCG6-56／86_S.png"
+  },
+  {
+   "id": "PCG6-057",
+   "before": "サンドパン",
+   "pcgSearch": "サンドパンδ-デルタ種",
+   "pokemonWiki": "サンドパンδ-デルタ種",
+   "after": "サンドパンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/サンドパン_PCG6-57／86_R.png → cards/PCG/PCG6/サンドパンδ-デルタ種_PCG6-57／86_R.png"
+  },
+  {
+   "id": "PCG6-058",
+   "before": "ガラガラ",
+   "pcgSearch": "ガラガラδ-デルタ種",
+   "pokemonWiki": "ガラガラδ-デルタ種",
+   "after": "ガラガラδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ガラガラ_PCG6-58／86_R.png → cards/PCG/PCG6/ガラガラδ-デルタ種_PCG6-58／86_R.png"
+  },
+  {
+   "id": "PCG6-063",
+   "before": "ポリゴン２",
+   "pcgSearch": "ポリゴン2",
+   "pokemonWiki": "ポリゴン2",
+   "after": "ポリゴン2",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ポリゴン２_PCG6-63／86_R.png → cards/PCG/PCG6/ポリゴン2_PCG6-63／86_R.png"
+  },
+  {
+   "id": "PCG6-069",
+   "before": "ブラッキー",
+   "pcgSearch": "ブラッキーδ-デルタ種",
+   "pokemonWiki": "ブラッキーδ-デルタ種",
+   "after": "ブラッキーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ブラッキー_PCG6-69／86_R.png → cards/PCG/PCG6/ブラッキーδ-デルタ種_PCG6-69／86_R.png"
+  },
+  {
+   "id": "PCG6-070",
+   "before": "グラエナ",
+   "pcgSearch": "グラエナδ-デルタ種",
+   "pokemonWiki": "グラエナδ-デルタ種",
+   "after": "グラエナδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/グラエナ_PCG6-70／86_R.png → cards/PCG/PCG6/グラエナδ-デルタ種_PCG6-70／86_R.png"
+  },
+  {
+   "id": "PCG6-071",
+   "before": "コイル",
+   "pcgSearch": "ホロンのコイル",
+   "pokemonWiki": "ホロンのコイル",
+   "after": "ホロンのコイル",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/コイル_PCG6-71／86_U.png → cards/PCG/PCG6/ホロンのコイル_PCG6-71／86_U.png"
+  },
+  {
+   "id": "PCG6-072",
+   "before": "レアコイル",
+   "pcgSearch": "ホロンのレアコイル",
+   "pokemonWiki": "ホロンのレアコイル",
+   "after": "ホロンのレアコイル",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/レアコイル_PCG6-72／86_R.png → cards/PCG/PCG6/ホロンのレアコイル_PCG6-72／86_R.png"
+  },
+  {
+   "id": "PCG6-073",
+   "before": "イーブイ",
+   "pcgSearch": "イーブイδ-デルタ種",
+   "pokemonWiki": "イーブイδ-デルタ種",
+   "after": "イーブイδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/イーブイ_PCG6-73／86_U.png → cards/PCG/PCG6/イーブイδ-デルタ種_PCG6-73／86_U.png"
+  },
+  {
+   "id": "PCG6-075",
+   "before": "メタグロススター",
+   "pcgSearch": "メタグロス☆",
+   "pokemonWiki": "メタグロス☆",
+   "after": "メタグロス☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/メタグロススター_PCG6-75／86_S.png → cards/PCG/PCG6/メタグロス☆_PCG6-75／86_S.png"
+  },
+  {
+   "id": "PCG6-076",
+   "before": "ホロントランシーバー",
+   "pcgSearch": "ホロンのトランシーバー",
+   "pokemonWiki": "ホロンのトランシーバー",
+   "after": "ホロンのトランシーバー",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロントランシーバー_PCG6-76／86_U.png → cards/PCG/PCG6/ホロンのトランシーバー_PCG6-76／86_U.png"
+  },
+  {
+   "id": "PCG6-077",
+   "before": "ホロン科学者",
+   "pcgSearch": "ホロンの科学者",
+   "pokemonWiki": "ホロンの科学者",
+   "after": "ホロンの科学者",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロン科学者_PCG6-77／86_U.png → cards/PCG/PCG6/ホロンの科学者_PCG6-77／86_U.png"
+  },
+  {
+   "id": "PCG6-078",
+   "before": "ホロン研究者",
+   "pcgSearch": "ホロンの研究員",
+   "pokemonWiki": "ホロンの研究員",
+   "after": "ホロンの研究員",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロン研究者_PCG6-78／86_U.png → cards/PCG/PCG6/ホロンの研究員_PCG6-78／86_U.png"
+  },
+  {
+   "id": "PCG6-079",
+   "before": "ホロンメンター",
+   "pcgSearch": "ホロンの導師",
+   "pokemonWiki": "ホロンの導師",
+   "after": "ホロンの導師",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロンメンター_PCG6-79／86_U.png → cards/PCG/PCG6/ホロンの導師_PCG6-79／86_U.png"
+  },
+  {
+   "id": "PCG6-080",
+   "before": "ホロン農家",
+   "pcgSearch": "ホロンの農夫",
+   "pokemonWiki": "ホロンの農夫",
+   "after": "ホロンの農夫",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロン農家_PCG6-80／86_U.png → cards/PCG/PCG6/ホロンの農夫_PCG6-80／86_U.png"
+  },
+  {
+   "id": "PCG6-081",
+   "before": "ホロン・ラス",
+   "pcgSearch": "ホロンの娘",
+   "pokemonWiki": "ホロンの娘",
+   "after": "ホロンの娘",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロン・ラス_PCG6-81／86_U.png → cards/PCG/PCG6/ホロンの娘_PCG6-81／86_U.png"
+  },
+  {
+   "id": "PCG6-082",
+   "before": "ホロン研究塔",
+   "pcgSearch": "ホロンの研究塔",
+   "pokemonWiki": "ホロンの研究塔",
+   "after": "ホロンの研究塔",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロン研究塔_PCG6-82／86_U.png → cards/PCG/PCG6/ホロンの研究塔_PCG6-82／86_U.png"
+  },
+  {
+   "id": "PCG6-083",
+   "before": "ホロン遺跡",
+   "pcgSearch": "ホロンの廃墟",
+   "pokemonWiki": "ホロンの廃墟",
+   "after": "ホロンの廃墟",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロン遺跡_PCG6-83／86_U.png → cards/PCG/PCG6/ホロンの廃墟_PCG6-83／86_U.png"
+  },
+  {
+   "id": "PCG6-084",
+   "before": "ホロンエネルギーGL",
+   "pcgSearch": "ホロンエネルギーSYN:GL",
+   "pokemonWiki": "ホロンエネルギーSYN:GL",
+   "after": "ホロンエネルギーSYN:GL",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロンエネルギーGL_PCG6-84／86_U.png → cards/PCG/PCG6/ホロンエネルギーSYNGL_PCG6-84／86_U.png"
+  },
+  {
+   "id": "PCG6-085",
+   "before": "ホロンエネルギーff",
+   "pcgSearch": "ホロンエネルギーSYN:FF",
+   "pokemonWiki": "ホロンエネルギーSYN:FF",
+   "after": "ホロンエネルギーSYN:FF",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロンエネルギーff_PCG6-85／86_U.png → cards/PCG/PCG6/ホロンエネルギーSYNFF_PCG6-85／86_U.png"
+  },
+  {
+   "id": "PCG6-086",
+   "before": "ホロンエネルギーwp",
+   "pcgSearch": "ホロンエネルギーSYN:WP",
+   "pokemonWiki": "ホロンエネルギーSYN:WP",
+   "after": "ホロンエネルギーSYN:WP",
+   "status": "直す",
+   "image": "cards/PCG/PCG6/ホロンエネルギーwp_PCG6-86／86_U.png → cards/PCG/PCG6/ホロンエネルギーSYNWP_PCG6-86／86_U.png"
+  }
+ ]
+}
