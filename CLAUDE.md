@@ -2638,7 +2638,30 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   E1・VS1・web1 のポケモンWiki の一覧は未確認。
 - **LV.X**: 公式 details.php も Bulbapedia も日本語のカード名は「パルキア」（LV.X は段階・レベルの別の項目）。日本語名に LV.X は付けない。
   英語名は "Palkia LV.X"（Bulbapedia・英語版のカード）。**DP-P の 9行（004・058・071・075・076・078・092・105・107）は英語名が LV.X 抜け（"Lucario" 等）で誤り**:
-  `fill-common-en.mjs` の「規則の名前でも TCGdex を確かめる」が、TCGdex が DP 期の LV.X を "Lucario"（stage LEVEL-UP）と名付けているため通ってしまった。未修正。
+  `fill-common-en.mjs` の「規則の名前でも TCGdex を確かめる」が、TCGdex が DP 期の LV.X を "Lucario"（stage LEVEL-UP）と名付けているため通ってしまった。
+  → 下記で修正済み。
+
+### 対応（2026-10-08）: LV.X の英語名・旧裏・neo・e・PCG の日本語名と英語名の修正
+
+- **LV.X（8cc3e57）**: DP-P 9行の英語名を「〜 LV.X」に直した（`scripts/fix-lvx-en.mjs`。Bulbapedia の名前、TCGdex 英語版の同じカードが stage LEVEL-UP・
+  rarity Rare Holo LV.X、公式 details.php の段階「レベルアップ」の3つが一致。根拠 `en-name-fix3/lvx-fix-2026-10-08.json`）。
+  `fill-common-en.mjs` は、Bulbapedia の名前が「規則の名前＋後ろの部分」のときは TCGdex の確認で規則の名前を通さないようにした。MA-003（Fezandipiti ex）は
+  直した処理でも同じ結果（`CARD_DATA_PATH` で英語名を空にしたコピーを読ませて確認）。S8a-P-017・018 の日本語名は公式 details.php と同じ（「… LV.X」付き）なので変更なし
+  （公式自体が 2021年の再録は LV.X 付き、2007年の DP-P は名前に LV.X なしで書いている）。
+- **日本語名（17弾・475行、弾ごとにコミット）**: `scripts/fix-old-ja-names.mjs --set <弾> --apply`。pcg-search.com とポケモンWiki の同じ番号の名前が一致した行だけ、
+  pcg-search の名前で書き換え、画像のファイル名・`imageIndex.json`・`image-hashes.tsv` のパスも合わせた（SHA-256 は照合、`--verify` で 0件）。
+  neo1 22・neo2 8・neo3 11・neo4 78・E2 14・E3 8・E4 12・E5 11・PCG1 17・PCG2 15・PCG3 45・PCG4 21・PCG5 19・PCG6 52・PCG7 52・PCG8 23・PCG9 67
+  （うち27行は「（デルタ種）」→「δ-デルタ種」の表記だけ。両方の情報源の書き方にそろえた）。ポケモン 325・トレーナーズ等 150。
+  根拠・変えた card_id は `scripts/old-ja-check/fix-{弾}.json`・`fix-{弾}-changed-card-ids.txt`。
+  **残したもの**: neo2-055〜057（cardData の並びが情報源と違う。遺跡の石版2種の並び）、E1・VS1・web1（指示どおり。ポケモンWiki の番号付き一覧が見つかり、
+  pcg-search と E1 128/128・VS1 142/142・web1 48/48 で一致。`pokemonwiki-names.json` に保存）、PMCG1〜6（カードに番号が無く、cardData の並びが pcg-search の並びと
+  違うため行と名前を対応づけられない。PMCG5/6 の持ち主の欠落 137行など）。
+- **英語名（12弾・283行）**: `scripts/fix-old-en-names.mjs --set <弾> --apply`。直した日本語名から作った名前（わるい→Dark・やさしい→Light・ひかる→Shining・R団の→Rocket's・
+  ホロンの→Holon's、ex・☆・δ、アンノーンの文字）が Bulbapedia の日本版の一覧（`old-ja-check/bulbapedia-old.txt`、ブラウザで取り出し SHA-256 を照合。neo は並び順）と
+  一致した行だけ。neo2 5・neo3 5・neo4 65・PCG1 9・PCG2 10・PCG3 32・PCG4 12・PCG5 10・PCG6 31・PCG7 36・PCG8 15・PCG9 53。
+  残したもの: すでに同じ 37、Bulbapedia と並びが違う neo2-025・026（アンノーン F/D）、日本語名から作れない PCG6 のポワルン3（太陽の・雨水の・雪雲の）、
+  英語名の無い行（トレーナーズ等 150。旧裏のトレーナーズは日本版のイラストレーターが分からず従来の方法で照合できない）。
+  TCGdex 英語版のカード名に無いのは Rocket's Celebi（日本だけ）と Kyogre/Groudon/Metagross ☆（TCGdex は "Kyogre Star"）の4件で、どれも規則と Bulbapedia が一致。
 
 ---
 
