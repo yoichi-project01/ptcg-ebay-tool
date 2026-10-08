@@ -1,0 +1,128 @@
+[
+ {
+  "id": "DP-P-004",
+  "ja": "ルカリオ",
+  "before": "Lucario",
+  "bpName": "Lucario LV.X",
+  "tcgdex": [
+   "dp2-122:Lucario/LEVEL-UP/Rare Holo LV.X",
+   "dpp-DP12:Lucario/LEVEL-UP/Common"
+  ],
+  "official": "6003:レベルアップ",
+  "after": "Lucario LV.X",
+  "ok": true,
+  "note": "Bulbapedia・TCGdex 英語版（同じカードが LEVEL-UP）・公式（段階 レベルアップ）が一致"
+ },
+ {
+  "id": "DP-P-058",
+  "ja": "ガブリアス",
+  "before": "Garchomp",
+  "bpName": "Garchomp LV.X",
+  "tcgdex": [
+   "dp5-97:Garchomp/LEVEL-UP/Rare Holo LV.X"
+  ],
+  "official": "6057:レベルアップ",
+  "after": "Garchomp LV.X",
+  "ok": true,
+  "note": "Bulbapedia・TCGdex 英語版（同じカードが LEVEL-UP）・公式（段階 レベルアップ）が一致"
+ },
+ {
+  "id": "DP-P-071",
+  "ja": "ゴウカザル",
+  "before": "Infernape",
+  "bpName": "Infernape LV.X",
+  "tcgdex": [
+   "dp1-121:Infernape/LEVEL-UP/Rare Holo LV.X",
+   "dpp-DP10:Infernape/LEVEL-UP/Common"
+  ],
+  "official": "8010:レベルアップ",
+  "after": "Infernape LV.X",
+  "ok": true,
+  "note": "Bulbapedia・TCGdex 英語版（同じカードが LEVEL-UP）・公式（段階 レベルアップ）が一致"
+ },
+ {
+  "id": "DP-P-075",
+  "ja": "ポリゴンZ",
+  "before": "Porygon-Z",
+  "bpName": "Porygon-Z LV.X",
+  "tcgdex": [
+   "dp5-100:Porygon-Z/LEVEL-UP/Rare Holo LV.X"
+  ],
+  "official": "15042:レベルアップ",
+  "after": "Porygon-Z LV.X",
+  "ok": true,
+  "note": "Bulbapedia・TCGdex 英語版（同じカードが LEVEL-UP）・公式（段階 レベルアップ）が一致"
+ },
+ {
+  "id": "DP-P-076",
+  "ja": "ドダイトス",
+  "before": "Torterra",
+  "bpName": "Torterra LV.X",
+  "tcgdex": [
+   "dp1-122:Torterra/LEVEL-UP/Rare Holo LV.X",
+   "dpp-DP09:Torterra/LEVEL-UP/Common"
+  ],
+  "official": "16001:レベルアップ",
+  "after": "Torterra LV.X",
+  "ok": true,
+  "note": "Bulbapedia・TCGdex 英語版（同じカードが LEVEL-UP）・公式（段階 レベルアップ）が一致"
+ },
+ {
+  "id": "DP-P-078",
+  "ja": "エンペルト",
+  "before": "Empoleon",
+  "bpName": "Empoleon LV.X",
+  "tcgdex": [
+   "dp1-120:Empoleon/LEVEL-UP/Rare Holo LV.X",
+   "dpp-DP11:Empoleon/LEVEL-UP/Common"
+  ],
+  "official": "16003:レベルアップ",
+  "after": "Empoleon LV.X",
+  "ok": true,
+  "note": "Bulbapedia・TCGdex 英語版（同じカードが LEVEL-UP）・公式（段階 レベルアップ）が一致"
+ },
+ {
+  "id": "DP-P-092",
+  "ja": "ヒードラン",
+  "before": "Heatran",
+  "bpName": "Heatran LV.X",
+  "tcgdex": [
+   "dp7-97:Heatran/LEVEL-UP/Rare Holo LV.X",
+   "dpp-DP31:Heatran/LEVEL-UP/Common"
+  ],
+  "official": "17500:レベルアップ",
+  "after": "Heatran LV.X",
+  "ok": true,
+  "note": "Bulbapedia・TCGdex 英語版（同じカードが LEVEL-UP）・公式（段階 レベルアップ）が一致"
+ },
+ {
+  "id": "DP-P-105",
+  "ja": "パルキア",
+  "before": "Palkia",
+  "bpName": "Palkia LV.X",
+  "tcgdex": [
+   "30th-c-022:Palkia/Basic/None",
+   "dp4-106:Palkia/LEVEL-UP/Rare Holo LV.X",
+   "dpp-DP18:Palkia/LEVEL-UP/Common"
+  ],
+  "official": "20501:レベルアップ",
+  "after": "Palkia LV.X",
+  "ok": true,
+  "note": "Bulbapedia・TCGdex 英語版（同じカードが LEVEL-UP）・公式（段階 レベルアップ）が一致"
+ },
+ {
+  "id": "DP-P-107",
+  "ja": "ディアルガ",
+  "before": "Dialga",
+  "bpName": "Dialga LV.X",
+  "tcgdex": [
+   "dp4-105:Dialga/LEVEL-UP/Rare Holo LV.X",
+   "dpp-DP17:Dialga/LEVEL-UP/Common",
+   "dpp-DP37:Dialga/LEVEL-UP/Common"
+  ],
+  "official": "20506:レベルアップ",
+  "after": "Dialga LV.X",
+  "ok": true,
+  "note": "Bulbapedia・TCGdex 英語版（同じカードが LEVEL-UP）・公式（段階 レベルアップ）が一致"
+ }
+]

@@ -18,7 +18,7 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const DIR = path.join(ROOT, "scripts", "en-name-fix3");
-const DATA = path.join(ROOT, "src", "cardData.json");
+const DATA = process.env.CARD_DATA_PATH || path.join(ROOT, "src", "cardData.json");  // 確認用に別のファイルを読むときは CARD_DATA_PATH
 const arg = (n) => (process.argv.includes(n) ? process.argv[process.argv.indexOf(n) + 1] : null);
 const SET = arg("--set");
 const KIND = arg("--kind") || "pokemon";
@@ -154,6 +154,10 @@ for (const k of set.k) {
     const m = match(b.name);
     if (m.length) { r.tcgdexIds = m.map((c) => c.id).join(" "); r.status = "入れる"; r.note = (r.rule ? "規則と食い違うが" : "規則で作れないが") + " TCGdex 英語版で同じ名前・イラストレーターを確認"; r.en = b.name; continue; }
     // 規則と Bulbapedia が食い違うとき、規則の名前のカードが英語版に同じイラストレーターであれば規則の名前を入れる（Bulbapedia の誤字。例 MA-003 Fezandipti ex）
+    // ただし Bulbapedia の名前が「規則の名前＋後ろの部分」（例 "Lucario LV.X"）のときは通さない。TCGdex は DP 期の LV.X を "Lucario" と名付けており、
+    // 規則の名前で見つかっても同じカードの後ろの部分が抜けた名前になる（2026-10-08、DP-P の9行で起きた）
+    const bpExtra = r.rule && key(b.name).startsWith(key(r.rule)) && key(b.name).length > key(r.rule).length;
+    if (bpExtra) { r.note = "規則と Bulbapedia が食い違う・Bulbapedia の名前に後ろの部分がある（" + b.name + "）"; continue; }
     const mr = r.rule ? match(r.rule) : [];
     if (mr.length) { r.tcgdexIds = mr.map((c) => c.id).join(" "); r.status = "入れる"; r.note = "Bulbapedia と食い違うが、規則の名前を TCGdex 英語版で同じ名前・イラストレーターを確認"; r.en = r.rule; continue; }
     r.note = (r.rule ? "規則と Bulbapedia が食い違う・" : "規則で作れない・") + ((enByKey.get(key(b.name)) || []).some((c) => c.category === "Pokemon") ? "英語版の同じ名前のカードとイラストレーターが違う" : "英語版に同じ名前のポケモンが無い");
