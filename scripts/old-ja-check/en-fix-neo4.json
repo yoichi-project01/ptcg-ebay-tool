@@ -1,0 +1,591 @@
+{
+ "set": "neo4",
+ "fixed": 65,
+ "rows": [
+  {
+   "id": "neo4-004",
+   "ja": "やさしいキマワリ",
+   "before": "Sunflora",
+   "built": "Light Sunflora",
+   "bulbapedia": "Light Sunflora",
+   "after": "Light Sunflora",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-006",
+   "ja": "やさしいモルフォン",
+   "before": "Venomoth",
+   "built": "Light Venomoth",
+   "bulbapedia": "Light Venomoth",
+   "after": "Light Venomoth",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-008",
+   "ja": "わるいフォレトス",
+   "before": "Forretress",
+   "built": "Dark Forretress",
+   "bulbapedia": "Dark Forretress",
+   "after": "Dark Forretress",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-010",
+   "ja": "やさしいレディアン",
+   "before": "Ledian",
+   "built": "Light Ledian",
+   "bulbapedia": "Light Ledian",
+   "after": "Light Ledian",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-011",
+   "ja": "わるいアリアドス",
+   "before": "Ariados",
+   "built": "Dark Ariados",
+   "bulbapedia": "Dark Ariados",
+   "after": "Dark Ariados",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-012",
+   "ja": "わるいクロバット",
+   "before": "Crobat",
+   "built": "Dark Crobat",
+   "bulbapedia": "Dark Crobat",
+   "after": "Dark Crobat",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-013",
+   "ja": "ひかるセレビィ",
+   "before": "Celebi",
+   "built": "Shining Celebi",
+   "bulbapedia": "Shining Celebi",
+   "after": "Shining Celebi",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-018",
+   "ja": "やさしいキュウコン",
+   "before": "Ninetales",
+   "built": "Light Ninetales",
+   "bulbapedia": "Light Ninetales",
+   "after": "Light Ninetales",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-019",
+   "ja": "やさしいブースター",
+   "before": "Flareon",
+   "built": "Light Flareon",
+   "bulbapedia": "Light Flareon",
+   "after": "Light Flareon",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-020",
+   "ja": "わるいマグマラシ",
+   "before": "Quilava",
+   "built": "Dark Quilava",
+   "bulbapedia": "Dark Quilava",
+   "after": "Dark Quilava",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-021",
+   "ja": "やさしいウインディ",
+   "before": "Arcanine",
+   "built": "Light Arcanine",
+   "bulbapedia": "Light Arcanine",
+   "after": "Light Arcanine",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-022",
+   "ja": "わるいバクフーン",
+   "before": "Typhlosion",
+   "built": "Dark Typhlosion",
+   "bulbapedia": "Dark Typhlosion",
+   "after": "Dark Typhlosion",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-023",
+   "ja": "わるいマグカルゴ",
+   "before": "Magcargo",
+   "built": "Dark Magcargo",
+   "bulbapedia": "Dark Magcargo",
+   "after": "Dark Magcargo",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-025",
+   "ja": "ひかるリザードン",
+   "before": "Charizard",
+   "built": "Shining Charizard",
+   "bulbapedia": "Shining Charizard",
+   "after": "Shining Charizard",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-032",
+   "ja": "やさしいゴルダック",
+   "before": "Golduck",
+   "built": "Light Golduck",
+   "bulbapedia": "Light Golduck",
+   "after": "Light Golduck",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-033",
+   "ja": "やさしいジュゴン",
+   "before": "Dewgong",
+   "built": "Light Dewgong",
+   "bulbapedia": "Light Dewgong",
+   "after": "Light Dewgong",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-034",
+   "ja": "やさしいシャワーズ",
+   "before": "Vaporeon",
+   "built": "Light Vaporeon",
+   "bulbapedia": "Light Vaporeon",
+   "after": "Light Vaporeon",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-035",
+   "ja": "わるいオムナイト",
+   "before": "Omanyte",
+   "built": "Dark Omanyte",
+   "bulbapedia": "Dark Omanyte",
+   "after": "Dark Omanyte",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-036",
+   "ja": "わるいアリゲイツ",
+   "before": "Croconaw",
+   "built": "Dark Croconaw",
+   "bulbapedia": "Dark Croconaw",
+   "after": "Dark Croconaw",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-037",
+   "ja": "わるいオクタン",
+   "before": "Octillery",
+   "built": "Dark Octillery",
+   "bulbapedia": "Dark Octillery",
+   "after": "Dark Octillery",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-038",
+   "ja": "わるいオムスター",
+   "before": "Omastar",
+   "built": "Dark Omastar",
+   "bulbapedia": "Dark Omastar",
+   "after": "Dark Omastar",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-039",
+   "ja": "わるいオーダイル",
+   "before": "Feraligatr",
+   "built": "Dark Feraligatr",
+   "bulbapedia": "Dark Feraligatr",
+   "after": "Dark Feraligatr",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-040",
+   "ja": "やさしいマリルリ",
+   "before": "Azumarill",
+   "built": "Light Azumarill",
+   "bulbapedia": "Light Azumarill",
+   "after": "Light Azumarill",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-041",
+   "ja": "やさしいイノムー",
+   "before": "Piloswine",
+   "built": "Light Piloswine",
+   "bulbapedia": "Light Piloswine",
+   "after": "Light Piloswine",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-043",
+   "ja": "やさしいサンダース",
+   "before": "Jolteon",
+   "built": "Light Jolteon",
+   "bulbapedia": "Light Jolteon",
+   "after": "Light Jolteon",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-044",
+   "ja": "わるいモココ",
+   "before": "Flaaffy",
+   "built": "Dark Flaaffy",
+   "bulbapedia": "Dark Flaaffy",
+   "after": "Dark Flaaffy",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-045",
+   "ja": "やさしいランターン",
+   "before": "Lanturn",
+   "built": "Light Lanturn",
+   "bulbapedia": "Light Lanturn",
+   "after": "Light Lanturn",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-046",
+   "ja": "わるいデンリュウ",
+   "before": "Ampharos",
+   "built": "Dark Ampharos",
+   "bulbapedia": "Dark Ampharos",
+   "after": "Dark Ampharos",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-047",
+   "ja": "ひかるライチュウ",
+   "before": "Raichu",
+   "built": "Shining Raichu",
+   "bulbapedia": "Shining Raichu",
+   "after": "Shining Raichu",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-050",
+   "ja": "アンノーン[L]",
+   "before": "Unown",
+   "built": "Unown L",
+   "bulbapedia": "Unown L",
+   "after": "Unown L",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-051",
+   "ja": "アンノーン[S]",
+   "before": "Unown",
+   "built": "Unown S",
+   "bulbapedia": "Unown S",
+   "after": "Unown S",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-052",
+   "ja": "アンノーン[T]",
+   "before": "Unown",
+   "built": "Unown T",
+   "bulbapedia": "Unown T",
+   "after": "Unown T",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-053",
+   "ja": "アンノーン[V]",
+   "before": "Unown",
+   "built": "Unown V",
+   "bulbapedia": "Unown V",
+   "after": "Unown V",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-054",
+   "ja": "やさしいヤドラン",
+   "before": "Slowbro",
+   "built": "Light Slowbro",
+   "bulbapedia": "Light Slowbro",
+   "after": "Light Slowbro",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-055",
+   "ja": "わるいゴースト",
+   "before": "Haunter",
+   "built": "Dark Haunter",
+   "bulbapedia": "Dark Haunter",
+   "after": "Dark Haunter",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-056",
+   "ja": "わるいナッシー",
+   "before": "Exeggutor",
+   "built": "Dark Exeggutor",
+   "bulbapedia": "Dark Exeggutor",
+   "after": "Dark Exeggutor",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-057",
+   "ja": "アンノーン[C]",
+   "before": "Unown",
+   "built": "Unown C",
+   "bulbapedia": "Unown C",
+   "after": "Unown C",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-058",
+   "ja": "アンノーン[P]",
+   "before": "Unown",
+   "built": "Unown P",
+   "bulbapedia": "Unown P",
+   "after": "Unown P",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-059",
+   "ja": "アンノーン[Q]",
+   "before": "Unown",
+   "built": "Unown Q",
+   "bulbapedia": "Unown Q",
+   "after": "Unown Q",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-060",
+   "ja": "アンノーン[Z]",
+   "before": "Unown",
+   "built": "Unown Z",
+   "bulbapedia": "Unown Z",
+   "after": "Unown Z",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-061",
+   "ja": "わるいヤドキング",
+   "before": "Slowking",
+   "built": "Dark Slowking",
+   "bulbapedia": "Dark Slowking",
+   "after": "Dark Slowking",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-062",
+   "ja": "アンノーン[G]",
+   "before": "Unown",
+   "built": "Unown G",
+   "bulbapedia": "Unown G",
+   "after": "Unown G",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-063",
+   "ja": "アンノーン[H]",
+   "before": "Unown",
+   "built": "Unown H",
+   "bulbapedia": "Unown H",
+   "after": "Unown H",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-064",
+   "ja": "アンノーン[W]",
+   "before": "Unown",
+   "built": "Unown W",
+   "bulbapedia": "Unown W",
+   "after": "Unown W",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-065",
+   "ja": "アンノーン[X]",
+   "before": "Unown",
+   "built": "Unown X",
+   "bulbapedia": "Unown X",
+   "after": "Unown X",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-066",
+   "ja": "わるいゲンガー",
+   "before": "Gengar",
+   "built": "Dark Gengar",
+   "bulbapedia": "Dark Gengar",
+   "after": "Dark Gengar",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-067",
+   "ja": "わるいエーフィ",
+   "before": "Espeon",
+   "built": "Dark Espeon",
+   "bulbapedia": "Dark Espeon",
+   "after": "Dark Espeon",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-068",
+   "ja": "ひかるミュウツー",
+   "before": "Mewtwo",
+   "built": "Shining Mewtwo",
+   "bulbapedia": "Shining Mewtwo",
+   "after": "Shining Mewtwo",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-074",
+   "ja": "やさしいゴーリキー",
+   "before": "Machoke",
+   "built": "Light Machoke",
+   "bulbapedia": "Light Machoke",
+   "after": "Light Machoke",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-076",
+   "ja": "わるいサナギラス",
+   "before": "Pupitar",
+   "built": "Dark Pupitar",
+   "bulbapedia": "Dark Pupitar",
+   "after": "Dark Pupitar",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-077",
+   "ja": "やさしいカイリキー",
+   "before": "Machamp",
+   "built": "Light Machamp",
+   "bulbapedia": "Light Machamp",
+   "after": "Light Machamp",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-078",
+   "ja": "わるいドンファン",
+   "before": "Donphan",
+   "built": "Dark Donphan",
+   "bulbapedia": "Dark Donphan",
+   "after": "Dark Donphan",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-079",
+   "ja": "わるいバンギラス",
+   "before": "Tyranitar",
+   "built": "Dark Tyranitar",
+   "bulbapedia": "Dark Tyranitar",
+   "after": "Dark Tyranitar",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-080",
+   "ja": "ひかるカブトプス",
+   "before": "Kabutops",
+   "built": "Shining Kabutops",
+   "bulbapedia": "Shining Kabutops",
+   "after": "Shining Kabutops",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-082",
+   "ja": "ひかるバンギラス",
+   "before": "Tyranitar",
+   "built": "Shining Tyranitar",
+   "bulbapedia": "Shining Tyranitar",
+   "after": "Shining Tyranitar",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-083",
+   "ja": "わるいハッサム",
+   "before": "Scizor",
+   "built": "Dark Scizor",
+   "bulbapedia": "Dark Scizor",
+   "after": "Dark Scizor",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-084",
+   "ja": "ひかるハガネール",
+   "before": "Steelix",
+   "built": "Shining Steelix",
+   "bulbapedia": "Shining Steelix",
+   "after": "Shining Steelix",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-090",
+   "ja": "やさしいプクリン",
+   "before": "Wigglytuff",
+   "built": "Light Wigglytuff",
+   "bulbapedia": "Light Wigglytuff",
+   "after": "Light Wigglytuff",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-091",
+   "ja": "わるいプクリン",
+   "before": "Wigglytuff",
+   "built": "Dark Wigglytuff",
+   "bulbapedia": "Dark Wigglytuff",
+   "after": "Dark Wigglytuff",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-093",
+   "ja": "やさしいハクリュー",
+   "before": "Dragonair",
+   "built": "Light Dragonair",
+   "bulbapedia": "Light Dragonair",
+   "after": "Light Dragonair",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-094",
+   "ja": "やさしいカイリュー",
+   "before": "Dragonite",
+   "built": "Light Dragonite",
+   "bulbapedia": "Light Dragonite",
+   "after": "Light Dragonite",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-095",
+   "ja": "やさしいトゲチック",
+   "before": "Togetic",
+   "built": "Light Togetic",
+   "bulbapedia": "Light Togetic",
+   "after": "Light Togetic",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-096",
+   "ja": "わるいリングマ",
+   "before": "Ursaring",
+   "built": "Dark Ursaring",
+   "bulbapedia": "Dark Ursaring",
+   "after": "Dark Ursaring",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-097",
+   "ja": "わるいポリゴン2",
+   "before": "Porygon2",
+   "built": "Dark Porygon2",
+   "bulbapedia": "Dark Porygon2",
+   "after": "Dark Porygon2",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-098",
+   "ja": "ひかるヨルノズク",
+   "before": "Noctowl",
+   "built": "Shining Noctowl",
+   "bulbapedia": "Shining Noctowl",
+   "after": "Shining Noctowl",
+   "status": "直す"
+  }
+ ]
+}
