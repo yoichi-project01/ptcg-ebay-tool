@@ -1,0 +1,214 @@
+{
+ "set": "PCG8",
+ "fixed": 23,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "PCG8-004",
+   "before": "セレビィ",
+   "pcgSearch": "セレビィ☆",
+   "pokemonWiki": "セレビィ☆",
+   "after": "セレビィ☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/セレビィ_PCG8-04／75_S.png → cards/PCG/PCG8/セレビィ☆_PCG8-04／75_S.png"
+  },
+  {
+   "id": "PCG8-014",
+   "before": "ルンパッパ",
+   "pcgSearch": "ルンパッパδ-デルタ種",
+   "pokemonWiki": "ルンパッパδ-デルタ種",
+   "after": "ルンパッパδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/ルンパッパ_PCG8-14／75_R.png → cards/PCG/PCG8/ルンパッパδ-デルタ種_PCG8-14／75_R.png"
+  },
+  {
+   "id": "PCG8-017",
+   "before": "キングラー（デルタ種）",
+   "pcgSearch": "キングラーδ-デルタ種",
+   "pokemonWiki": "キングラーδ-デルタ種",
+   "after": "キングラーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/キングラー（デルタ種）_PCG8-17／75_R.png → cards/PCG/PCG8/キングラーδ-デルタ種_PCG8-17／75_R.png"
+  },
+  {
+   "id": "PCG8-023",
+   "before": "ラグラージ",
+   "pcgSearch": "ラグラージex",
+   "pokemonWiki": "ラグラージex",
+   "after": "ラグラージex",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/ラグラージ_PCG8-23／75_R.png → cards/PCG/PCG8/ラグラージex_PCG8-23／75_R.png"
+  },
+  {
+   "id": "PCG8-028",
+   "before": "オニドリル",
+   "pcgSearch": "オニドリルδ-デルタ種",
+   "pokemonWiki": "オニドリルδ-デルタ種",
+   "after": "オニドリルδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/オニドリル_PCG8-28／75_R.png → cards/PCG/PCG8/オニドリルδ-デルタ種_PCG8-28／75_R.png"
+  },
+  {
+   "id": "PCG8-029",
+   "before": "ペリッパー（デルタ種）",
+   "pcgSearch": "ペリッパーδ-デルタ種",
+   "pokemonWiki": "ペリッパーδ-デルタ種",
+   "after": "ペリッパーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/ペリッパー（デルタ種）_PCG8-29／75_R.png → cards/PCG/PCG8/ペリッパーδ-デルタ種_PCG8-29／75_R.png"
+  },
+  {
+   "id": "PCG8-032",
+   "before": "リザードン",
+   "pcgSearch": "リザードンδ-デルタ種",
+   "pokemonWiki": "リザードンδ-デルタ種",
+   "after": "リザードンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/リザードン_PCG8-32／75_R.png → cards/PCG/PCG8/リザードンδ-デルタ種_PCG8-32／75_R.png"
+  },
+  {
+   "id": "PCG8-033",
+   "before": "フーディン",
+   "pcgSearch": "フーディン☆",
+   "pokemonWiki": "フーディン☆",
+   "after": "フーディン☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/フーディン_PCG8-33／75_S.png → cards/PCG/PCG8/フーディン☆_PCG8-33／75_S.png"
+  },
+  {
+   "id": "PCG8-034",
+   "before": "ジュカイン",
+   "pcgSearch": "ジュカインexδ-デルタ種",
+   "pokemonWiki": "ジュカインexδ-デルタ種",
+   "after": "ジュカインexδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/ジュカイン_PCG8-34／75_R.png → cards/PCG/PCG8/ジュカインexδ-デルタ種_PCG8-34／75_R.png"
+  },
+  {
+   "id": "PCG8-041",
+   "before": "ジラーチ",
+   "pcgSearch": "ジラーチex",
+   "pokemonWiki": "ジラーチex",
+   "after": "ジラーチex",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/ジラーチ_PCG8-41／75_R.png → cards/PCG/PCG8/ジラーチex_PCG8-41／75_R.png"
+  },
+  {
+   "id": "PCG8-045",
+   "before": "バシャーモ",
+   "pcgSearch": "バシャーモex",
+   "pokemonWiki": "バシャーモex",
+   "after": "バシャーモex",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/バシャーモ_PCG8-45／75_R.png → cards/PCG/PCG8/バシャーモex_PCG8-45／75_R.png"
+  },
+  {
+   "id": "PCG8-048",
+   "before": "ノクタス",
+   "pcgSearch": "ノクタスδ-デルタ種",
+   "pokemonWiki": "ノクタスδ-デルタ種",
+   "after": "ノクタスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/ノクタス_PCG8-48／75_R.png → cards/PCG/PCG8/ノクタスδ-デルタ種_PCG8-48／75_R.png"
+  },
+  {
+   "id": "PCG8-049",
+   "before": "カメックス",
+   "pcgSearch": "カメックスδ-デルタ種",
+   "pokemonWiki": "カメックスδ-デルタ種",
+   "after": "カメックスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/カメックス_PCG8-49／75_R.png → cards/PCG/PCG8/カメックスδ-デルタ種_PCG8-49／75_R.png"
+  },
+  {
+   "id": "PCG8-057",
+   "before": "バクオング",
+   "pcgSearch": "バクオングex",
+   "pokemonWiki": "バクオングex",
+   "after": "バクオングex",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/バクオング_PCG8-57／75_R.png → cards/PCG/PCG8/バクオングex_PCG8-57／75_R.png"
+  },
+  {
+   "id": "PCG8-059",
+   "before": "エネコロロ",
+   "pcgSearch": "エネコロロex",
+   "pokemonWiki": "エネコロロex",
+   "after": "エネコロロex",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/エネコロロ_PCG8-59／75_R.png → cards/PCG/PCG8/エネコロロex_PCG8-59／75_R.png"
+  },
+  {
+   "id": "PCG8-061",
+   "before": "ダーテング",
+   "pcgSearch": "ダーテングex",
+   "pokemonWiki": "ダーテングex",
+   "after": "ダーテングex",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/ダーテング_PCG8-61／75_R.png → cards/PCG/PCG8/ダーテングex_PCG8-61／75_R.png"
+  },
+  {
+   "id": "PCG8-066",
+   "before": "ボスゴドラ",
+   "pcgSearch": "ボスゴドラex",
+   "pokemonWiki": "ボスゴドラex",
+   "after": "ボスゴドラex",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/ボスゴドラ_PCG8-66／75_R.png → cards/PCG/PCG8/ボスゴドラex_PCG8-66／75_R.png"
+  },
+  {
+   "id": "PCG8-068",
+   "before": "キャスト・アウェイ",
+   "pcgSearch": "漂流者",
+   "pokemonWiki": "漂流者",
+   "after": "漂流者",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/キャスト・アウェイ_PCG8-68／75_U.png → cards/PCG/PCG8/漂流者_PCG8-68／75_U.png"
+  },
+  {
+   "id": "PCG8-069",
+   "before": "メモリベリー",
+   "pcgSearch": "思い出のみ",
+   "pokemonWiki": "思い出のみ",
+   "after": "思い出のみ",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/メモリベリー_PCG8-69／75_U.png → cards/PCG/PCG8/思い出のみ_PCG8-69／75_U.png"
+  },
+  {
+   "id": "PCG8-070",
+   "before": "神秘的なシャード",
+   "pcgSearch": "神秘のかけら",
+   "pokemonWiki": "神秘のかけら",
+   "after": "神秘のかけら",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/神秘的なシャード_PCG8-70／75_U.png → cards/PCG/PCG8/神秘のかけら_PCG8-70／75_U.png"
+  },
+  {
+   "id": "PCG8-071",
+   "before": "クリスタルシャード",
+   "pcgSearch": "水晶のかけら",
+   "pokemonWiki": "水晶のかけら",
+   "after": "水晶のかけら",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/クリスタルシャード_PCG8-71／75_U.png → cards/PCG/PCG8/水晶のかけら_PCG8-71／75_U.png"
+  },
+  {
+   "id": "PCG8-072",
+   "before": "停止クリスタル",
+   "pcgSearch": "封印の結晶",
+   "pokemonWiki": "封印の結晶",
+   "after": "封印の結晶",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/停止クリスタル_PCG8-72／75_U.png → cards/PCG/PCG8/封印の結晶_PCG8-72／75_U.png"
+  },
+  {
+   "id": "PCG8-075",
+   "before": "二重虹のエネルギー",
+   "pcgSearch": "Wレインボーエネルギー",
+   "pokemonWiki": "Wレインボーエネルギー",
+   "after": "Wレインボーエネルギー",
+   "status": "直す",
+   "image": "cards/PCG/PCG8/二重虹のエネルギー_PCG8-75／75_U.png → cards/PCG/PCG8/Wレインボーエネルギー_PCG8-75／75_U.png"
+  }
+ ]
+}
