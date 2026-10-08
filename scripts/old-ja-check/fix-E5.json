@@ -1,0 +1,106 @@
+{
+ "set": "E5",
+ "fixed": 11,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "E5-075",
+   "before": "高速ボール",
+   "pcgSearch": "スピードボール",
+   "pokemonWiki": "スピードボール",
+   "after": "スピードボール",
+   "status": "直す",
+   "image": "cards/e/E5/高速ボール_E5-75／91_U.png → cards/e/E5/スピードボール_E5-75／91_U.png"
+  },
+  {
+   "id": "E5-076",
+   "before": "友達のボール",
+   "pcgSearch": "フレンドボール",
+   "pokemonWiki": "フレンドボール",
+   "after": "フレンドボール",
+   "status": "直す",
+   "image": "cards/e/E5/友達のボール_E5-76／91_U.png → cards/e/E5/フレンドボール_E5-76／91_U.png"
+  },
+  {
+   "id": "E5-078",
+   "before": "遺物ハンター",
+   "pcgSearch": "遺跡ハンター",
+   "pokemonWiki": "遺跡ハンター",
+   "after": "遺跡ハンター",
+   "status": "直す",
+   "image": "cards/e/E5/遺物ハンター_E5-78／91_U.png → cards/e/E5/遺跡ハンター_E5-78／91_U.png"
+  },
+  {
+   "id": "E5-079",
+   "before": "漁師",
+   "pcgSearch": "釣り人",
+   "pokemonWiki": "釣り人",
+   "after": "釣り人",
+   "status": "直す",
+   "image": "cards/e/E5/漁師_E5-79／91_U.png → cards/e/E5/釣り人_E5-79／91_U.png"
+  },
+  {
+   "id": "E5-080",
+   "before": "アプリコーンメーカー",
+   "pcgSearch": "ぼんぐり職人",
+   "pokemonWiki": "ぼんぐり職人",
+   "after": "ぼんぐり職人",
+   "status": "直す",
+   "image": "cards/e/E5/アプリコーンメーカー_E5-80／91_U.png → cards/e/E5/ぼんぐり職人_E5-80／91_U.png"
+  },
+  {
+   "id": "E5-081",
+   "before": "奇跡の球体a",
+   "pcgSearch": "ミラクルスフィアα",
+   "pokemonWiki": "ミラクルスフィアα",
+   "after": "ミラクルスフィアα",
+   "status": "直す",
+   "image": "cards/e/E5/奇跡の球体a_E5-81／91_U.png → cards/e/E5/ミラクルスフィアα_E5-81／91_U.png"
+  },
+  {
+   "id": "E5-082",
+   "before": "奇跡の球体b",
+   "pcgSearch": "ミラクルスフィアβ",
+   "pokemonWiki": "ミラクルスフィアβ",
+   "after": "ミラクルスフィアβ",
+   "status": "直す",
+   "image": "cards/e/E5/奇跡の球体b_E5-82／91_U.png → cards/e/E5/ミラクルスフィアβ_E5-82／91_U.png"
+  },
+  {
+   "id": "E5-083",
+   "before": "奇跡の球体y",
+   "pcgSearch": "ミラクルスフィアγ",
+   "pokemonWiki": "ミラクルスフィアγ",
+   "after": "ミラクルスフィアγ",
+   "status": "直す",
+   "image": "cards/e/E5/奇跡の球体y_E5-83／91_U.png → cards/e/E5/ミラクルスフィアγ_E5-83／91_U.png"
+  },
+  {
+   "id": "E5-084",
+   "before": "古代の遺跡",
+   "pcgSearch": "古代遺跡",
+   "pokemonWiki": "古代遺跡",
+   "after": "古代遺跡",
+   "status": "直す",
+   "image": "cards/e/E5/古代の遺跡_E5-84／91_U.png → cards/e/E5/古代遺跡_E5-84／91_U.png"
+  },
+  {
+   "id": "E5-087",
+   "before": "エネルギーを跳ね返します",
+   "pcgSearch": "バウンスエネルギー",
+   "pokemonWiki": "バウンスエネルギー",
+   "after": "バウンスエネルギー",
+   "status": "直す",
+   "image": "cards/e/E5/エネルギーを跳ね返します_E5-87／91_U.png → cards/e/E5/バウンスエネルギー_E5-87／91_U.png"
+  },
+  {
+   "id": "E5-088",
+   "before": "レトロなエネルギー",
+   "pcgSearch": "レトロエネルギー",
+   "pokemonWiki": "レトロエネルギー",
+   "after": "レトロエネルギー",
+   "status": "直す",
+   "image": "cards/e/E5/レトロなエネルギー_E5-88／91_U.png → cards/e/E5/レトロエネルギー_E5-88／91_U.png"
+  }
+ ]
+}
