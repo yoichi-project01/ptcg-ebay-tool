@@ -1,0 +1,69 @@
+{
+ "set": "neo2",
+ "fixed": 5,
+ "rows": [
+  {
+   "id": "neo2-021",
+   "ja": "わるいライチュウ",
+   "before": "Raichu",
+   "built": "Dark Raichu",
+   "bulbapedia": "Dark Raichu",
+   "after": "Dark Raichu",
+   "status": "直す"
+  },
+  {
+   "id": "neo2-023",
+   "ja": "アンノーン[I]",
+   "before": "Unown",
+   "built": "Unown I",
+   "bulbapedia": "Unown I",
+   "after": "Unown I",
+   "status": "直す"
+  },
+  {
+   "id": "neo2-025",
+   "ja": "アンノーン[F]",
+   "before": "Unown",
+   "built": "Unown F",
+   "bulbapedia": "Unown D",
+   "after": "",
+   "status": "作った名前と Bulbapedia が一致しない"
+  },
+  {
+   "id": "neo2-026",
+   "ja": "アンノーン[D]",
+   "before": "Unown",
+   "built": "Unown D",
+   "bulbapedia": "Unown F",
+   "after": "",
+   "status": "作った名前と Bulbapedia が一致しない"
+  },
+  {
+   "id": "neo2-027",
+   "ja": "アンノーン[M]",
+   "before": "Unown",
+   "built": "Unown M",
+   "bulbapedia": "Unown M",
+   "after": "Unown M",
+   "status": "直す"
+  },
+  {
+   "id": "neo2-028",
+   "ja": "アンノーン[U]",
+   "before": "Unown",
+   "built": "Unown U",
+   "bulbapedia": "Unown U",
+   "after": "Unown U",
+   "status": "直す"
+  },
+  {
+   "id": "neo2-030",
+   "ja": "アンノーン[A]",
+   "before": "Unown",
+   "built": "Unown A",
+   "bulbapedia": "Unown A",
+   "after": "Unown A",
+   "status": "直す"
+  }
+ ]
+}
