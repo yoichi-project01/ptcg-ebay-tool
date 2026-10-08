@@ -1,0 +1,592 @@
+{
+ "set": "PMCG5",
+ "kind": "pokemon",
+ "fixed": 65,
+ "rows": [
+  {
+   "id": "PMCG5-001",
+   "ja": "タケシのズバット",
+   "before": "Zubat",
+   "built": "Brock's Zubat",
+   "bulbapedia": "Brock's Zubat",
+   "after": "Brock's Zubat",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-002",
+   "ja": "エリカのナゾノクサ",
+   "before": "Oddish",
+   "built": "Erika's Oddish",
+   "bulbapedia": "Erika's Oddish",
+   "after": "Erika's Oddish",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-003",
+   "ja": "エリカのナゾノクサ",
+   "before": "Oddish",
+   "built": "Erika's Oddish",
+   "bulbapedia": "Erika's Oddish",
+   "after": "Erika's Oddish",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-004",
+   "ja": "エリカのパラス",
+   "before": "Paras",
+   "built": "Erika's Paras",
+   "bulbapedia": "Erika's Paras",
+   "after": "Erika's Paras",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-005",
+   "ja": "エリカのマダツボミ",
+   "before": "Bellsprout",
+   "built": "Erika's Bellsprout",
+   "bulbapedia": "Erika's Bellsprout",
+   "after": "Erika's Bellsprout",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-006",
+   "ja": "エリカのモンジャラ",
+   "before": "Tangela",
+   "built": "Erika's Tangela",
+   "bulbapedia": "Erika's Tangela",
+   "after": "Erika's Tangela",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-007",
+   "ja": "エリカのフシギダネ",
+   "before": "Bulbasaur",
+   "built": "Erika's Bulbasaur",
+   "bulbapedia": "Erika's Bulbasaur",
+   "after": "Erika's Bulbasaur",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-008",
+   "ja": "タケシのゴルバット",
+   "before": "Golbat",
+   "built": "Brock's Golbat",
+   "bulbapedia": "Brock's Golbat",
+   "after": "Brock's Golbat",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-009",
+   "ja": "エリカのクサイハナ",
+   "before": "Gloom",
+   "built": "Erika's Gloom",
+   "bulbapedia": "Erika's Gloom",
+   "after": "Erika's Gloom",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-010",
+   "ja": "エリカのマダツボミ",
+   "before": "Bellsprout",
+   "built": "Erika's Bellsprout",
+   "bulbapedia": "Erika's Bellsprout",
+   "after": "Erika's Bellsprout",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-011",
+   "ja": "エリカのウツドン",
+   "before": "Weepinbell",
+   "built": "Erika's Weepinbell",
+   "bulbapedia": "Erika's Weepinbell",
+   "after": "Erika's Weepinbell",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-012",
+   "ja": "エリカのタマタマ",
+   "before": "Exeggcute",
+   "built": "Erika's Exeggcute",
+   "bulbapedia": "Erika's Exeggcute",
+   "after": "Erika's Exeggcute",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-013",
+   "ja": "エリカのナッシー",
+   "before": "Exeggutor",
+   "built": "Erika's Exeggutor",
+   "bulbapedia": "Erika's Exeggutor",
+   "after": "Erika's Exeggutor",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-014",
+   "ja": "エリカのラフレシア",
+   "before": "Vileplume",
+   "built": "Erika's Vileplume",
+   "bulbapedia": "Erika's Vileplume",
+   "after": "Erika's Vileplume",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-015",
+   "ja": "エリカのウツボット",
+   "before": "Victreebel",
+   "built": "Erika's Victreebel",
+   "bulbapedia": "Erika's Victreebel",
+   "after": "Erika's Victreebel",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-016",
+   "ja": "R団のストライク",
+   "before": "Scyther",
+   "built": "Rocket's Scyther",
+   "bulbapedia": "Rocket's Scyther",
+   "after": "Rocket's Scyther",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-017",
+   "ja": "タケシのロコン",
+   "before": "Vulpix",
+   "built": "Brock's Vulpix",
+   "bulbapedia": "Brock's Vulpix",
+   "after": "Brock's Vulpix",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-018",
+   "ja": "タケシのロコン",
+   "before": "Vulpix",
+   "built": "Brock's Vulpix",
+   "bulbapedia": "Brock's Vulpix",
+   "after": "Brock's Vulpix",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-019",
+   "ja": "タケシのキュウコン",
+   "before": "Ninetales",
+   "built": "Brock's Ninetales",
+   "bulbapedia": "Brock's Ninetales",
+   "after": "Brock's Ninetales",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-020",
+   "ja": "R団のファイヤー",
+   "before": "Moltres",
+   "built": "Rocket's Moltres",
+   "bulbapedia": "Rocket's Moltres",
+   "after": "Rocket's Moltres",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-021",
+   "ja": "カスミのコダック",
+   "before": "Psyduck",
+   "built": "Misty's Psyduck",
+   "bulbapedia": "Misty's Psyduck",
+   "after": "Misty's Psyduck",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-022",
+   "ja": "カスミのニョロモ",
+   "before": "Poliwag",
+   "built": "Misty's Poliwag",
+   "bulbapedia": "Misty's Poliwag",
+   "after": "Misty's Poliwag",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-023",
+   "ja": "カスミのパウワウ",
+   "before": "Seel",
+   "built": "Misty's Seel",
+   "bulbapedia": "Misty's Seel",
+   "after": "Misty's Seel",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-024",
+   "ja": "カスミのタッツー",
+   "before": "Horsea",
+   "built": "Misty's Horsea",
+   "bulbapedia": "Misty's Horsea",
+   "after": "Misty's Horsea",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-025",
+   "ja": "カスミのタッツー",
+   "before": "Horsea",
+   "built": "Misty's Horsea",
+   "bulbapedia": "Misty's Horsea",
+   "after": "Misty's Horsea",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-026",
+   "ja": "カスミのトサキント",
+   "before": "Goldeen",
+   "built": "Misty's Goldeen",
+   "bulbapedia": "Misty's Goldeen",
+   "after": "Misty's Goldeen",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-027",
+   "ja": "カスミのヒトデマン",
+   "before": "Staryu",
+   "built": "Misty's Staryu",
+   "bulbapedia": "Misty's Staryu",
+   "after": "Misty's Staryu",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-028",
+   "ja": "カスミのコイキング",
+   "before": "Magikarp",
+   "built": "Misty's Magikarp",
+   "bulbapedia": "Misty's Magikarp",
+   "after": "Misty's Magikarp",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-029",
+   "ja": "カスミのニョロゾ",
+   "before": "Poliwhirl",
+   "built": "Misty's Poliwhirl",
+   "bulbapedia": "Misty's Poliwhirl",
+   "after": "Misty's Poliwhirl",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-030",
+   "ja": "カスミのメノクラゲ",
+   "before": "Tentacool",
+   "built": "Misty's Tentacool",
+   "bulbapedia": "Misty's Tentacool",
+   "after": "Misty's Tentacool",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-031",
+   "ja": "カスミのジュゴン",
+   "before": "Dewgong",
+   "built": "Misty's Dewgong",
+   "bulbapedia": "Misty's Dewgong",
+   "after": "Misty's Dewgong",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-032",
+   "ja": "カスミのゴルダック",
+   "before": "Golduck",
+   "built": "Misty's Golduck",
+   "bulbapedia": "Misty's Golduck",
+   "after": "Misty's Golduck",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-033",
+   "ja": "カスミのドククラゲ",
+   "before": "Tentacruel",
+   "built": "Misty's Tentacruel",
+   "bulbapedia": "Misty's Tentacruel",
+   "after": "Misty's Tentacruel",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-034",
+   "ja": "カスミのシードラ",
+   "before": "Seadra",
+   "built": "Misty's Seadra",
+   "bulbapedia": "Misty's Seadra",
+   "after": "Misty's Seadra",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-035",
+   "ja": "カスミのギャラドス",
+   "before": "Gyarados",
+   "built": "Misty's Gyarados",
+   "bulbapedia": "Misty's Gyarados",
+   "after": "Misty's Gyarados",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-036",
+   "ja": "マチスのピカチュウ",
+   "before": "Pikachu",
+   "built": "Lt. Surge's Pikachu",
+   "bulbapedia": "Lt. Surge's Pikachu",
+   "after": "Lt. Surge's Pikachu",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-037",
+   "ja": "マチスのコイル",
+   "before": "Magnemite",
+   "built": "Lt. Surge's Magnemite",
+   "bulbapedia": "Lt. Surge's Magnemite",
+   "after": "Lt. Surge's Magnemite",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-038",
+   "ja": "マチスのビリリダマ",
+   "before": "Voltorb",
+   "built": "Lt. Surge's Voltorb",
+   "bulbapedia": "Lt. Surge's Voltorb",
+   "after": "Lt. Surge's Voltorb",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-039",
+   "ja": "マチスのコイル",
+   "before": "Magnemite",
+   "built": "Lt. Surge's Magnemite",
+   "bulbapedia": "Lt. Surge's Magnemite",
+   "after": "Lt. Surge's Magnemite",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-040",
+   "ja": "マチスのレアコイル",
+   "before": "Magneton",
+   "built": "Lt. Surge's Magneton",
+   "bulbapedia": "Lt. Surge's Magneton",
+   "after": "Lt. Surge's Magneton",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-041",
+   "ja": "マチスのエレブー",
+   "before": "Electabuzz",
+   "built": "Lt. Surge's Electabuzz",
+   "bulbapedia": "Lt. Surge's Electabuzz",
+   "after": "Lt. Surge's Electabuzz",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-042",
+   "ja": "マチスのサンダース",
+   "before": "Jolteon",
+   "built": "Lt. Surge's Jolteon",
+   "bulbapedia": "Lt. Surge's Jolteon",
+   "after": "Lt. Surge's Jolteon",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-044",
+   "ja": "タケシのディグダ",
+   "before": "Diglett",
+   "built": "Brock's Diglett",
+   "bulbapedia": "Brock's Diglett",
+   "after": "Brock's Diglett",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-045",
+   "ja": "タケシのマンキー",
+   "before": "Mankey",
+   "built": "Brock's Mankey",
+   "bulbapedia": "Brock's Mankey",
+   "after": "Brock's Mankey",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-046",
+   "ja": "タケシのイシツブテ",
+   "before": "Geodude",
+   "built": "Brock's Geodude",
+   "bulbapedia": "Brock's Geodude",
+   "after": "Brock's Geodude",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-047",
+   "ja": "タケシのイシツブテ",
+   "before": "Geodude",
+   "built": "Brock's Geodude",
+   "bulbapedia": "Brock's Geodude",
+   "after": "Brock's Geodude",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-048",
+   "ja": "タケシのイワーク",
+   "before": "Onix",
+   "built": "Brock's Onix",
+   "bulbapedia": "Brock's Onix",
+   "after": "Brock's Onix",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-049",
+   "ja": "タケシのサイホーン",
+   "before": "Rhyhorn",
+   "built": "Brock's Rhyhorn",
+   "bulbapedia": "Brock's Rhyhorn",
+   "after": "Brock's Rhyhorn",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-050",
+   "ja": "タケシのサンドパン",
+   "before": "Sandslash",
+   "built": "Brock's Sandslash",
+   "bulbapedia": "Brock's Sandslash",
+   "after": "Brock's Sandslash",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-051",
+   "ja": "タケシのオコリザル",
+   "before": "Primeape",
+   "built": "Brock's Primeape",
+   "bulbapedia": "Brock's Primeape",
+   "after": "Brock's Primeape",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-052",
+   "ja": "タケシのゴローン",
+   "before": "Graveler",
+   "built": "Brock's Graveler",
+   "bulbapedia": "Brock's Graveler",
+   "after": "Brock's Graveler",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-053",
+   "ja": "タケシのゴローニャ",
+   "before": "Golem",
+   "built": "Brock's Golem",
+   "bulbapedia": "Brock's Golem",
+   "after": "Brock's Golem",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-054",
+   "ja": "R団のエビワラー",
+   "before": "Hitmonchan",
+   "built": "Rocket's Hitmonchan",
+   "bulbapedia": "Rocket's Hitmonchan",
+   "after": "Rocket's Hitmonchan",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-055",
+   "ja": "タケシのサイドン",
+   "before": "Rhydon",
+   "built": "Brock's Rhydon",
+   "bulbapedia": "Brock's Rhydon",
+   "after": "Brock's Rhydon",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-056",
+   "ja": "マチスのコラッタ",
+   "before": "Rattata",
+   "built": "Lt. Surge's Rattata",
+   "bulbapedia": "Lt. Surge's Rattata",
+   "after": "Lt. Surge's Rattata",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-057",
+   "ja": "マチスのオニスズメ",
+   "before": "Spearow",
+   "built": "Lt. Surge's Spearow",
+   "bulbapedia": "Lt. Surge's Spearow",
+   "after": "Lt. Surge's Spearow",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-058",
+   "ja": "エリカのプリン",
+   "before": "Jigglypuff",
+   "built": "Erika's Jigglypuff",
+   "bulbapedia": "Erika's Jigglypuff",
+   "after": "Erika's Jigglypuff",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-059",
+   "ja": "マチスのラッタ",
+   "before": "Raticate",
+   "built": "Lt. Surge's Raticate",
+   "bulbapedia": "Lt. Surge's Raticate",
+   "after": "Lt. Surge's Raticate",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-060",
+   "ja": "エリカのピッピ",
+   "before": "Clefairy",
+   "built": "Erika's Clefairy",
+   "bulbapedia": "Erika's Clefairy",
+   "after": "Erika's Clefairy",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-061",
+   "ja": "タケシのベロリンガ",
+   "before": "Lickitung",
+   "built": "Brock's Lickitung",
+   "bulbapedia": "Brock's Lickitung",
+   "after": "Brock's Lickitung",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-062",
+   "ja": "マチスのイーブイ",
+   "before": "Eevee",
+   "built": "Lt. Surge's Eevee",
+   "bulbapedia": "Lt. Surge's Eevee",
+   "after": "Lt. Surge's Eevee",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-063",
+   "ja": "エリカのミニリュウ",
+   "before": "Dratini",
+   "built": "Erika's Dratini",
+   "bulbapedia": "Erika's Dratini",
+   "after": "Erika's Dratini",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-064",
+   "ja": "マチスのオニドリル",
+   "before": "Fearow",
+   "built": "Lt. Surge's Fearow",
+   "bulbapedia": "Lt. Surge's Fearow",
+   "after": "Lt. Surge's Fearow",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-065",
+   "ja": "エリカのピクシー",
+   "before": "Clefable",
+   "built": "Erika's Clefable",
+   "bulbapedia": "Erika's Clefable",
+   "after": "Erika's Clefable",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG5-066",
+   "ja": "エリカのハクリュー",
+   "before": "Dragonair",
+   "built": "Erika's Dragonair",
+   "bulbapedia": "Erika's Dragonair",
+   "after": "Erika's Dragonair",
+   "status": "直す"
+  }
+ ]
+}

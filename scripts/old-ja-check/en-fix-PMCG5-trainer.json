@@ -1,0 +1,15 @@
+{
+ "set": "PMCG5",
+ "kind": "trainer",
+ "fixed": 1,
+ "rows": [
+  {
+   "id": "PMCG5-090",
+   "ja": "タケシの保護",
+   "bulbapedia": "Brock's Protection",
+   "bulbapediaJa": "タケシの保護",
+   "after": "Brock's Protection",
+   "status": "直す"
+  }
+ ]
+}
