@@ -1,0 +1,916 @@
+{
+ "set": "VS1",
+ "kind": "pokemon",
+ "fixed": 101,
+ "rows": [
+  {
+   "id": "VS1-001",
+   "ja": "ハヤトのピジョット",
+   "before": "Pidgeot",
+   "built": "Falkner's Pidgeot",
+   "bulbapedia": "Falkner's Pidgeot",
+   "after": "Falkner's Pidgeot",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-002",
+   "ja": "ハヤトのオニドリル",
+   "before": "Fearow",
+   "built": "Falkner's Fearow",
+   "bulbapedia": "Falkner's Fearow",
+   "after": "Falkner's Fearow",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-003",
+   "ja": "ハヤトのカモネギ",
+   "before": "Farfetch'd",
+   "built": "Falkner's Farfetch’d",
+   "bulbapedia": "Falkner's Farfetch'd",
+   "after": "Falkner's Farfetch'd",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-004",
+   "ja": "ハヤトのドードリオ",
+   "before": "Dodrio",
+   "built": "Falkner's Dodrio",
+   "bulbapedia": "Falkner's Dodrio",
+   "after": "Falkner's Dodrio",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-005",
+   "ja": "ハヤトのトゲチック",
+   "before": "Togetic",
+   "built": "Falkner's Togetic",
+   "bulbapedia": "Falkner's Togetic",
+   "after": "Falkner's Togetic",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-006",
+   "ja": "ハヤトのデリバード",
+   "before": "Delibird",
+   "built": "Falkner's Delibird",
+   "bulbapedia": "Falkner's Delibird",
+   "after": "Falkner's Delibird",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-007",
+   "ja": "ハヤトのエアームド",
+   "before": "Skarmory",
+   "built": "Falkner's Skarmory",
+   "bulbapedia": "Falkner's Skarmory",
+   "after": "Falkner's Skarmory",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-008",
+   "ja": "ツクシのバタフリー",
+   "before": "Butterfree",
+   "built": "Bugsy's Butterfree",
+   "bulbapedia": "Bugsy's Butterfree",
+   "after": "Bugsy's Butterfree",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-009",
+   "ja": "ツクシのスピアー",
+   "before": "Beedrill",
+   "built": "Bugsy's Beedrill",
+   "bulbapedia": "Bugsy's Beedrill",
+   "after": "Bugsy's Beedrill",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-010",
+   "ja": "ツクシのカイロス",
+   "before": "Pinsir",
+   "built": "Bugsy's Pinsir",
+   "bulbapedia": "Bugsy's Pinsir",
+   "after": "Bugsy's Pinsir",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-011",
+   "ja": "ツクシのレディアン",
+   "before": "Ledian",
+   "built": "Bugsy's Ledian",
+   "bulbapedia": "Bugsy's Ledian",
+   "after": "Bugsy's Ledian",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-012",
+   "ja": "ツクシのヤンヤンマ",
+   "before": "Yanma",
+   "built": "Bugsy's Yanma",
+   "bulbapedia": "Bugsy's Yanma",
+   "after": "Bugsy's Yanma",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-013",
+   "ja": "ツクシのハッサム",
+   "before": "Scizor",
+   "built": "Bugsy's Scizor",
+   "bulbapedia": "Bugsy's Scizor",
+   "after": "Bugsy's Scizor",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-014",
+   "ja": "アカネのピクシー",
+   "before": "Clefable",
+   "built": "Whitney's Clefable",
+   "bulbapedia": "Whitney's Clefable",
+   "after": "Whitney's Clefable",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-015",
+   "ja": "アカネのプクリン",
+   "before": "Wigglytuff",
+   "built": "Whitney's Wigglytuff",
+   "bulbapedia": "Whitney's Wigglytuff",
+   "after": "Whitney's Wigglytuff",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-016",
+   "ja": "アカネのペルシアン",
+   "before": "Persian",
+   "built": "Whitney's Persian",
+   "bulbapedia": "Whitney's Persian",
+   "after": "Whitney's Persian",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-017",
+   "ja": "アカネのベロリンガ",
+   "before": "Lickitung",
+   "built": "Whitney's Lickitung",
+   "bulbapedia": "Whitney's Lickitung",
+   "after": "Whitney's Lickitung",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-018",
+   "ja": "アカネのオオタチ",
+   "before": "Furret",
+   "built": "Whitney's Furret",
+   "bulbapedia": "Whitney's Furret",
+   "after": "Whitney's Furret",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-019",
+   "ja": "アカネのミルタンク",
+   "before": "Miltank",
+   "built": "Whitney's Miltank",
+   "bulbapedia": "Whitney's Miltank",
+   "after": "Whitney's Miltank",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-020",
+   "ja": "マツバのキュウコン",
+   "before": "Ninetales",
+   "built": "Morty's Ninetales",
+   "bulbapedia": "Morty's Ninetales",
+   "after": "Morty's Ninetales",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-021",
+   "ja": "マツバのゲンガー",
+   "before": "Gengar",
+   "built": "Morty's Gengar",
+   "bulbapedia": "Morty's Gengar",
+   "after": "Morty's Gengar",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-022",
+   "ja": "マツバのスリーパー",
+   "before": "Hypno",
+   "built": "Morty's Hypno",
+   "bulbapedia": "Morty's Hypno",
+   "after": "Morty's Hypno",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-023",
+   "ja": "マツバのガラガラ",
+   "before": "Marowak",
+   "built": "Morty's Marowak",
+   "bulbapedia": "Morty's Marowak",
+   "after": "Morty's Marowak",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-024",
+   "ja": "マツバのヨルノズク",
+   "before": "Noctowl",
+   "built": "Morty's Noctowl",
+   "bulbapedia": "Morty's Noctowl",
+   "after": "Morty's Noctowl",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-025",
+   "ja": "マツバのヤミカラス",
+   "before": "Murkrow",
+   "built": "Morty's Murkrow",
+   "bulbapedia": "Morty's Murkrow",
+   "after": "Morty's Murkrow",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-026",
+   "ja": "マツバのムウマ",
+   "before": "Misdreavus",
+   "built": "Morty's Misdreavus",
+   "bulbapedia": "Morty's Misdreavus",
+   "after": "Morty's Misdreavus",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-027",
+   "ja": "ミカンのライチュウ",
+   "before": "Raichu",
+   "built": "Jasmine's Raichu",
+   "bulbapedia": "Jasmine's Raichu",
+   "after": "Jasmine's Raichu",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-028",
+   "ja": "ミカンのレアコイル",
+   "before": "Magneton",
+   "built": "Jasmine's Magneton",
+   "bulbapedia": "Jasmine's Magneton",
+   "after": "Jasmine's Magneton",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-029",
+   "ja": "ミカンのエレブー",
+   "before": "Electabuzz",
+   "built": "Jasmine's Electabuzz",
+   "bulbapedia": "Jasmine's Electabuzz",
+   "after": "Jasmine's Electabuzz",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-030",
+   "ja": "ミカンのサンダース",
+   "before": "Jolteon",
+   "built": "Jasmine's Jolteon",
+   "bulbapedia": "Jasmine's Jolteon",
+   "after": "Jasmine's Jolteon",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-031",
+   "ja": "ミカンのデンリュウ",
+   "before": "Ampharos",
+   "built": "Jasmine's Ampharos",
+   "bulbapedia": "Jasmine's Ampharos",
+   "after": "Jasmine's Ampharos",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-032",
+   "ja": "ミカンのハガネール",
+   "before": "Steelix",
+   "built": "Jasmine's Steelix",
+   "bulbapedia": "Jasmine's Steelix",
+   "after": "Jasmine's Steelix",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-033",
+   "ja": "シジマのオコリザル",
+   "before": "Primeape",
+   "built": "Chuck's Primeape",
+   "bulbapedia": "Chuck's Primeape",
+   "after": "Chuck's Primeape",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-034",
+   "ja": "シジマのニョロボン",
+   "before": "Poliwrath",
+   "built": "Chuck's Poliwrath",
+   "bulbapedia": "Chuck's Poliwrath",
+   "after": "Chuck's Poliwrath",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-035",
+   "ja": "シジマのサイドン",
+   "before": "Rhydon",
+   "built": "Chuck's Rhydon",
+   "bulbapedia": "Chuck's Rhydon",
+   "after": "Chuck's Rhydon",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-036",
+   "ja": "シジマのケンタロス",
+   "before": "Tauros",
+   "built": "Chuck's Tauros",
+   "bulbapedia": "Chuck's Tauros",
+   "after": "Chuck's Tauros",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-037",
+   "ja": "シジマのグランブル",
+   "before": "Granbull",
+   "built": "Chuck's Granbull",
+   "bulbapedia": "Chuck's Granbull",
+   "after": "Chuck's Granbull",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-038",
+   "ja": "シジマのドンファン",
+   "before": "Donphan",
+   "built": "Chuck's Donphan",
+   "bulbapedia": "Chuck's Donphan",
+   "after": "Chuck's Donphan",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-039",
+   "ja": "ヤナギのジュゴン",
+   "before": "Dewgong",
+   "built": "Pryce's Dewgong",
+   "bulbapedia": "Pryce's Dewgong",
+   "after": "Pryce's Dewgong",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-040",
+   "ja": "ヤナギのパルシェン",
+   "before": "Cloyster",
+   "built": "Pryce's Cloyster",
+   "bulbapedia": "Pryce's Cloyster",
+   "after": "Pryce's Cloyster",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-041",
+   "ja": "ヤナギのラプラス",
+   "before": "Lapras",
+   "built": "Pryce's Lapras",
+   "bulbapedia": "Pryce's Lapras",
+   "after": "Pryce's Lapras",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-042",
+   "ja": "ヤナギのフリーザー",
+   "before": "Articuno",
+   "built": "Pryce's Articuno",
+   "bulbapedia": "Pryce's Articuno",
+   "after": "Pryce's Articuno",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-043",
+   "ja": "ヤナギのニューラ",
+   "before": "Sneasel",
+   "built": "Pryce's Sneasel",
+   "bulbapedia": "Pryce's Sneasel",
+   "after": "Pryce's Sneasel",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-044",
+   "ja": "ヤナギのイノムー",
+   "before": "Piloswine",
+   "built": "Pryce's Piloswine",
+   "bulbapedia": "Pryce's Piloswine",
+   "after": "Pryce's Piloswine",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-045",
+   "ja": "ヤナギのデリバード",
+   "before": "Delibird",
+   "built": "Pryce's Delibird",
+   "bulbapedia": "Pryce's Delibird",
+   "after": "Pryce's Delibird",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-046",
+   "ja": "イブキのカメックス",
+   "before": "Blastoise",
+   "built": "Clair's Blastoise",
+   "bulbapedia": "Clair's Blastoise",
+   "after": "Clair's Blastoise",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-047",
+   "ja": "イブキのルージュラ",
+   "before": "Jynx",
+   "built": "Clair's Jynx",
+   "bulbapedia": "Clair's Jynx",
+   "after": "Clair's Jynx",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-048",
+   "ja": "イブキのギャラドス",
+   "before": "Gyarados",
+   "built": "Clair's Gyarados",
+   "bulbapedia": "Clair's Gyarados",
+   "after": "Clair's Gyarados",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-049",
+   "ja": "イブキのカイリュー",
+   "before": "Dragonite",
+   "built": "Clair's Dragonite",
+   "bulbapedia": "Clair's Dragonite",
+   "after": "Clair's Dragonite",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-050",
+   "ja": "イブキのニョロトノ",
+   "before": "Politoed",
+   "built": "Clair's Politoed",
+   "bulbapedia": "Clair's Politoed",
+   "after": "Clair's Politoed",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-051",
+   "ja": "イブキのマンタイン",
+   "before": "Mantine",
+   "built": "Clair's Mantine",
+   "bulbapedia": "Clair's Mantine",
+   "after": "Clair's Mantine",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-052",
+   "ja": "イブキのキングドラ",
+   "before": "Kingdra",
+   "built": "Clair's Kingdra",
+   "bulbapedia": "Clair's Kingdra",
+   "after": "Clair's Kingdra",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-053",
+   "ja": "マチスのライチュウ",
+   "before": "Raichu",
+   "built": "Lt. Surge's Raichu",
+   "bulbapedia": "Lt. Surge's Raichu",
+   "after": "Lt. Surge's Raichu",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-054",
+   "ja": "マチスのランターン",
+   "before": "Lanturn",
+   "built": "Lt. Surge's Lanturn",
+   "bulbapedia": "Lt. Surge's Lanturn",
+   "after": "Lt. Surge's Lanturn",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-055",
+   "ja": "ナツメのネイティオ",
+   "before": "Xatu",
+   "built": "Sabrina's Xatu",
+   "bulbapedia": "Sabrina's Xatu",
+   "after": "Sabrina's Xatu",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-056",
+   "ja": "ナツメのエーフィ",
+   "before": "Espeon",
+   "built": "Sabrina's Espeon",
+   "bulbapedia": "Sabrina's Espeon",
+   "after": "Sabrina's Espeon",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-057",
+   "ja": "カスミのラプラス",
+   "before": "Lapras",
+   "built": "Misty's Lapras",
+   "bulbapedia": "Misty's Lapras",
+   "after": "Misty's Lapras",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-058",
+   "ja": "カスミのヌオー",
+   "before": "Quagsire",
+   "built": "Misty's Quagsire",
+   "bulbapedia": "Misty's Quagsire",
+   "after": "Misty's Quagsire",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-059",
+   "ja": "エリカのキレイハナ",
+   "before": "Bellossom",
+   "built": "Erika's Bellossom",
+   "bulbapedia": "Erika's Bellossom",
+   "after": "Erika's Bellossom",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-060",
+   "ja": "エリカのワタッコ",
+   "before": "Jumpluff",
+   "built": "Erika's Jumpluff",
+   "bulbapedia": "Erika's Jumpluff",
+   "after": "Erika's Jumpluff",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-061",
+   "ja": "アンズのスピアー",
+   "before": "Beedrill",
+   "built": "Janine's Beedrill",
+   "bulbapedia": "Janine's Beedrill",
+   "after": "Janine's Beedrill",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-062",
+   "ja": "アンズのアーボック",
+   "before": "Arbok",
+   "built": "Janine's Arbok",
+   "bulbapedia": "Janine's Arbok",
+   "after": "Janine's Arbok",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-063",
+   "ja": "アンズのモルフォン",
+   "before": "Venomoth",
+   "built": "Janine's Venomoth",
+   "bulbapedia": "Janine's Venomoth",
+   "after": "Janine's Venomoth",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-064",
+   "ja": "アンズのマタドガス",
+   "before": "Weezing",
+   "built": "Janine's Weezing",
+   "bulbapedia": "Janine's Weezing",
+   "after": "Janine's Weezing",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-065",
+   "ja": "アンズのアリアドス",
+   "before": "Ariados",
+   "built": "Janine's Ariados",
+   "bulbapedia": "Janine's Ariados",
+   "after": "Janine's Ariados",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-066",
+   "ja": "アンズのクロバット",
+   "before": "Crobat",
+   "built": "Janine's Crobat",
+   "bulbapedia": "Janine's Crobat",
+   "after": "Janine's Crobat",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-067",
+   "ja": "アンズのツボツボ",
+   "before": "Shuckle",
+   "built": "Janine's Shuckle",
+   "bulbapedia": "Janine's Shuckle",
+   "after": "Janine's Shuckle",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-068",
+   "ja": "タケシのオムスター",
+   "before": "Omastar",
+   "built": "Brock's Omastar",
+   "bulbapedia": "Brock's Omastar",
+   "after": "Brock's Omastar",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-069",
+   "ja": "タケシのカブトプス",
+   "before": "Kabutops",
+   "built": "Brock's Kabutops",
+   "bulbapedia": "Brock's Kabutops",
+   "after": "Brock's Kabutops",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-070",
+   "ja": "カツラのバクフーン",
+   "before": "Typhlosion",
+   "built": "Blaine's Typhlosion",
+   "bulbapedia": "Blaine's Typhlosion",
+   "after": "Blaine's Typhlosion",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-071",
+   "ja": "カツラのマグカルゴ",
+   "before": "Magcargo",
+   "built": "Blaine's Magcargo",
+   "bulbapedia": "Blaine's Magcargo",
+   "after": "Blaine's Magcargo",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-072",
+   "ja": "イツキのヤドラン",
+   "before": "Slowbro",
+   "built": "Will's Slowbro",
+   "bulbapedia": "Will's Slowbro",
+   "after": "Will's Slowbro",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-073",
+   "ja": "イツキのナッシー",
+   "before": "Exeggutor",
+   "built": "Will's Exeggutor",
+   "bulbapedia": "Will's Exeggutor",
+   "after": "Will's Exeggutor",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-074",
+   "ja": "イツキのルージュラ",
+   "before": "Jynx",
+   "built": "Will's Jynx",
+   "bulbapedia": "Will's Jynx",
+   "after": "Will's Jynx",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-075",
+   "ja": "イツキのネイティオ",
+   "before": "Xatu",
+   "built": "Will's Xatu",
+   "bulbapedia": "Will's Xatu",
+   "after": "Will's Xatu",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-076",
+   "ja": "イツキのエーフィ",
+   "before": "Espeon",
+   "built": "Will's Espeon",
+   "bulbapedia": "Will's Espeon",
+   "after": "Will's Espeon",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-078",
+   "ja": "イツキのキリンリキ",
+   "before": "Girafarig",
+   "built": "Will's Girafarig",
+   "bulbapedia": "Will's Girafarig",
+   "after": "Will's Girafarig",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-079",
+   "ja": "キョウのクロバット",
+   "before": "Crobat",
+   "built": "Koga's Crobat",
+   "bulbapedia": "Koga's Crobat",
+   "after": "Koga's Crobat",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-080",
+   "ja": "キョウのフォレトス",
+   "before": "Forretress",
+   "built": "Koga's Forretress",
+   "bulbapedia": "Koga's Forretress",
+   "after": "Koga's Forretress",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-081",
+   "ja": "シバのカイリキー",
+   "before": "Machamp",
+   "built": "Bruno's Machamp",
+   "bulbapedia": "Bruno's Machamp",
+   "after": "Bruno's Machamp",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-082",
+   "ja": "シバのサワムラー",
+   "before": "Hitmonlee",
+   "built": "Bruno's Hitmonlee",
+   "bulbapedia": "Bruno's Hitmonlee",
+   "after": "Bruno's Hitmonlee",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-083",
+   "ja": "シバのエビワラー",
+   "before": "Hitmonchan",
+   "built": "Bruno's Hitmonchan",
+   "bulbapedia": "Bruno's Hitmonchan",
+   "after": "Bruno's Hitmonchan",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-084",
+   "ja": "シバのハガネール",
+   "before": "Steelix",
+   "built": "Bruno's Steelix",
+   "bulbapedia": "Bruno's Steelix",
+   "after": "Bruno's Steelix",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-085",
+   "ja": "シバのリングマ",
+   "before": "Ursaring",
+   "built": "Bruno's Ursaring",
+   "bulbapedia": "Bruno's Ursaring",
+   "after": "Bruno's Ursaring",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-086",
+   "ja": "シバのカポエラー",
+   "before": "Hitmontop",
+   "built": "Bruno's Hitmontop",
+   "bulbapedia": "Bruno's Hitmontop",
+   "after": "Bruno's Hitmontop",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-087",
+   "ja": "カリンのギャロップ",
+   "before": "Rapidash",
+   "built": "Karen's Rapidash",
+   "bulbapedia": "Karen's Rapidash",
+   "after": "Karen's Rapidash",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-088",
+   "ja": "カリンのブーバー",
+   "before": "Magmar",
+   "built": "Karen's Magmar",
+   "bulbapedia": "Karen's Magmar",
+   "after": "Karen's Magmar",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-089",
+   "ja": "カリンのブースター",
+   "before": "Flareon",
+   "built": "Karen's Flareon",
+   "bulbapedia": "Karen's Flareon",
+   "after": "Karen's Flareon",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-090",
+   "ja": "カリンのバンギラス",
+   "before": "Tyranitar",
+   "built": "Karen's Tyranitar",
+   "bulbapedia": "Karen's Tyranitar",
+   "after": "Karen's Tyranitar",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-091",
+   "ja": "カリンのブラッキー",
+   "before": "Umbreon",
+   "built": "Karen's Umbreon",
+   "bulbapedia": "Karen's Umbreon",
+   "after": "Karen's Umbreon",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-092",
+   "ja": "カリンのヘルガー",
+   "before": "Houndoom",
+   "built": "Karen's Houndoom",
+   "bulbapedia": "Karen's Houndoom",
+   "after": "Karen's Houndoom",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-093",
+   "ja": "R団のソーナンス",
+   "before": "Wobbuffet",
+   "built": "Rocket's Wobbuffet",
+   "bulbapedia": "Rocket's Wobbuffet",
+   "after": "Rocket's Wobbuffet",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-094",
+   "ja": "R団のライコウ",
+   "before": "Raikou",
+   "built": "Rocket's Raikou",
+   "bulbapedia": "Rocket's Raikou",
+   "after": "Rocket's Raikou",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-095",
+   "ja": "R団のエンテイ",
+   "before": "Entei",
+   "built": "Rocket's Entei",
+   "bulbapedia": "Rocket's Entei",
+   "after": "Rocket's Entei",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-096",
+   "ja": "R団のスイクン",
+   "before": "Suicune",
+   "built": "Rocket's Suicune",
+   "bulbapedia": "Rocket's Suicune",
+   "after": "Rocket's Suicune",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-097",
+   "ja": "ワタルのリザードン",
+   "before": "Charizard",
+   "built": "Lance's Charizard",
+   "bulbapedia": "Lance's Charizard",
+   "after": "Lance's Charizard",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-098",
+   "ja": "ワタルのギャラドス",
+   "before": "Gyarados",
+   "built": "Lance's Gyarados",
+   "bulbapedia": "Lance's Gyarados",
+   "after": "Lance's Gyarados",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-099",
+   "ja": "ワタルのプテラ",
+   "before": "Aerodactyl",
+   "built": "Lance's Aerodactyl",
+   "bulbapedia": "Lance's Aerodactyl",
+   "after": "Lance's Aerodactyl",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-100",
+   "ja": "ワタルのカイリュー",
+   "before": "Dragonite",
+   "built": "Lance's Dragonite",
+   "bulbapedia": "Lance's Dragonite",
+   "after": "Lance's Dragonite",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-101",
+   "ja": "ワタルのデンリュウ",
+   "before": "Ampharos",
+   "built": "Lance's Ampharos",
+   "bulbapedia": "Lance's Ampharos",
+   "after": "Lance's Ampharos",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-102",
+   "ja": "ワタルのキングドラ",
+   "before": "Kingdra",
+   "built": "Lance's Kingdra",
+   "bulbapedia": "Lance's Kingdra",
+   "after": "Lance's Kingdra",
+   "status": "直す"
+  }
+ ]
+}

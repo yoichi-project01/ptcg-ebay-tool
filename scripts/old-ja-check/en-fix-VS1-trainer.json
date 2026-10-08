@@ -1,0 +1,295 @@
+{
+ "set": "VS1",
+ "kind": "trainer",
+ "fixed": 9,
+ "rows": [
+  {
+   "id": "VS1-103",
+   "ja": "ハヤトのワザマシン01",
+   "bulbapedia": "Falkner's TM 01",
+   "bulbapediaJa": "ハヤトのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-104",
+   "ja": "ハヤトのワザマシン02",
+   "bulbapedia": "Falkner's TM 02",
+   "bulbapediaJa": "ハヤトのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-105",
+   "ja": "ツクシのワザマシン01",
+   "bulbapedia": "Bugsy's TM 01",
+   "bulbapediaJa": "ツクシのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-106",
+   "ja": "ツクシのワザマシン02",
+   "bulbapedia": "Bugsy's TM 02",
+   "bulbapediaJa": "ツクシのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-107",
+   "ja": "アカネのワザマシン01",
+   "bulbapedia": "Whitney's TM 01",
+   "bulbapediaJa": "アカネのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-108",
+   "ja": "アカネのワザマシン02",
+   "bulbapedia": "Whitney's TM 02",
+   "bulbapediaJa": "アカネのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-109",
+   "ja": "マツバのワザマシン01",
+   "bulbapedia": "Morty's TM 01",
+   "bulbapediaJa": "マツバのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-110",
+   "ja": "マツバのワザマシン02",
+   "bulbapedia": "Morty's TM 02",
+   "bulbapediaJa": "マツバのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-111",
+   "ja": "ミカンのワザマシン01",
+   "bulbapedia": "Jasmine's TM 01",
+   "bulbapediaJa": "ミカンのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-112",
+   "ja": "ミカンのワザマシン02",
+   "bulbapedia": "Jasmine's TM 02",
+   "bulbapediaJa": "ミカンのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-113",
+   "ja": "シジマのワザマシン01",
+   "bulbapedia": "Chuck's TM 01",
+   "bulbapediaJa": "シジマのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-114",
+   "ja": "シジマのワザマシン02",
+   "bulbapedia": "Chuck's TM 02",
+   "bulbapediaJa": "シジマのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-115",
+   "ja": "ヤナギのワザマシン01",
+   "bulbapedia": "Pryce's TM 01",
+   "bulbapediaJa": "ヤナギのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-116",
+   "ja": "ヤナギのワザマシン02",
+   "bulbapedia": "Pryce's TM 02",
+   "bulbapediaJa": "ヤナギのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-117",
+   "ja": "イブキのワザマシン01",
+   "bulbapedia": "Clair's TM 01",
+   "bulbapediaJa": "イブキのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-118",
+   "ja": "イブキのワザマシン02",
+   "bulbapedia": "Clair's TM 02",
+   "bulbapediaJa": "イブキのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-119",
+   "ja": "アンズのワザマシン01",
+   "bulbapedia": "Janine's TM 01",
+   "bulbapediaJa": "アンズのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-120",
+   "ja": "アンズのワザマシン02",
+   "bulbapedia": "Janine's TM 02",
+   "bulbapediaJa": "アンズのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-121",
+   "ja": "イツキのワザマシン01",
+   "bulbapedia": "Will's TM 01",
+   "bulbapediaJa": "イツキのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-122",
+   "ja": "イツキのワザマシン02",
+   "bulbapedia": "Will's TM 02",
+   "bulbapediaJa": "イツキのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-123",
+   "ja": "シバのワザマシン01",
+   "bulbapedia": "Bruno's TM 01",
+   "bulbapediaJa": "シバのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-124",
+   "ja": "シバのワザマシン02",
+   "bulbapedia": "Bruno's TM 02",
+   "bulbapediaJa": "シバのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-125",
+   "ja": "カリンのワザマシン01",
+   "bulbapedia": "Karen's TM 01",
+   "bulbapediaJa": "カリンのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-126",
+   "ja": "カリンのワザマシン02",
+   "bulbapedia": "Karen's TM 02",
+   "bulbapediaJa": "カリンのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-127",
+   "ja": "R団のワザマシン01",
+   "bulbapedia": "Rocket's TM 01",
+   "bulbapediaJa": "Ｒ団のワザマシン０１",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-128",
+   "ja": "ワタルのワザマシン01",
+   "bulbapedia": "Lance's TM 01",
+   "bulbapediaJa": "ワタルのワザマシン01",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-129",
+   "ja": "ワタルのワザマシン02",
+   "bulbapedia": "Lance's TM 02",
+   "bulbapediaJa": "ワタルのワザマシン02",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "VS1-130",
+   "ja": "きずぐすり",
+   "bulbapedia": "Potion",
+   "bulbapediaJa": "きずぐすり",
+   "after": "Potion",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-131",
+   "ja": "モーモーミルク",
+   "bulbapedia": "Moo-Moo Milk",
+   "bulbapediaJa": "モーモーミルク",
+   "after": "Moo-Moo Milk",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-132",
+   "ja": "なんでもなおし",
+   "bulbapedia": "Full Heal",
+   "bulbapediaJa": "なんでもなおし",
+   "after": "Full Heal",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-133",
+   "ja": "ポケモンリバース",
+   "bulbapedia": "Pokémon Reversal",
+   "bulbapediaJa": "ポケモンリバース",
+   "after": "Pokémon Reversal",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-134",
+   "ja": "ポケモンいれかえ",
+   "bulbapedia": "Switch",
+   "bulbapediaJa": "ポケモンいれかえ",
+   "after": "Switch",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-136",
+   "ja": "スーパーポケモン回収",
+   "bulbapedia": "Super Scoop Up",
+   "bulbapediaJa": "スーパーポケモン回収",
+   "after": "Super Scoop Up",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-137",
+   "ja": "エネルギーサーキュレート",
+   "bulbapedia": "Energy Flow",
+   "bulbapediaJa": "エネルギーサーキュレート",
+   "after": "Energy Flow",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-138",
+   "ja": "エネルギーチャージ",
+   "bulbapedia": "Energy Charge",
+   "bulbapediaJa": "エネルギーチャージ",
+   "after": "Energy Charge",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-140",
+   "ja": "エネルギー再生",
+   "bulbapedia": "Energy Restore",
+   "bulbapediaJa": "エネルギー再生",
+   "after": "Energy Restore",
+   "status": "直す"
+  }
+ ]
+}
