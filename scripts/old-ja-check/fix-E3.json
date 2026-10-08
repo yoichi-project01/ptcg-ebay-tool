@@ -1,0 +1,79 @@
+{
+ "set": "E3",
+ "fixed": 8,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "E3-076",
+   "before": "エネルギースイッチ",
+   "pcgSearch": "エネルギーつけかえ",
+   "pokemonWiki": "エネルギーつけかえ",
+   "after": "エネルギーつけかえ",
+   "status": "直す",
+   "image": "cards/e/E3/エネルギースイッチ_E3-76／90_U.png → cards/e/E3/エネルギーつけかえ_E3-76／90_U.png"
+  },
+  {
+   "id": "E3-077",
+   "before": "旅行セールスマン",
+   "pcgSearch": "行商人",
+   "pokemonWiki": "行商人",
+   "after": "行商人",
+   "status": "直す",
+   "image": "cards/e/E3/旅行セールスマン_E3-77／90_U.png → cards/e/E3/行商人_E3-77／90_U.png"
+  },
+  {
+   "id": "E3-079",
+   "before": "森林保護者",
+   "pcgSearch": "森の番人",
+   "pokemonWiki": "森の番人",
+   "after": "森の番人",
+   "status": "直す",
+   "image": "cards/e/E3/森林保護者_E3-79／90_U.png → cards/e/E3/森の番人_E3-79／90_U.png"
+  },
+  {
+   "id": "E3-080",
+   "before": "メモリベリー",
+   "pcgSearch": "思い出のみ",
+   "pokemonWiki": "思い出のみ",
+   "after": "思い出のみ",
+   "status": "直す",
+   "image": "cards/e/E3/メモリベリー_E3-80／90_U.png → cards/e/E3/思い出のみ_E3-80／90_U.png"
+  },
+  {
+   "id": "E3-081",
+   "before": "癒しベリー",
+   "pcgSearch": "かいふくのみ",
+   "pokemonWiki": "かいふくのみ",
+   "after": "かいふくのみ",
+   "status": "直す",
+   "image": "cards/e/E3/癒しベリー_E3-81／90_U.png → cards/e/E3/かいふくのみ_E3-81／90_U.png"
+  },
+  {
+   "id": "E3-082",
+   "before": "タイムシャード",
+   "pcgSearch": "ときのかけら",
+   "pokemonWiki": "ときのかけら",
+   "after": "ときのかけら",
+   "status": "直す",
+   "image": "cards/e/E3/タイムシャード_E3-82／90_U.png → cards/e/E3/ときのかけら_E3-82／90_U.png"
+  },
+  {
+   "id": "E3-084",
+   "before": "アプリコーンの森",
+   "pcgSearch": "ぼんぐりの森",
+   "pokemonWiki": "ぼんぐりの森",
+   "after": "ぼんぐりの森",
+   "status": "直す",
+   "image": "cards/e/E3/アプリコーンの森_E3-84／90_U.png → cards/e/E3/ぼんぐりの森_E3-84／90_U.png"
+  },
+  {
+   "id": "E3-086",
+   "before": "エネルギーを高めます",
+   "pcgSearch": "ブーストエネルギー",
+   "pokemonWiki": "ブーストエネルギー",
+   "after": "ブーストエネルギー",
+   "status": "直す",
+   "image": "cards/e/E3/エネルギーを高めます_E3-86／90_U.png → cards/e/E3/ブーストエネルギー_E3-86／90_U.png"
+  }
+ ]
+}
