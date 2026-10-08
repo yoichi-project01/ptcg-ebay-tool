@@ -1,0 +1,160 @@
+{
+ "set": "PCG1",
+ "fixed": 17,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "PCG1-024",
+   "before": "ファイヤー",
+   "pcgSearch": "ファイヤーex",
+   "pokemonWiki": "ファイヤーex",
+   "after": "ファイヤーex",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/ファイヤー_PCG1-24／82_R.png → cards/PCG/PCG1/ファイヤーex_PCG1-24／82_R.png"
+  },
+  {
+   "id": "PCG1-035",
+   "before": "ギャラドス",
+   "pcgSearch": "ギャラドスex",
+   "pokemonWiki": "ギャラドスex",
+   "after": "ギャラドスex",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/ギャラドス_PCG1-35／82_R.png → cards/PCG/PCG1/ギャラドスex_PCG1-35／82_R.png"
+  },
+  {
+   "id": "PCG1-036",
+   "before": "フリーザー",
+   "pcgSearch": "フリーザーex",
+   "pokemonWiki": "フリーザーex",
+   "after": "フリーザーex",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/フリーザー_PCG1-36／82_R.png → cards/PCG/PCG1/フリーザーex_PCG1-36／82_R.png"
+  },
+  {
+   "id": "PCG1-042",
+   "before": "マルマイン",
+   "pcgSearch": "マルマインex",
+   "pokemonWiki": "マルマインex",
+   "after": "マルマインex",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/マルマイン_PCG1-42／82_R.png → cards/PCG/PCG1/マルマインex_PCG1-42／82_R.png"
+  },
+  {
+   "id": "PCG1-043",
+   "before": "サンダー",
+   "pcgSearch": "サンダーex",
+   "pokemonWiki": "サンダーex",
+   "after": "サンダーex",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/サンダー_PCG1-43／82_R.png → cards/PCG/PCG1/サンダーex_PCG1-43／82_R.png"
+  },
+  {
+   "id": "PCG1-048",
+   "before": "ゲンガー",
+   "pcgSearch": "ゲンガーex",
+   "pokemonWiki": "ゲンガーex",
+   "after": "ゲンガーex",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/ゲンガー_PCG1-48／82_R.png → cards/PCG/PCG1/ゲンガーex_PCG1-48／82_R.png"
+  },
+  {
+   "id": "PCG1-053",
+   "before": "バリヤード",
+   "pcgSearch": "バリヤードex",
+   "pokemonWiki": "バリヤードex",
+   "after": "バリヤードex",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/バリヤード_PCG1-53／82_R.png → cards/PCG/PCG1/バリヤードex_PCG1-53／82_R.png"
+  },
+  {
+   "id": "PCG1-054",
+   "before": "バリヤード",
+   "pcgSearch": "バリヤードex",
+   "pokemonWiki": "バリヤードex",
+   "after": "バリヤードex",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/バリヤード_PCG1-54／82_R.png → cards/PCG/PCG1/バリヤードex_PCG1-54／82_R.png"
+  },
+  {
+   "id": "PCG1-066",
+   "before": "ピクシー",
+   "pcgSearch": "ピクシーex",
+   "pokemonWiki": "ピクシーex",
+   "after": "ピクシーex",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/ピクシー_PCG1-66／82_R.png → cards/PCG/PCG1/ピクシーex_PCG1-66／82_R.png"
+  },
+  {
+   "id": "PCG1-075",
+   "before": "素晴らしいボール",
+   "pcgSearch": "スーパーボール",
+   "pokemonWiki": "スーパーボール",
+   "after": "スーパーボール",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/素晴らしいボール_PCG1-75／82_U.png → cards/PCG/PCG1/スーパーボール_PCG1-75／82_U.png"
+  },
+  {
+   "id": "PCG1-076",
+   "before": "VSシーカー",
+   "pcgSearch": "バトルサーチャー",
+   "pokemonWiki": "バトルサーチャー",
+   "after": "バトルサーチャー",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/VSシーカー_PCG1-76／82_U.png → cards/PCG/PCG1/バトルサーチャー_PCG1-76／82_U.png"
+  },
+  {
+   "id": "PCG1-077",
+   "before": "ポケモンずかん・ハンディ909",
+   "pcgSearch": "ポケモン図鑑HANDY909",
+   "pokemonWiki": "ポケモン図鑑HANDY909",
+   "after": "ポケモン図鑑HANDY909",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/ポケモンずかん・ハンディ909_PCG1-77／82_U.png → cards/PCG/PCG1/ポケモン図鑑HANDY909_PCG1-77／82_U.png"
+  },
+  {
+   "id": "PCG1-078",
+   "before": "オーク教授の研究",
+   "pcgSearch": "オーキドはかせの研究",
+   "pokemonWiki": "オーキドはかせの研究",
+   "after": "オーキドはかせの研究",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/オーク教授の研究_PCG1-78／82_U.png → cards/PCG/PCG1/オーキドはかせの研究_PCG1-78／82_U.png"
+  },
+  {
+   "id": "PCG1-079",
+   "before": "セリオのネットワーク",
+   "pcgSearch": "ニシキのネットワーク",
+   "pokemonWiki": "ニシキのネットワーク",
+   "after": "ニシキのネットワーク",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/セリオのネットワーク_PCG1-79／82_U.png → cards/PCG/PCG1/ニシキのネットワーク_PCG1-79／82_U.png"
+  },
+  {
+   "id": "PCG1-080",
+   "before": "ビルのメンテナンス",
+   "pcgSearch": "マサキのメンテナンス",
+   "pokemonWiki": "マサキのメンテナンス",
+   "after": "マサキのメンテナンス",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/ビルのメンテナンス_PCG1-80／82_U.png → cards/PCG/PCG1/マサキのメンテナンス_PCG1-80／82_U.png"
+  },
+  {
+   "id": "PCG1-081",
+   "before": "exp。共有",
+   "pcgSearch": "学習装置",
+   "pokemonWiki": "学習装置",
+   "after": "学習装置",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/exp。共有_PCG1-81／82_U.png → cards/PCG/PCG1/学習装置_PCG1-81／82_U.png"
+  },
+  {
+   "id": "PCG1-082",
+   "before": "山ムーン",
+   "pcgSearch": "おつきみ山",
+   "pokemonWiki": "おつきみ山",
+   "after": "おつきみ山",
+   "status": "直す",
+   "image": "cards/PCG/PCG1/山ムーン_PCG1-82／82_U.png → cards/PCG/PCG1/おつきみ山_PCG1-82／82_U.png"
+  }
+ ]
+}
