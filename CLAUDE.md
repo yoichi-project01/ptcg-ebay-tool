@@ -2701,9 +2701,13 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
 - **PMCG1 の7行**: ポケモン図鑑→ポケモン図鑑HANDY505・ピッピにんぎょう→ピッピ人形（pcg-search とポケモンWiki が一致）、基本エネルギー 草のエネルギー→草エネルギー・火→炎・
   稲妻→雷・サイキック→超・エネルギーとの戦い→闘エネルギー（ポケモンWiki の拡張パックの一覧には基本エネルギーが無いため、pcg-search と Bulbapedia の jname〔「基本」を除く〕の2つで一致）。
 - **英語名**（`fix-pmcg-owner-en.mjs`）: PMCG5-043 Brock's Sandshrew・PMCG6-034 Blaine's Arcanine・PMCG6-075 _____'s Chansey（Bulbapedia の同じ位置と一致）。
-- **残り（未修正）**: 同じポケモンの2枚（LV 違い等）が1枚の画像を共有している 10組（PMCG5 ナゾノクサ・マダツボミ・ロコン・タッツー・コイル・イシツブテ、PMCG6 ドガース・ポッポ・ニャース、
-  PMCG6-064 カツラのドードー／074 ドードー）。どちらの行が pcg-search のどちらのカードかを名前では決められない（074 は Bulbapedia で Imakuni?'s Doduo＝イマクニ?のドードー で、
-  日本語名も直す必要がある）。PMCG4 の30行は英語名に Dark が抜けている（日本語名は「わるい〜」で正しい）。
+- **画像を共有していた10組**（`fix-pmcg-shared-images.mjs`）: 同じポケモンの2行（LV 違い等）が1枚の画像を共有していた。pcg-search のページには LV が無いため、
+  Bulbapedia の同じ位置のカードのページの HP・レアリティ（`bulbapedia-pmcg-pairs.txt`）と pcg-search の HP・レアリティの記号（●=C・◆=U・☆、`pmcg-pair-site.json`）が
+  一致するカードがちょうど1枚のときに決めた（全20行で決まった）。取り直し 10枚: PMCG5-002・010・017・025・039・047、PMCG6-008・067・068・074
+  （`pmcg-shared-{弾}-refetched-card-ids.txt`）。PMCG5-017・018（タケシのロコン）はレアリティが入れ替わっていた（017 は HP40 の C、018 は HP50 の U）ので直した。
+  PMCG6-074 ドードー→イマクニ?のドードー（pcg-search とポケモンWiki が一致）、英語名 Imakuni?'s Doduo。
+- **英語名の前置き**（`fix-pmcg-prefix-en.mjs`）: PMCG4 の「わるい〜」30行に Dark を付けた（Bulbapedia の Rocket Gang の同じ位置と一致）。
+- これで PMCG1〜6 の全457行で、画像は弾の中で重ならず、画像の pcg-search のカードの名前と行の名前が一致する。
 
 ---
 
