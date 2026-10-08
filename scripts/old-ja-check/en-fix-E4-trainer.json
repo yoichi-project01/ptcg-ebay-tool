@@ -1,0 +1,95 @@
+{
+ "set": "E4",
+ "kind": "trainer",
+ "fixed": 9,
+ "rows": [
+  {
+   "id": "E4-070",
+   "ja": "ちていのかせき",
+   "bulbapedia": "Buried Fossil",
+   "bulbapediaJa": "",
+   "after": "",
+   "status": "Bulbapedia のカードのページに日本語名が無い"
+  },
+  {
+   "id": "E4-077",
+   "ja": "すごいきずぐすり",
+   "bulbapedia": "Hyper Potion",
+   "bulbapediaJa": "すごいきずぐすり",
+   "after": "Hyper Potion",
+   "status": "直す"
+  },
+  {
+   "id": "E4-079",
+   "ja": "預言者",
+   "bulbapedia": "Oracle",
+   "bulbapediaJa": "預言者",
+   "after": "Oracle",
+   "status": "直す"
+  },
+  {
+   "id": "E4-080",
+   "ja": "地底探険隊",
+   "bulbapedia": "Underground Expedition",
+   "bulbapediaJa": "地底探検隊",
+   "after": "",
+   "status": "日本語名が Bulbapedia の日本語名と一致しない"
+  },
+  {
+   "id": "E4-081",
+   "ja": "水晶のかけら",
+   "bulbapedia": "Crystal Shard",
+   "bulbapediaJa": "水晶のかけら",
+   "after": "Crystal Shard",
+   "status": "直す"
+  },
+  {
+   "id": "E4-082",
+   "ja": "ほしのかけら",
+   "bulbapedia": "Star Piece",
+   "bulbapediaJa": "ほしのかけら",
+   "after": "Star Piece",
+   "status": "直す"
+  },
+  {
+   "id": "E4-083",
+   "ja": "ミステリープレートα",
+   "bulbapedia": "Mystery Plate α",
+   "bulbapediaJa": "ミステリープレートα",
+   "after": "Mystery Plate α",
+   "status": "直す"
+  },
+  {
+   "id": "E4-084",
+   "ja": "ミステリープレートβ",
+   "bulbapedia": "Mystery Plate β",
+   "bulbapediaJa": "ミステリープレートβ",
+   "after": "Mystery Plate β",
+   "status": "直す"
+  },
+  {
+   "id": "E4-085",
+   "ja": "ミステリープレートγ",
+   "bulbapedia": "Mystery Plate γ",
+   "bulbapediaJa": "ミステリープレートγ",
+   "after": "Mystery Plate γ",
+   "status": "直す"
+  },
+  {
+   "id": "E4-086",
+   "ja": "ミステリープレートδ",
+   "bulbapedia": "Mystery Plate δ",
+   "bulbapediaJa": "ミステリープレートδ",
+   "after": "Mystery Plate δ",
+   "status": "直す"
+  },
+  {
+   "id": "E4-087",
+   "ja": "地底湖",
+   "bulbapedia": "Underground Lake",
+   "bulbapediaJa": "地底湖",
+   "after": "Underground Lake",
+   "status": "直す"
+  }
+ ]
+}
