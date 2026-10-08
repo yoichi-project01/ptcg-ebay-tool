@@ -1,0 +1,1267 @@
+{
+ "set": "VS1",
+ "fixed": 137,
+ "kept": 3,
+ "rows": [
+  {
+   "id": "VS1-001",
+   "before": "ピジョット",
+   "pcgSearch": "ハヤトのピジョット",
+   "pokemonWiki": "ハヤトのピジョット",
+   "after": "ハヤトのピジョット",
+   "status": "直す",
+   "image": "cards/VS/VS1/ピジョット_VS1-001／151_C.png → cards/VS/VS1/ハヤトのピジョット_VS1-001／151_C.png"
+  },
+  {
+   "id": "VS1-002",
+   "before": "オニドリル",
+   "pcgSearch": "ハヤトのオニドリル",
+   "pokemonWiki": "ハヤトのオニドリル",
+   "after": "ハヤトのオニドリル",
+   "status": "直す",
+   "image": "cards/VS/VS1/オニドリル_VS1-002／151_C.png → cards/VS/VS1/ハヤトのオニドリル_VS1-002／151_C.png"
+  },
+  {
+   "id": "VS1-003",
+   "before": "カモネギ",
+   "pcgSearch": "ハヤトのカモネギ",
+   "pokemonWiki": "ハヤトのカモネギ",
+   "after": "ハヤトのカモネギ",
+   "status": "直す",
+   "image": "cards/VS/VS1/カモネギ_VS1-003／151_C.png → cards/VS/VS1/ハヤトのカモネギ_VS1-003／151_C.png"
+  },
+  {
+   "id": "VS1-004",
+   "before": "ドードリオ",
+   "pcgSearch": "ハヤトのドードリオ",
+   "pokemonWiki": "ハヤトのドードリオ",
+   "after": "ハヤトのドードリオ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ドードリオ_VS1-004／151_C.png → cards/VS/VS1/ハヤトのドードリオ_VS1-004／151_C.png"
+  },
+  {
+   "id": "VS1-005",
+   "before": "トゲチック",
+   "pcgSearch": "ハヤトのトゲチック",
+   "pokemonWiki": "ハヤトのトゲチック",
+   "after": "ハヤトのトゲチック",
+   "status": "直す",
+   "image": "cards/VS/VS1/トゲチック_VS1-005／151_C.png → cards/VS/VS1/ハヤトのトゲチック_VS1-005／151_C.png"
+  },
+  {
+   "id": "VS1-006",
+   "before": "デリバード",
+   "pcgSearch": "ハヤトのデリバード",
+   "pokemonWiki": "ハヤトのデリバード",
+   "after": "ハヤトのデリバード",
+   "status": "直す",
+   "image": "cards/VS/VS1/デリバード_VS1-006／151_C.png → cards/VS/VS1/ハヤトのデリバード_VS1-006／151_C.png"
+  },
+  {
+   "id": "VS1-007",
+   "before": "エアームド",
+   "pcgSearch": "ハヤトのエアームド",
+   "pokemonWiki": "ハヤトのエアームド",
+   "after": "ハヤトのエアームド",
+   "status": "直す",
+   "image": "cards/VS/VS1/エアームド_VS1-007／151_R.png → cards/VS/VS1/ハヤトのエアームド_VS1-007／151_R.png"
+  },
+  {
+   "id": "VS1-008",
+   "before": "バタフリー",
+   "pcgSearch": "ツクシのバタフリー",
+   "pokemonWiki": "ツクシのバタフリー",
+   "after": "ツクシのバタフリー",
+   "status": "直す",
+   "image": "cards/VS/VS1/バタフリー_VS1-008／151_C.png → cards/VS/VS1/ツクシのバタフリー_VS1-008／151_C.png"
+  },
+  {
+   "id": "VS1-009",
+   "before": "スピアー",
+   "pcgSearch": "ツクシのスピアー",
+   "pokemonWiki": "ツクシのスピアー",
+   "after": "ツクシのスピアー",
+   "status": "直す",
+   "image": "cards/VS/VS1/スピアー_VS1-009／151_C.png → cards/VS/VS1/ツクシのスピアー_VS1-009／151_C.png"
+  },
+  {
+   "id": "VS1-010",
+   "before": "カイロス",
+   "pcgSearch": "ツクシのカイロス",
+   "pokemonWiki": "ツクシのカイロス",
+   "after": "ツクシのカイロス",
+   "status": "直す",
+   "image": "cards/VS/VS1/カイロス_VS1-010／151_C.png → cards/VS/VS1/ツクシのカイロス_VS1-010／151_C.png"
+  },
+  {
+   "id": "VS1-011",
+   "before": "レディアン",
+   "pcgSearch": "ツクシのレディアン",
+   "pokemonWiki": "ツクシのレディアン",
+   "after": "ツクシのレディアン",
+   "status": "直す",
+   "image": "cards/VS/VS1/レディアン_VS1-011／151_C.png → cards/VS/VS1/ツクシのレディアン_VS1-011／151_C.png"
+  },
+  {
+   "id": "VS1-012",
+   "before": "ヤンヤンマ",
+   "pcgSearch": "ツクシのヤンヤンマ",
+   "pokemonWiki": "ツクシのヤンヤンマ",
+   "after": "ツクシのヤンヤンマ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ヤンヤンマ_VS1-012／151_C.png → cards/VS/VS1/ツクシのヤンヤンマ_VS1-012／151_C.png"
+  },
+  {
+   "id": "VS1-013",
+   "before": "ハッサム",
+   "pcgSearch": "ツクシのハッサム",
+   "pokemonWiki": "ツクシのハッサム",
+   "after": "ツクシのハッサム",
+   "status": "直す",
+   "image": "cards/VS/VS1/ハッサム_VS1-013／151_R.png → cards/VS/VS1/ツクシのハッサム_VS1-013／151_R.png"
+  },
+  {
+   "id": "VS1-014",
+   "before": "ピクシー",
+   "pcgSearch": "アカネのピクシー",
+   "pokemonWiki": "アカネのピクシー",
+   "after": "アカネのピクシー",
+   "status": "直す",
+   "image": "cards/VS/VS1/ピクシー_VS1-014／151_C.png → cards/VS/VS1/アカネのピクシー_VS1-014／151_C.png"
+  },
+  {
+   "id": "VS1-015",
+   "before": "プクリン",
+   "pcgSearch": "アカネのプクリン",
+   "pokemonWiki": "アカネのプクリン",
+   "after": "アカネのプクリン",
+   "status": "直す",
+   "image": "cards/VS/VS1/プクリン_VS1-015／151_C.png → cards/VS/VS1/アカネのプクリン_VS1-015／151_C.png"
+  },
+  {
+   "id": "VS1-016",
+   "before": "ペルシアン",
+   "pcgSearch": "アカネのペルシアン",
+   "pokemonWiki": "アカネのペルシアン",
+   "after": "アカネのペルシアン",
+   "status": "直す",
+   "image": "cards/VS/VS1/ペルシアン_VS1-016／151_C.png → cards/VS/VS1/アカネのペルシアン_VS1-016／151_C.png"
+  },
+  {
+   "id": "VS1-017",
+   "before": "ベロリンガ",
+   "pcgSearch": "アカネのベロリンガ",
+   "pokemonWiki": "アカネのベロリンガ",
+   "after": "アカネのベロリンガ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ベロリンガ_VS1-017／151_C.png → cards/VS/VS1/アカネのベロリンガ_VS1-017／151_C.png"
+  },
+  {
+   "id": "VS1-018",
+   "before": "オオタチ",
+   "pcgSearch": "アカネのオオタチ",
+   "pokemonWiki": "アカネのオオタチ",
+   "after": "アカネのオオタチ",
+   "status": "直す",
+   "image": "cards/VS/VS1/オオタチ_VS1-018／151_C.png → cards/VS/VS1/アカネのオオタチ_VS1-018／151_C.png"
+  },
+  {
+   "id": "VS1-019",
+   "before": "ホイットニーのミルタンク",
+   "pcgSearch": "アカネのミルタンク",
+   "pokemonWiki": "アカネのミルタンク",
+   "after": "アカネのミルタンク",
+   "status": "直す",
+   "image": "cards/VS/VS1/ホイットニーのミルタンク_VS1-019／151_C.png → cards/VS/VS1/アカネのミルタンク_VS1-019／151_C.png"
+  },
+  {
+   "id": "VS1-020",
+   "before": "キュウコン",
+   "pcgSearch": "マツバのキュウコン",
+   "pokemonWiki": "マツバのキュウコン",
+   "after": "マツバのキュウコン",
+   "status": "直す",
+   "image": "cards/VS/VS1/キュウコン_VS1-020／151_C.png → cards/VS/VS1/マツバのキュウコン_VS1-020／151_C.png"
+  },
+  {
+   "id": "VS1-021",
+   "before": "ゲンガー",
+   "pcgSearch": "マツバのゲンガー",
+   "pokemonWiki": "マツバのゲンガー",
+   "after": "マツバのゲンガー",
+   "status": "直す",
+   "image": "cards/VS/VS1/ゲンガー_VS1-021／151_C.png → cards/VS/VS1/マツバのゲンガー_VS1-021／151_C.png"
+  },
+  {
+   "id": "VS1-022",
+   "before": "スリーパー",
+   "pcgSearch": "マツバのスリーパー",
+   "pokemonWiki": "マツバのスリーパー",
+   "after": "マツバのスリーパー",
+   "status": "直す",
+   "image": "cards/VS/VS1/スリーパー_VS1-022／151_C.png → cards/VS/VS1/マツバのスリーパー_VS1-022／151_C.png"
+  },
+  {
+   "id": "VS1-023",
+   "before": "ガラガラ",
+   "pcgSearch": "マツバのガラガラ",
+   "pokemonWiki": "マツバのガラガラ",
+   "after": "マツバのガラガラ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ガラガラ_VS1-023／151_C.png → cards/VS/VS1/マツバのガラガラ_VS1-023／151_C.png"
+  },
+  {
+   "id": "VS1-024",
+   "before": "ヨルノズク",
+   "pcgSearch": "マツバのヨルノズク",
+   "pokemonWiki": "マツバのヨルノズク",
+   "after": "マツバのヨルノズク",
+   "status": "直す",
+   "image": "cards/VS/VS1/ヨルノズク_VS1-024／151_C.png → cards/VS/VS1/マツバのヨルノズク_VS1-024／151_C.png"
+  },
+  {
+   "id": "VS1-025",
+   "before": "ヤミカラス",
+   "pcgSearch": "マツバのヤミカラス",
+   "pokemonWiki": "マツバのヤミカラス",
+   "after": "マツバのヤミカラス",
+   "status": "直す",
+   "image": "cards/VS/VS1/ヤミカラス_VS1-025／151_C.png → cards/VS/VS1/マツバのヤミカラス_VS1-025／151_C.png"
+  },
+  {
+   "id": "VS1-026",
+   "before": "ムウマ",
+   "pcgSearch": "マツバのムウマ",
+   "pokemonWiki": "マツバのムウマ",
+   "after": "マツバのムウマ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ムウマ_VS1-026／151_C.png → cards/VS/VS1/マツバのムウマ_VS1-026／151_C.png"
+  },
+  {
+   "id": "VS1-027",
+   "before": "ライチュウ",
+   "pcgSearch": "ミカンのライチュウ",
+   "pokemonWiki": "ミカンのライチュウ",
+   "after": "ミカンのライチュウ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ライチュウ_VS1-027／151_C.png → cards/VS/VS1/ミカンのライチュウ_VS1-027／151_C.png"
+  },
+  {
+   "id": "VS1-028",
+   "before": "レアコイル",
+   "pcgSearch": "ミカンのレアコイル",
+   "pokemonWiki": "ミカンのレアコイル",
+   "after": "ミカンのレアコイル",
+   "status": "直す",
+   "image": "cards/VS/VS1/レアコイル_VS1-028／151_C.png → cards/VS/VS1/ミカンのレアコイル_VS1-028／151_C.png"
+  },
+  {
+   "id": "VS1-029",
+   "before": "エレブー",
+   "pcgSearch": "ミカンのエレブー",
+   "pokemonWiki": "ミカンのエレブー",
+   "after": "ミカンのエレブー",
+   "status": "直す",
+   "image": "cards/VS/VS1/エレブー_VS1-029／151_C.png → cards/VS/VS1/ミカンのエレブー_VS1-029／151_C.png"
+  },
+  {
+   "id": "VS1-030",
+   "before": "サンダース",
+   "pcgSearch": "ミカンのサンダース",
+   "pokemonWiki": "ミカンのサンダース",
+   "after": "ミカンのサンダース",
+   "status": "直す",
+   "image": "cards/VS/VS1/サンダース_VS1-030／151_C.png → cards/VS/VS1/ミカンのサンダース_VS1-030／151_C.png"
+  },
+  {
+   "id": "VS1-031",
+   "before": "デンリュウ",
+   "pcgSearch": "ミカンのデンリュウ",
+   "pokemonWiki": "ミカンのデンリュウ",
+   "after": "ミカンのデンリュウ",
+   "status": "直す",
+   "image": "cards/VS/VS1/デンリュウ_VS1-031／151_C.png → cards/VS/VS1/ミカンのデンリュウ_VS1-031／151_C.png"
+  },
+  {
+   "id": "VS1-032",
+   "before": "ハガネール",
+   "pcgSearch": "ミカンのハガネール",
+   "pokemonWiki": "ミカンのハガネール",
+   "after": "ミカンのハガネール",
+   "status": "直す",
+   "image": "cards/VS/VS1/ハガネール_VS1-032／151_C.png → cards/VS/VS1/ミカンのハガネール_VS1-032／151_C.png"
+  },
+  {
+   "id": "VS1-033",
+   "before": "オコリザル",
+   "pcgSearch": "シジマのオコリザル",
+   "pokemonWiki": "シジマのオコリザル",
+   "after": "シジマのオコリザル",
+   "status": "直す",
+   "image": "cards/VS/VS1/オコリザル_VS1-033／151_C.png → cards/VS/VS1/シジマのオコリザル_VS1-033／151_C.png"
+  },
+  {
+   "id": "VS1-034",
+   "before": "ニョロボン",
+   "pcgSearch": "シジマのニョロボン",
+   "pokemonWiki": "シジマのニョロボン",
+   "after": "シジマのニョロボン",
+   "status": "直す",
+   "image": "cards/VS/VS1/ニョロボン_VS1-034／151_C.png → cards/VS/VS1/シジマのニョロボン_VS1-034／151_C.png"
+  },
+  {
+   "id": "VS1-035",
+   "before": "サイドン",
+   "pcgSearch": "シジマのサイドン",
+   "pokemonWiki": "シジマのサイドン",
+   "after": "シジマのサイドン",
+   "status": "直す",
+   "image": "cards/VS/VS1/サイドン_VS1-035／151_C.png → cards/VS/VS1/シジマのサイドン_VS1-035／151_C.png"
+  },
+  {
+   "id": "VS1-036",
+   "before": "ケンタロス",
+   "pcgSearch": "シジマのケンタロス",
+   "pokemonWiki": "シジマのケンタロス",
+   "after": "シジマのケンタロス",
+   "status": "直す",
+   "image": "cards/VS/VS1/ケンタロス_VS1-036／151_C.png → cards/VS/VS1/シジマのケンタロス_VS1-036／151_C.png"
+  },
+  {
+   "id": "VS1-037",
+   "before": "チャックのグランブル",
+   "pcgSearch": "シジマのグランブル",
+   "pokemonWiki": "シジマのグランブル",
+   "after": "シジマのグランブル",
+   "status": "直す",
+   "image": "cards/VS/VS1/チャックのグランブル_VS1-037／151_C.png → cards/VS/VS1/シジマのグランブル_VS1-037／151_C.png"
+  },
+  {
+   "id": "VS1-038",
+   "before": "チャックのドンファン",
+   "pcgSearch": "シジマのドンファン",
+   "pokemonWiki": "シジマのドンファン",
+   "after": "シジマのドンファン",
+   "status": "直す",
+   "image": "cards/VS/VS1/チャックのドンファン_VS1-038／151_C.png → cards/VS/VS1/シジマのドンファン_VS1-038／151_C.png"
+  },
+  {
+   "id": "VS1-039",
+   "before": "ジュゴン",
+   "pcgSearch": "ヤナギのジュゴン",
+   "pokemonWiki": "ヤナギのジュゴン",
+   "after": "ヤナギのジュゴン",
+   "status": "直す",
+   "image": "cards/VS/VS1/ジュゴン_VS1-039／151_C.png → cards/VS/VS1/ヤナギのジュゴン_VS1-039／151_C.png"
+  },
+  {
+   "id": "VS1-040",
+   "before": "パルシェン",
+   "pcgSearch": "ヤナギのパルシェン",
+   "pokemonWiki": "ヤナギのパルシェン",
+   "after": "ヤナギのパルシェン",
+   "status": "直す",
+   "image": "cards/VS/VS1/パルシェン_VS1-040／151_C.png → cards/VS/VS1/ヤナギのパルシェン_VS1-040／151_C.png"
+  },
+  {
+   "id": "VS1-041",
+   "before": "ラプラス",
+   "pcgSearch": "ヤナギのラプラス",
+   "pokemonWiki": "ヤナギのラプラス",
+   "after": "ヤナギのラプラス",
+   "status": "直す",
+   "image": "cards/VS/VS1/ラプラス_VS1-041／151_C.png → cards/VS/VS1/ヤナギのラプラス_VS1-041／151_C.png"
+  },
+  {
+   "id": "VS1-042",
+   "before": "フリーザー",
+   "pcgSearch": "ヤナギのフリーザー",
+   "pokemonWiki": "ヤナギのフリーザー",
+   "after": "ヤナギのフリーザー",
+   "status": "直す",
+   "image": "cards/VS/VS1/フリーザー_VS1-042／151_C.png → cards/VS/VS1/ヤナギのフリーザー_VS1-042／151_C.png"
+  },
+  {
+   "id": "VS1-043",
+   "before": "ニューラ",
+   "pcgSearch": "ヤナギのニューラ",
+   "pokemonWiki": "ヤナギのニューラ",
+   "after": "ヤナギのニューラ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ニューラ_VS1-043／151_C.png → cards/VS/VS1/ヤナギのニューラ_VS1-043／151_C.png"
+  },
+  {
+   "id": "VS1-044",
+   "before": "イノムー",
+   "pcgSearch": "ヤナギのイノムー",
+   "pokemonWiki": "ヤナギのイノムー",
+   "after": "ヤナギのイノムー",
+   "status": "直す",
+   "image": "cards/VS/VS1/イノムー_VS1-044／151_C.png → cards/VS/VS1/ヤナギのイノムー_VS1-044／151_C.png"
+  },
+  {
+   "id": "VS1-045",
+   "before": "デリバード",
+   "pcgSearch": "ヤナギのデリバード",
+   "pokemonWiki": "ヤナギのデリバード",
+   "after": "ヤナギのデリバード",
+   "status": "直す",
+   "image": "cards/VS/VS1/デリバード_VS1-045／151_C.png → cards/VS/VS1/ヤナギのデリバード_VS1-045／151_C.png"
+  },
+  {
+   "id": "VS1-046",
+   "before": "カメックス",
+   "pcgSearch": "イブキのカメックス",
+   "pokemonWiki": "イブキのカメックス",
+   "after": "イブキのカメックス",
+   "status": "直す",
+   "image": "cards/VS/VS1/カメックス_VS1-046／151_C.png → cards/VS/VS1/イブキのカメックス_VS1-046／151_C.png"
+  },
+  {
+   "id": "VS1-047",
+   "before": "ルージュラ",
+   "pcgSearch": "イブキのルージュラ",
+   "pokemonWiki": "イブキのルージュラ",
+   "after": "イブキのルージュラ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ルージュラ_VS1-047／151_C.png → cards/VS/VS1/イブキのルージュラ_VS1-047／151_C.png"
+  },
+  {
+   "id": "VS1-048",
+   "before": "クレアのギャラドス",
+   "pcgSearch": "イブキのギャラドス",
+   "pokemonWiki": "イブキのギャラドス",
+   "after": "イブキのギャラドス",
+   "status": "直す",
+   "image": "cards/VS/VS1/クレアのギャラドス_VS1-048／151_C.png → cards/VS/VS1/イブキのギャラドス_VS1-048／151_C.png"
+  },
+  {
+   "id": "VS1-049",
+   "before": "カイリュー",
+   "pcgSearch": "イブキのカイリュー",
+   "pokemonWiki": "イブキのカイリュー",
+   "after": "イブキのカイリュー",
+   "status": "直す",
+   "image": "cards/VS/VS1/カイリュー_VS1-049／151_C.png → cards/VS/VS1/イブキのカイリュー_VS1-049／151_C.png"
+  },
+  {
+   "id": "VS1-050",
+   "before": "ニョロトノ",
+   "pcgSearch": "イブキのニョロトノ",
+   "pokemonWiki": "イブキのニョロトノ",
+   "after": "イブキのニョロトノ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ニョロトノ_VS1-050／151_C.png → cards/VS/VS1/イブキのニョロトノ_VS1-050／151_C.png"
+  },
+  {
+   "id": "VS1-051",
+   "before": "マンタイン",
+   "pcgSearch": "イブキのマンタイン",
+   "pokemonWiki": "イブキのマンタイン",
+   "after": "イブキのマンタイン",
+   "status": "直す",
+   "image": "cards/VS/VS1/マンタイン_VS1-051／151_C.png → cards/VS/VS1/イブキのマンタイン_VS1-051／151_C.png"
+  },
+  {
+   "id": "VS1-052",
+   "before": "クレアのキングドラ",
+   "pcgSearch": "イブキのキングドラ",
+   "pokemonWiki": "イブキのキングドラ",
+   "after": "イブキのキングドラ",
+   "status": "直す",
+   "image": "cards/VS/VS1/クレアのキングドラ_VS1-052／151_C.png → cards/VS/VS1/イブキのキングドラ_VS1-052／151_C.png"
+  },
+  {
+   "id": "VS1-053",
+   "before": "ライチュウ",
+   "pcgSearch": "マチスのライチュウ",
+   "pokemonWiki": "マチスのライチュウ",
+   "after": "マチスのライチュウ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ライチュウ_VS1-053／151_C.png → cards/VS/VS1/マチスのライチュウ_VS1-053／151_C.png"
+  },
+  {
+   "id": "VS1-054",
+   "before": "ランターン",
+   "pcgSearch": "マチスのランターン",
+   "pokemonWiki": "マチスのランターン",
+   "after": "マチスのランターン",
+   "status": "直す",
+   "image": "cards/VS/VS1/ランターン_VS1-054／151_C.png → cards/VS/VS1/マチスのランターン_VS1-054／151_C.png"
+  },
+  {
+   "id": "VS1-055",
+   "before": "ネイティオ",
+   "pcgSearch": "ナツメのネイティオ",
+   "pokemonWiki": "ナツメのネイティオ",
+   "after": "ナツメのネイティオ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ネイティオ_VS1-055／151_C.png → cards/VS/VS1/ナツメのネイティオ_VS1-055／151_C.png"
+  },
+  {
+   "id": "VS1-056",
+   "before": "エーフィ",
+   "pcgSearch": "ナツメのエーフィ",
+   "pokemonWiki": "ナツメのエーフィ",
+   "after": "ナツメのエーフィ",
+   "status": "直す",
+   "image": "cards/VS/VS1/エーフィ_VS1-056／151_C.png → cards/VS/VS1/ナツメのエーフィ_VS1-056／151_C.png"
+  },
+  {
+   "id": "VS1-057",
+   "before": "ラプラス",
+   "pcgSearch": "カスミのラプラス",
+   "pokemonWiki": "カスミのラプラス",
+   "after": "カスミのラプラス",
+   "status": "直す",
+   "image": "cards/VS/VS1/ラプラス_VS1-057／151_C.png → cards/VS/VS1/カスミのラプラス_VS1-057／151_C.png"
+  },
+  {
+   "id": "VS1-058",
+   "before": "ヌオー",
+   "pcgSearch": "カスミのヌオー",
+   "pokemonWiki": "カスミのヌオー",
+   "after": "カスミのヌオー",
+   "status": "直す",
+   "image": "cards/VS/VS1/ヌオー_VS1-058／151_C.png → cards/VS/VS1/カスミのヌオー_VS1-058／151_C.png"
+  },
+  {
+   "id": "VS1-059",
+   "before": "キレイハナ",
+   "pcgSearch": "エリカのキレイハナ",
+   "pokemonWiki": "エリカのキレイハナ",
+   "after": "エリカのキレイハナ",
+   "status": "直す",
+   "image": "cards/VS/VS1/キレイハナ_VS1-059／151_C.png → cards/VS/VS1/エリカのキレイハナ_VS1-059／151_C.png"
+  },
+  {
+   "id": "VS1-060",
+   "before": "ワタッコ",
+   "pcgSearch": "エリカのワタッコ",
+   "pokemonWiki": "エリカのワタッコ",
+   "after": "エリカのワタッコ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ワタッコ_VS1-060／151_C.png → cards/VS/VS1/エリカのワタッコ_VS1-060／151_C.png"
+  },
+  {
+   "id": "VS1-061",
+   "before": "スピアー",
+   "pcgSearch": "アンズのスピアー",
+   "pokemonWiki": "アンズのスピアー",
+   "after": "アンズのスピアー",
+   "status": "直す",
+   "image": "cards/VS/VS1/スピアー_VS1-061／151_C.png → cards/VS/VS1/アンズのスピアー_VS1-061／151_C.png"
+  },
+  {
+   "id": "VS1-062",
+   "before": "ジャニーンのアーボック",
+   "pcgSearch": "アンズのアーボック",
+   "pokemonWiki": "アンズのアーボック",
+   "after": "アンズのアーボック",
+   "status": "直す",
+   "image": "cards/VS/VS1/ジャニーンのアーボック_VS1-062／151_C.png → cards/VS/VS1/アンズのアーボック_VS1-062／151_C.png"
+  },
+  {
+   "id": "VS1-063",
+   "before": "モルフォン",
+   "pcgSearch": "アンズのモルフォン",
+   "pokemonWiki": "アンズのモルフォン",
+   "after": "アンズのモルフォン",
+   "status": "直す",
+   "image": "cards/VS/VS1/モルフォン_VS1-063／151_C.png → cards/VS/VS1/アンズのモルフォン_VS1-063／151_C.png"
+  },
+  {
+   "id": "VS1-064",
+   "before": "マタドガス",
+   "pcgSearch": "アンズのマタドガス",
+   "pokemonWiki": "アンズのマタドガス",
+   "after": "アンズのマタドガス",
+   "status": "直す",
+   "image": "cards/VS/VS1/マタドガス_VS1-064／151_C.png → cards/VS/VS1/アンズのマタドガス_VS1-064／151_C.png"
+  },
+  {
+   "id": "VS1-065",
+   "before": "ジャニーンのアリアドス",
+   "pcgSearch": "アンズのアリアドス",
+   "pokemonWiki": "アンズのアリアドス",
+   "after": "アンズのアリアドス",
+   "status": "直す",
+   "image": "cards/VS/VS1/ジャニーンのアリアドス_VS1-065／151_C.png → cards/VS/VS1/アンズのアリアドス_VS1-065／151_C.png"
+  },
+  {
+   "id": "VS1-066",
+   "before": "ジャニーンのクロバット",
+   "pcgSearch": "アンズのクロバット",
+   "pokemonWiki": "アンズのクロバット",
+   "after": "アンズのクロバット",
+   "status": "直す",
+   "image": "cards/VS/VS1/ジャニーンのクロバット_VS1-066／151_C.png → cards/VS/VS1/アンズのクロバット_VS1-066／151_C.png"
+  },
+  {
+   "id": "VS1-067",
+   "before": "ツボツボ",
+   "pcgSearch": "アンズのツボツボ",
+   "pokemonWiki": "アンズのツボツボ",
+   "after": "アンズのツボツボ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ツボツボ_VS1-067／151_C.png → cards/VS/VS1/アンズのツボツボ_VS1-067／151_C.png"
+  },
+  {
+   "id": "VS1-068",
+   "before": "オムスター",
+   "pcgSearch": "タケシのオムスター",
+   "pokemonWiki": "タケシのオムスター",
+   "after": "タケシのオムスター",
+   "status": "直す",
+   "image": "cards/VS/VS1/オムスター_VS1-068／151_C.png → cards/VS/VS1/タケシのオムスター_VS1-068／151_C.png"
+  },
+  {
+   "id": "VS1-069",
+   "before": "カブトプス",
+   "pcgSearch": "タケシのカブトプス",
+   "pokemonWiki": "タケシのカブトプス",
+   "after": "タケシのカブトプス",
+   "status": "直す",
+   "image": "cards/VS/VS1/カブトプス_VS1-069／151_C.png → cards/VS/VS1/タケシのカブトプス_VS1-069／151_C.png"
+  },
+  {
+   "id": "VS1-070",
+   "before": "バクフーン",
+   "pcgSearch": "カツラのバクフーン",
+   "pokemonWiki": "カツラのバクフーン",
+   "after": "カツラのバクフーン",
+   "status": "直す",
+   "image": "cards/VS/VS1/バクフーン_VS1-070／151_C.png → cards/VS/VS1/カツラのバクフーン_VS1-070／151_C.png"
+  },
+  {
+   "id": "VS1-071",
+   "before": "ブレインのマグカルゴ",
+   "pcgSearch": "カツラのマグカルゴ",
+   "pokemonWiki": "カツラのマグカルゴ",
+   "after": "カツラのマグカルゴ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ブレインのマグカルゴ_VS1-071／151_C.png → cards/VS/VS1/カツラのマグカルゴ_VS1-071／151_C.png"
+  },
+  {
+   "id": "VS1-072",
+   "before": "ヤドラン",
+   "pcgSearch": "イツキのヤドラン",
+   "pokemonWiki": "イツキのヤドラン",
+   "after": "イツキのヤドラン",
+   "status": "直す",
+   "image": "cards/VS/VS1/ヤドラン_VS1-072／151_C.png → cards/VS/VS1/イツキのヤドラン_VS1-072／151_C.png"
+  },
+  {
+   "id": "VS1-073",
+   "before": "ナッシー",
+   "pcgSearch": "イツキのナッシー",
+   "pokemonWiki": "イツキのナッシー",
+   "after": "イツキのナッシー",
+   "status": "直す",
+   "image": "cards/VS/VS1/ナッシー_VS1-073／151_C.png → cards/VS/VS1/イツキのナッシー_VS1-073／151_C.png"
+  },
+  {
+   "id": "VS1-074",
+   "before": "ルージュラ",
+   "pcgSearch": "イツキのルージュラ",
+   "pokemonWiki": "イツキのルージュラ",
+   "after": "イツキのルージュラ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ルージュラ_VS1-074／151_C.png → cards/VS/VS1/イツキのルージュラ_VS1-074／151_C.png"
+  },
+  {
+   "id": "VS1-075",
+   "before": "ネイティオ",
+   "pcgSearch": "イツキのネイティオ",
+   "pokemonWiki": "イツキのネイティオ",
+   "after": "イツキのネイティオ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ネイティオ_VS1-075／151_C.png → cards/VS/VS1/イツキのネイティオ_VS1-075／151_C.png"
+  },
+  {
+   "id": "VS1-076",
+   "before": "エーフィ",
+   "pcgSearch": "イツキのエーフィ",
+   "pokemonWiki": "イツキのエーフィ",
+   "after": "イツキのエーフィ",
+   "status": "直す",
+   "image": "cards/VS/VS1/エーフィ_VS1-076／151_C.png → cards/VS/VS1/イツキのエーフィ_VS1-076／151_C.png"
+  },
+  {
+   "id": "VS1-078",
+   "before": "キリンリキ",
+   "pcgSearch": "イツキのキリンリキ",
+   "pokemonWiki": "イツキのキリンリキ",
+   "after": "イツキのキリンリキ",
+   "status": "直す",
+   "image": "cards/VS/VS1/キリンリキ_VS1-078／151_C.png → cards/VS/VS1/イツキのキリンリキ_VS1-078／151_C.png"
+  },
+  {
+   "id": "VS1-079",
+   "before": "コガのクロバット",
+   "pcgSearch": "キョウのクロバット",
+   "pokemonWiki": "キョウのクロバット",
+   "after": "キョウのクロバット",
+   "status": "直す",
+   "image": "cards/VS/VS1/コガのクロバット_VS1-079／151_C.png → cards/VS/VS1/キョウのクロバット_VS1-079／151_C.png"
+  },
+  {
+   "id": "VS1-080",
+   "before": "フォレトス",
+   "pcgSearch": "キョウのフォレトス",
+   "pokemonWiki": "キョウのフォレトス",
+   "after": "キョウのフォレトス",
+   "status": "直す",
+   "image": "cards/VS/VS1/フォレトス_VS1-080／151_C.png → cards/VS/VS1/キョウのフォレトス_VS1-080／151_C.png"
+  },
+  {
+   "id": "VS1-081",
+   "before": "カイリキー",
+   "pcgSearch": "シバのカイリキー",
+   "pokemonWiki": "シバのカイリキー",
+   "after": "シバのカイリキー",
+   "status": "直す",
+   "image": "cards/VS/VS1/カイリキー_VS1-081／151_C.png → cards/VS/VS1/シバのカイリキー_VS1-081／151_C.png"
+  },
+  {
+   "id": "VS1-082",
+   "before": "サワムラー",
+   "pcgSearch": "シバのサワムラー",
+   "pokemonWiki": "シバのサワムラー",
+   "after": "シバのサワムラー",
+   "status": "直す",
+   "image": "cards/VS/VS1/サワムラー_VS1-082／151_C.png → cards/VS/VS1/シバのサワムラー_VS1-082／151_C.png"
+  },
+  {
+   "id": "VS1-083",
+   "before": "エビワラー",
+   "pcgSearch": "シバのエビワラー",
+   "pokemonWiki": "シバのエビワラー",
+   "after": "シバのエビワラー",
+   "status": "直す",
+   "image": "cards/VS/VS1/エビワラー_VS1-083／151_C.png → cards/VS/VS1/シバのエビワラー_VS1-083／151_C.png"
+  },
+  {
+   "id": "VS1-084",
+   "before": "ハガネール",
+   "pcgSearch": "シバのハガネール",
+   "pokemonWiki": "シバのハガネール",
+   "after": "シバのハガネール",
+   "status": "直す",
+   "image": "cards/VS/VS1/ハガネール_VS1-084／151_C.png → cards/VS/VS1/シバのハガネール_VS1-084／151_C.png"
+  },
+  {
+   "id": "VS1-085",
+   "before": "リングマ",
+   "pcgSearch": "シバのリングマ",
+   "pokemonWiki": "シバのリングマ",
+   "after": "シバのリングマ",
+   "status": "直す",
+   "image": "cards/VS/VS1/リングマ_VS1-085／151_C.png → cards/VS/VS1/シバのリングマ_VS1-085／151_C.png"
+  },
+  {
+   "id": "VS1-086",
+   "before": "カポエラー",
+   "pcgSearch": "シバのカポエラー",
+   "pokemonWiki": "シバのカポエラー",
+   "after": "シバのカポエラー",
+   "status": "直す",
+   "image": "cards/VS/VS1/カポエラー_VS1-086／151_C.png → cards/VS/VS1/シバのカポエラー_VS1-086／151_C.png"
+  },
+  {
+   "id": "VS1-087",
+   "before": "ギャロップ",
+   "pcgSearch": "カリンのギャロップ",
+   "pokemonWiki": "カリンのギャロップ",
+   "after": "カリンのギャロップ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ギャロップ_VS1-087／151_C.png → cards/VS/VS1/カリンのギャロップ_VS1-087／151_C.png"
+  },
+  {
+   "id": "VS1-088",
+   "before": "ブーバー",
+   "pcgSearch": "カリンのブーバー",
+   "pokemonWiki": "カリンのブーバー",
+   "after": "カリンのブーバー",
+   "status": "直す",
+   "image": "cards/VS/VS1/ブーバー_VS1-088／151_C.png → cards/VS/VS1/カリンのブーバー_VS1-088／151_C.png"
+  },
+  {
+   "id": "VS1-089",
+   "before": "ブースター",
+   "pcgSearch": "カリンのブースター",
+   "pokemonWiki": "カリンのブースター",
+   "after": "カリンのブースター",
+   "status": "直す",
+   "image": "cards/VS/VS1/ブースター_VS1-089／151_C.png → cards/VS/VS1/カリンのブースター_VS1-089／151_C.png"
+  },
+  {
+   "id": "VS1-090",
+   "before": "バンギラス",
+   "pcgSearch": "カリンのバンギラス",
+   "pokemonWiki": "カリンのバンギラス",
+   "after": "カリンのバンギラス",
+   "status": "直す",
+   "image": "cards/VS/VS1/バンギラス_VS1-090／151_R.png → cards/VS/VS1/カリンのバンギラス_VS1-090／151_R.png"
+  },
+  {
+   "id": "VS1-091",
+   "before": "ブラッキー",
+   "pcgSearch": "カリンのブラッキー",
+   "pokemonWiki": "カリンのブラッキー",
+   "after": "カリンのブラッキー",
+   "status": "直す",
+   "image": "cards/VS/VS1/ブラッキー_VS1-091／151_R.png → cards/VS/VS1/カリンのブラッキー_VS1-091／151_R.png"
+  },
+  {
+   "id": "VS1-092",
+   "before": "ヘルガー",
+   "pcgSearch": "カリンのヘルガー",
+   "pokemonWiki": "カリンのヘルガー",
+   "after": "カリンのヘルガー",
+   "status": "直す",
+   "image": "cards/VS/VS1/ヘルガー_VS1-092／151_C.png → cards/VS/VS1/カリンのヘルガー_VS1-092／151_C.png"
+  },
+  {
+   "id": "VS1-093",
+   "before": "ソーナンス",
+   "pcgSearch": "R団のソーナンス",
+   "pokemonWiki": "R団のソーナンス",
+   "after": "R団のソーナンス",
+   "status": "直す",
+   "image": "cards/VS/VS1/ソーナンス_VS1-093／151_R.png → cards/VS/VS1/R団のソーナンス_VS1-093／151_R.png"
+  },
+  {
+   "id": "VS1-094",
+   "before": "ロケットのライコウ",
+   "pcgSearch": "R団のライコウ",
+   "pokemonWiki": "R団のライコウ",
+   "after": "R団のライコウ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ロケットのライコウ_VS1-094／151_R.png → cards/VS/VS1/R団のライコウ_VS1-094／151_R.png"
+  },
+  {
+   "id": "VS1-095",
+   "before": "エンテイ",
+   "pcgSearch": "R団のエンテイ",
+   "pokemonWiki": "R団のエンテイ",
+   "after": "R団のエンテイ",
+   "status": "直す",
+   "image": "cards/VS/VS1/エンテイ_VS1-095／151_R.png → cards/VS/VS1/R団のエンテイ_VS1-095／151_R.png"
+  },
+  {
+   "id": "VS1-096",
+   "before": "スイクン",
+   "pcgSearch": "R団のスイクン",
+   "pokemonWiki": "R団のスイクン",
+   "after": "R団のスイクン",
+   "status": "直す",
+   "image": "cards/VS/VS1/スイクン_VS1-096／151_R.png → cards/VS/VS1/R団のスイクン_VS1-096／151_R.png"
+  },
+  {
+   "id": "VS1-097",
+   "before": "リザードン",
+   "pcgSearch": "ワタルのリザードン",
+   "pokemonWiki": "ワタルのリザードン",
+   "after": "ワタルのリザードン",
+   "status": "直す",
+   "image": "cards/VS/VS1/リザードン_VS1-097／151_C.png → cards/VS/VS1/ワタルのリザードン_VS1-097／151_C.png"
+  },
+  {
+   "id": "VS1-098",
+   "before": "ランスのギャラドス",
+   "pcgSearch": "ワタルのギャラドス",
+   "pokemonWiki": "ワタルのギャラドス",
+   "after": "ワタルのギャラドス",
+   "status": "直す",
+   "image": "cards/VS/VS1/ランスのギャラドス_VS1-098／151_C.png → cards/VS/VS1/ワタルのギャラドス_VS1-098／151_C.png"
+  },
+  {
+   "id": "VS1-099",
+   "before": "プテラ",
+   "pcgSearch": "ワタルのプテラ",
+   "pokemonWiki": "ワタルのプテラ",
+   "after": "ワタルのプテラ",
+   "status": "直す",
+   "image": "cards/VS/VS1/プテラ_VS1-099／151_C.png → cards/VS/VS1/ワタルのプテラ_VS1-099／151_C.png"
+  },
+  {
+   "id": "VS1-100",
+   "before": "カイリュー",
+   "pcgSearch": "ワタルのカイリュー",
+   "pokemonWiki": "ワタルのカイリュー",
+   "after": "ワタルのカイリュー",
+   "status": "直す",
+   "image": "cards/VS/VS1/カイリュー_VS1-100／151_C.png → cards/VS/VS1/ワタルのカイリュー_VS1-100／151_C.png"
+  },
+  {
+   "id": "VS1-101",
+   "before": "デンリュウ",
+   "pcgSearch": "ワタルのデンリュウ",
+   "pokemonWiki": "ワタルのデンリュウ",
+   "after": "ワタルのデンリュウ",
+   "status": "直す",
+   "image": "cards/VS/VS1/デンリュウ_VS1-101／151_C.png → cards/VS/VS1/ワタルのデンリュウ_VS1-101／151_C.png"
+  },
+  {
+   "id": "VS1-102",
+   "before": "ランスのキングドラ",
+   "pcgSearch": "ワタルのキングドラ",
+   "pokemonWiki": "ワタルのキングドラ",
+   "after": "ワタルのキングドラ",
+   "status": "直す",
+   "image": "cards/VS/VS1/ランスのキングドラ_VS1-102／151_C.png → cards/VS/VS1/ワタルのキングドラ_VS1-102／151_C.png"
+  },
+  {
+   "id": "VS1-103",
+   "before": "フォークナーのテクニカルマシン01",
+   "pcgSearch": "ハヤトのワザマシン01",
+   "pokemonWiki": "ハヤトのワザマシン01",
+   "after": "ハヤトのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/フォークナーのテクニカルマシン01_VS1-103／151_U.png → cards/VS/VS1/ハヤトのワザマシン01_VS1-103／151_U.png"
+  },
+  {
+   "id": "VS1-104",
+   "before": "フォークナーのテクニカルマシン02",
+   "pcgSearch": "ハヤトのワザマシン02",
+   "pokemonWiki": "ハヤトのワザマシン02",
+   "after": "ハヤトのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/フォークナーのテクニカルマシン02_VS1-104／151_U.png → cards/VS/VS1/ハヤトのワザマシン02_VS1-104／151_U.png"
+  },
+  {
+   "id": "VS1-105",
+   "before": "アンズのテクニカルマシン01",
+   "pcgSearch": "ツクシのワザマシン01",
+   "pokemonWiki": "ツクシのワザマシン01",
+   "after": "ツクシのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/アンズのテクニカルマシン01_VS1-105／151_U.png → cards/VS/VS1/ツクシのワザマシン01_VS1-105／151_U.png"
+  },
+  {
+   "id": "VS1-106",
+   "before": "アンズのテクニカルマシン02",
+   "pcgSearch": "ツクシのワザマシン02",
+   "pokemonWiki": "ツクシのワザマシン02",
+   "after": "ツクシのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/アンズのテクニカルマシン02_VS1-106／151_U.png → cards/VS/VS1/ツクシのワザマシン02_VS1-106／151_U.png"
+  },
+  {
+   "id": "VS1-107",
+   "before": "ホイットニーのテクニカルマシン01",
+   "pcgSearch": "アカネのワザマシン01",
+   "pokemonWiki": "アカネのワザマシン01",
+   "after": "アカネのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/ホイットニーのテクニカルマシン01_VS1-107／151_U.png → cards/VS/VS1/アカネのワザマシン01_VS1-107／151_U.png"
+  },
+  {
+   "id": "VS1-108",
+   "before": "ホイットニーのテクニカルマシン02",
+   "pcgSearch": "アカネのワザマシン02",
+   "pokemonWiki": "アカネのワザマシン02",
+   "after": "アカネのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/ホイットニーのテクニカルマシン02_VS1-108／151_U.png → cards/VS/VS1/アカネのワザマシン02_VS1-108／151_U.png"
+  },
+  {
+   "id": "VS1-109",
+   "before": "マツバのテクニカルマシン01",
+   "pcgSearch": "マツバのワザマシン01",
+   "pokemonWiki": "マツバのワザマシン01",
+   "after": "マツバのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/マツバのテクニカルマシン01_VS1-109／151_U.png → cards/VS/VS1/マツバのワザマシン01_VS1-109／151_U.png"
+  },
+  {
+   "id": "VS1-110",
+   "before": "マツバのテクニカルマシン02",
+   "pcgSearch": "マツバのワザマシン02",
+   "pokemonWiki": "マツバのワザマシン02",
+   "after": "マツバのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/マツバのテクニカルマシン02_VS1-110／151_U.png → cards/VS/VS1/マツバのワザマシン02_VS1-110／151_U.png"
+  },
+  {
+   "id": "VS1-111",
+   "before": "ジャスミンのテクニカルマシン01",
+   "pcgSearch": "ミカンのワザマシン01",
+   "pokemonWiki": "ミカンのワザマシン01",
+   "after": "ミカンのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/ジャスミンのテクニカルマシン01_VS1-111／151_U.png → cards/VS/VS1/ミカンのワザマシン01_VS1-111／151_U.png"
+  },
+  {
+   "id": "VS1-112",
+   "before": "ジャスミンのテクニカルマシン02",
+   "pcgSearch": "ミカンのワザマシン02",
+   "pokemonWiki": "ミカンのワザマシン02",
+   "after": "ミカンのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/ジャスミンのテクニカルマシン02_VS1-112／151_U.png → cards/VS/VS1/ミカンのワザマシン02_VS1-112／151_U.png"
+  },
+  {
+   "id": "VS1-113",
+   "before": "チャックのテクニカルマシン01",
+   "pcgSearch": "シジマのワザマシン01",
+   "pokemonWiki": "シジマのワザマシン01",
+   "after": "シジマのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/チャックのテクニカルマシン01_VS1-113／151_U.png → cards/VS/VS1/シジマのワザマシン01_VS1-113／151_U.png"
+  },
+  {
+   "id": "VS1-114",
+   "before": "チャックのテクニカルマシン02",
+   "pcgSearch": "シジマのワザマシン02",
+   "pokemonWiki": "シジマのワザマシン02",
+   "after": "シジマのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/チャックのテクニカルマシン02_VS1-114／151_U.png → cards/VS/VS1/シジマのワザマシン02_VS1-114／151_U.png"
+  },
+  {
+   "id": "VS1-115",
+   "before": "プライスのテクニカルマシン01",
+   "pcgSearch": "ヤナギのワザマシン01",
+   "pokemonWiki": "ヤナギのワザマシン01",
+   "after": "ヤナギのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/プライスのテクニカルマシン01_VS1-115／151_U.png → cards/VS/VS1/ヤナギのワザマシン01_VS1-115／151_U.png"
+  },
+  {
+   "id": "VS1-116",
+   "before": "プライスのテクニカルマシン02",
+   "pcgSearch": "ヤナギのワザマシン02",
+   "pokemonWiki": "ヤナギのワザマシン02",
+   "after": "ヤナギのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/プライスのテクニカルマシン02_VS1-116／151_U.png → cards/VS/VS1/ヤナギのワザマシン02_VS1-116／151_U.png"
+  },
+  {
+   "id": "VS1-117",
+   "before": "イブキのテクニカルマシン01",
+   "pcgSearch": "イブキのワザマシン01",
+   "pokemonWiki": "イブキのワザマシン01",
+   "after": "イブキのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/イブキのテクニカルマシン01_VS1-117／151_U.png → cards/VS/VS1/イブキのワザマシン01_VS1-117／151_U.png"
+  },
+  {
+   "id": "VS1-118",
+   "before": "イブキのテクニカルマシン02",
+   "pcgSearch": "イブキのワザマシン02",
+   "pokemonWiki": "イブキのワザマシン02",
+   "after": "イブキのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/イブキのテクニカルマシン02_VS1-118／151_U.png → cards/VS/VS1/イブキのワザマシン02_VS1-118／151_U.png"
+  },
+  {
+   "id": "VS1-119",
+   "before": "ジャニーンのテクニカルマシン01",
+   "pcgSearch": "アンズのワザマシン01",
+   "pokemonWiki": "アンズのワザマシン01",
+   "after": "アンズのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/ジャニーンのテクニカルマシン01_VS1-119／151_U.png → cards/VS/VS1/アンズのワザマシン01_VS1-119／151_U.png"
+  },
+  {
+   "id": "VS1-120",
+   "before": "ジャニーンのテクニカルマシン02",
+   "pcgSearch": "アンズのワザマシン02",
+   "pokemonWiki": "アンズのワザマシン02",
+   "after": "アンズのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/ジャニーンのテクニカルマシン02_VS1-120／151_U.png → cards/VS/VS1/アンズのワザマシン02_VS1-120／151_U.png"
+  },
+  {
+   "id": "VS1-121",
+   "before": "ウィルのテクニカルマシン01",
+   "pcgSearch": "イツキのワザマシン01",
+   "pokemonWiki": "イツキのワザマシン01",
+   "after": "イツキのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/ウィルのテクニカルマシン01_VS1-121／151_U.png → cards/VS/VS1/イツキのワザマシン01_VS1-121／151_U.png"
+  },
+  {
+   "id": "VS1-122",
+   "before": "ウィルのテクニカルマシン02",
+   "pcgSearch": "イツキのワザマシン02",
+   "pokemonWiki": "イツキのワザマシン02",
+   "after": "イツキのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/ウィルのテクニカルマシン02_VS1-122／151_U.png → cards/VS/VS1/イツキのワザマシン02_VS1-122／151_U.png"
+  },
+  {
+   "id": "VS1-123",
+   "before": "ブルーノのテクニカルマシン01",
+   "pcgSearch": "シバのワザマシン01",
+   "pokemonWiki": "シバのワザマシン01",
+   "after": "シバのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/ブルーノのテクニカルマシン01_VS1-123／151_U.png → cards/VS/VS1/シバのワザマシン01_VS1-123／151_U.png"
+  },
+  {
+   "id": "VS1-124",
+   "before": "ブルーノのテクニカルマシン02",
+   "pcgSearch": "シバのワザマシン02",
+   "pokemonWiki": "シバのワザマシン02",
+   "after": "シバのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/ブルーノのテクニカルマシン02_VS1-124／151_U.png → cards/VS/VS1/シバのワザマシン02_VS1-124／151_U.png"
+  },
+  {
+   "id": "VS1-125",
+   "before": "カレンのテクニカルマシン01",
+   "pcgSearch": "カリンのワザマシン01",
+   "pokemonWiki": "カリンのワザマシン01",
+   "after": "カリンのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/カレンのテクニカルマシン01_VS1-125／151_U.png → cards/VS/VS1/カリンのワザマシン01_VS1-125／151_U.png"
+  },
+  {
+   "id": "VS1-126",
+   "before": "カレンのテクニカルマシン02",
+   "pcgSearch": "カリンのワザマシン02",
+   "pokemonWiki": "カリンのワザマシン02",
+   "after": "カリンのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/カレンのテクニカルマシン02_VS1-126／151_U.png → cards/VS/VS1/カリンのワザマシン02_VS1-126／151_U.png"
+  },
+  {
+   "id": "VS1-127",
+   "before": "ロケットのテクニカルマシン01",
+   "pcgSearch": "R団のワザマシン01",
+   "pokemonWiki": "R団のワザマシン01",
+   "after": "R団のワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/ロケットのテクニカルマシン01_VS1-127／151_U.png → cards/VS/VS1/R団のワザマシン01_VS1-127／151_U.png"
+  },
+  {
+   "id": "VS1-128",
+   "before": "ランスのテクニカルマシン01",
+   "pcgSearch": "ワタルのワザマシン01",
+   "pokemonWiki": "ワタルのワザマシン01",
+   "after": "ワタルのワザマシン01",
+   "status": "直す",
+   "image": "cards/VS/VS1/ランスのテクニカルマシン01_VS1-128／151_U.png → cards/VS/VS1/ワタルのワザマシン01_VS1-128／151_U.png"
+  },
+  {
+   "id": "VS1-129",
+   "before": "ランスのテクニカルマシン02",
+   "pcgSearch": "ワタルのワザマシン02",
+   "pokemonWiki": "ワタルのワザマシン02",
+   "after": "ワタルのワザマシン02",
+   "status": "直す",
+   "image": "cards/VS/VS1/ランスのテクニカルマシン02_VS1-129／151_U.png → cards/VS/VS1/ワタルのワザマシン02_VS1-129／151_U.png"
+  },
+  {
+   "id": "VS1-130",
+   "before": "ポーション",
+   "pcgSearch": "きずぐすり",
+   "pokemonWiki": "きずぐすり",
+   "after": "きずぐすり",
+   "status": "直す",
+   "image": "cards/VS/VS1/ポーション_VS1-130／151_C.png → cards/VS/VS1/きずぐすり_VS1-130／151_C.png"
+  },
+  {
+   "id": "VS1-131",
+   "before": "ミルクのみ",
+   "pcgSearch": "モーモーミルク",
+   "pokemonWiki": "モーモーミルク",
+   "after": "モーモーミルク",
+   "status": "直す",
+   "image": "cards/VS/VS1/ミルクのみ_VS1-131／151_C.png → cards/VS/VS1/モーモーミルク_VS1-131／151_C.png"
+  },
+  {
+   "id": "VS1-132",
+   "before": "フルヒール",
+   "pcgSearch": "なんでもなおし",
+   "pokemonWiki": "なんでもなおし",
+   "after": "なんでもなおし",
+   "status": "直す",
+   "image": "cards/VS/VS1/フルヒール_VS1-132／151_C.png → cards/VS/VS1/なんでもなおし_VS1-132／151_C.png"
+  },
+  {
+   "id": "VS1-133",
+   "before": "ポケモン反転",
+   "pcgSearch": "ポケモンリバース",
+   "pokemonWiki": "ポケモンリバース",
+   "after": "ポケモンリバース",
+   "status": "直す",
+   "image": "cards/VS/VS1/ポケモン反転_VS1-133／151_C.png → cards/VS/VS1/ポケモンリバース_VS1-133／151_C.png"
+  },
+  {
+   "id": "VS1-134",
+   "before": "スイッチ",
+   "pcgSearch": "ポケモンいれかえ",
+   "pokemonWiki": "ポケモンいれかえ",
+   "after": "ポケモンいれかえ",
+   "status": "直す",
+   "image": "cards/VS/VS1/スイッチ_VS1-134／151_C.png → cards/VS/VS1/ポケモンいれかえ_VS1-134／151_C.png"
+  },
+  {
+   "id": "VS1-136",
+   "before": "スーパースクープアップ",
+   "pcgSearch": "スーパーポケモン回収",
+   "pokemonWiki": "スーパーポケモン回収",
+   "after": "スーパーポケモン回収",
+   "status": "直す",
+   "image": "cards/VS/VS1/スーパースクープアップ_VS1-136／151_C.png → cards/VS/VS1/スーパーポケモン回収_VS1-136／151_C.png"
+  },
+  {
+   "id": "VS1-137",
+   "before": "エネルギーの流れ",
+   "pcgSearch": "エネルギーサーキュレート",
+   "pokemonWiki": "エネルギーサーキュレート",
+   "after": "エネルギーサーキュレート",
+   "status": "直す",
+   "image": "cards/VS/VS1/エネルギーの流れ_VS1-137／151_C.png → cards/VS/VS1/エネルギーサーキュレート_VS1-137／151_C.png"
+  },
+  {
+   "id": "VS1-138",
+   "before": "エネルギー電荷",
+   "pcgSearch": "エネルギーチャージ",
+   "pokemonWiki": "エネルギーチャージ",
+   "after": "エネルギーチャージ",
+   "status": "直す",
+   "image": "cards/VS/VS1/エネルギー電荷_VS1-138／151_C.png → cards/VS/VS1/エネルギーチャージ_VS1-138／151_C.png"
+  },
+  {
+   "id": "VS1-140",
+   "before": "エネルギー回復",
+   "pcgSearch": "エネルギー再生",
+   "pokemonWiki": "エネルギー再生",
+   "after": "エネルギー再生",
+   "status": "直す",
+   "image": "cards/VS/VS1/エネルギー回復_VS1-140／151.png → cards/VS/VS1/エネルギー再生_VS1-140／151.png"
+  },
+  {
+   "id": "VS1-143",
+   "before": "金属エネルギー",
+   "pcgSearch": null,
+   "pokemonWiki": null,
+   "after": "",
+   "status": "pcg-search に無い",
+   "image": ""
+  },
+  {
+   "id": "VS1-144",
+   "before": "闇のエネルギー",
+   "pcgSearch": null,
+   "pokemonWiki": null,
+   "after": "",
+   "status": "pcg-search に無い",
+   "image": ""
+  },
+  {
+   "id": "VS1-151",
+   "before": "レインボーエネルギー",
+   "pcgSearch": null,
+   "pokemonWiki": null,
+   "after": "",
+   "status": "pcg-search に無い",
+   "image": ""
+  }
+ ]
+}
