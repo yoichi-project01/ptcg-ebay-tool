@@ -1,0 +1,159 @@
+{
+ "set": "PCG8",
+ "fixed": 15,
+ "rows": [
+  {
+   "id": "PCG8-004",
+   "ja": "セレビィ☆",
+   "before": "Celebi",
+   "built": "Celebi ☆",
+   "bulbapedia": "Celebi ☆",
+   "after": "Celebi ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-014",
+   "ja": "ルンパッパδ-デルタ種",
+   "before": "Ludicolo",
+   "built": "Ludicolo δ",
+   "bulbapedia": "Ludicolo δ",
+   "after": "Ludicolo δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-017",
+   "ja": "キングラーδ-デルタ種",
+   "before": "Kingler δ",
+   "built": "Kingler δ",
+   "bulbapedia": "Kingler δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG8-023",
+   "ja": "ラグラージex",
+   "before": "Swampert",
+   "built": "Swampert ex",
+   "bulbapedia": "Swampert ex",
+   "after": "Swampert ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-028",
+   "ja": "オニドリルδ-デルタ種",
+   "before": "Fearow",
+   "built": "Fearow δ",
+   "bulbapedia": "Fearow δ",
+   "after": "Fearow δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-029",
+   "ja": "ペリッパーδ-デルタ種",
+   "before": "Pelipper δ",
+   "built": "Pelipper δ",
+   "bulbapedia": "Pelipper δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG8-032",
+   "ja": "リザードンδ-デルタ種",
+   "before": "Charizard",
+   "built": "Charizard δ",
+   "bulbapedia": "Charizard δ",
+   "after": "Charizard δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-033",
+   "ja": "フーディン☆",
+   "before": "Alakazam",
+   "built": "Alakazam ☆",
+   "bulbapedia": "Alakazam ☆",
+   "after": "Alakazam ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-034",
+   "ja": "ジュカインexδ-デルタ種",
+   "before": "Sceptile",
+   "built": "Sceptile ex δ",
+   "bulbapedia": "Sceptile ex δ",
+   "after": "Sceptile ex δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-041",
+   "ja": "ジラーチex",
+   "before": "Jirachi",
+   "built": "Jirachi ex",
+   "bulbapedia": "Jirachi ex",
+   "after": "Jirachi ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-045",
+   "ja": "バシャーモex",
+   "before": "Blaziken",
+   "built": "Blaziken ex",
+   "bulbapedia": "Blaziken ex",
+   "after": "Blaziken ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-048",
+   "ja": "ノクタスδ-デルタ種",
+   "before": "Cacturne",
+   "built": "Cacturne δ",
+   "bulbapedia": "Cacturne δ",
+   "after": "Cacturne δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-049",
+   "ja": "カメックスδ-デルタ種",
+   "before": "Blastoise",
+   "built": "Blastoise δ",
+   "bulbapedia": "Blastoise δ",
+   "after": "Blastoise δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-057",
+   "ja": "バクオングex",
+   "before": "Exploud",
+   "built": "Exploud ex",
+   "bulbapedia": "Exploud ex",
+   "after": "Exploud ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-059",
+   "ja": "エネコロロex",
+   "before": "Delcatty",
+   "built": "Delcatty ex",
+   "bulbapedia": "Delcatty ex",
+   "after": "Delcatty ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-061",
+   "ja": "ダーテングex",
+   "before": "Shiftry",
+   "built": "Shiftry ex",
+   "bulbapedia": "Shiftry ex",
+   "after": "Shiftry ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-066",
+   "ja": "ボスゴドラex",
+   "before": "Aggron",
+   "built": "Aggron ex",
+   "bulbapedia": "Aggron ex",
+   "after": "Aggron ex",
+   "status": "直す"
+  }
+ ]
+}
