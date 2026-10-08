@@ -1,0 +1,115 @@
+{
+ "set": "E4",
+ "fixed": 12,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "E4-049",
+   "before": "サンドシュー",
+   "pcgSearch": "サンド",
+   "pokemonWiki": "サンド",
+   "after": "サンド",
+   "status": "直す",
+   "image": "cards/e/E4/サンドシュー_E4-49／91_C.png → cards/e/E4/サンド_E4-49／91_C.png"
+  },
+  {
+   "id": "E4-070",
+   "before": "埋もれた化石",
+   "pcgSearch": "ちていのかせき",
+   "pokemonWiki": "ちていのかせき",
+   "after": "ちていのかせき",
+   "status": "直す",
+   "image": "cards/e/E4/埋もれた化石_E4-70／91_C.png → cards/e/E4/ちていのかせき_E4-70／91_C.png"
+  },
+  {
+   "id": "E4-077",
+   "before": "ハイパーポーション",
+   "pcgSearch": "すごいきずぐすり",
+   "pokemonWiki": "すごいきずぐすり",
+   "after": "すごいきずぐすり",
+   "status": "直す",
+   "image": "cards/e/E4/ハイパーポーション_E4-77／91_U.png → cards/e/E4/すごいきずぐすり_E4-77／91_U.png"
+  },
+  {
+   "id": "E4-079",
+   "before": "オラクル",
+   "pcgSearch": "預言者",
+   "pokemonWiki": "預言者",
+   "after": "預言者",
+   "status": "直す",
+   "image": "cards/e/E4/オラクル_E4-79／91_U.png → cards/e/E4/預言者_E4-79／91_U.png"
+  },
+  {
+   "id": "E4-080",
+   "before": "地下遠征",
+   "pcgSearch": "地底探険隊",
+   "pokemonWiki": "地底探険隊",
+   "after": "地底探険隊",
+   "status": "直す",
+   "image": "cards/e/E4/地下遠征_E4-80／91_U.png → cards/e/E4/地底探険隊_E4-80／91_U.png"
+  },
+  {
+   "id": "E4-081",
+   "before": "クリスタルシャード",
+   "pcgSearch": "水晶のかけら",
+   "pokemonWiki": "水晶のかけら",
+   "after": "水晶のかけら",
+   "status": "直す",
+   "image": "cards/e/E4/クリスタルシャード_E4-81／91_U.png → cards/e/E4/水晶のかけら_E4-81／91_U.png"
+  },
+  {
+   "id": "E4-082",
+   "before": "スターピース",
+   "pcgSearch": "ほしのかけら",
+   "pokemonWiki": "ほしのかけら",
+   "after": "ほしのかけら",
+   "status": "直す",
+   "image": "cards/e/E4/スターピース_E4-82／91_U.png → cards/e/E4/ほしのかけら_E4-82／91_U.png"
+  },
+  {
+   "id": "E4-083",
+   "before": "ミステリープレートa",
+   "pcgSearch": "ミステリープレートα",
+   "pokemonWiki": "ミステリープレートα",
+   "after": "ミステリープレートα",
+   "status": "直す",
+   "image": "cards/e/E4/ミステリープレートa_E4-83／91_U.png → cards/e/E4/ミステリープレートα_E4-83／91_U.png"
+  },
+  {
+   "id": "E4-084",
+   "before": "ミステリープレートb",
+   "pcgSearch": "ミステリープレートβ",
+   "pokemonWiki": "ミステリープレートβ",
+   "after": "ミステリープレートβ",
+   "status": "直す",
+   "image": "cards/e/E4/ミステリープレートb_E4-84／91_U.png → cards/e/E4/ミステリープレートβ_E4-84／91_U.png"
+  },
+  {
+   "id": "E4-085",
+   "before": "ミステリープレートY",
+   "pcgSearch": "ミステリープレートγ",
+   "pokemonWiki": "ミステリープレートγ",
+   "after": "ミステリープレートγ",
+   "status": "直す",
+   "image": "cards/e/E4/ミステリープレートY_E4-85／91_U.png → cards/e/E4/ミステリープレートγ_E4-85／91_U.png"
+  },
+  {
+   "id": "E4-086",
+   "before": "ミステリープレートo",
+   "pcgSearch": "ミステリープレートδ",
+   "pokemonWiki": "ミステリープレートδ",
+   "after": "ミステリープレートδ",
+   "status": "直す",
+   "image": "cards/e/E4/ミステリープレートo_E4-86／91_U.png → cards/e/E4/ミステリープレートδ_E4-86／91_U.png"
+  },
+  {
+   "id": "E4-087",
+   "before": "地下湖",
+   "pcgSearch": "地底湖",
+   "pokemonWiki": "地底湖",
+   "after": "地底湖",
+   "status": "直す",
+   "image": "cards/e/E4/地下湖_E4-87／91_U.png → cards/e/E4/地底湖_E4-87／91_U.png"
+  }
+ ]
+}
