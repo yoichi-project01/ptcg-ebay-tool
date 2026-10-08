@@ -62,8 +62,11 @@ set.k.forEach((k, i) => {
   if (at < 0) throw new Error(`画像のファイル名の形が想定と違います: ${rel}`);
   const newRel = dir + fileNamePart(r.after) + file.slice(at);
   if (newRel !== rel) {
-    if (fs.existsSync(path.join(ROOT, "public", newRel))) throw new Error(`変更先のファイルが既にあります: ${newRel}`);
-    fs.renameSync(path.join(ROOT, "public", rel), path.join(ROOT, "public", newRel));
+    const from = path.join(ROOT, "public", rel), to = path.join(ROOT, "public", newRel);
+    // 途中で止まった前回の実行で移し済み（元が無く移し先がある）なら対応表だけ合わせる。大文字小文字だけの違い（r団→R団）は Windows では同じファイルに見える
+    const moved = !fs.existsSync(from) && fs.existsSync(to);
+    if (!moved && fs.existsSync(to) && newRel.toLowerCase() !== rel.toLowerCase()) throw new Error(`変更先のファイルが既にあります: ${newRel}`);
+    if (!moved) fs.renameSync(from, to);
     index[key] = newRel; hashRenames.push({ key, to: newRel }); r.imageFile = `${rel} → ${newRel}`;
   }
 });
