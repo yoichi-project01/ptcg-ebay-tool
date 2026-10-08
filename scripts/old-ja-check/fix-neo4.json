@@ -1,0 +1,709 @@
+{
+ "set": "neo4",
+ "fixed": 78,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "neo4-004",
+   "before": "キマワリ",
+   "pcgSearch": "やさしいキマワリ",
+   "pokemonWiki": "やさしいキマワリ",
+   "after": "やさしいキマワリ",
+   "status": "直す",
+   "image": "cards/neo/neo4/キマワリ_neo4-004／113_C.png → cards/neo/neo4/やさしいキマワリ_neo4-004／113_C.png"
+  },
+  {
+   "id": "neo4-006",
+   "before": "モルフォン",
+   "pcgSearch": "やさしいモルフォン",
+   "pokemonWiki": "やさしいモルフォン",
+   "after": "やさしいモルフォン",
+   "status": "直す",
+   "image": "cards/neo/neo4/モルフォン_neo4-006／113_U.png → cards/neo/neo4/やさしいモルフォン_neo4-006／113_U.png"
+  },
+  {
+   "id": "neo4-008",
+   "before": "フォレトス",
+   "pcgSearch": "わるいフォレトス",
+   "pokemonWiki": "わるいフォレトス",
+   "after": "わるいフォレトス",
+   "status": "直す",
+   "image": "cards/neo/neo4/フォレトス_neo4-008／113_U.png → cards/neo/neo4/わるいフォレトス_neo4-008／113_U.png"
+  },
+  {
+   "id": "neo4-010",
+   "before": "軽いレディアン",
+   "pcgSearch": "やさしいレディアン",
+   "pokemonWiki": "やさしいレディアン",
+   "after": "やさしいレディアン",
+   "status": "直す",
+   "image": "cards/neo/neo4/軽いレディアン_neo4-010／113_R.png → cards/neo/neo4/やさしいレディアン_neo4-010／113_R.png"
+  },
+  {
+   "id": "neo4-011",
+   "before": "ダークアリアドス",
+   "pcgSearch": "わるいアリアドス",
+   "pokemonWiki": "わるいアリアドス",
+   "after": "わるいアリアドス",
+   "status": "直す",
+   "image": "cards/neo/neo4/ダークアリアドス_neo4-011／113_R.png → cards/neo/neo4/わるいアリアドス_neo4-011／113_R.png"
+  },
+  {
+   "id": "neo4-012",
+   "before": "暗いクロバット",
+   "pcgSearch": "わるいクロバット",
+   "pokemonWiki": "わるいクロバット",
+   "after": "わるいクロバット",
+   "status": "直す",
+   "image": "cards/neo/neo4/暗いクロバット_neo4-012／113_R.png → cards/neo/neo4/わるいクロバット_neo4-012／113_R.png"
+  },
+  {
+   "id": "neo4-013",
+   "before": "セレビィ",
+   "pcgSearch": "ひかるセレビィ",
+   "pokemonWiki": "ひかるセレビィ",
+   "after": "ひかるセレビィ",
+   "status": "直す",
+   "image": "cards/neo/neo4/セレビィ_neo4-013／113_R.png → cards/neo/neo4/ひかるセレビィ_neo4-013／113_R.png"
+  },
+  {
+   "id": "neo4-018",
+   "before": "キュウコン",
+   "pcgSearch": "やさしいキュウコン",
+   "pokemonWiki": "やさしいキュウコン",
+   "after": "やさしいキュウコン",
+   "status": "直す",
+   "image": "cards/neo/neo4/キュウコン_neo4-018／113_U.png → cards/neo/neo4/やさしいキュウコン_neo4-018／113_U.png"
+  },
+  {
+   "id": "neo4-019",
+   "before": "ブースター",
+   "pcgSearch": "やさしいブースター",
+   "pokemonWiki": "やさしいブースター",
+   "after": "やさしいブースター",
+   "status": "直す",
+   "image": "cards/neo/neo4/ブースター_neo4-019／113_U.png → cards/neo/neo4/やさしいブースター_neo4-019／113_U.png"
+  },
+  {
+   "id": "neo4-020",
+   "before": "マグマラシ",
+   "pcgSearch": "わるいマグマラシ",
+   "pokemonWiki": "わるいマグマラシ",
+   "after": "わるいマグマラシ",
+   "status": "直す",
+   "image": "cards/neo/neo4/マグマラシ_neo4-020／113_U.png → cards/neo/neo4/わるいマグマラシ_neo4-020／113_U.png"
+  },
+  {
+   "id": "neo4-021",
+   "before": "ウインディ",
+   "pcgSearch": "やさしいウインディ",
+   "pokemonWiki": "やさしいウインディ",
+   "after": "やさしいウインディ",
+   "status": "直す",
+   "image": "cards/neo/neo4/ウインディ_neo4-021／113_R.png → cards/neo/neo4/やさしいウインディ_neo4-021／113_R.png"
+  },
+  {
+   "id": "neo4-022",
+   "before": "バクフーン",
+   "pcgSearch": "わるいバクフーン",
+   "pokemonWiki": "わるいバクフーン",
+   "after": "わるいバクフーン",
+   "status": "直す",
+   "image": "cards/neo/neo4/バクフーン_neo4-022／113_R.png → cards/neo/neo4/わるいバクフーン_neo4-022／113_R.png"
+  },
+  {
+   "id": "neo4-023",
+   "before": "ダークマグカルゴ",
+   "pcgSearch": "わるいマグカルゴ",
+   "pokemonWiki": "わるいマグカルゴ",
+   "after": "わるいマグカルゴ",
+   "status": "直す",
+   "image": "cards/neo/neo4/ダークマグカルゴ_neo4-023／113_R.png → cards/neo/neo4/わるいマグカルゴ_neo4-023／113_R.png"
+  },
+  {
+   "id": "neo4-025",
+   "before": "リザードン",
+   "pcgSearch": "ひかるリザードン",
+   "pokemonWiki": "ひかるリザードン",
+   "after": "ひかるリザードン",
+   "status": "直す",
+   "image": "cards/neo/neo4/リザードン_neo4-025／113_R.png → cards/neo/neo4/ひかるリザードン_neo4-025／113_R.png"
+  },
+  {
+   "id": "neo4-032",
+   "before": "ライトゴルダック",
+   "pcgSearch": "やさしいゴルダック",
+   "pokemonWiki": "やさしいゴルダック",
+   "after": "やさしいゴルダック",
+   "status": "直す",
+   "image": "cards/neo/neo4/ライトゴルダック_neo4-032／113_U.png → cards/neo/neo4/やさしいゴルダック_neo4-032／113_U.png"
+  },
+  {
+   "id": "neo4-033",
+   "before": "ジュゴン",
+   "pcgSearch": "やさしいジュゴン",
+   "pokemonWiki": "やさしいジュゴン",
+   "after": "やさしいジュゴン",
+   "status": "直す",
+   "image": "cards/neo/neo4/ジュゴン_neo4-033／113_U.png → cards/neo/neo4/やさしいジュゴン_neo4-033／113_U.png"
+  },
+  {
+   "id": "neo4-034",
+   "before": "シャワーズ",
+   "pcgSearch": "やさしいシャワーズ",
+   "pokemonWiki": "やさしいシャワーズ",
+   "after": "やさしいシャワーズ",
+   "status": "直す",
+   "image": "cards/neo/neo4/シャワーズ_neo4-034／113_U.png → cards/neo/neo4/やさしいシャワーズ_neo4-034／113_U.png"
+  },
+  {
+   "id": "neo4-035",
+   "before": "オムナイト",
+   "pcgSearch": "わるいオムナイト",
+   "pokemonWiki": "わるいオムナイト",
+   "after": "わるいオムナイト",
+   "status": "直す",
+   "image": "cards/neo/neo4/オムナイト_neo4-035／113_U.png → cards/neo/neo4/わるいオムナイト_neo4-035／113_U.png"
+  },
+  {
+   "id": "neo4-036",
+   "before": "アリゲイツ",
+   "pcgSearch": "わるいアリゲイツ",
+   "pokemonWiki": "わるいアリゲイツ",
+   "after": "わるいアリゲイツ",
+   "status": "直す",
+   "image": "cards/neo/neo4/アリゲイツ_neo4-036／113_U.png → cards/neo/neo4/わるいアリゲイツ_neo4-036／113_U.png"
+  },
+  {
+   "id": "neo4-037",
+   "before": "オクタン",
+   "pcgSearch": "わるいオクタン",
+   "pokemonWiki": "わるいオクタン",
+   "after": "わるいオクタン",
+   "status": "直す",
+   "image": "cards/neo/neo4/オクタン_neo4-037／113_U.png → cards/neo/neo4/わるいオクタン_neo4-037／113_U.png"
+  },
+  {
+   "id": "neo4-038",
+   "before": "オムスター",
+   "pcgSearch": "わるいオムスター",
+   "pokemonWiki": "わるいオムスター",
+   "after": "わるいオムスター",
+   "status": "直す",
+   "image": "cards/neo/neo4/オムスター_neo4-038／113_R.png → cards/neo/neo4/わるいオムスター_neo4-038／113_R.png"
+  },
+  {
+   "id": "neo4-039",
+   "before": "オーダイル",
+   "pcgSearch": "わるいオーダイル",
+   "pokemonWiki": "わるいオーダイル",
+   "after": "わるいオーダイル",
+   "status": "直す",
+   "image": "cards/neo/neo4/オーダイル_neo4-039／113_R.png → cards/neo/neo4/わるいオーダイル_neo4-039／113_R.png"
+  },
+  {
+   "id": "neo4-040",
+   "before": "マリルリ",
+   "pcgSearch": "やさしいマリルリ",
+   "pokemonWiki": "やさしいマリルリ",
+   "after": "やさしいマリルリ",
+   "status": "直す",
+   "image": "cards/neo/neo4/マリルリ_neo4-040／113_R.png → cards/neo/neo4/やさしいマリルリ_neo4-040／113_R.png"
+  },
+  {
+   "id": "neo4-041",
+   "before": "イノムー",
+   "pcgSearch": "やさしいイノムー",
+   "pokemonWiki": "やさしいイノムー",
+   "after": "やさしいイノムー",
+   "status": "直す",
+   "image": "cards/neo/neo4/イノムー_neo4-041／113_R.png → cards/neo/neo4/やさしいイノムー_neo4-041／113_R.png"
+  },
+  {
+   "id": "neo4-043",
+   "before": "サンダース",
+   "pcgSearch": "やさしいサンダース",
+   "pokemonWiki": "やさしいサンダース",
+   "after": "やさしいサンダース",
+   "status": "直す",
+   "image": "cards/neo/neo4/サンダース_neo4-043／113_U.png → cards/neo/neo4/やさしいサンダース_neo4-043／113_U.png"
+  },
+  {
+   "id": "neo4-044",
+   "before": "モココ",
+   "pcgSearch": "わるいモココ",
+   "pokemonWiki": "わるいモココ",
+   "after": "わるいモココ",
+   "status": "直す",
+   "image": "cards/neo/neo4/モココ_neo4-044／113_U.png → cards/neo/neo4/わるいモココ_neo4-044／113_U.png"
+  },
+  {
+   "id": "neo4-045",
+   "before": "ランターン",
+   "pcgSearch": "やさしいランターン",
+   "pokemonWiki": "やさしいランターン",
+   "after": "やさしいランターン",
+   "status": "直す",
+   "image": "cards/neo/neo4/ランターン_neo4-045／113_R.png → cards/neo/neo4/やさしいランターン_neo4-045／113_R.png"
+  },
+  {
+   "id": "neo4-046",
+   "before": "デンリュウ",
+   "pcgSearch": "わるいデンリュウ",
+   "pokemonWiki": "わるいデンリュウ",
+   "after": "わるいデンリュウ",
+   "status": "直す",
+   "image": "cards/neo/neo4/デンリュウ_neo4-046／113_R.png → cards/neo/neo4/わるいデンリュウ_neo4-046／113_R.png"
+  },
+  {
+   "id": "neo4-047",
+   "before": "ライチュウ",
+   "pcgSearch": "ひかるライチュウ",
+   "pokemonWiki": "ひかるライチュウ",
+   "after": "ひかるライチュウ",
+   "status": "直す",
+   "image": "cards/neo/neo4/ライチュウ_neo4-047／113_R.png → cards/neo/neo4/ひかるライチュウ_neo4-047／113_R.png"
+  },
+  {
+   "id": "neo4-050",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[L]",
+   "pokemonWiki": "アンノーンL",
+   "after": "アンノーン[L]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-050／113_C.png → cards/neo/neo4/アンノーン[L]_neo4-050／113_C.png"
+  },
+  {
+   "id": "neo4-051",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[S]",
+   "pokemonWiki": "アンノーンS",
+   "after": "アンノーン[S]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-051／113_C.png → cards/neo/neo4/アンノーン[S]_neo4-051／113_C.png"
+  },
+  {
+   "id": "neo4-052",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[T]",
+   "pokemonWiki": "アンノーンT",
+   "after": "アンノーン[T]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-052／113_C.png → cards/neo/neo4/アンノーン[T]_neo4-052／113_C.png"
+  },
+  {
+   "id": "neo4-053",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[V]",
+   "pokemonWiki": "アンノーンV",
+   "after": "アンノーン[V]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-053／113_C.png → cards/neo/neo4/アンノーン[V]_neo4-053／113_C.png"
+  },
+  {
+   "id": "neo4-054",
+   "before": "ヤドラン",
+   "pcgSearch": "やさしいヤドラン",
+   "pokemonWiki": "やさしいヤドラン",
+   "after": "やさしいヤドラン",
+   "status": "直す",
+   "image": "cards/neo/neo4/ヤドラン_neo4-054／113_U.png → cards/neo/neo4/やさしいヤドラン_neo4-054／113_U.png"
+  },
+  {
+   "id": "neo4-055",
+   "before": "ゴースト",
+   "pcgSearch": "わるいゴースト",
+   "pokemonWiki": "わるいゴースト",
+   "after": "わるいゴースト",
+   "status": "直す",
+   "image": "cards/neo/neo4/ゴースト_neo4-055／113_U.png → cards/neo/neo4/わるいゴースト_neo4-055／113_U.png"
+  },
+  {
+   "id": "neo4-056",
+   "before": "ナッシー",
+   "pcgSearch": "わるいナッシー",
+   "pokemonWiki": "わるいナッシー",
+   "after": "わるいナッシー",
+   "status": "直す",
+   "image": "cards/neo/neo4/ナッシー_neo4-056／113_U.png → cards/neo/neo4/わるいナッシー_neo4-056／113_U.png"
+  },
+  {
+   "id": "neo4-057",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[C]",
+   "pokemonWiki": "アンノーンC",
+   "after": "アンノーン[C]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-057／113_U.png → cards/neo/neo4/アンノーン[C]_neo4-057／113_U.png"
+  },
+  {
+   "id": "neo4-058",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[P]",
+   "pokemonWiki": "アンノーンP",
+   "after": "アンノーン[P]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-058／113_U.png → cards/neo/neo4/アンノーン[P]_neo4-058／113_U.png"
+  },
+  {
+   "id": "neo4-059",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[Q]",
+   "pokemonWiki": "アンノーンQ",
+   "after": "アンノーン[Q]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-059／113_U.png → cards/neo/neo4/アンノーン[Q]_neo4-059／113_U.png"
+  },
+  {
+   "id": "neo4-060",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[Z]",
+   "pokemonWiki": "アンノーンZ",
+   "after": "アンノーン[Z]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-060／113_U.png → cards/neo/neo4/アンノーン[Z]_neo4-060／113_U.png"
+  },
+  {
+   "id": "neo4-061",
+   "before": "ヤドキング",
+   "pcgSearch": "わるいヤドキング",
+   "pokemonWiki": "わるいヤドキング",
+   "after": "わるいヤドキング",
+   "status": "直す",
+   "image": "cards/neo/neo4/ヤドキング_neo4-061／113_R.png → cards/neo/neo4/わるいヤドキング_neo4-061／113_R.png"
+  },
+  {
+   "id": "neo4-062",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[G]",
+   "pokemonWiki": "アンノーンG",
+   "after": "アンノーン[G]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-062／113_R.png → cards/neo/neo4/アンノーン[G]_neo4-062／113_R.png"
+  },
+  {
+   "id": "neo4-063",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[H]",
+   "pokemonWiki": "アンノーンH",
+   "after": "アンノーン[H]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-063／113_R.png → cards/neo/neo4/アンノーン[H]_neo4-063／113_R.png"
+  },
+  {
+   "id": "neo4-064",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[W]",
+   "pokemonWiki": "アンノーンW",
+   "after": "アンノーン[W]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-064／113_R.png → cards/neo/neo4/アンノーン[W]_neo4-064／113_R.png"
+  },
+  {
+   "id": "neo4-065",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[X]",
+   "pokemonWiki": "アンノーンX",
+   "after": "アンノーン[X]",
+   "status": "直す",
+   "image": "cards/neo/neo4/アンノーン_neo4-065／113_R.png → cards/neo/neo4/アンノーン[X]_neo4-065／113_R.png"
+  },
+  {
+   "id": "neo4-066",
+   "before": "ゲンガー",
+   "pcgSearch": "わるいゲンガー",
+   "pokemonWiki": "わるいゲンガー",
+   "after": "わるいゲンガー",
+   "status": "直す",
+   "image": "cards/neo/neo4/ゲンガー_neo4-066／113_R.png → cards/neo/neo4/わるいゲンガー_neo4-066／113_R.png"
+  },
+  {
+   "id": "neo4-067",
+   "before": "エーフィ",
+   "pcgSearch": "わるいエーフィ",
+   "pokemonWiki": "わるいエーフィ",
+   "after": "わるいエーフィ",
+   "status": "直す",
+   "image": "cards/neo/neo4/エーフィ_neo4-067／113_R.png → cards/neo/neo4/わるいエーフィ_neo4-067／113_R.png"
+  },
+  {
+   "id": "neo4-068",
+   "before": "輝くミュウツー",
+   "pcgSearch": "ひかるミュウツー",
+   "pokemonWiki": "ひかるミュウツー",
+   "after": "ひかるミュウツー",
+   "status": "直す",
+   "image": "cards/neo/neo4/輝くミュウツー_neo4-068／113_R.png → cards/neo/neo4/ひかるミュウツー_neo4-068／113_R.png"
+  },
+  {
+   "id": "neo4-074",
+   "before": "ゴーリキー",
+   "pcgSearch": "やさしいゴーリキー",
+   "pokemonWiki": "やさしいゴーリキー",
+   "after": "やさしいゴーリキー",
+   "status": "直す",
+   "image": "cards/neo/neo4/ゴーリキー_neo4-074／113_U.png → cards/neo/neo4/やさしいゴーリキー_neo4-074／113_U.png"
+  },
+  {
+   "id": "neo4-076",
+   "before": "サナギラス",
+   "pcgSearch": "わるいサナギラス",
+   "pokemonWiki": "わるいサナギラス",
+   "after": "わるいサナギラス",
+   "status": "直す",
+   "image": "cards/neo/neo4/サナギラス_neo4-076／113_U.png → cards/neo/neo4/わるいサナギラス_neo4-076／113_U.png"
+  },
+  {
+   "id": "neo4-077",
+   "before": "カイリキー",
+   "pcgSearch": "やさしいカイリキー",
+   "pokemonWiki": "やさしいカイリキー",
+   "after": "やさしいカイリキー",
+   "status": "直す",
+   "image": "cards/neo/neo4/カイリキー_neo4-077／113_R.png → cards/neo/neo4/やさしいカイリキー_neo4-077／113_R.png"
+  },
+  {
+   "id": "neo4-078",
+   "before": "ダークドンファン",
+   "pcgSearch": "わるいドンファン",
+   "pokemonWiki": "わるいドンファン",
+   "after": "わるいドンファン",
+   "status": "直す",
+   "image": "cards/neo/neo4/ダークドンファン_neo4-078／113_R.png → cards/neo/neo4/わるいドンファン_neo4-078／113_R.png"
+  },
+  {
+   "id": "neo4-079",
+   "before": "バンギラス",
+   "pcgSearch": "わるいバンギラス",
+   "pokemonWiki": "わるいバンギラス",
+   "after": "わるいバンギラス",
+   "status": "直す",
+   "image": "cards/neo/neo4/バンギラス_neo4-079／113_R.png → cards/neo/neo4/わるいバンギラス_neo4-079／113_R.png"
+  },
+  {
+   "id": "neo4-080",
+   "before": "カブトプス",
+   "pcgSearch": "ひかるカブトプス",
+   "pokemonWiki": "ひかるカブトプス",
+   "after": "ひかるカブトプス",
+   "status": "直す",
+   "image": "cards/neo/neo4/カブトプス_neo4-080／113_R.png → cards/neo/neo4/ひかるカブトプス_neo4-080／113_R.png"
+  },
+  {
+   "id": "neo4-082",
+   "before": "バンギラス",
+   "pcgSearch": "ひかるバンギラス",
+   "pokemonWiki": "ひかるバンギラス",
+   "after": "ひかるバンギラス",
+   "status": "直す",
+   "image": "cards/neo/neo4/バンギラス_neo4-082／113_R.png → cards/neo/neo4/ひかるバンギラス_neo4-082／113_R.png"
+  },
+  {
+   "id": "neo4-083",
+   "before": "ハッサム",
+   "pcgSearch": "わるいハッサム",
+   "pokemonWiki": "わるいハッサム",
+   "after": "わるいハッサム",
+   "status": "直す",
+   "image": "cards/neo/neo4/ハッサム_neo4-083／113_R.png → cards/neo/neo4/わるいハッサム_neo4-083／113_R.png"
+  },
+  {
+   "id": "neo4-084",
+   "before": "ハガネール",
+   "pcgSearch": "ひかるハガネール",
+   "pokemonWiki": "ひかるハガネール",
+   "after": "ひかるハガネール",
+   "status": "直す",
+   "image": "cards/neo/neo4/ハガネール_neo4-084／113_R.png → cards/neo/neo4/ひかるハガネール_neo4-084／113_R.png"
+  },
+  {
+   "id": "neo4-090",
+   "before": "プクリン",
+   "pcgSearch": "やさしいプクリン",
+   "pokemonWiki": "やさしいプクリン",
+   "after": "やさしいプクリン",
+   "status": "直す",
+   "image": "cards/neo/neo4/プクリン_neo4-090／113_U.png → cards/neo/neo4/やさしいプクリン_neo4-090／113_U.png"
+  },
+  {
+   "id": "neo4-091",
+   "before": "プクリン",
+   "pcgSearch": "わるいプクリン",
+   "pokemonWiki": "わるいプクリン",
+   "after": "わるいプクリン",
+   "status": "直す",
+   "image": "cards/neo/neo4/プクリン_neo4-091／113_U.png → cards/neo/neo4/わるいプクリン_neo4-091／113_U.png"
+  },
+  {
+   "id": "neo4-093",
+   "before": "ハクリュー",
+   "pcgSearch": "やさしいハクリュー",
+   "pokemonWiki": "やさしいハクリュー",
+   "after": "やさしいハクリュー",
+   "status": "直す",
+   "image": "cards/neo/neo4/ハクリュー_neo4-093／113_R.png → cards/neo/neo4/やさしいハクリュー_neo4-093／113_R.png"
+  },
+  {
+   "id": "neo4-094",
+   "before": "カイリュー",
+   "pcgSearch": "やさしいカイリュー",
+   "pokemonWiki": "やさしいカイリュー",
+   "after": "やさしいカイリュー",
+   "status": "直す",
+   "image": "cards/neo/neo4/カイリュー_neo4-094／113_R.png → cards/neo/neo4/やさしいカイリュー_neo4-094／113_R.png"
+  },
+  {
+   "id": "neo4-095",
+   "before": "トゲチック",
+   "pcgSearch": "やさしいトゲチック",
+   "pokemonWiki": "やさしいトゲチック",
+   "after": "やさしいトゲチック",
+   "status": "直す",
+   "image": "cards/neo/neo4/トゲチック_neo4-095／113_R.png → cards/neo/neo4/やさしいトゲチック_neo4-095／113_R.png"
+  },
+  {
+   "id": "neo4-096",
+   "before": "リングマ",
+   "pcgSearch": "わるいリングマ",
+   "pokemonWiki": "わるいリングマ",
+   "after": "わるいリングマ",
+   "status": "直す",
+   "image": "cards/neo/neo4/リングマ_neo4-096／113_R.png → cards/neo/neo4/わるいリングマ_neo4-096／113_R.png"
+  },
+  {
+   "id": "neo4-097",
+   "before": "ポリゴン２",
+   "pcgSearch": "わるいポリゴン2",
+   "pokemonWiki": "わるいポリゴン2",
+   "after": "わるいポリゴン2",
+   "status": "直す",
+   "image": "cards/neo/neo4/ポリゴン２_neo4-097／113_R.png → cards/neo/neo4/わるいポリゴン2_neo4-097／113_R.png"
+  },
+  {
+   "id": "neo4-098",
+   "before": "ヨルノズク",
+   "pcgSearch": "ひかるヨルノズク",
+   "pokemonWiki": "ひかるヨルノズク",
+   "after": "ひかるヨルノズク",
+   "status": "直す",
+   "image": "cards/neo/neo4/ヨルノズク_neo4-098／113_R.png → cards/neo/neo4/ひかるヨルノズク_neo4-098／113_R.png"
+  },
+  {
+   "id": "neo4-099",
+   "before": "粉末を癒します",
+   "pcgSearch": "ばんのうごな",
+   "pokemonWiki": "ばんのうごな",
+   "after": "ばんのうごな",
+   "status": "直す",
+   "image": "cards/neo/neo4/粉末を癒します_neo4-099／113_C.png → cards/neo/neo4/ばんのうごな_neo4-099／113_C.png"
+  },
+  {
+   "id": "neo4-100",
+   "before": "ビルからのメール",
+   "pcgSearch": "マサキのメール",
+   "pokemonWiki": "マサキのメール",
+   "after": "マサキのメール",
+   "status": "直す",
+   "image": "cards/neo/neo4/ビルからのメール_neo4-100／113_C.png → cards/neo/neo4/マサキのメール_neo4-100／113_C.png"
+  },
+  {
+   "id": "neo4-102",
+   "before": "エネルギー増幅器",
+   "pcgSearch": "エネルギー増幅装置",
+   "pokemonWiki": "エネルギー増幅装置",
+   "after": "エネルギー増幅装置",
+   "status": "直す",
+   "image": "cards/neo/neo4/エネルギー増幅器_neo4-102／113_U.png → cards/neo/neo4/エネルギー増幅装置_neo4-102／113_U.png"
+  },
+  {
+   "id": "neo4-103",
+   "before": "反撃の爪",
+   "pcgSearch": "はんげきのツメ",
+   "pokemonWiki": "はんげきのツメ",
+   "after": "はんげきのツメ",
+   "status": "直す",
+   "image": "cards/neo/neo4/反撃の爪_neo4-103／113_U.png → cards/neo/neo4/はんげきのツメ_neo4-103／113_U.png"
+  },
+  {
+   "id": "neo4-104",
+   "before": "拡大鏡",
+   "pcgSearch": "ピントレンズ",
+   "pokemonWiki": "ピントレンズ",
+   "after": "ピントレンズ",
+   "status": "直す",
+   "image": "cards/neo/neo4/拡大鏡_neo4-104／113_U.png → cards/neo/neo4/ピントレンズ_neo4-104／113_U.png"
+  },
+  {
+   "id": "neo4-105",
+   "before": "ポケモンパーソナリティテスト",
+   "pcgSearch": "ポケモン性格判定",
+   "pokemonWiki": "ポケモン性格判定",
+   "after": "ポケモン性格判定",
+   "status": "直す",
+   "image": "cards/neo/neo4/ポケモンパーソナリティテスト_neo4-105／113_U.png → cards/neo/neo4/ポケモン性格判定_neo4-105／113_U.png"
+  },
+  {
+   "id": "neo4-107",
+   "before": "チームロケットの邪悪な行為",
+   "pcgSearch": "ロケット団の暗躍",
+   "pokemonWiki": "ロケット団の暗躍",
+   "after": "ロケット団の暗躍",
+   "status": "直す",
+   "image": "cards/neo/neo4/チームロケットの邪悪な行為_neo4-107／113_U.png → cards/neo/neo4/ロケット団の暗躍_neo4-107／113_U.png"
+  },
+  {
+   "id": "neo4-108",
+   "before": "思考ウェーブマシン",
+   "pcgSearch": "怪電波マシーン",
+   "pokemonWiki": "怪電波マシーン",
+   "after": "怪電波マシーン",
+   "status": "直す",
+   "image": "cards/neo/neo4/思考ウェーブマシン_neo4-108／113_R.png → cards/neo/neo4/怪電波マシーン_neo4-108／113_R.png"
+  },
+  {
+   "id": "neo4-109",
+   "before": "exp。共有",
+   "pcgSearch": "学習装置",
+   "pokemonWiki": "学習装置",
+   "after": "学習装置",
+   "status": "直す",
+   "image": "cards/neo/neo4/exp。共有_neo4-109／113_R.png → cards/neo/neo4/学習装置_neo4-109／113_R.png"
+  },
+  {
+   "id": "neo4-110",
+   "before": "壊れた地上ジム",
+   "pcgSearch": "でこぼこジム",
+   "pokemonWiki": "でこぼこジム",
+   "after": "でこぼこジム",
+   "status": "直す",
+   "image": "cards/neo/neo4/壊れた地上ジム_neo4-110／113_R.png → cards/neo/neo4/でこぼこジム_neo4-110／113_R.png"
+  },
+  {
+   "id": "neo4-111",
+   "before": "詐欺師オーク教授の発明",
+   "pcgSearch": "にせオーキドの発明",
+   "pokemonWiki": "にせオーキドの発明",
+   "after": "にせオーキドの発明",
+   "status": "直す",
+   "image": "cards/neo/neo4/詐欺師オーク教授の発明_neo4-111／113_R.png → cards/neo/neo4/にせオーキドの発明_neo4-111／113_R.png"
+  },
+  {
+   "id": "neo4-112",
+   "before": "ラジオタワー",
+   "pcgSearch": "ラジオとう",
+   "pokemonWiki": "ラジオとう",
+   "after": "ラジオとう",
+   "status": "直す",
+   "image": "cards/neo/neo4/ラジオタワー_neo4-112／113_R.png → cards/neo/neo4/ラジオとう_neo4-112／113_R.png"
+  },
+  {
+   "id": "neo4-113",
+   "before": "奇跡のエネルギー",
+   "pcgSearch": "ミラクルエネルギー",
+   "pokemonWiki": "ミラクルエネルギー",
+   "after": "ミラクルエネルギー",
+   "status": "直す",
+   "image": "cards/neo/neo4/奇跡のエネルギー_neo4-113／113_R.png → cards/neo/neo4/ミラクルエネルギー_neo4-113／113_R.png"
+  }
+ ]
+}
