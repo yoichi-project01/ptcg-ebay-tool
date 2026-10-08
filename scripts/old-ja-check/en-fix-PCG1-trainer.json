@@ -1,0 +1,71 @@
+{
+ "set": "PCG1",
+ "kind": "trainer",
+ "fixed": 7,
+ "rows": [
+  {
+   "id": "PCG1-075",
+   "ja": "スーパーボール",
+   "bulbapedia": "Great Ball",
+   "bulbapediaJa": "スーパーボール",
+   "after": "Great Ball",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-076",
+   "ja": "バトルサーチャー",
+   "bulbapedia": "VS Seeker",
+   "bulbapediaJa": "バトルサーチャー",
+   "after": "VS Seeker",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-077",
+   "ja": "ポケモン図鑑HANDY909",
+   "bulbapedia": "PokéDex HANDY909",
+   "bulbapediaJa": "ポケモン図鑑HANDY909",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "PCG1-078",
+   "ja": "オーキドはかせの研究",
+   "bulbapedia": "Professor Oak's Research",
+   "bulbapediaJa": "オーキドはかせの研究",
+   "after": "Professor Oak's Research",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-079",
+   "ja": "ニシキのネットワーク",
+   "bulbapedia": "Celio's Network",
+   "bulbapediaJa": "ニシキのネットワーク",
+   "after": "Celio's Network",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-080",
+   "ja": "マサキのメンテナンス",
+   "bulbapedia": "Bill's Maintenance",
+   "bulbapediaJa": "マサキのメンテナンス",
+   "after": "Bill's Maintenance",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-081",
+   "ja": "学習装置",
+   "bulbapedia": "EXP. ALL",
+   "bulbapediaJa": "学習装置",
+   "after": "EXP. ALL",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-082",
+   "ja": "おつきみ山",
+   "bulbapedia": "Mt. Moon",
+   "bulbapediaJa": "おつきみ山",
+   "after": "Mt. Moon",
+   "status": "直す"
+  }
+ ]
+}
