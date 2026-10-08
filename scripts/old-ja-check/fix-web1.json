@@ -1,0 +1,160 @@
+{
+ "set": "web1",
+ "fixed": 17,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "web1-015",
+   "before": "ビルのテレポーター",
+   "pcgSearch": "マサキの転送装置",
+   "pokemonWiki": "マサキの転送装置",
+   "after": "マサキの転送装置",
+   "status": "直す",
+   "image": "cards/web/web1/ビルのテレポーター_web1-15／48_C.png → cards/web/web1/マサキの転送装置_web1-15／48_C.png"
+  },
+  {
+   "id": "web1-016",
+   "before": "新しいpokedex",
+   "pcgSearch": "新ポケモン図鑑HANDY808",
+   "pokemonWiki": "新ポケモン図鑑HANDY808",
+   "after": "新ポケモン図鑑HANDY808",
+   "status": "直す",
+   "image": "cards/web/web1/新しいpokedex_web1-16／48_C.png → cards/web/web1/新ポケモン図鑑HANDY808_web1-16／48_C.png"
+  },
+  {
+   "id": "web1-017",
+   "before": "フシギソウ",
+   "pcgSearch": "わるいフシギソウ",
+   "pokemonWiki": "わるいフシギソウ",
+   "after": "わるいフシギソウ",
+   "status": "直す",
+   "image": "cards/web/web1/フシギソウ_web1-17／48_U.png → cards/web/web1/わるいフシギソウ_web1-17／48_U.png"
+  },
+  {
+   "id": "web1-021",
+   "before": "マタドガス",
+   "pcgSearch": "わるいマタドガス",
+   "pokemonWiki": "わるいマタドガス",
+   "after": "わるいマタドガス",
+   "status": "直す",
+   "image": "cards/web/web1/マタドガス_web1-21／48_U.png → cards/web/web1/わるいマタドガス_web1-21／48_U.png"
+  },
+  {
+   "id": "web1-022",
+   "before": "リザード",
+   "pcgSearch": "わるいリザード",
+   "pokemonWiki": "わるいリザード",
+   "after": "わるいリザード",
+   "status": "直す",
+   "image": "cards/web/web1/リザード_web1-22／48_U.png → cards/web/web1/わるいリザード_web1-22／48_U.png"
+  },
+  {
+   "id": "web1-024",
+   "before": "カメール",
+   "pcgSearch": "わるいカメール",
+   "pokemonWiki": "わるいカメール",
+   "after": "わるいカメール",
+   "status": "直す",
+   "image": "cards/web/web1/カメール_web1-24／48_U.png → cards/web/web1/わるいカメール_web1-24／48_U.png"
+  },
+  {
+   "id": "web1-025",
+   "before": "ピカチュウ",
+   "pcgSearch": "なみのりピカチュウ",
+   "pokemonWiki": "なみのりピカチュウ",
+   "after": "なみのりピカチュウ",
+   "status": "直す",
+   "image": "cards/web/web1/ピカチュウ_web1-25／48_U.png → cards/web/web1/なみのりピカチュウ_web1-25／48_U.png"
+  },
+  {
+   "id": "web1-027",
+   "before": "ユンゲラー",
+   "pcgSearch": "わるいユンゲラー",
+   "pokemonWiki": "わるいユンゲラー",
+   "after": "わるいユンゲラー",
+   "status": "直す",
+   "image": "cards/web/web1/ユンゲラー_web1-27／48_U.png → cards/web/web1/わるいユンゲラー_web1-27／48_U.png"
+  },
+  {
+   "id": "web1-028",
+   "before": "ヤドラン",
+   "pcgSearch": "わるいヤドラン",
+   "pokemonWiki": "わるいヤドラン",
+   "after": "わるいヤドラン",
+   "status": "直す",
+   "image": "cards/web/web1/ヤドラン_web1-28／48_U.png → cards/web/web1/わるいヤドラン_web1-28／48_U.png"
+  },
+  {
+   "id": "web1-030",
+   "before": "げんきのかたまり",
+   "pcgSearch": "元気のかたまり",
+   "pokemonWiki": "元気のかたまり",
+   "after": "元気のかたまり",
+   "status": "直す",
+   "image": "cards/web/web1/げんきのかたまり_web1-30／48_U.png → cards/web/web1/元気のかたまり_web1-30／48_U.png"
+  },
+  {
+   "id": "web1-031",
+   "before": "ハイパーデボルブスプレー",
+   "pcgSearch": "退化スプレーHYPER",
+   "pokemonWiki": "退化スプレーHYPER",
+   "after": "退化スプレーHYPER",
+   "status": "直す",
+   "image": "cards/web/web1/ハイパーデボルブスプレー_web1-31／48_U.png → cards/web/web1/退化スプレーHYPER_web1-31／48_U.png"
+  },
+  {
+   "id": "web1-032",
+   "before": "ポケモン再送信",
+   "pcgSearch": "ポケモン再転送",
+   "pokemonWiki": "ポケモン再転送",
+   "after": "ポケモン再転送",
+   "status": "直す",
+   "image": "cards/web/web1/ポケモン再送信_web1-32／48_U.png → cards/web/web1/ポケモン再転送_web1-32／48_U.png"
+  },
+  {
+   "id": "web1-037",
+   "before": "フーディン",
+   "pcgSearch": "わるいフーディン",
+   "pokemonWiki": "わるいフーディン",
+   "after": "わるいフーディン",
+   "status": "直す",
+   "image": "cards/web/web1/フーディン_web1-37／48_R.png → cards/web/web1/わるいフーディン_web1-37／48_R.png"
+  },
+  {
+   "id": "web1-040",
+   "before": "ロケットのスニーク攻撃",
+   "pcgSearch": "ロケット団のおねーさん",
+   "pokemonWiki": "ロケット団のおねーさん",
+   "after": "ロケット団のおねーさん",
+   "status": "直す",
+   "image": "cards/web/web1/ロケットのスニーク攻撃_web1-40／48_R.png → cards/web/web1/ロケット団のおねーさん_web1-40／48_R.png"
+  },
+  {
+   "id": "web1-041",
+   "before": "フシギバナ",
+   "pcgSearch": "わるいフシギバナ",
+   "pokemonWiki": "わるいフシギバナ",
+   "after": "わるいフシギバナ",
+   "status": "直す",
+   "image": "cards/web/web1/フシギバナ_web1-41／48_R.png → cards/web/web1/わるいフシギバナ_web1-41／48_R.png"
+  },
+  {
+   "id": "web1-042",
+   "before": "リザードン",
+   "pcgSearch": "わるいリザードン",
+   "pokemonWiki": "わるいリザードン",
+   "after": "わるいリザードン",
+   "status": "直す",
+   "image": "cards/web/web1/リザードン_web1-42／48_R.png → cards/web/web1/わるいリザードン_web1-42／48_R.png"
+  },
+  {
+   "id": "web1-044",
+   "before": "カメックス",
+   "pcgSearch": "わるいカメックス",
+   "pokemonWiki": "わるいカメックス",
+   "after": "わるいカメックス",
+   "status": "直す",
+   "image": "cards/web/web1/カメックス_web1-44／48_R.png → cards/web/web1/わるいカメックス_web1-44／48_R.png"
+  }
+ ]
+}
