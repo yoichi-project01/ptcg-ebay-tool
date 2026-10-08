@@ -2663,6 +2663,31 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   英語名の無い行（トレーナーズ等 150。旧裏のトレーナーズは日本版のイラストレーターが分からず従来の方法で照合できない）。
   TCGdex 英語版のカード名に無いのは Rocket's Celebi（日本だけ）と Kyogre/Groudon/Metagross ☆（TCGdex は "Kyogre Star"）の4件で、どれも規則と Bulbapedia が一致。
 
+### 対応（2026-10-08）: E1・VS1・web1・neo2・PMCG5/6 の日本語名、旧弾の英語名（ポケモン・トレーナーズ）
+
+- **日本語名**（`fix-old-ja-names.mjs`）: E1 12・VS1 137・web1 17（ポケモンWiki の番号付き一覧 `pokemonwiki-names.json` と pcg-search の一致）、
+  neo2-055〜057 の3件（ポケモンWiki・Bulbapedia とも遺跡の石版2種を1行にまとめているので 055 以降は1つ前の行と比べる。画像は pcg-search の 054〜057 と
+  バイト単位で同じで、ずれていたのは名前だけ）。残し: VS1-143 金属エネルギー・144 闇のエネルギー（pcg-search のページに番号が無く、ポケモンWiki にも無い）。
+- **PMCG5・PMCG6 の日本語名 140件**（`fix-pmcg-ja-names.mjs`、PMCG5 66・PMCG6 74）: PMCG はカードに番号が無く cardData の並びが pcg-search と違うため、
+  行の画像の SHA-256 を pcg-search の画像（`old-ja-check/pmcg-site.json`、`fetch-pmcg.mjs` で PMCG1〜6 の457件を取得）と照合して結び付けた。
+  直す条件: 一致するカードが1枚だけ・そのカードの名前が今の名前と同じポケモン（持ち主の「〜の」を除いて一致）・ポケモンWiki の一覧
+  （`pokemonwiki-pmcg.json`。PMCG5/6 の cardData はポケモンWiki・Bulbapedia と同じ並び）の同じ位置の名前と一致（画像を他の行と共有しない行は一覧のどこかにあればよい）。
+  主に持ち主の欠落・誤訳（ブロックの→タケシの、ミスティの→カスミの、ジョバンニの→サカキの、r団の→R団の 等）。
+- **PMCG の画像が別のカードになっている（未修正、重要）**: 画像の照合で、**名前は正しい（英語名・レアリティとも合う）のに画像が別のカード**の行が 70件見つかった
+  （`old-ja-check/pmcg-wrong-images.tsv`。PMCG1 21〔トレーナーズ 070〜095 と 019 ウィンディ＝ガーディの画像〕・PMCG3 1・PMCG4 43・PMCG5 3・PMCG6 2）。
+  画像を pcg-search の番号で取ったが、cardData の並びが pcg-search と違うため（例 PMCG4-002 ズバットの画像がわるいアーボック）。ほかに同じポケモンの LV 違い等で
+  画像を2行で共有している行がある（PMCG5 ナゾノクサ・コイル等、PMCG6 064/074 ドードー）。直すには行の名前で pcg-search のカードを選んで画像を取り直す（未着手）。
+  PMCG1・PMCG4 の名前は直していない（PMCG4 は pcg-search と名前の違いが無い。PMCG1 は画像で結び付けられず、ポケモン図鑑・ピッピにんぎょう・基本エネルギー5件
+  〔草のエネルギー・エネルギーとの戦い 等〕の名前が pcg-search と違うが、2つ目の情報源が無い）。
+- **英語名**（`fix-old-en-names.mjs`）: ポケモン VS1 101・web1 10・PMCG5 65・PMCG6 72（持ち主 Falkner's〜Lance's・Giovanni's を規則に追加。Bulbapedia の一覧
+  `bulbapedia-old-2.txt`・`bulbapedia-old-3.txt`〔Leaders' Stadium・Challenge from the Darkness〕と一致）。トレーナーズ・エネルギー（`--kind trainer`）171件:
+  直した日本語名が Bulbapedia の同じ番号のカードのページの日本語名（jname）と一致し、英語名が TCGdex 英語版のトレーナーズ・エネルギーにあるもの
+  （E1 12・E2 8・E3 8・E4 9・E5 11・neo1 20・neo2 4・neo3 5・neo4 11・VS1 9・web1 4・PCG1〜9 計66・PMCG5 1・PMCG6 2）。
+  残し: 日本語名の書き方が Bulbapedia と違う 9（悪エネルギー/特殊悪エネルギー・地底探険隊/地底探検隊 等）、TCGdex 英語版に無い 31（VS1 のジムリーダーのワザマシン27
+  など日本だけのカード）、Bulbapedia に日本語名が無い 1（E4-070 ちていのかせき）、なみのりピカチュウ（規則で作れない）。
+  VS1 は英語版が出ていないので VS1 のポケモンの英語名は TCGdex 英語版に無い（Bulbapedia の書き方）。PMCG5-043・PMCG6-034・075 は日本語名がもとから正しく英語名が
+  持ち主抜けのまま（対象外）。
+
 ---
 
 ## ファイル構成
