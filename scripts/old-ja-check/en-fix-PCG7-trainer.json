@@ -1,0 +1,47 @@
+{
+ "set": "PCG7",
+ "kind": "trainer",
+ "fixed": 5,
+ "rows": [
+  {
+   "id": "PCG7-048",
+   "ja": "ふしぎなアメ",
+   "bulbapedia": "Rare Candy",
+   "bulbapediaJa": "ふしぎなアメ",
+   "after": "Rare Candy",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-049",
+   "ja": "ホロンの化石",
+   "bulbapedia": "Holon Fossil",
+   "bulbapediaJa": "ホロンの化石",
+   "after": "Holon Fossil",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-050",
+   "ja": "ホロンの冒険家",
+   "bulbapedia": "Holon Adventurer",
+   "bulbapediaJa": "ホロンの冒険家",
+   "after": "Holon Adventurer",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-051",
+   "ja": "ホロンの湖",
+   "bulbapedia": "Holon Lake",
+   "bulbapediaJa": "ホロンの湖",
+   "after": "Holon Lake",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-052",
+   "ja": "δレインボーエネルギー",
+   "bulbapedia": "δ Rainbow Energy",
+   "bulbapediaJa": "δレインボーエネルギー",
+   "after": "δ Rainbow Energy",
+   "status": "直す"
+  }
+ ]
+}
