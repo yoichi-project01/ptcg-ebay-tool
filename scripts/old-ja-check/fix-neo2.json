@@ -1,106 +1,34 @@
 {
  "set": "neo2",
- "fixed": 8,
- "kept": 3,
+ "fixed": 3,
+ "kept": 0,
  "rows": [
-  {
-   "id": "neo2-021",
-   "before": "ライチュウ",
-   "pcgSearch": "わるいライチュウ",
-   "pokemonWiki": "わるいライチュウ",
-   "after": "わるいライチュウ",
-   "status": "直す",
-   "image": "cards/neo/neo2/ライチュウ_neo2-21／57_UR.png → cards/neo/neo2/わるいライチュウ_neo2-21／57_UR.png"
-  },
-  {
-   "id": "neo2-023",
-   "before": "アンノーン",
-   "pcgSearch": "アンノーン[I]",
-   "pokemonWiki": "アンノーンI",
-   "after": "アンノーン[I]",
-   "status": "直す",
-   "image": "cards/neo/neo2/アンノーン_neo2-23／57_C.png → cards/neo/neo2/アンノーン[I]_neo2-23／57_C.png"
-  },
-  {
-   "id": "neo2-025",
-   "before": "アンノーン",
-   "pcgSearch": "アンノーン[F]",
-   "pokemonWiki": "アンノーンF",
-   "after": "アンノーン[F]",
-   "status": "直す",
-   "image": "cards/neo/neo2/アンノーン_neo2-25／57_U.png → cards/neo/neo2/アンノーン[F]_neo2-25／57_U.png"
-  },
-  {
-   "id": "neo2-026",
-   "before": "アンノーン",
-   "pcgSearch": "アンノーン[D]",
-   "pokemonWiki": "アンノーンD",
-   "after": "アンノーン[D]",
-   "status": "直す",
-   "image": "cards/neo/neo2/アンノーン_neo2-26／57_U.png → cards/neo/neo2/アンノーン[D]_neo2-26／57_U.png"
-  },
-  {
-   "id": "neo2-027",
-   "before": "アンノーン",
-   "pcgSearch": "アンノーン[M]",
-   "pokemonWiki": "アンノーンM",
-   "after": "アンノーン[M]",
-   "status": "直す",
-   "image": "cards/neo/neo2/アンノーン_neo2-27／57_U.png → cards/neo/neo2/アンノーン[M]_neo2-27／57_U.png"
-  },
-  {
-   "id": "neo2-028",
-   "before": "アンノーン",
-   "pcgSearch": "アンノーン[U]",
-   "pokemonWiki": "アンノーンU",
-   "after": "アンノーン[U]",
-   "status": "直す",
-   "image": "cards/neo/neo2/アンノーン_neo2-28／57_U.png → cards/neo/neo2/アンノーン[U]_neo2-28／57_U.png"
-  },
-  {
-   "id": "neo2-030",
-   "before": "アンノーン",
-   "pcgSearch": "アンノーン[A]",
-   "pokemonWiki": "アンノーンA",
-   "after": "アンノーン[A]",
-   "status": "直す",
-   "image": "cards/neo/neo2/アンノーン_neo2-30／57_R.png → cards/neo/neo2/アンノーン[A]_neo2-30／57_R.png"
-  },
-  {
-   "id": "neo2-054",
-   "before": "壁を台無しにする[カブト]",
-   "pcgSearch": "遺跡の石版",
-   "pokemonWiki": "遺跡の石版",
-   "after": "遺跡の石版",
-   "status": "直す",
-   "image": "cards/neo/neo2/壁を台無しにする[カブト]_neo2-54／57_U.png → cards/neo/neo2/遺跡の石版_neo2-54／57_U.png"
-  },
   {
    "id": "neo2-055",
    "before": "化石卵",
    "pcgSearch": "遺跡の石版",
-   "pokemonWiki": "たまごの化石",
-   "after": "",
-   "status": "2つの情報源が一致しない",
-   "image": ""
+   "pokemonWiki": "遺跡の石版",
+   "after": "遺跡の石版",
+   "status": "直す",
+   "image": "cards/neo/neo2/化石卵_neo2-55／57_U.png → cards/neo/neo2/遺跡の石版_neo2-55／57_U.png"
   },
   {
    "id": "neo2-056",
    "before": "ハイパーデボルブスプレー",
    "pcgSearch": "たまごの化石",
-   "pokemonWiki": "退化スプレーHYPER",
-   "after": "",
-   "status": "2つの情報源が一致しない",
-   "image": ""
+   "pokemonWiki": "たまごの化石",
+   "after": "たまごの化石",
+   "status": "直す",
+   "image": "cards/neo/neo2/ハイパーデボルブスプレー_neo2-56／57_U.png → cards/neo/neo2/たまごの化石_neo2-56／57_U.png"
   },
   {
    "id": "neo2-057",
    "before": "壁を台無しにする[aerodactyl]",
    "pcgSearch": "退化スプレーHYPER",
-   "pokemonWiki": null,
-   "after": "",
-   "status": "2つの情報源が一致しない",
-   "image": ""
+   "pokemonWiki": "退化スプレーHYPER",
+   "after": "退化スプレーHYPER",
+   "status": "直す",
+   "image": "cards/neo/neo2/壁を台無しにする[aerodactyl]_neo2-57／57_U.png → cards/neo/neo2/退化スプレーHYPER_neo2-57／57_U.png"
   }
  ]
 }

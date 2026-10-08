@@ -31,7 +31,10 @@ const pwName = (num) => {
     const x = m[1]; const a = x.match(/\[\[([^\]|]+)\|([^\]]+)\]\]/); if (a) return a[2].trim();
     const b = x.match(/\[\[([^\]]+)\]\]/); return (b ? b[1] : x).trim();
   });
-  return names[parseInt(num, 10) - 1] ?? null;
+  // neo2: ポケモンWiki は遺跡の石版2種（pcg-search の 054・055、画像も別）を1行にまとめているので、055 以降は1つ前の行を見る（2026-10-08）
+  const n = parseInt(num, 10);
+  if (SET === "neo2" && n >= 55) return names[n - 2] ?? null;
+  return names[n - 1] ?? null;
 };
 const same = (a, b) => (a || "").normalize("NFKC").replace(/[\s\[\]]/g, "") === (b || "").normalize("NFKC").replace(/[\s\[\]]/g, "");
 // ファイル名に使う形（filename-utils の sanitize と同じ）: buildFileName の名前部分だけを取り出す
