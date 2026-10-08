@@ -1,0 +1,68 @@
+{
+ "set": "PMCG5",
+ "reasons": {
+  "名前を直し、画像を取り直す": 2,
+  "画像を取り直す": 1,
+  "名前を直す（画像は正しい）": 2
+ },
+ "plans": [
+  {
+   "id": "PMCG5-074",
+   "before": "慈善",
+   "en": "",
+   "bulbapedia": "Charity / お上品攻撃",
+   "imageNow": null,
+   "after": "お上品攻撃",
+   "site": "PMCG5-087",
+   "status": "名前を直し、画像を取り直す",
+   "sha": "dabd3e03bb64261ae61cbbdcff02c7fef384e83c26412fd34ec4fb1fee506d3a",
+   "file": "（なし） → cards/PMCG/PMCG5/お上品攻撃_PMCG5-74／96_R.png"
+  },
+  {
+   "id": "PMCG5-082",
+   "before": "礼儀作法",
+   "en": "",
+   "bulbapedia": "Good Manners / 礼儀作法",
+   "imageNow": "PMCG5-087 お上品攻撃",
+   "after": "礼儀作法",
+   "site": "PMCG5-088",
+   "status": "画像を取り直す",
+   "sha": "f9b1854b00bfc30e351dedc96961930f4226a54bf9f235ff37c751e3ca0f4a5f",
+   "file": "cards/PMCG/PMCG5/礼儀作法_PMCG5-82／96_U.png"
+  },
+  {
+   "id": "PMCG5-088",
+   "before": "マチスの秘策",
+   "en": "",
+   "bulbapedia": "Secret Mission / スパイ作戦",
+   "imageNow": "PMCG5-080 スパイ作戦",
+   "after": "スパイ作戦",
+   "site": "PMCG5-080",
+   "status": "名前を直す（画像は正しい）",
+   "file": "cards/PMCG/PMCG5/マチスの秘策_PMCG5-88／96_U.png → cards/PMCG/PMCG5/スパイ作戦_PMCG5-88／96_U.png"
+  },
+  {
+   "id": "PMCG5-091",
+   "before": "レジスタンスジム",
+   "en": "",
+   "bulbapedia": "Resistance Gym / 抵抗力低下ジム",
+   "imageNow": null,
+   "after": "抵抗力低下ジム",
+   "site": "PMCG5-093",
+   "status": "名前を直し、画像を取り直す",
+   "sha": "fbd96321b7961020b5e57b7ac294014615773e4844f4539626aa3905b68c28a7",
+   "file": "（なし） → cards/PMCG/PMCG5/抵抗力低下ジム_PMCG5-91／96_R.png"
+  },
+  {
+   "id": "PMCG5-093",
+   "before": "抵抗力低下ジム",
+   "en": "",
+   "bulbapedia": "Lt. Surge's Secret Plan / マチスの秘策",
+   "imageNow": "PMCG5-082 マチスの秘策",
+   "after": "マチスの秘策",
+   "site": "PMCG5-082",
+   "status": "名前を直す（画像は正しい）",
+   "file": "cards/PMCG/PMCG5/抵抗力低下ジム_PMCG5-93／96_R.png → cards/PMCG/PMCG5/マチスの秘策_PMCG5-93／96_R.png"
+  }
+ ]
+}
