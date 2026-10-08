@@ -1,0 +1,55 @@
+{
+ "set": "PCG8",
+ "kind": "trainer",
+ "fixed": 6,
+ "rows": [
+  {
+   "id": "PCG8-068",
+   "ja": "漂流者",
+   "bulbapedia": "Castaway",
+   "bulbapediaJa": "漂流者",
+   "after": "Castaway",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-069",
+   "ja": "思い出のみ",
+   "bulbapedia": "Memory Berry",
+   "bulbapediaJa": "思い出のみ",
+   "after": "Memory Berry",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-070",
+   "ja": "神秘のかけら",
+   "bulbapedia": "Mysterious Shard",
+   "bulbapediaJa": "神秘のかけら",
+   "after": "Mysterious Shard",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-071",
+   "ja": "水晶のかけら",
+   "bulbapedia": "Crystal Shard",
+   "bulbapediaJa": "水晶のかけら",
+   "after": "Crystal Shard",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-072",
+   "ja": "封印の結晶",
+   "bulbapedia": "Cessation Crystal",
+   "bulbapediaJa": "封印の結晶",
+   "after": "Cessation Crystal",
+   "status": "直す"
+  },
+  {
+   "id": "PCG8-075",
+   "ja": "Wレインボーエネルギー",
+   "bulbapedia": "Double Rainbow Energy",
+   "bulbapediaJa": "Ｗレインボーエネルギー",
+   "after": "Double Rainbow Energy",
+   "status": "直す"
+  }
+ ]
+}
