@@ -1,0 +1,106 @@
+{
+ "set": "neo3",
+ "fixed": 11,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "neo3-022",
+   "before": "コイキング",
+   "pcgSearch": "ひかるコイキング",
+   "pokemonWiki": "ひかるコイキング",
+   "after": "ひかるコイキング",
+   "status": "直す",
+   "image": "cards/neo/neo3/コイキング_neo3-22／57_UR.png → cards/neo/neo3/ひかるコイキング_neo3-22／57_UR.png"
+  },
+  {
+   "id": "neo3-023",
+   "before": "輝くギャラドス",
+   "pcgSearch": "ひかるギャラドス",
+   "pokemonWiki": "ひかるギャラドス",
+   "after": "ひかるギャラドス",
+   "status": "直す",
+   "image": "cards/neo/neo3/輝くギャラドス_neo3-23／57_UR.png → cards/neo/neo3/ひかるギャラドス_neo3-23／57_UR.png"
+  },
+  {
+   "id": "neo3-030",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[K]",
+   "pokemonWiki": "アンノーンK",
+   "after": "アンノーン[K]",
+   "status": "直す",
+   "image": "cards/neo/neo3/アンノーン_neo3-30／57_C.png → cards/neo/neo3/アンノーン[K]_neo3-30／57_C.png"
+  },
+  {
+   "id": "neo3-032",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[B]",
+   "pokemonWiki": "アンノーンB",
+   "after": "アンノーン[B]",
+   "status": "直す",
+   "image": "cards/neo/neo3/アンノーン_neo3-32／57_U.png → cards/neo/neo3/アンノーン[B]_neo3-32／57_U.png"
+  },
+  {
+   "id": "neo3-033",
+   "before": "アンノーン",
+   "pcgSearch": "アンノーン[Y]",
+   "pokemonWiki": "アンノーンY",
+   "after": "アンノーン[Y]",
+   "status": "直す",
+   "image": "cards/neo/neo3/アンノーン_neo3-33／57_U.png → cards/neo/neo3/アンノーン[Y]_neo3-33／57_U.png"
+  },
+  {
+   "id": "neo3-051",
+   "before": "ポリゴン２",
+   "pcgSearch": "ポリゴン2",
+   "pokemonWiki": "ポリゴン2",
+   "after": "ポリゴン2",
+   "status": "直す",
+   "image": "cards/neo/neo3/ポリゴン２_neo3-51／57_R.png → cards/neo/neo3/ポリゴン2_neo3-51／57_R.png"
+  },
+  {
+   "id": "neo3-053",
+   "before": "古い棒",
+   "pcgSearch": "ボロのつりざお",
+   "pokemonWiki": "ボロのつりざお",
+   "after": "ボロのつりざお",
+   "status": "直す",
+   "image": "cards/neo/neo3/古い棒_neo3-53／57_C.png → cards/neo/neo3/ボロのつりざお_neo3-53／57_C.png"
+  },
+  {
+   "id": "neo3-054",
+   "before": "ヒーリングフィールド",
+   "pcgSearch": "いやしの野原",
+   "pokemonWiki": "いやしの野原",
+   "after": "いやしの野原",
+   "status": "直す",
+   "image": "cards/neo/neo3/ヒーリングフィールド_neo3-54／57_U.png → cards/neo/neo3/いやしの野原_neo3-54／57_U.png"
+  },
+  {
+   "id": "neo3-055",
+   "before": "バルーンベリー",
+   "pcgSearch": "ふうせんのみ",
+   "pokemonWiki": "ふうせんのみ",
+   "after": "ふうせんのみ",
+   "status": "直す",
+   "image": "cards/neo/neo3/バルーンベリー_neo3-55／57_U.png → cards/neo/neo3/ふうせんのみ_neo3-55／57_U.png"
+  },
+  {
+   "id": "neo3-056",
+   "before": "ポケモンブリーダーフィールド",
+   "pcgSearch": "ポケモン育て屋夫婦",
+   "pokemonWiki": "ポケモン育て屋夫婦",
+   "after": "ポケモン育て屋夫婦",
+   "status": "直す",
+   "image": "cards/neo/neo3/ポケモンブリーダーフィールド_neo3-56／57_U.png → cards/neo/neo3/ポケモン育て屋夫婦_neo3-56／57_U.png"
+  },
+  {
+   "id": "neo3-057",
+   "before": "ロケットの隠れ家",
+   "pcgSearch": "ロケット団のアジト",
+   "pokemonWiki": "ロケット団のアジト",
+   "after": "ロケット団のアジト",
+   "status": "直す",
+   "image": "cards/neo/neo3/ロケットの隠れ家_neo3-57／57_U.png → cards/neo/neo3/ロケット団のアジト_neo3-57／57_U.png"
+  }
+ ]
+}
