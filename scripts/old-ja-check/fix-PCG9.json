@@ -1,0 +1,610 @@
+{
+ "set": "PCG9",
+ "fixed": 67,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "PCG9-001",
+   "before": "カビゴン",
+   "pcgSearch": "カビゴンδ-デルタ種",
+   "pokemonWiki": "カビゴンδ-デルタ種",
+   "after": "カビゴンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/カビゴン_PCG9-01／68_R.png → cards/PCG/PCG9/カビゴンδ-デルタ種_PCG9-01／68_R.png"
+  },
+  {
+   "id": "PCG9-002",
+   "before": "ミニリュウ",
+   "pcgSearch": "ミニリュウδ-デルタ種",
+   "pokemonWiki": "ミニリュウδ-デルタ種",
+   "after": "ミニリュウδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ミニリュウ_PCG9-02／68_C.png → cards/PCG/PCG9/ミニリュウδ-デルタ種_PCG9-02／68_C.png"
+  },
+  {
+   "id": "PCG9-003",
+   "before": "ハクリュー",
+   "pcgSearch": "ハクリューδ-デルタ種",
+   "pokemonWiki": "ハクリューδ-デルタ種",
+   "after": "ハクリューδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ハクリュー_PCG9-03／68_U.png → cards/PCG/PCG9/ハクリューδ-デルタ種_PCG9-03／68_U.png"
+  },
+  {
+   "id": "PCG9-004",
+   "before": "カイリュー",
+   "pcgSearch": "カイリューexδ-デルタ種",
+   "pokemonWiki": "カイリューexδ-デルタ種",
+   "after": "カイリューexδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/カイリュー_PCG9-04／68_R.png → cards/PCG/PCG9/カイリューexδ-デルタ種_PCG9-04／68_R.png"
+  },
+  {
+   "id": "PCG9-005",
+   "before": "ウパー",
+   "pcgSearch": "ウパーδ-デルタ種",
+   "pokemonWiki": "ウパーδ-デルタ種",
+   "after": "ウパーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ウパー_PCG9-05／68_C.png → cards/PCG/PCG9/ウパーδ-デルタ種_PCG9-05／68_C.png"
+  },
+  {
+   "id": "PCG9-006",
+   "before": "ヌオー",
+   "pcgSearch": "ヌオーδ-デルタ種",
+   "pokemonWiki": "ヌオーδ-デルタ種",
+   "after": "ヌオーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ヌオー_PCG9-06／68_R.png → cards/PCG/PCG9/ヌオーδ-デルタ種_PCG9-06／68_R.png"
+  },
+  {
+   "id": "PCG9-007",
+   "before": "アーボ",
+   "pcgSearch": "アーボδ-デルタ種",
+   "pokemonWiki": "アーボδ-デルタ種",
+   "after": "アーボδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/アーボ_PCG9-07／68_C.png → cards/PCG/PCG9/アーボδ-デルタ種_PCG9-07／68_C.png"
+  },
+  {
+   "id": "PCG9-008",
+   "before": "アーボック（デルタ種）",
+   "pcgSearch": "アーボックδ-デルタ種",
+   "pokemonWiki": "アーボックδ-デルタ種",
+   "after": "アーボックδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/アーボック（デルタ種）_PCG9-08／68_R.png → cards/PCG/PCG9/アーボックδ-デルタ種_PCG9-08／68_R.png"
+  },
+  {
+   "id": "PCG9-009",
+   "before": "ヘラクロス（デルタ種）",
+   "pcgSearch": "ヘラクロスδ-デルタ種",
+   "pokemonWiki": "ヘラクロスδ-デルタ種",
+   "after": "ヘラクロスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ヘラクロス（デルタ種）_PCG9-09／68_R.png → cards/PCG/PCG9/ヘラクロスδ-デルタ種_PCG9-09／68_R.png"
+  },
+  {
+   "id": "PCG9-010",
+   "before": "スバメ",
+   "pcgSearch": "スバメδ-デルタ種",
+   "pokemonWiki": "スバメδ-デルタ種",
+   "after": "スバメδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/スバメ_PCG9-10／68_C.png → cards/PCG/PCG9/スバメδ-デルタ種_PCG9-10／68_C.png"
+  },
+  {
+   "id": "PCG9-011",
+   "before": "オオスバメ",
+   "pcgSearch": "オオスバメδ-デルタ種",
+   "pokemonWiki": "オオスバメδ-デルタ種",
+   "after": "オオスバメδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/オオスバメ_PCG9-11／68_R.png → cards/PCG/PCG9/オオスバメδ-デルタ種_PCG9-11／68_R.png"
+  },
+  {
+   "id": "PCG9-012",
+   "before": "ヒンバス",
+   "pcgSearch": "ヒンバスδ-デルタ種",
+   "pokemonWiki": "ヒンバスδ-デルタ種",
+   "after": "ヒンバスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ヒンバス_PCG9-12／68_C.png → cards/PCG/PCG9/ヒンバスδ-デルタ種_PCG9-12／68_C.png"
+  },
+  {
+   "id": "PCG9-013",
+   "before": "ミロカロス",
+   "pcgSearch": "ミロカロスδ-デルタ種",
+   "pokemonWiki": "ミロカロスδ-デルタ種",
+   "after": "ミロカロスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ミロカロス_PCG9-13／68_R.png → cards/PCG/PCG9/ミロカロスδ-デルタ種_PCG9-13／68_R.png"
+  },
+  {
+   "id": "PCG9-014",
+   "before": "ラティアス",
+   "pcgSearch": "ラティアスexδ-デルタ種",
+   "pokemonWiki": "ラティアスexδ-デルタ種",
+   "after": "ラティアスexδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ラティアス_PCG9-14／68_R.png → cards/PCG/PCG9/ラティアスexδ-デルタ種_PCG9-14／68_R.png"
+  },
+  {
+   "id": "PCG9-015",
+   "before": "ミュウ",
+   "pcgSearch": "ミュウ☆δ-デルタ種",
+   "pokemonWiki": "ミュウ☆δ-デルタ種",
+   "after": "ミュウ☆δ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ミュウ_PCG9-15／68_S.png → cards/PCG/PCG9/ミュウ☆δ-デルタ種_PCG9-15／68_S.png"
+  },
+  {
+   "id": "PCG9-016",
+   "before": "トゲピー",
+   "pcgSearch": "トゲピーδ-デルタ種",
+   "pokemonWiki": "トゲピーδ-デルタ種",
+   "after": "トゲピーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/トゲピー_PCG9-16／68_U.png → cards/PCG/PCG9/トゲピーδ-デルタ種_PCG9-16／68_U.png"
+  },
+  {
+   "id": "PCG9-017",
+   "before": "トゲチック",
+   "pcgSearch": "トゲチックδ-デルタ種",
+   "pokemonWiki": "トゲチックδ-デルタ種",
+   "after": "トゲチックδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/トゲチック_PCG9-17／68_R.png → cards/PCG/PCG9/トゲチックδ-デルタ種_PCG9-17／68_R.png"
+  },
+  {
+   "id": "PCG9-018",
+   "before": "チルット",
+   "pcgSearch": "チルットδ-デルタ種",
+   "pokemonWiki": "チルットδ-デルタ種",
+   "after": "チルットδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/チルット_PCG9-18／68_C.png → cards/PCG/PCG9/チルットδ-デルタ種_PCG9-18／68_C.png"
+  },
+  {
+   "id": "PCG9-019",
+   "before": "チルタリス",
+   "pcgSearch": "チルタリスexδ-デルタ種",
+   "pokemonWiki": "チルタリスexδ-デルタ種",
+   "after": "チルタリスexδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/チルタリス_PCG9-19／68_R.png → cards/PCG/PCG9/チルタリスexδ-デルタ種_PCG9-19／68_R.png"
+  },
+  {
+   "id": "PCG9-020",
+   "before": "タツベイ",
+   "pcgSearch": "タツベイδ-デルタ種",
+   "pokemonWiki": "タツベイδ-デルタ種",
+   "after": "タツベイδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/タツベイ_PCG9-20／68_C.png → cards/PCG/PCG9/タツベイδ-デルタ種_PCG9-20／68_C.png"
+  },
+  {
+   "id": "PCG9-021",
+   "before": "コモルー",
+   "pcgSearch": "コモルーδ-デルタ種",
+   "pokemonWiki": "コモルーδ-デルタ種",
+   "after": "コモルーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/コモルー_PCG9-21／68_U.png → cards/PCG/PCG9/コモルーδ-デルタ種_PCG9-21／68_U.png"
+  },
+  {
+   "id": "PCG9-022",
+   "before": "ボーマンダ",
+   "pcgSearch": "ボーマンダexδ-デルタ種",
+   "pokemonWiki": "ボーマンダexδ-デルタ種",
+   "after": "ボーマンダexδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ボーマンダ_PCG9-22／68_R.png → cards/PCG/PCG9/ボーマンダexδ-デルタ種_PCG9-22／68_R.png"
+  },
+  {
+   "id": "PCG9-023",
+   "before": "ラティオス",
+   "pcgSearch": "ラティオスexδ-デルタ種",
+   "pokemonWiki": "ラティオスexδ-デルタ種",
+   "after": "ラティオスexδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ラティオス_PCG9-23／68_R.png → cards/PCG/PCG9/ラティオスexδ-デルタ種_PCG9-23／68_R.png"
+  },
+  {
+   "id": "PCG9-024",
+   "before": "ワニノコ",
+   "pcgSearch": "ワニノコδ-デルタ種",
+   "pokemonWiki": "ワニノコδ-デルタ種",
+   "after": "ワニノコδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ワニノコ_PCG9-24／68_C.png → cards/PCG/PCG9/ワニノコδ-デルタ種_PCG9-24／68_C.png"
+  },
+  {
+   "id": "PCG9-025",
+   "before": "アリゲイツ",
+   "pcgSearch": "アリゲイツδ-デルタ種",
+   "pokemonWiki": "アリゲイツδ-デルタ種",
+   "after": "アリゲイツδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/アリゲイツ_PCG9-25／68_U.png → cards/PCG/PCG9/アリゲイツδ-デルタ種_PCG9-25／68_U.png"
+  },
+  {
+   "id": "PCG9-026",
+   "before": "オーダイル",
+   "pcgSearch": "オーダイルδ-デルタ種",
+   "pokemonWiki": "オーダイルδ-デルタ種",
+   "after": "オーダイルδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/オーダイル_PCG9-26／68_R.png → cards/PCG/PCG9/オーダイルδ-デルタ種_PCG9-26／68_R.png"
+  },
+  {
+   "id": "PCG9-027",
+   "before": "マンタイン",
+   "pcgSearch": "マンタインδ-デルタ種",
+   "pokemonWiki": "マンタインδ-デルタ種",
+   "after": "マンタインδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/マンタイン_PCG9-27／68_R.png → cards/PCG/PCG9/マンタインδ-デルタ種_PCG9-27／68_R.png"
+  },
+  {
+   "id": "PCG9-028",
+   "before": "レックウザ",
+   "pcgSearch": "レックウザexδ-デルタ種",
+   "pokemonWiki": "レックウザexδ-デルタ種",
+   "after": "レックウザexδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/レックウザ_PCG9-28／68_R.png → cards/PCG/PCG9/レックウザexδ-デルタ種_PCG9-28／68_R.png"
+  },
+  {
+   "id": "PCG9-029",
+   "before": "ロコン",
+   "pcgSearch": "ロコンδ-デルタ種",
+   "pokemonWiki": "ロコンδ-デルタ種",
+   "after": "ロコンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ロコン_PCG9-29／68_U.png → cards/PCG/PCG9/ロコンδ-デルタ種_PCG9-29／68_U.png"
+  },
+  {
+   "id": "PCG9-030",
+   "before": "キュウコン",
+   "pcgSearch": "キュウコンδ-デルタ種",
+   "pokemonWiki": "キュウコンδ-デルタ種",
+   "after": "キュウコンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/キュウコン_PCG9-30／68_R.png → cards/PCG/PCG9/キュウコンδ-デルタ種_PCG9-30／68_R.png"
+  },
+  {
+   "id": "PCG9-031",
+   "before": "ベロリンガ",
+   "pcgSearch": "ベロリンガδ-デルタ種",
+   "pokemonWiki": "ベロリンガδ-デルタ種",
+   "after": "ベロリンガδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ベロリンガ_PCG9-31／68_R.png → cards/PCG/PCG9/ベロリンガδ-デルタ種_PCG9-31／68_R.png"
+  },
+  {
+   "id": "PCG9-032",
+   "before": "ヒノアラシ",
+   "pcgSearch": "ヒノアラシδ-デルタ種",
+   "pokemonWiki": "ヒノアラシδ-デルタ種",
+   "after": "ヒノアラシδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ヒノアラシ_PCG9-32／68_C.png → cards/PCG/PCG9/ヒノアラシδ-デルタ種_PCG9-32／68_C.png"
+  },
+  {
+   "id": "PCG9-033",
+   "before": "マグマラシ",
+   "pcgSearch": "マグマラシδ-デルタ種",
+   "pokemonWiki": "マグマラシδ-デルタ種",
+   "after": "マグマラシδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/マグマラシ_PCG9-33／68_U.png → cards/PCG/PCG9/マグマラシδ-デルタ種_PCG9-33／68_U.png"
+  },
+  {
+   "id": "PCG9-034",
+   "before": "バクフーン",
+   "pcgSearch": "バクフーンδ-デルタ種",
+   "pokemonWiki": "バクフーンδ-デルタ種",
+   "after": "バクフーンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/バクフーン_PCG9-34／68_R.png → cards/PCG/PCG9/バクフーンδ-デルタ種_PCG9-34／68_R.png"
+  },
+  {
+   "id": "PCG9-035",
+   "before": "ナックラー",
+   "pcgSearch": "ナックラーδ-デルタ種",
+   "pokemonWiki": "ナックラーδ-デルタ種",
+   "after": "ナックラーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ナックラー_PCG9-35／68_C.png → cards/PCG/PCG9/ナックラーδ-デルタ種_PCG9-35／68_C.png"
+  },
+  {
+   "id": "PCG9-036",
+   "before": "ビブラーバ",
+   "pcgSearch": "ビブラーバδ-デルタ種",
+   "pokemonWiki": "ビブラーバδ-デルタ種",
+   "after": "ビブラーバδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ビブラーバ_PCG9-36／68_R.png → cards/PCG/PCG9/ビブラーバδ-デルタ種_PCG9-36／68_R.png"
+  },
+  {
+   "id": "PCG9-037",
+   "before": "フライゴン",
+   "pcgSearch": "フライゴンexδ-デルタ種",
+   "pokemonWiki": "フライゴンexδ-デルタ種",
+   "after": "フライゴンexδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/フライゴン_PCG9-37／68_R.png → cards/PCG/PCG9/フライゴンexδ-デルタ種_PCG9-37／68_R.png"
+  },
+  {
+   "id": "PCG9-038",
+   "before": "シェルダー（デルタ種）",
+   "pcgSearch": "シェルダーδ-デルタ種",
+   "pokemonWiki": "シェルダーδ-デルタ種",
+   "after": "シェルダーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/シェルダー（デルタ種）_PCG9-38／68_C.png → cards/PCG/PCG9/シェルダーδ-デルタ種_PCG9-38／68_C.png"
+  },
+  {
+   "id": "PCG9-039",
+   "before": "パルシェン",
+   "pcgSearch": "パルシェンδ-デルタ種",
+   "pokemonWiki": "パルシェンδ-デルタ種",
+   "after": "パルシェンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/パルシェン_PCG9-39／68_R.png → cards/PCG/PCG9/パルシェンδ-デルタ種_PCG9-39／68_R.png"
+  },
+  {
+   "id": "PCG9-040",
+   "before": "タッツー",
+   "pcgSearch": "タッツーδ-デルタ種",
+   "pokemonWiki": "タッツーδ-デルタ種",
+   "after": "タッツーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/タッツー_PCG9-40／68_U.png → cards/PCG/PCG9/タッツーδ-デルタ種_PCG9-40／68_U.png"
+  },
+  {
+   "id": "PCG9-041",
+   "before": "シードラ（デルタ種）",
+   "pcgSearch": "シードラδ-デルタ種",
+   "pokemonWiki": "シードラδ-デルタ種",
+   "after": "シードラδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/シードラ（デルタ種）_PCG9-41／68_R.png → cards/PCG/PCG9/シードラδ-デルタ種_PCG9-41／68_R.png"
+  },
+  {
+   "id": "PCG9-042",
+   "before": "カイロス",
+   "pcgSearch": "カイロスδ-デルタ種",
+   "pokemonWiki": "カイロスδ-デルタ種",
+   "after": "カイロスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/カイロス_PCG9-42／68_R.png → cards/PCG/PCG9/カイロスδ-デルタ種_PCG9-42／68_R.png"
+  },
+  {
+   "id": "PCG9-043",
+   "before": "チコリータ（デルタ種）",
+   "pcgSearch": "チコリータδ-デルタ種",
+   "pokemonWiki": "チコリータδ-デルタ種",
+   "after": "チコリータδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/チコリータ（デルタ種）_PCG9-43／68_C.png → cards/PCG/PCG9/チコリータδ-デルタ種_PCG9-43／68_C.png"
+  },
+  {
+   "id": "PCG9-044",
+   "before": "ベイリーフ",
+   "pcgSearch": "ベイリーフδ-デルタ種",
+   "pokemonWiki": "ベイリーフδ-デルタ種",
+   "after": "ベイリーフδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ベイリーフ_PCG9-44／68_U.png → cards/PCG/PCG9/ベイリーフδ-デルタ種_PCG9-44／68_U.png"
+  },
+  {
+   "id": "PCG9-045",
+   "before": "メガニウム（デルタ種）",
+   "pcgSearch": "メガニウムδ-デルタ種",
+   "pokemonWiki": "メガニウムδ-デルタ種",
+   "after": "メガニウムδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/メガニウム（デルタ種）_PCG9-45／68_R.png → cards/PCG/PCG9/メガニウムδ-デルタ種_PCG9-45／68_R.png"
+  },
+  {
+   "id": "PCG9-046",
+   "before": "キングドラ",
+   "pcgSearch": "キングドラexδ-デルタ種",
+   "pokemonWiki": "キングドラexδ-デルタ種",
+   "after": "キングドラexδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/キングドラ_PCG9-46／68_R.png → cards/PCG/PCG9/キングドラexδ-デルタ種_PCG9-46／68_R.png"
+  },
+  {
+   "id": "PCG9-047",
+   "before": "パウワウ",
+   "pcgSearch": "パウワウδ-デルタ種",
+   "pokemonWiki": "パウワウδ-デルタ種",
+   "after": "パウワウδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/パウワウ_PCG9-47／68_C.png → cards/PCG/PCG9/パウワウδ-デルタ種_PCG9-47／68_C.png"
+  },
+  {
+   "id": "PCG9-048",
+   "before": "ジュゴン",
+   "pcgSearch": "ジュゴンδ-デルタ種",
+   "pokemonWiki": "ジュゴンδ-デルタ種",
+   "after": "ジュゴンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ジュゴン_PCG9-48／68_R.png → cards/PCG/PCG9/ジュゴンδ-デルタ種_PCG9-48／68_R.png"
+  },
+  {
+   "id": "PCG9-049",
+   "before": "メリープ",
+   "pcgSearch": "メリープδ-デルタ種",
+   "pokemonWiki": "メリープδ-デルタ種",
+   "after": "メリープδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/メリープ_PCG9-49／68_C.png → cards/PCG/PCG9/メリープδ-デルタ種_PCG9-49／68_C.png"
+  },
+  {
+   "id": "PCG9-050",
+   "before": "モココ",
+   "pcgSearch": "モココδ-デルタ種",
+   "pokemonWiki": "モココδ-デルタ種",
+   "after": "モココδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/モココ_PCG9-50／68_U.png → cards/PCG/PCG9/モココδ-デルタ種_PCG9-50／68_U.png"
+  },
+  {
+   "id": "PCG9-051",
+   "before": "デンリュウ",
+   "pcgSearch": "デンリュウδ-デルタ種",
+   "pokemonWiki": "デンリュウδ-デルタ種",
+   "after": "デンリュウδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/デンリュウ_PCG9-51／68_R.png → cards/PCG/PCG9/デンリュウδ-デルタ種_PCG9-51／68_R.png"
+  },
+  {
+   "id": "PCG9-052",
+   "before": "リザードン",
+   "pcgSearch": "リザードン☆δ-デルタ種",
+   "pokemonWiki": "リザードン☆δ-デルタ種",
+   "after": "リザードン☆δ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/リザードン_PCG9-52／68_S.png → cards/PCG/PCG9/リザードン☆δ-デルタ種_PCG9-52／68_S.png"
+  },
+  {
+   "id": "PCG9-053",
+   "before": "ニドラン♂",
+   "pcgSearch": "ニドラン♂δ-デルタ種",
+   "pokemonWiki": "ニドラン♂δ-デルタ種",
+   "after": "ニドラン♂δ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ニドラン♂_PCG9-53／68_C.png → cards/PCG/PCG9/ニドラン♂δ-デルタ種_PCG9-53／68_C.png"
+  },
+  {
+   "id": "PCG9-054",
+   "before": "ニドリーノ（デルタ種）",
+   "pcgSearch": "ニドリーノδ-デルタ種",
+   "pokemonWiki": "ニドリーノδ-デルタ種",
+   "after": "ニドリーノδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ニドリーノ（デルタ種）_PCG9-54／68_U.png → cards/PCG/PCG9/ニドリーノδ-デルタ種_PCG9-54／68_U.png"
+  },
+  {
+   "id": "PCG9-055",
+   "before": "ニドキング",
+   "pcgSearch": "ニドキングδ-デルタ種",
+   "pokemonWiki": "ニドキングδ-デルタ種",
+   "after": "ニドキングδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ニドキング_PCG9-55／68_R.png → cards/PCG/PCG9/ニドキングδ-デルタ種_PCG9-55／68_R.png"
+  },
+  {
+   "id": "PCG9-056",
+   "before": "ネイティ",
+   "pcgSearch": "ネイティδ-デルタ種",
+   "pokemonWiki": "ネイティδ-デルタ種",
+   "after": "ネイティδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ネイティ_PCG9-56／68_C.png → cards/PCG/PCG9/ネイティδ-デルタ種_PCG9-56／68_C.png"
+  },
+  {
+   "id": "PCG9-057",
+   "before": "ネイティオ",
+   "pcgSearch": "ネイティオδ-デルタ種",
+   "pokemonWiki": "ネイティオδ-デルタ種",
+   "after": "ネイティオδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ネイティオ_PCG9-57／68_R.png → cards/PCG/PCG9/ネイティオδ-デルタ種_PCG9-57／68_R.png"
+  },
+  {
+   "id": "PCG9-058",
+   "before": "ニドラン♀",
+   "pcgSearch": "ニドラン♀δ-デルタ種",
+   "pokemonWiki": "ニドラン♀δ-デルタ種",
+   "after": "ニドラン♀δ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ニドラン♀_PCG9-58／68_C.png → cards/PCG/PCG9/ニドラン♀δ-デルタ種_PCG9-58／68_C.png"
+  },
+  {
+   "id": "PCG9-059",
+   "before": "ニドリーナ（デルタ種）",
+   "pcgSearch": "ニドリーナδ-デルタ種",
+   "pokemonWiki": "ニドリーナδ-デルタ種",
+   "after": "ニドリーナδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ニドリーナ（デルタ種）_PCG9-59／68_U.png → cards/PCG/PCG9/ニドリーナδ-デルタ種_PCG9-59／68_U.png"
+  },
+  {
+   "id": "PCG9-060",
+   "before": "ニドクイン",
+   "pcgSearch": "ニドクインδ-デルタ種",
+   "pokemonWiki": "ニドクインδ-デルタ種",
+   "after": "ニドクインδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ニドクイン_PCG9-60／68_R.png → cards/PCG/PCG9/ニドクインδ-デルタ種_PCG9-60／68_R.png"
+  },
+  {
+   "id": "PCG9-061",
+   "before": "レディバ（デルタ種）",
+   "pcgSearch": "レディバδ-デルタ種",
+   "pokemonWiki": "レディバδ-デルタ種",
+   "after": "レディバδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/レディバ（デルタ種）_PCG9-61／68_C.png → cards/PCG/PCG9/レディバδ-デルタ種_PCG9-61／68_C.png"
+  },
+  {
+   "id": "PCG9-062",
+   "before": "レディアン",
+   "pcgSearch": "レディアンδ-デルタ種",
+   "pokemonWiki": "レディアンδ-デルタ種",
+   "after": "レディアンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/レディアン_PCG9-62／68_R.png → cards/PCG/PCG9/レディアンδ-デルタ種_PCG9-62／68_R.png"
+  },
+  {
+   "id": "PCG9-063",
+   "before": "トロピウス（デルタ種）",
+   "pcgSearch": "トロピウスδ-デルタ種",
+   "pokemonWiki": "トロピウスδ-デルタ種",
+   "after": "トロピウスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/トロピウス（デルタ種）_PCG9-63／68_R.png → cards/PCG/PCG9/トロピウスδ-デルタ種_PCG9-63／68_R.png"
+  },
+  {
+   "id": "PCG9-064",
+   "before": "古い棒",
+   "pcgSearch": "ボロのつりざお",
+   "pokemonWiki": "ボロのつりざお",
+   "after": "ボロのつりざお",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/古い棒_PCG9-64／68_U.png → cards/PCG/PCG9/ボロのつりざお_PCG9-64／68_U.png"
+  },
+  {
+   "id": "PCG9-065",
+   "before": "島の隠者",
+   "pcgSearch": "孤島の隠者",
+   "pokemonWiki": "孤島の隠者",
+   "after": "孤島の隠者",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/島の隠者_PCG9-65／68_U.png → cards/PCG/PCG9/孤島の隠者_PCG9-65／68_U.png"
+  },
+  {
+   "id": "PCG9-066",
+   "before": "強さの魅力",
+   "pcgSearch": "ちからのかけら",
+   "pokemonWiki": "ちからのかけら",
+   "after": "ちからのかけら",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/強さの魅力_PCG9-66／68_U.png → cards/PCG/PCG9/ちからのかけら_PCG9-66／68_U.png"
+  },
+  {
+   "id": "PCG9-067",
+   "before": "ホロンの遺産",
+   "pcgSearch": "ホロンの聖跡",
+   "pokemonWiki": "ホロンの聖跡",
+   "after": "ホロンの聖跡",
+   "status": "直す",
+   "image": "cards/PCG/PCG9/ホロンの遺産_PCG9-67／68_U.png → cards/PCG/PCG9/ホロンの聖跡_PCG9-67／68_U.png"
+  }
+ ]
+}
