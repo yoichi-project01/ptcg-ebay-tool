@@ -1,0 +1,133 @@
+{
+ "set": "E2",
+ "fixed": 14,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "E2-008",
+   "before": "アリアドス-008/092",
+   "pcgSearch": "アリアドス",
+   "pokemonWiki": "アリアドス",
+   "after": "アリアドス",
+   "status": "直す",
+   "image": "cards/e/E2/アリアドス-008092_E2-08／92_R.png → cards/e/E2/アリアドス_E2-08／92_R.png"
+  },
+  {
+   "id": "E2-009",
+   "before": "アリアドス-009/092",
+   "pcgSearch": "アリアドス",
+   "pokemonWiki": "アリアドス",
+   "after": "アリアドス",
+   "status": "直す",
+   "image": "cards/e/E2/アリアドス-009092_E2-09／92_R.png → cards/e/E2/アリアドス_E2-09／92_R.png"
+  },
+  {
+   "id": "E2-063",
+   "before": "ポリゴン２",
+   "pcgSearch": "ポリゴン2",
+   "pokemonWiki": "ポリゴン2",
+   "after": "ポリゴン2",
+   "status": "直す",
+   "image": "cards/e/E2/ポリゴン２_E2-63／92_U.png → cards/e/E2/ポリゴン2_E2-63／92_U.png"
+  },
+  {
+   "id": "E2-075",
+   "before": "脱力感ガード",
+   "pcgSearch": "ウィークカバー",
+   "pokemonWiki": "ウィークカバー",
+   "after": "ウィークカバー",
+   "status": "直す",
+   "image": "cards/e/E2/脱力感ガード_E2-75／92_U.png → cards/e/E2/ウィークカバー_E2-75／92_U.png"
+  },
+  {
+   "id": "E2-076",
+   "before": "スーパーエネルギー除去2",
+   "pcgSearch": "超エネルギーリムーブ",
+   "pokemonWiki": "超エネルギーリムーブ",
+   "after": "超エネルギーリムーブ",
+   "status": "直す",
+   "image": "cards/e/E2/スーパーエネルギー除去2_E2-76／92_U.png → cards/e/E2/超エネルギーリムーブ_E2-76／92_U.png"
+  },
+  {
+   "id": "E2-077",
+   "before": "先見者",
+   "pcgSearch": "サイキッカー",
+   "pokemonWiki": "サイキッカー",
+   "after": "サイキッカー",
+   "status": "直す",
+   "image": "cards/e/E2/先見者_E2-77／92_U.png → cards/e/E2/サイキッカー_E2-77／92_U.png"
+  },
+  {
+   "id": "E2-078",
+   "before": "ポケモンファンクラブ",
+   "pcgSearch": "ポケモン大好きクラブ",
+   "pokemonWiki": "ポケモン大好きクラブ",
+   "after": "ポケモン大好きクラブ",
+   "status": "直す",
+   "image": "cards/e/E2/ポケモンファンクラブ_E2-78／92_U.png → cards/e/E2/ポケモン大好きクラブ_E2-78／92_U.png"
+  },
+  {
+   "id": "E2-081",
+   "before": "ファイアキューブ01",
+   "pcgSearch": "ファイヤーキューブ01",
+   "pokemonWiki": "ファイヤーキューブ01",
+   "after": "ファイヤーキューブ01",
+   "status": "直す",
+   "image": "cards/e/E2/ファイアキューブ01_E2-81／92_U.png → cards/e/E2/ファイヤーキューブ01_E2-81／92_U.png"
+  },
+  {
+   "id": "E2-085",
+   "before": "戦いキューブ01",
+   "pcgSearch": "ファイティングキューブ01",
+   "pokemonWiki": "ファイティングキューブ01",
+   "after": "ファイティングキューブ01",
+   "status": "直す",
+   "image": "cards/e/E2/戦いキューブ01_E2-85／92_U.png → cards/e/E2/ファイティングキューブ01_E2-85／92_U.png"
+  },
+  {
+   "id": "E2-086",
+   "before": "闇キューブ01",
+   "pcgSearch": "ダークネスキューブ01",
+   "pokemonWiki": "ダークネスキューブ01",
+   "after": "ダークネスキューブ01",
+   "status": "直す",
+   "image": "cards/e/E2/闇キューブ01_E2-86／92_U.png → cards/e/E2/ダークネスキューブ01_E2-86／92_U.png"
+  },
+  {
+   "id": "E2-087",
+   "before": "金属キューブ01",
+   "pcgSearch": "メタルキューブ01",
+   "pokemonWiki": "メタルキューブ01",
+   "after": "メタルキューブ01",
+   "status": "直す",
+   "image": "cards/e/E2/金属キューブ01_E2-87／92_U.png → cards/e/E2/メタルキューブ01_E2-87／92_U.png"
+  },
+  {
+   "id": "E2-089",
+   "before": "発電所",
+   "pcgSearch": "無人変電所",
+   "pokemonWiki": "無人変電所",
+   "after": "無人変電所",
+   "status": "直す",
+   "image": "cards/e/E2/発電所_E2-89／92_U.png → cards/e/E2/無人変電所_E2-89／92_U.png"
+  },
+  {
+   "id": "E2-090",
+   "before": "闇のエネルギー",
+   "pcgSearch": "悪エネルギー",
+   "pokemonWiki": "悪エネルギー",
+   "after": "悪エネルギー",
+   "status": "直す",
+   "image": "cards/e/E2/闇のエネルギー_E2-90／92_U.png → cards/e/E2/悪エネルギー_E2-90／92_U.png"
+  },
+  {
+   "id": "E2-091",
+   "before": "金属エネルギー",
+   "pcgSearch": "鋼エネルギー",
+   "pokemonWiki": "鋼エネルギー",
+   "after": "鋼エネルギー",
+   "status": "直す",
+   "image": "cards/e/E2/金属エネルギー_E2-91／92_U.png → cards/e/E2/鋼エネルギー_E2-91／92_U.png"
+  }
+ ]
+}
