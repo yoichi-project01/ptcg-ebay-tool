@@ -1,0 +1,87 @@
+{
+ "set": "PCG1",
+ "fixed": 9,
+ "rows": [
+  {
+   "id": "PCG1-024",
+   "ja": "ファイヤーex",
+   "before": "Moltres",
+   "built": "Moltres ex",
+   "bulbapedia": "Moltres ex",
+   "after": "Moltres ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-035",
+   "ja": "ギャラドスex",
+   "before": "Gyarados",
+   "built": "Gyarados ex",
+   "bulbapedia": "Gyarados ex",
+   "after": "Gyarados ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-036",
+   "ja": "フリーザーex",
+   "before": "Articuno",
+   "built": "Articuno ex",
+   "bulbapedia": "Articuno ex",
+   "after": "Articuno ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-042",
+   "ja": "マルマインex",
+   "before": "Electrode",
+   "built": "Electrode ex",
+   "bulbapedia": "Electrode ex",
+   "after": "Electrode ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-043",
+   "ja": "サンダーex",
+   "before": "Zapdos",
+   "built": "Zapdos ex",
+   "bulbapedia": "Zapdos ex",
+   "after": "Zapdos ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-048",
+   "ja": "ゲンガーex",
+   "before": "Gengar",
+   "built": "Gengar ex",
+   "bulbapedia": "Gengar ex",
+   "after": "Gengar ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-053",
+   "ja": "バリヤードex",
+   "before": "Mr. Mime",
+   "built": "Mr. Mime ex",
+   "bulbapedia": "Mr. Mime ex",
+   "after": "Mr. Mime ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-054",
+   "ja": "バリヤードex",
+   "before": "Mr. Mime",
+   "built": "Mr. Mime ex",
+   "bulbapedia": "Mr. Mime ex",
+   "after": "Mr. Mime ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG1-066",
+   "ja": "ピクシーex",
+   "before": "Clefable",
+   "built": "Clefable ex",
+   "bulbapedia": "Clefable ex",
+   "after": "Clefable ex",
+   "status": "直す"
+  }
+ ]
+}
