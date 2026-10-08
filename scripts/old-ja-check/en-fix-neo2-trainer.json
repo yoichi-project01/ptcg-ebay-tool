@@ -1,0 +1,39 @@
+{
+ "set": "neo2",
+ "kind": "trainer",
+ "fixed": 4,
+ "rows": [
+  {
+   "id": "neo2-055",
+   "ja": "遺跡の石版",
+   "bulbapedia": "Ruin Wall",
+   "bulbapediaJa": "遺跡の石版",
+   "after": "Ruin Wall",
+   "status": "直す"
+  },
+  {
+   "id": "neo2-056",
+   "ja": "たまごの化石",
+   "bulbapedia": "Fossil Egg",
+   "bulbapediaJa": "たまごの化石",
+   "after": "Fossil Egg",
+   "status": "直す"
+  },
+  {
+   "id": "neo2-057",
+   "ja": "退化スプレーHYPER",
+   "bulbapedia": "Hyper Devolution Spray",
+   "bulbapediaJa": "退化スプレーHYPER",
+   "after": "Hyper Devolution Spray",
+   "status": "直す"
+  },
+  {
+   "id": "neo2-054",
+   "ja": "遺跡の石版",
+   "bulbapedia": "Ruin Wall",
+   "bulbapediaJa": "遺跡の石版",
+   "after": "Ruin Wall",
+   "status": "直す"
+  }
+ ]
+}
