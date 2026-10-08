@@ -1,0 +1,115 @@
+{
+ "set": "E1",
+ "fixed": 12,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "E1-049",
+   "before": "エルム教授のトレーニング方法",
+   "pcgSearch": "ウツギはかせの育てかた",
+   "pokemonWiki": "ウツギはかせの育てかた",
+   "after": "ウツギはかせの育てかた",
+   "status": "直す",
+   "image": "cards/e/E1/エルム教授のトレーニング方法_E1-049／128_U.png → cards/e/E1/ウツギはかせの育てかた_E1-049／128_U.png"
+  },
+  {
+   "id": "E1-050",
+   "before": "エネルギー回復",
+   "pcgSearch": "エネルギー再生",
+   "pokemonWiki": "エネルギー再生",
+   "after": "エネルギー再生",
+   "status": "直す",
+   "image": "cards/e/E1/エネルギー回復_E1-050／128_U.png → cards/e/E1/エネルギー再生_E1-050／128_U.png"
+  },
+  {
+   "id": "E1-051",
+   "before": "エネルギー電荷",
+   "pcgSearch": "エネルギーチャージ",
+   "pokemonWiki": "エネルギーチャージ",
+   "after": "エネルギーチャージ",
+   "status": "直す",
+   "image": "cards/e/E1/エネルギー電荷_E1-051／128_U.png → cards/e/E1/エネルギーチャージ_E1-051／128_U.png"
+  },
+  {
+   "id": "E1-052",
+   "before": "エネルギー除去2",
+   "pcgSearch": "エネルギーリムーブ",
+   "pokemonWiki": "エネルギーリムーブ",
+   "after": "エネルギーリムーブ",
+   "status": "直す",
+   "image": "cards/e/E1/エネルギー除去2_E1-052／128_U.png → cards/e/E1/エネルギーリムーブ_E1-052／128_U.png"
+  },
+  {
+   "id": "E1-053",
+   "before": "オーク教授の研究",
+   "pcgSearch": "オーキドはかせの研究",
+   "pokemonWiki": "オーキドはかせの研究",
+   "after": "オーキドはかせの研究",
+   "status": "直す",
+   "image": "cards/e/E1/オーク教授の研究_E1-053／128_U.png → cards/e/E1/オーキドはかせの研究_E1-053／128_U.png"
+  },
+  {
+   "id": "E1-054",
+   "before": "メアリーの衝動",
+   "pcgSearch": "クルミのきまぐれ",
+   "pokemonWiki": "クルミのきまぐれ",
+   "after": "クルミのきまぐれ",
+   "status": "直す",
+   "image": "cards/e/E1/メアリーの衝動_E1-054／128_U.png → cards/e/E1/クルミのきまぐれ_E1-054／128_U.png"
+  },
+  {
+   "id": "E1-055",
+   "before": "スーパースクープアップ",
+   "pcgSearch": "スーパーポケモン回収",
+   "pokemonWiki": "スーパーポケモン回収",
+   "after": "スーパーポケモン回収",
+   "status": "直す",
+   "image": "cards/e/E1/スーパースクープアップ_E1-055／128_U.png → cards/e/E1/スーパーポケモン回収_E1-055／128_U.png"
+  },
+  {
+   "id": "E1-056",
+   "before": "強さの魅力",
+   "pcgSearch": "ちからのかけら",
+   "pokemonWiki": "ちからのかけら",
+   "after": "ちからのかけら",
+   "status": "直す",
+   "image": "cards/e/E1/強さの魅力_E1-056／128_U.png → cards/e/E1/ちからのかけら_E1-056／128_U.png"
+  },
+  {
+   "id": "E1-059",
+   "before": "ポケモン反転",
+   "pcgSearch": "ポケモンリバース",
+   "pokemonWiki": "ポケモンリバース",
+   "after": "ポケモンリバース",
+   "status": "直す",
+   "image": "cards/e/E1/ポケモン反転_E1-059／128_U.png → cards/e/E1/ポケモンリバース_E1-059／128_U.png"
+  },
+  {
+   "id": "E1-060",
+   "before": "ビルのメンテナンス",
+   "pcgSearch": "マサキのメンテナンス",
+   "pokemonWiki": "マサキのメンテナンス",
+   "after": "マサキのメンテナンス",
+   "status": "直す",
+   "image": "cards/e/E1/ビルのメンテナンス_E1-060／128_U.png → cards/e/E1/マサキのメンテナンス_E1-060／128_U.png"
+  },
+  {
+   "id": "E1-062",
+   "before": "マルチテクニカルマシン01",
+   "pcgSearch": "マルチワザマシン01",
+   "pokemonWiki": "マルチワザマシン01",
+   "after": "マルチワザマシン01",
+   "status": "直す",
+   "image": "cards/e/E1/マルチテクニカルマシン01_E1-062／128_U.png → cards/e/E1/マルチワザマシン01_E1-062／128_U.png"
+  },
+  {
+   "id": "E1-063",
+   "before": "模倣",
+   "pcgSearch": "モノマネむすめ",
+   "pokemonWiki": "モノマネむすめ",
+   "after": "モノマネむすめ",
+   "status": "直す",
+   "image": "cards/e/E1/模倣_E1-063／128_U.png → cards/e/E1/モノマネむすめ_E1-063／128_U.png"
+  }
+ ]
+}

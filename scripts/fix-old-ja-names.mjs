@@ -19,7 +19,7 @@ const CHK = path.join(__dirname, "old-ja-check");
 const SET = process.argv[process.argv.indexOf("--set") + 1];
 if (!process.argv.includes("--set")) throw new Error("--set <弾> を指定してください");
 const APPLY = process.argv.includes("--apply");
-const ALLOWED = /^(neo[1-4]|E[2-5]|PCG[1-9])$/;
+const ALLOWED = /^(neo[1-4]|E[1-5]|PCG[1-9]|VS1|web1)$/;
 if (!ALLOWED.test(SET)) throw new Error(`2つ目の情報源が無い弾です: ${SET}`);
 
 const pcg = JSON.parse(fs.readFileSync(path.join(CHK, "pcg-search-titles.json"), "utf8"));
