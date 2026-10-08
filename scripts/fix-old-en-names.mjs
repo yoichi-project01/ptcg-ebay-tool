@@ -30,12 +30,14 @@ const PREFIX = [["わるい", "Dark "], ["やさしい", "Light "], ["ひかる"
   ["ハヤトの", "Falkner's "], ["ツクシの", "Bugsy's "], ["アカネの", "Whitney's "], ["マツバの", "Morty's "], ["ミカンの", "Jasmine's "], ["シジマの", "Chuck's "],
   ["ヤナギの", "Pryce's "], ["イブキの", "Clair's "], ["マチスの", "Lt. Surge's "], ["ナツメの", "Sabrina's "], ["カスミの", "Misty's "], ["エリカの", "Erika's "],
   ["アンズの", "Janine's "], ["タケシの", "Brock's "], ["カツラの", "Blaine's "], ["イツキの", "Will's "], ["キョウの", "Koga's "], ["シバの", "Bruno's "],
-  ["カリンの", "Karen's "], ["ワタルの", "Lance's "]];
+  ["カリンの", "Karen's "], ["ワタルの", "Lance's "],
+  // PMCG5・PMCG6（ジム拡張）の持ち主
+  ["サカキの", "Giovanni's "]];
 
 // Bulbapedia の一覧（番号 → 英語名・種類・カードのページの日本語名）
 const bp = new Map();
 let cur = null;
-for (const file of ["bulbapedia-old.txt", "bulbapedia-old-2.txt"]) for (const line of fs.readFileSync(path.join(CHK, file), "utf8").split(/\r?\n/)) {
+for (const file of ["bulbapedia-old.txt", "bulbapedia-old-2.txt", "bulbapedia-old-3.txt"]) for (const line of fs.readFileSync(path.join(CHK, file), "utf8").split(/\r?\n/)) {
   if (line.startsWith("## ")) { cur = line.slice(3).split("|")[0]; continue; }
   if (!line || cur !== SET) continue;
   const [num, name, type, jname] = line.split("|");
@@ -67,7 +69,7 @@ const raw = fs.readFileSync(DATA, "utf8");
 const data = JSON.parse(raw);
 const set = data.find((s) => s.c === SET);
 const fixRows = [`fix-${SET}.json`, `fix-${SET}-part1.json`].filter((f) => fs.existsSync(path.join(CHK, f)))
-  .flatMap((f) => JSON.parse(fs.readFileSync(path.join(CHK, f), "utf8")).rows.filter((r) => r.status === "直す"));
+  .flatMap((f) => JSON.parse(fs.readFileSync(path.join(CHK, f), "utf8")).rows.filter((r) => r.status.startsWith("直す")));
 const ids = [...new Set(fixRows.map((r) => r.id))];
 const rows = [];
 if (KIND === "trainer") for (const id of ids) {
