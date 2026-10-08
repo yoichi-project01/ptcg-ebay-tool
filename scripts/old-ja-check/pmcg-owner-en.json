@@ -1,0 +1,29 @@
+[
+ {
+  "id": "PMCG5-043",
+  "ja": "タケシのサンド",
+  "before": "Sandshrew",
+  "built": "Brock's Sandshrew",
+  "bulbapedia": "Brock's Sandshrew",
+  "after": "Brock's Sandshrew",
+  "ok": true
+ },
+ {
+  "id": "PMCG6-034",
+  "ja": "カツラのウィンディ",
+  "before": "Arcanine",
+  "built": "Blaine's Arcanine",
+  "bulbapedia": "Blaine's Arcanine",
+  "after": "Blaine's Arcanine",
+  "ok": true
+ },
+ {
+  "id": "PMCG6-075",
+  "ja": "_のラッキー",
+  "before": "Chansey",
+  "built": "_____'s Chansey",
+  "bulbapedia": "_____'s Chansey",
+  "after": "_____'s Chansey",
+  "ok": true
+ }
+]
