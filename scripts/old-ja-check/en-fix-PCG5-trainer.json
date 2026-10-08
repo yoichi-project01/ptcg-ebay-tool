@@ -1,0 +1,79 @@
+{
+ "set": "PCG5",
+ "kind": "trainer",
+ "fixed": 9,
+ "rows": [
+  {
+   "id": "PCG5-077",
+   "ja": "ツメの化石",
+   "bulbapedia": "Claw Fossil",
+   "bulbapediaJa": "ツメの化石",
+   "after": "Claw Fossil",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-078",
+   "ja": "なにかの化石",
+   "bulbapedia": "Mysterious Fossil",
+   "bulbapediaJa": "なにかの化石",
+   "after": "Mysterious Fossil",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-079",
+   "ja": "ねっこの化石",
+   "bulbapedia": "Root Fossil",
+   "bulbapediaJa": "ねっこの化石",
+   "after": "Root Fossil",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-081",
+   "ja": "妖しい洞窟",
+   "bulbapedia": "Strange Cave",
+   "bulbapediaJa": "妖しい洞窟",
+   "after": "Strange Cave",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-082",
+   "ja": "消えない炎",
+   "bulbapedia": "Full Flame",
+   "bulbapediaJa": "消えない炎",
+   "after": "Full Flame",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-083",
+   "ja": "巨大な切りかぶ",
+   "bulbapedia": "Giant Stump",
+   "bulbapediaJa": "巨大な切りかぶ",
+   "after": "Giant Stump",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-084",
+   "ja": "呪われたほこら",
+   "bulbapedia": "Cursed Stone",
+   "bulbapediaJa": "呪われたほこら",
+   "after": "Cursed Stone",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-085",
+   "ja": "不思議な大樹",
+   "bulbapedia": "Power Tree",
+   "bulbapediaJa": "不思議な大樹",
+   "after": "Power Tree",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-086",
+   "ja": "リアクトエネルギー",
+   "bulbapedia": "React Energy",
+   "bulbapediaJa": "リアクトエネルギー",
+   "after": "React Energy",
+   "status": "直す"
+  }
+ ]
+}
