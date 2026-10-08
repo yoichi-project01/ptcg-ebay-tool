@@ -1,0 +1,96 @@
+{
+ "set": "PCG5",
+ "fixed": 10,
+ "rows": [
+  {
+   "id": "PCG5-010",
+   "ja": "ドクケイルex",
+   "before": "Dustox",
+   "built": "Dustox ex",
+   "bulbapedia": "Dustox ex",
+   "after": "Dustox ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-016",
+   "ja": "ウインディex",
+   "before": "Arcanine",
+   "built": "Arcanine ex",
+   "bulbapedia": "Arcanine ex",
+   "after": "Arcanine ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-029",
+   "ja": "トドゼルガex",
+   "before": "Walrein",
+   "built": "Walrein ex",
+   "bulbapedia": "Walrein ex",
+   "after": "Walrein ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-033",
+   "ja": "レジアイス☆",
+   "before": "Regice",
+   "built": "Regice ☆",
+   "bulbapedia": "Regice ☆",
+   "after": "Regice ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-041",
+   "ja": "ミュウex",
+   "before": "Mew",
+   "built": "Mew ex",
+   "bulbapedia": "Mew ex",
+   "after": "Mew ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-058",
+   "ja": "アーマルドex",
+   "before": "Armaldo",
+   "built": "Armaldo ex",
+   "bulbapedia": "Armaldo ex",
+   "after": "Armaldo ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-059",
+   "ja": "レジロック☆",
+   "before": "Regirock",
+   "built": "Regirock ☆",
+   "bulbapedia": "Regirock ☆",
+   "after": "Regirock ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-066",
+   "ja": "フライゴンex",
+   "before": "Flygon",
+   "built": "Flygon ex",
+   "bulbapedia": "Flygon ex",
+   "after": "Flygon ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-068",
+   "ja": "チルタリスex",
+   "before": "Altaria",
+   "built": "Altaria ex",
+   "bulbapedia": "Altaria ex",
+   "after": "Altaria ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG5-076",
+   "ja": "レジスチル☆",
+   "before": "Registeel",
+   "built": "Registeel ☆",
+   "bulbapedia": "Registeel ☆",
+   "after": "Registeel ☆",
+   "status": "直す"
+  }
+ ]
+}
