@@ -1,0 +1,412 @@
+{
+ "set": "PCG3",
+ "fixed": 45,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "PCG3-011",
+   "before": "キモリ",
+   "pcgSearch": "キモリ☆",
+   "pokemonWiki": "キモリ☆",
+   "after": "キモリ☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/キモリ_PCG3-11／85_S.png → cards/PCG/PCG3/キモリ☆_PCG3-11／85_S.png"
+  },
+  {
+   "id": "PCG3-012",
+   "before": "ダークアーボック",
+   "pcgSearch": "わるいアーボック",
+   "pokemonWiki": "わるいアーボック",
+   "after": "わるいアーボック",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ダークアーボック_PCG3-12／85_R.png → cards/PCG/PCG3/わるいアーボック_PCG3-12／85_R.png"
+  },
+  {
+   "id": "PCG3-013",
+   "before": "暗いゴルバット",
+   "pcgSearch": "わるいゴルバット",
+   "pokemonWiki": "わるいゴルバット",
+   "after": "わるいゴルバット",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/暗いゴルバット_PCG3-13／85_R.png → cards/PCG/PCG3/わるいゴルバット_PCG3-13／85_R.png"
+  },
+  {
+   "id": "PCG3-014",
+   "before": "ベトベトン",
+   "pcgSearch": "わるいベトベトン",
+   "pokemonWiki": "わるいベトベトン",
+   "after": "わるいベトベトン",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ベトベトン_PCG3-14／85_R.png → cards/PCG/PCG3/わるいベトベトン_PCG3-14／85_R.png"
+  },
+  {
+   "id": "PCG3-015",
+   "before": "マタドガス",
+   "pcgSearch": "わるいマタドガス",
+   "pokemonWiki": "わるいマタドガス",
+   "after": "わるいマタドガス",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/マタドガス_PCG3-15／85_R.png → cards/PCG/PCG3/わるいマタドガス_PCG3-15／85_R.png"
+  },
+  {
+   "id": "PCG3-016",
+   "before": "暗いクロバット",
+   "pcgSearch": "わるいクロバット",
+   "pokemonWiki": "わるいクロバット",
+   "after": "わるいクロバット",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/暗いクロバット_PCG3-16／85_R.png → cards/PCG/PCG3/わるいクロバット_PCG3-16／85_R.png"
+  },
+  {
+   "id": "PCG3-020",
+   "before": "アチャモ",
+   "pcgSearch": "アチャモ☆",
+   "pokemonWiki": "アチャモ☆",
+   "after": "アチャモ☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/アチャモ_PCG3-20／85_S.png → cards/PCG/PCG3/アチャモ☆_PCG3-20／85_S.png"
+  },
+  {
+   "id": "PCG3-021",
+   "before": "ヘルガー",
+   "pcgSearch": "わるいヘルガー",
+   "pokemonWiki": "わるいヘルガー",
+   "after": "わるいヘルガー",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ヘルガー_PCG3-21／85_R.png → cards/PCG/PCG3/わるいヘルガー_PCG3-21／85_R.png"
+  },
+  {
+   "id": "PCG3-033",
+   "before": "ミズゴロウ",
+   "pcgSearch": "ミズゴロウ☆",
+   "pokemonWiki": "ミズゴロウ☆",
+   "after": "ミズゴロウ☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ミズゴロウ_PCG3-33／85_S.png → cards/PCG/PCG3/ミズゴロウ☆_PCG3-33／85_S.png"
+  },
+  {
+   "id": "PCG3-034",
+   "before": "オクタン",
+   "pcgSearch": "わるいオクタン",
+   "pokemonWiki": "わるいオクタン",
+   "after": "わるいオクタン",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/オクタン_PCG3-34／85_R.png → cards/PCG/PCG3/わるいオクタン_PCG3-34／85_R.png"
+  },
+  {
+   "id": "PCG3-037",
+   "before": "マルマイン",
+   "pcgSearch": "わるいマルマイン",
+   "pokemonWiki": "わるいマルマイン",
+   "after": "わるいマルマイン",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/マルマイン_PCG3-37／85_R.png → cards/PCG/PCG3/わるいマルマイン_PCG3-37／85_R.png"
+  },
+  {
+   "id": "PCG3-038",
+   "before": "モココ",
+   "pcgSearch": "わるいモココ",
+   "pokemonWiki": "わるいモココ",
+   "after": "わるいモココ",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/モココ_PCG3-38／85_R.png → cards/PCG/PCG3/わるいモココ_PCG3-38／85_R.png"
+  },
+  {
+   "id": "PCG3-039",
+   "before": "デンリュウ",
+   "pcgSearch": "わるいデンリュウ",
+   "pokemonWiki": "わるいデンリュウ",
+   "after": "わるいデンリュウ",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/デンリュウ_PCG3-39／85_R.png → cards/PCG/PCG3/わるいデンリュウ_PCG3-39／85_R.png"
+  },
+  {
+   "id": "PCG3-043",
+   "before": "スリーパー",
+   "pcgSearch": "わるいスリーパー",
+   "pokemonWiki": "わるいスリーパー",
+   "after": "わるいスリーパー",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/スリーパー_PCG3-43／85_R.png → cards/PCG/PCG3/わるいスリーパー_PCG3-43／85_R.png"
+  },
+  {
+   "id": "PCG3-044",
+   "before": "ヤドキング",
+   "pcgSearch": "わるいヤドキング",
+   "pokemonWiki": "わるいヤドキング",
+   "after": "わるいヤドキング",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ヤドキング_PCG3-44／85_R.png → cards/PCG/PCG3/わるいヤドキング_PCG3-44／85_R.png"
+  },
+  {
+   "id": "PCG3-045",
+   "before": "サンドシュー",
+   "pcgSearch": "サンド",
+   "pokemonWiki": "サンド",
+   "after": "サンド",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/サンドシュー_PCG3-45／85_C.png → cards/PCG/PCG3/サンド_PCG3-45／85_C.png"
+  },
+  {
+   "id": "PCG3-051",
+   "before": "サンドパン",
+   "pcgSearch": "わるいサンドパン",
+   "pokemonWiki": "わるいサンドパン",
+   "after": "わるいサンドパン",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/サンドパン_PCG3-51／85_R.png → cards/PCG/PCG3/わるいサンドパン_PCG3-51／85_R.png"
+  },
+  {
+   "id": "PCG3-052",
+   "before": "ガラガラ",
+   "pcgSearch": "わるいガラガラ",
+   "pokemonWiki": "わるいガラガラ",
+   "after": "わるいガラガラ",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ガラガラ_PCG3-52／85_R.png → cards/PCG/PCG3/わるいガラガラ_PCG3-52／85_R.png"
+  },
+  {
+   "id": "PCG3-058",
+   "before": "ラッタ",
+   "pcgSearch": "わるいラッタ",
+   "pokemonWiki": "わるいラッタ",
+   "after": "わるいラッタ",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ラッタ_PCG3-58／85_R.png → cards/PCG/PCG3/わるいラッタ_PCG3-58／85_R.png"
+  },
+  {
+   "id": "PCG3-059",
+   "before": "ニャース",
+   "pcgSearch": "R団のニャース",
+   "pokemonWiki": "R団のニャース",
+   "after": "R団のニャース",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ニャース_PCG3-59／85_R.png → cards/PCG/PCG3/R団のニャース_PCG3-59／85_R.png"
+  },
+  {
+   "id": "PCG3-060",
+   "before": "エビワラー",
+   "pcgSearch": "R団のエビワラーex",
+   "pokemonWiki": "R団のエビワラーex",
+   "after": "R団のエビワラーex",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/エビワラー_PCG3-60／85_R.png → cards/PCG/PCG3/R団のエビワラーex_PCG3-60／85_R.png"
+  },
+  {
+   "id": "PCG3-061",
+   "before": "ストライク",
+   "pcgSearch": "R団のストライクex",
+   "pokemonWiki": "R団のストライクex",
+   "after": "R団のストライクex",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ストライク_PCG3-61／85_R.png → cards/PCG/PCG3/R団のストライクex_PCG3-61／85_R.png"
+  },
+  {
+   "id": "PCG3-062",
+   "before": "カビゴン",
+   "pcgSearch": "R団のカビゴンex",
+   "pokemonWiki": "R団のカビゴンex",
+   "after": "R団のカビゴンex",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/カビゴン_PCG3-62／85_R.png → cards/PCG/PCG3/R団のカビゴンex_PCG3-62／85_R.png"
+  },
+  {
+   "id": "PCG3-063",
+   "before": "サンダー",
+   "pcgSearch": "R団のサンダーex",
+   "pokemonWiki": "R団のサンダーex",
+   "after": "R団のサンダーex",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/サンダー_PCG3-63／85_R.png → cards/PCG/PCG3/R団のサンダーex_PCG3-63／85_R.png"
+  },
+  {
+   "id": "PCG3-064",
+   "before": "ミュウツー",
+   "pcgSearch": "R団のミュウツーex",
+   "pokemonWiki": "R団のミュウツーex",
+   "after": "R団のミュウツーex",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ミュウツー_PCG3-64／85_R.png → cards/PCG/PCG3/R団のミュウツーex_PCG3-64／85_R.png"
+  },
+  {
+   "id": "PCG3-065",
+   "before": "ソーナンス",
+   "pcgSearch": "R団のソーナンス",
+   "pokemonWiki": "R団のソーナンス",
+   "after": "R団のソーナンス",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ソーナンス_PCG3-65／85_R.png → cards/PCG/PCG3/R団のソーナンス_PCG3-65／85_R.png"
+  },
+  {
+   "id": "PCG3-066",
+   "before": "ハッサム",
+   "pcgSearch": "R団のハッサムex",
+   "pokemonWiki": "R団のハッサムex",
+   "after": "R団のハッサムex",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ハッサム_PCG3-66／85_R.png → cards/PCG/PCG3/R団のハッサムex_PCG3-66／85_R.png"
+  },
+  {
+   "id": "PCG3-067",
+   "before": "ニューラ",
+   "pcgSearch": "R団のニューラex",
+   "pokemonWiki": "R団のニューラex",
+   "after": "R団のニューラex",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ニューラ_PCG3-67／85_R.png → cards/PCG/PCG3/R団のニューラex_PCG3-67／85_R.png"
+  },
+  {
+   "id": "PCG3-068",
+   "before": "エンテイ",
+   "pcgSearch": "R団のエンテイex",
+   "pokemonWiki": "R団のエンテイex",
+   "after": "R団のエンテイex",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/エンテイ_PCG3-68／85_R.png → cards/PCG/PCG3/R団のエンテイex_PCG3-68／85_R.png"
+  },
+  {
+   "id": "PCG3-069",
+   "before": "スイクン",
+   "pcgSearch": "R団のスイクンex",
+   "pokemonWiki": "R団のスイクンex",
+   "after": "R団のスイクンex",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/スイクン_PCG3-69／85_R.png → cards/PCG/PCG3/R団のスイクンex_PCG3-69／85_R.png"
+  },
+  {
+   "id": "PCG3-070",
+   "before": "バンギラス",
+   "pcgSearch": "わるいバンギラス",
+   "pokemonWiki": "わるいバンギラス",
+   "after": "わるいバンギラス",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/バンギラス_PCG3-70／85_R.png → cards/PCG/PCG3/わるいバンギラス_PCG3-70／85_R.png"
+  },
+  {
+   "id": "PCG3-071",
+   "before": "セレビィ",
+   "pcgSearch": "R団のセレビィ",
+   "pokemonWiki": "R団のセレビィ",
+   "after": "R団のセレビィ",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/セレビィ_PCG3-71／85_R.png → cards/PCG/PCG3/R団のセレビィ_PCG3-71／85_R.png"
+  },
+  {
+   "id": "PCG3-072",
+   "before": "ハガネール",
+   "pcgSearch": "わるいハガネール",
+   "pokemonWiki": "わるいハガネール",
+   "after": "わるいハガネール",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ハガネール_PCG3-72／85_R.png → cards/PCG/PCG3/わるいハガネール_PCG3-72／85_R.png"
+  },
+  {
+   "id": "PCG3-073",
+   "before": "捕虜！ハンドエクステンション",
+   "pcgSearch": "逆転! マジックハンド",
+   "pokemonWiki": "逆転! マジックハンド",
+   "after": "逆転! マジックハンド",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/捕虜！ハンドエクステンション_PCG3-73／85_U.png → cards/PCG/PCG3/逆転! マジックハンド_PCG3-73／85_U.png"
+  },
+  {
+   "id": "PCG3-074",
+   "before": "急降下！テレポーター",
+   "pcgSearch": "そっくり! テレポーター",
+   "pokemonWiki": "そっくり! テレポーター",
+   "after": "そっくり! テレポーター",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/急降下！テレポーター_PCG3-74／85_U.png → cards/PCG/PCG3/そっくり! テレポーター_PCG3-74／85_U.png"
+  },
+  {
+   "id": "PCG3-075",
+   "before": "驚き！  タイムマシン",
+   "pcgSearch": "どっきり! タイムマシーン",
+   "pokemonWiki": "どっきり! タイムマシーン",
+   "after": "どっきり! タイムマシーン",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/驚き！  タイムマシン_PCG3-75／85_U.png → cards/PCG/PCG3/どっきり! タイムマシーン_PCG3-75／85_U.png"
+  },
+  {
+   "id": "PCG3-076",
+   "before": "ベンチャー爆弾",
+   "pcgSearch": "びっくりボム!",
+   "pokemonWiki": "びっくりボム!",
+   "after": "びっくりボム!",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ベンチャー爆弾_PCG3-76／85_U.png → cards/PCG/PCG3/びっくりボム!_PCG3-76／85_U.png"
+  },
+  {
+   "id": "PCG3-077",
+   "before": "ポケモンレトリバー",
+   "pcgSearch": "ポケモン回収装置",
+   "pokemonWiki": "ポケモン回収装置",
+   "after": "ポケモン回収装置",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ポケモンレトリバー_PCG3-77／85_U.png → cards/PCG/PCG3/ポケモン回収装置_PCG3-77／85_U.png"
+  },
+  {
+   "id": "PCG3-078",
+   "before": "模倣",
+   "pcgSearch": "モノマネむすめ",
+   "pokemonWiki": "モノマネむすめ",
+   "after": "モノマネむすめ",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/模倣_PCG3-78／85_U.png → cards/PCG/PCG3/モノマネむすめ_PCG3-78／85_U.png"
+  },
+  {
+   "id": "PCG3-079",
+   "before": "ロケットの管理者。",
+   "pcgSearch": "ロケット団の幹部",
+   "pokemonWiki": "ロケット団の幹部",
+   "after": "ロケット団の幹部",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ロケットの管理者。_PCG3-79／85_U.png → cards/PCG/PCG3/ロケット団の幹部_PCG3-79／85_U.png"
+  },
+  {
+   "id": "PCG3-080",
+   "before": "ロケットの使命",
+   "pcgSearch": "ロケット団のミッション",
+   "pokemonWiki": "ロケット団のミッション",
+   "after": "ロケット団のミッション",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ロケットの使命_PCG3-80／85_U.png → cards/PCG/PCG3/ロケット団のミッション_PCG3-80／85_U.png"
+  },
+  {
+   "id": "PCG3-081",
+   "before": "ロケットの隠れ家",
+   "pcgSearch": "ロケット団のアジト",
+   "pokemonWiki": "ロケット団のアジト",
+   "after": "ロケット団のアジト",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ロケットの隠れ家_PCG3-81／85_U.png → cards/PCG/PCG3/ロケット団のアジト_PCG3-81／85_U.png"
+  },
+  {
+   "id": "PCG3-082",
+   "before": "ロケットのトリッキーなジム",
+   "pcgSearch": "ロケット団のトリックジム",
+   "pokemonWiki": "ロケット団のトリックジム",
+   "after": "ロケット団のトリックジム",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/ロケットのトリッキーなジム_PCG3-82／85_U.png → cards/PCG/PCG3/ロケット団のトリックジム_PCG3-82／85_U.png"
+  },
+  {
+   "id": "PCG3-083",
+   "before": "rエネルギー",
+   "pcgSearch": "R-エネルギー",
+   "pokemonWiki": "R-エネルギー",
+   "after": "R-エネルギー",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/rエネルギー_PCG3-83／85_U.png → cards/PCG/PCG3/R-エネルギー_PCG3-83／85_U.png"
+  },
+  {
+   "id": "PCG3-085",
+   "before": "これがチームロケットが来ます！",
+   "pcgSearch": "ロケット団参上!",
+   "pokemonWiki": "ロケット団参上!",
+   "after": "ロケット団参上!",
+   "status": "直す",
+   "image": "cards/PCG/PCG3/これがチームロケットが来ます！_PCG3-85／85_R.png → cards/PCG/PCG3/ロケット団参上!_PCG3-85／85_R.png"
+  }
+ ]
+}
