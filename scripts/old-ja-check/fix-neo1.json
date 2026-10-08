@@ -1,0 +1,205 @@
+{
+ "set": "neo1",
+ "fixed": 22,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "neo1-073",
+   "before": "ベリー",
+   "pcgSearch": "きのみ",
+   "pokemonWiki": "きのみ",
+   "after": "きのみ",
+   "status": "直す",
+   "image": "cards/neo/neo1/ベリー_neo1-73／96_C.png → cards/neo/neo1/きのみ_neo1-73／96_C.png"
+  },
+  {
+   "id": "neo1-074",
+   "before": "スーパーロッド",
+   "pcgSearch": "すごいつりざお",
+   "pokemonWiki": "すごいつりざお",
+   "after": "すごいつりざお",
+   "status": "直す",
+   "image": "cards/neo/neo1/スーパーロッド_neo1-74／96_C.png → cards/neo/neo1/すごいつりざお_neo1-74／96_C.png"
+  },
+  {
+   "id": "neo1-075",
+   "before": "二重突風",
+   "pcgSearch": "ポケモンぎゃくしめい",
+   "pokemonWiki": "ポケモンぎゃくしめい",
+   "after": "ポケモンぎゃくしめい",
+   "status": "直す",
+   "image": "cards/neo/neo1/二重突風_neo1-75／96_C.png → cards/neo/neo1/ポケモンぎゃくしめい_neo1-75／96_C.png"
+  },
+  {
+   "id": "neo1-077",
+   "before": "ミルクのみ",
+   "pcgSearch": "モーモーミルク",
+   "pokemonWiki": "モーモーミルク",
+   "after": "モーモーミルク",
+   "status": "直す",
+   "image": "cards/neo/neo1/ミルクのみ_neo1-77／96_C.png → cards/neo/neo1/モーモーミルク_neo1-77／96_C.png"
+  },
+  {
+   "id": "neo1-078",
+   "before": "エルム教授",
+   "pcgSearch": "ウツギはかせ",
+   "pokemonWiki": "ウツギはかせ",
+   "after": "ウツギはかせ",
+   "status": "直す",
+   "image": "cards/neo/neo1/エルム教授_neo1-78／96_U.png → cards/neo/neo1/ウツギはかせ_neo1-78／96_U.png"
+  },
+  {
+   "id": "neo1-079",
+   "before": "ゴールドベリー",
+   "pcgSearch": "おうごんのみ",
+   "pokemonWiki": "おうごんのみ",
+   "after": "おうごんのみ",
+   "status": "直す",
+   "image": "cards/neo/neo1/ゴールドベリー_neo1-79／96_U.png → cards/neo/neo1/おうごんのみ_neo1-79／96_U.png"
+  },
+  {
+   "id": "neo1-080",
+   "before": "カードフリップゲーム",
+   "pcgSearch": "カードめくりゲーム",
+   "pokemonWiki": "カードめくりゲーム",
+   "after": "カードめくりゲーム",
+   "status": "直す",
+   "image": "cards/neo/neo1/カードフリップゲーム_neo1-80／96_U.png → cards/neo/neo1/カードめくりゲーム_neo1-80／96_U.png"
+  },
+  {
+   "id": "neo1-081",
+   "before": "ミラクルベリー",
+   "pcgSearch": "きせきのみ",
+   "pokemonWiki": "きせきのみ",
+   "after": "きせきのみ",
+   "status": "直す",
+   "image": "cards/neo/neo1/ミラクルベリー_neo1-81／96_U.png → cards/neo/neo1/きせきのみ_neo1-81／96_U.png"
+  },
+  {
+   "id": "neo1-082",
+   "before": "新しいpokedex",
+   "pcgSearch": "新ポケモン図鑑HANDY808",
+   "pokemonWiki": "新ポケモン図鑑HANDY808",
+   "after": "新ポケモン図鑑HANDY808",
+   "status": "直す",
+   "image": "cards/neo/neo1/新しいpokedex_neo1-82／96_U.png → cards/neo/neo1/新ポケモン図鑑HANDY808_neo1-82／96_U.png"
+  },
+  {
+   "id": "neo1-083",
+   "before": "スーパースクープアップ",
+   "pcgSearch": "スーパーポケモン回収",
+   "pokemonWiki": "スーパーポケモン回収",
+   "after": "スーパーポケモン回収",
+   "status": "直す",
+   "image": "cards/neo/neo1/スーパースクープアップ_neo1-83／96_U.png → cards/neo/neo1/スーパーポケモン回収_neo1-83／96_U.png"
+  },
+  {
+   "id": "neo1-084",
+   "before": "ビルのテレポーター",
+   "pcgSearch": "マサキの転送装置",
+   "pokemonWiki": "マサキの転送装置",
+   "after": "マサキの転送装置",
+   "status": "直す",
+   "image": "cards/neo/neo1/ビルのテレポーター_neo1-84／96_U.png → cards/neo/neo1/マサキの転送装置_neo1-84／96_U.png"
+  },
+  {
+   "id": "neo1-085",
+   "before": "スプラウトタワー",
+   "pcgSearch": "マダツボミのとう",
+   "pokemonWiki": "マダツボミのとう",
+   "after": "マダツボミのとう",
+   "status": "直す",
+   "image": "cards/neo/neo1/スプラウトタワー_neo1-85／96_U.png → cards/neo/neo1/マダツボミのとう_neo1-85／96_U.png"
+  },
+  {
+   "id": "neo1-086",
+   "before": "エコジム",
+   "pcgSearch": "エコロジム",
+   "pokemonWiki": "エコロジム",
+   "after": "エコロジム",
+   "status": "直す",
+   "image": "cards/neo/neo1/エコジム_neo1-86／96_R.png → cards/neo/neo1/エコロジム_neo1-86／96_R.png"
+  },
+  {
+   "id": "neo1-087",
+   "before": "エネルギー電荷",
+   "pcgSearch": "エネルギーチャージ",
+   "pokemonWiki": "エネルギーチャージ",
+   "after": "エネルギーチャージ",
+   "status": "直す",
+   "image": "cards/neo/neo1/エネルギー電荷_neo1-87／96_R.png → cards/neo/neo1/エネルギーチャージ_neo1-87／96_R.png"
+  },
+  {
+   "id": "neo1-088",
+   "before": "フォーカスバンド",
+   "pcgSearch": "きあいのハチマキ",
+   "pokemonWiki": "きあいのハチマキ",
+   "after": "きあいのハチマキ",
+   "status": "直す",
+   "image": "cards/neo/neo1/フォーカスバンド_neo1-88／96_R.png → cards/neo/neo1/きあいのハチマキ_neo1-88／96_R.png"
+  },
+  {
+   "id": "neo1-089",
+   "before": "メアリー",
+   "pcgSearch": "クルミ",
+   "pokemonWiki": "クルミ",
+   "after": "クルミ",
+   "status": "直す",
+   "image": "cards/neo/neo1/メアリー_neo1-89／96_R.png → cards/neo/neo1/クルミ_neo1-89／96_R.png"
+  },
+  {
+   "id": "neo1-090",
+   "before": "アーケードゲーム",
+   "pcgSearch": "スロットゲーム",
+   "pokemonWiki": "スロットゲーム",
+   "after": "スロットゲーム",
+   "status": "直す",
+   "image": "cards/neo/neo1/アーケードゲーム_neo1-90／96_R.png → cards/neo/neo1/スロットゲーム_neo1-90／96_R.png"
+  },
+  {
+   "id": "neo1-092",
+   "before": "スーパーエネルギー検索",
+   "pcgSearch": "超エネルギー回収",
+   "pokemonWiki": "超エネルギー回収",
+   "after": "超エネルギー回収",
+   "status": "直す",
+   "image": "cards/neo/neo1/スーパーエネルギー検索_neo1-92／96_R.png → cards/neo/neo1/超エネルギー回収_neo1-92／96_R.png"
+  },
+  {
+   "id": "neo1-093",
+   "before": "ポクギア",
+   "pcgSearch": "ポケモンギア",
+   "pokemonWiki": "ポケモンギア",
+   "after": "ポケモンギア",
+   "status": "直す",
+   "image": "cards/neo/neo1/ポクギア_neo1-93／96_R.png → cards/neo/neo1/ポケモンギア_neo1-93／96_R.png"
+  },
+  {
+   "id": "neo1-094",
+   "before": "闇のエネルギー",
+   "pcgSearch": "悪エネルギー",
+   "pokemonWiki": "悪エネルギー",
+   "after": "悪エネルギー",
+   "status": "直す",
+   "image": "cards/neo/neo1/闇のエネルギー_neo1-94／96_R.png → cards/neo/neo1/悪エネルギー_neo1-94／96_R.png"
+  },
+  {
+   "id": "neo1-095",
+   "before": "金属エネルギー",
+   "pcgSearch": "鋼エネルギー",
+   "pokemonWiki": "鋼エネルギー",
+   "after": "鋼エネルギー",
+   "status": "直す",
+   "image": "cards/neo/neo1/金属エネルギー_neo1-95／96_R.png → cards/neo/neo1/鋼エネルギー_neo1-95／96_R.png"
+  },
+  {
+   "id": "neo1-096",
+   "before": "エネルギーをリサイクルします",
+   "pcgSearch": "リサイクルエネルギー",
+   "pokemonWiki": "リサイクルエネルギー",
+   "after": "リサイクルエネルギー",
+   "status": "直す",
+   "image": "cards/neo/neo1/エネルギーをリサイクルします_neo1-96／96_R.png → cards/neo/neo1/リサイクルエネルギー_neo1-96／96_R.png"
+  }
+ ]
+}
