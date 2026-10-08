@@ -17,7 +17,9 @@ const APPLY = process.argv.includes("--apply");
 
 const species = JSON.parse(fs.readFileSync(path.join(__dirname, "en-name-fix3", "species-ja-en.json"), "utf8")).species;
 const ja2en = new Map(species.map((s) => [s.ja.normalize("NFKC"), s.en]));
-const PREFIX = [["わるい", "Dark "], ["やさしい", "Light "], ["ひかる", "Shining "], ["R団の", "Rocket's "], ["ホロンの", "Holon's "]];
+const PREFIX = [["わるい", "Dark "], ["やさしい", "Light "], ["ひかる", "Shining "], ["R団の", "Rocket's "], ["ホロンの", "Holon's "],
+  // ポワルンのフォルム（EX 期の書き方。PCG6＝英語版 EX Delta Species の Sunny/Rain/Snow-cloud Castform。後の世代の "Castform Sunny Form" とは違う。2026-10-08）
+  ["太陽の", "Sunny "], ["雨水の", "Rain "], ["雪雲の", "Snow-cloud "]];
 
 // Bulbapedia の一覧
 const bp = new Map();
@@ -58,7 +60,7 @@ for (const f of fix.rows.filter((r) => r.status === "直す")) {
   if (!r.bulbapedia) { r.status = "Bulbapedia の一覧に無い"; continue; }
   if (key(r.built) !== key(r.bulbapedia)) { r.status = "作った名前と Bulbapedia が一致しない"; continue; }
   if (k[2] === r.bulbapedia) { r.status = "すでに同じ"; continue; }
-  const base = ja2en.get(k[1].normalize("NFKC").replace(/^(わるい|やさしい|ひかる|R団の|ホロンの)/, "").replace(/(δ-デルタ種|☆|ex|\[.\])+$/g, "").replace(/ex$/, ""));
+  const base = ja2en.get(k[1].normalize("NFKC").replace(/^(わるい|やさしい|ひかる|R団の|ホロンの|太陽の|雨水の|雪雲の)/, "").replace(/(δ-デルタ種|☆|ex|\[.\])+$/g, "").replace(/ex$/, ""));
   if (key(k[2]) !== key(base) && !key(r.bulbapedia).startsWith(key(k[2]))) { r.status = `今の英語名が種族の英語名だけの形でない（${k[2]}）`; continue; }
   r.after = r.bulbapedia; r.status = "直す";
   if (APPLY) k[2] = r.bulbapedia;

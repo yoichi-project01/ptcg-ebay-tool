@@ -1,15 +1,15 @@
 {
  "set": "PCG6",
- "fixed": 3,
+ "fixed": 31,
  "rows": [
   {
    "id": "PCG6-010",
    "ja": "スピアーδ-デルタ種",
-   "before": "Beedrill δ",
+   "before": "Beedrill",
    "built": "Beedrill δ",
    "bulbapedia": "Beedrill δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Beedrill δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-011",
@@ -23,110 +23,110 @@
   {
    "id": "PCG6-013",
    "ja": "ヨーギラスδ-デルタ種",
-   "before": "Larvitar δ",
+   "before": "Larvitar",
    "built": "Larvitar δ",
    "bulbapedia": "Larvitar δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Larvitar δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-014",
    "ja": "サナギラスδ-デルタ種",
-   "before": "Pupitar δ",
+   "before": "Pupitar",
    "built": "Pupitar δ",
    "bulbapedia": "Pupitar δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Pupitar δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-015",
    "ja": "太陽のポワルン",
    "before": "Castform",
-   "built": "Sunny Castform",
+   "built": null,
    "bulbapedia": "Sunny Castform",
-   "after": "Sunny Castform",
-   "status": "直す"
+   "after": "",
+   "status": "日本語名から英語名を作れない"
   },
   {
    "id": "PCG6-016",
    "ja": "タツベイδ-デルタ種",
-   "before": "Bagon δ",
+   "before": "Bagon",
    "built": "Bagon δ",
    "bulbapedia": "Bagon δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Bagon δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-017",
    "ja": "コモルーδ-デルタ種",
-   "before": "Shelgon δ",
+   "before": "Shelgon",
    "built": "Shelgon δ",
    "bulbapedia": "Shelgon δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Shelgon δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-018",
    "ja": "ブースターδ-デルタ種",
-   "before": "Flareon δ",
+   "before": "Flareon",
    "built": "Flareon δ",
    "bulbapedia": "Flareon δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Flareon δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-019",
    "ja": "ミュウツーδ-デルタ種",
-   "before": "Mewtwo δ",
+   "before": "Mewtwo",
    "built": "Mewtwo δ",
    "bulbapedia": "Mewtwo δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Mewtwo δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-020",
    "ja": "バンギラスδ-デルタ種",
-   "before": "Tyranitar δ",
+   "before": "Tyranitar",
    "built": "Tyranitar δ",
    "bulbapedia": "Tyranitar δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Tyranitar δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-021",
    "ja": "ボーマンダδ-デルタ種",
-   "before": "Salamence δ",
+   "before": "Salamence",
    "built": "Salamence δ",
    "bulbapedia": "Salamence δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Salamence δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-026",
    "ja": "雨水のポワルン",
    "before": "Castform",
-   "built": "Rain Castform",
+   "built": null,
    "bulbapedia": "Rain Castform",
-   "after": "Rain Castform",
-   "status": "直す"
+   "after": "",
+   "status": "日本語名から英語名を作れない"
   },
   {
    "id": "PCG6-027",
    "ja": "雪雲のポワルン",
    "before": "Castform",
-   "built": "Snow-cloud Castform",
+   "built": null,
    "bulbapedia": "Snow-cloud Castform",
-   "after": "Snow-cloud Castform",
-   "status": "直す"
+   "after": "",
+   "status": "日本語名から英語名を作れない"
   },
   {
    "id": "PCG6-028",
    "ja": "カイオーガ☆",
-   "before": "Kyogre ☆",
+   "before": "Kyogre",
    "built": "Kyogre ☆",
    "bulbapedia": "Kyogre ☆",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Kyogre ☆",
+   "status": "直す"
   },
   {
    "id": "PCG6-029",
@@ -140,83 +140,83 @@
   {
    "id": "PCG6-030",
    "ja": "シャワーズδ-デルタ種",
-   "before": "Vaporeon δ",
+   "before": "Vaporeon",
    "built": "Vaporeon δ",
    "bulbapedia": "Vaporeon δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Vaporeon δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-031",
    "ja": "ホロンのビリリダマ",
-   "before": "Holon's Voltorb",
+   "before": "Voltorb",
    "built": "Holon's Voltorb",
    "bulbapedia": "Holon's Voltorb",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Holon's Voltorb",
+   "status": "直す"
   },
   {
    "id": "PCG6-032",
    "ja": "ホロンのマルマイン",
-   "before": "Holon's Electrode",
+   "before": "Electrode",
    "built": "Holon's Electrode",
    "bulbapedia": "Holon's Electrode",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Holon's Electrode",
+   "status": "直す"
   },
   {
    "id": "PCG6-034",
    "ja": "ミニリュウδ-デルタ種",
-   "before": "Dratini δ",
+   "before": "Dratini",
    "built": "Dratini δ",
    "bulbapedia": "Dratini δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Dratini δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-035",
    "ja": "ハクリューδ-デルタ種",
-   "before": "Dragonair δ",
+   "before": "Dragonair",
    "built": "Dragonair δ",
    "bulbapedia": "Dragonair δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Dragonair δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-036",
    "ja": "ダンバルδ-デルタ種",
-   "before": "Beldum δ",
+   "before": "Beldum",
    "built": "Beldum δ",
    "bulbapedia": "Beldum δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Beldum δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-037",
    "ja": "メタングδ-デルタ種",
-   "before": "Metang δ",
+   "before": "Metang",
    "built": "Metang δ",
    "bulbapedia": "Metang δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Metang δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-038",
    "ja": "サンダースδ-デルタ種",
-   "before": "Jolteon δ",
+   "before": "Jolteon",
    "built": "Jolteon δ",
    "bulbapedia": "Jolteon δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Jolteon δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-039",
    "ja": "カイリューδ-デルタ種",
-   "before": "Dragonite δ",
+   "before": "Dragonite",
    "built": "Dragonite δ",
    "bulbapedia": "Dragonite δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Dragonite δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-040",
@@ -248,29 +248,29 @@
   {
    "id": "PCG6-043",
    "ja": "レックウザδ-デルタ種",
-   "before": "Rayquaza δ",
+   "before": "Rayquaza",
    "built": "Rayquaza δ",
    "bulbapedia": "Rayquaza δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Rayquaza δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-049",
    "ja": "エーフィδ-デルタ種",
-   "before": "Espeon δ",
+   "before": "Espeon",
    "built": "Espeon δ",
    "bulbapedia": "Espeon δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Espeon δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-050",
    "ja": "サーナイトδ-デルタ種",
-   "before": "Gardevoir δ",
+   "before": "Gardevoir",
    "built": "Gardevoir δ",
    "bulbapedia": "Gardevoir δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Gardevoir δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-051",
@@ -284,29 +284,29 @@
   {
    "id": "PCG6-056",
    "ja": "グラードン☆",
-   "before": "Groudon ☆",
+   "before": "Groudon",
    "built": "Groudon ☆",
    "bulbapedia": "Groudon ☆",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Groudon ☆",
+   "status": "直す"
   },
   {
    "id": "PCG6-057",
    "ja": "サンドパンδ-デルタ種",
-   "before": "Sandslash δ",
+   "before": "Sandslash",
    "built": "Sandslash δ",
    "bulbapedia": "Sandslash δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Sandslash δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-058",
    "ja": "ガラガラδ-デルタ種",
-   "before": "Marowak δ",
+   "before": "Marowak",
    "built": "Marowak δ",
    "bulbapedia": "Marowak δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Marowak δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-063",
@@ -320,56 +320,56 @@
   {
    "id": "PCG6-069",
    "ja": "ブラッキーδ-デルタ種",
-   "before": "Umbreon δ",
+   "before": "Umbreon",
    "built": "Umbreon δ",
    "bulbapedia": "Umbreon δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Umbreon δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-070",
    "ja": "グラエナδ-デルタ種",
-   "before": "Mightyena δ",
+   "before": "Mightyena",
    "built": "Mightyena δ",
    "bulbapedia": "Mightyena δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Mightyena δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-071",
    "ja": "ホロンのコイル",
-   "before": "Holon's Magnemite",
+   "before": "Magnemite",
    "built": "Holon's Magnemite",
    "bulbapedia": "Holon's Magnemite",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Holon's Magnemite",
+   "status": "直す"
   },
   {
    "id": "PCG6-072",
    "ja": "ホロンのレアコイル",
-   "before": "Holon's Magneton",
+   "before": "Magneton",
    "built": "Holon's Magneton",
    "bulbapedia": "Holon's Magneton",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Holon's Magneton",
+   "status": "直す"
   },
   {
    "id": "PCG6-073",
    "ja": "イーブイδ-デルタ種",
-   "before": "Eevee δ",
+   "before": "Eevee",
    "built": "Eevee δ",
    "bulbapedia": "Eevee δ",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Eevee δ",
+   "status": "直す"
   },
   {
    "id": "PCG6-075",
    "ja": "メタグロス☆",
-   "before": "Metagross ☆",
+   "before": "Metagross",
    "built": "Metagross ☆",
    "bulbapedia": "Metagross ☆",
-   "after": "",
-   "status": "すでに同じ"
+   "after": "Metagross ☆",
+   "status": "直す"
   }
  ]
 }
