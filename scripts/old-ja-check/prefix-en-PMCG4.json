@@ -1,0 +1,275 @@
+{
+ "set": "PMCG4",
+ "rows": [
+  {
+   "id": "PMCG4-006",
+   "ja": "わるいクサイハナ",
+   "before": "Gloom",
+   "built": "Dark Gloom",
+   "bulbapedia": "Dark Gloom",
+   "after": "Dark Gloom",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-007",
+   "ja": "わるいベトベトン",
+   "before": "Muk",
+   "built": "Dark Muk",
+   "bulbapedia": "Dark Muk",
+   "after": "Dark Muk",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-008",
+   "ja": "わるいアーボック",
+   "before": "Arbok",
+   "built": "Dark Arbok",
+   "bulbapedia": "Dark Arbok",
+   "after": "Dark Arbok",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-009",
+   "ja": "わるいゴルバット",
+   "before": "Golbat",
+   "built": "Dark Golbat",
+   "bulbapedia": "Dark Golbat",
+   "after": "Dark Golbat",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-010",
+   "ja": "わるいラフレシア",
+   "before": "Vileplume",
+   "built": "Dark Vileplume",
+   "bulbapedia": "Dark Vileplume",
+   "after": "Dark Vileplume",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-011",
+   "ja": "わるいマタドガス",
+   "before": "Weezing",
+   "built": "Dark Weezing",
+   "bulbapedia": "Dark Weezing",
+   "after": "Dark Weezing",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-014",
+   "ja": "わるいギャロップ",
+   "before": "Rapidash",
+   "built": "Dark Rapidash",
+   "bulbapedia": "Dark Rapidash",
+   "after": "Dark Rapidash",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-015",
+   "ja": "わるいリザード",
+   "before": "Charmeleon",
+   "built": "Dark Charmeleon",
+   "bulbapedia": "Dark Charmeleon",
+   "after": "Dark Charmeleon",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-016",
+   "ja": "わるいブースター",
+   "before": "Flareon",
+   "built": "Dark Flareon",
+   "bulbapedia": "Dark Flareon",
+   "after": "Dark Flareon",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-017",
+   "ja": "わるいリザードン",
+   "before": "Charizard",
+   "built": "Dark Charizard",
+   "bulbapedia": "Dark Charizard",
+   "after": "Dark Charizard",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-021",
+   "ja": "わるいカメール",
+   "before": "Wartortle",
+   "built": "Dark Wartortle",
+   "bulbapedia": "Dark Wartortle",
+   "after": "Dark Wartortle",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-022",
+   "ja": "わるいゴルダック",
+   "before": "Golduck",
+   "built": "Dark Golduck",
+   "bulbapedia": "Dark Golduck",
+   "after": "Dark Golduck",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-023",
+   "ja": "わるいシャワーズ",
+   "before": "Vaporeon",
+   "built": "Dark Vaporeon",
+   "bulbapedia": "Dark Vaporeon",
+   "after": "Dark Vaporeon",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-024",
+   "ja": "わるいカメックス",
+   "before": "Blastoise",
+   "built": "Dark Blastoise",
+   "bulbapedia": "Dark Blastoise",
+   "after": "Dark Blastoise",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-025",
+   "ja": "わるいギャラドス",
+   "before": "Gyarados",
+   "built": "Dark Gyarados",
+   "bulbapedia": "Dark Gyarados",
+   "after": "Dark Gyarados",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-028",
+   "ja": "わるいマルマイン",
+   "before": "Electrode",
+   "built": "Dark Electrode",
+   "bulbapedia": "Dark Electrode",
+   "after": "Dark Electrode",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-029",
+   "ja": "わるいサンダース",
+   "before": "Jolteon",
+   "built": "Dark Jolteon",
+   "bulbapedia": "Dark Jolteon",
+   "after": "Dark Jolteon",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-030",
+   "ja": "わるいレアコイル",
+   "before": "Magneton",
+   "built": "Dark Magneton",
+   "bulbapedia": "Dark Magneton",
+   "after": "Dark Magneton",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-034",
+   "ja": "わるいユンゲラー",
+   "before": "Kadabra",
+   "built": "Dark Kadabra",
+   "bulbapedia": "Dark Kadabra",
+   "after": "Dark Kadabra",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-035",
+   "ja": "わるいフーディン",
+   "before": "Alakazam",
+   "built": "Dark Alakazam",
+   "bulbapedia": "Dark Alakazam",
+   "after": "Dark Alakazam",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-036",
+   "ja": "わるいヤドラン",
+   "before": "Slowbro",
+   "built": "Dark Slowbro",
+   "bulbapedia": "Dark Slowbro",
+   "after": "Dark Slowbro",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-037",
+   "ja": "わるいスリーパー",
+   "before": "Hypno",
+   "built": "Dark Hypno",
+   "bulbapedia": "Dark Hypno",
+   "after": "Dark Hypno",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-041",
+   "ja": "わるいオコリザル",
+   "before": "Primeape",
+   "built": "Dark Primeape",
+   "bulbapedia": "Dark Primeape",
+   "after": "Dark Primeape",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-042",
+   "ja": "わるいゴーリキー",
+   "before": "Machoke",
+   "built": "Dark Machoke",
+   "bulbapedia": "Dark Machoke",
+   "after": "Dark Machoke",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-043",
+   "ja": "わるいダグトリオ",
+   "before": "Dugtrio",
+   "built": "Dark Dugtrio",
+   "bulbapedia": "Dark Dugtrio",
+   "after": "Dark Dugtrio",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-044",
+   "ja": "わるいカイリキー",
+   "before": "Machamp",
+   "built": "Dark Machamp",
+   "bulbapedia": "Dark Machamp",
+   "after": "Dark Machamp",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-046",
+   "ja": "わるいラッタ",
+   "before": "Raticate",
+   "built": "Dark Raticate",
+   "bulbapedia": "Dark Raticate",
+   "after": "Dark Raticate",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-048",
+   "ja": "わるいペルシアン",
+   "before": "Persian",
+   "built": "Dark Persian",
+   "bulbapedia": "Dark Persian",
+   "after": "Dark Persian",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-052",
+   "ja": "わるいハクリュー",
+   "before": "Dragonair",
+   "built": "Dark Dragonair",
+   "bulbapedia": "Dark Dragonair",
+   "after": "Dark Dragonair",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG4-053",
+   "ja": "わるいカイリュー",
+   "before": "Dragonite",
+   "built": "Dark Dragonite",
+   "bulbapedia": "Dark Dragonite",
+   "after": "Dark Dragonite",
+   "status": "直す"
+  }
+ ]
+}
