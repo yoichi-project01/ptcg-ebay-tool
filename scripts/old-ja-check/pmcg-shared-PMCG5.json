@@ -1,0 +1,240 @@
+{
+ "set": "PMCG5",
+ "reasons": {
+  "画像を取り直す": 5,
+  "そのまま": 5,
+  "画像を取り直す・レアリティを直す": 1,
+  "レアリティを直す": 1
+ },
+ "plans": [
+  {
+   "id": "PMCG5-002",
+   "before": {
+    "ja": "エリカのナゾノクサ",
+    "rarity": "C"
+   },
+   "bulbapedia": "Erika's Oddish 1 HP40 LV10 C",
+   "candidates": [
+    "PMCG5-005"
+   ],
+   "imageNow": "PMCG5-006",
+   "after": {
+    "ja": "エリカのナゾノクサ",
+    "rarity": "C"
+   },
+   "status": "画像を取り直す",
+   "site": "PMCG5-005",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG5/エリカのナゾノクサ_PMCG5-02／96_C.png"
+  },
+  {
+   "id": "PMCG5-003",
+   "before": {
+    "ja": "エリカのナゾノクサ",
+    "rarity": "C"
+   },
+   "bulbapedia": "Erika's Oddish 2 HP50 LV15 C",
+   "candidates": [
+    "PMCG5-006"
+   ],
+   "imageNow": "PMCG5-006",
+   "after": {
+    "ja": "エリカのナゾノクサ",
+    "rarity": "C"
+   },
+   "status": "そのまま",
+   "site": "PMCG5-006"
+  },
+  {
+   "id": "PMCG5-005",
+   "before": {
+    "ja": "エリカのマダツボミ",
+    "rarity": "C"
+   },
+   "bulbapedia": "Erika's Bellsprout 1 HP50 LV15 C",
+   "candidates": [
+    "PMCG5-011"
+   ],
+   "imageNow": "PMCG5-011",
+   "after": {
+    "ja": "エリカのマダツボミ",
+    "rarity": "C"
+   },
+   "status": "そのまま",
+   "site": "PMCG5-011"
+  },
+  {
+   "id": "PMCG5-010",
+   "before": {
+    "ja": "エリカのマダツボミ",
+    "rarity": "U"
+   },
+   "bulbapedia": "Erika's Bellsprout 2 HP40 LV13 U",
+   "candidates": [
+    "PMCG5-010"
+   ],
+   "imageNow": "PMCG5-011",
+   "after": {
+    "ja": "エリカのマダツボミ",
+    "rarity": "U"
+   },
+   "status": "画像を取り直す",
+   "site": "PMCG5-010",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG5/エリカのマダツボミ_PMCG5-10／96_U.png"
+  },
+  {
+   "id": "PMCG5-017",
+   "before": {
+    "ja": "タケシのロコン",
+    "rarity": "U"
+   },
+   "bulbapedia": "Brock's Vulpix 1 HP40 LV10 C",
+   "candidates": [
+    "PMCG5-018"
+   ],
+   "imageNow": "PMCG5-019",
+   "after": {
+    "ja": "タケシのロコン",
+    "rarity": "C"
+   },
+   "status": "画像を取り直す・レアリティを直す",
+   "site": "PMCG5-018",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG5/タケシのロコン_PMCG5-17／96_U.png → cards/PMCG/PMCG5/タケシのロコン_PMCG5-17／96_C.png"
+  },
+  {
+   "id": "PMCG5-018",
+   "before": {
+    "ja": "タケシのロコン",
+    "rarity": "C"
+   },
+   "bulbapedia": "Brock's Vulpix 2 HP50 LV16 U",
+   "candidates": [
+    "PMCG5-019"
+   ],
+   "imageNow": "PMCG5-019",
+   "after": {
+    "ja": "タケシのロコン",
+    "rarity": "U"
+   },
+   "status": "レアリティを直す",
+   "site": "PMCG5-019",
+   "file": "cards/PMCG/PMCG5/タケシのロコン_PMCG5-18／96_C.png → cards/PMCG/PMCG5/タケシのロコン_PMCG5-18／96_U.png"
+  },
+  {
+   "id": "PMCG5-024",
+   "before": {
+    "ja": "カスミのタッツー",
+    "rarity": "C"
+   },
+   "bulbapedia": "Misty's Horsea 1 HP50 LV16 C",
+   "candidates": [
+    "PMCG5-030"
+   ],
+   "imageNow": "PMCG5-030",
+   "after": {
+    "ja": "カスミのタッツー",
+    "rarity": "C"
+   },
+   "status": "そのまま",
+   "site": "PMCG5-030"
+  },
+  {
+   "id": "PMCG5-025",
+   "before": {
+    "ja": "カスミのタッツー",
+    "rarity": "C"
+   },
+   "bulbapedia": "Misty's Horsea 2 HP40 LV10 C",
+   "candidates": [
+    "PMCG5-029"
+   ],
+   "imageNow": "PMCG5-030",
+   "after": {
+    "ja": "カスミのタッツー",
+    "rarity": "C"
+   },
+   "status": "画像を取り直す",
+   "site": "PMCG5-029",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG5/カスミのタッツー_PMCG5-25／96_C.png"
+  },
+  {
+   "id": "PMCG5-037",
+   "before": {
+    "ja": "マチスのコイル",
+    "rarity": "C"
+   },
+   "bulbapedia": "Lt. Surge's Magnemite 1 HP40 LV12 C",
+   "candidates": [
+    "PMCG5-038"
+   ],
+   "imageNow": "PMCG5-038",
+   "after": {
+    "ja": "マチスのコイル",
+    "rarity": "C"
+   },
+   "status": "そのまま",
+   "site": "PMCG5-038"
+  },
+  {
+   "id": "PMCG5-039",
+   "before": {
+    "ja": "マチスのコイル",
+    "rarity": "U"
+   },
+   "bulbapedia": "Lt. Surge's Magnemite 2 HP30 LV10 U",
+   "candidates": [
+    "PMCG5-037"
+   ],
+   "imageNow": "PMCG5-038",
+   "after": {
+    "ja": "マチスのコイル",
+    "rarity": "U"
+   },
+   "status": "画像を取り直す",
+   "site": "PMCG5-037",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG5/マチスのコイル_PMCG5-39／96_U.png"
+  },
+  {
+   "id": "PMCG5-046",
+   "before": {
+    "ja": "タケシのイシツブテ",
+    "rarity": "C"
+   },
+   "bulbapedia": "Brock's Geodude 1 HP50 LV15 C",
+   "candidates": [
+    "PMCG5-050"
+   ],
+   "imageNow": "PMCG5-050",
+   "after": {
+    "ja": "タケシのイシツブテ",
+    "rarity": "C"
+   },
+   "status": "そのまま",
+   "site": "PMCG5-050"
+  },
+  {
+   "id": "PMCG5-047",
+   "before": {
+    "ja": "タケシのイシツブテ",
+    "rarity": "C"
+   },
+   "bulbapedia": "Brock's Geodude 2 HP40 LV13 C",
+   "candidates": [
+    "PMCG5-049"
+   ],
+   "imageNow": "PMCG5-050",
+   "after": {
+    "ja": "タケシのイシツブテ",
+    "rarity": "C"
+   },
+   "status": "画像を取り直す",
+   "site": "PMCG5-049",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG5/タケシのイシツブテ_PMCG5-47／96_C.png"
+  }
+ ]
+}
