@@ -1,0 +1,96 @@
+{
+ "set": "PCG2",
+ "fixed": 10,
+ "rows": [
+  {
+   "id": "PCG2-005",
+   "ja": "クロバットex",
+   "before": "Crobat",
+   "built": "Crobat ex",
+   "bulbapedia": "Crobat ex",
+   "after": "Crobat ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-033",
+   "ja": "ライボルトex",
+   "before": "Manectric",
+   "built": "Manectric ex",
+   "bulbapedia": "Manectric ex",
+   "after": "Manectric ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-045",
+   "ja": "デオキシスex",
+   "before": "Deoxys",
+   "built": "Deoxys ex",
+   "bulbapedia": "Deoxys ex",
+   "after": "Deoxys ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-046",
+   "ja": "デオキシスex",
+   "before": "Deoxys",
+   "built": "Deoxys ex",
+   "bulbapedia": "Deoxys ex",
+   "after": "Deoxys ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-049",
+   "ja": "ハリテヤマex",
+   "before": "Hariyama",
+   "built": "Hariyama ex",
+   "bulbapedia": "Hariyama ex",
+   "after": "Hariyama ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-064",
+   "ja": "ボーマンダex",
+   "before": "Salamence",
+   "built": "Salamence ex",
+   "bulbapedia": "Salamence ex",
+   "after": "Salamence ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-065",
+   "ja": "ラティアス☆",
+   "before": "Latias",
+   "built": "Latias ☆",
+   "bulbapedia": "Latias ☆",
+   "after": "Latias ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-066",
+   "ja": "ラティオス☆",
+   "before": "Latios",
+   "built": "Latios ☆",
+   "bulbapedia": "Latios ☆",
+   "after": "Latios ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-067",
+   "ja": "レックウザ☆",
+   "before": "Rayquaza",
+   "built": "Rayquaza ☆",
+   "bulbapedia": "Rayquaza ☆",
+   "after": "Rayquaza ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG2-072",
+   "ja": "サメハダーex",
+   "before": "Sharpedo",
+   "built": "Sharpedo ex",
+   "bulbapedia": "Sharpedo ex",
+   "after": "Sharpedo ex",
+   "status": "直す"
+  }
+ ]
+}
