@@ -1,0 +1,106 @@
+{
+ "set": "web1",
+ "kind": "pokemon",
+ "fixed": 10,
+ "rows": [
+  {
+   "id": "web1-017",
+   "ja": "わるいフシギソウ",
+   "before": "Ivysaur",
+   "built": "Dark Ivysaur",
+   "bulbapedia": "Dark Ivysaur",
+   "after": "Dark Ivysaur",
+   "status": "直す"
+  },
+  {
+   "id": "web1-021",
+   "ja": "わるいマタドガス",
+   "before": "Weezing",
+   "built": "Dark Weezing",
+   "bulbapedia": "Dark Weezing",
+   "after": "Dark Weezing",
+   "status": "直す"
+  },
+  {
+   "id": "web1-022",
+   "ja": "わるいリザード",
+   "before": "Charmeleon",
+   "built": "Dark Charmeleon",
+   "bulbapedia": "Dark Charmeleon",
+   "after": "Dark Charmeleon",
+   "status": "直す"
+  },
+  {
+   "id": "web1-024",
+   "ja": "わるいカメール",
+   "before": "Wartortle",
+   "built": "Dark Wartortle",
+   "bulbapedia": "Dark Wartortle",
+   "after": "Dark Wartortle",
+   "status": "直す"
+  },
+  {
+   "id": "web1-025",
+   "ja": "なみのりピカチュウ",
+   "before": "Pikachu",
+   "built": null,
+   "bulbapedia": "Surfing Pikachu",
+   "after": "",
+   "status": "日本語名から英語名を作れない"
+  },
+  {
+   "id": "web1-027",
+   "ja": "わるいユンゲラー",
+   "before": "Kadabra",
+   "built": "Dark Kadabra",
+   "bulbapedia": "Dark Kadabra",
+   "after": "Dark Kadabra",
+   "status": "直す"
+  },
+  {
+   "id": "web1-028",
+   "ja": "わるいヤドラン",
+   "before": "Slowbro",
+   "built": "Dark Slowbro",
+   "bulbapedia": "Dark Slowbro",
+   "after": "Dark Slowbro",
+   "status": "直す"
+  },
+  {
+   "id": "web1-037",
+   "ja": "わるいフーディン",
+   "before": "Alakazam",
+   "built": "Dark Alakazam",
+   "bulbapedia": "Dark Alakazam",
+   "after": "Dark Alakazam",
+   "status": "直す"
+  },
+  {
+   "id": "web1-041",
+   "ja": "わるいフシギバナ",
+   "before": "Venusaur",
+   "built": "Dark Venusaur",
+   "bulbapedia": "Dark Venusaur",
+   "after": "Dark Venusaur",
+   "status": "直す"
+  },
+  {
+   "id": "web1-042",
+   "ja": "わるいリザードン",
+   "before": "Charizard",
+   "built": "Dark Charizard",
+   "bulbapedia": "Dark Charizard",
+   "after": "Dark Charizard",
+   "status": "直す"
+  },
+  {
+   "id": "web1-044",
+   "ja": "わるいカメックス",
+   "before": "Blastoise",
+   "built": "Dark Blastoise",
+   "bulbapedia": "Dark Blastoise",
+   "after": "Dark Blastoise",
+   "status": "直す"
+  }
+ ]
+}

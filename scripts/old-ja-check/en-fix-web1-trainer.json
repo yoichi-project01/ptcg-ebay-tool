@@ -1,0 +1,55 @@
+{
+ "set": "web1",
+ "kind": "trainer",
+ "fixed": 4,
+ "rows": [
+  {
+   "id": "web1-015",
+   "ja": "マサキの転送装置",
+   "bulbapedia": "Bill's Teleporter",
+   "bulbapediaJa": "マサキの転送装置",
+   "after": "Bill's Teleporter",
+   "status": "直す"
+  },
+  {
+   "id": "web1-016",
+   "ja": "新ポケモン図鑑HANDY808",
+   "bulbapedia": "New Pokédex",
+   "bulbapediaJa": "新ポケモン図鑑HANDY808",
+   "after": "New Pokédex",
+   "status": "直す"
+  },
+  {
+   "id": "web1-030",
+   "ja": "元気のかたまり",
+   "bulbapedia": "Max Revive",
+   "bulbapediaJa": "げんきのかたまり",
+   "after": "",
+   "status": "日本語名が Bulbapedia の日本語名と一致しない"
+  },
+  {
+   "id": "web1-031",
+   "ja": "退化スプレーHYPER",
+   "bulbapedia": "Hyper Devolution Spray",
+   "bulbapediaJa": "退化スプレーHYPER",
+   "after": "Hyper Devolution Spray",
+   "status": "直す"
+  },
+  {
+   "id": "web1-032",
+   "ja": "ポケモン再転送",
+   "bulbapedia": "Pokémon Retransfer",
+   "bulbapediaJa": "ポケモン再転送",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "web1-040",
+   "ja": "ロケット団のおねーさん",
+   "bulbapedia": "Rocket's Sneak Attack",
+   "bulbapediaJa": "ロケット団のおねーさん",
+   "after": "Rocket's Sneak Attack",
+   "status": "直す"
+  }
+ ]
+}
