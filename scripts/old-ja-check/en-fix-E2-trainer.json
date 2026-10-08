@@ -1,0 +1,95 @@
+{
+ "set": "E2",
+ "kind": "trainer",
+ "fixed": 8,
+ "rows": [
+  {
+   "id": "E2-075",
+   "ja": "ウィークカバー",
+   "bulbapedia": "Weakness Guard",
+   "bulbapediaJa": "ウィークカバー",
+   "after": "Weakness Guard",
+   "status": "直す"
+  },
+  {
+   "id": "E2-076",
+   "ja": "超エネルギーリムーブ",
+   "bulbapedia": "Super Energy Removal 2",
+   "bulbapediaJa": "超エネルギーリムーブ",
+   "after": "Super Energy Removal 2",
+   "status": "直す"
+  },
+  {
+   "id": "E2-077",
+   "ja": "サイキッカー",
+   "bulbapedia": "Seer",
+   "bulbapediaJa": "サイキッカー",
+   "after": "Seer",
+   "status": "直す"
+  },
+  {
+   "id": "E2-078",
+   "ja": "ポケモン大好きクラブ",
+   "bulbapedia": "Pokémon Fan Club",
+   "bulbapediaJa": "ポケモンだいすきクラブ",
+   "after": "",
+   "status": "日本語名が Bulbapedia の日本語名と一致しない"
+  },
+  {
+   "id": "E2-081",
+   "ja": "ファイヤーキューブ01",
+   "bulbapedia": "Fire Cube 01",
+   "bulbapediaJa": "ファイヤーキューブ01",
+   "after": "Fire Cube 01",
+   "status": "直す"
+  },
+  {
+   "id": "E2-085",
+   "ja": "ファイティングキューブ01",
+   "bulbapedia": "Fighting Cube 01",
+   "bulbapediaJa": "ファイティングキューブ01",
+   "after": "Fighting Cube 01",
+   "status": "直す"
+  },
+  {
+   "id": "E2-086",
+   "ja": "ダークネスキューブ01",
+   "bulbapedia": "Darkness Cube 01",
+   "bulbapediaJa": "ダークネスキューブ01",
+   "after": "Darkness Cube 01",
+   "status": "直す"
+  },
+  {
+   "id": "E2-087",
+   "ja": "メタルキューブ01",
+   "bulbapedia": "Metal Cube 01",
+   "bulbapediaJa": "メタルキューブ０１",
+   "after": "Metal Cube 01",
+   "status": "直す"
+  },
+  {
+   "id": "E2-089",
+   "ja": "無人変電所",
+   "bulbapedia": "Power Plant",
+   "bulbapediaJa": "無人変電所",
+   "after": "Power Plant",
+   "status": "直す"
+  },
+  {
+   "id": "E2-090",
+   "ja": "悪エネルギー",
+   "bulbapedia": "Darkness Energy",
+   "bulbapediaJa": "特殊悪エネルギー",
+   "after": "",
+   "status": "日本語名が Bulbapedia の日本語名と一致しない"
+  },
+  {
+   "id": "E2-091",
+   "ja": "鋼エネルギー",
+   "bulbapedia": "Metal Energy",
+   "bulbapediaJa": "特殊鋼エネルギー",
+   "after": "",
+   "status": "日本語名が Bulbapedia の日本語名と一致しない"
+  }
+ ]
+}
