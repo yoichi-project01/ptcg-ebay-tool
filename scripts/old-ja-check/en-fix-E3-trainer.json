@@ -1,0 +1,71 @@
+{
+ "set": "E3",
+ "kind": "trainer",
+ "fixed": 8,
+ "rows": [
+  {
+   "id": "E3-076",
+   "ja": "エネルギーつけかえ",
+   "bulbapedia": "Energy Switch",
+   "bulbapediaJa": "エネルギーつけかえ",
+   "after": "Energy Switch",
+   "status": "直す"
+  },
+  {
+   "id": "E3-077",
+   "ja": "行商人",
+   "bulbapedia": "Traveling Salesman",
+   "bulbapediaJa": "行商人",
+   "after": "Traveling Salesman",
+   "status": "直す"
+  },
+  {
+   "id": "E3-079",
+   "ja": "森の番人",
+   "bulbapedia": "Forest Guardian",
+   "bulbapediaJa": "森の番人",
+   "after": "Forest Guardian",
+   "status": "直す"
+  },
+  {
+   "id": "E3-080",
+   "ja": "思い出のみ",
+   "bulbapedia": "Memory Berry",
+   "bulbapediaJa": "思い出のみ",
+   "after": "Memory Berry",
+   "status": "直す"
+  },
+  {
+   "id": "E3-081",
+   "ja": "かいふくのみ",
+   "bulbapedia": "Healing Berry",
+   "bulbapediaJa": "かいふくのみ",
+   "after": "Healing Berry",
+   "status": "直す"
+  },
+  {
+   "id": "E3-082",
+   "ja": "ときのかけら",
+   "bulbapedia": "Time Shard",
+   "bulbapediaJa": "ときのかけら",
+   "after": "Time Shard",
+   "status": "直す"
+  },
+  {
+   "id": "E3-084",
+   "ja": "ぼんぐりの森",
+   "bulbapedia": "Apricorn Forest",
+   "bulbapediaJa": "ぼんぐりの森",
+   "after": "Apricorn Forest",
+   "status": "直す"
+  },
+  {
+   "id": "E3-086",
+   "ja": "ブーストエネルギー",
+   "bulbapedia": "Boost Energy",
+   "bulbapediaJa": "ブーストエネルギー",
+   "after": "Boost Energy",
+   "status": "直す"
+  }
+ ]
+}
