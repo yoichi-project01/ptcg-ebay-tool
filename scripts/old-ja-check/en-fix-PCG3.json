@@ -1,0 +1,303 @@
+{
+ "set": "PCG3",
+ "fixed": 32,
+ "rows": [
+  {
+   "id": "PCG3-011",
+   "ja": "キモリ☆",
+   "before": "Treecko",
+   "built": "Treecko ☆",
+   "bulbapedia": "Treecko ☆",
+   "after": "Treecko ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-012",
+   "ja": "わるいアーボック",
+   "before": "Arbok",
+   "built": "Dark Arbok",
+   "bulbapedia": "Dark Arbok",
+   "after": "Dark Arbok",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-013",
+   "ja": "わるいゴルバット",
+   "before": "Golbat",
+   "built": "Dark Golbat",
+   "bulbapedia": "Dark Golbat",
+   "after": "Dark Golbat",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-014",
+   "ja": "わるいベトベトン",
+   "before": "Muk",
+   "built": "Dark Muk",
+   "bulbapedia": "Dark Muk",
+   "after": "Dark Muk",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-015",
+   "ja": "わるいマタドガス",
+   "before": "Weezing",
+   "built": "Dark Weezing",
+   "bulbapedia": "Dark Weezing",
+   "after": "Dark Weezing",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-016",
+   "ja": "わるいクロバット",
+   "before": "Crobat",
+   "built": "Dark Crobat",
+   "bulbapedia": "Dark Crobat",
+   "after": "Dark Crobat",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-020",
+   "ja": "アチャモ☆",
+   "before": "Torchic",
+   "built": "Torchic ☆",
+   "bulbapedia": "Torchic ☆",
+   "after": "Torchic ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-021",
+   "ja": "わるいヘルガー",
+   "before": "Houndoom",
+   "built": "Dark Houndoom",
+   "bulbapedia": "Dark Houndoom",
+   "after": "Dark Houndoom",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-033",
+   "ja": "ミズゴロウ☆",
+   "before": "Mudkip",
+   "built": "Mudkip ☆",
+   "bulbapedia": "Mudkip ☆",
+   "after": "Mudkip ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-034",
+   "ja": "わるいオクタン",
+   "before": "Octillery",
+   "built": "Dark Octillery",
+   "bulbapedia": "Dark Octillery",
+   "after": "Dark Octillery",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-037",
+   "ja": "わるいマルマイン",
+   "before": "Electrode",
+   "built": "Dark Electrode",
+   "bulbapedia": "Dark Electrode",
+   "after": "Dark Electrode",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-038",
+   "ja": "わるいモココ",
+   "before": "Flaaffy",
+   "built": "Dark Flaaffy",
+   "bulbapedia": "Dark Flaaffy",
+   "after": "Dark Flaaffy",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-039",
+   "ja": "わるいデンリュウ",
+   "before": "Ampharos",
+   "built": "Dark Ampharos",
+   "bulbapedia": "Dark Ampharos",
+   "after": "Dark Ampharos",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-043",
+   "ja": "わるいスリーパー",
+   "before": "Hypno",
+   "built": "Dark Hypno",
+   "bulbapedia": "Dark Hypno",
+   "after": "Dark Hypno",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-044",
+   "ja": "わるいヤドキング",
+   "before": "Slowking",
+   "built": "Dark Slowking",
+   "bulbapedia": "Dark Slowking",
+   "after": "Dark Slowking",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-045",
+   "ja": "サンド",
+   "before": "Sandshrew",
+   "built": "Sandshrew",
+   "bulbapedia": "Sandshrew",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG3-051",
+   "ja": "わるいサンドパン",
+   "before": "Sandslash",
+   "built": "Dark Sandslash",
+   "bulbapedia": "Dark Sandslash",
+   "after": "Dark Sandslash",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-052",
+   "ja": "わるいガラガラ",
+   "before": "Marowak",
+   "built": "Dark Marowak",
+   "bulbapedia": "Dark Marowak",
+   "after": "Dark Marowak",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-058",
+   "ja": "わるいラッタ",
+   "before": "Raticate",
+   "built": "Dark Raticate",
+   "bulbapedia": "Dark Raticate",
+   "after": "Dark Raticate",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-059",
+   "ja": "R団のニャース",
+   "before": "Meowth",
+   "built": "Rocket's Meowth",
+   "bulbapedia": "Rocket's Meowth",
+   "after": "Rocket's Meowth",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-060",
+   "ja": "R団のエビワラーex",
+   "before": "Hitmonchan",
+   "built": "Rocket's Hitmonchan ex",
+   "bulbapedia": "Rocket's Hitmonchan ex",
+   "after": "Rocket's Hitmonchan ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-061",
+   "ja": "R団のストライクex",
+   "before": "Scyther",
+   "built": "Rocket's Scyther ex",
+   "bulbapedia": "Rocket's Scyther ex",
+   "after": "Rocket's Scyther ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-062",
+   "ja": "R団のカビゴンex",
+   "before": "Snorlax",
+   "built": "Rocket's Snorlax ex",
+   "bulbapedia": "Rocket's Snorlax ex",
+   "after": "Rocket's Snorlax ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-063",
+   "ja": "R団のサンダーex",
+   "before": "Zapdos",
+   "built": "Rocket's Zapdos ex",
+   "bulbapedia": "Rocket's Zapdos ex",
+   "after": "Rocket's Zapdos ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-064",
+   "ja": "R団のミュウツーex",
+   "before": "Mewtwo",
+   "built": "Rocket's Mewtwo ex",
+   "bulbapedia": "Rocket's Mewtwo ex",
+   "after": "Rocket's Mewtwo ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-065",
+   "ja": "R団のソーナンス",
+   "before": "Wobbuffet",
+   "built": "Rocket's Wobbuffet",
+   "bulbapedia": "Rocket's Wobbuffet",
+   "after": "Rocket's Wobbuffet",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-066",
+   "ja": "R団のハッサムex",
+   "before": "Scizor",
+   "built": "Rocket's Scizor ex",
+   "bulbapedia": "Rocket's Scizor ex",
+   "after": "Rocket's Scizor ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-067",
+   "ja": "R団のニューラex",
+   "before": "Sneasel",
+   "built": "Rocket's Sneasel ex",
+   "bulbapedia": "Rocket's Sneasel ex",
+   "after": "Rocket's Sneasel ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-068",
+   "ja": "R団のエンテイex",
+   "before": "Entei",
+   "built": "Rocket's Entei ex",
+   "bulbapedia": "Rocket's Entei ex",
+   "after": "Rocket's Entei ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-069",
+   "ja": "R団のスイクンex",
+   "before": "Suicune",
+   "built": "Rocket's Suicune ex",
+   "bulbapedia": "Rocket's Suicune ex",
+   "after": "Rocket's Suicune ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-070",
+   "ja": "わるいバンギラス",
+   "before": "Tyranitar",
+   "built": "Dark Tyranitar",
+   "bulbapedia": "Dark Tyranitar",
+   "after": "Dark Tyranitar",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-071",
+   "ja": "R団のセレビィ",
+   "before": "Celebi",
+   "built": "Rocket's Celebi",
+   "bulbapedia": "Rocket's Celebi",
+   "after": "Rocket's Celebi",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-072",
+   "ja": "わるいハガネール",
+   "before": "Steelix",
+   "built": "Dark Steelix",
+   "bulbapedia": "Dark Steelix",
+   "after": "Dark Steelix",
+   "status": "直す"
+  }
+ ]
+}
