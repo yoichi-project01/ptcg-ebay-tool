@@ -1,0 +1,475 @@
+{
+ "set": "PCG7",
+ "fixed": 52,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "PCG7-001",
+   "before": "ナックラー",
+   "pcgSearch": "ナックラーδ-デルタ種",
+   "pokemonWiki": "ナックラーδ-デルタ種",
+   "after": "ナックラーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ナックラー_PCG7-01／52_C.png → cards/PCG/PCG7/ナックラーδ-デルタ種_PCG7-01／52_C.png"
+  },
+  {
+   "id": "PCG7-002",
+   "before": "ビブラーバ",
+   "pcgSearch": "ビブラーバδ-デルタ種",
+   "pokemonWiki": "ビブラーバδ-デルタ種",
+   "after": "ビブラーバδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ビブラーバ_PCG7-02／52_U.png → cards/PCG/PCG7/ビブラーバδ-デルタ種_PCG7-02／52_U.png"
+  },
+  {
+   "id": "PCG7-003",
+   "before": "フライゴン（デルタ種）",
+   "pcgSearch": "フライゴンδ-デルタ種",
+   "pokemonWiki": "フライゴンδ-デルタ種",
+   "after": "フライゴンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/フライゴン（デルタ種）_PCG7-03／52_R.png → cards/PCG/PCG7/フライゴンδ-デルタ種_PCG7-03／52_R.png"
+  },
+  {
+   "id": "PCG7-004",
+   "before": "マンキー（デルタ種）",
+   "pcgSearch": "マンキーδ-デルタ種",
+   "pokemonWiki": "マンキーδ-デルタ種",
+   "after": "マンキーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/マンキー（デルタ種）_PCG7-04／52_C.png → cards/PCG/PCG7/マンキーδ-デルタ種_PCG7-04／52_C.png"
+  },
+  {
+   "id": "PCG7-005",
+   "before": "オコリザル",
+   "pcgSearch": "オコリザルδ-デルタ種",
+   "pokemonWiki": "オコリザルδ-デルタ種",
+   "after": "オコリザルδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/オコリザル_PCG7-05／52_U.png → cards/PCG/PCG7/オコリザルδ-デルタ種_PCG7-05／52_U.png"
+  },
+  {
+   "id": "PCG7-006",
+   "before": "タッツー",
+   "pcgSearch": "タッツーδ-デルタ種",
+   "pokemonWiki": "タッツーδ-デルタ種",
+   "after": "タッツーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/タッツー_PCG7-06／52_C.png → cards/PCG/PCG7/タッツーδ-デルタ種_PCG7-06／52_C.png"
+  },
+  {
+   "id": "PCG7-007",
+   "before": "シードラ（デルタ種）",
+   "pcgSearch": "シードラδ-デルタ種",
+   "pokemonWiki": "シードラδ-デルタ種",
+   "after": "シードラδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/シードラ（デルタ種）_PCG7-07／52_U.png → cards/PCG/PCG7/シードラδ-デルタ種_PCG7-07／52_U.png"
+  },
+  {
+   "id": "PCG7-008",
+   "before": "ギャラドススター（デルタ種）",
+   "pcgSearch": "ギャラドス☆δ-デルタ種",
+   "pokemonWiki": "ギャラドス☆δ-デルタ種",
+   "after": "ギャラドス☆δ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ギャラドススター（デルタ種）_PCG7-08／52_S.png → cards/PCG/PCG7/ギャラドス☆δ-デルタ種_PCG7-08／52_S.png"
+  },
+  {
+   "id": "PCG7-009",
+   "before": "プテラ",
+   "pcgSearch": "プテラδ-デルタ種",
+   "pokemonWiki": "プテラδ-デルタ種",
+   "after": "プテラδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/プテラ_PCG7-09／52_U.png → cards/PCG/PCG7/プテラδ-デルタ種_PCG7-09／52_U.png"
+  },
+  {
+   "id": "PCG7-010",
+   "before": "ラティアス（デルタ種）",
+   "pcgSearch": "ラティアスδ-デルタ種",
+   "pokemonWiki": "ラティアスδ-デルタ種",
+   "after": "ラティアスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ラティアス（デルタ種）_PCG7-10／52_R.png → cards/PCG/PCG7/ラティアスδ-デルタ種_PCG7-10／52_R.png"
+  },
+  {
+   "id": "PCG7-011",
+   "before": "キングドラ（デルタ種）",
+   "pcgSearch": "キングドラδ-デルタ種",
+   "pokemonWiki": "キングドラδ-デルタ種",
+   "after": "キングドラδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/キングドラ（デルタ種）_PCG7-11／52_R.png → cards/PCG/PCG7/キングドラδ-デルタ種_PCG7-11／52_R.png"
+  },
+  {
+   "id": "PCG7-012",
+   "before": "ナゾノクサ",
+   "pcgSearch": "ナゾノクサδ-デルタ種",
+   "pokemonWiki": "ナゾノクサδ-デルタ種",
+   "after": "ナゾノクサδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ナゾノクサ_PCG7-12／52_C.png → cards/PCG/PCG7/ナゾノクサδ-デルタ種_PCG7-12／52_C.png"
+  },
+  {
+   "id": "PCG7-013",
+   "before": "キレイハナ",
+   "pcgSearch": "キレイハナδ-デルタ種",
+   "pokemonWiki": "キレイハナδ-デルタ種",
+   "after": "キレイハナδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/キレイハナ_PCG7-13／52_U.png → cards/PCG/PCG7/キレイハナδ-デルタ種_PCG7-13／52_U.png"
+  },
+  {
+   "id": "PCG7-014",
+   "before": "ラティオス（デルタ種）",
+   "pcgSearch": "ラティオスδ-デルタ種",
+   "pokemonWiki": "ラティオスδ-デルタ種",
+   "after": "ラティオスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ラティオス（デルタ種）_PCG7-14／52_R.png → cards/PCG/PCG7/ラティオスδ-デルタ種_PCG7-14／52_R.png"
+  },
+  {
+   "id": "PCG7-015",
+   "before": "レックウザ",
+   "pcgSearch": "レックウザδ-デルタ種",
+   "pokemonWiki": "レックウザδ-デルタ種",
+   "after": "レックウザδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/レックウザ_PCG7-15／52_R.png → cards/PCG/PCG7/レックウザδ-デルタ種_PCG7-15／52_R.png"
+  },
+  {
+   "id": "PCG7-016",
+   "before": "ポッポ",
+   "pcgSearch": "ポッポδ-デルタ種",
+   "pokemonWiki": "ポッポδ-デルタ種",
+   "after": "ポッポδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ポッポ_PCG7-16／52_C.png → cards/PCG/PCG7/ポッポδ-デルタ種_PCG7-16／52_C.png"
+  },
+  {
+   "id": "PCG7-017",
+   "before": "ピジョン",
+   "pcgSearch": "ピジョンδ-デルタ種",
+   "pokemonWiki": "ピジョンδ-デルタ種",
+   "after": "ピジョンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ピジョン_PCG7-17／52_U.png → cards/PCG/PCG7/ピジョンδ-デルタ種_PCG7-17／52_U.png"
+  },
+  {
+   "id": "PCG7-018",
+   "before": "コダック",
+   "pcgSearch": "コダックδ-デルタ種",
+   "pokemonWiki": "コダックδ-デルタ種",
+   "after": "コダックδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/コダック_PCG7-18／52_C.png → cards/PCG/PCG7/コダックδ-デルタ種_PCG7-18／52_C.png"
+  },
+  {
+   "id": "PCG7-019",
+   "before": "ゴルダック（デルタ種）",
+   "pcgSearch": "ゴルダックδ-デルタ種",
+   "pokemonWiki": "ゴルダックδ-デルタ種",
+   "after": "ゴルダックδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ゴルダック（デルタ種）_PCG7-19／52_U.png → cards/PCG/PCG7/ゴルダックδ-デルタ種_PCG7-19／52_U.png"
+  },
+  {
+   "id": "PCG7-020",
+   "before": "カブト（デルタ種）",
+   "pcgSearch": "カブトδ-デルタ種",
+   "pokemonWiki": "カブトδ-デルタ種",
+   "after": "カブトδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/カブト（デルタ種）_PCG7-20／52_C.png → cards/PCG/PCG7/カブトδ-デルタ種_PCG7-20／52_C.png"
+  },
+  {
+   "id": "PCG7-021",
+   "before": "カブトプス",
+   "pcgSearch": "カブトプスδ-デルタ種",
+   "pokemonWiki": "カブトプスδ-デルタ種",
+   "after": "カブトプスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/カブトプス_PCG7-21／52_R.png → cards/PCG/PCG7/カブトプスδ-デルタ種_PCG7-21／52_R.png"
+  },
+  {
+   "id": "PCG7-022",
+   "before": "デオキシス",
+   "pcgSearch": "デオキシスδ-デルタ種",
+   "pokemonWiki": "デオキシスδ-デルタ種",
+   "after": "デオキシスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/デオキシス_PCG7-22／52_R.png → cards/PCG/PCG7/デオキシスδ-デルタ種_PCG7-22／52_R.png"
+  },
+  {
+   "id": "PCG7-023",
+   "before": "ピジョット",
+   "pcgSearch": "ピジョットδ-デルタ種",
+   "pokemonWiki": "ピジョットδ-デルタ種",
+   "after": "ピジョットδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ピジョット_PCG7-23／52_R.png → cards/PCG/PCG7/ピジョットδ-デルタ種_PCG7-23／52_R.png"
+  },
+  {
+   "id": "PCG7-024",
+   "before": "ギャラドス（デルタ種）",
+   "pcgSearch": "ギャラドスδ-デルタ種",
+   "pokemonWiki": "ギャラドスδ-デルタ種",
+   "after": "ギャラドスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ギャラドス（デルタ種）_PCG7-24／52_R.png → cards/PCG/PCG7/ギャラドスδ-デルタ種_PCG7-24／52_R.png"
+  },
+  {
+   "id": "PCG7-025",
+   "before": "クサイハナ",
+   "pcgSearch": "クサイハナδ-デルタ種",
+   "pokemonWiki": "クサイハナδ-デルタ種",
+   "after": "クサイハナδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/クサイハナ_PCG7-25／52_U.png → cards/PCG/PCG7/クサイハナδ-デルタ種_PCG7-25／52_U.png"
+  },
+  {
+   "id": "PCG7-026",
+   "before": "オムナイト",
+   "pcgSearch": "オムナイトδ-デルタ種",
+   "pokemonWiki": "オムナイトδ-デルタ種",
+   "after": "オムナイトδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/オムナイト_PCG7-26／52_C.png → cards/PCG/PCG7/オムナイトδ-デルタ種_PCG7-26／52_C.png"
+  },
+  {
+   "id": "PCG7-027",
+   "before": "オムスター",
+   "pcgSearch": "オムスターδ-デルタ種",
+   "pokemonWiki": "オムスターδ-デルタ種",
+   "after": "オムスターδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/オムスター_PCG7-27／52_R.png → cards/PCG/PCG7/オムスターδ-デルタ種_PCG7-27／52_R.png"
+  },
+  {
+   "id": "PCG7-028",
+   "before": "ラフレシア",
+   "pcgSearch": "ラフレシアδ-デルタ種",
+   "pokemonWiki": "ラフレシアδ-デルタ種",
+   "after": "ラフレシアδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ラフレシア_PCG7-28／52_R.png → cards/PCG/PCG7/ラフレシアδ-デルタ種_PCG7-28／52_R.png"
+  },
+  {
+   "id": "PCG7-029",
+   "before": "タマタマ",
+   "pcgSearch": "タマタマδ-デルタ種",
+   "pokemonWiki": "タマタマδ-デルタ種",
+   "after": "タマタマδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/タマタマ_PCG7-29／52_C.png → cards/PCG/PCG7/タマタマδ-デルタ種_PCG7-29／52_C.png"
+  },
+  {
+   "id": "PCG7-030",
+   "before": "ナッシー",
+   "pcgSearch": "ナッシーδ-デルタ種",
+   "pokemonWiki": "ナッシーδ-デルタ種",
+   "after": "ナッシーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ナッシー_PCG7-30／52_U.png → cards/PCG/PCG7/ナッシーδ-デルタ種_PCG7-30／52_U.png"
+  },
+  {
+   "id": "PCG7-031",
+   "before": "キバニア",
+   "pcgSearch": "キバニアδ-デルタ種",
+   "pokemonWiki": "キバニアδ-デルタ種",
+   "after": "キバニアδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/キバニア_PCG7-31／52_C.png → cards/PCG/PCG7/キバニアδ-デルタ種_PCG7-31／52_C.png"
+  },
+  {
+   "id": "PCG7-032",
+   "before": "サメハダー",
+   "pcgSearch": "サメハダーδ-デルタ種",
+   "pokemonWiki": "サメハダーδ-デルタ種",
+   "after": "サメハダーδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/サメハダー_PCG7-32／52_U.png → cards/PCG/PCG7/サメハダーδ-デルタ種_PCG7-32／52_U.png"
+  },
+  {
+   "id": "PCG7-033",
+   "before": "アーマルド",
+   "pcgSearch": "アーマルドδ-デルタ種",
+   "pokemonWiki": "アーマルドδ-デルタ種",
+   "after": "アーマルドδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/アーマルド_PCG7-33／52_R.png → cards/PCG/PCG7/アーマルドδ-デルタ種_PCG7-33／52_R.png"
+  },
+  {
+   "id": "PCG7-034",
+   "before": "ポワルン",
+   "pcgSearch": "ホロンのポワルン",
+   "pokemonWiki": "ホロンのポワルン",
+   "after": "ホロンのポワルン",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ポワルン_PCG7-34／52_U.png → cards/PCG/PCG7/ホロンのポワルン_PCG7-34／52_U.png"
+  },
+  {
+   "id": "PCG7-035",
+   "before": "デオキシス",
+   "pcgSearch": "デオキシスδ-デルタ種",
+   "pokemonWiki": "デオキシスδ-デルタ種",
+   "after": "デオキシスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/デオキシス_PCG7-35／52_R.png → cards/PCG/PCG7/デオキシスδ-デルタ種_PCG7-35／52_R.png"
+  },
+  {
+   "id": "PCG7-036",
+   "before": "リリーラ",
+   "pcgSearch": "リリーラδ-デルタ種",
+   "pokemonWiki": "リリーラδ-デルタ種",
+   "after": "リリーラδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/リリーラ_PCG7-36／52_C.png → cards/PCG/PCG7/リリーラδ-デルタ種_PCG7-36／52_C.png"
+  },
+  {
+   "id": "PCG7-037",
+   "before": "デオキシス",
+   "pcgSearch": "デオキシスδ-デルタ種",
+   "pokemonWiki": "デオキシスδ-デルタ種",
+   "after": "デオキシスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/デオキシス_PCG7-37／52_R.png → cards/PCG/PCG7/デオキシスδ-デルタ種_PCG7-37／52_R.png"
+  },
+  {
+   "id": "PCG7-038",
+   "before": "ニャース",
+   "pcgSearch": "ニャースδ-デルタ種",
+   "pokemonWiki": "ニャースδ-デルタ種",
+   "after": "ニャースδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ニャース_PCG7-38／52_C.png → cards/PCG/PCG7/ニャースδ-デルタ種_PCG7-38／52_C.png"
+  },
+  {
+   "id": "PCG7-039",
+   "before": "ペルシアン",
+   "pcgSearch": "ペルシアンδ-デルタ種",
+   "pokemonWiki": "ペルシアンδ-デルタ種",
+   "after": "ペルシアンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ペルシアン_PCG7-39／52_U.png → cards/PCG/PCG7/ペルシアンδ-デルタ種_PCG7-39／52_U.png"
+  },
+  {
+   "id": "PCG7-040",
+   "before": "ユレイドル",
+   "pcgSearch": "ユレイドルδ-デルタ種",
+   "pokemonWiki": "ユレイドルδ-デルタ種",
+   "after": "ユレイドルδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ユレイドル_PCG7-40／52_R.png → cards/PCG/PCG7/ユレイドルδ-デルタ種_PCG7-40／52_R.png"
+  },
+  {
+   "id": "PCG7-041",
+   "before": "ピカチュウ（デルタ種）",
+   "pcgSearch": "ピカチュウδ-デルタ種",
+   "pokemonWiki": "ピカチュウδ-デルタ種",
+   "after": "ピカチュウδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ピカチュウ（デルタ種）_PCG7-41／52_C.png → cards/PCG/PCG7/ピカチュウδ-デルタ種_PCG7-41／52_C.png"
+  },
+  {
+   "id": "PCG7-042",
+   "before": "ライチュウ",
+   "pcgSearch": "ライチュウδ-デルタ種",
+   "pokemonWiki": "ライチュウδ-デルタ種",
+   "after": "ライチュウδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ライチュウ_PCG7-42／52_R.png → cards/PCG/PCG7/ライチュウδ-デルタ種_PCG7-42／52_R.png"
+  },
+  {
+   "id": "PCG7-043",
+   "before": "コイキング",
+   "pcgSearch": "コイキングδ-デルタ種",
+   "pokemonWiki": "コイキングδ-デルタ種",
+   "after": "コイキングδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/コイキング_PCG7-43／52_C.png → cards/PCG/PCG7/コイキングδ-デルタ種_PCG7-43／52_C.png"
+  },
+  {
+   "id": "PCG7-044",
+   "before": "ピチュー",
+   "pcgSearch": "ピチューδ-デルタ種",
+   "pokemonWiki": "ピチューδ-デルタ種",
+   "after": "ピチューδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ピチュー_PCG7-44／52_C.png → cards/PCG/PCG7/ピチューδ-デルタ種_PCG7-44／52_C.png"
+  },
+  {
+   "id": "PCG7-045",
+   "before": "アノプス",
+   "pcgSearch": "アノプスδ-デルタ種",
+   "pokemonWiki": "アノプスδ-デルタ種",
+   "after": "アノプスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/アノプス_PCG7-45／52_C.png → cards/PCG/PCG7/アノプスδ-デルタ種_PCG7-45／52_C.png"
+  },
+  {
+   "id": "PCG7-046",
+   "before": "チリーン",
+   "pcgSearch": "チリーンδ-デルタ種",
+   "pokemonWiki": "チリーンδ-デルタ種",
+   "after": "チリーンδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/チリーン_PCG7-46／52_U.png → cards/PCG/PCG7/チリーンδ-デルタ種_PCG7-46／52_U.png"
+  },
+  {
+   "id": "PCG7-047",
+   "before": "デオキシス",
+   "pcgSearch": "デオキシスδ-デルタ種",
+   "pokemonWiki": "デオキシスδ-デルタ種",
+   "after": "デオキシスδ-デルタ種",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/デオキシス_PCG7-47／52_R.png → cards/PCG/PCG7/デオキシスδ-デルタ種_PCG7-47／52_R.png"
+  },
+  {
+   "id": "PCG7-048",
+   "before": "珍しいキャンディー",
+   "pcgSearch": "ふしぎなアメ",
+   "pokemonWiki": "ふしぎなアメ",
+   "after": "ふしぎなアメ",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/珍しいキャンディー_PCG7-48／52_U.png → cards/PCG/PCG7/ふしぎなアメ_PCG7-48／52_U.png"
+  },
+  {
+   "id": "PCG7-049",
+   "before": "ホロン化石",
+   "pcgSearch": "ホロンの化石",
+   "pokemonWiki": "ホロンの化石",
+   "after": "ホロンの化石",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ホロン化石_PCG7-49／52_U.png → cards/PCG/PCG7/ホロンの化石_PCG7-49／52_U.png"
+  },
+  {
+   "id": "PCG7-050",
+   "before": "ホロンアドベンチャー",
+   "pcgSearch": "ホロンの冒険家",
+   "pokemonWiki": "ホロンの冒険家",
+   "after": "ホロンの冒険家",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ホロンアドベンチャー_PCG7-50／52_U.png → cards/PCG/PCG7/ホロンの冒険家_PCG7-50／52_U.png"
+  },
+  {
+   "id": "PCG7-051",
+   "before": "ホロン湖",
+   "pcgSearch": "ホロンの湖",
+   "pokemonWiki": "ホロンの湖",
+   "after": "ホロンの湖",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/ホロン湖_PCG7-51／52_U.png → cards/PCG/PCG7/ホロンの湖_PCG7-51／52_U.png"
+  },
+  {
+   "id": "PCG7-052",
+   "before": "デルタレインボーエネルギー",
+   "pcgSearch": "δレインボーエネルギー",
+   "pokemonWiki": "δレインボーエネルギー",
+   "after": "δレインボーエネルギー",
+   "status": "直す",
+   "image": "cards/PCG/PCG7/デルタレインボーエネルギー_PCG7-52／52_U.png → cards/PCG/PCG7/δレインボーエネルギー_PCG7-52／52_U.png"
+  }
+ ]
+}
