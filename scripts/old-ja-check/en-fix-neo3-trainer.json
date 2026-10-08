@@ -1,0 +1,47 @@
+{
+ "set": "neo3",
+ "kind": "trainer",
+ "fixed": 5,
+ "rows": [
+  {
+   "id": "neo3-053",
+   "ja": "ボロのつりざお",
+   "bulbapedia": "Old Rod",
+   "bulbapediaJa": "ボロのつりざお",
+   "after": "Old Rod",
+   "status": "直す"
+  },
+  {
+   "id": "neo3-054",
+   "ja": "いやしの野原",
+   "bulbapedia": "Healing Field",
+   "bulbapediaJa": "いやしの野原",
+   "after": "Healing Field",
+   "status": "直す"
+  },
+  {
+   "id": "neo3-055",
+   "ja": "ふうせんのみ",
+   "bulbapedia": "Balloon Berry",
+   "bulbapediaJa": "ふうせんのみ",
+   "after": "Balloon Berry",
+   "status": "直す"
+  },
+  {
+   "id": "neo3-056",
+   "ja": "ポケモン育て屋夫婦",
+   "bulbapedia": "Pokémon Breeder Fields",
+   "bulbapediaJa": "ポケモン育て屋夫婦",
+   "after": "Pokémon Breeder Fields",
+   "status": "直す"
+  },
+  {
+   "id": "neo3-057",
+   "ja": "ロケット団のアジト",
+   "bulbapedia": "Rocket's Hideout",
+   "bulbapediaJa": "ロケット団のアジト",
+   "after": "Rocket's Hideout",
+   "status": "直す"
+  }
+ ]
+}
