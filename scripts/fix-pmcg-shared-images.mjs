@@ -70,7 +70,8 @@ if (APPLY) for (const p of plans.filter((x) => x.site && x.status !== "そのま
   const to = path.join(ROOT, "public", newRel);
   if (newRel !== rel) {
     if (fs.existsSync(to) && newRel.toLowerCase() !== rel.toLowerCase()) throw new Error(`変更先のファイルが既にあります: ${newRel}`);
-    fs.renameSync(path.join(ROOT, "public", rel), to); index[ik] = newRel; renamed.push({ key: ik, to: newRel });
+    fs.renameSync(path.join(ROOT, "public", rel), to); index[ik] = newRel;
+    if (!buf) renamed.push({ key: ik, to: newRel }); // 取り直した画像は中身が変わるので、SHA-256 の一覧は build-image-index.mjs --only で計算し直す
   }
   if (buf) { fs.writeFileSync(to + ".tmp", buf); fs.renameSync(to + ".tmp", to); }
   p.file = rel === newRel ? rel : `${rel} → ${newRel}`;
