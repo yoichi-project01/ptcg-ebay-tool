@@ -1,0 +1,162 @@
+{
+ "set": "PMCG6",
+ "reasons": {
+  "画像を取り直す": 3,
+  "そのまま": 4,
+  "画像を取り直す・名前を直す": 1
+ },
+ "plans": [
+  {
+   "id": "PMCG6-008",
+   "before": {
+    "ja": "キョウのドガース",
+    "rarity": "C"
+   },
+   "bulbapedia": "Koga's Koffing 1 HP40 LV10 C",
+   "candidates": [
+    "PMCG6-014"
+   ],
+   "imageNow": "PMCG6-015",
+   "after": {
+    "ja": "キョウのドガース",
+    "rarity": "C"
+   },
+   "status": "画像を取り直す",
+   "site": "PMCG6-014",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG6/キョウのドガース_PMCG6-08／98_C.png"
+  },
+  {
+   "id": "PMCG6-015",
+   "before": {
+    "ja": "キョウのドガース",
+    "rarity": "U"
+   },
+   "bulbapedia": "Koga's Koffing 2 HP50 LV15 U",
+   "candidates": [
+    "PMCG6-015"
+   ],
+   "imageNow": "PMCG6-015",
+   "after": {
+    "ja": "キョウのドガース",
+    "rarity": "U"
+   },
+   "status": "そのまま",
+   "site": "PMCG6-015"
+  },
+  {
+   "id": "PMCG6-062",
+   "before": {
+    "ja": "キョウのポッポ",
+    "rarity": "C"
+   },
+   "bulbapedia": "Koga's Pidgey 1 HP50 LV15 C",
+   "candidates": [
+    "PMCG6-065"
+   ],
+   "imageNow": "PMCG6-065",
+   "after": {
+    "ja": "キョウのポッポ",
+    "rarity": "C"
+   },
+   "status": "そのまま",
+   "site": "PMCG6-065"
+  },
+  {
+   "id": "PMCG6-067",
+   "before": {
+    "ja": "キョウのポッポ",
+    "rarity": "U"
+   },
+   "bulbapedia": "Koga's Pidgey 2 HP40 LV9 U",
+   "candidates": [
+    "PMCG6-064"
+   ],
+   "imageNow": "PMCG6-065",
+   "after": {
+    "ja": "キョウのポッポ",
+    "rarity": "U"
+   },
+   "status": "画像を取り直す",
+   "site": "PMCG6-064",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG6/キョウのポッポ_PMCG6-67／98_U.png"
+  },
+  {
+   "id": "PMCG6-063",
+   "before": {
+    "ja": "サカキのニャース",
+    "rarity": "C"
+   },
+   "bulbapedia": "Giovanni's Meowth 1 HP50 LV17 C",
+   "candidates": [
+    "PMCG6-072"
+   ],
+   "imageNow": "PMCG6-072",
+   "after": {
+    "ja": "サカキのニャース",
+    "rarity": "C"
+   },
+   "status": "そのまま",
+   "site": "PMCG6-072"
+  },
+  {
+   "id": "PMCG6-068",
+   "before": {
+    "ja": "サカキのニャース",
+    "rarity": "U"
+   },
+   "bulbapedia": "Giovanni's Meowth 2 HP40 LV12 U",
+   "candidates": [
+    "PMCG6-071"
+   ],
+   "imageNow": "PMCG6-072",
+   "after": {
+    "ja": "サカキのニャース",
+    "rarity": "U"
+   },
+   "status": "画像を取り直す",
+   "site": "PMCG6-071",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG6/サカキのニャース_PMCG6-68／98_U.png"
+  },
+  {
+   "id": "PMCG6-064",
+   "before": {
+    "ja": "カツラのドードー",
+    "rarity": "C"
+   },
+   "bulbapedia": "Blaine's Doduo Darkness HP50 LV17 C",
+   "candidates": [
+    "PMCG6-068"
+   ],
+   "imageNow": "PMCG6-068",
+   "after": {
+    "ja": "カツラのドードー",
+    "rarity": "C"
+   },
+   "status": "そのまま",
+   "site": "PMCG6-068"
+  },
+  {
+   "id": "PMCG6-074",
+   "before": {
+    "ja": "ドードー",
+    "rarity": "UR"
+   },
+   "bulbapedia": "Imakuni?'s Doduo Darkness HP50 LV15 SR",
+   "candidates": [
+    "PMCG6-098"
+   ],
+   "imageNow": "PMCG6-068",
+   "after": {
+    "ja": "イマクニ?のドードー",
+    "rarity": "UR"
+   },
+   "status": "画像を取り直す・名前を直す",
+   "site": "PMCG6-098",
+   "refetched": true,
+   "file": "cards/PMCG/PMCG6/ドードー_PMCG6-74／98_UR.png → cards/PMCG/PMCG6/イマクニのドードー_PMCG6-74／98_UR.png"
+  }
+ ]
+}
