@@ -1,0 +1,95 @@
+{
+ "set": "PCG6",
+ "kind": "trainer",
+ "fixed": 11,
+ "rows": [
+  {
+   "id": "PCG6-076",
+   "ja": "ホロンのトランシーバー",
+   "bulbapedia": "Holon Transceiver",
+   "bulbapediaJa": "ホロンのトランシーバー",
+   "after": "Holon Transceiver",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-077",
+   "ja": "ホロンの科学者",
+   "bulbapedia": "Holon Scientist",
+   "bulbapediaJa": "ホロンの科学者",
+   "after": "Holon Scientist",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-078",
+   "ja": "ホロンの研究員",
+   "bulbapedia": "Holon Researcher",
+   "bulbapediaJa": "ホロンの研究員",
+   "after": "Holon Researcher",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-079",
+   "ja": "ホロンの導師",
+   "bulbapedia": "Holon Mentor",
+   "bulbapediaJa": "ホロンの導師",
+   "after": "Holon Mentor",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-080",
+   "ja": "ホロンの農夫",
+   "bulbapedia": "Holon Farmer",
+   "bulbapediaJa": "ホロンの農夫",
+   "after": "Holon Farmer",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-081",
+   "ja": "ホロンの娘",
+   "bulbapedia": "Holon Lass",
+   "bulbapediaJa": "ホロンの娘",
+   "after": "Holon Lass",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-082",
+   "ja": "ホロンの研究塔",
+   "bulbapedia": "Holon Research Tower",
+   "bulbapediaJa": "ホロンの研究塔",
+   "after": "Holon Research Tower",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-083",
+   "ja": "ホロンの廃墟",
+   "bulbapedia": "Holon Ruins",
+   "bulbapediaJa": "ホロンの廃墟",
+   "after": "Holon Ruins",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-084",
+   "ja": "ホロンエネルギーSYN:GL",
+   "bulbapedia": "Holon Energy GL",
+   "bulbapediaJa": "ホロンエネルギーＳＹＮ：ＧＬ",
+   "after": "Holon Energy GL",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-085",
+   "ja": "ホロンエネルギーSYN:FF",
+   "bulbapedia": "Holon Energy FF",
+   "bulbapediaJa": "ホロンエネルギーＳＹＮ：ＦＦ",
+   "after": "Holon Energy FF",
+   "status": "直す"
+  },
+  {
+   "id": "PCG6-086",
+   "ja": "ホロンエネルギーSYN:WP",
+   "bulbapedia": "Holon Energy WP",
+   "bulbapediaJa": "ホロンエネルギーＳＹＮ：ＷＰ",
+   "after": "Holon Energy WP",
+   "status": "直す"
+  }
+ ]
+}
