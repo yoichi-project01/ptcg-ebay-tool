@@ -1,0 +1,111 @@
+{
+ "set": "neo4",
+ "kind": "trainer",
+ "fixed": 11,
+ "rows": [
+  {
+   "id": "neo4-099",
+   "ja": "ばんのうごな",
+   "bulbapedia": "Heal Powder",
+   "bulbapediaJa": "ばんのうごな",
+   "after": "Heal Powder",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-100",
+   "ja": "マサキのメール",
+   "bulbapedia": "Mail from Bill",
+   "bulbapediaJa": "マサキのメール",
+   "after": "Mail from Bill",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-102",
+   "ja": "エネルギー増幅装置",
+   "bulbapedia": "Energy Amplifier",
+   "bulbapediaJa": "エネルギー増幅装置",
+   "after": "Energy Amplifier",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-103",
+   "ja": "はんげきのツメ",
+   "bulbapedia": "Counterattack Claws",
+   "bulbapediaJa": "はんげきのツメ",
+   "after": "Counterattack Claws",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-104",
+   "ja": "ピントレンズ",
+   "bulbapedia": "Magnifier",
+   "bulbapediaJa": "ピントレンズ",
+   "after": "Magnifier",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-105",
+   "ja": "ポケモン性格判定",
+   "bulbapedia": "Pokémon Personality Test",
+   "bulbapediaJa": "ポケモン性格判定",
+   "after": "Pokémon Personality Test",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-107",
+   "ja": "ロケット団の暗躍",
+   "bulbapedia": "Team Rocket's Evil Deeds",
+   "bulbapediaJa": "ロケット団の暗躍",
+   "after": "Team Rocket's Evil Deeds",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-108",
+   "ja": "怪電波マシーン",
+   "bulbapedia": "Thought Wave Machine",
+   "bulbapediaJa": "怪電波マシーン",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "neo4-109",
+   "ja": "学習装置",
+   "bulbapedia": "EXP. ALL",
+   "bulbapediaJa": "学習装置",
+   "after": "EXP. ALL",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-110",
+   "ja": "でこぼこジム",
+   "bulbapedia": "Broken Ground Gym",
+   "bulbapediaJa": "でこぼこジム",
+   "after": "Broken Ground Gym",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-111",
+   "ja": "にせオーキドの発明",
+   "bulbapedia": "Impostor Oak's Invention",
+   "bulbapediaJa": "にせオーキドの発明",
+   "after": "",
+   "status": "TCGdex 英語版に同じ名前のトレーナーズ・エネルギーが無い"
+  },
+  {
+   "id": "neo4-112",
+   "ja": "ラジオとう",
+   "bulbapedia": "Radio Tower",
+   "bulbapediaJa": "ラジオとう",
+   "after": "Radio Tower",
+   "status": "直す"
+  },
+  {
+   "id": "neo4-113",
+   "ja": "ミラクルエネルギー",
+   "bulbapedia": "Miracle Energy",
+   "bulbapediaJa": "ミラクルエネルギー",
+   "after": "Miracle Energy",
+   "status": "直す"
+  }
+ ]
+}
