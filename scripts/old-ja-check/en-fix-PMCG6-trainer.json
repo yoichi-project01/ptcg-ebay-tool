@@ -1,0 +1,23 @@
+{
+ "set": "PMCG6",
+ "kind": "trainer",
+ "fixed": 2,
+ "rows": [
+  {
+   "id": "PMCG6-076",
+   "ja": "カツラのギャンブル",
+   "bulbapedia": "Blaine's Gamble",
+   "bulbapediaJa": "カツラのギャンブル",
+   "after": "Blaine's Gamble",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-088",
+   "ja": "ナツメのサイキックコントロール",
+   "bulbapedia": "Sabrina's Psychic Control",
+   "bulbapediaJa": "ナツメのサイキックコントロール",
+   "after": "Sabrina's Psychic Control",
+   "status": "直す"
+  }
+ ]
+}

@@ -1,0 +1,655 @@
+{
+ "set": "PMCG6",
+ "kind": "pokemon",
+ "fixed": 72,
+ "rows": [
+  {
+   "id": "PMCG6-001",
+   "ja": "キョウのビードル",
+   "before": "Weedle",
+   "built": "Koga's Weedle",
+   "bulbapedia": "Koga's Weedle",
+   "after": "Koga's Weedle",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-002",
+   "ja": "キョウのアーボ",
+   "before": "Ekans",
+   "built": "Koga's Ekans",
+   "bulbapedia": "Koga's Ekans",
+   "after": "Koga's Ekans",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-003",
+   "ja": "サカキのニドラン♀",
+   "before": "Nidoran♀",
+   "built": "Giovanni's Nidoran♀",
+   "bulbapedia": "Giovanni's Nidoran♀",
+   "after": "Giovanni's Nidoran♀",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-004",
+   "ja": "サカキのニドラン♂",
+   "before": "Nidoran♂",
+   "built": "Giovanni's Nidoran♂",
+   "bulbapedia": "Giovanni's Nidoran♂",
+   "after": "Giovanni's Nidoran♂",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-005",
+   "ja": "キョウのズバット",
+   "before": "Zubat",
+   "built": "Koga's Zubat",
+   "bulbapedia": "Koga's Zubat",
+   "after": "Koga's Zubat",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-006",
+   "ja": "ナツメのコンパン",
+   "before": "Venonat",
+   "built": "Sabrina's Venonat",
+   "bulbapedia": "Sabrina's Venonat",
+   "after": "Sabrina's Venonat",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-007",
+   "ja": "キョウのベトベター",
+   "before": "Grimer",
+   "built": "Koga's Grimer",
+   "bulbapedia": "Koga's Grimer",
+   "after": "Koga's Grimer",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-008",
+   "ja": "キョウのドガース",
+   "before": "Koffing",
+   "built": "Koga's Koffing",
+   "bulbapedia": "Koga's Koffing",
+   "after": "Koga's Koffing",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-009",
+   "ja": "キョウのモンジャラ",
+   "before": "Tangela",
+   "built": "Koga's Tangela",
+   "bulbapedia": "Koga's Tangela",
+   "after": "Koga's Tangela",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-010",
+   "ja": "エリカのフシギソウ",
+   "before": "Ivysaur",
+   "built": "Erika's Ivysaur",
+   "bulbapedia": "Erika's Ivysaur",
+   "after": "Erika's Ivysaur",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-011",
+   "ja": "キョウのコクーン",
+   "before": "Kakuna",
+   "built": "Koga's Kakuna",
+   "bulbapedia": "Koga's Kakuna",
+   "after": "Koga's Kakuna",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-012",
+   "ja": "サカキのニドリーナ",
+   "before": "Nidorina",
+   "built": "Giovanni's Nidorina",
+   "bulbapedia": "Giovanni's Nidorina",
+   "after": "Giovanni's Nidorina",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-013",
+   "ja": "サカキのニドリーノ",
+   "before": "Nidorino",
+   "built": "Giovanni's Nidorino",
+   "bulbapedia": "Giovanni's Nidorino",
+   "after": "Giovanni's Nidorino",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-014",
+   "ja": "キョウのゴルバット",
+   "before": "Golbat",
+   "built": "Koga's Golbat",
+   "bulbapedia": "Koga's Golbat",
+   "after": "Koga's Golbat",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-015",
+   "ja": "キョウのドガース",
+   "before": "Koffing",
+   "built": "Koga's Koffing",
+   "bulbapedia": "Koga's Koffing",
+   "after": "Koga's Koffing",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-016",
+   "ja": "キョウのマタドガス",
+   "before": "Weezing",
+   "built": "Koga's Weezing",
+   "bulbapedia": "Koga's Weezing",
+   "after": "Koga's Weezing",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-017",
+   "ja": "エリカのフシギバナ",
+   "before": "Venusaur",
+   "built": "Erika's Venusaur",
+   "bulbapedia": "Erika's Venusaur",
+   "after": "Erika's Venusaur",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-018",
+   "ja": "キョウのスピアー",
+   "before": "Beedrill",
+   "built": "Koga's Beedrill",
+   "bulbapedia": "Koga's Beedrill",
+   "after": "Koga's Beedrill",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-019",
+   "ja": "キョウのアーボック",
+   "before": "Arbok",
+   "built": "Koga's Arbok",
+   "bulbapedia": "Koga's Arbok",
+   "after": "Koga's Arbok",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-020",
+   "ja": "サカキのニドクイン",
+   "before": "Nidoqueen",
+   "built": "Giovanni's Nidoqueen",
+   "bulbapedia": "Giovanni's Nidoqueen",
+   "after": "Giovanni's Nidoqueen",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-021",
+   "ja": "サカキのニドキング",
+   "before": "Nidoking",
+   "built": "Giovanni's Nidoking",
+   "bulbapedia": "Giovanni's Nidoking",
+   "after": "Giovanni's Nidoking",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-022",
+   "ja": "ナツメのモルフォン",
+   "before": "Venomoth",
+   "built": "Sabrina's Venomoth",
+   "bulbapedia": "Sabrina's Venomoth",
+   "after": "Sabrina's Venomoth",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-023",
+   "ja": "キョウのベトベトン",
+   "before": "Muk",
+   "built": "Koga's Muk",
+   "bulbapedia": "Koga's Muk",
+   "after": "Koga's Muk",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-024",
+   "ja": "サカキのカイロス",
+   "before": "Pinsir",
+   "built": "Giovanni's Pinsir",
+   "bulbapedia": "Giovanni's Pinsir",
+   "after": "Giovanni's Pinsir",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-025",
+   "ja": "カツラのヒトカゲ",
+   "before": "Charmander",
+   "built": "Blaine's Charmander",
+   "bulbapedia": "Blaine's Charmander",
+   "after": "Blaine's Charmander",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-026",
+   "ja": "カツラのロコン",
+   "before": "Vulpix",
+   "built": "Blaine's Vulpix",
+   "bulbapedia": "Blaine's Vulpix",
+   "after": "Blaine's Vulpix",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-027",
+   "ja": "カツラのガーディ",
+   "before": "Growlithe",
+   "built": "Blaine's Growlithe",
+   "bulbapedia": "Blaine's Growlithe",
+   "after": "Blaine's Growlithe",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-028",
+   "ja": "カツラのポニータ",
+   "before": "Ponyta",
+   "built": "Blaine's Ponyta",
+   "bulbapedia": "Blaine's Ponyta",
+   "after": "Blaine's Ponyta",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-029",
+   "ja": "カツラのリザード",
+   "before": "Charmeleon",
+   "built": "Blaine's Charmeleon",
+   "bulbapedia": "Blaine's Charmeleon",
+   "after": "Blaine's Charmeleon",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-030",
+   "ja": "カツラのギャロップ",
+   "before": "Rapidash",
+   "built": "Blaine's Rapidash",
+   "bulbapedia": "Blaine's Rapidash",
+   "after": "Blaine's Rapidash",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-031",
+   "ja": "カツラのブーバー",
+   "before": "Magmar",
+   "built": "Blaine's Magmar",
+   "bulbapedia": "Blaine's Magmar",
+   "after": "Blaine's Magmar",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-032",
+   "ja": "カツラのリザードン",
+   "before": "Charizard",
+   "built": "Blaine's Charizard",
+   "bulbapedia": "Blaine's Charizard",
+   "after": "Blaine's Charizard",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-033",
+   "ja": "カツラのキュウコン",
+   "before": "Ninetales",
+   "built": "Blaine's Ninetales",
+   "bulbapedia": "Blaine's Ninetales",
+   "after": "Blaine's Ninetales",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-035",
+   "ja": "カツラのファイヤー",
+   "before": "Moltres",
+   "built": "Blaine's Moltres",
+   "bulbapedia": "Blaine's Moltres",
+   "after": "Blaine's Moltres",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-036",
+   "ja": "ナツメのコダック",
+   "before": "Psyduck",
+   "built": "Sabrina's Psyduck",
+   "bulbapedia": "Sabrina's Psyduck",
+   "after": "Sabrina's Psyduck",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-037",
+   "ja": "サカキのコイキング",
+   "before": "Magikarp",
+   "built": "Giovanni's Magikarp",
+   "bulbapedia": "Giovanni's Magikarp",
+   "after": "Giovanni's Magikarp",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-038",
+   "ja": "ナツメのゴルダック",
+   "before": "Golduck",
+   "built": "Sabrina's Golduck",
+   "bulbapedia": "Sabrina's Golduck",
+   "after": "Sabrina's Golduck",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-039",
+   "ja": "カスミのニョロボン",
+   "before": "Poliwrath",
+   "built": "Misty's Poliwrath",
+   "bulbapedia": "Misty's Poliwrath",
+   "after": "Misty's Poliwrath",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-040",
+   "ja": "サカキのギャラドス",
+   "before": "Gyarados",
+   "built": "Giovanni's Gyarados",
+   "bulbapedia": "Giovanni's Gyarados",
+   "after": "Giovanni's Gyarados",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-041",
+   "ja": "マチスのライチュウ",
+   "before": "Raichu",
+   "built": "Lt. Surge's Raichu",
+   "bulbapedia": "Lt. Surge's Raichu",
+   "after": "Lt. Surge's Raichu",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-042",
+   "ja": "R団のサンダー",
+   "before": "Zapdos",
+   "built": "Rocket's Zapdos",
+   "bulbapedia": "Rocket's Zapdos",
+   "after": "Rocket's Zapdos",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-043",
+   "ja": "ナツメのケーシィ",
+   "before": "Abra",
+   "built": "Sabrina's Abra",
+   "bulbapedia": "Sabrina's Abra",
+   "after": "Sabrina's Abra",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-044",
+   "ja": "ナツメのヤドン",
+   "before": "Slowpoke",
+   "built": "Sabrina's Slowpoke",
+   "bulbapedia": "Sabrina's Slowpoke",
+   "after": "Sabrina's Slowpoke",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-045",
+   "ja": "ナツメのスリープ",
+   "before": "Drowzee",
+   "built": "Sabrina's Drowzee",
+   "bulbapedia": "Sabrina's Drowzee",
+   "after": "Sabrina's Drowzee",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-046",
+   "ja": "ナツメのバリヤード",
+   "before": "Mr. Mime",
+   "built": "Sabrina's Mr. Mime",
+   "bulbapedia": "Sabrina's Mr. Mime",
+   "after": "Sabrina's Mr. Mime",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-047",
+   "ja": "ナツメのユンゲラー",
+   "before": "Kadabra",
+   "built": "Sabrina's Kadabra",
+   "bulbapedia": "Sabrina's Kadabra",
+   "after": "Sabrina's Kadabra",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-048",
+   "ja": "ナツメのヤドラン",
+   "before": "Slowbro",
+   "built": "Sabrina's Slowbro",
+   "bulbapedia": "Sabrina's Slowbro",
+   "after": "Sabrina's Slowbro",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-049",
+   "ja": "ナツメのゴース",
+   "before": "Gastly",
+   "built": "Sabrina's Gastly",
+   "bulbapedia": "Sabrina's Gastly",
+   "after": "Sabrina's Gastly",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-050",
+   "ja": "ナツメのゴースト",
+   "before": "Haunter",
+   "built": "Sabrina's Haunter",
+   "bulbapedia": "Sabrina's Haunter",
+   "after": "Sabrina's Haunter",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-051",
+   "ja": "ナツメのスリーパー",
+   "before": "Hypno",
+   "built": "Sabrina's Hypno",
+   "bulbapedia": "Sabrina's Hypno",
+   "after": "Sabrina's Hypno",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-052",
+   "ja": "ナツメのルージュラ",
+   "before": "Jynx",
+   "built": "Sabrina's Jynx",
+   "bulbapedia": "Sabrina's Jynx",
+   "after": "Sabrina's Jynx",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-053",
+   "ja": "ナツメのフーディン",
+   "before": "Alakazam",
+   "built": "Sabrina's Alakazam",
+   "bulbapedia": "Sabrina's Alakazam",
+   "after": "Sabrina's Alakazam",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-054",
+   "ja": "ナツメのゲンガー",
+   "before": "Gengar",
+   "built": "Sabrina's Gengar",
+   "bulbapedia": "Sabrina's Gengar",
+   "after": "Sabrina's Gengar",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-055",
+   "ja": "R団のミュウツー",
+   "before": "Mewtwo",
+   "built": "Rocket's Mewtwo",
+   "bulbapedia": "Rocket's Mewtwo",
+   "after": "Rocket's Mewtwo",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-056",
+   "ja": "カツラのマンキー",
+   "before": "Mankey",
+   "built": "Blaine's Mankey",
+   "bulbapedia": "Blaine's Mankey",
+   "after": "Blaine's Mankey",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-057",
+   "ja": "サカキのワンリキー",
+   "before": "Machop",
+   "built": "Giovanni's Machop",
+   "bulbapedia": "Giovanni's Machop",
+   "after": "Giovanni's Machop",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-058",
+   "ja": "カツラのサイホーン",
+   "before": "Rhyhorn",
+   "built": "Blaine's Rhyhorn",
+   "bulbapedia": "Blaine's Rhyhorn",
+   "after": "Blaine's Rhyhorn",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-059",
+   "ja": "サカキのゴーリキー",
+   "before": "Machoke",
+   "built": "Giovanni's Machoke",
+   "bulbapedia": "Giovanni's Machoke",
+   "after": "Giovanni's Machoke",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-060",
+   "ja": "タケシのダグトリオ",
+   "before": "Dugtrio",
+   "built": "Brock's Dugtrio",
+   "bulbapedia": "Brock's Dugtrio",
+   "after": "Brock's Dugtrio",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-061",
+   "ja": "サカキのカイリキー",
+   "before": "Machamp",
+   "built": "Giovanni's Machamp",
+   "bulbapedia": "Giovanni's Machamp",
+   "after": "Giovanni's Machamp",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-062",
+   "ja": "キョウのポッポ",
+   "before": "Pidgey",
+   "built": "Koga's Pidgey",
+   "bulbapedia": "Koga's Pidgey",
+   "after": "Koga's Pidgey",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-063",
+   "ja": "サカキのニャース",
+   "before": "Meowth",
+   "built": "Giovanni's Meowth",
+   "bulbapedia": "Giovanni's Meowth",
+   "after": "Giovanni's Meowth",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-064",
+   "ja": "カツラのドードー",
+   "before": "Doduo",
+   "built": "Blaine's Doduo",
+   "bulbapedia": "Blaine's Doduo",
+   "after": "Blaine's Doduo",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-065",
+   "ja": "カツラのケンタロス",
+   "before": "Tauros",
+   "built": "Blaine's Tauros",
+   "bulbapedia": "Blaine's Tauros",
+   "after": "Blaine's Tauros",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-066",
+   "ja": "ナツメのポリゴン",
+   "before": "Porygon",
+   "built": "Sabrina's Porygon",
+   "bulbapedia": "Sabrina's Porygon",
+   "after": "Sabrina's Porygon",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-067",
+   "ja": "キョウのポッポ",
+   "before": "Pidgey",
+   "built": "Koga's Pidgey",
+   "bulbapedia": "Koga's Pidgey",
+   "after": "Koga's Pidgey",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-068",
+   "ja": "サカキのニャース",
+   "before": "Meowth",
+   "built": "Giovanni's Meowth",
+   "bulbapedia": "Giovanni's Meowth",
+   "after": "Giovanni's Meowth",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-069",
+   "ja": "カツラのガルーラ",
+   "before": "Kangaskhan",
+   "built": "Blaine's Kangaskhan",
+   "bulbapedia": "Blaine's Kangaskhan",
+   "after": "Blaine's Kangaskhan",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-070",
+   "ja": "キョウのピジョン",
+   "before": "Pidgeotto",
+   "built": "Koga's Pidgeotto",
+   "bulbapedia": "Koga's Pidgeotto",
+   "after": "Koga's Pidgeotto",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-071",
+   "ja": "サカキのペルシアン",
+   "before": "Persian",
+   "built": "Giovanni's Persian",
+   "bulbapedia": "Giovanni's Persian",
+   "after": "Giovanni's Persian",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-072",
+   "ja": "キョウのメタモン",
+   "before": "Ditto",
+   "built": "Koga's Ditto",
+   "bulbapedia": "Koga's Ditto",
+   "after": "Koga's Ditto",
+   "status": "直す"
+  },
+  {
+   "id": "PMCG6-073",
+   "ja": "R団のカビゴン",
+   "before": "Snorlax",
+   "built": "Rocket's Snorlax",
+   "bulbapedia": "Rocket's Snorlax",
+   "after": "Rocket's Snorlax",
+   "status": "直す"
+  }
+ ]
+}
