@@ -1,0 +1,183 @@
+{
+ "set": "neo1",
+ "kind": "trainer",
+ "fixed": 20,
+ "rows": [
+  {
+   "id": "neo1-073",
+   "ja": "きのみ",
+   "bulbapedia": "Berry",
+   "bulbapediaJa": "きのみ",
+   "after": "Berry",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-074",
+   "ja": "すごいつりざお",
+   "bulbapedia": "Super Rod",
+   "bulbapediaJa": "すごいつりざお",
+   "after": "Super Rod",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-075",
+   "ja": "ポケモンぎゃくしめい",
+   "bulbapedia": "Double Gust",
+   "bulbapediaJa": "ポケモンぎゃくしめい",
+   "after": "Double Gust",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-077",
+   "ja": "モーモーミルク",
+   "bulbapedia": "Moo-Moo Milk",
+   "bulbapediaJa": "モーモーミルク",
+   "after": "Moo-Moo Milk",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-078",
+   "ja": "ウツギはかせ",
+   "bulbapedia": "Professor Elm",
+   "bulbapediaJa": "ウツギはかせ",
+   "after": "Professor Elm",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-079",
+   "ja": "おうごんのみ",
+   "bulbapedia": "Gold Berry",
+   "bulbapediaJa": "おうごんのみ",
+   "after": "Gold Berry",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-080",
+   "ja": "カードめくりゲーム",
+   "bulbapedia": "Card-Flip Game",
+   "bulbapediaJa": "カードめくりゲーム",
+   "after": "Card-Flip Game",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-081",
+   "ja": "きせきのみ",
+   "bulbapedia": "Miracle Berry",
+   "bulbapediaJa": "きせきのみ",
+   "after": "Miracle Berry",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-082",
+   "ja": "新ポケモン図鑑HANDY808",
+   "bulbapedia": "New Pokédex",
+   "bulbapediaJa": "新ポケモン図鑑HANDY808",
+   "after": "New Pokédex",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-083",
+   "ja": "スーパーポケモン回収",
+   "bulbapedia": "Super Scoop Up",
+   "bulbapediaJa": "スーパーポケモン回収",
+   "after": "Super Scoop Up",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-084",
+   "ja": "マサキの転送装置",
+   "bulbapedia": "Bill's Teleporter",
+   "bulbapediaJa": "マサキの転送装置",
+   "after": "Bill's Teleporter",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-085",
+   "ja": "マダツボミのとう",
+   "bulbapedia": "Sprout Tower",
+   "bulbapediaJa": "マダツボミのとう",
+   "after": "Sprout Tower",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-086",
+   "ja": "エコロジム",
+   "bulbapedia": "Ecogym",
+   "bulbapediaJa": "エコロジム",
+   "after": "Ecogym",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-087",
+   "ja": "エネルギーチャージ",
+   "bulbapedia": "Energy Charge",
+   "bulbapediaJa": "エネルギーチャージ",
+   "after": "Energy Charge",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-088",
+   "ja": "きあいのハチマキ",
+   "bulbapedia": "Focus Band",
+   "bulbapediaJa": "きあいのハチマキ",
+   "after": "Focus Band",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-089",
+   "ja": "クルミ",
+   "bulbapedia": "Mary",
+   "bulbapediaJa": "クルミ",
+   "after": "Mary",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-090",
+   "ja": "スロットゲーム",
+   "bulbapedia": "Arcade Game",
+   "bulbapediaJa": "スロットゲーム",
+   "after": "Arcade Game",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-092",
+   "ja": "超エネルギー回収",
+   "bulbapedia": "Super Energy Retrieval",
+   "bulbapediaJa": "超エネルギー回収",
+   "after": "Super Energy Retrieval",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-093",
+   "ja": "ポケモンギア",
+   "bulbapedia": "PokéGear",
+   "bulbapediaJa": "ポケモンギア",
+   "after": "PokéGear",
+   "status": "直す"
+  },
+  {
+   "id": "neo1-094",
+   "ja": "悪エネルギー",
+   "bulbapedia": "Darkness Energy",
+   "bulbapediaJa": "特殊悪エネルギー",
+   "after": "",
+   "status": "日本語名が Bulbapedia の日本語名と一致しない"
+  },
+  {
+   "id": "neo1-095",
+   "ja": "鋼エネルギー",
+   "bulbapedia": "Metal Energy",
+   "bulbapediaJa": "特殊鋼エネルギー",
+   "after": "",
+   "status": "日本語名が Bulbapedia の日本語名と一致しない"
+  },
+  {
+   "id": "neo1-096",
+   "ja": "リサイクルエネルギー",
+   "bulbapedia": "Recycle Energy",
+   "bulbapediaJa": "リサイクルエネルギー",
+   "after": "Recycle Energy",
+   "status": "直す"
+  }
+ ]
+}
