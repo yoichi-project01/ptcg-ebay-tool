@@ -1,0 +1,39 @@
+{
+ "set": "PCG9",
+ "kind": "trainer",
+ "fixed": 4,
+ "rows": [
+  {
+   "id": "PCG9-064",
+   "ja": "ボロのつりざお",
+   "bulbapedia": "Old Rod",
+   "bulbapediaJa": "ボロのつりざお",
+   "after": "Old Rod",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-065",
+   "ja": "孤島の隠者",
+   "bulbapedia": "Island Hermit",
+   "bulbapediaJa": "孤島の隠者",
+   "after": "Island Hermit",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-066",
+   "ja": "ちからのかけら",
+   "bulbapedia": "Strength Charm",
+   "bulbapediaJa": "ちからのかけら",
+   "after": "Strength Charm",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-067",
+   "ja": "ホロンの聖跡",
+   "bulbapedia": "Holon Legacy",
+   "bulbapediaJa": "ホロンの聖跡",
+   "after": "Holon Legacy",
+   "status": "直す"
+  }
+ ]
+}
