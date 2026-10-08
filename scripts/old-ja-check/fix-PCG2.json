@@ -1,0 +1,142 @@
+{
+ "set": "PCG2",
+ "fixed": 15,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "PCG2-005",
+   "before": "クロバット",
+   "pcgSearch": "クロバットex",
+   "pokemonWiki": "クロバットex",
+   "after": "クロバットex",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/クロバット_PCG2-05／82_R.png → cards/PCG/PCG2/クロバットex_PCG2-05／82_R.png"
+  },
+  {
+   "id": "PCG2-033",
+   "before": "ライボルト",
+   "pcgSearch": "ライボルトex",
+   "pokemonWiki": "ライボルトex",
+   "after": "ライボルトex",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/ライボルト_PCG2-33／82_R.png → cards/PCG/PCG2/ライボルトex_PCG2-33／82_R.png"
+  },
+  {
+   "id": "PCG2-045",
+   "before": "デオキシス",
+   "pcgSearch": "デオキシスex",
+   "pokemonWiki": "デオキシスex",
+   "after": "デオキシスex",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/デオキシス_PCG2-45／82_R.png → cards/PCG/PCG2/デオキシスex_PCG2-45／82_R.png"
+  },
+  {
+   "id": "PCG2-046",
+   "before": "デオキシス",
+   "pcgSearch": "デオキシスex",
+   "pokemonWiki": "デオキシスex",
+   "after": "デオキシスex",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/デオキシス_PCG2-46／82_R.png → cards/PCG/PCG2/デオキシスex_PCG2-46／82_R.png"
+  },
+  {
+   "id": "PCG2-049",
+   "before": "ハリテヤマ",
+   "pcgSearch": "ハリテヤマex",
+   "pokemonWiki": "ハリテヤマex",
+   "after": "ハリテヤマex",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/ハリテヤマ_PCG2-49／82_R.png → cards/PCG/PCG2/ハリテヤマex_PCG2-49／82_R.png"
+  },
+  {
+   "id": "PCG2-064",
+   "before": "ボーマンダ",
+   "pcgSearch": "ボーマンダex",
+   "pokemonWiki": "ボーマンダex",
+   "after": "ボーマンダex",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/ボーマンダ_PCG2-64／82_R.png → cards/PCG/PCG2/ボーマンダex_PCG2-64／82_R.png"
+  },
+  {
+   "id": "PCG2-065",
+   "before": "ラティアススター",
+   "pcgSearch": "ラティアス☆",
+   "pokemonWiki": "ラティアス☆",
+   "after": "ラティアス☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/ラティアススター_PCG2-65／82_S.png → cards/PCG/PCG2/ラティアス☆_PCG2-65／82_S.png"
+  },
+  {
+   "id": "PCG2-066",
+   "before": "ラティオススター",
+   "pcgSearch": "ラティオス☆",
+   "pokemonWiki": "ラティオス☆",
+   "after": "ラティオス☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/ラティオススター_PCG2-66／82_S.png → cards/PCG/PCG2/ラティオス☆_PCG2-66／82_S.png"
+  },
+  {
+   "id": "PCG2-067",
+   "before": "レックウザ",
+   "pcgSearch": "レックウザ☆",
+   "pokemonWiki": "レックウザ☆",
+   "after": "レックウザ☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/レックウザ_PCG2-67／82_S.png → cards/PCG/PCG2/レックウザ☆_PCG2-67／82_S.png"
+  },
+  {
+   "id": "PCG2-072",
+   "before": "サメハダー",
+   "pcgSearch": "サメハダーex",
+   "pokemonWiki": "サメハダーex",
+   "after": "サメハダーex",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/サメハダー_PCG2-72／82_R.png → cards/PCG/PCG2/サメハダーex_PCG2-72／82_R.png"
+  },
+  {
+   "id": "PCG2-076",
+   "before": "コズモ教授の発見",
+   "pcgSearch": "ソライシはかせの発見",
+   "pokemonWiki": "ソライシはかせの発見",
+   "after": "ソライシはかせの発見",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/コズモ教授の発見_PCG2-76／82_U.png → cards/PCG/PCG2/ソライシはかせの発見_PCG2-76／82_U.png"
+  },
+  {
+   "id": "PCG2-077",
+   "before": "クリスタルシャード",
+   "pcgSearch": "水晶のかけら",
+   "pokemonWiki": "水晶のかけら",
+   "after": "水晶のかけら",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/クリスタルシャード_PCG2-77／82_U.png → cards/PCG/PCG2/水晶のかけら_PCG2-77／82_U.png"
+  },
+  {
+   "id": "PCG2-079",
+   "before": "流星滝",
+   "pcgSearch": "流星の滝",
+   "pokemonWiki": "流星の滝",
+   "after": "流星の滝",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/流星滝_PCG2-79／82_U.png → cards/PCG/PCG2/流星の滝_PCG2-79／82_U.png"
+  },
+  {
+   "id": "PCG2-081",
+   "before": "エネルギーを癒します",
+   "pcgSearch": "ヒーリングエネルギー",
+   "pokemonWiki": "ヒーリングエネルギー",
+   "after": "ヒーリングエネルギー",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/エネルギーを癒します_PCG2-81／82_U.png → cards/PCG/PCG2/ヒーリングエネルギー_PCG2-81／82_U.png"
+  },
+  {
+   "id": "PCG2-082",
+   "before": "エネルギーを高めます",
+   "pcgSearch": "ブーストエネルギー",
+   "pokemonWiki": "ブーストエネルギー",
+   "after": "ブーストエネルギー",
+   "status": "直す",
+   "image": "cards/PCG/PCG2/エネルギーを高めます_PCG2-82／82_U.png → cards/PCG/PCG2/ブーストエネルギー_PCG2-82／82_U.png"
+  }
+ ]
+}
