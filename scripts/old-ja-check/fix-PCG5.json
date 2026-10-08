@@ -1,0 +1,178 @@
+{
+ "set": "PCG5",
+ "fixed": 19,
+ "kept": 0,
+ "rows": [
+  {
+   "id": "PCG5-010",
+   "before": "ドクケイル",
+   "pcgSearch": "ドクケイルex",
+   "pokemonWiki": "ドクケイルex",
+   "after": "ドクケイルex",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/ドクケイル_PCG5-10／86_R.png → cards/PCG/PCG5/ドクケイルex_PCG5-10／86_R.png"
+  },
+  {
+   "id": "PCG5-016",
+   "before": "ウインディ",
+   "pcgSearch": "ウインディex",
+   "pokemonWiki": "ウインディex",
+   "after": "ウインディex",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/ウインディ_PCG5-16／86_R.png → cards/PCG/PCG5/ウインディex_PCG5-16／86_R.png"
+  },
+  {
+   "id": "PCG5-029",
+   "before": "トドゼルガ",
+   "pcgSearch": "トドゼルガex",
+   "pokemonWiki": "トドゼルガex",
+   "after": "トドゼルガex",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/トドゼルガ_PCG5-29／86_R.png → cards/PCG/PCG5/トドゼルガex_PCG5-29／86_R.png"
+  },
+  {
+   "id": "PCG5-033",
+   "before": "レジアイス",
+   "pcgSearch": "レジアイス☆",
+   "pokemonWiki": "レジアイス☆",
+   "after": "レジアイス☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/レジアイス_PCG5-33／86_S.png → cards/PCG/PCG5/レジアイス☆_PCG5-33／86_S.png"
+  },
+  {
+   "id": "PCG5-041",
+   "before": "ミュウ",
+   "pcgSearch": "ミュウex",
+   "pokemonWiki": "ミュウex",
+   "after": "ミュウex",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/ミュウ_PCG5-41／86_R.png → cards/PCG/PCG5/ミュウex_PCG5-41／86_R.png"
+  },
+  {
+   "id": "PCG5-058",
+   "before": "アーマルド",
+   "pcgSearch": "アーマルドex",
+   "pokemonWiki": "アーマルドex",
+   "after": "アーマルドex",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/アーマルド_PCG5-58／86_R.png → cards/PCG/PCG5/アーマルドex_PCG5-58／86_R.png"
+  },
+  {
+   "id": "PCG5-059",
+   "before": "レジロックスター",
+   "pcgSearch": "レジロック☆",
+   "pokemonWiki": "レジロック☆",
+   "after": "レジロック☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/レジロックスター_PCG5-59／86_S.png → cards/PCG/PCG5/レジロック☆_PCG5-59／86_S.png"
+  },
+  {
+   "id": "PCG5-066",
+   "before": "フライゴン",
+   "pcgSearch": "フライゴンex",
+   "pokemonWiki": "フライゴンex",
+   "after": "フライゴンex",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/フライゴン_PCG5-66／86_R.png → cards/PCG/PCG5/フライゴンex_PCG5-66／86_R.png"
+  },
+  {
+   "id": "PCG5-068",
+   "before": "チルタリス",
+   "pcgSearch": "チルタリスex",
+   "pokemonWiki": "チルタリスex",
+   "after": "チルタリスex",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/チルタリス_PCG5-68／86_R.png → cards/PCG/PCG5/チルタリスex_PCG5-68／86_R.png"
+  },
+  {
+   "id": "PCG5-076",
+   "before": "レジスチル",
+   "pcgSearch": "レジスチル☆",
+   "pokemonWiki": "レジスチル☆",
+   "after": "レジスチル☆",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/レジスチル_PCG5-76／86_S.png → cards/PCG/PCG5/レジスチル☆_PCG5-76／86_S.png"
+  },
+  {
+   "id": "PCG5-077",
+   "before": "爪の化石",
+   "pcgSearch": "ツメの化石",
+   "pokemonWiki": "ツメの化石",
+   "after": "ツメの化石",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/爪の化石_PCG5-77／86_U.png → cards/PCG/PCG5/ツメの化石_PCG5-77／86_U.png"
+  },
+  {
+   "id": "PCG5-078",
+   "before": "神秘的な化石",
+   "pcgSearch": "なにかの化石",
+   "pokemonWiki": "なにかの化石",
+   "after": "なにかの化石",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/神秘的な化石_PCG5-78／86_U.png → cards/PCG/PCG5/なにかの化石_PCG5-78／86_U.png"
+  },
+  {
+   "id": "PCG5-079",
+   "before": "根の化石",
+   "pcgSearch": "ねっこの化石",
+   "pokemonWiki": "ねっこの化石",
+   "after": "ねっこの化石",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/根の化石_PCG5-79／86_U.png → cards/PCG/PCG5/ねっこの化石_PCG5-79／86_U.png"
+  },
+  {
+   "id": "PCG5-081",
+   "before": "奇妙な洞窟",
+   "pcgSearch": "妖しい洞窟",
+   "pokemonWiki": "妖しい洞窟",
+   "after": "妖しい洞窟",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/奇妙な洞窟_PCG5-81／86_U.png → cards/PCG/PCG5/妖しい洞窟_PCG5-81／86_U.png"
+  },
+  {
+   "id": "PCG5-082",
+   "before": "フルフレーム",
+   "pcgSearch": "消えない炎",
+   "pokemonWiki": "消えない炎",
+   "after": "消えない炎",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/フルフレーム_PCG5-82／86_U.png → cards/PCG/PCG5/消えない炎_PCG5-82／86_U.png"
+  },
+  {
+   "id": "PCG5-083",
+   "before": "巨大な切り株",
+   "pcgSearch": "巨大な切りかぶ",
+   "pokemonWiki": "巨大な切りかぶ",
+   "after": "巨大な切りかぶ",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/巨大な切り株_PCG5-83／86_U.png → cards/PCG/PCG5/巨大な切りかぶ_PCG5-83／86_U.png"
+  },
+  {
+   "id": "PCG5-084",
+   "before": "呪われた石",
+   "pcgSearch": "呪われたほこら",
+   "pokemonWiki": "呪われたほこら",
+   "after": "呪われたほこら",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/呪われた石_PCG5-84／86_U.png → cards/PCG/PCG5/呪われたほこら_PCG5-84／86_U.png"
+  },
+  {
+   "id": "PCG5-085",
+   "before": "パワーツリー",
+   "pcgSearch": "不思議な大樹",
+   "pokemonWiki": "不思議な大樹",
+   "after": "不思議な大樹",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/パワーツリー_PCG5-85／86_U.png → cards/PCG/PCG5/不思議な大樹_PCG5-85／86_U.png"
+  },
+  {
+   "id": "PCG5-086",
+   "before": "エネルギーを反応させます",
+   "pcgSearch": "リアクトエネルギー",
+   "pokemonWiki": "リアクトエネルギー",
+   "after": "リアクトエネルギー",
+   "status": "直す",
+   "image": "cards/PCG/PCG5/エネルギーを反応させます_PCG5-86／86_U.png → cards/PCG/PCG5/リアクトエネルギー_PCG5-86／86_U.png"
+  }
+ ]
+}
