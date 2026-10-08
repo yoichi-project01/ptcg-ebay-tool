@@ -1,0 +1,95 @@
+{
+ "set": "E5",
+ "kind": "trainer",
+ "fixed": 11,
+ "rows": [
+  {
+   "id": "E5-075",
+   "ja": "スピードボール",
+   "bulbapedia": "Fast Ball",
+   "bulbapediaJa": "スピードボール",
+   "after": "Fast Ball",
+   "status": "直す"
+  },
+  {
+   "id": "E5-076",
+   "ja": "フレンドボール",
+   "bulbapedia": "Friend Ball",
+   "bulbapediaJa": "フレンドボール",
+   "after": "Friend Ball",
+   "status": "直す"
+  },
+  {
+   "id": "E5-078",
+   "ja": "遺跡ハンター",
+   "bulbapedia": "Relic Hunter",
+   "bulbapediaJa": "遺跡ハンター",
+   "after": "Relic Hunter",
+   "status": "直す"
+  },
+  {
+   "id": "E5-079",
+   "ja": "釣り人",
+   "bulbapedia": "Fisherman",
+   "bulbapediaJa": "釣り人",
+   "after": "Fisherman",
+   "status": "直す"
+  },
+  {
+   "id": "E5-080",
+   "ja": "ぼんぐり職人",
+   "bulbapedia": "Apricorn Maker",
+   "bulbapediaJa": "ぼんぐり職人",
+   "after": "Apricorn Maker",
+   "status": "直す"
+  },
+  {
+   "id": "E5-081",
+   "ja": "ミラクルスフィアα",
+   "bulbapedia": "Miracle Sphere α",
+   "bulbapediaJa": "ミラクルスフィアα",
+   "after": "Miracle Sphere α",
+   "status": "直す"
+  },
+  {
+   "id": "E5-082",
+   "ja": "ミラクルスフィアβ",
+   "bulbapedia": "Miracle Sphere β",
+   "bulbapediaJa": "ミラクルスフィアβ",
+   "after": "Miracle Sphere β",
+   "status": "直す"
+  },
+  {
+   "id": "E5-083",
+   "ja": "ミラクルスフィアγ",
+   "bulbapedia": "Miracle Sphere γ",
+   "bulbapediaJa": "ミラクルスフィアγ",
+   "after": "Miracle Sphere γ",
+   "status": "直す"
+  },
+  {
+   "id": "E5-084",
+   "ja": "古代遺跡",
+   "bulbapedia": "Ancient Ruins",
+   "bulbapediaJa": "古代遺跡",
+   "after": "Ancient Ruins",
+   "status": "直す"
+  },
+  {
+   "id": "E5-087",
+   "ja": "バウンスエネルギー",
+   "bulbapedia": "Bounce Energy",
+   "bulbapediaJa": "バウンスエネルギー",
+   "after": "Bounce Energy",
+   "status": "直す"
+  },
+  {
+   "id": "E5-088",
+   "ja": "レトロエネルギー",
+   "bulbapedia": "Retro Energy",
+   "bulbapediaJa": "レトロエネルギー",
+   "after": "Retro Energy",
+   "status": "直す"
+  }
+ ]
+}
