@@ -1,0 +1,60 @@
+{
+ "set": "neo3",
+ "fixed": 5,
+ "rows": [
+  {
+   "id": "neo3-022",
+   "ja": "ひかるコイキング",
+   "before": "Magikarp",
+   "built": "Shining Magikarp",
+   "bulbapedia": "Shining Magikarp",
+   "after": "Shining Magikarp",
+   "status": "直す"
+  },
+  {
+   "id": "neo3-023",
+   "ja": "ひかるギャラドス",
+   "before": "Gyarados",
+   "built": "Shining Gyarados",
+   "bulbapedia": "Shining Gyarados",
+   "after": "Shining Gyarados",
+   "status": "直す"
+  },
+  {
+   "id": "neo3-030",
+   "ja": "アンノーン[K]",
+   "before": "Unown",
+   "built": "Unown K",
+   "bulbapedia": "Unown K",
+   "after": "Unown K",
+   "status": "直す"
+  },
+  {
+   "id": "neo3-032",
+   "ja": "アンノーン[B]",
+   "before": "Unown",
+   "built": "Unown B",
+   "bulbapedia": "Unown B",
+   "after": "Unown B",
+   "status": "直す"
+  },
+  {
+   "id": "neo3-033",
+   "ja": "アンノーン[Y]",
+   "before": "Unown",
+   "built": "Unown Y",
+   "bulbapedia": "Unown Y",
+   "after": "Unown Y",
+   "status": "直す"
+  },
+  {
+   "id": "neo3-051",
+   "ja": "ポリゴン2",
+   "before": "Porygon2",
+   "built": "Porygon2",
+   "bulbapedia": "Porygon2",
+   "after": "",
+   "status": "すでに同じ"
+  }
+ ]
+}
