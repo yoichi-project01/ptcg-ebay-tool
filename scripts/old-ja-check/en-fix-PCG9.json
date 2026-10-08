@@ -1,0 +1,573 @@
+{
+ "set": "PCG9",
+ "fixed": 53,
+ "rows": [
+  {
+   "id": "PCG9-001",
+   "ja": "カビゴンδ-デルタ種",
+   "before": "Snorlax",
+   "built": "Snorlax δ",
+   "bulbapedia": "Snorlax δ",
+   "after": "Snorlax δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-002",
+   "ja": "ミニリュウδ-デルタ種",
+   "before": "Dratini",
+   "built": "Dratini δ",
+   "bulbapedia": "Dratini δ",
+   "after": "Dratini δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-003",
+   "ja": "ハクリューδ-デルタ種",
+   "before": "Dragonair",
+   "built": "Dragonair δ",
+   "bulbapedia": "Dragonair δ",
+   "after": "Dragonair δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-004",
+   "ja": "カイリューexδ-デルタ種",
+   "before": "Dragonite",
+   "built": "Dragonite ex δ",
+   "bulbapedia": "Dragonite ex δ",
+   "after": "Dragonite ex δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-005",
+   "ja": "ウパーδ-デルタ種",
+   "before": "Wooper",
+   "built": "Wooper δ",
+   "bulbapedia": "Wooper δ",
+   "after": "Wooper δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-006",
+   "ja": "ヌオーδ-デルタ種",
+   "before": "Quagsire",
+   "built": "Quagsire δ",
+   "bulbapedia": "Quagsire δ",
+   "after": "Quagsire δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-007",
+   "ja": "アーボδ-デルタ種",
+   "before": "Ekans",
+   "built": "Ekans δ",
+   "bulbapedia": "Ekans δ",
+   "after": "Ekans δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-008",
+   "ja": "アーボックδ-デルタ種",
+   "before": "Arbok δ",
+   "built": "Arbok δ",
+   "bulbapedia": "Arbok δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG9-009",
+   "ja": "ヘラクロスδ-デルタ種",
+   "before": "Heracross δ",
+   "built": "Heracross δ",
+   "bulbapedia": "Heracross δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG9-010",
+   "ja": "スバメδ-デルタ種",
+   "before": "Taillow",
+   "built": "Taillow δ",
+   "bulbapedia": "Taillow δ",
+   "after": "Taillow δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-011",
+   "ja": "オオスバメδ-デルタ種",
+   "before": "Swellow",
+   "built": "Swellow δ",
+   "bulbapedia": "Swellow δ",
+   "after": "Swellow δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-012",
+   "ja": "ヒンバスδ-デルタ種",
+   "before": "Feebas",
+   "built": "Feebas δ",
+   "bulbapedia": "Feebas δ",
+   "after": "Feebas δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-013",
+   "ja": "ミロカロスδ-デルタ種",
+   "before": "Milotic",
+   "built": "Milotic δ",
+   "bulbapedia": "Milotic δ",
+   "after": "Milotic δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-014",
+   "ja": "ラティアスexδ-デルタ種",
+   "before": "Latias",
+   "built": "Latias ex δ",
+   "bulbapedia": "Latias ex δ",
+   "after": "Latias ex δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-015",
+   "ja": "ミュウ☆δ-デルタ種",
+   "before": "Mew",
+   "built": "Mew ☆ δ",
+   "bulbapedia": "Mew ☆ δ",
+   "after": "Mew ☆ δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-016",
+   "ja": "トゲピーδ-デルタ種",
+   "before": "Togepi",
+   "built": "Togepi δ",
+   "bulbapedia": "Togepi δ",
+   "after": "Togepi δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-017",
+   "ja": "トゲチックδ-デルタ種",
+   "before": "Togetic",
+   "built": "Togetic δ",
+   "bulbapedia": "Togetic δ",
+   "after": "Togetic δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-018",
+   "ja": "チルットδ-デルタ種",
+   "before": "Swablu",
+   "built": "Swablu δ",
+   "bulbapedia": "Swablu δ",
+   "after": "Swablu δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-019",
+   "ja": "チルタリスexδ-デルタ種",
+   "before": "Altaria",
+   "built": "Altaria ex δ",
+   "bulbapedia": "Altaria ex δ",
+   "after": "Altaria ex δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-020",
+   "ja": "タツベイδ-デルタ種",
+   "before": "Bagon",
+   "built": "Bagon δ",
+   "bulbapedia": "Bagon δ",
+   "after": "Bagon δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-021",
+   "ja": "コモルーδ-デルタ種",
+   "before": "Shelgon",
+   "built": "Shelgon δ",
+   "bulbapedia": "Shelgon δ",
+   "after": "Shelgon δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-022",
+   "ja": "ボーマンダexδ-デルタ種",
+   "before": "Salamence",
+   "built": "Salamence ex δ",
+   "bulbapedia": "Salamence ex δ",
+   "after": "Salamence ex δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-023",
+   "ja": "ラティオスexδ-デルタ種",
+   "before": "Latios",
+   "built": "Latios ex δ",
+   "bulbapedia": "Latios ex δ",
+   "after": "Latios ex δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-024",
+   "ja": "ワニノコδ-デルタ種",
+   "before": "Totodile",
+   "built": "Totodile δ",
+   "bulbapedia": "Totodile δ",
+   "after": "Totodile δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-025",
+   "ja": "アリゲイツδ-デルタ種",
+   "before": "Croconaw",
+   "built": "Croconaw δ",
+   "bulbapedia": "Croconaw δ",
+   "after": "Croconaw δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-026",
+   "ja": "オーダイルδ-デルタ種",
+   "before": "Feraligatr",
+   "built": "Feraligatr δ",
+   "bulbapedia": "Feraligatr δ",
+   "after": "Feraligatr δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-027",
+   "ja": "マンタインδ-デルタ種",
+   "before": "Mantine",
+   "built": "Mantine δ",
+   "bulbapedia": "Mantine δ",
+   "after": "Mantine δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-028",
+   "ja": "レックウザexδ-デルタ種",
+   "before": "Rayquaza",
+   "built": "Rayquaza ex δ",
+   "bulbapedia": "Rayquaza ex δ",
+   "after": "Rayquaza ex δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-029",
+   "ja": "ロコンδ-デルタ種",
+   "before": "Vulpix",
+   "built": "Vulpix δ",
+   "bulbapedia": "Vulpix δ",
+   "after": "Vulpix δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-030",
+   "ja": "キュウコンδ-デルタ種",
+   "before": "Ninetales",
+   "built": "Ninetales δ",
+   "bulbapedia": "Ninetales δ",
+   "after": "Ninetales δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-031",
+   "ja": "ベロリンガδ-デルタ種",
+   "before": "Lickitung",
+   "built": "Lickitung δ",
+   "bulbapedia": "Lickitung δ",
+   "after": "Lickitung δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-032",
+   "ja": "ヒノアラシδ-デルタ種",
+   "before": "Cyndaquil",
+   "built": "Cyndaquil δ",
+   "bulbapedia": "Cyndaquil δ",
+   "after": "Cyndaquil δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-033",
+   "ja": "マグマラシδ-デルタ種",
+   "before": "Quilava",
+   "built": "Quilava δ",
+   "bulbapedia": "Quilava δ",
+   "after": "Quilava δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-034",
+   "ja": "バクフーンδ-デルタ種",
+   "before": "Typhlosion",
+   "built": "Typhlosion δ",
+   "bulbapedia": "Typhlosion δ",
+   "after": "Typhlosion δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-035",
+   "ja": "ナックラーδ-デルタ種",
+   "before": "Trapinch",
+   "built": "Trapinch δ",
+   "bulbapedia": "Trapinch δ",
+   "after": "Trapinch δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-036",
+   "ja": "ビブラーバδ-デルタ種",
+   "before": "Vibrava",
+   "built": "Vibrava δ",
+   "bulbapedia": "Vibrava δ",
+   "after": "Vibrava δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-037",
+   "ja": "フライゴンexδ-デルタ種",
+   "before": "Flygon",
+   "built": "Flygon ex δ",
+   "bulbapedia": "Flygon ex δ",
+   "after": "Flygon ex δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-038",
+   "ja": "シェルダーδ-デルタ種",
+   "before": "Shellder δ",
+   "built": "Shellder δ",
+   "bulbapedia": "Shellder δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG9-039",
+   "ja": "パルシェンδ-デルタ種",
+   "before": "Cloyster",
+   "built": "Cloyster δ",
+   "bulbapedia": "Cloyster δ",
+   "after": "Cloyster δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-040",
+   "ja": "タッツーδ-デルタ種",
+   "before": "Horsea",
+   "built": "Horsea δ",
+   "bulbapedia": "Horsea δ",
+   "after": "Horsea δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-041",
+   "ja": "シードラδ-デルタ種",
+   "before": "Seadra δ",
+   "built": "Seadra δ",
+   "bulbapedia": "Seadra δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG9-042",
+   "ja": "カイロスδ-デルタ種",
+   "before": "Pinsir",
+   "built": "Pinsir δ",
+   "bulbapedia": "Pinsir δ",
+   "after": "Pinsir δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-043",
+   "ja": "チコリータδ-デルタ種",
+   "before": "Chikorita δ",
+   "built": "Chikorita δ",
+   "bulbapedia": "Chikorita δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG9-044",
+   "ja": "ベイリーフδ-デルタ種",
+   "before": "Bayleef",
+   "built": "Bayleef δ",
+   "bulbapedia": "Bayleef δ",
+   "after": "Bayleef δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-045",
+   "ja": "メガニウムδ-デルタ種",
+   "before": "Meganium δ",
+   "built": "Meganium δ",
+   "bulbapedia": "Meganium δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG9-046",
+   "ja": "キングドラexδ-デルタ種",
+   "before": "Kingdra",
+   "built": "Kingdra ex δ",
+   "bulbapedia": "Kingdra ex δ",
+   "after": "Kingdra ex δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-047",
+   "ja": "パウワウδ-デルタ種",
+   "before": "Seel",
+   "built": "Seel δ",
+   "bulbapedia": "Seel δ",
+   "after": "Seel δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-048",
+   "ja": "ジュゴンδ-デルタ種",
+   "before": "Dewgong",
+   "built": "Dewgong δ",
+   "bulbapedia": "Dewgong δ",
+   "after": "Dewgong δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-049",
+   "ja": "メリープδ-デルタ種",
+   "before": "Mareep",
+   "built": "Mareep δ",
+   "bulbapedia": "Mareep δ",
+   "after": "Mareep δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-050",
+   "ja": "モココδ-デルタ種",
+   "before": "Flaaffy",
+   "built": "Flaaffy δ",
+   "bulbapedia": "Flaaffy δ",
+   "after": "Flaaffy δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-051",
+   "ja": "デンリュウδ-デルタ種",
+   "before": "Ampharos",
+   "built": "Ampharos δ",
+   "bulbapedia": "Ampharos δ",
+   "after": "Ampharos δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-052",
+   "ja": "リザードン☆δ-デルタ種",
+   "before": "Charizard",
+   "built": "Charizard ☆ δ",
+   "bulbapedia": "Charizard ☆ δ",
+   "after": "Charizard ☆ δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-053",
+   "ja": "ニドラン♂δ-デルタ種",
+   "before": "Nidoran♂",
+   "built": "Nidoran♂ δ",
+   "bulbapedia": "Nidoran♂ δ",
+   "after": "Nidoran♂ δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-054",
+   "ja": "ニドリーノδ-デルタ種",
+   "before": "Nidorino δ",
+   "built": "Nidorino δ",
+   "bulbapedia": "Nidorino δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG9-055",
+   "ja": "ニドキングδ-デルタ種",
+   "before": "Nidoking",
+   "built": "Nidoking δ",
+   "bulbapedia": "Nidoking δ",
+   "after": "Nidoking δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-056",
+   "ja": "ネイティδ-デルタ種",
+   "before": "Natu",
+   "built": "Natu δ",
+   "bulbapedia": "Natu δ",
+   "after": "Natu δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-057",
+   "ja": "ネイティオδ-デルタ種",
+   "before": "Xatu",
+   "built": "Xatu δ",
+   "bulbapedia": "Xatu δ",
+   "after": "Xatu δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-058",
+   "ja": "ニドラン♀δ-デルタ種",
+   "before": "Nidoran♀",
+   "built": "Nidoran♀ δ",
+   "bulbapedia": "Nidoran♀ δ",
+   "after": "Nidoran♀ δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-059",
+   "ja": "ニドリーナδ-デルタ種",
+   "before": "Nidorina δ",
+   "built": "Nidorina δ",
+   "bulbapedia": "Nidorina δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG9-060",
+   "ja": "ニドクインδ-デルタ種",
+   "before": "Nidoqueen",
+   "built": "Nidoqueen δ",
+   "bulbapedia": "Nidoqueen δ",
+   "after": "Nidoqueen δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-061",
+   "ja": "レディバδ-デルタ種",
+   "before": "Ledyba δ",
+   "built": "Ledyba δ",
+   "bulbapedia": "Ledyba δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG9-062",
+   "ja": "レディアンδ-デルタ種",
+   "before": "Ledian",
+   "built": "Ledian δ",
+   "bulbapedia": "Ledian δ",
+   "after": "Ledian δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG9-063",
+   "ja": "トロピウスδ-デルタ種",
+   "before": "Tropius δ",
+   "built": "Tropius δ",
+   "bulbapedia": "Tropius δ",
+   "after": "",
+   "status": "すでに同じ"
+  }
+ ]
+}
