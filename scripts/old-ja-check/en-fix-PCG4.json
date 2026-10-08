@@ -1,0 +1,123 @@
+{
+ "set": "PCG4",
+ "fixed": 12,
+ "rows": [
+  {
+   "id": "PCG4-019",
+   "ja": "エンテイ☆",
+   "before": "Entei",
+   "built": "Entei ☆",
+   "bulbapedia": "Entei ☆",
+   "after": "Entei ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-020",
+   "ja": "ホウオウex",
+   "before": "Ho-Oh",
+   "built": "Ho-Oh ex",
+   "bulbapedia": "Ho-Oh ex",
+   "after": "Ho-Oh ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-027",
+   "ja": "ニョロトノex",
+   "before": "Politoed",
+   "built": "Politoed ex",
+   "bulbapedia": "Politoed ex",
+   "after": "Politoed ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-032",
+   "ja": "スイクン☆",
+   "before": "Suicune",
+   "built": "Suicune ☆",
+   "bulbapedia": "Suicune ☆",
+   "after": "Suicune ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-039",
+   "ja": "ライコウ☆",
+   "before": "Raikou",
+   "built": "Raikou ☆",
+   "bulbapedia": "Raikou ☆",
+   "after": "Raikou ☆",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-041",
+   "ja": "エーフィex",
+   "before": "Espeon",
+   "built": "Espeon ex",
+   "bulbapedia": "Espeon ex",
+   "after": "Espeon ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-085",
+   "ja": "ポリゴン2",
+   "before": "Porygon2",
+   "built": "Porygon2",
+   "bulbapedia": "Porygon2",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG4-089",
+   "ja": "ハピナスex",
+   "before": "Blissey",
+   "built": "Blissey ex",
+   "bulbapedia": "Blissey ex",
+   "after": "Blissey ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-090",
+   "ja": "ルギアex",
+   "before": "Lugia",
+   "built": "Lugia ex",
+   "bulbapedia": "Lugia ex",
+   "after": "Lugia ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-091",
+   "ja": "ブラッキーex",
+   "before": "Umbreon",
+   "built": "Umbreon ex",
+   "bulbapedia": "Umbreon ex",
+   "after": "Umbreon ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-093",
+   "ja": "バンギラスex",
+   "before": "Tyranitar",
+   "built": "Tyranitar ex",
+   "bulbapedia": "Tyranitar ex",
+   "after": "Tyranitar ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-095",
+   "ja": "ハガネールex",
+   "before": "Steelix",
+   "built": "Steelix ex",
+   "bulbapedia": "Steelix ex",
+   "after": "Steelix ex",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-096",
+   "ja": "ハッサムex",
+   "before": "Scizor",
+   "built": "Scizor ex",
+   "bulbapedia": "Scizor ex",
+   "after": "Scizor ex",
+   "status": "直す"
+  }
+ ]
+}
