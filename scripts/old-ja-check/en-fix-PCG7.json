@@ -1,0 +1,429 @@
+{
+ "set": "PCG7",
+ "fixed": 36,
+ "rows": [
+  {
+   "id": "PCG7-001",
+   "ja": "ナックラーδ-デルタ種",
+   "before": "Trapinch",
+   "built": "Trapinch δ",
+   "bulbapedia": "Trapinch δ",
+   "after": "Trapinch δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-002",
+   "ja": "ビブラーバδ-デルタ種",
+   "before": "Vibrava",
+   "built": "Vibrava δ",
+   "bulbapedia": "Vibrava δ",
+   "after": "Vibrava δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-003",
+   "ja": "フライゴンδ-デルタ種",
+   "before": "Flygon δ",
+   "built": "Flygon δ",
+   "bulbapedia": "Flygon δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-004",
+   "ja": "マンキーδ-デルタ種",
+   "before": "Mankey δ",
+   "built": "Mankey δ",
+   "bulbapedia": "Mankey δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-005",
+   "ja": "オコリザルδ-デルタ種",
+   "before": "Primeape",
+   "built": "Primeape δ",
+   "bulbapedia": "Primeape δ",
+   "after": "Primeape δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-006",
+   "ja": "タッツーδ-デルタ種",
+   "before": "Horsea",
+   "built": "Horsea δ",
+   "bulbapedia": "Horsea δ",
+   "after": "Horsea δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-007",
+   "ja": "シードラδ-デルタ種",
+   "before": "Seadra δ",
+   "built": "Seadra δ",
+   "bulbapedia": "Seadra δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-008",
+   "ja": "ギャラドス☆δ-デルタ種",
+   "before": "Gyarados ☆ δ",
+   "built": "Gyarados ☆ δ",
+   "bulbapedia": "Gyarados ☆ δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-009",
+   "ja": "プテラδ-デルタ種",
+   "before": "Aerodactyl",
+   "built": "Aerodactyl δ",
+   "bulbapedia": "Aerodactyl δ",
+   "after": "Aerodactyl δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-010",
+   "ja": "ラティアスδ-デルタ種",
+   "before": "Latias δ",
+   "built": "Latias δ",
+   "bulbapedia": "Latias δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-011",
+   "ja": "キングドラδ-デルタ種",
+   "before": "Kingdra δ",
+   "built": "Kingdra δ",
+   "bulbapedia": "Kingdra δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-012",
+   "ja": "ナゾノクサδ-デルタ種",
+   "before": "Oddish",
+   "built": "Oddish δ",
+   "bulbapedia": "Oddish δ",
+   "after": "Oddish δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-013",
+   "ja": "キレイハナδ-デルタ種",
+   "before": "Bellossom",
+   "built": "Bellossom δ",
+   "bulbapedia": "Bellossom δ",
+   "after": "Bellossom δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-014",
+   "ja": "ラティオスδ-デルタ種",
+   "before": "Latios δ",
+   "built": "Latios δ",
+   "bulbapedia": "Latios δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-015",
+   "ja": "レックウザδ-デルタ種",
+   "before": "Rayquaza",
+   "built": "Rayquaza δ",
+   "bulbapedia": "Rayquaza δ",
+   "after": "Rayquaza δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-016",
+   "ja": "ポッポδ-デルタ種",
+   "before": "Pidgey",
+   "built": "Pidgey δ",
+   "bulbapedia": "Pidgey δ",
+   "after": "Pidgey δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-017",
+   "ja": "ピジョンδ-デルタ種",
+   "before": "Pidgeotto",
+   "built": "Pidgeotto δ",
+   "bulbapedia": "Pidgeotto δ",
+   "after": "Pidgeotto δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-018",
+   "ja": "コダックδ-デルタ種",
+   "before": "Psyduck",
+   "built": "Psyduck δ",
+   "bulbapedia": "Psyduck δ",
+   "after": "Psyduck δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-019",
+   "ja": "ゴルダックδ-デルタ種",
+   "before": "Golduck δ",
+   "built": "Golduck δ",
+   "bulbapedia": "Golduck δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-020",
+   "ja": "カブトδ-デルタ種",
+   "before": "Kabuto δ",
+   "built": "Kabuto δ",
+   "bulbapedia": "Kabuto δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-021",
+   "ja": "カブトプスδ-デルタ種",
+   "before": "Kabutops",
+   "built": "Kabutops δ",
+   "bulbapedia": "Kabutops δ",
+   "after": "Kabutops δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-022",
+   "ja": "デオキシスδ-デルタ種",
+   "before": "Deoxys",
+   "built": "Deoxys δ",
+   "bulbapedia": "Deoxys δ",
+   "after": "Deoxys δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-023",
+   "ja": "ピジョットδ-デルタ種",
+   "before": "Pidgeot",
+   "built": "Pidgeot δ",
+   "bulbapedia": "Pidgeot δ",
+   "after": "Pidgeot δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-024",
+   "ja": "ギャラドスδ-デルタ種",
+   "before": "Gyarados δ",
+   "built": "Gyarados δ",
+   "bulbapedia": "Gyarados δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-025",
+   "ja": "クサイハナδ-デルタ種",
+   "before": "Gloom",
+   "built": "Gloom δ",
+   "bulbapedia": "Gloom δ",
+   "after": "Gloom δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-026",
+   "ja": "オムナイトδ-デルタ種",
+   "before": "Omanyte",
+   "built": "Omanyte δ",
+   "bulbapedia": "Omanyte δ",
+   "after": "Omanyte δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-027",
+   "ja": "オムスターδ-デルタ種",
+   "before": "Omastar",
+   "built": "Omastar δ",
+   "bulbapedia": "Omastar δ",
+   "after": "Omastar δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-028",
+   "ja": "ラフレシアδ-デルタ種",
+   "before": "Vileplume",
+   "built": "Vileplume δ",
+   "bulbapedia": "Vileplume δ",
+   "after": "Vileplume δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-029",
+   "ja": "タマタマδ-デルタ種",
+   "before": "Exeggcute",
+   "built": "Exeggcute δ",
+   "bulbapedia": "Exeggcute δ",
+   "after": "Exeggcute δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-030",
+   "ja": "ナッシーδ-デルタ種",
+   "before": "Exeggutor",
+   "built": "Exeggutor δ",
+   "bulbapedia": "Exeggutor δ",
+   "after": "Exeggutor δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-031",
+   "ja": "キバニアδ-デルタ種",
+   "before": "Carvanha",
+   "built": "Carvanha δ",
+   "bulbapedia": "Carvanha δ",
+   "after": "Carvanha δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-032",
+   "ja": "サメハダーδ-デルタ種",
+   "before": "Sharpedo",
+   "built": "Sharpedo δ",
+   "bulbapedia": "Sharpedo δ",
+   "after": "Sharpedo δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-033",
+   "ja": "アーマルドδ-デルタ種",
+   "before": "Armaldo",
+   "built": "Armaldo δ",
+   "bulbapedia": "Armaldo δ",
+   "after": "Armaldo δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-034",
+   "ja": "ホロンのポワルン",
+   "before": "Castform",
+   "built": "Holon's Castform",
+   "bulbapedia": "Holon's Castform",
+   "after": "Holon's Castform",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-035",
+   "ja": "デオキシスδ-デルタ種",
+   "before": "Deoxys",
+   "built": "Deoxys δ",
+   "bulbapedia": "Deoxys δ",
+   "after": "Deoxys δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-036",
+   "ja": "リリーラδ-デルタ種",
+   "before": "Lileep",
+   "built": "Lileep δ",
+   "bulbapedia": "Lileep δ",
+   "after": "Lileep δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-037",
+   "ja": "デオキシスδ-デルタ種",
+   "before": "Deoxys",
+   "built": "Deoxys δ",
+   "bulbapedia": "Deoxys δ",
+   "after": "Deoxys δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-038",
+   "ja": "ニャースδ-デルタ種",
+   "before": "Meowth",
+   "built": "Meowth δ",
+   "bulbapedia": "Meowth δ",
+   "after": "Meowth δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-039",
+   "ja": "ペルシアンδ-デルタ種",
+   "before": "Persian",
+   "built": "Persian δ",
+   "bulbapedia": "Persian δ",
+   "after": "Persian δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-040",
+   "ja": "ユレイドルδ-デルタ種",
+   "before": "Cradily",
+   "built": "Cradily δ",
+   "bulbapedia": "Cradily δ",
+   "after": "Cradily δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-041",
+   "ja": "ピカチュウδ-デルタ種",
+   "before": "Pikachu δ",
+   "built": "Pikachu δ",
+   "bulbapedia": "Pikachu δ",
+   "after": "",
+   "status": "すでに同じ"
+  },
+  {
+   "id": "PCG7-042",
+   "ja": "ライチュウδ-デルタ種",
+   "before": "Raichu",
+   "built": "Raichu δ",
+   "bulbapedia": "Raichu δ",
+   "after": "Raichu δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-043",
+   "ja": "コイキングδ-デルタ種",
+   "before": "Magikarp",
+   "built": "Magikarp δ",
+   "bulbapedia": "Magikarp δ",
+   "after": "Magikarp δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-044",
+   "ja": "ピチューδ-デルタ種",
+   "before": "Pichu",
+   "built": "Pichu δ",
+   "bulbapedia": "Pichu δ",
+   "after": "Pichu δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-045",
+   "ja": "アノプスδ-デルタ種",
+   "before": "Anorith",
+   "built": "Anorith δ",
+   "bulbapedia": "Anorith δ",
+   "after": "Anorith δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-046",
+   "ja": "チリーンδ-デルタ種",
+   "before": "Chimecho",
+   "built": "Chimecho δ",
+   "bulbapedia": "Chimecho δ",
+   "after": "Chimecho δ",
+   "status": "直す"
+  },
+  {
+   "id": "PCG7-047",
+   "ja": "デオキシスδ-デルタ種",
+   "before": "Deoxys",
+   "built": "Deoxys δ",
+   "bulbapedia": "Deoxys δ",
+   "after": "Deoxys δ",
+   "status": "直す"
+  }
+ ]
+}
