@@ -1,0 +1,43 @@
+{
+ "set": "PMCG6",
+ "reasons": {
+  "名前を直す（画像は正しい）": 2,
+  "名前を直し、画像を取り直す": 1
+ },
+ "plans": [
+  {
+   "id": "PMCG6-085",
+   "before": "カツラ",
+   "en": "",
+   "bulbapedia": "Cinnabar City Gym / グレンタウンジム",
+   "imageNow": "PMCG6-089 グレンタウンジム",
+   "after": "グレンタウンジム",
+   "site": "PMCG6-089",
+   "status": "名前を直す（画像は正しい）",
+   "file": "cards/PMCG/PMCG6/カツラ_PMCG6-85／98_U.png → cards/PMCG/PMCG6/グレンタウンジム_PMCG6-85／98_U.png"
+  },
+  {
+   "id": "PMCG6-087",
+   "before": "カツラのギャンブル",
+   "en": "",
+   "bulbapedia": "Sabrina's ESP / ナツメのESP",
+   "imageNow": "PMCG6-075 ナツメのESP",
+   "after": "ナツメのESP",
+   "site": "PMCG6-075",
+   "status": "名前を直す（画像は正しい）",
+   "file": "cards/PMCG/PMCG6/カツラのギャンブル_PMCG6-87／98_U.png → cards/PMCG/PMCG6/ナツメのESP_PMCG6-87／98_U.png"
+  },
+  {
+   "id": "PMCG6-093",
+   "before": "ブレイン",
+   "en": "",
+   "bulbapedia": "Blaine / カツラ",
+   "imageNow": null,
+   "after": "カツラ",
+   "site": "PMCG6-085",
+   "status": "名前を直し、画像を取り直す",
+   "sha": "b336165881f206729b2bb484595f53f536d8cfd4cd748f2f11dbf77d6c4b9156",
+   "file": "（なし） → cards/PMCG/PMCG6/カツラ_PMCG6-93／98_R.png"
+  }
+ ]
+}
