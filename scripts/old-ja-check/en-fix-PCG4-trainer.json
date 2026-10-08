@@ -1,0 +1,71 @@
+{
+ "set": "PCG4",
+ "kind": "trainer",
+ "fixed": 8,
+ "rows": [
+  {
+   "id": "PCG4-097",
+   "ja": "ウツギはかせの育てかた",
+   "bulbapedia": "Professor Elm's Training Method",
+   "bulbapediaJa": "ウツギはかせの育てかた",
+   "after": "Professor Elm's Training Method",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-098",
+   "ja": "クルミのリクエスト",
+   "bulbapedia": "Mary's Request",
+   "bulbapediaJa": "クルミのリクエスト",
+   "after": "Mary's Request",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-099",
+   "ja": "いかりの結晶",
+   "bulbapedia": "Solid Rage",
+   "bulbapediaJa": "いかりの結晶",
+   "after": "Solid Rage",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-100",
+   "ja": "オボンのみ",
+   "bulbapedia": "Sitrus Berry",
+   "bulbapediaJa": "オボンのみ",
+   "after": "Sitrus Berry",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-101",
+   "ja": "ちからのねっこ",
+   "bulbapedia": "Energy Root",
+   "bulbapediaJa": "ちからのねっこ",
+   "after": "Energy Root",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-102",
+   "ja": "のろいのこな",
+   "bulbapedia": "Curse Powder",
+   "bulbapediaJa": "のろいのこな",
+   "after": "Curse Powder",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-103",
+   "ja": "ふわふわのみ",
+   "bulbapedia": "Fluffy Berry",
+   "bulbapediaJa": "ふわふわのみ",
+   "after": "Fluffy Berry",
+   "status": "直す"
+  },
+  {
+   "id": "PCG4-104",
+   "ja": "まもりのたま",
+   "bulbapedia": "Protective Orb",
+   "bulbapediaJa": "まもりのたま",
+   "after": "Protective Orb",
+   "status": "直す"
+  }
+ ]
+}
