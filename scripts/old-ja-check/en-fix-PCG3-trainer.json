@@ -1,0 +1,103 @@
+{
+ "set": "PCG3",
+ "kind": "trainer",
+ "fixed": 12,
+ "rows": [
+  {
+   "id": "PCG3-073",
+   "ja": "逆転! マジックハンド",
+   "bulbapedia": "Pow! Hand Extension",
+   "bulbapediaJa": "逆転! マジックハンド",
+   "after": "Pow! Hand Extension",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-074",
+   "ja": "そっくり! テレポーター",
+   "bulbapedia": "Swoop! Teleporter",
+   "bulbapediaJa": "そっくり! テレポーター",
+   "after": "Swoop! Teleporter",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-075",
+   "ja": "どっきり! タイムマシーン",
+   "bulbapedia": "Surprise! Time Machine",
+   "bulbapediaJa": "どっきり! タイムマシーン",
+   "after": "Surprise! Time Machine",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-076",
+   "ja": "びっくりボム!",
+   "bulbapedia": "Venture Bomb",
+   "bulbapediaJa": "びっくりボム!",
+   "after": "Venture Bomb",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-077",
+   "ja": "ポケモン回収装置",
+   "bulbapedia": "Pokémon Retriever",
+   "bulbapediaJa": "ポケモン回収装置",
+   "after": "Pokémon Retriever",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-078",
+   "ja": "モノマネむすめ",
+   "bulbapedia": "Copycat",
+   "bulbapediaJa": "モノマネむすめ",
+   "after": "Copycat",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-079",
+   "ja": "ロケット団の幹部",
+   "bulbapedia": "Rocket's Admin.",
+   "bulbapediaJa": "ロケット団の幹部",
+   "after": "Rocket's Admin.",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-080",
+   "ja": "ロケット団のミッション",
+   "bulbapedia": "Rocket's Mission",
+   "bulbapediaJa": "ロケット団のミッション",
+   "after": "Rocket's Mission",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-081",
+   "ja": "ロケット団のアジト",
+   "bulbapedia": "Rocket's Hideout",
+   "bulbapediaJa": "ロケット団のアジト",
+   "after": "Rocket's Hideout",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-082",
+   "ja": "ロケット団のトリックジム",
+   "bulbapedia": "Rocket's Tricky Gym",
+   "bulbapediaJa": "ロケット団のトリックジム",
+   "after": "Rocket's Tricky Gym",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-083",
+   "ja": "R-エネルギー",
+   "bulbapedia": "R Energy",
+   "bulbapediaJa": "R-エネルギー",
+   "after": "R Energy",
+   "status": "直す"
+  },
+  {
+   "id": "PCG3-085",
+   "ja": "ロケット団参上!",
+   "bulbapedia": "Here Comes Team Rocket!",
+   "bulbapediaJa": "ロケット団参上!",
+   "after": "Here Comes Team Rocket!",
+   "status": "直す"
+  }
+ ]
+}
