@@ -1,0 +1,103 @@
+{
+ "set": "E1",
+ "kind": "trainer",
+ "fixed": 12,
+ "rows": [
+  {
+   "id": "E1-049",
+   "ja": "ウツギはかせの育てかた",
+   "bulbapedia": "Professor Elm's Training Method",
+   "bulbapediaJa": "ウツギはかせの育てかた",
+   "after": "Professor Elm's Training Method",
+   "status": "直す"
+  },
+  {
+   "id": "E1-050",
+   "ja": "エネルギー再生",
+   "bulbapedia": "Energy Restore",
+   "bulbapediaJa": "エネルギー再生",
+   "after": "Energy Restore",
+   "status": "直す"
+  },
+  {
+   "id": "E1-051",
+   "ja": "エネルギーチャージ",
+   "bulbapedia": "Energy Charge",
+   "bulbapediaJa": "エネルギーチャージ",
+   "after": "Energy Charge",
+   "status": "直す"
+  },
+  {
+   "id": "E1-052",
+   "ja": "エネルギーリムーブ",
+   "bulbapedia": "Energy Removal 2",
+   "bulbapediaJa": "エネルギーリムーブ",
+   "after": "Energy Removal 2",
+   "status": "直す"
+  },
+  {
+   "id": "E1-053",
+   "ja": "オーキドはかせの研究",
+   "bulbapedia": "Professor Oak's Research",
+   "bulbapediaJa": "オーキドはかせの研究",
+   "after": "Professor Oak's Research",
+   "status": "直す"
+  },
+  {
+   "id": "E1-054",
+   "ja": "クルミのきまぐれ",
+   "bulbapedia": "Mary's Impulse",
+   "bulbapediaJa": "クルミのきまぐれ",
+   "after": "Mary's Impulse",
+   "status": "直す"
+  },
+  {
+   "id": "E1-055",
+   "ja": "スーパーポケモン回収",
+   "bulbapedia": "Super Scoop Up",
+   "bulbapediaJa": "スーパーポケモン回収",
+   "after": "Super Scoop Up",
+   "status": "直す"
+  },
+  {
+   "id": "E1-056",
+   "ja": "ちからのかけら",
+   "bulbapedia": "Strength Charm",
+   "bulbapediaJa": "ちからのかけら",
+   "after": "Strength Charm",
+   "status": "直す"
+  },
+  {
+   "id": "E1-059",
+   "ja": "ポケモンリバース",
+   "bulbapedia": "Pokémon Reversal",
+   "bulbapediaJa": "ポケモンリバース",
+   "after": "Pokémon Reversal",
+   "status": "直す"
+  },
+  {
+   "id": "E1-060",
+   "ja": "マサキのメンテナンス",
+   "bulbapedia": "Bill's Maintenance",
+   "bulbapediaJa": "マサキのメンテナンス",
+   "after": "Bill's Maintenance",
+   "status": "直す"
+  },
+  {
+   "id": "E1-062",
+   "ja": "マルチワザマシン01",
+   "bulbapedia": "Multi Technical Machine 01",
+   "bulbapediaJa": "マルチワザマシン０１",
+   "after": "Multi Technical Machine 01",
+   "status": "直す"
+  },
+  {
+   "id": "E1-063",
+   "ja": "モノマネむすめ",
+   "bulbapedia": "Copycat",
+   "bulbapediaJa": "モノマネむすめ",
+   "after": "Copycat",
+   "status": "直す"
+  }
+ ]
+}
