@@ -1,0 +1,20 @@
+{
+ "set": "PMCG3",
+ "reasons": {
+  "画像を取り直す": 1
+ },
+ "plans": [
+  {
+   "id": "PMCG3-048",
+   "before": "フジろうじん",
+   "en": "",
+   "bulbapedia": "Mr. Fuji / フジろうじん",
+   "imageNow": "PMCG3-048 リサイクル",
+   "after": "フジろうじん",
+   "site": "PMCG3-047",
+   "status": "画像を取り直す",
+   "sha": "9b101e306cbe0a5b6f07a6a756ca9642f5274acb481407a28014ab20ec2198fe",
+   "file": "cards/PMCG/PMCG3/フジろうじん_PMCG3-48／48_U.png"
+  }
+ ]
+}
