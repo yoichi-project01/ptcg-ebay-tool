@@ -1,0 +1,14 @@
+{
+ "date": "2026-10-08",
+ "drive": "C:",
+ "card": "SM10b-030 エムリット",
+ "file": "public/cards/SM/SM10b/エムリット_SM10b-30／62_C.jpg",
+ "found_by": "node scripts/image-hashes.mjs --verify（日本語名の修正の途中。このファイルは作業で触れていない）",
+ "list_sha256": "509349ba853bf1f9…",
+ "file_sha256_before": "b4ff91eac43dc80e…",
+ "bytes": 243721,
+ "diff": "1バイト（オフセット 146932、0x5E → 0xDE。1ビットの反転）",
+ "mtime": "2026-08-29 01:10（変わっていない）",
+ "fix": "公式の画像 /assets/images/card_images/large/SM10b/036685_P_EMURITTO.jpg を取り直して置き換え。SHA-256 が一覧と一致",
+ "note": "C: に移した後で初めての化け（D: で PMCG1-006・E4-087・SM11-034 の3件）。ドライブが違うので、メモリ等の別の原因も疑われる"
+}
