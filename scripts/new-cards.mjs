@@ -236,7 +236,9 @@ async function main() {
   }
   if (newKey) {
     const meta = readJson(META, {})[newKey];
-    const mine = rows.filter((r) => r.status === "新しい弾" && (r.badge === newKey || r.key === newKey));
+    // cardIds: 同じ印刷記号で番号を共有する複数の商品（例 SCS のリザードン/オーロンゲ）を分けるとき、公式の収録カードの一覧（商品の pg）の cardID だけを使う
+    const metaIds = readJson(META, {})[newKey]?.cardIds;
+    const mine = rows.filter((r) => r.status === "新しい弾" && (metaIds ? metaIds.includes(r.cardId) : r.badge === newKey || r.key === newKey));
     if (!mine.length) throw new Error(`新しい弾の候補がありません: ${newKey}`);
     if (!meta) {
       const tpl = { c: newKey, ja: "", en: "", psaName: "", sr: "", y: 0, codeAlias: mine[0].badge, of: parseInt(mine[0].of, 10) };
