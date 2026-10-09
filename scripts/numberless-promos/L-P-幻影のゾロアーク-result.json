@@ -1,0 +1,66 @@
+{
+ "at": "2026-10-09T01:48:42.145Z",
+ "set": "L-P",
+ "results": [
+  {
+   "cardId": "26200",
+   "id": "L-P-X26200",
+   "ja": "幻影のゾロアーク（デザインコンテスト 入賞者プレゼント）",
+   "name": "幻影のゾロアーク",
+   "badge": "LP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/LP/026200_P_GENEINOZOROAKU.jpg",
+   "file": "cards/L/L-P/幻影のゾロアーク（デザインコンテスト 入賞者プレゼント）_L-P-X26200.jpg",
+   "bytes": 27877,
+   "status": "追加"
+  },
+  {
+   "cardId": "26204",
+   "id": "L-P-X26204",
+   "ja": "幻影のゾロアーク（デザインコンテスト 最優秀賞 小学三年生）",
+   "name": "幻影のゾロアーク",
+   "badge": "LP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/LP/026204_P_GENEINOZOROAKU.jpg",
+   "file": "cards/L/L-P/幻影のゾロアーク（デザインコンテスト 最優秀賞 小学三年生）_L-P-X26204.jpg",
+   "bytes": 32628,
+   "status": "追加"
+  },
+  {
+   "cardId": "26205",
+   "id": "L-P-X26205",
+   "ja": "幻影のゾロアーク（デザインコンテスト 最優秀賞 小学四年生）",
+   "name": "幻影のゾロアーク",
+   "badge": "LP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/LP/026205_P_GENEINOZOROAKU.jpg",
+   "file": "cards/L/L-P/幻影のゾロアーク（デザインコンテスト 最優秀賞 小学四年生）_L-P-X26205.jpg",
+   "bytes": 35091,
+   "status": "追加"
+  },
+  {
+   "cardId": "26207",
+   "id": "L-P-X26207",
+   "ja": "幻影のゾロアーク（デザインコンテスト 最優秀賞 コロコロ）",
+   "name": "幻影のゾロアーク",
+   "badge": "LP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/LP/026207_P_GENEINOZOROAKU.jpg",
+   "file": "cards/L/L-P/幻影のゾロアーク（デザインコンテスト 最優秀賞 コロコロ）_L-P-X26207.jpg",
+   "bytes": 39533,
+   "status": "追加"
+  },
+  {
+   "cardId": "26210",
+   "id": "L-P-X26210",
+   "ja": "幻影のゾロアーク（デザインコンテスト 最優秀賞 コロコロイチバン）",
+   "name": "幻影のゾロアーク",
+   "badge": "LP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/LP/026210_P_GENEINOZOROAKU.jpg",
+   "file": "cards/L/L-P/幻影のゾロアーク（デザインコンテスト 最優秀賞 コロコロイチバン）_L-P-X26210.jpg",
+   "bytes": 36478,
+   "status": "追加"
+  }
+ ]
+}
