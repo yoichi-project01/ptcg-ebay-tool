@@ -2793,6 +2793,26 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   ほかに旧キャッシュ（2026-07-04）にあって一度も取り込んでいない S 世代のデッキ等（SO・SP1〜4・SGI・SGG・SF・SC2・SEF・SEK・SCS・SB・SC 等）がある（未着手）。
 - **ビット化け（4件目）**: S9-100 ダブルターボエネルギーの画像が1ビット反転していた（0x80 のビット、更新日時は 07-05 のまま）。公式の画像（cardID 41002）が一覧と一致したので戻した（`image-decode-report/fixed-2026-10-09c.json`）。
 
+### 対応（2026-10-09〜10）: 番号の無い4枚・M6a・新しい弾の英語名・S 世代のデッキ等13弾
+
+- **番号の無いプロモ4枚**（`add-numberless-promos.mjs`、計画 `numberless-promos/XY-P-エンペルトBREAK.json`・`XY-P-クロバットBREAK.json`・`SM-P-ミュウ.json`）:
+  XY-P-X31570 エンペルトBREAK（バトルフェスタ2015 プレイポイント）・X32008 クロバットBREAK（ポケモンカードジム クロバットBREAKバトル）・X32141 クロバットBREAK（カメックスメガバトル）・
+  SM-P-X36903 ミュウ（映画 ミュウツーの逆襲 EVOLUTION パンフレット）。英語名は Empoleon BREAK・Crobat BREAK（Bulbapedia の番号の無い一覧と規則の名前が一致、`numberless-promos/en-2026-10-10.json`）。
+  ミュウは Bulbapedia では Ancient Mew で規則の名前と食い違い、公式ページにイラストレーターが無く確かめられないため空欄。
+- **M6a 30th CELEBRATION**: 公式に載っている133枚を追加（`--apply --new M6a`）。未掲載の 104〜135 は `set-meta.json` の `pendingGaps` に記録し、
+  `new-cards.mjs --apply --new` はこの番号の欠けだけを許す。**載ったら `node scripts/new-cards.mjs --rescan` → `--apply --set M6a` で足す**（印刷記号 M6a・総数103 で既存の弾に入る）。
+  多くのカードに公式のレアリティのアイコンが無く、レアリティは RR の10枚以外は空欄。
+- **新しい弾のカードの英語名 266件**（M6 63・M6a 111・MF 39・MEE 19・MEZ 18・MEM 16）: Bulbapedia の日本版の一覧（`en-name-fix3/bulbapedia/M-2026.txt`、
+  Storm Emeralda・30th Celebration・30th Celebration Premium Deck Set Espeon & Umbreon・Ex Starter Sets 2026。SHA-256 照合済み。M6a の 017〜046 のピカチュウ30枚は
+  番号の後ろに注記がある書き方なので別に取り出した）と、これまでと同じ確かめ方（`fill-common-en.mjs`・`fill-high-rarity-en.mjs`。イラストレーターは公式 details.php）。
+  空欄の主な理由: M6 のトレーナーズ・高レアは英語版（Delta Reign、2026-11 発売）がまだ TCGdex に無い、新しい絵柄の高レアは英語版の同じカードとイラストレーターが違う、
+  M6a 136〜157 と特殊な行は Bulbapedia の書き方が違い取り出していない。弾の en・psaName は PSA の表記を確かめられず空欄（PSA のページは検索結果に出ず、鑑定書のページは Cloudflare で止まる）。
+- **S 世代のデッキ等13弾 232枚**（`new-cards.mjs --keys … --apply --new <弾>`。`--keys` は最初の一覧にあって一度も取り込んでいない古いキーを候補にする）:
+  SO 30・SP1 7・SP2 4・SP3 6・SP4 4・SGI 23・SGG 20・SF 33・SC 20（BW 世代のシャイニーコレクション 2013）・SC2 21・SEF 21・SEK 20・SB 24。
+  弾の情報は公式の商品一覧（`/products/resultAPI.php`、収録カードの一覧の pg の画像フォルダで記号を確かめたもの: SGG・SGI・SEF・SEK・SP4）と Limitless の発売日の一致（`set-meta.json` の source）。
+  **SCS は追加していない**: 同じ印刷記号 SCS で「スターターセットVMAX リザードン」（/021、pg708）と「オーロンゲ」（/020、pg709）の2商品が番号を共有する。
+  公式の pg で見分けられるので、型番（例「SCS-…」）を決めれば分けて足せる（未決定）。card_id は `scripts/new-cards/{弾}-added-card-ids-*.txt`。
+
 ---
 
 ## ファイル構成
