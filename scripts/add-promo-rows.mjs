@@ -28,14 +28,16 @@ const { k, byLocal } = validatePromo(target, cardIds, progress);
 
 const key = (n) => String(parseInt(n, 10));
 const newByKey = new Map(k.map((r) => [key(r[0]), r]));
-const diff = set.k.filter((r) => { const n = newByKey.get(key(r[0])); return !n || n[0] !== r[0] || n[1] !== r[1] || (n[3] ?? "") !== (r[3] ?? ""); });
+// 番号の無いプロモ（型番 X＋cardID、add-numberless-promos.mjs で追加）は番号付きの一覧に無いので照合しない
+const isX = (r) => /^X\d+$/.test(r[0]);
+const diff = set.k.filter((r) => !isX(r)).filter((r) => { const n = newByKey.get(key(r[0])); return !n || n[0] !== r[0] || n[1] !== r[1] || (n[3] ?? "") !== (r[3] ?? ""); });
 if (diff.length) throw new Error(`[${code}] 既存の行が details.php の結果と違います（足さずに止めます）: ${diff.map((r) => r.join("/")).join(", ")}`);
 const oldKeys = new Set(set.k.map((r) => key(r[0])));
 const added = k.filter((r) => !oldKeys.has(key(r[0])));
 console.log(`[${code}] 既存 ${set.k.length}行はすべて一致。足す行 ${added.length}: ${added.map((r) => `${r[0]} ${r[1]}`).join("、")}`);
 
 const total = computeSetTotal(k);
-if (total !== computeSetTotal(set.k)) throw new Error(`[${code}] 最大番号が変わるため既存の画像のファイル名と合わなくなります（${computeSetTotal(set.k)}→${total}）`);
+if (total !== computeSetTotal(set.k.filter((r) => !isX(r)))) throw new Error(`[${code}] 最大番号が変わるため既存の画像のファイル名と合わなくなります（${computeSetTotal(set.k)}→${total}）`);
 for (const r of added) {
   const d = byLocal.get(parseInt(r[0], 10));
   const base = path.join(ROOT, "public", "cards", target.sr, code, buildFileName(r[1], code, r[0], r[3], total));
@@ -45,7 +47,7 @@ for (const r of added) {
   await writeFileAtomic(base + imageExt(buf), buf);
   await politeDelay();
 }
-set.k = [...set.k, ...added].sort((a, b) => parseInt(a[0], 10) - parseInt(b[0], 10));
+set.k = [...[...set.k.filter((r) => !isX(r)), ...added].sort((a, b) => parseInt(a[0], 10) - parseInt(b[0], 10)), ...set.k.filter(isX)];
 await fs.writeFile(DATA, JSON.stringify(cardData, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
 const stamp = new Date().toISOString().slice(0, 10);
 await fs.writeFile(path.join(__dirname, "promo-progress", `${code}-added-card-ids-${stamp}.txt`), added.map((r) => `${code}-${r[0]}`).join("\n") + "\n");
