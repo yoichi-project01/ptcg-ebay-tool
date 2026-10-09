@@ -1,0 +1,18 @@
+{
+ "set": "neo4",
+ "fixed": 1,
+ "reasons": {},
+ "rows": [
+  {
+   "id": "neo4-024",
+   "ja": "わるいヘルガー",
+   "before": "Houndoom",
+   "built": "Dark Houndoom",
+   "bulbapedia": "Dark Houndoom",
+   "source": "Bulbapedia「Neo Destiny (TCG)」の日本版の一覧（番号なし・113件）の24番目（前後は Dark Magcargo・Shining Charizard。cardData の neo4 は Bulbapedia と同じ並び）",
+   "tcgdexIds": "",
+   "after": "Dark Houndoom",
+   "status": "直す"
+  }
+ ]
+}
