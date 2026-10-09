@@ -1,0 +1,90 @@
+{
+ "at": "2026-10-09T01:40:01.568Z",
+ "set": "DP-P",
+ "results": [
+  {
+   "cardId": "7015",
+   "id": "DP-P-X7015",
+   "ja": "ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（北海道大会））",
+   "name": "ポケモンパルシティ",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007015_T_POKEMONPARUSHITEI.jpg",
+   "file": "cards/DP/DP-P/ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（北海道大会））_DP-P-X7015.jpg",
+   "bytes": 43849,
+   "status": "追加"
+  },
+  {
+   "cardId": "7016",
+   "id": "DP-P-X7016",
+   "ja": "ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（東北大会））",
+   "name": "ポケモンパルシティ",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007016_T_POKEMONPARUSHITEI.jpg",
+   "file": "cards/DP/DP-P/ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（東北大会））_DP-P-X7016.jpg",
+   "bytes": 44421,
+   "status": "追加"
+  },
+  {
+   "cardId": "7017",
+   "id": "DP-P-X7017",
+   "ja": "ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（関東大会））",
+   "name": "ポケモンパルシティ",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007017_T_POKEMONPARUSHITEI.jpg",
+   "file": "cards/DP/DP-P/ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（関東大会））_DP-P-X7017.jpg",
+   "bytes": 42477,
+   "status": "追加"
+  },
+  {
+   "cardId": "7018",
+   "id": "DP-P-X7018",
+   "ja": "ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（中部大会））",
+   "name": "ポケモンパルシティ",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007018_T_POKEMONPARUSHITEI.jpg",
+   "file": "cards/DP/DP-P/ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（中部大会））_DP-P-X7018.jpg",
+   "bytes": 45471,
+   "status": "追加"
+  },
+  {
+   "cardId": "7019",
+   "id": "DP-P-X7019",
+   "ja": "ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（関西大会））",
+   "name": "ポケモンパルシティ",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007019_T_POKEMONPARUSHITEI.jpg",
+   "file": "cards/DP/DP-P/ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（関西大会））_DP-P-X7019.jpg",
+   "bytes": 44278,
+   "status": "追加"
+  },
+  {
+   "cardId": "7020",
+   "id": "DP-P-X7020",
+   "ja": "ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（中国四国大会））",
+   "name": "ポケモンパルシティ",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007020_T_POKEMONPARUSHITEI.jpg",
+   "file": "cards/DP/DP-P/ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（中国四国大会））_DP-P-X7020.jpg",
+   "bytes": 44512,
+   "status": "追加"
+  },
+  {
+   "cardId": "7021",
+   "id": "DP-P-X7021",
+   "ja": "ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（九州大会））",
+   "name": "ポケモンパルシティ",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007021_T_POKEMONPARUSHITEI.jpg",
+   "file": "cards/DP/DP-P/ポケモンパルシティ（バトルロード サマー★2007 公式トーナメント予選参加賞（九州大会））_DP-P-X7021.jpg",
+   "bytes": 44607,
+   "status": "追加"
+  }
+ ]
+}
