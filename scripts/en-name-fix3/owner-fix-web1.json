@@ -1,0 +1,19 @@
+{
+ "set": "web1",
+ "fixed": 1,
+ "reasons": {},
+ "rows": [
+  {
+   "id": "web1-025",
+   "ja": "なみのりピカチュウ",
+   "before": "Pikachu",
+   "built": null,
+   "bulbapedia": "Surfing Pikachu",
+   "source": "Bulbapedia「Pokémon Web (TCG)」の一覧の 025",
+   "tcgdexIds": "basep-28 xy12-111 pl2-114",
+   "after": "Surfing Pikachu",
+   "status": "直す",
+   "illustrator": "Toshinao Aoki（pcg-search.com/card/web/web0025.php の illus.）"
+  }
+ ]
+}
