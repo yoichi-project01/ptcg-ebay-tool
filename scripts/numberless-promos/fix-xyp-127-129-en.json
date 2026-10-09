@@ -1,0 +1,32 @@
+{
+ "note": "型番は X＋cardID のまま。カードには 127〜129/XY-P と印刷されている",
+ "rows": [
+  {
+   "id": "X31066",
+   "ja": "バシャーモEX",
+   "rule": "Blaziken-EX",
+   "bulbapedia": "Blaziken-EX",
+   "printed": "127/XY-P",
+   "line": "Setlist/nmentry|127/XY-P|[[Blaziken-EX (XY-P Promo 127)|Blaziken]]{{EX}}|Fire|||{{TCGMerch|XY|Era|Rayquaza Mega Battle Mega Pack}}",
+   "official": "メガパック「レックウザメガバトル」"
+  },
+  {
+   "id": "X31067",
+   "ja": "ケムッソ",
+   "rule": "Wurmple",
+   "bulbapedia": "Wurmple",
+   "printed": "128/XY-P",
+   "line": "Setlist/nmentry|128/XY-P|{{TCG ID|XY-P Promo|Wurmple|128}}|Grass|||Pokémon Card Gym Promotional Card Pack 5 (May-July 2015)",
+   "official": "ポケモンカードゲーム プロモーションカードパック(2015/5)"
+  },
+  {
+   "id": "X31068",
+   "ja": "ジラーチ",
+   "rule": "Jirachi",
+   "bulbapedia": "Jirachi",
+   "printed": "129/XY-P",
+   "line": "Setlist/nmentry|129/XY-P|{{TCG ID|XY-P Promo|Jirachi|129}}|Metal|||Pokémon Card Gym Promotional Card Pack 5 (May-July 2015)<br>Pokémon Card Gym Promotional Card Pack 8 (November 2016-January 2017)",
+   "official": "プロモーションカードパック（2016/11）"
+  }
+ ]
+}
