@@ -6334,5 +6334,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SEF-pokemon": {
+  "set": "SEF",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Venusaur & Blastoise VMAX Starter Sets (TCG)",
+   "section": "Venusaur & Blastoise VMAX Starter Sets",
+   "den": "den=021",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 10,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SEF-trainer": {
+  "set": "SEF",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Venusaur & Blastoise VMAX Starter Sets (TCG)",
+   "section": "Venusaur & Blastoise VMAX Starter Sets",
+   "den": "den=021",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 11,
+  "filled": 10,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
