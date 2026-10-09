@@ -6462,5 +6462,37 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "SCS-O-pokemon": {
+  "set": "SCS-O",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Charizard & Grimmsnarl VMAX Starter Sets (TCG)",
+   "section": "Charizard & Grimmsnarl VMAX Starter Sets",
+   "den": "den=020",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 8,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SCS-O-trainer": {
+  "set": "SCS-O",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Charizard & Grimmsnarl VMAX Starter Sets (TCG)",
+   "section": "Charizard & Grimmsnarl VMAX Starter Sets",
+   "den": "den=020",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 12,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
