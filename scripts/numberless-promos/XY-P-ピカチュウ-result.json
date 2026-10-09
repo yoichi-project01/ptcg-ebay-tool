@@ -1,0 +1,114 @@
+{
+ "at": "2026-10-09T02:01:11.296Z",
+ "set": "XY-P",
+ "results": [
+  {
+   "cardId": "30803",
+   "id": "XY-P-X30803",
+   "ja": "ピカチュウ（POKÉMON with YOU ワゴン）",
+   "name": "ピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/030803_P_PIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピカチュウ（POKÉMON with YOU ワゴン）_XY-P-X30803.jpg",
+   "bytes": 233863,
+   "status": "追加"
+  },
+  {
+   "cardId": "31295",
+   "id": "XY-P-X31295",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード Ginga）",
+   "name": "ピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/031295_P_PIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピカチュウ（イラストコンテスト入賞作品カード Ginga）_XY-P-X31295.jpg",
+   "bytes": 239995,
+   "status": "追加"
+  },
+  {
+   "cardId": "31296",
+   "id": "XY-P-X31296",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード gogotake）",
+   "name": "ピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/031296_P_PIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピカチュウ（イラストコンテスト入賞作品カード gogotake）_XY-P-X31296.jpg",
+   "bytes": 226279,
+   "status": "追加"
+  },
+  {
+   "cardId": "31297",
+   "id": "XY-P-X31297",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード pikamania）",
+   "name": "ピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/031297_P_PIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピカチュウ（イラストコンテスト入賞作品カード pikamania）_XY-P-X31297.jpg",
+   "bytes": 225104,
+   "status": "追加"
+  },
+  {
+   "cardId": "31298",
+   "id": "XY-P-X31298",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード Mame Akimaru）",
+   "name": "ピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/031298_P_PIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピカチュウ（イラストコンテスト入賞作品カード Mame Akimaru）_XY-P-X31298.jpg",
+   "bytes": 235813,
+   "status": "追加"
+  },
+  {
+   "cardId": "31299",
+   "id": "XY-P-X31299",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード Y. Fujishima）",
+   "name": "ピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/031299_P_PIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピカチュウ（イラストコンテスト入賞作品カード Y. Fujishima）_XY-P-X31299.jpg",
+   "bytes": 227449,
+   "status": "追加"
+  },
+  {
+   "cardId": "31300",
+   "id": "XY-P-X31300",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード Sayaka Maruyama）",
+   "name": "ピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/031300_P_PIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピカチュウ（イラストコンテスト入賞作品カード Sayaka Maruyama）_XY-P-X31300.jpg",
+   "bytes": 212681,
+   "status": "追加"
+  },
+  {
+   "cardId": "32011",
+   "id": "XY-P-X32011",
+   "ja": "ピカチュウ（ポケキュンコレクション キャンペーン）",
+   "name": "ピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/032011_P_PIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピカチュウ（ポケキュンコレクション キャンペーン）_XY-P-X32011.jpg",
+   "bytes": 246818,
+   "status": "追加"
+  },
+  {
+   "cardId": "32361",
+   "id": "XY-P-X32361",
+   "ja": "ピカチュウ（20th アニバーサリーフェスタ プレイポイント オリジナルカード）",
+   "name": "ピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/032361_P_PIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピカチュウ（20th アニバーサリーフェスタ プレイポイント オリジナルカード）_XY-P-X32361.jpg",
+   "bytes": 157354,
+   "status": "追加"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "set": "XY-P",
+ "name": "ピカチュウ",
+ "badge": "XYP",
+ "note": "番号の無いプロモ（大会賞品以外）。型番は X＋公式 details.php の cardID。見分け方は details.php の本文の最後の配布の説明（eventDetails）。printed があるカードは本文が同じで、公式の画像の印刷・絵で見分けた（2026-10-09）。",
+ "cards": [
+  {
+   "cardId": "30803",
+   "name": "ピカチュウ",
+   "eventDetails": "POKÉMON with YOU　ワゴン",
+   "ja": "ピカチュウ（POKÉMON with YOU ワゴン）"
+  },
+  {
+   "cardId": "31295",
+   "name": "ピカチュウ",
+   "eventDetails": "イラストコンテスト入賞作品カード",
+   "illustrator": "Ginga",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード Ginga）"
+  },
+  {
+   "cardId": "31296",
+   "name": "ピカチュウ",
+   "eventDetails": "イラストコンテスト入賞作品カード",
+   "illustrator": "gogotake",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード gogotake）"
+  },
+  {
+   "cardId": "31297",
+   "name": "ピカチュウ",
+   "eventDetails": "イラストコンテスト入賞作品カード",
+   "illustrator": "pikamania",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード pikamania）"
+  },
+  {
+   "cardId": "31298",
+   "name": "ピカチュウ",
+   "eventDetails": "イラストコンテスト入賞作品カード",
+   "illustrator": "Mame Akimaru",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード Mame Akimaru）"
+  },
+  {
+   "cardId": "31299",
+   "name": "ピカチュウ",
+   "eventDetails": "イラストコンテスト入賞作品カード",
+   "illustrator": "Y. Fujishima",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード Y. Fujishima）"
+  },
+  {
+   "cardId": "31300",
+   "name": "ピカチュウ",
+   "eventDetails": "イラストコンテスト入賞作品カード",
+   "illustrator": "Sayaka Maruyama",
+   "ja": "ピカチュウ（イラストコンテスト入賞作品カード Sayaka Maruyama）"
+  },
+  {
+   "cardId": "32011",
+   "name": "ピカチュウ",
+   "eventDetails": "ポケキュンコレクション キャンペーン",
+   "ja": "ピカチュウ（ポケキュンコレクション キャンペーン）"
+  },
+  {
+   "cardId": "32361",
+   "name": "ピカチュウ",
+   "eventDetails": "ポケモンカードゲーム 20th アニバーサリーフェスタ プレイポイント オリジナルカード",
+   "ja": "ピカチュウ（20th アニバーサリーフェスタ プレイポイント オリジナルカード）"
+  }
+ ]
+}
