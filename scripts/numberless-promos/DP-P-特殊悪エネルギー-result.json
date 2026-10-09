@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-09T01:33:05.618Z",
+ "set": "DP-P",
+ "results": [
+  {
+   "cardId": "7002",
+   "id": "DP-P-X7002",
+   "ja": "特殊悪エネルギー（ジム☆チャレンジ2006）",
+   "name": "特殊悪エネルギー",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007002_E_AKUENERUGI.jpg",
+   "file": "cards/DP/DP-P/特殊悪エネルギー（ジム☆チャレンジ2006）_DP-P-X7002.jpg",
+   "bytes": 33917,
+   "status": "追加"
+  },
+  {
+   "cardId": "7004",
+   "id": "DP-P-X7004",
+   "ja": "特殊悪エネルギー（第25回次世代ワールドホビーフェア チャレンジバトル参加賞）",
+   "name": "特殊悪エネルギー",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007004_E_AKUENERUGI.gif",
+   "file": "cards/DP/DP-P/特殊悪エネルギー（第25回次世代ワールドホビーフェア チャレンジバトル参加賞）_DP-P-X7004.gif",
+   "bytes": 103725,
+   "status": "追加"
+  }
+ ]
+}
