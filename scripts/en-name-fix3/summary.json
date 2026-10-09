@@ -6023,5 +6023,37 @@
   "blankReasons": {
    "Bulbapedia の一覧に無い": 1
   }
+ },
+ "SO-pokemon": {
+  "set": "SO",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Charizard VSTAR vs Rayquaza VMAX Special Deck Set (TCG)",
+   "section": "Charizard VSTAR vs Rayquaza VMAX Special Deck Set",
+   "den": "den=030",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 16,
+  "filled": 16,
+  "filledByRule": 16,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SO-trainer": {
+  "set": "SO",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Charizard VSTAR vs Rayquaza VMAX Special Deck Set (TCG)",
+   "section": "Charizard VSTAR vs Rayquaza VMAX Special Deck Set",
+   "den": "den=030",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 14,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 2,
+  "blankReasons": {
+   "Bulbapedia の一覧に無い": 2
+  }
  }
 }
