@@ -2724,7 +2724,16 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
 - 弾ごと: DP-P 38（映画10周年記念 プレミアムシート 11〔印刷記号 MPS〕・ポケモンパルシティ7〔地区大会〕等）・DPt-P 14（アルセウス7・ギザみみピチュー6〔デザインコンテストの部門〕）・
   L-P 13（ゾロア7・ゾロアーク5 等）・BW-P 7・XY-P 54・SM-P 7・SV-P 3。card_id は `numberless-promos/remaining-added-card-ids-2026-10-09.txt`（136件）、
   カード名ごとは `{弾}-{名前}-added-card-ids.txt`。各カードの画像は取得後に `build-image-index.mjs --only` → `image-hashes.mjs --verify` で照合してからコミットした。
-- **英語名は未入力**（Chrome の拡張がつながらず Bulbapedia を見られなかったため。これまでと同じ方法〔Bulbapedia＋TCGdex 英語版、大会賞品は PSA の表記〕で後から入れる）。
+- **英語名（2026-10-09 に入れた、81件・空欄55件）**: `scripts/numberless-promos/apply-remaining-en.mjs --set <弾> --apply`、弾ごとにコミット。
+  1つ目の情報源は Bulbapedia の「Unnumbered Promotional cards (TCG)」の Japanese の節・「10th Movie Commemoration Set (TCG)」・SV-P の一覧
+  （cardID ごとの行を `en-bulbapedia-2026-10.txt` に保存、SHA-256 をブラウザの値と照合済み）。2つ目はこれまでと同じ（ポケモンは規則の名前、
+  トレーナーズは TCGdex 英語版の同じ名前・種類・イラストレーター、特殊エネルギーも同じイラストレーターで一致）。TCGdex だけで確かめた案は使っていない。
+  種類は details.php のイラストレーターの欄の直後の項目で決める（化石のグッズは HP があるが「グッズ」）。根拠は `remaining-en-{弾}.tsv`、card_id は `remaining-en-{弾}-changed-card-ids.txt`。
+  入れた: DP-P 14・DPt-P 7（アルセウス）・BW-P 5・XY-P 46・SM-P 6・SV-P 3。**空欄 55**: 英語版に同じ名前のカードが無い日本だけのカード 50（映画10周年記念の11・
+  ギザみみピチューM 6・幻影のゾロア/ゾロアーク 12・ピッチのピカチュウ 2・ポケモンパルシティ 7・トロピカルウインド 3・ミステリアス・パール・ミラクル・ダイヤモンド・
+  チャンピオンズリーグ・タッチ交換！・ポケモンカードジムメダル・殿堂の書 2・みがわりロボ）、英語版の同じ名前のカードとイラストレーターが違う 3（トロピカルタイダルウェーブ・
+  トロピカルビーチ 2）、Bulbapedia の一覧に無い 3（XY-P のバシャーモEX・ケムッソ・ジラーチ）。日本だけのカードは PSA の表記が2つ目の情報源になりうるが、
+  PSA の鑑定書のページがブラウザでも Cloudflare の確認で止まり（2026-10-09）見られなかった。
 - **作業中にまた C: でビット化け**: この作業で触っていない MBD-010（なかよしポフィン）が1ビット反転していた（`--verify` で検出して止まった）。公式 details.php（cardID 48294）の画像が
   SHA-256 の一覧と一致したので取り直して戻した（`image-decode-report/fixed-2026-10-09b.json`）。PC 本体（メモリ等）の検査を引き続き勧める。
 
