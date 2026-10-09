@@ -18,7 +18,7 @@ for (const r of dec) {
   k[2] = r.after;
   lines.push([r.id, r.ja, r.before, r.after, r.note].join("\t"));
 }
-fs.writeFileSync(DATA, JSON.stringify(data, null, 1) + "\n");
+fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
 const T = path.join(__dirname, "changed.tsv");
 if (!fs.existsSync(T)) fs.writeFileSync(T, "card_id\tja\tbefore\tafter\tbasis\n");
 fs.appendFileSync(T, lines.map((l) => l + "\n").join(""));
