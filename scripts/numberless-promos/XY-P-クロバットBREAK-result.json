@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-09T14:42:11.034Z",
+ "set": "XY-P",
+ "results": [
+  {
+   "cardId": "32008",
+   "id": "XY-P-X32008",
+   "ja": "クロバットBREAK（ポケモンカードジム クロバットBREAKバトル）",
+   "name": "クロバットBREAK",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/legend/XYP/032008_P_KUROBATTOBREAK.gif",
+   "file": "cards/XY/XY-P/クロバットBREAK（ポケモンカードジム クロバットBREAKバトル）_XY-P-X32008.gif",
+   "bytes": 178376,
+   "status": "追加"
+  },
+  {
+   "cardId": "32141",
+   "id": "XY-P-X32141",
+   "ja": "クロバットBREAK（カメックスメガバトル）",
+   "name": "クロバットBREAK",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/legend/XYP/032141_P_KUROBATTOBREAK.gif",
+   "file": "cards/XY/XY-P/クロバットBREAK（カメックスメガバトル）_XY-P-X32141.gif",
+   "bytes": 180382,
+   "status": "追加"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "set": "XY-P",
+ "name": "クロバットBREAK",
+ "badge": "XYP",
+ "note": "番号の無いプロモ（2026-10-09 に new-cards.mjs で見つけた、09-29 の公式一覧にあって取り込んでいなかったカード）。型番は X＋公式 details.php の cardID。見分け方は details.php の本文の最後の配布の説明（eventDetails）。画像にも番号が無いことを確認",
+ "cards": [
+  {
+   "cardId": "32008",
+   "name": "クロバットBREAK",
+   "eventDetails": "ポケモンカードジム クロバットBREAKバトル",
+   "ja": "クロバットBREAK（ポケモンカードジム クロバットBREAKバトル）"
+  },
+  {
+   "cardId": "32141",
+   "name": "クロバットBREAK",
+   "eventDetails": "カメックスメガバトル",
+   "ja": "クロバットBREAK（カメックスメガバトル）"
+  }
+ ]
+}
