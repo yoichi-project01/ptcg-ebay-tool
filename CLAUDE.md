@@ -2811,7 +2811,23 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   SO 30・SP1 7・SP2 4・SP3 6・SP4 4・SGI 23・SGG 20・SF 33・SC 20（BW 世代のシャイニーコレクション 2013）・SC2 21・SEF 21・SEK 20・SB 24。
   弾の情報は公式の商品一覧（`/products/resultAPI.php`、収録カードの一覧の pg の画像フォルダで記号を確かめたもの: SGG・SGI・SEF・SEK・SP4）と Limitless の発売日の一致（`set-meta.json` の source）。
   **SCS は追加していない**: 同じ印刷記号 SCS で「スターターセットVMAX リザードン」（/021、pg708）と「オーロンゲ」（/020、pg709）の2商品が番号を共有する。
-  公式の pg で見分けられるので、型番（例「SCS-…」）を決めれば分けて足せる（未決定）。card_id は `scripts/new-cards/{弾}-added-card-ids-*.txt`。
+  公式の pg で見分けられるので、型番（例「SCS-…」）を決めれば分けて足せる（→ 下記で SCS-R・SCS-O として追加）。card_id は `scripts/new-cards/{弾}-added-card-ids-*.txt`。
+
+### 対応（2026-10-10）: SCS の分割・S 世代のデッキ等の英語名・SA/MG の分割の調査
+
+- **SCS-R・SCS-O**（b6c48e0・3226cbd）: 印刷記号 SCS の2商品を弾に分けた。SCS-R＝スターターセットVMAX リザードン（21枚、公式の収録カードの一覧 pg708）、
+  SCS-O＝オーロンゲ（20枚、pg709）。codeAlias は SCS。`set-meta.json` の `cardIds` に pg の cardID を書き、`new-cards.mjs --apply --new` はこの cardID だけを足す。
+- **英語名 258件**（SO・SP1〜4・SGI・SGG・SF・SC・SC2・SEF・SEK・SB・SCS-R・SCS-O、弾ごとにコミット）: Bulbapedia の日本版の一覧 `en-name-fix3/bulbapedia/S-decks-2026.txt`
+  （SHA-256 照合済み）と、これまでと同じ確かめ方（`fill-common-en.mjs`、総数を超える SGG-020・SGI-023 は `fill-high-rarity-en.mjs`）。
+  **空欄 16件**: ボスの指令 6・博士の研究 4（英語版で同じ絵柄は "Boss's Orders (Lysandre)"・"Professor's Research (Professor Magnolia)" と別名で、
+  既存の S4a-174 等と同じく空欄のまま）、Bulbapedia の一覧に無い特殊エネルギー等 6（SO-026・028、SP3-005・006、SF-027〜029）。
+- **SM-P-X36903 ミュウ**: PSA の表記で「Ancient Mew」を確かめられなかった（検索で日本版の鑑定書が見つからず）ため空欄のまま。
+- **SA・MG の分割の調査（未適用、一覧 `scripts/new-cards/sa-mg-split-plan.json`）**: 番号・名前は公式 details.php で全156件を確認。
+  - SA（122枚）は公式の収録カードの一覧の pg695〜699 で5商品に分かれ、各 pg で 001〜023/023（草・炎・水）・001〜024/024（雷・闘）が欠番・重複なくそろう（番号なしは基本エネルギー各1）。
+    案: SA-G 草（セレビィV）・SA-R 炎（ビクティニV）・SA-W 水（ケルディオV）・SA-L 雷（カプ・コケコV）・SA-F 闘（レジロックV）、codeAlias SA、2019。
+  - MG（34枚、30枚デッキ対戦set「ミュウツーVSゲノセクト」2013-07-13）は公式に商品ごとの pg が無く、pg379 に2デッキまとめて載る。cardID が 28759〜28775 と
+    28776〜28792 の連続した2つに分かれ、それぞれ 001〜016/016 がそろう（008 ゲノセクト・基本草エネルギー／001 ミュウツー・基本超エネルギー）。案: MG-G・MG-M。
+    デッキの見分けは公式の pg ではなく cardID の範囲と収録カードによる。
 
 ---
 
