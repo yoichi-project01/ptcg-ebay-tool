@@ -16,7 +16,7 @@
  *     （番号の無い基本エネルギーは取得した後に台帳へ skip として記録し、次から候補に出さない。番号付きの基本エネルギーは足す）
  *   - 既存の弾: 印刷記号（img-regulation の alt）が弾の codeAlias（無ければ弾コード）と同じで、総数が弾の of と同じ（プロモはラベルが弾コード）
  *   - 同じ番号が既にあれば、名前が同じなら同じカードの別掲載として飛ばし、違えば止まる
- *   - 新しい弾: 1〜最大番号に欠番が無い（validateAndBuildK）
+ *   - 新しい弾: 1〜最大番号に欠番が無い（validateAndBuildK）。公式にまだ載っていない番号は set-meta.json の pendingGaps に書いたものだけ許す
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -239,7 +239,8 @@ async function main() {
     }
     if (data.some((s) => s.c === meta.c)) throw new Error(`弾が既にあります: ${meta.c}`);
     if (!meta.ja || !meta.sr || !meta.y) throw new Error("set-meta.json の ja・sr・y を埋めてください（en・psaName は確かめられなければ空欄）");
-    const { k, byLocal } = validateAndBuildK(mine.map((r) => ({ local: r.number, total: r.of, jaName: r.name, rarity: r.rarity, cardId: r.cardId })), meta.c);
+    // pendingGaps: 公式にまだ載っていない番号（set-meta.json に書く）。この番号の欠けだけを許し、載ったら --apply --set <弾> で足す
+    const { k, byLocal } = validateAndBuildK(mine.map((r) => ({ local: r.number, total: r.of, jaName: r.name, rarity: r.rarity, cardId: r.cardId })), meta.c, { allowedGaps: meta.pendingGaps ?? [] });
     const set = { c: meta.c, ja: meta.ja, en: meta.en ?? "", ...(meta.psaName ? { psaName: meta.psaName } : {}), sr: meta.sr, of: parseInt(mine[0].of, 10), y: meta.y, ...(meta.codeAlias ? { codeAlias: meta.codeAlias } : {}), k: k.map((r) => [r[0], r[1], "", r[3] ?? ""]) };
     const add = [...byLocal.values()].map((d) => ({ ...mine.find((r) => r.cardId === d.cardId), local: String(parseInt(d.local, 10)).padStart(3, "0") }));
     add.forEach((r) => (r.number = r.local));
