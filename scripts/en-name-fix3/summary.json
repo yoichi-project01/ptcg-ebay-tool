@@ -6055,5 +6055,35 @@
   "blankReasons": {
    "Bulbapedia の一覧に無い": 2
   }
+ },
+ "SP1-pokemon": {
+  "set": "SP1",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Zacian + Zamazenta Box (TCG)",
+   "section": "Zacian + Zamazenta Box",
+   "den": "den=007",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 4,
+  "filled": 4,
+  "filledByRule": 4,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SP1-trainer": {
+  "set": "SP1",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Zacian + Zamazenta Box (TCG)",
+   "section": "Zacian + Zamazenta Box",
+   "den": "den=007",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 3,
+  "filled": 3,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
