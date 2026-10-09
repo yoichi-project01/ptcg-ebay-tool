@@ -6209,5 +6209,37 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "SGG-pokemon": {
+  "set": "SGG",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "High-Class Decks (TCG)",
+   "section": "High-Class Decks",
+   "den": "den=019",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 7,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SGG-trainer": {
+  "set": "SGG",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "High-Class Decks (TCG)",
+   "section": "High-Class Decks",
+   "den": "den=019",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 12,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
