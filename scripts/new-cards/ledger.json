@@ -279,6 +279,160 @@
   "key": "SGG",
   "date": "2026-10-09"
  },
+ "39559": {
+  "status": "added",
+  "set": "SGI",
+  "number": "001",
+  "name": "ラプラス",
+  "date": "2026-10-09"
+ },
+ "39560": {
+  "status": "added",
+  "set": "SGI",
+  "number": "002",
+  "name": "テッポウオ",
+  "date": "2026-10-09"
+ },
+ "39561": {
+  "status": "added",
+  "set": "SGI",
+  "number": "003",
+  "name": "オクタン",
+  "date": "2026-10-09"
+ },
+ "39562": {
+  "status": "added",
+  "set": "SGI",
+  "number": "004",
+  "name": "バスラオ",
+  "date": "2026-10-09"
+ },
+ "39563": {
+  "status": "added",
+  "set": "SGI",
+  "number": "005",
+  "name": "インテレオンV",
+  "date": "2026-10-09"
+ },
+ "39564": {
+  "status": "added",
+  "set": "SGI",
+  "number": "006",
+  "name": "インテレオンVMAX",
+  "date": "2026-10-09"
+ },
+ "39565": {
+  "status": "added",
+  "set": "SGI",
+  "number": "007",
+  "name": "クロバットV",
+  "date": "2026-10-09"
+ },
+ "39566": {
+  "status": "added",
+  "set": "SGI",
+  "number": "008",
+  "name": "ミミロル",
+  "date": "2026-10-09"
+ },
+ "39567": {
+  "status": "added",
+  "set": "SGI",
+  "number": "009",
+  "name": "ミミロップ",
+  "date": "2026-10-09"
+ },
+ "39568": {
+  "status": "added",
+  "set": "SGI",
+  "number": "010",
+  "name": "ルチャブル",
+  "date": "2026-10-09"
+ },
+ "39569": {
+  "status": "added",
+  "set": "SGI",
+  "number": "011",
+  "name": "エネルギー回収",
+  "date": "2026-10-09"
+ },
+ "39570": {
+  "status": "added",
+  "set": "SGI",
+  "number": "012",
+  "name": "クイックボール",
+  "date": "2026-10-09"
+ },
+ "39571": {
+  "status": "added",
+  "set": "SGI",
+  "number": "013",
+  "name": "しんかのおこう",
+  "date": "2026-10-09"
+ },
+ "39572": {
+  "status": "added",
+  "set": "SGI",
+  "number": "014",
+  "name": "ポケギア3.0",
+  "date": "2026-10-09"
+ },
+ "39573": {
+  "status": "added",
+  "set": "SGI",
+  "number": "015",
+  "name": "ポケモンいれかえ",
+  "date": "2026-10-09"
+ },
+ "39574": {
+  "status": "added",
+  "set": "SGI",
+  "number": "016",
+  "name": "コルニの気合い",
+  "date": "2026-10-09"
+ },
+ "39575": {
+  "status": "added",
+  "set": "SGI",
+  "number": "017",
+  "name": "博士の研究",
+  "date": "2026-10-09"
+ },
+ "39576": {
+  "status": "added",
+  "set": "SGI",
+  "number": "018",
+  "name": "冒険家の発見",
+  "date": "2026-10-09"
+ },
+ "39577": {
+  "status": "added",
+  "set": "SGI",
+  "number": "019",
+  "name": "ボスの指令",
+  "date": "2026-10-09"
+ },
+ "39578": {
+  "status": "added",
+  "set": "SGI",
+  "number": "020",
+  "name": "マリィ",
+  "date": "2026-10-09"
+ },
+ "39579": {
+  "status": "added",
+  "set": "SGI",
+  "number": "021",
+  "name": "みずの塔",
+  "date": "2026-10-09"
+ },
+ "39580": {
+  "status": "added",
+  "set": "SGI",
+  "number": "022",
+  "name": "れんげきエネルギー",
+  "date": "2026-10-09"
+ },
  "39582": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
@@ -564,6 +718,13 @@
   "reason": "番号の無い基本エネルギー",
   "name": "基本雷エネルギー",
   "key": "SO",
+  "date": "2026-10-09"
+ },
+ "44976": {
+  "status": "added",
+  "set": "SGI",
+  "number": "023",
+  "name": "インテレオンVMAX",
   "date": "2026-10-09"
  },
  "50339": {
