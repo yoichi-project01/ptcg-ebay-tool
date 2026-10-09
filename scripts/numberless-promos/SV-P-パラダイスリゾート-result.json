@@ -1,0 +1,42 @@
+{
+ "at": "2026-10-09T02:27:18.180Z",
+ "set": "SV-P",
+ "results": [
+  {
+   "cardId": "44243",
+   "id": "SV-P-X44243",
+   "ja": "パラダイスリゾート（ワールドチャンピオンシップス2023 横浜）",
+   "name": "パラダイスリゾート",
+   "badge": "SV-P",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/SV-P/044243_T_PARADAISURIZOTO.jpg",
+   "file": "cards/SV/SV-P/パラダイスリゾート（ワールドチャンピオンシップス2023 横浜）_SV-P-X44243.jpg",
+   "bytes": 709035,
+   "status": "追加"
+  },
+  {
+   "cardId": "46228",
+   "id": "SV-P-X46228",
+   "ja": "パラダイスリゾート（ポケモンワールドチャンピオンシップス2024）",
+   "name": "パラダイスリゾート",
+   "badge": "SV-P",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/SV-P/046228_T_PARADAISURIZOTO.jpg",
+   "file": "cards/SV/SV-P/パラダイスリゾート（ポケモンワールドチャンピオンシップス2024）_SV-P-X46228.jpg",
+   "bytes": 133767,
+   "status": "追加"
+  },
+  {
+   "cardId": "48261",
+   "id": "SV-P-X48261",
+   "ja": "パラダイスリゾート（ポケモンワールドチャンピオンシップス2025）",
+   "name": "パラダイスリゾート",
+   "badge": "SV-P",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/SV-P/048261_T_PARADAISURIZOTO.jpg",
+   "file": "cards/SV/SV-P/パラダイスリゾート（ポケモンワールドチャンピオンシップス2025）_SV-P-X48261.jpg",
+   "bytes": 660006,
+   "status": "追加"
+  }
+ ]
+}
