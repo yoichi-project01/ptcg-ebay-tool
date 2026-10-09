@@ -4,6 +4,7 @@
 // 番号の無いプロモとして追加したが、Bulbapedia「XY-P Promotional cards (TCG)」では番号付きの 127〜129/XY-P として載っており
 // （配布の説明も公式 details.php の本文と一致）、公式の画像（/assets/images/card_images/large/XYP/0310xx_*.jpg）にも
 // 127/XY-P・128/XY-P・129/XY-P と印刷されている（2026-10-09 に目で確認）。details.php のページに番号が表示されないだけ。
+// 2026-10-09 に型番を XY-P-127〜129 に変えた（renumber-xyp-127-129.mjs）。この行はもう無いので再実行しないこと（止まる）。
 // 英語名は日本語名から作った名前（バシャーモEX→Blaziken-EX 等）と Bulbapedia の名前の一致で入れる。型番（X＋cardID）は変えていない。
 import fs from "node:fs";
 import path from "node:path";

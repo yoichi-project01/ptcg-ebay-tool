@@ -22,6 +22,7 @@ const clean = (s) => {
 const groups = {};
 for (const [cid, v] of Object.entries(det)) {
   if (v.hasNumber) continue;
+  if (["31066", "31067", "31068"].includes(cid)) continue; // 画像に 127〜129/XY-P と印刷されている番号付きのカード（2026-10-09、renumber-xyp-127-129.mjs）
   const i = v.text.indexOf("CLOSE");
   const dist = v.text[i - 1];
   const illustrator = v.text[v.text.indexOf("イラストレーター") + 1];

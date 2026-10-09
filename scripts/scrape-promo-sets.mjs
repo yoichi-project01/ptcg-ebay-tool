@@ -59,6 +59,7 @@ const HEADERS = {
 // details.php の cardID を使った識別子を付ける案は CLAUDE.md 参照）。
 // extraCardIds: official-card-cache.json のスキャンから漏れていたカード。欠番の前後の
 //       cardID 範囲でキャッシュに無い ID を details.php で1件ずつ確認して見つけたもの
+// printedNumbers: details.php に番号が表示されないが、カードの画像に番号が印刷されていると目で確かめたカード（cardID → 番号）
 // allowedGaps: 同じ確認で、公式サイトにカードページ自体が無いと分かった番号
 //       （該当 cardID は「カード検索」トップに戻される）。これ以外の欠番は停止する
 export const TARGET_SETS = [
@@ -68,7 +69,10 @@ export const TARGET_SETS = [
     code: "XY-P", label: "XY-P", badge: "XYP", sr: "XY", sourceCacheKeys: ["XYP", "XY-P"],
     // 050 日本代表のピカチュウ、181/216/225/238 の BREAK カード
     extraCardIds: [30478, 31583, 31650, 32136, 32124],
-    allowedGaps: [127, 128, 129, 189, 217, 267],
+    // details.php に番号が表示されないが、カードの画像に番号が印刷されているもの（2026-10-09 に目で確認。Bulbapedia も 127〜129/XY-P）。
+    // 以前は番号の無いプロモ（X31066〜X31068）として追加し、127〜129 を「公式ページなし」の欠番にしていた
+    printedNumbers: { 31066: "127", 31067: "128", 31068: "129" },
+    allowedGaps: [189, 217, 267],
   },
   { code: "BW-P", label: "BW-P", badge: "BWP", sr: "BW", sourceCacheKeys: ["BWP"], allowedGaps: [25, 26, 27, 28, 29, 30, 31] },
   { code: "DP-P", label: "DP-P", badge: "DPP", sr: "DP", sourceCacheKeys: ["DPP"] },
@@ -268,7 +272,13 @@ async function processSet(target, cache, cardData) {
 // あれば例外を投げる。番号なしのカードは除外し、一覧を返す
 export function validatePromo(target, cardIds, progress) {
   const { code } = target;
-  const entries = cardIds.map((id) => ({ cardId: id, ...progress[id] }));
+  // printedNumbers: details.php に番号が無いが、カードの画像に番号が印刷されていると確かめたもの（番号・表記を補う）
+  const entries = cardIds.map((id) => {
+    const e = { cardId: id, ...progress[id] };
+    const n = target.printedNumbers?.[id];
+    if (n && e.number === null) { e.number = n; e.label = target.label; }
+    return e;
+  });
   const missingProgress = entries.filter((e) => !e.jaName);
   if (missingProgress.length) throw new Error(`[${code}] 未取得のカードが残っています: ${missingProgress.map((e) => e.cardId).join(", ")}`);
 
