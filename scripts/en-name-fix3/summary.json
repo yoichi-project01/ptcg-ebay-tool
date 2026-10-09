@@ -6398,5 +6398,37 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "SB-pokemon": {
+  "set": "SB",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Sword & Shield Premium Trainer Box (TCG)",
+   "section": "Sword & Shield Premium Trainer Box",
+   "den": "den=024",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 0,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SB-trainer": {
+  "set": "SB",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Sword & Shield Premium Trainer Box (TCG)",
+   "section": "Sword & Shield Premium Trainer Box",
+   "den": "den=024",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 24,
+  "filled": 23,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
