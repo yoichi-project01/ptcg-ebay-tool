@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-09T01:38:53.463Z",
+ "set": "DP-P",
+ "results": [
+  {
+   "cardId": "7014",
+   "id": "DP-P-X7014",
+   "ja": "トロピカルウインド（ワールドチャンピオンシップス2007 参加記念カード）",
+   "name": "トロピカルウインド",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007014_T_TOROPIKARUUINDO.jpg",
+   "file": "cards/DP/DP-P/トロピカルウインド（ワールドチャンピオンシップス2007 参加記念カード）_DP-P-X7014.jpg",
+   "bytes": 40701,
+   "status": "追加"
+  },
+  {
+   "cardId": "20514",
+   "id": "DP-P-X20514",
+   "ja": "トロピカルウインド（ワールドチャンピオンシップス2008 参加記念カード）",
+   "name": "トロピカルウインド",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/020514_T_TOROPIKARUUINDO.jpg",
+   "file": "cards/DP/DP-P/トロピカルウインド（ワールドチャンピオンシップス2008 参加記念カード）_DP-P-X20514.jpg",
+   "bytes": 26818,
+   "status": "追加"
+  }
+ ]
+}
