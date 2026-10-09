@@ -1,0 +1,42 @@
+{
+ "at": "2026-10-09T02:22:58.741Z",
+ "set": "SM-P",
+ "results": [
+  {
+   "cardId": "33300",
+   "id": "SM-P-X33300",
+   "ja": "ふしぎなアメ（サン&ムーン ウェルカムフェスタ ほんきをだすバトル 優勝）",
+   "name": "ふしぎなアメ",
+   "badge": "SMP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/SMP/033300_T_FUSHIGINAAMEYUUSHOU.jpg",
+   "file": "cards/SM/SM-P/ふしぎなアメ（サン&ムーン ウェルカムフェスタ ほんきをだすバトル 優勝）_SM-P-X33300.jpg",
+   "bytes": 159440,
+   "status": "追加"
+  },
+  {
+   "cardId": "33301",
+   "id": "SM-P-X33301",
+   "ja": "ふしぎなアメ（サン&ムーン ウェルカムフェスタ ほんきをだすバトル 2位）",
+   "name": "ふしぎなアメ",
+   "badge": "SMP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/SMP/033301_T_FUSHIGINAAMEKURAI.jpg",
+   "file": "cards/SM/SM-P/ふしぎなアメ（サン&ムーン ウェルカムフェスタ ほんきをだすバトル 2位）_SM-P-X33301.jpg",
+   "bytes": 157826,
+   "status": "追加"
+  },
+  {
+   "cardId": "33302",
+   "id": "SM-P-X33302",
+   "ja": "ふしぎなアメ（サン&ムーン ウェルカムフェスタ ほんきをだすバトル 3位）",
+   "name": "ふしぎなアメ",
+   "badge": "SMP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/SMP/033302_T_FUSHIGINAAMEKURAI.jpg",
+   "file": "cards/SM/SM-P/ふしぎなアメ（サン&ムーン ウェルカムフェスタ ほんきをだすバトル 3位）_SM-P-X33302.jpg",
+   "bytes": 159509,
+   "status": "追加"
+  }
+ ]
+}
