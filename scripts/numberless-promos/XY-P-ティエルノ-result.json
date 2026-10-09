@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-09T01:54:54.521Z",
+ "set": "XY-P",
+ "results": [
+  {
+   "cardId": "30228",
+   "id": "XY-P-X30228",
+   "ja": "ティエルノ（バトルフェスタ）",
+   "name": "ティエルノ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/030228_T_TEIERUNO.jpg",
+   "file": "cards/XY/XY-P/ティエルノ（バトルフェスタ）_XY-P-X30228.jpg",
+   "bytes": 180986,
+   "status": "追加"
+  },
+  {
+   "cardId": "32205",
+   "id": "XY-P-X32205",
+   "ja": "ティエルノ（公認自主イベント 2016年7月）",
+   "name": "ティエルノ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/032205_T_TEIERUNO.jpg",
+   "file": "cards/XY/XY-P/ティエルノ（公認自主イベント 2016年7月）_XY-P-X32205.jpg",
+   "bytes": 169444,
+   "status": "追加"
+  }
+ ]
+}
