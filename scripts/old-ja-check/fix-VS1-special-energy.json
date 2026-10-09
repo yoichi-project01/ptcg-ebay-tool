@@ -1,0 +1,42 @@
+{
+ "set": "VS1",
+ "fixed": 3,
+ "rows": [
+  {
+   "id": "VS1-143",
+   "beforeJa": "金属エネルギー",
+   "beforeEn": "",
+   "ja": "鋼エネルギー",
+   "en": "Metal Energy",
+   "site": "https://pcg-search.com/card/vs/vs0en8.php",
+   "illustrator": "Milky Isobe",
+   "tcgdexIds": "neo1-19 ex9-88 ex16-88 ex1-94 ex13-95 ex10-97 ex11-107 ecard2-143 ecard1-159",
+   "imageFile": "cards/VS/VS1/金属エネルギー_VS1-143／151.png → cards/VS/VS1/鋼エネルギー_VS1-143／151.png",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-144",
+   "beforeJa": "闇のエネルギー",
+   "beforeEn": "",
+   "ja": "悪エネルギー",
+   "en": "Darkness Energy",
+   "site": "https://pcg-search.com/card/vs/vs0en7.php",
+   "illustrator": "Milky Isobe",
+   "tcgdexIds": "ex9-86 ex16-87 ex1-93 ex13-94 ex10-96 ex11-103 neo1-104 ecard2-142 ecard1-158",
+   "imageFile": "cards/VS/VS1/闇のエネルギー_VS1-144／151.png → cards/VS/VS1/悪エネルギー_VS1-144／151.png",
+   "status": "直す"
+  },
+  {
+   "id": "VS1-151",
+   "beforeJa": "レインボーエネルギー",
+   "beforeEn": "",
+   "ja": "レインボーエネルギー",
+   "en": "Rainbow Energy",
+   "site": "https://pcg-search.com/card/vs/vs0en9.php",
+   "illustrator": "Takumi Akabane",
+   "tcgdexIds": "base5-17 base5-80 ex12-81 ex1-95 pl1-121 ecard2-144",
+   "imageFile": "",
+   "status": "直す"
+  }
+ ]
+}
