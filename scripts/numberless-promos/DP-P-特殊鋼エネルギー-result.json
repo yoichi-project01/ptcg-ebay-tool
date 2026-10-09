@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-09T01:33:55.646Z",
+ "set": "DP-P",
+ "results": [
+  {
+   "cardId": "7003",
+   "id": "DP-P-X7003",
+   "ja": "特殊鋼エネルギー（ジム☆チャレンジ2006）",
+   "name": "特殊鋼エネルギー",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007003_E_KOUENERUGI.jpg",
+   "file": "cards/DP/DP-P/特殊鋼エネルギー（ジム☆チャレンジ2006）_DP-P-X7003.jpg",
+   "bytes": 33055,
+   "status": "追加"
+  },
+  {
+   "cardId": "7005",
+   "id": "DP-P-X7005",
+   "ja": "特殊鋼エネルギー（第25回次世代ワールドホビーフェア チャレンジバトル参加賞）",
+   "name": "特殊鋼エネルギー",
+   "badge": "DPP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/DPP/007005_E_KOUENERUGI.gif",
+   "file": "cards/DP/DP-P/特殊鋼エネルギー（第25回次世代ワールドホビーフェア チャレンジバトル参加賞）_DP-P-X7005.gif",
+   "bytes": 123180,
+   "status": "追加"
+  }
+ ]
+}
