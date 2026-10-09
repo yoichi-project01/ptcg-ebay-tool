@@ -1,0 +1,80 @@
+{
+ "date": "2026-10-10",
+ "SR": {
+  "before": "Special Rare",
+  "after": "Super Rare",
+  "ebay": "eBay の Rarity の選択肢（カテゴリ 183454 の絞り込み）に Super Rare がある。検索「pokemon japanese SR full art」の Rarity の内訳: Super Rare 17,308・Secret Rare 7,807・Rare 1,982・Ultra Rare 1,209（Special Rare は選択肢に無い）",
+  "bulbapedia": "Rarity (TCG): 日本版の SR を Super Rare と呼ぶ（Ultra Rare (sometimes known as Super Rare)）",
+  "english": "英語版の同じ段階は Ultra Rare（TCGdex 英語版）。このアプリでは UR を Ultra Rare にしているため使わない"
+ },
+ "MA": {
+  "before": "(未登録。Item Specifics に MA と出ていた)",
+  "after": "Mega Attack Rare",
+  "ebay": "選択肢に無い（自由入力）",
+  "bulbapedia": "Rarity (TCG): Mega Attack Rare（日本版の MEGAドリームex で始まった MA）",
+  "english": "英語版の同じカード（me02.5-265 Mega Froslass ex 等）は TCGdex で Ultra Rare。SR と同じ理由で使わない"
+ },
+ "examples": [
+  {
+   "id": "SV2a-195",
+   "titleBefore": "Mew ex SR 195/165 Japanese SV2a Pokemon Card NM Scarlet & Violet 151 2023 Holo",
+   "titleAfter": "Mew ex SR 195/165 Japanese SV2a Pokemon Card NM Scarlet & Violet 151 2023 Holo",
+   "rarityBefore": "Special Rare",
+   "rarityAfter": "Super Rare"
+  },
+  {
+   "id": "SV1S-091",
+   "titleBefore": "Gyarados ex SR 091/078 Japanese SV1S Pokemon Card NM Scarlet & Violet Scarlet ex",
+   "titleAfter": "Gyarados ex SR 091/078 Japanese SV1S Pokemon Card NM Scarlet & Violet Scarlet ex",
+   "rarityBefore": "Special Rare",
+   "rarityAfter": "Super Rare"
+  },
+  {
+   "id": "S12a-247",
+   "titleBefore": "Friends in Sinnoh SR 247/172 Japanese S12a Pokemon Card NM 2022 Holo",
+   "titleAfter": "Friends in Sinnoh SR 247/172 Japanese S12a Pokemon Card NM 2022 Holo Super Rare",
+   "rarityBefore": "Special Rare",
+   "rarityAfter": "Super Rare"
+  },
+  {
+   "id": "SM12a-201",
+   "titleBefore": "SR 201/173 Japanese SM12a Pokemon Card NM Sun & Moon Tag Team GX All Stars 2019",
+   "titleAfter": "SR 201/173 Japanese SM12a Pokemon Card NM Sun & Moon Tag Team GX All Stars 2019",
+   "rarityBefore": "Special Rare",
+   "rarityAfter": "Super Rare"
+  },
+  {
+   "id": "XY3-101",
+   "titleBefore": "Fossil Researcher SR 101/096 Japanese XY3 Pokemon Card NM XY Rising Fist 2014",
+   "titleAfter": "Fossil Researcher SR 101/096 Japanese XY3 Pokemon Card NM XY Rising Fist 2014",
+   "rarityBefore": "Special Rare",
+   "rarityAfter": "Super Rare"
+  },
+  {
+   "id": "M2a-224",
+   "titleBefore": "Mega Froslass ex MA 224/193 Japanese M2a Pokemon Card NM 2025 Holo",
+   "titleAfter": "Mega Froslass ex MA 224/193 Japanese M2a Pokemon Card NM 2025 Holo",
+   "rarityBefore": "MA",
+   "rarityAfter": "Mega Attack Rare"
+  },
+  {
+   "id": "M2a-226",
+   "titleBefore": "Mega Gardevoir ex MA 226/193 Japanese M2a Pokemon Card NM 2025 Holo",
+   "titleAfter": "Mega Gardevoir ex MA 226/193 Japanese M2a Pokemon Card NM 2025 Holo",
+   "rarityBefore": "MA",
+   "rarityAfter": "Mega Attack Rare"
+  }
+ ],
+ "titleFullSpelling": {
+  "SR": {
+   "rows": 1109,
+   "before": 411,
+   "after": 449
+  },
+  "MA": {
+   "rows": 10,
+   "before": 0,
+   "after": 0
+  }
+ }
+}

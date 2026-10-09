@@ -523,25 +523,26 @@ export function buildSealedTitle(f) {
 // SV世代（Art Rare/Special Art Rare/Double Rare/Triple Rare/Ultra Rare/Hyper Rare/
 // ACE SPEC Rare）は英語版TCGの公式レアリティ名と一致するが、それ以外の世代
 // （SR/CHR/CSR/SSR/S/BWR等）は日本語圏コミュニティの慣用訳のベストエフォート。
-// MA（メガアタックレア、RARITIES参照）は意図的に未登録のまま（課題として記録）:
-// 日本語の呼称自体はWeb検索で複数の情報源から確認できたが、英語圏の収集コミュニティが
-// 実際に使っている定訳を確認できていない（TRの"Trainer Rare"のような一次情報源が
-// 無い）。未登録でもUI側は`RARITY_EN_LABELS[f.rarity] || ""`等のフォールバックで
-// 安全に動作する（空欄になるだけ）。確実な出典が見つかったら追加すること
+// 2026-10-10: SR を "Special Rare" から "Super Rare" に直し、MA に "Mega Attack Rare" を足した（scripts/audit/rarity-labels-2026-10-10.json）。
+// SR: eBay の Rarity の選択肢に "Super Rare" があり、日本版の SR の出品で最も使われている（"pokemon japanese SR full art" で Super Rare 17,308件・
+// Secret Rare 7,807件・Ultra Rare 1,209件、"Special Rare" は選択肢に無い）。Bulbapedia「Rarity (TCG)」も日本版の SR を "Super Rare" と呼ぶ。
+// 英語版で同じ段階は "Ultra Rare" だが、このアプリでは UR を "Ultra Rare" にしているため使わない（SR と UR が同じ表記になる）。
+// MA: Bulbapedia の呼び方 "Mega Attack Rare"（日本版の MEGAドリームex で始まったレアリティ）。eBay の選択肢には無いが Rarity は自由入力できる。
+// 英語版の同じカード（TCGdex me02.5-265 等）は "Ultra Rare" だが、SR と同じ理由で使わない
 // RH（Rare Holo）・LEGENDはLEGEND世代（フェーズ5、2009年前後）で追加。RHは1999年の
 // 英語版TCG発売当初から使われている公式レアリティ名（星マークだがホロ箔押し加工がある
 // 通常レア）。LEGENDは英語版TCGが実際にHeartGold & SoulSilver期の2枚1組カードの
 // レアリティ名として"LEGEND"をそのまま使っている（公式ブランディング）ため、
 // 直訳ではなくそのまま採用した。いずれもSV世代の直接対応表記と同じ扱い
 export const RARITY_EN_LABELS = {
-  SAR: "Special Art Rare", SR: "Special Rare", AR: "Art Rare", UR: "Ultra Rare",
+  SAR: "Special Art Rare", SR: "Super Rare", AR: "Art Rare", UR: "Ultra Rare",
   RR: "Double Rare", RRR: "Triple Rare", CHR: "Character Rare", CSR: "Character Super Rare",
   HR: "Hyper Rare", SSR: "Shiny Super Rare", S: "Shiny", TR: "Trainer Rare", ACE: "ACE SPEC Rare",
   BWR: "Black White Rare", LEGEND: "LEGEND", RH: "Rare Holo", R: "Rare", U: "Uncommon", C: "Common", PROMO: "Promo",
   // 2026-10-06: 英語版の公式のレアリティ名（TCGdex 英語版）。eBay の Rarity の値にあるのは Amazing Rare・Ultra Rare・Rare。
   // Radiant Rare・Mega Hyper Rare は eBay の値に無いが、Rarity は自由入力できる（自由入力の出品を確認）ため英語版の名前をそのまま使う。
   // H（ひかる）は英語版 Shining Legends のひかるポケモンが Ultra Rare、PR（プリズムスター）は英語版で Rare（scripts/rarity-fix/new-codes.json）
-  K: "Radiant Rare", A: "Amazing Rare", H: "Ultra Rare", PR: "Rare", MUR: "Mega Hyper Rare",
+  K: "Radiant Rare", A: "Amazing Rare", H: "Ultra Rare", PR: "Rare", MUR: "Mega Hyper Rare", MA: "Mega Attack Rare",
 };
 // eBayの未鑑定シングルカード用コンディション記述子（2023年10月〜の新体系）のラベル文字列。
 // ※ File Exchange CSV等で必要になる数値ConditionID/DescriptionIDは提供元・カテゴリ
