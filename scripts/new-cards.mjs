@@ -124,6 +124,10 @@ async function fetchAll(list) {
 // --- 候補を弾に振り分ける ---
 function classify(list, details, data) {
   const bySet = new Map(data.map((s) => [s.c, s]));
+  // set-meta の cardIds で商品ごとに分けた弾（SCS-R/O・SA-G〜F・MG-G/M 等）は、印刷記号・総数ではなく cardIds で弾を決める
+  // （同じ記号・同じ総数の別の商品の同じ番号・同じ名前のカードを「別掲載」と見なさないため）
+  const metaOf = new Map();
+  for (const m of Object.values(readJson(META, {}))) for (const id of m.cardIds || []) metaOf.set(String(id), m.c);
   const rows = [];
   for (const c of list) {
     const d = details[c.cardId];
@@ -135,7 +139,11 @@ function classify(list, details, data) {
       if (e.rarity === null) { r.status = `未知のレアリティ（${d.rarityCode}）`; continue; }
       let cands;
       if (e.label) cands = [bySet.get(e.label)].filter(Boolean);
-      else {
+      else if (metaOf.has(String(c.cardId))) {
+        const mc = metaOf.get(String(c.cardId));
+        cands = [bySet.get(mc)].filter(Boolean);
+        if (!cands.length) { r.target = mc; r.status = "新しい弾"; continue; }
+      } else {
         cands = data.filter((s) => (s.codeAlias || s.c) === d.badge && String(s.of) === String(parseInt(e.total, 10)));
         if (cands.length > 1) cands = cands.filter((s) => s.c === c.key);
       }
