@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-09T02:10:17.762Z",
+ "set": "XY-P",
+ "results": [
+  {
+   "cardId": "31571",
+   "id": "XY-P-X31571",
+   "ja": "ダブルドラゴンエネルギー（バトルフェスタ2015 コロコロチャレンジ 勝利賞）",
+   "name": "ダブルドラゴンエネルギー",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/031571_E_DABURUDORAGONENERUGI.jpg",
+   "file": "cards/XY/XY-P/ダブルドラゴンエネルギー（バトルフェスタ2015 コロコロチャレンジ 勝利賞）_XY-P-X31571.jpg",
+   "bytes": 164340,
+   "status": "追加"
+  },
+  {
+   "cardId": "32324",
+   "id": "XY-P-X32324",
+   "ja": "ダブルドラゴンエネルギー（メガボーマンダジムバトル）",
+   "name": "ダブルドラゴンエネルギー",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/032324_E_DABURUDORAGONENERUGI.jpg",
+   "file": "cards/XY/XY-P/ダブルドラゴンエネルギー（メガボーマンダジムバトル）_XY-P-X32324.jpg",
+   "bytes": 157514,
+   "status": "追加"
+  }
+ ]
+}
