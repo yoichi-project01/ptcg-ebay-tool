@@ -1,0 +1,147 @@
+{
+ "at": "2026-10-09T23:30:12.411Z",
+ "sets": 276,
+ "rows": 22624,
+ "noEn": 1894,
+ "noRarity": 8178,
+ "noRarityInMarkedSet": 2190,
+ "noImage": 456,
+ "byGen": {
+  "M": {
+   "rows": 2285,
+   "noEn": 126,
+   "noRarity": 1424,
+   "noRarityInMarkedSet": 290,
+   "noImage": 0
+  },
+  "PCG": {
+   "rows": 722,
+   "noEn": 11,
+   "noRarity": 0,
+   "noRarityInMarkedSet": 0,
+   "noImage": 0
+  },
+  "PMCG": {
+   "rows": 457,
+   "noEn": 101,
+   "noRarity": 0,
+   "noRarityInMarkedSet": 0,
+   "noImage": 0
+  },
+  "S": {
+   "rows": 5001,
+   "noEn": 434,
+   "noRarity": 1954,
+   "noRarityInMarkedSet": 769,
+   "noImage": 186
+  },
+  "SV": {
+   "rows": 4654,
+   "noEn": 111,
+   "noRarity": 1622,
+   "noRarityInMarkedSet": 641,
+   "noImage": 2
+  },
+  "VS": {
+   "rows": 143,
+   "noEn": 30,
+   "noRarity": 4,
+   "noRarityInMarkedSet": 4,
+   "noImage": 0
+  },
+  "e": {
+   "rows": 492,
+   "noEn": 25,
+   "noRarity": 0,
+   "noRarityInMarkedSet": 0,
+   "noImage": 0
+  },
+  "neo": {
+   "rows": 323,
+   "noEn": 9,
+   "noRarity": 0,
+   "noRarityInMarkedSet": 0,
+   "noImage": 0
+  },
+  "web": {
+   "rows": 47,
+   "noEn": 2,
+   "noRarity": 0,
+   "noRarityInMarkedSet": 0,
+   "noImage": 0
+  },
+  "XY": {
+   "rows": 2366,
+   "noEn": 240,
+   "noRarity": 1000,
+   "noRarityInMarkedSet": 0,
+   "noImage": 2
+  },
+  "BW": {
+   "rows": 1109,
+   "noEn": 74,
+   "noRarity": 278,
+   "noRarityInMarkedSet": 0,
+   "noImage": 0
+  },
+  "DP": {
+   "rows": 311,
+   "noEn": 73,
+   "noRarity": 203,
+   "noRarityInMarkedSet": 0,
+   "noImage": 0
+  },
+  "SM": {
+   "rows": 4179,
+   "noEn": 550,
+   "noRarity": 1498,
+   "noRarityInMarkedSet": 486,
+   "noImage": 266
+  },
+  "L": {
+   "rows": 470,
+   "noEn": 84,
+   "noRarity": 130,
+   "noRarityInMarkedSet": 0,
+   "noImage": 0
+  },
+  "DPt": {
+   "rows": 65,
+   "noEn": 24,
+   "noRarity": 65,
+   "noRarityInMarkedSet": 0,
+   "noImage": 0
+  }
+ },
+ "byKind": {
+  "ポケモン": {
+   "rows": 17289,
+   "noEn": 750,
+   "noRarity": 5279,
+   "noRarityInMarkedSet": 1472,
+   "noImage": 269
+  },
+  "トレーナーズ": {
+   "rows": 4661,
+   "noEn": 783,
+   "noRarity": 2473,
+   "noRarityInMarkedSet": 582,
+   "noImage": 151
+  },
+  "エネルギー": {
+   "rows": 674,
+   "noEn": 361,
+   "noRarity": 426,
+   "noRarityInMarkedSet": 136,
+   "noImage": 36
+  }
+ },
+ "findings": {
+  "jaNotInOfficial": 315,
+  "jaDiffPcg": 0,
+  "jaMachineLike": 110,
+  "enMissingPart": 136,
+  "numberClash": 0,
+  "imageNameDiff": 5
+ }
+}

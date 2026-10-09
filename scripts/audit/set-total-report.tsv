@@ -1,0 +1,267 @@
+set	sr	of	dens	source	status
+M1L	M	63	{"063":48}	scan-progress	一致
+M1S	M	63	{"063":48}	scan-progress	一致
+M2	M	80	{"080":59}	scan-progress	一致
+M3	M	80	{"080":59}	scan-progress	一致
+PCG1	PCG	82	{}	公式サイトに無い	調べていない
+PCG2	PCG	82	{}	公式サイトに無い	調べていない
+PCG3	PCG	84	{}	公式サイトに無い	調べていない
+PCG4	PCG	106	{}	公式サイトに無い	調べていない
+PCG5	PCG	86	{}	公式サイトに無い	調べていない
+PCG6	PCG	86	{}	公式サイトに無い	調べていない
+PCG7	PCG	52	{}	公式サイトに無い	調べていない
+PCG8	PCG	75	{}	公式サイトに無い	調べていない
+PCG9	PCG	68	{}	公式サイトに無い	調べていない
+PMCG1	PMCG	102	{}	公式サイトに無い	調べていない
+PMCG2	PMCG	48	{}	公式サイトに無い	調べていない
+PMCG3	PMCG	48	{}	公式サイトに無い	調べていない
+PMCG4	PMCG	65	{}	公式サイトに無い	調べていない
+PMCG5	PMCG	96	{}	公式サイトに無い	調べていない
+PMCG6	PMCG	98	{}	公式サイトに無い	調べていない
+S10D	S	67	{"067":88}	scan-progress	一致
+S10P	S	67	{"067":88}	scan-progress	一致
+S10a	S	71	{"071":148}	scan-progress	一致
+S10b	S	71	{"071":93}	scan-progress	一致
+S11	S	100	{"100":127}	scan-progress	一致
+S11a	S	68	{"068":140}	scan-progress	一致
+S12	S	98	{"098":43}	scan-progress	一致
+S12a	S	172	{"172":343}	scan-progress	一致
+S4	S	100	{"100":111}	scan-progress	一致
+S4a	S	190	{"190":326}	scan-progress	一致
+S5I	S	70	{"070":81}	scan-progress	一致
+S5R	S	70	{"070":81}	scan-progress	一致
+S5a	S	70	{"070":84}	scan-progress	一致
+S6H	S	70	{"070":83}	scan-progress	一致
+S6K	S	70	{"070":83}	scan-progress	一致
+S6a	S	69	{"069":87}	scan-progress	一致
+S7D	S	67	{"067":79}	scan-progress	一致
+S7R	S	67	{"067":79}	scan-progress	一致
+S8	S	100	{"100":115}	scan-progress	一致
+S8a	S	28	{"028":29}	scan-progress	一致
+S8b	S	184	{"184":229}	scan-progress	一致
+S9	S	100	{"100":50}	scan-progress	一致
+S9a	S	67	{"067":138}	scan-progress	一致
+SH	S	53	{"053":72}	scan-progress	一致
+SI	S	414	{"414":260}	scan-progress	一致
+SJ	S	28	{"028":30}	scan-progress	一致
+SK	S	30	{"030":2}	scan-progress	一致
+SLD	S	20	{"020":2}	scan-progress	一致
+SLL	S	21	{"021":2}	scan-progress	一致
+SN	S	24	{"024":2}	scan-progress	一致
+SP6	S	6	{"006":3}	details.php（41955 41958 41960）	一致
+SPD	S	20	{"020":2}	scan-progress	一致
+SPZ	S	20	{"020":2}	scan-progress	一致
+SV10	SV	98	{"098":83}	scan-progress	一致
+SV11B	SV	86	{"086":168}	scan-progress	一致
+SV11W	SV	86	{"086":168}	scan-progress	一致
+SV1S	SV	78	{"078":67}	scan-progress	一致
+SV1V	SV	78	{"078":66}	scan-progress	一致
+SV1a	SV	73	{"073":64}	scan-progress	一致
+SV2D	SV	71	{"071":60}	scan-progress	一致
+SV2P	SV	71	{"071":59}	scan-progress	一致
+SV2a	SV	165	{"165":210}	scan-progress	一致
+SV3	SV	108	{"108":71}	scan-progress	一致
+SV3a	SV	62	{"062":53}	scan-progress	一致
+SV4K	SV	66	{"066":58}	scan-progress	一致
+SV4M	SV	66	{"066":58}	scan-progress	一致
+SV4a	SV	190	{"190":360}	scan-progress	一致
+SV5K	SV	71	{"071":56}	scan-progress	一致
+SV5M	SV	71	{"071":100}	scan-progress	一致
+SV5a	SV	66	{"066":57}	scan-progress	一致
+SV6	SV	101	{"101":133}	scan-progress	一致
+SV6a	SV	64	{"064":94}	scan-progress	一致
+SV7	SV	102	{"102":67}	scan-progress	一致
+SV7a	SV	64	{"064":61}	scan-progress	一致
+SV8	SV	106	{"106":78}	scan-progress	一致
+SV8a	SV	187	{"187":234}	scan-progress	一致
+SV9	SV	100	{"100":56}	scan-progress	一致
+SV9a	SV	63	{"063":50}	scan-progress	一致
+SVAL	SV	21	{"021":24}	scan-progress	一致
+SVAM	SV	23	{"023":26}	scan-progress	一致
+SVAW	SV	23	{"023":26}	scan-progress	一致
+SVB	SV	28	{"028":3}	details.php（42794 42801 42814）	一致
+SVC	SV	21	{"021":24}	scan-progress	一致
+SVD	SV	139	{"139":10}	scan-progress	一致
+SVEL	SV	20	{"020":22}	scan-progress	一致
+SVEM	SV	20	{"020":22}	scan-progress	一致
+SVF	SV	38	{"038":2}	scan-progress	一致
+SVHK	SV	53	{"053":2}	scan-progress	一致
+SVHM	SV	53	{"053":2}	scan-progress	一致
+SVK	SV	44	{"044":2}	scan-progress	一致
+SVLN	SV	22	{"022":3}	details.php（46206 46217 46227）	一致
+SVLS	SV	22	{"022":3}	details.php（46184 46195 46205）	一致
+SVP1	SV	7	{"007":3}	details.php（43314 43317 43320）	一致
+VS1	VS	141	{}	公式サイトに無い	調べていない
+E1	e	128	{}	公式サイトに無い	調べていない
+E2	e	92	{}	公式サイトに無い	調べていない
+E3	e	87	{}	公式サイトに無い	調べていない
+E4	e	88	{}	公式サイトに無い	調べていない
+E5	e	88	{}	公式サイトに無い	調べていない
+neo1	neo	96	{}	公式サイトに無い	調べていない
+neo2	neo	56	{}	公式サイトに無い	調べていない
+neo3	neo	57	{}	公式サイトに無い	調べていない
+neo4	neo	113	{}	公式サイトに無い	調べていない
+web1	web	48	{}	公式サイトに無い	調べていない
+XY1-Bx	XY	60	{"060":63}	scan-progress	一致
+XY1-By	XY	60	{"060":63}	scan-progress	一致
+XY2	XY	80	{"080":87}	scan-progress	一致
+XY3	XY	96	{"096":103}	scan-progress	一致
+XY4	XY	88	{"088":95}	scan-progress	一致
+XY5-Bg	XY	70	{"070":78}	scan-progress	一致
+XY5-Bt	XY	70	{"070":78}	scan-progress	一致
+XY6-B	XY	78	{"078":89}	scan-progress	一致
+XY7-B	XY	81	{"081":95}	scan-progress	一致
+XY8-Bb	XY	59	{"059":64}	scan-progress	一致
+XY8-Br	XY	59	{"059":64}	scan-progress	一致
+XY9-B	XY	80	{"080":88}	scan-progress	一致
+XY10-B	XY	78	{"078":87}	scan-progress	一致
+XY11-Bb	XY	54	{"054":58}	scan-progress	一致
+XY11-Br	XY	54	{"054":58}	scan-progress	一致
+BW1-Bb	BW	53	{"053":53}	scan-progress	一致
+BW1-Bw	BW	53	{"053":53}	scan-progress	一致
+BW2-B	BW	66	{"066":66}	scan-progress	一致
+BW3-Bh	BW	52	{"052":52}	scan-progress	一致
+BW3-Bp	BW	52	{"052":52}	scan-progress	一致
+BW4-B	BW	69	{"069":69}	scan-progress	一致
+BW5-Brn	BW	50	{"050":50}	scan-progress	一致
+BW5-Brz	BW	50	{"050":50}	scan-progress	一致
+BW6-Bc	BW	59	{"059":59}	scan-progress	一致
+BW6-Bf	BW	59	{"059":59}	scan-progress	一致
+BW7-B	BW	70	{"070":70}	scan-progress	一致
+BW8-Brf	BW	51	{"051":51}	scan-progress	一致
+BW8-Brn	BW	51	{"051":51}	scan-progress	一致
+BW9-B	BW	76	{"076":76}	scan-progress	一致
+CP1	XY	34	{"034":3}	details.php（30816 30833 30849）	一致
+CP2	XY	27	{"027":3}	details.php（31093 31105 31119）	一致
+CP3	XY	32	{"032":1}	scan-progress	一致
+CP4	XY	131	{"131":11}	scan-progress	一致
+CP5	XY	36	{"036":3}	details.php（32155 32174 35859）	一致
+CP6	XY	87	{"087":12}	scan-progress	一致
+XYA	XY	21	{"021":1}	scan-progress	一致
+XYB	XY	18	{"018":3}	details.php（30560 30569 30577）	一致
+XYC	XY	23	{"023":3}	details.php（30616 30628 30638）	一致
+XYD	XY	18	{"018":1}	scan-progress	一致
+XYE	XY	22	{"022":12}	scan-progress	一致
+XYF	XY	16	{"016":1}	scan-progress	一致
+XYG	XY	19	{"019":1}	scan-progress	一致
+XYH	XY	26	{"026":1}	scan-progress	一致
+CPr	DP	12	{"012":3}	details.php（23501 23514 23525）	一致
+CPs	DP	12	{"012":3}	details.php（23526 23540 23550）	一致
+CPm	DP	12	{"012":3}	details.php（23551 23564 23575）	一致
+S1W	S	60	{"060":68}	scan-progress	一致
+S1H	S	60	{"060":68}	scan-progress	一致
+S1a	S	70	{"070":78}	scan-progress	一致
+S2	S	96	{"096":106}	scan-progress	一致
+S2a	S	70	{"070":78}	scan-progress	一致
+S3	S	100	{"100":110}	scan-progress	一致
+S3a	S	76	{"076":85}	scan-progress	一致
+SD	S	127	{"127":3}	details.php（38273 38312 38399）	一致
+SM1S	SM	60	{"060":3}	details.php（33005 33038 33064）	一致
+SM1M	SM	60	{"060":3}	details.php（33065 33098 33124）	一致
+SM1p	SM	51	{"051":2}	details.php（33230 33261 33283）	一致
+SM2K	SM	50	{"050":3}	details.php（33320 33347 35639）	一致
+SM2L	SM	50	{"050":3}	details.php（33417 33444 35634）	一致
+SM2p	SM	49	{"049":2}	details.php（33468 33498 33517）	一致
+SM3H	SM	51	{"051":3}	details.php（33864 33892 35653）	一致
+SM3N	SM	51	{"051":3}	details.php（33915 33943 35659）	一致
+SM3p	SM	72	{"072":77}	scan-progress	一致
+SM4S	SM	50	{"050":3}	details.php（34130 34157 35669）	一致
+SM4A	SM	50	{"050":3}	details.php（34080 34107 34129）	一致
+SM4p	SM	114	{"114":120}	scan-progress	一致
+SM5S	SM	66	{"066":3}	scan-progress	一致
+SM5M	SM	66	{"066":3}	scan-progress	一致
+SM5p	SM	50	{"050":2}	scan-progress	一致
+SM6	SM	94	{"094":3}	scan-progress	一致
+SM6a	SM	53	{"053":2}	scan-progress	一致
+SM6b	SM	66	{"066":3}	details.php（34856 34894 34921）	一致
+SM7	SM	96	{"096":3}	scan-progress	一致
+SM7a	SM	60	{"060":2}	scan-progress	一致
+SM7b	SM	50	{"050":2}	scan-progress	一致
+SM8	SM	95	{"095":3}	scan-progress	一致
+SM8a	SM	52	{"052":2}	scan-progress	一致
+SM8b	SM	150	{"150":6}	scan-progress	一致
+SM9	SM	95	{"095":17}	scan-progress	一致
+SM9a	SM	55	{"055":6}	scan-progress	一致
+SM9b	SM	54	{"054":6}	scan-progress	一致
+SM10	SM	95	{"095":9}	scan-progress	一致
+SM10a	SM	54	{"054":6}	scan-progress	一致
+SM10b	SM	54	{"054":6}	scan-progress	一致
+SM11	SM	94	{"094":9}	scan-progress	一致
+SM11a	SM	64	{"064":9}	scan-progress	一致
+SM11b	SM	49	{"049":4}	scan-progress	一致
+SM12	SM	95	{"095":17}	scan-progress	一致
+SM12a	SM	173	{"173":183}	scan-progress	一致
+SMA	SM	59	{"059":2}	details.php（33125 33159 33220）	一致
+SMB	SM	18	{"018":12}	scan-progress	一致
+SMC	SM	21	{"021":3}	details.php（33370 33380 33390）	一致
+SMD	SM	26	{"026":4}	scan-progress	一致
+SME	SM	21	{"021":3}	details.php（34357 34367 34377）	一致
+SMF	SM	20	{"020":3}	details.php（34515 34521 34526）	一致
+SMG	SM	41	{"041":3}	details.php（34629 34631 34636）	一致
+SMH	SM	131	{"131":3}	details.php（35030 35075 35148）	一致
+SMI	SM	38	{"038":3}	details.php（35898 35917 35935）	一致
+SMJ	SM	35	{"035":3}	details.php（36595 36612 36629）	一致
+SMK	SM	31	{"031":3}	details.php（36224 36239 36254）	一致
+SML	SM	51	{"051":19}	scan-progress	一致
+SMM	SM	31	{"031":2}	scan-progress	一致
+SMN	SM	29	{"029":3}	details.php（36434 36448 36462）	一致
+MA	M	43	{"043":3}	details.php（47860 47881 47902）	一致
+MBD	M	21	{"021":3}	details.php（48285 48295 48305）	一致
+MBG	M	21	{"021":3}	details.php（48262 48272 48282）	一致
+M5	M	81	{"081":63}	scan-progress	一致
+M4	M	83	{"083":120}	scan-progress	一致
+MP1	M	23	{"023":23}	scan-progress	一致
+MC	M	742	{"742":3}	details.php（48717 49104 49458）	一致
+M2a	M	193	{"193":250}	scan-progress	一致
+L1-Bhg	L	70	{"070":2}	scan-progress	一致
+L1-Bss	L	70	{"070":2}	scan-progress	一致
+L2-B	L	80	{"080":6}	scan-progress	一致
+L3-B	L	80	{"080":6}	scan-progress	一致
+LL	L	40	{"040":2}	scan-progress	一致
+L2-Sb	L	19	{"019":2}	scan-progress	一致
+L2-Sh	L	19	{"019":2}	scan-progress	一致
+SVI	SV	66	{"066":44}	scan-progress	一致
+SVM	SV	175	{"175":3}	details.php（46455 46542 46629）	一致
+SVG	SV	49	{"049":3}	details.php（44472 44498 44520）	一致
+SVN	SV	45	{"045":3}	details.php（47176 47198 47220）	一致
+SVJL	SV	21	{"021":3}	details.php（45801 45811 45821）	一致
+SVJP	SV	19	{"019":3}	details.php（45822 45831 45840）	一致
+SVOD	SV	18	{"018":3}	details.php（47272 47280 47289）	一致
+SVOM	SV	19	{"019":3}	details.php（47253 47262 47271）	一致
+WCP	DP	108	{"108":3}	details.php（4000 4054 4107）	一致
+20th	XY	72	{"072":3}	scan-progress	一致
+SM0	SM	4	{"004":3}	details.php（33001 33003 33004）	一致
+SMP1	SM	13	{"013":3}	details.php（33305 33311 33317）	一致
+SMP2	SM	24	{"024":3}	details.php（36718 36730 36742）	一致
+WCS23	SV	30	{"030":2}	details.php（43993 44009 44024）	一致
+S8a-G	S	15	{"015":2}	details.php（41664 41672 41679）	一致
+S8a-P	S	25	{"025":3}	details.php（50753 50768 50765）	一致
+XY-BEST	XY	171	{"171":3}	details.php（33553 33700 33851）	一致
+M6	M	76	{"076":3}	details.php（50339 50394 50547）	一致
+MEE	M	19	{"019":3}	details.php（50412 50431 50430）	一致
+MEZ	M	19	{"019":3}	details.php（50432 50451 50450）	一致
+MEM	M	17	{"017":3}	details.php（50452 50469 50468）	一致
+MF	M	40	{"040":2}	details.php（50564 50588 50612）	一致
+M6a	M	103	{"103":2}	details.php（50613 50683 50752）	一致
+SO	S	30	{"030":2}	details.php（42226 42242 42257）	一致
+SP1	S	7	{"007":3}	details.php（37784 37787 37790）	一致
+SP2	S	4	{"004":1}	details.php（38635 38640 38641）	一致
+SP3	S	6	{"006":3}	details.php（39502 39505 39507）	一致
+SP4	S	4	{"004":1}	details.php（39654 39658 39659）	一致
+SGI	S	22	{"022":2}	details.php（39559 39570 39582）	一致
+SGG	S	19	{"019":2}	details.php（39538 39547 39558）	一致
+SF	S	33	{"033":3}	details.php（39213 39229 39245）	一致
+SC	BW	20	{"020":3}	details.php（28616 28626 28635）	一致
+SC2	S	21	{"021":3}	details.php（38887 38897 38907）	一致
+SEF	S	21	{"021":3}	details.php（38865 38875 38885）	一致
+SEK	S	20	{"020":3}	details.php（38845 38855 38864）	一致
+SB	S	24	{"024":3}	details.php（37731 37752 37763）	一致
+SCS-R	S	21	{}		分母が取れない
+SCS-O	S	20	{}		分母が取れない
+SA-G	S	23	{}		分母が取れない
+SA-R	S	23	{}		分母が取れない
+SA-W	S	23	{}		分母が取れない
+SA-L	S	24	{}		分母が取れない
+SA-F	S	24	{}		分母が取れない
+MG-G	BW	16	{}		分母が取れない
+MG-M	BW	16	{}		分母が取れない
