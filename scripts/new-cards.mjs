@@ -202,8 +202,9 @@ async function main() {
   const data = JSON.parse(raw);
   const rows = classify(out, details, data);
   const ledger = readJson(LEDGER, {});
-  const energy = rows.filter((r) => r.status === "番号なし（基本エネルギー）" && !ledger[r.cardId]);
-  for (const r of energy) ledger[r.cardId] = { status: "skip", reason: "番号の無い基本エネルギー", name: r.name, key: r.key, date: today };
+  // 番号の無い基本エネルギーと、登録済みのカードの別掲載（同じ番号・同じ名前）は台帳に記録し、次から候補に出さない（今回の一覧には出す）
+  const energy = rows.filter((r) => (r.status === "番号なし（基本エネルギー）" || r.status.startsWith("登録済み")) && !ledger[r.cardId]);
+  for (const r of energy) ledger[r.cardId] = { status: "skip", reason: r.status.startsWith("登録済み") ? `${r.target}-${r.number} の別掲載` : "番号の無い基本エネルギー", name: r.name, key: r.key, date: today };
   if (energy.length) writeJson(LEDGER, ledger);
   if (!argv.includes("--apply")) return report(rows);
 

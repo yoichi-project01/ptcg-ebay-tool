@@ -2767,6 +2767,32 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   （チャンピオンズリーグ2023 参加賞。公式の画像に 329/S-P・037/SV-P と印刷、Bulbapedia も S-P 329〜336・SV-P 037〜044）。cardData に入っていない（追加するかは未決定）。
   S-P 060〜067（2021年の同じ基本エネルギー）は公式一覧に無いまま。SV-P 291 ピカチュウ（ポケモンカードジム 2025年10月〜）も cardData に無い（一覧の取得より新しい可能性）。
 
+### 対応（2026-10-09）: CL2023 の基本エネルギー16枚・公式の一覧の取り直しと新しい弾の取り込み・取り込みの手順
+
+- **CL2023 参加賞の基本エネルギー16枚**: S-P 329〜336・SV-P 037〜044（草・炎・水・雷・超・闘・悪・鋼）。details.php に番号が無いが、公式の画像に番号が印刷されている
+  （16枚とも画像で番号と種類を確認）。`scrape-promo-sets.mjs` の `printedNumbers` に書き、欠番の一覧から外して `add-promo-rows.mjs --set S-P|SV-P` で追加
+  （add-promo-rows.mjs は型番 X の行を照合から外すようにした）。英語名は空欄（基本エネルギーはカードにイラストレーターの記載が無く、これまでも空欄にしている）。
+  card_id は `promo-progress/{S-P,SV-P}-added-card-ids-2026-10-09.txt`。
+- **公式の一覧の取り直し（2026-10-09）**: 23,451件で、前回（09-29）から**新しく載ったカードは0件**（cardID の最大も同じ 50777）。SV-P 291 ピカチュウ（Bulbapedia では
+  2025年10月〜のポケモンカードジムの参加賞）は公式のカード検索にまだ無い。M6a の 104〜135・M-P の 101〜127（30th CELEBRATION カードセット、2026年10月16日）も未掲載。
+- **09-29 の一覧に既にあって取り込んでいなかったカードを追加**（`scripts/new-cards.mjs`、card_id は `scripts/new-cards/{弾}-added-card-ids-2026-10-09.txt`）:
+
+  | 弾 | 枚数 | 内容 |
+  |---|---:|---|
+  | XY-P | 3 | 189 オーベムBREAK・217 バルジーナBREAK・267 ウインディBREAK（欠番としていた最後の3つ。`extraCardIds` に追記、欠番の一覧は空に） |
+  | M6 | 113 | 拡張パック「ストームエメラルダ」（2026-07-31、/076）。113 メガレックウザex はアイコンが無くレアリティ空欄 |
+  | MEE・MEZ・MEM | 20・20・18 | スターターセットex イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex（2026-07-31） |
+  | MF | 44 | 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（2026-09-16、/040） |
+
+  弾の情報（ja・y）は公式の商品情報（https://www.pokemon-card.com/products/）とポケモンセンターオンラインの商品ページで確かめた（`scripts/new-cards/set-meta.json`）。
+  en・psaName は PSA で確かめられないため空欄、カードの英語名も空欄。
+  M6・MEE・MEZ・MEM が漏れていたのは、プロモの欠番の調査（`promo-progress/gap-check.json`）で details.php を見ただけのカードを「確かめ済み」と数えていたため（new-cards.mjs では数えない）。
+- **残り（取り込んでいない）**: M6a 30th CELEBRATION（133枚が載っているが 104〜135 の32枚が公式に未掲載。そろってから `--apply --new M6a`）、
+  番号の無い XYP の BREAK 3枚（エンペルトBREAK〔バトルフェスタ2015〕・クロバットBREAK×2〔ポケモンカードジム・カメックスメガバトル〕、画像も「XY-P」だけ）と
+  SMP の古代ミュウ（cardID 36903、番号なし）は番号なしのプロモ（`add-numberless-promos.mjs`）で足す候補、SNPr・SNPo（10枚の構築デッキの BREAK が1枚ずつしか載っていない）。
+  ほかに旧キャッシュ（2026-07-04）にあって一度も取り込んでいない S 世代のデッキ等（SO・SP1〜4・SGI・SGG・SF・SC2・SEF・SEK・SCS・SB・SC 等）がある（未着手）。
+- **ビット化け（4件目）**: S9-100 ダブルターボエネルギーの画像が1ビット反転していた（0x80 のビット、更新日時は 07-05 のまま）。公式の画像（cardID 41002）が一覧と一致したので戻した（`image-decode-report/fixed-2026-10-09c.json`）。
+
 ---
 
 ## ファイル構成
@@ -2844,6 +2870,38 @@ public/
 - キー形式: `"{setCode}/{localId}"` → 値: `"/cards/{sr}/{set}/{jaName}_{setCode}-{localId}／{total}_{rarity}.jpg"` など
 
 ---
+
+## 新しいカードの取り込み（定期的に行う。2026-10-09〜）
+
+新しい弾・既存の弾やプロモに新しく載ったカードを、公式のカード検索から見つけて取り込む。`scripts/new-cards.mjs` を使う。
+1回の作業の目安は、一覧の取り直し約25分＋候補の details.php の取得（1件2〜3秒）。
+
+1. **作業の前に** `node scripts/image-hashes.mjs --verify`（0件であること）
+2. **一覧を取り直して候補を出す**: `node scripts/new-cards.mjs --rescan`
+   - 公式の一覧（resultAPI.php）を取り直して `scripts/official-card-scan.json` を上書きし、これまでに確かめた cardID に無いカードの details.php を取得する（1接続・2〜3秒間隔、途中で止まっても再実行で続きから）。
+   - 結果は `scripts/new-cards/report.tsv`（cardID・印刷記号・番号・総数・名前・レアリティ・追加先・状態）と、画面の弾ごとのまとめ。**ここで内容を確かめてから追加する**。
+   - 状態: 「追加」（既存の弾に足せる）／「新しい弾」／「登録済み（同じカードの別掲載）」／「番号が重なる」（止まる。人が確かめる）／「番号なし（要確認）」／「弾が1つに決まらない」。
+   - 番号の無い基本エネルギーは自動で台帳（`scripts/new-cards/ledger.json`）に skip として記録され、次から出ない。
+   - 一覧を取り直さずに候補だけ出し直すときは `node scripts/new-cards.mjs`（取得もするなら `--fetch`）。
+3. **既存の弾に足す**: `node scripts/new-cards.mjs --apply --set <弾>`
+   - 印刷記号が弾の codeAlias（無ければ弾コード）と同じで、総数が弾の of と同じ（プロモは「NNN / 弾コード」）カードだけを足す。画像は公式から取り、
+     画像の対応表をその弾だけ作り直し（`build-image-index.mjs --only`）、`--verify` まで行う。足した card_id は `scripts/new-cards/{弾}-added-card-ids-{日付}.txt`。
+   - 番号が無いのに画像に番号が印刷されているカード（CL2023 の基本エネルギー等）は自動では足せない。画像で番号を確かめ、プロモなら `scrape-promo-sets.mjs` の
+     `printedNumbers` に書いて `add-promo-rows.mjs --set <弾>` で足す。
+4. **新しい弾を作る**: `node scripts/new-cards.mjs --apply --new <印刷記号>`（初回は `scripts/new-cards/set-meta.json` の雛形を出して止まる）
+   - 弾の情報を `set-meta.json` に書く。**推測で埋めない**。確かめられないものは空欄（en・psaName）。
+     - `c`（弾コード）: 印刷記号と同じにする（同じ記号の弾が既にあれば「記号-区別」の形。例 S8a-P・XY-BEST）。`codeAlias` は印刷記号。
+     - `ja`: 公式の商品ページ・ニュースの商品名。
+     - `y`（発売年）: 公式の商品ページの発売日。Limitless TCG の日本版の一覧（型番で一致）と一致すること。
+     - `sr`（シリーズ）: 弾の世代（M・SV・S など。画像のフォルダ名になる）。
+     - `en`・`psaName`: PSA の日本版のラベル表記（鑑定書・集計ページのタイトル）で確かめたものだけ。PSA にまだ無ければ空欄にし、後で埋める
+       （`scripts/set-psa-names.json`・`set-en-sources.json` に出典を書いて `apply-set-metadata.mjs`／`fill-set-en-y.mjs`）。
+   - 1〜最大番号に欠番があれば止まる（公式に載っていないカードがある。足さずに様子を見る）。
+5. **英語名**: 足したカードの英語名は空欄。これまでと同じ方法（`fill-common-en.mjs`・`fill-high-rarity-en.mjs`：Bulbapedia の日本版の一覧をブラウザで取り出し、
+   規則の名前か TCGdex 英語版の同じ名前・種類・イラストレーターとの一致）で入れる。新しい弾は Bulbapedia・TCGdex の掲載を待つことが多い。
+6. **取り込まないカード**: `node scripts/new-cards.mjs --skip <cardID,…> --reason "理由"`（台帳に記録し、次から出さない）。
+7. **作業の後に** `--verify`・`npx vitest run`・`python scripts/detect-contaminated-en-names.py`・`node scripts/check-row-alignment.mjs`。弾ごとにコミットして push。
+   カイトリレーダーへの反映（R2 への画像の送り・見本の特徴）は向こうの手順で行う。
 
 ## 画像を一から取得し直す場合
 
