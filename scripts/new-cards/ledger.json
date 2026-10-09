@@ -384,6 +384,167 @@
   "key": "SA",
   "date": "2026-10-09"
  },
+ "37503": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "001",
+  "name": "ロコン",
+  "date": "2026-10-09"
+ },
+ "37504": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "002",
+  "name": "キュウコン",
+  "date": "2026-10-09"
+ },
+ "37505": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "003",
+  "name": "ビクティニV",
+  "date": "2026-10-09"
+ },
+ "37506": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "004",
+  "name": "クイタラン",
+  "date": "2026-10-09"
+ },
+ "37507": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "005",
+  "name": "バクガメス",
+  "date": "2026-10-09"
+ },
+ "37508": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "006",
+  "name": "ヒバニー",
+  "date": "2026-10-09"
+ },
+ "37509": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "007",
+  "name": "ラビフット",
+  "date": "2026-10-09"
+ },
+ "37510": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "008",
+  "name": "エースバーン",
+  "date": "2026-10-09"
+ },
+ "37511": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "009",
+  "name": "ヤクデ",
+  "date": "2026-10-09"
+ },
+ "37512": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "010",
+  "name": "チラーミィ",
+  "date": "2026-10-09"
+ },
+ "37513": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "011",
+  "name": "エネルギー転送",
+  "date": "2026-10-09"
+ },
+ "37514": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "012",
+  "name": "クラッシュハンマー",
+  "date": "2026-10-09"
+ },
+ "37515": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "013",
+  "name": "しんかのおこう",
+  "date": "2026-10-09"
+ },
+ "37516": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "014",
+  "name": "スーパーボール",
+  "date": "2026-10-09"
+ },
+ "37517": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "015",
+  "name": "ふしぎなアメ",
+  "date": "2026-10-09"
+ },
+ "37518": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "016",
+  "name": "ポケギア3.0",
+  "date": "2026-10-09"
+ },
+ "37519": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "017",
+  "name": "ポケモンいれかえ",
+  "date": "2026-10-09"
+ },
+ "37520": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "018",
+  "name": "ポケモンキャッチャー",
+  "date": "2026-10-09"
+ },
+ "37521": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "019",
+  "name": "げんきのハチマキ",
+  "date": "2026-10-09"
+ },
+ "37522": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "020",
+  "name": "博士の研究",
+  "date": "2026-10-09"
+ },
+ "37523": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "021",
+  "name": "ポケモンごっこ",
+  "date": "2026-10-09"
+ },
+ "37524": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "022",
+  "name": "ホップ",
+  "date": "2026-10-09"
+ },
+ "37525": {
+  "status": "added",
+  "set": "SA-R",
+  "number": "023",
+  "name": "マリィ",
+  "date": "2026-10-09"
+ },
  "37526": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
