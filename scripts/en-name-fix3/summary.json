@@ -5895,5 +5895,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MF-pokemon": {
+  "set": "MF",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "30th Celebration Premium Deck Set Espeon & Umbreon (TCG)",
+   "section": "30th Celebration Premium Deck Set Espeon & Umbreon",
+   "den": "den=040",
+   "file": "M-2026.txt"
+  },
+  "targets": 27,
+  "filled": 27,
+  "filledByRule": 27,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "MF-trainer": {
+  "set": "MF",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "30th Celebration Premium Deck Set Espeon & Umbreon (TCG)",
+   "section": "30th Celebration Premium Deck Set Espeon & Umbreon",
+   "den": "den=040",
+   "file": "M-2026.txt"
+  },
+  "targets": 13,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "Bulbapedia の一覧に無い": 1
+  }
  }
 }
