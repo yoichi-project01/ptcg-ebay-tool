@@ -6241,5 +6241,38 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "SF-pokemon": {
+  "set": "SF",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Single Strike & Rapid Strike Premium Trainer Boxes (TCG)",
+   "section": "Single Strike & Rapid Strike Premium Trainer Boxes",
+   "den": "den=033",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 7,
+  "filled": 7,
+  "filledByRule": 5,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SF-trainer": {
+  "set": "SF",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Single Strike & Rapid Strike Premium Trainer Boxes (TCG)",
+   "section": "Single Strike & Rapid Strike Premium Trainer Boxes",
+   "den": "den=033",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 26,
+  "filled": 21,
+  "filledByRule": 0,
+  "blank": 5,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 2,
+   "Bulbapedia の一覧に無い": 3
+  }
  }
 }
