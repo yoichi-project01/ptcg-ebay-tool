@@ -2734,8 +2734,23 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   チャンピオンズリーグ・タッチ交換！・ポケモンカードジムメダル・殿堂の書 2・みがわりロボ）、英語版の同じ名前のカードとイラストレーターが違う 3（トロピカルタイダルウェーブ・
   トロピカルビーチ 2）、Bulbapedia の一覧に無い 3（XY-P のバシャーモEX・ケムッソ・ジラーチ）。日本だけのカードは PSA の表記が2つ目の情報源になりうるが、
   PSA の鑑定書のページがブラウザでも Cloudflare の確認で止まり（2026-10-09）見られなかった。
+- **XY-P の X31066 バシャーモEX・X31067 ケムッソ・X31068 ジラーチは番号付きだった**: Bulbapedia の XY-P の一覧では 127〜129/XY-P（配布の説明も公式の本文と一致）で、
+  公式の画像にも 127/XY-P・128/XY-P・129/XY-P と印刷されている（details.php のページに番号が表示されないだけ）。以前「公式にページ無し」とした XY-P の欠番 127〜129 はこの3枚。
+  英語名（Blaziken-EX・Wurmple・Jirachi）は規則と Bulbapedia の一致で入れた（`fix-xyp-127-129-en.mjs`）。**型番を X＋cardID から 127〜129 に変えるかは未決定**（card_id が変わる）。
 - **作業中にまた C: でビット化け**: この作業で触っていない MBD-010（なかよしポフィン）が1ビット反転していた（`--verify` で検出して止まった）。公式 details.php（cardID 48294）の画像が
   SHA-256 の一覧と一致したので取り直して戻した（`image-decode-report/fixed-2026-10-09b.json`）。PC 本体（メモリ等）の検査を引き続き勧める。
+
+### 対応（2026-10-09）: 残った小さな件（VS1 特殊エネルギー・持ち主の抜けた英語名・なみのりピカチュウ）
+
+- **VS1-143・144**（`scripts/old-ja-check/fix-vs1-special-energy.mjs`）: 金属エネルギー→**鋼エネルギー**、闇のエネルギー→**悪エネルギー**。pcg-search の vs0en8/vs0en7 のページの名前
+  （行の画像が pcg-search の画像とバイト単位で同じ）と、ポケモンWiki の「呼称の変遷」（neo〜PCG は特殊エネルギーの正式名称が「鋼エネルギー」「悪エネルギー」）が一致。
+  Bulbapedia のカードのページの「特殊鋼/悪エネルギー」は今の呼び方なので使わない。英語名 Metal Energy・Darkness Energy、151 は Rainbow Energy（Bulbapedia の VS の一覧と
+  TCGdex 英語版の同じ名前・同じイラストレーター〔Milky Isobe・Takumi Akabane、pcg-search の illus.〕）。画像のファイル名・対応表・SHA-256 の一覧のパスも合わせた。
+- **持ち主・前置き・フォルムが抜けた英語名 111件**（`scripts/fix-owner-en.mjs`、根拠 `en-name-fix3/owner-fix-{弾}.json`）: SV10 44（Team Rocket's 〜・Mow/Heat/Wash Rotom）・
+  SV9 32（N's・Iono's・Lillie's・Hop's）・SV9a 31（Ethan's・Cynthia's・Misty's・Arven's）・SV7 2（Mow/Fan Rotom）・neo4-024 Dark Houndoom・web1-025 Surfing Pikachu。
+  日本語名から作った名前と Bulbapedia の日本版の一覧（`en-name-fix3/bulbapedia-owner/SV-owner-2026-10-09.txt`、SHA-256 照合済み。neo4 は番号の無い一覧の24番目）が一致した行だけ。
+  なみのりピカチュウは Bulbapedia と TCGdex 英語版の Surfing Pikachu（同じイラストレーター Toshinao Aoki）で確かめた。
+  全弾を洗い出して残ったのは TAG TEAM 11件（「ベトベトン&アローラ ベトベトンGX」→ Muk & Alolan Muk-GX 等、正しい）と XY-P-247 マスクド・ピカチュウ（Pikachu Libre、正しい）だけ。
 
 ---
 
