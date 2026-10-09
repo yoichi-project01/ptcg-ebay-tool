@@ -13719,5 +13719,31 @@
   ],
   "illustrator": "Jiro Sasumo",
   "cardId": "50469"
+ },
+ "SGG-020": {
+  "tried": [
+   {
+    "cardId": "44975",
+    "nums": [
+     20
+    ],
+    "illustrator": "sowsow"
+   }
+  ],
+  "illustrator": "sowsow",
+  "cardId": "44975"
+ },
+ "SGI-023": {
+  "tried": [
+   {
+    "cardId": "44976",
+    "nums": [
+     23
+    ],
+    "illustrator": "Kazuma Koda"
+   }
+  ],
+  "illustrator": "Kazuma Koda",
+  "cardId": "44976"
  }
 }
