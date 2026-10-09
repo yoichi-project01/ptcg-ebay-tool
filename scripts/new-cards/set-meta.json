@@ -92,5 +92,135 @@
    135
   ],
   "source": "公式の商品情報 https://www.pokemon-card.com/products/ 「拡張パック「30th CELEBRATION」販売日 2026年 9月16日（水）」（2026-10-09 に確認）。pendingGaps: 2026-10-09 の公式一覧に 104〜135（/103）が載っていない。載ったら node scripts/new-cards.mjs --rescan の後 --apply --set M6a で足す"
+ },
+ "SO": {
+  "c": "SO",
+  "ja": "スペシャルデッキセット リザードンVSTAR vs レックウザVMAX",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2022,
+  "codeAlias": "SO",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「スペシャルデッキセット リザードンVSTAR vs レックウザVMAX」2022年11月4日。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SP1": {
+  "c": "SP1",
+  "ja": "ザシアン＋ザマゼンタBOX",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2019,
+  "codeAlias": "SP1",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「ザシアン＋ザマゼンタBOX」2019年12月27日。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SP2": {
+  "c": "SP2",
+  "ja": "VMAXスペシャルセット",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2020,
+  "codeAlias": "SP2",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「VMAXスペシャルセット」2020年10月23日。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SP3": {
+  "c": "SP3",
+  "ja": "ジャンボパックセット 白銀のランス＆漆黒のガイスト",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2021,
+  "codeAlias": "SP3",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「ジャンボパックセット 白銀のランス＆漆黒のガイスト」2021年4月23日。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SP4": {
+  "c": "SP4",
+  "ja": "VMAXスペシャルセット イーブイヒーローズ",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2021,
+  "codeAlias": "SP4",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「VMAXスペシャルセット イーブイヒーローズ」2021年5月28日。収録カードの一覧（pg737）の画像フォルダが SP4。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SGI": {
+  "c": "SGI",
+  "ja": "ハイクラスデッキ インテレオンVMAX",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2021,
+  "codeAlias": "SGI",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「ハイクラスデッキ インテレオンVMAX」2021年5月28日。収録カードの一覧（pg735）の画像フォルダが SGI。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SGG": {
+  "c": "SGG",
+  "ja": "ハイクラスデッキ ゲンガーVMAX",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2021,
+  "codeAlias": "SGG",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「ハイクラスデッキ ゲンガーVMAX」2021年5月28日。収録カードの一覧（pg734）の画像フォルダが SGG。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SF": {
+  "c": "SF",
+  "ja": "プレミアムトレーナーボックス ICHIGEKI・RENGEKI",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2021,
+  "codeAlias": "SF",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「ポケモンカードゲーム ソード＆シールド プレミアムトレーナーボックス ICHIGEKI／RENGEKI」2021年1月22日（2商品で同じ33種のカード。Limitless は Premium Trainer Box Single Strike & Rapid Strike）。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SC": {
+  "c": "SC",
+  "ja": "コンセプトパック「シャイニーコレクション」",
+  "en": "",
+  "psaName": "",
+  "sr": "BW",
+  "y": 2013,
+  "codeAlias": "SC",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「コンセプトパック「シャイニーコレクション」」2013年2月1日（BW 世代）。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SC2": {
+  "c": "SC2",
+  "ja": "VMAX 対戦トリプルスターターセット",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2020,
+  "codeAlias": "SC2",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「VMAX 対戦トリプルスターターセット」2020年12月4日。この商品に入っている「スターターセットVMAX リザードン」のデッキ（Limitless は Charizard VMAX Starter Set 2）。単体の「スターターセットVMAX リザードン」（2020年3月27日、記号 SCS）とは別の刷り。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SEF": {
+  "c": "SEF",
+  "ja": "スターターセットVMAX フシギバナ",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2020,
+  "codeAlias": "SEF",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「スターターセットVMAX フシギバナ」2020年12月4日。収録カードの一覧（pg725）の画像フォルダが SEF。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SEK": {
+  "c": "SEK",
+  "ja": "スターターセットVMAX カメックス",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2020,
+  "codeAlias": "SEK",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「スターターセットVMAX カメックス」2020年12月4日。収録カードの一覧（pg724）の画像フォルダが SEK。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
+ },
+ "SB": {
+  "c": "SB",
+  "ja": "プレミアムトレーナーボックス ソード＆シールド",
+  "en": "",
+  "psaName": "",
+  "sr": "S",
+  "y": 2019,
+  "codeAlias": "SB",
+  "source": "公式の商品情報（resultAPI.php の商品一覧、2026-10-10 に確認）「プレミアムトレーナーボックス ソード＆シールド」2019年12月6日。Limitless TCG の日本版の一覧の同じ記号の発売日と一致。en・psaName は PSA で確かめられないため空欄"
  }
 }

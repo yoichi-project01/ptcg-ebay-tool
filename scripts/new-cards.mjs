@@ -8,6 +8,7 @@
  *   node scripts/new-cards.mjs --apply --set SV-P    確かめたカードを既存の弾に足す（行・画像・画像の対応表・SHA-256 の一覧）
  *   node scripts/new-cards.mjs --apply --new M6a     新しい弾を作る（scripts/new-cards/set-meta.json に弾の情報が要る。無ければ雛形を出して止まる）
  *   node scripts/new-cards.mjs --skip 12345,12346 --reason "…"   取り込まないと決めたカードを記録し、次から候補に出さない
+ *   node scripts/new-cards.mjs --keys SO,SP1 --fetch               公式の一覧のキーを指定して、一度も取り込んでいない古いキーのカードを候補にする（--apply でも同じ --keys を付ける）
  *
  * 候補: 公式の一覧のカードのうち、これまでに確かめた cardID（最初の一覧 official-card-cache.json・各進捗ファイル・スクリプトの extraCardIds・
  *   台帳 scripts/new-cards/ledger.json）に無いもの。
@@ -72,14 +73,19 @@ function knownIds() {
 }
 
 // --- 候補（公式の一覧にあって、確かめていない cardID） ---
+// --keys SO,SP1,…: 公式の一覧のキーを指定して、最初の一覧（official-card-cache.json）や進捗ファイルにあっても候補に入れる
+// （一度も取り込んでいない古いキー用。台帳に記録済みのカードと、cardData に既にあるカードの cardID は除く）
+const KEYS = arg("--keys") ? new Set(arg("--keys").split(",")) : null;
 function candidates() {
   const scan = readJson(SCAN, null);
   if (!scan) throw new Error("official-card-scan.json がありません（--rescan で取り直す）");
   const known = knownIds();
+  const ledger = readJson(LEDGER, {});
   const out = [];
   for (const [key, list] of Object.entries(scan.setMap)) for (const c of list) {
     const id = idOf(c.cardThumbFile);
-    if (!id || known.has(id)) continue;
+    if (!id) continue;
+    if (KEYS ? !KEYS.has(key) || ledger[id] : known.has(id)) continue;
     const name = String(c.jaName ?? c.cardNameViewText ?? "").replace(/<[^>]*>/g, "");
     out.push({ cardId: id, key, listName: name, thumb: c.cardThumbFile });
   }

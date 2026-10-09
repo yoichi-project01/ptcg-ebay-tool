@@ -125,6 +125,300 @@
   "key": "",
   "date": "2026-10-09"
  },
+ "38639": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本草エネルギー",
+  "key": "SP2",
+  "date": "2026-10-09"
+ },
+ "38640": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本炎エネルギー",
+  "key": "SP2",
+  "date": "2026-10-09"
+ },
+ "38641": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本水エネルギー",
+  "key": "SP2",
+  "date": "2026-10-09"
+ },
+ "38642": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本雷エネルギー",
+  "key": "SP2",
+  "date": "2026-10-09"
+ },
+ "39558": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本悪エネルギー",
+  "key": "SGG",
+  "date": "2026-10-09"
+ },
+ "39582": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本水エネルギー",
+  "key": "SGI",
+  "date": "2026-10-09"
+ },
+ "39658": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本炎エネルギー",
+  "key": "SP4",
+  "date": "2026-10-09"
+ },
+ "39659": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本水エネルギー",
+  "key": "SP4",
+  "date": "2026-10-09"
+ },
+ "39660": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本雷エネルギー",
+  "key": "SP4",
+  "date": "2026-10-09"
+ },
+ "39661": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本超エネルギー",
+  "key": "SP4",
+  "date": "2026-10-09"
+ },
+ "42226": {
+  "status": "added",
+  "set": "SO",
+  "number": "001",
+  "name": "リザードンV",
+  "date": "2026-10-09"
+ },
+ "42227": {
+  "status": "added",
+  "set": "SO",
+  "number": "002",
+  "name": "リザードンVSTAR",
+  "date": "2026-10-09"
+ },
+ "42228": {
+  "status": "added",
+  "set": "SO",
+  "number": "003",
+  "name": "ロコン",
+  "date": "2026-10-09"
+ },
+ "42229": {
+  "status": "added",
+  "set": "SO",
+  "number": "004",
+  "name": "キュウコン",
+  "date": "2026-10-09"
+ },
+ "42230": {
+  "status": "added",
+  "set": "SO",
+  "number": "005",
+  "name": "ガーディ",
+  "date": "2026-10-09"
+ },
+ "42231": {
+  "status": "added",
+  "set": "SO",
+  "number": "006",
+  "name": "ウインディ",
+  "date": "2026-10-09"
+ },
+ "42232": {
+  "status": "added",
+  "set": "SO",
+  "number": "007",
+  "name": "ファイヤー",
+  "date": "2026-10-09"
+ },
+ "42233": {
+  "status": "added",
+  "set": "SO",
+  "number": "008",
+  "name": "エンテイ",
+  "date": "2026-10-09"
+ },
+ "42234": {
+  "status": "added",
+  "set": "SO",
+  "number": "009",
+  "name": "メリープ",
+  "date": "2026-10-09"
+ },
+ "42235": {
+  "status": "added",
+  "set": "SO",
+  "number": "010",
+  "name": "モココ",
+  "date": "2026-10-09"
+ },
+ "42236": {
+  "status": "added",
+  "set": "SO",
+  "number": "011",
+  "name": "ボルトロス",
+  "date": "2026-10-09"
+ },
+ "42237": {
+  "status": "added",
+  "set": "SO",
+  "number": "012",
+  "name": "エリキテル",
+  "date": "2026-10-09"
+ },
+ "42238": {
+  "status": "added",
+  "set": "SO",
+  "number": "013",
+  "name": "エレザード",
+  "date": "2026-10-09"
+ },
+ "42239": {
+  "status": "added",
+  "set": "SO",
+  "number": "014",
+  "name": "ゼラオラ",
+  "date": "2026-10-09"
+ },
+ "42240": {
+  "status": "added",
+  "set": "SO",
+  "number": "015",
+  "name": "レックウザV",
+  "date": "2026-10-09"
+ },
+ "42241": {
+  "status": "added",
+  "set": "SO",
+  "number": "016",
+  "name": "レックウザVMAX",
+  "date": "2026-10-09"
+ },
+ "42242": {
+  "status": "added",
+  "set": "SO",
+  "number": "017",
+  "name": "エネルギーつけかえ",
+  "date": "2026-10-09"
+ },
+ "42243": {
+  "status": "added",
+  "set": "SO",
+  "number": "018",
+  "name": "エネルギー転送",
+  "date": "2026-10-09"
+ },
+ "42244": {
+  "status": "added",
+  "set": "SO",
+  "number": "019",
+  "name": "スーパーボール",
+  "date": "2026-10-09"
+ },
+ "42245": {
+  "status": "added",
+  "set": "SO",
+  "number": "020",
+  "name": "ハイパーボール",
+  "date": "2026-10-09"
+ },
+ "42246": {
+  "status": "added",
+  "set": "SO",
+  "number": "021",
+  "name": "ポケモンいれかえ",
+  "date": "2026-10-09"
+ },
+ "42247": {
+  "status": "added",
+  "set": "SO",
+  "number": "022",
+  "name": "レベルボール",
+  "date": "2026-10-09"
+ },
+ "42248": {
+  "status": "added",
+  "set": "SO",
+  "number": "023",
+  "name": "キャンプファイヤー",
+  "date": "2026-10-09"
+ },
+ "42249": {
+  "status": "added",
+  "set": "SO",
+  "number": "024",
+  "name": "ジャッジマン",
+  "date": "2026-10-09"
+ },
+ "42250": {
+  "status": "added",
+  "set": "SO",
+  "number": "025",
+  "name": "ジュン",
+  "date": "2026-10-09"
+ },
+ "42251": {
+  "status": "added",
+  "set": "SO",
+  "number": "026",
+  "name": "博士の研究",
+  "date": "2026-10-09"
+ },
+ "42252": {
+  "status": "added",
+  "set": "SO",
+  "number": "027",
+  "name": "ヒガナの決意",
+  "date": "2026-10-09"
+ },
+ "42253": {
+  "status": "added",
+  "set": "SO",
+  "number": "028",
+  "name": "ボスの指令",
+  "date": "2026-10-09"
+ },
+ "42254": {
+  "status": "added",
+  "set": "SO",
+  "number": "029",
+  "name": "嵐の山脈",
+  "date": "2026-10-09"
+ },
+ "42255": {
+  "status": "added",
+  "set": "SO",
+  "number": "030",
+  "name": "マグマの滝壺",
+  "date": "2026-10-09"
+ },
+ "42256": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本炎エネルギー",
+  "key": "SO",
+  "date": "2026-10-09"
+ },
+ "42257": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本雷エネルギー",
+  "key": "SO",
+  "date": "2026-10-09"
+ },
  "50339": {
   "status": "added",
   "set": "M6",
