@@ -6304,5 +6304,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SC2-pokemon": {
+  "set": "SC2",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Charizard & Grimmsnarl VMAX Starter Sets (TCG)",
+   "section": "Charizard & Grimmsnarl VMAX Starter Sets",
+   "den": "den=021",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 8,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SC2-trainer": {
+  "set": "SC2",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Charizard & Grimmsnarl VMAX Starter Sets (TCG)",
+   "section": "Charizard & Grimmsnarl VMAX Starter Sets",
+   "den": "den=021",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 13,
+  "filled": 13,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
