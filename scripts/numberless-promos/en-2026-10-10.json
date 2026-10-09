@@ -1,0 +1,23 @@
+{
+ "note": "番号の無いプロモ（2026-10-09 に追加した4枚）の英語名。Bulbapedia「Unnumbered Promotional cards (TCG)」・「XY-P Promotional cards (TCG)」の番号の無い行（配布の説明が公式の本文と一致）と、日本語名から作った名前（エンペルトBREAK→Empoleon BREAK 等）の一致で入れた。SM-P-X36903 ミュウは Bulbapedia では Ancient Mew（規則の名前 Mew と食い違い、公式ページにイラストレーターの欄が無く TCGdex 英語版で確かめられない）ため空欄",
+ "rows": [
+  {
+   "id": "XY-P-X31570",
+   "ja": "エンペルトBREAK",
+   "en": "Empoleon BREAK",
+   "bulbapedia": "{{Setlist/nmentry|XY-P|[[Empoleon BREAK (XY-P Promo)|Empoleon]]{{BREAK}}|Water|||Battle Festa 2015: 9 Play Point prize}}"
+  },
+  {
+   "id": "XY-P-X32008",
+   "ja": "クロバットBREAK",
+   "en": "Crobat BREAK",
+   "bulbapedia": "{{Setlist/nmentry|XY-P|[[Crobat BREAK (XY-P Promo)|Crobat]]{{BREAK}} [Pokémon Card Gym logo]…|Psychic|||Crobat BREAK Battle top 3 prize<br>Kamex Mega Battle…}}"
+  },
+  {
+   "id": "XY-P-X32141",
+   "ja": "クロバットBREAK",
+   "en": "Crobat BREAK",
+   "bulbapedia": "同上（[Kamex Mega Battle logo]）"
+  }
+ ]
+}
