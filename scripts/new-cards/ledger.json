@@ -272,6 +272,139 @@
   "name": "ホラー超エネルギー",
   "date": "2026-10-09"
  },
+ "39538": {
+  "status": "added",
+  "set": "SGG",
+  "number": "001",
+  "name": "ゲンガーV",
+  "date": "2026-10-09"
+ },
+ "39539": {
+  "status": "added",
+  "set": "SGG",
+  "number": "002",
+  "name": "ゲンガーVMAX",
+  "date": "2026-10-09"
+ },
+ "39540": {
+  "status": "added",
+  "set": "SGG",
+  "number": "003",
+  "name": "クロバットV",
+  "date": "2026-10-09"
+ },
+ "39541": {
+  "status": "added",
+  "set": "SGG",
+  "number": "004",
+  "name": "デルビル",
+  "date": "2026-10-09"
+ },
+ "39542": {
+  "status": "added",
+  "set": "SGG",
+  "number": "005",
+  "name": "ヘルガー",
+  "date": "2026-10-09"
+ },
+ "39543": {
+  "status": "added",
+  "set": "SGG",
+  "number": "006",
+  "name": "イベルタル",
+  "date": "2026-10-09"
+ },
+ "39544": {
+  "status": "added",
+  "set": "SGG",
+  "number": "007",
+  "name": "モルペコ",
+  "date": "2026-10-09"
+ },
+ "39545": {
+  "status": "added",
+  "set": "SGG",
+  "number": "008",
+  "name": "活力の壺",
+  "date": "2026-10-09"
+ },
+ "39546": {
+  "status": "added",
+  "set": "SGG",
+  "number": "009",
+  "name": "クイックボール",
+  "date": "2026-10-09"
+ },
+ "39547": {
+  "status": "added",
+  "set": "SGG",
+  "number": "010",
+  "name": "しんかのおこう",
+  "date": "2026-10-09"
+ },
+ "39548": {
+  "status": "added",
+  "set": "SGG",
+  "number": "011",
+  "name": "ポケギア3.0",
+  "date": "2026-10-09"
+ },
+ "39549": {
+  "status": "added",
+  "set": "SGG",
+  "number": "012",
+  "name": "ポケモンいれかえ",
+  "date": "2026-10-09"
+ },
+ "39550": {
+  "status": "added",
+  "set": "SGG",
+  "number": "013",
+  "name": "シバ",
+  "date": "2026-10-09"
+ },
+ "39551": {
+  "status": "added",
+  "set": "SGG",
+  "number": "014",
+  "name": "博士の研究",
+  "date": "2026-10-09"
+ },
+ "39552": {
+  "status": "added",
+  "set": "SGG",
+  "number": "015",
+  "name": "冒険家の発見",
+  "date": "2026-10-09"
+ },
+ "39553": {
+  "status": "added",
+  "set": "SGG",
+  "number": "016",
+  "name": "ボスの指令",
+  "date": "2026-10-09"
+ },
+ "39554": {
+  "status": "added",
+  "set": "SGG",
+  "number": "017",
+  "name": "マリィ",
+  "date": "2026-10-09"
+ },
+ "39555": {
+  "status": "added",
+  "set": "SGG",
+  "number": "018",
+  "name": "あくの塔",
+  "date": "2026-10-09"
+ },
+ "39556": {
+  "status": "added",
+  "set": "SGG",
+  "number": "019",
+  "name": "いちげきエネルギー",
+  "date": "2026-10-09"
+ },
  "39558": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
@@ -718,6 +851,13 @@
   "reason": "番号の無い基本エネルギー",
   "name": "基本雷エネルギー",
   "key": "SO",
+  "date": "2026-10-09"
+ },
+ "44975": {
+  "status": "added",
+  "set": "SGG",
+  "number": "020",
+  "name": "ゲンガーVMAX",
   "date": "2026-10-09"
  },
  "44976": {
