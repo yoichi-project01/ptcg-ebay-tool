@@ -174,13 +174,14 @@ async function downloadRows(set, rows, details) {
 
 function finish(code, added, ledgerStatus) {
   execFileSync(process.execPath, [path.join(__dirname, "build-image-index.mjs"), "--only", code], { stdio: "inherit" });
-  execFileSync(process.execPath, [path.join(__dirname, "image-hashes.mjs"), "--verify"], { stdio: "inherit" });
   const ledger = readJson(LEDGER, {});
   for (const r of added) ledger[r.cardId] = { status: ledgerStatus, set: code, number: r.number, name: r.name, date: today };
   writeJson(LEDGER, ledger);
-  const ids = [...new Set(added.map((r) => `${code}-${r.local}`))];
+  const ids = [...new Set(added.map((r) => `${code}-${r.local}`))].sort();
   fs.writeFileSync(path.join(DIR, `${code}-added-card-ids-${today}.txt`), ids.join("\n") + "\n");
   console.log(`[${code}] ${ids.length}件を足しました: ${ids.join(" ")}`);
+  // 照合は記録の後に行う（化けた画像が見つかっても、足した分の記録は残す）
+  execFileSync(process.execPath, [path.join(__dirname, "image-hashes.mjs"), "--verify"], { stdio: "inherit" });
 }
 
 async function main() {

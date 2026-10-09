@@ -83,6 +83,776 @@
   "key": "",
   "date": "2026-10-09"
  },
+ "50339": {
+  "status": "added",
+  "set": "M6",
+  "number": "001",
+  "name": "ヘラクロス",
+  "date": "2026-10-09"
+ },
+ "50340": {
+  "status": "added",
+  "set": "M6",
+  "number": "002",
+  "name": "アメタマ",
+  "date": "2026-10-09"
+ },
+ "50341": {
+  "status": "added",
+  "set": "M6",
+  "number": "003",
+  "name": "アメモース",
+  "date": "2026-10-09"
+ },
+ "50342": {
+  "status": "added",
+  "set": "M6",
+  "number": "004",
+  "name": "サボネア",
+  "date": "2026-10-09"
+ },
+ "50343": {
+  "status": "added",
+  "set": "M6",
+  "number": "005",
+  "name": "ノクタス",
+  "date": "2026-10-09"
+ },
+ "50344": {
+  "status": "added",
+  "set": "M6",
+  "number": "006",
+  "name": "ミツハニー",
+  "date": "2026-10-09"
+ },
+ "50345": {
+  "status": "added",
+  "set": "M6",
+  "number": "007",
+  "name": "ビークイン",
+  "date": "2026-10-09"
+ },
+ "50346": {
+  "status": "added",
+  "set": "M6",
+  "number": "008",
+  "name": "コソクムシ",
+  "date": "2026-10-09"
+ },
+ "50347": {
+  "status": "added",
+  "set": "M6",
+  "number": "009",
+  "name": "メガグソクムシャex",
+  "date": "2026-10-09"
+ },
+ "50348": {
+  "status": "added",
+  "set": "M6",
+  "number": "010",
+  "name": "ガーディ",
+  "date": "2026-10-09"
+ },
+ "50349": {
+  "status": "added",
+  "set": "M6",
+  "number": "011",
+  "name": "ウインディ",
+  "date": "2026-10-09"
+ },
+ "50350": {
+  "status": "added",
+  "set": "M6",
+  "number": "012",
+  "name": "ブーバー",
+  "date": "2026-10-09"
+ },
+ "50351": {
+  "status": "added",
+  "set": "M6",
+  "number": "013",
+  "name": "ブーバーン",
+  "date": "2026-10-09"
+ },
+ "50352": {
+  "status": "added",
+  "set": "M6",
+  "number": "014",
+  "name": "コータス",
+  "date": "2026-10-09"
+ },
+ "50353": {
+  "status": "added",
+  "set": "M6",
+  "number": "015",
+  "name": "ヒートロトムex",
+  "date": "2026-10-09"
+ },
+ "50354": {
+  "status": "added",
+  "set": "M6",
+  "number": "016",
+  "name": "クイタラン",
+  "date": "2026-10-09"
+ },
+ "50355": {
+  "status": "added",
+  "set": "M6",
+  "number": "017",
+  "name": "マンタイン",
+  "date": "2026-10-09"
+ },
+ "50356": {
+  "status": "added",
+  "set": "M6",
+  "number": "018",
+  "name": "カイオーガ",
+  "date": "2026-10-09"
+ },
+ "50357": {
+  "status": "added",
+  "set": "M6",
+  "number": "019",
+  "name": "プルリル",
+  "date": "2026-10-09"
+ },
+ "50358": {
+  "status": "added",
+  "set": "M6",
+  "number": "020",
+  "name": "ブルンゲル",
+  "date": "2026-10-09"
+ },
+ "50359": {
+  "status": "added",
+  "set": "M6",
+  "number": "021",
+  "name": "ヨワシex",
+  "date": "2026-10-09"
+ },
+ "50360": {
+  "status": "added",
+  "set": "M6",
+  "number": "022",
+  "name": "エレブー",
+  "date": "2026-10-09"
+ },
+ "50361": {
+  "status": "added",
+  "set": "M6",
+  "number": "023",
+  "name": "エレキブル",
+  "date": "2026-10-09"
+ },
+ "50362": {
+  "status": "added",
+  "set": "M6",
+  "number": "024",
+  "name": "ライコウex",
+  "date": "2026-10-09"
+ },
+ "50363": {
+  "status": "added",
+  "set": "M6",
+  "number": "025",
+  "name": "ボルトロス",
+  "date": "2026-10-09"
+ },
+ "50364": {
+  "status": "added",
+  "set": "M6",
+  "number": "026",
+  "name": "バチンウニ",
+  "date": "2026-10-09"
+ },
+ "50365": {
+  "status": "added",
+  "set": "M6",
+  "number": "027",
+  "name": "カイデン",
+  "date": "2026-10-09"
+ },
+ "50366": {
+  "status": "added",
+  "set": "M6",
+  "number": "028",
+  "name": "タイカイデン",
+  "date": "2026-10-09"
+ },
+ "50367": {
+  "status": "added",
+  "set": "M6",
+  "number": "029",
+  "name": "スリープ",
+  "date": "2026-10-09"
+ },
+ "50368": {
+  "status": "added",
+  "set": "M6",
+  "number": "030",
+  "name": "スリーパー",
+  "date": "2026-10-09"
+ },
+ "50369": {
+  "status": "added",
+  "set": "M6",
+  "number": "031",
+  "name": "ギラティナ",
+  "date": "2026-10-09"
+ },
+ "50370": {
+  "status": "added",
+  "set": "M6",
+  "number": "032",
+  "name": "ゴビット",
+  "date": "2026-10-09"
+ },
+ "50371": {
+  "status": "added",
+  "set": "M6",
+  "number": "033",
+  "name": "メガゴルーグex",
+  "date": "2026-10-09"
+ },
+ "50372": {
+  "status": "added",
+  "set": "M6",
+  "number": "034",
+  "name": "ラブトロス",
+  "date": "2026-10-09"
+ },
+ "50373": {
+  "status": "added",
+  "set": "M6",
+  "number": "035",
+  "name": "サンド",
+  "date": "2026-10-09"
+ },
+ "50374": {
+  "status": "added",
+  "set": "M6",
+  "number": "036",
+  "name": "サンドパン",
+  "date": "2026-10-09"
+ },
+ "50375": {
+  "status": "added",
+  "set": "M6",
+  "number": "037",
+  "name": "イワーク",
+  "date": "2026-10-09"
+ },
+ "50376": {
+  "status": "added",
+  "set": "M6",
+  "number": "038",
+  "name": "ハガネール",
+  "date": "2026-10-09"
+ },
+ "50377": {
+  "status": "added",
+  "set": "M6",
+  "number": "039",
+  "name": "グラードン",
+  "date": "2026-10-09"
+ },
+ "50378": {
+  "status": "added",
+  "set": "M6",
+  "number": "040",
+  "name": "ランドロス",
+  "date": "2026-10-09"
+ },
+ "50379": {
+  "status": "added",
+  "set": "M6",
+  "number": "041",
+  "name": "ニドラン♀",
+  "date": "2026-10-09"
+ },
+ "50380": {
+  "status": "added",
+  "set": "M6",
+  "number": "042",
+  "name": "ニドリーナ",
+  "date": "2026-10-09"
+ },
+ "50381": {
+  "status": "added",
+  "set": "M6",
+  "number": "043",
+  "name": "ニドクイン",
+  "date": "2026-10-09"
+ },
+ "50382": {
+  "status": "added",
+  "set": "M6",
+  "number": "044",
+  "name": "イトマル",
+  "date": "2026-10-09"
+ },
+ "50383": {
+  "status": "added",
+  "set": "M6",
+  "number": "045",
+  "name": "アリアドス",
+  "date": "2026-10-09"
+ },
+ "50384": {
+  "status": "added",
+  "set": "M6",
+  "number": "046",
+  "name": "ヤミラミ",
+  "date": "2026-10-09"
+ },
+ "50385": {
+  "status": "added",
+  "set": "M6",
+  "number": "047",
+  "name": "マーイーカ",
+  "date": "2026-10-09"
+ },
+ "50386": {
+  "status": "added",
+  "set": "M6",
+  "number": "048",
+  "name": "メガカラマネロex",
+  "date": "2026-10-09"
+ },
+ "50387": {
+  "status": "added",
+  "set": "M6",
+  "number": "049",
+  "name": "クリムガン",
+  "date": "2026-10-09"
+ },
+ "50388": {
+  "status": "added",
+  "set": "M6",
+  "number": "050",
+  "name": "ジャラコ",
+  "date": "2026-10-09"
+ },
+ "50389": {
+  "status": "added",
+  "set": "M6",
+  "number": "051",
+  "name": "ジャランゴ",
+  "date": "2026-10-09"
+ },
+ "50390": {
+  "status": "added",
+  "set": "M6",
+  "number": "052",
+  "name": "ジャラランガ",
+  "date": "2026-10-09"
+ },
+ "50391": {
+  "status": "added",
+  "set": "M6",
+  "number": "053",
+  "name": "モトトカゲ",
+  "date": "2026-10-09"
+ },
+ "50392": {
+  "status": "added",
+  "set": "M6",
+  "number": "054",
+  "name": "ルリリ",
+  "date": "2026-10-09"
+ },
+ "50393": {
+  "status": "added",
+  "set": "M6",
+  "number": "055",
+  "name": "チルット",
+  "date": "2026-10-09"
+ },
+ "50394": {
+  "status": "added",
+  "set": "M6",
+  "number": "056",
+  "name": "チルタリス",
+  "date": "2026-10-09"
+ },
+ "50395": {
+  "status": "added",
+  "set": "M6",
+  "number": "057",
+  "name": "カクレオン",
+  "date": "2026-10-09"
+ },
+ "50396": {
+  "status": "added",
+  "set": "M6",
+  "number": "058",
+  "name": "メガレックウザex",
+  "date": "2026-10-09"
+ },
+ "50397": {
+  "status": "added",
+  "set": "M6",
+  "number": "059",
+  "name": "トルネロス",
+  "date": "2026-10-09"
+ },
+ "50398": {
+  "status": "added",
+  "set": "M6",
+  "number": "060",
+  "name": "ヤヤコマ",
+  "date": "2026-10-09"
+ },
+ "50399": {
+  "status": "added",
+  "set": "M6",
+  "number": "061",
+  "name": "ヒノヤコマ",
+  "date": "2026-10-09"
+ },
+ "50400": {
+  "status": "added",
+  "set": "M6",
+  "number": "062",
+  "name": "ファイアローex",
+  "date": "2026-10-09"
+ },
+ "50401": {
+  "status": "added",
+  "set": "M6",
+  "number": "063",
+  "name": "おいしいおむすび",
+  "date": "2026-10-09"
+ },
+ "50402": {
+  "status": "added",
+  "set": "M6",
+  "number": "064",
+  "name": "ぼうけんのランタン",
+  "date": "2026-10-09"
+ },
+ "50403": {
+  "status": "added",
+  "set": "M6",
+  "number": "065",
+  "name": "とくちゅうチョッキ",
+  "date": "2026-10-09"
+ },
+ "50404": {
+  "status": "added",
+  "set": "M6",
+  "number": "066",
+  "name": "メガレックウザキャップ",
+  "date": "2026-10-09"
+ },
+ "50405": {
+  "status": "added",
+  "set": "M6",
+  "number": "067",
+  "name": "MCの盛り上げ",
+  "date": "2026-10-09"
+ },
+ "50406": {
+  "status": "added",
+  "set": "M6",
+  "number": "068",
+  "name": "ギリー",
+  "date": "2026-10-09"
+ },
+ "50407": {
+  "status": "added",
+  "set": "M6",
+  "number": "069",
+  "name": "ヒガナの信頼",
+  "date": "2026-10-09"
+ },
+ "50408": {
+  "status": "added",
+  "set": "M6",
+  "number": "070",
+  "name": "フウとランの修行",
+  "date": "2026-10-09"
+ },
+ "50409": {
+  "status": "added",
+  "set": "M6",
+  "number": "072",
+  "name": "伝説の海溝",
+  "date": "2026-10-09"
+ },
+ "50410": {
+  "status": "added",
+  "set": "M6",
+  "number": "074",
+  "name": "伝説の山頂",
+  "date": "2026-10-09"
+ },
+ "50411": {
+  "status": "added",
+  "set": "M6",
+  "number": "076",
+  "name": "伝説の溶岩洞",
+  "date": "2026-10-09"
+ },
+ "50518": {
+  "status": "added",
+  "set": "M6",
+  "number": "077",
+  "name": "アメモース",
+  "date": "2026-10-09"
+ },
+ "50519": {
+  "status": "added",
+  "set": "M6",
+  "number": "078",
+  "name": "ガーディ",
+  "date": "2026-10-09"
+ },
+ "50520": {
+  "status": "added",
+  "set": "M6",
+  "number": "079",
+  "name": "ブーバーン",
+  "date": "2026-10-09"
+ },
+ "50521": {
+  "status": "added",
+  "set": "M6",
+  "number": "080",
+  "name": "カイオーガ",
+  "date": "2026-10-09"
+ },
+ "50522": {
+  "status": "added",
+  "set": "M6",
+  "number": "081",
+  "name": "エレキブル",
+  "date": "2026-10-09"
+ },
+ "50523": {
+  "status": "added",
+  "set": "M6",
+  "number": "082",
+  "name": "バチンウニ",
+  "date": "2026-10-09"
+ },
+ "50524": {
+  "status": "added",
+  "set": "M6",
+  "number": "083",
+  "name": "ラブトロス",
+  "date": "2026-10-09"
+ },
+ "50525": {
+  "status": "added",
+  "set": "M6",
+  "number": "084",
+  "name": "グラードン",
+  "date": "2026-10-09"
+ },
+ "50526": {
+  "status": "added",
+  "set": "M6",
+  "number": "085",
+  "name": "マーイーカ",
+  "date": "2026-10-09"
+ },
+ "50527": {
+  "status": "added",
+  "set": "M6",
+  "number": "086",
+  "name": "ルリリ",
+  "date": "2026-10-09"
+ },
+ "50528": {
+  "status": "added",
+  "set": "M6",
+  "number": "087",
+  "name": "チルタリス",
+  "date": "2026-10-09"
+ },
+ "50529": {
+  "status": "added",
+  "set": "M6",
+  "number": "088",
+  "name": "カクレオン",
+  "date": "2026-10-09"
+ },
+ "50530": {
+  "status": "added",
+  "set": "M6",
+  "number": "089",
+  "name": "メガグソクムシャex",
+  "date": "2026-10-09"
+ },
+ "50531": {
+  "status": "added",
+  "set": "M6",
+  "number": "090",
+  "name": "ヒートロトムex",
+  "date": "2026-10-09"
+ },
+ "50532": {
+  "status": "added",
+  "set": "M6",
+  "number": "091",
+  "name": "ヨワシex",
+  "date": "2026-10-09"
+ },
+ "50533": {
+  "status": "added",
+  "set": "M6",
+  "number": "092",
+  "name": "ライコウex",
+  "date": "2026-10-09"
+ },
+ "50534": {
+  "status": "added",
+  "set": "M6",
+  "number": "093",
+  "name": "メガゴルーグex",
+  "date": "2026-10-09"
+ },
+ "50535": {
+  "status": "added",
+  "set": "M6",
+  "number": "094",
+  "name": "メガカラマネロex",
+  "date": "2026-10-09"
+ },
+ "50536": {
+  "status": "added",
+  "set": "M6",
+  "number": "095",
+  "name": "メガレックウザex",
+  "date": "2026-10-09"
+ },
+ "50537": {
+  "status": "added",
+  "set": "M6",
+  "number": "096",
+  "name": "ファイアローex",
+  "date": "2026-10-09"
+ },
+ "50538": {
+  "status": "added",
+  "set": "M6",
+  "number": "097",
+  "name": "ぼうけんのランタン",
+  "date": "2026-10-09"
+ },
+ "50539": {
+  "status": "added",
+  "set": "M6",
+  "number": "098",
+  "name": "ポケモンキャッチャー",
+  "date": "2026-10-09"
+ },
+ "50540": {
+  "status": "added",
+  "set": "M6",
+  "number": "099",
+  "name": "とくちゅうチョッキ",
+  "date": "2026-10-09"
+ },
+ "50541": {
+  "status": "added",
+  "set": "M6",
+  "number": "100",
+  "name": "MCの盛り上げ",
+  "date": "2026-10-09"
+ },
+ "50542": {
+  "status": "added",
+  "set": "M6",
+  "number": "101",
+  "name": "ギリー",
+  "date": "2026-10-09"
+ },
+ "50543": {
+  "status": "added",
+  "set": "M6",
+  "number": "102",
+  "name": "ヒガナの信頼",
+  "date": "2026-10-09"
+ },
+ "50544": {
+  "status": "added",
+  "set": "M6",
+  "number": "103",
+  "name": "フウとランの修行",
+  "date": "2026-10-09"
+ },
+ "50545": {
+  "status": "added",
+  "set": "M6",
+  "number": "104",
+  "name": "グロウ草エネルギー",
+  "date": "2026-10-09"
+ },
+ "50546": {
+  "status": "added",
+  "set": "M6",
+  "number": "105",
+  "name": "ニトロ炎エネルギー",
+  "date": "2026-10-09"
+ },
+ "50547": {
+  "status": "added",
+  "set": "M6",
+  "number": "106",
+  "name": "バブル水エネルギー",
+  "date": "2026-10-09"
+ },
+ "50548": {
+  "status": "added",
+  "set": "M6",
+  "number": "107",
+  "name": "メガグソクムシャex",
+  "date": "2026-10-09"
+ },
+ "50549": {
+  "status": "added",
+  "set": "M6",
+  "number": "108",
+  "name": "ライコウex",
+  "date": "2026-10-09"
+ },
+ "50550": {
+  "status": "added",
+  "set": "M6",
+  "number": "109",
+  "name": "メガゴルーグex",
+  "date": "2026-10-09"
+ },
+ "50551": {
+  "status": "added",
+  "set": "M6",
+  "number": "110",
+  "name": "メガレックウザex",
+  "date": "2026-10-09"
+ },
+ "50552": {
+  "status": "added",
+  "set": "M6",
+  "number": "111",
+  "name": "ギリー",
+  "date": "2026-10-09"
+ },
+ "50553": {
+  "status": "added",
+  "set": "M6",
+  "number": "112",
+  "name": "ヒガナの信頼",
+  "date": "2026-10-09"
+ },
+ "50554": {
+  "status": "added",
+  "set": "M6",
+  "number": "113",
+  "name": "メガレックウザex",
+  "date": "2026-10-09"
+ },
  "50608": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
