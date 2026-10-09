@@ -202,6 +202,83 @@
   "key": "XY",
   "date": "2026-10-09"
  },
+ "37731": {
+  "status": "added",
+  "set": "SB",
+  "number": "001",
+  "name": "エネルギー回収",
+  "date": "2026-10-09"
+ },
+ "37732": {
+  "status": "added",
+  "set": "SB",
+  "number": "002",
+  "name": "エネルギーつけかえ",
+  "date": "2026-10-09"
+ },
+ "37733": {
+  "status": "added",
+  "set": "SB",
+  "number": "003",
+  "name": "クイックボール",
+  "date": "2026-10-09"
+ },
+ "37734": {
+  "status": "added",
+  "set": "SB",
+  "number": "004",
+  "name": "しんかのおこう",
+  "date": "2026-10-09"
+ },
+ "37735": {
+  "status": "added",
+  "set": "SB",
+  "number": "005",
+  "name": "ふしぎなアメ",
+  "date": "2026-10-09"
+ },
+ "37736": {
+  "status": "added",
+  "set": "SB",
+  "number": "006",
+  "name": "ポケギア3.0",
+  "date": "2026-10-09"
+ },
+ "37737": {
+  "status": "added",
+  "set": "SB",
+  "number": "007",
+  "name": "ポケモンいれかえ",
+  "date": "2026-10-09"
+ },
+ "37738": {
+  "status": "added",
+  "set": "SB",
+  "number": "008",
+  "name": "ポケモンキャッチャー",
+  "date": "2026-10-09"
+ },
+ "37739": {
+  "status": "added",
+  "set": "SB",
+  "number": "009",
+  "name": "博士の研究",
+  "date": "2026-10-09"
+ },
+ "37740": {
+  "status": "added",
+  "set": "SB",
+  "number": "010",
+  "name": "ビート",
+  "date": "2026-10-09"
+ },
+ "37741": {
+  "status": "added",
+  "set": "SB",
+  "number": "011",
+  "name": "マリィ",
+  "date": "2026-10-09"
+ },
  "37742": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
@@ -263,6 +340,97 @@
   "reason": "番号の無い基本エネルギー",
   "name": "基本フェアリーエネルギー",
   "key": "",
+  "date": "2026-10-09"
+ },
+ "37751": {
+  "status": "added",
+  "set": "SB",
+  "number": "012",
+  "name": "いれかえフロート",
+  "date": "2026-10-09"
+ },
+ "37752": {
+  "status": "added",
+  "set": "SB",
+  "number": "013",
+  "name": "エレキパワー",
+  "date": "2026-10-09"
+ },
+ "37753": {
+  "status": "added",
+  "set": "SB",
+  "number": "014",
+  "name": "ダートじてんしゃ",
+  "date": "2026-10-09"
+ },
+ "37754": {
+  "status": "added",
+  "set": "SB",
+  "number": "015",
+  "name": "ネットボール",
+  "date": "2026-10-09"
+ },
+ "37755": {
+  "status": "added",
+  "set": "SB",
+  "number": "016",
+  "name": "ポケモン通信",
+  "date": "2026-10-09"
+ },
+ "37756": {
+  "status": "added",
+  "set": "SB",
+  "number": "017",
+  "name": "鋼鉄のフライパン",
+  "date": "2026-10-09"
+ },
+ "37757": {
+  "status": "added",
+  "set": "SB",
+  "number": "018",
+  "name": "エリカのおもてなし",
+  "date": "2026-10-09"
+ },
+ "37758": {
+  "status": "added",
+  "set": "SB",
+  "number": "019",
+  "name": "シロナ",
+  "date": "2026-10-09"
+ },
+ "37759": {
+  "status": "added",
+  "set": "SB",
+  "number": "020",
+  "name": "ブルーの探索",
+  "date": "2026-10-09"
+ },
+ "37760": {
+  "status": "added",
+  "set": "SB",
+  "number": "021",
+  "name": "溶接工",
+  "date": "2026-10-09"
+ },
+ "37761": {
+  "status": "added",
+  "set": "SB",
+  "number": "022",
+  "name": "レッドの挑戦",
+  "date": "2026-10-09"
+ },
+ "37762": {
+  "status": "added",
+  "set": "SB",
+  "number": "023",
+  "name": "格闘道場",
+  "date": "2026-10-09"
+ },
+ "37763": {
+  "status": "added",
+  "set": "SB",
+  "number": "024",
+  "name": "トリプル加速エネルギー",
   "date": "2026-10-09"
  },
  "37784": {
