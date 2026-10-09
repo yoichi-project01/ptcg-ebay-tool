@@ -1,0 +1,7 @@
+{
+ "date": "2026-10-09",
+ "note": "new-cards.mjs で XY-P に3枚を足した後の image-hashes.mjs --verify で見つかった（この作業では触っていない画像）。1バイトの0x80のビットが反転（位置 314724、0xCF→0x4F）。更新日時は 2026-07-05 のまま。公式 details.php（cardID 41002、印刷記号 S9・ダブルターボエネルギー）の画像が SHA-256 の一覧と一致したので取り直して戻した",
+ "files": [
+  { "key": "S9/100", "path": "cards/S/S9/ダブルターボエネルギー_S9-100／127_U.jpg", "source": "https://www.pokemon-card.com/assets/images/card_images/large/S9/041002_E_DABURUTABOENERUGI.jpg", "sha256": "84d385b33a209543fb0bc2288dd1a6563c9e5d6ee71d568392a3fb92facdb9a8", "badSha256": "7bc35e67b8dea04fbac3cc5a2ab3c1924a5cb47dbc9132e913ea5263e41734c3" }
+ ]
+}

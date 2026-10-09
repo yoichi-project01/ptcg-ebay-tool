@@ -68,11 +68,12 @@ export const TARGET_SETS = [
   {
     code: "XY-P", label: "XY-P", badge: "XYP", sr: "XY", sourceCacheKeys: ["XYP", "XY-P"],
     // 050 日本代表のピカチュウ、181/216/225/238 の BREAK カード
-    extraCardIds: [30478, 31583, 31650, 32136, 32124],
+    // 189 オーベムBREAK・217 バルジーナBREAK・267 ウインディBREAK は 2026-09-29 の一覧の XYP キーにあった（旧キャッシュに無く、欠番としていた。new-cards.mjs で確認）
+    extraCardIds: [30478, 31583, 31650, 32136, 32124, 31563, 31863, 32388],
     // details.php に番号が表示されないが、カードの画像に番号が印刷されているもの（2026-10-09 に目で確認。Bulbapedia も 127〜129/XY-P）。
     // 以前は番号の無いプロモ（X31066〜X31068）として追加し、127〜129 を「公式ページなし」の欠番にしていた
     printedNumbers: { 31066: "127", 31067: "128", 31068: "129" },
-    allowedGaps: [189, 217, 267],
+    allowedGaps: [],
   },
   { code: "BW-P", label: "BW-P", badge: "BWP", sr: "BW", sourceCacheKeys: ["BWP"], allowedGaps: [25, 26, 27, 28, 29, 30, 31] },
   { code: "DP-P", label: "DP-P", badge: "DPP", sr: "DP", sourceCacheKeys: ["DPP"] },
