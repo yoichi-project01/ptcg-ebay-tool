@@ -1,0 +1,29 @@
+{
+ "set": "SV7",
+ "fixed": 2,
+ "reasons": {},
+ "rows": [
+  {
+   "id": "SV7-006",
+   "ja": "カットロトム",
+   "before": "Rotom",
+   "built": "Mow Rotom",
+   "bulbapedia": "Mow Rotom",
+   "source": "SV-owner-2026-10-09.txt",
+   "tcgdexIds": "",
+   "after": "Mow Rotom",
+   "status": "直す"
+  },
+  {
+   "id": "SV7-080",
+   "ja": "スピンロトム",
+   "before": "Rotom",
+   "built": "Fan Rotom",
+   "bulbapedia": "Fan Rotom",
+   "source": "SV-owner-2026-10-09.txt",
+   "tcgdexIds": "",
+   "after": "Fan Rotom",
+   "status": "直す"
+  }
+ ]
+}
