@@ -6177,5 +6177,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SGI-pokemon": {
+  "set": "SGI",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "High-Class Decks (TCG)",
+   "section": "High-Class Decks",
+   "den": "den=022",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 10,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SGI-trainer": {
+  "set": "SGI",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "High-Class Decks (TCG)",
+   "section": "High-Class Decks",
+   "den": "den=022",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 12,
+  "filled": 11,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
