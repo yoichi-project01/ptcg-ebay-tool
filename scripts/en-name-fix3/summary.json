@@ -6115,5 +6115,37 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SP3-pokemon": {
+  "set": "SP3",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Silver Lance & Jet-Black Spirit Jumbo Pack Set (TCG)",
+   "section": "Silver Lance & Jet-Black Spirit Jumbo Pack Set",
+   "den": "den=006",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 2,
+  "filled": 2,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SP3-trainer": {
+  "set": "SP3",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Silver Lance & Jet-Black Spirit Jumbo Pack Set (TCG)",
+   "section": "Silver Lance & Jet-Black Spirit Jumbo Pack Set",
+   "den": "den=006",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 4,
+  "filled": 2,
+  "filledByRule": 0,
+  "blank": 2,
+  "blankReasons": {
+   "Bulbapedia の一覧に無い": 2
+  }
  }
 }
