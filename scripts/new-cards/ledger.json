@@ -139,6 +139,20 @@
   "name": "カミツレ",
   "date": "2026-10-09"
  },
+ "28775": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本草エネルギー",
+  "key": "MG",
+  "date": "2026-10-09"
+ },
+ "28792": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本超エネルギー",
+  "key": "MG",
+  "date": "2026-10-09"
+ },
  "31563": {
   "status": "added",
   "set": "XY-P",
@@ -200,6 +214,202 @@
   "reason": "XY-BEST-097 の別掲載",
   "name": "ゼルネアスBREAK",
   "key": "XY",
+  "date": "2026-10-09"
+ },
+ "37479": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "001",
+  "name": "セレビィV",
+  "date": "2026-10-09"
+ },
+ "37480": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "002",
+  "name": "ロゼリア",
+  "date": "2026-10-09"
+ },
+ "37481": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "003",
+  "name": "モンメン",
+  "date": "2026-10-09"
+ },
+ "37482": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "004",
+  "name": "エルフーン",
+  "date": "2026-10-09"
+ },
+ "37483": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "005",
+  "name": "アイアント",
+  "date": "2026-10-09"
+ },
+ "37484": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "006",
+  "name": "サルノリ",
+  "date": "2026-10-09"
+ },
+ "37485": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "007",
+  "name": "バチンキー",
+  "date": "2026-10-09"
+ },
+ "37486": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "008",
+  "name": "ゴリランダー",
+  "date": "2026-10-09"
+ },
+ "37487": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "009",
+  "name": "サッチムシ",
+  "date": "2026-10-09"
+ },
+ "37488": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "010",
+  "name": "カビゴン",
+  "date": "2026-10-09"
+ },
+ "37489": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "011",
+  "name": "エネルギー転送",
+  "date": "2026-10-09"
+ },
+ "37490": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "012",
+  "name": "きずぐすり",
+  "date": "2026-10-09"
+ },
+ "37491": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "013",
+  "name": "クイックボール",
+  "date": "2026-10-09"
+ },
+ "37492": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "014",
+  "name": "スーパーボール",
+  "date": "2026-10-09"
+ },
+ "37493": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "015",
+  "name": "ポケギア3.0",
+  "date": "2026-10-09"
+ },
+ "37494": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "016",
+  "name": "ポケモンいれかえ",
+  "date": "2026-10-09"
+ },
+ "37495": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "017",
+  "name": "ポケモンキャッチャー",
+  "date": "2026-10-09"
+ },
+ "37496": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "018",
+  "name": "大きなおまもり",
+  "date": "2026-10-09"
+ },
+ "37497": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "019",
+  "name": "博士の研究",
+  "date": "2026-10-09"
+ },
+ "37498": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "020",
+  "name": "ポケモンごっこ",
+  "date": "2026-10-09"
+ },
+ "37499": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "021",
+  "name": "ポケモンセンターのお姉さん",
+  "date": "2026-10-09"
+ },
+ "37500": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "022",
+  "name": "ホップ",
+  "date": "2026-10-09"
+ },
+ "37501": {
+  "status": "added",
+  "set": "SA-G",
+  "number": "023",
+  "name": "マリィ",
+  "date": "2026-10-09"
+ },
+ "37502": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本草エネルギー",
+  "key": "SA",
+  "date": "2026-10-09"
+ },
+ "37526": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本炎エネルギー",
+  "key": "SA",
+  "date": "2026-10-09"
+ },
+ "37550": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本水エネルギー",
+  "key": "SA",
+  "date": "2026-10-09"
+ },
+ "37575": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本雷エネルギー",
+  "key": "SA",
+  "date": "2026-10-09"
+ },
+ "37600": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本闘エネルギー",
+  "key": "SA",
   "date": "2026-10-09"
  },
  "37731": {
