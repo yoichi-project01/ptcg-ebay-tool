@@ -5927,5 +5927,37 @@
   "blankReasons": {
    "Bulbapedia の一覧に無い": 1
   }
+ },
+ "MEE-pokemon": {
+  "set": "MEE",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ex Starter Sets 2026 (TCG)",
+   "section": "ex Starter Set 2026",
+   "den": "den=019",
+   "file": "M-2026.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 10,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "MEE-trainer": {
+  "set": "MEE",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ex Starter Sets 2026 (TCG)",
+   "section": "ex Starter Set 2026",
+   "den": "den=019",
+   "file": "M-2026.txt"
+  },
+  "targets": 9,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "Bulbapedia の一覧に無い": 1
+  }
  }
 }
