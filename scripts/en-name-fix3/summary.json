@@ -5830,5 +5830,40 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "M6-pokemon": {
+  "set": "M6",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Storm Emeralda (TCG)",
+   "section": "Storm Emeralda",
+   "den": "den=076",
+   "file": "M-2026.txt"
+  },
+  "targets": 62,
+  "filled": 61,
+  "filledByRule": 61,
+  "blank": 1,
+  "blankReasons": {
+   "規則で作れない・英語版に同じ名前のポケモンが無い": 1
+  }
+ },
+ "M6-trainer": {
+  "set": "M6",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Storm Emeralda (TCG)",
+   "section": "Storm Emeralda",
+   "den": "den=076",
+   "file": "M-2026.txt"
+  },
+  "targets": 14,
+  "filled": 0,
+  "filledByRule": 0,
+  "blank": 14,
+  "blankReasons": {
+   "英語版に同じ名前・種類のカードが無い": 13,
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
