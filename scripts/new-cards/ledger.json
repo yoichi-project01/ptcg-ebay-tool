@@ -286,6 +286,34 @@
   "key": "SGI",
   "date": "2026-10-09"
  },
+ "39654": {
+  "status": "added",
+  "set": "SP4",
+  "number": "001",
+  "name": "ブースターVMAX",
+  "date": "2026-10-09"
+ },
+ "39655": {
+  "status": "added",
+  "set": "SP4",
+  "number": "002",
+  "name": "シャワーズVMAX",
+  "date": "2026-10-09"
+ },
+ "39656": {
+  "status": "added",
+  "set": "SP4",
+  "number": "003",
+  "name": "サンダースVMAX",
+  "date": "2026-10-09"
+ },
+ "39657": {
+  "status": "added",
+  "set": "SP4",
+  "number": "004",
+  "name": "エーフィVMAX",
+  "date": "2026-10-09"
+ },
  "39658": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
