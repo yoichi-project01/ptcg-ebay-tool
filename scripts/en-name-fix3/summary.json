@@ -6274,5 +6274,35 @@
    "英語版の同じ名前のカードとイラストレーターが違う": 2,
    "Bulbapedia の一覧に無い": 3
   }
+ },
+ "SC-pokemon": {
+  "set": "SC",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Shiny Collection (TCG)",
+   "section": "Shiny Collection",
+   "den": "den=020",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 19,
+  "filled": 19,
+  "filledByRule": 19,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SC-trainer": {
+  "set": "SC",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Shiny Collection (TCG)",
+   "section": "Shiny Collection",
+   "den": "den=020",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 1,
+  "filled": 1,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
