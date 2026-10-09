@@ -6366,5 +6366,37 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "SEK-pokemon": {
+  "set": "SEK",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Venusaur & Blastoise VMAX Starter Sets (TCG)",
+   "section": "Venusaur & Blastoise VMAX Starter Sets",
+   "den": "den=020",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 10,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SEK-trainer": {
+  "set": "SEK",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Venusaur & Blastoise VMAX Starter Sets (TCG)",
+   "section": "Venusaur & Blastoise VMAX Starter Sets",
+   "den": "den=020",
+   "file": "S-decks-2026.txt"
+  },
+  "targets": 10,
+  "filled": 9,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版の同じ名前のカードとイラストレーターが違う": 1
+  }
  }
 }
