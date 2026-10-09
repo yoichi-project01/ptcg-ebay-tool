@@ -38,6 +38,11 @@
   **D: のフォルダ（`D:\product\ptcg-ebay-tool`）では作業しないこと**。
 - 退避した画像（`D:\product\ptcg-ebay-tool-stray-images`）は D: に残したまま（移していない）。
 - コミット前に `node scripts/image-hashes.mjs --verify` で画像の中身を照合すること。
+- **2026-10-09: C: でもビット化けが出た**。前日の最後の `--verify` は0件だったが、翌日7件（MC-751・PMCG2-026・PMCG6-083・S-P-096・S12a-028・S6a-008・XY1-Bx-045）が
+  1〜2ビット反転していた（更新日時は変わらず、反転は多くが 0x80 のビット。10-08 の SM10b-030 も同じ形）。D: の古いコピーが SHA-256 の一覧と一致したので戻した
+  （`scripts/image-decode-report/fixed-2026-10-09.json`）。ドライブの状態は Healthy、Windows のメモリ診断（10-06）・WHEA のエラー記録とも異常なし。
+  10-07 に D: から C: へコピーしたときの書き込みで化け、読み取りのキャッシュで照合では見えていなかった可能性がある。**PC 本体（メモリ等）を疑い、
+  MemTest86 などで長時間のメモリ検査を勧める**。再起動の後に `--verify` をもう一度行うこと。
 
 - `public/cards/`（`.gitignore` 対象）はこの PC にすべてそろっている。Git の `src/imageIndex.json` の全20,665件にファイルが
   あることを 2026-10-02 に確認済み（`node scripts/restore-images-from-index.mjs --verify`）。

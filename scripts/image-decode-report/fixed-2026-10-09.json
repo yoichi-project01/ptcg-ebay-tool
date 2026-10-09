@@ -1,0 +1,54 @@
+{
+ "note": "C: のファイルが一晩で1〜2ビット反転（更新日時は変わらず、2026-10-08 の最後の --verify では0件）。D: の古いコピー（SHA-256 の一覧と一致）で戻した",
+ "files": [
+  {
+   "key": "MC/751",
+   "path": "cards/M/MC/カポエラー_MC-751／766.jpg",
+   "badSha": "cab8ed843997cc736dcfa21f06ce40bc34188c0c0b715d222e6aebd7150d3fac",
+   "restoredSha": "10bb133e2ddea09e6dc4406c8e0a9ae6ca58de88fad02ca1018f8928cc9d4a0d",
+   "ok": true
+  },
+  {
+   "key": "PMCG2/26",
+   "path": "cards/PMCG/PMCG2/サンダース_PMCG2-26／48_R.png",
+   "badSha": "2d10d91959a112564c0f06e10e17c18467417568ad5d06196f18c8ff7e179252",
+   "restoredSha": "6c0c9cd37722151062916a386937135c55f19dde686849261c757231b9fa02a4",
+   "ok": true
+  },
+  {
+   "key": "PMCG6/83",
+   "path": "cards/PMCG/PMCG6/キョウ秘伝,変わり身の術_PMCG6-83／98_U.png",
+   "badSha": "05460134c596aa0f26d24799baf7e9451187725b3f57fa2286c2741f5d535393",
+   "restoredSha": "e6c021abcdad8494c0f19ad2854f8f268f4733f977f1be28d5c3f4e106f0aca7",
+   "ok": true
+  },
+  {
+   "key": "S-P/96",
+   "path": "cards/S/S-P/基本悪エネルギー_S-P-096／350.jpg",
+   "badSha": "48b9a8770dbd1f4c88ca8ab65e2e8a98a26670f559a3cba4ed60d86a8e79c03c",
+   "restoredSha": "eb9984aab7cfeac23952f9f6c45da614cf3193367b32b3c2acf0715aa5311dea",
+   "ok": true
+  },
+  {
+   "key": "S12a/28",
+   "path": "cards/S/S12a/オリジンパルキアVSTAR_S12a-028／262_RRR.jpg",
+   "badSha": "73a77c14eede1c8475126ad276716b52c0733b65ec31661129a7e82906326098",
+   "restoredSha": "b27738bd8544d28ba21d415231db5d054b87519e254075e3d807a6480d254925",
+   "ok": true
+  },
+  {
+   "key": "S6a/8",
+   "path": "cards/S/S6a/オニシズクモ_S6a-08／87_C.jpg",
+   "badSha": "9c4570a28fca2b7ab1d73231dda3f2f0ec685b086955638cffab8542d87d337a",
+   "restoredSha": "853673b57688a8d005255302eb0ec5b6da4ff0f6bb72843d5d186e91ed7569cf",
+   "ok": true
+  },
+  {
+   "key": "XY1-Bx/45",
+   "path": "cards/XY/XY1-Bx/ケンタロス_XY1-Bx-45／63_U.jpg",
+   "badSha": "6342d86a74a8fb3f7b958a09ab58a20866da29bead27367fa9a68d59026d4d97",
+   "restoredSha": "57465dc76306c71378328bdacc36dd7027b67893aac861bf1328b1131eecf6c1",
+   "ok": true
+  }
+ ]
+}
