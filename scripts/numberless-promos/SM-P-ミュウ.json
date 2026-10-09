@@ -1,0 +1,14 @@
+{
+ "set": "SM-P",
+ "name": "ミュウ",
+ "badge": "SMP",
+ "note": "番号の無いプロモ（2026-10-09 に new-cards.mjs で見つけた、09-29 の公式一覧にあって取り込んでいなかったカード）。型番は X＋公式 details.php の cardID。見分け方は details.php の本文の最後の配布の説明（eventDetails）。画像にも番号が無いことを確認",
+ "cards": [
+  {
+   "cardId": "36903",
+   "name": "ミュウ",
+   "eventDetails": "映画「ミュウツーの逆襲 EVOLUTION」パンフレット",
+   "ja": "ミュウ（映画 ミュウツーの逆襲 EVOLUTION パンフレット）"
+  }
+ ]
+}
