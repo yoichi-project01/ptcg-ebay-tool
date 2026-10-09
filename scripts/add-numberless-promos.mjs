@@ -50,6 +50,7 @@ for (const c of plan.cards) {
   if (hasNumber) { r.status = "番号がある（番号付きの行として扱う）"; continue; }
   if (badge !== plan.badge) { r.status = `印刷記号が違う（${badge}）`; continue; }
   if (c.eventDetails && !text.includes(c.eventDetails)) { r.status = "本文の大会名が計画と違う"; continue; }
+  if (c.illustrator && text[text.indexOf("イラストレーター") + 1] !== c.illustrator) { r.status = "イラストレーターが計画と違う"; continue; } // 配布の説明が同じカードを見分ける（2026-10-09）
   if (!img) { r.status = "画像が無い"; continue; }
   const buf = await politeFetch(`https://www.pokemon-card.com${img}`, true);
   await politeDelay();
