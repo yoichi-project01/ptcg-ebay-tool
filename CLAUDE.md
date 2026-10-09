@@ -2736,7 +2736,7 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   PSA の鑑定書のページがブラウザでも Cloudflare の確認で止まり（2026-10-09）見られなかった。
 - **XY-P の X31066 バシャーモEX・X31067 ケムッソ・X31068 ジラーチは番号付きだった**: Bulbapedia の XY-P の一覧では 127〜129/XY-P（配布の説明も公式の本文と一致）で、
   公式の画像にも 127/XY-P・128/XY-P・129/XY-P と印刷されている（details.php のページに番号が表示されないだけ）。以前「公式にページ無し」とした XY-P の欠番 127〜129 はこの3枚。
-  英語名（Blaziken-EX・Wurmple・Jirachi）は規則と Bulbapedia の一致で入れた（`fix-xyp-127-129-en.mjs`）。**型番を X＋cardID から 127〜129 に変えるかは未決定**（card_id が変わる）。
+  英語名（Blaziken-EX・Wurmple・Jirachi）は規則と Bulbapedia の一致で入れた（`fix-xyp-127-129-en.mjs`）。→ 下記「XY-P 127〜129 の型番の変更」で型番も直した。
 - **作業中にまた C: でビット化け**: この作業で触っていない MBD-010（なかよしポフィン）が1ビット反転していた（`--verify` で検出して止まった）。公式 details.php（cardID 48294）の画像が
   SHA-256 の一覧と一致したので取り直して戻した（`image-decode-report/fixed-2026-10-09b.json`）。PC 本体（メモリ等）の検査を引き続き勧める。
 
@@ -2751,6 +2751,21 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
   日本語名から作った名前と Bulbapedia の日本版の一覧（`en-name-fix3/bulbapedia-owner/SV-owner-2026-10-09.txt`、SHA-256 照合済み。neo4 は番号の無い一覧の24番目）が一致した行だけ。
   なみのりピカチュウは Bulbapedia と TCGdex 英語版の Surfing Pikachu（同じイラストレーター Toshinao Aoki）で確かめた。
   全弾を洗い出して残ったのは TAG TEAM 11件（「ベトベトン&アローラ ベトベトンGX」→ Muk & Alolan Muk-GX 等、正しい）と XY-P-247 マスクド・ピカチュウ（Pikachu Libre、正しい）だけ。
+
+### 対応（2026-10-09）: XY-P 127〜129 の型番の変更・番号なしのプロモに番号付きが混ざっていないかの確認
+
+- **型番の変更**（`scripts/numberless-promos/renumber-xyp-127-129.mjs`、一覧 `scripts/promo-progress/XY-P-renumbered-card-ids-2026-10-09.tsv`）:
+  XY-P-X31066 → **XY-P-127** バシャーモEX、XY-P-X31067 → **XY-P-128** ケムッソ、XY-P-X31068 → **XY-P-129** ジラーチ。日本語名は番号付きのプロモと同じく details.php の名前だけ
+  （配布の説明の括弧注記を外した）、英語名はそのまま。画像はファイル名（`バシャーモEX_XY-P-127／298.jpg` 等）と対応表のキーだけ変え、SHA-256 は変わっていない。
+  番号なしのプロモの記録（`remaining-added-card-ids-2026-10-09.txt` 136→133件・`remaining-plans.txt` 90→87件・計画/結果/card_id の各ファイル・`remaining-en-XY-P.tsv`）から外した。
+  `scrape-promo-sets.mjs` の XY-P に `printedNumbers`（details.php に番号が無いがカードの画像に番号が印刷されているカード）を足し、`allowedGaps` から 127〜129 を外した
+  （`validatePromo` で作り直すと番号付き295行になり cardData と一致）。**カイトリレーダー側は card_id が変わる**（R2 の画像・見本の特徴の送り直しが要る）。
+- **ほかの番号なしのプロモの確認**: Bulbapedia の9弾のプロモの番号付きの一覧（SM-P 408・S-P 350・SV-P 291・M-P 165・XY-P 298・BW-P 236・DP-P 127・DPt-P 51・L-P 79）と照合。
+  cardData に無い番号は92件で、どれも番号なしの行（型番 X、残り331枚）の名前と一致しなかった（XY-P 189 オーベム・217 バルジーナ・267 ウインディ、S-P 303 ジュン、BW-P 025〜027 エモンガ等、
+  M-P 052・077〜084・101〜127〔2026年の新しいプロモ〕、S-P の「Unknown promotion」の行など）。番号なしの行に番号付きのカードは残っていない。
+- **見つかった別の件（未対応）**: 取り込みのときに「番号なしの基本エネルギー」として外した **S-P の8枚（cardID 42936〜42943）と SV-P の8枚（42956〜42963）は番号付き**だった
+  （チャンピオンズリーグ2023 参加賞。公式の画像に 329/S-P・037/SV-P と印刷、Bulbapedia も S-P 329〜336・SV-P 037〜044）。cardData に入っていない（追加するかは未決定）。
+  S-P 060〜067（2021年の同じ基本エネルギー）は公式一覧に無いまま。SV-P 291 ピカチュウ（ポケモンカードジム 2025年10月〜）も cardData に無い（一覧の取得より新しい可能性）。
 
 ---
 
