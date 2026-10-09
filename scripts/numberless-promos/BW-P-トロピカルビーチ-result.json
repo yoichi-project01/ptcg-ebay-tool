@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-09T01:52:17.528Z",
+ "set": "BW-P",
+ "results": [
+  {
+   "cardId": "28636",
+   "id": "BW-P-X28636",
+   "ja": "トロピカルビーチ（ポケモンワールドチャンピオンシップス2012 参加記念カード）",
+   "name": "トロピカルビーチ",
+   "badge": "BWP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/BWP/028636_T_TOROPIKARUBICHI.jpg",
+   "file": "cards/BW/BW-P/トロピカルビーチ（ポケモンワールドチャンピオンシップス2012 参加記念カード）_BW-P-X28636.jpg",
+   "bytes": 199771,
+   "status": "追加"
+  },
+  {
+   "cardId": "28907",
+   "id": "BW-P-X28907",
+   "ja": "トロピカルビーチ（ポケモンワールドチャンピオンシップス2011 参加記念カード）",
+   "name": "トロピカルビーチ",
+   "badge": "BWP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/BWP/028907_T_TOROPIKARUBICHI.jpg",
+   "file": "cards/BW/BW-P/トロピカルビーチ（ポケモンワールドチャンピオンシップス2011 参加記念カード）_BW-P-X28907.jpg",
+   "bytes": 217312,
+   "status": "追加"
+  }
+ ]
+}
