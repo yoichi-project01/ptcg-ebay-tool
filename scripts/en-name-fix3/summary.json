@@ -5991,5 +5991,37 @@
   "blankReasons": {
    "Bulbapedia の一覧に無い": 1
   }
+ },
+ "MEM-pokemon": {
+  "set": "MEM",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Ex Starter Sets 2026 (TCG)",
+   "section": "ex Starter Set 2026",
+   "den": "den=017",
+   "file": "M-2026.txt"
+  },
+  "targets": 9,
+  "filled": 9,
+  "filledByRule": 9,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "MEM-trainer": {
+  "set": "MEM",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Ex Starter Sets 2026 (TCG)",
+   "section": "ex Starter Set 2026",
+   "den": "den=017",
+   "file": "M-2026.txt"
+  },
+  "targets": 8,
+  "filled": 7,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "Bulbapedia の一覧に無い": 1
+  }
  }
 }
