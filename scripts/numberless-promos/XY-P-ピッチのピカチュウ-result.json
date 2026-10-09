@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-09T02:23:42.558Z",
+ "set": "XY-P",
+ "results": [
+  {
+   "cardId": "33318",
+   "id": "XY-P-X33318",
+   "ja": "ピッチのピカチュウ（Jリーグ ファミリー Joinデイズ ボールを蹴る絵）",
+   "name": "ピッチのピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/033318_P_PICCHINOPIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピッチのピカチュウ（Jリーグ ファミリー Joinデイズ ボールを蹴る絵）_XY-P-X33318.jpg",
+   "bytes": 232978,
+   "status": "追加"
+  },
+  {
+   "cardId": "33319",
+   "id": "XY-P-X33319",
+   "ja": "ピッチのピカチュウ（Jリーグ ファミリー Joinデイズ スタジアムでジャンプする絵）",
+   "name": "ピッチのピカチュウ",
+   "badge": "XYP",
+   "hasNumber": false,
+   "image": "/assets/images/card_images/large/XYP/033319_P_PICCHINOPIKACHUU.jpg",
+   "file": "cards/XY/XY-P/ピッチのピカチュウ（Jリーグ ファミリー Joinデイズ スタジアムでジャンプする絵）_XY-P-X33319.jpg",
+   "bytes": 242392,
+   "status": "追加"
+  }
+ ]
+}
