@@ -5865,5 +5865,35 @@
    "英語版に同じ名前・種類のカードが無い": 13,
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "M6a-pokemon": {
+  "set": "M6a",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "30th Celebration (TCG)",
+   "section": "30th Celebration",
+   "den": "den=103",
+   "file": "M-2026.txt"
+  },
+  "targets": 100,
+  "filled": 100,
+  "filledByRule": 100,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "M6a-trainer": {
+  "set": "M6a",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "30th Celebration (TCG)",
+   "section": "30th Celebration",
+   "den": "den=103",
+   "file": "M-2026.txt"
+  },
+  "targets": 3,
+  "filled": 3,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
