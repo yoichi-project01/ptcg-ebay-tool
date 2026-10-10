@@ -35,11 +35,16 @@ if (!set) throw new Error(`弾がありません: ${SET}`);
 const species = JSON.parse(readFileSync(path.join(DIR, "species-ja-en.json"), "utf8")).species;
 const J = new Map(species.map((s) => [s.ja.normalize("NFKC"), s.en.replace(/’/g, "'")]));
 const DEX = new Map(species.map((s) => [s.ja.normalize("NFKC"), s.id]));
-const SUF = { VMAX: " VMAX", VSTAR: " VSTAR", V: " V", ex: " ex", EX: "-EX", GX: "-GX", BREAK: " BREAK" };
+const SUF = { VMAX: " VMAX", VSTAR: " VSTAR", V: " V", ex: " ex", EX: "-EX", GX: "-GX", BREAK: " BREAK", GL: " GL", FB: " FB", G: " G", C: " C" };
+// DPt の SP ポケモン（G・GL・FB・C・4）は日本語名の後ろに [ギンガ] 等の注記が付く（2026-10-10）。注記を外して末尾の記号で英語名を作る
+const SP_NOTE = /[\[［](ギンガ|ジムリーダー|フロンティアブレーン|チャンピオン|してんのう)[\]］]$/;
+const SP_SUF = new Set(["GL", "FB", "G", "C"]);  // 四（してんのう）は英語版が "E4"、Bulbapedia の一覧が "4" で食い違うため作らない
 const PRE = { アローラ: "Alolan ", ガラル: "Galarian ", ヒスイ: "Hisuian ", パルデア: "Paldean ", メガ: "M " };
 function parsePokemon(name) {
   let n = name.normalize("NFKC").replace(/\s+/g, " ").trim(), suf = "", pre = "";
-  for (const k of Object.keys(SUF)) if (n.endsWith(k) && n.length > k.length) {
+  const hasSpNote = SP_NOTE.test(n);
+  n = n.replace(SP_NOTE, "").trim();
+  for (const k of Object.keys(SUF)) if ((hasSpNote || !SP_SUF.has(k)) && n.endsWith(k) && n.length > k.length) {
     const b = n.slice(0, -k.length).trim();
     if (J.has(b) || Object.keys(PRE).some((p) => b.startsWith(p) && J.has(b.slice(p.length).trim()))) { suf = k; n = b; break; }
   }
