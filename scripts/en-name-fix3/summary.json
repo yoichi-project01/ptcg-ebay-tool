@@ -6754,5 +6754,20 @@
   "blankReasons": {
    "英語版に同じ名前・種類のカードが無い": 2
   }
+ },
+ "MDB-trainer": {
+  "set": "MDB",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Master Deck Build Box EX (TCG)",
+   "section": "Card list",
+   "den": "den=046",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 20,
+  "filled": 20,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
