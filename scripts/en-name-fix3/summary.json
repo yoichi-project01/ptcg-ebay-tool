@@ -6619,12 +6619,10 @@
    "file": "DPt-decks-2026.txt"
   },
   "targets": 26,
-  "filled": 25,
+  "filled": 26,
   "filledByRule": 25,
-  "blank": 1,
-  "blankReasons": {
-   "規則で作れない・イラストレーターが分からない": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "MMB-S-pokemon": {
   "set": "MMB-S",
