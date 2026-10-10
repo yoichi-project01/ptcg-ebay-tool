@@ -6564,5 +6564,22 @@
    "規則と Bulbapedia が食い違う・イラストレーターが分からない": 4,
    "規則で作れない・イラストレーターが分からない": 6
   }
+ },
+ "EBB-pokemon": {
+  "set": "EBB",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Legendary Treasures (TCG)",
+   "section": "EX Battle Boost",
+   "den": "den=093",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 92,
+  "filled": 90,
+  "filledByRule": 90,
+  "blank": 2,
+  "blankReasons": {
+   "規則で作れない・イラストレーターが分からない": 2
+  }
  }
 }
