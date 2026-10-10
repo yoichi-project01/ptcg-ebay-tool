@@ -6737,5 +6737,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "WAK-trainer": {
+  "set": "WAK",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Everyone's Exciting Battle (TCG)",
+   "section": "Everyone's Exciting Battle",
+   "den": "den=047",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 7,
+  "filled": 5,
+  "filledByRule": 0,
+  "blank": 2,
+  "blankReasons": {
+   "英語版に同じ名前・種類のカードが無い": 2
+  }
  }
 }
