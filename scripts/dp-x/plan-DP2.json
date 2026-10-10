@@ -1,0 +1,1904 @@
+{
+ "set": "DP2",
+ "key": "DP2",
+ "at": "2026-10-10T08:06:46.416Z",
+ "count": 145,
+ "dupListings": [],
+ "cards": [
+  {
+   "id": "DP2-X2000",
+   "cardId": "2000",
+   "name": "パラス",
+   "ja": "パラス",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002000_P_PARASU.jpg"
+  },
+  {
+   "id": "DP2-X2001",
+   "cardId": "2001",
+   "name": "パラセクト",
+   "ja": "パラセクト",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "36",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002001_P_PARASEKUTO.jpg"
+  },
+  {
+   "id": "DP2-X2002",
+   "cardId": "2002",
+   "name": "タマタマ",
+   "ja": "タマタマ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002002_P_TAMATAMA.jpg"
+  },
+  {
+   "id": "DP2-X2003",
+   "cardId": "2003",
+   "name": "ナッシー",
+   "ja": "ナッシー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002003_P_NASSHI.jpg"
+  },
+  {
+   "id": "DP2-X2004",
+   "cardId": "2004",
+   "name": "チコリータ",
+   "ja": "チコリータ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002004_P_CHIKORITA.jpg"
+  },
+  {
+   "id": "DP2-X2005",
+   "cardId": "2005",
+   "name": "ベイリーフ",
+   "ja": "ベイリーフ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002005_P_BEIRIFU.jpg"
+  },
+  {
+   "id": "DP2-X2006",
+   "cardId": "2006",
+   "name": "メガニウム",
+   "ja": "メガニウム",
+   "rarity": "",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002006_P_MEGANIUMU.gif"
+  },
+  {
+   "id": "DP2-X2007",
+   "cardId": "2007",
+   "name": "イトマル",
+   "ja": "イトマル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002007_P_ITOMARU.jpg"
+  },
+  {
+   "id": "DP2-X2008",
+   "cardId": "2008",
+   "name": "アリアドス",
+   "ja": "アリアドス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002008_P_ARIADOSU.jpg"
+  },
+  {
+   "id": "DP2-X2009",
+   "cardId": "2009",
+   "name": "セレビィ",
+   "ja": "セレビィ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002009_P_SEREBII.gif"
+  },
+  {
+   "id": "DP2-X2010",
+   "cardId": "2010",
+   "name": "アメタマ",
+   "ja": "アメタマ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002010_P_AMETAMA.jpg"
+  },
+  {
+   "id": "DP2-X2011",
+   "cardId": "2011",
+   "name": "アメモース",
+   "ja": "アメモース",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002011_P_AMEMOSU.jpg"
+  },
+  {
+   "id": "DP2-X2012",
+   "cardId": "2012",
+   "name": "トロピウス",
+   "ja": "トロピウス",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002012_P_TOROPIUSU.jpg"
+  },
+  {
+   "id": "DP2-X2013",
+   "cardId": "2013",
+   "name": "コロボーシ",
+   "ja": "コロボーシ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "9",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002013_P_KOROBOSHI.jpg"
+  },
+  {
+   "id": "DP2-X2014",
+   "cardId": "2014",
+   "name": "コロトック",
+   "ja": "コロトック",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "38",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002014_P_KOROTOKKU.jpg"
+  },
+  {
+   "id": "DP2-X2015",
+   "cardId": "2015",
+   "name": "ユキカブリ",
+   "ja": "ユキカブリ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002015_P_YUKIKABURI.jpg"
+  },
+  {
+   "id": "DP2-X2016",
+   "cardId": "2016",
+   "name": "ユキノオー",
+   "ja": "ユキノオー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002016_P_YUKINOO.jpg"
+  },
+  {
+   "id": "DP2-X2017",
+   "cardId": "2017",
+   "name": "ロコン",
+   "ja": "ロコン",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002017_P_ROKON.jpg"
+  },
+  {
+   "id": "DP2-X2018",
+   "cardId": "2018",
+   "name": "キュウコン",
+   "ja": "キュウコン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002018_P_KYUUKON.jpg"
+  },
+  {
+   "id": "DP2-X2019",
+   "cardId": "2019",
+   "name": "ブビィ",
+   "ja": "ブビィ（拡張パック「湖の秘密」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "5",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002019_P_BUBII.jpg"
+  },
+  {
+   "id": "DP2-X2020",
+   "cardId": "2020",
+   "name": "ブーバー",
+   "ja": "ブーバー（拡張パック「湖の秘密」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002020_P_BUBA.jpg"
+  },
+  {
+   "id": "DP2-X2021",
+   "cardId": "2021",
+   "name": "ブーバーン",
+   "ja": "ブーバーン（拡張パック「湖の秘密」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002021_P_BUBAN.gif"
+  },
+  {
+   "id": "DP2-X2022",
+   "cardId": "2022",
+   "name": "ブーバーン",
+   "ja": "ブーバーン（LV.X）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002022_P_BUBAN.gif"
+  },
+  {
+   "id": "DP2-X2023",
+   "cardId": "2023",
+   "name": "ヒノアラシ",
+   "ja": "ヒノアラシ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002023_P_HINOARASHI.jpg"
+  },
+  {
+   "id": "DP2-X2024",
+   "cardId": "2024",
+   "name": "マグマラシ",
+   "ja": "マグマラシ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002024_P_MAGUMARASHI.jpg"
+  },
+  {
+   "id": "DP2-X2025",
+   "cardId": "2025",
+   "name": "バクフーン",
+   "ja": "バクフーン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002025_P_BAKUFUN.gif"
+  },
+  {
+   "id": "DP2-X2026",
+   "cardId": "2026",
+   "name": "パウワウ",
+   "ja": "パウワウ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002026_P_PAUWAU.jpg"
+  },
+  {
+   "id": "DP2-X2027",
+   "cardId": "2027",
+   "name": "ジュゴン",
+   "ja": "ジュゴン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "36",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002027_P_JUGON.jpg"
+  },
+  {
+   "id": "DP2-X2028",
+   "cardId": "2028",
+   "name": "コイキング",
+   "ja": "コイキング",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002028_P_KOIKINGU.jpg"
+  },
+  {
+   "id": "DP2-X2029",
+   "cardId": "2029",
+   "name": "ギャラドス",
+   "ja": "ギャラドス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "49",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002029_P_GYARADOSU.jpg"
+  },
+  {
+   "id": "DP2-X2030",
+   "cardId": "2030",
+   "name": "ワニノコ",
+   "ja": "ワニノコ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002030_P_WANINOKO.jpg"
+  },
+  {
+   "id": "DP2-X2031",
+   "cardId": "2031",
+   "name": "アリゲイツ",
+   "ja": "アリゲイツ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "27",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002031_P_ARIGEITSU.jpg"
+  },
+  {
+   "id": "DP2-X2032",
+   "cardId": "2032",
+   "name": "オーダイル",
+   "ja": "オーダイル",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "53",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002032_P_ODAIRU.gif"
+  },
+  {
+   "id": "DP2-X2033",
+   "cardId": "2033",
+   "name": "テッポウオ",
+   "ja": "テッポウオ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002033_P_TEPPOUO.jpg"
+  },
+  {
+   "id": "DP2-X2034",
+   "cardId": "2034",
+   "name": "オクタン",
+   "ja": "オクタン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002034_P_OKUTAN.jpg"
+  },
+  {
+   "id": "DP2-X2035",
+   "cardId": "2035",
+   "name": "マンタイン",
+   "ja": "マンタイン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002035_P_MANTAIN.jpg"
+  },
+  {
+   "id": "DP2-X2036",
+   "cardId": "2036",
+   "name": "ドジョッチ",
+   "ja": "ドジョッチ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002036_P_DOJOCCHI.jpg"
+  },
+  {
+   "id": "DP2-X2037",
+   "cardId": "2037",
+   "name": "ナマズン",
+   "ja": "ナマズン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "41",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002037_P_NAMAZUN.jpg"
+  },
+  {
+   "id": "DP2-X2038",
+   "cardId": "2038",
+   "name": "ユキワラシ",
+   "ja": "ユキワラシ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002038_P_YUKIWARASHI.jpg"
+  },
+  {
+   "id": "DP2-X2039",
+   "cardId": "2039",
+   "name": "オニゴーリ",
+   "ja": "オニゴーリ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002039_P_ONIGORI.jpg"
+  },
+  {
+   "id": "DP2-X2040",
+   "cardId": "2040",
+   "name": "タマザラシ",
+   "ja": "タマザラシ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "17",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002040_P_TAMAZARASHI.jpg"
+  },
+  {
+   "id": "DP2-X2041",
+   "cardId": "2041",
+   "name": "トドグラー",
+   "ja": "トドグラー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "27",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002041_P_TODOGURA.jpg"
+  },
+  {
+   "id": "DP2-X2042",
+   "cardId": "2042",
+   "name": "トドゼルガ",
+   "ja": "トドゼルガ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "51",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002042_P_TODOZERUGA.jpg"
+  },
+  {
+   "id": "DP2-X2043",
+   "cardId": "2043",
+   "name": "ケイコウオ",
+   "ja": "ケイコウオ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002043_P_KEIKOUO.jpg"
+  },
+  {
+   "id": "DP2-X2044",
+   "cardId": "2044",
+   "name": "ネオラント",
+   "ja": "ネオラント",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "34",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002044_P_NEORANTO.gif"
+  },
+  {
+   "id": "DP2-X2045",
+   "cardId": "2045",
+   "name": "ブイゼル",
+   "ja": "ブイゼル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002045_P_BUIZERU.jpg"
+  },
+  {
+   "id": "DP2-X2046",
+   "cardId": "2046",
+   "name": "ピチュー",
+   "ja": "ピチュー（拡張パック「湖の秘密」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002046_P_PICHU.jpg"
+  },
+  {
+   "id": "DP2-X2047",
+   "cardId": "2047",
+   "name": "ピカチュウ",
+   "ja": "ピカチュウ（拡張パック「湖の秘密」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002047_P_PIKACHUU.jpg"
+  },
+  {
+   "id": "DP2-X2048",
+   "cardId": "2048",
+   "name": "ライチュウ",
+   "ja": "ライチュウ（拡張パック「湖の秘密」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002048_P_RAICHUU.gif"
+  },
+  {
+   "id": "DP2-X2049",
+   "cardId": "2049",
+   "name": "ラクライ",
+   "ja": "ラクライ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002049_P_RAKURAI.jpg"
+  },
+  {
+   "id": "DP2-X2050",
+   "cardId": "2050",
+   "name": "ライボルト",
+   "ja": "ライボルト",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "38",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002050_P_RAIBORUTO.jpg"
+  },
+  {
+   "id": "DP2-X2051",
+   "cardId": "2051",
+   "name": "コリンク",
+   "ja": "コリンク",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "9",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002051_P_KORINKU.jpg"
+  },
+  {
+   "id": "DP2-X2052",
+   "cardId": "2052",
+   "name": "エレキブル",
+   "ja": "エレキブル",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002052_P_EREKIBURU.gif"
+  },
+  {
+   "id": "DP2-X2053",
+   "cardId": "2053",
+   "name": "ニドラン♀",
+   "ja": "ニドラン♀",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002053_P_NIDORAN.jpg"
+  },
+  {
+   "id": "DP2-X2054",
+   "cardId": "2054",
+   "name": "ニドリーナ",
+   "ja": "ニドリーナ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002054_P_NIDORINA.jpg"
+  },
+  {
+   "id": "DP2-X2055",
+   "cardId": "2055",
+   "name": "ニドクイン",
+   "ja": "ニドクイン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002055_P_NIDOKUIN.jpg"
+  },
+  {
+   "id": "DP2-X2056",
+   "cardId": "2056",
+   "name": "ズバット",
+   "ja": "ズバット",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002056_P_ZUBATTO.jpg"
+  },
+  {
+   "id": "DP2-X2057",
+   "cardId": "2057",
+   "name": "ゴルバット",
+   "ja": "ゴルバット",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "22",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002057_P_GORUBATTO.jpg"
+  },
+  {
+   "id": "DP2-X2058",
+   "cardId": "2058",
+   "name": "クロバット",
+   "ja": "クロバット",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "45",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002058_P_KUROBATTO.jpg"
+  },
+  {
+   "id": "DP2-X2059",
+   "cardId": "2059",
+   "name": "ケーシィ",
+   "ja": "ケーシィ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002059_P_KESHII.jpg"
+  },
+  {
+   "id": "DP2-X2060",
+   "cardId": "2060",
+   "name": "フーディン",
+   "ja": "フーディン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "47",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002060_P_FUDEIN.gif"
+  },
+  {
+   "id": "DP2-X2061",
+   "cardId": "2061",
+   "name": "バリヤード",
+   "ja": "バリヤード",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "33",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002061_P_BARIYADO.jpg"
+  },
+  {
+   "id": "DP2-X2062",
+   "cardId": "2062",
+   "name": "アンノーン[E]",
+   "ja": "アンノーン[E]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002062_P_ANNONE.jpg"
+  },
+  {
+   "id": "DP2-X2063",
+   "cardId": "2063",
+   "name": "アンノーン[I]",
+   "ja": "アンノーン[I]",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002063_P_ANNONI.jpg"
+  },
+  {
+   "id": "DP2-X2064",
+   "cardId": "2064",
+   "name": "アンノーン[M]",
+   "ja": "アンノーン[M]（拡張パック「湖の秘密」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002064_P_ANNONM.jpg"
+  },
+  {
+   "id": "DP2-X2065",
+   "cardId": "2065",
+   "name": "アンノーン[T]",
+   "ja": "アンノーン[T]（拡張パック「湖の秘密」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002065_P_ANNONT.jpg"
+  },
+  {
+   "id": "DP2-X2066",
+   "cardId": "2066",
+   "name": "リーシャン",
+   "ja": "リーシャン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002066_P_RISHAN.jpg"
+  },
+  {
+   "id": "DP2-X2067",
+   "cardId": "2067",
+   "name": "チリーン",
+   "ja": "チリーン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "21",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002067_P_CHIRIN.jpg"
+  },
+  {
+   "id": "DP2-X2068",
+   "cardId": "2068",
+   "name": "グレッグル",
+   "ja": "グレッグル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "17",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002068_P_GUREGGURU.jpg"
+  },
+  {
+   "id": "DP2-X2069",
+   "cardId": "2069",
+   "name": "ドクロッグ",
+   "ja": "ドクロッグ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002069_P_DOKUROGGU.jpg"
+  },
+  {
+   "id": "DP2-X2070",
+   "cardId": "2070",
+   "name": "ユクシー",
+   "ja": "ユクシー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002070_P_YUKUSHI.gif"
+  },
+  {
+   "id": "DP2-X2071",
+   "cardId": "2071",
+   "name": "エムリット",
+   "ja": "エムリット",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002071_P_EMURITTO.gif"
+  },
+  {
+   "id": "DP2-X2072",
+   "cardId": "2072",
+   "name": "アグノム",
+   "ja": "アグノム",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002072_P_AGUNOMU.gif"
+  },
+  {
+   "id": "DP2-X2073",
+   "cardId": "2073",
+   "name": "サンド",
+   "ja": "サンド",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002073_P_SANDO.jpg"
+  },
+  {
+   "id": "DP2-X2074",
+   "cardId": "2074",
+   "name": "サンドパン",
+   "ja": "サンドパン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002074_P_SANDOPAN.jpg"
+  },
+  {
+   "id": "DP2-X2075",
+   "cardId": "2075",
+   "name": "イシツブテ",
+   "ja": "イシツブテ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002075_P_ISHITSUBUTE.jpg"
+  },
+  {
+   "id": "DP2-X2076",
+   "cardId": "2076",
+   "name": "ゴローン",
+   "ja": "ゴローン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "34",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002076_P_GORON.jpg"
+  },
+  {
+   "id": "DP2-X2077",
+   "cardId": "2077",
+   "name": "ウソッキー",
+   "ja": "ウソッキー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "22",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002077_P_USOKKI.jpg"
+  },
+  {
+   "id": "DP2-X2078",
+   "cardId": "2078",
+   "name": "ヨーギラス",
+   "ja": "ヨーギラス",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002078_P_YOGIRASU.jpg"
+  },
+  {
+   "id": "DP2-X2079",
+   "cardId": "2079",
+   "name": "サナギラス",
+   "ja": "サナギラス",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "31",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002079_P_SANAGIRASU.jpg"
+  },
+  {
+   "id": "DP2-X2080",
+   "cardId": "2080",
+   "name": "ズガイドス",
+   "ja": "ズガイドス（拡張パック「湖の秘密」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "24",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002080_P_ZUGAIDOSU.jpg"
+  },
+  {
+   "id": "DP2-X2081",
+   "cardId": "2081",
+   "name": "ラムパルド",
+   "ja": "ラムパルド（拡張パック「湖の秘密」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002081_P_RAMUPARUDO.gif"
+  },
+  {
+   "id": "DP2-X2082",
+   "cardId": "2082",
+   "name": "ルカリオ",
+   "ja": "ルカリオ",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002082_P_RUKARIO.gif"
+  },
+  {
+   "id": "DP2-X2083",
+   "cardId": "2083",
+   "name": "ヤミカラス",
+   "ja": "ヤミカラス",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002083_P_YAMIKARASU.jpg"
+  },
+  {
+   "id": "DP2-X2084",
+   "cardId": "2084",
+   "name": "ドンカラス",
+   "ja": "ドンカラス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002084_P_DONKARASU.gif"
+  },
+  {
+   "id": "DP2-X2085",
+   "cardId": "2085",
+   "name": "バンギラス",
+   "ja": "バンギラス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "57",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002085_P_BANGIRASU.gif"
+  },
+  {
+   "id": "DP2-X2086",
+   "cardId": "2086",
+   "name": "ココドラ",
+   "ja": "ココドラ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002086_P_KOKODORA.jpg"
+  },
+  {
+   "id": "DP2-X2087",
+   "cardId": "2087",
+   "name": "コドラ",
+   "ja": "コドラ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002087_P_KODORA.jpg"
+  },
+  {
+   "id": "DP2-X2088",
+   "cardId": "2088",
+   "name": "ボスゴドラ",
+   "ja": "ボスゴドラ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "49",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002088_P_BOSUGODORA.gif"
+  },
+  {
+   "id": "DP2-X2089",
+   "cardId": "2089",
+   "name": "タテトプス",
+   "ja": "タテトプス（拡張パック「湖の秘密」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002089_P_TATETOPUSU.jpg"
+  },
+  {
+   "id": "DP2-X2090",
+   "cardId": "2090",
+   "name": "トリデプス",
+   "ja": "トリデプス（拡張パック「湖の秘密」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "51",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002090_P_TORIDEPUSU.gif"
+  },
+  {
+   "id": "DP2-X2091",
+   "cardId": "2091",
+   "name": "ドーミラー",
+   "ja": "ドーミラー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002091_P_DOMIRA.jpg"
+  },
+  {
+   "id": "DP2-X2092",
+   "cardId": "2092",
+   "name": "ドータクン",
+   "ja": "ドータクン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002092_P_DOTAKUN.gif"
+  },
+  {
+   "id": "DP2-X2093",
+   "cardId": "2093",
+   "name": "ドードー",
+   "ja": "ドードー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002093_P_DODO.jpg"
+  },
+  {
+   "id": "DP2-X2094",
+   "cardId": "2094",
+   "name": "ドードリオ",
+   "ja": "ドードリオ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "34",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002094_P_DODORIO.jpg"
+  },
+  {
+   "id": "DP2-X2095",
+   "cardId": "2095",
+   "name": "ピンプク",
+   "ja": "ピンプク",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002095_P_PINPUKU.jpg"
+  },
+  {
+   "id": "DP2-X2096",
+   "cardId": "2096",
+   "name": "ラッキー",
+   "ja": "ラッキー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "31",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002096_P_RAKKI.jpg"
+  },
+  {
+   "id": "DP2-X2097",
+   "cardId": "2097",
+   "name": "ハピナス",
+   "ja": "ハピナス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "44",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002097_P_HAPINASU.gif"
+  },
+  {
+   "id": "DP2-X2098",
+   "cardId": "2098",
+   "name": "ノコッチ",
+   "ja": "ノコッチ（拡張パック「湖の秘密」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "21",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002098_P_NOKOCCHI.jpg"
+  },
+  {
+   "id": "DP2-X2099",
+   "cardId": "2099",
+   "name": "エイパム",
+   "ja": "エイパム",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "17",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002099_P_EIPAMU.jpg"
+  },
+  {
+   "id": "DP2-X2100",
+   "cardId": "2100",
+   "name": "エテボース",
+   "ja": "エテボース",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "36",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002100_P_ETEBOSU.gif"
+  },
+  {
+   "id": "DP2-X2101",
+   "cardId": "2101",
+   "name": "ヒメグマ",
+   "ja": "ヒメグマ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002101_P_HIMEGUMA.jpg"
+  },
+  {
+   "id": "DP2-X2102",
+   "cardId": "2102",
+   "name": "リングマ",
+   "ja": "リングマ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "38",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002102_P_RINGUMA.jpg"
+  },
+  {
+   "id": "DP2-X2103",
+   "cardId": "2103",
+   "name": "ナマケロ",
+   "ja": "ナマケロ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "7",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002103_P_NAMAKERO.jpg"
+  },
+  {
+   "id": "DP2-X2104",
+   "cardId": "2104",
+   "name": "ヤルキモノ",
+   "ja": "ヤルキモノ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "24",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002104_P_YARUKIMONO.jpg"
+  },
+  {
+   "id": "DP2-X2105",
+   "cardId": "2105",
+   "name": "ケッキング",
+   "ja": "ケッキング",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "56",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002105_P_KEKKINGU.jpg"
+  },
+  {
+   "id": "DP2-X2106",
+   "cardId": "2106",
+   "name": "キリンリキ",
+   "ja": "キリンリキ（拡張パック「湖の秘密」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "27",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002106_P_KIRINRIKI.jpg"
+  },
+  {
+   "id": "DP2-X2107",
+   "cardId": "2107",
+   "name": "フカマル",
+   "ja": "フカマル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "9",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002107_P_FUKAMARU.jpg"
+  },
+  {
+   "id": "DP2-X2108",
+   "cardId": "2108",
+   "name": "ガバイト",
+   "ja": "ガバイト",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002108_P_GABAITO.jpg"
+  },
+  {
+   "id": "DP2-X2109",
+   "cardId": "2109",
+   "name": "ガブリアス",
+   "ja": "ガブリアス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "66",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002109_P_GABURIASU.gif"
+  },
+  {
+   "id": "DP2-X2110",
+   "cardId": "2110",
+   "name": "ビッパ",
+   "ja": "ビッパ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002110_P_BIPPA.jpg"
+  },
+  {
+   "id": "DP2-X2111",
+   "cardId": "2111",
+   "name": "クイックボール",
+   "ja": "クイックボール",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」",
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002111_T_KUIKKUBORU.jpg"
+  },
+  {
+   "id": "DP2-X2112",
+   "cardId": "2112",
+   "name": "ずがいの化石",
+   "ja": "ずがいの化石（拡張パック「湖の秘密」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002112_T_ZUGAINOKASEKI.jpg"
+  },
+  {
+   "id": "DP2-X2113",
+   "cardId": "2113",
+   "name": "たての化石",
+   "ja": "たての化石（拡張パック「湖の秘密」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002113_T_TATENOKASEKI.jpg"
+  },
+  {
+   "id": "DP2-X2114",
+   "cardId": "2114",
+   "name": "ダークボール",
+   "ja": "ダークボール",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」",
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002114_T_DAKUBORU.jpg"
+  },
+  {
+   "id": "DP2-X2115",
+   "cardId": "2115",
+   "name": "夜のメンテナンス",
+   "ja": "夜のメンテナンス",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002115_T_YORUNOMENTENANSU.jpg"
+  },
+  {
+   "id": "DP2-X2116",
+   "cardId": "2116",
+   "name": "化石発掘員",
+   "ja": "化石発掘員",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」",
+    "構築ハーフデッキ「守りのトリデプス」",
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002116_T_KASEKIHAKKUTSUIN.jpg"
+  },
+  {
+   "id": "DP2-X2117",
+   "cardId": "2117",
+   "name": "ギンガ団の賭け",
+   "ja": "ギンガ団の賭け",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」",
+    "構築ハーフデッキ「守りのトリデプス」",
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002117_T_GINGADANNOKAKE.jpg"
+  },
+  {
+   "id": "DP2-X2118",
+   "cardId": "2118",
+   "name": "ミズキの検索",
+   "ja": "ミズキの検索",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002118_T_MIZUKINOKENSAKU.jpg"
+  },
+  {
+   "id": "DP2-X2119",
+   "cardId": "2119",
+   "name": "湖の結界",
+   "ja": "湖の結界",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002119_T_MIZUUMINOKEKKAI.jpg"
+  },
+  {
+   "id": "DP2-X2120",
+   "cardId": "2120",
+   "name": "特殊悪エネルギー",
+   "ja": "特殊悪エネルギー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002120_E_AKUENERUGI.jpg"
+  },
+  {
+   "id": "DP2-X2121",
+   "cardId": "2121",
+   "name": "特殊鋼エネルギー",
+   "ja": "特殊鋼エネルギー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002121_E_KOUENERUGI.jpg"
+  },
+  {
+   "id": "DP2-X2122",
+   "cardId": "2122",
+   "name": "マルチエネルギー",
+   "ja": "マルチエネルギー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「湖の秘密」",
+    "構築ハーフデッキ「守りのトリデプス」",
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002122_E_MARUCHIENERUGI.jpg"
+  },
+  {
+   "id": "DP2-X2124",
+   "cardId": "2124",
+   "name": "ブビィ",
+   "ja": "ブビィ（構築ハーフデッキ「守りのトリデプス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "5",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002124_P_BUBII.jpg"
+  },
+  {
+   "id": "DP2-X2125",
+   "cardId": "2125",
+   "name": "ブーバー",
+   "ja": "ブーバー（構築ハーフデッキ「守りのトリデプス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002125_P_BUBA.jpg"
+  },
+  {
+   "id": "DP2-X2126",
+   "cardId": "2126",
+   "name": "ブーバーン",
+   "ja": "ブーバーン（構築ハーフデッキ「守りのトリデプス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002126_P_BUBAN.jpg"
+  },
+  {
+   "id": "DP2-X2127",
+   "cardId": "2127",
+   "name": "ピチュー",
+   "ja": "ピチュー（構築ハーフデッキ「攻めのラムパルド」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002127_P_PICHU.jpg"
+  },
+  {
+   "id": "DP2-X2128",
+   "cardId": "2128",
+   "name": "ピカチュウ",
+   "ja": "ピカチュウ（構築ハーフデッキ「攻めのラムパルド」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002128_P_PIKACHUU.jpg"
+  },
+  {
+   "id": "DP2-X2129",
+   "cardId": "2129",
+   "name": "ライチュウ",
+   "ja": "ライチュウ（構築ハーフデッキ「攻めのラムパルド」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002129_P_RAICHUU.jpg"
+  },
+  {
+   "id": "DP2-X2130",
+   "cardId": "2130",
+   "name": "アンノーン[M]",
+   "ja": "アンノーン[M]（構築ハーフデッキ「攻めのラムパルド」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002130_P_ANNONM.jpg"
+  },
+  {
+   "id": "DP2-X2131",
+   "cardId": "2131",
+   "name": "アンノーン[T]",
+   "ja": "アンノーン[T]（構築ハーフデッキ「守りのトリデプス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002131_P_ANNONT.jpg"
+  },
+  {
+   "id": "DP2-X2132",
+   "cardId": "2132",
+   "name": "ズガイドス",
+   "ja": "ズガイドス（構築ハーフデッキ「攻めのラムパルド」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "24",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002132_P_ZUGAIDOSU.jpg"
+  },
+  {
+   "id": "DP2-X2133",
+   "cardId": "2133",
+   "name": "ラムパルド",
+   "ja": "ラムパルド（構築ハーフデッキ「攻めのラムパルド」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002133_P_RAMUPARUDO.gif"
+  },
+  {
+   "id": "DP2-X2134",
+   "cardId": "2134",
+   "name": "タテトプス",
+   "ja": "タテトプス（構築ハーフデッキ「守りのトリデプス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002134_P_TATETOPUSU.jpg"
+  },
+  {
+   "id": "DP2-X2135",
+   "cardId": "2135",
+   "name": "トリデプス",
+   "ja": "トリデプス（構築ハーフデッキ「守りのトリデプス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "51",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002135_P_TORIDEPUSU.gif"
+  },
+  {
+   "id": "DP2-X2136",
+   "cardId": "2136",
+   "name": "ノコッチ",
+   "ja": "ノコッチ（構築ハーフデッキ「攻めのラムパルド」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "21",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002136_P_NOKOCCHI.jpg"
+  },
+  {
+   "id": "DP2-X2137",
+   "cardId": "2137",
+   "name": "キリンリキ",
+   "ja": "キリンリキ（構築ハーフデッキ「守りのトリデプス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "27",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002137_P_KIRINRIKI.jpg"
+  },
+  {
+   "id": "DP2-X2138",
+   "cardId": "2138",
+   "name": "ずがいの化石",
+   "ja": "ずがいの化石（構築ハーフデッキ「攻めのラムパルド」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002138_T_ZUGAINOKASEKI.jpg"
+  },
+  {
+   "id": "DP2-X2139",
+   "cardId": "2139",
+   "name": "たての化石",
+   "ja": "たての化石（構築ハーフデッキ「守りのトリデプス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002139_T_TATENOKASEKI.jpg"
+  },
+  {
+   "id": "DP2-X2140",
+   "cardId": "2140",
+   "name": "エネルギー転送",
+   "ja": "エネルギー転送",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」",
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002140_T_ENERUGITENSOU.jpg"
+  },
+  {
+   "id": "DP2-X2141",
+   "cardId": "2141",
+   "name": "きずぐすり",
+   "ja": "きずぐすり",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002141_T_KIZUGUSURI.jpg"
+  },
+  {
+   "id": "DP2-X2142",
+   "cardId": "2142",
+   "name": "ポケモン図鑑HANDY910is",
+   "ja": "ポケモン図鑑HANDY910is",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」",
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002142_T_POKEMONZUKAN.jpg"
+  },
+  {
+   "id": "DP2-X2143",
+   "cardId": "2143",
+   "name": "ワープポイント",
+   "ja": "ワープポイント",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築ハーフデッキ「攻めのラムパルド」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002143_T_WAPUPOINTO.jpg"
+  },
+  {
+   "id": "DP2-X2144",
+   "cardId": "2144",
+   "name": "プラスパワー",
+   "ja": "プラスパワー",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002144_T_PURASUPAWA.jpg"
+  },
+  {
+   "id": "DP2-X2145",
+   "cardId": "2145",
+   "name": "ポケモンいれかえ",
+   "ja": "ポケモンいれかえ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築ハーフデッキ「守りのトリデプス」"
+   ],
+   "image": "/assets/images/card_images/large/DP2/002145_T_POKEMONIREKAE.jpg"
+  }
+ ]
+}

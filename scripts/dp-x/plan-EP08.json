@@ -1,0 +1,587 @@
+{
+ "set": "EP08",
+ "key": "DP",
+ "at": "2026-10-10T08:11:49.728Z",
+ "count": 42,
+ "dupListings": [],
+ "cards": [
+  {
+   "id": "EP08-X15000",
+   "cardId": "15000",
+   "name": "ナエトル",
+   "ja": "ナエトル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015000_P_NAETORU.jpg"
+  },
+  {
+   "id": "EP08-X15001",
+   "cardId": "15001",
+   "name": "ハヤシガメ",
+   "ja": "ハヤシガメ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "23",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015001_P_HAYASHIGAME.jpg"
+  },
+  {
+   "id": "EP08-X15002",
+   "cardId": "15002",
+   "name": "ドダイトス",
+   "ja": "ドダイトス",
+   "rarity": "",
+   "lvx": false,
+   "lv": "51",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015002_P_DODAITOSU.gif"
+  },
+  {
+   "id": "EP08-X15003",
+   "cardId": "15003",
+   "name": "ウソッキー",
+   "ja": "ウソッキー",
+   "rarity": "",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015003_P_USOKKI.jpg"
+  },
+  {
+   "id": "EP08-X15004",
+   "cardId": "15004",
+   "name": "ヒポポタス",
+   "ja": "ヒポポタス",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015004_P_HIPOPOTASU.jpg"
+  },
+  {
+   "id": "EP08-X15005",
+   "cardId": "15005",
+   "name": "カバルドン",
+   "ja": "カバルドン",
+   "rarity": "",
+   "lvx": false,
+   "lv": "44",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015005_P_KABARUDON.jpg"
+  },
+  {
+   "id": "EP08-X15006",
+   "cardId": "15006",
+   "name": "ミミロル",
+   "ja": "ミミロル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015006_P_MIMIRORU.jpg"
+  },
+  {
+   "id": "EP08-X15007",
+   "cardId": "15007",
+   "name": "エネルギー転送",
+   "ja": "エネルギー転送",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015007_T_ENERUGITENSOU.jpg"
+  },
+  {
+   "id": "EP08-X15008",
+   "cardId": "15008",
+   "name": "スーパーポケモン回収",
+   "ja": "スーパーポケモン回収",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015008_T_SUPAPOKEMONKAISHUU.jpg"
+  },
+  {
+   "id": "EP08-X15009",
+   "cardId": "15009",
+   "name": "なんでもなおしW",
+   "ja": "なんでもなおしW",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015009_T_NANDEMONAOSHIW.jpg"
+  },
+  {
+   "id": "EP08-X15010",
+   "cardId": "15010",
+   "name": "ポケモンいれかえ",
+   "ja": "ポケモンいれかえ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015010_T_POKEMONIREKAE.jpg"
+  },
+  {
+   "id": "EP08-X15011",
+   "cardId": "15011",
+   "name": "モンスターボール",
+   "ja": "モンスターボール",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015011_T_MONSUTABORU.jpg"
+  },
+  {
+   "id": "EP08-X15012",
+   "cardId": "15012",
+   "name": "ママのきづかい",
+   "ja": "ママのきづかい",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015012_T_MAMANOKIDUKAI.jpg"
+  },
+  {
+   "id": "EP08-X15013",
+   "cardId": "15013",
+   "name": "ヒコザル",
+   "ja": "ヒコザル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015013_P_HIKOZARU.jpg"
+  },
+  {
+   "id": "EP08-X15014",
+   "cardId": "15014",
+   "name": "モウカザル",
+   "ja": "モウカザル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015014_P_MOUKAZARU.jpg"
+  },
+  {
+   "id": "EP08-X15015",
+   "cardId": "15015",
+   "name": "ゴウカザル",
+   "ja": "ゴウカザル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015015_P_GOUKAZARU.gif"
+  },
+  {
+   "id": "EP08-X15016",
+   "cardId": "15016",
+   "name": "ラクライ",
+   "ja": "ラクライ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015016_P_RAKURAI.jpg"
+  },
+  {
+   "id": "EP08-X15017",
+   "cardId": "15017",
+   "name": "ライボルト",
+   "ja": "ライボルト",
+   "rarity": "",
+   "lvx": false,
+   "lv": "34",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015017_P_RAIBORUTO.jpg"
+  },
+  {
+   "id": "EP08-X15018",
+   "cardId": "15018",
+   "name": "ロトム",
+   "ja": "ロトム",
+   "rarity": "",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015018_P_ROTOMU.jpg"
+  },
+  {
+   "id": "EP08-X15019",
+   "cardId": "15019",
+   "name": "ベロリンガ",
+   "ja": "ベロリンガ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "23",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015019_P_BERORINGA.jpg"
+  },
+  {
+   "id": "EP08-X15020",
+   "cardId": "15020",
+   "name": "エネルギー再生",
+   "ja": "エネルギー再生",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015020_T_ENERUGISAISEI.jpg"
+  },
+  {
+   "id": "EP08-X15021",
+   "cardId": "15021",
+   "name": "プラスパワー",
+   "ja": "プラスパワー",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015021_T_PURASUPAWA.jpg"
+  },
+  {
+   "id": "EP08-X15022",
+   "cardId": "15022",
+   "name": "ポッチャマ",
+   "ja": "ポッチャマ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015022_P_POCCHAMA.jpg"
+  },
+  {
+   "id": "EP08-X15023",
+   "cardId": "15023",
+   "name": "ポッタイシ",
+   "ja": "ポッタイシ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "24",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015023_P_POTTAISHI.jpg"
+  },
+  {
+   "id": "EP08-X15024",
+   "cardId": "15024",
+   "name": "エンペルト",
+   "ja": "エンペルト",
+   "rarity": "",
+   "lvx": false,
+   "lv": "49",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015024_P_ENPERUTO.gif"
+  },
+  {
+   "id": "EP08-X15025",
+   "cardId": "15025",
+   "name": "フワンテ",
+   "ja": "フワンテ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015025_P_FUWANTE.jpg"
+  },
+  {
+   "id": "EP08-X15026",
+   "cardId": "15026",
+   "name": "ドーミラー",
+   "ja": "ドーミラー",
+   "rarity": "",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015026_P_DOMIRA.jpg"
+  },
+  {
+   "id": "EP08-X15027",
+   "cardId": "15027",
+   "name": "グレッグル",
+   "ja": "グレッグル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015027_P_GUREGGURU.jpg"
+  },
+  {
+   "id": "EP08-X15028",
+   "cardId": "15028",
+   "name": "ドクロッグ",
+   "ja": "ドクロッグ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015028_P_DOKUROGGU.jpg"
+  },
+  {
+   "id": "EP08-X15029",
+   "cardId": "15029",
+   "name": "ニャルマー",
+   "ja": "ニャルマー",
+   "rarity": "",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015029_P_NYARUMA.jpg"
+  },
+  {
+   "id": "EP08-X15030",
+   "cardId": "15030",
+   "name": "エネルギーつけかえ",
+   "ja": "エネルギーつけかえ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015030_T_ENERUGITSUKEKAE.jpg"
+  },
+  {
+   "id": "EP08-X15031",
+   "cardId": "15031",
+   "name": "きずぐすり",
+   "ja": "きずぐすり",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08",
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015031_T_KIZUGUSURI.jpg"
+  },
+  {
+   "id": "EP08-X15032",
+   "cardId": "15032",
+   "name": "ピカチュウ",
+   "ja": "ピカチュウ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015032_P_PIKACHUU.jpg"
+  },
+  {
+   "id": "EP08-X15033",
+   "cardId": "15033",
+   "name": "ライチュウ",
+   "ja": "ライチュウ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015033_P_RAICHUU.gif"
+  },
+  {
+   "id": "EP08-X15034",
+   "cardId": "15034",
+   "name": "プラスル",
+   "ja": "プラスル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "27",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015034_P_PURASURU.jpg"
+  },
+  {
+   "id": "EP08-X15035",
+   "cardId": "15035",
+   "name": "マイナン",
+   "ja": "マイナン",
+   "rarity": "",
+   "lvx": false,
+   "lv": "24",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015035_P_MAINAN.jpg"
+  },
+  {
+   "id": "EP08-X15036",
+   "cardId": "15036",
+   "name": "パチリス",
+   "ja": "パチリス",
+   "rarity": "",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015036_P_PACHIRISU.jpg"
+  },
+  {
+   "id": "EP08-X15037",
+   "cardId": "15037",
+   "name": "エイパム",
+   "ja": "エイパム",
+   "rarity": "",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015037_P_EIPAMU.jpg"
+  },
+  {
+   "id": "EP08-X15038",
+   "cardId": "15038",
+   "name": "ムックル",
+   "ja": "ムックル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015038_P_MUKKURU.jpg"
+  },
+  {
+   "id": "EP08-X15039",
+   "cardId": "15039",
+   "name": "ムクバード",
+   "ja": "ムクバード",
+   "rarity": "",
+   "lvx": false,
+   "lv": "23",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015039_P_MUKUBADO.jpg"
+  },
+  {
+   "id": "EP08-X15040",
+   "cardId": "15040",
+   "name": "ポケモン図鑑HANDY910is",
+   "ja": "ポケモン図鑑HANDY910is",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015040_T_POKEMONZUKANHANDYIS.jpg"
+  },
+  {
+   "id": "EP08-X15041",
+   "cardId": "15041",
+   "name": "ワープポイント",
+   "ja": "ワープポイント",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "エントリーパック’08 DX"
+   ],
+   "image": "/assets/images/card_images/large/DP/015041_T_WAPUPOINTO.jpg"
+  }
+ ]
+}

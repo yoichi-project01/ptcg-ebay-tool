@@ -1,0 +1,1907 @@
+{
+ "set": "DP3",
+ "key": "DP3",
+ "at": "2026-10-10T08:06:46.580Z",
+ "count": 144,
+ "dupListings": [
+  {
+   "kept": "3119",
+   "dropped": "3120",
+   "name": "ディアルガ",
+   "keptImage": "/assets/images/card_images/large/DP3/003119_P_DEIARUGA.jpg",
+   "droppedImage": "/assets/images/card_images/large/DP3/003120_P_DEIARUGA.gif"
+  },
+  {
+   "kept": "3121",
+   "dropped": "3122",
+   "name": "パルキア",
+   "keptImage": "/assets/images/card_images/large/DP3/003121_P_PARUKIA.jpg",
+   "droppedImage": "/assets/images/card_images/large/DP3/003122_P_PARUKIA.gif"
+  }
+ ],
+ "cards": [
+  {
+   "id": "DP3-X3000",
+   "cardId": "3000",
+   "name": "フシギダネ",
+   "ja": "フシギダネ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003000_P_FUSHIGIDANE.jpg"
+  },
+  {
+   "id": "DP3-X3001",
+   "cardId": "3001",
+   "name": "フシギソウ",
+   "ja": "フシギソウ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "24",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003001_P_FUSHIGISOU.jpg"
+  },
+  {
+   "id": "DP3-X3002",
+   "cardId": "3002",
+   "name": "フシギバナ",
+   "ja": "フシギバナ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "51",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003002_P_FUSHIGIBANA.gif"
+  },
+  {
+   "id": "DP3-X3003",
+   "cardId": "3003",
+   "name": "コンパン",
+   "ja": "コンパン",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003003_P_KONPAN.jpg"
+  },
+  {
+   "id": "DP3-X3004",
+   "cardId": "3004",
+   "name": "モルフォン",
+   "ja": "モルフォン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003004_P_MORUFON.jpg"
+  },
+  {
+   "id": "DP3-X3005",
+   "cardId": "3005",
+   "name": "カイロス",
+   "ja": "カイロス",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003005_P_KAIROSU.jpg"
+  },
+  {
+   "id": "DP3-X3006",
+   "cardId": "3006",
+   "name": "ハネッコ",
+   "ja": "ハネッコ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "7",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003006_P_HANEKKO.jpg"
+  },
+  {
+   "id": "DP3-X3007",
+   "cardId": "3007",
+   "name": "ポポッコ",
+   "ja": "ポポッコ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003007_P_POPOKKO.jpg"
+  },
+  {
+   "id": "DP3-X3008",
+   "cardId": "3008",
+   "name": "ワタッコ",
+   "ja": "ワタッコ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003008_P_WATAKKO.gif"
+  },
+  {
+   "id": "DP3-X3009",
+   "cardId": "3009",
+   "name": "ヒマナッツ",
+   "ja": "ヒマナッツ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003009_P_HIMANATTSU.jpg"
+  },
+  {
+   "id": "DP3-X3010",
+   "cardId": "3010",
+   "name": "キマワリ",
+   "ja": "キマワリ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003010_P_KIMAWARI.jpg"
+  },
+  {
+   "id": "DP3-X3011",
+   "cardId": "3011",
+   "name": "ツボツボ",
+   "ja": "ツボツボ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003011_P_TSUBOTSUBO.jpg"
+  },
+  {
+   "id": "DP3-X3012",
+   "cardId": "3012",
+   "name": "キノココ",
+   "ja": "キノココ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003012_P_KINOKOKO.jpg"
+  },
+  {
+   "id": "DP3-X3013",
+   "cardId": "3013",
+   "name": "キノガッサ",
+   "ja": "キノガッサ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003013_P_KINOGASSA.jpg"
+  },
+  {
+   "id": "DP3-X3014",
+   "cardId": "3014",
+   "name": "ミノムッチ くさきのミノ",
+   "ja": "ミノムッチ くさきのミノ（拡張パック「ひかる闇」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003014_P_MINOMUCCHIKUSAKINOMINO.jpg"
+  },
+  {
+   "id": "DP3-X3015",
+   "cardId": "3015",
+   "name": "ミノムッチ すなちのミノ",
+   "ja": "ミノムッチ すなちのミノ（拡張パック「ひかる闇」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003015_P_MINOMUCCHISUNACHINOMINO.jpg"
+  },
+  {
+   "id": "DP3-X3016",
+   "cardId": "3016",
+   "name": "ミノムッチ ゴミのミノ",
+   "ja": "ミノムッチ ゴミのミノ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003016_P_MINOMUCCHIGOMINOMINO.jpg"
+  },
+  {
+   "id": "DP3-X3017",
+   "cardId": "3017",
+   "name": "ミノマダム くさきのミノ",
+   "ja": "ミノマダム くさきのミノ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "36",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003017_P_MINOMADAMUKUSAKINOMINO.jpg"
+  },
+  {
+   "id": "DP3-X3018",
+   "cardId": "3018",
+   "name": "ガーメイル",
+   "ja": "ガーメイル（拡張パック「ひかる闇」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003018_P_GAMEIRU.jpg"
+  },
+  {
+   "id": "DP3-X3019",
+   "cardId": "3019",
+   "name": "ヒトカゲ",
+   "ja": "ヒトカゲ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003019_P_HITOKAGE.jpg"
+  },
+  {
+   "id": "DP3-X3020",
+   "cardId": "3020",
+   "name": "リザード",
+   "ja": "リザード",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "29",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003020_P_RIZADO.jpg"
+  },
+  {
+   "id": "DP3-X3021",
+   "cardId": "3021",
+   "name": "リザードン",
+   "ja": "リザードン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "55",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003021_P_RIZADON.gif"
+  },
+  {
+   "id": "DP3-X3022",
+   "cardId": "3022",
+   "name": "ガーディ",
+   "ja": "ガーディ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003022_P_GADEI.jpg"
+  },
+  {
+   "id": "DP3-X3023",
+   "cardId": "3023",
+   "name": "ウインディ",
+   "ja": "ウインディ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003023_P_UINDEI.jpg"
+  },
+  {
+   "id": "DP3-X3024",
+   "cardId": "3024",
+   "name": "エンテイ",
+   "ja": "エンテイ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003024_P_ENTEI.gif"
+  },
+  {
+   "id": "DP3-X3025",
+   "cardId": "3025",
+   "name": "ホウオウ",
+   "ja": "ホウオウ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "45",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003025_P_HOUOU.gif"
+  },
+  {
+   "id": "DP3-X3026",
+   "cardId": "3026",
+   "name": "ゼニガメ",
+   "ja": "ゼニガメ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003026_P_ZENIGAME.jpg"
+  },
+  {
+   "id": "DP3-X3027",
+   "cardId": "3027",
+   "name": "カメール",
+   "ja": "カメール",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003027_P_KAMERU.jpg"
+  },
+  {
+   "id": "DP3-X3028",
+   "cardId": "3028",
+   "name": "カメックス",
+   "ja": "カメックス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "52",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003028_P_KAMEKKUSU.gif"
+  },
+  {
+   "id": "DP3-X3029",
+   "cardId": "3029",
+   "name": "コダック",
+   "ja": "コダック",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003029_P_KODAKKU.jpg"
+  },
+  {
+   "id": "DP3-X3030",
+   "cardId": "3030",
+   "name": "ゴルダック",
+   "ja": "ゴルダック",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003030_P_GORUDAKKU.jpg"
+  },
+  {
+   "id": "DP3-X3031",
+   "cardId": "3031",
+   "name": "シェルダー",
+   "ja": "シェルダー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003031_P_SHIERUDA.jpg"
+  },
+  {
+   "id": "DP3-X3032",
+   "cardId": "3032",
+   "name": "パルシェン",
+   "ja": "パルシェン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003032_P_PARUSHIEN.jpg"
+  },
+  {
+   "id": "DP3-X3033",
+   "cardId": "3033",
+   "name": "スイクン",
+   "ja": "スイクン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "44",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003033_P_SUIKUN.gif"
+  },
+  {
+   "id": "DP3-X3034",
+   "cardId": "3034",
+   "name": "ハリーセン",
+   "ja": "ハリーセン",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "31",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003034_P_HARISEN.jpg"
+  },
+  {
+   "id": "DP3-X3035",
+   "cardId": "3035",
+   "name": "ウパー",
+   "ja": "ウパー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003035_P_UPA.jpg"
+  },
+  {
+   "id": "DP3-X3036",
+   "cardId": "3036",
+   "name": "ヌオー",
+   "ja": "ヌオー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "38",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003036_P_NUO.jpg"
+  },
+  {
+   "id": "DP3-X3037",
+   "cardId": "3037",
+   "name": "サニーゴ",
+   "ja": "サニーゴ（拡張パック「ひかる闇」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003037_P_SANIGO.jpg"
+  },
+  {
+   "id": "DP3-X3038",
+   "cardId": "3038",
+   "name": "ハスボー",
+   "ja": "ハスボー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003038_P_HASUBO.jpg"
+  },
+  {
+   "id": "DP3-X3039",
+   "cardId": "3039",
+   "name": "ハスブレロ",
+   "ja": "ハスブレロ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003039_P_HASUBURERO.jpg"
+  },
+  {
+   "id": "DP3-X3040",
+   "cardId": "3040",
+   "name": "ルンパッパ",
+   "ja": "ルンパッパ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "47",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003040_P_RUNPAPPA.gif"
+  },
+  {
+   "id": "DP3-X3041",
+   "cardId": "3041",
+   "name": "カラナクシ にしのうみ",
+   "ja": "カラナクシ にしのうみ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003041_P_KARANAKUSHINISHINOUMI.jpg"
+  },
+  {
+   "id": "DP3-X3042",
+   "cardId": "3042",
+   "name": "カラナクシ ひがしのうみ",
+   "ja": "カラナクシ ひがしのうみ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "23",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003042_P_KARANAKUSHIHIGASHINOUMI.jpg"
+  },
+  {
+   "id": "DP3-X3043",
+   "cardId": "3043",
+   "name": "トリトドン ひがしのうみ",
+   "ja": "トリトドン ひがしのうみ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003043_P_TORITODONHIGASHINOUMI.gif"
+  },
+  {
+   "id": "DP3-X3044",
+   "cardId": "3044",
+   "name": "パルキア",
+   "ja": "パルキア（LV.X・構築スタンダードデッキ「パルキアLV.X」）",
+   "rarity": "",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003044_P_PARUKIA.gif"
+  },
+  {
+   "id": "DP3-X3045",
+   "cardId": "3045",
+   "name": "ビリリダマ",
+   "ja": "ビリリダマ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "29",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003045_P_BIRIRIDAMA.jpg"
+  },
+  {
+   "id": "DP3-X3046",
+   "cardId": "3046",
+   "name": "マルマイン",
+   "ja": "マルマイン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003046_P_MARUMAIN.jpg"
+  },
+  {
+   "id": "DP3-X3047",
+   "cardId": "3047",
+   "name": "メリープ",
+   "ja": "メリープ（拡張パック「ひかる闇」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003047_P_MERIPU.jpg"
+  },
+  {
+   "id": "DP3-X3048",
+   "cardId": "3048",
+   "name": "モココ",
+   "ja": "モココ（拡張パック「ひかる闇」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003048_P_MOKOKO.jpg"
+  },
+  {
+   "id": "DP3-X3049",
+   "cardId": "3049",
+   "name": "デンリュウ",
+   "ja": "デンリュウ（拡張パック「ひかる闇」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "52",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003049_P_DENRYUU.gif"
+  },
+  {
+   "id": "DP3-X3050",
+   "cardId": "3050",
+   "name": "ライコウ",
+   "ja": "ライコウ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003050_P_RAIKOU.gif"
+  },
+  {
+   "id": "DP3-X3051",
+   "cardId": "3051",
+   "name": "プラスル",
+   "ja": "プラスル",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003051_P_PURASURU.jpg"
+  },
+  {
+   "id": "DP3-X3052",
+   "cardId": "3052",
+   "name": "マイナン",
+   "ja": "マイナン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003052_P_MAINAN.jpg"
+  },
+  {
+   "id": "DP3-X3053",
+   "cardId": "3053",
+   "name": "ニドラン♂",
+   "ja": "ニドラン♂",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003053_P_NIDORAN.jpg"
+  },
+  {
+   "id": "DP3-X3054",
+   "cardId": "3054",
+   "name": "ニドリーノ",
+   "ja": "ニドリーノ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003054_P_NIDORINO.jpg"
+  },
+  {
+   "id": "DP3-X3055",
+   "cardId": "3055",
+   "name": "ニドキング",
+   "ja": "ニドキング",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "55",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003055_P_NIDOKINGU.jpg"
+  },
+  {
+   "id": "DP3-X3056",
+   "cardId": "3056",
+   "name": "ベトベター",
+   "ja": "ベトベター",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003056_P_BETOBETA.jpg"
+  },
+  {
+   "id": "DP3-X3057",
+   "cardId": "3057",
+   "name": "ベトベトン",
+   "ja": "ベトベトン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003057_P_BETOBETON.jpg"
+  },
+  {
+   "id": "DP3-X3058",
+   "cardId": "3058",
+   "name": "ムチュール",
+   "ja": "ムチュール",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003058_P_MUCHURU.jpg"
+  },
+  {
+   "id": "DP3-X3059",
+   "cardId": "3059",
+   "name": "ルージュラ",
+   "ja": "ルージュラ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003059_P_RUJURA.jpg"
+  },
+  {
+   "id": "DP3-X3060",
+   "cardId": "3060",
+   "name": "ミュウ",
+   "ja": "ミュウ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003060_P_MYUU.gif"
+  },
+  {
+   "id": "DP3-X3061",
+   "cardId": "3061",
+   "name": "ネイティ",
+   "ja": "ネイティ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "9",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003061_P_NEITEI.jpg"
+  },
+  {
+   "id": "DP3-X3062",
+   "cardId": "3062",
+   "name": "ネイティオ",
+   "ja": "ネイティオ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "44",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003062_P_NEITEIO.jpg"
+  },
+  {
+   "id": "DP3-X3063",
+   "cardId": "3063",
+   "name": "アンノーン[K]",
+   "ja": "アンノーン[K]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003063_P_ANNONK.jpg"
+  },
+  {
+   "id": "DP3-X3064",
+   "cardId": "3064",
+   "name": "アンノーン[N]",
+   "ja": "アンノーン[N]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003064_P_ANNONN.jpg"
+  },
+  {
+   "id": "DP3-X3065",
+   "cardId": "3065",
+   "name": "アンノーン[O]",
+   "ja": "アンノーン[O]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003065_P_ANNONO.jpg"
+  },
+  {
+   "id": "DP3-X3066",
+   "cardId": "3066",
+   "name": "アンノーン[S]",
+   "ja": "アンノーン[S]",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003066_P_ANNONS.jpg"
+  },
+  {
+   "id": "DP3-X3067",
+   "cardId": "3067",
+   "name": "アンノーン[X]",
+   "ja": "アンノーン[X]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003067_P_ANNONX.jpg"
+  },
+  {
+   "id": "DP3-X3068",
+   "cardId": "3068",
+   "name": "アンノーン[Z]",
+   "ja": "アンノーン[Z]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003068_P_ANNONZ.jpg"
+  },
+  {
+   "id": "DP3-X3069",
+   "cardId": "3069",
+   "name": "ラルトス",
+   "ja": "ラルトス（拡張パック「ひかる闇」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003069_P_RARUTOSU.jpg"
+  },
+  {
+   "id": "DP3-X3070",
+   "cardId": "3070",
+   "name": "キルリア",
+   "ja": "キルリア（拡張パック「ひかる闇」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003070_P_KIRURIA.jpg"
+  },
+  {
+   "id": "DP3-X3071",
+   "cardId": "3071",
+   "name": "カゲボウズ",
+   "ja": "カゲボウズ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003071_P_KAGEBOUZU.jpg"
+  },
+  {
+   "id": "DP3-X3072",
+   "cardId": "3072",
+   "name": "ジュペッタ",
+   "ja": "ジュペッタ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003072_P_JUPETTA.jpg"
+  },
+  {
+   "id": "DP3-X3073",
+   "cardId": "3073",
+   "name": "ヨマワル",
+   "ja": "ヨマワル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003073_P_YOMAWARU.jpg"
+  },
+  {
+   "id": "DP3-X3074",
+   "cardId": "3074",
+   "name": "ディグダ",
+   "ja": "ディグダ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003074_P_DEIGUDA.jpg"
+  },
+  {
+   "id": "DP3-X3075",
+   "cardId": "3075",
+   "name": "ダグトリオ",
+   "ja": "ダグトリオ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003075_P_DAGUTORIO.jpg"
+  },
+  {
+   "id": "DP3-X3076",
+   "cardId": "3076",
+   "name": "ゴローニャ",
+   "ja": "ゴローニャ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "52",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003076_P_GORONYA.jpg"
+  },
+  {
+   "id": "DP3-X3077",
+   "cardId": "3077",
+   "name": "ゴマゾウ",
+   "ja": "ゴマゾウ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003077_P_GOMAZOU.jpg"
+  },
+  {
+   "id": "DP3-X3078",
+   "cardId": "3078",
+   "name": "ドンファン",
+   "ja": "ドンファン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003078_P_DONFAN.jpg"
+  },
+  {
+   "id": "DP3-X3079",
+   "cardId": "3079",
+   "name": "エルレイド",
+   "ja": "エルレイド（拡張パック「ひかる闇」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "55",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003079_P_ERUREIDO.gif"
+  },
+  {
+   "id": "DP3-X3080",
+   "cardId": "3080",
+   "name": "ナックラー",
+   "ja": "ナックラー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "9",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003080_P_NAKKURA.jpg"
+  },
+  {
+   "id": "DP3-X3081",
+   "cardId": "3081",
+   "name": "ビブラーバ",
+   "ja": "ビブラーバ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003081_P_BIBURABA.jpg"
+  },
+  {
+   "id": "DP3-X3082",
+   "cardId": "3082",
+   "name": "フライゴン",
+   "ja": "フライゴン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "60",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003082_P_FURAIGON.gif"
+  },
+  {
+   "id": "DP3-X3083",
+   "cardId": "3083",
+   "name": "ミノマダム すなちのミノ",
+   "ja": "ミノマダム すなちのミノ（拡張パック「ひかる闇」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003083_P_MINOMADAMUSUNACHINOMINO.jpg"
+  },
+  {
+   "id": "DP3-X3084",
+   "cardId": "3084",
+   "name": "トリトドン にしのうみ",
+   "ja": "トリトドン にしのうみ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "44",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003084_P_TORITODONNISHINOUMI.gif"
+  },
+  {
+   "id": "DP3-X3085",
+   "cardId": "3085",
+   "name": "ヤミカラス",
+   "ja": "ヤミカラス",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003085_P_YAMIKARASU.jpg"
+  },
+  {
+   "id": "DP3-X3086",
+   "cardId": "3086",
+   "name": "ヤミラミ",
+   "ja": "ヤミラミ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003086_P_YAMIRAMI.jpg"
+  },
+  {
+   "id": "DP3-X3087",
+   "cardId": "3087",
+   "name": "キバニア",
+   "ja": "キバニア",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003087_P_KIBANIA.jpg"
+  },
+  {
+   "id": "DP3-X3088",
+   "cardId": "3088",
+   "name": "サメハダー",
+   "ja": "サメハダー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003088_P_SAMEHADA.jpg"
+  },
+  {
+   "id": "DP3-X3089",
+   "cardId": "3089",
+   "name": "アブソル",
+   "ja": "アブソル",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "31",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003089_P_ABUSORU.jpg"
+  },
+  {
+   "id": "DP3-X3090",
+   "cardId": "3090",
+   "name": "ダークライ",
+   "ja": "ダークライ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003090_P_DAKURAI.gif"
+  },
+  {
+   "id": "DP3-X3091",
+   "cardId": "3091",
+   "name": "ダークライ",
+   "ja": "ダークライ（LV.X）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003091_P_DAKURAI.gif"
+  },
+  {
+   "id": "DP3-X3092",
+   "cardId": "3092",
+   "name": "ミノマダム ゴミのミノ",
+   "ja": "ミノマダム ゴミのミノ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "38",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003092_P_MINOMADAMUGOMINOMINO.jpg"
+  },
+  {
+   "id": "DP3-X3093",
+   "cardId": "3093",
+   "name": "ディアルガ",
+   "ja": "ディアルガ（LV.X・構築スタンダードデッキ「ディアルガLV.X」）",
+   "rarity": "",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003093_P_DEIARUGA.gif"
+  },
+  {
+   "id": "DP3-X3094",
+   "cardId": "3094",
+   "name": "ポッポ",
+   "ja": "ポッポ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003094_P_POPPO.jpg"
+  },
+  {
+   "id": "DP3-X3095",
+   "cardId": "3095",
+   "name": "ピジョン",
+   "ja": "ピジョン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "21",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003095_P_PIJON.jpg"
+  },
+  {
+   "id": "DP3-X3096",
+   "cardId": "3096",
+   "name": "ピジョット",
+   "ja": "ピジョット",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003096_P_PIJOTTO.jpg"
+  },
+  {
+   "id": "DP3-X3097",
+   "cardId": "3097",
+   "name": "コラッタ",
+   "ja": "コラッタ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003097_P_KORATTA.jpg"
+  },
+  {
+   "id": "DP3-X3098",
+   "cardId": "3098",
+   "name": "ラッタ",
+   "ja": "ラッタ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "29",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003098_P_RATTA.jpg"
+  },
+  {
+   "id": "DP3-X3099",
+   "cardId": "3099",
+   "name": "ピッピ",
+   "ja": "ピッピ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "17",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003099_P_PIPPI.jpg"
+  },
+  {
+   "id": "DP3-X3100",
+   "cardId": "3100",
+   "name": "カモネギ",
+   "ja": "カモネギ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003100_P_KAMONEGI.jpg"
+  },
+  {
+   "id": "DP3-X3101",
+   "cardId": "3101",
+   "name": "ベロリンガ",
+   "ja": "ベロリンガ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "27",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003101_P_BERORINGA.jpg"
+  },
+  {
+   "id": "DP3-X3102",
+   "cardId": "3102",
+   "name": "ベロベルト",
+   "ja": "ベロベルト",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003102_P_BEROBERUTO.gif"
+  },
+  {
+   "id": "DP3-X3103",
+   "cardId": "3103",
+   "name": "オタチ",
+   "ja": "オタチ（拡張パック「ひかる闇」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003103_P_OTACHI.jpg"
+  },
+  {
+   "id": "DP3-X3104",
+   "cardId": "3104",
+   "name": "オオタチ",
+   "ja": "オオタチ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003104_P_OOTACHI.jpg"
+  },
+  {
+   "id": "DP3-X3105",
+   "cardId": "3105",
+   "name": "オドシシ",
+   "ja": "オドシシ（拡張パック「ひかる闇」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003105_P_ODOSHISHI.jpg"
+  },
+  {
+   "id": "DP3-X3106",
+   "cardId": "3106",
+   "name": "ドーブル",
+   "ja": "ドーブル",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "31",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003106_P_DOBURU.jpg"
+  },
+  {
+   "id": "DP3-X3107",
+   "cardId": "3107",
+   "name": "ミルタンク",
+   "ja": "ミルタンク",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003107_P_MIRUTANKU.jpg"
+  },
+  {
+   "id": "DP3-X3108",
+   "cardId": "3108",
+   "name": "ルギア",
+   "ja": "ルギア",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003108_P_RUGIA.gif"
+  },
+  {
+   "id": "DP3-X3109",
+   "cardId": "3109",
+   "name": "パッチール",
+   "ja": "パッチール（拡張パック「ひかる闇」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003109_P_PACCHIRU.jpg"
+  },
+  {
+   "id": "DP3-X3110",
+   "cardId": "3110",
+   "name": "カクレオン",
+   "ja": "カクレオン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003110_P_KAKUREON.jpg"
+  },
+  {
+   "id": "DP3-X3111",
+   "cardId": "3111",
+   "name": "タツベイ",
+   "ja": "タツベイ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003111_P_TATSUBEI.jpg"
+  },
+  {
+   "id": "DP3-X3112",
+   "cardId": "3112",
+   "name": "コモルー",
+   "ja": "コモルー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003112_P_KOMORU.jpg"
+  },
+  {
+   "id": "DP3-X3113",
+   "cardId": "3113",
+   "name": "ボーマンダ",
+   "ja": "ボーマンダ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "62",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003113_P_BOMANDA.gif"
+  },
+  {
+   "id": "DP3-X3114",
+   "cardId": "3114",
+   "name": "オーキドはかせの訪問",
+   "ja": "オーキドはかせの訪問",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「ひかる闇」",
+    "構築スタンダードデッキ「パルキアLV.X」",
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003114_T_OKIDOHAKASENOHOUMON.jpg"
+  },
+  {
+   "id": "DP3-X3115",
+   "cardId": "3115",
+   "name": "ギンガ団のマーズ",
+   "ja": "ギンガ団のマーズ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「ひかる闇」",
+    "構築スタンダードデッキ「パルキアLV.X」",
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003115_T_GINGADANNOMAZU.jpg"
+  },
+  {
+   "id": "DP3-X3116",
+   "cardId": "3116",
+   "name": "ハマナのリサーチ",
+   "ja": "ハマナのリサーチ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「ひかる闇」",
+    "構築スタンダードデッキ「パルキアLV.X」",
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003116_T_HAMANANORISACHI.jpg"
+  },
+  {
+   "id": "DP3-X3117",
+   "cardId": "3117",
+   "name": "特殊悪エネルギー",
+   "ja": "特殊悪エネルギー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003117_E_AKUENERUGI.jpg"
+  },
+  {
+   "id": "DP3-X3118",
+   "cardId": "3118",
+   "name": "特殊鋼エネルギー",
+   "ja": "特殊鋼エネルギー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003118_E_KOUENERUGI.jpg"
+  },
+  {
+   "id": "DP3-X3119",
+   "cardId": "3119",
+   "name": "ディアルガ",
+   "ja": "ディアルガ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "68",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003119_P_DEIARUGA.jpg"
+  },
+  {
+   "id": "DP3-X3121",
+   "cardId": "3121",
+   "name": "パルキア",
+   "ja": "パルキア",
+   "rarity": "",
+   "lvx": false,
+   "lv": "67",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003121_P_PARUKIA.jpg"
+  },
+  {
+   "id": "DP3-X3123",
+   "cardId": "3123",
+   "name": "プラスパワー",
+   "ja": "プラスパワー",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003123_T_PURASUPAWA.jpg"
+  },
+  {
+   "id": "DP3-X3124",
+   "cardId": "3124",
+   "name": "ポケモンいれかえ",
+   "ja": "ポケモンいれかえ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」",
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003124_T_POKEMONIREKAE.jpg"
+  },
+  {
+   "id": "DP3-X3125",
+   "cardId": "3125",
+   "name": "きずぐすり",
+   "ja": "きずぐすり",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003125_T_KIZUGUSURI.jpg"
+  },
+  {
+   "id": "DP3-X3126",
+   "cardId": "3126",
+   "name": "夜のメンテナンス",
+   "ja": "夜のメンテナンス",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」",
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003126_T_YORUNOMENTENANSU.jpg"
+  },
+  {
+   "id": "DP3-X3127",
+   "cardId": "3127",
+   "name": "ナナカマドはかせ",
+   "ja": "ナナカマドはかせ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」",
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003127_T_NANAKAMADOHAKASE.jpg"
+  },
+  {
+   "id": "DP3-X3128",
+   "cardId": "3128",
+   "name": "ライバル",
+   "ja": "ライバル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」",
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003128_T_RAIBARU.jpg"
+  },
+  {
+   "id": "DP3-X3129",
+   "cardId": "3129",
+   "name": "オタチ",
+   "ja": "オタチ（構築スタンダードデッキ「ディアルガLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003129_P_OTACHI.jpg"
+  },
+  {
+   "id": "DP3-X3130",
+   "cardId": "3130",
+   "name": "メリープ",
+   "ja": "メリープ（構築スタンダードデッキ「ディアルガLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003130_P_MERIPU.jpg"
+  },
+  {
+   "id": "DP3-X3131",
+   "cardId": "3131",
+   "name": "モココ",
+   "ja": "モココ（構築スタンダードデッキ「ディアルガLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003131_P_MOKOKO.jpg"
+  },
+  {
+   "id": "DP3-X3132",
+   "cardId": "3132",
+   "name": "デンリュウ",
+   "ja": "デンリュウ（構築スタンダードデッキ「ディアルガLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "52",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003132_P_DENRYUU.jpg"
+  },
+  {
+   "id": "DP3-X3133",
+   "cardId": "3133",
+   "name": "サニーゴ",
+   "ja": "サニーゴ（構築スタンダードデッキ「パルキアLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003133_P_SANIGO.jpg"
+  },
+  {
+   "id": "DP3-X3134",
+   "cardId": "3134",
+   "name": "オドシシ",
+   "ja": "オドシシ（構築スタンダードデッキ「ディアルガLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003134_P_ODOSHISHI.jpg"
+  },
+  {
+   "id": "DP3-X3135",
+   "cardId": "3135",
+   "name": "ラルトス",
+   "ja": "ラルトス（構築スタンダードデッキ「パルキアLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003135_P_RARUTOSU.jpg"
+  },
+  {
+   "id": "DP3-X3136",
+   "cardId": "3136",
+   "name": "キルリア",
+   "ja": "キルリア（構築スタンダードデッキ「パルキアLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003136_P_KIRURIA.jpg"
+  },
+  {
+   "id": "DP3-X3137",
+   "cardId": "3137",
+   "name": "エルレイド",
+   "ja": "エルレイド（構築スタンダードデッキ「パルキアLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "55",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003137_P_ERUREIDO.jpg"
+  },
+  {
+   "id": "DP3-X3138",
+   "cardId": "3138",
+   "name": "パッチール",
+   "ja": "パッチール（構築スタンダードデッキ「パルキアLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003138_P_PACCHIRU.jpg"
+  },
+  {
+   "id": "DP3-X3139",
+   "cardId": "3139",
+   "name": "ミノムッチ くさきのミノ",
+   "ja": "ミノムッチ くさきのミノ（構築スタンダードデッキ「ディアルガLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003139_P_MINOMUCCHIKUSAKINOMINO.jpg"
+  },
+  {
+   "id": "DP3-X3140",
+   "cardId": "3140",
+   "name": "ミノムッチ すなちのミノ",
+   "ja": "ミノムッチ すなちのミノ（構築スタンダードデッキ「パルキアLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003140_P_MINOMUCCHISUNACHINOMINO.jpg"
+  },
+  {
+   "id": "DP3-X3141",
+   "cardId": "3141",
+   "name": "ミノマダム すなちのミノ",
+   "ja": "ミノマダム すなちのミノ（構築スタンダードデッキ「パルキアLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003141_P_MINOMADAMUSUNACHINOMINO.jpg"
+  },
+  {
+   "id": "DP3-X3142",
+   "cardId": "3142",
+   "name": "ガーメイル",
+   "ja": "ガーメイル（構築スタンダードデッキ「ディアルガLV.X」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003142_P_GAMEIRU.jpg"
+  },
+  {
+   "id": "DP3-X3143",
+   "cardId": "3143",
+   "name": "ディアルガ",
+   "ja": "ディアルガ（LV.X・拡張パック「ひかる闇」）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003143_P_DEIARUGA.gif"
+  },
+  {
+   "id": "DP3-X3144",
+   "cardId": "3144",
+   "name": "パルキア",
+   "ja": "パルキア（LV.X・拡張パック「ひかる闇」）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「ひかる闇」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003144_P_PARUKIA.gif"
+  },
+  {
+   "id": "DP3-X3145",
+   "cardId": "3145",
+   "name": "ミズキの検索",
+   "ja": "ミズキの検索",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "構築スタンダードデッキ「パルキアLV.X」",
+    "構築スタンダードデッキ「ディアルガLV.X」"
+   ],
+   "image": "/assets/images/card_images/large/DP3/003145_T_MIZUKINOKENSAKU.jpg"
+  }
+ ]
+}

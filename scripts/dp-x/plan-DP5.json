@@ -1,0 +1,2007 @@
+{
+ "set": "DP5",
+ "key": "DP5",
+ "at": "2026-10-10T08:11:08.615Z",
+ "count": 154,
+ "dupListings": [],
+ "cards": [
+  {
+   "id": "DP5-X17000",
+   "cardId": "17000",
+   "name": "コリンク",
+   "ja": "コリンク",
+   "rarity": "",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017000_P_KORINKU.jpg"
+  },
+  {
+   "id": "DP5-X17001",
+   "cardId": "17001",
+   "name": "ルクシオ",
+   "ja": "ルクシオ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "23",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017001_P_RUKUSHIO.jpg"
+  },
+  {
+   "id": "DP5-X17002",
+   "cardId": "17002",
+   "name": "ミュウツー",
+   "ja": "ミュウツー",
+   "rarity": "",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017002_P_MYUUTSU.jpg"
+  },
+  {
+   "id": "DP5-X17003",
+   "cardId": "17003",
+   "name": "ミュウツー",
+   "ja": "ミュウツー（LV.X）",
+   "rarity": "",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017003_P_MYUUTSU.gif"
+  },
+  {
+   "id": "DP5-X17004",
+   "cardId": "17004",
+   "name": "ムウマ",
+   "ja": "ムウマ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017004_P_MUUMA.jpg"
+  },
+  {
+   "id": "DP5-X17005",
+   "cardId": "17005",
+   "name": "フワンテ",
+   "ja": "フワンテ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017005_P_FUWANTE.jpg"
+  },
+  {
+   "id": "DP5-X17006",
+   "cardId": "17006",
+   "name": "フワライド",
+   "ja": "フワライド",
+   "rarity": "",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017006_P_FUWARAIDO.jpg"
+  },
+  {
+   "id": "DP5-X17007",
+   "cardId": "17007",
+   "name": "レジギガス",
+   "ja": "レジギガス（対戦スターターパック「ヒードランVSレジギガス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017007_P_REJIGIGASU.gif"
+  },
+  {
+   "id": "DP5-X17008",
+   "cardId": "17008",
+   "name": "エネルギー転送",
+   "ja": "エネルギー転送",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017008_T_ENERUGITENSOU.jpg"
+  },
+  {
+   "id": "DP5-X17009",
+   "cardId": "17009",
+   "name": "エネルギーパッチ",
+   "ja": "エネルギーパッチ（拡張パック「怒りの神殿」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017009_T_ENERUGIPACCHI.jpg"
+  },
+  {
+   "id": "DP5-X17010",
+   "cardId": "17010",
+   "name": "モンスターボール",
+   "ja": "モンスターボール",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017010_T_MONSUTABORU.jpg"
+  },
+  {
+   "id": "DP5-X17011",
+   "cardId": "17011",
+   "name": "ワープポイント",
+   "ja": "ワープポイント",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017011_T_WAPUPOINTO.jpg"
+  },
+  {
+   "id": "DP5-X17012",
+   "cardId": "17012",
+   "name": "バブルコート",
+   "ja": "バブルコート",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017012_T_BABURUKOTO.jpg"
+  },
+  {
+   "id": "DP5-X17013",
+   "cardId": "17013",
+   "name": "バクのトレーニング",
+   "ja": "バクのトレーニング（拡張パック「秘境の叫び」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017013_T_BAKUNOTORENINGU.jpg"
+  },
+  {
+   "id": "DP5-X17014",
+   "cardId": "17014",
+   "name": "グライガー",
+   "ja": "グライガー（対戦スターターパック「ヒードランVSレジギガス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017014_P_GURAIGA.jpg"
+  },
+  {
+   "id": "DP5-X17015",
+   "cardId": "17015",
+   "name": "リオル",
+   "ja": "リオル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017015_P_RIORU.jpg"
+  },
+  {
+   "id": "DP5-X17016",
+   "cardId": "17016",
+   "name": "ルカリオ",
+   "ja": "ルカリオ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017016_P_RUKARIO.jpg"
+  },
+  {
+   "id": "DP5-X17017",
+   "cardId": "17017",
+   "name": "グライオン",
+   "ja": "グライオン（対戦スターターパック「ヒードランVSレジギガス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "44",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017017_P_GURAION.jpg"
+  },
+  {
+   "id": "DP5-X17018",
+   "cardId": "17018",
+   "name": "グライオン",
+   "ja": "グライオン（LV.X）",
+   "rarity": "",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017018_P_GURAION.gif"
+  },
+  {
+   "id": "DP5-X17019",
+   "cardId": "17019",
+   "name": "ダンバル",
+   "ja": "ダンバル（対戦スターターパック「ヒードランVSレジギガス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "7",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017019_P_DANBARU.jpg"
+  },
+  {
+   "id": "DP5-X17020",
+   "cardId": "17020",
+   "name": "メタング",
+   "ja": "メタング（対戦スターターパック「ヒードランVSレジギガス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "22",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017020_P_METANGU.jpg"
+  },
+  {
+   "id": "DP5-X17021",
+   "cardId": "17021",
+   "name": "ヒードラン",
+   "ja": "ヒードラン（対戦スターターパック「ヒードランVSレジギガス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "45",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017021_P_HIDORAN.gif"
+  },
+  {
+   "id": "DP5-X17022",
+   "cardId": "17022",
+   "name": "エネルギーつけかえ",
+   "ja": "エネルギーつけかえ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017022_T_ENERUGITSUKEKAE.jpg"
+  },
+  {
+   "id": "DP5-X17023",
+   "cardId": "17023",
+   "name": "ポケモンいれかえ",
+   "ja": "ポケモンいれかえ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017023_T_POKEMONIREKAE.jpg"
+  },
+  {
+   "id": "DP5-X17024",
+   "cardId": "17024",
+   "name": "ナゾノクサ",
+   "ja": "ナゾノクサ（拡張パック「怒りの神殿」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017024_P_NAZONOKUSA.jpg"
+  },
+  {
+   "id": "DP5-X17025",
+   "cardId": "17025",
+   "name": "クサイハナ",
+   "ja": "クサイハナ（拡張パック「怒りの神殿」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "22",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017025_P_KUSAIHANA.jpg"
+  },
+  {
+   "id": "DP5-X17026",
+   "cardId": "17026",
+   "name": "ラフレシア",
+   "ja": "ラフレシア",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "41",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017026_P_RAFURESHIA.jpg"
+  },
+  {
+   "id": "DP5-X17027",
+   "cardId": "17027",
+   "name": "キレイハナ",
+   "ja": "キレイハナ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "38",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017027_P_KIREIHANA.jpg"
+  },
+  {
+   "id": "DP5-X17028",
+   "cardId": "17028",
+   "name": "マダツボミ",
+   "ja": "マダツボミ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "5",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017028_P_MADATSUBOMI.jpg"
+  },
+  {
+   "id": "DP5-X17029",
+   "cardId": "17029",
+   "name": "ウツドン",
+   "ja": "ウツドン",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "23",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017029_P_UTSUDON.jpg"
+  },
+  {
+   "id": "DP5-X17030",
+   "cardId": "17030",
+   "name": "ウツボット",
+   "ja": "ウツボット",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017030_P_UTSUBOTTO.jpg"
+  },
+  {
+   "id": "DP5-X17031",
+   "cardId": "17031",
+   "name": "レディバ",
+   "ja": "レディバ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017031_P_REDEIBA.jpg"
+  },
+  {
+   "id": "DP5-X17032",
+   "cardId": "17032",
+   "name": "レディアン",
+   "ja": "レディアン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017032_P_REDEIAN.jpg"
+  },
+  {
+   "id": "DP5-X17033",
+   "cardId": "17033",
+   "name": "ヤンヤンマ",
+   "ja": "ヤンヤンマ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017033_P_YANYANMA.jpg"
+  },
+  {
+   "id": "DP5-X17034",
+   "cardId": "17034",
+   "name": "メガヤンマ",
+   "ja": "メガヤンマ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "47",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017034_P_MEGAYANMA.gif"
+  },
+  {
+   "id": "DP5-X17035",
+   "cardId": "17035",
+   "name": "クヌギダマ",
+   "ja": "クヌギダマ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017035_P_KUNUGIDAMA.jpg"
+  },
+  {
+   "id": "DP5-X17036",
+   "cardId": "17036",
+   "name": "ツチニン",
+   "ja": "ツチニン",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017036_P_TSUCHININ.jpg"
+  },
+  {
+   "id": "DP5-X17037",
+   "cardId": "17037",
+   "name": "テッカニン",
+   "ja": "テッカニン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017037_P_TEKKANIN.jpg"
+  },
+  {
+   "id": "DP5-X17038",
+   "cardId": "17038",
+   "name": "ヌケニン",
+   "ja": "ヌケニン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "34",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017038_P_NUKENIN.jpg"
+  },
+  {
+   "id": "DP5-X17039",
+   "cardId": "17039",
+   "name": "リリーラ",
+   "ja": "リリーラ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "27",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017039_P_RIRIRA.jpg"
+  },
+  {
+   "id": "DP5-X17040",
+   "cardId": "17040",
+   "name": "ユレイドル",
+   "ja": "ユレイドル",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "49",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017040_P_YUREIDORU.jpg"
+  },
+  {
+   "id": "DP5-X17041",
+   "cardId": "17041",
+   "name": "ドンメル",
+   "ja": "ドンメル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017041_P_DONMERU.jpg"
+  },
+  {
+   "id": "DP5-X17042",
+   "cardId": "17042",
+   "name": "バクーダ",
+   "ja": "バクーダ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "41",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017042_P_BAKUDA.jpg"
+  },
+  {
+   "id": "DP5-X17043",
+   "cardId": "17043",
+   "name": "コータス",
+   "ja": "コータス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017043_P_KOTASU.jpg"
+  },
+  {
+   "id": "DP5-X17044",
+   "cardId": "17044",
+   "name": "ポワルン 太陽の姿",
+   "ja": "ポワルン 太陽の姿",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017044_P_POWARUNTAIYOUNOSUGATA.jpg"
+  },
+  {
+   "id": "DP5-X17045",
+   "cardId": "17045",
+   "name": "ヒードラン",
+   "ja": "ヒードラン（拡張パック「秘境の叫び」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "47",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017045_P_HIDORAN.gif"
+  },
+  {
+   "id": "DP5-X17046",
+   "cardId": "17046",
+   "name": "ヘルガー",
+   "ja": "ヘルガー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "45",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017046_P_HERUGA.jpg"
+  },
+  {
+   "id": "DP5-X17047",
+   "cardId": "17047",
+   "name": "ニョロモ",
+   "ja": "ニョロモ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "5",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017047_P_NYOROMO.jpg"
+  },
+  {
+   "id": "DP5-X17048",
+   "cardId": "17048",
+   "name": "ニョロゾ",
+   "ja": "ニョロゾ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017048_P_NYOROZO.jpg"
+  },
+  {
+   "id": "DP5-X17049",
+   "cardId": "17049",
+   "name": "ニョロボン",
+   "ja": "ニョロボン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017049_P_NYOROBON.jpg"
+  },
+  {
+   "id": "DP5-X17050",
+   "cardId": "17050",
+   "name": "ニョロトノ",
+   "ja": "ニョロトノ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "49",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017050_P_NYOROTONO.gif"
+  },
+  {
+   "id": "DP5-X17051",
+   "cardId": "17051",
+   "name": "メノクラゲ",
+   "ja": "メノクラゲ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017051_P_MENOKURAGE.jpg"
+  },
+  {
+   "id": "DP5-X17052",
+   "cardId": "17052",
+   "name": "ドククラゲ",
+   "ja": "ドククラゲ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017052_P_DOKUKURAGE.jpg"
+  },
+  {
+   "id": "DP5-X17053",
+   "cardId": "17053",
+   "name": "タッツー",
+   "ja": "タッツー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017053_P_TATTSU.jpg"
+  },
+  {
+   "id": "DP5-X17054",
+   "cardId": "17054",
+   "name": "シードラ",
+   "ja": "シードラ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017054_P_SHIDORA.jpg"
+  },
+  {
+   "id": "DP5-X17055",
+   "cardId": "17055",
+   "name": "キングドラ",
+   "ja": "キングドラ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "52",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017055_P_KINGUDORA.gif"
+  },
+  {
+   "id": "DP5-X17056",
+   "cardId": "17056",
+   "name": "ヒトデマン",
+   "ja": "ヒトデマン",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017056_P_HITODEMAN.jpg"
+  },
+  {
+   "id": "DP5-X17057",
+   "cardId": "17057",
+   "name": "スターミー",
+   "ja": "スターミー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017057_P_SUTAMI.jpg"
+  },
+  {
+   "id": "DP5-X17058",
+   "cardId": "17058",
+   "name": "ウリムー",
+   "ja": "ウリムー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017058_P_URIMU.jpg"
+  },
+  {
+   "id": "DP5-X17059",
+   "cardId": "17059",
+   "name": "イノムー",
+   "ja": "イノムー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017059_P_INOMU.jpg"
+  },
+  {
+   "id": "DP5-X17060",
+   "cardId": "17060",
+   "name": "マンムー",
+   "ja": "マンムー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "54",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017060_P_MANMU.gif"
+  },
+  {
+   "id": "DP5-X17061",
+   "cardId": "17061",
+   "name": "ヘイガニ",
+   "ja": "ヘイガニ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017061_P_HEIGANI.jpg"
+  },
+  {
+   "id": "DP5-X17062",
+   "cardId": "17062",
+   "name": "シザリガー",
+   "ja": "シザリガー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017062_P_SHIZARIGA.jpg"
+  },
+  {
+   "id": "DP5-X17063",
+   "cardId": "17063",
+   "name": "ポワルン 雨水の姿",
+   "ja": "ポワルン 雨水の姿",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017063_P_POWARUNAMAMIZUNOSUGATA.jpg"
+  },
+  {
+   "id": "DP5-X17064",
+   "cardId": "17064",
+   "name": "ポワルン 雪雲の姿",
+   "ja": "ポワルン 雪雲の姿",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017064_P_POWARUNYUKIKUMONOSUGATA.jpg"
+  },
+  {
+   "id": "DP5-X17065",
+   "cardId": "17065",
+   "name": "ユキメノコ",
+   "ja": "ユキメノコ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017065_P_YUKIMENOKO.gif"
+  },
+  {
+   "id": "DP5-X17066",
+   "cardId": "17066",
+   "name": "レジアイス",
+   "ja": "レジアイス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017066_P_REJIAISU.jpg"
+  },
+  {
+   "id": "DP5-X17067",
+   "cardId": "17067",
+   "name": "カイオーガ",
+   "ja": "カイオーガ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "47",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017067_P_KAIOGA.jpg"
+  },
+  {
+   "id": "DP5-X17068",
+   "cardId": "17068",
+   "name": "チョンチー",
+   "ja": "チョンチー（拡張パック「怒りの神殿」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017068_P_CHONCHI.jpg"
+  },
+  {
+   "id": "DP5-X17069",
+   "cardId": "17069",
+   "name": "ランターン",
+   "ja": "ランターン（拡張パック「怒りの神殿」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017069_P_RANTAN.jpg"
+  },
+  {
+   "id": "DP5-X17070",
+   "cardId": "17070",
+   "name": "チョンチー",
+   "ja": "チョンチー（拡張パック「秘境の叫び」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017070_P_CHONCHI.jpg"
+  },
+  {
+   "id": "DP5-X17071",
+   "cardId": "17071",
+   "name": "ランターン",
+   "ja": "ランターン（拡張パック「秘境の叫び」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017071_P_RANTAN.jpg"
+  },
+  {
+   "id": "DP5-X17072",
+   "cardId": "17072",
+   "name": "レントラー",
+   "ja": "レントラー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "51",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017072_P_RENTORA.gif"
+  },
+  {
+   "id": "DP5-X17073",
+   "cardId": "17073",
+   "name": "アンノーン［J］",
+   "ja": "アンノーン［J］",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017073_P_ANNONJ.jpg"
+  },
+  {
+   "id": "DP5-X17074",
+   "cardId": "17074",
+   "name": "アンノーン［R］",
+   "ja": "アンノーン［R］",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017074_P_ANNONR.jpg"
+  },
+  {
+   "id": "DP5-X17075",
+   "cardId": "17075",
+   "name": "アンノーン［U］",
+   "ja": "アンノーン［U］",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017075_P_ANNONU.jpg"
+  },
+  {
+   "id": "DP5-X17076",
+   "cardId": "17076",
+   "name": "アンノーン［V］",
+   "ja": "アンノーン［V］",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "17",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017076_P_ANNONV.jpg"
+  },
+  {
+   "id": "DP5-X17077",
+   "cardId": "17077",
+   "name": "アンノーン［W］",
+   "ja": "アンノーン［W］",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "21",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017077_P_ANNONW.jpg"
+  },
+  {
+   "id": "DP5-X17078",
+   "cardId": "17078",
+   "name": "アンノーン［Y］",
+   "ja": "アンノーン［Y］",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017078_P_ANNONY.jpg"
+  },
+  {
+   "id": "DP5-X17079",
+   "cardId": "17079",
+   "name": "アンノーン［!］",
+   "ja": "アンノーン［!］",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017079_P_ANNON.jpg"
+  },
+  {
+   "id": "DP5-X17080",
+   "cardId": "17080",
+   "name": "アンノーン［?］",
+   "ja": "アンノーン［?］",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017080_P_ANNON.jpg"
+  },
+  {
+   "id": "DP5-X17081",
+   "cardId": "17081",
+   "name": "ゴクリン",
+   "ja": "ゴクリン",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "17",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017081_P_GOKURIN.jpg"
+  },
+  {
+   "id": "DP5-X17082",
+   "cardId": "17082",
+   "name": "マルノーム",
+   "ja": "マルノーム",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017082_P_MARUNOMU.jpg"
+  },
+  {
+   "id": "DP5-X17083",
+   "cardId": "17083",
+   "name": "バネブー",
+   "ja": "バネブー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017083_P_BANEBU.jpg"
+  },
+  {
+   "id": "DP5-X17084",
+   "cardId": "17084",
+   "name": "ブーピッグ",
+   "ja": "ブーピッグ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "36",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017084_P_BUPIGGU.jpg"
+  },
+  {
+   "id": "DP5-X17085",
+   "cardId": "17085",
+   "name": "デオキシス ノーマルフォルム",
+   "ja": "デオキシス ノーマルフォルム",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017085_P_DEOKISHISUNOMARUFORUMU.gif"
+  },
+  {
+   "id": "DP5-X17086",
+   "cardId": "17086",
+   "name": "デオキシス アタックフォルム",
+   "ja": "デオキシス アタックフォルム",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017086_P_DEOKISHISUATAKKUFORUMU.jpg"
+  },
+  {
+   "id": "DP5-X17087",
+   "cardId": "17087",
+   "name": "デオキシス ディフェンスフォルム",
+   "ja": "デオキシス ディフェンスフォルム",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017087_P_DEOKISHISUDEIFENSUFORUMU.jpg"
+  },
+  {
+   "id": "DP5-X17088",
+   "cardId": "17088",
+   "name": "デオキシス スピードフォルム",
+   "ja": "デオキシス スピードフォルム",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017088_P_DEOKISHISUSUPIDOFORUMU.jpg"
+  },
+  {
+   "id": "DP5-X17089",
+   "cardId": "17089",
+   "name": "ミカルゲ",
+   "ja": "ミカルゲ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "44",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017089_P_MIKARUGE.gif"
+  },
+  {
+   "id": "DP5-X17090",
+   "cardId": "17090",
+   "name": "ギラティナ",
+   "ja": "ギラティナ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "52",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017090_P_GIRATEINA.gif"
+  },
+  {
+   "id": "DP5-X17091",
+   "cardId": "17091",
+   "name": "ナゾノクサ",
+   "ja": "ナゾノクサ（拡張パック「秘境の叫び」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "7",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017091_P_NAZONOKUSA.jpg"
+  },
+  {
+   "id": "DP5-X17092",
+   "cardId": "17092",
+   "name": "クサイハナ",
+   "ja": "クサイハナ（拡張パック「秘境の叫び」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "24",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017092_P_KUSAIHANA.jpg"
+  },
+  {
+   "id": "DP5-X17093",
+   "cardId": "17093",
+   "name": "タマタマ",
+   "ja": "タマタマ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017093_P_TAMATAMA.jpg"
+  },
+  {
+   "id": "DP5-X17094",
+   "cardId": "17094",
+   "name": "ナッシー",
+   "ja": "ナッシー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017094_P_NASSHI.jpg"
+  },
+  {
+   "id": "DP5-X17095",
+   "cardId": "17095",
+   "name": "ユクシー",
+   "ja": "ユクシー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "55",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017095_P_YUKUSHI.jpg"
+  },
+  {
+   "id": "DP5-X17096",
+   "cardId": "17096",
+   "name": "エムリット",
+   "ja": "エムリット",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "55",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017096_P_EMURITTO.jpg"
+  },
+  {
+   "id": "DP5-X17097",
+   "cardId": "17097",
+   "name": "アグノム",
+   "ja": "アグノム",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "55",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017097_P_AGUNOMU.jpg"
+  },
+  {
+   "id": "DP5-X17098",
+   "cardId": "17098",
+   "name": "ユクシー",
+   "ja": "ユクシー（LV.X）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017098_P_YUKUSHI.gif"
+  },
+  {
+   "id": "DP5-X17099",
+   "cardId": "17099",
+   "name": "エムリット",
+   "ja": "エムリット（LV.X）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017099_P_EMURITTO.gif"
+  },
+  {
+   "id": "DP5-X17100",
+   "cardId": "17100",
+   "name": "アグノム",
+   "ja": "アグノム（LV.X）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017100_P_AGUNOMU.gif"
+  },
+  {
+   "id": "DP5-X17101",
+   "cardId": "17101",
+   "name": "カラカラ",
+   "ja": "カラカラ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017101_P_KARAKARA.jpg"
+  },
+  {
+   "id": "DP5-X17102",
+   "cardId": "17102",
+   "name": "ガラガラ",
+   "ja": "ガラガラ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017102_P_GARAGARA.jpg"
+  },
+  {
+   "id": "DP5-X17103",
+   "cardId": "17103",
+   "name": "バルキー",
+   "ja": "バルキー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017103_P_BARUKI.jpg"
+  },
+  {
+   "id": "DP5-X17104",
+   "cardId": "17104",
+   "name": "サワムラー",
+   "ja": "サワムラー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "24",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017104_P_SAWAMURA.jpg"
+  },
+  {
+   "id": "DP5-X17105",
+   "cardId": "17105",
+   "name": "エビワラー",
+   "ja": "エビワラー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "27",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017105_P_EBIWARA.jpg"
+  },
+  {
+   "id": "DP5-X17106",
+   "cardId": "17106",
+   "name": "カポエラー",
+   "ja": "カポエラー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017106_P_KAPOERA.jpg"
+  },
+  {
+   "id": "DP5-X17107",
+   "cardId": "17107",
+   "name": "グライガー",
+   "ja": "グライガー（拡張パック「秘境の叫び」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "19",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017107_P_GURAIGA.jpg"
+  },
+  {
+   "id": "DP5-X17108",
+   "cardId": "17108",
+   "name": "グライオン",
+   "ja": "グライオン（拡張パック「秘境の叫び」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017108_P_GURAION.gif"
+  },
+  {
+   "id": "DP5-X17109",
+   "cardId": "17109",
+   "name": "ノズパス",
+   "ja": "ノズパス",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017109_P_NOZUPASU.jpg"
+  },
+  {
+   "id": "DP5-X17110",
+   "cardId": "17110",
+   "name": "ダイノーズ",
+   "ja": "ダイノーズ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017110_P_DAINOZU.gif"
+  },
+  {
+   "id": "DP5-X17111",
+   "cardId": "17111",
+   "name": "アノプス",
+   "ja": "アノプス",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "29",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017111_P_ANOPUSU.jpg"
+  },
+  {
+   "id": "DP5-X17112",
+   "cardId": "17112",
+   "name": "アーマルド",
+   "ja": "アーマルド",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "52",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017112_P_AMARUDO.jpg"
+  },
+  {
+   "id": "DP5-X17113",
+   "cardId": "17113",
+   "name": "レジロック",
+   "ja": "レジロック",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "51",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017113_P_REJIROKKU.jpg"
+  },
+  {
+   "id": "DP5-X17114",
+   "cardId": "17114",
+   "name": "グラードン",
+   "ja": "グラードン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "45",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017114_P_GURADON.jpg"
+  },
+  {
+   "id": "DP5-X17115",
+   "cardId": "17115",
+   "name": "ドサイドン",
+   "ja": "ドサイドン",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017115_P_DOSAIDON.gif"
+  },
+  {
+   "id": "DP5-X17116",
+   "cardId": "17116",
+   "name": "ポチエナ",
+   "ja": "ポチエナ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "17",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017116_P_POCHIENA.jpg"
+  },
+  {
+   "id": "DP5-X17117",
+   "cardId": "17117",
+   "name": "グラエナ",
+   "ja": "グラエナ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017117_P_GURAENA.jpg"
+  },
+  {
+   "id": "DP5-X17118",
+   "cardId": "17118",
+   "name": "ニューラ",
+   "ja": "ニューラ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "23",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017118_P_NYURA.jpg"
+  },
+  {
+   "id": "DP5-X17119",
+   "cardId": "17119",
+   "name": "デルビル",
+   "ja": "デルビル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017119_P_DERUBIRU.jpg"
+  },
+  {
+   "id": "DP5-X17120",
+   "cardId": "17120",
+   "name": "フォレトス",
+   "ja": "フォレトス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017120_P_FORETOSU.jpg"
+  },
+  {
+   "id": "DP5-X17121",
+   "cardId": "17121",
+   "name": "ダンバル",
+   "ja": "ダンバル（拡張パック「怒りの神殿」）",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "9",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017121_P_DANBARU.jpg"
+  },
+  {
+   "id": "DP5-X17122",
+   "cardId": "17122",
+   "name": "メタング",
+   "ja": "メタング（拡張パック「怒りの神殿」）",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "24",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017122_P_METANGU.jpg"
+  },
+  {
+   "id": "DP5-X17123",
+   "cardId": "17123",
+   "name": "メタグロス",
+   "ja": "メタグロス",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "58",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017123_P_METAGUROSU.gif"
+  },
+  {
+   "id": "DP5-X17124",
+   "cardId": "17124",
+   "name": "レジスチル",
+   "ja": "レジスチル",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017124_P_REJISUCHIRU.jpg"
+  },
+  {
+   "id": "DP5-X17125",
+   "cardId": "17125",
+   "name": "ジラーチ",
+   "ja": "ジラーチ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017125_P_JIRACHI.jpg"
+  },
+  {
+   "id": "DP5-X17126",
+   "cardId": "17126",
+   "name": "ジバコイル",
+   "ja": "ジバコイル",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017126_P_JIBAKOIRU.gif"
+  },
+  {
+   "id": "DP5-X17127",
+   "cardId": "17127",
+   "name": "ニャース",
+   "ja": "ニャース",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "13",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017127_P_NYASU.jpg"
+  },
+  {
+   "id": "DP5-X17128",
+   "cardId": "17128",
+   "name": "ペルシアン",
+   "ja": "ペルシアン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017128_P_PERUSHIAN.jpg"
+  },
+  {
+   "id": "DP5-X17129",
+   "cardId": "17129",
+   "name": "ケンタロス",
+   "ja": "ケンタロス",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017129_P_KENTAROSU.jpg"
+  },
+  {
+   "id": "DP5-X17130",
+   "cardId": "17130",
+   "name": "メタモン",
+   "ja": "メタモン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "33",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017130_P_METAMON.jpg"
+  },
+  {
+   "id": "DP5-X17131",
+   "cardId": "17131",
+   "name": "ミニリュウ",
+   "ja": "ミニリュウ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017131_P_MINIRYUU.jpg"
+  },
+  {
+   "id": "DP5-X17132",
+   "cardId": "17132",
+   "name": "ハクリュー",
+   "ja": "ハクリュー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "31",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017132_P_HAKURYU.jpg"
+  },
+  {
+   "id": "DP5-X17133",
+   "cardId": "17133",
+   "name": "カイリュー",
+   "ja": "カイリュー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "61",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017133_P_KAIRYU.gif"
+  },
+  {
+   "id": "DP5-X17134",
+   "cardId": "17134",
+   "name": "スバメ",
+   "ja": "スバメ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017134_P_SUBAME.jpg"
+  },
+  {
+   "id": "DP5-X17135",
+   "cardId": "17135",
+   "name": "オオスバメ",
+   "ja": "オオスバメ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017135_P_OOSUBAME.jpg"
+  },
+  {
+   "id": "DP5-X17136",
+   "cardId": "17136",
+   "name": "エネコ",
+   "ja": "エネコ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017136_P_ENEKO.jpg"
+  },
+  {
+   "id": "DP5-X17137",
+   "cardId": "17137",
+   "name": "エネコロロ",
+   "ja": "エネコロロ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017137_P_ENEKORORO.jpg"
+  },
+  {
+   "id": "DP5-X17138",
+   "cardId": "17138",
+   "name": "ポワルン",
+   "ja": "ポワルン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017138_P_POWARUN.jpg"
+  },
+  {
+   "id": "DP5-X17139",
+   "cardId": "17139",
+   "name": "レックウザ",
+   "ja": "レックウザ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "56",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017139_P_REKKUUZA.gif"
+  },
+  {
+   "id": "DP5-X17140",
+   "cardId": "17140",
+   "name": "レジギガス",
+   "ja": "レジギガス（拡張パック「怒りの神殿」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "52",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017140_P_REJIGIGASU.gif"
+  },
+  {
+   "id": "DP5-X17141",
+   "cardId": "17141",
+   "name": "ミミロル",
+   "ja": "ミミロル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017141_P_MIMIRORU.jpg"
+  },
+  {
+   "id": "DP5-X17142",
+   "cardId": "17142",
+   "name": "ミミロップ",
+   "ja": "ミミロップ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017142_P_MIMIROPPU.jpg"
+  },
+  {
+   "id": "DP5-X17143",
+   "cardId": "17143",
+   "name": "ポリゴンZ",
+   "ja": "ポリゴンZ",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017143_P_PORIGONZ.gif"
+  },
+  {
+   "id": "DP5-X17144",
+   "cardId": "17144",
+   "name": "ポケトレ",
+   "ja": "ポケトレ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [],
+   "image": "/assets/images/card_images/large/DP5/017144_T_POKETORE.jpg"
+  },
+  {
+   "id": "DP5-X17145",
+   "cardId": "17145",
+   "name": "ツメの化石",
+   "ja": "ツメの化石",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017145_T_TSUMENOKASEKI.jpg"
+  },
+  {
+   "id": "DP5-X17146",
+   "cardId": "17146",
+   "name": "ねっこの化石",
+   "ja": "ねっこの化石",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017146_T_NEKKONOKASEKI.jpg"
+  },
+  {
+   "id": "DP5-X17147",
+   "cardId": "17147",
+   "name": "ワザマシン　TS-1",
+   "ja": "ワザマシン　TS-1",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017147_T_WAZAMASHINTS.jpg"
+  },
+  {
+   "id": "DP5-X17148",
+   "cardId": "17148",
+   "name": "ワザマシン　TS-2",
+   "ja": "ワザマシン　TS-2",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017148_T_WAZAMASHINTS.jpg"
+  },
+  {
+   "id": "DP5-X17149",
+   "cardId": "17149",
+   "name": "シロナの想い",
+   "ja": "シロナの想い",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017149_T_SHIRONANOOMOI.jpg"
+  },
+  {
+   "id": "DP5-X17150",
+   "cardId": "17150",
+   "name": "キッサキしんでん",
+   "ja": "キッサキしんでん",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「怒りの神殿」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017150_T_KISSAKISHINDEN.jpg"
+  },
+  {
+   "id": "DP5-X17151",
+   "cardId": "17151",
+   "name": "ハードマウンテン",
+   "ja": "ハードマウンテン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「秘境の叫び」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017151_T_HADOMAUNTEN.jpg"
+  },
+  {
+   "id": "DP5-X17152",
+   "cardId": "17152",
+   "name": "エネルギーパッチ",
+   "ja": "エネルギーパッチ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [],
+   "image": "/assets/images/card_images/large/DP5/017152_T_ENERUGIPACCHI.jpg"
+  },
+  {
+   "id": "DP5-X17153",
+   "cardId": "17153",
+   "name": "バクのトレーニング",
+   "ja": "バクのトレーニング（対戦スターターパック「ヒードランVSレジギガス」）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "対戦スターターパック「ヒードランVSレジギガス」"
+   ],
+   "image": "/assets/images/card_images/large/DP5/017153_T_BAKUNOTORENINGU.jpg"
+  }
+ ]
+}

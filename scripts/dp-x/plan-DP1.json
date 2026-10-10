@@ -1,0 +1,1753 @@
+{
+ "set": "DP1",
+ "key": "DP1",
+ "at": "2026-10-10T08:54:58.002Z",
+ "count": 124,
+ "dupListings": [],
+ "cards": [
+  {
+   "id": "DP1-X1000",
+   "cardId": "1000",
+   "name": "ヘラクロス",
+   "ja": "ヘラクロス",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "29",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001000_P_HERAKUROSU.jpg"
+  },
+  {
+   "id": "DP1-X1001",
+   "cardId": "1001",
+   "name": "ケムッソ",
+   "ja": "ケムッソ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "7",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001001_P_KEMUSSO.jpg"
+  },
+  {
+   "id": "DP1-X1002",
+   "cardId": "1002",
+   "name": "カラサリス",
+   "ja": "カラサリス",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001002_P_KARASARISU.jpg"
+  },
+  {
+   "id": "DP1-X1003",
+   "cardId": "1003",
+   "name": "アゲハント",
+   "ja": "アゲハント",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "29",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001003_P_AGEHANTO.jpg"
+  },
+  {
+   "id": "DP1-X1004",
+   "cardId": "1004",
+   "name": "マユルド",
+   "ja": "マユルド",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001004_P_MAYURUDO.jpg"
+  },
+  {
+   "id": "DP1-X1005",
+   "cardId": "1005",
+   "name": "ドクケイル",
+   "ja": "ドクケイル",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "34",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001005_P_DOKUKEIRU.jpg"
+  },
+  {
+   "id": "DP1-X1006",
+   "cardId": "1006",
+   "name": "タネボー",
+   "ja": "タネボー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "9",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001006_P_TANEBO.jpg"
+  },
+  {
+   "id": "DP1-X1007",
+   "cardId": "1007",
+   "name": "スボミー",
+   "ja": "スボミー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001007_P_SUBOMI.jpg"
+  },
+  {
+   "id": "DP1-X1008",
+   "cardId": "1008",
+   "name": "ロゼリア",
+   "ja": "ロゼリア",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "31",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001008_P_ROZERIA.jpg"
+  },
+  {
+   "id": "DP1-X1009",
+   "cardId": "1009",
+   "name": "ロズレイド",
+   "ja": "ロズレイド",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "33",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001009_P_ROZUREIDO.gif"
+  },
+  {
+   "id": "DP1-X1010",
+   "cardId": "1010",
+   "name": "ナエトル",
+   "ja": "ナエトル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001010_P_NAETORU.jpg"
+  },
+  {
+   "id": "DP1-X1011",
+   "cardId": "1011",
+   "name": "ハヤシガメ",
+   "ja": "ハヤシガメ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "21",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001011_P_HAYASHIGAME.jpg"
+  },
+  {
+   "id": "DP1-X1012",
+   "cardId": "1012",
+   "name": "ドダイトス",
+   "ja": "ドダイトス",
+   "rarity": "",
+   "lvx": false,
+   "lv": "45",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001012_P_DODAITOSU.gif"
+  },
+  {
+   "id": "DP1-X1013",
+   "cardId": "1013",
+   "name": "ドダイトス",
+   "ja": "ドダイトス（LV.X）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001013_P_DODAITOSU.gif"
+  },
+  {
+   "id": "DP1-X1014",
+   "cardId": "1014",
+   "name": "ミツハニー",
+   "ja": "ミツハニー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001014_P_MITSUHANI.jpg"
+  },
+  {
+   "id": "DP1-X1015",
+   "cardId": "1015",
+   "name": "ビークイン",
+   "ja": "ビークイン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001015_P_BIKUIN.jpg"
+  },
+  {
+   "id": "DP1-X1016",
+   "cardId": "1016",
+   "name": "チェリンボ",
+   "ja": "チェリンボ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "7",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001016_P_CHIERINBO.jpg"
+  },
+  {
+   "id": "DP1-X1017",
+   "cardId": "1017",
+   "name": "チェリム",
+   "ja": "チェリム",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001017_P_CHIERIMU.jpg"
+  },
+  {
+   "id": "DP1-X1018",
+   "cardId": "1018",
+   "name": "マスキッパ",
+   "ja": "マスキッパ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001018_P_MASUKIPPA.jpg"
+  },
+  {
+   "id": "DP1-X1019",
+   "cardId": "1019",
+   "name": "ポニータ",
+   "ja": "ポニータ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001019_P_PONITA.jpg"
+  },
+  {
+   "id": "DP1-X1020",
+   "cardId": "1020",
+   "name": "ギャロップ",
+   "ja": "ギャロップ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "34",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001020_P_GYAROPPU.jpg"
+  },
+  {
+   "id": "DP1-X1021",
+   "cardId": "1021",
+   "name": "ヒコザル",
+   "ja": "ヒコザル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001021_P_HIKOZARU.jpg"
+  },
+  {
+   "id": "DP1-X1022",
+   "cardId": "1022",
+   "name": "モウカザル",
+   "ja": "モウカザル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001022_P_MOUKAZARU.jpg"
+  },
+  {
+   "id": "DP1-X1023",
+   "cardId": "1023",
+   "name": "ゴウカザル",
+   "ja": "ゴウカザル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001023_P_GOUKAZARU.gif"
+  },
+  {
+   "id": "DP1-X1024",
+   "cardId": "1024",
+   "name": "ゴウカザル",
+   "ja": "ゴウカザル（LV.X）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001024_P_GOUKAZARU.gif"
+  },
+  {
+   "id": "DP1-X1025",
+   "cardId": "1025",
+   "name": "トサキント",
+   "ja": "トサキント",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001025_P_TOSAKINTO.jpg"
+  },
+  {
+   "id": "DP1-X1026",
+   "cardId": "1026",
+   "name": "アズマオウ",
+   "ja": "アズマオウ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "41",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001026_P_AZUMAOU.jpg"
+  },
+  {
+   "id": "DP1-X1027",
+   "cardId": "1027",
+   "name": "マリル",
+   "ja": "マリル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001027_P_MARIRU.jpg"
+  },
+  {
+   "id": "DP1-X1028",
+   "cardId": "1028",
+   "name": "マリルリ",
+   "ja": "マリルリ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001028_P_MARIRURI.jpg"
+  },
+  {
+   "id": "DP1-X1029",
+   "cardId": "1029",
+   "name": "タマンタ",
+   "ja": "タマンタ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001029_P_TAMANTA.jpg"
+  },
+  {
+   "id": "DP1-X1030",
+   "cardId": "1030",
+   "name": "ポッチャマ",
+   "ja": "ポッチャマ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "9",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001030_P_POCCHAMA.jpg"
+  },
+  {
+   "id": "DP1-X1031",
+   "cardId": "1031",
+   "name": "ポッタイシ",
+   "ja": "ポッタイシ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001031_P_POTTAISHI.jpg"
+  },
+  {
+   "id": "DP1-X1032",
+   "cardId": "1032",
+   "name": "エンペルト",
+   "ja": "エンペルト",
+   "rarity": "",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001032_P_ENPERUTO.gif"
+  },
+  {
+   "id": "DP1-X1033",
+   "cardId": "1033",
+   "name": "エンペルト",
+   "ja": "エンペルト（LV.X）",
+   "rarity": "RH",
+   "lvx": true,
+   "lv": "X",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001033_P_ENPERUTO.gif"
+  },
+  {
+   "id": "DP1-X1034",
+   "cardId": "1034",
+   "name": "ブイゼル",
+   "ja": "ブイゼル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001034_P_BUIZERU.jpg"
+  },
+  {
+   "id": "DP1-X1035",
+   "cardId": "1035",
+   "name": "フローゼル",
+   "ja": "フローゼル",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "29",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001035_P_FUROZERU.jpg"
+  },
+  {
+   "id": "DP1-X1036",
+   "cardId": "1036",
+   "name": "パルキア",
+   "ja": "パルキア",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "67",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001036_P_PARUKIA.gif"
+  },
+  {
+   "id": "DP1-X1037",
+   "cardId": "1037",
+   "name": "マナフィ",
+   "ja": "マナフィ（拡張パック「時空の創造」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001037_P_MANAFI.gif"
+  },
+  {
+   "id": "DP1-X1038",
+   "cardId": "1038",
+   "name": "コリンク",
+   "ja": "コリンク",
+   "rarity": "",
+   "lvx": false,
+   "lv": "7",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001038_P_KORINKU.jpg"
+  },
+  {
+   "id": "DP1-X1039",
+   "cardId": "1039",
+   "name": "ルクシオ",
+   "ja": "ルクシオ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "19",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001039_P_RUKUSHIO.jpg"
+  },
+  {
+   "id": "DP1-X1040",
+   "cardId": "1040",
+   "name": "レントラー",
+   "ja": "レントラー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001040_P_RENTORA.gif"
+  },
+  {
+   "id": "DP1-X1041",
+   "cardId": "1041",
+   "name": "エレキッド",
+   "ja": "エレキッド",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001041_P_EREKIDDO.jpg"
+  },
+  {
+   "id": "DP1-X1042",
+   "cardId": "1042",
+   "name": "エレブー",
+   "ja": "エレブー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "29",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001042_P_EREBU.jpg"
+  },
+  {
+   "id": "DP1-X1043",
+   "cardId": "1043",
+   "name": "エレキブル",
+   "ja": "エレキブル",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "46",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001043_P_EREKIBURU.gif"
+  },
+  {
+   "id": "DP1-X1044",
+   "cardId": "1044",
+   "name": "パチリス",
+   "ja": "パチリス",
+   "rarity": "",
+   "lvx": false,
+   "lv": "23",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001044_P_PACHIRISU.jpg"
+  },
+  {
+   "id": "DP1-X1045",
+   "cardId": "1045",
+   "name": "ゴース",
+   "ja": "ゴース",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001045_P_GOSU.jpg"
+  },
+  {
+   "id": "DP1-X1046",
+   "cardId": "1046",
+   "name": "ゴースト",
+   "ja": "ゴースト",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "32",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001046_P_GOSUTO.jpg"
+  },
+  {
+   "id": "DP1-X1047",
+   "cardId": "1047",
+   "name": "ゲンガー",
+   "ja": "ゲンガー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001047_P_GENGA.jpg"
+  },
+  {
+   "id": "DP1-X1048",
+   "cardId": "1048",
+   "name": "マネネ",
+   "ja": "マネネ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "5",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001048_P_MANENE.jpg"
+  },
+  {
+   "id": "DP1-X1049",
+   "cardId": "1049",
+   "name": "ムウマ",
+   "ja": "ムウマ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "16",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001049_P_MUUMA.jpg"
+  },
+  {
+   "id": "DP1-X1050",
+   "cardId": "1050",
+   "name": "ムウマージ",
+   "ja": "ムウマージ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001050_P_MUUMAJI.gif"
+  },
+  {
+   "id": "DP1-X1051",
+   "cardId": "1051",
+   "name": "アンノーン[A]",
+   "ja": "アンノーン[A]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001051_P_ANNONA.jpg"
+  },
+  {
+   "id": "DP1-X1052",
+   "cardId": "1052",
+   "name": "アンノーン[B]",
+   "ja": "アンノーン[B]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001052_P_ANNONB.jpg"
+  },
+  {
+   "id": "DP1-X1053",
+   "cardId": "1053",
+   "name": "アンノーン[C]",
+   "ja": "アンノーン[C]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001053_P_ANNONC.jpg"
+  },
+  {
+   "id": "DP1-X1054",
+   "cardId": "1054",
+   "name": "アンノーン[D]",
+   "ja": "アンノーン[D]",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "14",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001054_P_ANNOND.jpg"
+  },
+  {
+   "id": "DP1-X1055",
+   "cardId": "1055",
+   "name": "ソーナノ",
+   "ja": "ソーナノ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001055_P_SONANO.jpg"
+  },
+  {
+   "id": "DP1-X1056",
+   "cardId": "1056",
+   "name": "ソーナンス",
+   "ja": "ソーナンス",
+   "rarity": "",
+   "lvx": false,
+   "lv": "25",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001056_P_SONANSU.jpg"
+  },
+  {
+   "id": "DP1-X1057",
+   "cardId": "1057",
+   "name": "ヨマワル",
+   "ja": "ヨマワル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "15",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001057_P_YOMAWARU.jpg"
+  },
+  {
+   "id": "DP1-X1058",
+   "cardId": "1058",
+   "name": "サマヨール",
+   "ja": "サマヨール",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "38",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001058_P_SAMAYORU.jpg"
+  },
+  {
+   "id": "DP1-X1059",
+   "cardId": "1059",
+   "name": "ヨノワール",
+   "ja": "ヨノワール",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001059_P_YONOWARU.gif"
+  },
+  {
+   "id": "DP1-X1060",
+   "cardId": "1060",
+   "name": "フワンテ",
+   "ja": "フワンテ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "17",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001060_P_FUWANTE.jpg"
+  },
+  {
+   "id": "DP1-X1061",
+   "cardId": "1061",
+   "name": "フワライド",
+   "ja": "フワライド",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001061_P_FUWARAIDO.jpg"
+  },
+  {
+   "id": "DP1-X1062",
+   "cardId": "1062",
+   "name": "スコルピ",
+   "ja": "スコルピ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "9",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001062_P_SUKORUPI.jpg"
+  },
+  {
+   "id": "DP1-X1063",
+   "cardId": "1063",
+   "name": "ドラピオン",
+   "ja": "ドラピオン",
+   "rarity": "",
+   "lvx": false,
+   "lv": "41",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001063_P_DORAPION.jpg"
+  },
+  {
+   "id": "DP1-X1064",
+   "cardId": "1064",
+   "name": "ワンリキー",
+   "ja": "ワンリキー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001064_P_WANRIKI.jpg"
+  },
+  {
+   "id": "DP1-X1065",
+   "cardId": "1065",
+   "name": "ゴーリキー",
+   "ja": "ゴーリキー",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "39",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001065_P_GORIKI.jpg"
+  },
+  {
+   "id": "DP1-X1066",
+   "cardId": "1066",
+   "name": "カイリキー",
+   "ja": "カイリキー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "59",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001066_P_KAIRIKI.jpg"
+  },
+  {
+   "id": "DP1-X1067",
+   "cardId": "1067",
+   "name": "イワーク",
+   "ja": "イワーク",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "22",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001067_P_IWAKU.jpg"
+  },
+  {
+   "id": "DP1-X1068",
+   "cardId": "1068",
+   "name": "サイホーン",
+   "ja": "サイホーン",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "19",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001068_P_SAIHON.jpg"
+  },
+  {
+   "id": "DP1-X1069",
+   "cardId": "1069",
+   "name": "サイドン",
+   "ja": "サイドン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "43",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001069_P_SAIDON.jpg"
+  },
+  {
+   "id": "DP1-X1070",
+   "cardId": "1070",
+   "name": "ドサイドン",
+   "ja": "ドサイドン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "61",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001070_P_DOSAIDON.gif"
+  },
+  {
+   "id": "DP1-X1071",
+   "cardId": "1071",
+   "name": "ウソハチ",
+   "ja": "ウソハチ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001071_P_USOHACHI.jpg"
+  },
+  {
+   "id": "DP1-X1072",
+   "cardId": "1072",
+   "name": "アサナン",
+   "ja": "アサナン",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "19",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001072_P_ASANAN.jpg"
+  },
+  {
+   "id": "DP1-X1073",
+   "cardId": "1073",
+   "name": "チャーレム",
+   "ja": "チャーレム",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "42",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001073_P_CHAREMU.jpg"
+  },
+  {
+   "id": "DP1-X1074",
+   "cardId": "1074",
+   "name": "リオル",
+   "ja": "リオル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "7",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001074_P_RIORU.jpg"
+  },
+  {
+   "id": "DP1-X1075",
+   "cardId": "1075",
+   "name": "ルカリオ",
+   "ja": "ルカリオ（拡張パック「時空の創造」）",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001075_P_RUKARIO.gif"
+  },
+  {
+   "id": "DP1-X1076",
+   "cardId": "1076",
+   "name": "ヒポポタス",
+   "ja": "ヒポポタス",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "23",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001076_P_HIPOPOTASU.jpg"
+  },
+  {
+   "id": "DP1-X1077",
+   "cardId": "1077",
+   "name": "カバルドン",
+   "ja": "カバルドン",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "45",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001077_P_KABARUDON.jpg"
+  },
+  {
+   "id": "DP1-X1078",
+   "cardId": "1078",
+   "name": "ピィ",
+   "ja": "ピィ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "5",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001078_P_PII.jpg"
+  },
+  {
+   "id": "DP1-X1079",
+   "cardId": "1079",
+   "name": "ピッピ",
+   "ja": "ピッピ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "18",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001079_P_PIPPI.jpg"
+  },
+  {
+   "id": "DP1-X1080",
+   "cardId": "1080",
+   "name": "ピクシー",
+   "ja": "ピクシー",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001080_P_PIKUSHI.jpg"
+  },
+  {
+   "id": "DP1-X1081",
+   "cardId": "1081",
+   "name": "ゴンベ",
+   "ja": "ゴンベ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001081_P_GONBE.jpg"
+  },
+  {
+   "id": "DP1-X1082",
+   "cardId": "1082",
+   "name": "カビゴン",
+   "ja": "カビゴン",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001082_P_KABIGON.jpg"
+  },
+  {
+   "id": "DP1-X1083",
+   "cardId": "1083",
+   "name": "ホーホー",
+   "ja": "ホーホー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "7",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001083_P_HOHO.jpg"
+  },
+  {
+   "id": "DP1-X1084",
+   "cardId": "1084",
+   "name": "ヨルノズク",
+   "ja": "ヨルノズク",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "40",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001084_P_YORUNOZUKU.jpg"
+  },
+  {
+   "id": "DP1-X1085",
+   "cardId": "1085",
+   "name": "ルリリ",
+   "ja": "ルリリ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "6",
+   "products": [
+    "拡張パック「時空の創造」"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001085_P_RURIRI.jpg"
+  },
+  {
+   "id": "DP1-X1086",
+   "cardId": "1086",
+   "name": "ムックル",
+   "ja": "ムックル",
+   "rarity": "",
+   "lvx": false,
+   "lv": "8",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001086_P_MUKKURU.jpg"
+  },
+  {
+   "id": "DP1-X1087",
+   "cardId": "1087",
+   "name": "ムクバード",
+   "ja": "ムクバード",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "21",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001087_P_MUKUBADO.jpg"
+  },
+  {
+   "id": "DP1-X1088",
+   "cardId": "1088",
+   "name": "ムクホーク",
+   "ja": "ムクホーク",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "54",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001088_P_MUKUHOKU.gif"
+  },
+  {
+   "id": "DP1-X1089",
+   "cardId": "1089",
+   "name": "ビッパ",
+   "ja": "ビッパ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001089_P_BIPPA.jpg"
+  },
+  {
+   "id": "DP1-X1090",
+   "cardId": "1090",
+   "name": "ビーダル",
+   "ja": "ビーダル",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "26",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001090_P_BIDARU.jpg"
+  },
+  {
+   "id": "DP1-X1091",
+   "cardId": "1091",
+   "name": "ミミロル",
+   "ja": "ミミロル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "11",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001091_P_MIMIRORU.jpg"
+  },
+  {
+   "id": "DP1-X1092",
+   "cardId": "1092",
+   "name": "ミミロップ",
+   "ja": "ミミロップ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "33",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001092_P_MIMIROPPU.jpg"
+  },
+  {
+   "id": "DP1-X1093",
+   "cardId": "1093",
+   "name": "ニャルマー",
+   "ja": "ニャルマー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "12",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001093_P_NYARUMA.jpg"
+  },
+  {
+   "id": "DP1-X1094",
+   "cardId": "1094",
+   "name": "ブニャット",
+   "ja": "ブニャット",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "44",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001094_P_BUNYATTO.jpg"
+  },
+  {
+   "id": "DP1-X1095",
+   "cardId": "1095",
+   "name": "ペラップ",
+   "ja": "ペラップ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "27",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001095_P_PERAPPU.jpg"
+  },
+  {
+   "id": "DP1-X1096",
+   "cardId": "1096",
+   "name": "ニューラ",
+   "ja": "ニューラ",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "21",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001096_P_NYURA.jpg"
+  },
+  {
+   "id": "DP1-X1097",
+   "cardId": "1097",
+   "name": "マニューラ",
+   "ja": "マニューラ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "37",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001097_P_MANYURA.jpg"
+  },
+  {
+   "id": "DP1-X1098",
+   "cardId": "1098",
+   "name": "コノハナ",
+   "ja": "コノハナ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "28",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001098_P_KONOHANA.jpg"
+  },
+  {
+   "id": "DP1-X1099",
+   "cardId": "1099",
+   "name": "ダーテング",
+   "ja": "ダーテング",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001099_P_DATENGU.gif"
+  },
+  {
+   "id": "DP1-X1100",
+   "cardId": "1100",
+   "name": "スカンプー",
+   "ja": "スカンプー",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "17",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001100_P_SUKANPU.jpg"
+  },
+  {
+   "id": "DP1-X1101",
+   "cardId": "1101",
+   "name": "スカタンク",
+   "ja": "スカタンク",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "36",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001101_P_SUKATANKU.gif"
+  },
+  {
+   "id": "DP1-X1102",
+   "cardId": "1102",
+   "name": "コイル",
+   "ja": "コイル",
+   "rarity": "C",
+   "lvx": false,
+   "lv": "10",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001102_P_KOIRU.jpg"
+  },
+  {
+   "id": "DP1-X1103",
+   "cardId": "1103",
+   "name": "レアコイル",
+   "ja": "レアコイル",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "35",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001103_P_REAKOIRU.jpg"
+  },
+  {
+   "id": "DP1-X1104",
+   "cardId": "1104",
+   "name": "ジバコイル",
+   "ja": "ジバコイル",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "48",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001104_P_JIBAKOIRU.gif"
+  },
+  {
+   "id": "DP1-X1105",
+   "cardId": "1105",
+   "name": "ハガネール",
+   "ja": "ハガネール",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "50",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001105_P_HAGANERU.jpg"
+  },
+  {
+   "id": "DP1-X1106",
+   "cardId": "1106",
+   "name": "ディアルガ",
+   "ja": "ディアルガ",
+   "rarity": "R",
+   "lvx": false,
+   "lv": "68",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001106_P_DEIARUGA.gif"
+  },
+  {
+   "id": "DP1-X1107",
+   "cardId": "1107",
+   "name": "エネルギー再生",
+   "ja": "エネルギー再生",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001107_T_ENERUGISAISEI.jpg"
+  },
+  {
+   "id": "DP1-X1108",
+   "cardId": "1108",
+   "name": "エネルギーつけかえ",
+   "ja": "エネルギーつけかえ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001108_T_ENERUGITSUKEKAE.jpg"
+  },
+  {
+   "id": "DP1-X1109",
+   "cardId": "1109",
+   "name": "エネルギー転送",
+   "ja": "エネルギー転送",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001109_T_ENERUGITENSOU.jpg"
+  },
+  {
+   "id": "DP1-X1110",
+   "cardId": "1110",
+   "name": "きずぐすり",
+   "ja": "きずぐすり",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001110_T_KIZUGUSURI.jpg"
+  },
+  {
+   "id": "DP1-X1111",
+   "cardId": "1111",
+   "name": "スーパーポケモン回収",
+   "ja": "スーパーポケモン回収",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001111_T_SUPAPOKEMONKAISHUU.jpg"
+  },
+  {
+   "id": "DP1-X1112",
+   "cardId": "1112",
+   "name": "なんでもなおしW",
+   "ja": "なんでもなおしW",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001112_T_NANDEMONAOSHIW.jpg"
+  },
+  {
+   "id": "DP1-X1113",
+   "cardId": "1113",
+   "name": "プラスパワー",
+   "ja": "プラスパワー",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001113_T_PURASUPAWA.jpg"
+  },
+  {
+   "id": "DP1-X1114",
+   "cardId": "1114",
+   "name": "ポケモンいれかえ",
+   "ja": "ポケモンいれかえ",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001114_T_POKEMONIREKAE.jpg"
+  },
+  {
+   "id": "DP1-X1115",
+   "cardId": "1115",
+   "name": "ポケモン図鑑HANDY910is",
+   "ja": "ポケモン図鑑HANDY910is",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001115_T_POKEMONZUKANHANDYIS.jpg"
+  },
+  {
+   "id": "DP1-X1116",
+   "cardId": "1116",
+   "name": "モンスターボール",
+   "ja": "モンスターボール",
+   "rarity": "",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "エントリーパック",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001116_T_MONSUTABORU.jpg"
+  },
+  {
+   "id": "DP1-X1117",
+   "cardId": "1117",
+   "name": "夜のポケモンセンター",
+   "ja": "夜のポケモンセンター",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001117_T_YORUNOPOKEMONSENTA.jpg"
+  },
+  {
+   "id": "DP1-X1118",
+   "cardId": "1118",
+   "name": "ワープポイント",
+   "ja": "ワープポイント",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001118_T_WAPUPOINTO.jpg"
+  },
+  {
+   "id": "DP1-X1119",
+   "cardId": "1119",
+   "name": "ナナカマドはかせ",
+   "ja": "ナナカマドはかせ",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001119_T_NANAKAMADOHAKASE.jpg"
+  },
+  {
+   "id": "DP1-X1120",
+   "cardId": "1120",
+   "name": "ライバル",
+   "ja": "ライバル",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001120_T_RAIBARU.jpg"
+  },
+  {
+   "id": "DP1-X1121",
+   "cardId": "1121",
+   "name": "スピードスタジアム",
+   "ja": "スピードスタジアム",
+   "rarity": "U",
+   "lvx": false,
+   "lv": "",
+   "products": [
+    "拡張パック「時空の創造」",
+    "ランダム構築スターター スタンダードデッキ"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001121_T_SUPIDOSUTAJIAMU.jpg"
+  },
+  {
+   "id": "DP1-X1122",
+   "cardId": "1122",
+   "name": "マナフィ",
+   "ja": "マナフィ（エントリーパック）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "20",
+   "products": [
+    "エントリーパック"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001122_P_MANAFI.jpg"
+  },
+  {
+   "id": "DP1-X1123",
+   "cardId": "1123",
+   "name": "ルカリオ",
+   "ja": "ルカリオ（エントリーパック）",
+   "rarity": "",
+   "lvx": false,
+   "lv": "30",
+   "products": [
+    "エントリーパック"
+   ],
+   "image": "/assets/images/card_images/large/DP1/001123_P_RUKARIO.jpg"
+  }
+ ]
+}
