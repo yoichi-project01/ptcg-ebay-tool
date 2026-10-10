@@ -19,9 +19,9 @@ DPt2-B-017	トドグラー	U	Sealeo	Sealeo	Water				入れる	規則と Bulbaped
 DPt2-B-018	トドゼルガ	R	Walrein	Walrein	Water				入れる	規則と Bulbapedia が一致	Walrein
 DPt2-B-019	フローゼルGL［ジムリーダー］	R	Floatzel GL	Floatzel GL	Water				入れる	規則と Bulbapedia が一致	Floatzel GL
 DPt2-B-020	フローゼルGL［ジムリーダー］	RH	Floatzel GL	Floatzel GL LV.X	Water				空欄	規則と Bulbapedia が食い違う・イラストレーターが分からない	
-DPt2-B-021	カラナクシ にしのうみ	C		Shellos West Sea	Water				空欄	規則で作れない・イラストレーターが分からない	
-DPt2-B-022	カラナクシ ひがしのうみ	C		Shellos East Sea	Water				空欄	規則で作れない・イラストレーターが分からない	
-DPt2-B-023	トリトドン ひがしのうみ	R		Gastrodon East Sea	Water				空欄	規則で作れない・イラストレーターが分からない	
+DPt2-B-021	カラナクシ にしのうみ	C		Shellos West Sea	Water	Miki Tanaka	公式details.php	pl2-80	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Shellos West Sea
+DPt2-B-022	カラナクシ ひがしのうみ	C		Shellos East Sea	Water	Tomokazu Komiya	公式details.php	pl2-79	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Shellos East Sea
+DPt2-B-023	トリトドン ひがしのうみ	R		Gastrodon East Sea	Water	Ken Sugimori	公式details.php	pl2-21	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Gastrodon East Sea
 DPt2-B-024	グレイシア	R	Glaceon	Glaceon	Water				入れる	規則と Bulbapedia が一致	Glaceon
 DPt2-B-025	マンムーGL［ジムリーダー］	R	Mamoswine GL	Mamoswine GL	Water				入れる	規則と Bulbapedia が一致	Mamoswine GL
 DPt2-B-026	ユキメノコGL［ジムリーダー］	R	Froslass GL	Froslass GL	Water				入れる	規則と Bulbapedia が一致	Froslass GL
@@ -29,18 +29,18 @@ DPt2-B-027	ライチュウGL［ジムリーダー］	R	Raichu GL	Raichu GL	Light
 DPt2-B-028	サンダース	R	Jolteon	Jolteon	Lightning				入れる	規則と Bulbapedia が一致	Jolteon
 DPt2-B-029	レントラーGL［ジムリーダー］	R	Luxray GL	Luxray GL	Lightning				入れる	規則と Bulbapedia が一致	Luxray GL
 DPt2-B-030	レントラーGL［ジムリーダー］	RH	Luxray GL	Luxray GL LV.X	Lightning				空欄	規則と Bulbapedia が食い違う・イラストレーターが分からない	
-DPt2-B-031	ヒートロトム	U		Heat Rotom	Lightning				空欄	規則で作れない・イラストレーターが分からない	
-DPt2-B-032	フロストロトム	U		Frost Rotom	Lightning				空欄	規則で作れない・イラストレーターが分からない	
-DPt2-B-033	ウォッシュロトム	U		Wash Rotom	Lightning				空欄	規則で作れない・イラストレーターが分からない	
-DPt2-B-034	スピンロトム	U		Fan Rotom	Lightning				空欄	規則で作れない・イラストレーターが分からない	
-DPt2-B-035	カットロトム	U		Mow Rotom	Lightning				空欄	規則で作れない・イラストレーターが分からない	
+DPt2-B-031	ヒートロトム	U		Heat Rotom	Lightning	Lee HyunJung	公式details.php	pl2-RT3	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Heat Rotom
+DPt2-B-032	フロストロトム	U		Frost Rotom	Lightning	Hironobu Yoshida	公式details.php	pl2-RT2	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Frost Rotom
+DPt2-B-033	ウォッシュロトム	U		Wash Rotom	Lightning	Hiroki Fuchino	公式details.php	pl2-RT5	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Wash Rotom
+DPt2-B-034	スピンロトム	U		Fan Rotom	Lightning	Motofumi Fujiwara	公式details.php	pl2-RT1	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Fan Rotom
+DPt2-B-035	カットロトム	U		Mow Rotom	Lightning	Yusuke Ohmura	公式details.php	pl2-RT4	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Mow Rotom
 DPt2-B-036	ニドラン♀	C	Nidoran♀	Nidoran♀	Psychic				入れる	規則と Bulbapedia が一致	Nidoran♀
 DPt2-B-037	ニドリーナ	C	Nidorina	Nidorina	Psychic				入れる	規則と Bulbapedia が一致	Nidorina
 DPt2-B-038	ニドクイン	R	Nidoqueen	Nidoqueen	Psychic				入れる	規則と Bulbapedia が一致	Nidoqueen
 DPt2-B-039	ニドラン♂	C	Nidoran♂	Nidoran♂	Psychic				入れる	規則と Bulbapedia が一致	Nidoran♂
 DPt2-B-040	ニドリーノ	C	Nidorino	Nidorino	Psychic				入れる	規則と Bulbapedia が一致	Nidorino
-DPt2-B-041	フーディン四[してんのう]	R		Alakazam 4	Psychic				空欄	規則で作れない・イラストレーターが分からない	
-DPt2-B-042	フーディン四[してんのう]	RH		Alakazam 4 LV.X	Psychic				空欄	規則で作れない・イラストレーターが分からない	
+DPt2-B-041	フーディン四[してんのう]	R		Alakazam 4	Psychic	Mitsuhiro Arita	公式details.php		空欄	規則で作れない・英語版に同じ名前のポケモンが無い	
+DPt2-B-042	フーディン四[してんのう]	RH		Alakazam 4 LV.X	Psychic	Ryo Ueda	公式details.php		空欄	規則で作れない・英語版に同じ名前のポケモンが無い	
 DPt2-B-043	ゲンガーGL［ジムリーダー］	R	Gengar GL	Gengar GL	Psychic				入れる	規則と Bulbapedia が一致	Gengar GL
 DPt2-B-044	ドガース	C	Koffing	Koffing	Psychic				入れる	規則と Bulbapedia が一致	Koffing
 DPt2-B-045	マタドガス	U	Weezing	Weezing	Psychic				入れる	規則と Bulbapedia が一致	Weezing
@@ -50,7 +50,7 @@ DPt2-B-048	カイリキーGL［ジムリーダー］	U	Machamp GL	Machamp GL	Fig
 DPt2-B-049	プテラGL［ジムリーダー］	U	Aerodactyl GL	Aerodactyl GL	Fighting				入れる	規則と Bulbapedia が一致	Aerodactyl GL
 DPt2-B-050	ナックラー	C	Trapinch	Trapinch	Fighting				入れる	規則と Bulbapedia が一致	Trapinch
 DPt2-B-051	ラムパルドGL［ジムリーダー］	R	Rampardos GL	Rampardos GL	Fighting				入れる	規則と Bulbapedia が一致	Rampardos GL
-DPt2-B-052	トリトドン にしのうみ	R		Gastrodon West Sea	Fighting				空欄	規則で作れない・イラストレーターが分からない	
+DPt2-B-052	トリトドン にしのうみ	R		Gastrodon West Sea	Fighting	Kyoko Umemoto	公式details.php	pl2-22	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Gastrodon West Sea
 DPt2-B-053	ルカリオGL［ジムリーダー］	R	Lucario GL	Lucario GL	Fighting				入れる	規則と Bulbapedia が一致	Lucario GL
 DPt2-B-054	ヒポポタス	C	Hippopotas	Hippopotas	Fighting				入れる	規則と Bulbapedia が一致	Hippopotas
 DPt2-B-055	カバルドン	R	Hippowdon	Hippowdon	Fighting				入れる	規則と Bulbapedia が一致	Hippowdon
@@ -75,5 +75,5 @@ DPt2-B-073	フライゴン	RH	Flygon	Flygon LV.X	Colorless				空欄	規則と B
 DPt2-B-074	カクレオン	C	Kecleon	Kecleon	Colorless				入れる	規則と Bulbapedia が一致	Kecleon
 DPt2-B-075	エテボースG［ギンガ］	R	Ambipom G	Ambipom G	Colorless				入れる	規則と Bulbapedia が一致	Ambipom G
 DPt2-B-088	ピカチュウ	RH	Pikachu	Pikachu	Lightning				入れる	規則と Bulbapedia が一致	Pikachu
-DPt2-B-089	なみのりピカチュウ	RH		Surfing Pikachu	Lightning				空欄	規則で作れない・イラストレーターが分からない	
-DPt2-B-090	そらをとぶピカチュウ	RH		Flying Pikachu	Lightning				空欄	規則で作れない・イラストレーターが分からない	
+DPt2-B-089	なみのりピカチュウ	RH		Surfing Pikachu	Lightning	Toshinao Aoki	公式details.php	basep-28 xy12-111 pl2-114	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Surfing Pikachu
+DPt2-B-090	そらをとぶピカチュウ	RH		Flying Pikachu	Lightning	Toshinao Aoki	公式details.php	basep-25 xy12-110 pl2-113	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Flying Pikachu

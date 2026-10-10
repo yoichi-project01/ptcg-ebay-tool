@@ -6522,12 +6522,12 @@
    "file": "DPt-decks-2026.txt"
   },
   "targets": 78,
-  "filled": 61,
+  "filled": 72,
   "filledByRule": 61,
-  "blank": 17,
+  "blank": 6,
   "blankReasons": {
    "規則と Bulbapedia が食い違う・イラストレーターが分からない": 4,
-   "規則で作れない・イラストレーターが分からない": 13
+   "規則で作れない・英語版に同じ名前のポケモンが無い": 2
   }
  },
  "DPt3-B-pokemon": {
