@@ -6546,5 +6546,23 @@
   "blankReasons": {
    "規則と Bulbapedia が食い違う・イラストレーターが分からない": 5
   }
+ },
+ "DPt4-B-pokemon": {
+  "set": "DPt4-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Platinum: Arceus (TCG)",
+   "section": "Advent of Arceus",
+   "den": "den=090",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 77,
+  "filled": 67,
+  "filledByRule": 67,
+  "blank": 10,
+  "blankReasons": {
+   "規則と Bulbapedia が食い違う・イラストレーターが分からない": 4,
+   "規則で作れない・イラストレーターが分からない": 6
+  }
  }
 }
