@@ -6705,5 +6705,22 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "DPt4-B-trainer": {
+  "set": "DPt4-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Platinum: Arceus (TCG)",
+   "section": "Advent of Arceus",
+   "den": "den=090",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 13,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 1,
+  "blankReasons": {
+   "英語版に同じ名前・種類のカードが無い": 1
+  }
  }
 }
