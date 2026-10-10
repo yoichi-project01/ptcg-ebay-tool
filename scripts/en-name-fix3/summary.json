@@ -6634,12 +6634,10 @@
    "file": "DPt-decks-2026.txt"
   },
   "targets": 27,
-  "filled": 26,
+  "filled": 27,
   "filledByRule": 26,
-  "blank": 1,
-  "blankReasons": {
-   "規則で作れない・イラストレーターが分からない": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "HXY-pokemon": {
   "set": "HXY",
