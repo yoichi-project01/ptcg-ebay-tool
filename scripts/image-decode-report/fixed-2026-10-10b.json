@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-10",
+ "note": "DP の取り込み前の image-hashes.mjs --verify で見つかった（同じ日の先の --verify では0件。触っていない画像でサイズは同じ）。元の出どころの画像が SHA-256 の一覧と一致したので取り直して戻した。diff は [位置, 化けた値, 正しい値]",
+ "files": [
+  {
+   "key": "neo4/91",
+   "path": "cards/neo/neo4/わるいプクリン_neo4-091／113_U.png",
+   "source": "https://www.pcg-search.com/img/neo/neo4091.png",
+   "sha256": "f648b73ab436bc4c9acad22c309a9c176cd71d82ced3b6b0be631ee38bf23906",
+   "badSha256": "d69947345a747f1d96f56f536de3062a33b393e1d383999e2f832eba77e57870",
+   "diff": [
+    [
+     151395,
+     "5f",
+     "df"
+    ]
+   ]
+  }
+ ]
+}
