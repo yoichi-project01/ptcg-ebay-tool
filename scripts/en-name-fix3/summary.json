@@ -6611,5 +6611,22 @@
   "filledByRule": 26,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MMB-P-pokemon": {
+  "set": "MMB-P",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "M Master Deck Build Box Power Style (TCG)",
+   "section": "M Master Deck Build Box Power Style",
+   "den": "den=049",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 26,
+  "filled": 25,
+  "filledByRule": 25,
+  "blank": 1,
+  "blankReasons": {
+   "規則で作れない・イラストレーターが分からない": 1
+  }
  }
 }
