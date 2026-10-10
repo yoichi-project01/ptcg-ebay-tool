@@ -2001,6 +2001,636 @@
   "name": "サンダー",
   "date": "2026-10-10"
  },
+ "24063": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "001",
+  "name": "スピアーG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "24065": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "002",
+  "name": "モンジャラ",
+  "date": "2026-10-10"
+ },
+ "24067": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "003",
+  "name": "モジャンボ",
+  "date": "2026-10-10"
+ },
+ "24069": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "004",
+  "name": "モジャンボ",
+  "date": "2026-10-10"
+ },
+ "24072": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "005",
+  "name": "キモリ",
+  "date": "2026-10-10"
+ },
+ "24073": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "006",
+  "name": "ジュプトル",
+  "date": "2026-10-10"
+ },
+ "24075": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "007",
+  "name": "ジュカイン",
+  "date": "2026-10-10"
+ },
+ "24078": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "008",
+  "name": "ミノムッチ くさきのミノ",
+  "date": "2026-10-10"
+ },
+ "24080": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "009",
+  "name": "ミノムッチ すなちのミノ",
+  "date": "2026-10-10"
+ },
+ "24082": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "010",
+  "name": "ミノムッチ ゴミのミノ",
+  "date": "2026-10-10"
+ },
+ "24084": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "011",
+  "name": "ミノマダム くさきのミノ",
+  "date": "2026-10-10"
+ },
+ "24086": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "012",
+  "name": "ガーメイル",
+  "date": "2026-10-10"
+ },
+ "24088": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "013",
+  "name": "チェリンボ",
+  "date": "2026-10-10"
+ },
+ "24090": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "014",
+  "name": "チェリム",
+  "date": "2026-10-10"
+ },
+ "24092": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "015",
+  "name": "ヒトカゲ",
+  "date": "2026-10-10"
+ },
+ "24094": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "016",
+  "name": "リザード",
+  "date": "2026-10-10"
+ },
+ "24096": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "017",
+  "name": "リザードン",
+  "date": "2026-10-10"
+ },
+ "24099": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "018",
+  "name": "ポニータ",
+  "date": "2026-10-10"
+ },
+ "24101": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "019",
+  "name": "ポニータ",
+  "date": "2026-10-10"
+ },
+ "24103": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "020",
+  "name": "ギャロップ",
+  "date": "2026-10-10"
+ },
+ "24106": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "021",
+  "name": "ヒードラン",
+  "date": "2026-10-10"
+ },
+ "24108": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "022",
+  "name": "オムナイト",
+  "date": "2026-10-10"
+ },
+ "24110": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "023",
+  "name": "オムスター",
+  "date": "2026-10-10"
+ },
+ "24112": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "024",
+  "name": "キャモメ",
+  "date": "2026-10-10"
+ },
+ "24114": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "025",
+  "name": "ペリッパー",
+  "date": "2026-10-10"
+ },
+ "24116": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "026",
+  "name": "ユキワラシ",
+  "date": "2026-10-10"
+ },
+ "24118": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "027",
+  "name": "オニゴーリ",
+  "date": "2026-10-10"
+ },
+ "24120": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "028",
+  "name": "ユキメノコ",
+  "date": "2026-10-10"
+ },
+ "24122": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "029",
+  "name": "アルセウス",
+  "date": "2026-10-10"
+ },
+ "24124": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "030",
+  "name": "ピチュー",
+  "date": "2026-10-10"
+ },
+ "24126": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "031",
+  "name": "ピカチュウ",
+  "date": "2026-10-10"
+ },
+ "24128": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "032",
+  "name": "ライチュウ",
+  "date": "2026-10-10"
+ },
+ "24130": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "033",
+  "name": "サンダーG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "24132": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "034",
+  "name": "ラクライ",
+  "date": "2026-10-10"
+ },
+ "24134": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "035",
+  "name": "ライボルト",
+  "date": "2026-10-10"
+ },
+ "24136": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "036",
+  "name": "コリンク",
+  "date": "2026-10-10"
+ },
+ "24138": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "037",
+  "name": "コリンク",
+  "date": "2026-10-10"
+ },
+ "24140": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "038",
+  "name": "ルクシオ",
+  "date": "2026-10-10"
+ },
+ "24142": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "039",
+  "name": "レントラー",
+  "date": "2026-10-10"
+ },
+ "24144": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "040",
+  "name": "ゴース",
+  "date": "2026-10-10"
+ },
+ "24146": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "041",
+  "name": "ゴースト",
+  "date": "2026-10-10"
+ },
+ "24148": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "042",
+  "name": "ゲンガー",
+  "date": "2026-10-10"
+ },
+ "24150": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "043",
+  "name": "ゲンガー",
+  "date": "2026-10-10"
+ },
+ "24153": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "044",
+  "name": "ゴクリン",
+  "date": "2026-10-10"
+ },
+ "24155": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "045",
+  "name": "マルノーム",
+  "date": "2026-10-10"
+ },
+ "24157": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "046",
+  "name": "イシツブテ",
+  "date": "2026-10-10"
+ },
+ "24158": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "047",
+  "name": "ゴローン",
+  "date": "2026-10-10"
+ },
+ "24160": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "048",
+  "name": "ゴローニャ",
+  "date": "2026-10-10"
+ },
+ "24163": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "049",
+  "name": "カブト",
+  "date": "2026-10-10"
+ },
+ "24165": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "050",
+  "name": "カブトプス",
+  "date": "2026-10-10"
+ },
+ "24167": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "051",
+  "name": "プテラ",
+  "date": "2026-10-10"
+ },
+ "24169": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "052",
+  "name": "マクノシタ",
+  "date": "2026-10-10"
+ },
+ "24171": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "053",
+  "name": "ハリテヤマ",
+  "date": "2026-10-10"
+ },
+ "24173": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "054",
+  "name": "ノズパス",
+  "date": "2026-10-10"
+ },
+ "24175": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "055",
+  "name": "ミノマダム すなちのミノ",
+  "date": "2026-10-10"
+ },
+ "24177": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "056",
+  "name": "グレッグル",
+  "date": "2026-10-10"
+ },
+ "24179": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "057",
+  "name": "ドクロッグ",
+  "date": "2026-10-10"
+ },
+ "24181": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "058",
+  "name": "アルセウス",
+  "date": "2026-10-10"
+ },
+ "24183": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "059",
+  "name": "ミカルゲ",
+  "date": "2026-10-10"
+ },
+ "24186": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "060",
+  "name": "アルセウス",
+  "date": "2026-10-10"
+ },
+ "24188": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "061",
+  "name": "ミノマダム ゴミのミノ",
+  "date": "2026-10-10"
+ },
+ "24190": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "062",
+  "name": "ドーミラー",
+  "date": "2026-10-10"
+ },
+ "24192": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "063",
+  "name": "ドータクン",
+  "date": "2026-10-10"
+ },
+ "24194": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "064",
+  "name": "ダイノーズ",
+  "date": "2026-10-10"
+ },
+ "24197": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "065",
+  "name": "アルセウス",
+  "date": "2026-10-10"
+ },
+ "24199": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "066",
+  "name": "コラッタ",
+  "date": "2026-10-10"
+ },
+ "24200": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "067",
+  "name": "ラッタ",
+  "date": "2026-10-10"
+ },
+ "24202": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "068",
+  "name": "タツベイ",
+  "date": "2026-10-10"
+ },
+ "24204": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "069",
+  "name": "タツベイ",
+  "date": "2026-10-10"
+ },
+ "24206": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "070",
+  "name": "コモルー",
+  "date": "2026-10-10"
+ },
+ "24208": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "071",
+  "name": "ボーマンダ",
+  "date": "2026-10-10"
+ },
+ "24211": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "072",
+  "name": "ボーマンダ",
+  "date": "2026-10-10"
+ },
+ "24214": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "073",
+  "name": "ミミロル",
+  "date": "2026-10-10"
+ },
+ "24215": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "074",
+  "name": "ミミロップ",
+  "date": "2026-10-10"
+ },
+ "24217": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "075",
+  "name": "ポリゴンZG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "24219": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "076",
+  "name": "アルセウス",
+  "date": "2026-10-10"
+ },
+ "24222": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "077",
+  "name": "アルセウス",
+  "date": "2026-10-10"
+ },
+ "24226": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "078",
+  "name": "エネルギー転送",
+  "date": "2026-10-10"
+ },
+ "24227": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "079",
+  "name": "はじまりの扉",
+  "date": "2026-10-10"
+ },
+ "24228": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "080",
+  "name": "ポケモンレスキュー",
+  "date": "2026-10-10"
+ },
+ "24229": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "081",
+  "name": "かいの化石",
+  "date": "2026-10-10"
+ },
+ "24231": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "082",
+  "name": "こうらの化石",
+  "date": "2026-10-10"
+ },
+ "24233": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "083",
+  "name": "ひみつのコハク",
+  "date": "2026-10-10"
+ },
+ "24235": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "084",
+  "name": "しあわせタマゴ",
+  "date": "2026-10-10"
+ },
+ "24237": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "085",
+  "name": "たつじんのおび",
+  "date": "2026-10-10"
+ },
+ "24239": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "086",
+  "name": "ベンチシールド",
+  "date": "2026-10-10"
+ },
+ "24241": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "087",
+  "name": "オーキドはかせの訪問",
+  "date": "2026-10-10"
+ },
+ "24243": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "088",
+  "name": "デパートガール",
+  "date": "2026-10-10"
+ },
+ "24245": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "089",
+  "name": "ミズキの検索",
+  "date": "2026-10-10"
+ },
+ "24247": {
+  "status": "added",
+  "set": "DPt4-B",
+  "number": "090",
+  "name": "アルティメットゾーン",
+  "date": "2026-10-10"
+ },
  "28360": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
