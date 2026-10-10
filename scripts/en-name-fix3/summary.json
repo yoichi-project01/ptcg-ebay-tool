@@ -6529,5 +6529,22 @@
    "規則と Bulbapedia が食い違う・イラストレーターが分からない": 4,
    "規則で作れない・イラストレーターが分からない": 13
   }
+ },
+ "DPt3-B-pokemon": {
+  "set": "DPt3-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Supreme Victors (TCG)",
+   "section": "Beat of the Frontier",
+   "den": "den=100",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 90,
+  "filled": 85,
+  "filledByRule": 85,
+  "blank": 5,
+  "blankReasons": {
+   "規則と Bulbapedia が食い違う・イラストレーターが分からない": 5
+  }
  }
 }
