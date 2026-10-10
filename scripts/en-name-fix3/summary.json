@@ -6784,5 +6784,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MMB-S-trainer": {
+  "set": "MMB-S",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "M Master Deck Build Box Speed Style (TCG)",
+   "section": "M Master Deck Build Box Speed Style",
+   "den": "den=049",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 22,
+  "filled": 22,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
