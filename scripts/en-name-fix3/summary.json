@@ -6660,5 +6660,20 @@
   "filledByRule": 33,
   "blank": 0,
   "blankReasons": {}
+ },
+ "DPt1-B-trainer": {
+  "set": "DPt1-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Platinum (TCG)",
+   "section": "Galactic's Conquest",
+   "den": "den=096",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
