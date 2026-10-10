@@ -2666,11 +2666,109 @@
   "key": "MDB",
   "date": "2026-10-10"
  },
+ "28434": {
+  "status": "added",
+  "set": "WAK",
+  "number": "001",
+  "name": "モンジャラ",
+  "date": "2026-10-10"
+ },
+ "28435": {
+  "status": "added",
+  "set": "WAK",
+  "number": "002",
+  "name": "モジャンボ",
+  "date": "2026-10-10"
+ },
+ "28436": {
+  "status": "added",
+  "set": "WAK",
+  "number": "003",
+  "name": "マラカッチ",
+  "date": "2026-10-10"
+ },
+ "28437": {
+  "status": "added",
+  "set": "WAK",
+  "number": "004",
+  "name": "シキジカ",
+  "date": "2026-10-10"
+ },
+ "28438": {
+  "status": "added",
+  "set": "WAK",
+  "number": "005",
+  "name": "ビリジオン",
+  "date": "2026-10-10"
+ },
+ "28439": {
+  "status": "added",
+  "set": "WAK",
+  "number": "041",
+  "name": "きずぐすり",
+  "date": "2026-10-10"
+ },
+ "28440": {
+  "status": "added",
+  "set": "WAK",
+  "number": "045",
+  "name": "モンスターボール",
+  "date": "2026-10-10"
+ },
+ "28441": {
+  "status": "added",
+  "set": "WAK",
+  "number": "047",
+  "name": "マコモのお手伝い",
+  "date": "2026-10-10"
+ },
  "28442": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
   "name": "基本草エネルギー",
   "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28443": {
+  "status": "added",
+  "set": "WAK",
+  "number": "006",
+  "name": "ブーバー",
+  "date": "2026-10-10"
+ },
+ "28444": {
+  "status": "added",
+  "set": "WAK",
+  "number": "007",
+  "name": "ブーバーン",
+  "date": "2026-10-10"
+ },
+ "28445": {
+  "status": "added",
+  "set": "WAK",
+  "number": "008",
+  "name": "ビクティニ",
+  "date": "2026-10-10"
+ },
+ "28446": {
+  "status": "added",
+  "set": "WAK",
+  "number": "009",
+  "name": "クイタラン",
+  "date": "2026-10-10"
+ },
+ "28447": {
+  "status": "added",
+  "set": "WAK",
+  "number": "010",
+  "name": "メラルバ",
+  "date": "2026-10-10"
+ },
+ "28448": {
+  "status": "added",
+  "set": "WAK",
+  "number": "042",
+  "name": "プラスパワー",
   "date": "2026-10-10"
  },
  "28451": {
@@ -2680,11 +2778,88 @@
   "key": "WAK",
   "date": "2026-10-10"
  },
+ "28452": {
+  "status": "added",
+  "set": "WAK",
+  "number": "011",
+  "name": "マリル",
+  "date": "2026-10-10"
+ },
+ "28453": {
+  "status": "added",
+  "set": "WAK",
+  "number": "012",
+  "name": "マリルリ",
+  "date": "2026-10-10"
+ },
+ "28454": {
+  "status": "added",
+  "set": "WAK",
+  "number": "013",
+  "name": "プルリル",
+  "date": "2026-10-10"
+ },
+ "28455": {
+  "status": "added",
+  "set": "WAK",
+  "number": "014",
+  "name": "ママンボウ",
+  "date": "2026-10-10"
+ },
+ "28456": {
+  "status": "added",
+  "set": "WAK",
+  "number": "015",
+  "name": "ケルディオ",
+  "date": "2026-10-10"
+ },
+ "28459": {
+  "status": "added",
+  "set": "WAK",
+  "number": "046",
+  "name": "オーキド博士の出むかえ",
+  "date": "2026-10-10"
+ },
  "28460": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
   "name": "基本水エネルギー",
   "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28461": {
+  "status": "added",
+  "set": "WAK",
+  "number": "016",
+  "name": "ピカチュウ",
+  "date": "2026-10-10"
+ },
+ "28462": {
+  "status": "added",
+  "set": "WAK",
+  "number": "017",
+  "name": "エレブー",
+  "date": "2026-10-10"
+ },
+ "28463": {
+  "status": "added",
+  "set": "WAK",
+  "number": "018",
+  "name": "エレキブル",
+  "date": "2026-10-10"
+ },
+ "28464": {
+  "status": "added",
+  "set": "WAK",
+  "number": "019",
+  "name": "マッギョ",
+  "date": "2026-10-10"
+ },
+ "28465": {
+  "status": "added",
+  "set": "WAK",
+  "number": "020",
+  "name": "ボルトロス",
   "date": "2026-10-10"
  },
  "28469": {
@@ -2694,11 +2869,95 @@
   "key": "WAK",
   "date": "2026-10-10"
  },
+ "28470": {
+  "status": "added",
+  "set": "WAK",
+  "number": "021",
+  "name": "シンボラー",
+  "date": "2026-10-10"
+ },
+ "28471": {
+  "status": "added",
+  "set": "WAK",
+  "number": "022",
+  "name": "ゴチム",
+  "date": "2026-10-10"
+ },
+ "28472": {
+  "status": "added",
+  "set": "WAK",
+  "number": "023",
+  "name": "ゴチミル",
+  "date": "2026-10-10"
+ },
+ "28473": {
+  "status": "added",
+  "set": "WAK",
+  "number": "024",
+  "name": "ゴチルゼル",
+  "date": "2026-10-10"
+ },
+ "28474": {
+  "status": "added",
+  "set": "WAK",
+  "number": "025",
+  "name": "メロエッタ",
+  "date": "2026-10-10"
+ },
+ "28475": {
+  "status": "added",
+  "set": "WAK",
+  "number": "044",
+  "name": "ポケモンキャッチャー",
+  "date": "2026-10-10"
+ },
  "28478": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
   "name": "基本超エネルギー",
   "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28479": {
+  "status": "added",
+  "set": "WAK",
+  "number": "026",
+  "name": "リオル",
+  "date": "2026-10-10"
+ },
+ "28480": {
+  "status": "added",
+  "set": "WAK",
+  "number": "027",
+  "name": "ルカリオ",
+  "date": "2026-10-10"
+ },
+ "28481": {
+  "status": "added",
+  "set": "WAK",
+  "number": "028",
+  "name": "ナゲキ",
+  "date": "2026-10-10"
+ },
+ "28482": {
+  "status": "added",
+  "set": "WAK",
+  "number": "029",
+  "name": "ゴビット",
+  "date": "2026-10-10"
+ },
+ "28483": {
+  "status": "added",
+  "set": "WAK",
+  "number": "030",
+  "name": "テラキオン",
+  "date": "2026-10-10"
+ },
+ "28484": {
+  "status": "added",
+  "set": "WAK",
+  "number": "043",
+  "name": "ポケモンいれかえ",
   "date": "2026-10-10"
  },
  "28487": {
@@ -2708,11 +2967,81 @@
   "key": "WAK",
   "date": "2026-10-10"
  },
+ "28488": {
+  "status": "added",
+  "set": "WAK",
+  "number": "031",
+  "name": "メグロコ",
+  "date": "2026-10-10"
+ },
+ "28489": {
+  "status": "added",
+  "set": "WAK",
+  "number": "032",
+  "name": "ズルッグ",
+  "date": "2026-10-10"
+ },
+ "28490": {
+  "status": "added",
+  "set": "WAK",
+  "number": "033",
+  "name": "ズルズキン",
+  "date": "2026-10-10"
+ },
+ "28491": {
+  "status": "added",
+  "set": "WAK",
+  "number": "034",
+  "name": "ゾロア",
+  "date": "2026-10-10"
+ },
+ "28492": {
+  "status": "added",
+  "set": "WAK",
+  "number": "035",
+  "name": "ゾロアーク",
+  "date": "2026-10-10"
+ },
  "28496": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
   "name": "基本悪エネルギー",
   "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28497": {
+  "status": "added",
+  "set": "WAK",
+  "number": "036",
+  "name": "ココドラ",
+  "date": "2026-10-10"
+ },
+ "28498": {
+  "status": "added",
+  "set": "WAK",
+  "number": "037",
+  "name": "コドラ",
+  "date": "2026-10-10"
+ },
+ "28499": {
+  "status": "added",
+  "set": "WAK",
+  "number": "038",
+  "name": "ボスゴドラ",
+  "date": "2026-10-10"
+ },
+ "28500": {
+  "status": "added",
+  "set": "WAK",
+  "number": "039",
+  "name": "アイアント",
+  "date": "2026-10-10"
+ },
+ "28501": {
+  "status": "added",
+  "set": "WAK",
+  "number": "040",
+  "name": "コバルオン",
   "date": "2026-10-10"
  },
  "28505": {
