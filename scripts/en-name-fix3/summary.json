@@ -6799,5 +6799,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "HXY-trainer": {
+  "set": "HXY",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Kalos Starter Set (TCG)",
+   "section": "Beginning Set",
+   "den": "den=039",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 6,
+  "filled": 6,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
