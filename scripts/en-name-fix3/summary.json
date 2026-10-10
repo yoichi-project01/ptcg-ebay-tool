@@ -6722,5 +6722,20 @@
   "blankReasons": {
    "英語版に同じ名前・種類のカードが無い": 1
   }
+ },
+ "EBB-trainer": {
+  "set": "EBB",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Legendary Treasures (TCG)",
+   "section": "EX Battle Boost",
+   "den": "den=093",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 1,
+  "filled": 1,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
