@@ -6494,5 +6494,22 @@
   "blankReasons": {
    "英語版の同じ名前のカードとイラストレーターが違う": 1
   }
+ },
+ "DPt1-B-pokemon": {
+  "set": "DPt1-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Platinum (TCG)",
+   "section": "Galactic's Conquest",
+   "den": "den=096",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 84,
+  "filled": 79,
+  "filledByRule": 79,
+  "blank": 5,
+  "blankReasons": {
+   "規則と Bulbapedia が食い違う・イラストレーターが分からない": 5
+  }
  }
 }
