@@ -6574,12 +6574,10 @@
    "file": "DPt-decks-2026.txt"
   },
   "targets": 92,
-  "filled": 90,
+  "filled": 92,
   "filledByRule": 90,
-  "blank": 2,
-  "blankReasons": {
-   "規則で作れない・イラストレーターが分からない": 2
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "WAK-pokemon": {
   "set": "WAK",
