@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-10",
+ "note": "作業前の image-hashes.mjs --verify で見つかった（前回の --verify〔2026-10-10〕では0件。どれも触っていない画像でサイズは同じ）。元の出どころの画像が SHA-256 の一覧と一致したので取り直して戻した。diff は [位置, 化けた値, 正しい値]",
+ "files": [
+  {
+   "key": "L2-B/29",
+   "path": "cards/L/L2-B/フワライド_L2-B-29／80_R.jpg",
+   "source": "https://www.pokemon-card.com/assets/images/card_images/large/L2-B/025627_P_FUWARAIDO.jpg",
+   "sha256": "b3020848a94d2fd3df075c7ea8cea2ad81fbd99c50feec46b67f906b2d8df718",
+   "badSha256": "dde4b6f87a0b6138921c7fe8f20159774d3e2d099a0c598c86b6760a854a2d49",
+   "diff": [
+    [
+     69475,
+     "d8",
+     "dc"
+    ]
+   ]
+  },
+  {
+   "key": "neo3/55",
+   "path": "cards/neo/neo3/ふうせんのみ_neo3-55／57_U.png",
+   "source": "https://www.pcg-search.com/img/neo/neo3055.png",
+   "sha256": "e2da411b05f67728179e231209ac15e9e43a7cbbb64d014cae6e88f7ddce21ad",
+   "badSha256": "015e0481eb3a640001bcb34f39638aef52b34e9d90f4865973bd4ae6a78ff483",
+   "diff": [
+    [
+     11235,
+     "2e",
+     "2a"
+    ]
+   ]
+  },
+  {
+   "key": "S4/12",
+   "path": "cards/S/S4/リザードン_S4-012／111_R.jpg",
+   "source": "https://www.pokemon-card.com/assets/images/card_images/large/S4/038510_P_RIZADON.jpg",
+   "sha256": "c1acc99b54ef84407da379bd96568122794fd69180cba5d140e8199300d65e7f",
+   "badSha256": "9ad5d34ac35b856e4001fc92112fe1ed29cc74ef1316889791b68b508c870a32",
+   "diff": [
+    [
+     240115,
+     "e2",
+     "c2"
+    ]
+   ]
+  },
+  {
+   "key": "S4a/199",
+   "path": "cards/S/S4a/ローズ_S4a-199／326_SR.jpg",
+   "source": "https://www.pokemon-card.com/assets/images/card_images/large/S4a/038931_T_ROZU.jpg",
+   "sha256": "96a1e7c0651d63b825a9e6fbcf743fa6c64fd8fff040ae1f63d5fe6d2e0d329e",
+   "badSha256": "040cfabdedd6ca3f513af38cb289f1f0e65eafb0f3fe5bd894e794a944e17b9f",
+   "diff": [
+    [
+     198131,
+     "7",
+     "6"
+    ]
+   ]
+  },
+  {
+   "key": "SV11W/163",
+   "path": "cards/SV/SV11W/サザンドラex_SV11W-163／174_SR.jpg",
+   "source": "https://www.pokemon-card.com/assets/images/card_images/large/SV11W/048075_P_SAZANDORAEX.jpg",
+   "sha256": "9ab9184dbe28f4d75b77f10cc76412ba307de7b31e82fa8f186ba541f57357a8",
+   "badSha256": "742ae9295d6f00a451ea7f2634dd6416883a34e43ccf904cc16e62ed21b167a4",
+   "diff": [
+    [
+     1039347,
+     "f9",
+     "f8"
+    ]
+   ]
+  },
+  {
+   "key": "SV1S/12",
+   "path": "cards/SV/SV1S/グレンアルマ_SV1S-012／108_R.jpg",
+   "source": "https://www.pokemon-card.com/assets/images/card_images/large/SV1S/042558_P_GURENARUMA.jpg",
+   "sha256": "ad6622cf5aa6948448a62618a5d2fd2766b6ced3705b8ba75611fcab6018af97",
+   "badSha256": "0f9ee830b0fba15943922ef74782a7a485e1137e626c03e04f93ad1094c324bf",
+   "diff": [
+    [
+     242163,
+     "f",
+     "e"
+    ]
+   ]
+  }
+ ]
+}
