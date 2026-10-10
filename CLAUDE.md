@@ -2898,20 +2898,56 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
 
 | 順 | 作業 | 件数 | eBay | PSA10 照合 | メモ |
 |---:|---|---:|---|---|---|
-| 1 | VS1-077・VS1-142・web1-039 を追加する | 3行 | 高 | 高 | R団のバンギラスはシークレット。pcg-search の画像と2つの情報源の名前あり |
-| 2 | 店舗の情報で追加した HR・UR の英語名 | 402行 | 高 | 中 | 高額カード。Bulbapedia のカードのページのリリース情報（日本版↔英語版の番号の組）と TCGdex 英語版で入れられる見込み |
+| 1 | ~~VS1-077・VS1-142・web1-039 を追加する~~ | ~~3行~~ | | | **2026-10-10 対応済み**（下記） |
+| 2 | 店舗の情報で追加した HR・UR の英語名（**2026-10-10 に395行を入れた**。残り25行） | 25行 | 高 | 中 | 高額カード。Bulbapedia のカードのページのリリース情報（日本版↔英語版の番号の組）と TCGdex 英語版で入れられる見込み |
 | 3 | 店舗の情報で追加した HR・UR の画像 | 454行 | 低（出品は自分の写真） | 高（見本の画像が無い） | 公式に画像が無い。店舗の画像は使わない方針のため、出どころを決める必要がある |
-| 4 | psaName が無い主要な弾（SV1S〜SV10・S4a・S8b・M1S〜M3・PMCG1〜6・neo1〜4 等） | 103弾 | 低 | 高 | PSA のラベル表記を確かめて入れる（多くは en と同じ見込み） |
-| 5 | `RARITY_EN_LABELS` の SR が "Special Rare"（日本版の SR はスーパーレア。2026-08-04 から既知の課題）、MA の英語表記なし | SR 1,109行・MA 10行 | 高（Item Specifics の Rarity・タイトル） | 低 | 英語表記の出典を決めてから直す |
+| 4 | psaName が無い弾（**2026-10-10 に主要な37弾と DPt1〜4 を入れた**。残りはデッキ・プロモ・PSA にページの無い弾） | 72弾 | 低 | 高 | PSA のラベル表記を確かめて入れる（多くは en と同じ見込み） |
+| 5 | ~~`RARITY_EN_LABELS` の SR・MA~~ | | | | **2026-10-10 対応済み**（SR→Super Rare・MA→Mega Attack Rare、下記） |
 | 6 | SA・MG の英語名 | 144行 | 中 | 中 | Bulbapedia の V Starter Sets・Mewtwo vs Genesect の一覧で、これまでと同じ方法 |
 | 7 | プロモの英語名（番号付き131・番号の無い56） | 187行 | 中 | 中 | 日本だけのカードは PSA の表記が要る |
-| 8 | 公式一覧にあって取り込んでいない81キー（DP・DPt の本弾約1,000枚、BW・XY の構築済みデッキ・コンセプトパック、MDB・MMB-P/S・MPS08・ENE 等） | 2,610枚 | 中 | 中 | DP・DPt は番号の扱い（種族単位の通し番号）が課題 |
+| 8 | 公式一覧にあって取り込んでいない71キー（**2026-10-10 に DPt1〜4・EBB・WAK・MDB・MMB-P/S・HXY を取り込んだ**。残りは DP1〜5・DP〔DPBP 番号〕、DPs-B、ENE、DP・DPt・BW・XY の小さなデッキ等） | 約1,860枚 | 中 | 中 | DP・DPt は番号の扱い（種族単位の通し番号）が課題 |
 | 9 | Bulbapedia に番号付きの一覧が無い弾の英語名（SJ・SLD・SLL・SPD・SPZ・XYA〜XYH・SMB〜SMF・SMJ・SMP1・CPr/s/m・L2-Sb/Sh） | 480行 | 中 | 低 | 2つ目の情報源が要る |
 | 10 | M6・M6a の英語名、M6a 104〜135・M-P の欠番 | 72行・62番号 | 中 | 中 | 英語版の発売・公式の掲載を待つ |
 | 11 | ja が無い弾 | 37弾 | 低（検索・表示） | 低 | |
 | 12 | 基本エネルギーの英語名、SVD-139・SVF-038 の画像 | 261行・2枚 | 低 | 低 | |
 | 13 | トレーナーズの Item Specifics に Character が入る（既知） | — | 低 | — | |
 | 14 | find-duplicate-images.mjs の意図した重複に M6 のスタジアム3組を足す | — | — | — | 検査の誤検出を減らすだけ |
+
+### 対応（2026-10-10）: VS1/web1 の3行・SR と MA の英語表記・psaName・店舗の情報の HR/UR の英語名・未取り込みの弾10個
+
+1. **VS1-077・VS1-142・web1-039 を追加**（`scripts/old-ja-check/add-missing-vs-web.mjs --set <弾> --apply`、結果 `add-missing-vs-web-result-{弾}.json`）:
+   イツキのヤドキング（Will's Slowking・C）・R団のバンギラス（Rocket's Tyranitar・レアリティ空〔pcg-search の表記は「-(キラ)」〕）・ロケット団のニャース（Team Rocket's Meowth・R）。
+   名前は pcg-search のページと `pokemonwiki-names.json` の同じ番号が一致、英語名は Bulbapedia の日本版の一覧と規則の名前が一致。画像は pcg-search（`/img/vs/vs0077.png` 等）。
+2. **SR・MA の英語表記**（`src/App.jsx` の `RARITY_EN_LABELS`）: SR を "Special Rare" → **"Super Rare"**、MA に **"Mega Attack Rare"** を追加。
+   eBay の Rarity の絞り込みの値（「pokemon japanese SR full art」で Super Rare 17,308件・Secret Rare 7,807・Rare 1,982・Ultra Rare 1,209。"Special Rare" は値に無い）と、
+   Bulbapedia の日本版の SR の呼び方（Super Rare）が一致。Ultra Rare は UR が使っているため使わない。MA は Bulbapedia の呼び方（英語版の同じカード me02.5-265 は TCGdex で "Ultra Rare"）。
+   直す前と後の例は `scripts/audit/rarity-labels-2026-10-10.json`（Item Specifics の Rarity: "Special Rare"→"Super Rare"、MA "MA"→"Mega Attack Rare"。
+   タイトルにレアリティのフルスペルが入る SR は 1,109件中 411→449件、例 `Mega Venusaur ex SR 076/063 Japanese M1L Pokemon Card NM 2025 Holo Super Rare`。MA はタイトルが長くフルスペルは入らない）。
+3. **psaName を37弾に追加**（`scripts/set-psa-names.json`、PSA のページタイトルで確認、`apply-set-metadata.mjs`、弾ごとにコミット）: SV・S・M の主要な弾、PMCG1〜6（Basic・Jungle・Fossil・Rocket・Gym・Gym 2）、
+   neo1〜4（Neo・Neo 2〜4）など。en と違うもの: SV6「Transformation Mask」・M3「Nullifying Zero」・S10b「Pokemon GO」・SV9a「Heat Wave Arena」。PSA の年はすべて y と一致。M5 は PSA にページが無い。
+   さらに DPt1〜4 を取り込むときに入れた（下記5）。残り72弾はデッキ・プロモ・新しい弾など。
+4. **店舗の情報で補完した HR・UR の英語名 395行**（`scripts/en-name-fix4/fill-store-secrets.mjs --set <弾> --apply`、根拠 `en-name-fix4/decisions.tsv`・`changed.tsv`、弾ごとにコミット）:
+   Bulbapedia の日本版の一覧の名前（`en-name-fix2/decisions.tsv` の bpName）と、日本語名から作った規則の名前、または同じ日本語名のほかの（確かめ済みの）行の英語名がただ1つで一致したものだけ。
+   トレーナーズ・エネルギーは TCGdex 英語版に同じ名前・種類があることも確かめた。**空欄25行**: 基本エネルギー19（同じ日本語名の行の英語名が無い）、TCGdex 英語版に無いエネルギー3・グッズ2、Bulbapedia の一覧に無い1。
+5. **未取り込みの公式のキー10個を新しい弾として追加**（`new-cards.mjs --keys … --apply --new <キー>`、弾の情報と出典は `scripts/new-cards/set-meta.json`、弾ごとにコミット）:
+
+   | 弾 | 名前 | 枚数 | y | 出典 |
+   |---|---|---:|---|---|
+   | DPt1-B | ギンガの覇道（Galactic's Conquest） | 96 | 2008 | Bulbapedia の日本の弾の一覧・PSA |
+   | DPt2-B | 時の果ての絆（Bonds to the End of Time） | 90 | 2008 | 同上 |
+   | DPt3-B | フロンティアの鼓動（Beat of the Frontier） | 100 | 2009 | 同上 |
+   | DPt4-B | アルセウス光臨（Advent of Arceus） | 90 | 2009 | 同上 |
+   | EBB（公式のキーは BW10-B、印刷記号 EBB） | コンセプトパック「EXバトルブースト」 | 93 | 2013 | 公式の商品一覧・Bulbapedia・Limitless |
+   | WAK | みんなのWAKUWAKUバトル | 47 | 2012 | 公式の商品一覧・Limitless |
+   | MDB | トッププレイヤーが選ぶ100＋40枚 マスターデッキビルドBOX EX | 46 | 2012 | 同上 |
+   | MMB-P | マスターデッキビルドBOX パワースタイル | 49 | 2015 | 同上 |
+   | MMB-S | マスターデッキビルドBOX スピードスタイル | 49 | 2015 | 同上 |
+   | HXY | はじめてセット | 39 | 2013 | 公式の商品一覧・Bulbapedia「Kalos Starter Set」・Limitless |
+
+   合計 659枚、画像は公式から。公式の一覧より少ない分はすべて番号の無い基本エネルギー（MDB 5・MMB-P/S 各9・HXY 6・WAK 8）。WAK・HXY は同じカードの別掲載をまとめた。
+   DPt の英語名・psaName は PSA と Bulbapedia で確かめた。ほかの6弾の en・psaName と、全弾のカードの英語名は空欄。
+   **取り込まなかったもの**: DP1〜5・DP（カードの番号が DPBP の種族単位の通し番号で、弾の中の番号が無い）、DPs-B（商品が分からず、レアリティのコード c2/u2 が未知、番号の無いシェイミがある）。
+   ENE（番号なしの基本エネルギーだけ）、DP・DPt・BW・XY の小さなデッキ（DPt2-Sg 等・BK*・HS*・BG* 等）は未着手。
 
 ---
 
