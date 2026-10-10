@@ -520,5 +520,96 @@
    "37599"
   ],
   "source": "公式の商品情報（resultAPI.php の商品一覧）「スターターセットV　闘」2019年11月29日。印刷記号 SA は「スターターセットV」草・炎・水・雷・闘の5商品で共通で番号が重なるため、商品ごとに弾を分けた（ユーザー判断、2026-10-10）。cardIds は公式のカード検索の収録カードの一覧 pg699 の cardID（番号付きのもの。番号の無い基本エネルギーは除く）。デッキと商品の対応は収録カード（主役の V ポケモン）と Limitless TCG の日本版の一覧（SAg/SAr/SAw/SAl/SAf）による。en・psaName は PSA で確かめられないため空欄"
+ },
+ "DPt1-B": {
+  "c": "DPt1-B",
+  "ja": "ギンガの覇道",
+  "en": "Galactic's Conquest",
+  "psaName": "Galactic's Conquest",
+  "sr": "DPt",
+  "y": 2008,
+  "source": "Bulbapedia「List of Japanese Pokémon Trading Card Game expansions」（ギンガの覇道・96枚・2008年10月10日）と PSA「2008 Pokemon Japanese Galactic's Conquest」（https://www.psacard.com/auctionprices/tcg-cards/2008-pokemon-japanese-galactics-conquest/105652）。公式の商品一覧は2010年以降のみ。DP 期のカードに型番は印刷されていないため codeAlias は付けない"
+ },
+ "DPt2-B": {
+  "c": "DPt2-B",
+  "ja": "時の果ての絆",
+  "en": "Bonds to the End of Time",
+  "psaName": "Bonds to the End of Time",
+  "sr": "DPt",
+  "y": 2008,
+  "source": "Bulbapedia「List of Japanese Pokémon Trading Card Game expansions」（時の果ての絆・90枚・2008年12月26日）と PSA「2008 Pokemon Japanese Bonds To The End Of Time」（https://www.psacard.com/auctionprices/tcg-cards/2008-pokemon-japanese-bonds-end-time/MUNCHLAX/4840868）"
+ },
+ "DPt3-B": {
+  "c": "DPt3-B",
+  "ja": "フロンティアの鼓動",
+  "en": "Beat of the Frontier",
+  "psaName": "Beat of the Frontier",
+  "sr": "DPt",
+  "y": 2009,
+  "source": "Bulbapedia「List of Japanese Pokémon Trading Card Game expansions」（フロンティアの鼓動・100枚・2009年3月6日）と PSA「2009 Pokemon Japanese Beat Of The Frontier」（https://www.psacard.com/auctionprices/tcg-cards/2009-pokemon-japanese-beat-frontier/venusaur-holo-1st-edition/2306891）"
+ },
+ "DPt4-B": {
+  "c": "DPt4-B",
+  "ja": "アルセウス光臨",
+  "en": "Advent of Arceus",
+  "psaName": "Advent of Arceus",
+  "sr": "DPt",
+  "y": 2009,
+  "source": "Bulbapedia「List of Japanese Pokémon Trading Card Game expansions」（アルセウス光臨・90枚・2009年7月8日）と PSA「2009 Pokemon Japanese Advent Of Arceus」（https://www.psacard.com/auctionprices/tcg-cards/2009-pokemon-japanese-advent-arceus/luxio/2842850）"
+ },
+ "BW10-B": {
+  "c": "EBB",
+  "ja": "コンセプトパック「EXバトルブースト」",
+  "en": "",
+  "psaName": "",
+  "sr": "BW",
+  "y": 2013,
+  "codeAlias": "EBB",
+  "source": "公式の商品一覧「コンセプトパック「EXバトルブースト」」2013年7月13日、Bulbapedia「List of Japanese Pokémon Trading Card Game expansions」（EXバトルブースト・93枚・2013年7月13日）、Limitless TCG（EBB・13 Jul 13）。公式の画像フォルダは BW10-B、カードに印刷された記号は EBB（2026-08-05 に画像で確認）"
+ },
+ "WAK": {
+  "c": "WAK",
+  "ja": "みんなのWAKUWAKUバトル",
+  "en": "",
+  "psaName": "",
+  "sr": "BW",
+  "y": 2012,
+  "source": "公式の商品一覧「みんなのWAKUWAKUバトル」2012年11月16日、Limitless TCG（WAK Everyone's Exciting Battle・16 Nov 12）"
+ },
+ "MDB": {
+  "c": "MDB",
+  "ja": "トッププレイヤーが選ぶ100＋40枚 マスターデッキビルドBOX EX",
+  "en": "",
+  "psaName": "",
+  "sr": "BW",
+  "y": 2012,
+  "source": "公式の商品一覧「トッププレイヤーが選ぶ100＋40枚　マスターデッキビルドBOX EX」2012年9月14日、Limitless TCG（MDB・14 Sep 12）"
+ },
+ "MMB-P": {
+  "c": "MMB-P",
+  "ja": "マスターデッキビルドBOX パワースタイル",
+  "en": "",
+  "psaName": "",
+  "sr": "XY",
+  "y": 2015,
+  "source": "公式の商品一覧「マスターデッキビルドBOX パワースタイル」2015年8月7日、Limitless TCG（MMBp・07 Aug 15）"
+ },
+ "MMB-S": {
+  "c": "MMB-S",
+  "ja": "マスターデッキビルドBOX スピードスタイル",
+  "en": "",
+  "psaName": "",
+  "sr": "XY",
+  "y": 2015,
+  "source": "公式の商品一覧「マスターデッキビルドBOX スピードスタイル」2015年8月7日、Limitless TCG（MMBs・07 Aug 15）"
+ },
+ "HXY": {
+  "c": "HXY",
+  "ja": "はじめてセット",
+  "en": "",
+  "psaName": "",
+  "sr": "XY",
+  "y": 2013,
+  "source": "公式の商品一覧「はじめてセット」「はじめてセット forガール」2013年11月8日（DX は11月15日）、Bulbapedia「Kalos Starter Set (TCG)」（はじめてセット・39枚）、Limitless TCG（HXY・15 Nov 13）。番号の分母 /039 と一致"
  }
 }

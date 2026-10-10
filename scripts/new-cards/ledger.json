@@ -1,4 +1,767 @@
 {
+ "21064": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "001",
+  "name": "ケムッソ",
+  "date": "2026-10-10"
+ },
+ "21066": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "002",
+  "name": "カラサリス",
+  "date": "2026-10-10"
+ },
+ "21068": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "003",
+  "name": "アゲハント",
+  "date": "2026-10-10"
+ },
+ "21070": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "004",
+  "name": "マユルド",
+  "date": "2026-10-10"
+ },
+ "21072": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "005",
+  "name": "ハスボー",
+  "date": "2026-10-10"
+ },
+ "21074": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "006",
+  "name": "ハスボー",
+  "date": "2026-10-10"
+ },
+ "21077": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "007",
+  "name": "ハスブレロ",
+  "date": "2026-10-10"
+ },
+ "21079": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "008",
+  "name": "ルンパッパ",
+  "date": "2026-10-10"
+ },
+ "21082": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "009",
+  "name": "サボネア",
+  "date": "2026-10-10"
+ },
+ "21084": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "010",
+  "name": "ノクタス",
+  "date": "2026-10-10"
+ },
+ "21086": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "011",
+  "name": "コロボーシ",
+  "date": "2026-10-10"
+ },
+ "21088": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "012",
+  "name": "コロトック",
+  "date": "2026-10-10"
+ },
+ "21090": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "013",
+  "name": "マスキッパ",
+  "date": "2026-10-10"
+ },
+ "21093": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "014",
+  "name": "シェイミ",
+  "date": "2026-10-10"
+ },
+ "21095": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "015",
+  "name": "シェイミ",
+  "date": "2026-10-10"
+ },
+ "21098": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "016",
+  "name": "ロコン",
+  "date": "2026-10-10"
+ },
+ "21100": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "017",
+  "name": "ロコン",
+  "date": "2026-10-10"
+ },
+ "21103": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "018",
+  "name": "キュウコン",
+  "date": "2026-10-10"
+ },
+ "21105": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "019",
+  "name": "ヘルガーG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21107": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "020",
+  "name": "アチャモ",
+  "date": "2026-10-10"
+ },
+ "21109": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "021",
+  "name": "ワカシャモ",
+  "date": "2026-10-10"
+ },
+ "21111": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "022",
+  "name": "バシャーモ",
+  "date": "2026-10-10"
+ },
+ "21114": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "023",
+  "name": "ゼニガメ",
+  "date": "2026-10-10"
+ },
+ "21116": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "024",
+  "name": "カメール",
+  "date": "2026-10-10"
+ },
+ "21118": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "025",
+  "name": "カメックス",
+  "date": "2026-10-10"
+ },
+ "21121": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "026",
+  "name": "コダック",
+  "date": "2026-10-10"
+ },
+ "21123": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "027",
+  "name": "ゴルダック",
+  "date": "2026-10-10"
+ },
+ "21125": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "028",
+  "name": "ギャラドスG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21127": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "029",
+  "name": "テッポウオ",
+  "date": "2026-10-10"
+ },
+ "21129": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "030",
+  "name": "オクタン",
+  "date": "2026-10-10"
+ },
+ "21131": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "031",
+  "name": "ラブカス",
+  "date": "2026-10-10"
+ },
+ "21133": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "032",
+  "name": "パルキアG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21135": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "033",
+  "name": "パルキアG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21138": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "034",
+  "name": "メリープ",
+  "date": "2026-10-10"
+ },
+ "21140": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "035",
+  "name": "モココ",
+  "date": "2026-10-10"
+ },
+ "21142": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "036",
+  "name": "デンリュウ",
+  "date": "2026-10-10"
+ },
+ "21145": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "037",
+  "name": "ラクライ",
+  "date": "2026-10-10"
+ },
+ "21147": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "038",
+  "name": "ライボルト",
+  "date": "2026-10-10"
+ },
+ "21150": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "039",
+  "name": "ベトベター",
+  "date": "2026-10-10"
+ },
+ "21152": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "040",
+  "name": "ベトベトン",
+  "date": "2026-10-10"
+ },
+ "21155": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "041",
+  "name": "クロバットG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21157": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "042",
+  "name": "ドクケイル",
+  "date": "2026-10-10"
+ },
+ "21160": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "043",
+  "name": "ラルトス",
+  "date": "2026-10-10"
+ },
+ "21162": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "044",
+  "name": "キルリア",
+  "date": "2026-10-10"
+ },
+ "21164": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "045",
+  "name": "サーナイト",
+  "date": "2026-10-10"
+ },
+ "21167": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "046",
+  "name": "ハブネーク",
+  "date": "2026-10-10"
+ },
+ "21170": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "047",
+  "name": "カゲボウズ",
+  "date": "2026-10-10"
+ },
+ "21172": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "048",
+  "name": "ジュペッタ",
+  "date": "2026-10-10"
+ },
+ "21175": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "049",
+  "name": "スカタンクG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21177": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "050",
+  "name": "ドクロッグG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21179": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "051",
+  "name": "ギラティナ",
+  "date": "2026-10-10"
+ },
+ "21182": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "052",
+  "name": "ギラティナ",
+  "date": "2026-10-10"
+ },
+ "21185": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "053",
+  "name": "ディグダ",
+  "date": "2026-10-10"
+ },
+ "21187": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "054",
+  "name": "ダグトリオ",
+  "date": "2026-10-10"
+ },
+ "21190": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "055",
+  "name": "ズガイドス",
+  "date": "2026-10-10"
+ },
+ "21192": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "056",
+  "name": "ラムパルド",
+  "date": "2026-10-10"
+ },
+ "21195": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "057",
+  "name": "ポチエナ",
+  "date": "2026-10-10"
+ },
+ "21197": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "058",
+  "name": "グラエナ",
+  "date": "2026-10-10"
+ },
+ "21200": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "059",
+  "name": "ドンカラスG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21202": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "060",
+  "name": "ドラピオン",
+  "date": "2026-10-10"
+ },
+ "21205": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "061",
+  "name": "マニューラG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21207": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "062",
+  "name": "タテトプス",
+  "date": "2026-10-10"
+ },
+ "21209": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "063",
+  "name": "トリデプス",
+  "date": "2026-10-10"
+ },
+ "21212": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "064",
+  "name": "ドータクンG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21214": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "065",
+  "name": "ディアルガG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21216": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "066",
+  "name": "ディアルガG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21219": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "067",
+  "name": "ベロリンガ",
+  "date": "2026-10-10"
+ },
+ "21221": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "068",
+  "name": "ベロベルト",
+  "date": "2026-10-10"
+ },
+ "21223": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "069",
+  "name": "ピンプク",
+  "date": "2026-10-10"
+ },
+ "21225": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "070",
+  "name": "ラッキー",
+  "date": "2026-10-10"
+ },
+ "21227": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "071",
+  "name": "ハピナス",
+  "date": "2026-10-10"
+ },
+ "21230": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "072",
+  "name": "ナマケロ",
+  "date": "2026-10-10"
+ },
+ "21232": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "073",
+  "name": "ヤルキモノ",
+  "date": "2026-10-10"
+ },
+ "21234": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "074",
+  "name": "ケッキング",
+  "date": "2026-10-10"
+ },
+ "21236": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "075",
+  "name": "エネコ",
+  "date": "2026-10-10"
+ },
+ "21238": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "076",
+  "name": "エネコロロ",
+  "date": "2026-10-10"
+ },
+ "21241": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "077",
+  "name": "チルット",
+  "date": "2026-10-10"
+ },
+ "21243": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "078",
+  "name": "チルット",
+  "date": "2026-10-10"
+ },
+ "21246": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "079",
+  "name": "チルタリス",
+  "date": "2026-10-10"
+ },
+ "21249": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "080",
+  "name": "ザングース",
+  "date": "2026-10-10"
+ },
+ "21252": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "081",
+  "name": "ブニャットG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "21254": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "082",
+  "name": "ギンガ団の発明G-103 パワースプレー",
+  "date": "2026-10-10"
+ },
+ "21255": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "083",
+  "name": "ギンガ団の発明G-105 ポケターン",
+  "date": "2026-10-10"
+ },
+ "21256": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "084",
+  "name": "レベルMAX",
+  "date": "2026-10-10"
+ },
+ "21257": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "085",
+  "name": "ずがいの化石",
+  "date": "2026-10-10"
+ },
+ "21259": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "086",
+  "name": "たての化石",
+  "date": "2026-10-10"
+ },
+ "21261": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "087",
+  "name": "思い出のみ",
+  "date": "2026-10-10"
+ },
+ "21263": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "088",
+  "name": "ギンガ団の発明G-101 エナジーゲイン",
+  "date": "2026-10-10"
+ },
+ "21265": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "089",
+  "name": "アカギの策略",
+  "date": "2026-10-10"
+ },
+ "21267": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "090",
+  "name": "ハンサムの捜査",
+  "date": "2026-10-10"
+ },
+ "21269": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "091",
+  "name": "ギンガ団のアジト",
+  "date": "2026-10-10"
+ },
+ "21271": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "092",
+  "name": "破れた時空",
+  "date": "2026-10-10"
+ },
+ "21274": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "094",
+  "name": "ストライク",
+  "date": "2026-10-10"
+ },
+ "21276": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "095",
+  "name": "エレブー",
+  "date": "2026-10-10"
+ },
+ "21278": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "096",
+  "name": "エビワラー",
+  "date": "2026-10-10"
+ },
+ "21301": {
+  "status": "added",
+  "set": "DPt1-B",
+  "number": "093",
+  "name": "レインボーエネルギー",
+  "date": "2026-10-10"
+ },
+ "28360": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本炎エネルギー",
+  "key": "MDB",
+  "date": "2026-10-10"
+ },
+ "28361": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本水エネルギー",
+  "key": "MDB",
+  "date": "2026-10-10"
+ },
+ "28362": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本雷エネルギー",
+  "key": "MDB",
+  "date": "2026-10-10"
+ },
+ "28363": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本超エネルギー",
+  "key": "MDB",
+  "date": "2026-10-10"
+ },
+ "28364": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本悪エネルギー",
+  "key": "MDB",
+  "date": "2026-10-10"
+ },
+ "28442": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本草エネルギー",
+  "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28451": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本炎エネルギー",
+  "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28460": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本水エネルギー",
+  "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28469": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本雷エネルギー",
+  "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28478": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本超エネルギー",
+  "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28487": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本闘エネルギー",
+  "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28496": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本悪エネルギー",
+  "key": "WAK",
+  "date": "2026-10-10"
+ },
+ "28505": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本鋼エネルギー",
+  "key": "WAK",
+  "date": "2026-10-10"
+ },
  "28616": {
   "status": "added",
   "set": "SC",
@@ -376,6 +1139,174 @@
   "name": "基本超エネルギー",
   "key": "MG",
   "date": "2026-10-09"
+ },
+ "30040": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本草エネルギー",
+  "key": "HXY",
+  "date": "2026-10-10"
+ },
+ "30041": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本フェアリーエネルギー",
+  "key": "HXY",
+  "date": "2026-10-10"
+ },
+ "30042": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本炎エネルギー",
+  "key": "HXY",
+  "date": "2026-10-10"
+ },
+ "30043": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本悪エネルギー",
+  "key": "HXY",
+  "date": "2026-10-10"
+ },
+ "30044": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本水エネルギー",
+  "key": "HXY",
+  "date": "2026-10-10"
+ },
+ "30045": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本鋼エネルギー",
+  "key": "HXY",
+  "date": "2026-10-10"
+ },
+ "31224": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本草エネルギー",
+  "key": "MMB-P",
+  "date": "2026-10-10"
+ },
+ "31225": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本炎エネルギー",
+  "key": "MMB-P",
+  "date": "2026-10-10"
+ },
+ "31226": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本水エネルギー",
+  "key": "MMB-P",
+  "date": "2026-10-10"
+ },
+ "31227": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本雷エネルギー",
+  "key": "MMB-P",
+  "date": "2026-10-10"
+ },
+ "31228": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本超エネルギー",
+  "key": "MMB-P",
+  "date": "2026-10-10"
+ },
+ "31229": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本闘エネルギー",
+  "key": "MMB-P",
+  "date": "2026-10-10"
+ },
+ "31230": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本悪エネルギー",
+  "key": "MMB-P",
+  "date": "2026-10-10"
+ },
+ "31231": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本鋼エネルギー",
+  "key": "MMB-P",
+  "date": "2026-10-10"
+ },
+ "31232": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本フェアリーエネルギー",
+  "key": "MMB-P",
+  "date": "2026-10-10"
+ },
+ "31282": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本草エネルギー",
+  "key": "MMB-S",
+  "date": "2026-10-10"
+ },
+ "31283": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本炎エネルギー",
+  "key": "MMB-S",
+  "date": "2026-10-10"
+ },
+ "31284": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本水エネルギー",
+  "key": "MMB-S",
+  "date": "2026-10-10"
+ },
+ "31285": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本雷エネルギー",
+  "key": "MMB-S",
+  "date": "2026-10-10"
+ },
+ "31286": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本超エネルギー",
+  "key": "MMB-S",
+  "date": "2026-10-10"
+ },
+ "31287": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本闘エネルギー",
+  "key": "MMB-S",
+  "date": "2026-10-10"
+ },
+ "31288": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本悪エネルギー",
+  "key": "MMB-S",
+  "date": "2026-10-10"
+ },
+ "31289": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本鋼エネルギー",
+  "key": "MMB-S",
+  "date": "2026-10-10"
+ },
+ "31290": {
+  "status": "skip",
+  "reason": "番号の無い基本エネルギー",
+  "name": "基本フェアリーエネルギー",
+  "key": "MMB-S",
+  "date": "2026-10-10"
  },
  "31563": {
   "status": "added",
