@@ -6645,5 +6645,20 @@
   "blankReasons": {
    "規則で作れない・イラストレーターが分からない": 1
   }
+ },
+ "HXY-pokemon": {
+  "set": "HXY",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Kalos Starter Set (TCG)",
+   "section": "Beginning Set",
+   "den": "den=039",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 33,
+  "filled": 33,
+  "filledByRule": 33,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
