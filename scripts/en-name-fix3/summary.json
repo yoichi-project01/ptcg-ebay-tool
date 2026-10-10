@@ -6581,5 +6581,20 @@
   "blankReasons": {
    "規則で作れない・イラストレーターが分からない": 2
   }
+ },
+ "WAK-pokemon": {
+  "set": "WAK",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Everyone's Exciting Battle (TCG)",
+   "section": "Everyone's Exciting Battle",
+   "den": "den=047",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 40,
+  "filled": 40,
+  "filledByRule": 40,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
