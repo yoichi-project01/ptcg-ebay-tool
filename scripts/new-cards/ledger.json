@@ -1301,6 +1301,706 @@
   "name": "そらをとぶピカチュウ",
   "date": "2026-10-10"
  },
+ "23055": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "001",
+  "name": "フシギダネ",
+  "date": "2026-10-10"
+ },
+ "23057": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "002",
+  "name": "フシギソウ",
+  "date": "2026-10-10"
+ },
+ "23059": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "003",
+  "name": "フシギバナ",
+  "date": "2026-10-10"
+ },
+ "23062": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "004",
+  "name": "バタフリーFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23064": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "005",
+  "name": "パラス",
+  "date": "2026-10-10"
+ },
+ "23066": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "006",
+  "name": "パラセクト",
+  "date": "2026-10-10"
+ },
+ "23068": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "007",
+  "name": "カイロス",
+  "date": "2026-10-10"
+ },
+ "23070": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "008",
+  "name": "ヤンヤンマ",
+  "date": "2026-10-10"
+ },
+ "23072": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "009",
+  "name": "ヤンヤンマ",
+  "date": "2026-10-10"
+ },
+ "23074": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "010",
+  "name": "メガヤンマ",
+  "date": "2026-10-10"
+ },
+ "23077": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "011",
+  "name": "アメタマ",
+  "date": "2026-10-10"
+ },
+ "23079": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "012",
+  "name": "アメモース",
+  "date": "2026-10-10"
+ },
+ "23081": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "013",
+  "name": "キノココ",
+  "date": "2026-10-10"
+ },
+ "23083": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "014",
+  "name": "ツチニン",
+  "date": "2026-10-10"
+ },
+ "23085": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "015",
+  "name": "テッカニン",
+  "date": "2026-10-10"
+ },
+ "23087": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "016",
+  "name": "ヌケニン",
+  "date": "2026-10-10"
+ },
+ "23089": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "017",
+  "name": "ブーバー",
+  "date": "2026-10-10"
+ },
+ "23091": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "018",
+  "name": "ブーバーン",
+  "date": "2026-10-10"
+ },
+ "23094": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "019",
+  "name": "バシャーモFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23096": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "020",
+  "name": "バシャーモFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23099": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "021",
+  "name": "ドンメル",
+  "date": "2026-10-10"
+ },
+ "23101": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "022",
+  "name": "バクーダ",
+  "date": "2026-10-10"
+ },
+ "23103": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "023",
+  "name": "パウワウ",
+  "date": "2026-10-10"
+ },
+ "23105": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "024",
+  "name": "ジュゴン",
+  "date": "2026-10-10"
+ },
+ "23108": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "025",
+  "name": "トサキント",
+  "date": "2026-10-10"
+ },
+ "23110": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "026",
+  "name": "アズマオウ",
+  "date": "2026-10-10"
+ },
+ "23112": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "027",
+  "name": "ミズゴロウ",
+  "date": "2026-10-10"
+ },
+ "23114": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "028",
+  "name": "ヌマクロー",
+  "date": "2026-10-10"
+ },
+ "23116": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "029",
+  "name": "ラグラージ",
+  "date": "2026-10-10"
+ },
+ "23119": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "030",
+  "name": "ホエルコ",
+  "date": "2026-10-10"
+ },
+ "23121": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "031",
+  "name": "ホエルオー",
+  "date": "2026-10-10"
+ },
+ "23123": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "032",
+  "name": "ヒンバス",
+  "date": "2026-10-10"
+ },
+ "23125": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "033",
+  "name": "ミロカロス",
+  "date": "2026-10-10"
+ },
+ "23127": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "034",
+  "name": "ミロカロス",
+  "date": "2026-10-10"
+ },
+ "23129": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "035",
+  "name": "エンペルトFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23131": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "036",
+  "name": "プラスル",
+  "date": "2026-10-10"
+ },
+ "23133": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "037",
+  "name": "マイナン",
+  "date": "2026-10-10"
+ },
+ "23135": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "038",
+  "name": "エレキブルFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23137": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "039",
+  "name": "エレキブルFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23140": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "040",
+  "name": "マネネ",
+  "date": "2026-10-10"
+ },
+ "23142": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "041",
+  "name": "バリヤード",
+  "date": "2026-10-10"
+ },
+ "23144": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "042",
+  "name": "アサナン",
+  "date": "2026-10-10"
+ },
+ "23146": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "043",
+  "name": "チャーレム",
+  "date": "2026-10-10"
+ },
+ "23148": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "044",
+  "name": "ルナトーン",
+  "date": "2026-10-10"
+ },
+ "23150": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "045",
+  "name": "ソルロック",
+  "date": "2026-10-10"
+ },
+ "23152": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "046",
+  "name": "ヤジロン",
+  "date": "2026-10-10"
+ },
+ "23154": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "047",
+  "name": "ネンドール",
+  "date": "2026-10-10"
+ },
+ "23156": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "048",
+  "name": "リーシャン",
+  "date": "2026-10-10"
+ },
+ "23158": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "049",
+  "name": "チリーン",
+  "date": "2026-10-10"
+ },
+ "23160": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "050",
+  "name": "フワライドFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23162": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "051",
+  "name": "ヨノワールFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23164": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "052",
+  "name": "サンド",
+  "date": "2026-10-10"
+ },
+ "23166": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "053",
+  "name": "サンドパン",
+  "date": "2026-10-10"
+ },
+ "23168": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "054",
+  "name": "マンキー",
+  "date": "2026-10-10"
+ },
+ "23169": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "055",
+  "name": "オコリザル",
+  "date": "2026-10-10"
+ },
+ "23171": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "056",
+  "name": "サイホーン",
+  "date": "2026-10-10"
+ },
+ "23173": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "057",
+  "name": "サイドン",
+  "date": "2026-10-10"
+ },
+ "23175": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "058",
+  "name": "ドサイドン",
+  "date": "2026-10-10"
+ },
+ "23177": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "059",
+  "name": "キノガッサ",
+  "date": "2026-10-10"
+ },
+ "23179": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "060",
+  "name": "ジーランス",
+  "date": "2026-10-10"
+ },
+ "23181": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "061",
+  "name": "ジーランス",
+  "date": "2026-10-10"
+ },
+ "23183": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "062",
+  "name": "ヤミカラス",
+  "date": "2026-10-10"
+ },
+ "23185": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "063",
+  "name": "ドンカラス",
+  "date": "2026-10-10"
+ },
+ "23187": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "064",
+  "name": "アブソルG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "23189": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "065",
+  "name": "アブソルG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "23192": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "066",
+  "name": "エアームドFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23194": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "067",
+  "name": "クチート",
+  "date": "2026-10-10"
+ },
+ "23197": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "068",
+  "name": "ダンバル",
+  "date": "2026-10-10"
+ },
+ "23199": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "069",
+  "name": "メタング",
+  "date": "2026-10-10"
+ },
+ "23201": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "070",
+  "name": "メタグロス",
+  "date": "2026-10-10"
+ },
+ "23203": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "071",
+  "name": "ドードー",
+  "date": "2026-10-10"
+ },
+ "23205": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "072",
+  "name": "ドードリオ",
+  "date": "2026-10-10"
+ },
+ "23207": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "073",
+  "name": "カイリューFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23209": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "074",
+  "name": "ゴニョニョ",
+  "date": "2026-10-10"
+ },
+ "23211": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "075",
+  "name": "ドゴーム",
+  "date": "2026-10-10"
+ },
+ "23213": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "076",
+  "name": "バクオング",
+  "date": "2026-10-10"
+ },
+ "23216": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "077",
+  "name": "パッチール",
+  "date": "2026-10-10"
+ },
+ "23218": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "078",
+  "name": "レックウザC[チャンピオン]",
+  "date": "2026-10-10"
+ },
+ "23220": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "079",
+  "name": "レックウザC[チャンピオン]",
+  "date": "2026-10-10"
+ },
+ "23223": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "080",
+  "name": "ムクホークFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23225": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "081",
+  "name": "ムクホークFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23228": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "082",
+  "name": "ペラップG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "23230": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "083",
+  "name": "フカマル",
+  "date": "2026-10-10"
+ },
+ "23232": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "084",
+  "name": "ガバイト",
+  "date": "2026-10-10"
+ },
+ "23234": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "085",
+  "name": "ガブリアス",
+  "date": "2026-10-10"
+ },
+ "23237": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "086",
+  "name": "ベロベルトC[チャンピオン]",
+  "date": "2026-10-10"
+ },
+ "23239": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "087",
+  "name": "レジギガスFB[フロンティアブレーン]",
+  "date": "2026-10-10"
+ },
+ "23241": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "088",
+  "name": "バトルサーチャー",
+  "date": "2026-10-10"
+ },
+ "23242": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "089",
+  "name": "夜の転送装置",
+  "date": "2026-10-10"
+ },
+ "23243": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "090",
+  "name": "アカギの先制",
+  "date": "2026-10-10"
+ },
+ "23245": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "091",
+  "name": "クロツグの貢献",
+  "date": "2026-10-10"
+ },
+ "23247": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "092",
+  "name": "シロナの導き",
+  "date": "2026-10-10"
+ },
+ "23249": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "093",
+  "name": "チャンピオンズルーム",
+  "date": "2026-10-10"
+ },
+ "23251": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "094",
+  "name": "バトルタワー",
+  "date": "2026-10-10"
+ },
+ "23253": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "095",
+  "name": "SPエネルギー",
+  "date": "2026-10-10"
+ },
+ "23254": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "096",
+  "name": "特殊悪エネルギー",
+  "date": "2026-10-10"
+ },
+ "23255": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "097",
+  "name": "特殊鋼エネルギー",
+  "date": "2026-10-10"
+ },
+ "23256": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "098",
+  "name": "ファイヤー",
+  "date": "2026-10-10"
+ },
+ "23257": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "099",
+  "name": "フリーザー",
+  "date": "2026-10-10"
+ },
+ "23258": {
+  "status": "added",
+  "set": "DPt3-B",
+  "number": "100",
+  "name": "サンダー",
+  "date": "2026-10-10"
+ },
  "28360": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
