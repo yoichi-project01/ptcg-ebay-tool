@@ -6675,5 +6675,20 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "DPt2-B-trainer": {
+  "set": "DPt2-B",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Rising Rivals (TCG)",
+   "section": "Bonds to the End of Time",
+   "den": "den=090",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
