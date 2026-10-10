@@ -671,6 +671,636 @@
   "name": "レインボーエネルギー",
   "date": "2026-10-10"
  },
+ "22065": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "001",
+  "name": "ビードル",
+  "date": "2026-10-10"
+ },
+ "22067": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "002",
+  "name": "コクーン",
+  "date": "2026-10-10"
+ },
+ "22069": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "003",
+  "name": "スピアー",
+  "date": "2026-10-10"
+ },
+ "22071": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "004",
+  "name": "タネボー",
+  "date": "2026-10-10"
+ },
+ "22073": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "005",
+  "name": "トロピウス",
+  "date": "2026-10-10"
+ },
+ "22076": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "006",
+  "name": "ナエトルGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22078": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "007",
+  "name": "ロズレイドGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22080": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "008",
+  "name": "リーフィア",
+  "date": "2026-10-10"
+ },
+ "22083": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "009",
+  "name": "ガーディ",
+  "date": "2026-10-10"
+ },
+ "22085": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "010",
+  "name": "ウインディ",
+  "date": "2026-10-10"
+ },
+ "22088": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "011",
+  "name": "ブースター",
+  "date": "2026-10-10"
+ },
+ "22091": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "012",
+  "name": "ヒトデマン",
+  "date": "2026-10-10"
+ },
+ "22093": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "013",
+  "name": "スターミー",
+  "date": "2026-10-10"
+ },
+ "22096": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "014",
+  "name": "シャワーズ",
+  "date": "2026-10-10"
+ },
+ "22099": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "015",
+  "name": "ヌオーGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22101": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "016",
+  "name": "タマザラシ",
+  "date": "2026-10-10"
+ },
+ "22103": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "017",
+  "name": "トドグラー",
+  "date": "2026-10-10"
+ },
+ "22105": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "018",
+  "name": "トドゼルガ",
+  "date": "2026-10-10"
+ },
+ "22107": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "019",
+  "name": "フローゼルGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22109": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "020",
+  "name": "フローゼルGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22112": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "021",
+  "name": "カラナクシ にしのうみ",
+  "date": "2026-10-10"
+ },
+ "22114": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "022",
+  "name": "カラナクシ ひがしのうみ",
+  "date": "2026-10-10"
+ },
+ "22116": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "023",
+  "name": "トリトドン ひがしのうみ",
+  "date": "2026-10-10"
+ },
+ "22119": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "024",
+  "name": "グレイシア",
+  "date": "2026-10-10"
+ },
+ "22122": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "025",
+  "name": "マンムーGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22124": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "026",
+  "name": "ユキメノコGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22126": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "027",
+  "name": "ライチュウGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22128": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "028",
+  "name": "サンダース",
+  "date": "2026-10-10"
+ },
+ "22131": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "029",
+  "name": "レントラーGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22133": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "030",
+  "name": "レントラーGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22136": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "031",
+  "name": "ヒートロトム",
+  "date": "2026-10-10"
+ },
+ "22139": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "032",
+  "name": "フロストロトム",
+  "date": "2026-10-10"
+ },
+ "22142": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "033",
+  "name": "ウォッシュロトム",
+  "date": "2026-10-10"
+ },
+ "22145": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "034",
+  "name": "スピンロトム",
+  "date": "2026-10-10"
+ },
+ "22148": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "035",
+  "name": "カットロトム",
+  "date": "2026-10-10"
+ },
+ "22151": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "036",
+  "name": "ニドラン♀",
+  "date": "2026-10-10"
+ },
+ "22153": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "037",
+  "name": "ニドリーナ",
+  "date": "2026-10-10"
+ },
+ "22155": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "038",
+  "name": "ニドクイン",
+  "date": "2026-10-10"
+ },
+ "22158": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "039",
+  "name": "ニドラン♂",
+  "date": "2026-10-10"
+ },
+ "22160": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "040",
+  "name": "ニドリーノ",
+  "date": "2026-10-10"
+ },
+ "22162": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "041",
+  "name": "フーディン四[してんのう]",
+  "date": "2026-10-10"
+ },
+ "22164": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "042",
+  "name": "フーディン四[してんのう]",
+  "date": "2026-10-10"
+ },
+ "22167": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "043",
+  "name": "ゲンガーGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22169": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "044",
+  "name": "ドガース",
+  "date": "2026-10-10"
+ },
+ "22171": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "045",
+  "name": "マタドガス",
+  "date": "2026-10-10"
+ },
+ "22174": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "046",
+  "name": "ムウマージGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22176": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "047",
+  "name": "ニドキング",
+  "date": "2026-10-10"
+ },
+ "22179": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "048",
+  "name": "カイリキーGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22181": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "049",
+  "name": "プテラGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22183": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "050",
+  "name": "ナックラー",
+  "date": "2026-10-10"
+ },
+ "22185": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "051",
+  "name": "ラムパルドGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22187": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "052",
+  "name": "トリトドン にしのうみ",
+  "date": "2026-10-10"
+ },
+ "22190": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "053",
+  "name": "ルカリオGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22192": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "054",
+  "name": "ヒポポタス",
+  "date": "2026-10-10"
+ },
+ "22194": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "055",
+  "name": "カバルドン",
+  "date": "2026-10-10"
+ },
+ "22197": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "056",
+  "name": "カバルドン",
+  "date": "2026-10-10"
+ },
+ "22200": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "057",
+  "name": "コノハナ",
+  "date": "2026-10-10"
+ },
+ "22202": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "058",
+  "name": "ダーテング",
+  "date": "2026-10-10"
+ },
+ "22205": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "059",
+  "name": "キバニア",
+  "date": "2026-10-10"
+ },
+ "22207": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "060",
+  "name": "サメハダー",
+  "date": "2026-10-10"
+ },
+ "22210": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "061",
+  "name": "フォレトスG［ギンガ］",
+  "date": "2026-10-10"
+ },
+ "22212": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "062",
+  "name": "ハガネールGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22214": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "063",
+  "name": "ココドラ",
+  "date": "2026-10-10"
+ },
+ "22216": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "064",
+  "name": "コドラ",
+  "date": "2026-10-10"
+ },
+ "22218": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "065",
+  "name": "ボスゴドラ",
+  "date": "2026-10-10"
+ },
+ "22221": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "066",
+  "name": "ジラーチ",
+  "date": "2026-10-10"
+ },
+ "22224": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "067",
+  "name": "トリデプスGL［ジムリーダー］",
+  "date": "2026-10-10"
+ },
+ "22226": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "068",
+  "name": "イーブイ",
+  "date": "2026-10-10"
+ },
+ "22228": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "069",
+  "name": "ゴンベ",
+  "date": "2026-10-10"
+ },
+ "22230": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "070",
+  "name": "カビゴン",
+  "date": "2026-10-10"
+ },
+ "22233": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "071",
+  "name": "ビブラーバ",
+  "date": "2026-10-10"
+ },
+ "22235": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "072",
+  "name": "フライゴン",
+  "date": "2026-10-10"
+ },
+ "22238": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "073",
+  "name": "フライゴン",
+  "date": "2026-10-10"
+ },
+ "22241": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "074",
+  "name": "カクレオン",
+  "date": "2026-10-10"
+ },
+ "22243": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "075",
+  "name": "エテボースG［ギンガ］",
+  "date": "2026-10-10"
+ },
+ "22245": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "076",
+  "name": "ギンガ団の発明G-109 SPレーダー",
+  "date": "2026-10-10"
+ },
+ "22246": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "077",
+  "name": "ギンガ団の発明G-107 ワザマシンG[ギンガ]",
+  "date": "2026-10-10"
+ },
+ "22248": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "078",
+  "name": "地底探険隊",
+  "date": "2026-10-10"
+ },
+ "22250": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "079",
+  "name": "デンジの哲学",
+  "date": "2026-10-10"
+ },
+ "22252": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "080",
+  "name": "プルートの選択",
+  "date": "2026-10-10"
+ },
+ "22254": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "081",
+  "name": "ミズキの検索",
+  "date": "2026-10-10"
+ },
+ "22256": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "082",
+  "name": "ナギサシティジム",
+  "date": "2026-10-10"
+ },
+ "22258": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "083",
+  "name": "ポケモンコンテスト会場",
+  "date": "2026-10-10"
+ },
+ "22260": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "084",
+  "name": "アッパーエネルギー",
+  "date": "2026-10-10"
+ },
+ "22261": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "085",
+  "name": "SPエネルギー",
+  "date": "2026-10-10"
+ },
+ "22262": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "086",
+  "name": "特殊悪エネルギー",
+  "date": "2026-10-10"
+ },
+ "22263": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "087",
+  "name": "特殊鋼エネルギー",
+  "date": "2026-10-10"
+ },
+ "22264": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "088",
+  "name": "ピカチュウ",
+  "date": "2026-10-10"
+ },
+ "22266": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "089",
+  "name": "なみのりピカチュウ",
+  "date": "2026-10-10"
+ },
+ "22268": {
+  "status": "added",
+  "set": "DPt2-B",
+  "number": "090",
+  "name": "そらをとぶピカチュウ",
+  "date": "2026-10-10"
+ },
  "28360": {
   "status": "skip",
   "reason": "番号の無い基本エネルギー",
