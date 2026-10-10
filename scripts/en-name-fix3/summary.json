@@ -6557,12 +6557,11 @@
    "file": "DPt-decks-2026.txt"
   },
   "targets": 77,
-  "filled": 67,
+  "filled": 73,
   "filledByRule": 67,
-  "blank": 10,
+  "blank": 4,
   "blankReasons": {
-   "規則と Bulbapedia が食い違う・イラストレーターが分からない": 4,
-   "規則で作れない・イラストレーターが分からない": 6
+   "規則と Bulbapedia が食い違う・イラストレーターが分からない": 4
   }
  },
  "EBB-pokemon": {

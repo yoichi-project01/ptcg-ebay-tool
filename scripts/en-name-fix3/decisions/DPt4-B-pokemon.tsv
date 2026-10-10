@@ -6,10 +6,10 @@ DPt4-B-004	モジャンボ	RH	Tangrowth	Tangrowth LV.X	Grass				空欄	規則と
 DPt4-B-005	キモリ	C	Treecko	Treecko	Grass				入れる	規則と Bulbapedia が一致	Treecko
 DPt4-B-006	ジュプトル	U	Grovyle	Grovyle	Grass				入れる	規則と Bulbapedia が一致	Grovyle
 DPt4-B-007	ジュカイン	R	Sceptile	Sceptile	Grass				入れる	規則と Bulbapedia が一致	Sceptile
-DPt4-B-008	ミノムッチ くさきのミノ	C		Burmy Plant Cloak	Grass				空欄	規則で作れない・イラストレーターが分からない	
-DPt4-B-009	ミノムッチ すなちのミノ	C		Burmy Sandy Cloak	Grass				空欄	規則で作れない・イラストレーターが分からない	
-DPt4-B-010	ミノムッチ ゴミのミノ	C		Burmy Trash Cloak	Grass				空欄	規則で作れない・イラストレーターが分からない	
-DPt4-B-011	ミノマダム くさきのミノ	U		Wormadam Plant Cloak	Grass				空欄	規則で作れない・イラストレーターが分からない	
+DPt4-B-008	ミノムッチ くさきのミノ	C		Burmy Plant Cloak	Grass	Kyoko Umemoto	公式details.php	pl4-56	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Burmy Plant Cloak
+DPt4-B-009	ミノムッチ すなちのミノ	C		Burmy Sandy Cloak	Grass	Tomokazu Komiya	公式details.php	pl4-57	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Burmy Sandy Cloak
+DPt4-B-010	ミノムッチ ゴミのミノ	C		Burmy Trash Cloak	Grass	Yukiko Baba	公式details.php	pl4-58	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Burmy Trash Cloak
+DPt4-B-011	ミノマダム くさきのミノ	U		Wormadam Plant Cloak	Grass	Kouki Saitou	公式details.php	pl4-49	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Wormadam Plant Cloak
 DPt4-B-012	ガーメイル	R	Mothim	Mothim	Grass				入れる	規則と Bulbapedia が一致	Mothim
 DPt4-B-013	チェリンボ	C	Cherubi	Cherubi	Grass				入れる	規則と Bulbapedia が一致	Cherubi
 DPt4-B-014	チェリム	R	Cherrim	Cherrim	Grass				入れる	規則と Bulbapedia が一致	Cherrim
@@ -53,13 +53,13 @@ DPt4-B-051	プテラ	R	Aerodactyl	Aerodactyl	Fighting				入れる	規則と Bul
 DPt4-B-052	マクノシタ	C	Makuhita	Makuhita	Fighting				入れる	規則と Bulbapedia が一致	Makuhita
 DPt4-B-053	ハリテヤマ	R	Hariyama	Hariyama	Fighting				入れる	規則と Bulbapedia が一致	Hariyama
 DPt4-B-054	ノズパス	C	Nosepass	Nosepass	Fighting				入れる	規則と Bulbapedia が一致	Nosepass
-DPt4-B-055	ミノマダム すなちのミノ	U		Wormadam Sandy Cloak	Fighting				空欄	規則で作れない・イラストレーターが分からない	
+DPt4-B-055	ミノマダム すなちのミノ	U		Wormadam Sandy Cloak	Fighting	Atsuko Nishida	公式details.php	pl4-50	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Wormadam Sandy Cloak
 DPt4-B-056	グレッグル	C	Croagunk	Croagunk	Fighting				入れる	規則と Bulbapedia が一致	Croagunk
 DPt4-B-057	ドクロッグ	R	Toxicroak	Toxicroak	Fighting				入れる	規則と Bulbapedia が一致	Toxicroak
 DPt4-B-058	アルセウス	R	Arceus	Arceus	Fighting				入れる	規則と Bulbapedia が一致	Arceus
 DPt4-B-059	ミカルゲ	R	Spiritomb	Spiritomb	Darkness				入れる	規則と Bulbapedia が一致	Spiritomb
 DPt4-B-060	アルセウス	R	Arceus	Arceus	Darkness				入れる	規則と Bulbapedia が一致	Arceus
-DPt4-B-061	ミノマダム ゴミのミノ	U		Wormadam Trash Cloak	Metal				空欄	規則で作れない・イラストレーターが分からない	
+DPt4-B-061	ミノマダム ゴミのミノ	U		Wormadam Trash Cloak	Metal	Miki Tanaka	公式details.php	pl4-51	入れる	規則で作れないが TCGdex 英語版で同じ名前・イラストレーターを確認	Wormadam Trash Cloak
 DPt4-B-062	ドーミラー	C	Bronzor	Bronzor	Metal				入れる	規則と Bulbapedia が一致	Bronzor
 DPt4-B-063	ドータクン	R	Bronzong	Bronzong	Metal				入れる	規則と Bulbapedia が一致	Bronzong
 DPt4-B-064	ダイノーズ	R	Probopass	Probopass	Metal				入れる	規則と Bulbapedia が一致	Probopass
