@@ -6628,5 +6628,22 @@
   "blankReasons": {
    "規則で作れない・イラストレーターが分からない": 1
   }
+ },
+ "MMB-S-pokemon": {
+  "set": "MMB-S",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "M Master Deck Build Box Speed Style (TCG)",
+   "section": "M Master Deck Build Box Speed Style",
+   "den": "den=049",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 27,
+  "filled": 26,
+  "filledByRule": 26,
+  "blank": 1,
+  "blankReasons": {
+   "規則で作れない・イラストレーターが分からない": 1
+  }
  }
 }
