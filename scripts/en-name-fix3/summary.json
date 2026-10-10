@@ -6596,5 +6596,20 @@
   "filledByRule": 40,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MDB-pokemon": {
+  "set": "MDB",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Master Deck Build Box EX (TCG)",
+   "section": "Card list",
+   "den": "den=046",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 26,
+  "filled": 26,
+  "filledByRule": 26,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
