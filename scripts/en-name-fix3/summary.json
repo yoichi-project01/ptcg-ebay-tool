@@ -6511,5 +6511,23 @@
   "blankReasons": {
    "規則と Bulbapedia が食い違う・イラストレーターが分からない": 5
   }
+ },
+ "DPt2-B-pokemon": {
+  "set": "DPt2-B",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Rising Rivals (TCG)",
+   "section": "Bonds to the End of Time",
+   "den": "den=090",
+   "file": "DPt-decks-2026.txt"
+  },
+  "targets": 78,
+  "filled": 61,
+  "filledByRule": 61,
+  "blank": 17,
+  "blankReasons": {
+   "規則と Bulbapedia が食い違う・イラストレーターが分からない": 4,
+   "規則で作れない・イラストレーターが分からない": 13
+  }
  }
 }
