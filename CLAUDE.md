@@ -3007,6 +3007,33 @@ Bastiodon the Defender・Dialga/Palkia LV.X Constructed Standard Deck・Magmorta
   1行にまとめた4組（DP3 ディアルガ 3119/3120・パルキア 3121/3122、DP4 エレキブル 10502/10503・ブーバーン 10505/10506）は、ホロ版とノーマル版の可能性が高い
   （公式ページでは見分けられない。画像の jpg/gif の違いがホロ・ノーマルの違いかは未確認）。
 
+### 対応（2026-10-11）: psaName を20弾に追加（PSA の表記で確認）
+
+`scripts/set-psa-names.json` に追記し `apply-set-metadata.mjs` で反映（弾ごとにコミット）。psacard.com の集計ページは
+ログインが必要で、鑑定書のページはブラウザで Cloudflare の確認が出たため、ブラウザは使わず psacard.com に限った検索結果のページタイトル・
+セットレジストリの登録品の表記で確かめた。主なカードの番号・名前が cardData と一致することも確認。
+
+| 弾 | psaName |
+|---|---|
+| DP1 / DP2 / DP3 | Space-Time Creation / Secret of the Lakes / Shining Darkness |
+| EP08 | Entry Pack '08 |
+| HXY | Beginning Set |
+| 20th | Starter Pack（PSA は「XY Starter Pack」。世代名 XY を除いた） |
+| MMB-P / MMB-S | M Master Deck Build Power Style / Speed Style |
+| SA-G / SA-L | V Starter Set Grass / V Starter Set Lightning |
+| SP1 | Zacian + Zamazenta Box |
+| SEF / SEK / SCS-R | Venusaur / Blastoise / Charizard VMAX Starter Set（PSA には Charizard Vmax Starter Set 2 もある） |
+| SP2 / SP4 | VMAX Special Set / Eevee Heroes VMAX Special Set |
+| SP3 | Silver Lance & Jet-Black Spirit Jumbo Pack |
+| SF | Single Strike & Rapid Strike Premium Trainer Boxes |
+| SO | Charizard VSTAR VS Rayquaza VMAX Special Deck Set |
+| MC | Start Deck 100 Battle Collection |
+
+**空欄のまま（51弾）**: DP4・DP5（PSA は Moonlit Pursuit / Dawn Dash、Cry From the Mysterious / Temple of Anger の2つに分けている。
+cardData は1弾）、XY1-Bx/By・BW1-Bb/Bw（PSA は「XY」「Black & White」で X/Y・黒/白を分けない）、プロモ DP-P・DPt-P・L-P・M-P（PSA は年ごとの Promo）、
+M6・M6a・MA・MEE・MEZ・MEM・MF（PSA のページが見つからない）、SA-R/W/F・SCS-O・SC2・SB・SD・SM の構築済みデッキ（SMA〜SMN）・XYE/F/H・WAK・MDB・
+L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つからない）。
+
 ---
 
 ## ファイル構成
