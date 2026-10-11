@@ -64915,6 +64915,9 @@
     "c": "XY1-Bx",
     "ja": "コレクションX",
     "en": "",
+    "psaNames": [
+      "XY"
+    ],
     "sr": "XY",
     "of": 60,
     "y": 2013,
@@ -65304,6 +65307,9 @@
     "c": "XY1-By",
     "ja": "コレクションY",
     "en": "",
+    "psaNames": [
+      "XY"
+    ],
     "sr": "XY",
     "of": 60,
     "y": 2013,
@@ -72113,6 +72119,9 @@
     "c": "BW1-Bb",
     "ja": "ブラックコレクション",
     "en": "",
+    "psaNames": [
+      "Black & White"
+    ],
     "sr": "BW",
     "of": 53,
     "y": 2010,
@@ -72442,6 +72451,9 @@
     "c": "BW1-Bw",
     "ja": "ホワイトコレクション",
     "en": "",
+    "psaNames": [
+      "Black & White"
+    ],
     "sr": "BW",
     "of": 53,
     "y": 2010,
@@ -145728,6 +145740,10 @@
     "c": "DP4",
     "ja": "月光の追跡・夜明けの疾走",
     "en": "",
+    "psaNames": [
+      "Moonlit Pursuit",
+      "Dawn Dash"
+    ],
     "sr": "DP",
     "of": 0,
     "y": 2007,
@@ -146704,6 +146720,10 @@
     "c": "DP5",
     "ja": "秘境の叫び・怒りの神殿",
     "en": "",
+    "psaNames": [
+      "Cry From the Mysterious",
+      "Temple of Anger"
+    ],
     "sr": "DP",
     "of": 0,
     "y": 2008,

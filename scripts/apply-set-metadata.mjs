@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // cardData.json の弾情報に、根拠付きの修正と PSA 表記を反映する。
 //   修正（ja / y）: scripts/set-data-fixes.json … 現在値が from のときだけ to に書き換える（to なら何もしない）
-//   PSA 表記: scripts/set-psa-names.json … 各弾の psaName に入れる（en は変更しない）
+//   PSA 表記: scripts/set-psa-names.json … 各弾の psaName（主の表記）・psaNames（追加の表記の配列）に入れる（en は変更しない）
 // 使い方: node scripts/apply-set-metadata.mjs [--dry-run]
 import fs from "node:fs";
 import path from "node:path";
@@ -34,11 +34,15 @@ for (const [code, v] of Object.entries(psaNames)) {
   if (code.startsWith("_")) continue;
   const s = byCode.get(code);
   if (!s) { console.error(`! 弾が無い: ${code}`); problems++; continue; }
-  if (s.psaName === v.psaName) continue;
-  // キー順: en の直後に psaName を置く
-  const entries = Object.entries(s).filter(([k]) => k !== "psaName");
+  // psaName（主の表記、1つ）と psaNames（追加の表記の配列。PSA が1つの弾を複数に分けている・複数の弾を1つにまとめている場合）
+  const extra = (v.psaNames ?? []).map((x) => x.name);
+  if (extra.some((n) => typeof n !== "string" || !n)) { console.error(`! ${code} の psaNames に名前が無い`); problems++; continue; }
+  const want = { ...(v.psaName ? { psaName: v.psaName } : {}), ...(extra.length ? { psaNames: extra } : {}) };
+  if (s.psaName === want.psaName && JSON.stringify(s.psaNames) === JSON.stringify(want.psaNames)) continue;
+  // キー順: en の直後に psaName、その直後に psaNames を置く
+  const entries = Object.entries(s).filter(([k]) => k !== "psaName" && k !== "psaNames");
   const i = entries.findIndex(([k]) => k === "en");
-  entries.splice(i + 1, 0, ["psaName", v.psaName]);
+  entries.splice(i + 1, 0, ...Object.entries(want));
   for (const k of Object.keys(s)) delete s[k];
   Object.assign(s, Object.fromEntries(entries));
   psaSet++;

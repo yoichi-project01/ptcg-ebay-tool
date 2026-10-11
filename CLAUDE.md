@@ -3034,6 +3034,27 @@ cardData は1弾）、XY1-Bx/By・BW1-Bb/Bw（PSA は「XY」「Black & White」
 M6・M6a・MA・MEE・MEZ・MEM・MF（PSA のページが見つからない）、SA-R/W/F・SCS-O・SC2・SB・SD・SM の構築済みデッキ（SMA〜SMN）・XYE/F/H・WAK・MDB・
 L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つからない）。
 
+### 対応（2026-10-11）: 1つの弾に PSA の表記を複数持てるようにした（psaNames）
+
+**cardData.json の弾の項目（買取レーダーなど psaName を読むプロジェクト向け）**:
+
+| 項目 | 型 | 中身 |
+|---|---|---|
+| `psaName` | 文字列（無い弾もある） | PSA のラベルの主の表記。これまでと同じ（変更なし） |
+| `psaNames` | 文字列の配列（無い弾もある・2026-10-11〜） | 追加の表記。PSA が1つの弾を複数に分けている、または複数の弾を1つにまとめている場合に使う |
+
+- **その弾の PSA の表記をすべて得るには `[psaName, ...(psaNames ?? [])]` から空を除いたもの**を使う。`psaName` が無く `psaNames` だけの弾がある（下表）。
+- 表記の作り方は psaName と同じ（PSA のページの題名から年・"Pokemon Japanese"・世代名・型番の前置きを除く）。キーの位置は `en` の直後に `psaName`、その直後に `psaNames`。
+- 1つの表記が複数の弾に入ることがある（"XY" は XY1-Bx と XY1-By の両方）。表記から弾を1つに決める使い方では、候補が複数になることを考えること。
+- 出典は `scripts/set-psa-names.json` の各弾の `psaNames`（`{name, source, note}` の配列）。反映は `node scripts/apply-set-metadata.mjs`。`src/App.jsx` は psaName・psaNames を参照しない。
+
+| 弾 | psaNames | 理由 |
+|---|---|---|
+| DP4 | Moonlit Pursuit, Dawn Dash | PSA は月光の追跡・夜明けの疾走を別の弾にしている（cardData は1弾） |
+| DP5 | Cry From the Mysterious, Temple of Anger | PSA は秘境の叫び・怒りの神殿を別の弾にしている |
+| XY1-Bx・XY1-By | XY | PSA は「2013 Pokemon Japanese XY」1つにまとめている |
+| BW1-Bb・BW1-Bw | Black & White | PSA は「2010 Pokemon Japanese Black & White」1つにまとめている |
+
 ---
 
 ## ファイル構成

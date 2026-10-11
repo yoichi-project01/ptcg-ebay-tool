@@ -1,5 +1,5 @@
 {
- "_about": "PSA の日本版カードのラベル表記（psaName）と出典。psacard.com のページタイトルから、年・\"Pokemon Japanese\"・世代名（Sun & Moon / Sword & Shield / XY / Black & White）・型番の前置きを除いたもの。大文字小文字のみ公式表記に合わせた（Vmax→VMAX、Vstar→VSTAR、SV/M 世代の EX→ex）。en とは別の項目で、en は変更しない。apply-set-metadata.mjs が cardData.json の psaName に反映する。2026-10-02 調査",
+ "_about": "PSA の日本版カードのラベル表記（psaName）と出典。psacard.com のページタイトルから、年・\"Pokemon Japanese\"・世代名（Sun & Moon / Sword & Shield / XY / Black & White）・型番の前置きを除いたもの。大文字小文字のみ公式表記に合わせた（Vmax→VMAX、Vstar→VSTAR、SV/M 世代の EX→ex）。en とは別の項目で、en は変更しない。apply-set-metadata.mjs が cardData.json の psaName に反映する。2026-10-02 調査。psaNames（2026-10-11〜）: 追加の表記の配列（{name, source, note}）。PSA が1つの弾を複数に分けている（DP4・DP5）・複数の弾を1つにまとめている（XY1-Bx/By・BW1-Bb/Bw）場合に使う。psaName が無い弾もある",
  "SM1S": {
   "psaName": "Collection Sun",
   "source": "https://www.psacard.com/pop/tcg-cards/2016/pokemon-japanese-sun-moon-collection/141038"
@@ -1023,5 +1023,69 @@
   "psaName": "Start Deck 100 Battle Collection",
   "source": "https://www.psacard.com/psasetregistry/non-sports/tcg-famous-characters/pokemon-scizor-master-set/composition/20558",
   "note": "PSA セットレジストリの登録品の表記「2025 POKEMON JAPANESE MC-START DECK 100 BATTLE COLLECTION SCIZOR EX」（2026-10-11 に検索結果で確認）。型番の前置き MC- は除いた"
+ },
+ "DP4": {
+  "psaNames": [
+   {
+    "name": "Moonlit Pursuit",
+    "source": "https://www.psacard.com/auctionprices/tcg-cards/2007-pokemon-japanese-diamond-pearl-moonlit-pursuit/127459",
+    "note": "PSA のページタイトル「2007 Pokemon Japanese Diamond & Pearl Moonlit Pursuit」（2026-10-11 に検索結果で確認）。PSA は DP4 を月光の追跡・夜明けの疾走の2つに分けている。世代名 Diamond & Pearl は除いた"
+   },
+   {
+    "name": "Dawn Dash",
+    "source": "https://www.psacard.com/pop/tcg-cards/2007/pokemon-japanese-diamond-pearl-dawn-dash/105655",
+    "note": "PSA のページタイトル「2007 Pokemon Japanese Diamond & Pearl Dawn Dash TCG Cards」（2026-10-11 に検索結果で確認）。世代名 Diamond & Pearl は除いた"
+   }
+  ]
+ },
+ "DP5": {
+  "psaNames": [
+   {
+    "name": "Cry From the Mysterious",
+    "source": "https://www.psacard.com/auctionprices/tcg-cards/2008-pokemon-japanese-diamond-pearl-cry-from-mysterious/104691",
+    "note": "PSA のページタイトル「2008 Pokemon Japanese Diamond & Pearl Cry From the Mysterious」（2026-10-11 に検索結果で確認）。PSA は DP5 を秘境の叫び・怒りの神殿の2つに分けている。世代名 Diamond & Pearl は除いた"
+   },
+   {
+    "name": "Temple of Anger",
+    "source": "https://www.psacard.com/auctionprices/tcg-cards/2008-pokemon-japanese-diamond-pearl-temple-anger/froslass-holo/auction/-4433529572654102809",
+    "note": "PSA のページタイトル「2008 Pokemon Japanese Diamond & Pearl Temple Of Anger」（2026-10-11 に検索結果で確認）。世代名 Diamond & Pearl は除いた"
+   }
+  ]
+ },
+ "XY1-Bx": {
+  "psaNames": [
+   {
+    "name": "XY",
+    "source": "https://www.psacard.com/auctionprices/tcg-cards/2013-pokemon-japanese-xy/full-art-yveltal-ex/auction/-4391652002180923672",
+    "note": "PSA のページタイトル「2013 Pokemon Japanese XY」（2026-10-11 に検索結果で確認）。PSA はコレクションX・Y を分けず1つにまとめているため XY1-Bx・XY1-By の両方に入れる"
+   }
+  ]
+ },
+ "XY1-By": {
+  "psaNames": [
+   {
+    "name": "XY",
+    "source": "https://www.psacard.com/auctionprices/tcg-cards/2013-pokemon-japanese-xy/full-art-yveltal-ex/auction/-4391652002180923672",
+    "note": "PSA のページタイトル「2013 Pokemon Japanese XY」（2026-10-11 に検索結果で確認）。PSA はコレクションX・Y を分けず1つにまとめているため XY1-Bx・XY1-By の両方に入れる"
+   }
+  ]
+ },
+ "BW1-Bb": {
+  "psaNames": [
+   {
+    "name": "Black & White",
+    "source": "https://www.psacard.com/auctionprices/tcg-cards/2010-pokemon-japanese-black-white/fa-zekrom/2023862",
+    "note": "PSA のページタイトル「2010 POKEMON JAPANESE BLACK & WHITE」（2026-10-11 に検索結果で確認）。PSA はブラック・ホワイトコレクションを分けず1つにまとめているため BW1-Bb・BW1-Bw の両方に入れる"
+   }
+  ]
+ },
+ "BW1-Bw": {
+  "psaNames": [
+   {
+    "name": "Black & White",
+    "source": "https://www.psacard.com/auctionprices/tcg-cards/2010-pokemon-japanese-black-white/fa-zekrom/2023862",
+    "note": "PSA のページタイトル「2010 POKEMON JAPANESE BLACK & WHITE」（2026-10-11 に検索結果で確認）。PSA はブラック・ホワイトコレクションを分けず1つにまとめているため BW1-Bb・BW1-Bw の両方に入れる"
+   }
+  ]
  }
 }
