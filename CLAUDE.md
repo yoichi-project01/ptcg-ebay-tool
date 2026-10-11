@@ -3054,6 +3054,7 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
 | DP5 | Cry From the Mysterious, Temple of Anger | PSA は秘境の叫び・怒りの神殿を別の弾にしている |
 | XY1-Bx・XY1-By | XY | PSA は「2013 Pokemon Japanese XY」1つにまとめている |
 | BW1-Bb・BW1-Bw | Black & White | PSA は「2010 Pokemon Japanese Black & White」1つにまとめている |
+| SCS-R | Charizard VMAX Starter Set 2 | psaName（Charizard VMAX Starter Set）に加え、PSA は同じ商品を「…Starter Set 2」という別の分類にも入れている（2026-10-11 追加） |
 
 ---
 

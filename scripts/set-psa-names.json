@@ -992,7 +992,14 @@
  "SCS-R": {
   "psaName": "Charizard VMAX Starter Set",
   "source": "https://www.psacard.com/auctionprices/tcg-cards/2020-pokemon-japanese-sword-shield-charizard-vmax-starter-set/charizard-v/3253982",
-  "note": "PSA のページタイトル「2020 POKEMON JAPANESE SWORD & SHIELD CHARIZARD VMAX STARTER SET」（2026-10-11 に検索結果で確認。001 Charizard V が cardData と一致）。PSA には同じ商品とみられる「Charizard Vmax Starter Set 2」（auctionprices …-starter-set-2/188212）もある。世代名 Sword & Shield は除いた"
+  "note": "PSA のページタイトル「2020 POKEMON JAPANESE SWORD & SHIELD CHARIZARD VMAX STARTER SET」（2026-10-11 に検索結果で確認。001 Charizard V が cardData と一致）。PSA には同じ商品とみられる「Charizard Vmax Starter Set 2」（auctionprices …-starter-set-2/188212）もある。世代名 Sword & Shield は除いた",
+  "psaNames": [
+   {
+    "name": "Charizard VMAX Starter Set 2",
+    "source": "https://www.psacard.com/auctionprices/tcg-cards/2020-pokemon-japanese-sword-shield-charizard-vmax-starter-set-2/188212",
+    "note": "PSA のページタイトル「2020 Pokemon Japanese Sword & Shield Charizard Vmax Starter Set 2」（2026-10-11 に検索結果で確認。収録カードは Full Art Charizard VMAX など SCS-R と同じ）。PSA は同じ商品を2つの分類に分けている。世代名 Sword & Shield は除き、Vmax→VMAX にそろえた"
+   }
+  ]
  },
  "SP2": {
   "psaName": "VMAX Special Set",
