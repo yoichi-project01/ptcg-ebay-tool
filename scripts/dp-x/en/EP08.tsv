@@ -1,0 +1,43 @@
+id	ja	name	lvx	kind	illustrator	dex	rule	bp	tcgdex	status	en
+EP08-X15000	ナエトル	ナエトル	false	ポケモン	Daisuke Ito	387	Turtwig	Turtwig（Torterra Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Turtwig
+EP08-X15001	ハヤシガメ	ハヤシガメ	false	ポケモン	Daisuke Ito	388	Grotle	Grotle（Torterra Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Grotle
+EP08-X15002	ドダイトス	ドダイトス	false	ポケモン	Daisuke Ito	389	Torterra	Torterra（Torterra Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Torterra
+EP08-X15003	ウソッキー	ウソッキー	false	ポケモン	Kouki Saitou	185	Sudowoodo	Sudowoodo（Torterra Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Sudowoodo
+EP08-X15004	ヒポポタス	ヒポポタス	false	ポケモン	Kent Kanetsuna	449	Hippopotas	Hippopotas（Torterra Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Hippopotas
+EP08-X15005	カバルドン	カバルドン	false	ポケモン	Kent Kanetsuna	450	Hippowdon	Hippowdon（Torterra Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Hippowdon
+EP08-X15006	ミミロル	ミミロル	false	ポケモン	Kouki Saitou	427	Buneary	Buneary（Torterra Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Buneary
+EP08-X15007	エネルギー転送	エネルギー転送	false	グッズ	Ryo Ueda			Energy Search（Raichu Half Deck）	tk-bw-e-21 tk-bw-z-27 dp5-90 bw1-93 bw7-128	入れる（Bulbapedia の一覧・カードのページ「Energy Search (Fossil 59)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Energy Search
+EP08-X15008	スーパーポケモン回収	スーパーポケモン回収	false	グッズ	Shizurow			Super Scoop Up（Torterra Half Deck）	dp5-87 dp1-115	入れる（Bulbapedia と TCGdex 英語版で同じ名前・種類・イラストレーター）	Super Scoop Up
+EP08-X15009	なんでもなおしW	なんでもなおしW	false	グッズ	Ryo Ueda			Double Full Heal（Torterra Half Deck）	ex9-76 ex14-77 ex2-86 dp1-105	入れる（Bulbapedia の一覧・カードのページ「Double Full Heal (EX Sandstorm 86)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Double Full Heal
+EP08-X15010	ポケモンいれかえ	ポケモンいれかえ	false	グッズ	Ryo Ueda			Switch（Empoleon Half Deck）	sm3.5-67 dp7-93 dp1-119 dp3-128 sm1-132 sm1-160	入れる（Bulbapedia の一覧・カードのページ「Switch (Base Set 95)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Switch
+EP08-X15011	モンスターボール	モンスターボール	false	グッズ	Ryo Ueda			Poké Ball（Raichu Half Deck）	dp5-85 pl1-113 sm1-125	入れる（Bulbapedia の一覧・カードのページ「Poké Ball (Jungle 64)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Poké Ball
+EP08-X15012	ママのきづかい	ママのきづかい	false	サポート	Ken Sugimori			Mom's Kindness（Empoleon Half Deck）	dp5-83	入れる（Bulbapedia と TCGdex 英語版で同じ名前・種類・イラストレーター）	Mom's Kindness
+EP08-X15013	ヒコザル	ヒコザル	false	ポケモン	Daisuke Ito	390	Chimchar	Chimchar（Infernape Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Chimchar
+EP08-X15014	モウカザル	モウカザル	false	ポケモン	Daisuke Ito	391	Monferno	Monferno（Infernape Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Monferno
+EP08-X15015	ゴウカザル	ゴウカザル	false	ポケモン	Daisuke Ito	392	Infernape	Infernape（Infernape Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Infernape
+EP08-X15016	ラクライ	ラクライ	false	ポケモン	Daisuke Ito	309	Electrike	Electrike（Infernape Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Electrike
+EP08-X15017	ライボルト	ライボルト	false	ポケモン	Daisuke Ito	310	Manectric	Manectric（Infernape Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Manectric
+EP08-X15018	ロトム	ロトム	false	ポケモン	Kagemaru Himeno	479	Rotom	Rotom（Infernape Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Rotom
+EP08-X15019	ベロリンガ	ベロリンガ	false	ポケモン	Kagemaru Himeno	108	Lickitung	Lickitung（Infernape Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Lickitung
+EP08-X15020	エネルギー再生	エネルギー再生	false	グッズ	Hideyuki Nakajima			Energy Restore（Raichu Half Deck）	dp5-81 ex1-81 dp1-106	入れる（Bulbapedia と TCGdex 英語版で同じ名前・種類・イラストレーター）	Energy Restore
+EP08-X15021	プラスパワー	プラスパワー	false	グッズ	Ryo Ueda			PlusPower（Infernape Half Deck）	dp1-109 pl1-112 dp3-121	入れる（Bulbapedia の一覧・カードのページ「PlusPower (Base Set 84)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	PlusPower
+EP08-X15022	ポッチャマ	ポッチャマ	false	ポケモン	Kent Kanetsuna	393	Piplup	Piplup（Empoleon Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Piplup
+EP08-X15023	ポッタイシ	ポッタイシ	false	ポケモン	Kent Kanetsuna	394	Prinplup	Prinplup（Empoleon Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Prinplup
+EP08-X15024	エンペルト	エンペルト	false	ポケモン	Kent Kanetsuna	395	Empoleon	Empoleon（Empoleon Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Empoleon
+EP08-X15025	フワンテ	フワンテ	false	ポケモン	Masakazu Fukuda	425	Drifloon	Drifloon（Empoleon Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Drifloon
+EP08-X15026	ドーミラー	ドーミラー	false	ポケモン	Daisuke Ito	436	Bronzor	Bronzor（Empoleon Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Bronzor
+EP08-X15027	グレッグル	グレッグル	false	ポケモン	Kent Kanetsuna	453	Croagunk	Croagunk（Empoleon Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Croagunk
+EP08-X15028	ドクロッグ	ドクロッグ	false	ポケモン	Kent Kanetsuna	454	Toxicroak	Toxicroak（Empoleon Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Toxicroak
+EP08-X15029	ニャルマー	ニャルマー	false	ポケモン	Masakazu Fukuda	431	Glameow	Glameow（Empoleon Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Glameow
+EP08-X15030	エネルギーつけかえ	エネルギーつけかえ	false	グッズ	Ryo Ueda			Energy Switch（Empoleon Half Deck）	dp7-84 dp1-107 sm1-117	入れる（Bulbapedia の一覧・カードのページ「Energy Switch (Aquapolis 120)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Energy Switch
+EP08-X15031	きずぐすり	きずぐすり	false	グッズ	Shin-ichi Yoshikawa			Potion（Empoleon Half Deck）	tk-dp-l-9 tk-dp-m-11 ex14-87 dp7-92 ex10-95 ex11-101 dp1-118 dp3-127	入れる（Bulbapedia の一覧・カードのページ「Potion (Base Set 94)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Potion
+EP08-X15032	ピカチュウ	ピカチュウ	false	ポケモン	Daisuke Ito	025	Pikachu	Pikachu（Raichu Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Pikachu
+EP08-X15033	ライチュウ	ライチュウ	false	ポケモン	Daisuke Ito	026	Raichu	Raichu（Raichu Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Raichu
+EP08-X15034	プラスル	プラスル	false	ポケモン	Suwama Chiaki	311	Plusle	Plusle（Raichu Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Plusle
+EP08-X15035	マイナン	マイナン	false	ポケモン	Suwama Chiaki	312	Minun	Minun（Raichu Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Minun
+EP08-X15036	パチリス	パチリス	false	ポケモン	Tomokazu Komiya	417	Pachirisu	Pachirisu（Raichu Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Pachirisu
+EP08-X15037	エイパム	エイパム	false	ポケモン	Tomokazu Komiya	190	Aipom	Aipom（Raichu Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Aipom
+EP08-X15038	ムックル	ムックル	false	ポケモン	Kent Kanetsuna	396	Starly	Starly（Raichu Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Starly
+EP08-X15039	ムクバード	ムクバード	false	ポケモン	Kent Kanetsuna	397	Staravia	Staravia（Raichu Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Staravia
+EP08-X15040	ポケモン図鑑HANDY910is	ポケモン図鑑HANDY910is	false	グッズ	Ryo Ueda			Pokédex HANDY910is（Raichu Half Deck）	dp1-111 pl1-114	入れる（Bulbapedia の一覧・カードのページ「Pokédex HANDY910is (Diamond & Pearl 111)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Pokédex HANDY910is
+EP08-X15041	ワープポイント	ワープポイント	false	グッズ	Ryo Ueda			Warp Point（Raichu Half Deck）	dp5-88	入れる（Bulbapedia の一覧・カードのページ「Warp Point (Gym Challenge 126)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Warp Point
