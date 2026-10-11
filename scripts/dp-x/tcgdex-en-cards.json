@@ -1,0 +1,502 @@
+{
+ "dp1-122": {
+  "name": "Torterra",
+  "hp": 160,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "100"
+  ]
+ },
+ "dpp-DP09": {
+  "name": "Torterra",
+  "hp": 160,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "100"
+  ]
+ },
+ "dp1-121": {
+  "name": "Infernape",
+  "hp": 120,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "150"
+  ]
+ },
+ "dpp-DP10": {
+  "name": "Infernape",
+  "hp": 120,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "150"
+  ]
+ },
+ "dp1-120": {
+  "name": "Empoleon",
+  "hp": 140,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": []
+ },
+ "dpp-DP11": {
+  "name": "Empoleon",
+  "hp": 140,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": []
+ },
+ "dp2-123": {
+  "name": "Magmortar",
+  "hp": 130,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": []
+ },
+ "dp2-121": {
+  "name": "Electivire",
+  "hp": 120,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "50"
+  ]
+ },
+ "dp2-122": {
+  "name": "Lucario",
+  "hp": 110,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "80"
+  ]
+ },
+ "dpp-DP12": {
+  "name": "Lucario",
+  "hp": 110,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "80"
+  ]
+ },
+ "pop7-11": {
+  "name": "Burmy Plant Cloak",
+  "hp": 40,
+  "rarity": "Common",
+  "stage": "Basic",
+  "damages": [
+   "10+"
+  ]
+ },
+ "dp3-78": {
+  "name": "Burmy Plant Cloak",
+  "hp": 40,
+  "rarity": "Common",
+  "stage": "Basic",
+  "damages": [
+   "10+"
+  ]
+ },
+ "pop7-12": {
+  "name": "Burmy Sandy Cloak",
+  "hp": 40,
+  "rarity": "Common",
+  "stage": "Basic",
+  "damages": [
+   "10+"
+  ]
+ },
+ "dp3-79": {
+  "name": "Burmy Sandy Cloak",
+  "hp": 40,
+  "rarity": "Common",
+  "stage": "Basic",
+  "damages": [
+   "10+"
+  ]
+ },
+ "dp5-54": {
+  "name": "Burmy Sandy Cloak",
+  "hp": 50,
+  "rarity": "Common",
+  "stage": "Basic",
+  "damages": [
+   "30"
+  ]
+ },
+ "dp3-80": {
+  "name": "Burmy Trash Cloak",
+  "hp": 40,
+  "rarity": "Common",
+  "stage": "Basic",
+  "damages": [
+   "10+"
+  ]
+ },
+ "dp3-41": {
+  "name": "Wormadam Plant Cloak",
+  "hp": 80,
+  "rarity": "Rare",
+  "stage": "Stage1",
+  "damages": [
+   "60"
+  ]
+ },
+ "dp3-107": {
+  "name": "Shellos West Sea",
+  "hp": 60,
+  "rarity": "Common",
+  "stage": "Basic",
+  "damages": [
+   "10"
+  ]
+ },
+ "dp3-106": {
+  "name": "Shellos East Sea",
+  "hp": 60,
+  "rarity": "Common",
+  "stage": "Basic",
+  "damages": [
+   "10"
+  ]
+ },
+ "dp3-8": {
+  "name": "Gastrodon East Sea",
+  "hp": 100,
+  "rarity": "Rare Holo",
+  "stage": "Stage1",
+  "damages": [
+   "80-"
+  ]
+ },
+ "dp3-9": {
+  "name": "Gastrodon West Sea",
+  "hp": 100,
+  "rarity": "Rare Holo",
+  "stage": "Stage1",
+  "damages": [
+   "20+",
+   "80"
+  ]
+ },
+ "30th-c-022": {
+  "name": "Palkia",
+  "hp": 120,
+  "rarity": "None",
+  "stage": "Basic",
+  "damages": [
+   "60"
+  ]
+ },
+ "dp4-106": {
+  "name": "Palkia",
+  "hp": 120,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "60"
+  ]
+ },
+ "dpp-DP18": {
+  "name": "Palkia",
+  "hp": 120,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "60"
+  ]
+ },
+ "pop7-10": {
+  "name": "Wormadam Sandy Cloak",
+  "hp": 80,
+  "rarity": "Uncommon",
+  "stage": "Stage1",
+  "damages": [
+   "40+"
+  ]
+ },
+ "dp3-42": {
+  "name": "Wormadam Sandy Cloak",
+  "hp": 80,
+  "rarity": "Rare",
+  "stage": "Stage1",
+  "damages": [
+   "40+"
+  ]
+ },
+ "dp4-104": {
+  "name": "Darkrai",
+  "hp": 100,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "40"
+  ]
+ },
+ "dpp-DP19": {
+  "name": "Darkrai",
+  "hp": 100,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "40"
+  ]
+ },
+ "dp3-43": {
+  "name": "Wormadam Trash Cloak",
+  "hp": 70,
+  "rarity": "Rare",
+  "stage": "Stage1",
+  "damages": [
+   "70"
+  ]
+ },
+ "dp4-105": {
+  "name": "Dialga",
+  "hp": 110,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "80"
+  ]
+ },
+ "dpp-DP17": {
+  "name": "Dialga",
+  "hp": 120,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "80"
+  ]
+ },
+ "dpp-DP37": {
+  "name": "Dialga",
+  "hp": 120,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "80"
+  ]
+ },
+ "bw5-6": {
+  "name": "Leafeon",
+  "hp": 90,
+  "rarity": "Rare",
+  "stage": "Stage1",
+  "damages": [
+   "10",
+   "40"
+  ]
+ },
+ "dp5-99": {
+  "name": "Leafeon",
+  "hp": 110,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "30+"
+  ]
+ },
+ "bw5-30": {
+  "name": "Glaceon",
+  "hp": 90,
+  "rarity": "Rare",
+  "stage": "Stage1",
+  "damages": [
+   "10",
+   "40"
+  ]
+ },
+ "dp5-98": {
+  "name": "Glaceon",
+  "hp": 100,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "70"
+  ]
+ },
+ "dp3-131": {
+  "name": "Gardevoir",
+  "hp": 130,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": []
+ },
+ "dp4-103": {
+  "name": "Cresselia",
+  "hp": 100,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "40"
+  ]
+ },
+ "dp3-132": {
+  "name": "Honchkrow",
+  "hp": 110,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "60"
+  ]
+ },
+ "dp5-97": {
+  "name": "Garchomp",
+  "hp": 140,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": []
+ },
+ "dp6-144": {
+  "name": "Mewtwo",
+  "hp": 120,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "120"
+  ]
+ },
+ "dpp-DP28": {
+  "name": "Mewtwo",
+  "hp": 120,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "120"
+  ]
+ },
+ "dp6-141": {
+  "name": "Gliscor",
+  "hp": 110,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "60"
+  ]
+ },
+ "dp6-51": {
+  "name": "Castform Sunny Form",
+  "hp": 70,
+  "rarity": "Uncommon",
+  "stage": "Basic",
+  "damages": [
+   "40"
+  ]
+ },
+ "dp6-49": {
+  "name": "Castform Rain Form",
+  "hp": 70,
+  "rarity": "Uncommon",
+  "stage": "Basic",
+  "damages": [
+   "30"
+  ]
+ },
+ "dp6-50": {
+  "name": "Castform Snow-cloud Form",
+  "hp": 70,
+  "rarity": "Uncommon",
+  "stage": "Basic",
+  "damages": []
+ },
+ "dp6-1": {
+  "name": "Deoxys Normal Forme",
+  "hp": 90,
+  "rarity": "Rare Holo",
+  "stage": "Basic",
+  "damages": [
+   "20+"
+  ]
+ },
+ "dp6-24": {
+  "name": "Deoxys Attack Forme",
+  "hp": 80,
+  "rarity": "Rare",
+  "stage": "Basic",
+  "damages": [
+   "80"
+  ]
+ },
+ "dp6-25": {
+  "name": "Deoxys Defense Forme",
+  "hp": 100,
+  "rarity": "Rare",
+  "stage": "Basic",
+  "damages": [
+   "40"
+  ]
+ },
+ "dp6-26": {
+  "name": "Deoxys Speed Forme",
+  "hp": 70,
+  "rarity": "Rare",
+  "stage": "Basic",
+  "damages": []
+ },
+ "dp6-146": {
+  "name": "Uxie",
+  "hp": 90,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "60"
+  ]
+ },
+ "dp6-143": {
+  "name": "Mesprit",
+  "hp": 90,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "200"
+  ]
+ },
+ "dp6-140": {
+  "name": "Azelf",
+  "hp": 90,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": []
+ },
+ "dp6-145": {
+  "name": "Rhyperior",
+  "hp": 170,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "50x",
+   "60"
+  ]
+ },
+ "dpp-DP29": {
+  "name": "Rhyperior",
+  "hp": 170,
+  "rarity": "Common",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "50x",
+   "60"
+  ]
+ },
+ "dp6-142": {
+  "name": "Magnezone",
+  "hp": 140,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": [
+   "80"
+  ]
+ },
+ "dp5-100": {
+  "name": "Porygon-Z",
+  "hp": 130,
+  "rarity": "Rare Holo LV.X",
+  "stage": "LEVEL-UP",
+  "damages": []
+ }
+}
