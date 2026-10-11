@@ -12,6 +12,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildFileName, writeFileAtomic } from "./filename-utils.mjs";
 import { politeDelay, politeFetch } from "./scrape-promo-sets.mjs";
+import { rebuildCardKinds } from "./card-kinds/rebuild.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -62,6 +63,7 @@ for (const c of plan.cards) {
   Object.assign(r, { file: rel, bytes: buf.length, status: "追加" });
 }
 fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
 const base = planPath.replace(/\.json$/, "");
 const added = results.filter((x) => x.status === "追加");
 fs.writeFileSync(`${base}-result.json`, JSON.stringify({ at: new Date().toISOString(), set: plan.set, results }, null, 1));

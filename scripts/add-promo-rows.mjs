@@ -10,6 +10,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
 import { cacheCardIds, fetchDetails, imageExt, politeDelay, politeFetch, REBUILD_SETS, validatePromo } from "./scrape-promo-sets.mjs";
+import { rebuildCardKinds } from "./card-kinds/rebuild.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -49,6 +50,7 @@ for (const r of added) {
 }
 set.k = [...[...set.k.filter((r) => !isX(r)), ...added].sort((a, b) => parseInt(a[0], 10) - parseInt(b[0], 10)), ...set.k.filter(isX)];
 await fs.writeFile(DATA, JSON.stringify(cardData, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
 const stamp = new Date().toISOString().slice(0, 10);
 await fs.writeFile(path.join(__dirname, "promo-progress", `${code}-added-card-ids-${stamp}.txt`), added.map((r) => `${code}-${r[0]}`).join("\n") + "\n");
 console.log(`[${code}] ${added.length}行を足しました`);

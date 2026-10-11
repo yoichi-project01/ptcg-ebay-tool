@@ -15,6 +15,7 @@
 //   同じ種類（サポート・グッズ・どうぐ・スタジアム／エネルギー）・同じイラストレーターであること。
 import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from "node:fs";
 import path from "node:path";
+import { rebuildCardKinds } from "./card-kinds/rebuild.mjs";
 
 const ROOT = process.cwd();
 const DIR = path.join(ROOT, "scripts", "en-name-fix3");
@@ -216,6 +217,7 @@ if (!APPLY) {
 } else {
   for (const r of fill) { const row = set.k.find((k) => `${SET}-${k[0]}` === r.id); if (row[2]) throw new Error(`英語名が既にあります: ${r.id}`); row[2] = r.en; }
   writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+  rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
   // 2回目以降の実行（前回空欄だった行をあとから入れる等）では、前回の根拠に追記・更新する
   mkdirSync(path.join(DIR, "decisions"), { recursive: true });
   const DEC = path.join(DIR, "decisions", `${SET}-${KIND}.tsv`);

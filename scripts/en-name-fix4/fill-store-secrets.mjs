@@ -11,6 +11,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { rebuildCardKinds } from "../card-kinds/rebuild.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..", "..");
 const DATA = path.join(ROOT, "src", "cardData.json");
@@ -72,6 +73,7 @@ const out = path.join(__dirname, ONLY ? `decisions-${ONLY}.tsv` : "decisions.tsv
 fs.writeFileSync(out, ["id\tja\trarity\tbpName\tbpType\ten\tstatus\tnote", ...rows].join("\n") + "\n");
 if (APPLY && lines.length) {
   fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+  rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
   const T = path.join(__dirname, "changed.tsv"); if (!fs.existsSync(T)) fs.writeFileSync(T, "card_id\tja\tbefore\tafter\tbasis\n");
   fs.appendFileSync(T, lines.map((l) => l + "\n").join(""));
 }

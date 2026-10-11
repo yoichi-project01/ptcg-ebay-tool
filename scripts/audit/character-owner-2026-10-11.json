@@ -1,0 +1,84 @@
+{
+ "note": "持ち主付きのポケモンの Character を直す前と後（2026-10-11、scripts/audit/character-examples.test.jsx で生成）",
+ "changedRows": 602,
+ "examples": {
+  "PMCG5-043": {
+   "ja": "タケシのサンド",
+   "en": "Brock's Sandshrew",
+   "before": "Brock's Sandshrew",
+   "after": "Sandshrew"
+  },
+  "PCG3-059": {
+   "ja": "R団のニャース",
+   "en": "Rocket's Meowth",
+   "before": "Rocket's Meowth",
+   "after": "Meowth"
+  },
+  "PCG6-031": {
+   "ja": "ホロンのビリリダマ",
+   "en": "Holon's Voltorb",
+   "before": "Holon's Voltorb",
+   "after": "Voltorb"
+  },
+  "PMCG5-036": {
+   "ja": "マチスのピカチュウ",
+   "en": "Lt. Surge's Pikachu",
+   "before": "Lt. Surge's Pikachu",
+   "after": "Pikachu"
+  },
+  "PMCG6-074": {
+   "ja": "イマクニ?のドードー",
+   "en": "Imakuni?'s Doduo",
+   "before": "Imakuni?'s Doduo",
+   "after": "Doduo"
+  },
+  "PMCG6-075": {
+   "ja": "_のラッキー",
+   "en": "_____'s Chansey",
+   "before": "_____'s Chansey",
+   "after": "Chansey"
+  },
+  "VS1-097": {
+   "ja": "ワタルのリザードン",
+   "en": "Lance's Charizard",
+   "before": "Lance's Charizard",
+   "after": "Charizard"
+  },
+  "SV-P-259": {
+   "ja": "ロケット団のニャース",
+   "en": "Team Rocket's Meowth",
+   "before": "Team Rocket's Meowth",
+   "after": "Meowth"
+  },
+  "SV-P-255": {
+   "ja": "シロナのガブリアスex",
+   "en": "Cynthia's Garchomp ex",
+   "before": "Cynthia's Garchomp",
+   "after": "Garchomp"
+  },
+  "SV-P-233": {
+   "ja": "ホップのバチンウニex",
+   "en": "Hop's Pincurchin ex",
+   "before": "Hop's Pincurchin",
+   "after": "Pincurchin"
+  },
+  "CP1-001": {
+   "ja": "マグマ団のドンメル",
+   "en": "Team Magma's Numel",
+   "before": "Team Magma's Numel",
+   "after": "Numel"
+  },
+  "SM-P-071": {
+   "ja": "サトシのピカチュウ",
+   "en": "Ash's Pikachu",
+   "before": "Ash's Pikachu",
+   "after": "Pikachu"
+  },
+  "MC-458": {
+   "ja": "マリィのチョロネコ",
+   "en": "Marnie's Purrloin",
+   "before": "Marnie's Purrloin",
+   "after": "Purrloin"
+  }
+ }
+}

@@ -20,6 +20,7 @@
 // TCGdex 英語版は "Lycanroc GX" と "Lycanroc-GX" が混在するため、空白・ハイフンだけが違う同じ名前として照合する（ex と EX は区別する）。
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
+import { rebuildCardKinds } from "./card-kinds/rebuild.mjs";
 
 const ROOT = process.cwd();
 const DIR = path.join(ROOT, "scripts", "en-name-fix2");
@@ -139,6 +140,7 @@ if (!APPLY) {
   }
   const raw = readFileSync(DATA, "utf8");
   writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+  rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
   // 根拠（全弾分）は毎回書き直す。cardData に入れた弾の結果は check 時と同じ
   writeFileSync(path.join(DIR, "decisions.tsv"), tsv(out));
   writeFileSync(path.join(DIR, "summary.json"), JSON.stringify(sum, null, 1));

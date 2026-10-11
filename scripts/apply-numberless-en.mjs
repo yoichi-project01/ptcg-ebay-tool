@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { rebuildCardKinds } from "./card-kinds/rebuild.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -29,5 +30,6 @@ for (const f of fs.readdirSync(DIR).filter((f) => f.endsWith(".json") && !f.ends
   }
 }
 fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
 fs.writeFileSync(path.join(DIR, "en-changed-card-ids.txt"), ids.join("\n") + (ids.length ? "\n" : ""));
 console.log(`英語名を入れた ${changed}件・空欄のまま ${blank}件`);

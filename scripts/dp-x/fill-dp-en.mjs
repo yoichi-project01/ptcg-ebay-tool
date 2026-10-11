@@ -13,6 +13,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { rebuildCardKinds } from "../card-kinds/rebuild.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..", "..");
 const arg = (n) => (process.argv.includes(n) ? process.argv[process.argv.indexOf(n) + 1] : null);
@@ -180,6 +181,7 @@ const filled = rows.filter((r) => r.en);
 if (APPLY) {
   for (const r of filled) set.k.find((k) => `${SET}-${k[0]}` === r.id)[2] = r.en;
   fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+  rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
   fs.mkdirSync(path.join(__dirname, "en"), { recursive: true });
   fs.writeFileSync(path.join(__dirname, "en", `${SET}.tsv`), tsv);
   fs.writeFileSync(path.join(__dirname, "en", `${SET}-changed-card-ids.txt`), filled.map((r) => r.id).join("\n") + (filled.length ? "\n" : ""));

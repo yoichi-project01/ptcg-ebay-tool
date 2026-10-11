@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { rebuildCardKinds } from "../../card-kinds/rebuild.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.join(__dirname, "..", "..", "..", "src", "cardData.json");
 const SET = process.argv[process.argv.indexOf("--set") + 1];
@@ -19,6 +20,7 @@ for (const r of dec) {
   lines.push([r.id, r.ja, r.before, r.after, r.note].join("\t"));
 }
 fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
 const T = path.join(__dirname, "changed.tsv");
 if (!fs.existsSync(T)) fs.writeFileSync(T, "card_id\tja\tbefore\tafter\tbasis\n");
 fs.appendFileSync(T, lines.map((l) => l + "\n").join(""));

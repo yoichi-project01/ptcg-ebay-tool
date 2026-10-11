@@ -1136,3 +1136,19 @@ describe("Item Specifics の Character（カードの種類ごと）", () => {
     expect(charOf("SV10-098")).toBeUndefined(); // Team Rocket's Energy
   });
 });
+
+describe("Item Specifics の Character（持ち主付きのポケモン）", () => {
+  const charOf = (id) => {
+    const c = id.slice(0, id.lastIndexOf("-")), n = id.slice(id.lastIndexOf("-") + 1);
+    const set = CARD_DATA_FOR_TEST.find((s) => s.c === c);
+    const card = set.k.find((r) => r[0] === n);
+    return Object.fromEntries(buildItemSpecifics(applyCandidateToForm(DEFAULT_FORM, { set, card })))["Character"];
+  };
+  it("持ち主を外したポケモンの名前", () => {
+    expect(charOf("PMCG5-043")).toBe("Sandshrew"); // Brock's Sandshrew
+    expect(charOf("SV-P-259")).toBe("Meowth"); // Team Rocket's Meowth
+    expect(charOf("SV-P-255")).toBe("Garchomp"); // Cynthia's Garchomp ex
+    expect(charOf("PMCG6-075")).toBe("Chansey"); // _____'s Chansey
+    expect(charOf("PMCG6-074")).toBe("Doduo"); // Imakuni?'s Doduo
+  });
+});

@@ -1,9 +1,9 @@
-// Item Specifics の Character を直す前後の例（2026-10-11）。OUT=… npx vitest run scripts/audit/character-examples.test.jsx で書き出す
+// Item Specifics の Character を直す前後の例（2026-10-11、持ち主付きのポケモンの例も追加）。OUT=… npx vitest run scripts/audit/character-examples.test.jsx で書き出す
 import { test } from "vitest";
 import fs from "node:fs";
 import data from "../../src/cardData.json";
 import { DEFAULT_FORM, applyCandidateToForm, buildItemSpecifics } from "../../src/App.jsx";
-const IDS = ["SV2a-006", "PMCG5-043", "SV-P-161", "S4a-176", "S-P-128", "SV2a-161", "SV10-091", "XY10-B-077", "CP6-084", "SD-119", "SM5S-059",
+const IDS = ["SV2a-006", "PMCG5-043", "PCG3-059", "PCG6-031", "PMCG5-036", "PMCG6-074", "PMCG6-075", "VS1-097", "SV-P-259", "SV-P-255", "SV-P-233", "CP1-001", "SM-P-071", "MC-458", "SV-P-161", "S4a-176", "S-P-128", "SV2a-161", "SV10-091", "XY10-B-077", "CP6-084", "SD-119", "SM5S-059",
   "XY2-079", "M1L-083", "S12a-145", "SV1a-070", "SV10-098", "PMCG1-091"];
 test.skipIf(!process.env.OUT)("examples", () => {
   const out = {};

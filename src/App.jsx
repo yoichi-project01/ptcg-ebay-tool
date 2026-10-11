@@ -554,9 +554,10 @@ export const CONDITION_DESCRIPTOR_LABELS = {
 };
 // "Charizard ex" -> "Charizard" のように接尾辞（ex/EX/GX/V/VMAX/VSTAR/V-UNION）を除去する。
 // 長い接尾辞から先に判定しないと "VMAX" が "V" にマッチして壊れるため順序に注意
+// 持ち主付きのポケモン（"Brock's Sandshrew"・"Team Rocket's Mewtwo ex"）は持ち主を外す（eBay の Character はポケモンの名前で入れる出品が多い）
 function extractCharacter(en) {
   if (!en) return "";
-  return titleCardName(en).replace(/\s+(VMAX|VSTAR|V-UNION|GX|EX|ex)$/, "").replace(/\s+V$/, "").trim();
+  return titleCardName(en).replace(/^.+?'s\s+/, "").replace(/\s+(VMAX|VSTAR|V-UNION|GX|EX|ex)$/, "").replace(/\s+V$/, "").trim();
 }
 // カードの種類（ポケモン以外の行だけ。src/cardKinds.json、scripts/card-kinds/build-card-kinds.mjs で作る）。
 // 値は Supporter / Item / Tool / Stadium / Energy / Trainer（細かい種類が分からないトレーナーズ）。一覧に無い行はポケモン

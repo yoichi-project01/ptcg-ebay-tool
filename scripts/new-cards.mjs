@@ -26,6 +26,7 @@ import { fileURLToPath } from "node:url";
 import { buildFileName, computeSetTotal, writeFileAtomic } from "./filename-utils.mjs";
 import { parseCardDetailsFromHtml, RARITY_CODE_MAP, validateAndBuildK } from "./scrape-missing-sets.mjs";
 import { imageExt, parsePromoDetailFromHtml, politeDelay, politeFetch } from "./scrape-promo-sets.mjs";
+import { rebuildCardKinds } from "./card-kinds/rebuild.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -240,6 +241,7 @@ async function main() {
     await downloadRows(next, add, details);
     set.k = [...next.k, ...set.k.filter(isX)];
     fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+    rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
     return finish(code, add, "added");
   }
   if (newKey) {
@@ -263,6 +265,7 @@ async function main() {
     await downloadRows(set, add, details);
     data.push(set);
     fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
+    rebuildCardKinds(); // カードの種類の一覧（src/cardKinds.json）を作り直す
     return finish(meta.c, add, "added");
   }
   throw new Error("--apply には --set <弾> か --new <印刷記号> を付けてください");

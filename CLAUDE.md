@@ -3071,11 +3071,23 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
   `node scripts/card-kinds/build-card-kinds.mjs --write` で作る（根拠の内訳・食い違いは `scripts/card-kinds/report.json`）。
   種類は Bulbapedia の日本版の一覧の type 列（英語名があれば一覧の名前と一致する行だけ）→ TCGdex 日本語版 → 公式 details.php の本文（DP・番号の無いプロモ）→ 日本語名（種族名を含むか）の順。
   細かい種類が分からない Trainer は、同じ名前のほかの行の種類が1つに決まればそれを使う。**cardData.json は変えていない**（買取レーダーなどへの影響なし）。
-  カードを足したり英語名を入れたりした後は作り直すこと。
+  カードを足すスクリプト・英語名を入れるスクリプトは、cardData を書いた後に自動で作り直す（下記「持ち主付きのポケモン・種類の一覧の自動の作り直し」）。
 - **件数**（全24096行のうち Character が変わった行、`scripts/audit/character-2026-10-11.json`）: グッズ 1,736・スタジアム 305・どうぐ 168・エネルギー 273・
   種類の分からないトレーナーズ 327 は出さないように、サポート 368 は人物名に、163 は出さないように変わった。ポケモンの行は変化なし。
 - **残り**: 細かい種類の分からないトレーナーズ（496行、多くは旧裏〜PCG。Bulbapedia の一覧が "Trainer" としか書いていない）は Character を出さない。
-  その中にも人物のサポート（Professor Elm・Mary・Scott 等）がある。持ち主付きのポケモン（Brock's Sandshrew 等）の Character は持ち主付きの名前のまま（これまでどおり）。
+  その中にも人物のサポート（Professor Elm・Mary・Scott 等）がある。持ち主付きのポケモンは下記で直した。
+
+### 対応（2026-10-11）: 持ち主付きのポケモンの Character・種類の一覧の自動の作り直し
+
+- **持ち主付きのポケモン**（`src/App.jsx` の `extractCharacter`）: 英語名の先頭の「〜's 」を外し、ポケモンの名前だけを Character に入れる。
+  eBay では Team Rocket's Mewtwo ex（日本版 39/098）の出品が Character: Mewtwo、Team Rocket's Moltres が Character: Moltres のように、ポケモンの名前で入れていた。
+  変わったのは 602行（ポケモンの行だけ）。例: Brock's Sandshrew → Sandshrew、Rocket's Meowth → Meowth、Holon's Voltorb → Voltorb、Lt. Surge's Pikachu → Pikachu、
+  Imakuni?'s Doduo → Doduo、_____'s Chansey → Chansey、Team Rocket's Meowth → Meowth、Cynthia's Garchomp ex → Garchomp、Team Magma's Numel → Numel、Ash's Pikachu → Pikachu
+  （`scripts/audit/character-owner-2026-10-11.json`）。Card Name・タイトルは持ち主付きのまま。
+- **種類の一覧の自動の作り直し**（`scripts/card-kinds/rebuild.mjs` の `rebuildCardKinds()`）: cardData を書き換えた直後に `build-card-kinds.mjs --write` を実行する。
+  入れたスクリプト: カードを足す `new-cards.mjs`（`--set`・`--new`）・`add-numberless-promos.mjs`・`add-promo-rows.mjs`、英語名を入れる `fill-common-en.mjs`・`fill-high-rarity-en.mjs`・
+  `en-name-fix4/fill-store-secrets.mjs`・`dp-x/fill-dp-en.mjs`・`numberless-promos/apply-remaining-en.mjs`・`apply-numberless-en.mjs`・`en-name-fix3/person/apply.mjs`。
+  `CARD_DATA_PATH` で別の cardData を読んでいるときは作り直さない。一度きりの修正スクリプト（fix-*.mjs 等）には入れていないので、使ったときは手で作り直す。
 
 ---
 
@@ -3181,10 +3193,13 @@ public/
      - `en`・`psaName`: PSA の日本版のラベル表記（鑑定書・集計ページのタイトル）で確かめたものだけ。PSA にまだ無ければ空欄にし、後で埋める
        （`scripts/set-psa-names.json`・`set-en-sources.json` に出典を書いて `apply-set-metadata.mjs`／`fill-set-en-y.mjs`）。
    - 1〜最大番号に欠番があれば止まる（公式に載っていないカードがある。足さずに様子を見る）。
+   - カードを足した後、カードの種類の一覧 `src/cardKinds.json` は自動で作り直される（`--set` でも同じ。Item Specifics の Character に使う）。
 5. **英語名**: 足したカードの英語名は空欄。これまでと同じ方法（`fill-common-en.mjs`・`fill-high-rarity-en.mjs`：Bulbapedia の日本版の一覧をブラウザで取り出し、
    規則の名前か TCGdex 英語版の同じ名前・種類・イラストレーターとの一致）で入れる。新しい弾は Bulbapedia・TCGdex の掲載を待つことが多い。
+   英語名を入れるスクリプトも `--apply` の最後に `src/cardKinds.json` を自動で作り直す（英語名が入ると Bulbapedia の一覧と結び付けられる行が増えるため）。
+   手で作り直すときは `node scripts/card-kinds/build-card-kinds.mjs --write`。
 6. **取り込まないカード**: `node scripts/new-cards.mjs --skip <cardID,…> --reason "理由"`（台帳に記録し、次から出さない）。
-7. **作業の後に** `--verify`・`npx vitest run`・`python scripts/detect-contaminated-en-names.py`・`node scripts/check-row-alignment.mjs`。弾ごとにコミットして push。
+7. **作業の後に** `--verify`・`npx vitest run`（`src/cardKinds.json` が変わっていればそれもコミットする）・`python scripts/detect-contaminated-en-names.py`・`node scripts/check-row-alignment.mjs`。弾ごとにコミットして push。
    カイトリレーダーへの反映（R2 への画像の送り・見本の特徴）は向こうの手順で行う。
 
 ## 画像を一から取得し直す場合
