@@ -2910,7 +2910,7 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
 | 10 | M6・M6a の英語名、M6a 104〜135・M-P の欠番 | 72行・62番号 | 中 | 中 | 英語版の発売・公式の掲載を待つ |
 | 11 | ja が無い弾 | 37弾 | 低（検索・表示） | 低 | |
 | 12 | 基本エネルギーの英語名、SVD-139・SVF-038 の画像 | 261行・2枚 | 低 | 低 | |
-| 13 | トレーナーズの Item Specifics に Character が入る（既知） | — | 低 | — | |
+| 13 | ~~トレーナーズの Item Specifics に Character が入る~~ | | | | **2026-10-11 対応済み**（下記） |
 | 14 | find-duplicate-images.mjs の意図した重複に M6 のスタジアム3組を足す | — | — | — | 検査の誤検出を減らすだけ |
 
 ### 対応（2026-10-10）: VS1/web1 の3行・SR と MA の英語表記・psaName・店舗の情報の HR/UR の英語名・未取り込みの弾10個
@@ -3055,6 +3055,27 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
 | XY1-Bx・XY1-By | XY | PSA は「2013 Pokemon Japanese XY」1つにまとめている |
 | BW1-Bb・BW1-Bw | Black & White | PSA は「2010 Pokemon Japanese Black & White」1つにまとめている |
 | SCS-R | Charizard VMAX Starter Set 2 | psaName（Charizard VMAX Starter Set）に加え、PSA は同じ商品を「…Starter Set 2」という別の分類にも入れている（2026-10-11 追加） |
+
+### 対応（2026-10-11）: Item Specifics の Character をカードの種類ごとに分けた
+
+- **eBay の使われ方**（検索で見た出品）: 1枚のカードでは、サポート（人物の絵）は Character に人物名を入れる出品が多い（例 Marnie のプロモ → Character: Marnie）。
+  グッズ・エネルギーは出品ごとにばらばら（カード名・"Trainer"・"Unknown" 等）で決まった書き方が無い。eBay の Character は「描かれているキャラクター」の項目なので、
+  人物でもポケモンでもないカード（グッズ等）に名前を入れると、そのカード名が Character の絞り込みに出てしまう。
+- **決めたこと**（`src/App.jsx` の `characterOf`）:
+  - ポケモン: ポケモンの名前（これまでどおり。ex・V などを外す）
+  - サポート: 絵の人物。`Boss's Orders (Giovanni)` → Giovanni、`Professor's Research (Professor Magnolia)` → Professor Magnolia、`Erika's Invitation` → Erika、
+    `Professor Oak's Hint` → Professor Oak、`Team Rocket's Ariana` → Ariana、人物名だけの名前（Iono・Arven 等）はそのまま、◇ は外す。
+    人物でない持ち主（Boss's・Professor's・Black Belt's・Adventurer's 等）や人物でない名前（Pokémon Fan Club・Friends in Galar・Teammates・Team Rocket's Handiwork 等）は出さない
+  - グッズ・ポケモンのどうぐ・スタジアム・エネルギー・細かい種類の分からないトレーナーズ: 出さない（Character の項目なし）
+- **カードの種類のデータ**: `src/cardKinds.json`（card_id → Supporter/Item/Tool/Stadium/Energy/Trainer。ポケモンの行は入っていない）。
+  `node scripts/card-kinds/build-card-kinds.mjs --write` で作る（根拠の内訳・食い違いは `scripts/card-kinds/report.json`）。
+  種類は Bulbapedia の日本版の一覧の type 列（英語名があれば一覧の名前と一致する行だけ）→ TCGdex 日本語版 → 公式 details.php の本文（DP・番号の無いプロモ）→ 日本語名（種族名を含むか）の順。
+  細かい種類が分からない Trainer は、同じ名前のほかの行の種類が1つに決まればそれを使う。**cardData.json は変えていない**（買取レーダーなどへの影響なし）。
+  カードを足したり英語名を入れたりした後は作り直すこと。
+- **件数**（全24096行のうち Character が変わった行、`scripts/audit/character-2026-10-11.json`）: グッズ 1,736・スタジアム 305・どうぐ 168・エネルギー 273・
+  種類の分からないトレーナーズ 327 は出さないように、サポート 368 は人物名に、163 は出さないように変わった。ポケモンの行は変化なし。
+- **残り**: 細かい種類の分からないトレーナーズ（496行、多くは旧裏〜PCG。Bulbapedia の一覧が "Trainer" としか書いていない）は Character を出さない。
+  その中にも人物のサポート（Professor Elm・Mary・Scott 等）がある。持ち主付きのポケモン（Brock's Sandshrew 等）の Character は持ち主付きの名前のまま（これまでどおり）。
 
 ---
 

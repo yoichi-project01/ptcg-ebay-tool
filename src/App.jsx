@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect, Component } from "react";
 import CARD_DATA from "./cardData.json";
 import IMAGE_INDEX from "./imageIndex.json";
+import CARD_KINDS from "./cardKinds.json";
 
 // ---------- 定数 ----------
 // K（かがやく）・A（アメイジングレア）・H（ひかる）・PR（プリズムスター）・MUR（メガウルトラレア）は 2026-10-06 追加。カードに印刷されたマーク
@@ -553,15 +554,51 @@ export const CONDITION_DESCRIPTOR_LABELS = {
 };
 // "Charizard ex" -> "Charizard" のように接尾辞（ex/EX/GX/V/VMAX/VSTAR/V-UNION）を除去する。
 // 長い接尾辞から先に判定しないと "VMAX" が "V" にマッチして壊れるため順序に注意
-// 既知の制約: cardData.json にカード種別（Pokemon/Trainer/Energy）の情報が無いため、
-// トレーナーズ/エネルギーカードにもこの関数がそのまま適用され、eBayのItem Specifics上で
-// 本来空欄であるべき "Character" にトレーナー名がそのまま入ってしまう
-// （例: "Night Stretcher" というグッズカードでも Character: "Night Stretcher" と出力される）。
-// 種別データを取得できれば buildItemSpecifics 側で Pokemon 以外は Character を出さないよう
-// できるが、TCGdexから12,654枚分のcategoryを個別取得する必要がありこのセッションでは未対応
 function extractCharacter(en) {
   if (!en) return "";
   return titleCardName(en).replace(/\s+(VMAX|VSTAR|V-UNION|GX|EX|ex)$/, "").replace(/\s+V$/, "").trim();
+}
+// カードの種類（ポケモン以外の行だけ。src/cardKinds.json、scripts/card-kinds/build-card-kinds.mjs で作る）。
+// 値は Supporter / Item / Tool / Stadium / Energy / Trainer（細かい種類が分からないトレーナーズ）。一覧に無い行はポケモン
+export function cardKindOf(f) {
+  const set = CARD_DATA.find((s) => s.c === f.setCode);
+  if (!set) return "";
+  let local = localOf(f);
+  if (!local) {
+    const n = (f.cardNo || "").split("/")[0];
+    const row = /^\d+$/.test(n) ? set.k.find((r) => /^\d+$/.test(r[0]) && parseInt(r[0], 10) === parseInt(n, 10)) : null;
+    local = row ? row[0] : "";
+  }
+  if (!local) return "";
+  return CARD_KINDS[`${set.c}-${local}`] || "Pokemon";
+}
+// サポートの絵の人物（eBay の Character 用）。"Boss's Orders (Giovanni)" → Giovanni、"Iono's ..." の形 → Iono、
+// "Team Rocket's Ariana" → Ariana、人物名だけの名前はそのまま。人物でない持ち主・人物でない名前は空
+const NON_PERSON_OWNERS = new Set(["Adventurer", "Black Belt", "Boss", "Ciphermaniac", "Emcee", "Explorer", "Lass", "Mom", "Pokémon Breeder", "Psychic", "Sage", "Professor"]);
+const TEAM_OWNERS = new Set(["Team Rocket", "Team Galactic", "Team Yell"]);
+const NON_PERSON_TEAM_CARDS = new Set(["Handiwork", "Trickery", "Wager", "Cheer"]);
+const NON_PERSON_SUPPORTERS = /^(Friends in .+|Teammates|Underground Expedition|Pokémon Fan Club)$/;
+export function supporterCharacter(en) {
+  const name = titleCardName(en);
+  if (!name) return "";
+  const paren = /\(([^)]+)\)\s*$/.exec(name);
+  if (paren) return paren[1].trim();
+  const own = /^(.+?)'s (.+)$/.exec(name);
+  if (own) {
+    const [, owner, rest] = own;
+    if (TEAM_OWNERS.has(owner)) return NON_PERSON_TEAM_CARDS.has(rest) ? "" : rest;
+    return NON_PERSON_OWNERS.has(owner) ? "" : owner;
+  }
+  if (NON_PERSON_SUPPORTERS.test(name)) return "";
+  return name.replace(/^(?:Rapid|Single) Strike Style /, "");
+}
+// Item Specifics の Character。ポケモンはポケモンの名前、サポートは絵の人物、
+// グッズ・ポケモンのどうぐ・スタジアム・エネルギー・種類の分からないトレーナーズは空（出力しない）
+export function characterOf(f) {
+  const kind = cardKindOf(f);
+  if (!kind || kind === "Pokemon") return extractCharacter(f.pokemonEn);
+  if (kind === "Supporter") return supporterCharacter(f.pokemonEn);
+  return "";
 }
 // タイトル用のカード名。プリズムスターの英語名 "Volcanion ◇" の ◇ は外す（記号は検索されにくく、
 // タイトルにはレアリティの略号 "Prism Star" が入るため）。Card Name には ◇ 付きの英語名をそのまま使う
@@ -590,7 +627,7 @@ export function buildItemSpecifics(f) {
   const pairs = [
     ["Game", "Pokémon TCG"],
     ["Card Name", f.pokemonEn],
-    ["Character", extractCharacter(f.pokemonEn)],
+    ["Character", characterOf(f)],
     ["Set", f.setNameEn],
     ["Card Number", f.cardNo],
     ["Rarity", f.rarity ? (RARITY_EN_LABELS[f.rarity] || f.rarity) : ""],

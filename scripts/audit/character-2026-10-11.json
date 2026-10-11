@@ -1,0 +1,156 @@
+{
+ "note": "Item Specifics の Character を直す前と後（2026-10-11）。scripts/audit/character-examples.test.jsx で直す前の App.jsx と直した後の App.jsx で生成",
+ "examples": {
+  "SV2a-006": {
+   "ja": "リザードンex",
+   "en": "Charizard ex",
+   "cardName": "Charizard ex",
+   "before": "Charizard",
+   "after": "Charizard"
+  },
+  "PMCG5-043": {
+   "ja": "タケシのサンド",
+   "en": "Brock's Sandshrew",
+   "cardName": "Brock's Sandshrew",
+   "before": "Brock's Sandshrew",
+   "after": "Brock's Sandshrew"
+  },
+  "SV-P-161": {
+   "ja": "ナンジャモ",
+   "en": "Iono",
+   "cardName": "Iono",
+   "before": "Iono",
+   "after": "Iono"
+  },
+  "S4a-176": {
+   "ja": "ボスの指令",
+   "en": "Boss's Orders (Giovanni)",
+   "cardName": "Boss's Orders (Giovanni)",
+   "before": "Boss's Orders (Giovanni)",
+   "after": "Giovanni"
+  },
+  "S-P-128": {
+   "ja": "博士の研究",
+   "en": "Professor's Research (Professor Magnolia)",
+   "cardName": "Professor's Research (Professor Magnolia)",
+   "before": "Professor's Research (Professor Magnolia)",
+   "after": "Professor Magnolia"
+  },
+  "SV2a-161": {
+   "ja": "エリカの招待",
+   "en": "Erika's Invitation",
+   "cardName": "Erika's Invitation",
+   "before": "Erika's Invitation",
+   "after": "Erika"
+  },
+  "SV10-091": {
+   "ja": "ロケット団のアテナ",
+   "en": "Team Rocket's Ariana",
+   "cardName": "Team Rocket's Ariana",
+   "before": "Team Rocket's Ariana",
+   "after": "Ariana"
+  },
+  "XY10-B-077": {
+   "ja": "ロケット団の工作",
+   "en": "Team Rocket's Handiwork",
+   "cardName": "Team Rocket's Handiwork",
+   "before": "Team Rocket's Handiwork",
+   "after": "（出力なし）"
+  },
+  "CP6-084": {
+   "ja": "オーキド博士のヒント",
+   "en": "Professor Oak's Hint",
+   "cardName": "Professor Oak's Hint",
+   "before": "Professor Oak's Hint",
+   "after": "Professor Oak"
+  },
+  "SD-119": {
+   "ja": "マチスの作戦",
+   "en": "Lt. Surge's Strategy",
+   "cardName": "Lt. Surge's Strategy",
+   "before": "Lt. Surge's Strategy",
+   "after": "Lt. Surge"
+  },
+  "SM5S-059": {
+   "ja": "アカギ プリズムスター",
+   "en": "Cyrus ◇",
+   "cardName": "Cyrus ◇",
+   "before": "Cyrus",
+   "after": "Cyrus"
+  },
+  "XY2-079": {
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "cardName": "Pokémon Fan Club",
+   "before": "Pokémon Fan Club",
+   "after": "（出力なし）"
+  },
+  "M1L-083": {
+   "ja": "夜のタンカ",
+   "en": "Night Stretcher",
+   "cardName": "Night Stretcher",
+   "before": "Night Stretcher",
+   "after": "（出力なし）"
+  },
+  "S12a-145": {
+   "ja": "こだわりベルト",
+   "en": "Choice Belt",
+   "cardName": "Choice Belt",
+   "before": "Choice Belt",
+   "after": "（出力なし）"
+  },
+  "SV1a-070": {
+   "ja": "ボウルタウン",
+   "en": "Artazon",
+   "cardName": "Artazon",
+   "before": "Artazon",
+   "after": "（出力なし）"
+  },
+  "SV10-098": {
+   "ja": "ロケット団エネルギー",
+   "en": "Team Rocket's Energy",
+   "cardName": "Team Rocket's Energy",
+   "before": "Team Rocket's Energy",
+   "after": "（出力なし）"
+  },
+  "PMCG1-091": {
+   "ja": "ピッピ人形",
+   "en": "",
+   "cardName": "",
+   "before": "（出力なし）",
+   "after": "（出力なし）"
+  }
+ },
+ "changedByKind": {
+  "Item": {
+   "changed": 1736,
+   "removed": 1736,
+   "toPerson": 0
+  },
+  "Supporter": {
+   "changed": 531,
+   "removed": 163,
+   "toPerson": 368
+  },
+  "Stadium": {
+   "changed": 305,
+   "removed": 305,
+   "toPerson": 0
+  },
+  "Tool": {
+   "changed": 168,
+   "removed": 168,
+   "toPerson": 0
+  },
+  "Energy": {
+   "changed": 273,
+   "removed": 273,
+   "toPerson": 0
+  },
+  "Trainer": {
+   "changed": 327,
+   "removed": 327,
+   "toPerson": 0
+  }
+ }
+}

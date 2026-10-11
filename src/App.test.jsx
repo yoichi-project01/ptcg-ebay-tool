@@ -1107,3 +1107,32 @@ describe("プロモの SKU（カード番号を持たない弾は型番を含め
     expect(buildSku({ ...DEFAULT_FORM, ...old }, "single")).toBe("SM-P-NM");
   });
 });
+
+describe("Item Specifics の Character（カードの種類ごと）", () => {
+  const charOf = (id) => {
+    const c = id.slice(0, id.lastIndexOf("-")), n = id.slice(id.lastIndexOf("-") + 1);
+    const set = CARD_DATA_FOR_TEST.find((s) => s.c === c);
+    const card = set.k.find((r) => r[0] === n);
+    return Object.fromEntries(buildItemSpecifics(applyCandidateToForm(DEFAULT_FORM, { set, card })))["Character"];
+  };
+  it("ポケモンはポケモンの名前（これまでどおり）", () => {
+    expect(charOf("SV2a-006")).toBe("Charizard");
+  });
+  it("サポートは絵の人物", () => {
+    expect(charOf("SV-P-161")).toBe("Iono");
+    expect(charOf("S4a-176")).toBe("Giovanni"); // Boss's Orders (Giovanni)
+    expect(charOf("S-P-128")).toBe("Professor Magnolia"); // Professor's Research (Professor Magnolia)
+    expect(charOf("SV2a-161")).toBe("Erika"); // Erika's Invitation
+    expect(charOf("SV10-091")).toBe("Ariana"); // Team Rocket's Ariana
+    expect(charOf("CP6-084")).toBe("Professor Oak"); // Professor Oak's Hint
+    expect(charOf("SM5S-059")).toBe("Cyrus"); // Cyrus ◇
+  });
+  it("人物でないサポート・グッズ・どうぐ・スタジアム・エネルギーは出さない", () => {
+    expect(charOf("XY10-B-077")).toBeUndefined(); // Team Rocket's Handiwork
+    expect(charOf("XY2-079")).toBeUndefined(); // Pokémon Fan Club
+    expect(charOf("M1L-083")).toBeUndefined(); // Night Stretcher
+    expect(charOf("S12a-145")).toBeUndefined(); // Choice Belt
+    expect(charOf("SV1a-070")).toBeUndefined(); // Artazon
+    expect(charOf("SV10-098")).toBeUndefined(); // Team Rocket's Energy
+  });
+});

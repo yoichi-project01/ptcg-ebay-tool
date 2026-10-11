@@ -1,0 +1,392 @@
+{
+ "counts": {
+  "Pokemon": 18657,
+  "Item": 1939,
+  "Supporter": 1873,
+  "Stadium": 343,
+  "Tool": 172,
+  "Energy": 616,
+  "Trainer": 496
+ },
+ "sources": {
+  "name": 4712,
+  "bulbapedia": 18469,
+  "tcgdex": 2,
+  "details": 903,
+  "name-contains": 10,
+  "same-name": 414
+ },
+ "conflicts": [
+  {
+   "id": "PMCG1-019",
+   "ja": "ウィンディ",
+   "en": "Arcanine",
+   "chosen": "bulbapedia:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "PMCG1-069",
+   "ja": "ハクリュウ",
+   "en": "Dragonair",
+   "chosen": "bulbapedia:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "PMCG6-034",
+   "ja": "カツラのウィンディ",
+   "en": "Blaine's Arcanine",
+   "chosen": "bulbapedia:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "S-P-106",
+   "ja": "ココ",
+   "en": "",
+   "chosen": "name:Trainer",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "S4-090",
+   "ja": "ドローンロトム",
+   "en": "Drone Rotom",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "S9-092",
+   "ja": "キャンプファイヤー",
+   "en": "Kindler",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter tcgdex:Supporter name:Pokemon"
+  },
+  {
+   "id": "S9-113",
+   "ja": "キャンプファイヤー",
+   "en": "Kindler",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "S9-121",
+   "ja": "キャンプファイヤー",
+   "en": "Kindler",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "SVB-001",
+   "ja": "ネオラントV",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "SVB-002",
+   "ja": "メリープ",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "SVB-003",
+   "ja": "モココ",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "SVB-004",
+   "ja": "ミュウ",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "SVB-008",
+   "ja": "ポケギア3.0",
+   "en": "",
+   "chosen": "name:Trainer",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "SVB-009",
+   "ja": "ポケモンいれかえ",
+   "en": "",
+   "chosen": "name:Trainer",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "SVB-010",
+   "ja": "こだわりベルト",
+   "en": "",
+   "chosen": "name:Trainer",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "SVB-011",
+   "ja": "博士の研究",
+   "en": "",
+   "chosen": "name:Trainer",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "E2-078",
+   "ja": "ポケモン大好きクラブ",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Trainer name:Pokemon"
+  },
+  {
+   "id": "E4-070",
+   "ja": "ちていのかせき",
+   "en": "",
+   "chosen": "name:Trainer",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "XY2-079",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "XY2-087",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "XY10-B-069",
+   "ja": "かいの化石 オムナイト",
+   "en": "Helix Fossil Omanyte",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "XY10-B-070",
+   "ja": "こうらの化石 カブト",
+   "en": "Dome Fossil Kabuto",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "XY10-B-071",
+   "ja": "ひみつのコハク プテラ",
+   "en": "Old Amber Aerodactyl",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "XY11-Bb-049",
+   "ja": "たての化石 タテトプス",
+   "en": "Armor Fossil Shieldon",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "XY11-Br-049",
+   "ja": "ツメの化石 アノプス",
+   "en": "Claw Fossil Anorith",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "BW4-B-066",
+   "ja": "ひみつのコハク プテラ",
+   "en": "Old Amber Aerodactyl",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "BW9-B-065",
+   "ja": "ねっこの化石 リリーラ",
+   "en": "Root Fossil Lileep",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "BW9-B-075",
+   "ja": "Gブースター",
+   "en": "G Booster",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "SM5S-061",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter tcgdex:Supporter name:Pokemon"
+  },
+  {
+   "id": "SM5S-071",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "SM10-086",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter tcgdex:Supporter name:Pokemon"
+  },
+  {
+   "id": "M4-079",
+   "ja": "アンジュフラエッテ",
+   "en": "Ange Floette",
+   "chosen": "bulbapedia:Stadium",
+   "all": "bulbapedia:Stadium tcgdex:Stadium name:Pokemon"
+  },
+  {
+   "id": "20th-071",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "SM-P-273",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "SM-P-336",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "DPt-P-012",
+   "ja": "フーディン四[してんのう]",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "DPt-P-042",
+   "ja": "ギザみみピチューM[ムービー]",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "DPt-P-043",
+   "ja": "ピカチュウM[ムービー]",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "DPt-P-X24332",
+   "ja": "ギザみみピチューM[ムービー]（デザインコンテスト 最優秀賞 幼稚園）",
+   "en": "",
+   "chosen": "details:Pokemon",
+   "all": "details:Pokemon name:Trainer"
+  },
+  {
+   "id": "DPt-P-X24333",
+   "ja": "ギザみみピチューM[ムービー]（デザインコンテスト 最優秀賞 小学一年生）",
+   "en": "",
+   "chosen": "details:Pokemon",
+   "all": "details:Pokemon name:Trainer"
+  },
+  {
+   "id": "DPt-P-X24334",
+   "ja": "ギザみみピチューM[ムービー]（デザインコンテスト 最優秀賞 小学二年生）",
+   "en": "",
+   "chosen": "details:Pokemon",
+   "all": "details:Pokemon name:Trainer"
+  },
+  {
+   "id": "DPt-P-X24343",
+   "ja": "ギザみみピチューM[ムービー]（デザインコンテスト 最優秀賞 てれびくん）",
+   "en": "",
+   "chosen": "details:Pokemon",
+   "all": "details:Pokemon name:Trainer"
+  },
+  {
+   "id": "DPt-P-X24346",
+   "ja": "ギザみみピチューM[ムービー]（デザインコンテスト 最優秀賞 ぷっちぐみ）",
+   "en": "",
+   "chosen": "details:Pokemon",
+   "all": "details:Pokemon name:Trainer"
+  },
+  {
+   "id": "DPt-P-X24347",
+   "ja": "ギザみみピチューM[ムービー]（デザインコンテスト 最優秀賞 ポケモンファン）",
+   "en": "",
+   "chosen": "details:Pokemon",
+   "all": "details:Pokemon name:Trainer"
+  },
+  {
+   "id": "XY-P-298",
+   "ja": "メガサチコEX",
+   "en": "",
+   "chosen": "name:Trainer",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "SO-023",
+   "ja": "キャンプファイヤー",
+   "en": "Kindler",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "SC2-011",
+   "ja": "スマホロトム",
+   "en": "Rotom Phone",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "SCS-R-011",
+   "ja": "スマホロトム",
+   "en": "Rotom Phone",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "SCS-O-011",
+   "ja": "スマホロトム",
+   "en": "Rotom Phone",
+   "chosen": "bulbapedia:Item",
+   "all": "bulbapedia:Item name:Pokemon"
+  },
+  {
+   "id": "DPt2-B-041",
+   "ja": "フーディン四[してんのう]",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "DPt2-B-042",
+   "ja": "フーディン四[してんのう]",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "MMB-P-045",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "MMB-S-045",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  }
+ ]
+}
