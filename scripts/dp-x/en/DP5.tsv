@@ -1,0 +1,155 @@
+id	ja	name	lvx	kind	illustrator	dex	rule	bp	tcgdex	status	en
+DP5-X17000	コリンク	コリンク	false	ポケモン	Masakazu Fukuda	403	Shinx	Shinx（Regigigas Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Shinx
+DP5-X17001	ルクシオ	ルクシオ	false	ポケモン	Naoyo Kimura	404	Luxio	Luxio（Regigigas Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Luxio
+DP5-X17002	ミュウツー	ミュウツー	false	ポケモン	Ken Sugimori	150	Mewtwo	Mewtwo（Regigigas Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Mewtwo
+DP5-X17003	ミュウツー（LV.X）	ミュウツー	true	ポケモン	Shizurow		Mewtwo	Mewtwo LV.X（Regigigas Half Deck）	dp6-144 dpp-DP28	入れる（LV.X: 公式ページのレベルアップ・Bulbapedia の名前・TCGdex 英語版の LV.X〔同じイラストレーター・HP・ダメージ〕）	Mewtwo LV.X
+DP5-X17004	ムウマ	ムウマ	false	ポケモン	Sumiyoshi Kizuki	200	Misdreavus	Misdreavus（Regigigas Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Misdreavus
+DP5-X17005	フワンテ	フワンテ	false	ポケモン	Sumiyoshi Kizuki	425	Drifloon	Drifloon（Regigigas Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Drifloon
+DP5-X17006	フワライド	フワライド	false	ポケモン	Ken Sugimori	426	Drifblim	Drifblim（Regigigas Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Drifblim
+DP5-X17007	レジギガス（対戦スターターパック「ヒードランVSレジギガス」）	レジギガス	false	ポケモン	Kouki Saitou	486	Regigigas	Regigigas（Regigigas Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Regigigas
+DP5-X17008	エネルギー転送	エネルギー転送	false	グッズ	Ryo Ueda			Energy Search（Regigigas Half Deck）	tk-bw-e-21 tk-bw-z-27 dp5-90 bw1-93 bw7-128	入れる（Bulbapedia の一覧・カードのページ「Energy Search (Fossil 59)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Energy Search
+DP5-X17009	エネルギーパッチ（拡張パック「怒りの神殿」）	エネルギーパッチ	false	グッズ	Kent Kanetsuna			Energy Pickup（Regigigas Half Deck）	dp6-132	入れる（Bulbapedia の一覧・カードのページ「Energy Pickup (Legends Awakened 132)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Energy Pickup
+DP5-X17010	モンスターボール	モンスターボール	false	グッズ	Ryo Ueda			Poké Ball（Regigigas Half Deck）	dp5-85 pl1-113 sm1-125	入れる（Bulbapedia の一覧・カードのページ「Poké Ball (Jungle 64)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Poké Ball
+DP5-X17011	ワープポイント	ワープポイント	false	グッズ	Ryo Ueda			Warp Point（Regigigas Half Deck）	dp5-88	入れる（Bulbapedia の一覧・カードのページ「Warp Point (Gym Challenge 126)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Warp Point
+DP5-X17012	バブルコート	バブルコート	false	ポケモンのどうぐ	Daisuke Ito			Bubble Coat（Regigigas Half Deck）	dp6-129	入れる（Bulbapedia と TCGdex 英語版で同じ名前・種類・イラストレーター）	Bubble Coat
+DP5-X17013	バクのトレーニング（拡張パック「秘境の叫び」）	バクのトレーニング	false	サポート	Ken Sugimori			Buck's Training（Regigigas Half Deck）	dp6-130	入れる（Bulbapedia の一覧・カードのページ「Buck's Training (Legends Awakened 130)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Buck's Training
+DP5-X17014	グライガー（対戦スターターパック「ヒードランVSレジギガス」）	グライガー	false	ポケモン	Kouki Saitou	207	Gligar	Gligar（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Gligar
+DP5-X17015	リオル	リオル	false	ポケモン	Kagemaru Himeno	447	Riolu	Riolu（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Riolu
+DP5-X17016	ルカリオ	ルカリオ	false	ポケモン	Naoyo Kimura	448	Lucario	Lucario（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Lucario
+DP5-X17017	グライオン（対戦スターターパック「ヒードランVSレジギガス」）	グライオン	false	ポケモン	Ken Sugimori	472	Gliscor	Gliscor（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Gliscor
+DP5-X17018	グライオン（LV.X）	グライオン	true	ポケモン	Ryo Ueda		Gliscor	Gliscor LV.X（Heatran Half Deck）	dp6-141	入れる（LV.X: 公式ページのレベルアップ・Bulbapedia の名前・TCGdex 英語版の LV.X〔同じイラストレーター・HP・ダメージ〕）	Gliscor LV.X
+DP5-X17019	ダンバル（対戦スターターパック「ヒードランVSレジギガス」）	ダンバル	false	ポケモン	Masakazu Fukuda	374	Beldum	Beldum（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Beldum
+DP5-X17020	メタング（対戦スターターパック「ヒードランVSレジギガス」）	メタング	false	ポケモン	Masakazu Fukuda	375	Metang	Metang（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Metang
+DP5-X17021	ヒードラン（対戦スターターパック「ヒードランVSレジギガス」）	ヒードラン	false	ポケモン	Kouki Saitou	485	Heatran	Heatran（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Heatran
+DP5-X17022	エネルギーつけかえ	エネルギーつけかえ	false	グッズ	Ryo Ueda			Energy Switch（Heatran Half Deck）	dp7-84 dp1-107 sm1-117	入れる（Bulbapedia の一覧・カードのページ「Energy Switch (Aquapolis 120)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Energy Switch
+DP5-X17023	ポケモンいれかえ	ポケモンいれかえ	false	グッズ	Ryo Ueda			Switch（Heatran Half Deck）	sm3.5-67 dp7-93 dp1-119 dp3-128 sm1-132 sm1-160	入れる（Bulbapedia の一覧・カードのページ「Switch (Base Set 95)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Switch
+DP5-X17024	ナゾノクサ（拡張パック「怒りの神殿」）	ナゾノクサ	false	ポケモン	Hiroki Fuchino	043	Oddish	Oddish（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Oddish
+DP5-X17025	クサイハナ（拡張パック「怒りの神殿」）	クサイハナ	false	ポケモン	Sumiyoshi Kizuki	044	Gloom	Gloom（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Gloom
+DP5-X17026	ラフレシア	ラフレシア	false	ポケモン	Kagemaru Himeno	045	Vileplume	Vileplume（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Vileplume
+DP5-X17027	キレイハナ	キレイハナ	false	ポケモン	Atsuko Nishida	182	Bellossom	Bellossom（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Bellossom
+DP5-X17028	マダツボミ	マダツボミ	false	ポケモン	Atsuko Nishida	069	Bellsprout	Bellsprout（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Bellsprout
+DP5-X17029	ウツドン	ウツドン	false	ポケモン	Ken Sugimori	070	Weepinbell	Weepinbell（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Weepinbell
+DP5-X17030	ウツボット	ウツボット	false	ポケモン	Kouki Saitou	071	Victreebel	Victreebel（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Victreebel
+DP5-X17031	レディバ	レディバ	false	ポケモン	Atsuko Nishida	165	Ledyba	Ledyba（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Ledyba
+DP5-X17032	レディアン	レディアン	false	ポケモン	Midori Harada	166	Ledian	Ledian（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Ledian
+DP5-X17033	ヤンヤンマ	ヤンヤンマ	false	ポケモン	Masakazu Fukuda	193	Yanma	Yanma（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Yanma
+DP5-X17034	メガヤンマ	メガヤンマ	false	ポケモン	Kent Kanetsuna	469	Yanmega	Yanmega（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Yanmega
+DP5-X17035	クヌギダマ	クヌギダマ	false	ポケモン	Masakazu Fukuda	204	Pineco	Pineco（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Pineco
+DP5-X17036	ツチニン	ツチニン	false	ポケモン	Midori Harada	290	Nincada	Nincada（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Nincada
+DP5-X17037	テッカニン	テッカニン	false	ポケモン	Ken Sugimori	291	Ninjask	Ninjask（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Ninjask
+DP5-X17038	ヌケニン	ヌケニン	false	ポケモン	Kouki Saitou	292	Shedinja	Shedinja（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Shedinja
+DP5-X17039	リリーラ	リリーラ	false	ポケモン	Kouki Saitou	345	Lileep	Lileep（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Lileep
+DP5-X17040	ユレイドル	ユレイドル	false	ポケモン	Masakazu Fukuda	346	Cradily	Cradily（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Cradily
+DP5-X17041	ドンメル	ドンメル	false	ポケモン	Kouki Saitou	322	Numel	Numel（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Numel
+DP5-X17042	バクーダ	バクーダ	false	ポケモン	Kagemaru Himeno	323	Camerupt	Camerupt（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Camerupt
+DP5-X17043	コータス	コータス	false	ポケモン	Midori Harada	324	Torkoal	Torkoal（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Torkoal
+DP5-X17044	ポワルン 太陽の姿	ポワルン 太陽の姿	false	ポケモン	Lee HyunJung	351		Castform Sunny Form（Cry from the Mysterious）	dp6-51	入れる（Bulbapedia と TCGdex 英語版で同じ名前・イラストレーター・図鑑番号・HP・ダメージ）	Castform Sunny Form
+DP5-X17045	ヒードラン（拡張パック「秘境の叫び」）	ヒードラン	false	ポケモン	Kent Kanetsuna	485	Heatran	Heatran（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Heatran
+DP5-X17046	ヘルガー	ヘルガー	false	ポケモン	Kouki Saitou	229	Houndoom	Houndoom（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Houndoom
+DP5-X17047	ニョロモ	ニョロモ	false	ポケモン	Atsuko Nishida	060	Poliwag	Poliwag（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Poliwag
+DP5-X17048	ニョロゾ	ニョロゾ	false	ポケモン	Sumiyoshi Kizuki	061	Poliwhirl	Poliwhirl（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Poliwhirl
+DP5-X17049	ニョロボン	ニョロボン	false	ポケモン	Mitsuhiro Arita	062	Poliwrath	Poliwrath（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Poliwrath
+DP5-X17050	ニョロトノ	ニョロトノ	false	ポケモン	Masakazu Fukuda	186	Politoed	Politoed（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Politoed
+DP5-X17051	メノクラゲ	メノクラゲ	false	ポケモン	Atsuko Nishida	072	Tentacool	Tentacool（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Tentacool
+DP5-X17052	ドククラゲ	ドククラゲ	false	ポケモン	Kouki Saitou	073	Tentacruel	Tentacruel（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Tentacruel
+DP5-X17053	タッツー	タッツー	false	ポケモン	Ken Sugimori	116	Horsea	Horsea（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Horsea
+DP5-X17054	シードラ	シードラ	false	ポケモン	Atsuko Nishida	117	Seadra	Seadra（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Seadra
+DP5-X17055	キングドラ	キングドラ	false	ポケモン	Mitsuhiro Arita	230	Kingdra	Kingdra（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Kingdra
+DP5-X17056	ヒトデマン	ヒトデマン	false	ポケモン	Ken Sugimori	120	Staryu	Staryu（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Staryu
+DP5-X17057	スターミー	スターミー	false	ポケモン	Kouki Saitou	121	Starmie	Starmie（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Starmie
+DP5-X17058	ウリムー	ウリムー	false	ポケモン	Sumiyoshi Kizuki	220	Swinub	Swinub（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Swinub
+DP5-X17059	イノムー	イノムー	false	ポケモン	Midori Harada	221	Piloswine	Piloswine（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Piloswine
+DP5-X17060	マンムー	マンムー	false	ポケモン	Kouki Saitou	473	Mamoswine	Mamoswine（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Mamoswine
+DP5-X17061	ヘイガニ	ヘイガニ	false	ポケモン	Sumiyoshi Kizuki	341	Corphish	Corphish（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Corphish
+DP5-X17062	シザリガー	シザリガー	false	ポケモン	Mitsuhiro Arita	342	Crawdaunt	Crawdaunt（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Crawdaunt
+DP5-X17063	ポワルン 雨水の姿	ポワルン 雨水の姿	false	ポケモン	Emi Yoshida	351		Castform Rain Form（Cry from the Mysterious）	dp6-49	入れる（Bulbapedia と TCGdex 英語版で同じ名前・イラストレーター・図鑑番号・HP・ダメージ）	Castform Rain Form
+DP5-X17064	ポワルン 雪雲の姿	ポワルン 雪雲の姿	false	ポケモン	Saya Tsuruta	351		Castform Snow-cloud Form（Cry from the Mysterious）	dp6-50	入れる（Bulbapedia と TCGdex 英語版で同じ名前・イラストレーター・図鑑番号・HP・ダメージ）	Castform Snow-cloud Form
+DP5-X17065	ユキメノコ	ユキメノコ	false	ポケモン	Kagemaru Himeno	478	Froslass	Froslass（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Froslass
+DP5-X17066	レジアイス	レジアイス	false	ポケモン	Kazuaki  Aihara	378	Regice	Regice（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Regice
+DP5-X17067	カイオーガ	カイオーガ	false	ポケモン	Kent Kanetsuna	382	Kyogre	Kyogre（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Kyogre
+DP5-X17068	チョンチー（拡張パック「怒りの神殿」）	チョンチー	false	ポケモン	Atsuko Nishida	170	Chinchou	Chinchou（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Chinchou
+DP5-X17069	ランターン（拡張パック「怒りの神殿」）	ランターン	false	ポケモン	Masakazu Fukuda	171	Lanturn	Lanturn（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Lanturn
+DP5-X17070	チョンチー（拡張パック「秘境の叫び」）	チョンチー	false	ポケモン	Midori Harada	170	Chinchou	Chinchou（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Chinchou
+DP5-X17071	ランターン（拡張パック「秘境の叫び」）	ランターン	false	ポケモン	Kouki Saitou	171	Lanturn	Lanturn（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Lanturn
+DP5-X17072	レントラー	レントラー	false	ポケモン	Mitsuhiro Arita	405	Luxray	Luxray（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Luxray
+DP5-X17073	アンノーン［J］	アンノーン［J］	false	ポケモン	Kent Kanetsuna	201	Unown J	Unown J（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Unown J
+DP5-X17074	アンノーン［R］	アンノーン［R］	false	ポケモン	Kent Kanetsuna	201	Unown R	Unown R（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Unown R
+DP5-X17075	アンノーン［U］	アンノーン［U］	false	ポケモン	Kent Kanetsuna	201	Unown U	Unown U（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Unown U
+DP5-X17076	アンノーン［V］	アンノーン［V］	false	ポケモン	Kent Kanetsuna	201	Unown V	Unown V（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Unown V
+DP5-X17077	アンノーン［W］	アンノーン［W］	false	ポケモン	Kazuaki  Aihara	201	Unown W	Unown W（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Unown W
+DP5-X17078	アンノーン［Y］	アンノーン［Y］	false	ポケモン	Kazuaki  Aihara	201	Unown Y	Unown Y（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Unown Y
+DP5-X17079	アンノーン［!］	アンノーン［!］	false	ポケモン	Kent Kanetsuna	201	Unown !	Unown !（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Unown !
+DP5-X17080	アンノーン［?］	アンノーン［?］	false	ポケモン	Kazuaki  Aihara	201	Unown ?	Unown ?（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Unown ?
+DP5-X17081	ゴクリン	ゴクリン	false	ポケモン	Ken Sugimori	316	Gulpin	Gulpin（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Gulpin
+DP5-X17082	マルノーム	マルノーム	false	ポケモン	Midori Harada	317	Swalot	Swalot（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Swalot
+DP5-X17083	バネブー	バネブー	false	ポケモン	Kouki Saitou	325	Spoink	Spoink（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Spoink
+DP5-X17084	ブーピッグ	ブーピッグ	false	ポケモン	Masakazu Fukuda	326	Grumpig	Grumpig（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Grumpig
+DP5-X17085	デオキシス ノーマルフォルム	デオキシス ノーマルフォルム	false	ポケモン	Kent Kanetsuna	386		Deoxys Normal Forme（Temple of Anger）	dp6-1	入れる（Bulbapedia と TCGdex 英語版で同じ名前・イラストレーター・図鑑番号・HP・ダメージ）	Deoxys Normal Forme
+DP5-X17086	デオキシス アタックフォルム	デオキシス アタックフォルム	false	ポケモン	Kent Kanetsuna	386		Deoxys Attack Forme（Temple of Anger）	dp6-24	入れる（Bulbapedia と TCGdex 英語版で同じ名前・イラストレーター・図鑑番号・HP・ダメージ）	Deoxys Attack Forme
+DP5-X17087	デオキシス ディフェンスフォルム	デオキシス ディフェンスフォルム	false	ポケモン	Kazuaki  Aihara	386		Deoxys Defense Forme（Temple of Anger）	dp6-25	入れる（Bulbapedia と TCGdex 英語版で同じ名前・イラストレーター・図鑑番号・HP・ダメージ）	Deoxys Defense Forme
+DP5-X17088	デオキシス スピードフォルム	デオキシス スピードフォルム	false	ポケモン	Kazuaki  Aihara	386		Deoxys Speed Forme（Temple of Anger）	dp6-26	入れる（Bulbapedia と TCGdex 英語版で同じ名前・イラストレーター・図鑑番号・HP・ダメージ）	Deoxys Speed Forme
+DP5-X17089	ミカルゲ	ミカルゲ	false	ポケモン	Ryo Ueda	442	Spiritomb	Spiritomb（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Spiritomb
+DP5-X17090	ギラティナ	ギラティナ	false	ポケモン	Kazuaki  Aihara	487	Giratina	Giratina（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Giratina
+DP5-X17091	ナゾノクサ（拡張パック「秘境の叫び」）	ナゾノクサ	false	ポケモン	Ken Sugimori	043	Oddish	Oddish（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Oddish
+DP5-X17092	クサイハナ（拡張パック「秘境の叫び」）	クサイハナ	false	ポケモン	Ken Sugimori	044	Gloom	Gloom（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Gloom
+DP5-X17093	タマタマ	タマタマ	false	ポケモン	Midori Harada	102	Exeggcute	Exeggcute（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Exeggcute
+DP5-X17094	ナッシー	ナッシー	false	ポケモン	Ken Sugimori	103	Exeggutor	Exeggutor（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Exeggutor
+DP5-X17095	ユクシー	ユクシー	false	ポケモン	Ken Sugimori	480	Uxie	Uxie（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Uxie
+DP5-X17096	エムリット	エムリット	false	ポケモン	Ken Sugimori	481	Mesprit	Mesprit（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Mesprit
+DP5-X17097	アグノム	アグノム	false	ポケモン	Ken Sugimori	482	Azelf	Azelf（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Azelf
+DP5-X17098	ユクシー（LV.X）	ユクシー	true	ポケモン	Shizurow		Uxie	Uxie LV.X（Cry from the Mysterious）	dp6-146	入れる（LV.X: 公式ページのレベルアップ・Bulbapedia の名前・TCGdex 英語版の LV.X〔同じイラストレーター・HP・ダメージ〕）	Uxie LV.X
+DP5-X17099	エムリット（LV.X）	エムリット	true	ポケモン	Shizurow		Mesprit	Mesprit LV.X（Cry from the Mysterious）	dp6-143	入れる（LV.X: 公式ページのレベルアップ・Bulbapedia の名前・TCGdex 英語版の LV.X〔同じイラストレーター・HP・ダメージ〕）	Mesprit LV.X
+DP5-X17100	アグノム（LV.X）	アグノム	true	ポケモン	Shizurow		Azelf	Azelf LV.X（Temple of Anger）	dp6-140	入れる（LV.X: 公式ページのレベルアップ・Bulbapedia の名前・TCGdex 英語版の LV.X〔同じイラストレーター・HP・ダメージ〕）	Azelf LV.X
+DP5-X17101	カラカラ	カラカラ	false	ポケモン	Kagemaru Himeno	104	Cubone	Cubone（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Cubone
+DP5-X17102	ガラガラ	ガラガラ	false	ポケモン	Ken Sugimori	105	Marowak	Marowak（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Marowak
+DP5-X17103	バルキー	バルキー	false	ポケモン	Kagemaru Himeno	236	Tyrogue	Tyrogue（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Tyrogue
+DP5-X17104	サワムラー	サワムラー	false	ポケモン	Mitsuhiro Arita	106	Hitmonlee	Hitmonlee（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Hitmonlee
+DP5-X17105	エビワラー	エビワラー	false	ポケモン	Ken Sugimori	107	Hitmonchan	Hitmonchan（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Hitmonchan
+DP5-X17106	カポエラー	カポエラー	false	ポケモン	Masakazu Fukuda	237	Hitmontop	Hitmontop（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Hitmontop
+DP5-X17107	グライガー（拡張パック「秘境の叫び」）	グライガー	false	ポケモン	Masakazu Fukuda	207	Gligar	Gligar（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Gligar
+DP5-X17108	グライオン（拡張パック「秘境の叫び」）	グライオン	false	ポケモン	Kent Kanetsuna	472	Gliscor	Gliscor（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Gliscor
+DP5-X17109	ノズパス	ノズパス	false	ポケモン	Ken Sugimori	299	Nosepass	Nosepass（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Nosepass
+DP5-X17110	ダイノーズ	ダイノーズ	false	ポケモン	Kent Kanetsuna	476	Probopass	Probopass（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Probopass
+DP5-X17111	アノプス	アノプス	false	ポケモン	Kouki Saitou	347	Anorith	Anorith（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Anorith
+DP5-X17112	アーマルド	アーマルド	false	ポケモン	Kazuaki  Aihara	348	Armaldo	Armaldo（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Armaldo
+DP5-X17113	レジロック	レジロック	false	ポケモン	Kazuaki  Aihara	377	Regirock	Regirock（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Regirock
+DP5-X17114	グラードン	グラードン	false	ポケモン	Kazuaki  Aihara	383	Groudon	Groudon（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Groudon
+DP5-X17115	ドサイドン	ドサイドン	true	ポケモン	Ryo Ueda		Rhyperior	Rhyperior LV.X（Cry from the Mysterious）	dp6-145 dpp-DP29	入れる（LV.X: 公式ページのレベルアップ・Bulbapedia の名前・TCGdex 英語版の LV.X〔同じイラストレーター・HP・ダメージ〕）	Rhyperior LV.X
+DP5-X17116	ポチエナ	ポチエナ	false	ポケモン	Kouki Saitou	261	Poochyena	Poochyena（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Poochyena
+DP5-X17117	グラエナ	グラエナ	false	ポケモン	Masakazu Fukuda	262	Mightyena	Mightyena（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Mightyena
+DP5-X17118	ニューラ	ニューラ	false	ポケモン	Midori Harada	215	Sneasel	Sneasel（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Sneasel
+DP5-X17119	デルビル	デルビル	false	ポケモン	Sumiyoshi Kizuki	228	Houndour	Houndour（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Houndour
+DP5-X17120	フォレトス	フォレトス	false	ポケモン	Kent Kanetsuna	205	Forretress	Forretress（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Forretress
+DP5-X17121	ダンバル（拡張パック「怒りの神殿」）	ダンバル	false	ポケモン	Sumiyoshi Kizuki	374	Beldum	Beldum（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Beldum
+DP5-X17122	メタング（拡張パック「怒りの神殿」）	メタング	false	ポケモン	Midori Harada	375	Metang	Metang（Heatran Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Metang
+DP5-X17123	メタグロス	メタグロス	false	ポケモン	Kent Kanetsuna	376	Metagross	Metagross（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Metagross
+DP5-X17124	レジスチル	レジスチル	false	ポケモン	Kazuaki  Aihara	379	Registeel	Registeel（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Registeel
+DP5-X17125	ジラーチ	ジラーチ	false	ポケモン	Satoshi Ohta	385	Jirachi	Jirachi（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Jirachi
+DP5-X17126	ジバコイル	ジバコイル	true	ポケモン	Ryo Ueda		Magnezone	Magnezone LV.X（Temple of Anger）	dp6-142	入れる（LV.X: 公式ページのレベルアップ・Bulbapedia の名前・TCGdex 英語版の LV.X〔同じイラストレーター・HP・ダメージ〕）	Magnezone LV.X
+DP5-X17127	ニャース	ニャース	false	ポケモン	Atsuko Nishida	052	Meowth	Meowth（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Meowth
+DP5-X17128	ペルシアン	ペルシアン	false	ポケモン	Ken Sugimori	053	Persian	Persian（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Persian
+DP5-X17129	ケンタロス	ケンタロス	false	ポケモン	Ken Sugimori	128	Tauros	Tauros（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Tauros
+DP5-X17130	メタモン	メタモン	false	ポケモン	Ken Sugimori	132	Ditto	Ditto（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Ditto
+DP5-X17131	ミニリュウ	ミニリュウ	false	ポケモン	Ken Sugimori	147	Dratini	Dratini（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Dratini
+DP5-X17132	ハクリュー	ハクリュー	false	ポケモン	Suwama Chiaki	148	Dragonair	Dragonair（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Dragonair
+DP5-X17133	カイリュー	カイリュー	false	ポケモン	Mitsuhiro Arita	149	Dragonite	Dragonite（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Dragonite
+DP5-X17134	スバメ	スバメ	false	ポケモン	Takao Unno	276	Taillow	Taillow（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Taillow
+DP5-X17135	オオスバメ	オオスバメ	false	ポケモン	Suwama Chiaki	277	Swellow	Swellow（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Swellow
+DP5-X17136	エネコ	エネコ	false	ポケモン	Sumiyoshi Kizuki	300	Skitty	Skitty（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Skitty
+DP5-X17137	エネコロロ	エネコロロ	false	ポケモン	Kagemaru Himeno	301	Delcatty	Delcatty（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Delcatty
+DP5-X17138	ポワルン	ポワルン	false	ポケモン	Kanako Eo	351	Castform	Castform（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Castform
+DP5-X17139	レックウザ	レックウザ	false	ポケモン	Kent Kanetsuna	384	Rayquaza	Rayquaza（Cry from the Mysterious）		入れる（規則の名前と Bulbapedia が一致）	Rayquaza
+DP5-X17140	レジギガス（拡張パック「怒りの神殿」）	レジギガス	false	ポケモン	Ryo Ueda	486	Regigigas	Regigigas（Regigigas Half Deck）		入れる（規則の名前と Bulbapedia が一致）	Regigigas
+DP5-X17141	ミミロル	ミミロル	false	ポケモン	Atsuko Nishida	427	Buneary	Buneary（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Buneary
+DP5-X17142	ミミロップ	ミミロップ	false	ポケモン	Kouki Saitou	428	Lopunny	Lopunny（Temple of Anger）		入れる（規則の名前と Bulbapedia が一致）	Lopunny
+DP5-X17143	ポリゴンZ	ポリゴンZ	true	ポケモン	Ryo Ueda		Porygon-Z	Porygon-Z LV.X（Temple of Anger）	dp5-100	入れる（LV.X: 公式ページのレベルアップ・Bulbapedia の名前・TCGdex 英語版の LV.X〔同じイラストレーター・HP・ダメージ〕）	Porygon-Z LV.X
+DP5-X17144	ポケトレ	ポケトレ	false	グッズ	Kazuaki  Aihara			Poké Radar（Cry from the Mysterious）	dp6-133	入れる（Bulbapedia と TCGdex 英語版で同じ名前・種類・イラストレーター）	Poké Radar
+DP5-X17145	ツメの化石	ツメの化石	false	グッズ	Ryo Ueda			Claw Fossil（Temple of Anger）	ex12-78 ex16-84 ex2-90 ex13-91 dp6-138	入れる（Bulbapedia の一覧・カードのページ「Claw Fossil (EX Sandstorm 90)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Claw Fossil
+DP5-X17146	ねっこの化石	ねっこの化石	false	グッズ	Ryo Ueda			Root Fossil（Cry from the Mysterious）	ex12-80 ex16-86 ex2-92 ex13-93 dp6-139	入れる（Bulbapedia の一覧・カードのページ「Root Fossil (EX Sandstorm 92)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Root Fossil
+DP5-X17147	ワザマシン　TS-1	ワザマシン　TS-1	false	ワザマシン	Ryo Ueda			Technical Machine TS-1（Cry from the Mysterious）	dp6-136	入れる（Bulbapedia の一覧・カードのページ「Technical Machine TS-1 (Legends Awakened 136)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Technical Machine TS-1
+DP5-X17148	ワザマシン　TS-2	ワザマシン　TS-2	false	ワザマシン	Ryo Ueda			Technical Machine TS-2（Temple of Anger）	dp6-137	入れる（Bulbapedia の一覧・カードのページ「Technical Machine TS-2 (Legends Awakened 137)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Technical Machine TS-2
+DP5-X17149	シロナの想い	シロナの想い	false	サポート	Ken Sugimori			Cynthia's Feelings（Temple of Anger）	dp6-131	入れる（Bulbapedia の一覧・カードのページ「Cynthia's Feelings (Legends Awakened 131)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Cynthia's Feelings
+DP5-X17150	キッサキしんでん	キッサキしんでん	false	スタジアム	Ryo Ueda			Snowpoint Temple（Temple of Anger）	dp6-134	入れる（Bulbapedia の一覧・カードのページ「Snowpoint Temple (Legends Awakened 134)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Snowpoint Temple
+DP5-X17151	ハードマウンテン	ハードマウンテン	false	スタジアム	Ryo Ueda			Stark Mountain（Cry from the Mysterious）	dp6-135	入れる（Bulbapedia の一覧・カードのページ「Stark Mountain (Legends Awakened 135)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Stark Mountain
+DP5-X17152	エネルギーパッチ	エネルギーパッチ	false	グッズ	Kent Kanetsuna			Energy Pickup（Regigigas Half Deck）	dp6-132	入れる（Bulbapedia の一覧・カードのページ「Energy Pickup (Legends Awakened 132)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Energy Pickup
+DP5-X17153	バクのトレーニング（対戦スターターパック「ヒードランVSレジギガス」）	バクのトレーニング	false	サポート	Ken Sugimori			Buck's Training（Regigigas Half Deck）	dp6-130	入れる（Bulbapedia の一覧・カードのページ「Buck's Training (Legends Awakened 130)」の jname と、TCGdex 英語版で同じ名前・種類・イラストレーター）	Buck's Training
