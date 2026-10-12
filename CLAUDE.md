@@ -3004,7 +3004,7 @@ Bastiodon the Defender・Dialga/Palkia LV.X Constructed Standard Deck・Magmorta
   （`dp-x/bulbapedia-jname-2026-10-11.json`、46名）に絞った。
 - **空欄3行**: DP3-X3041 カラナクシ にしのうみ・X3042 ひがしのうみ（2つのフォルムのイラストレーター・HP・ダメージが同じで見分けられない）、X3043 トリトドン ひがしのうみ
   （TCGdex 英語版に同じイラストレーターのカードが無い）。
-- **気づいたこと（未対応）**: Bulbapedia のデッキの一覧は Palkia・Magmortar・Electivire を「[Holofoil]」「[Non Holofoil]」の2枚として載せている。DP の取り込みで本文が同じ別掲載として
+- **気づいたこと（2026-10-12 に対応済み、下記の split-holo）**: Bulbapedia のデッキの一覧は Palkia・Magmortar・Electivire を「[Holofoil]」「[Non Holofoil]」の2枚として載せている。DP の取り込みで本文が同じ別掲載として
   1行にまとめた4組（DP3 ディアルガ 3119/3120・パルキア 3121/3122、DP4 エレキブル 10502/10503・ブーバーン 10505/10506）は、ホロ版とノーマル版の可能性が高い
   （公式ページでは見分けられない。画像の jpg/gif の違いがホロ・ノーマルの違いかは未確認）。
 
@@ -3131,6 +3131,23 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
 - **空欄のまま**: プロモ9弾（S-P・SV-P・SM-P・XY-P・BW-P・DP-P・DPt-P・L-P・M-P）。商品ではないため公式の商品ページが無く、ポケモンWiki も「SV-Pシリーズのプロモーションカード一覧」のような一覧のページしか無い。
 - **照合で気づいたこと（未修正）**: SVB の 001〜011 は cardData の並びがポケモンWiki と違う（cardData 001 ネオラントV、ポケモンWiki 001 ネストボール。どちらが正しいかは公式で未確認）。
   SVD-139・SVF-038 は cardData では「基本草エネルギー」、ポケモンWiki ではリバーサルエネルギー・ダブルターボエネルギー。CPs-003 シェイミ は Bulbapedia・ポケモンWiki とも LV.X（英語名は空欄のまま）。
+
+### 対応（2026-10-12）: SVB の並び・SVD-139・SVF-038・CPs-003 を公式で確かめて直した・DP3/DP4 のホロ版とノーマル版を分けた
+
+弾ごとにコミット。変更前→変更後は各レポートファイルにある。
+- **SVB 001〜011**（`scripts/fix-rows-from-details.mjs --set SVB --check-images --apply`、レポート `scan-patch-report/SVB-fix-rows.json`）: 公式 details.php（全28件、`scan-progress/SVB.json`）は
+  001 ネストボール〜007 博士の研究・008 ネオラントV〜011 ミュウで、ポケモンWiki と一致。cardData はポケモンとトレーナーズの順が逆だった。11行の名前と画像を公式に合わせた
+  （012〜028 は画像も公式とバイト単位で同じ）。英語名11行は `fill-common-en.mjs`（Bulbapedia の Premium Trainer Box ex の一覧。トレーナーズのイラストレーターは公式から取り直した。
+  古い並びの名前で取った SVB-001〜011 のイラストレーターの記録は消して取り直した）。
+  `fix-rows-from-details.mjs` は公式の結果で食い違う行だけ直す（rebuild と違って英語名などほかの列を残す。名前が変わった行の英語名は空にする）。`--cardIds` で特定のカードだけ確かめられる。
+- **SVD-139 リバーサルエネルギー**（公式 cardID 43841）・**SVF-038 ダブルターボエネルギー**（44072）: どちらも「基本草エネルギー」になっていた。名前を直し、画像を公式から取った（以前は画像なし）。
+  英語名 Reversal Energy・Double Turbo Energy（特殊エネルギー: Bulbapedia と TCGdex 英語版の同じ名前）。
+- **CPs-003 シェイミ → Shaymin LV.X**（`en-name-fix5/fix-cps-003-lvx.mjs`、根拠 `cps-003-lvx.json`）: 公式ページの段階「レベルアップ」・LV.X・HP 110、TCGdex 英語版 pl1-127、Bulbapedia のコレクションパックの一覧が一致。
+- **DP3・DP4 のホロ版とノーマル版**（`scripts/dp-x/split-holo.mjs --set DP3|DP4 --apply`、レポート `dp-x/split-holo-{弾}.json`）: 取り込みのとき本文が同じ別掲載として1行にまとめた4組は、
+  公式の画像を見比べると gif の方にホロ模様（イラストの枠の星形）があり別のカード。Bulbapedia のデッキの一覧も Holofoil / Non Holofoil の2枚。
+  今の行（jpg）を「〜（ノーマル）」にし、ホロの行を足した: DP3-X3119 ディアルガ（ノーマル）・X3120 ディアルガ（ホロ）・X3121 パルキア（ノーマル）・X3122 パルキア（ホロ）、
+  DP4-X10502 エレキブル（ノーマル）・X10503 エレキブル（ホロ）・X10505 ブーバーン（ノーマル）・X10506 ブーバーン（ホロ）。英語名は両方とも同じ（Dialga 等）、レアリティは空（公式にアイコンが無い）。
+  **`build-dp-sets.mjs` をもう一度実行すると、この4組を再び1行にまとめてしまう**（`plan-{弾}.json` の dupListings）ので、再実行したら `split-holo.mjs` も実行すること。
 
 ---
 
