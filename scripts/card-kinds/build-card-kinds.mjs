@@ -126,6 +126,13 @@ for (const s of data) for (const r of s.k) {
   const ks = new Set([...(byName.get(`ja:${baseJa(r[1])}`) ?? []), ...(r[2] ? byName.get(`en:${r[2]}`) ?? [] : [])]);
   if (ks.size === 1) { const [k] = ks; out[id] = k; report.counts.Trainer--; report.counts[k]++; report.sources["same-name"] = (report.sources["same-name"] || 0) + 1; }
 }
+// ミラーの柄の版の行（型番の末尾に版の印 "025-PB" 等。scripts/mirror-variants/）は元の行と同じカードなので、元の行の種類を使う
+for (const s of data) for (const r of s.k) {
+  const m = /^(.+)-[A-Z]+$/.exec(r[0]);
+  if (!m || !s.k.some((x) => x[0] === m[1])) continue;
+  const id = `${s.c}-${r[0]}`, base = out[`${s.c}-${m[1]}`];
+  if (base) out[id] = base; else delete out[id];
+}
 console.log(report.counts, report.sources, "食い違い", report.conflicts.length);
 fs.writeFileSync(path.join(__dirname, "report.json"), JSON.stringify(report, null, 1) + "\n");
 if (process.argv.includes("--write")) fs.writeFileSync(path.join(ROOT, "src", "cardKinds.json"), JSON.stringify(out) + "\n");

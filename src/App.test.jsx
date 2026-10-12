@@ -9,7 +9,7 @@ import {
   buildConditionPhrasesSentence, computeMonthlyUsage, DEFAULT_FORM,
   buildPackTitle, buildEbaySearchQuery,
   buildSealedTitle, buildSealedDesc, applySealedProductToForm, resolveHistoryMode,
-  SEALED_CONDITIONS, SEALED_PRODUCTS, holoFinishOf,
+  SEALED_CONDITIONS, SEALED_PRODUCTS, holoFinishOf, mirrorVariantOf,
 } from "./App.jsx";
 
 const DEFAULT_F = {
@@ -1182,5 +1182,30 @@ describe("ホロ版とノーマル版を分けたカード（DP3・DP4、2026-10
   });
   it("分けていないカードには Finish を出さない", () => {
     expect(Object.fromEntries(buildItemSpecifics(formOf("DP3-X3143"))).Finish).toBeUndefined();
+  });
+});
+
+describe("ミラーの柄の版（2026-10-12）", () => {
+  const formOf = (id) => {
+    const m = id.match(/^(.+?)-(\d{3}(?:-[A-Z]+)?)$/);
+    const set = CARD_DATA_FOR_TEST.find((s) => s.c === m[1]);
+    return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((k) => k[0] === m[2]) });
+  };
+  it("日本語名の末尾から版の印を返す", () => {
+    expect(mirrorVariantOf({ pokemonJa: "ピカチュウ（マスターボールミラー）" })).toBe("MB");
+    expect(mirrorVariantOf({ pokemonJa: "ピカチュウ（モンスターボールミラー）" })).toBe("PB");
+    expect(mirrorVariantOf({ pokemonJa: "ピカチュウ" })).toBe("");
+  });
+  it("版の行はタイトルに版、Finish に Reverse Holo、SKU に版の印、カード番号は元の番号", () => {
+    const f = formOf("SV2a-025-MB");
+    expect(f.cardNo).toBe("025/165");
+    expect(buildSingleTitle(f)).toBe("Pikachu C 025/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM 2023");
+    expect(Object.fromEntries(buildItemSpecifics(f)).Finish).toBe("Reverse Holo");
+    expect(buildSku(f)).toBe("SV2A-025-NM-MB");
+  });
+  it("元の行は今までどおり（Finish なし、SKU に印なし）", () => {
+    const f = formOf("SV2a-025");
+    expect(Object.fromEntries(buildItemSpecifics(f)).Finish).toBeUndefined();
+    expect(buildSku(f)).toBe("SV2A-025-NM");
   });
 });

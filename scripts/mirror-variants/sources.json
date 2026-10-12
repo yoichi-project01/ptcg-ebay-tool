@@ -1,0 +1,47 @@
+{
+ "_about": "ミラーの柄の版（モンスターボールミラー・マスターボールミラー等）がどの弾にあるか、どの情報源で確かめたか（2026-10-12）。add-mirror-variants.mjs が added の弾に行を足す。版の印は src/App.jsx の MIRROR_VARIANTS と同じ",
+ "codes": {
+  "PB": { "ja": "モンスターボールミラー", "en": "Poke Ball Reverse Holo" },
+  "MB": { "ja": "マスターボールミラー", "en": "Master Ball Reverse Holo" },
+  "EN": { "ja": "エネルギーマークミラー", "en": "Energy Reverse Holo" },
+  "FB": { "ja": "フレンドボールミラー", "en": "Friend Ball Reverse Holo" },
+  "LB": { "ja": "ラブラブボールミラー", "en": "Love Ball Reverse Holo" },
+  "DB": { "ja": "ダークボールミラー", "en": "Dusk Ball Reverse Holo" },
+  "QB": { "ja": "クイックボールミラー", "en": "Quick Ball Reverse Holo" },
+  "R": { "ja": "Rマークミラー", "en": "Team Rocket Reverse Holo" }
+ },
+ "added": {
+  "SV2a": {
+   "variants": ["PB", "MB"],
+   "cards": "レアリティ C・U・R の全行（153行。ポケモン 001〜151 のうち C/U/R と、トレーナーズ 152〜165）",
+   "evidence": {
+    "PB": [
+     "公式の特設サイト https://www.pokemon-card.com/ex/sv2a/ 「通常のカードに加えて、モンスターボール柄の特殊な加工がされた、豪華ミラー仕様のカードが収録！」（2026-10-12 に確認）",
+     "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/151_(TCG) 「In the Japanese ... subsets ... common, uncommon, and rare cards have Mirror Holofoil variants featuring a Poké Ball pattern; or, rarely, a Master Ball pattern」"
+    ],
+    "MB": [
+     "Bulbapedia（同上）",
+     "PSA の鑑定書（ユーザー判断で2つ目の情報源にした）: 2023 POKEMON JAPANESE SV2a-POKEMON CARD 151 #025 PIKACHU MASTER BALL REVERSE HOLO（cert 81668404 ほか）、#093 HAUNTER、#152 ENERGY STICKER（トレーナーズにもある）。検索結果の PSA の鑑定書のページの題名で確認"
+    ]
+   }
+  },
+  "M2a": {
+   "variants": ["EN", "ball/R（カードごとに PB・FB・LB・DB・QB・R のどれか1つ）"],
+   "cards": "レアリティ表記の無いポケモンのカード118行（M2a-pokemonwiki.json）",
+   "evidence": [
+    "公式の特設サイト https://www.pokemon-card.com/ex/m2a/ 「エネルギーマーク柄や様々なモンスターボール柄の豪華ミラー仕様のカードが登場！」、見本の画像にフレンドボール柄（011 スボミー）と R柄（102 ロケット団のヤミカラス）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/ポケモンカードゲーム_MEGA_ハイクラスパック_MEGAドリームex の「ミラー仕様」の表（カードごとのボール/R。M2a-pokemonwiki.json に保存）。全ポケモンにタイプ柄（エネルギーマーク柄）のミラーが1種類ある",
+    "Bulbapedia の各カードのページの「Each release has two Mirror Holofoil variants featuring either a ... Energy symbol or a [[… Ball]]」（MEGA Dream ex (TCG) の一覧からカードのページを引いた。結果は M2a-bulbapedia-2026-10-12.txt、番号:ボール:EN）。118枚すべてポケモンWiki と一致"
+   ]
+  }
+ },
+ "notAdded": {
+  "SV8a": "モンスターボールミラー: 公式（https://www.pokemon-card.com/ex/sv8a/ の見本 081 フカマル）と Bulbapedia（Terastal Fest ex (TCG) 「introduces a new Mirror Holofoil Poké Ball pattern that can appear on certain cards ... a chance to be a Master Ball pattern」）で弾にあることは確かめたが、どのカードにあるか（certain cards）がどの情報源にも無いため足していない。マスターボールミラーは Bulbapedia と PSA の鑑定品の出品（2024 Pokemon JPN SV8A - Terastal Fest EX Master Ball Reverse Holo …）",
+  "SV11B・SV11W": "モンスターボールミラー: 公式（https://www.pokemon-card.com/ex/sv11/）だけ。Bulbapedia の日本版のページ（Black Bolt/White Flare (TCG)）・ポケモンWiki には記載が無い。マスターボールミラーは英語版（Black Bolt ~ White Flare (TCG)）の記載だけで、日本版はどの情報源にも無い"
+ },
+ "psaLabels": {
+  "MB": "MASTER BALL REVERSE HOLO（PSA の鑑定書。SV2a #025・#093・#152）",
+  "PB": "PSA のページでは確かめられなかった（PSA 鑑定品の eBay の出品の題名に「Pokeball Reverse Holo」）",
+  "M2a": "PSA のページでは確かめられなかった"
+ }
+}

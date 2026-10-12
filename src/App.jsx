@@ -258,6 +258,8 @@ export function searchCards(query) {
   return results.slice(0, 24);
 }
 function cardNoOf(setObj, local) {
+  // ミラーの柄の版（"025-PB" 等）は番号部分で表す
+  local = baseLocal(local);
   if (setObj.of > 0 && /^\d+$/.test(local)) return `${pad3(local)}/${pad3(setObj.of)}`;
   return "";
 }
@@ -331,6 +333,8 @@ function findDbCard(selectedKey) {
 }
 // ローカルにスクレイピング済み画像があればそのパスを返す
 function localImage(setObj, local) {
+  // ミラーの柄の版の行には元の行の画像を使わない（版の画像は無い。キー "SV2a/025-PB" は対応表に無い）
+  if (/-[A-Z]+$/.test(local)) return IMAGE_INDEX[`${setObj.c}/${local}`] ? `/${IMAGE_INDEX[`${setObj.c}/${local}`]}` : null;
   const n = parseInt(local, 10);
   const key = `${setObj.c}/${isNaN(n) ? local : n}`;
   return IMAGE_INDEX[key] ? `/${IMAGE_INDEX[key]}` : null;
@@ -447,6 +451,26 @@ export function holoFinishOf(f) {
   if (/（ノーマル）$/.test(ja)) return "regular";
   return "";
 }
+// 同じ型番でミラーの柄が違う版（2026-10-12、scripts/mirror-variants/）。型番の末尾に印を付けた別の行（例 SV2a-025-PB）で、
+// 日本語名の末尾に「（マスターボールミラー）」などが付く。en はタイトル・PSA のラベルの書き方（PSA の鑑定書は "MASTER BALL REVERSE HOLO"）
+export const MIRROR_VARIANTS = {
+  PB: { ja: "モンスターボールミラー", en: "Poke Ball Reverse Holo" },
+  MB: { ja: "マスターボールミラー", en: "Master Ball Reverse Holo" },
+  EN: { ja: "エネルギーマークミラー", en: "Energy Reverse Holo" },
+  FB: { ja: "フレンドボールミラー", en: "Friend Ball Reverse Holo" },
+  LB: { ja: "ラブラブボールミラー", en: "Love Ball Reverse Holo" },
+  DB: { ja: "ダークボールミラー", en: "Dusk Ball Reverse Holo" },
+  QB: { ja: "クイックボールミラー", en: "Quick Ball Reverse Holo" },
+  R: { ja: "Rマークミラー", en: "Team Rocket Reverse Holo" },
+};
+const MIRROR_BY_JA = new Map(Object.entries(MIRROR_VARIANTS).map(([code, v]) => [v.ja, code]));
+// 日本語名の末尾の（〜ミラー）から版の印（PB・MB 等）を返す。版の行でなければ ""
+export function mirrorVariantOf(f) {
+  const m = (f.pokemonJa || "").trim().match(/（([^（）]+ミラー)）$/);
+  return (m && MIRROR_BY_JA.get(m[1])) || "";
+}
+// 型番から版の印を外した番号部分（"025-PB" → "025"）
+function baseLocal(local) { return String(local || "").replace(/-[A-Z]+$/, ""); }
 // 現代カード（旧裏以外）向けのタイトル組み立て本体。要素を優先度順の配列にし、
 // maxLengthを超えたら削除可能な要素を優先度の低いものから1つずつ落とす。
 // UI側で「何を省略したか」を表示できるよう、落とした要素のキーも一緒に返す
@@ -472,6 +496,7 @@ function assembleModernTitle(f, maxLength) {
     titleCardName(f.pokemonEn), // 2. カード名（プリズムスターの ◇ は外す）
     RARITY_TITLE_CODES[f.rarity] ?? f.rarity, // 3. レアリティ略号（印刷された文字。H は文字が無いので入れない）
     f.cardNo, // 4. カード番号
+    MIRROR_VARIANTS[mirrorVariantOf(f)]?.en ?? "", // 4.5 ミラーの柄の版（Master Ball Reverse Holo 等。値段が大きく違うので落とさない）
     "Japanese", // 5.
     displaySetCode(f.setCode), // 6. セット型番（codeAlias優先。買い手は印刷された型番で検索するため）
     "Pokemon Card", // 7.
@@ -585,7 +610,7 @@ export function cardKindOf(f) {
     local = row ? row[0] : "";
   }
   if (!local) return "";
-  return CARD_KINDS[`${set.c}-${local}`] || "Pokemon";
+  return CARD_KINDS[`${set.c}-${local}`] || CARD_KINDS[`${set.c}-${baseLocal(local)}`] || "Pokemon";
 }
 // サポートの絵の人物（eBay の Character 用）。"Boss's Orders (Giovanni)" → Giovanni、"Iono's ..." の形 → Iono、
 // "Team Rocket's Ariana" → Ariana、人物名だけの名前はそのまま。人物でない持ち主・人物でない名前は空
@@ -647,7 +672,8 @@ export function buildItemSpecifics(f) {
     ["Card Number", f.cardNo],
     ["Rarity", f.rarity ? (RARITY_EN_LABELS[f.rarity] || f.rarity) : ""],
     // ホロ版とノーマル版を分けたカードだけ（holoFinishOf）。ほかのカードは今までどおり出さない
-    ["Finish", { holo: "Holo", regular: "Regular" }[holoFinishOf(f)] ?? ""],
+    // ミラーの柄の版は Reverse Holo（eBay の出品の Finish、PSA のラベルの "… REVERSE HOLO"）
+    ["Finish", mirrorVariantOf(f) ? "Reverse Holo" : { holo: "Holo", regular: "Regular" }[holoFinishOf(f)] ?? ""],
     ["Language", "Japanese"],
     ["Manufacturer", "The Pokémon Company"],
     ["Graded", f.graded ? "Yes" : "No"],
@@ -689,6 +715,7 @@ export function buildSku(f, mode) {
         resolvePrintVariant(f) === "1st Edition" ? "1ST" : "",
         resolvePrintVariant(f) === "No Rarity" ? "NR" : "",
         resolvePrintVariant(f) === "Error" ? "ERR" : "",
+        mirrorVariantOf(f), // ミラーの柄の版（PB・MB 等）。元の行と SKU が重ならないように
       ];
   return parts.filter(Boolean).join("-").replace(/[^\w-]/g, "").toUpperCase();
 }
@@ -895,7 +922,9 @@ export function computeMonthlyUsage(history, now = new Date()) {
 }
 // history・queue の両方で使う: entry.f から画像パスを引く
 function entryImage(entry) {
-  const local = entry.f.cardNo ? entry.f.cardNo.split("/")[0] : localOf(entry.f);
+  const ref = localOf(entry.f);
+  if (/-[A-Z]+$/.test(ref)) return IMAGE_INDEX[`${entry.f.setCode}/${ref}`] ? `/${IMAGE_INDEX[`${entry.f.setCode}/${ref}`]}` : null;
+  const local = entry.f.cardNo ? entry.f.cardNo.split("/")[0] : ref;
   const n = parseInt(local, 10);
   if (!entry.f.setCode || !local) return null;
   // 型番が数字ならキーは数値（"064" → 64）、X33404 のような番号の無いプロモの型番はそのまま
@@ -1353,6 +1382,9 @@ function AppInner() {
   const loadFromHistory = (entry) => {
     setMode(resolveHistoryMode(entry.mode));
     setF({ ...DEFAULT_FORM, ...(entry.f || {}) });
+    // 型番（localRef）があればそれで選ぶ（ミラーの柄の版の行は番号だけでは元の行と区別できない）
+    const ref = entry.f?.localRef || "";
+    if (entry.f?.setCode && ref.startsWith(`${entry.f.setCode}/`)) { setSelectedKey(ref); return; }
     const local = entry.f?.cardNo ? entry.f.cardNo.split("/")[0] : "";
     const n = parseInt(local, 10);
     setSelectedKey(entry.f?.setCode && !isNaN(n) ? `${entry.f.setCode}/${n}` : "");
