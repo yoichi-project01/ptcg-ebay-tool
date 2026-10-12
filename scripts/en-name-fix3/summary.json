@@ -4233,11 +4233,11 @@
    "page": "XY-P Promotional cards (TCG)",
    "section": "XY-P Promotional cards",
    "den": "den=XY-P,",
-   "file": "P-3.txt"
+   "file": "P-fix-2026-10-12.txt"
   },
-  "targets": 243,
-  "filled": 219,
-  "filledByRule": 213,
+  "targets": 246,
+  "filled": 222,
+  "filledByRule": 216,
   "blank": 24,
   "blankReasons": {
    "規則で作れない・英語版に同じ名前のポケモンが無い": 23,
