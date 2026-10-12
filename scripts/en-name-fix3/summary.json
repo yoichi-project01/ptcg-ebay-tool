@@ -6987,5 +6987,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "MG-M-pokemon": {
+  "set": "MG-M",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "Mewtwo vs Genesect Deck Kit (TCG)",
+   "section": "Mewtwo Half Deck",
+   "den": "den=016",
+   "file": "MG-2026.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 8,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "MG-M-trainer": {
+  "set": "MG-M",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "Mewtwo vs Genesect Deck Kit (TCG)",
+   "section": "Mewtwo Half Deck",
+   "den": "den=016",
+   "file": "MG-2026.txt"
+  },
+  "targets": 8,
+  "filled": 8,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
