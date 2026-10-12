@@ -6807,5 +6807,35 @@
   "filledByRule": 0,
   "blank": 0,
   "blankReasons": {}
+ },
+ "SA-G-pokemon": {
+  "set": "SA-G",
+  "kind": "pokemon",
+  "bulbapedia": {
+   "page": "V Starter Sets (TCG)",
+   "section": "V Starter Set Grass",
+   "den": "den=023",
+   "file": "SA-2026.txt"
+  },
+  "targets": 10,
+  "filled": 10,
+  "filledByRule": 10,
+  "blank": 0,
+  "blankReasons": {}
+ },
+ "SA-G-trainer": {
+  "set": "SA-G",
+  "kind": "trainer",
+  "bulbapedia": {
+   "page": "V Starter Sets (TCG)",
+   "section": "V Starter Set Grass",
+   "den": "den=023",
+   "file": "SA-2026.txt"
+  },
+  "targets": 12,
+  "filled": 12,
+  "filledByRule": 0,
+  "blank": 0,
+  "blankReasons": {}
  }
 }
