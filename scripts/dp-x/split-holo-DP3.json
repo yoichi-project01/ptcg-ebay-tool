@@ -1,0 +1,30 @@
+{
+ "set": "DP3",
+ "date": "2026-10-12",
+ "changes": [
+  {
+   "id": "DP3-X3119",
+   "before": "X3119/ディアルガ/Dialga/",
+   "after": "X3119/ディアルガ（ノーマル）/Dialga/",
+   "image": "/assets/images/card_images/large/DP3/003119_P_DEIARUGA.jpg"
+  },
+  {
+   "id": "DP3-X3120",
+   "before": "（行なし）",
+   "after": "X3120/ディアルガ（ホロ）/Dialga/",
+   "image": "/assets/images/card_images/large/DP3/003120_P_DEIARUGA.gif"
+  },
+  {
+   "id": "DP3-X3121",
+   "before": "X3121/パルキア/Palkia/",
+   "after": "X3121/パルキア（ノーマル）/Palkia/",
+   "image": "/assets/images/card_images/large/DP3/003121_P_PARUKIA.jpg"
+  },
+  {
+   "id": "DP3-X3122",
+   "before": "（行なし）",
+   "after": "X3122/パルキア（ホロ）/Palkia/",
+   "image": "/assets/images/card_images/large/DP3/003122_P_PARUKIA.gif"
+  }
+ ]
+}
