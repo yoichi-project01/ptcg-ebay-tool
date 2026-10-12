@@ -2903,10 +2903,10 @@ JPG は中身にチェックサムを持たないので、画素が読めても�
 | 3 | 店舗の情報で追加した HR・UR の画像 | 454行 | 低（出品は自分の写真） | 高（見本の画像が無い） | 公式に画像が無い。店舗の画像は使わない方針のため、出どころを決める必要がある |
 | 4 | psaName が無い弾（**2026-10-10 に主要な37弾・DPt1〜4・SM2p・M5・EBB・SC・web1・SGG・SGI を入れた**。残りはデッキ・プロモ・DP1〜5・PSA の表記が見つからない M6・M6a・MC 等） | 71弾 | 低 | 高 | PSA のラベル表記を確かめて入れる（多くは en と同じ見込み） |
 | 5 | ~~`RARITY_EN_LABELS` の SR・MA~~ | | | | **2026-10-10 対応済み**（SR→Super Rare・MA→Mega Attack Rare、下記） |
-| 6 | SA・MG の英語名 | 144行 | 中 | 中 | Bulbapedia の V Starter Sets・Mewtwo vs Genesect の一覧で、これまでと同じ方法 |
-| 7 | プロモの英語名（番号付き131・番号の無い56） | 187行 | 中 | 中 | 日本だけのカードは PSA の表記が要る |
+| 6 | ~~SA・MG の英語名~~（**2026-10-12 対応済み**） | ~~144行~~ | 中 | 中 | Bulbapedia の V Starter Sets・Mewtwo vs Genesect の一覧で、これまでと同じ方法 |
+| 7 | プロモの英語名（番号付き131・番号の無い56。**2026-10-12 に5行を入れた**。残りは日本だけのカード等） | 187行 | 中 | 中 | 日本だけのカードは PSA の表記が要る |
 | 8 | 公式一覧にあって取り込んでいないキー（**2026-10-10 に DPt1〜4・EBB・WAK・MDB・MMB-P/S・HXY・DP1〜5・EP08 を取り込んだ**。残りは DPs-B、ENE、DP・DPt・BW・XY の小さなデッキ等 約65キー） | 約1,090枚 | 中 | 中 | DP・DPt は番号の扱い（種族単位の通し番号）が課題 |
-| 9 | Bulbapedia に番号付きの一覧が無い弾の英語名（SJ・SLD・SLL・SPD・SPZ・XYA〜XYH・SMB〜SMF・SMJ・SMP1・CPr/s/m・L2-Sb/Sh） | 480行 | 中 | 低 | 2つ目の情報源が要る |
+| 9 | Bulbapedia に番号付きの一覧が無い弾の英語名（**2026-10-12 に419行を入れた**。残り61行） | 61行 | 中 | 低 | 2つ目の情報源が要る |
 | 10 | M6・M6a の英語名、M6a 104〜135・M-P の欠番 | 72行・62番号 | 中 | 中 | 英語版の発売・公式の掲載を待つ |
 | 11 | ja が無い弾 | 37弾 | 低（検索・表示） | 低 | |
 | 12 | 基本エネルギーの英語名、SVD-139・SVF-038 の画像 | 261行・2枚 | 低 | 低 | |
@@ -3089,6 +3089,30 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
   入れたスクリプト: カードを足す `new-cards.mjs`（`--set`・`--new`）・`add-numberless-promos.mjs`・`add-promo-rows.mjs`、英語名を入れる `fill-common-en.mjs`・`fill-high-rarity-en.mjs`・
   `en-name-fix4/fill-store-secrets.mjs`・`dp-x/fill-dp-en.mjs`・`numberless-promos/apply-remaining-en.mjs`・`apply-numberless-en.mjs`・`en-name-fix3/person/apply.mjs`。
   `CARD_DATA_PATH` で別の cardData を読んでいるときは作り直さない。一度きりの修正スクリプト（fix-*.mjs 等）には入れていないので、使ったときは手で作り直す。
+
+### 対応（2026-10-12）: SA・MG・プロモ・Bulbapedia に番号付きの一覧が無い弾の英語名（568行）
+
+点検の一覧の6・7・9。これまでと同じ確かめ方で、確かめられないものは空欄のまま。弾ごとにコミット。
+
+1. **SA-G〜SA-F・MG-G・MG-M（144行、空欄0）**: Bulbapedia の「V Starter Sets (TCG)」「Mewtwo vs Genesect Deck Kit (TCG)」の日本版の一覧
+   （`en-name-fix3/bulbapedia/SA-2026.txt`・`MG-2026.txt`、SHA-256 をブラウザの値と照合）と `fill-common-en.mjs`（ポケモンは規則の名前、トレーナーズ・エネルギーは
+   TCGdex 英語版の同じ名前・種類・イラストレーター）。SA-G 22・SA-R 22・SA-W 22・SA-L 23・SA-F 23・MG-G 16・MG-M 16。
+2. **番号付きのプロモ（5行）**: XY-P 189 Beheeyem BREAK・217 Mandibuzz BREAK・267 Arcanine BREAK、SV-P 133 Tapu Lele-GX・134 Dragonite-EX。
+   以前の書き写しで抜けていた一覧の行を `en-name-fix3/bulbapedia/P-fix-2026-10-12.txt` に足した。**残り 334行**: 基本エネルギー 208（カードにイラストレーターの記載が無い）、
+   規則で作れず英語版に同じ名前のポケモンが無い・英語版とイラストレーターが違う・英語版に同じ名前・種類のカードが無い・イラストレーターが分からない（日本だけのカード等）126。
+   番号の無いプロモ 56行も変わらず（日本だけのカードで PSA の表記が要る）。
+3. **Bulbapedia に番号付きの一覧が無い26弾（419行、空欄61）**: `scripts/en-name-fix5/fill-by-jname.mjs --set <弾> [--apply]`（根拠 `en-name-fix5/decisions/{弾}.tsv`、card_id は `{弾}-changed-card-ids.txt`）。
+   - 1つ目の情報源: Bulbapedia のカードのページの日本語名（infobox の jname）。行の日本語名311種類をブラウザで Bulbapedia の検索（`insource:"jname=…"`）から引き、
+     ページの英語名（ページ名の括弧の前）と種類を `en-name-fix5/bulbapedia-jname-2026-10-12.txt`（1行「日本語名|英語名|種類」、SHA-256 をブラウザの値と照合）に保存。
+   - 2つ目: TCGdex 英語版に、その英語名で同じ種類（どうぐ・グッズ・ワザマシンは区別しない）・同じイラストレーター（公式 details.php から取得、`en-name-fix3/illustrators.json`）のカードがあること。
+     候補の英語名がちょうど1つに決まり、ポケモンは日本語名から作った規則の名前とも一致したものだけ入れる。
+   - DP 期（CPr・CPs・CPm）は TCGdex が LV.X を名前に付けないため、一致した TCGdex のカードの段階を確かめ、LEVEL-UP なら Bulbapedia の「〜 LV.X」を書く
+     （CPm-006 Mewtwo LV.X・CPr-011 Regigigas LV.X。段階は `en-name-fix5/.cache/stages.json`）。
+   - 弾ごと: SJ 26・SLD 11・SLL 10・SPD 11・SPZ 12・SP5 4・SMB 14・SMC 20・SMD 6・SME 20・SMF 18・SMJ 31・SMP1 13・XYA 20・XYB 18・XYC 20・XYD 17・XYE 21・XYF 16・XYG 18・XYH 24・
+     CPr 11・CPs 11・CPm 11・L2-Sb 18・L2-Sh 18。
+   - **空欄 61**: 英語版に同じ名前・種類・イラストレーターのカードが無い 28（SMD のサトシVSロケット団の16枚・SPD/SPZ のデオキシス/ゼラオラ V 系・XYC 3・SLL-005 等。日本版だけの絵柄）、
+     Bulbapedia に同じ日本語名・同じ種類のページが無い 16（N・エネルギー回収・エネルギー交換装置・メガ〜EX〔ページの jname の書き方が違う〕・ミノムッチ すなちのミノ 等）、
+     博士の研究（ナナカマド博士）・ボスの指令（アカギ）8（人物の版。引いていない）、イラストレーターが分からない 7（特殊エネルギー）、候補が複数 2（CPs-003 シェイミ と LV.X・SMJ-004 ヌオー）。
 
 ---
 
