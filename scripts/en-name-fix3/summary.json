@@ -4270,11 +4270,11 @@
    "page": "SV-P Promotional cards (TCG)",
    "section": "SV-P Promotional cards",
    "den": "den=SV-P",
-   "file": "P-4.txt"
+   "file": "P-fix-2026-10-12.txt"
   },
-  "targets": 141,
-  "filled": 137,
-  "filledByRule": 125,
+  "targets": 143,
+  "filled": 139,
+  "filledByRule": 127,
   "blank": 4,
   "blankReasons": {
    "規則で作れない・英語版の同じ名前のカードとイラストレーターが違う": 1,
