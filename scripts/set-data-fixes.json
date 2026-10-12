@@ -100,6 +100,227 @@
     "公式サイトの画像フォルダ名: Brn＝リューノ（ブレード）、Brz＝リューズ（ブラスト）",
     "2026-10-08: 英語名の補完で、Bulbapedia の Dragon Blast の一覧が BW5-Brn のポケモン名と1件も一致しないことから発見。以前の en・psaName の根拠（PSA の Dragon Blast/Rayquaza の記録）は収録弾の取り違え"
    ]
+  },
+  {
+   "code": "SH", "field": "ja", "from": "", "to": "ファミリーポケモンカードゲーム",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「ファミリーポケモンカードゲーム」2021年7月9日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0 「ファミリーポケモンカードゲーム」 略称 SH 発売日 2021年7月9日。収録カードの一覧（72行）の名前が cardData と同じ番号で 68/72 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SJ", "field": "ja", "from": "", "to": "スペシャルデッキセット ザシアン・ザマゼンタ vs ムゲンダイナ",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スペシャルデッキセット ザシアン・ザマゼンタ vs ムゲンダイナ」2021年11月5日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%87%E3%83%83%E3%82%AD%E3%82%BB%E3%83%83%E3%83%88_%E3%82%B6%E3%82%B7%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%B6%E3%83%9E%E3%82%BC%E3%83%B3%E3%82%BF_vs_%E3%83%A0%E3%82%B2%E3%83%B3%E3%83%80%E3%82%A4%E3%83%8A 「スペシャルデッキセット ザシアン・ザマゼンタ vs ムゲンダイナ」 略称 SJ 発売日 2021年11月5日。収録カードの一覧（68行）の名前が cardData と同じ番号で 62/68 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SK", "field": "ja", "from": "", "to": "プレミアムトレーナーボックス VSTAR",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「プレミアムトレーナーボックス VSTAR」2022年1月14日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9_VSTAR 「プレミアムトレーナーボックス VSTAR」 略称 SK 発売日 2022年1月14日。収録カードの一覧（30行）の名前が cardData と同じ番号で 28/30 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SLD", "field": "ja", "from": "", "to": "スターターセットVSTAR ダークライ",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターセットVSTAR ダークライ」2022年2月25日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88VSTAR_%E3%83%80%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4 「スターターセットVSTAR ダークライ」 略称 SLD 発売日 2022年2月25日。収録カードの一覧（20行）の名前が cardData と同じ番号で 18/20 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SLL", "field": "ja", "from": "", "to": "スターターセットVSTAR ルカリオ",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターセットVSTAR ルカリオ」2022年2月25日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88VSTAR_%E3%83%AB%E3%82%AB%E3%83%AA%E3%82%AA 「スターターセットVSTAR ルカリオ」 略称 SLL 発売日 2022年2月25日。収録カードの一覧（21行）の名前が cardData と同じ番号で 19/21 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SN", "field": "ja", "from": "", "to": "スタートデッキ100 コロコロコミックver.",
+   "evidence": [
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%87%E3%83%83%E3%82%AD100_%E3%82%B3%E3%83%AD%E3%82%B3%E3%83%AD%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AFver. 「スタートデッキ100 コロコロコミックver.」 略称 SN 発売日 2022年1月15日頃。収録カードの一覧（24行）の名前が cardData と同じ番号で 22/24 一致（違いは人物の版の書き方・LV.X・並びの違い）",
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Start_Deck_100_CoroCoro_Comic_Version_(TCG) の日本語名「スタートデッキ100 コロコロコミックver.」（2026-10-12 に確認。公式の商品一覧にはコロコロコミックの付録のため載っていない）"
+   ]
+  },
+  {
+   "code": "SP5", "field": "ja", "from": "", "to": "スペシャルカードセット ゲッコウガV-UNION・ミュウツーV-UNION・ザシアンV-UNION",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スペシャルカードセット ゲッコウガV-UNION」2021年8月20日（金）、「スペシャルカードセット ミュウツーV-UNION」2021年8月20日（金）、「スペシャルカードセット ザシアンV-UNION」2021年8月20日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%AB%E3%83%BC%E3%83%89%E3%82%BB%E3%83%83%E3%83%88_%E3%83%9F%E3%83%A5%E3%82%A6%E3%83%84%E3%83%BCV-UNION%E3%83%BB%E3%82%B2%E3%83%83%E3%82%B3%E3%82%A6%E3%82%ACV-UNION%E3%83%BB%E3%82%B6%E3%82%B7%E3%82%A2%E3%83%B3V-UNION 「スペシャルカードセット ミュウツーV-UNION」 略称 SP5 発売日 2021年8月20日。収録カードの一覧（13行）の名前が cardData と同じ番号で 4/4 一致（違いは人物の版の書き方・LV.X・並びの違い）",
+    "SP5 の4枚（001 ゲッコウガV-UNION・005 ミュウツーV-UNION・009 ザシアンV-UNION・013 バーネット博士）は3商品に分かれて入る。ポケモンWiki は3商品を1ページにまとめている"
+   ]
+  },
+  {
+   "code": "SP6", "field": "ja", "from": "", "to": "VSTARスペシャルセット",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「VSTARスペシャルセット」2022年8月5日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_VSTAR%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%BB%E3%83%83%E3%83%88 「VSTARスペシャルセット」 略称 SP6 発売日 2022年8月5日。収録カードの一覧（6行）の名前が cardData と同じ番号で 6/6 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SPD", "field": "ja", "from": "", "to": "VSTAR&VMAX ハイクラスデッキ デオキシス",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「VSTAR&VMAX ハイクラスデッキ デオキシス」2022年7月15日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_VSTAR%26VMAX_%E3%83%8F%E3%82%A4%E3%82%AF%E3%83%A9%E3%82%B9%E3%83%87%E3%83%83%E3%82%AD_%E3%83%87%E3%82%AA%E3%82%AD%E3%82%B7%E3%82%B9 「VSTAR&VMAX ハイクラスデッキ デオキシス」 略称 SPD 発売日 2022年7月15日。収録カードの一覧（20行）の名前が cardData と同じ番号で 18/20 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SPZ", "field": "ja", "from": "", "to": "VSTAR&VMAX ハイクラスデッキ ゼラオラ",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「VSTAR&VMAX ハイクラスデッキ ゼラオラ」2022年7月15日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%BD%E3%83%BC%E3%83%89%26%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89_VSTAR%26VMAX_%E3%83%8F%E3%82%A4%E3%82%AF%E3%83%A9%E3%82%B9%E3%83%87%E3%83%83%E3%82%AD_%E3%82%BC%E3%83%A9%E3%82%AA%E3%83%A9 「VSTAR&VMAX ハイクラスデッキ ゼラオラ」 略称 SPZ 発売日 2022年7月15日。収録カードの一覧（20行）の名前が cardData と同じ番号で 18/20 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVAL", "field": "ja", "from": "", "to": "スターターセットex ホゲータ&デンリュウex",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターセットex ホゲータ&デンリュウex」2023年1月20日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88ex_%E3%83%9B%E3%82%B2%E3%83%BC%E3%82%BF%26%E3%83%87%E3%83%B3%E3%83%AA%E3%83%A5%E3%82%A6ex 「スターターセットex ホゲータ&デンリュウex」 略称 SVAL 発売日 2023年1月20日。収録カードの一覧（21行）の名前が cardData と同じ番号で 20/21 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVAM", "field": "ja", "from": "", "to": "スターターセットex ニャオハ&ルカリオex",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターセットex ニャオハ&ルカリオex」2023年1月20日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88ex_%E3%83%8B%E3%83%A3%E3%82%AA%E3%83%8F%26%E3%83%AB%E3%82%AB%E3%83%AA%E3%82%AAex 「スターターセットex ニャオハ&ルカリオex」 略称 SVAM 発売日 2023年1月20日。収録カードの一覧（23行）の名前が cardData と同じ番号で 22/23 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVAW", "field": "ja", "from": "", "to": "スターターセットex クワッス&ミミッキュex",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターセットex クワッス&ミミッキュex」2023年1月20日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88ex_%E3%82%AF%E3%83%AF%E3%83%83%E3%82%B9%26%E3%83%9F%E3%83%9F%E3%83%83%E3%82%AD%E3%83%A5ex 「スターターセットex クワッス&ミミッキュex」 略称 SVAW 発売日 2023年1月20日。収録カードの一覧（23行）の名前が cardData と同じ番号で 22/23 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVB", "field": "ja", "from": "", "to": "プレミアムトレーナーボックスex",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「プレミアムトレーナーボックスex」2023年1月20日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9ex 「プレミアムトレーナーボックスex」 略称 SVB 発売日 2023年1月20日。収録カードの一覧（28行）の名前が cardData と同じ番号で 16/28 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVC", "field": "ja", "from": "", "to": "スターターセットex ピカチュウex&パーモット",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターセットex ピカチュウex&パーモット」2023年3月24日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88ex_%E3%83%94%E3%82%AB%E3%83%81%E3%83%A5%E3%82%A6ex%26%E3%83%91%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88 「スターターセットex ピカチュウex&パーモット」 略称 SVC 発売日 2023年3月24日。収録カードの一覧（21行）の名前が cardData と同じ番号で 20/21 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVD", "field": "ja", "from": "", "to": "exスタートデッキ",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「exスタートデッキ 草 ジュナイパー」2023年7月7日（金）、「exスタートデッキ 炎 ビクティニ」2023年7月7日（金）、「exスタートデッキ 水 ゲッコウガ」2023年7月7日（金）、「exスタートデッキ 雷 ミライドン」2023年7月7日（金）、「exスタートデッキ 超 ピクシー」2023年7月7日（金）、「exスタートデッキ 闘 コライドン」2023年7月7日（金）、「exスタートデッキ 悪 ヘルガー」2023年7月7日（金）、「exスタートデッキ 鋼 メルメタル」2023年7月7日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_ex%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%87%E3%83%83%E3%82%AD 「exスタートデッキ」 略称 SVD 発売日 2023年7月7日。収録カードの一覧（138行）の名前が cardData と同じ番号で 134/138 一致（違いは人物の版の書き方・LV.X・並びの違い）",
+    "SVD は exスタートデッキ（8種、2023-07-07）とテラスタル カイリュー・ヨクバリス（2023-11-24）の共通の記号。公式の商品名はどれも「exスタートデッキ …」で始まり、ポケモンWiki のページ「exスタートデッキ」（略称 SVD）が全体をまとめている"
+   ]
+  },
+  {
+   "code": "SVEL", "field": "ja", "from": "", "to": "スターターセット テラスタル ラウドボーンex",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターセット テラスタル ラウドボーンex」2023年9月22日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88_%E3%83%86%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%AB_%E3%83%A9%E3%82%A6%E3%83%89%E3%83%9C%E3%83%BC%E3%83%B3ex 「スターターセット テラスタル ラウドボーンex」 略称 SVEL 発売日 2023年9月22日。収録カードの一覧（20行）の名前が cardData と同じ番号で 18/20 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVEM", "field": "ja", "from": "", "to": "スターターセット テラスタル ミュウツーex",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターセット テラスタル ミュウツーex」2023年9月22日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88_%E3%83%86%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%AB_%E3%83%9F%E3%83%A5%E3%82%A6%E3%83%84%E3%83%BCex 「スターターセット テラスタル ミュウツーex」 略称 SVEM 発売日 2023年9月22日。収録カードの一覧（20行）の名前が cardData と同じ番号で 18/20 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVF", "field": "ja", "from": "", "to": "デッキビルドBOX 黒炎の支配者",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「デッキビルドBOX 黒炎の支配者」2023年7月28日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%83%87%E3%83%83%E3%82%AD%E3%83%93%E3%83%AB%E3%83%89BOX_%E9%BB%92%E7%82%8E%E3%81%AE%E6%94%AF%E9%85%8D%E8%80%85 「デッキビルドBOX 黒炎の支配者」 略称 SVF 発売日 2023年7月28日。収録カードの一覧（38行）の名前が cardData と同じ番号で 34/38 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVHK", "field": "ja", "from": "", "to": "スターターデッキ&ビルドセット「古代のコライドンex」",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターデッキ&ビルドセット「古代のコライドンex」」2024年1月26日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%87%E3%83%83%E3%82%AD%26%E3%83%93%E3%83%AB%E3%83%89%E3%82%BB%E3%83%83%E3%83%88_%E5%8F%A4%E4%BB%A3%E3%81%AE%E3%82%B3%E3%83%A9%E3%82%A4%E3%83%89%E3%83%B3ex 「スターターデッキ&ビルドセット 古代のコライドンex」 略称 SVHK 発売日 2024年1月26日。収録カードの一覧（107行）の名前が cardData と同じ番号で 103/107 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVHM", "field": "ja", "from": "", "to": "スターターデッキ&ビルドセット「未来のミライドンex」",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「スターターデッキ&ビルドセット「未来のミライドンex」」2024年1月26日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%87%E3%83%83%E3%82%AD%26%E3%83%93%E3%83%AB%E3%83%89%E3%82%BB%E3%83%83%E3%83%88_%E6%9C%AA%E6%9D%A5%E3%81%AE%E3%83%9F%E3%83%A9%E3%82%A4%E3%83%89%E3%83%B3ex 「スターターデッキ&ビルドセット 未来のミライドンex」 略称 SVHM 発売日 2024年1月26日。収録カードの一覧（107行）の名前が cardData と同じ番号で 103/107 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "SVP1", "field": "ja", "from": "", "to": "exスペシャルセット",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「exスペシャルセット」2023年5月19日（金）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0_%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%26%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_ex%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%BB%E3%83%83%E3%83%88 「exスペシャルセット」 略称 SVP1 発売日 2023年5月19日。収録カードの一覧（7行）の名前が cardData と同じ番号で 7/7 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "CPr", "field": "ja", "from": "", "to": "コレクションパック レジギガスLV.X",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「コレクションパック レジギガスLV.X」2009年4月18日（土）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0DPt_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%91%E3%83%83%E3%82%AF_%E3%83%AC%E3%82%B8%E3%82%AE%E3%82%AC%E3%82%B9LV.X 「コレクションパック レジギガスLV.X」 発売日 2009年4月18日。収録カードの一覧（12行）の名前が cardData と同じ番号で 11/12 一致（違いは人物の版の書き方・LV.X・並びの違い）",
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Collection_Packs_(TCG)「コレクションパック」、発売 2009-04-18。Shaymin LV.X / Mewtwo LV.X / Regigigas LV.X Collection Pack の収録カードが CPs / CPm / CPr の 001〜012 と一致"
+   ]
+  },
+  {
+   "code": "CPr", "field": "y", "from": 2007, "to": 2009,
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「コレクションパック レジギガスLV.X」2009年4月18日（土）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0DPt_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%91%E3%83%83%E3%82%AF_%E3%83%AC%E3%82%B8%E3%82%AE%E3%82%AC%E3%82%B9LV.X 発売日 2009年4月18日",
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Collection_Packs_(TCG)「コレクションパック」、発売 2009-04-18。Shaymin LV.X / Mewtwo LV.X / Regigigas LV.X Collection Pack の収録カードが CPs / CPm / CPr の 001〜012 と一致",
+    "以前の 2007 はカードの ©2007 表記から付けた値（2026-08-27）。カードは 2007 年のプロモの再録で、商品の発売は 2009 年"
+   ]
+  },
+  {
+   "code": "CPs", "field": "ja", "from": "", "to": "コレクションパック シェイミLV.X",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「コレクションパック シェイミLV.X」2009年4月18日（土）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0DPt_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%91%E3%83%83%E3%82%AF_%E3%82%B7%E3%82%A7%E3%82%A4%E3%83%9FLV.X 「コレクションパック シェイミLV.X」 発売日 2009年4月18日。収録カードの一覧（12行）の名前が cardData と同じ番号で 11/12 一致（違いは人物の版の書き方・LV.X・並びの違い）",
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Collection_Packs_(TCG)「コレクションパック」、発売 2009-04-18。Shaymin LV.X / Mewtwo LV.X / Regigigas LV.X Collection Pack の収録カードが CPs / CPm / CPr の 001〜012 と一致"
+   ]
+  },
+  {
+   "code": "CPs", "field": "y", "from": 2007, "to": 2009,
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「コレクションパック シェイミLV.X」2009年4月18日（土）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0DPt_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%91%E3%83%83%E3%82%AF_%E3%82%B7%E3%82%A7%E3%82%A4%E3%83%9FLV.X 発売日 2009年4月18日",
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Collection_Packs_(TCG)「コレクションパック」、発売 2009-04-18。Shaymin LV.X / Mewtwo LV.X / Regigigas LV.X Collection Pack の収録カードが CPs / CPm / CPr の 001〜012 と一致",
+    "以前の 2007 はカードの ©2007 表記から付けた値（2026-08-27）。カードは 2007 年のプロモの再録で、商品の発売は 2009 年"
+   ]
+  },
+  {
+   "code": "CPm", "field": "ja", "from": "", "to": "コレクションパック ミュウツーLV.X",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「コレクションパック ミュウツーLV.X」2009年4月18日（土）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0DPt_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%91%E3%83%83%E3%82%AF_%E3%83%9F%E3%83%A5%E3%82%A6%E3%83%84%E3%83%BCLV.X 「コレクションパック ミュウツーLV.X」 発売日 2009年4月18日。収録カードの一覧（12行）の名前が cardData と同じ番号で 11/12 一致（違いは人物の版の書き方・LV.X・並びの違い）",
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Collection_Packs_(TCG)「コレクションパック」、発売 2009-04-18。Shaymin LV.X / Mewtwo LV.X / Regigigas LV.X Collection Pack の収録カードが CPs / CPm / CPr の 001〜012 と一致"
+   ]
+  },
+  {
+   "code": "CPm", "field": "y", "from": 2007, "to": 2009,
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「コレクションパック ミュウツーLV.X」2009年4月18日（土）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0DPt_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%91%E3%83%83%E3%82%AF_%E3%83%9F%E3%83%A5%E3%82%A6%E3%83%84%E3%83%BCLV.X 発売日 2009年4月18日",
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Collection_Packs_(TCG)「コレクションパック」、発売 2009-04-18。Shaymin LV.X / Mewtwo LV.X / Regigigas LV.X Collection Pack の収録カードが CPs / CPm / CPr の 001〜012 と一致",
+    "以前の 2007 はカードの ©2007 表記から付けた値（2026-08-27）。カードは 2007 年のプロモの再録で、商品の発売は 2009 年"
+   ]
+  },
+  {
+   "code": "L2-Sb", "field": "ja", "from": "", "to": "構築スタンダードデッキ「バンギラス悪」",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「構築スタンダードデッキ「バンギラス悪」」2010年2月11日（木）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0LEGEND_%E6%A7%8B%E7%AF%89%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%87%E3%83%83%E3%82%AD_%E3%83%90%E3%83%B3%E3%82%AE%E3%83%A9%E3%82%B9%E6%82%AA 「構築スタンダードデッキ バンギラス悪」 発売日 2010年2月11日。収録カードの一覧（19行）の名前が cardData と同じ番号で 19/19 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
+  },
+  {
+   "code": "L2-Sh", "field": "ja", "from": "", "to": "構築スタンダードデッキ「ハガネール鋼」",
+   "evidence": [
+    "公式の商品情報 https://www.pokemon-card.com/products/（resultAPI.php、2026-10-12 に取得）: 「構築スタンダードデッキ「ハガネール鋼」」2010年2月11日（木）",
+    "ポケモンWiki https://wiki.pokemonwiki.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0LEGEND_%E6%A7%8B%E7%AF%89%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%87%E3%83%83%E3%82%AD_%E3%83%8F%E3%82%AC%E3%83%8D%E3%83%BC%E3%83%AB%E9%8B%BC 「構築スタンダードデッキ ハガネール鋼」 発売日 2010年2月11日。収録カードの一覧（19行）の名前が cardData と同じ番号で 19/19 一致（違いは人物の版の書き方・LV.X・並びの違い）"
+   ]
   }
  ]
 }
