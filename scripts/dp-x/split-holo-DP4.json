@@ -1,0 +1,30 @@
+{
+ "set": "DP4",
+ "date": "2026-10-12",
+ "changes": [
+  {
+   "id": "DP4-X10502",
+   "before": "X10502/エレキブル/Electivire/",
+   "after": "X10502/エレキブル（ノーマル）/Electivire/",
+   "image": "/assets/images/card_images/large/DP4/010502_P_EREKIBURU.jpg"
+  },
+  {
+   "id": "DP4-X10503",
+   "before": "（行なし）",
+   "after": "X10503/エレキブル（ホロ）/Electivire/",
+   "image": "/assets/images/card_images/large/DP4/010503_P_EREKIBURU.gif"
+  },
+  {
+   "id": "DP4-X10505",
+   "before": "X10505/ブーバーン/Magmortar/",
+   "after": "X10505/ブーバーン（ノーマル）/Magmortar/",
+   "image": "/assets/images/card_images/large/DP4/010505_P_BUBAN.jpg"
+  },
+  {
+   "id": "DP4-X10506",
+   "before": "（行なし）",
+   "after": "X10506/ブーバーン（ホロ）/Magmortar/",
+   "image": "/assets/images/card_images/large/DP4/010506_P_BUBAN.gif"
+  }
+ ]
+}
