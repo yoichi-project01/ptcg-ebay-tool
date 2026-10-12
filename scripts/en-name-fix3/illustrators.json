@@ -19359,149 +19359,6 @@
   "illustrator": "Ken Sugimori",
   "cardId": "36459"
  },
- "SVB-008": {
-  "tried": [
-   {
-    "cardId": "42790",
-    "nums": [
-     4
-    ],
-    "illustrator": "Toyste Beach"
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-009": {
-  "tried": [
-   {
-    "cardId": "42791",
-    "nums": [
-     5
-    ],
-    "illustrator": "Studio Bora Inc."
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-010": {
-  "tried": [
-   {
-    "cardId": "42792",
-    "nums": [
-     6
-    ],
-    "illustrator": "Studio Bora Inc."
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-011": {
-  "tried": [
-   {
-    "cardId": "42793",
-    "nums": [
-     7
-    ],
-    "illustrator": "kirisAki"
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-001": {
-  "tried": [
-   {
-    "cardId": "42794",
-    "nums": [
-     8
-    ],
-    "illustrator": "takuyoa"
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-002": {
-  "tried": [
-   {
-    "cardId": "42795",
-    "nums": [
-     9
-    ],
-    "illustrator": "Yukiko Baba"
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-003": {
-  "tried": [
-   {
-    "cardId": "42796",
-    "nums": [
-     10
-    ],
-    "illustrator": "OKACHEKE"
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-004": {
-  "tried": [
-   {
-    "cardId": "42797",
-    "nums": [
-     11
-    ],
-    "illustrator": "Yuu Nishida"
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-005": {
-  "tried": [
-   {
-    "cardId": "42787",
-    "nums": [
-     1
-    ],
-    "illustrator": "Toyste Beach"
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-006": {
-  "tried": [
-   {
-    "cardId": "42788",
-    "nums": [
-     2
-    ],
-    "illustrator": "Ayaka Yoshida"
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
- "SVB-007": {
-  "tried": [
-   {
-    "cardId": "42789",
-    "nums": [
-     3
-    ],
-    "illustrator": "Studio Bora Inc."
-   }
-  ],
-  "illustrator": null,
-  "cardId": null
- },
  "SVB-012": {
   "tried": [
    {
@@ -40532,5 +40389,148 @@
   ],
   "illustrator": "Kent Kanetsuna",
   "cardId": "25573"
+ },
+ "SVB-001": {
+  "tried": [
+   {
+    "cardId": "42787",
+    "nums": [
+     1
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "42787"
+ },
+ "SVB-002": {
+  "tried": [
+   {
+    "cardId": "42788",
+    "nums": [
+     2
+    ],
+    "illustrator": "Ayaka Yoshida"
+   }
+  ],
+  "illustrator": "Ayaka Yoshida",
+  "cardId": "42788"
+ },
+ "SVB-003": {
+  "tried": [
+   {
+    "cardId": "42789",
+    "nums": [
+     3
+    ],
+    "illustrator": "Studio Bora Inc."
+   }
+  ],
+  "illustrator": "Studio Bora Inc.",
+  "cardId": "42789"
+ },
+ "SVB-004": {
+  "tried": [
+   {
+    "cardId": "42790",
+    "nums": [
+     4
+    ],
+    "illustrator": "Toyste Beach"
+   }
+  ],
+  "illustrator": "Toyste Beach",
+  "cardId": "42790"
+ },
+ "SVB-005": {
+  "tried": [
+   {
+    "cardId": "42791",
+    "nums": [
+     5
+    ],
+    "illustrator": "Studio Bora Inc."
+   }
+  ],
+  "illustrator": "Studio Bora Inc.",
+  "cardId": "42791"
+ },
+ "SVB-006": {
+  "tried": [
+   {
+    "cardId": "42792",
+    "nums": [
+     6
+    ],
+    "illustrator": "Studio Bora Inc."
+   }
+  ],
+  "illustrator": "Studio Bora Inc.",
+  "cardId": "42792"
+ },
+ "SVB-007": {
+  "tried": [
+   {
+    "cardId": "42793",
+    "nums": [
+     7
+    ],
+    "illustrator": "kirisAki"
+   }
+  ],
+  "illustrator": "kirisAki",
+  "cardId": "42793"
+ },
+ "SVB-008": {
+  "tried": [
+   {
+    "cardId": "42794",
+    "nums": [
+     8
+    ],
+    "illustrator": "takuyoa"
+   }
+  ],
+  "illustrator": "takuyoa",
+  "cardId": "42794"
+ },
+ "SVB-009": {
+  "tried": [
+   {
+    "cardId": "42795",
+    "nums": [
+     9
+    ],
+    "illustrator": "Yukiko Baba"
+   }
+  ],
+  "illustrator": "Yukiko Baba",
+  "cardId": "42795"
+ },
+ "SVB-010": {
+  "tried": [
+   {
+    "cardId": "42796",
+    "nums": [
+     10
+    ],
+    "illustrator": "OKACHEKE"
+   }
+  ],
+  "illustrator": "OKACHEKE",
+  "cardId": "42796"
+ },
+ "SVB-011": {
+  "tried": [
+   {
+    "cardId": "42797",
+    "nums": [
+     11
+    ],
+    "illustrator": "Yuu Nishida"
+   }
+  ],
+  "illustrator": "Yuu Nishida",
+  "cardId": "42797"
  }
 }

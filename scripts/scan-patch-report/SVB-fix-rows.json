@@ -1,0 +1,226 @@
+{
+ "code": "SVB",
+ "date": "2026-10-12",
+ "changes": [
+  {
+   "id": "SVB-001",
+   "before": [
+    "001",
+    "ネオラントV",
+    "",
+    ""
+   ],
+   "after": [
+    "001",
+    "ネストボール",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42787",
+   "image": "/assets/images/card_images/large/SVB/042787_T_NESUTOBORU.jpg"
+  },
+  {
+   "id": "SVB-002",
+   "before": [
+    "002",
+    "メリープ",
+    "",
+    ""
+   ],
+   "after": [
+    "002",
+    "ハイパーボール",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42788",
+   "image": "/assets/images/card_images/large/SVB/042788_T_HAIPABORU.jpg"
+  },
+  {
+   "id": "SVB-003",
+   "before": [
+    "003",
+    "モココ",
+    "",
+    ""
+   ],
+   "after": [
+    "003",
+    "ふしぎなアメ",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42789",
+   "image": "/assets/images/card_images/large/SVB/042789_T_FUSHIGINAAME.jpg"
+  },
+  {
+   "id": "SVB-004",
+   "before": [
+    "004",
+    "ミュウ",
+    "",
+    ""
+   ],
+   "after": [
+    "004",
+    "ポケギア3.0",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42790",
+   "image": "/assets/images/card_images/large/SVB/042790_T_POKEGIA30.jpg"
+  },
+  {
+   "id": "SVB-005",
+   "before": [
+    "005",
+    "ネストボール",
+    "",
+    ""
+   ],
+   "after": [
+    "005",
+    "ポケモンいれかえ",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42791",
+   "image": "/assets/images/card_images/large/SVB/042791_T_POKEMONIREKAE.jpg"
+  },
+  {
+   "id": "SVB-006",
+   "before": [
+    "006",
+    "ハイパーボール",
+    "",
+    ""
+   ],
+   "after": [
+    "006",
+    "こだわりベルト",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42792",
+   "image": "/assets/images/card_images/large/SVB/042792_T_KODAWARIBERUTO.jpg"
+  },
+  {
+   "id": "SVB-007",
+   "before": [
+    "007",
+    "ふしぎなアメ",
+    "",
+    ""
+   ],
+   "after": [
+    "007",
+    "博士の研究",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42793",
+   "image": "/assets/images/card_images/large/SVB/042793_T_HAKASENOKENKIXYUUFUTOUHAKASE.jpg"
+  },
+  {
+   "id": "SVB-008",
+   "before": [
+    "008",
+    "ポケギア3.0",
+    "",
+    ""
+   ],
+   "after": [
+    "008",
+    "ネオラントV",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42794",
+   "image": "/assets/images/card_images/large/SVB/042794_P_NEORANTOV.jpg"
+  },
+  {
+   "id": "SVB-009",
+   "before": [
+    "009",
+    "ポケモンいれかえ",
+    "",
+    ""
+   ],
+   "after": [
+    "009",
+    "メリープ",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42795",
+   "image": "/assets/images/card_images/large/SVB/042795_P_MERIPU.jpg"
+  },
+  {
+   "id": "SVB-010",
+   "before": [
+    "010",
+    "こだわりベルト",
+    "",
+    ""
+   ],
+   "after": [
+    "010",
+    "モココ",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42796",
+   "image": "/assets/images/card_images/large/SVB/042796_P_MOKOKO.jpg"
+  },
+  {
+   "id": "SVB-011",
+   "before": [
+    "011",
+    "博士の研究",
+    "",
+    ""
+   ],
+   "after": [
+    "011",
+    "ミュウ",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "42797",
+   "image": "/assets/images/card_images/large/SVB/042797_P_MIXYUU.jpg"
+  }
+ ]
+}

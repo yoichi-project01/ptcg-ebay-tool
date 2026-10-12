@@ -1,19 +1,19 @@
 {
  "counts": {
   "Pokemon": 18657,
-  "Item": 1953,
-  "Supporter": 1873,
+  "Item": 1974,
+  "Supporter": 1872,
   "Stadium": 343,
   "Tool": 172,
   "Energy": 608,
-  "Trainer": 490
+  "Trainer": 470
  },
  "sources": {
-  "name": 4560,
-  "bulbapedia": 18623,
+  "name": 4556,
+  "bulbapedia": 18631,
   "details": 903,
-  "name-contains": 10,
-  "same-name": 349
+  "name-contains": 6,
+  "same-name": 365
  },
  "conflicts": [
   {
@@ -71,62 +71,6 @@
    "en": "Kindler",
    "chosen": "bulbapedia:Supporter",
    "all": "bulbapedia:Supporter name:Pokemon"
-  },
-  {
-   "id": "SVB-001",
-   "ja": "ネオラントV",
-   "en": "",
-   "chosen": "name-contains:Pokemon",
-   "all": "bulbapedia:Item name:Pokemon"
-  },
-  {
-   "id": "SVB-002",
-   "ja": "メリープ",
-   "en": "",
-   "chosen": "name-contains:Pokemon",
-   "all": "bulbapedia:Item name:Pokemon"
-  },
-  {
-   "id": "SVB-003",
-   "ja": "モココ",
-   "en": "",
-   "chosen": "name-contains:Pokemon",
-   "all": "bulbapedia:Item name:Pokemon"
-  },
-  {
-   "id": "SVB-004",
-   "ja": "ミュウ",
-   "en": "",
-   "chosen": "name-contains:Pokemon",
-   "all": "bulbapedia:Item name:Pokemon"
-  },
-  {
-   "id": "SVB-008",
-   "ja": "ポケギア3.0",
-   "en": "",
-   "chosen": "name:Trainer",
-   "all": "bulbapedia:Pokemon name:Trainer"
-  },
-  {
-   "id": "SVB-009",
-   "ja": "ポケモンいれかえ",
-   "en": "",
-   "chosen": "name:Trainer",
-   "all": "bulbapedia:Pokemon name:Trainer"
-  },
-  {
-   "id": "SVB-010",
-   "ja": "こだわりベルト",
-   "en": "",
-   "chosen": "name:Trainer",
-   "all": "bulbapedia:Pokemon name:Trainer"
-  },
-  {
-   "id": "SVB-011",
-   "ja": "博士の研究",
-   "en": "",
-   "chosen": "name:Trainer",
-   "all": "bulbapedia:Pokemon name:Trainer"
   },
   {
    "id": "E2-078",
