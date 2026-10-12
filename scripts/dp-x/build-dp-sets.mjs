@@ -9,6 +9,7 @@
 //   ・それでも同じになるもの → LV（「（LV.48）」）。それでも決まらなければ止まる
 // レアリティは details.php のアイコン（c/u/r/s）だけ。アイコンが無いカードは空欄（推測で埋めない）。
 import fs from "node:fs";
+import { execFileSync } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildFileName, writeFileAtomic } from "../filename-utils.mjs";
@@ -121,3 +122,8 @@ data.push(set);
 fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
 fs.writeFileSync(path.join(__dirname, `${meta.c}-added-card-ids.txt`), k.map((r) => `${meta.c}-${r[0]}`).join("\n") + "\n");
 console.log(`${meta.c}: ${k.length}枚を cardData に追加`);
+// DP3・DP4 は、本文が同じで画像（ホロ／ノーマル）だけ違う4組を dupListings で1行にまとめている。
+// ホロ版とノーマル版は別のカードなので、split-holo.mjs で2行に分ける（2026-10-12）
+if (["DP3", "DP4"].includes(meta.c)) {
+  execFileSync(process.execPath, [path.join(__dirname, "split-holo.mjs"), "--set", meta.c, "--apply"], { stdio: "inherit" });
+}

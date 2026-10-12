@@ -9,7 +9,7 @@ import {
   buildConditionPhrasesSentence, computeMonthlyUsage, DEFAULT_FORM,
   buildPackTitle, buildEbaySearchQuery,
   buildSealedTitle, buildSealedDesc, applySealedProductToForm, resolveHistoryMode,
-  SEALED_CONDITIONS, SEALED_PRODUCTS,
+  SEALED_CONDITIONS, SEALED_PRODUCTS, holoFinishOf,
 } from "./App.jsx";
 
 const DEFAULT_F = {
@@ -1150,5 +1150,37 @@ describe("Item Specifics の Character（持ち主付きのポケモン）", () 
     expect(charOf("SV-P-255")).toBe("Garchomp"); // Cynthia's Garchomp ex
     expect(charOf("PMCG6-075")).toBe("Chansey"); // _____'s Chansey
     expect(charOf("PMCG6-074")).toBe("Doduo"); // Imakuni?'s Doduo
+  });
+});
+
+describe("ホロ版とノーマル版を分けたカード（DP3・DP4、2026-10-12）", () => {
+  const formOf = (id) => {
+    const i = id.lastIndexOf("-");
+    const set = CARD_DATA_FOR_TEST.find((s) => s.c === id.slice(0, i));
+    return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((k) => k[0] === id.slice(i + 1)) });
+  };
+  it("名前の末尾でホロ・ノーマルを見分ける", () => {
+    expect(holoFinishOf({ pokemonJa: "ディアルガ（ホロ）" })).toBe("holo");
+    expect(holoFinishOf({ pokemonJa: "ディアルガ（ノーマル）" })).toBe("regular");
+    expect(holoFinishOf({ pokemonJa: "ディアルガ（LV.X・拡張パック「ひかる闇」）" })).toBe("");
+  });
+  it("ホロ版はタイトルに Holo、Finish に Holo", () => {
+    const f = formOf("DP3-X3120");
+    expect(buildSingleTitle(f)).toBe("Dialga Japanese DP3 Pokemon Card NM 2007 Holo");
+    expect(Object.fromEntries(buildItemSpecifics(f)).Finish).toBe("Holo");
+  });
+  it("ノーマル版はタイトルに Non-Holo、Finish に Regular", () => {
+    const f = formOf("DP4-X10505");
+    expect(buildSingleTitle(f)).toBe("Magmortar Japanese DP4 Pokemon Card NM 2007 Non-Holo");
+    expect(Object.fromEntries(buildItemSpecifics(f)).Finish).toBe("Regular");
+  });
+  it("80文字を超えるときも Holo／Non-Holo は最後まで残す", () => {
+    // 必須の要素で68文字。発売年（5文字）と Non-Holo（9文字）の両方は入らないので、発売年を落として Non-Holo を残す
+    const f = { ...formOf("DP3-X3119"), pokemonEn: "Dialga " + "X".repeat(32) };
+    const t = buildSingleTitle(f);
+    expect(t).toBe(`Dialga ${"X".repeat(32)} Japanese DP3 Pokemon Card NM Non-Holo`);
+  });
+  it("分けていないカードには Finish を出さない", () => {
+    expect(Object.fromEntries(buildItemSpecifics(formOf("DP3-X3143"))).Finish).toBeUndefined();
   });
 });

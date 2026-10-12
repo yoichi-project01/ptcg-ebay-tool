@@ -435,8 +435,18 @@ function restoreDroppedParts(include, dropped, priority, assemble, maxLength) {
 }
 // 削除可能な4要素（優先度9〜12）の内部キー→UI表示用の日本語ラベル
 const MODERN_TITLE_DROPPABLE_LABELS = {
-  setName: "セット英語名", year: "発売年", holo: "Holo", rarityFull: "レアリティのフルスペル",
+  setName: "セット英語名", year: "発売年", holo: "Holo（Non-Holo）", rarityFull: "レアリティのフルスペル",
 };
+// ホロ版とノーマル版を別の行に分けたカード（DP3・DP4 の構築デッキのディアルガ・パルキア・エレキブル・ブーバーン。
+// scripts/dp-x/split-holo.mjs）は、日本語名の末尾が「（ホロ）」「（ノーマル）」。"holo" / "regular" / ""（分けていないカード）を返す。
+// eBay の Item Specifics の Finish は、ホロのカードに Holo、ノーマルのカードに Regular が使われている（2026-10-12 に出品を確認。
+// Non-Holo は Finish の値ではなくタイトルに書かれる）
+export function holoFinishOf(f) {
+  const ja = (f.pokemonJa || "").trim();
+  if (/（ホロ）$/.test(ja)) return "holo";
+  if (/（ノーマル）$/.test(ja)) return "regular";
+  return "";
+}
 // 現代カード（旧裏以外）向けのタイトル組み立て本体。要素を優先度順の配列にし、
 // maxLengthを超えたら削除可能な要素を優先度の低いものから1つずつ落とす。
 // UI側で「何を省略したか」を表示できるよう、落とした要素のキーも一緒に返す
@@ -450,7 +460,10 @@ function assembleModernTitle(f, maxLength) {
   const setNameToken = buildSetNameToken(f.setNameEn, serieEn);
   const year = setData?.y ? String(setData.y) : "";
   const rarityFull = f.rarity ? (RARITY_EN_LABELS[f.rarity] || "") : "";
-  const holo = HOLO_RARITIES.has(f.rarity);
+  // ホロ版とノーマル版を分けたカード（名前に「（ホロ）」「（ノーマル）」）は、レアリティに関係なくどちらかを書く
+  const finish = holoFinishOf(f);
+  const holo = finish ? true : HOLO_RARITIES.has(f.rarity);
+  const holoToken = finish === "regular" ? "Non-Holo" : "Holo";
 
   // 削除可能な4要素（優先度9〜12）。true/falseで含めるかどうかを切り替える
   const include = { setName: Boolean(setNameToken), year: Boolean(year), holo, rarityFull: Boolean(rarityFull) };
@@ -465,14 +478,15 @@ function assembleModernTitle(f, maxLength) {
     isGraded ? "" : f.condition, // 8. 状態（未鑑定のみ）
     include.setName ? setNameToken : "", // 9. セット英語名（削除可）
     include.year ? year : "", // 10. 発売年（削除可）
-    include.holo ? "Holo" : "", // 11.（削除可）
+    include.holo ? holoToken : "", // 11.（削除可）Holo（ノーマル版と分けたカードのノーマル版は Non-Holo）
     include.rarityFull ? rarityFull : "", // 12. レアリティフルスペル（削除可）
   ].filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
 
   let title = assemble();
   const dropped = [];
   // 優先度の低いものから順に1要素ずつ落とす。優先度8までの要素は落とさない
-  for (const key of ["rarityFull", "holo", "year", "setName"]) {
+  // ホロ版とノーマル版を分けたカードは Holo／Non-Holo で見分けるので、いちばん最後まで残す
+  for (const key of finish ? ["rarityFull", "year", "setName", "holo"] : ["rarityFull", "holo", "year", "setName"]) {
     if (title.length <= maxLength) break;
     if (include[key]) {
       include[key] = false;
@@ -480,7 +494,7 @@ function assembleModernTitle(f, maxLength) {
       title = assemble();
     }
   }
-  title = restoreDroppedParts(include, dropped, ["setName", "year", "holo", "rarityFull"], assemble, maxLength);
+  title = restoreDroppedParts(include, dropped, finish ? ["holo", "setName", "year", "rarityFull"] : ["setName", "year", "holo", "rarityFull"], assemble, maxLength);
   return { title, dropped };
 }
 export function buildModernTitle(f, { maxLength = 80 } = {}) {
@@ -632,6 +646,8 @@ export function buildItemSpecifics(f) {
     ["Set", f.setNameEn],
     ["Card Number", f.cardNo],
     ["Rarity", f.rarity ? (RARITY_EN_LABELS[f.rarity] || f.rarity) : ""],
+    // ホロ版とノーマル版を分けたカードだけ（holoFinishOf）。ほかのカードは今までどおり出さない
+    ["Finish", { holo: "Holo", regular: "Regular" }[holoFinishOf(f)] ?? ""],
     ["Language", "Japanese"],
     ["Manufacturer", "The Pokémon Company"],
     ["Graded", f.graded ? "Yes" : "No"],

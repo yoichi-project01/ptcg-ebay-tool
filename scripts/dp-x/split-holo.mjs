@@ -5,7 +5,8 @@
 //   画像を見比べると gif の方はイラストの枠に星形のホロ模様があり、jpg の方は模様が無い（scratchpad で拡大して確認）。
 //   Bulbapedia のデッキの一覧も同じカードを Holofoil / Non Holofoil（ディアルガは「1 holographic; 1 non-holographic」）の2枚として載せている。
 // 名前は「ディアルガ（ノーマル）」「ディアルガ（ホロ）」。英語名は同じ（英語版に別の名前は無い）。レアリティは両方とも空（公式にアイコンが無い）。
-// 注意: build-dp-sets.mjs をもう一度実行すると、本文が同じ2つの cardID を再び1行にまとめてしまう（plan-{弾}.json の dupListings）。
+// build-dp-sets.mjs は DP3・DP4 を取り込んだ最後にこのスクリプトを自動で実行する（取り込みでは本文が同じ2つの cardID を1行にまとめるため。plan-{弾}.json の dupListings）。
+// 既に分けた弾にもう一度実行しても何もしない。
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
@@ -54,7 +55,8 @@ for (const p of PAIRS[SET]) {
   changes.push({ id: `${SET}-${hId}`, before: "（行なし）", after: hRow.join("/"), image: details[p.holo].image });
   if (!APPLY) continue;
   // ノーマル: 画像は今のまま（公式の jpg と同じか確かめる）、ファイル名だけ変える
-  const rel = index[`${SET}/${nId}`];
+  // build-dp-sets.mjs から呼ばれたときは画像の対応表がまだ無いので、取り込んだときのファイル名で探す
+  const rel = index[`${SET}/${nId}`] ?? `cards/${set.sr}/${SET}/${buildFileName(row[1], SET, nId, row[3], 0)}.jpg`;
   const cur = fs.readFileSync(path.join(ROOT, "public", rel));
   const offN = await politeFetch("https://www.pokemon-card.com" + details[p.normal].image, true); await politeDelay();
   if (!offN || !cur.equals(offN)) throw new Error(`${SET}-${nId} の今の画像が公式の jpg と違う`);

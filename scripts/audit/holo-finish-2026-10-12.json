@@ -1,0 +1,147 @@
+{
+ "date": "2026-10-12",
+ "changedRows": [
+  "DP3-X3119",
+  "DP3-X3120",
+  "DP3-X3121",
+  "DP3-X3122",
+  "DP4-X10502",
+  "DP4-X10503",
+  "DP4-X10505",
+  "DP4-X10506"
+ ],
+ "examples": {
+  "DP3-X3119": {
+   "ja": "ディアルガ（ノーマル）",
+   "before": {
+    "title": "Dialga Japanese DP3 Pokemon Card NM 2007",
+    "finish": null
+   },
+   "after": {
+    "title": "Dialga Japanese DP3 Pokemon Card NM 2007 Non-Holo",
+    "finish": "Regular"
+   }
+  },
+  "DP3-X3120": {
+   "ja": "ディアルガ（ホロ）",
+   "before": {
+    "title": "Dialga Japanese DP3 Pokemon Card NM 2007",
+    "finish": null
+   },
+   "after": {
+    "title": "Dialga Japanese DP3 Pokemon Card NM 2007 Holo",
+    "finish": "Holo"
+   }
+  },
+  "DP3-X3121": {
+   "ja": "パルキア（ノーマル）",
+   "before": {
+    "title": "Palkia Japanese DP3 Pokemon Card NM 2007",
+    "finish": null
+   },
+   "after": {
+    "title": "Palkia Japanese DP3 Pokemon Card NM 2007 Non-Holo",
+    "finish": "Regular"
+   }
+  },
+  "DP3-X3122": {
+   "ja": "パルキア（ホロ）",
+   "before": {
+    "title": "Palkia Japanese DP3 Pokemon Card NM 2007",
+    "finish": null
+   },
+   "after": {
+    "title": "Palkia Japanese DP3 Pokemon Card NM 2007 Holo",
+    "finish": "Holo"
+   }
+  },
+  "DP4-X10502": {
+   "ja": "エレキブル（ノーマル）",
+   "before": {
+    "title": "Electivire Japanese DP4 Pokemon Card NM 2007",
+    "finish": null
+   },
+   "after": {
+    "title": "Electivire Japanese DP4 Pokemon Card NM 2007 Non-Holo",
+    "finish": "Regular"
+   }
+  },
+  "DP4-X10503": {
+   "ja": "エレキブル（ホロ）",
+   "before": {
+    "title": "Electivire Japanese DP4 Pokemon Card NM 2007",
+    "finish": null
+   },
+   "after": {
+    "title": "Electivire Japanese DP4 Pokemon Card NM 2007 Holo",
+    "finish": "Holo"
+   }
+  },
+  "DP4-X10505": {
+   "ja": "ブーバーン（ノーマル）",
+   "before": {
+    "title": "Magmortar Japanese DP4 Pokemon Card NM 2007",
+    "finish": null
+   },
+   "after": {
+    "title": "Magmortar Japanese DP4 Pokemon Card NM 2007 Non-Holo",
+    "finish": "Regular"
+   }
+  },
+  "DP4-X10506": {
+   "ja": "ブーバーン（ホロ）",
+   "before": {
+    "title": "Magmortar Japanese DP4 Pokemon Card NM 2007",
+    "finish": null
+   },
+   "after": {
+    "title": "Magmortar Japanese DP4 Pokemon Card NM 2007 Holo",
+    "finish": "Holo"
+   }
+  },
+  "DP3-X3143": {
+   "ja": "ディアルガ（LV.X・拡張パック「ひかる闇」）",
+   "before": {
+    "title": "Dialga LV.X RH Japanese DP3 Pokemon Card NM 2007 Holo Rare Holo",
+    "finish": null
+   },
+   "after": {
+    "title": "Dialga LV.X RH Japanese DP3 Pokemon Card NM 2007 Holo Rare Holo",
+    "finish": null
+   }
+  },
+  "SV2a-201": {
+   "ja": "リザードンex",
+   "before": {
+    "title": "Charizard ex SAR 201/165 Japanese SV2a Pokemon Card NM Scarlet & Violet 151 2023",
+    "finish": null
+   },
+   "after": {
+    "title": "Charizard ex SAR 201/165 Japanese SV2a Pokemon Card NM Scarlet & Violet 151 2023",
+    "finish": null
+   }
+  },
+  "SM-P-001": {
+   "ja": "カビゴンGX",
+   "before": {
+    "title": "Snorlax-GX Japanese SM-P Pokemon Card NM Sun & Moon SM Promo",
+    "finish": null
+   },
+   "after": {
+    "title": "Snorlax-GX Japanese SM-P Pokemon Card NM Sun & Moon SM Promo",
+    "finish": null
+   }
+  },
+  "PMCG1-004": {
+   "ja": "ビードル",
+   "before": {
+    "title": "Weedle No.004 Base Set Japanese 1996 Pokemon Card Common NM",
+    "finish": null
+   },
+   "after": {
+    "title": "Weedle No.004 Base Set Japanese 1996 Pokemon Card Common NM",
+    "finish": null
+   }
+  }
+ }
+}

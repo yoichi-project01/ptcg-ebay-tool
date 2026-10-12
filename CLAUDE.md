@@ -3147,7 +3147,20 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
   公式の画像を見比べると gif の方にホロ模様（イラストの枠の星形）があり別のカード。Bulbapedia のデッキの一覧も Holofoil / Non Holofoil の2枚。
   今の行（jpg）を「〜（ノーマル）」にし、ホロの行を足した: DP3-X3119 ディアルガ（ノーマル）・X3120 ディアルガ（ホロ）・X3121 パルキア（ノーマル）・X3122 パルキア（ホロ）、
   DP4-X10502 エレキブル（ノーマル）・X10503 エレキブル（ホロ）・X10505 ブーバーン（ノーマル）・X10506 ブーバーン（ホロ）。英語名は両方とも同じ（Dialga 等）、レアリティは空（公式にアイコンが無い）。
-  **`build-dp-sets.mjs` をもう一度実行すると、この4組を再び1行にまとめてしまう**（`plan-{弾}.json` の dupListings）ので、再実行したら `split-holo.mjs` も実行すること。
+  `build-dp-sets.mjs` は取り込みの最後に `split-holo.mjs` を自動で実行する（下記）。
+
+### 対応（2026-10-12）: ホロ版とノーマル版を分けたカードのタイトル・Item Specifics、build-dp-sets.mjs から split-holo.mjs を自動で実行
+
+- **eBay の使われ方**（出品の Item Specifics を確認）: Finish はホロのカードに「Holo」、ノーマルのカードに「Regular」（ほかに Reverse Holo）。
+  「Non-Holo」は Finish の値ではなく、タイトルに書かれている。
+- **決めたこと**（`src/App.jsx` の `holoFinishOf`。日本語名の末尾が「（ホロ）」「（ノーマル）」のカードだけ）:
+  ホロ版はタイトルに Holo・Finish に Holo、ノーマル版はタイトルに Non-Holo・Finish に Regular。80文字に収めるときは Holo／Non-Holo を最後まで残す
+  （ほかのカードはこれまでどおり Holo を先に落とす）。ほかのカードには Finish を出さない。
+- 変わったのは全行のうち DP3-X3119〜X3122・DP4-X10502/X10503/X10505/X10506 の8行だけ（直す前と後は `scripts/audit/holo-finish-2026-10-12.json`、
+  `scripts/audit/holo-finish-examples.test.jsx` で作り直せる）。例: `Dialga Japanese DP3 Pokemon Card NM 2007 Holo`（Finish: Holo）、
+  `Dialga Japanese DP3 Pokemon Card NM 2007 Non-Holo`（Finish: Regular）。
+- **`build-dp-sets.mjs --apply` は DP3・DP4 を取り込んだ最後に `split-holo.mjs --set <弾> --apply` を自動で実行する**（取り込みで本文が同じ2つの cardID を1行にまとめるため）。
+  split-holo.mjs は画像の対応表がまだ無いときは取り込んだときのファイル名で画像を探し、既に分けた弾では何もしない。
 
 ---
 
