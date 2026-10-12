@@ -1,0 +1,26 @@
+{
+ "code": "SVF",
+ "date": "2026-10-12",
+ "changes": [
+  {
+   "id": "SVF-038",
+   "before": [
+    "038",
+    "基本草エネルギー",
+    "",
+    ""
+   ],
+   "after": [
+    "038",
+    "ダブルターボエネルギー",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "44072",
+   "image": "/assets/images/card_images/large/SVF/044072_E_DABURUTABOENERUGI.jpg"
+  }
+ ]
+}

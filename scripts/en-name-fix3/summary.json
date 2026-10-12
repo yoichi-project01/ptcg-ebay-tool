@@ -4966,12 +4966,10 @@
    "file": "D-5.txt"
   },
   "targets": 29,
-  "filled": 28,
+  "filled": 29,
   "filledByRule": 0,
-  "blank": 1,
-  "blankReasons": {
-   "イラストレーターが分からない": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "SMI-pokemon": {
   "set": "SMI",
