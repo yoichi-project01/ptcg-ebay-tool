@@ -3162,6 +3162,27 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
 - **`build-dp-sets.mjs --apply` は DP3・DP4 を取り込んだ最後に `split-holo.mjs --set <弾> --apply` を自動で実行する**（取り込みで本文が同じ2つの cardID を1行にまとめるため）。
   split-holo.mjs は画像の対応表がまだ無いときは取り込んだときのファイル名で画像を探し、既に分けた弾では何もしない。
 
+### 対応（2026-10-12）: ミラーの柄の版（マスターボールミラー・モンスターボールミラー等）を別の行として足した
+
+同じ型番でも版で値段が大きく違うため、版を別の行にした。根拠は `scripts/mirror-variants/sources.json`、反映は `scripts/mirror-variants/add-mirror-variants.mjs --set <弾> --apply`、
+足した card_id は `scripts/mirror-variants/{弾}-added-card-ids.txt`、直す前と後の例は `scripts/audit/mirror-variants-2026-10-12.json`。弾ごとにコミット。
+- **型番・名前**: 元の型番の末尾に版の印（card_id は `SV2a-025-MB`）。日本語名に「（マスターボールミラー）」などを付け、英語名・レアリティは元の行と同じ。画像は無し（公式に版の画像が無い。元の行の画像も使わない）。
+  版の印: PB モンスターボール・MB マスターボール・EN エネルギーマーク・FB フレンドボール・LB ラブラブボール・DB ダークボール・QB クイックボール・R ロケット団の R マーク。
+- **足した弾**:
+  - SV2a（ポケモンカード151）: C・U・R の153行（トレーナーズ 152〜165 を含む）× PB・MB = 306行。PB は公式の特設サイトと Bulbapedia、MB は Bulbapedia と PSA の鑑定書
+    （ユーザー判断で PSA を2つ目にした。`2023 POKEMON JAPANESE SV2a-POKEMON CARD 151 #025 PIKACHU MASTER BALL REVERSE HOLO`、#093・#152 もある）。
+  - M2a（MEGAドリームex）: レアリティ表記の無いポケモン118行 × EN と、カードごとのボール柄か R柄（PB 29・FB 19・LB 19・DB 20・QB 18・R 13）= 236行。
+    公式の特設サイト（エネルギーマーク柄・様々なボール柄）、ポケモンWiki の弾のページの「ミラー仕様」の表、Bulbapedia の各カードのページ（"two Mirror Holofoil variants featuring either a … Energy symbol or a … Ball"）が118枚すべて一致。
+- **足していない弾**: SV8a（テラスタルフェスex）は公式と Bulbapedia でモンスターボールミラーがあること、Bulbapedia と PSA 鑑定品の出品でマスターボールミラーがあることは分かるが、
+  どのカードにあるか（Bulbapedia は "certain cards"）がどの情報源にも無い。SV11B・SV11W はモンスターボールミラーの記載が公式だけ（Bulbapedia の日本版のページ・ポケモンWiki に無い）、
+  マスターボールミラーは英語版の記載だけ。
+- **アプリ**（`src/App.jsx` の `MIRROR_VARIANTS`・`mirrorVariantOf`）: 日本語名の末尾の（〜ミラー）で版を見分け、タイトルのカード番号の後ろに `Master Ball Reverse Holo` 等（落とさない）、
+  Item Specifics の Finish に `Reverse Holo`（eBay の出品で使われている値）、SKU の最後に版の印（`SV2A-025-NM-MB`）。カード番号は番号部分で出す（`cardNoOf`）。
+  版の行は画像を出さない（`localImage`・`entryImage`）。カードの種類（`cardKindOf`・`build-card-kinds.mjs`）は元の行と同じ。履歴の読み込みは localRef で版の行を選ぶ。
+- **PSA のラベルの表記**: MASTER BALL REVERSE HOLO（PSA の鑑定書で確認）。モンスターボールミラーは PSA のページでは確かめられず（PSA 鑑定品の出品の題名は「Pokeball Reverse Holo」）、
+  M2a の柄も確かめられなかった。タイトルの書き方は eBay の出品・価格サイトの書き方（Poke Ball / Love Ball / Energy Reverse Holo 等）に合わせた。
+- **注意**: 型番が「025-PB」の形の行を扱うスクリプトは、番号を `parseInt` で読むと元の行と同じ番号になる（`audit.mjs` の番号の重なりの検査などで引っかかる）。
+
 ---
 
 ## ファイル構成

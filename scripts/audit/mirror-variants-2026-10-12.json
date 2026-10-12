@@ -1,0 +1,198 @@
+{
+ "date": "2026-10-12",
+ "note": "元の行（直す前から同じ）と、足した版の行のタイトル・Item Specifics。既存の行の出力は変わっていない（全行を比べて0件）",
+ "examples": {
+  "SV2a-025": {
+   "title": "Pikachu C 025/165 Japanese SV2a Pokemon Card NM Scarlet & Violet 151 2023 Common",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Pikachu",
+    "Character": "Pikachu",
+    "Set": "Pokemon 151",
+    "Card Number": "025/165",
+    "Rarity": "Common",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2023"
+   }
+  },
+  "SV2a-025-PB": {
+   "title": "Pikachu C 025/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card NM 2023",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Pikachu",
+    "Character": "Pikachu",
+    "Set": "Pokemon 151",
+    "Card Number": "025/165",
+    "Rarity": "Common",
+    "Finish": "Reverse Holo",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2023"
+   }
+  },
+  "SV2a-025-MB": {
+   "title": "Pikachu C 025/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM 2023",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Pikachu",
+    "Character": "Pikachu",
+    "Set": "Pokemon 151",
+    "Card Number": "025/165",
+    "Rarity": "Common",
+    "Finish": "Reverse Holo",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2023"
+   }
+  },
+  "SV2a-152-MB": {
+   "title": "Energy Sticker U 152/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Energy Sticker",
+    "Set": "Pokemon 151",
+    "Card Number": "152/165",
+    "Rarity": "Uncommon",
+    "Finish": "Reverse Holo",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2023"
+   }
+  },
+  "M2a-011": {
+   "title": "Budew 011/193 Japanese M2a Pokemon Card NM Mega Evolution Mega Dream ex 2025",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Budew",
+    "Character": "Budew",
+    "Set": "Mega Dream ex",
+    "Card Number": "011/193",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2025"
+   }
+  },
+  "M2a-011-EN": {
+   "title": "Budew 011/193 Energy Reverse Holo Japanese M2a Pokemon Card NM 2025",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Budew",
+    "Character": "Budew",
+    "Set": "Mega Dream ex",
+    "Card Number": "011/193",
+    "Finish": "Reverse Holo",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2025"
+   }
+  },
+  "M2a-011-FB": {
+   "title": "Budew 011/193 Friend Ball Reverse Holo Japanese M2a Pokemon Card NM 2025",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Budew",
+    "Character": "Budew",
+    "Set": "Mega Dream ex",
+    "Card Number": "011/193",
+    "Finish": "Reverse Holo",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2025"
+   }
+  },
+  "M2a-102": {
+   "title": "Team Rocket's Murkrow 102/193 Japanese M2a Pokemon Card NM 2025",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Team Rocket's Murkrow",
+    "Character": "Murkrow",
+    "Set": "Mega Dream ex",
+    "Card Number": "102/193",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2025"
+   }
+  },
+  "M2a-102-EN": {
+   "title": "Team Rocket's Murkrow 102/193 Energy Reverse Holo Japanese M2a Pokemon Card NM",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Team Rocket's Murkrow",
+    "Character": "Murkrow",
+    "Set": "Mega Dream ex",
+    "Card Number": "102/193",
+    "Finish": "Reverse Holo",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2025"
+   }
+  },
+  "M2a-102-R": {
+   "title": "Team Rocket's Murkrow 102/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Team Rocket's Murkrow",
+    "Character": "Murkrow",
+    "Set": "Mega Dream ex",
+    "Card Number": "102/193",
+    "Finish": "Reverse Holo",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2025"
+   }
+  },
+  "M2a-066-LB": {
+   "title": "Togekiss 066/193 Love Ball Reverse Holo Japanese M2a Pokemon Card NM 2025",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Togekiss",
+    "Character": "Togekiss",
+    "Set": "Mega Dream ex",
+    "Card Number": "066/193",
+    "Finish": "Reverse Holo",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2025"
+   }
+  },
+  "M2a-001-PB": {
+   "title": "Ethan's Pinsir 001/193 Poke Ball Reverse Holo Japanese M2a Pokemon Card NM 2025",
+   "itemSpecifics": {
+    "Game": "Pokémon TCG",
+    "Card Name": "Ethan's Pinsir",
+    "Character": "Pinsir",
+    "Set": "Mega Dream ex",
+    "Card Number": "001/193",
+    "Finish": "Reverse Holo",
+    "Language": "Japanese",
+    "Manufacturer": "The Pokémon Company",
+    "Graded": "No",
+    "Card Condition": "Near Mint or Better",
+    "Year Manufactured": "2025"
+   }
+  }
+ }
+}
