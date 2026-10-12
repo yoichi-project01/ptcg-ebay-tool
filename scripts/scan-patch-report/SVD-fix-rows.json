@@ -1,0 +1,26 @@
+{
+ "code": "SVD",
+ "date": "2026-10-12",
+ "changes": [
+  {
+   "id": "SVD-139",
+   "before": [
+    "139",
+    "基本草エネルギー",
+    "",
+    ""
+   ],
+   "after": [
+    "139",
+    "リバーサルエネルギー",
+    "",
+    ""
+   ],
+   "nameChanged": true,
+   "rarityChanged": false,
+   "imageReplaced": true,
+   "cardId": "43841",
+   "image": "/assets/images/card_images/large/SVD/043841_E_RIBASARUENERUGI.jpg"
+  }
+ ]
+}

@@ -1,4 +1,199 @@
 {
+ "43703": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "001",
+    "total": "139",
+    "rarity": "",
+    "jaName": "クヌギダマ",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043703_P_KUNUGIDAMA.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043703_P_KUNUGIDAMA.jpg"
+ },
+ "43704": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "002",
+    "total": "139",
+    "rarity": "",
+    "jaName": "ヘラクロス",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043704_P_HERAKUROSU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043704_P_HERAKUROSU.jpg"
+ },
+ "43705": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "003",
+    "total": "139",
+    "rarity": "",
+    "jaName": "サボネア",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043705_P_SABONEA.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043705_P_SABONEA.jpg"
+ },
+ "43706": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "004",
+    "total": "139",
+    "rarity": "",
+    "jaName": "タマゲタケ",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043706_P_TAMAGETAKE.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043706_P_TAMAGETAKE.jpg"
+ },
+ "43707": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "005",
+    "total": "139",
+    "rarity": "",
+    "jaName": "モロバレル",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043707_P_MOROBARERU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043707_P_MOROBARERU.jpg"
+ },
+ "43708": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "006",
+    "total": "139",
+    "rarity": "",
+    "jaName": "モクロー",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043708_P_MOKURO.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043708_P_MOKURO.jpg"
+ },
+ "43709": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "007",
+    "total": "139",
+    "rarity": "",
+    "jaName": "フクスロー",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043709_P_FUKUSURO.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043709_P_FUKUSURO.jpg"
+ },
+ "43710": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "008",
+    "total": "139",
+    "rarity": "",
+    "jaName": "ジュナイパーex",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043710_P_JIXYUNAIPAEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043710_P_JIXYUNAIPAEX.jpg"
+ },
+ "43711": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "009",
+    "total": "139",
+    "rarity": "",
+    "jaName": "ミニーブ",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043711_P_MINIBU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043711_P_MINIBU.jpg"
+ },
+ "43712": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "010",
+    "total": "139",
+    "rarity": "",
+    "jaName": "オリーニョ",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043712_P_ORINIXYO.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043712_P_ORINIXYO.jpg"
+ },
+ "43713": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "011",
+    "total": "139",
+    "rarity": "",
+    "jaName": "オリーヴァ",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043713_P_ORIVUA.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043713_P_ORIVUA.jpg"
+ },
+ "43714": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "012",
+    "total": "139",
+    "rarity": "",
+    "jaName": "パルデア ケンタロス",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043714_P_PARUDEAKENTAROSU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043714_P_PARUDEAKENTAROSU.jpg"
+ },
+ "43715": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "013",
+    "total": "139",
+    "rarity": "",
+    "jaName": "コータス",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043715_P_KOTASU.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043715_P_KOTASU.jpg"
+ },
+ "43716": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "014",
+    "total": "139",
+    "rarity": "",
+    "jaName": "ビクティニex",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043716_P_BIKUTEINIEX.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043716_P_BIKUTEINIEX.jpg"
+ },
+ "43717": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "015",
+    "total": "139",
+    "rarity": "",
+    "jaName": "ヒトモシ",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043717_P_HITOMOSHI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043717_P_HITOMOSHI.jpg"
+ },
  "43745": {
   "badge": "SVD",
   "cards": [
@@ -128,5 +323,18 @@
    }
   ],
   "cardThumbFile": "/assets/images/card_images/large/SVD/043838_T_HAKASENOKENKIXYUUFUTOUHAKASE.jpg"
+ },
+ "43841": {
+  "badge": "SVD",
+  "cards": [
+   {
+    "local": "139",
+    "total": "139",
+    "rarity": "",
+    "jaName": "リバーサルエネルギー",
+    "cardThumbFile": "/assets/images/card_images/large/SVD/043841_E_RIBASARUENERUGI.jpg"
+   }
+  ],
+  "cardThumbFile": "/assets/images/card_images/large/SVD/043841_E_RIBASARUENERUGI.jpg"
  }
 }

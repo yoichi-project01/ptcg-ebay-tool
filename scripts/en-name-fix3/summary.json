@@ -4557,12 +4557,10 @@
    "file": "D-2.txt"
   },
   "targets": 30,
-  "filled": 29,
+  "filled": 30,
   "filledByRule": 0,
-  "blank": 1,
-  "blankReasons": {
-   "イラストレーターが分からない": 1
-  }
+  "blank": 0,
+  "blankReasons": {}
  },
  "SMH-pokemon": {
   "set": "SMH",
