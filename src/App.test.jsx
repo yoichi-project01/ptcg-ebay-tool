@@ -1105,7 +1105,8 @@ describe("プロモの SKU（カード番号を持たない弾は型番を含め
   it("弾を手で書き換えたら古い型番を使わない・localRef の無い古い履歴は今までどおり", () => {
     expect(buildSku({ ...formFor("SM-P-X33404"), setCode: "SV-P" }, "single")).toBe("SV-P-NM");
     const { localRef, ...old } = formFor("SM-P-001");
-    expect(buildSku({ ...DEFAULT_FORM, ...old }, "single")).toBe("SM-P-NM");
+    // 2026-10-14 より前の履歴はプロモの cardNo が空（今は "001/SM-P"）
+    expect(buildSku({ ...DEFAULT_FORM, ...old, cardNo: "" }, "single")).toBe("SM-P-NM");
   });
 });
 
@@ -1262,5 +1263,24 @@ describe("CSV の Finish・Vintage の列（2026-10-14）", () => {
   it("ヘッダーに列がある", () => {
     const header = buildListingCsv([]).split(String.fromCharCode(13, 10))[0].split(",");
     expect(header.slice(-2)).toEqual(["C:Finish", "C:Vintage"]);
+  });
+});
+
+describe("番号付きのプロモのカード番号（2026-10-14）", () => {
+  const formOf = (id) => {
+    const set = CARD_DATA_FOR_TEST.find((s) => s.k.some((k) => `${s.c}-${k[0]}` === id));
+    return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((k) => `${set.c}-${k[0]}` === id) });
+  };
+  it("印刷された形（001/SV-P）でタイトル・Card Number に入る。SKU は変わらない", () => {
+    const f = formOf("SV-P-001");
+    expect(f.cardNo).toBe("001/SV-P");
+    expect(buildSingleTitle(f)).toContain("Pikachu 001/SV-P Japanese");
+    expect(Object.fromEntries(buildItemSpecifics(f))["Card Number"]).toBe("001/SV-P");
+    expect(buildSku(f)).toBe("SV-P-001-NM");
+  });
+  it("型番 X の番号の無いプロモには番号を付けない", () => {
+    const f = formOf("SM-P-X33404");
+    expect(f.cardNo).toBe("");
+    expect(buildSku(f)).toBe("SM-P-X33404-NM");
   });
 });

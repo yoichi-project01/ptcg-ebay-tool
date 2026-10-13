@@ -1,0 +1,156 @@
+{
+ "about": "番号付きのプロモのカード番号を印刷された形（001/S-P）でタイトル・Card Number・説明文・相場リンクに入れた直す前と後（2026-10-14、A2）。変わったのは9弾の番号付きプロモ1,932行だけ（SKU は変わらない。型番 X の番号の無いプロモ・SP5 は対象外）",
+ "bySet": {
+  "S-P": 324,
+  "SV-P": 290,
+  "SM-P": 408,
+  "DPt-P": 51,
+  "L-P": 79,
+  "DP-P": 127,
+  "BW-P": 229,
+  "XY-P": 298,
+  "M-P": 126
+ },
+ "examples": [
+  {
+   "id": "S-P-001",
+   "title": {
+    "before": "Pikachu Japanese S-P Pokemon Card NM Sword & Shield S Promo",
+    "after": "Pikachu 001/S-P Japanese S-P Pokemon Card NM Sword & Shield S Promo"
+   },
+   "cardNumber": {
+    "before": null,
+    "after": "001/S-P"
+   },
+   "descCardLine": {
+    "before": "- Card: Pikachu  ",
+    "after": "- Card: Pikachu  001/S-P"
+   },
+   "query": {
+    "before": "Pikachu S-P",
+    "after": "Pikachu 001/S-P S-P"
+   },
+   "sku": "S-P-001-NM"
+  },
+  {
+   "id": "SV-P-001",
+   "title": {
+    "before": "Pikachu Japanese SV-P Pokemon Card NM Scarlet & Violet SV-P Promo",
+    "after": "Pikachu 001/SV-P Japanese SV-P Pokemon Card NM Scarlet & Violet SV-P Promo"
+   },
+   "cardNumber": {
+    "before": null,
+    "after": "001/SV-P"
+   },
+   "descCardLine": {
+    "before": "- Card: Pikachu  ",
+    "after": "- Card: Pikachu  001/SV-P"
+   },
+   "query": {
+    "before": "Pikachu SV-P",
+    "after": "Pikachu 001/SV-P SV-P"
+   },
+   "sku": "SV-P-001-NM"
+  },
+  {
+   "id": "SM-P-001",
+   "title": {
+    "before": "Snorlax-GX Japanese SM-P Pokemon Card NM Sun & Moon SM Promo",
+    "after": "Snorlax-GX 001/SM-P Japanese SM-P Pokemon Card NM Sun & Moon SM Promo"
+   },
+   "cardNumber": {
+    "before": null,
+    "after": "001/SM-P"
+   },
+   "descCardLine": {
+    "before": "- Card: Snorlax-GX  ",
+    "after": "- Card: Snorlax-GX  001/SM-P"
+   },
+   "query": {
+    "before": "Snorlax-GX SM-P",
+    "after": "Snorlax-GX 001/SM-P SM-P"
+   },
+   "sku": "SM-P-001-NM"
+  },
+  {
+   "id": "XY-P-127",
+   "title": {
+    "before": "Blaziken-EX Japanese XY-P Pokemon Card NM XY Promo",
+    "after": "Blaziken-EX 127/XY-P Japanese XY-P Pokemon Card NM XY Promo"
+   },
+   "cardNumber": {
+    "before": null,
+    "after": "127/XY-P"
+   },
+   "descCardLine": {
+    "before": "- Card: Blaziken-EX  ",
+    "after": "- Card: Blaziken-EX  127/XY-P"
+   },
+   "query": {
+    "before": "Blaziken-EX XY-P",
+    "after": "Blaziken-EX 127/XY-P XY-P"
+   },
+   "sku": "XY-P-127-NM"
+  },
+  {
+   "id": "DP-P-004",
+   "title": {
+    "before": "Lucario LV.X Japanese DP-P Pokemon Card NM",
+    "after": "Lucario LV.X 004/DP-P Japanese DP-P Pokemon Card NM"
+   },
+   "cardNumber": {
+    "before": null,
+    "after": "004/DP-P"
+   },
+   "descCardLine": {
+    "before": "- Card: Lucario LV.X  ",
+    "after": "- Card: Lucario LV.X  004/DP-P"
+   },
+   "query": {
+    "before": "Lucario LV.X DP-P",
+    "after": "Lucario LV.X 004/DP-P DP-P"
+   },
+   "sku": "DP-P-004-NM"
+  },
+  {
+   "id": "M-P-139",
+   "title": {
+    "before": "Mega Tatsugiri ex Japanese M-P Pokemon Card NM",
+    "after": "Mega Tatsugiri ex 139/M-P Japanese M-P Pokemon Card NM"
+   },
+   "cardNumber": {
+    "before": null,
+    "after": "139/M-P"
+   },
+   "descCardLine": {
+    "before": "- Card: Mega Tatsugiri ex  ",
+    "after": "- Card: Mega Tatsugiri ex  139/M-P"
+   },
+   "query": {
+    "before": "Mega Tatsugiri ex M-P",
+    "after": "Mega Tatsugiri ex 139/M-P M-P"
+   },
+   "sku": "M-P-139-NM"
+  },
+  {
+   "id": "SM-P-X33404",
+   "title": {
+    "before": "Victory Decoration 1st Place Japanese SM-P Pokemon Card NM Sun & Moon SM Promo",
+    "after": "Victory Decoration 1st Place Japanese SM-P Pokemon Card NM Sun & Moon SM Promo"
+   },
+   "cardNumber": {
+    "before": null,
+    "after": null
+   },
+   "descCardLine": {
+    "before": "- Card: Victory Decoration 1st Place  ",
+    "after": "- Card: Victory Decoration 1st Place  "
+   },
+   "query": {
+    "before": "Victory Decoration 1st Place SM-P",
+    "after": "Victory Decoration 1st Place SM-P"
+   },
+   "sku": "SM-P-X33404-NM"
+  }
+ ]
+}
