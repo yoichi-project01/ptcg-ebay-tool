@@ -39,6 +39,8 @@ const CONDITION_PHRASES = [
   { code: "offcenter",    ja: "センタリングずれ",   en: "off-center centering" },
   { code: "clean",        ja: "目立った傷や汚れなし", en: "no major flaws" },
 ];
+// 画面の説明に出すカードの件数（以前は 12,654 と書いたままだった）
+const CARD_ROW_COUNT = CARD_DATA.reduce((n, s) => n + s.k.length, 0);
 const SERIE_ORDER = { M: 0, SV: 1, S: 2, SM: 3, XYb: 4, XY: 5, BW: 6, L: 7, DPt: 8, DP: 9, PCG: 10, ADV: 11, e: 12, VS: 13, web: 14, neo: 15, PMCG: 16 };
 // cardData.json の sr（シリーズコード）から英語シリーズ名を引く。現代タイトル生成
 // （buildModernTitle）でセット英語名の前に付けて検索露出を上げるために使う。
@@ -1550,7 +1552,7 @@ function AppInner() {
           </div>
           <h1 style={{ margin: 0, fontSize: 26, fontWeight: 800 }}>ポケカ出品文メーカー</h1>
           <p style={{ margin: "6px 0 0", fontSize: 13, color: "#5b6478" }}>
-            内蔵データベース（12,654枚）から候補を選ぶだけで、eBay用の英語タイトルと説明文を自動生成します。
+            内蔵データベース（{CARD_ROW_COUNT.toLocaleString()}枚）から候補を選ぶだけで、eBay用の英語タイトルと説明文を自動生成します。
             {imageCount > 0
               ? ` ローカル画像 ${imageCount.toLocaleString()} 枚を読み込み済み。`
               : " （画像は npm run images でダウンロードすると表示されます）"}
