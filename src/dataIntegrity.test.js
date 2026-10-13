@@ -51,14 +51,9 @@ describe("画像の対応表・カードの種類の一覧の指す先", () => {
 
 describe("全カードの出品の出力", () => {
   const forms = rows.map((r) => ({ id: `${r.set.c}-${r.card[0]}`, f: applyCandidateToForm(DEFAULT_FORM, r) }));
-  // 落とせる要素をすべて落としても80文字を超える既知の44件（2026-10-14 の点検。直し方の案は docs/review-2026-10-14.md の A1）。
-  // 直したらこの一覧を空にする。これ以外のカードが80文字を超えたら失敗する
-  const KNOWN_OVER_80 = new Set(("PMCG6-003 PMCG6-004 PMCG6-012 PMCG6-013 PMCG6-020 PMCG6-021 PMCG6-025 PMCG6-029 PMCG6-037 PMCG6-040 PMCG6-069 PMCG6-088 " +
-    "SV2a-154-PB SV2a-154-MB SV2a-155-PB SV2a-155-MB SV2a-156-MB SV2a-157-PB SV2a-157-MB SV2a-161-PB SV2a-161-MB SV2a-162-PB SV2a-162-MB " +
-    "S1W-067 S1W-071 M2a-015-EN M2a-015-R M2a-016-R M2a-034-R M2a-061-R M2a-062-R M2a-079-R M2a-082-R M2a-083-R M2a-099-R M2a-100-R " +
-    "M2a-102-R M2a-103-R M2a-104-R DPt1-B-082 DPt1-B-083 DPt1-B-088 DPt2-B-076 DPt2-B-077").split(" "));
-  it("タイトルが80文字以内（既知の例外を除く）", () => {
-    expect(forms.filter(({ id, f }) => !KNOWN_OVER_80.has(id) && buildSingleTitle(f).length > 80).map(({ id }) => id)).toEqual([]);
+  // 2026-10-14 まで44件が80文字を超えていた（落とせる要素をすべて落としても長い）。状態 → "Pokemon Card" を "Pokemon" に → "Pokemon" も外す、で全件収まる
+  it("タイトルが80文字以内", () => {
+    expect(forms.filter(({ f }) => buildSingleTitle(f).length > 80).map(({ id }) => id)).toEqual([]);
   });
   it("SKU が行ごとに違う（同じ状態のとき）", () => {
     const seen = new Map(), dup = [];

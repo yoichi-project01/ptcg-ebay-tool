@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import CARD_DATA_FOR_TEST from "./cardData.json";
 import {
-  buildSingleTitle, buildModernTitle, buildVintageTitle, calcProfit, applyCandidateToForm, searchCards,
+  buildSingleTitle, buildModernTitle, buildVintageTitle, getDroppedModernTitleParts, calcProfit, applyCandidateToForm, searchCards,
   buildItemSpecifics, buildConditionGuide, buildSku,
   computeRecommendedPrice, roundUpToPsychologicalPrice,
   buildListingCsvRow, buildListingCsv, normalizeBase,
@@ -133,7 +133,8 @@ describe("buildModernTitle", () => {
     expect(occurrences).toBe(1);
   });
 
-  it("keeps every priority-1-through-8 element even for an extremely long card name", () => {
+  // 2026-10-14: 状態と "Pokemon Card" は最後の手段で落とす（収まらないときは "Pokemon" も外す）。優先度1〜6 の要素は落とさない
+  it("keeps every priority-1-through-6 element even for an extremely long card name", () => {
     const longCard = { ...modernCard, pokemonEn: "A".repeat(60), setNameEn: "B".repeat(40) };
     const title = buildModernTitle(longCard);
     expect(title).toContain("A".repeat(60));
@@ -141,8 +142,8 @@ describe("buildModernTitle", () => {
     expect(title).toContain("201/165");
     expect(title).toContain("Japanese");
     expect(title).toContain("SV2a");
-    expect(title).toContain("Pokemon Card");
-    expect(title).toContain("NM");
+    expect(title).not.toContain("Pokemon");
+    expect(title).not.toContain("NM");
   });
 
   it("does not throw and simply omits the year for a set with no known release year", () => {
@@ -1207,5 +1208,26 @@ describe("ミラーの柄の版（2026-10-12）", () => {
     const f = formOf("SV2a-025");
     expect(Object.fromEntries(buildItemSpecifics(f)).Finish).toBeUndefined();
     expect(buildSku(f)).toBe("SV2A-025-NM");
+  });
+});
+
+describe("80文字を超えるときの最後の手段（2026-10-14）", () => {
+  const formOf = (id) => {
+    const set = CARD_DATA_FOR_TEST.find((s) => id.startsWith(s.c + "-") && s.k.some((k) => `${s.c}-${k[0]}` === id));
+    return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((k) => `${set.c}-${k[0]}` === id) });
+  };
+  it("状態を落とせば収まるときは Pokemon Card を残す", () => {
+    expect(buildSingleTitle(formOf("SV2a-154-PB"))).toBe("Antique Helix Fossil C 154/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card");
+  });
+  it("それでも長ければ Pokemon Card を Pokemon にする（状態は戻さない）", () => {
+    expect(buildSingleTitle(formOf("SV2a-154-MB"))).toBe("Antique Helix Fossil C 154/165 Master Ball Reverse Holo Japanese SV2a Pokemon");
+    expect(buildSingleTitle(formOf("PMCG6-020"))).toBe("Giovanni's Nidoqueen No.020 Challenge from the Darkness Japanese 1999 Pokemon");
+  });
+  it("それでも長ければ Pokemon も外す", () => {
+    expect(buildSingleTitle(formOf("DPt2-B-077"))).toBe("Team Galactic's Invention G-107 Technical Machine G U 077/090 Japanese DPt2-B");
+    expect(getDroppedModernTitleParts(formOf("DPt2-B-077"))).toEqual(expect.arrayContaining(["状態（NM 等）", "「Pokemon Card」の Card", "「Pokemon」"]));
+  });
+  it("80文字に収まるカードは変わらない", () => {
+    expect(buildSingleTitle(formOf("SV2a-025-MB"))).toBe("Pikachu C 025/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM 2023");
   });
 });

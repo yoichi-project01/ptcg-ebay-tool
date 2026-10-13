@@ -1,0 +1,317 @@
+{
+ "about": "80文字を超えていた44件のタイトルの直す前と後（2026-10-14、A1）。compare-snapshots.mjs の結果。ほかの行のタイトルは変わっていない（変わった行 title 44・csv の Title 44 のみ）",
+ "changedFields": {
+  "title": 44,
+  "csv": 44
+ },
+ "examples": [
+  {
+   "id": "PMCG6-003",
+   "before": "Giovanni's Nidoran♀ No.003 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Giovanni's Nidoran♀ No.003 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-004",
+   "before": "Giovanni's Nidoran♂ No.004 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Giovanni's Nidoran♂ No.004 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-012",
+   "before": "Giovanni's Nidorina No.012 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Giovanni's Nidorina No.012 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-013",
+   "before": "Giovanni's Nidorino No.013 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Giovanni's Nidorino No.013 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-020",
+   "before": "Giovanni's Nidoqueen No.020 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 82,
+   "after": "Giovanni's Nidoqueen No.020 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 77
+  },
+  {
+   "id": "PMCG6-021",
+   "before": "Giovanni's Nidoking No.021 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Giovanni's Nidoking No.021 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-025",
+   "before": "Blaine's Charmander No.025 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Blaine's Charmander No.025 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-029",
+   "before": "Blaine's Charmeleon No.029 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Blaine's Charmeleon No.029 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-037",
+   "before": "Giovanni's Magikarp No.037 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Giovanni's Magikarp No.037 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-040",
+   "before": "Giovanni's Gyarados No.040 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Giovanni's Gyarados No.040 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-069",
+   "before": "Blaine's Kangaskhan No.069 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 81,
+   "after": "Blaine's Kangaskhan No.069 Challenge from the Darkness Japanese 1999 Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "PMCG6-088",
+   "before": "Sabrina's Psychic Control No.088 Challenge from the Darkness Japanese 1999 Pokemon Card",
+   "beforeLength": 87,
+   "after": "Sabrina's Psychic Control No.088 Challenge from the Darkness Japanese 1999",
+   "afterLength": 74
+  },
+  {
+   "id": "SV2a-154-PB",
+   "before": "Antique Helix Fossil C 154/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Antique Helix Fossil C 154/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "SV2a-154-MB",
+   "before": "Antique Helix Fossil C 154/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 85,
+   "after": "Antique Helix Fossil C 154/165 Master Ball Reverse Holo Japanese SV2a Pokemon",
+   "afterLength": 77
+  },
+  {
+   "id": "SV2a-155-PB",
+   "before": "Antique Dome Fossil C 155/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 82,
+   "after": "Antique Dome Fossil C 155/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card",
+   "afterLength": 79
+  },
+  {
+   "id": "SV2a-155-MB",
+   "before": "Antique Dome Fossil C 155/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 84,
+   "after": "Antique Dome Fossil C 155/165 Master Ball Reverse Holo Japanese SV2a Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "SV2a-156-MB",
+   "before": "Antique Old Amber C 156/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 82,
+   "after": "Antique Old Amber C 156/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card",
+   "afterLength": 79
+  },
+  {
+   "id": "SV2a-157-PB",
+   "before": "Protective Goggles U 157/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 81,
+   "after": "Protective Goggles U 157/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card",
+   "afterLength": 78
+  },
+  {
+   "id": "SV2a-157-MB",
+   "before": "Protective Goggles U 157/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Protective Goggles U 157/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "SV2a-161-PB",
+   "before": "Erika's Invitation U 161/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 81,
+   "after": "Erika's Invitation U 161/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card",
+   "afterLength": 78
+  },
+  {
+   "id": "SV2a-161-MB",
+   "before": "Erika's Invitation U 161/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Erika's Invitation U 161/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "SV2a-162-PB",
+   "before": "Giovanni's Charisma U 162/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 82,
+   "after": "Giovanni's Charisma U 162/165 Poke Ball Reverse Holo Japanese SV2a Pokemon Card",
+   "afterLength": 79
+  },
+  {
+   "id": "SV2a-162-MB",
+   "before": "Giovanni's Charisma U 162/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM",
+   "beforeLength": 84,
+   "after": "Giovanni's Charisma U 162/165 Master Ball Reverse Holo Japanese SV2a Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "S1W-067",
+   "before": "Professor's Research (Professor Magnolia) SR 067/060 Japanese S1W Pokemon Card NM",
+   "beforeLength": 81,
+   "after": "Professor's Research (Professor Magnolia) SR 067/060 Japanese S1W Pokemon Card",
+   "afterLength": 78
+  },
+  {
+   "id": "S1W-071",
+   "before": "Professor's Research (Professor Magnolia) HR 071/060 Japanese S1W Pokemon Card NM",
+   "beforeLength": 81,
+   "after": "Professor's Research (Professor Magnolia) HR 071/060 Japanese S1W Pokemon Card",
+   "afterLength": 78
+  },
+  {
+   "id": "M2a-015-EN",
+   "before": "Team Rocket's Tarountula 015/193 Energy Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 81,
+   "after": "Team Rocket's Tarountula 015/193 Energy Reverse Holo Japanese M2a Pokemon Card",
+   "afterLength": 78
+  },
+  {
+   "id": "M2a-015-R",
+   "before": "Team Rocket's Tarountula 015/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 86,
+   "after": "Team Rocket's Tarountula 015/193 Team Rocket Reverse Holo Japanese M2a Pokemon",
+   "afterLength": 78
+  },
+  {
+   "id": "M2a-016-R",
+   "before": "Team Rocket's Spidops 016/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Team Rocket's Spidops 016/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "M2a-034-R",
+   "before": "Team Rocket's Articuno 034/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 84,
+   "after": "Team Rocket's Articuno 034/193 Team Rocket Reverse Holo Japanese M2a Pokemon",
+   "afterLength": 76
+  },
+  {
+   "id": "M2a-061-R",
+   "before": "Team Rocket's Exeggcute 061/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 85,
+   "after": "Team Rocket's Exeggcute 061/193 Team Rocket Reverse Holo Japanese M2a Pokemon",
+   "afterLength": 77
+  },
+  {
+   "id": "M2a-062-R",
+   "before": "Team Rocket's Exeggutor 062/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 85,
+   "after": "Team Rocket's Exeggutor 062/193 Team Rocket Reverse Holo Japanese M2a Pokemon",
+   "afterLength": 77
+  },
+  {
+   "id": "M2a-079-R",
+   "before": "Team Rocket's Mimikyu 079/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Team Rocket's Mimikyu 079/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "M2a-082-R",
+   "before": "Team Rocket's Diglett 082/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Team Rocket's Diglett 082/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "M2a-083-R",
+   "before": "Team Rocket's Dugtrio 083/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Team Rocket's Dugtrio 083/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "M2a-099-R",
+   "before": "Team Rocket's Zubat 099/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 81,
+   "after": "Team Rocket's Zubat 099/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card",
+   "afterLength": 78
+  },
+  {
+   "id": "M2a-100-R",
+   "before": "Team Rocket's Golbat 100/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 82,
+   "after": "Team Rocket's Golbat 100/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card",
+   "afterLength": 79
+  },
+  {
+   "id": "M2a-102-R",
+   "before": "Team Rocket's Murkrow 102/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Team Rocket's Murkrow 102/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "M2a-103-R",
+   "before": "Team Rocket's Honchkrow 103/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 85,
+   "after": "Team Rocket's Honchkrow 103/193 Team Rocket Reverse Holo Japanese M2a Pokemon",
+   "afterLength": 77
+  },
+  {
+   "id": "M2a-104-R",
+   "before": "Team Rocket's Sneasel 104/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Team Rocket's Sneasel 104/193 Team Rocket Reverse Holo Japanese M2a Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "DPt1-B-082",
+   "before": "Team Galactic's Invention G-103 Power Spray U 082/096 Japanese DPt1-B Pokemon Card NM",
+   "beforeLength": 85,
+   "after": "Team Galactic's Invention G-103 Power Spray U 082/096 Japanese DPt1-B Pokemon",
+   "afterLength": 77
+  },
+  {
+   "id": "DPt1-B-083",
+   "before": "Team Galactic's Invention G-105 Poké Turn U 083/096 Japanese DPt1-B Pokemon Card NM",
+   "beforeLength": 83,
+   "after": "Team Galactic's Invention G-105 Poké Turn U 083/096 Japanese DPt1-B Pokemon Card",
+   "afterLength": 80
+  },
+  {
+   "id": "DPt1-B-088",
+   "before": "Team Galactic's Invention G-101 Energy Gain U 088/096 Japanese DPt1-B Pokemon Card NM",
+   "beforeLength": 85,
+   "after": "Team Galactic's Invention G-101 Energy Gain U 088/096 Japanese DPt1-B Pokemon",
+   "afterLength": 77
+  },
+  {
+   "id": "DPt2-B-076",
+   "before": "Team Galactic's Invention G-109 SP Radar U 076/090 Japanese DPt2-B Pokemon Card NM",
+   "beforeLength": 82,
+   "after": "Team Galactic's Invention G-109 SP Radar U 076/090 Japanese DPt2-B Pokemon Card",
+   "afterLength": 79
+  },
+  {
+   "id": "DPt2-B-077",
+   "before": "Team Galactic's Invention G-107 Technical Machine G U 077/090 Japanese DPt2-B Pokemon Card NM",
+   "beforeLength": 93,
+   "after": "Team Galactic's Invention G-107 Technical Machine G U 077/090 Japanese DPt2-B",
+   "afterLength": 77
+  }
+ ]
+}
