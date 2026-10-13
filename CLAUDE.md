@@ -9,7 +9,9 @@
 日本語版ポケモンカードの情報から **eBay 出品用の英語タイトルと説明文を自動生成する** ローカル Web アプリ。
 
 - フロント: Vite + React (`src/App.jsx`)
-- カードデータ: `src/cardData.json`（128 セット、TCGdex のオープンデータから生成）
+- カードデータ: `src/cardData.json`（2026-10-14 時点で 292弾・24,642行。最初は TCGdex のオープンデータから作り、その後は公式 details.php などで確かめて足し・直した）
+- カードの種類: `src/cardKinds.json`（Item Specifics の Character 用。`scripts/card-kinds/build-card-kinds.mjs` で作る）
+- 全体の点検と改善の一覧: `docs/review-2026-10-14.md`
 - カード画像: **ローカルにダウンロードして同梱** (`public/cards/` 配下、`src/imageIndex.json` で参照）
 
 ---
@@ -53,6 +55,9 @@
 
 ## 現在の状態（2026-08-01時点）
 
+**この節から下の「対応」「調査」は当時からの作業の記録**（古い件数・方針を含む）。今の件数は上の「プロジェクト概要」、残っている作業は
+「点検（2026-10-10）」の表と `docs/review-2026-10-14.md` を見ること。
+
 ### 出品作成機能（`src/App.jsx`）
 
 - 印刷バリエーション: PMCG1〜6（拡張パック〜ジム拡張2）は 1st Edition マーク有無をタイトル/説明文に反映
@@ -62,6 +67,9 @@
 - 出品履歴: 出品内容を localStorage に保存し、一覧から再読み込み・削除可能
 
 ### 画像カバレッジ
+
+**2026-10-14: 画像 23,646件（jpg 21,029・png 2,187・gif 430）**。画像の無い行は、ミラーの柄の版 542行（版の画像は公式に無い）と、
+店舗の情報で補完した HR・UR 454行（公式に画像が無い）。以下は当時の記録。
 
 日本語カード画像: **20665 / 20746 枚 (99.6%)**（2026-10-01、244セット）  
 jpg=18310, png=2179, gif=176, webp=0
@@ -200,15 +208,21 @@ jpg=18310, png=2179, gif=176, webp=0
 
 ### 未解決: 残り41枚
 
+**【2026-10 までに解消】** 作り直し（SI・S11 等）・数字でない型番の行の削除（SVB/SVD/SVF 等）・PMCG の画像の取り直し（2026-10-08）で片付いた。以下は当時の記録。
+
 - **SVB/SVD/SVF/SLD/SLL/SN（24枚）**: 主にBOX付属の基本エネルギーカード。公式DBに個別カードとして掲載されていない（名前を直しても解決しない、画像ソースが存在しない）
 - **SI/SV6/S11（11枚）**: 公式DB側の同名カード候補数と cardData 側の local 数が一致しないため、1:1フォールバックが使えないケース（例: 候補3件に対しlocalが2件）
 - **PMCG5（2枚）/PMCG6（1枚）**: 「慈善」「レジスタンスジム」など、対応する公式サイト側のカードを特定できなかったトレーナーカード
 
 ### スキップセット（英語版 / 対象外）
 
+**2026-08-31 に cardData から削除済み。**
+
 SC*, SV*s, SVDs, SDL, SDM, SDP, CSMPiC
 
 ### 収録範囲の限界: DP・DPt・BW・ADV・LEGEND・XY・SM世代は非対応（2026-08-01調査）
+
+**【2026-10 時点の訂正】** その後 BW・XY・SM・LEGEND・DPt・DP（DP は型番 X＋cardID）も取り込んだ。この節は当時の調査の記録。
 
 `SERIE_ORDER`（`src/App.jsx`）には `XY, BW, DP, DPt, L, ADV, XYb` のキーが定義されているが、
 実データ（`cardData.json`）には一切収録されていない。調査の結果、以下の理由で意図的に見送りとした:
@@ -3187,27 +3201,33 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
 
 ## ファイル構成
 
+主なものだけ（2026-10-14）。スクリプトの一覧と使い分けは `docs/review-2026-10-14.md` の「スクリプトの整理」。
+
 ```
 src/
-  App.jsx              # メインUIコンポーネント
-  cardData.json        # 全セット・全カードのマスターデータ
-  imageIndex.json      # セット/localId → 画像パスのマップ（自動生成）
+  App.jsx                  # 画面と出品の出力（タイトル・説明文・Item Specifics・SKU・CSV）
+  App.test.jsx             # 出品の出力のテスト
+  dataIntegrity.test.js    # cardData・画像の対応表・全カードのタイトル/SKU の整合性のテスト
+  cardData.json            # 全弾・全カードのデータ
+  cardKinds.json           # カードの種類（ポケモン以外）。build-card-kinds.mjs で作る
+  imageIndex.json          # 弾/型番 → 画像パス（build-image-index.mjs で作る）
 
 scripts/
-  filename-utils.mjs             # ファイル名ビルド・解析ユーティリティ（共通）
-  rename-images.mjs              # 既存画像を新ファイル名形式にリネーム（冪等）
-  build-image-index.mjs          # imageIndex.json を再生成
-  scrape-official-images.mjs     # 公式サイトから日本語JPGを取得（S/SV/M系）
-  scrape-pcg-search.mjs          # pcg-search.com からpngを取得（旧シリーズ）
-  scrape-pmcg-gym-supplement.mjs # PMCG5/6 トレーナーカード補完（手動マッピング）
-  scrape-missing-sv.mjs          # S/SV系 括弧付き名前・重複名マッチング補完
-  fix-card-names.mjs             # cardData.json の誤った日本語名を修正しファイルもリネーム
-  official-card-cache.json       # pokemon-card.com APIキャッシュ（2026-07-04生成）
-  card-list.json                 # 全カードフラットリスト [{serie, set, local, ja}]
-  pcg-search-cache/              # PMCG5/6 用 name→siteNum キャッシュ
+  new-cards.mjs            # 新しいカードの取り込み（下の「新しいカードの取り込み」）
+  scrape-missing-sets.mjs  # 公式 details.php で番号を確かめて弾を作る処理の本体（new-cards.mjs が使う）
+  scrape-promo-sets.mjs    # 番号付きプロモ
+  add-numberless-promos.mjs # 番号の無いプロモ（型番 X＋cardID）
+  patch-from-scan.mjs      # 既存の弾の補完・作り直し（--full-fetch → --rebuild）
+  fix-rows-from-details.mjs # 公式の結果で食い違う行だけ直す
+  fill-common-en.mjs ほか  # 英語名（Bulbapedia と TCGdex 英語版の一致）
+  build-image-index.mjs    # 画像の対応表（弾を直したら --only <弾>）
+  image-hashes.mjs         # 画像の SHA-256 の照合（--verify。コミット前に必ず）
+  legacy-guard.mjs         # 古いスクリプト（名前・並び順で対応づけるもの）を止める
+  audit/                   # 点検（audit.mjs）と、直す前後の例
+  filename-utils.mjs       # 画像のファイル名の組み立て・解析
 
 public/
-  cards/               # ダウンロード済み画像（{sr}/{set}/{jaName}_{setCode}-{localId}／{total}_{rarity}.ext）
+  cards/                   # 画像（{sr}/{set}/{jaName}_{setCode}-{localId}／{total}_{rarity}.ext）。.gitignore 対象
 ```
 
 ---
@@ -3256,7 +3276,8 @@ public/
 ## imageIndex.json について
 
 - `node scripts/build-image-index.mjs` で再生成
-- 優先度: `.jpg` > `.png`（webp は完全除外）
+- 弾を足したり作り直したりしたときは `node scripts/build-image-index.mjs --only <弾>`（全体の作り直しは古いファイルを拾うので使わない）
+- 優先度: `.jpg` > `.png` > `.gif`（webp は完全除外）
 - キー形式: `"{setCode}/{localId}"` → 値: `"/cards/{sr}/{set}/{jaName}_{setCode}-{localId}／{total}_{rarity}.jpg"` など
 
 ---
@@ -3298,25 +3319,15 @@ public/
 
 ## 画像を一から取得し直す場合
 
-```bash
-npm run images
-```
+**`npm run images`（`scrape-all.mjs`）は使わない**（2026-10-14 に止めた。`scripts/legacy-guard.mjs`）。中で名前で画像を探す
+`scrape-official-images.mjs`・`scrape-missing-sv.mjs` などを実行し、画像の無い高レアに通常版の画像を保存してしまう（2,227枚の取り違えの原因）。
+同じく `scrape-promo-images.mjs`・`populate-ja-names*.mjs`・`fix-card-names.mjs`・`fetch-set-years.mjs`・`scrape-bw-xy.mjs`・
+`scrape-pcg-search.mjs`・`scrape-pmcg-gym-supplement.mjs` も止めてある（実行すると理由を出して終わる。どうしても使うときは `PTCG_LEGACY=1`）。
 
-`scripts/scrape-all.mjs` が以下を順番に実行します:
-1. 既存ファイルを新ファイル名形式にリネーム（`rename-images.mjs`、冪等）
-2. 公式サイト (S/SV/M 系 JPG)
-3. pcg-search.com（旧シリーズ PNG）
-4. PMCG5/6 トレーナーカード補完
-5. S/SV 括弧付き名前・重複カード補完
-6. 特殊 URL エネルギー9枚（PMCG1スターター + VS1特殊エネルギー）
-7. imageIndex.json 再生成
-
-`npm run images` に含まれないスクリプト（手動実行が必要）:
-- `scrape-promo-sets.mjs` — 番号付きプロモ（`--set <弾>` で追加、`--rebuild --set S-P|SV-P` で作り直し、
-  `--details-only` で details.php の結果だけ収集）。1件ごとに2〜3秒待つため数百枚で数十分かかる
-- ~~`scrape-promo-images.mjs`~~ — 旧・位置マッチング方式。番号を検証せず S-P/SV-P で大量のずれを
-  生んでいたため**使わないこと**（2026-09-28）
-- `scrape-old-images.mjs` — 英語版 TCGdex CDN からの代替取得。**日本語カードの出品に英語アートワークは不適切なため通常は使わないこと**
+- 画像が消えたとき: `node scripts/restore-images-from-index.mjs`（Git の `imageIndex.json` どおりにそろえる）、または退避した画像を戻す
+- 画像が化けたとき: `node scripts/image-hashes.mjs --verify` で見つけ、元の出どころ（公式 details.php の画像・pcg-search）から取り直して一覧の SHA-256 と一致を確かめる
+- 弾ごとに取り直すとき: `patch-from-scan.mjs --full-fetch --set <弾>` → `--rebuild --set <弾>`（番号で確かめる）
+- `scrape-old-images.mjs`（`scripts/deprecated/`）— 英語版のアートワーク。**日本語カードの出品には使わない**
 
 ---
 

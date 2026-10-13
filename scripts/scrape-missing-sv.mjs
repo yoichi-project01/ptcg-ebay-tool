@@ -12,6 +12,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
+import { refuseLegacy } from "./legacy-guard.mjs";
+refuseLegacy("scrape-missing-sv.mjs", "同じ名前のカードを並び順で対応づけるため、別の番号の画像を保存しうる");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");

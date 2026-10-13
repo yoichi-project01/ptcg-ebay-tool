@@ -8,6 +8,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { refuseLegacy } from "./legacy-guard.mjs";
+refuseLegacy("fetch-set-years.mjs", "全弾の発売年を TCGdex の値で上書きする。手で直した発売年（SD・CP6・SMP1・CPr/CPs/CPm 等）を戻してしまう");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");

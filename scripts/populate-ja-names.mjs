@@ -15,6 +15,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { refuseLegacy } from "./legacy-guard.mjs";
+refuseLegacy("populate-ja-names.mjs", "位置マッチングで日本語名を埋める。並びのずれた弾の名前を壊す");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");

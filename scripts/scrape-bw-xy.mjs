@@ -27,6 +27,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
+import { refuseLegacy } from "./legacy-guard.mjs";
+refuseLegacy("scrape-bw-xy.mjs", "scrape-missing-sets.mjs に置き換え済み");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");

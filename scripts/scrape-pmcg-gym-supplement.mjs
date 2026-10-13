@@ -12,6 +12,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
+import { refuseLegacy } from "./legacy-guard.mjs";
+refuseLegacy("scrape-pmcg-gym-supplement.mjs", "名前で pcg-search の画像を探す。PMCG は cardData と pcg-search の並びが違い、2026-10-08 に画像の取り違え71枚を直した");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");

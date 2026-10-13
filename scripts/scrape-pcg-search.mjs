@@ -15,6 +15,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
+import { refuseLegacy } from "./legacy-guard.mjs";
+refuseLegacy("scrape-pcg-search.mjs", "番号で pcg-search の画像を取るが、PMCG は cardData と pcg-search の並びが違い取り違えた（2026-10-08 に直した）。旧裏〜PCG の画像はそろっている");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");

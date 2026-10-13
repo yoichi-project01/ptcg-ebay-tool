@@ -15,6 +15,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
+import { refuseLegacy } from "./legacy-guard.mjs";
+refuseLegacy("scrape-official-images.mjs", "カード名で画像を探すため、同じ名前の別番号（RR と SR・SAR など）に同じ画像を保存する（2026-10-05 に2,227枚の取り違えを直した）。公式の一覧の取り直しは new-cards.mjs --rescan");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");

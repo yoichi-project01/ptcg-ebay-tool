@@ -210,7 +210,8 @@ function pad3(n) {
 // 日本語名・英語名がどちらも無いカードは名前検索にヒットさせようがないため除外する
 const SEARCH_INDEX = CARD_DATA.map((s) => ({
   set: s,
-  setKey: normalize(s.ja + " " + s.en + " " + s.c),
+  // 弾の日本語名・英語名・型番に加え、旧裏の英語通称（enAlias "Base Set" 等）・印刷された型番（codeAlias "XY1" 等）・PSA の表記でも引けるようにする
+  setKey: normalize([s.ja, s.en, s.c, s.enAlias, s.codeAlias, s.psaName, ...(s.psaNames || [])].filter(Boolean).join(" ")),
   cards: s.k
     .filter((k) => k[1] || k[2])
     .map((k) => {
@@ -227,7 +228,7 @@ const SEARCH_INDEX = CARD_DATA.map((s) => ({
       };
     }),
 }));
-export function searchCards(query) {
+export function searchCards(query, limit = 24) {
   const tokens = normalizeBase(query).split(/\s+/).filter(Boolean).map(stripSeparators);
   if (tokens.length === 0) return [];
   const results = [];
@@ -255,7 +256,7 @@ export function searchCards(query) {
     if (a.set.c !== b.set.c) return b.set.c.localeCompare(a.set.c);
     return b.card[0].localeCompare(a.card[0]);
   });
-  return results.slice(0, 24);
+  return results.slice(0, limit);
 }
 function cardNoOf(setObj, local) {
   // ミラーの柄の版（"025-PB" 等）は番号部分で表す
@@ -328,7 +329,8 @@ function findDbCard(selectedKey) {
   const local = selectedKey.slice(idx + 1);
   const set = CARD_DATA.find((s) => s.c === setCode);
   if (!set) return null;
-  const card = set.k.find((k) => k[0] === local);
+  // 履歴から読み込んだときは型番が数値（"SV2a/25"）のことがあるので、数字の型番は数値として比べる
+  const card = set.k.find((k) => k[0] === local) || (/^\d+$/.test(local) ? set.k.find((k) => /^\d+$/.test(k[0]) && parseInt(k[0], 10) === parseInt(local, 10)) : null);
   return card ? { set, card } : null;
 }
 // ローカルにスクレイピング済み画像があればそのパスを返す
@@ -527,7 +529,7 @@ export function buildModernTitle(f, { maxLength = 80 } = {}) {
 }
 // 80文字に収めるために省略した要素（セット英語名・発売年・Holo・レアリティフルスペル）を
 // 日本語ラベルの配列で返す。UI側で「何を省略したか」を表示するために使う
-// （旧裏セットはbuildLegacyOldBackTitle側で扱うため常に空配列）
+// （旧裏セットは buildVintageTitle 側で扱い、省略の表示はしないため常に空配列）
 export function getDroppedModernTitleParts(f, { maxLength = 80 } = {}) {
   if (OLD_BACK_SET_RE.test(f.setCode)) return [];
   return assembleModernTitle(f, maxLength).dropped.map((key) => MODERN_TITLE_DROPPABLE_LABELS[key]);
@@ -1283,10 +1285,13 @@ function AppInner() {
   const remainingCount = Math.max(0, listingLimit.count - monthlyUsage.usedCount);
   const remainingValue = Math.max(0, listingLimit.value - monthlyUsage.usedValue);
 
-  const candidates = useMemo(
-    () => (searchQuery.trim().length >= 2 ? searchCards(searchQuery) : []),
+  // 表示は24件まで。25件目があれば「絞り込んでください」と出す（見えていない候補があることが分かるように）
+  const candidatesAll = useMemo(
+    () => (searchQuery.trim().length >= 2 ? searchCards(searchQuery, 25) : []),
     [searchQuery]
   );
+  const candidates = candidatesAll.slice(0, 24);
+  const candidatesTruncated = candidatesAll.length > 24;
   const title = useMemo(
     () => (mode === "single" ? buildSingleTitle(f) : mode === "sealed" ? buildSealedTitle(f) : buildPackTitle(f)),
     [mode, f]
@@ -1541,6 +1546,11 @@ function AppInner() {
                 marginTop: 12, padding: "6px 4px", border: "none", background: "none", cursor: "pointer",
                 fontSize: 12.5, fontWeight: 800, color: "#7c6cf0",
               }}>候補 {candidates.length} 件を再表示</button>
+            )}
+            {showCandidates && candidatesTruncated && (
+              <div style={{ fontSize: 12.5, color: "#b45309", marginTop: 12 }}>
+                候補が多いため上位24件だけ表示しています。型番（例: SV2a）やレアリティ（例: SAR）を足して絞り込んでください。
+              </div>
             )}
             {showCandidates && candidates.length > 0 && (
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))", gap: 12, marginTop: 16, maxHeight: 560, overflowY: "auto" }}>

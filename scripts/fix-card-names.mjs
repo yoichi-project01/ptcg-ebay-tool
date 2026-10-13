@@ -14,6 +14,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
+import { refuseLegacy } from "./legacy-guard.mjs";
+refuseLegacy("fix-card-names.mjs", "2026-07 の一度きりの名前の修正。pcg-search の並びを前提にしており、今の cardData（PMCG の名前は 2026-10-08 に直した）を書き戻すおそれがある");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");

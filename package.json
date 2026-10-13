@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "index": "node scripts/build-image-index.mjs",
     "images": "node scripts/scrape-all.mjs",
-    "test": "vitest run"
+    "test": "vitest run",
+    "verify:images": "node scripts/image-hashes.mjs --verify",
+    "check": "node scripts/image-hashes.mjs --verify && vitest run && node scripts/check-row-alignment.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

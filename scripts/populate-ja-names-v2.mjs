@@ -14,6 +14,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { refuseLegacy } from "./legacy-guard.mjs";
+refuseLegacy("populate-ja-names-v2.mjs", "一覧の並び順で日本語名を埋める。番号で確かめない");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
