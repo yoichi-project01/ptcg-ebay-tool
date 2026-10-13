@@ -1321,9 +1321,23 @@ function AppInner() {
     [mode, f]
   );
   // 説明文の手動編集（textarea）。フォーム内容が変わったら再生成された説明文に戻す
+  // 手で直した説明文は、価格・状態などほかの項目を変えても消さない（2026-10-14）。カード・タブを切り替えたときだけ生成した説明文に戻す
+  // （別のカードの説明文が残ると出品事故になるため）。直した後にフォームの内容が変わったら、反映されていないことを知らせる
   const [descOverride, setDescOverride] = useState(null);
-  useEffect(() => { setDescOverride(null); }, [mode, f]);
+  const [descOverrideBase, setDescOverrideBase] = useState(null); // 手で直し始めたときの生成した説明文
+  useEffect(() => { setDescOverride(null); setDescOverrideBase(null); }, [mode, selectedKey]);
   const desc = descOverride ?? generatedDesc;
+  const descStale = descOverride !== null && descOverrideBase !== generatedDesc;
+  const editDesc = (value) => {
+    if (descOverride === null) setDescOverrideBase(generatedDesc);
+    setDescOverride(value);
+  };
+  const clearDescOverride = () => { setDescOverride(null); setDescOverrideBase(null); };
+  const regenerateDesc = () => {
+    if (descOverride !== null && !window.confirm("手で直した説明文を消して、フォームの内容から生成し直します。よろしいですか？")) return;
+    setDescOverride(null);
+    setDescOverrideBase(null);
+  };
   const over = title.length > 80;
   // 80文字に収めるために自動的に省略された要素（セット英語名・発売年・Holo・
   // レアリティフルスペル）。自動調整が入るため通常は over が発火しなくなるが、
@@ -1405,6 +1419,7 @@ function AppInner() {
     return history.filter((e) => normalize(`${e.f.pokemonJa} ${e.f.pokemonEn} ${e.f.setNameJa} ${e.f.setNameEn}`).includes(nq));
   }, [history, historyFilter]);
   const loadFromHistory = (entry) => {
+    clearDescOverride();
     setMode(resolveHistoryMode(entry.mode));
     setF({ ...DEFAULT_FORM, ...(entry.f || {}) });
     // 型番（localRef）があればそれで選ぶ（ミラーの柄の版の行は番号だけでは元の行と区別できない）
@@ -1491,10 +1506,12 @@ function AppInner() {
     setShowCandidates(false);
   };
   const applySealedProduct = (code) => {
+    clearDescOverride();
     setF((p) => applySealedProductToForm(p, code));
   };
   // 検索を使わない手入力派向け：出品固有フィールドだけを空に戻す
   const startNewListing = () => {
+    clearDescOverride();
     setF((p) => ({ ...p, ...PER_LISTING_FIELDS }));
     setSelectedKey("");
   };
@@ -1958,13 +1975,24 @@ function AppInner() {
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
                 <h2 style={{ margin: 0, fontSize: 15, fontWeight: 800 }}>説明文</h2>
                 <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                  {descOverride !== null && <span style={{ fontSize: 11, color: "#8b93a7" }}>編集済み（フォームを変更すると再生成されます）</span>}
+                  {descOverride !== null && <span style={{ fontSize: 11, color: "#8b93a7" }}>手で直した説明文（カードを切り替えるまで残ります）</span>}
+                  {descOverride !== null && (
+                    <button onClick={regenerateDesc} style={{
+                      padding: "4px 10px", borderRadius: 999, border: "1.5px solid #d9deea", cursor: "pointer",
+                      fontSize: 11.5, fontWeight: 700, color: "#5b48d6", background: "#f4f2ff",
+                    }}>生成し直す</button>
+                  )}
                   <CopyBtn text={desc} label="説明文をコピー" />
                 </div>
               </div>
+              {descStale && (
+                <div style={{ fontSize: 12, color: "#b45309", background: "#fff7e6", borderRadius: 8, padding: "8px 12px", marginBottom: 8, lineHeight: 1.6 }}>
+                  ⚠ 手で直した後にフォームの内容が変わりました。直した説明文には反映されていません。必要なら「生成し直す」を押すか、手で直してください。
+                </div>
+              )}
               <textarea
                 value={desc}
-                onChange={(e) => setDescOverride(e.target.value)}
+                onChange={(e) => editDesc(e.target.value)}
                 style={{ margin: 0, width: "100%", boxSizing: "border-box", whiteSpace: "pre-wrap", wordBreak: "break-word", fontFamily: "inherit", fontSize: 13, lineHeight: 1.75, color: "#2a3145", background: "#f6f7fb", borderRadius: 10, border: "1.5px solid transparent", padding: "14px 16px", minHeight: 340, maxHeight: 460, overflowY: "auto", resize: "vertical", outline: "none" }}
               />
             </div>
