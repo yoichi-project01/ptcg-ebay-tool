@@ -832,7 +832,11 @@ export function buildListingCsv(entries) {
 // ---------- eBay相場検索 ----------
 export function buildEbaySearchQuery(f, mode) {
   if (mode === "single") {
-    return [f.pokemonEn, f.rarity, f.cardNo, displaySetCode(f.setCode)].filter(Boolean).join(" ");
+    // ミラーの柄の版は版の名前を足し、通常版の相場と混ざらないようにする（2026-10-14）。ボール柄は "Master Ball" 等（"Reverse Holo" は外す）、
+    // エネルギーマーク柄・R柄は "Energy"・"Team Rocket" だけでは通常版（ロケット団のポケモンは名前に Team Rocket を含む）と区別できないので "Reverse Holo" も付ける
+    const mirrorEn = MIRROR_VARIANTS[mirrorVariantOf(f)]?.en ?? "";
+    const mirror = /Ball Reverse Holo$/.test(mirrorEn) ? mirrorEn.replace(/ Reverse Holo$/, "") : mirrorEn;
+    return [f.pokemonEn, f.rarity, f.cardNo, displaySetCode(f.setCode), mirror].filter(Boolean).join(" ");
   }
   if (mode === "sealed") {
     return [f.setNameEn, displaySetCode(f.setCode), "Japanese", f.sealedProductType].filter(Boolean).join(" ");
@@ -1001,6 +1005,8 @@ export function buildConditionPhrasesSentence(codes) {
   return `This card has ${joined}.`;
 }
 export function buildSingleDesc(f) {
+  // ミラーの柄の版（2026-10-14）。Card の行の後ろに版の名前を付ける
+  const mirrorEn = MIRROR_VARIANTS[mirrorVariantOf(f)]?.en ?? "";
   const notes = f.conditionNotes.trim();
   // 印刷バリエーション（No Rarity/1st Edition/Unlimited/Error）が選べる範囲は
   // OLD_BACK_SET_RE（旧裏世代全体）が最も広いため、自由記述欄もそれに合わせて表示する
@@ -1040,7 +1046,7 @@ export function buildSingleDesc(f) {
   return `Thank you for checking out my listing!
 
 ■ Card Details
-- Card: ${f.pokemonEn || "[Pokemon name]"} ${f.rarity || ""} ${f.cardNo || ""}
+- Card: ${f.pokemonEn || "[Pokemon name]"} ${f.rarity || ""} ${f.cardNo || ""}${mirrorEn ? ` (${mirrorEn})` : ""}
 - Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${displaySetCode(f.setCode)})` : ""}
 - Language: Japanese
 ${printVariant ? `- Print: ${printVariant}\n` : ""}${oldBack ? `- Back Design: Old Back (旧裏)\n` : ""}${printNote ? `- Print Note: ${printNote}\n` : ""}- Condition: ${conditionLine}

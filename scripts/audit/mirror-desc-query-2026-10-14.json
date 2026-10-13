@@ -1,0 +1,71 @@
+{
+ "about": "ミラーの柄の版の説明文の Card の行と相場リンクの検索語の直す前と後（2026-10-14、A3）。変わったのは版の行542行の desc・query だけ（ほかの行は変化なし。SV2a-025 は元の行の例）。検索語はボール柄は Master Ball 等、エネルギーマーク柄・R柄は Reverse Holo も付ける",
+ "examples": [
+  {
+   "id": "SV2a-025-PB",
+   "descCardLine": {
+    "before": "- Card: Pikachu C 025/165",
+    "after": "- Card: Pikachu C 025/165 (Poke Ball Reverse Holo)"
+   },
+   "query": {
+    "before": "Pikachu C 025/165 SV2a",
+    "after": "Pikachu C 025/165 SV2a Poke Ball"
+   }
+  },
+  {
+   "id": "SV2a-025-MB",
+   "descCardLine": {
+    "before": "- Card: Pikachu C 025/165",
+    "after": "- Card: Pikachu C 025/165 (Master Ball Reverse Holo)"
+   },
+   "query": {
+    "before": "Pikachu C 025/165 SV2a",
+    "after": "Pikachu C 025/165 SV2a Master Ball"
+   }
+  },
+  {
+   "id": "M2a-011-EN",
+   "descCardLine": {
+    "before": "- Card: Budew  011/193",
+    "after": "- Card: Budew  011/193 (Energy Reverse Holo)"
+   },
+   "query": {
+    "before": "Budew 011/193 M2a",
+    "after": "Budew 011/193 M2a Energy Reverse Holo"
+   }
+  },
+  {
+   "id": "M2a-011-FB",
+   "descCardLine": {
+    "before": "- Card: Budew  011/193",
+    "after": "- Card: Budew  011/193 (Friend Ball Reverse Holo)"
+   },
+   "query": {
+    "before": "Budew 011/193 M2a",
+    "after": "Budew 011/193 M2a Friend Ball"
+   }
+  },
+  {
+   "id": "M2a-102-R",
+   "descCardLine": {
+    "before": "- Card: Team Rocket's Murkrow  102/193",
+    "after": "- Card: Team Rocket's Murkrow  102/193 (Team Rocket Reverse Holo)"
+   },
+   "query": {
+    "before": "Team Rocket's Murkrow 102/193 M2a",
+    "after": "Team Rocket's Murkrow 102/193 M2a Team Rocket Reverse Holo"
+   }
+  },
+  {
+   "id": "SV2a-025",
+   "descCardLine": {
+    "before": "- Card: Pikachu C 025/165",
+    "after": "- Card: Pikachu C 025/165"
+   },
+   "query": {
+    "before": "Pikachu C 025/165 SV2a",
+    "after": "Pikachu C 025/165 SV2a"
+   }
+  }
+ ]
+}

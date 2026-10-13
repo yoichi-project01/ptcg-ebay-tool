@@ -1231,3 +1231,19 @@ describe("80文字を超えるときの最後の手段（2026-10-14）", () => {
     expect(buildSingleTitle(formOf("SV2a-025-MB"))).toBe("Pikachu C 025/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM 2023");
   });
 });
+
+describe("ミラーの柄の版の説明文と相場リンク（2026-10-14）", () => {
+  const formOf = (id) => {
+    const set = CARD_DATA_FOR_TEST.find((s) => s.k.some((k) => `${s.c}-${k[0]}` === id));
+    return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((k) => `${set.c}-${k[0]}` === id) });
+  };
+  it("説明文の Card の行に版の名前が入る", () => {
+    expect(buildSingleDesc(formOf("SV2a-025-MB"))).toContain("- Card: Pikachu C 025/165 (Master Ball Reverse Holo)");
+    expect(buildSingleDesc(formOf("SV2a-025"))).toContain("- Card: Pikachu C 025/165\n");
+  });
+  it("相場リンクの検索語に版の名前が入る（ボール柄は Reverse Holo を外す）", () => {
+    expect(buildEbaySearchQuery(formOf("SV2a-025-MB"), "single")).toBe("Pikachu C 025/165 SV2a Master Ball");
+    expect(buildEbaySearchQuery(formOf("M2a-102-R"), "single")).toBe("Team Rocket's Murkrow 102/193 M2a Team Rocket Reverse Holo");
+    expect(buildEbaySearchQuery(formOf("SV2a-025"), "single")).toBe("Pikachu C 025/165 SV2a");
+  });
+});
