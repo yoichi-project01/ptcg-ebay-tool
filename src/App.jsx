@@ -1316,10 +1316,24 @@ function AppInner() {
   );
   const candidates = candidatesAll.slice(0, 24);
   const candidatesTruncated = candidatesAll.length > 24;
-  const title = useMemo(
+  const generatedTitle = useMemo(
     () => (mode === "single" ? buildSingleTitle(f) : mode === "sealed" ? buildSealedTitle(f) : buildPackTitle(f)),
     [mode, f]
   );
+  // タイトルを手で直す欄（2026-10-14）。説明文と同じく、カード・タブを切り替えるまで残し、直した後にフォームが変わったら知らせる
+  const [titleOverride, setTitleOverride] = useState(null);
+  const [titleOverrideBase, setTitleOverrideBase] = useState(null);
+  const title = titleOverride ?? generatedTitle;
+  const titleStale = titleOverride !== null && titleOverrideBase !== generatedTitle;
+  const editTitle = (value) => {
+    if (titleOverride === null) setTitleOverrideBase(generatedTitle);
+    setTitleOverride(value.replace(/[\r\n]+/g, " "));
+  };
+  const regenerateTitle = () => {
+    if (titleOverride !== null && !window.confirm("手で直したタイトルを消して、フォームの内容から生成し直します。よろしいですか？")) return;
+    setTitleOverride(null);
+    setTitleOverrideBase(null);
+  };
   const generatedDesc = useMemo(
     () => (mode === "single" ? buildSingleDesc(f) : mode === "sealed" ? buildSealedDesc(f) : buildPackDesc(f)),
     [mode, f]
@@ -1329,14 +1343,14 @@ function AppInner() {
   // （別のカードの説明文が残ると出品事故になるため）。直した後にフォームの内容が変わったら、反映されていないことを知らせる
   const [descOverride, setDescOverride] = useState(null);
   const [descOverrideBase, setDescOverrideBase] = useState(null); // 手で直し始めたときの生成した説明文
-  useEffect(() => { setDescOverride(null); setDescOverrideBase(null); }, [mode, selectedKey]);
+  useEffect(() => { setDescOverride(null); setDescOverrideBase(null); setTitleOverride(null); setTitleOverrideBase(null); }, [mode, selectedKey]);
   const desc = descOverride ?? generatedDesc;
   const descStale = descOverride !== null && descOverrideBase !== generatedDesc;
   const editDesc = (value) => {
     if (descOverride === null) setDescOverrideBase(generatedDesc);
     setDescOverride(value);
   };
-  const clearDescOverride = () => { setDescOverride(null); setDescOverrideBase(null); };
+  const clearDescOverride = () => { setDescOverride(null); setDescOverrideBase(null); setTitleOverride(null); setTitleOverrideBase(null); };
   const regenerateDesc = () => {
     if (descOverride !== null && !window.confirm("手で直した説明文を消して、フォームの内容から生成し直します。よろしいですか？")) return;
     setDescOverride(null);
@@ -1915,23 +1929,40 @@ function AppInner() {
               <div style={{ background: "#fff", borderRadius: 15, padding: "20px 22px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
                   <h2 style={{ margin: 0, fontSize: 15, fontWeight: 800 }}>タイトル</h2>
-                  <span style={{ fontSize: 12, fontWeight: 800, color: over ? "#c0392b" : "#5b6478" }}>{title.length} / 80 文字</span>
+                  <span style={{ fontSize: 12, fontWeight: 800, color: over ? "#c0392b" : "#5b6478" }}>{title.length} / 80 文字（{over ? `${title.length - 80} 文字オーバー` : `残り ${80 - title.length} 文字`}）</span>
                 </div>
                 {sku && (
                   <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 8 }}>
                     <span style={{ fontSize: 11, color: "#8b93a7" }}>SKU: <code style={{ fontFamily: "inherit", color: "#5b6478" }}>{sku}</code></span>
                   </div>
                 )}
-                <div style={{ fontSize: 15, lineHeight: 1.5, fontWeight: 600, padding: "12px 14px", borderRadius: 10, background: "#f6f7fb", border: over ? "1.5px solid #e5b3ad" : "1.5px solid transparent", minHeight: 24, wordBreak: "break-word" }}>
-                  {title || "入力するとここにタイトルが表示されます"}
-                </div>
-                {over && (
-                  <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>
-                    eBayのタイトル上限は80文字です（<strong>{title.length - 80}文字オーバー</strong>）。
-                    {f.setNameEn && ` セット英語名「${f.setNameEn}」を省くと ${title.length - f.setNameEn.length - 1} 文字になります。`}
+                <textarea
+                  value={title}
+                  onChange={(e) => editTitle(e.target.value)}
+                  placeholder="入力するとここにタイトルが表示されます（手で直すこともできます）"
+                  rows={2}
+                  style={{ display: "block", width: "100%", boxSizing: "border-box", fontFamily: "inherit", fontSize: 15, lineHeight: 1.5, fontWeight: 600, padding: "12px 14px", borderRadius: 10, background: "#f6f7fb", border: over ? "1.5px solid #e5b3ad" : "1.5px solid transparent", resize: "vertical", outline: "none", color: "#1a2238" }}
+                />
+                {titleOverride !== null && (
+                  <div style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 6 }}>
+                    <span style={{ fontSize: 11, color: "#8b93a7" }}>手で直したタイトル（カードを切り替えるまで残ります）</span>
+                    <button onClick={regenerateTitle} style={{
+                      padding: "3px 10px", borderRadius: 999, border: "1.5px solid #d9deea", cursor: "pointer",
+                      fontSize: 11.5, fontWeight: 700, color: "#5b48d6", background: "#f4f2ff",
+                    }}>生成し直す</button>
                   </div>
                 )}
-                {droppedTitleParts.length > 0 && (
+                {titleStale && (
+                  <div style={{ fontSize: 12, color: "#b45309", marginTop: 6 }}>
+                    ⚠ 手で直した後にフォームの内容が変わりました。直したタイトルには反映されていません。
+                  </div>
+                )}
+                {over && (
+                  <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>
+                    ⚠ eBayのタイトル上限は80文字です（<strong>{title.length - 80}文字オーバー</strong>）。このままでは出品できません。短くしてください。
+                  </div>
+                )}
+                {titleOverride === null && droppedTitleParts.length > 0 && (
                   <div style={{ fontSize: 12, color: "#8b93a7", marginTop: 6 }}>
                     80文字に収めるため、{droppedTitleParts.join("・")}を省略しました。
                   </div>
