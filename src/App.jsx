@@ -763,6 +763,8 @@ const CSV_COLUMNS = [
   "C:Card Name", "C:Character", "C:Set", "C:Card Number", "C:Rarity", "C:Language",
   "C:Manufacturer", "C:Graded", "C:Professional Grader", "C:Grade",
   "C:Certification Number", "C:Card Condition", "C:Features", "C:Year Manufactured",
+  // 2026-10-14: Item Specifics に出る Finish（ミラーの柄の版・ホロ／ノーマルを分けたカード）・Vintage（旧裏）も CSV に出す
+  "C:Finish", "C:Vintage",
 ];
 function csvEscape(value) {
   const s = String(value ?? "");
@@ -816,6 +818,8 @@ export function buildListingCsvRow(entry) {
     "C:Card Condition": specifics["Card Condition"] || "",
     "C:Features": specifics["Features"] || "",
     "C:Year Manufactured": specifics["Year Manufactured"] || "",
+    "C:Finish": specifics["Finish"] || "",
+    "C:Vintage": specifics["Vintage"] || "",
   };
 }
 // 出品キュー配列からFile Exchange形式に近いCSV文字列を組み立てる（ヘッダー行つき、CRLF区切り）。

@@ -1,0 +1,56 @@
+{
+ "about": "CSV に C:Finish・C:Vintage の列を足した直す前と後（2026-10-14、A4）。ヘッダーに2列増え、値が入るのは Item Specifics に Finish・Vintage がある行だけ（ほかの行は空欄）",
+ "counts": {
+  "Finish": {
+   "Reverse Holo": 542,
+   "Regular": 4,
+   "Holo": 4
+  },
+  "Vintage": {
+   "Yes": 973
+  }
+ },
+ "rowsWithValue": 24642,
+ "examples": [
+  {
+   "id": "SV2a-025-MB",
+   "before": {},
+   "after": {
+    "C:Finish": "Reverse Holo",
+    "C:Vintage": ""
+   }
+  },
+  {
+   "id": "DP3-X3120",
+   "before": {},
+   "after": {
+    "C:Finish": "Holo",
+    "C:Vintage": ""
+   }
+  },
+  {
+   "id": "DP3-X3119",
+   "before": {},
+   "after": {
+    "C:Finish": "Regular",
+    "C:Vintage": ""
+   }
+  },
+  {
+   "id": "PMCG1-004",
+   "before": {},
+   "after": {
+    "C:Finish": "",
+    "C:Vintage": "Yes"
+   }
+  },
+  {
+   "id": "SV2a-201",
+   "before": {},
+   "after": {
+    "C:Finish": "",
+    "C:Vintage": ""
+   }
+  }
+ ]
+}

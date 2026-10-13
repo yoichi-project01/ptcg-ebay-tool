@@ -1247,3 +1247,20 @@ describe("ミラーの柄の版の説明文と相場リンク（2026-10-14）", 
     expect(buildEbaySearchQuery(formOf("SV2a-025"), "single")).toBe("Pikachu C 025/165 SV2a");
   });
 });
+
+describe("CSV の Finish・Vintage の列（2026-10-14）", () => {
+  const formOf = (id) => {
+    const set = CARD_DATA_FOR_TEST.find((s) => s.k.some((k) => `${s.c}-${k[0]}` === id));
+    return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((k) => `${set.c}-${k[0]}` === id) });
+  };
+  const row = (id) => buildListingCsvRow({ f: formOf(id), title: "t", desc: "d", sku: "s" });
+  it("Item Specifics の Finish・Vintage が CSV にも入る", () => {
+    expect(row("SV2a-025-MB")["C:Finish"]).toBe("Reverse Holo");
+    expect(row("PMCG1-004")["C:Vintage"]).toBe("Yes");
+    expect(row("SV2a-201")["C:Finish"]).toBe("");
+  });
+  it("ヘッダーに列がある", () => {
+    const header = buildListingCsv([]).split(String.fromCharCode(13, 10))[0].split(",");
+    expect(header.slice(-2)).toEqual(["C:Finish", "C:Vintage"]);
+  });
+});
