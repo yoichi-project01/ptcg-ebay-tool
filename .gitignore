@@ -13,3 +13,17 @@ scripts/en-name-fix2/decisions-check.tsv
 scripts/en-name-fix2/summary-check.json
 scripts/en-name-fix3/.cache/
 scripts/en-name-fix3/decisions-check/
+
+# 途中のファイル（2026-10-14、D6）。取り直せるキャッシュ・取得の途中経過・実行のたびに作り直す出力。
+# この PC には残っていてスクリプトはそのまま使える。2026-10-14 より前の中身は git の履歴にある
+scripts/official-card-cache.json
+scripts/official-card-scan.json
+scripts/official-detail-cache.json
+scripts/card-list.json
+scripts/scan-progress/
+scripts/secret-progress/
+scripts/en-card-cache/
+scripts/pcg-search-cache/
+scripts/en-name-fix5/.cache/
+scripts/new-cards/report.tsv
+scripts/en-name-fix6/*-check.tsv

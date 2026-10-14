@@ -170,6 +170,12 @@ public/
   cards/                   # 画像（{sr}/{set}/{jaName}_{setCode}-{localId}／{total}_{rarity}.ext）。.gitignore 対象
 ```
 
+**git に入れていない途中のファイル**（2026-10-14〜、`.gitignore`）: 公式一覧のキャッシュ（`scripts/official-card-cache.json`・`official-card-scan.json`・`official-detail-cache.json`・`card-list.json`）、
+公式 details.php の取得の途中経過（`scripts/scan-progress/`・`secret-progress/`）、キャッシュ（`en-card-cache/`・`pcg-search-cache/`・`en-name-fix*/.cache/`）、
+実行のたびに作り直す出力（`new-cards/report.tsv`・`*-check.tsv`）。この PC にだけあり、スクリプトはそのまま使う。消えたら取り直す
+（公式一覧は `node scripts/new-cards.mjs --rescan`、details.php の結果は各スクリプトが無いものを取り直す）。2026-10-14 より前の中身は git の履歴にある。
+`scripts/promo-progress/`・`image-hashes.tsv`・各レポート・根拠のファイルは git に入れたまま。
+
 ---
 
 ## 画像ファイル名形式
