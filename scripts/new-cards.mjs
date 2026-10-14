@@ -145,7 +145,8 @@ function classify(list, details, data) {
         cands = [bySet.get(mc)].filter(Boolean);
         if (!cands.length) { r.target = mc; r.status = "新しい弾"; continue; }
       } else {
-        cands = data.filter((s) => (s.codeAlias || s.c) === d.badge && String(s.of) === String(parseInt(e.total, 10)));
+        // 公式の記号（img-regulation の alt）は、弾コードと同じ（XY1-Bx・L1-Bhg 等の内部のフォルダ名）ことも、印刷された記号（codeAlias）と同じこともある
+        cands = data.filter((s) => (s.c === d.badge || (s.codeAlias || s.c) === d.badge) && String(s.of) === String(parseInt(e.total, 10)));
         if (cands.length > 1) cands = cands.filter((s) => s.c === c.key);
       }
       if (cands.length !== 1) { r.target = e.label ? e.label : `${d.badge}（${e.total ?? ""}）`; r.status = cands.length ? "弾が1つに決まらない" : "新しい弾"; continue; }

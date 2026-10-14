@@ -119769,6 +119769,7 @@
     "en": "HeartGold Collection",
     "psaName": "HeartGold Collection",
     "sr": "L",
+    "codeAlias": "L1",
     "of": 70,
     "y": 2009,
     "k": [
@@ -120192,8 +120193,7 @@
         "Double Colorless Energy",
         "U"
       ]
-    ],
-    "codeAlias": "L1-Bhg"
+    ]
   },
   {
     "c": "L1-Bss",
@@ -120201,6 +120201,7 @@
     "en": "SoulSilver Collection",
     "psaName": "SoulSilver Collection",
     "sr": "L",
+    "codeAlias": "L1",
     "of": 70,
     "y": 2009,
     "k": [
@@ -120624,8 +120625,7 @@
         "Rainbow Energy",
         "U"
       ]
-    ],
-    "codeAlias": "L1-Bss"
+    ]
   },
   {
     "c": "L2-B",
@@ -120633,6 +120633,7 @@
     "en": "Reviving Legends",
     "psaName": "Reviving Legends",
     "sr": "L",
+    "codeAlias": "L2",
     "of": 80,
     "y": 2010,
     "k": [
@@ -121116,8 +121117,7 @@
         "Metal Energy",
         "U"
       ]
-    ],
-    "codeAlias": "L2-B"
+    ]
   },
   {
     "c": "L3-B",
@@ -121125,6 +121125,7 @@
     "en": "Clash at the Summit",
     "psaName": "Clash at the Summit",
     "sr": "L",
+    "codeAlias": "L3",
     "of": 80,
     "y": 2010,
     "k": [
@@ -121608,8 +121609,7 @@
         "Rescue Energy",
         "U"
       ]
-    ],
-    "codeAlias": "L3-B"
+    ]
   },
   {
     "c": "LL",
@@ -145631,6 +145631,7 @@
     "en": "",
     "psaName": "M Master Deck Build Power Style",
     "sr": "XY",
+    "codeAlias": "MMB",
     "of": 49,
     "y": 2015,
     "k": [
@@ -145936,6 +145937,7 @@
     "en": "",
     "psaName": "M Master Deck Build Speed Style",
     "sr": "XY",
+    "codeAlias": "MMB",
     "of": 49,
     "y": 2015,
     "k": [

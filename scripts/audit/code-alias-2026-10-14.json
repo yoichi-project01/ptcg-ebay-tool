@@ -1,0 +1,127 @@
+{
+ "about": "印刷された記号（codeAlias）を直した直す前と後（2026-10-14、C7）。SKU は変わらない",
+ "bySet": {
+  "L1-Bhg": 70,
+  "L1-Bss": 70,
+  "L2-B": 80,
+  "L3-B": 80,
+  "MMB-P": 49,
+  "MMB-S": 49
+ },
+ "examples": [
+  {
+   "id": "L1-Bhg-025",
+   "title": {
+    "before": "Feraligatr RH 025/070 Japanese L1-Bhg Pokemon Card NM 2009 Holo Rare Holo",
+    "after": "Feraligatr RH 025/070 Japanese L1 Pokemon Card NM 2009 Holo Rare Holo"
+   },
+   "descSetLine": {
+    "before": "- Set: HeartGold Collection (L1-Bhg)",
+    "after": "- Set: HeartGold Collection (L1)"
+   },
+   "query": {
+    "before": "Feraligatr 025/070 L1-Bhg",
+    "after": "Feraligatr 025/070 L1"
+   },
+   "sku": {
+    "before": "L1-BHG-025-NM",
+    "after": "L1-BHG-025-NM"
+   }
+  },
+  {
+   "id": "L1-Bss-001",
+   "title": {
+    "before": "Caterpie C 001/070 Japanese L1-Bss Pokemon Card NM 2009 Common",
+    "after": "Caterpie C 001/070 Japanese L1 Pokemon Card NM 2009 Common"
+   },
+   "descSetLine": {
+    "before": "- Set: SoulSilver Collection (L1-Bss)",
+    "after": "- Set: SoulSilver Collection (L1)"
+   },
+   "query": {
+    "before": "Caterpie 001/070 L1-Bss",
+    "after": "Caterpie 001/070 L1"
+   },
+   "sku": {
+    "before": "L1-BSS-001-NM",
+    "after": "L1-BSS-001-NM"
+   }
+  },
+  {
+   "id": "L2-B-001",
+   "title": {
+    "before": "Oddish C 001/080 Japanese L2-B Pokemon Card NM 2010 Common",
+    "after": "Oddish C 001/080 Japanese L2 Pokemon Card NM 2010 Common"
+   },
+   "descSetLine": {
+    "before": "- Set: Reviving Legends (L2-B)",
+    "after": "- Set: Reviving Legends (L2)"
+   },
+   "query": {
+    "before": "Oddish 001/080 L2-B",
+    "after": "Oddish 001/080 L2"
+   },
+   "sku": {
+    "before": "L2-B-001-NM",
+    "after": "L2-B-001-NM"
+   }
+  },
+  {
+   "id": "L3-B-001",
+   "title": {
+    "before": "Bellsprout C 001/080 Japanese L3-B Pokemon Card NM 2010 Common",
+    "after": "Bellsprout C 001/080 Japanese L3 Pokemon Card NM 2010 Common"
+   },
+   "descSetLine": {
+    "before": "- Set: Clash at the Summit (L3-B)",
+    "after": "- Set: Clash at the Summit (L3)"
+   },
+   "query": {
+    "before": "Bellsprout 001/080 L3-B",
+    "after": "Bellsprout 001/080 L3"
+   },
+   "sku": {
+    "before": "L3-B-001-NM",
+    "after": "L3-B-001-NM"
+   }
+  },
+  {
+   "id": "MMB-P-001",
+   "title": {
+    "before": "Charizard-EX 001/049 Japanese MMB-P Pokemon Card NM 2015",
+    "after": "Charizard-EX 001/049 Japanese MMB Pokemon Card NM 2015"
+   },
+   "descSetLine": {
+    "before": "- Set: [Set name] (MMB-P)",
+    "after": "- Set: [Set name] (MMB)"
+   },
+   "query": {
+    "before": "Charizard-EX 001/049 MMB-P",
+    "after": "Charizard-EX 001/049 MMB"
+   },
+   "sku": {
+    "before": "MMB-P-001-NM",
+    "after": "MMB-P-001-NM"
+   }
+  },
+  {
+   "id": "MMB-S-001",
+   "title": {
+    "before": "Treecko 001/049 Japanese MMB-S Pokemon Card NM 2015",
+    "after": "Treecko 001/049 Japanese MMB Pokemon Card NM 2015"
+   },
+   "descSetLine": {
+    "before": "- Set: [Set name] (MMB-S)",
+    "after": "- Set: [Set name] (MMB)"
+   },
+   "query": {
+    "before": "Treecko 001/049 MMB-S",
+    "after": "Treecko 001/049 MMB"
+   },
+   "sku": {
+    "before": "MMB-S-001-NM",
+    "after": "MMB-S-001-NM"
+   }
+  }
+ ]
+}
