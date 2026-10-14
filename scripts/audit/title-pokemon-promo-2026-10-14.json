@@ -1,0 +1,101 @@
+{
+ "about": "2026-10-14 の2つ目の直し: (1)「Pokemon」まで消していた2件は Pokemon を残し、先にレアリティの略号・型番（旧裏は発売年・セット通称）を落とす (2) 番号付きのプロモのタイトルで 001/S-P の後ろの弾の記号を省く。全行の出力を比べて、変わったのはタイトル（と CSV の Title）だけで、この2件と番号付きのプロモ1,932行。80文字を超えるタイトル0件、Pokemon の無いタイトル0件",
+ "changed": {
+  "title": 1934
+ },
+ "promoOnlySetCodeRemoved": 1901,
+ "promoAlsoRestoredDroppedPart": 31,
+ "examples": [
+  {
+   "id": "PMCG6-088",
+   "before": "Sabrina's Psychic Control No.088 Challenge from the Darkness Japanese 1999",
+   "beforeLength": 74,
+   "after": "Sabrina's Psychic Control No.088 Challenge from the Darkness Japanese Pokemon",
+   "afterLength": 77
+  },
+  {
+   "id": "DPt2-B-077",
+   "before": "Team Galactic's Invention G-107 Technical Machine G U 077/090 Japanese DPt2-B",
+   "beforeLength": 77,
+   "after": "Team Galactic's Invention G-107 Technical Machine G U 077/090 Japanese Pokemon",
+   "afterLength": 78
+  },
+  {
+   "id": "S-P-001",
+   "before": "Pikachu 001/S-P Japanese S-P Pokemon Card NM Sword & Shield S Promo",
+   "beforeLength": 67,
+   "after": "Pikachu 001/S-P Japanese Pokemon Card NM Sword & Shield S Promo",
+   "afterLength": 63
+  },
+  {
+   "id": "SV-P-001",
+   "before": "Pikachu 001/SV-P Japanese SV-P Pokemon Card NM Scarlet & Violet SV-P Promo",
+   "beforeLength": 74,
+   "after": "Pikachu 001/SV-P Japanese Pokemon Card NM Scarlet & Violet SV-P Promo",
+   "afterLength": 69
+  },
+  {
+   "id": "SM-P-001",
+   "before": "Snorlax-GX 001/SM-P Japanese SM-P Pokemon Card NM Sun & Moon SM Promo",
+   "beforeLength": 69,
+   "after": "Snorlax-GX 001/SM-P Japanese Pokemon Card NM Sun & Moon SM Promo",
+   "afterLength": 64
+  },
+  {
+   "id": "XY-P-127",
+   "before": "Blaziken-EX 127/XY-P Japanese XY-P Pokemon Card NM XY Promo",
+   "beforeLength": 59,
+   "after": "Blaziken-EX 127/XY-P Japanese Pokemon Card NM XY Promo",
+   "afterLength": 54
+  },
+  {
+   "id": "DP-P-004",
+   "before": "Lucario LV.X 004/DP-P Japanese DP-P Pokemon Card NM",
+   "beforeLength": 51,
+   "after": "Lucario LV.X 004/DP-P Japanese Pokemon Card NM",
+   "afterLength": 46
+  },
+  {
+   "id": "M-P-139",
+   "before": "Mega Tatsugiri ex 139/M-P Japanese M-P Pokemon Card NM",
+   "beforeLength": 54,
+   "after": "Mega Tatsugiri ex 139/M-P Japanese Pokemon Card NM",
+   "afterLength": 50
+  },
+  {
+   "id": "S-P-347",
+   "before": "Float Stone U 347/S-P Japanese S-P Pokemon Card NM Sword & Shield S Promo",
+   "beforeLength": 73,
+   "after": "Float Stone U 347/S-P Japanese Pokemon Card NM Sword & Shield S Promo Uncommon",
+   "afterLength": 78
+  },
+  {
+   "id": "S-P-349",
+   "before": "Dowsing Machine R 349/S-P Japanese S-P Pokemon Card NM Sword & Shield S Promo",
+   "beforeLength": 77,
+   "after": "Dowsing Machine R 349/S-P Japanese Pokemon Card NM Sword & Shield S Promo Rare",
+   "afterLength": 78
+  },
+  {
+   "id": "SV-P-014",
+   "before": "Crushing Hammer 014/SV-P Japanese SV-P Pokemon Card NM",
+   "beforeLength": 54,
+   "after": "Crushing Hammer 014/SV-P Japanese Pokemon Card NM Scarlet & Violet SV-P Promo",
+   "afterLength": 77
+  },
+  {
+   "id": "SV-P-135",
+   "before": "Trainers' Mail 135/SV-P Japanese SV-P Pokemon Card NM",
+   "beforeLength": 53,
+   "after": "Trainers' Mail 135/SV-P Japanese Pokemon Card NM Scarlet & Violet SV-P Promo",
+   "afterLength": 76
+  },
+  {
+   "id": "SV-P-136",
+   "before": "Battle Compressor 136/SV-P Japanese SV-P Pokemon Card NM",
+   "beforeLength": 56,
+   "after": "Battle Compressor 136/SV-P Japanese Pokemon Card NM Scarlet & Violet SV-P Promo",
+   "afterLength": 79
+  }
+ ]
+}

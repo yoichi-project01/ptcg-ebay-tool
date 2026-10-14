@@ -404,15 +404,17 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
   const rarityWord = VINTAGE_RARITY_LABELS[f.rarity] || "";
 
   // 削除可能な2要素（優先度10〜11）
-  const include = { rarityWord: Boolean(rarityWord), condition: !isGraded && Boolean(f.condition), card: true, pokemon: true };
+  // card・year・setName・pokemon は最後の手段（2026-10-14）。"Pokemon" を外すより先に、Item Specifics にある発売年・セット通称を落とす
+  const include = { rarityWord: Boolean(rarityWord), condition: !isGraded && Boolean(f.condition), card: true, pokemon: true,
+    year: Boolean(year), setName: Boolean(setNameToken) };
   const assemble = () => [
     gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
     titleCardName(f.pokemonEn), // 2. カード名（プリズムスターの ◇ は外す）
     vintageCardNoToken(f.cardNo), // 3. No.006
-    setNameToken, // 4. セット通称
+    include.setName ? setNameToken : "", // 4. セット通称（最後の手段で落とす）
     printVariant, // 5. 印刷バリエーション（No Rarity / 1st Edition）
     "Japanese", // 6.
-    year, // 7. 発売年（現代カードより優先度が高い）
+    include.year ? year : "", // 7. 発売年（現代カードより優先度が高い。最後の手段で落とす）
     oldBack, // 8. Old Back
     include.pokemon ? (include.card ? "Pokemon Card" : "Pokemon") : "", // 9.（最後の手段で "Pokemon" → 外す）
     include.rarityWord ? rarityWord : "", // 10.（削除可）
@@ -422,7 +424,7 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
   let title = assemble();
   // 優先度の低いものから順に1要素ずつ落とす
   const dropped = [];
-  for (const key of ["condition", "rarityWord", "card", "pokemon"]) {
+  for (const key of ["condition", "rarityWord", "card", "year", "setName", "pokemon"]) {
     if (title.length <= maxLength) break;
     if (include[key]) {
       include[key] = false;
@@ -430,17 +432,22 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
       title = assemble();
     }
   }
-  return restoreDroppedParts(include, dropped, [["pokemon", "card", "condition"], "rarityWord"], assemble, maxLength);
+  return restoreDroppedParts(include, dropped, ["pokemon", "setName", "year", ["card", "condition", "rarityWord"]], assemble, maxLength);
 }
 
 // 80文字調整の後、落とした要素（dropped）を優先度の高い順（priority）に1つずつ戻してみて、戻しても maxLength 以内なら残す。
 // 後から落とした要素だけで十分短くなる場合に、先に落とした要素まで失わないようにするため（例: SV8a-149 は発売年→セット英語名の順に
 // 落とすと54文字になるが、セット英語名だけ落とせば発売年は入る）。dropped からも戻した要素を除き、組み立て直したタイトルを返す
 // priority の要素が配列のときは順番を守る組（戻せなかったらその組の残りは戻さない。LAST_RESORT_RESTORE: "Pokemon Card" に戻せないのに状態だけ戻すことはしない）
+// RESTORE_REQUIRES: 戻すときの前提。"Card" は "Pokemon" があるときだけ、状態は "Pokemon Card" があるときだけ戻す
+// （状態を先に落とす決まり。"Pokemon" が入らないのに状態だけ残すことはしない）
+const RESTORE_REQUIRES = { card: "pokemon", condition: "card" };
 function restoreDroppedParts(include, dropped, priority, assemble, maxLength) {
   for (const entry of priority) {
     for (const key of Array.isArray(entry) ? entry : [entry]) {
       if (!dropped.includes(key)) continue;
+      const req = RESTORE_REQUIRES[key];
+      if (req && req in include && !include[req]) break;
       include[key] = true;
       if (assemble().length <= maxLength) dropped.splice(dropped.indexOf(key), 1);
       else { include[key] = false; break; }
@@ -451,12 +458,13 @@ function restoreDroppedParts(include, dropped, priority, assemble, maxLength) {
 // 削除可能な4要素（優先度9〜12）の内部キー→UI表示用の日本語ラベル
 const MODERN_TITLE_DROPPABLE_LABELS = {
   setName: "セット英語名", year: "発売年", holo: "Holo（Non-Holo）", rarityFull: "レアリティのフルスペル",
-  condition: "状態（NM 等）", card: "「Pokemon Card」の Card", pokemon: "「Pokemon」",
+  condition: "状態（NM 等）", card: "「Pokemon Card」の Card", rarityCode: "レアリティの略号", setCode: "型番", pokemon: "「Pokemon」",
 };
-// ほかの要素をすべて落としても80文字を超えるときだけ落とす（2026-10-14）。状態 → "Pokemon Card" を "Pokemon" に → "Pokemon" も外す。
-// 戻すときは逆の順（Pokemon → Card → 状態）。旧裏のタイトルも同じ（状態はもともと最初に落とす）
-const LAST_RESORT_DROPS = ["condition", "card", "pokemon"];
-const LAST_RESORT_RESTORE = ["pokemon", "card", "condition"];
+// ほかの要素をすべて落としても80文字を超えるときだけ落とす（2026-10-14）。状態 → "Pokemon Card" を "Pokemon" に → レアリティの略号 → 型番 → "Pokemon"。
+// レアリティ・型番は Item Specifics（Rarity・Set）にあり、"Pokemon" より検索に効きにくいので先に落とす（"Pokemon" はほぼ残る）。
+// 戻すときは逆の順で、収まるものは戻す。ただし "Pokemon Card" → 状態 は組（"Card" を戻せなければ状態も戻さない。状態を先に落とす決まりのため）
+const LAST_RESORT_DROPS = ["condition", "card", "rarityCode", "setCode", "pokemon"];
+const LAST_RESORT_RESTORE = ["pokemon", "setCode", "rarityCode", ["card", "condition"]];
 // ホロ版とノーマル版を別の行に分けたカード（DP3・DP4 の構築デッキのディアルガ・パルキア・エレキブル・ブーバーン。
 // scripts/dp-x/split-holo.mjs）は、日本語名の末尾が「（ホロ）」「（ノーマル）」。"holo" / "regular" / ""（分けていないカード）を返す。
 // eBay の Item Specifics の Finish は、ホロのカードに Holo、ノーマルのカードに Regular が使われている（2026-10-12 に出品を確認。
@@ -507,16 +515,22 @@ function assembleModernTitle(f, maxLength) {
 
   // 削除可能な4要素（優先度9〜12）。true/falseで含めるかどうかを切り替える
   // condition・card・pokemon は、ほかをすべて落としても80文字を超えるときだけ落とす（2026-10-14。状態 → "Pokemon Card" を "Pokemon" に → "Pokemon" も外す）
+  // セット型番。番号付きのプロモはカード番号に弾の記号が入っている（"001/S-P"）ので、型番を重ねて書かない（2026-10-14）
+  const setCodeToken = displaySetCode(f.setCode);
+  const setCodeInCardNo = Boolean(setCodeToken) && (f.cardNo || "").endsWith(`/${setCodeToken}`);
+  const rarityCode = RARITY_TITLE_CODES[f.rarity] ?? f.rarity;
+  // rarityCode・setCode も最後の手段（"Pokemon" を外すより先に落とす。どちらも Item Specifics の Rarity・Set にある）
   const include = { setName: Boolean(setNameToken), year: Boolean(year), holo, rarityFull: Boolean(rarityFull),
-    condition: !isGraded && Boolean(f.condition), card: true, pokemon: true };
+    condition: !isGraded && Boolean(f.condition), card: true, pokemon: true,
+    rarityCode: Boolean(rarityCode), setCode: Boolean(setCodeToken) && !setCodeInCardNo };
   const assemble = () => [
     gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
     titleCardName(f.pokemonEn), // 2. カード名（プリズムスターの ◇ は外す）
-    RARITY_TITLE_CODES[f.rarity] ?? f.rarity, // 3. レアリティ略号（印刷された文字。H は文字が無いので入れない）
+    include.rarityCode ? rarityCode : "", // 3. レアリティ略号（印刷された文字。H は文字が無いので入れない。最後の手段で落とす）
     f.cardNo, // 4. カード番号
     MIRROR_VARIANTS[mirrorVariantOf(f)]?.en ?? "", // 4.5 ミラーの柄の版（Master Ball Reverse Holo 等。値段が大きく違うので落とさない）
     "Japanese", // 5.
-    displaySetCode(f.setCode), // 6. セット型番（codeAlias優先。買い手は印刷された型番で検索するため）
+    include.setCode ? setCodeToken : "", // 6. セット型番（codeAlias優先。買い手は印刷された型番で検索するため。最後の手段で落とす）
     include.pokemon ? (include.card ? "Pokemon Card" : "Pokemon") : "", // 7.（最後の手段で "Pokemon" → 外す）
     include.condition ? f.condition : "", // 8. 状態（未鑑定のみ。最後の手段で落とす）
     include.setName ? setNameToken : "", // 9. セット英語名（削除可）
@@ -537,7 +551,7 @@ function assembleModernTitle(f, maxLength) {
       title = assemble();
     }
   }
-  title = restoreDroppedParts(include, dropped, [LAST_RESORT_RESTORE, ...(finish ? ["holo", "setName", "year", "rarityFull"] : ["setName", "year", "holo", "rarityFull"])], assemble, maxLength);
+  title = restoreDroppedParts(include, dropped, [...LAST_RESORT_RESTORE, ...(finish ? ["holo", "setName", "year", "rarityFull"] : ["setName", "year", "holo", "rarityFull"])], assemble, maxLength);
   return { title, dropped };
 }
 export function buildModernTitle(f, { maxLength = 80 } = {}) {

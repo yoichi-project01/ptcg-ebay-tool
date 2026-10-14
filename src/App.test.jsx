@@ -134,16 +134,13 @@ describe("buildModernTitle", () => {
   });
 
   // 2026-10-14: 状態と "Pokemon Card" は最後の手段で落とす（収まらないときは "Pokemon" も外す）。優先度1〜6 の要素は落とさない
-  it("keeps every priority-1-through-6 element even for an extremely long card name", () => {
+  // 2026-10-14: 最後の手段は 状態 → "Pokemon Card" を "Pokemon" に → レアリティの略号 → 型番 → "Pokemon"。カード名・番号・Japanese は落とさない
+  it("keeps the card name, number and Japanese even for an extremely long card name", () => {
     const longCard = { ...modernCard, pokemonEn: "A".repeat(60), setNameEn: "B".repeat(40) };
     const title = buildModernTitle(longCard);
-    expect(title).toContain("A".repeat(60));
-    expect(title).toContain("SAR");
-    expect(title).toContain("201/165");
-    expect(title).toContain("Japanese");
-    expect(title).toContain("SV2a");
-    expect(title).not.toContain("Pokemon");
-    expect(title).not.toContain("NM");
+    expect(title).toBe(`${"A".repeat(60)} 201/165 Japanese`);
+    const shorter = buildModernTitle({ ...longCard, pokemonEn: "A".repeat(50) });
+    expect(shorter).toBe(`${"A".repeat(50)} 201/165 Japanese SV2a Pokemon`); // レアリティの略号を落とせば型番は戻せる
   });
 
   it("does not throw and simply omits the year for a set with no known release year", () => {
@@ -240,9 +237,12 @@ describe("buildVintageTitle", () => {
   it("places the release year ahead of the rarity word, so it survives 80-char trimming first", () => {
     // カード名を長くして詰めさせ、削除可能な2要素(状態・レアリティ語)のうち
     // 先に落ちるのがどちらでも、発売年(1996)は非削除可要素なので必ず残ることを確認する
-    const long = { ...vintageCard, pokemonEn: "A".repeat(40) };
+    const long = { ...vintageCard, pokemonEn: "A".repeat(20) };
     const title = buildVintageTitle(long);
     expect(title).toContain("1996");
+    // さらに長いと、"Pokemon" を外すより先に発売年を落とす（2026-10-14）
+    const longer = buildVintageTitle({ ...vintageCard, pokemonEn: "A".repeat(26) });
+    expect(longer).toBe(`${"A".repeat(26)} No.006 Base Set No Rarity Japanese Old Back Pokemon`);
   });
 
   it("does not use the modern full rarity spelling (e.g. Special Art Rare)", () => {
@@ -1224,9 +1224,16 @@ describe("80文字を超えるときの最後の手段（2026-10-14）", () => {
     expect(buildSingleTitle(formOf("SV2a-154-MB"))).toBe("Antique Helix Fossil C 154/165 Master Ball Reverse Holo Japanese SV2a Pokemon");
     expect(buildSingleTitle(formOf("PMCG6-020"))).toBe("Giovanni's Nidoqueen No.020 Challenge from the Darkness Japanese 1999 Pokemon");
   });
-  it("それでも長ければ Pokemon も外す", () => {
-    expect(buildSingleTitle(formOf("DPt2-B-077"))).toBe("Team Galactic's Invention G-107 Technical Machine G U 077/090 Japanese DPt2-B");
-    expect(getDroppedModernTitleParts(formOf("DPt2-B-077"))).toEqual(expect.arrayContaining(["状態（NM 等）", "「Pokemon Card」の Card", "「Pokemon」"]));
+  it("それでも長ければ Pokemon は残し、レアリティの略号・型番（旧裏は発売年・セット通称）を先に落とす", () => {
+    // 型番（DPt2-B）は入らないが、短いレアリティの略号（U）は入るので戻す
+    expect(buildSingleTitle(formOf("DPt2-B-077"))).toBe("Team Galactic's Invention G-107 Technical Machine G U 077/090 Japanese Pokemon");
+    expect(getDroppedModernTitleParts(formOf("DPt2-B-077"))).toEqual(expect.arrayContaining(["状態（NM 等）", "「Pokemon Card」の Card", "型番"]));
+    expect(getDroppedModernTitleParts(formOf("DPt2-B-077"))).not.toContain("「Pokemon」");
+    expect(buildSingleTitle(formOf("PMCG6-088"))).toBe("Sabrina's Psychic Control No.088 Challenge from the Darkness Japanese Pokemon");
+  });
+  it("番号付きのプロモは番号の後ろの弾の記号をタイトルに重ねて書かない", () => {
+    expect(buildSingleTitle(formOf("S-P-001"))).toBe("Pikachu 001/S-P Japanese Pokemon Card NM Sword & Shield S Promo");
+    expect(buildSingleTitle(formOf("SM-P-X33404"))).toContain("Japanese SM-P Pokemon Card");
   });
   it("80文字に収まるカードは変わらない", () => {
     expect(buildSingleTitle(formOf("SV2a-025-MB"))).toBe("Pikachu C 025/165 Master Ball Reverse Holo Japanese SV2a Pokemon Card NM 2023");
