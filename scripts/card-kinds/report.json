@@ -1,20 +1,20 @@
 {
  "counts": {
-  "Pokemon": 19377,
-  "Item": 1992,
-  "Supporter": 1897,
+  "Pokemon": 19394,
+  "Item": 1999,
+  "Supporter": 1907,
   "Stadium": 349,
-  "Tool": 188,
-  "Energy": 613,
-  "Trainer": 471
+  "Tool": 189,
+  "Energy": 616,
+  "Trainer": 467
  },
  "sources": {
-  "name": 5325,
-  "bulbapedia": 18577,
+  "name": 5327,
+  "bulbapedia": 18609,
   "tcgdex": 72,
   "details": 907,
   "name-contains": 6,
-  "same-name": 429
+  "same-name": 433
  },
  "conflicts": [
   {
@@ -327,6 +327,13 @@
   },
   {
    "id": "MMB-S-045",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "CLF-027",
    "ja": "ポケモンだいすきクラブ",
    "en": "Pokémon Fan Club",
    "chosen": "bulbapedia:Supporter",

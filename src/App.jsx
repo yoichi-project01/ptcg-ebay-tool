@@ -649,7 +649,7 @@ export function cardKindOf(f) {
 }
 // サポートの絵の人物（eBay の Character 用）。"Boss's Orders (Giovanni)" → Giovanni、"Iono's ..." の形 → Iono、
 // "Team Rocket's Ariana" → Ariana、人物名だけの名前はそのまま。人物でない持ち主・人物でない名前は空
-const NON_PERSON_OWNERS = new Set(["Adventurer", "Black Belt", "Boss", "Ciphermaniac", "Emcee", "Explorer", "Lass", "Mom", "Pokémon Breeder", "Psychic", "Sage", "Professor"]);
+const NON_PERSON_OWNERS = new Set(["Adventurer", "Black Belt", "Boss", "Ciphermaniac", "Emcee", "Explorer", "Lass", "Mom", "Pokémon Breeder", "Psychic", "Sage", "Professor", "Rocket"]); // Rocket's Admin.（ロケット団の幹部）の持ち主は人物でない（2026-10-15）
 const TEAM_OWNERS = new Set(["Team Rocket", "Team Galactic", "Team Yell"]);
 const NON_PERSON_TEAM_CARDS = new Set(["Handiwork", "Trickery", "Wager", "Cheer"]);
 const NON_PERSON_SUPPORTERS = /^(Friends in .+|Teammates|Underground Expedition|Pokémon Fan Club)$/;

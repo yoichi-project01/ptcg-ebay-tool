@@ -1128,6 +1128,7 @@ describe("Item Specifics の Character（カードの種類ごと）", () => {
     expect(charOf("SV10-091")).toBe("Ariana"); // Team Rocket's Ariana
     expect(charOf("CP6-084")).toBe("Professor Oak"); // Professor Oak's Hint
     expect(charOf("SM5S-059")).toBe("Cyrus"); // Cyrus ◇
+    expect(charOf("CLF-029")).toBe("Giovanni"); // Classic の Boss's Orders (Giovanni)
   });
   it("人物でないサポート・グッズ・どうぐ・スタジアム・エネルギーは出さない", () => {
     expect(charOf("XY10-B-077")).toBeUndefined(); // Team Rocket's Handiwork
@@ -1136,6 +1137,9 @@ describe("Item Specifics の Character（カードの種類ごと）", () => {
     expect(charOf("S12a-145")).toBeUndefined(); // Choice Belt
     expect(charOf("SV1a-070")).toBeUndefined(); // Artazon
     expect(charOf("SV10-098")).toBeUndefined(); // Team Rocket's Energy
+    expect(charOf("PCG3-079")).toBeUndefined(); // Rocket's Admin.（持ち主の Rocket は人物でない）
+    expect(charOf("CLF-031")).toBeUndefined(); // Classic の Rocket's Admin.
+    expect(charOf("CLF-027")).toBeUndefined(); // Classic の Pokémon Fan Club（サポート。ポケモンとして扱わない）
   });
 });
 
