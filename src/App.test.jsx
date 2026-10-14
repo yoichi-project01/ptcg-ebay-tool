@@ -1299,3 +1299,11 @@ describe("候補の並び（2026-10-14）", () => {
     expect(ids.indexOf("SV2a-025-PB")).toBeLessThan(ids.indexOf("SV2a-025-MB"));
   });
 });
+
+describe("説明文の Card の行の空白（2026-10-14）", () => {
+  it("レアリティ・番号が無くても余計な空白を残さない", () => {
+    const f = { ...DEFAULT_FORM, pokemonEn: "Dialga", setCode: "DP3" };
+    expect(buildSingleDesc(f)).toContain("- Card: Dialga\n");
+    expect(buildSingleDesc({ ...f, cardNo: "001/S-P", setCode: "S-P" })).toContain("- Card: Dialga 001/S-P\n");
+  });
+});

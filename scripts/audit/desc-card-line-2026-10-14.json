@@ -1,0 +1,36 @@
+{
+ "about": "説明文の Card の行の余計な空白を詰めた直す前と後（2026-10-14、A6）。変わったのは説明文（とCSV の Description）の Card の行だけで、空白以外の違いは無い",
+ "changedRows": 9512,
+ "examples": [
+  {
+   "id": "DP3-X3120",
+   "before": "- Card: Dialga  ",
+   "after": "- Card: Dialga"
+  },
+  {
+   "id": "S-P-001",
+   "before": "- Card: Pikachu  001/S-P",
+   "after": "- Card: Pikachu 001/S-P"
+  },
+  {
+   "id": "M2a-011-EN",
+   "before": "- Card: Budew  011/193 (Energy Reverse Holo)",
+   "after": "- Card: Budew 011/193 (Energy Reverse Holo)"
+  },
+  {
+   "id": "SM-P-X33404",
+   "before": "- Card: Victory Decoration 1st Place  ",
+   "after": "- Card: Victory Decoration 1st Place"
+  },
+  {
+   "id": "PMCG1-004",
+   "before": "- Card: Weedle C 004/102",
+   "after": "- Card: Weedle C 004/102"
+  },
+  {
+   "id": "SV2a-201",
+   "before": "- Card: Charizard ex SAR 201/165",
+   "after": "- Card: Charizard ex SAR 201/165"
+  }
+ ]
+}

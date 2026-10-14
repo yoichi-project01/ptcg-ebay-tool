@@ -1073,7 +1073,7 @@ export function buildSingleDesc(f) {
   return `Thank you for checking out my listing!
 
 ■ Card Details
-- Card: ${f.pokemonEn || "[Pokemon name]"} ${f.rarity || ""} ${f.cardNo || ""}${mirrorEn ? ` (${mirrorEn})` : ""}
+- Card: ${[f.pokemonEn || "[Pokemon name]", f.rarity, f.cardNo].filter(Boolean).join(" ")}${mirrorEn ? ` (${mirrorEn})` : ""}
 - Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${displaySetCode(f.setCode)})` : ""}
 - Language: Japanese
 ${printVariant ? `- Print: ${printVariant}\n` : ""}${oldBack ? `- Back Design: Old Back (旧裏)\n` : ""}${printNote ? `- Print Note: ${printNote}\n` : ""}- Condition: ${conditionLine}
