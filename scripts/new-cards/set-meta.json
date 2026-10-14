@@ -91,7 +91,7 @@
    134,
    135
   ],
-  "source": "公式の商品情報 https://www.pokemon-card.com/products/ 「拡張パック「30th CELEBRATION」販売日 2026年 9月16日（水）」（2026-10-09 に確認）。pendingGaps: 2026-10-09 の公式一覧に 104〜135（/103）が載っていない。載ったら node scripts/new-cards.mjs --rescan の後 --apply --set M6a で足す"
+  "source": "公式の商品情報 https://www.pokemon-card.com/products/ 「拡張パック「30th CELEBRATION」販売日 2026年 9月16日（水）」（2026-10-09 に確認）。pendingGaps: 2026-10-09 の公式一覧に 104〜135（/103）が載っていない。載ったら node scripts/new-cards.mjs --rescan の後 --apply --set M6a で足す。2026-10-14 の公式一覧（23,451件・cardID の最大 50777）にも 104〜135 は無く、cardID 50778〜50797 の details.php も無かった。M6a 001〜006 の details.php にレアリティのアイコンは無いまま"
  },
  "SO": {
   "c": "SO",
