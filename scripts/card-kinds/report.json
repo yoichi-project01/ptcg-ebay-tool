@@ -1,16 +1,16 @@
 {
  "counts": {
-  "Pokemon": 19411,
-  "Item": 2007,
-  "Supporter": 1912,
+  "Pokemon": 19428,
+  "Item": 2014,
+  "Supporter": 1918,
   "Stadium": 349,
-  "Tool": 190,
-  "Energy": 619,
+  "Tool": 191,
+  "Energy": 622,
   "Trainer": 467
  },
  "sources": {
-  "name": 5329,
-  "bulbapedia": 18641,
+  "name": 5331,
+  "bulbapedia": 18673,
   "tcgdex": 72,
   "details": 907,
   "name-contains": 6,
@@ -341,6 +341,13 @@
   },
   {
    "id": "CLL-028",
+   "ja": "ポケモンだいすきクラブ",
+   "en": "Pokémon Fan Club",
+   "chosen": "bulbapedia:Supporter",
+   "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "CLK-028",
    "ja": "ポケモンだいすきクラブ",
    "en": "Pokémon Fan Club",
    "chosen": "bulbapedia:Supporter",
