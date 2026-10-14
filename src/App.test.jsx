@@ -1291,3 +1291,11 @@ describe("番号付きのプロモのカード番号（2026-10-14）", () => {
     expect(buildSku(f)).toBe("SM-P-X33404-NM");
   });
 });
+
+describe("候補の並び（2026-10-14）", () => {
+  it("同じ番号ならミラーの柄の版より元の行を先に出す", () => {
+    const ids = searchCards("ピカチュウ SV2a").map((r) => `${r.set.c}-${r.card[0]}`);
+    expect(ids.indexOf("SV2a-025")).toBeLessThan(ids.indexOf("SV2a-025-PB"));
+    expect(ids.indexOf("SV2a-025-PB")).toBeLessThan(ids.indexOf("SV2a-025-MB"));
+  });
+});

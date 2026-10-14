@@ -256,7 +256,10 @@ export function searchCards(query, limit = 24) {
     const sb = SERIE_ORDER[b.set.sr] ?? 99;
     if (sa !== sb) return sa - sb;
     if (a.set.c !== b.set.c) return b.set.c.localeCompare(a.set.c);
-    return b.card[0].localeCompare(a.card[0]);
+    // 同じ番号ならミラーの柄の版（"025-PB" 等）より元の行（"025"）を先に出す（2026-10-14）
+    const ba = baseLocal(a.card[0]), bb = baseLocal(b.card[0]);
+    if (ba !== bb) return bb.localeCompare(ba);
+    return a.set.k.indexOf(a.card) - a.set.k.indexOf(b.card); // 同じ番号の中はデータの並び（元の行 → PB → MB 等）
   });
   return results.slice(0, limit);
 }
