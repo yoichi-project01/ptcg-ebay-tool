@@ -13745,5 +13745,20 @@
   ],
   "illustrator": "Kazuma Koda",
   "cardId": "44976"
+ },
+ "M6a-151": {
+  "tried": [
+   {
+    "cardId": "50728",
+    "nums": [
+     151,
+     152
+    ],
+    "illustrator": "Shinji Higuchi"
+   }
+  ],
+  "illustrator": "Shinji Higuchi",
+  "cardId": "50728",
+  "note": "2026-10-14: LEGEND の上下（151・152）は公式 details.php の1つのページ（cardID 50728）。M6a-152 を取ったときの結果の番号に 151 も入っている"
  }
 }
