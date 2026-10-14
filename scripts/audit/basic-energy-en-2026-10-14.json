@@ -1,0 +1,139 @@
+{
+ "about": "基本エネルギーの英語名を入れた直す前と後（2026-10-14、C6）",
+ "changedRows": 231,
+ "examples": [
+  {
+   "id": "S-P-009",
+   "title": {
+    "before": "009/S-P Japanese Pokemon Card NM Sword & Shield S Promo",
+    "after": "Grass Energy 009/S-P Japanese Pokemon Card NM Sword & Shield S Promo"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Grass Energy"
+   },
+   "descCardLine": {
+    "before": "- Card: [Pokemon name] 009/S-P",
+    "after": "- Card: Grass Energy 009/S-P"
+   },
+   "query": {
+    "before": "009/S-P S-P",
+    "after": "Grass Energy 009/S-P S-P"
+   }
+  },
+  {
+   "id": "S-P-329",
+   "title": {
+    "before": "329/S-P Japanese Pokemon Card NM Sword & Shield S Promo",
+    "after": "Grass Energy 329/S-P Japanese Pokemon Card NM Sword & Shield S Promo"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Grass Energy"
+   },
+   "descCardLine": {
+    "before": "- Card: [Pokemon name] 329/S-P",
+    "after": "- Card: Grass Energy 329/S-P"
+   },
+   "query": {
+    "before": "329/S-P S-P",
+    "after": "Grass Energy 329/S-P S-P"
+   }
+  },
+  {
+   "id": "SV-P-037",
+   "title": {
+    "before": "037/SV-P Japanese Pokemon Card NM Scarlet & Violet SV-P Promo",
+    "after": "Grass Energy 037/SV-P Japanese Pokemon Card NM Scarlet & Violet SV-P Promo"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Grass Energy"
+   },
+   "descCardLine": {
+    "before": "- Card: [Pokemon name] 037/SV-P",
+    "after": "- Card: Grass Energy 037/SV-P"
+   },
+   "query": {
+    "before": "037/SV-P SV-P",
+    "after": "Grass Energy 037/SV-P SV-P"
+   }
+  },
+  {
+   "id": "SM12a-210",
+   "title": {
+    "before": "SR 210/173 Japanese SM12a Pokemon Card NM Sun & Moon Tag Team GX All Stars 2019",
+    "after": "Fairy Energy SR 210/173 Japanese SM12a Pokemon Card NM 2019 Holo Super Rare"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Fairy Energy"
+   },
+   "descCardLine": {
+    "before": "- Card: [Pokemon name] SR 210/173",
+    "after": "- Card: Fairy Energy SR 210/173"
+   },
+   "query": {
+    "before": "SR 210/173 SM12a",
+    "after": "Fairy Energy SR 210/173 SM12a"
+   }
+  },
+  {
+   "id": "WCP-103",
+   "title": {
+    "before": "R 103/108 Japanese WCP Pokemon Card NM World Champions Pack 2007 Rare",
+    "after": "Grass Energy R 103/108 Japanese WCP Pokemon Card NM World Champions Pack 2007"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Grass Energy"
+   },
+   "descCardLine": {
+    "before": "- Card: [Pokemon name] R 103/108",
+    "after": "- Card: Grass Energy R 103/108"
+   },
+   "query": {
+    "before": "103/108 WCP",
+    "after": "Grass Energy 103/108 WCP"
+   }
+  },
+  {
+   "id": "M-P-001",
+   "title": {
+    "before": "Chikorita 001/M-P Japanese Pokemon Card NM",
+    "after": "Chikorita 001/M-P Japanese Pokemon Card NM"
+   },
+   "cardName": {
+    "before": "Chikorita",
+    "after": "Chikorita"
+   },
+   "descCardLine": {
+    "before": "- Card: Chikorita 001/M-P",
+    "after": "- Card: Chikorita 001/M-P"
+   },
+   "query": {
+    "before": "Chikorita 001/M-P M-P",
+    "after": "Chikorita 001/M-P M-P"
+   }
+  },
+  {
+   "id": "BW-P-001",
+   "title": {
+    "before": "Pansage 001/BW-P Japanese Pokemon Card NM Black & White Promo",
+    "after": "Pansage 001/BW-P Japanese Pokemon Card NM Black & White Promo"
+   },
+   "cardName": {
+    "before": "Pansage",
+    "after": "Pansage"
+   },
+   "descCardLine": {
+    "before": "- Card: Pansage 001/BW-P",
+    "after": "- Card: Pansage 001/BW-P"
+   },
+   "query": {
+    "before": "Pansage 001/BW-P BW-P",
+    "after": "Pansage 001/BW-P BW-P"
+   }
+  }
+ ]
+}
