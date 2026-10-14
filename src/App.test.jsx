@@ -1250,9 +1250,9 @@ describe("ミラーの柄の版の説明文と相場リンク（2026-10-14）", 
     expect(buildSingleDesc(formOf("SV2a-025"))).toContain("- Card: Pikachu C 025/165\n");
   });
   it("相場リンクの検索語に版の名前が入る（ボール柄は Reverse Holo を外す）", () => {
-    expect(buildEbaySearchQuery(formOf("SV2a-025-MB"), "single")).toBe("Pikachu C 025/165 SV2a Master Ball");
+    expect(buildEbaySearchQuery(formOf("SV2a-025-MB"), "single")).toBe("Pikachu 025/165 SV2a Master Ball");
     expect(buildEbaySearchQuery(formOf("M2a-102-R"), "single")).toBe("Team Rocket's Murkrow 102/193 M2a Team Rocket Reverse Holo");
-    expect(buildEbaySearchQuery(formOf("SV2a-025"), "single")).toBe("Pikachu C 025/165 SV2a");
+    expect(buildEbaySearchQuery(formOf("SV2a-025"), "single")).toBe("Pikachu 025/165 SV2a");
   });
 });
 
@@ -1305,5 +1305,14 @@ describe("説明文の Card の行の空白（2026-10-14）", () => {
     const f = { ...DEFAULT_FORM, pokemonEn: "Dialga", setCode: "DP3" };
     expect(buildSingleDesc(f)).toContain("- Card: Dialga\n");
     expect(buildSingleDesc({ ...f, cardNo: "001/S-P", setCode: "S-P" })).toContain("- Card: Dialga 001/S-P\n");
+  });
+});
+
+describe("相場リンクの検索語のレアリティ（2026-10-14）", () => {
+  it("C・U・R・RH は入れず、SAR 等は入れる", () => {
+    const base = { ...DEFAULT_FORM, pokemonEn: "Pikachu", cardNo: "025/165", setCode: "SV2a" };
+    expect(buildEbaySearchQuery({ ...base, rarity: "C" }, "single")).toBe("Pikachu 025/165 SV2a");
+    expect(buildEbaySearchQuery({ ...base, rarity: "RH" }, "single")).toBe("Pikachu 025/165 SV2a");
+    expect(buildEbaySearchQuery({ ...base, rarity: "SAR" }, "single")).toBe("Pikachu SAR 025/165 SV2a");
   });
 });

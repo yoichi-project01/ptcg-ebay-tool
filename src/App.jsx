@@ -857,13 +857,16 @@ export function buildListingCsv(entries) {
 }
 
 // ---------- eBay相場検索 ----------
+const SEARCH_SKIP_RARITIES = new Set(["C", "U", "R", "RH"]);
 export function buildEbaySearchQuery(f, mode) {
   if (mode === "single") {
     // ミラーの柄の版は版の名前を足し、通常版の相場と混ざらないようにする（2026-10-14）。ボール柄は "Master Ball" 等（"Reverse Holo" は外す）、
     // エネルギーマーク柄・R柄は "Energy"・"Team Rocket" だけでは通常版（ロケット団のポケモンは名前に Team Rocket を含む）と区別できないので "Reverse Holo" も付ける
     const mirrorEn = MIRROR_VARIANTS[mirrorVariantOf(f)]?.en ?? "";
     const mirror = /Ball Reverse Holo$/.test(mirrorEn) ? mirrorEn.replace(/ Reverse Holo$/, "") : mirrorEn;
-    return [f.pokemonEn, f.rarity, f.cardNo, displaySetCode(f.setCode), mirror].filter(Boolean).join(" ");
+    // C・U・R・RH の1〜2文字の略号は検索語に入れない（2026-10-14。SAR・SR・UR 等の略号は残す）
+    const rarity = SEARCH_SKIP_RARITIES.has(f.rarity) ? "" : f.rarity;
+    return [f.pokemonEn, rarity, f.cardNo, displaySetCode(f.setCode), mirror].filter(Boolean).join(" ");
   }
   if (mode === "sealed") {
     return [f.setNameEn, displaySetCode(f.setCode), "Japanese", f.sealedProductType].filter(Boolean).join(" ");

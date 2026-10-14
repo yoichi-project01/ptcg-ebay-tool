@@ -1,0 +1,41 @@
+{
+ "about": "相場リンクの検索語から C・U・R・RH の略号を外した直す前と後（2026-10-14、A5）。変わったのは検索語だけ（出品の出力は変わらない）",
+ "changedRows": 11467,
+ "examples": [
+  {
+   "id": "SV2a-025",
+   "before": "Pikachu C 025/165 SV2a",
+   "after": "Pikachu 025/165 SV2a"
+  },
+  {
+   "id": "SV2a-025-MB",
+   "before": "Pikachu C 025/165 SV2a Master Ball",
+   "after": "Pikachu 025/165 SV2a Master Ball"
+  },
+  {
+   "id": "PMCG1-004",
+   "before": "Weedle C 004/102 PMCG1",
+   "after": "Weedle 004/102 PMCG1"
+  },
+  {
+   "id": "L1-Bhg-025",
+   "before": "Feraligatr RH 025/070 L1-Bhg",
+   "after": "Feraligatr 025/070 L1-Bhg"
+  },
+  {
+   "id": "S-P-347",
+   "before": "Float Stone U 347/S-P S-P",
+   "after": "Float Stone 347/S-P S-P"
+  },
+  {
+   "id": "SV2a-201",
+   "before": "Charizard ex SAR 201/165 SV2a",
+   "after": "Charizard ex SAR 201/165 SV2a"
+  },
+  {
+   "id": "SM12a-221",
+   "before": "Pikachu & Zekrom-GX UR 221/173 SM12a",
+   "after": "Pikachu & Zekrom-GX UR 221/173 SM12a"
+  }
+ ]
+}
