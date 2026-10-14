@@ -59,7 +59,8 @@
 ## 今の状態（2026-10-14）
 
 - **取り込み済みの世代**: 旧裏（PMCG1〜6・neo1〜4・VS1・web1）・e・PCG・DP（DP1〜5・EP08、型番 X＋cardID）・DPt1〜4・LEGEND・BW・XY・SM・S・SV・M、
-  各世代の番号付きプロモ（S-P・SV-P・SM-P・XY-P・BW-P・DP-P・DPt-P・L-P・M-P）と番号の無いプロモ（型番 X＋cardID、306枚）、構築済みデッキ・特殊な商品の多く。
+  各世代の番号付きプロモ（S-P・SV-P・SM-P・XY-P・BW-P・DP-P・DPt-P・L-P・M-P）と番号の無いプロモ（型番 X＋cardID、306枚）、構築済みデッキ・特殊な商品の多く、
+  ポケモンカードゲーム Classic（CLF・CLL・CLK。公式のカード検索に無いので公式以外の3つの一致で足した。sr は CL。`scripts/classic/`）。
 - **出品の画面**（`src/App.jsx`）: カードを検索して選ぶとタイトル・説明文・Item Specifics・SKU を作る。シングル／未開封パック・BOX／セット品の3つのタブ。
   タイトル・説明文は手で直せる（カード・タブを切り替えるまで残る）。鑑定品（PSA/BGS/CGC/SGC）、旧裏の 1st Edition・No Rarity、利益計算、出品履歴・出品キュー・CSV（試験的）。
 - **残っている作業**: `docs/review-2026-10-14.md` の「確認待ちの案」の残りと、`docs/history.md` の「点検（2026-10-10）」の表

@@ -3216,3 +3216,30 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
 `en-name-fix2/bulbapedia.tsv` と、日本語名から作った規則の名前の一致）で入れた（`scripts/en-name-fix2/fill-svg-050-052.mjs`）。ユーザーの依頼は SVG-052 だったが、
 050・051 も同じ根拠で一致したので一緒に入れた。出力の前後は `scripts/audit/SVG-050-052-en-2026-10-15.json`（例 `052/049 Japanese SVG Pokemon Card NM 2023` →
 `Squirtle 052/049 Japanese SVG Pokemon Card NM 2023`）。
+
+---
+
+### 対応（2026-10-15）: ポケモンカードゲーム Classic（CLF・CLL・CLK）を足した
+
+買取表に出てくる「ポケモンカードゲーム Classic」（2023年10月下旬から抽選販売。3つのデッキ）が cardData に無かったので、ユーザーの確認を得て足した（102行）。
+`scripts/classic/add-classic.mjs --set <弾> [--apply]`、足した card_id は `scripts/classic/{弾}-added-card-ids-2026-10-15.txt`、英語名の根拠は `{弾}-en-2026-10-15.tsv`、
+出力の例は `scripts/audit/Classic-2026-10-15.json`。弾ごとにコミット。
+- **弾**: CLF フシギバナ&ルギアexデッキ（基本草・闘）・CLL リザードン&ホウオウexデッキ（基本炎・雷）・CLK カメックス&スイクンexデッキ（基本水・超）。
+  記号とデッキの対応は公式のカード検索の基本エネルギーで確かめた。sr は CL（新しいシリーズの呼び名を付けない。タイトルに "Scarlet & Violet" 等が入らない）、of 32、y 2023。
+- **公式**: カード検索には各デッキの基本エネルギー2種しか無い（details.php に番号なし、印刷記号 CLF 等）。特設サイト（https://www.pokemon-card.com/ex/classic/）は見本の10枚だけ。
+- **001〜032**: ポケモンWiki の各デッキの表（`pokemonwiki-classic-2026-10-15.wikitext`、SHA-256 6fa42ea7…）、Bulbapedia の日本版のデッキの一覧
+  （`bulbapedia-classic-ja-2026-10-15.tsv`、ブラウザで wikitext から取り出し SHA-256 をブラウザの値と照合）、遊々亭の一覧（`yuyutei-classic-2026-10-15.tsv`）の3つで、
+  番号・名前（ポケモンWiki と遊々亭、96枚すべて）、番号・枚数・ポケモンのタイプ（ポケモンWiki と Bulbapedia、102行すべて）が一致。遊々亭の書き方の違い
+  （「ボスの指令[サカキ]」「オーキド博士」）は同じカード。日本語名はポケモンWiki の表記で、ボスの指令だけ既存の書き方に合わせて「ボスの指令（サカキ）」。
+  レアリティはマークが無い（遊々亭は「-」、Bulbapedia も無し）ので空欄。画像は公式に無く、店舗の画像は使わないので無し。
+- **基本エネルギー**: 公式 details.php（cardID 44413〜44418）で名前・印刷記号・番号が無いことを確かめ、型番 X＋cardID（例 CLF-X44413）で足し、画像も公式から取った。
+- **英語名**: ポケモン（規則で作れるもの）は Bulbapedia の日本版の一覧と規則の名前の一致。トレーナーズ・エネルギーと規則で作れないポケモン（マチスのコラッタ・ラッタ）は、
+  ユーザーの指示で、Bulbapedia の日本版の一覧の名前が英語版（2023）の同じデッキの一覧（`bulbapedia-classic-en-2026-10-15.tsv`）に同じ名前・種類・枚数で1枚だけあること。
+  英語版はトレーナーズの番号が名前の順で日本版と違う（例 日本版 CLF-030 マサキ＝英語版 018/034 Bill）ので、番号ではなくデッキの中の名前で合わせた。102行すべて入った。
+  "Boss's Orders [Giovanni]" は S4a と同じく "Boss's Orders (Giovanni)"。
+- **en・psaName**: PSA のページタイトル（「2023 POKEMON JAPANESE CLF-TRADING CARD GAME CLASSIC VENUSAUR & LUGIA ex DECK」等）で3つとも確かめた（`set-psa-names.json`）。
+- **カードの種類**: Bulbapedia の日本版の一覧を `en-name-fix3/bulbapedia/Classic-2026-10-15.txt` に置いた（ポケモンだいすきクラブが名前からポケモンと判定されていた）。
+  同じ名前の行の種類を移す決まりで、ほかの弾の4行（PCG3-079・S8a-P-013 ロケット団の幹部、E1-058 ポケモンナース、PMCG1-077 オーキドはかせ）も Trainer → Supporter になった
+  （旧裏の PMCG1-077 はサポートの区分の無い頃のカードだが、旧裏のマサキ・エリカ等も同じ決まりで既に Supporter）。
+- **Character の直し**: Rocket's Admin. の Character が持ち主の "Rocket" になるので、`NON_PERSON_OWNERS` に Rocket を足した（出さない）。
+- **出力**: 全カードの出力を比べ、既存の行の変化は0、追加102行。タイトルは最長66文字（例 `Squirtle 001/032 Japanese CLK Pokemon Card NM 2023`。弾の英語名は長いので入らない）。

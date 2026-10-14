@@ -1,0 +1,92 @@
+{
+ "about": "ポケモンカードゲーム Classic（CLF・CLL・CLK、2026-10-15）を足した後の出品の出力の例。全カードの出力を比べ、既存の行の変化は0（Rocket's Admin. の Character の直しは既存の行の出力が変わる前に入れた）",
+ "summary": {
+  "added": 102,
+  "changed": 0,
+  "removed": 0,
+  "maxTitleLength": 66,
+  "titlesWithoutPokemon": 0
+ },
+ "examples": [
+  {
+   "id": "CLK-001",
+   "title": "Squirtle 001/032 Japanese CLK Pokemon Card NM 2023",
+   "sku": "CLK-001-NM",
+   "cardName": "Squirtle",
+   "character": "Squirtle",
+   "set": "Trading Card Game Classic Blastoise & Suicune ex Deck",
+   "cardNumber": "001/032",
+   "query": "Squirtle 001/032 CLK"
+  },
+  {
+   "id": "CLL-003",
+   "title": "Charizard 003/032 Japanese CLL Pokemon Card NM 2023",
+   "sku": "CLL-003-NM",
+   "cardName": "Charizard",
+   "character": "Charizard",
+   "set": "Trading Card Game Classic Charizard & Ho-Oh ex Deck",
+   "cardNumber": "003/032",
+   "query": "Charizard 003/032 CLL"
+  },
+  {
+   "id": "CLF-017",
+   "title": "Lugia ex 017/032 Japanese CLF Pokemon Card NM 2023",
+   "sku": "CLF-017-NM",
+   "cardName": "Lugia ex",
+   "character": "Lugia",
+   "set": "Trading Card Game Classic Venusaur & Lugia ex Deck",
+   "cardNumber": "017/032",
+   "query": "Lugia ex 017/032 CLF"
+  },
+  {
+   "id": "CLK-015",
+   "title": "Lt. Surge's Rattata 015/032 Japanese CLK Pokemon Card NM 2023",
+   "sku": "CLK-015-NM",
+   "cardName": "Lt. Surge's Rattata",
+   "character": "Rattata",
+   "set": "Trading Card Game Classic Blastoise & Suicune ex Deck",
+   "cardNumber": "015/032",
+   "query": "Lt. Surge's Rattata 015/032 CLK"
+  },
+  {
+   "id": "CLL-026",
+   "title": "Scorching Charcoal 026/032 Japanese CLL Pokemon Card NM 2023",
+   "sku": "CLL-026-NM",
+   "cardName": "Scorching Charcoal",
+   "character": "",
+   "set": "Trading Card Game Classic Charizard & Ho-Oh ex Deck",
+   "cardNumber": "026/032",
+   "query": "Scorching Charcoal 026/032 CLL"
+  },
+  {
+   "id": "CLF-029",
+   "title": "Boss's Orders (Giovanni) 029/032 Japanese CLF Pokemon Card NM 2023",
+   "sku": "CLF-029-NM",
+   "cardName": "Boss's Orders (Giovanni)",
+   "character": "Giovanni",
+   "set": "Trading Card Game Classic Venusaur & Lugia ex Deck",
+   "cardNumber": "029/032",
+   "query": "Boss's Orders (Giovanni) 029/032 CLF"
+  },
+  {
+   "id": "CLK-031",
+   "title": "Rocket's Admin. 031/032 Japanese CLK Pokemon Card NM 2023",
+   "sku": "CLK-031-NM",
+   "cardName": "Rocket's Admin.",
+   "character": "",
+   "set": "Trading Card Game Classic Blastoise & Suicune ex Deck",
+   "cardNumber": "031/032",
+   "query": "Rocket's Admin. 031/032 CLK"
+  },
+  {
+   "id": "CLL-X44414",
+   "title": "Fire Energy Japanese CLL Pokemon Card NM 2023",
+   "sku": "CLL-X44414-NM",
+   "cardName": "Fire Energy",
+   "character": "",
+   "set": "Trading Card Game Classic Charizard & Ho-Oh ex Deck",
+   "cardNumber": "",
+   "query": "Fire Energy CLL"
+  }
+ ]
+}
