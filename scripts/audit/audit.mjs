@@ -32,6 +32,13 @@ const J = new Map(species.map((s) => [s.ja.normalize("NFKC"), s.en.replace(/’/
 const speciesKeys = [...J.keys()].filter((k) => k.length >= 2).map((k) => k.replace(/\s+/g, ""));
 const stripSuffix = (n) => n.normalize("NFKC").replace(/\s+/g, "").replace(/[（(][^）)]*[）)]$/, "").replace(/(VMAX|VSTAR|V-UNION|V|ex|EX|GX|BREAK|LV\.X|δ|☆|◇|-デルタ種|δ-デルタ種)+$/, "");
 const isPokemonName = (n) => { const s = stripSuffix(n); return speciesKeys.some((k) => s.endsWith(k)); };
+// 種族名が「スター」で終わる（ブースター・オムスター・ブロスター）・「メガ」で始まる（メガヤンマ・メガニウム）ポケモンは、☆・メガシンカの誤検出から外す（2026-10-14）
+// 機械翻訳のような名前の形（2026-10-14）: 種族名＋「スター」（ラティアススター → ラティアス☆）、「ダーク」「輝く」＋種族名（ダークアリアドス → わるいアリアドス）。
+// ブースター・オムスター・ダークライ・ダークパッチ・プリズムスター・カフェマスターなどの本来の名前は引っかけない
+const compact = (n) => n.normalize("NFKC").replace(/\s+/g, "").replace(/[（(][^）)]*[）)]$/, "");
+const starAfterSpecies = (n) => { const s = compact(n); return /スター$/.test(s) && speciesKeys.some((k) => s.slice(0, -3).endsWith(k)); };
+const prefixBeforeSpecies = (n, prefix) => { const s = compact(n); return s.startsWith(prefix) && !speciesKeys.some((k) => s.startsWith(k)) && speciesKeys.some((k) => s.slice(prefix.length).startsWith(k)); };
+const startsWithMegaSpecies = (n) => { const s = compact(n); return speciesKeys.some((k) => k.startsWith("メガ") && s.startsWith(k)); };
 function kindOf(id, ja) {
   const c = tja[id]?.category;
   if (c === "Pokemon") return "ポケモン";
@@ -74,7 +81,7 @@ for (const s of data) {
   const isOld = OLD.test(s.c);
   for (const k of s.k) {
     const id = `${s.c}-${k[0]}`;
-    if (/[。]|教授|素晴らしい|ダーク[^ラ]|輝く|サイキック|稲妻|オーク|ジョバンニ|ミスティ|ブロック|exp|スター$/.test(k[1])) findings.jaMachineLike.push({ id, ja: k[1] });
+    if (/[。]|教授|素晴らしい|サイキック(の)?エネルギー|稲妻|オーク|ジョバンニ|ミスティ|ブロック|exp/.test(k[1]) || starAfterSpecies(k[1]) || prefixBeforeSpecies(k[1], "ダーク") || prefixBeforeSpecies(k[1], "輝く")) findings.jaMachineLike.push({ id, ja: k[1] });
     if (isOld) {
       const t = pcg[`${s.c}-${k[0]}`]?.title?.split(" | ")[0];
       if (t && norm(t).replace(/δ-デルタ種|（デルタ種）/g, "δ") !== norm(k[1]).replace(/δ-デルタ種|（デルタ種）/g, "δ")) findings.jaDiffPcg.push({ id, ja: k[1], pcgSearch: t });
@@ -87,16 +94,16 @@ for (const s of data) {
 }
 // b. 英語名の抜け（日本語名にある要素が英語名に無い）
 const RULES = [
-  [/^(?!.*(?:ボスの指令|博士の研究)).+の[^の]*$/, /'s |'s$|’s /, "持ち主（〜の）", (ja) => !/^(?:.*(?:ポケモン|げんきのかけら|エネルギー|おまもり|ばんにん|たいせつ|ふしぎ|ちから|ゆうき|きずな|ひかり|やみ|ほのお|こおり|みず|でんき|くさ|かくとう|あく|はがね|ドラゴン|フェアリー|むし|ひこう|どく|じめん|いわ|ゴースト|エスパー)の)/.test(ja) && isPokemonName(ja)],
+  [/^(?!.*(?:ボスの指令|博士の研究)).+の[^の]*$/, /'s |'s$|’s /, "持ち主（〜の）", (ja) => !/^(?:.*(?:ポケモン|げんきのかけら|エネルギー|おまもり|ばんにん|たいせつ|ふしぎ|ちから|ゆうき|きずな|ひかり|やみ|ほのお|こおり|みず|でんき|くさ|かくとう|あく|はがね|ドラゴン|フェアリー|むし|ひこう|どく|じめん|いわ|ゴースト|エスパー)の)/.test(ja) && !/なみのり|ひみつの|太陽の|雨水の|雪雲の|の化石/.test(ja) && isPokemonName(ja)],
   [/^わるい/, /^Dark /, "わるい→Dark"],
   [/^やさしい/, /^Light /, "やさしい→Light"],
   [/^ひかる/, /^Shining /, "ひかる→Shining"],
   [/^かがやく/, /^Radiant /, "かがやく→Radiant"],
-  [/^(メガ|M)(?!ニウム)/, /^(Mega |M )/, "メガ→Mega/M", (ja) => isPokemonName(ja)],
+  [/^(メガ|M)(?!ニウム)/, /^(Mega |M )/, "メガ→Mega/M", (ja) => isPokemonName(ja) && !startsWithMegaSpecies(ja)],
   [/^アローラ/, /Alolan /, "アローラ→Alolan"],
-  [/^ガラル/, /Galarian /, "ガラル→Galarian"],
-  [/^ヒスイ/, /Hisuian /, "ヒスイ→Hisuian"],
-  [/^パルデア/, /Paldean /, "パルデア→Paldean"],
+  [/^ガラル/, /Galarian /, "ガラル→Galarian", (ja) => isPokemonName(ja)],
+  [/^ヒスイ/, /Hisuian /, "ヒスイ→Hisuian", (ja) => isPokemonName(ja)],
+  [/^パルデア/, /Paldean /, "パルデア→Paldean", (ja) => isPokemonName(ja)],
   [/ex$/, /ex$/, "末尾 ex"],
   [/EX$/, /EX$/, "末尾 EX"],
   [/GX$/, /GX$/, "末尾 GX"],
@@ -105,13 +112,14 @@ const RULES = [
   [/[^XA-Z]V$/, /V$/, "末尾 V"],
   [/BREAK$/, /BREAK$/, "末尾 BREAK"],
   [/δ|デルタ種/, /δ/, "δ"],
-  [/☆|スター$/, /☆|Star/, "☆"],
+  [/☆|スター$/, /☆|Star/, "☆", (ja) => /☆/.test(ja) || starAfterSpecies(ja)],
   [/◇/, /◇/, "◇"],
   [/LV\.X/, /LV\.X/, "LV.X"],
 ];
 for (const s of data) for (const k of s.k) {
   if (!k[2]) continue;
-  const ja = k[1].normalize("NFKC");
+  // 末尾の括弧注記（同じ名前のカードの見分け。「（構築スタンダードデッキ「ディアルガLV.X」）」など）は英語名と対応しないので外して見る
+  const ja = k[1].normalize("NFKC").replace(/[（(][^）)]*[）)]$/, "");
   for (const [jr, er, label, extra] of RULES) {
     if (jr.test(ja) && !er.test(k[2]) && (!extra || extra(ja))) findings.enMissingPart.push({ id: `${s.c}-${k[0]}`, ja: k[1], en: k[2], missing: label });
   }
