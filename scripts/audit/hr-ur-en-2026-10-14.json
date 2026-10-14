@@ -1,0 +1,96 @@
+{
+ "about": "英語名が空の HR・UR に英語名を入れた直す前と後（2026-10-14、C1）",
+ "changedRows": 30,
+ "examples": [
+  {
+   "id": "PMCG4-062",
+   "title": {
+    "before": "No.062 Team Rocket Japanese 1997 Pokemon Card NM",
+    "after": "Here Comes Team Rocket! No.062 Team Rocket Japanese 1997 Pokemon Card NM"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Here Comes Team Rocket!"
+   },
+   "query": {
+    "before": "UR 062/065 PMCG4",
+    "after": "Here Comes Team Rocket! UR 062/065 PMCG4"
+   }
+  },
+  {
+   "id": "S10P-088",
+   "title": {
+    "before": "UR 088/067 Japanese S10P Pokemon Card NM Sword & Shield Space Juggler 2022 Holo",
+    "after": "Double Turbo Energy UR 088/067 Japanese S10P Pokemon Card NM 2022 Holo"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Double Turbo Energy"
+   },
+   "query": {
+    "before": "UR 088/067 S10P",
+    "after": "Double Turbo Energy UR 088/067 S10P"
+   }
+  },
+  {
+   "id": "S5a-096",
+   "title": {
+    "before": "UR 096/070 Japanese S5a Pokemon Card NM Sword & Shield Peerless Fighters 2021",
+    "after": "Fighting Energy UR 096/070 Japanese S5a Pokemon Card NM 2021 Holo Ultra Rare"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Fighting Energy"
+   },
+   "query": {
+    "before": "UR 096/070 S5a",
+    "after": "Fighting Energy UR 096/070 S5a"
+   }
+  },
+  {
+   "id": "SM5S-078",
+   "title": {
+    "before": "UR 078/066 Japanese SM5S Pokemon Card NM Sun & Moon Ultra Sun 2017 Holo",
+    "after": "Unit Energy GRW UR 078/066 Japanese SM5S Pokemon Card NM Sun & Moon Ultra Sun"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Unit Energy GRW"
+   },
+   "query": {
+    "before": "UR 078/066 SM5S",
+    "after": "Unit Energy GRW UR 078/066 SM5S"
+   }
+  },
+  {
+   "id": "SM11b-074",
+   "title": {
+    "before": "UR 074/049 Japanese SM11b Pokemon Card NM Sun & Moon Dream League 2019 Holo",
+    "after": "Lillie's Poké Doll UR 074/049 Japanese SM11b Pokemon Card NM 2019 Holo"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Lillie's Poké Doll"
+   },
+   "query": {
+    "before": "UR 074/049 SM11b",
+    "after": "Lillie's Poké Doll UR 074/049 SM11b"
+   }
+  },
+  {
+   "id": "SV9-132",
+   "title": {
+    "before": "UR 132/100 Japanese SV9 Pokemon Card NM Scarlet & Violet Battle Partners 2025",
+    "after": "Spiky Energy UR 132/100 Japanese SV9 Pokemon Card NM 2025 Holo Ultra Rare"
+   },
+   "cardName": {
+    "before": null,
+    "after": "Spiky Energy"
+   },
+   "query": {
+    "before": "UR 132/100 SV9",
+    "after": "Spiky Energy UR 132/100 SV9"
+   }
+  }
+ ]
+}
