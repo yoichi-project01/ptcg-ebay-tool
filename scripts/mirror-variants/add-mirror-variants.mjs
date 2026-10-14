@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // ミラーの柄の版（モンスターボールミラー・マスターボールミラー等）を、元の行のすぐ後ろに別の行として足す（2026-10-12）。
-//   node scripts/mirror-variants/add-mirror-variants.mjs --set SV2a|M2a [--apply]
+//   node scripts/mirror-variants/add-mirror-variants.mjs --set SV2a|M2a|SV8a [--apply]
 // 根拠は sources.json。型番は元の型番の末尾に版の印（"025-PB"、card_id は SV2a-025-PB）。日本語名に「（マスターボールミラー）」などを付け、
 // 英語名・レアリティは元の行と同じ。画像は足さない（公式に版の画像が無い。元の行の画像も使わない。src/App.jsx の localImage）。
 // 足した card_id は {弾}-added-card-ids.txt。既に足した行は飛ばす（再実行しても増えない）。
@@ -37,6 +37,19 @@ if (SET === "SV2a") {
     if (!row || N(row[1]) !== N(w.name) || row[3]) throw new Error(`cardData の行と合わない: ${w.num} ${w.name} ${row}`);
     plan.set(w.num, ["EN", BALL[w.ball]]);
   }
+} else if (SET === "SV8a") {
+  // 2026-10-15: モンスターボールミラーはレアリティ表記の無い全144行（ポケモン・トレーナーズ・エネルギー）、マスターボールミラーはそのうちポケモン101行（001〜135）。
+  // 遊々亭の一覧（SV8a-yuyutei-2026-10-15.tsv）と1行ずつ番号・名前が合うことを確かめる。根拠と gamepedia との食い違いは sources.json
+  const N = (s) => s.normalize("NFKC").replace(/\s/g, "");
+  const yt = fs.readFileSync(path.join(__dirname, "SV8a-yuyutei-2026-10-15.tsv"), "utf8").trim().split("\n").map((l) => l.split("\t"));
+  for (const [num, code, name] of yt) {
+    const row = set.k.find((r) => r[0] === num);
+    if (!row || row[3] || N(row[1]) !== N(name)) throw new Error(`cardData の行と合わない: ${num} ${name} ${row}`);
+    if (code === "MB" && Number(num) > 136) throw new Error(`ポケモン以外にマスターボールミラー: ${num}`);
+    plan.set(num, [...(plan.get(num) ?? []), code]);
+  }
+  const blank = set.k.filter((r) => !r[3] && /^\d+$/.test(r[0]));
+  if (blank.some((r) => !plan.get(r[0])?.includes("PB"))) throw new Error("モンスターボールミラーの無い行がある");
 } else throw new Error(`対象外の弾: ${SET}`);
 
 const added = [];

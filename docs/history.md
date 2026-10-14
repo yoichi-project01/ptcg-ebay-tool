@@ -3186,3 +3186,24 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
 - 公式に未掲載のまま: M6a 104〜135、M-P 052・077〜084・101〜130、SV-P 291。cardID 50778〜50797 の details.php も「ページ無し」（公式のカード検索がまだ更新されていない）
 - M6a のレアリティ: 001〜006 の details.php をもう一度見たがアイコンは無いまま（RR 以外は空欄のまま）
 - 追加したカード・英語名・レアリティは無し
+
+---
+
+### 対応（2026-10-15）: SV8a（テラスタルフェスex）のモンスターボールミラー・マスターボールミラーの版を足した（C3）
+
+ユーザー（実物を扱っている）が SV8a にマスターボールミラーがあることを確かめた（例 SV8a-125 イーブイ）ので、どのカードにあるかを調べ、ユーザーの確認を得て SV2a と同じ形で足した。
+根拠は `scripts/mirror-variants/sources.json` の `added.SV8a`、遊々亭の一覧は `scripts/mirror-variants/SV8a-yuyutei-2026-10-15.tsv`（番号・版・名前）、
+足した card_id は `scripts/mirror-variants/SV8a-added-card-ids.txt`、出力の例は `scripts/audit/SV8a-mirror-variants-2026-10-15.json`。
+- **足した行**: レアリティ表記の無い144行（ポケモン 001〜135 の101行、トレーナーズ 137〜183 の41行、特殊エネルギー 185・186）× PB = 144行、
+  そのうちポケモンの101行 × MB = 101行。計245行（SV8a は 237行 → 482行）。RR・ACE・SR・SAR・UR には足していない（版があるという情報源が無い）。
+- **根拠**: 公式の特設サイト（見本 081 フカマルのモンスターボール柄）、Bulbapedia の弾のページ（Poké Ball の柄が certain cards にあり、Master Ball の柄になることがある。どのカードかは書かれていない。
+  各カードのページにも記載なし）、遊々亭の一覧（モンスターボール柄 144件・マスターボール柄 101件。cardData の行と番号・名前がすべて一致）、
+  Samurai Sword（マスターボールは「レアリティ表記の無いカード、グッズ・サポートを除く」で約101種、モンスターボールはポケモン・トレーナーズ・エネルギーで約144種）、
+  PSA の鑑定書・鑑定品の出品（Master Ball Reverse Holo。#125 Eevee・#034 Feraligatr・#068 Sylveon ほか、すべてポケモン）。
+- **gamepedia との食い違い**: gamepedia（premium.gamepedia.jp/pokeca/archives/2549）は「R・U・C のカードにマスターボールミラー」「144種」と書く。
+  遊々亭（101件ですべてポケモン、トレーナーズ・エネルギーはモンスターボール柄だけ）と Samurai Sword（約101種）の2つが101で一致し、PSA の鑑定品もポケモンだけだったので、
+  マスターボールはポケモンの101行とした（gamepedia の144はモンスターボールの数と取り違えたものと考える）。Samurai Sword は対象外を「グッズ・サポート」とだけ書くが、
+  数（101）はポケモンだけと合う。ポケモンのどうぐ・スタジアム・エネルギーにマスターボールの版があると確かめられたら足す。
+- **出力**: 全カードの出力を比べると、追加の245行だけで既存の行の変化は0。例 `Eevee 125/187 Master Ball Reverse Holo Japanese SV8a Pokemon Card NM 2024`、SKU `SV8A-125-NM-MB`、
+  Finish Reverse Holo、説明文 `- Card: Eevee 125/187 (Master Ball Reverse Holo)`、検索語 `Eevee 125/187 SV8a Master Ball`。タイトルは最長80文字、すべて "Pokemon" を含む。
+- SV11B・SV11W は情報源が無いので保留のまま（`sources.json` の `notAdded`）。
