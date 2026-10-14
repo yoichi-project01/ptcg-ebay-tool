@@ -535,7 +535,7 @@ export function validateAndBuildK(details, code, { allowedGaps = [] } = {}) {
 async function main() {
   if (!(await exists(CACHE_PATH))) {
     throw new Error(
-      `${CACHE_PATH} が見つかりません。先に node scripts/scrape-official-images.mjs --rescan を実行してください。`
+      `${CACHE_PATH} が見つかりません。先に node scripts/new-cards.mjs --rescan（または scripts/rescan-official-list.mjs）を実行してください。`
     );
   }
   const cache = JSON.parse(await fs.readFile(CACHE_PATH, "utf-8"));

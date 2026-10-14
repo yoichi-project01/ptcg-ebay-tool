@@ -125,7 +125,7 @@
 
 ## 止めてある古いスクリプト（2026-10-14〜）
 
-名前や並び順で画像・名前を対応づける古いスクリプトは、実行すると理由を出して何も変えずに終わる（`scripts/legacy-guard.mjs`。どうしても使うときは `PTCG_LEGACY=1`）:
+名前や並び順で画像・名前を対応づける古いスクリプトは `scripts/deprecated/` に移してあり（2026-10-14）、実行すると理由を出して何も変えずに終わる（`scripts/legacy-guard.mjs`。どうしても使うときは `PTCG_LEGACY=1`）:
 `scrape-all.mjs`（`npm run images`）・`scrape-official-images.mjs`・`scrape-missing-sv.mjs`・`scrape-pmcg-gym-supplement.mjs`・`scrape-promo-images.mjs`・`scrape-pcg-search.mjs`・
 `populate-ja-names.mjs`・`populate-ja-names-v2.mjs`・`fix-card-names.mjs`・`fetch-set-years.mjs`（手で直した発売年を上書きする）・`scrape-bw-xy.mjs`（`scrape-missing-sets.mjs` に置き換え済み）。
 `scripts/deprecated/` のもの（英語版の画像を取る `scrape-old-images.mjs` など）も使わない。
@@ -259,7 +259,7 @@ public/
 
 ## 画像を一から取得し直す場合
 
-**`npm run images`（`scrape-all.mjs`）は使わない**（2026-10-14 に止めた。`scripts/legacy-guard.mjs`）。中で名前で画像を探す
+**`npm run images`（`scripts/deprecated/scrape-all.mjs`）は使わない**（2026-10-14 に止めた。`scripts/legacy-guard.mjs`）。中で名前で画像を探す
 `scrape-official-images.mjs`・`scrape-missing-sv.mjs` などを実行し、画像の無い高レアに通常版の画像を保存してしまう（2,227枚の取り違えの原因）。
 同じく `scrape-promo-images.mjs`・`populate-ja-names*.mjs`・`fix-card-names.mjs`・`fetch-set-years.mjs`・`scrape-bw-xy.mjs`・
 `scrape-pcg-search.mjs`・`scrape-pmcg-gym-supplement.mjs` も止めてある（実行すると理由を出して終わる。どうしても使うときは `PTCG_LEGACY=1`）。

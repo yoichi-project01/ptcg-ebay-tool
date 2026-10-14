@@ -11,16 +11,18 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
-import { refuseLegacy } from "./legacy-guard.mjs";
+import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "../filename-utils.mjs";
+import { refuseLegacy } from "../legacy-guard.mjs";
 refuseLegacy("scrape-missing-sv.mjs", "同じ名前のカードを並び順で対応づけるため、別の番号の画像を保存しうる");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
+// 2026-10-14 に scripts/deprecated/ へ移した。データ・キャッシュは scripts/ にあるので SCRIPTS_DIR から引く
+const SCRIPTS_DIR = path.join(__dirname, "..");
 const OUT_DIR = path.join(ROOT, "public", "cards");
 const CARD_DATA_PATH = path.join(ROOT, "src", "cardData.json");
-const LIST_PATH = path.join(__dirname, "card-list.json");
-const CACHE_PATH = path.join(__dirname, "official-card-cache.json");
+const LIST_PATH = path.join(SCRIPTS_DIR, "card-list.json");
+const CACHE_PATH = path.join(SCRIPTS_DIR, "official-card-cache.json");
 
 const API_BASE = "https://www.pokemon-card.com";
 const CONCURRENCY = 4;

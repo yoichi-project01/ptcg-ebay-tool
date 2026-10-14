@@ -8,11 +8,13 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { refuseLegacy } from "./legacy-guard.mjs";
+import { refuseLegacy } from "../legacy-guard.mjs";
 refuseLegacy("fetch-set-years.mjs", "全弾の発売年を TCGdex の値で上書きする。手で直した発売年（SD・CP6・SMP1・CPr/CPs/CPm 等）を戻してしまう");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
+// 2026-10-14 に scripts/deprecated/ へ移した。データ・キャッシュは scripts/ にあるので SCRIPTS_DIR から引く
+const SCRIPTS_DIR = path.join(__dirname, "..");
 const CARD_DATA_PATH = path.join(ROOT, "src", "cardData.json");
 
 const CONCURRENCY = 3;

@@ -13,12 +13,14 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildFileName, computeSetTotal } from "./filename-utils.mjs";
-import { refuseLegacy } from "./legacy-guard.mjs";
+import { buildFileName, computeSetTotal } from "../filename-utils.mjs";
+import { refuseLegacy } from "../legacy-guard.mjs";
 refuseLegacy("fix-card-names.mjs", "2026-07 の一度きりの名前の修正。pcg-search の並びを前提にしており、今の cardData（PMCG の名前は 2026-10-08 に直した）を書き戻すおそれがある");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
+// 2026-10-14 に scripts/deprecated/ へ移した。データ・キャッシュは scripts/ にあるので SCRIPTS_DIR から引く
+const SCRIPTS_DIR = path.join(__dirname, "..");
 const CARDS_DIR = path.join(ROOT, "public", "cards");
 const CARD_DATA_PATH = path.join(ROOT, "src", "cardData.json");
 

@@ -26,16 +26,18 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
-import { refuseLegacy } from "./legacy-guard.mjs";
+import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "../filename-utils.mjs";
+import { refuseLegacy } from "../legacy-guard.mjs";
 refuseLegacy("scrape-bw-xy.mjs", "scrape-missing-sets.mjs に置き換え済み");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
+// 2026-10-14 に scripts/deprecated/ へ移した。データ・キャッシュは scripts/ にあるので SCRIPTS_DIR から引く
+const SCRIPTS_DIR = path.join(__dirname, "..");
 const OUT_DIR = path.join(ROOT, "public", "cards");
 const CARD_DATA_PATH = path.join(ROOT, "src", "cardData.json");
-const CACHE_PATH = path.join(__dirname, "official-card-cache.json");
-const REPORT_PATH = path.join(__dirname, "scrape-bw-xy-report.json");
+const CACHE_PATH = path.join(SCRIPTS_DIR, "official-card-cache.json");
+const REPORT_PATH = path.join(SCRIPTS_DIR, "scrape-bw-xy-report.json");
 
 const API_BASE = "https://www.pokemon-card.com";
 const CONCURRENCY = 3;

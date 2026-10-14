@@ -59,7 +59,7 @@ function knownIds() {
   }
   for (const k of Object.keys(readJson(path.join(__dirname, "numberless-promos", "remaining-details.json"), {}))) known.add(String(parseInt(k, 10)));
   // スクリプトに直接書いた cardID（extraCardIds・excludeCardIds・printedNumbers・番号の無いプロモの計画）
-  for (const f of ["scrape-missing-sets.mjs", "scrape-bw-xy.mjs", "scrape-promo-sets.mjs", "patch-existing-sets.mjs"]) {
+  for (const f of ["scrape-missing-sets.mjs", "deprecated/scrape-bw-xy.mjs", "scrape-promo-sets.mjs", "patch-existing-sets.mjs"]) {
     const t = fs.existsSync(path.join(__dirname, f)) ? fs.readFileSync(path.join(__dirname, f), "utf8") : "";
     for (const m of t.matchAll(/(?:extraCardIds|excludeCardIds|numberlessIds):\s*\[([^\]]*)\]/g)) for (const n of m[1].match(/\d{4,6}/g) ?? []) known.add(String(parseInt(n, 10)));
     // 連番の書き方 extraCardIds: Array.from({ length: 25 }, (_, i) => String(50753 + i))

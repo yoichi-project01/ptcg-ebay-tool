@@ -18,12 +18,15 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
-import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
-import { refuseLegacy } from "./legacy-guard.mjs";
+import { existsSync as fs_existsSync } from "node:fs";
+import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "../filename-utils.mjs";
+import { refuseLegacy } from "../legacy-guard.mjs";
 refuseLegacy("scrape-all.mjs", "npm run images。中で名前で画像を探す scrape-official-images.mjs・scrape-missing-sv.mjs を実行し、画像の無い高レアに通常版の画像を保存してしまう");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
+// 2026-10-14 に scripts/deprecated/ へ移した。データ・キャッシュは scripts/ にあるので SCRIPTS_DIR から引く
+const SCRIPTS_DIR = path.join(__dirname, "..");
 const OUT_DIR = path.join(ROOT, "public", "cards");
 
 const PCG_BASE = "https://pcg-search.com";
@@ -50,7 +53,7 @@ function runScript(scriptName) {
   console.log(`\n${"=".repeat(60)}`);
   console.log(`実行: ${scriptName}`);
   console.log("=".repeat(60));
-  const result = spawnSync("node", [path.join(__dirname, scriptName)], {
+  const result = spawnSync("node", [fs_existsSync(path.join(__dirname, scriptName)) ? path.join(__dirname, scriptName) : path.join(SCRIPTS_DIR, scriptName)], {
     stdio: "inherit",
     cwd: ROOT,
   });

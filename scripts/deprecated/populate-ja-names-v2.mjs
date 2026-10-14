@@ -14,13 +14,15 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { refuseLegacy } from "./legacy-guard.mjs";
+import { refuseLegacy } from "../legacy-guard.mjs";
 refuseLegacy("populate-ja-names-v2.mjs", "一覧の並び順で日本語名を埋める。番号で確かめない");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
+// 2026-10-14 に scripts/deprecated/ へ移した。データ・キャッシュは scripts/ にあるので SCRIPTS_DIR から引く
+const SCRIPTS_DIR = path.join(__dirname, "..");
 const CARD_DATA_PATH = path.join(ROOT, "src", "cardData.json");
-const CARD_LIST_PATH = path.join(__dirname, "card-list.json");
+const CARD_LIST_PATH = path.join(SCRIPTS_DIR, "card-list.json");
 
 const API_BASE = "https://www.pokemon-card.com";
 const API_URL = `${API_BASE}/card-search/resultAPI.php`;

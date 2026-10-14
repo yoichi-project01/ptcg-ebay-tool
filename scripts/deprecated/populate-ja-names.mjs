@@ -15,14 +15,16 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { refuseLegacy } from "./legacy-guard.mjs";
+import { refuseLegacy } from "../legacy-guard.mjs";
 refuseLegacy("populate-ja-names.mjs", "位置マッチングで日本語名を埋める。並びのずれた弾の名前を壊す");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
+// 2026-10-14 に scripts/deprecated/ へ移した。データ・キャッシュは scripts/ にあるので SCRIPTS_DIR から引く
+const SCRIPTS_DIR = path.join(__dirname, "..");
 const CARD_DATA_PATH = path.join(ROOT, "src", "cardData.json");
-const CARD_LIST_PATH = path.join(__dirname, "card-list.json");
-const CACHE_PATH = path.join(__dirname, "official-card-cache.json");
+const CARD_LIST_PATH = path.join(SCRIPTS_DIR, "card-list.json");
+const CACHE_PATH = path.join(SCRIPTS_DIR, "official-card-cache.json");
 
 const args = process.argv.slice(2);
 const onlySet = args.includes("--set") ? args[args.indexOf("--set") + 1] : null;

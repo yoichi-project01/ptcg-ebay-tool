@@ -11,16 +11,18 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "./filename-utils.mjs";
-import { refuseLegacy } from "./legacy-guard.mjs";
+import { buildFileName, computeSetTotal, isUsableImage, writeFileAtomic } from "../filename-utils.mjs";
+import { refuseLegacy } from "../legacy-guard.mjs";
 refuseLegacy("scrape-pmcg-gym-supplement.mjs", "名前で pcg-search の画像を探す。PMCG は cardData と pcg-search の並びが違い、2026-10-08 に画像の取り違え71枚を直した");
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
+// 2026-10-14 に scripts/deprecated/ へ移した。データ・キャッシュは scripts/ にあるので SCRIPTS_DIR から引く
+const SCRIPTS_DIR = path.join(__dirname, "..");
 const OUT_DIR = path.join(ROOT, "public", "cards");
 const CARD_DATA_PATH = path.join(ROOT, "src", "cardData.json");
-const LIST_PATH = path.join(__dirname, "card-list.json");
-const CACHE_DIR = path.join(__dirname, "pcg-search-cache");
+const LIST_PATH = path.join(SCRIPTS_DIR, "card-list.json");
+const CACHE_DIR = path.join(SCRIPTS_DIR, "pcg-search-cache");
 
 const BASE_URL = "https://pcg-search.com";
 const TIMEOUT_MS = 20000;
