@@ -3207,3 +3207,12 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
 - **出力**: 全カードの出力を比べると、追加の245行だけで既存の行の変化は0。例 `Eevee 125/187 Master Ball Reverse Holo Japanese SV8a Pokemon Card NM 2024`、SKU `SV8A-125-NM-MB`、
   Finish Reverse Holo、説明文 `- Card: Eevee 125/187 (Master Ball Reverse Holo)`、検索語 `Eevee 125/187 SV8a Master Ball`。タイトルは最長80文字、すべて "Pokemon" を含む。
 - SV11B・SV11W は情報源が無いので保留のまま（`sources.json` の `notAdded`）。
+
+---
+
+### 対応（2026-10-15）: SVG-050〜052（フシギダネ・ヒトカゲ・ゼニガメ）の英語名
+
+総数 049 を超える3枚は、fill-high-rarity-en.mjs がイラストレーターを確かめられず空欄にしていた。ポケモンの英語名のこれまでの確かめ方（Bulbapedia の日本版の一覧
+`en-name-fix2/bulbapedia.tsv` と、日本語名から作った規則の名前の一致）で入れた（`scripts/en-name-fix2/fill-svg-050-052.mjs`）。ユーザーの依頼は SVG-052 だったが、
+050・051 も同じ根拠で一致したので一緒に入れた。出力の前後は `scripts/audit/SVG-050-052-en-2026-10-15.json`（例 `052/049 Japanese SVG Pokemon Card NM 2023` →
+`Squirtle 052/049 Japanese SVG Pokemon Card NM 2023`）。

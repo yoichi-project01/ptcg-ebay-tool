@@ -1,0 +1,63 @@
+{
+ "about": "SVG-050〜052 の英語名を入れた前と後（2026-10-15）。全カードの出力を比べ、変わったのはこの3行だけ",
+ "title": [
+  {
+   "id": "SVG-050",
+   "before": "050/049 Japanese SVG Pokemon Card NM 2023",
+   "after": "Bulbasaur 050/049 Japanese SVG Pokemon Card NM 2023"
+  },
+  {
+   "id": "SVG-051",
+   "before": "051/049 Japanese SVG Pokemon Card NM 2023",
+   "after": "Charmander 051/049 Japanese SVG Pokemon Card NM 2023"
+  },
+  {
+   "id": "SVG-052",
+   "before": "052/049 Japanese SVG Pokemon Card NM 2023",
+   "after": "Squirtle 052/049 Japanese SVG Pokemon Card NM 2023"
+  }
+ ],
+ "itemSpecifics": [
+  {
+   "id": "SVG-050",
+   "before": {},
+   "after": {
+    "Card Name": "Bulbasaur",
+    "Character": "Bulbasaur"
+   }
+  },
+  {
+   "id": "SVG-051",
+   "before": {},
+   "after": {
+    "Card Name": "Charmander",
+    "Character": "Charmander"
+   }
+  },
+  {
+   "id": "SVG-052",
+   "before": {},
+   "after": {
+    "Card Name": "Squirtle",
+    "Character": "Squirtle"
+   }
+  }
+ ],
+ "query": [
+  {
+   "id": "SVG-050",
+   "before": "050/049 SVG",
+   "after": "Bulbasaur 050/049 SVG"
+  },
+  {
+   "id": "SVG-051",
+   "before": "051/049 SVG",
+   "after": "Charmander 051/049 SVG"
+  },
+  {
+   "id": "SVG-052",
+   "before": "052/049 SVG",
+   "after": "Squirtle 052/049 SVG"
+  }
+ ]
+}
