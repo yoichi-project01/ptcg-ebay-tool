@@ -1,0 +1,35 @@
+{
+ "about": "2026-10-14 の作業前の照合で見つかったビット化け2件。触っていない画像で、公式 details.php の画像が SHA-256 の一覧と一致したので取り直して戻した",
+ "items": [
+  {
+   "cardId": "SM11b-050",
+   "path": "cards/SM/SM11b/コータス_SM11b-50／68_CHR.jpg",
+   "officialCardID": 37160,
+   "officialImage": "/assets/images/card_images/large/SM11b/037160_P_KOTASU.jpg",
+   "bytes": 239534,
+   "mtime": "2026-08-28T16:22:53.997Z",
+   "differingBytes": [
+    {
+     "offset": "0x1d163",
+     "now": "1e",
+     "correct": "9e"
+    }
+   ]
+  },
+  {
+   "cardId": "SV11B-174",
+   "path": "cards/SV/SV11B/ゼクロムex_SV11B-174／174_BWR.jpg",
+   "officialCardID": 47998,
+   "officialImage": "/assets/images/card_images/large/SV11B/047998_P_ZEKUROMUEX.jpg",
+   "bytes": 1379057,
+   "mtime": "2026-10-05T03:04:20.125Z",
+   "differingBytes": [
+    {
+     "offset": "0x13ef33",
+     "now": "b6",
+     "correct": "b2"
+    }
+   ]
+  }
+ ]
+}
