@@ -1,0 +1,26 @@
+{
+ "_about": "ADV 世代の拡張パック5弾の弾の情報と根拠（2026-10-15）。add-adv.mjs が読む。ja はポケモンWiki の弾のページの名前（pcg-search の弾名・TCGdex 日本版の弾名と合う）、y はポケモンWiki の発売日と TCGdex 日本版の releaseDate の一致、en・psaName は PSA のページタイトル（psacard.com に限った検索結果で確認）。tcgdexJa は TCGdex 日本版の弾 id（別名。TCGdex は発売順に ADV4＝ふたつの野望・ADV5＝とかれた封印と呼ぶ）、tcgdexEn は英語名の確かめに使う TCGdex 英語版の対応する弾、pcg は pcg-search のページの名前の頭",
+ "sets": {
+  "ADV1": { "ja": "第1弾拡張パック", "y": 2003, "date": "2003-01-31", "of": 55, "en": "Expansion Pack", "psaName": "Expansion Pack",
+    "psaSource": "https://www.psacard.com/pop/tcg-cards/2003/pokemon-japanese-expansion-pack/116940", "psaTitle": "2003 Pokemon Japanese Expansion Pack",
+    "tcgdexJa": "ADV1", "tcgdexEn": "ex1", "bulbapedia": "EX Ruby & Sapphire (TCG) の Expansion Pack", "pcg": "adv1" },
+  "ADV2": { "ja": "砂漠のきせき", "y": 2003, "date": "2003-04-18", "of": 53, "en": "Miracle of the Desert", "psaName": "Miracle of the Desert",
+    "psaSource": "https://www.psacard.com/auctionprices/tcg-cards/2003-pokemon-japanese-miracle-desert/SABLEYE-HOLO/2190855", "psaTitle": "2003 POKEMON JAPANESE MIRACLE OF THE DESERT",
+    "tcgdexJa": "ADV2", "tcgdexEn": "ex2", "bulbapedia": "EX Sandstorm (TCG) の Miracle of the Desert", "pcg": "adv2" },
+  "ADV3": { "ja": "天空の覇者", "y": 2003, "date": "2003-06-25", "of": 54, "en": "Rulers of the Heavens", "psaName": "Rulers of the Heavens",
+    "psaSource": "https://www.psacard.com/auctionprices/tcg-cards/pokemon-japanese-rulers-heavens/116945", "psaTitle": "2003 Pokemon Japanese Rulers Of The Heavens",
+    "tcgdexJa": "ADV3", "tcgdexEn": "ex3", "bulbapedia": "EX Dragon (TCG) の Rulers of the Heavens", "pcg": "adv3" },
+  "ADV4": { "ja": "とかれた封印", "y": 2004, "date": "2004-01-16", "of": 83, "en": "Undone Seal", "psaName": "Undone Seal",
+    "psaSource": "https://www.psacard.com/pop/tcg-cards/2004/pokemon-japanese-undone-seal/114820", "psaTitle": "2004 Pokemon Japanese Undone Seal",
+    "tcgdexJa": "ADV5", "tcgdexEn": "ex5", "bulbapedia": "EX Hidden Legends (TCG) の Undone Seal", "pcg": "adv4" },
+  "ADVex1": { "ja": "マグマVSアクア ふたつの野望", "y": 2003, "date": "2003-10-24", "of": 80, "en": "Magma vs Aqua", "psaName": "Magma Vs Aqua",
+    "psaSource": "https://www.psacard.com/auctionprices/tcg-cards/2003-pokemon-japanese-magma-vs-aqua/121479", "psaTitle": "2003 Pokemon Japanese Magma Vs Aqua",
+    "tcgdexJa": "ADV4", "tcgdexEn": "ex4", "bulbapedia": "EX Team Magma vs Team Aqua (TCG) の Magma VS Aqua: Two Ambitions", "pcg": "advex1",
+    "skipped": "番号の無い基本エネルギー8枚（pcg-search advex1en1〜8、「-/080」）は足さない（ユーザーの指示）" }
+ },
+ "files": {
+  "pokemonwiki": "pokemonwiki-{弾}-2026-10-15.wikitext（action=raw。SHA-256 は docs/history.md）",
+  "pcgSearch": "pcg-search-adv-2026-10-15.json（fetch-pcg-search-adv.mjs。ページ一覧 /card/card_list.php の ADV タブとも名前が325枚一致）",
+  "bulbapedia": "bulbapedia-adv-ja-2026-10-15.tsv（ブラウザで5つのページの wikitext から日本版の一覧を取り出し、弾・番号・英語名・種類 P/I/S/T/M/D/E にしたもの。SHA-256 2757f9ed… をブラウザの値と照合。レアリティを含む元の表の SHA-256 は d7aa5b8a…）"
+ }
+}
