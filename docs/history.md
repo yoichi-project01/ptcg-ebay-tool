@@ -3365,3 +3365,20 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
   PMCG-P-Y035 ルージュラ（コロコロ98年4月号）・Y057 ニャース（コロコロ99年2月号）・Y070 サンダー／Y071 ファイヤー（ANA「みんなにうれしいキャンペーン」）・neo-P-Y013 ルージュラ（「ポケモンカードになったワケ3」）。
   残りの82枚は保留（合うページが無い26：プレミアムファイルの版は弾のページへ転送・ラッキースタジアム等／同じページに合う pcg-search のカードがほかにある19：再録で本文が同じ／
   トレーナーズ13：本文が同じ／入手法が2通り以上13／Bulbapedia のその年に同じ名前が2件4・0件1／合うページが2つ2）。
+
+### 対応（2026-10-15）: 拡張シート 第1〜3弾（自販機）と映画公開記念パック「サザンアイランド」を足した
+
+ユーザーの指示で、古いプロモの後に足した（`scripts/vending/add-vending.mjs`）。公式のカード検索に無いので公式以外の情報源の一致で足した。
+- **弾**: VM1〜3（拡張シート 第1弾（青版）・第2弾（赤版）・第3弾（緑版）、1998）、SI99（サザンアイランド、1999。SI はスタートデッキ100 で使っている）。sr は PMCG、of 0、旧裏のタイトル（OLD_BACK_SET_RE）。
+  ja・y は pcg-search・ポケモンWiki の商品のページ（`pokemonwiki-*-2026-10-15.wikitext`）・Bulbapedia の一致。psaName は PSA のページタイトル（「1998 POKEMON JAPANESE VENDING Doduo」→ Vending、
+  「1999 POKEMON JAPANESE PROMO SOUTHERN ISLANDS Wartortle」→ Promo Southern Islands）。SI99 の en は Bulbapedia と PSA の一致で Southern Islands。拡張シートは英語の正式名が無い
+  （Bulbapedia も Vending Machine は通称）ので en は空欄、enAlias を Vending Series 1〜3 にした。
+- **カード**: カードに番号が無い（Bulbapedia の一覧の番号が None、サザンアイランドの日本版は unnumbered）ので型番は Y＋pcg-search の通し番号の下3桁（1stex1001 → VM1-Y001）。
+  pcg-search と Bulbapedia で並びが違うので並び順では結び付けず、pcg-search のページの名前・レアリティの印がポケモンWiki の表の行と一致し、その行に合うページが1つだけのものを足した。
+  VM3 の同じ名前（ユンゲラー LV.39／40・ゴースト LV.25／26）は pcg-search の HP・ワザの名前とポケモンWiki のカードのページで結び付け、日本語名に LV の括弧注記。
+  VM3 のエキストラカード（裏が違うルール・ネタのカード）は pcg-search とポケモンWiki の備考の表で名前が一致した14枚を足し、pcg-search に名前の無い3枚（1stex3049〜3051。
+  ポケモンWiki の「イマクニ? のおれにもいわせろ」「これがポケモンカードの秘密工場」「ハズレ?」と思われるが確かめられない）は保留（`VM3-held-2026-10-15.tsv`）。
+  VM1 36・VM2 36・VM3 50・SI99 18 の140行（`{弾}-added-card-ids-2026-10-15.txt`、根拠 `{弾}-rows-2026-10-15.tsv`）。全カードの出力は追加140・ほかの変化なし。
+- **英語名**: ポケモンは規則の名前が Bulbapedia のその弾の同じレアリティの行にあるもの。トレーナーズ（月の石・化石の発掘・マスターボール等）とエキストラカードは空欄
+  （Bulbapedia の名前だけで2つ目の情報源が無い）。VM1 のトレーナーズのレアリティは Bulbapedia が None、pcg-search とポケモンWiki は ◆（U にした）。
+- サザンアイランドの6枚（ミュウ・トゲピー・レディバ・ラフレシア・ヤドキング・マリル）は pcg-search で「キラ」。ホロの記録は今のデータの形に無いので入れていない。

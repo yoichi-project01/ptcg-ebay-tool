@@ -62,6 +62,7 @@
   各世代の番号付きプロモ（S-P・SV-P・SM-P・XY-P・BW-P・DP-P・DPt-P・L-P・M-P、古いプロモの E-P・E-T・ADV-P・PLAY・PCG-P）と番号の無いプロモ（型番 X＋cardID、306枚。
   古いプロモは型番 Y＋pcg-search の通し番号で PMCG-P・neo-P・PCG-P-Y。`scripts/old-promos/`、決まらないものは `*-held-2026-10-15.tsv`）、構築済みデッキ・特殊な商品の多く、
   ポケモンカードゲーム Classic（CLF・CLL・CLK。公式のカード検索に無いので公式以外の3つの一致で足した。sr は CL。`scripts/classic/`）。
+  拡張シート 第1〜3弾（VM1〜3、自販機）と映画公開記念パック「サザンアイランド」（SI99。SI はスタートデッキ100）。番号の無いカードなので型番は Y＋pcg-search の通し番号、旧裏のタイトル（`scripts/vending/`）。
 - **出品の画面**（`src/App.jsx`）: カードを検索して選ぶとタイトル・説明文・Item Specifics・SKU を作る。シングル／未開封パック・BOX／セット品の3つのタブ。
   タイトル・説明文は手で直せる（カード・タブを切り替えるまで残る）。鑑定品（PSA/BGS/CGC/SGC）、1st Edition（★VS・web〜XY・CP のブースター70弾。`scripts/first-edition/sources.json`）、旧裏 PMCG1 の No Rarity、利益計算、出品履歴・出品キュー・CSV（試験的）。
 - **残っている作業**: `docs/review-2026-10-14.md` の「確認待ちの案」の残りと、`docs/history.md` の「点検（2026-10-10）」の表
@@ -102,7 +103,7 @@
 
 ## 出品の出力の決まり（src/App.jsx）
 
-- **タイトル**（80文字以内）: 現代カードは `buildModernTitle`、旧裏（`OLD_BACK_SET_RE`: PMCG1-6・neo1-4・VS1・web1）は `buildVintageTitle`。
+- **タイトル**（80文字以内）: 現代カードは `buildModernTitle`、旧裏（`OLD_BACK_SET_RE`: PMCG1-6・neo1-4・VS1・web1・PMCG-P・neo-P・VM1-3・SI99）は `buildVintageTitle`。
   - 現代カード: 鑑定情報 → カード名 → レアリティ略号 → カード番号 → ミラーの版 → Japanese → 型番（codeAlias 優先）→ Pokemon Card → 状態 → セット英語名 → 発売年 → Holo → レアリティのフルスペル。
   - 80文字を超えたら、レアリティのフルスペル → Holo → 発売年 → セット英語名の順に落とし、それでも超えたら最後の手段で
     状態 → "Pokemon Card" を "Pokemon" に → レアリティの略号 → 型番 → Technical Machine を TM に → 鑑定のラベル → "Pokemon"（"Pokemon" より検索に効きにくく Item Specifics にあるものを先に落とす）。
