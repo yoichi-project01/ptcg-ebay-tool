@@ -1374,3 +1374,12 @@ describe("ADV の 1st Edition（2026-10-15）", () => {
     expect(buildSingleTitle(formOf("ADV3-047", { printVariant: "1st Edition", graded: true, gradingCompany: "PSA", grade: "10" }))).toContain("GEM MINT");
   });
 });
+
+describe("番号付きのプロモの相場の検索語（2026-10-15）", () => {
+  it("カード番号に弾の記号が入っているときは型番を重ねない", () => {
+    const formOf = (c, n) => { const set = CARD_DATA_FOR_TEST.find((s) => s.c === c); return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((r) => r[0] === n) }); };
+    expect(buildEbaySearchQuery(formOf("S-P", "001"), "single")).toBe("Pikachu 001/S-P");
+    expect(buildEbaySearchQuery(formOf("E-T", "001"), "single")).toBe("Flareon 001/T");
+    expect(buildSingleTitle(formOf("E-T", "001"))).toContain("001/T Japanese Pokemon Card");
+  });
+});

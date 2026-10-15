@@ -881,7 +881,10 @@ export function buildEbaySearchQuery(f, mode) {
     const rarity = SEARCH_SKIP_RARITIES.has(f.rarity) ? "" : f.rarity;
     // 1st Edition を選んだときは "1st Edition" も足す（2026-10-15。アンリミテッドの相場と混ざらないように）
     const edition = resolvePrintVariant(f) === "1st Edition" ? "1st Edition" : "";
-    return [f.pokemonEn, rarity, f.cardNo, displaySetCode(f.setCode), mirror, edition].filter(Boolean).join(" ");
+    // 番号付きのプロモはカード番号に弾の記号が入っている（"001/S-P"）ので、型番を重ねない（2026-10-15。タイトルと同じ）
+    const code = displaySetCode(f.setCode);
+    const codeToken = code && (f.cardNo || "").endsWith(`/${code}`) ? "" : code;
+    return [f.pokemonEn, rarity, f.cardNo, codeToken, mirror, edition].filter(Boolean).join(" ");
   }
   if (mode === "sealed") {
     return [f.setNameEn, displaySetCode(f.setCode), "Japanese", f.sealedProductType].filter(Boolean).join(" ");
