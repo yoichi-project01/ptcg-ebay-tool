@@ -1,0 +1,153 @@
+{
+ "about": "ADV の 1st Edition（2026-10-15）の直す前と後。scripts/audit/print-variant-snapshot.test.jsx で PMCG1〜6・ADV1〜4・ADVex1 の全カード × 1st Edition／Unlimited × 未鑑定／PSA 10 を出力して比べた。印刷バリエーションを選ばないときの全カードの出力（output-snapshot）は変化なし",
+ "counts": {
+  "query": 1564,
+  "title": 650,
+  "desc": 1300,
+  "sku": 650,
+  "itemSpecifics": 650,
+  "csv": 650
+ },
+ "note": "変わったのは ADV の 1st Edition（タイトル・SKU・Features・説明文・検索語）、ADV の Unlimited（説明文の Print の行だけ）、PMCG の 1st Edition（検索語に 1st Edition が付いた）",
+ "maxTitleLengthADV": 80,
+ "examples": [
+  {
+   "key": "ADV3-047|1st Edition|raw",
+   "title": {
+    "before": "Rayquaza ex R 047/054 Japanese ADV3 Pokemon Card NM Rulers of the Heavens 2003",
+    "after": "Rayquaza ex R 047/054 1st Edition Japanese ADV3 Pokemon Card NM 2003 Rare"
+   },
+   "sku": {
+    "before": "ADV3-047-NM",
+    "after": "ADV3-047-NM-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "descPrint": {
+    "before": "",
+    "after": "- Print: 1st Edition"
+   },
+   "query": {
+    "before": "Rayquaza ex 047/054 ADV3",
+    "after": "Rayquaza ex 047/054 ADV3 1st Edition"
+   }
+  },
+  {
+   "key": "ADV3-047|1st Edition|PSA10",
+   "title": {
+    "before": "PSA 10 GEM MINT Rayquaza ex R 047/054 Japanese ADV3 Pokemon Card 2003 Rare",
+    "after": "PSA 10 GEM MINT Rayquaza ex R 047/054 1st Edition Japanese ADV3 Pokemon Card"
+   },
+   "sku": {
+    "before": "ADV3-047-PSA10",
+    "after": "ADV3-047-PSA10-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "descPrint": {
+    "before": "",
+    "after": "- Print: 1st Edition"
+   },
+   "query": {
+    "before": "Rayquaza ex 047/054 ADV3",
+    "after": "Rayquaza ex 047/054 ADV3 1st Edition"
+   }
+  },
+  {
+   "key": "ADV3-047|Unlimited|raw",
+   "title": {
+    "before": "Rayquaza ex R 047/054 Japanese ADV3 Pokemon Card NM Rulers of the Heavens 2003",
+    "after": "Rayquaza ex R 047/054 Japanese ADV3 Pokemon Card NM Rulers of the Heavens 2003"
+   },
+   "sku": {
+    "before": "ADV3-047-NM",
+    "after": "ADV3-047-NM"
+   },
+   "features": {
+    "before": "",
+    "after": ""
+   },
+   "descPrint": {
+    "before": "",
+    "after": "- Print: Unlimited"
+   },
+   "query": {
+    "before": "Rayquaza ex 047/054 ADV3",
+    "after": "Rayquaza ex 047/054 ADV3"
+   }
+  },
+  {
+   "key": "ADV1-001|1st Edition|raw",
+   "title": {
+    "before": "Koffing C 001/055 Japanese ADV1 Pokemon Card NM Expansion Pack 2003 Common",
+    "after": "Koffing C 001/055 1st Edition Japanese ADV1 Pokemon Card NM Expansion Pack 2003"
+   },
+   "sku": {
+    "before": "ADV1-001-NM",
+    "after": "ADV1-001-NM-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "descPrint": {
+    "before": "",
+    "after": "- Print: 1st Edition"
+   },
+   "query": {
+    "before": "Koffing 001/055 ADV1",
+    "after": "Koffing 001/055 ADV1 1st Edition"
+   }
+  },
+  {
+   "key": "ADVex1-077|1st Edition|PSA10",
+   "title": {
+    "before": "PSA 10 GEM MINT Team Aqua Technical Machine 01 U 077/080 Japanese ADVex1 Pokemon",
+    "after": "PSA 10 GEM MINT Team Aqua Technical Machine 01 U 077/080 1st Edition Japanese"
+   },
+   "sku": {
+    "before": "ADVEX1-077-PSA10",
+    "after": "ADVEX1-077-PSA10-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "descPrint": {
+    "before": "",
+    "after": "- Print: 1st Edition"
+   },
+   "query": {
+    "before": "Team Aqua Technical Machine 01 077/080 ADVex1",
+    "after": "Team Aqua Technical Machine 01 077/080 ADVex1 1st Edition"
+   }
+  },
+  {
+   "key": "PMCG1-004|1st Edition|raw",
+   "title": {
+    "before": "Weedle No.004 Base Set 1st Edition Japanese 1996 Pokemon Card Common NM",
+    "after": "Weedle No.004 Base Set 1st Edition Japanese 1996 Pokemon Card Common NM"
+   },
+   "sku": {
+    "before": "PMCG1-004-NM-1ST",
+    "after": "PMCG1-004-NM-1ST"
+   },
+   "features": {
+    "before": "1st Edition",
+    "after": "1st Edition"
+   },
+   "descPrint": {
+    "before": "- Print: 1st Edition",
+    "after": "- Print: 1st Edition"
+   },
+   "query": {
+    "before": "Weedle 004/102 PMCG1",
+    "after": "Weedle 004/102 PMCG1 1st Edition"
+   }
+  }
+ ]
+}

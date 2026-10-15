@@ -1320,3 +1320,33 @@ describe("相場リンクの検索語のレアリティ（2026-10-14）", () => 
     expect(buildEbaySearchQuery({ ...base, rarity: "SAR" }, "single")).toBe("Pikachu SAR 025/165 SV2a");
   });
 });
+
+describe("ADV の 1st Edition（2026-10-15）", () => {
+  const formOf = (id, extra = {}) => {
+    const c = id.slice(0, id.lastIndexOf("-")), n = id.slice(id.lastIndexOf("-") + 1);
+    const set = CARD_DATA_FOR_TEST.find((s) => s.c === c);
+    return { ...applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((r) => r[0] === n) }), ...extra };
+  };
+  it("1st Edition はカード番号の後ろに入り、SKU・Features・検索語にも出る", () => {
+    const f = formOf("ADV3-047", { printVariant: "1st Edition" });
+    expect(buildSingleTitle(f)).toBe("Rayquaza ex R 047/054 1st Edition Japanese ADV3 Pokemon Card NM 2003 Rare");
+    expect(buildSku(f, "single")).toBe("ADV3-047-NM-1ST");
+    expect(Object.fromEntries(buildItemSpecifics(f))["Features"]).toBe("1st Edition");
+    expect(buildEbaySearchQuery(f, "single")).toBe("Rayquaza ex 047/054 ADV3 1st Edition");
+  });
+  it("Unlimited はタイトル・SKU・Features に何も書かない", () => {
+    const f = formOf("ADV3-047", { printVariant: "Unlimited" });
+    expect(buildSingleTitle(f)).toBe("Rayquaza ex R 047/054 Japanese ADV3 Pokemon Card NM Rulers of the Heavens 2003");
+    expect(buildSku(f, "single")).toBe("ADV3-047-NM");
+    expect(Object.fromEntries(buildItemSpecifics(f))["Features"]).toBeUndefined();
+  });
+  it("鑑定品でも 1st Edition を残す", () => {
+    expect(buildSingleTitle(formOf("ADV3-047", { printVariant: "1st Edition", graded: true, gradingCompany: "PSA", grade: "10" })))
+      .toBe("PSA 10 GEM MINT Rayquaza ex R 047/054 1st Edition Japanese ADV3 Pokemon Card");
+  });
+  it("ADV 以外の現代の弾（PCG 等）では 1st Edition を選んでも出さない", () => {
+    const f = formOf("PCG1-024", { printVariant: "1st Edition" });
+    expect(buildSingleTitle(f)).not.toContain("1st Edition");
+    expect(buildSku(f, "single")).not.toContain("1ST");
+  });
+});

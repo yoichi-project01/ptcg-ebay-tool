@@ -3279,3 +3279,20 @@ ADV 世代（2003〜2004）の拡張パックが cardData に無かったので�
   同じ名前の決まりで、ほかの弾の WCP-091 オダマキはかせ・WCP-092 ダイゴのアドバイス（Character が付いた）、neo3-055・PCG9-066・E1-056（Trainer → Tool、出力は同じ）も種類が決まった。
 - **足していないもの**: ふたつの野望の番号の無い基本エネルギー8枚（pcg-search の「-/080」）。1st Edition は別の作業（ADV の各弾には 1st Edition と Unlimited がある）。
 - **出力**: 全カードの出力を比べ、追加325行のほかに変わったのは WCP-091・092 の Character だけ。例 `Mewtwo ex R 026/055 Japanese ADV1 Pokemon Card NM Expansion Pack 2003 Rare`。
+
+---
+
+### 対応（2026-10-15）: ADV 世代の 1st Edition を印刷バリエーションで選べるようにした
+
+ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Edition とアンリミテッドがあるので、ユーザーの確認を得て、行は増やさず旧裏（PMCG1〜6）と同じ
+「印刷バリエーション」で選べるようにした（`src/App.jsx` の `FIRST_EDITION_SET_RE`）。根拠は `scripts/adv/sources.json` の firstEdition
+（Bulbapedia「1st Edition (TCG)」・「EX Ruby & Sapphire (TCG)」、ポケモンWiki の用語一覧、5弾それぞれのカードごとの例）。
+- **出力**: 1st Edition を選ぶと、現代カードのタイトルのカード番号の後ろに `1st Edition`（落とさない）、SKU の末尾に `-1ST`、Features に `1st Edition`、
+  説明文に `- Print: 1st Edition`、相場の検索語に `1st Edition`。Unlimited はタイトル・SKU・Features に書かない（説明文の Print の行だけ）。
+  相場の検索語の `1st Edition` は旧裏（PMCG）の 1st Edition にも付く（これまでは付いていなかった）。
+- **前後の比べ方**: 印刷バリエーションを選ばないときの全カードの出力（output-snapshot）は変化なし。選んだときの出力は新しい `scripts/audit/print-variant-snapshot.test.jsx`
+  （PMCG1〜6・ADV の全カード × 1st Edition／Unlimited × 未鑑定／PSA 10）で比べた。例は `scripts/audit/adv-first-edition-2026-10-15.json`。
+  例 `Rayquaza ex R 047/054 Japanese ADV3 Pokemon Card NM Rulers of the Heavens 2003` → `Rayquaza ex R 047/054 1st Edition Japanese ADV3 Pokemon Card NM 2003 Rare`。
+- **"Pokemon" が入らないタイトル**: 名前の長いワザマシン5枚（ADV4-075〜077・ADVex1-076・077）を PSA 10 かつ 1st Edition で出すと、ほかをすべて落としても
+  "Pokemon" が入らない（例 `PSA 10 GEM MINT Team Aqua Technical Machine 01 U 077/080 1st Edition Japanese`）。1st Edition を優先して残している。
+- 画面: ADV の弾では印刷バリエーションに 1st Edition・Unlimited だけが出る（旧裏の「その他の印刷差異」の欄は旧裏だけ）。

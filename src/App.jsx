@@ -81,6 +81,10 @@ const PRINT_VARIANTS = [
 ];
 // 1st Edition マークが存在する世代（拡張パック〜ジム拡張2）
 const PRINT_VARIANT_SET_RE = /^PMCG[1-6]$/i;
+// 1st Edition と Unlimited を選べる弾。旧裏の PMCG1〜6 に加え、ADV 世代の拡張パック5弾（ADV1〜4・ADVex1。2026-10-15、
+// 全部のカードに 1st Edition とアンリミテッドがある。根拠は scripts/adv/sources.json の firstEdition）
+const FIRST_EDITION_SET_RE = /^(PMCG[1-6]|ADV[1-4]|ADVex1)$/i;
+const ADV_SET_RE = /^(ADV[1-4]|ADVex1)$/i;
 // No Rarity（カード右下のレアリティマークが無い最初期版）が存在するセット。
 // 1996年の日本版拡張パック（Base Set）の初回印刷のみに存在することを確認済み
 // （PSA/Fanatics Collect等のグレーディング済みカード出品でも "1996 Pokemon Japanese
@@ -97,8 +101,8 @@ const OLD_BACK_SET_RE = /^(PMCG[1-6]|neo[1-4]|VS1|web1)$/i;
 // 旧裏世代全体（OLD_BACK_SET_RE）で選択可能にし、内容はユーザーの手入力に委ねる
 const PRINT_VARIANT_SCOPE = {
   "No Rarity": NO_RARITY_SET_RE,
-  "1st Edition": PRINT_VARIANT_SET_RE,
-  "Unlimited": PRINT_VARIANT_SET_RE,
+  "1st Edition": FIRST_EDITION_SET_RE,
+  "Unlimited": FIRST_EDITION_SET_RE,
   "Error": OLD_BACK_SET_RE,
 };
 const GRADING_COMPANIES = ["", "PSA", "BGS", "CGC", "SGC"];
@@ -532,6 +536,7 @@ function assembleModernTitle(f, maxLength) {
     include.rarityCode ? rarityCode : "", // 3. レアリティ略号（印刷された文字。H は文字が無いので入れない。最後の手段で落とす）
     f.cardNo, // 4. カード番号
     MIRROR_VARIANTS[mirrorVariantOf(f)]?.en ?? "", // 4.5 ミラーの柄の版（Master Ball Reverse Holo 等。値段が大きく違うので落とさない）
+    resolvePrintVariant(f) === "1st Edition" ? "1st Edition" : "", // 4.6 1st Edition（ADV 等。値段が大きく違うので落とさない。Unlimited は書かない）
     "Japanese", // 5.
     include.setCode ? setCodeToken : "", // 6. セット型番（codeAlias優先。買い手は印刷された型番で検索するため。最後の手段で落とす）
     include.pokemon ? (include.card ? "Pokemon Card" : "Pokemon") : "", // 7.（最後の手段で "Pokemon" → 外す）
@@ -866,7 +871,9 @@ export function buildEbaySearchQuery(f, mode) {
     const mirror = /Ball Reverse Holo$/.test(mirrorEn) ? mirrorEn.replace(/ Reverse Holo$/, "") : mirrorEn;
     // C・U・R・RH の1〜2文字の略号は検索語に入れない（2026-10-14。SAR・SR・UR 等の略号は残す）
     const rarity = SEARCH_SKIP_RARITIES.has(f.rarity) ? "" : f.rarity;
-    return [f.pokemonEn, rarity, f.cardNo, displaySetCode(f.setCode), mirror].filter(Boolean).join(" ");
+    // 1st Edition を選んだときは "1st Edition" も足す（2026-10-15。アンリミテッドの相場と混ざらないように）
+    const edition = resolvePrintVariant(f) === "1st Edition" ? "1st Edition" : "";
+    return [f.pokemonEn, rarity, f.cardNo, displaySetCode(f.setCode), mirror, edition].filter(Boolean).join(" ");
   }
   if (mode === "sealed") {
     return [f.setNameEn, displaySetCode(f.setCode), "Japanese", f.sealedProductType].filter(Boolean).join(" ");
@@ -1740,23 +1747,27 @@ function AppInner() {
                     </Field>
                   </>
                 )}
-                {(PRINT_VARIANT_SET_RE.test(f.setCode) || OLD_BACK_SET_RE.test(f.setCode)) && (
+                {(FIRST_EDITION_SET_RE.test(f.setCode) || OLD_BACK_SET_RE.test(f.setCode)) && (
                   <>
                     <Field label="印刷バリエーション" hint={NO_RARITY_SET_RE.test(f.setCode)
                       ? "拡張パック（1996年初回印刷）はNo Rarity（レアリティマークなし）が最も価値に影響します。1st Editionマークの有無も価値が変わります"
                       : PRINT_VARIANT_SET_RE.test(f.setCode)
                       ? "拡張パック〜ジム拡張2（PMCG1〜6）は1st Editionマークの有無で価値が変わります"
+                      : ADV_SET_RE.test(f.setCode)
+                      ? "ADV の拡張パック（ADV1〜4・ADVex1）は全部のカードに1st Edition（エディションマークあり）とアンリミテッドがあります。マークを見て選んでください"
                       : "誤植があり後の版で修正された「エラー版」がある場合のみ選択してください（どのカードにエラー版があるかは自動判定できません）"}>
                       <select style={inputStyle} value={f.printVariant} onChange={set("printVariant")}>
                         {PRINT_VARIANTS.filter((v) => !PRINT_VARIANT_SCOPE[v.code] || PRINT_VARIANT_SCOPE[v.code].test(f.setCode))
                           .map((v) => <option key={v.code} value={v.code}>{v.label}</option>)}
                       </select>
                     </Field>
+                    {OLD_BACK_SET_RE.test(f.setCode) && (
                     <Field label="その他の印刷差異（英語・任意）" hint={f.printVariant === "Error"
                       ? '例: "Misprint: missing HP text" / "Error: wrong attack damage" — 何が誤植なのかを具体的に書いてください。バイヤーは実物と説明の一致を重視します。'
                       : "例: Miscut / Error card"}>
                       <input style={inputStyle} value={f.printVariantNote} onChange={set("printVariantNote")} placeholder="エラーカードなど" />
                     </Field>
+                    )}
                   </>
                 )}
                 {OLD_BACK_SET_RE.test(f.setCode) && (
