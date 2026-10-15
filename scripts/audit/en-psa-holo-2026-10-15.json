@@ -1,0 +1,560 @@
+{
+ "rows": 25856,
+ "added": [],
+ "removed": [],
+ "changed": {
+  "title": {
+   "count": 66,
+   "ids": [
+    "ADV-P-036",
+    "ADV-P-038",
+    "ADV-P-039",
+    "ADV-P-040",
+    "PLAY-008",
+    "PLAY-012",
+    "PLAY-013",
+    "PLAY-019",
+    "PCG-P-020",
+    "PCG-P-025",
+    "PCG-P-032",
+    "PCG-P-044",
+    "PCG-P-047",
+    "PCG-P-048",
+    "PCG-P-086",
+    "PCG-P-088",
+    "PCG-P-089",
+    "PCG-P-097",
+    "PCG-P-138",
+    "PCG-P-139",
+    "PCG-P-143",
+    "PCG-P-146",
+    "PCG-P-147",
+    "PCG-P-150",
+    "PCG-P-151",
+    "PCG-P-152",
+    "PCG-P-154",
+    "E-T-022",
+    "E-T-023",
+    "E-T-024",
+    "E-P-003",
+    "E-P-008",
+    "E-P-018",
+    "E-P-019",
+    "E-P-020",
+    "E-P-027",
+    "E-P-039",
+    "E-P-040",
+    "E-P-041",
+    "PMCG-P-Y015",
+    "PMCG-P-Y031",
+    "PMCG-P-Y032",
+    "PMCG-P-Y040",
+    "PMCG-P-Y047",
+    "PMCG-P-Y048",
+    "PMCG-P-Y049",
+    "PMCG-P-Y050",
+    "PMCG-P-Y059",
+    "PMCG-P-Y060",
+    "PMCG-P-Y067",
+    "PMCG-P-Y072",
+    "PMCG-P-Y073",
+    "PMCG-P-Y074",
+    "SI99-Y001",
+    "SI99-Y004",
+    "SI99-Y007",
+    "SI99-Y011",
+    "SI99-Y014",
+    "SI99-Y017",
+    "neo-P-Y2002",
+    "neo-P-Y2003",
+    "neo-P-Y005",
+    "neo-P-Y034",
+    "neo-P-Y035",
+    "neo-P-Y041",
+    "neo-P-Y044"
+   ],
+   "examples": [
+    {
+     "id": "ADV-P-036",
+     "before": "036/ADV-P Japanese Pokemon Card NM Promo",
+     "after": "Ash's Treecko 036/ADV-P Japanese Pokemon Card NM Promo"
+    },
+    {
+     "id": "ADV-P-038",
+     "before": "038/ADV-P Japanese Pokemon Card NM Promo",
+     "after": "Brock's Mudkip 038/ADV-P Japanese Pokemon Card NM Promo"
+    },
+    {
+     "id": "ADV-P-039",
+     "before": "039/ADV-P Japanese Pokemon Card NM Promo",
+     "after": "Butler's Kirlia 039/ADV-P Japanese Pokemon Card NM Promo"
+    },
+    {
+     "id": "ADV-P-040",
+     "before": "040/ADV-P Japanese Pokemon Card NM Promo",
+     "after": "Forina's Absol 040/ADV-P Japanese Pokemon Card NM Promo"
+    },
+    {
+     "id": "PLAY-008",
+     "before": "008/PLAY Japanese Pokemon Card NM Play Promo",
+     "after": "Pokémon Card Fan 008/PLAY Japanese Pokemon Card NM Play Promo"
+    }
+   ]
+  },
+  "desc": {
+   "count": 60,
+   "ids": [
+    "ADV-P-036",
+    "ADV-P-038",
+    "ADV-P-039",
+    "ADV-P-040",
+    "PLAY-008",
+    "PLAY-012",
+    "PLAY-013",
+    "PLAY-019",
+    "PCG-P-020",
+    "PCG-P-025",
+    "PCG-P-032",
+    "PCG-P-044",
+    "PCG-P-047",
+    "PCG-P-048",
+    "PCG-P-086",
+    "PCG-P-088",
+    "PCG-P-089",
+    "PCG-P-097",
+    "PCG-P-138",
+    "PCG-P-139",
+    "PCG-P-143",
+    "PCG-P-146",
+    "PCG-P-147",
+    "PCG-P-150",
+    "PCG-P-151",
+    "PCG-P-152",
+    "PCG-P-154",
+    "E-T-022",
+    "E-T-023",
+    "E-T-024",
+    "E-P-003",
+    "E-P-008",
+    "E-P-018",
+    "E-P-019",
+    "E-P-020",
+    "E-P-027",
+    "E-P-039",
+    "E-P-040",
+    "E-P-041",
+    "PMCG-P-Y015",
+    "PMCG-P-Y031",
+    "PMCG-P-Y032",
+    "PMCG-P-Y040",
+    "PMCG-P-Y047",
+    "PMCG-P-Y048",
+    "PMCG-P-Y049",
+    "PMCG-P-Y050",
+    "PMCG-P-Y059",
+    "PMCG-P-Y060",
+    "PMCG-P-Y067",
+    "PMCG-P-Y072",
+    "PMCG-P-Y073",
+    "PMCG-P-Y074",
+    "neo-P-Y2002",
+    "neo-P-Y2003",
+    "neo-P-Y005",
+    "neo-P-Y034",
+    "neo-P-Y035",
+    "neo-P-Y041",
+    "neo-P-Y044"
+   ],
+   "examples": [
+    {
+     "id": "ADV-P-036",
+     "before": [
+      "- Card: [Pokemon name] 036/ADV-P"
+     ],
+     "after": [
+      "- Card: Ash's Treecko 036/ADV-P"
+     ]
+    },
+    {
+     "id": "ADV-P-038",
+     "before": [
+      "- Card: [Pokemon name] 038/ADV-P"
+     ],
+     "after": [
+      "- Card: Brock's Mudkip 038/ADV-P"
+     ]
+    },
+    {
+     "id": "ADV-P-039",
+     "before": [
+      "- Card: [Pokemon name] 039/ADV-P"
+     ],
+     "after": [
+      "- Card: Butler's Kirlia 039/ADV-P"
+     ]
+    },
+    {
+     "id": "ADV-P-040",
+     "before": [
+      "- Card: [Pokemon name] 040/ADV-P"
+     ],
+     "after": [
+      "- Card: Forina's Absol 040/ADV-P"
+     ]
+    },
+    {
+     "id": "PLAY-008",
+     "before": [
+      "- Card: [Pokemon name] 008/PLAY"
+     ],
+     "after": [
+      "- Card: Pokémon Card Fan 008/PLAY"
+     ]
+    }
+   ]
+  },
+  "itemSpecifics": {
+   "count": 66,
+   "ids": [
+    "ADV-P-036",
+    "ADV-P-038",
+    "ADV-P-039",
+    "ADV-P-040",
+    "PLAY-008",
+    "PLAY-012",
+    "PLAY-013",
+    "PLAY-019",
+    "PCG-P-020",
+    "PCG-P-025",
+    "PCG-P-032",
+    "PCG-P-044",
+    "PCG-P-047",
+    "PCG-P-048",
+    "PCG-P-086",
+    "PCG-P-088",
+    "PCG-P-089",
+    "PCG-P-097",
+    "PCG-P-138",
+    "PCG-P-139",
+    "PCG-P-143",
+    "PCG-P-146",
+    "PCG-P-147",
+    "PCG-P-150",
+    "PCG-P-151",
+    "PCG-P-152",
+    "PCG-P-154",
+    "E-T-022",
+    "E-T-023",
+    "E-T-024",
+    "E-P-003",
+    "E-P-008",
+    "E-P-018",
+    "E-P-019",
+    "E-P-020",
+    "E-P-027",
+    "E-P-039",
+    "E-P-040",
+    "E-P-041",
+    "PMCG-P-Y015",
+    "PMCG-P-Y031",
+    "PMCG-P-Y032",
+    "PMCG-P-Y040",
+    "PMCG-P-Y047",
+    "PMCG-P-Y048",
+    "PMCG-P-Y049",
+    "PMCG-P-Y050",
+    "PMCG-P-Y059",
+    "PMCG-P-Y060",
+    "PMCG-P-Y067",
+    "PMCG-P-Y072",
+    "PMCG-P-Y073",
+    "PMCG-P-Y074",
+    "SI99-Y001",
+    "SI99-Y004",
+    "SI99-Y007",
+    "SI99-Y011",
+    "SI99-Y014",
+    "SI99-Y017",
+    "neo-P-Y2002",
+    "neo-P-Y2003",
+    "neo-P-Y005",
+    "neo-P-Y034",
+    "neo-P-Y035",
+    "neo-P-Y041",
+    "neo-P-Y044"
+   ],
+   "examples": [
+    {
+     "id": "ADV-P-036",
+     "before": {},
+     "after": {
+      "Card Name": "Ash's Treecko",
+      "Character": "Treecko"
+     }
+    },
+    {
+     "id": "ADV-P-038",
+     "before": {},
+     "after": {
+      "Card Name": "Brock's Mudkip",
+      "Character": "Mudkip"
+     }
+    },
+    {
+     "id": "ADV-P-039",
+     "before": {},
+     "after": {
+      "Card Name": "Butler's Kirlia",
+      "Character": "Kirlia"
+     }
+    },
+    {
+     "id": "ADV-P-040",
+     "before": {},
+     "after": {
+      "Card Name": "Forina's Absol",
+      "Character": "Absol"
+     }
+    },
+    {
+     "id": "PLAY-008",
+     "before": {},
+     "after": {
+      "Card Name": "Pokémon Card Fan",
+      "Character": "Pokémon Card Fan"
+     }
+    }
+   ]
+  },
+  "query": {
+   "count": 60,
+   "ids": [
+    "ADV-P-036",
+    "ADV-P-038",
+    "ADV-P-039",
+    "ADV-P-040",
+    "PLAY-008",
+    "PLAY-012",
+    "PLAY-013",
+    "PLAY-019",
+    "PCG-P-020",
+    "PCG-P-025",
+    "PCG-P-032",
+    "PCG-P-044",
+    "PCG-P-047",
+    "PCG-P-048",
+    "PCG-P-086",
+    "PCG-P-088",
+    "PCG-P-089",
+    "PCG-P-097",
+    "PCG-P-138",
+    "PCG-P-139",
+    "PCG-P-143",
+    "PCG-P-146",
+    "PCG-P-147",
+    "PCG-P-150",
+    "PCG-P-151",
+    "PCG-P-152",
+    "PCG-P-154",
+    "E-T-022",
+    "E-T-023",
+    "E-T-024",
+    "E-P-003",
+    "E-P-008",
+    "E-P-018",
+    "E-P-019",
+    "E-P-020",
+    "E-P-027",
+    "E-P-039",
+    "E-P-040",
+    "E-P-041",
+    "PMCG-P-Y015",
+    "PMCG-P-Y031",
+    "PMCG-P-Y032",
+    "PMCG-P-Y040",
+    "PMCG-P-Y047",
+    "PMCG-P-Y048",
+    "PMCG-P-Y049",
+    "PMCG-P-Y050",
+    "PMCG-P-Y059",
+    "PMCG-P-Y060",
+    "PMCG-P-Y067",
+    "PMCG-P-Y072",
+    "PMCG-P-Y073",
+    "PMCG-P-Y074",
+    "neo-P-Y2002",
+    "neo-P-Y2003",
+    "neo-P-Y005",
+    "neo-P-Y034",
+    "neo-P-Y035",
+    "neo-P-Y041",
+    "neo-P-Y044"
+   ],
+   "examples": [
+    {
+     "id": "ADV-P-036",
+     "before": "036/ADV-P",
+     "after": "Ash's Treecko 036/ADV-P"
+    },
+    {
+     "id": "ADV-P-038",
+     "before": "038/ADV-P",
+     "after": "Brock's Mudkip 038/ADV-P"
+    },
+    {
+     "id": "ADV-P-039",
+     "before": "039/ADV-P",
+     "after": "Butler's Kirlia 039/ADV-P"
+    },
+    {
+     "id": "ADV-P-040",
+     "before": "040/ADV-P",
+     "after": "Forina's Absol 040/ADV-P"
+    },
+    {
+     "id": "PLAY-008",
+     "before": "008/PLAY",
+     "after": "Pokémon Card Fan 008/PLAY"
+    }
+   ]
+  },
+  "csv": {
+   "count": 66,
+   "ids": [
+    "ADV-P-036",
+    "ADV-P-038",
+    "ADV-P-039",
+    "ADV-P-040",
+    "PLAY-008",
+    "PLAY-012",
+    "PLAY-013",
+    "PLAY-019",
+    "PCG-P-020",
+    "PCG-P-025",
+    "PCG-P-032",
+    "PCG-P-044",
+    "PCG-P-047",
+    "PCG-P-048",
+    "PCG-P-086",
+    "PCG-P-088",
+    "PCG-P-089",
+    "PCG-P-097",
+    "PCG-P-138",
+    "PCG-P-139",
+    "PCG-P-143",
+    "PCG-P-146",
+    "PCG-P-147",
+    "PCG-P-150",
+    "PCG-P-151",
+    "PCG-P-152",
+    "PCG-P-154",
+    "E-T-022",
+    "E-T-023",
+    "E-T-024",
+    "E-P-003",
+    "E-P-008",
+    "E-P-018",
+    "E-P-019",
+    "E-P-020",
+    "E-P-027",
+    "E-P-039",
+    "E-P-040",
+    "E-P-041",
+    "PMCG-P-Y015",
+    "PMCG-P-Y031",
+    "PMCG-P-Y032",
+    "PMCG-P-Y040",
+    "PMCG-P-Y047",
+    "PMCG-P-Y048",
+    "PMCG-P-Y049",
+    "PMCG-P-Y050",
+    "PMCG-P-Y059",
+    "PMCG-P-Y060",
+    "PMCG-P-Y067",
+    "PMCG-P-Y072",
+    "PMCG-P-Y073",
+    "PMCG-P-Y074",
+    "SI99-Y001",
+    "SI99-Y004",
+    "SI99-Y007",
+    "SI99-Y011",
+    "SI99-Y014",
+    "SI99-Y017",
+    "neo-P-Y2002",
+    "neo-P-Y2003",
+    "neo-P-Y005",
+    "neo-P-Y034",
+    "neo-P-Y035",
+    "neo-P-Y041",
+    "neo-P-Y044"
+   ],
+   "examples": [
+    {
+     "id": "ADV-P-036",
+     "before": {
+      "Title": "036/ADV-P Japanese Pokemon Card NM Promo",
+      "C:Card Name": "",
+      "C:Character": ""
+     },
+     "after": {
+      "Title": "Ash's Treecko 036/ADV-P Japanese Pokemon Card NM Promo",
+      "C:Card Name": "Ash's Treecko",
+      "C:Character": "Treecko"
+     }
+    },
+    {
+     "id": "ADV-P-038",
+     "before": {
+      "Title": "038/ADV-P Japanese Pokemon Card NM Promo",
+      "C:Card Name": "",
+      "C:Character": ""
+     },
+     "after": {
+      "Title": "Brock's Mudkip 038/ADV-P Japanese Pokemon Card NM Promo",
+      "C:Card Name": "Brock's Mudkip",
+      "C:Character": "Mudkip"
+     }
+    },
+    {
+     "id": "ADV-P-039",
+     "before": {
+      "Title": "039/ADV-P Japanese Pokemon Card NM Promo",
+      "C:Card Name": "",
+      "C:Character": ""
+     },
+     "after": {
+      "Title": "Butler's Kirlia 039/ADV-P Japanese Pokemon Card NM Promo",
+      "C:Card Name": "Butler's Kirlia",
+      "C:Character": "Kirlia"
+     }
+    },
+    {
+     "id": "ADV-P-040",
+     "before": {
+      "Title": "040/ADV-P Japanese Pokemon Card NM Promo",
+      "C:Card Name": "",
+      "C:Character": ""
+     },
+     "after": {
+      "Title": "Forina's Absol 040/ADV-P Japanese Pokemon Card NM Promo",
+      "C:Card Name": "Forina's Absol",
+      "C:Character": "Absol"
+     }
+    },
+    {
+     "id": "PLAY-008",
+     "before": {
+      "Title": "008/PLAY Japanese Pokemon Card NM Play Promo",
+      "C:Card Name": "",
+      "C:Character": ""
+     },
+     "after": {
+      "Title": "Pokémon Card Fan 008/PLAY Japanese Pokemon Card NM Play Promo",
+      "C:Card Name": "Pokémon Card Fan",
+      "C:Character": "Pokémon Card Fan"
+     }
+    }
+   ]
+  }
+ }
+}

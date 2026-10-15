@@ -89,6 +89,8 @@
   - 番号・日本語名・レアリティは**公式 details.php**（1件ずつ番号を確かめる）。公式一覧（resultAPI.php）は漏れがある（BREAK・LEGEND など）ので一覧だけで決めない。
   - 公式に無いもの（S・SM 世代前半の HR・UR など）は、TCGdex・遊々亭・ポケカくらぶのうち**2つ以上で番号と名前が一致**したものだけ。画像は無し（店舗の画像は使わない）。
   - 英語名は、**Bulbapedia の日本版の一覧の名前**と、日本語名から作った規則の名前（ポケモン）または **TCGdex 英語版の同じ名前・種類・イラストレーター**（トレーナーズ等）の一致。
+    公式に無い古いプロモは、Bulbapedia の呼び方と PSA の表記（ページタイトル・セットレジストリのラベル）の一致。PSA の表記が見つかって Bulbapedia と違う高額なカードは PSA の表記を英語名にし、
+    Bulbapedia の呼び方を `src/enAltNames.json`（card_id → 名前）に入れる（タイトルに余地があれば括弧で添える。根拠は `scripts/old-promos/en-psa-2026-10-15.tsv`、`fill-en-psa.mjs`）。
     Bulbapedia はスクリプトから開けない（Cloudflare）ので、ブラウザで wikitext から取り出し、SHA-256 をブラウザの値と照合して `scripts/en-name-fix3/bulbapedia/` などに保存する。
     TCGdex の英語名だけで決めない（再録・別の絵柄で取り違える）。インドネシア語版の名前を英語名として使わない。
   - 旧裏〜PCG の日本語名は pcg-search.com とポケモンWiki の一致（TCGdex の日本語は機械翻訳）。PMCG はカードに番号が無いので、画像の SHA-256 と Bulbapedia の並びで結び付ける。
@@ -116,7 +118,8 @@
     現代カードのタイトルのカード番号の後ろに `1st Edition` を入れ、落とさない（Unlimited は書かない）。SKU は `-1ST`、Features は `1st Edition`、相場の検索語にも `1st Edition`。
   - 最後の手段の後半: "Technical Machine" を "TM" に略す → 鑑定のラベル（GEM MINT 等）を落とす → "Pokemon" を外す（`LAST_RESORT_DROPS`）。
   - プリズムスターの ◇ はタイトル・Character では外す（Card Name は ◇ 付き）。PR の略号は "Prism Star"、H（ひかる）は略号なし。
-  - ホロ版とノーマル版を分けたカード（日本語名の末尾「（ホロ）」「（ノーマル）」）は Holo／Non-Holo を最後まで残す。
+  - ホロ版とノーマル版を分けたカード（日本語名の末尾「（ホロ）」「（ノーマル）」）は Holo／Non-Holo を最後まで残す。旧裏のタイトルも同じ（サザンアイランドのキラ6枚）。
+  - 英語名を PSA の表記にしたカードの Bulbapedia の呼び方（`src/enAltNames.json`）は、カード名の後ろに括弧で添え、80文字を超えるときは最初に落とす。相場の検索語には入れない（両方の名前を含む出品に絞られるため）。
 - **カード番号**: 総数のある弾は `001/165`。**番号付きのプロモは印刷された形 `001/S-P`**（2026-10-14〜）。型番 X のカード・SP5 は番号なし。ミラーの版は番号部分。
 - **Item Specifics**: Card Name・Character・Set・Card Number・Rarity（`RARITY_EN_LABELS`。SR は Super Rare、MA は Mega Attack Rare）・Finish（ミラーの版 Reverse Holo、
   ホロ／ノーマルを分けたカード Holo／Regular）・Language・Manufacturer・Graded・Card Condition 等・Features（Old Back・1st Edition・No Rarity・Error）・

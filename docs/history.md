@@ -3382,3 +3382,20 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
 - **英語名**: ポケモンは規則の名前が Bulbapedia のその弾の同じレアリティの行にあるもの。トレーナーズ（月の石・化石の発掘・マスターボール等）とエキストラカードは空欄
   （Bulbapedia の名前だけで2つ目の情報源が無い）。VM1 のトレーナーズのレアリティは Bulbapedia が None、pcg-search とポケモンWiki は ◆（U にした）。
 - サザンアイランドの6枚（ミュウ・トゲピー・レディバ・ラフレシア・ヤドキング・マリル）は pcg-search で「キラ」。ホロの記録は今のデータの形に無いので入れていない。
+
+### 対応（2026-10-15）: 古いプロモの英語名を PSA の表記で足し、サザンアイランドのキラを（ホロ）にした
+
+ユーザーの指示で2つ直した。
+- **英語名**: 英語名が空欄の古いプロモを PSA で探し直し、PSA の表記（ページタイトル、または PSA セットレジストリのラベル）が見つかった60行に入れた（`fill-en-psa.mjs`、根拠は
+  `en-psa-2026-10-15.tsv` の27行目以降。6列目が Bulbapedia の呼び方（PSA と違うときだけ）、7列目が PSA の表記のカード名）。Bulbapedia と一致した56行はそのまま、違う4行は PSA の表記にし、
+  Bulbapedia の呼び方を `src/enAltNames.json` に入れた: PMCG-P-Y015 Pikachu Illustrator（PSA "Pikachu-Holo Illustrator"。一般にも Pikachu Illustrator と呼ばれる。Bulbapedia は
+  Pokémon Illustrator）・neo-P-Y005 Fruit of Miracle（Miracle Berry）・neo-P-Y041 Great Rocket's Mewtwo（Team GR's Mewtwo。PSA のページタイトルは Spec Details で、URL の名前による）・
+  PCG-P-032 Deoxys（Deoxys Speed Forme）。トロピカルウインドは PSA の区分名が Tropical Mega Battle でカード名は Tropical Wind（Bulbapedia と一致）だった。
+  タイトルはカード名の後ろに括弧で添え（例 "Pikachu Illustrator (Pokémon Illustrator) Promo Japanese Pokemon Card NM"）、80文字を超えるときは最初に落とす。英語名を手で変えたら添えない。
+  相場の検索語には入れない（両方の名前を含む出品に絞られる）。まだ空欄: PMCG-P-Y079 カードトレーナー認定証、neo-P-Y004 きのみ、PCG-P のデオキシス（011・017・019）・裂空のデオキシス・
+  デオキシスex・デオキシスδ・ポケモンカード研究所・ポケパークのゴニョニョ・ロータのウソハチ・メタモン・アクーシャのタマンタ・PCG-P-Y003 おしえテレビのおにいさん（PSA の表記が見つからない）。
+- **サザンアイランドのキラ**: pcg-search で「キラ」の6枚（ミュウ・トゲピー・レディバ・ラフレシア・ヤドキング・マリル。PSA でも Vileplume 以外は -Holo）の日本語名の末尾に「（ホロ）」を付け
+  （`scripts/vending/mark-si-holo.mjs`、画像のファイル名も付け替え）、Finish に Holo を出すようにした。SI99 に同じ名前のキラでないカードは無いので「（ノーマル）」の行は無い。
+  旧裏のタイトルにも Holo／Non-Holo を入れるようにした（"Mew Southern Islands Holo Japanese 1999 Pokemon Card NM"）。
+- 全カードの出力の変化は66行（英語名60・ホロ6）。直す前と後は `scripts/audit/en-psa-holo-2026-10-15.json`。
+- 気づいた点（直していない）: 旧裏の弾（PMCG1・PMCG-P・neo-P・VM1・SI99 等）の相場の検索語に、カードに印刷されていない弾コード（"Bulbasaur 001/102 PMCG1"、"Pikachu Illustrator PMCG-P"）が入る。

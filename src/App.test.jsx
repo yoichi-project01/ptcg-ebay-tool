@@ -1395,4 +1395,11 @@ describe("PSA の表記の英語名と Bulbapedia の呼び方・旧裏のホロ
     expect(buildSingleTitle(formOf("neo-P", "Y041", { pokemonEn: "Mewtwo" }))).not.toContain("Team GR");
     expect(buildEbaySearchQuery(formOf("neo-P", "Y041"), "single")).not.toContain("Team GR");
   });
+  it("サザンアイランドのキラは名前の（ホロ）で Holo を書き、Finish に Holo を出す", () => {
+    const f = formOf("SI99", "Y004");
+    expect(f.pokemonJa).toBe("ミュウ（ホロ）");
+    expect(buildSingleTitle(f)).toBe("Mew Southern Islands Holo Japanese 1999 Pokemon Card NM");
+    expect(Object.fromEntries(buildItemSpecifics(f)).Finish).toBe("Holo");
+    expect(buildSingleTitle(formOf("SI99", "Y002"))).not.toContain("Holo");
+  });
 });

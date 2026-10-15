@@ -412,11 +412,14 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
   const printVariant = resolvePrintVariant(f);
   const oldBack = OLD_BACK_SET_RE.test(f.setCode) && f.oldBack ? "Old Back" : "";
   const rarityWord = VINTAGE_RARITY_LABELS[f.rarity] || "";
+  // ホロ版を名前の「（ホロ）」「（ノーマル）」で分けたカード（サザンアイランドのキラ等。2026-10-15）は Holo／Non-Holo を書く（現代カードと同じく最後まで残す）
+  const finish = holoFinishOf(f);
+  const holoToken = finish === "holo" ? "Holo" : finish === "regular" ? "Non-Holo" : "";
 
   // 削除可能な2要素（優先度10〜11）
   // card・year・setName・pokemon は最後の手段（2026-10-14）。"Pokemon" を外すより先に、Item Specifics にある発売年・セット通称を落とす
   const include = { rarityWord: Boolean(rarityWord), condition: !isGraded && Boolean(f.condition), card: true, pokemon: true,
-    year: Boolean(year), setName: Boolean(setNameToken), altName: Boolean(altNameToken(f)) };
+    year: Boolean(year), setName: Boolean(setNameToken), altName: Boolean(altNameToken(f)), holo: Boolean(holoToken) };
   const assemble = () => [
     gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
     titleCardName(f.pokemonEn), // 2. カード名（プリズムスターの ◇ は外す）
@@ -424,6 +427,7 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
     vintageCardNoToken(f.cardNo), // 3. No.006
     include.setName ? setNameToken : "", // 4. セット通称（最後の手段で落とす）
     printVariant, // 5. 印刷バリエーション（No Rarity / 1st Edition）
+    include.holo ? holoToken : "", // 5.5 Holo／Non-Holo（名前でホロ版を分けたカードだけ）
     "Japanese", // 6.
     include.year ? year : "", // 7. 発売年（現代カードより優先度が高い。最後の手段で落とす）
     oldBack, // 8. Old Back
@@ -435,7 +439,7 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
   let title = assemble();
   // 優先度の低いものから順に1要素ずつ落とす
   const dropped = [];
-  for (const key of ["altName", "condition", "rarityWord", "card", "year", "setName", "pokemon"]) {
+  for (const key of ["altName", "condition", "rarityWord", "card", "year", "setName", "holo", "pokemon"]) {
     if (title.length <= maxLength) break;
     if (include[key]) {
       include[key] = false;
@@ -443,7 +447,7 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
       title = assemble();
     }
   }
-  return restoreDroppedParts(include, dropped, ["pokemon", "setName", "year", ["card", "condition", "rarityWord"], "altName"], assemble, maxLength);
+  return restoreDroppedParts(include, dropped, ["pokemon", "holo", "setName", "year", ["card", "condition", "rarityWord"], "altName"], assemble, maxLength);
 }
 
 // 80文字調整の後、落とした要素（dropped）を優先度の高い順（priority）に1つずつ戻してみて、戻しても maxLength 以内なら残す。
