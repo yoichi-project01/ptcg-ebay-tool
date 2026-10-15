@@ -1334,7 +1334,7 @@ describe("ADV の 1st Edition（2026-10-15）", () => {
     expect(buildSingleTitle(f)).toBe("Rayquaza ex R 047/054 1st Edition Japanese ADV3 Pokemon Card NM 2003 Rare");
     expect(buildSku(f, "single")).toBe("ADV3-047-NM-1ST");
     expect(Object.fromEntries(buildItemSpecifics(f))["Features"]).toBe("1st Edition");
-    expect(buildEbaySearchQuery(f, "single")).toBe("Rayquaza ex 047/054 ADV3 1st Edition");
+    expect(buildEbaySearchQuery(f, "single")).toBe("Rayquaza ex 047/054 1st Edition");
   });
   it("Unlimited はタイトル・SKU・Features に何も書かない", () => {
     const f = formOf("ADV3-047", { printVariant: "Unlimited" });
@@ -1401,5 +1401,17 @@ describe("PSA の表記の英語名と Bulbapedia の呼び方・旧裏のホロ
     expect(buildSingleTitle(f)).toBe("Mew Southern Islands Holo Japanese 1999 Pokemon Card NM");
     expect(Object.fromEntries(buildItemSpecifics(f)).Finish).toBe("Holo");
     expect(buildSingleTitle(formOf("SI99", "Y002"))).not.toContain("Holo");
+  });
+});
+
+describe("相場の検索語にカードに印刷されていない弾コードを入れない（2026-10-15）", () => {
+  const formOf = (c, n) => { const set = CARD_DATA_FOR_TEST.find((s) => s.c === c); return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((r) => r[0] === n) }); };
+  it("旧裏・e・ADV・PCG・DPt・型番 Y の古いプロモは弾コードを外し、印刷された記号・番号の形は残す", () => {
+    expect(buildEbaySearchQuery(formOf("PMCG1", "001"), "single")).toBe("Bulbasaur 001/102");
+    expect(buildEbaySearchQuery(formOf("PMCG-P", "Y015"), "single")).toBe("Pikachu Illustrator");
+    expect(buildEbaySearchQuery(formOf("DPt1-B", "001"), "single")).not.toContain("DPt1-B");
+    expect(buildEbaySearchQuery(formOf("E-P", "001"), "single")).toBe("Kecleon 001/P");
+    expect(buildEbaySearchQuery(formOf("SV2a", "201"), "single")).toContain("SV2a");
+    expect(buildEbaySearchQuery(formOf("XY1-Bx", "001"), "single")).toContain("XY1");
   });
 });

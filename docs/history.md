@@ -3399,3 +3399,14 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
   旧裏のタイトルにも Holo／Non-Holo を入れるようにした（"Mew Southern Islands Holo Japanese 1999 Pokemon Card NM"）。
 - 全カードの出力の変化は66行（英語名60・ホロ6）。直す前と後は `scripts/audit/en-psa-holo-2026-10-15.json`。
 - 気づいた点（直していない）: 旧裏の弾（PMCG1・PMCG-P・neo-P・VM1・SI99 等）の相場の検索語に、カードに印刷されていない弾コード（"Bulbasaur 001/102 PMCG1"、"Pikachu Illustrator PMCG-P"）が入る。
+
+### 対応（2026-10-15）: 相場の検索語から、カードに印刷されていない弾コードを外した
+
+ユーザーの指示で、相場リンクの検索語（`buildEbaySearchQuery`）に入る弾コードのうち、カードに印刷されていない内部のものを外した（`src/App.jsx` の `UNPRINTED_SET_CODE_RE`・`isSetCodePrinted`）。
+- 外した弾: 旧裏（PMCG1〜6・neo1〜4・PMCG-P・neo-P・VM1〜3・SI99）・★VS・web・e（E1〜5）・ADV（ADV1〜4・ADVex1）・PCG1〜9（カードの画像で、弾のマークだけで記号の文字が無いことを確かめた。
+  pcg-search の画像）、DPt1-B〜DPt4-B（弾コードは公式の画像のフォルダ名。マークの文字は Pt1 等〔Bulbapedia の SetSymbolGalactic_Conquest〕）、型番 Y の番号の無い古いプロモ（PCG-P-Y003）。
+- 残した: 印刷された記号（XY1・SV2a・BW1・L1・WAK・MDB・HXY・LL 等。公式の画像のマークに文字がある）、DP1〜5（マークに DP1 等の文字。Bulbapedia の SetSymbolSpace-Time_Creation）、
+  番号の形（001/102・001/P・032/PCG-P）。L2-Sb・L2-Sh は公式の画像のマークが小さくて読めず、そのまま。
+- 例: "Weedle 004/102 PMCG1" → "Weedle 004/102"、"Pikachu Illustrator PMCG-P" → "Pikachu Illustrator"、"Wurmple 001/096 DPt1-B" → "Wurmple 001/096"。変わったのは検索語だけで3,119行
+  （`scripts/audit/query-unprinted-code-2026-10-15.json`）。
+- 直していない: 現代カードのタイトルの型番（e・ADV・PCG・DPt の弾の "Japanese ADV1 Pokemon Card" 等）にも同じ内部の弾コードが入る。DPt1〜4 の印刷された記号（Pt1 等）は codeAlias にしていない。

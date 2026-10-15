@@ -899,7 +899,8 @@ export function buildEbaySearchQuery(f, mode) {
     const edition = resolvePrintVariant(f) === "1st Edition" ? "1st Edition" : "";
     // 番号付きのプロモはカード番号に弾の記号が入っている（"001/S-P"）ので、型番を重ねない（2026-10-15。タイトルと同じ）
     const code = displaySetCode(f.setCode);
-    const codeToken = code && (f.cardNo || "").endsWith(`/${code}`) ? "" : code;
+    // カードに印刷されていない内部の弾コード（旧裏・★VS・web・e・ADV・PCG の弾、DPt1-B〜DPt4-B〔印刷は Pt1 等〕、型番 Y の古いプロモ）は入れない（2026-10-15）
+    const codeToken = code && !(f.cardNo || "").endsWith(`/${code}`) && isSetCodePrinted(f) ? code : "";
     return [f.pokemonEn, rarity, f.cardNo, codeToken, mirror, edition].filter(Boolean).join(" ");
   }
   if (mode === "sealed") {
@@ -907,6 +908,15 @@ export function buildEbaySearchQuery(f, mode) {
   }
   const type = f.productType === "box" ? "Booster Box" : "Booster Pack";
   return [f.setNameEn, displaySetCode(f.setCode), "Japanese", type].filter(Boolean).join(" ");
+}
+// 弾コード（codeAlias があればそれ）がカードに印刷されているか（2026-10-15）。印刷されていないのは:
+// 旧裏（PMCG1〜6・neo1〜4・PMCG-P・neo-P・VM1〜3・SI99）・★VS・web・e（E1〜5）・ADV・PCG の弾（カードの画像で弾のマークだけ、記号の文字が無いことを確かめた）、
+// DPt1-B〜DPt4-B（弾コードは公式の画像のフォルダ名。マークの文字は Pt1 等。Bulbapedia の SetSymbolGalactic_Conquest）、
+// 型番 Y（pcg-search の通し番号）の番号の無い古いプロモ（ADV-P・PCG-P）。DP1〜5 はマークに DP1 等の文字がある
+const UNPRINTED_SET_CODE_RE = /^(PMCG[1-6]|PMCG-P|neo[1-4]|neo-P|VM[1-3]|SI99|VS1|web1|E[1-5]|ADV[1-4]|ADVex1|PCG[1-9]|DPt[1-4]-B)$/;
+function isSetCodePrinted(f) {
+  if (UNPRINTED_SET_CODE_RE.test(f.setCode)) return false;
+  return !(f.localRef || "").startsWith(`${f.setCode}/Y`);
 }
 function buildEbaySearchUrl(query, { sold = false } = {}) {
   if (!query.trim()) return "";
