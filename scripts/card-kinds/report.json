@@ -10,10 +10,10 @@
  },
  "sources": {
   "name": 5417,
-  "bulbapedia": 19308,
+  "bulbapedia": 19309,
   "tcgdex": 72,
   "details": 907,
-  "name-contains": 7,
+  "name-contains": 6,
   "same-name": 448
  },
  "conflicts": [
@@ -363,8 +363,8 @@
   {
    "id": "E-P-028",
    "ja": "ピチュー兄弟",
-   "en": "",
-   "chosen": "name-contains:Pokemon",
+   "en": "Pichu Bros.",
+   "chosen": "bulbapedia:Pokemon",
    "all": "bulbapedia:Pokemon name:Trainer"
   }
  ]
