@@ -79,24 +79,23 @@ const PRINT_VARIANTS = [
   { code: "Unlimited", label: "Unlimited（通常版・マークなし）" },
   { code: "Error", label: "Error（誤植版）" },
 ];
-// 1st Edition マークが存在する世代（拡張パック〜ジム拡張2）
-const PRINT_VARIANT_SET_RE = /^PMCG[1-6]$/i;
-// 1st Edition と Unlimited を選べる弾。旧裏の PMCG1〜6 に加え、ADV 世代の拡張パック5弾（ADV1〜4・ADVex1。2026-10-15、
-// 全部のカードに 1st Edition とアンリミテッドがある。根拠は scripts/adv/sources.json の firstEdition）
-const FIRST_EDITION_SET_RE = /^(PMCG[1-6]|ADV[1-4]|ADVex1)$/i;
-const ADV_SET_RE = /^(ADV[1-4]|ADVex1)$/i;
+// 1st Edition と Unlimited を選べる弾（2026-10-15）。日本版の 1st Edition（エディションマーク）は ★VS・web（2001）から20th アニバーサリー（CP6、2016）までの
+// ブースターの弾だけ。★VS・web・e・ADV・PCG・DP・DPt・LEGEND・BW・XY・CP のブースターの弾（70弾）を、全部のカードに 1st Edition とアンリミテッドがあるとして選べるようにする。
+// 構築済みデッキ・BOX・コレクションパック等は入れない。旧裏の PMCG1〜6 は日本版に 1st Edition が無い（No Rarity・Error だけ）。
+// 根拠は scripts/first-edition/sources.json（Bulbapedia「1st Edition (TCG)」・ポケモンWiki の用語一覧と世代ごとの例）
+const FIRST_EDITION_SET_RE = /^(VS1|web1|E[1-5]|ADV[1-4]|ADVex1|PCG[1-9]|DP[1-5]|DPt[1-4]-B|L1-B(hg|ss)|L[23]-B|LL|BW1-B[bw]|BW2-B|BW3-B[hp]|BW4-B|BW5-Br[nz]|BW6-B[cf]|BW7-B|BW8-Br[fn]|BW9-B|XY1-B[xy]|XY[234]|XY5-B[gt]|XY[679]-B|XY8-B[br]|XY10-B|XY11-B[br]|CP[1-6])$/i;
 // No Rarity（カード右下のレアリティマークが無い最初期版）が存在するセット。
 // 1996年の日本版拡張パック（Base Set）の初回印刷のみに存在することを確認済み
 // （PSA/Fanatics Collect等のグレーディング済みカード出品でも "1996 Pokemon Japanese
 // Base Set No Rarity Symbol" として一貫して扱われている）。ポケモンジャングル/化石の秘密/
 // ロケット団（PMCG2-4）や拡張パック以降のジム弾（PMCG5-6）にはNo Rarity版が存在するという
-// 情報源が見つからなかったため対象外とした。1st Editionは引き続きPMCG1-6全体が対象
+// 情報源が見つからなかったため対象外とした
 const NO_RARITY_SET_RE = /^PMCG1$/i;
 // 旧裏面（オールドバック）対象セット。新裏に切り替わるのは e シリーズ以降のため
 // PMCG（拡張パック〜ジム拡張2）に加え neo1-4 / VS1 / web1 も対象
 const OLD_BACK_SET_RE = /^(PMCG[1-6]|neo[1-4]|VS1|web1)$/i;
 // 各印刷バリエーションが有効なセット範囲。バリエーションごとに対象セットの広さが異なる
-// （No Rarity < 1st Edition/Unlimited < Error）ため、resolvePrintVariant はこの表を引いて
+// （No Rarity は PMCG1、1st Edition/Unlimited は FIRST_EDITION_SET_RE、Error は旧裏）ため、resolvePrintVariant はこの表を引いて
 // 検証する。Errorは「どのカードに誤植版があるか」をデータから判定できないため、
 // 旧裏世代全体（OLD_BACK_SET_RE）で選択可能にし、内容はユーザーの手入力に委ねる
 const PRINT_VARIANT_SCOPE = {
@@ -466,12 +465,18 @@ function restoreDroppedParts(include, dropped, priority, assemble, maxLength) {
 const MODERN_TITLE_DROPPABLE_LABELS = {
   setName: "セット英語名", year: "発売年", holo: "Holo（Non-Holo）", rarityFull: "レアリティのフルスペル",
   condition: "状態（NM 等）", card: "「Pokemon Card」の Card", rarityCode: "レアリティの略号", setCode: "型番", pokemon: "「Pokemon」",
+  fullName: "「Technical Machine」を「TM」に", gradeLabel: "鑑定のラベル（GEM MINT 等）",
 };
 // ほかの要素をすべて落としても80文字を超えるときだけ落とす（2026-10-14）。状態 → "Pokemon Card" を "Pokemon" に → レアリティの略号 → 型番 → "Pokemon"。
 // レアリティ・型番は Item Specifics（Rarity・Set）にあり、"Pokemon" より検索に効きにくいので先に落とす（"Pokemon" はほぼ残る）。
 // 戻すときは逆の順で、収まるものは戻す。ただし "Pokemon Card" → 状態 は組（"Card" を戻せなければ状態も戻さない。状態を先に落とす決まりのため）
-const LAST_RESORT_DROPS = ["condition", "card", "rarityCode", "setCode", "pokemon"];
-const LAST_RESORT_RESTORE = ["pokemon", "setCode", "rarityCode", ["card", "condition"]];
+// "Technical Machine" の長い名前（ADV のワザマシン等）は、"Pokemon" を外す前に "TM" に略す（fullName。2026-10-15。eBay にも "TM Devolution" 等の書き方がある）。
+// それでも収まらない鑑定品は、"PSA 10" と重なる GEM MINT 等のラベルを落とす（gradeLabel。名前のとても長いカードを 1st Edition の鑑定品で出すと80文字を超えるため）。
+// 戻すときは "Pokemon" の次にラベル、正式な名前の順
+const LAST_RESORT_DROPS = ["condition", "card", "rarityCode", "setCode", "fullName", "gradeLabel", "pokemon"];
+const LAST_RESORT_RESTORE = ["pokemon", "gradeLabel", "fullName", "setCode", "rarityCode", ["card", "condition"]];
+// タイトルが80文字に収まらないときだけ使う略した名前
+function shortenCardName(name) { return name.replace(/\bTechnical Machine\b/g, "TM"); }
 // ホロ版とノーマル版を別の行に分けたカード（DP3・DP4 の構築デッキのディアルガ・パルキア・エレキブル・ブーバーン。
 // scripts/dp-x/split-holo.mjs）は、日本語名の末尾が「（ホロ）」「（ノーマル）」。"holo" / "regular" / ""（分けていないカード）を返す。
 // eBay の Item Specifics の Finish は、ホロのカードに Holo、ノーマルのカードに Regular が使われている（2026-10-12 に出品を確認。
@@ -507,8 +512,10 @@ function baseLocal(local) { return String(local || "").replace(/-[A-Z]+$/, ""); 
 // UI側で「何を省略したか」を表示できるよう、落とした要素のキーも一緒に返す
 function assembleModernTitle(f, maxLength) {
   const isGraded = f.graded && f.gradingCompany && f.grade.trim();
-  const gradedToken = isGraded
-    ? [f.gradingCompany, f.grade.trim(), gradeLabelText(f.grade)].filter(Boolean).join(" ")
+  // 鑑定のラベル（GEM MINT 等）は "PSA 10" と重なるので、80文字に収まらないときの最後の手段で落とす（gradeLabel。2026-10-15）
+  const gradeLabel = isGraded ? gradeLabelText(f.grade) : "";
+  const gradedToken = () => isGraded
+    ? [f.gradingCompany, f.grade.trim(), include.gradeLabel ? gradeLabel : ""].filter(Boolean).join(" ")
     : "";
   const setData = CARD_DATA.find((s) => s.c === f.setCode);
   const serieEn = (setData && SERIE_EN_NAMES[setData.sr]) || "";
@@ -529,10 +536,11 @@ function assembleModernTitle(f, maxLength) {
   // rarityCode・setCode も最後の手段（"Pokemon" を外すより先に落とす。どちらも Item Specifics の Rarity・Set にある）
   const include = { setName: Boolean(setNameToken), year: Boolean(year), holo, rarityFull: Boolean(rarityFull),
     condition: !isGraded && Boolean(f.condition), card: true, pokemon: true,
-    rarityCode: Boolean(rarityCode), setCode: Boolean(setCodeToken) && !setCodeInCardNo };
+    rarityCode: Boolean(rarityCode), setCode: Boolean(setCodeToken) && !setCodeInCardNo,
+    fullName: shortenCardName(titleCardName(f.pokemonEn)) !== titleCardName(f.pokemonEn), gradeLabel: Boolean(gradeLabel) };
   const assemble = () => [
-    gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
-    titleCardName(f.pokemonEn), // 2. カード名（プリズムスターの ◇ は外す）
+    gradedToken(), // 1. 鑑定情報（鑑定品のみ、先頭。最後の手段で GEM MINT 等のラベルを落とす）
+    include.fullName ? titleCardName(f.pokemonEn) : shortenCardName(titleCardName(f.pokemonEn)), // 2. カード名（プリズムスターの ◇ は外す。最後の手段で Technical Machine → TM）
     include.rarityCode ? rarityCode : "", // 3. レアリティ略号（印刷された文字。H は文字が無いので入れない。最後の手段で落とす）
     f.cardNo, // 4. カード番号
     MIRROR_VARIANTS[mirrorVariantOf(f)]?.en ?? "", // 4.5 ミラーの柄の版（Master Ball Reverse Holo 等。値段が大きく違うので落とさない）
@@ -1750,11 +1758,9 @@ function AppInner() {
                 {(FIRST_EDITION_SET_RE.test(f.setCode) || OLD_BACK_SET_RE.test(f.setCode)) && (
                   <>
                     <Field label="印刷バリエーション" hint={NO_RARITY_SET_RE.test(f.setCode)
-                      ? "拡張パック（1996年初回印刷）はNo Rarity（レアリティマークなし）が最も価値に影響します。1st Editionマークの有無も価値が変わります"
-                      : PRINT_VARIANT_SET_RE.test(f.setCode)
-                      ? "拡張パック〜ジム拡張2（PMCG1〜6）は1st Editionマークの有無で価値が変わります"
-                      : ADV_SET_RE.test(f.setCode)
-                      ? "ADV の拡張パック（ADV1〜4・ADVex1）は全部のカードに1st Edition（エディションマークあり）とアンリミテッドがあります。マークを見て選んでください"
+                      ? "拡張パック（1996年初回印刷）はNo Rarity（レアリティマークなし）が最も価値に影響します（日本版の旧裏に1st Editionはありません）"
+                      : FIRST_EDITION_SET_RE.test(f.setCode)
+                      ? "この弾（★VS〜XY・CP のブースター）は全部のカードに1st Edition（エディションマークあり）とアンリミテッドがあります。マークを見て選んでください"
                       : "誤植があり後の版で修正された「エラー版」がある場合のみ選択してください（どのカードにエラー版があるかは自動判定できません）"}>
                       <select style={inputStyle} value={f.printVariant} onChange={set("printVariant")}>
                         {PRINT_VARIANTS.filter((v) => !PRINT_VARIANT_SCOPE[v.code] || PRINT_VARIANT_SCOPE[v.code].test(f.setCode))

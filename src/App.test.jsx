@@ -58,13 +58,11 @@ describe("buildSingleTitle", () => {
     expect(title).not.toContain("1st Edition");
   });
 
-  it("shows 1st Edition wording only for PMCG1-6", () => {
-    const title = buildSingleTitle({
-      ...baseCard,
-      setCode: "PMCG1",
-      printVariant: "1st Edition",
-    });
-    expect(title).toContain("1st Edition");
+  // 2026-10-15: 日本版の旧裏（PMCG1〜6）に 1st Edition は無いので出さない。★VS・web〜XY・CP のブースターの弾だけ
+  it("shows 1st Edition wording only for the 1st Edition booster sets (not PMCG1-6)", () => {
+    expect(buildSingleTitle({ ...baseCard, setCode: "PMCG1", printVariant: "1st Edition" })).not.toContain("1st Edition");
+    expect(buildSingleTitle({ ...baseCard, setCode: "VS1", cardNo: "001/141", printVariant: "1st Edition" })).toContain("1st Edition");
+    expect(buildSingleTitle({ ...baseCard, setCode: "PCG1", cardNo: "001/082", printVariant: "1st Edition" })).toContain("1st Edition");
   });
 
   it("shows Old Back for PMCG1-6 when oldBack is set", () => {
@@ -323,8 +321,9 @@ describe("Error print variant", () => {
   it("does not change existing No Rarity / 1st Edition / Unlimited behavior", () => {
     expect(buildSingleTitle({ ...vintageCard, printVariant: "No Rarity" })).toContain("No Rarity");
     expect(buildSingleTitle({ ...vintageCard, setCode: "PMCG2", printVariant: "No Rarity" })).not.toContain("No Rarity");
-    expect(buildSingleTitle({ ...vintageCard, printVariant: "1st Edition" })).toContain("1st Edition");
-    expect(buildSingleTitle({ ...vintageCard, printVariant: "Unlimited" })).toContain("Unlimited");
+    // 2026-10-15: PMCG1〜6 では 1st Edition・Unlimited を選べない
+    expect(buildSingleTitle({ ...vintageCard, printVariant: "1st Edition" })).not.toContain("1st Edition");
+    expect(buildSingleTitle({ ...vintageCard, printVariant: "Unlimited" })).not.toContain("Unlimited");
   });
 });
 
@@ -551,9 +550,11 @@ describe("buildItemSpecifics", () => {
   });
 
   it("includes Old Back / 1st Edition in Features only for eligible sets", () => {
-    const oldBackCard = { ...gyaradosCard, setCode: "PMCG1", oldBack: true, printVariant: "1st Edition" };
+    const oldBackCard = { ...gyaradosCard, setCode: "VS1", oldBack: true, printVariant: "1st Edition" };
     const map = Object.fromEntries(buildItemSpecifics(oldBackCard));
     expect(map["Features"]).toBe("Old Back, 1st Edition");
+    // 2026-10-15: PMCG1〜6 は 1st Edition を出さない（Old Back だけ）
+    expect(Object.fromEntries(buildItemSpecifics({ ...oldBackCard, setCode: "PMCG1" }))["Features"]).toBe("Old Back");
 
     const notEligible = { ...gyaradosCard, oldBack: true, printVariant: "1st Edition" }; // SV1Sは対象外
     const map2 = Object.fromEntries(buildItemSpecifics(notEligible));
@@ -610,9 +611,10 @@ describe("buildSku", () => {
     expect(buildSku(graded, "single")).toBe("SV1S-014-PSA10");
   });
 
-  it("appends 1ST only for PMCG1-6 with 1st Edition selected", () => {
-    const firstEd = { ...gyaradosCard, setCode: "PMCG1", cardNo: "004/102", printVariant: "1st Edition" };
-    expect(buildSku(firstEd, "single")).toBe("PMCG1-004-NM-1ST");
+  it("appends 1ST only for the 1st Edition booster sets with 1st Edition selected", () => {
+    const firstEd = { ...gyaradosCard, setCode: "E1", cardNo: "004/128", printVariant: "1st Edition" };
+    expect(buildSku(firstEd, "single")).toBe("E1-004-NM-1ST");
+    expect(buildSku({ ...firstEd, setCode: "PMCG1", cardNo: "004/102" }, "single")).toBe("PMCG1-004-NM"); // 2026-10-15: PMCG に 1st Edition は無い
   });
 
   it("appends NR only for PMCG1 with No Rarity selected", () => {
@@ -1344,9 +1346,31 @@ describe("ADV の 1st Edition（2026-10-15）", () => {
     expect(buildSingleTitle(formOf("ADV3-047", { printVariant: "1st Edition", graded: true, gradingCompany: "PSA", grade: "10" })))
       .toBe("PSA 10 GEM MINT Rayquaza ex R 047/054 1st Edition Japanese ADV3 Pokemon Card");
   });
-  it("ADV 以外の現代の弾（PCG 等）では 1st Edition を選んでも出さない", () => {
-    const f = formOf("PCG1-024", { printVariant: "1st Edition" });
-    expect(buildSingleTitle(f)).not.toContain("1st Edition");
-    expect(buildSku(f, "single")).not.toContain("1ST");
+  it("1st Edition の無い弾（SM 以降・構築済みデッキ等）では 1st Edition を選んでも出さない", () => {
+    for (const id of ["SM1S-001", "SVG-014", "XYA-001", "CPr-001"]) {
+      const f = formOf(id, { printVariant: "1st Edition" });
+      expect(buildSingleTitle(f)).not.toContain("1st Edition");
+      expect(buildSku(f, "single")).not.toContain("1ST");
+    }
+  });
+  it("PCG・BW・XY・CP のブースターでも選べる（2026-10-15）", () => {
+    for (const id of ["PCG1-024", "BW1-Bb-001", "XY6-B-043", "CP6-001"]) {
+      expect(buildSku(formOf(id, { printVariant: "1st Edition" }), "single")).toMatch(/-1ST$/);
+    }
+  });
+  it("長いワザマシンの名前は、Pokemon と 1st Edition が両方入るよう Technical Machine を TM に略す", () => {
+    const f = formOf("ADVex1-077", { printVariant: "1st Edition", graded: true, gradingCompany: "PSA", grade: "10" });
+    expect(buildSingleTitle(f)).toBe("PSA 10 GEM MINT Team Aqua TM 01 U 077/080 1st Edition Japanese ADVex1 Pokemon");
+    // 収まるときは略さない
+    expect(buildSingleTitle(formOf("ADVex1-077", { printVariant: "1st Edition" }))).toContain("Team Aqua Technical Machine 01");
+  });
+  it("それでも収まらない鑑定品は GEM MINT 等のラベルを落とし、80文字を超えない", () => {
+    const f = formOf("DPt2-B-077", { printVariant: "1st Edition", graded: true, gradingCompany: "PSA", grade: "10" });
+    expect(buildSingleTitle(f)).toBe("PSA 10 Team Galactic's Invention G-107 TM G 077/090 1st Edition Japanese Pokemon");
+    for (const id of ["DPt1-B-082", "DPt1-B-083", "DPt1-B-088", "DPt2-B-076", "PCG4-097"]) {
+      expect(buildSingleTitle(formOf(id, { printVariant: "1st Edition", graded: true, gradingCompany: "PSA", grade: "10" })).length).toBeLessThanOrEqual(80);
+    }
+    // 収まるときはラベルを残す
+    expect(buildSingleTitle(formOf("ADV3-047", { printVariant: "1st Edition", graded: true, gradingCompany: "PSA", grade: "10" }))).toContain("GEM MINT");
   });
 });

@@ -1,0 +1,448 @@
+{
+ "_about": "1st Edition と Unlimited を出品の画面の印刷バリエーションで選べる弾と根拠（2026-10-15、ユーザーの確認済み）。src/App.jsx の FIRST_EDITION_SET_RE と同じ弾。行は増やさない（全部のカードに 1st Edition とアンリミテッドがあるとして扱う）",
+ "rule": "日本版の 1st Edition（エディションマーク）は ★VS・web（2001）から20th アニバーサリー（CP6、2016）までのブースターの弾にある。★VS・web・e・ADV・PCG・DP・DPt・LEGEND・BW・XY・CP のブースターの弾を世代の決まりで対象にした（弾ごとに1枚ずつは確かめていない）",
+ "evidence": {
+  "bulbapedia": [
+   "「1st Edition (TCG)」（wikitext の SHA-256 65fdac1b…、2026-10-15）: Japanese 1st Edition runs began with the release of Pokémon VS and Pokémon Web in 2001, and continued through the release of Expansion Pack 20th Anniversary",
+   "同じ記事: 1st Edition cards are typically only available in booster packs",
+   "同じ記事: Japanese cards did not have 1st Edition runs at this time（Base Set の頃）",
+   "「EX Ruby & Sapphire (TCG)」: The Japanese set was available in both 1st and unlimited edition"
+  ],
+  "pokemonwiki": [
+   "「ポケモンカードゲーム用語一覧」のエディションマーク: 第一刷のカードのみに印刷されるマーク。日本国内版ではポケモンカード★VSから登場した"
+  ],
+  "examples": {
+   "★VS・web": "Samurai Sword の記事・Elite Fourum「日本版の最初の 1st Edition は Pokémon VS、最後は CP6」、PSA の集計の区分「2001 Pokemon Japanese VS」",
+   "e": "PSA の鑑定書 2001 Japanese Expedition 1st Edition（ピチュー 150403802・ミュウツー 133370520・マタドガス 153186775）、神秘なる山 ニドクイン 009 の 1st Edition",
+   "ADV": "scripts/adv/sources.json の firstEdition（5弾それぞれの例）",
+   "PCG": "PSA の鑑定書 蒼空の激突 サメハダーex 1st Edition（133174063）、ホロンの研究塔 ラティアス 041 の 1st Edition（Pack Magik）、Elite Fourum「Japanese 1st Ed PCG Sets」",
+   "DP・DPt": "時空の創造 エンペルトLV.X の 1st Edition の PSA 9、ギンガの覇道 ディアルガG LV.X・バシャーモ の 1st Edition の PSA 10（eBay の出品）",
+   "LEGEND": "ハートゴールドコレクション ポケモンいれかえ の 1st Edition の PSA 9、よみがえる伝説 エンテイ&ライコウLEGEND の 1st Edition（eBay の出品）",
+   "BW": "PSA の鑑定書 2012 Japanese Black & White Dragon Blade #051 Ho-Oh EX 1st Edition（43323772）",
+   "XY・CP": "エメラルドブレイク カイリュー 043 の 1st Edition の PSA 8（eBay の出品）、Elite Fourum・Samurai Sword「最後の 1st Edition は CP6（2016-09-16）、SM 以降は無い」"
+  }
+ },
+ "notIncluded": "構築済みデッキ・スターターセット・BOX・コレクションパック（CPr・CPs・CPm）・WCP・EP08・MDB・WAK・SC・EBB・MMB・HXY・L2-S・XYA〜H・20th 等（弾ごとの根拠が無い。Bulbapedia はブースターだけと書く）。旧裏の PMCG1〜6 は日本版に 1st Edition が無い（Bulbapedia・ポケモンWiki）ので選べないようにした（No Rarity・Error だけ）。neo1〜4 は ★VS より前",
+ "sets": [
+  {
+   "c": "PCG1",
+   "ja": "伝説の飛翔",
+   "y": 2004,
+   "sr": "PCG"
+  },
+  {
+   "c": "PCG2",
+   "ja": "蒼空の激突",
+   "y": 2004,
+   "sr": "PCG"
+  },
+  {
+   "c": "PCG3",
+   "ja": "ロケット団の逆襲",
+   "y": 2004,
+   "sr": "PCG"
+  },
+  {
+   "c": "PCG4",
+   "ja": "金の空、銀の海",
+   "y": 2005,
+   "sr": "PCG"
+  },
+  {
+   "c": "PCG5",
+   "ja": "まぼろしの森",
+   "y": 2005,
+   "sr": "PCG"
+  },
+  {
+   "c": "PCG6",
+   "ja": "ホロンの研究塔",
+   "y": 2005,
+   "sr": "PCG"
+  },
+  {
+   "c": "PCG7",
+   "ja": "ホロンの幻影",
+   "y": 2006,
+   "sr": "PCG"
+  },
+  {
+   "c": "PCG8",
+   "ja": "きせきの結晶",
+   "y": 2006,
+   "sr": "PCG"
+  },
+  {
+   "c": "PCG9",
+   "ja": "さいはての攻防",
+   "y": 2006,
+   "sr": "PCG"
+  },
+  {
+   "c": "VS1",
+   "ja": "ポケモンカード★VS",
+   "y": 2001,
+   "sr": "VS"
+  },
+  {
+   "c": "E1",
+   "ja": "基本拡張パック",
+   "y": 2001,
+   "sr": "e"
+  },
+  {
+   "c": "E2",
+   "ja": "地図にない町",
+   "y": 2002,
+   "sr": "e"
+  },
+  {
+   "c": "E3",
+   "ja": "海からの風",
+   "y": 2002,
+   "sr": "e"
+  },
+  {
+   "c": "E4",
+   "ja": "裂けた大地",
+   "y": 2002,
+   "sr": "e"
+  },
+  {
+   "c": "E5",
+   "ja": "神秘なる山",
+   "y": 2002,
+   "sr": "e"
+  },
+  {
+   "c": "web1",
+   "ja": "ポケモンカード★web",
+   "y": 2001,
+   "sr": "web"
+  },
+  {
+   "c": "XY1-Bx",
+   "ja": "コレクションX",
+   "y": 2013,
+   "sr": "XY"
+  },
+  {
+   "c": "XY1-By",
+   "ja": "コレクションY",
+   "y": 2013,
+   "sr": "XY"
+  },
+  {
+   "c": "XY2",
+   "ja": "ワイルドブレイズ",
+   "y": 2014,
+   "sr": "XY"
+  },
+  {
+   "c": "XY3",
+   "ja": "ライジングフィスト",
+   "y": 2014,
+   "sr": "XY"
+  },
+  {
+   "c": "XY4",
+   "ja": "ファントムゲート",
+   "y": 2014,
+   "sr": "XY"
+  },
+  {
+   "c": "XY5-Bg",
+   "ja": "ガイアボルケーノ",
+   "y": 2014,
+   "sr": "XY"
+  },
+  {
+   "c": "XY5-Bt",
+   "ja": "タイダルストーム",
+   "y": 2014,
+   "sr": "XY"
+  },
+  {
+   "c": "XY6-B",
+   "ja": "エメラルドブレイク",
+   "y": 2015,
+   "sr": "XY"
+  },
+  {
+   "c": "XY7-B",
+   "ja": "バンデットリング",
+   "y": 2015,
+   "sr": "XY"
+  },
+  {
+   "c": "XY8-Bb",
+   "ja": "青い衝撃",
+   "y": 2015,
+   "sr": "XY"
+  },
+  {
+   "c": "XY8-Br",
+   "ja": "赤い閃光",
+   "y": 2015,
+   "sr": "XY"
+  },
+  {
+   "c": "XY9-B",
+   "ja": "破天の怒り",
+   "y": 2015,
+   "sr": "XY"
+  },
+  {
+   "c": "XY10-B",
+   "ja": "めざめる超王",
+   "y": 2016,
+   "sr": "XY"
+  },
+  {
+   "c": "XY11-Bb",
+   "ja": "爆熱の闘士",
+   "y": 2016,
+   "sr": "XY"
+  },
+  {
+   "c": "XY11-Br",
+   "ja": "冷酷の反逆者",
+   "y": 2016,
+   "sr": "XY"
+  },
+  {
+   "c": "BW1-Bb",
+   "ja": "ブラックコレクション",
+   "y": 2010,
+   "sr": "BW"
+  },
+  {
+   "c": "BW1-Bw",
+   "ja": "ホワイトコレクション",
+   "y": 2010,
+   "sr": "BW"
+  },
+  {
+   "c": "BW2-B",
+   "ja": "レッドコレクション",
+   "y": 2011,
+   "sr": "BW"
+  },
+  {
+   "c": "BW3-Bh",
+   "ja": "ヘイルブリザード",
+   "y": 2011,
+   "sr": "BW"
+  },
+  {
+   "c": "BW3-Bp",
+   "ja": "サイコドライブ",
+   "y": 2011,
+   "sr": "BW"
+  },
+  {
+   "c": "BW4-B",
+   "ja": "ダークラッシュ",
+   "y": 2011,
+   "sr": "BW"
+  },
+  {
+   "c": "BW5-Brn",
+   "ja": "リューノブレード",
+   "y": 2012,
+   "sr": "BW"
+  },
+  {
+   "c": "BW5-Brz",
+   "ja": "リューズブラスト",
+   "y": 2012,
+   "sr": "BW"
+  },
+  {
+   "c": "BW6-Bc",
+   "ja": "コールドフレア",
+   "y": 2012,
+   "sr": "BW"
+  },
+  {
+   "c": "BW6-Bf",
+   "ja": "フリーズボルト",
+   "y": 2012,
+   "sr": "BW"
+  },
+  {
+   "c": "BW7-B",
+   "ja": "プラズマゲイル",
+   "y": 2012,
+   "sr": "BW"
+  },
+  {
+   "c": "BW8-Brf",
+   "ja": "ラセンフォース",
+   "y": 2012,
+   "sr": "BW"
+  },
+  {
+   "c": "BW8-Brn",
+   "ja": "ライデンナックル",
+   "y": 2012,
+   "sr": "BW"
+  },
+  {
+   "c": "BW9-B",
+   "ja": "メガロキャノン",
+   "y": 2013,
+   "sr": "BW"
+  },
+  {
+   "c": "CP1",
+   "ja": "マグマ団VSアクア団 ダブルクライシス",
+   "y": 2015,
+   "sr": "XY"
+  },
+  {
+   "c": "CP2",
+   "ja": "伝説キラコレクション",
+   "y": 2015,
+   "sr": "XY"
+  },
+  {
+   "c": "CP3",
+   "ja": "ポケキュンコレクション",
+   "y": 2016,
+   "sr": "XY"
+  },
+  {
+   "c": "CP4",
+   "ja": "プレミアムチャンピオンパック EX×M×BREAK",
+   "y": 2016,
+   "sr": "XY"
+  },
+  {
+   "c": "CP5",
+   "ja": "幻・伝説ドリームキラコレクション",
+   "y": 2016,
+   "sr": "XY"
+  },
+  {
+   "c": "CP6",
+   "ja": "ポケットモンスターカードゲーム 拡張パック 20th Anniversary",
+   "y": 2016,
+   "sr": "XY"
+  },
+  {
+   "c": "L1-Bhg",
+   "ja": "ハートゴールドコレクション",
+   "y": 2009,
+   "sr": "L"
+  },
+  {
+   "c": "L1-Bss",
+   "ja": "ソウルシルバーコレクション",
+   "y": 2009,
+   "sr": "L"
+  },
+  {
+   "c": "L2-B",
+   "ja": "よみがえる伝説",
+   "y": 2010,
+   "sr": "L"
+  },
+  {
+   "c": "L3-B",
+   "ja": "頂上大激突",
+   "y": 2010,
+   "sr": "L"
+  },
+  {
+   "c": "LL",
+   "ja": "強化パック ロストリンク",
+   "y": 2010,
+   "sr": "L"
+  },
+  {
+   "c": "DPt1-B",
+   "ja": "ギンガの覇道",
+   "y": 2008,
+   "sr": "DPt"
+  },
+  {
+   "c": "DPt2-B",
+   "ja": "時の果ての絆",
+   "y": 2008,
+   "sr": "DPt"
+  },
+  {
+   "c": "DPt3-B",
+   "ja": "フロンティアの鼓動",
+   "y": 2009,
+   "sr": "DPt"
+  },
+  {
+   "c": "DPt4-B",
+   "ja": "アルセウス光臨",
+   "y": 2009,
+   "sr": "DPt"
+  },
+  {
+   "c": "DP1",
+   "ja": "時空の創造（ダイヤモンドコレクション・パールコレクション）",
+   "y": 2006,
+   "sr": "DP"
+  },
+  {
+   "c": "DP2",
+   "ja": "湖の秘密",
+   "y": 2007,
+   "sr": "DP"
+  },
+  {
+   "c": "DP3",
+   "ja": "ひかる闇",
+   "y": 2007,
+   "sr": "DP"
+  },
+  {
+   "c": "DP4",
+   "ja": "月光の追跡・夜明けの疾走",
+   "y": 2007,
+   "sr": "DP"
+  },
+  {
+   "c": "DP5",
+   "ja": "秘境の叫び・怒りの神殿",
+   "y": 2008,
+   "sr": "DP"
+  },
+  {
+   "c": "ADV1",
+   "ja": "第1弾拡張パック",
+   "y": 2003,
+   "sr": "ADV"
+  },
+  {
+   "c": "ADV2",
+   "ja": "砂漠のきせき",
+   "y": 2003,
+   "sr": "ADV"
+  },
+  {
+   "c": "ADV3",
+   "ja": "天空の覇者",
+   "y": 2003,
+   "sr": "ADV"
+  },
+  {
+   "c": "ADV4",
+   "ja": "とかれた封印",
+   "y": 2004,
+   "sr": "ADV"
+  },
+  {
+   "c": "ADVex1",
+   "ja": "マグマVSアクア ふたつの野望",
+   "y": 2003,
+   "sr": "ADV"
+  }
+ ]
+}

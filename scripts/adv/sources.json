@@ -86,7 +86,7 @@
    "ADV4",
    "ADVex1"
   ],
-  "rule": "5弾の番号付きのカードはすべて 1st Edition（エディションマークあり）とアンリミテッドがある。行は増やさず、出品の画面の印刷バリエーションで選ぶ（src/App.jsx の FIRST_EDITION_SET_RE。2026-10-15、ユーザーの確認済み）",
+  "rule": "5弾の番号付きのカードはすべて 1st Edition（エディションマークあり）とアンリミテッドがある。行は増やさず、出品の画面の印刷バリエーションで選ぶ（src/App.jsx の FIRST_EDITION_SET_RE。2026-10-15、ユーザーの確認済み）。2026-10-15 に ★VS・web〜XY・CP のブースター70弾へ広げた（scripts/first-edition/sources.json）",
   "evidence": [
    "Bulbapedia「1st Edition (TCG)」: Japanese 1st Edition runs began with the release of Pokémon VS and Pokémon Web in 2001, and continued through the release of Expansion Pack 20th Anniversary（2026-10-15 にブラウザで wikitext を確認）",
    "Bulbapedia「EX Ruby & Sapphire (TCG)」: The Japanese set was available in both 1st and unlimited edition",

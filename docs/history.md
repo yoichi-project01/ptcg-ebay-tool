@@ -3296,3 +3296,21 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
 - **"Pokemon" が入らないタイトル**: 名前の長いワザマシン5枚（ADV4-075〜077・ADVex1-076・077）を PSA 10 かつ 1st Edition で出すと、ほかをすべて落としても
   "Pokemon" が入らない（例 `PSA 10 GEM MINT Team Aqua Technical Machine 01 U 077/080 1st Edition Japanese`）。1st Edition を優先して残している。
 - 画面: ADV の弾では印刷バリエーションに 1st Edition・Unlimited だけが出る（旧裏の「その他の印刷差異」の欄は旧裏だけ）。
+
+---
+
+### 対応（2026-10-15）: 1st Edition を ★VS・web〜XY・CP のブースター70弾に広げ、旧裏 PMCG1〜6 の 1st Edition をやめ、長い名前の略し方を足した
+
+ユーザーの確認を得て、ADV と同じ形（行は増やさず印刷バリエーションで選ぶ）で広げた。`src/App.jsx` の `FIRST_EDITION_SET_RE`、根拠と弾の一覧は `scripts/first-edition/sources.json`。
+- **対象**: ★VS・web・e（E1〜5）・ADV・PCG1〜9・DP1〜5・DPt1-B〜4-B・LEGEND（L1-Bhg/Bss・L2-B・L3-B・LL）・BW のブースター14弾・XY のブースター15弾・CP1〜6 の70弾。
+  根拠は世代の決まり（Bulbapedia「1st Edition (TCG)」: 日本版は ★VS・web（2001）から20th アニバーサリー（CP6）まで、ブースターだけ。ポケモンWiki の用語一覧: ★VS から）と世代ごとの例。
+  構築済みデッキ・BOX・コレクションパック等は入れない（弾ごとの根拠が無い）。
+- **旧裏 PMCG1〜6**: 日本版の旧裏に 1st Edition は無い（Bulbapedia「Japanese cards did not have 1st Edition runs at this time」・ポケモンWiki「★VS から」）ので、1st Edition と Unlimited を
+  選べないようにした（No Rarity は PMCG1、Error は旧裏で残す）。前に 1st Edition を選んで保存した出品履歴を読み込んでも、タイトル・SKU 等には出ない（resolvePrintVariant）。
+- **長い名前**: 1st Edition の鑑定品で "Pokemon" も "1st Edition" も入らないとき、"Technical Machine" を "TM" に略す（eBay にも "TM Devolution"・"TM Technical Machine Evolution"
+  の書き方がある。正式な名前の方が多い）。それでも80文字を超える鑑定品は、"PSA 10" と重なる鑑定のラベル（GEM MINT 等）を落とす（ギンガ団の発明 G-10x 等は、これまでも
+  PSA 10 で80文字を超えていた。DPt2-B-077 は84文字）。順は 状態 → Card → レアリティの略号 → 型番 → TM → ラベル → "Pokemon"、戻すのは "Pokemon" → ラベル → 正式な名前 → …。
+  それでも "Pokemon" が入らないのは、1st Edition の PSA 10 のギンガ団の発明4枚（DPt1-B-082・083・088、DPt2-B-076）。
+- **出力**: 印刷バリエーションを選ばないときの全カード（未鑑定）の出力は変化なし。選んだときは `scripts/audit/print-variant-snapshot.test.jsx`（PMCG1〜6 と70弾の全カード ×
+  1st Edition／Unlimited × 未鑑定／PSA 10）で比べた（例は `scripts/audit/first-edition-2026-10-15.json`）。鑑定品のとても長い名前（ワザマシン・ギンガ団の発明）は、
+  印刷バリエーションを選ばなくても TM・ラベルの略しで変わる。

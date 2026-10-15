@@ -1,0 +1,203 @@
+{
+ "about": "1st Edition の範囲を広げた（★VS・web〜XY・CP のブースター70弾）・旧裏 PMCG1〜6 の 1st Edition/Unlimited をやめた・長い名前の略し方（Technical Machine → TM、鑑定のラベルを落とす）の直す前と後（2026-10-15）。print-variant-snapshot.test.jsx（PMCG1〜6 と70弾の全カード × 1st Edition／Unlimited × 未鑑定／PSA 10）で比べた。印刷バリエーションを選ばないときの全カードの出力（output-snapshot）は変化なし",
+ "counts": {
+  "title": 12626,
+  "desc": 22632,
+  "sku": 11316,
+  "itemSpecifics": 11316,
+  "query": 11316,
+  "csv": 12626
+ },
+ "examples": [
+  {
+   "key": "VS1-001|1st Edition|raw",
+   "title": {
+    "before": "Falkner's Pidgeot No.001 VS Japanese 2001 Pokemon Card Common NM",
+    "after": "Falkner's Pidgeot No.001 VS 1st Edition Japanese 2001 Pokemon Card Common NM"
+   },
+   "sku": {
+    "before": "VS1-001-NM",
+    "after": "VS1-001-NM-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "query": {
+    "before": "Falkner's Pidgeot 001/141 VS1",
+    "after": "Falkner's Pidgeot 001/141 VS1 1st Edition"
+   }
+  },
+  {
+   "key": "E1-049|1st Edition|raw",
+   "title": {
+    "before": "Professor Elm's Training Method U 049/128 Japanese E1 Pokemon Card NM Expedition",
+    "after": "Professor Elm's Training Method U 049/128 1st Edition Japanese E1 Pokemon Card"
+   },
+   "sku": {
+    "before": "E1-049-NM",
+    "after": "E1-049-NM-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "query": {
+    "before": "Professor Elm's Training Method 049/128 E1",
+    "after": "Professor Elm's Training Method 049/128 E1 1st Edition"
+   }
+  },
+  {
+   "key": "PCG1-024|1st Edition|raw",
+   "title": {
+    "before": "Moltres ex R 024/082 Japanese PCG1 Pokemon Card NM Flight of Legends 2004 Rare",
+    "after": "Moltres ex R 024/082 1st Edition Japanese PCG1 Pokemon Card NM Flight of Legends"
+   },
+   "sku": {
+    "before": "PCG1-024-NM",
+    "after": "PCG1-024-NM-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "query": {
+    "before": "Moltres ex 024/082 PCG1",
+    "after": "Moltres ex 024/082 PCG1 1st Edition"
+   }
+  },
+  {
+   "key": "DPt1-B-082|1st Edition|PSA10",
+   "title": {
+    "before": "PSA 10 GEM MINT Team Galactic's Invention G-103 Power Spray U 082/096 Japanese",
+    "after": "PSA 10 Team Galactic's Invention G-103 Power Spray 082/096 1st Edition Japanese"
+   },
+   "sku": {
+    "before": "DPT1-B-082-PSA10",
+    "after": "DPT1-B-082-PSA10-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "query": {
+    "before": "Team Galactic's Invention G-103 Power Spray 082/096 DPt1-B",
+    "after": "Team Galactic's Invention G-103 Power Spray 082/096 DPt1-B 1st Edition"
+   }
+  },
+  {
+   "key": "XY6-B-043|1st Edition|raw",
+   "title": {
+    "before": "Dragonite R 043/078 Japanese XY6 Pokemon Card NM XY Emerald Break 2015 Rare",
+    "after": "Dragonite R 043/078 1st Edition Japanese XY6 Pokemon Card NM XY Emerald Break"
+   },
+   "sku": {
+    "before": "XY6-B-043-NM",
+    "after": "XY6-B-043-NM-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "query": {
+    "before": "Dragonite 043/078 XY6",
+    "after": "Dragonite 043/078 XY6 1st Edition"
+   }
+  },
+  {
+   "key": "CP6-001|1st Edition|raw",
+   "title": {
+    "before": "Venusaur-EX RR 001/087 Japanese CP6 Pokemon Card NM 2016 Holo Double Rare",
+    "after": "Venusaur-EX RR 001/087 1st Edition Japanese CP6 Pokemon Card NM 2016 Holo"
+   },
+   "sku": {
+    "before": "CP6-001-NM",
+    "after": "CP6-001-NM-1ST"
+   },
+   "features": {
+    "before": "",
+    "after": "1st Edition"
+   },
+   "query": {
+    "before": "Venusaur-EX RR 001/087 CP6",
+    "after": "Venusaur-EX RR 001/087 CP6 1st Edition"
+   }
+  },
+  {
+   "key": "ADVex1-077|1st Edition|PSA10",
+   "title": {
+    "before": "PSA 10 GEM MINT Team Aqua Technical Machine 01 U 077/080 1st Edition Japanese",
+    "after": "PSA 10 GEM MINT Team Aqua TM 01 U 077/080 1st Edition Japanese ADVex1 Pokemon"
+   },
+   "sku": {
+    "before": "ADVEX1-077-PSA10-1ST",
+    "after": "ADVEX1-077-PSA10-1ST"
+   },
+   "features": {
+    "before": "1st Edition",
+    "after": "1st Edition"
+   },
+   "query": {
+    "before": "Team Aqua Technical Machine 01 077/080 ADVex1 1st Edition",
+    "after": "Team Aqua Technical Machine 01 077/080 ADVex1 1st Edition"
+   }
+  },
+  {
+   "key": "DPt2-B-077|Unlimited|PSA10",
+   "title": {
+    "before": "PSA 10 GEM MINT Team Galactic's Invention G-107 Technical Machine G 077/090 Japanese",
+    "after": "PSA 10 GEM MINT Team Galactic's Invention G-107 TM G U 077/090 Japanese Pokemon"
+   },
+   "sku": {
+    "before": "DPT2-B-077-PSA10",
+    "after": "DPT2-B-077-PSA10"
+   },
+   "features": {
+    "before": "",
+    "after": ""
+   },
+   "query": {
+    "before": "Team Galactic's Invention G-107 Technical Machine G 077/090 DPt2-B",
+    "after": "Team Galactic's Invention G-107 Technical Machine G 077/090 DPt2-B"
+   }
+  },
+  {
+   "key": "PMCG1-021|1st Edition|raw",
+   "title": {
+    "before": "Charizard No.021 Base Set 1st Edition Japanese 1996 Pokemon Card Rare NM",
+    "after": "Charizard No.021 Base Set Japanese 1996 Pokemon Card Rare NM"
+   },
+   "sku": {
+    "before": "PMCG1-021-NM-1ST",
+    "after": "PMCG1-021-NM"
+   },
+   "features": {
+    "before": "1st Edition",
+    "after": ""
+   },
+   "query": {
+    "before": "Charizard 021/102 PMCG1 1st Edition",
+    "after": "Charizard 021/102 PMCG1"
+   }
+  },
+  {
+   "key": "PMCG1-021|Unlimited|raw",
+   "title": {
+    "before": "Charizard No.021 Base Set Unlimited Japanese 1996 Pokemon Card Rare NM",
+    "after": "Charizard No.021 Base Set Japanese 1996 Pokemon Card Rare NM"
+   },
+   "sku": {
+    "before": "PMCG1-021-NM",
+    "after": "PMCG1-021-NM"
+   },
+   "features": {
+    "before": "",
+    "after": ""
+   },
+   "query": {
+    "before": "Charizard 021/102 PMCG1",
+    "after": "Charizard 021/102 PMCG1"
+   }
+  }
+ ]
+}

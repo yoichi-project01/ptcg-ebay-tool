@@ -62,7 +62,7 @@
   各世代の番号付きプロモ（S-P・SV-P・SM-P・XY-P・BW-P・DP-P・DPt-P・L-P・M-P）と番号の無いプロモ（型番 X＋cardID、306枚）、構築済みデッキ・特殊な商品の多く、
   ポケモンカードゲーム Classic（CLF・CLL・CLK。公式のカード検索に無いので公式以外の3つの一致で足した。sr は CL。`scripts/classic/`）。
 - **出品の画面**（`src/App.jsx`）: カードを検索して選ぶとタイトル・説明文・Item Specifics・SKU を作る。シングル／未開封パック・BOX／セット品の3つのタブ。
-  タイトル・説明文は手で直せる（カード・タブを切り替えるまで残る）。鑑定品（PSA/BGS/CGC/SGC）、旧裏（PMCG1〜6）と ADV（ADV1〜4・ADVex1）の 1st Edition、旧裏の No Rarity、利益計算、出品履歴・出品キュー・CSV（試験的）。
+  タイトル・説明文は手で直せる（カード・タブを切り替えるまで残る）。鑑定品（PSA/BGS/CGC/SGC）、1st Edition（★VS・web〜XY・CP のブースター70弾。`scripts/first-edition/sources.json`）、旧裏 PMCG1 の No Rarity、利益計算、出品履歴・出品キュー・CSV（試験的）。
 - **残っている作業**: `docs/review-2026-10-14.md` の「確認待ちの案」の残りと、`docs/history.md` の「点検（2026-10-10）」の表
   （店舗の情報で足した HR・UR の画像 454行、psaName が無い弾、公式一覧にあって取り込んでいないキー、英語名の残り等）。
 - **公式に未掲載で待っているもの**: M6a 104〜135、M-P の 052・077〜084・101〜127、SV-P 291。載ったら「新しいカードの取り込み」の手順で足す。
@@ -103,14 +103,15 @@
 - **タイトル**（80文字以内）: 現代カードは `buildModernTitle`、旧裏（`OLD_BACK_SET_RE`: PMCG1-6・neo1-4・VS1・web1）は `buildVintageTitle`。
   - 現代カード: 鑑定情報 → カード名 → レアリティ略号 → カード番号 → ミラーの版 → Japanese → 型番（codeAlias 優先）→ Pokemon Card → 状態 → セット英語名 → 発売年 → Holo → レアリティのフルスペル。
   - 80文字を超えたら、レアリティのフルスペル → Holo → 発売年 → セット英語名の順に落とし、それでも超えたら最後の手段で
-    状態 → "Pokemon Card" を "Pokemon" に → レアリティの略号 → 型番 → "Pokemon"（"Pokemon" より検索に効きにくく Item Specifics にあるものを先に落とす）。
+    状態 → "Pokemon Card" を "Pokemon" に → レアリティの略号 → 型番 → Technical Machine を TM に → 鑑定のラベル → "Pokemon"（"Pokemon" より検索に効きにくく Item Specifics にあるものを先に落とす）。
     落とした後、収まるものは優先度の高い順に戻す。ただし "Card" は "Pokemon" があるとき、状態は "Pokemon Card" があるときだけ戻す。
     全カードが80文字以内で "Pokemon" を含むことを `src/dataIntegrity.test.js`・`App.test.jsx` で確かめている（2026-10-14 時点で "Pokemon" を外すカードは無い）。
   - 番号付きのプロモはカード番号に弾の記号が入る（`001/S-P`）ので、タイトルに型番を重ねて書かない。
   - 旧裏: 鑑定情報 → カード名 → No.006 → セット通称 → 印刷バリエーション → Japanese → 発売年 → Old Back → Pokemon Card → レアリティ語 → 状態。
     80文字を超えたら 状態 → レアリティ語 → "Pokemon Card" を "Pokemon" に → 発売年 → セット通称 → "Pokemon" の順に落とす。
-  - 現代カードで 1st Edition を選んだとき（ADV1〜4・ADVex1）はカード番号の後ろに `1st Edition` を入れ、落とさない（Unlimited は書かない）。
-    SKU は `-1ST`、Features は `1st Edition`、相場の検索語にも `1st Edition`。
+  - 1st Edition（`FIRST_EDITION_SET_RE`。★VS・web・e・ADV・PCG・DP・DPt・LEGEND・BW・XY・CP のブースター70弾。デッキ・BOX 等と旧裏 PMCG1〜6 は無し）を選んだときは、
+    現代カードのタイトルのカード番号の後ろに `1st Edition` を入れ、落とさない（Unlimited は書かない）。SKU は `-1ST`、Features は `1st Edition`、相場の検索語にも `1st Edition`。
+  - 最後の手段の後半: "Technical Machine" を "TM" に略す → 鑑定のラベル（GEM MINT 等）を落とす → "Pokemon" を外す（`LAST_RESORT_DROPS`）。
   - プリズムスターの ◇ はタイトル・Character では外す（Card Name は ◇ 付き）。PR の略号は "Prism Star"、H（ひかる）は略号なし。
   - ホロ版とノーマル版を分けたカード（日本語名の末尾「（ホロ）」「（ノーマル）」）は Holo／Non-Holo を最後まで残す。
 - **カード番号**: 総数のある弾は `001/165`。**番号付きのプロモは印刷された形 `001/S-P`**（2026-10-14〜）。型番 X のカード・SP5 は番号なし。ミラーの版は番号部分。
