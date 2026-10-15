@@ -1,5 +1,5 @@
 {
- "about": "2026-10-15 の PLAY のコミット前の照合で見つかったビット化け1件。同じ日に ADV-P で置いた画像で、pcg-search から取ったときのキャッシュ（取得時の SHA-256 と一覧の値に一致）から戻した。同じ日の E-P の取り込みの前の照合でさらに2件（触っていない画像。公式 details.php の画像が SHA-256 の一覧と一致したので取り直して戻した）",
+ "about": "2026-10-15 の PLAY のコミット前の照合で見つかったビット化け1件。同じ日に ADV-P で置いた画像で、pcg-search から取ったときのキャッシュ（取得時の SHA-256 と一覧の値に一致）から戻した。同じ日の E-P の取り込みの前の照合でさらに2件（触っていない画像。公式 details.php の画像が SHA-256 の一覧と一致したので取り直して戻した）。相場の検索語の直しの後の照合でさらに1件（S10a-014、触っていない画像。公式 details.php の画像が SHA-256 の一覧と一致したので取り直して戻した。コミットの後に見つかった。更新日時が変わらないのでフックは画像の照合をしなかった）",
  "items": [
   {
    "cardId": "ADV-P-048",
@@ -43,6 +43,21 @@
      "correct": "3d"
     }
    ]
+  },
+  {
+   "cardId": "S10a-014",
+   "path": "cards/S/S10a/ピカチュウ_S10a-14／99_C.jpg",
+   "source": "https://www.pokemon-card.com/assets/images/card_images/large/S10a/041533_P_PIKACHIXYUU.jpg",
+   "bytes": 993083,
+   "mtime": "2026-09-30T15:39:27.582Z",
+   "differingBytes": [
+    {
+     "offset": "0xcb133",
+     "now": "6f",
+     "correct": "4f"
+    }
+   ],
+   "sha256": "c4d3935a36c341661ce2405eededd59453dc1055759c0bf7b0fb98ed86b2b462"
   }
  ]
 }
