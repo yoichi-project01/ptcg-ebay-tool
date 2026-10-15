@@ -1,20 +1,20 @@
 {
  "counts": {
-  "Pokemon": 19646,
-  "Item": 2023,
-  "Supporter": 1927,
+  "Pokemon": 19711,
+  "Item": 2026,
+  "Supporter": 1931,
   "Stadium": 355,
-  "Tool": 195,
-  "Energy": 623,
+  "Tool": 200,
+  "Energy": 626,
   "Trainer": 465
  },
  "sources": {
   "name": 5331,
-  "bulbapedia": 18918,
+  "bulbapedia": 18998,
   "tcgdex": 72,
   "details": 907,
   "name-contains": 6,
-  "same-name": 442
+  "same-name": 445
  },
  "conflicts": [
   {
