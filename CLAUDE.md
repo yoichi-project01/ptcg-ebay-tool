@@ -59,7 +59,8 @@
 ## 今の状態（2026-10-14）
 
 - **取り込み済みの世代**: 旧裏（PMCG1〜6・neo1〜4・VS1・web1）・e・ADV（ADV1〜4・ADVex1。公式以外の3つの一致。`scripts/adv/`）・PCG・DP（DP1〜5・EP08、型番 X＋cardID）・DPt1〜4・LEGEND・BW・XY・SM・S・SV・M、
-  各世代の番号付きプロモ（S-P・SV-P・SM-P・XY-P・BW-P・DP-P・DPt-P・L-P・M-P）と番号の無いプロモ（型番 X＋cardID、306枚）、構築済みデッキ・特殊な商品の多く、
+  各世代の番号付きプロモ（S-P・SV-P・SM-P・XY-P・BW-P・DP-P・DPt-P・L-P・M-P、古いプロモの E-P・E-T・ADV-P・PLAY・PCG-P）と番号の無いプロモ（型番 X＋cardID、306枚。
+  古いプロモは型番 Y＋pcg-search の通し番号で PMCG-P・neo-P・PCG-P-Y。`scripts/old-promos/`、決まらないものは `*-held-2026-10-15.tsv`）、構築済みデッキ・特殊な商品の多く、
   ポケモンカードゲーム Classic（CLF・CLL・CLK。公式のカード検索に無いので公式以外の3つの一致で足した。sr は CL。`scripts/classic/`）。
 - **出品の画面**（`src/App.jsx`）: カードを検索して選ぶとタイトル・説明文・Item Specifics・SKU を作る。シングル／未開封パック・BOX／セット品の3つのタブ。
   タイトル・説明文は手で直せる（カード・タブを切り替えるまで残る）。鑑定品（PSA/BGS/CGC/SGC）、1st Edition（★VS・web〜XY・CP のブースター70弾。`scripts/first-edition/sources.json`）、旧裏 PMCG1 の No Rarity、利益計算、出品履歴・出品キュー・CSV（試験的）。
@@ -76,6 +77,7 @@
 - **行** `k`: `[型番, 日本語名, 英語名, レアリティ]`。card_id は「弾コード-型番」（例 `SV2a-201`）。
   - 型番は3桁の番号（"001"）。総数を超える番号（シークレット）もある。
   - **番号の無いカードは「X＋公式 details.php の cardID」**（例 `SM-P-X33404`、DP 世代 `DP1-X1013`）。
+  - 公式に無い古い番号の無いプロモは「**Y＋pcg-search の通し番号**」（例 `PMCG-P-Y006`＝pcg-search 1stp006、`neo-P-Y1001`＝neopf1001）。配布元との対応は `scripts/old-promos/{弾}-rows-2026-10-15.tsv`。
   - **ミラーの柄の版は元の型番の末尾に版の印**（例 `SV2a-025-MB`。PB・MB・EN・FB・LB・DB・QB・R）。日本語名の末尾に「（マスターボールミラー）」などが付く。
     番号を `parseInt` で読むと元の行と同じ番号になるので注意（`audit.mjs` の番号の重なりの検査など）。
   - 同じ名前のカードの見分けは日本語名の末尾の括弧注記（「（ホロ）」「（ノーマル）」「（構築ハーフデッキ「…」）」「（大会名 優勝）」など）。

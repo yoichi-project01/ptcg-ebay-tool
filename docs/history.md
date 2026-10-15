@@ -3314,3 +3314,40 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
 - **出力**: 印刷バリエーションを選ばないときの全カード（未鑑定）の出力は変化なし。選んだときは `scripts/audit/print-variant-snapshot.test.jsx`（PMCG1〜6 と70弾の全カード ×
   1st Edition／Unlimited × 未鑑定／PSA 10）で比べた（例は `scripts/audit/first-edition-2026-10-15.json`）。鑑定品のとても長い名前（ワザマシン・ギンガ団の発明）は、
   印刷バリエーションを選ばなくても TM・ラベルの略しで変わる。
+
+---
+
+### 対応（2026-10-15）: 古いプロモ（ADV-P・PLAY・PCG-P・E-P・E-T・PMCG-P・neo-P）を足した
+
+ユーザーの確認を得て、公式のカード検索に無い古いプロモを、公式以外の情報源の一致で弾ごとに足した（`scripts/old-promos/`）。足した card_id は `{弾}-added-card-ids-2026-10-15.txt`、
+行ごとの根拠（日本語名の一致・配布元・英語名の確かめ方）は `{弾}-rows-2026-10-15.tsv`、決まらず足さなかったものは `{弾}-held-2026-10-15.tsv`。
+
+| 弾 | 足した | 保留 | 型番・カード番号 | en・psaName（PSA のページタイトル） |
+|---|---|---|---|---|
+| ADV-P | 63 | 0 | 001〜063（001/ADV-P） | Promo（2003/2004 Pokemon Japanese Promo） |
+| PLAY | 32 | 0 | 001〜032（001/PLAY） | Play Promo（2003〜2005 Pokemon Japanese Play Promo） |
+| PCG-P | 145＋Y1 | 9＋16 | 001〜154（001/PCG-P）、Y003 | Promo（2004〜2006 Pokemon Japanese Promo） |
+| E-T | 24 | 0 | 001〜024（001/T。codeAlias T） | Promo Trainers Magazine（2002 Pokemon Japanese Promo Trainers Magazine） |
+| E-P | 47 | 0 | 001〜047（001/P。codeAlias P） | Promo（2001 Pokemon Japanese Promo） |
+| E-J | 0 | 2 | （時を超えたセレビィ・ラティアスとラティオスは pcg-search に無い） | — |
+| PMCG-P | 40 | 50 | Y＋pcg-search の通し番号（番号なし） | Promo（1997/1998 Pokemon Japanese Promo） |
+| neo-P | 45 | 30 | Y＋通し番号（プレミアムファイル1〜3 は Y1001〜Y3009） | Promo（2001 Pokemon Japanese Promo） |
+| ADV-P の Y | 0 | 2 | （勝利のリング・オーブ） | — |
+
+- **情報源**: pcg-search のカードのページ（名前・印刷された番号・イラストレーター・画像。`fetch-pcg-search-promos.mjs` → `pcg-search-promos-2026-10-15.json`、一覧は
+  `pcg-search-promo-list-2026-10-15.json`）、ポケモンWiki（ADV-P・PCG-P・プレイヤーズの一覧と、番号の無いプロモの表）、Bulbapedia（ADV-P・PLAY・PCG-P・P・T・J の一覧と
+  各カードのページの jname、Unnumbered Promotional cards (TCG)/1996-2005。ブラウザで取り出し SHA-256 をブラウザの値と照合）。
+- **番号付き**: 番号ごとに pcg-search の名前がポケモンWiki か Bulbapedia の jname と一致し、Bulbapedia にその番号があるものを足した（`add-numbered-promos.mjs`）。
+  PCG-P の保留9: 055〜058 基本エネルギー（「草エネルギー」と「基本草エネルギー」）、059・060（闘と超が逆）、096（大好き／だいすき）、113・130（スタンプの有無の2種類が同じ番号）。
+  e の P・T・J は弾コードを E-P・E-T・E-J、印刷された記号を codeAlias にした（ユーザーの指示。カード番号は 001/P。PROMO_NUMBER_SETS で codeAlias を使う）。
+  pcg-search は 002・003・008・009/P を ★VS・web のプロモに分類している（E-P に入れた）。
+- **番号の無いもの**: 型番は「Y＋pcg-search の通し番号」（ユーザーの指示）。名前と並び順では結び付けず、pcg-search の名前が古いプロモの中で1枚だけで、Bulbapedia の
+  番号の無いプロモの一覧（旧裏・neo は 1996〜2001年、ADV・PCG は 2002〜2005年）の jname でも1件だけのものを足した（`add-numberless-promos.mjs`）。配布元はポケモンWiki の表で
+  1件だけ・同じ年のときに記録（PMCG-P 38行・neo-P 24行）。ピカチュウ・ミュウ・ラッキースタジアム・勝利のリング等の同じ名前が2枚以上のものは保留。ADV・PCG はポケモンWiki と
+  Bulbapedia で年が合わないもの（トロピカルウインド・チャンピオンズリーグ）も保留。PMCG-P・neo-P は旧裏のタイトル（OLD_BACK_SET_RE に足した）。
+- **英語名**: ポケモンは Bulbapedia の名前と規則の名前（☆・δ・ex を含む）の一致、トレーナーズは TCGdex 英語版（EX・POP・Nintendo プロモ）の同じ名前・種類・イラストレーター。
+  持ち主付き（ポケパークの〜・ロータの〜等）・名前の無いカード・日本だけのトレーナーズ（ポケモンイラストレーター等）は空欄。
+- **相場の検索語**: 番号付きのプロモでカード番号に弾の記号が入っているとき（001/S-P）は型番を重ねないようにした（既存のプロモを含め 2,196行。`scripts/audit/promo-query-2026-10-15.json`）。
+- **画像のビット化け**: 作業中の照合で ADV-P-048（この日に置いた画像）、S5I-012・SV1V-099（触っていない画像）の3件に1ビットの化けが見つかり、取得時のキャッシュ・公式の画像から戻した
+  （`scripts/image-decode-report/fixed-2026-10-15.json`。S5I-012・SV1V-099 はどちらも位置が …573）。
+- 拡張シート（自販機）と南の島は、ユーザーの指示でこの後に行う。
