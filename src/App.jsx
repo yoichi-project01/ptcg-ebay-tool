@@ -272,10 +272,10 @@ function cardNoOf(setObj, local) {
   if (setObj.of > 0 && /^\d+$/.test(local)) return `${pad3(local)}/${pad3(setObj.of)}`;
   // 番号付きのプロモはカードに印刷された形（"001/S-P"）。eBay の出品のタイトル・Card Number もこの形が多い（2026-10-14）。
   // 総数が無い（of 0）ので以前は番号が出なかった。型番 X＋cardID の番号の無いプロモには付けない
-  if (PROMO_NUMBER_SETS.has(setObj.c) && /^\d+$/.test(local)) return `${pad3(local)}/${setObj.c}`;
+  if (PROMO_NUMBER_SETS.has(setObj.c) && /^\d+$/.test(local)) return `${pad3(local)}/${setObj.codeAlias || setObj.c}`; // E-P 等は印刷された記号（codeAlias）で 001/P
   return "";
 }
-const PROMO_NUMBER_SETS = new Set(["S-P", "SV-P", "SM-P", "XY-P", "BW-P", "DP-P", "DPt-P", "L-P", "M-P", "ADV-P", "PCG-P", "PLAY"]); // ADV-P・PCG-P・PLAY は 2026-10-15（scripts/old-promos/）
+const PROMO_NUMBER_SETS = new Set(["S-P", "SV-P", "SM-P", "XY-P", "BW-P", "DP-P", "DPt-P", "L-P", "M-P", "ADV-P", "PCG-P", "PLAY", "E-P", "E-T", "E-J"]); // ADV-P・PCG-P・PLAY・E-P・E-T・E-J は 2026-10-15（scripts/old-promos/）
 // setCode（cardData.json上の内部識別子。公式サイトの画像フォルダ名に由来し、
 // 同じ商品の異なるバリエーション（例: XY1のコレクションX/Y = XY1-Bx/XY1-By）を
 // 区別するために使われる）は、カードに実際に印刷されている型番と食い違うことがある

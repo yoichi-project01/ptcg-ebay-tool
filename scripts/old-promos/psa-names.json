@@ -1,9 +1,28 @@
 {
  "_about": "古いプロモの弾の PSA の表記と出典（2026-10-15、psacard.com に限った検索結果のページタイトルで確認）。add-psa-names.mjs が scripts/set-psa-names.json に書く。PSA は古いプロモを年ごとの区分（2003 Pokemon Japanese Promo 等）にまとめている",
- "ADV-P": { "psaName": "Promo", "source": "https://www.psacard.com/auctionprices/tcg-cards/2003-pokemon-japanese-promo/GROUDON-HOLO/2230108",
-   "note": "PSA のページタイトル「2003 POKEMON JAPANESE PROMO Groudon-Holo」（027/ADV-P）・「2004 POKEMON JAPANESE PROMO Psyduck」（056/ADV-P、https://www.psacard.com/auctionprices/tcg-cards/2004-pokemon-japanese-promo/PSYDUCK/2632314）。年ごとの Promo の区分" },
- "PLAY": { "psaName": "Play Promo", "source": "https://www.psacard.com/auctionprices/tcg-cards/2005-pokemon-japanese-play-promo/98070",
-   "note": "PSA のページタイトル「2005 Pokemon Japanese Play Promo」「2004 Pokemon Japanese Play Promo ____'s Jirachi-Holo 2ND SEASON SUBSCRIPTION」「2003 Pokemon Japanese Play Promo」（https://www.psacard.com/auctionprices/tcg-cards/2003-pokemon-japanese-play-promo/115710）" },
- "PCG-P": { "psaName": "Promo", "source": "https://www.psacard.com/auctionprices/tcg-cards/2005-pokemon-japanese-promo/pokeparks-pikachu/1925050",
-   "note": "PSA のページタイトル「2005 POKEMON JAPANESE PROMO Pokepark's Pikachu」「2005 POKEMON JAPANESE PROMO Aura's Lucario」「2004 Pokemon Japanese Promo Bulbasaur MEIJI CHOCOLATE」。年ごとの Promo の区分" }
+ "ADV-P": {
+  "psaName": "Promo",
+  "source": "https://www.psacard.com/auctionprices/tcg-cards/2003-pokemon-japanese-promo/GROUDON-HOLO/2230108",
+  "note": "PSA のページタイトル「2003 POKEMON JAPANESE PROMO Groudon-Holo」（027/ADV-P）・「2004 POKEMON JAPANESE PROMO Psyduck」（056/ADV-P、https://www.psacard.com/auctionprices/tcg-cards/2004-pokemon-japanese-promo/PSYDUCK/2632314）。年ごとの Promo の区分"
+ },
+ "PLAY": {
+  "psaName": "Play Promo",
+  "source": "https://www.psacard.com/auctionprices/tcg-cards/2005-pokemon-japanese-play-promo/98070",
+  "note": "PSA のページタイトル「2005 Pokemon Japanese Play Promo」「2004 Pokemon Japanese Play Promo ____'s Jirachi-Holo 2ND SEASON SUBSCRIPTION」「2003 Pokemon Japanese Play Promo」（https://www.psacard.com/auctionprices/tcg-cards/2003-pokemon-japanese-play-promo/115710）"
+ },
+ "PCG-P": {
+  "psaName": "Promo",
+  "source": "https://www.psacard.com/auctionprices/tcg-cards/2005-pokemon-japanese-promo/pokeparks-pikachu/1925050",
+  "note": "PSA のページタイトル「2005 POKEMON JAPANESE PROMO Pokepark's Pikachu」「2005 POKEMON JAPANESE PROMO Aura's Lucario」「2004 Pokemon Japanese Promo Bulbasaur MEIJI CHOCOLATE」。年ごとの Promo の区分"
+ },
+ "E-P": {
+  "psaName": "Promo",
+  "source": "https://www.psacard.com/auctionprices/tcg-cards/2001-pokemon-japanese-promo/bill/summary/2096132",
+  "note": "PSA のページタイトル「2001 POKEMON JAPANESE PROMO Bill Trainers Vol. 13」（009/P）・「2001 Pokemon Japanese Promo Ho-Oh」（010/P）。年ごとの Promo の区分"
+ },
+ "E-T": {
+  "psaName": "Promo Trainers Magazine",
+  "source": "https://www.psacard.com/auctionprices/tcg-cards/2002-pokemon-japanese-promo-trainers-magazine/flareon-vol-14/1960307",
+  "note": "PSA のページタイトル「2002 POKEMON JAPANESE PROMO TRAINERS MAGAZINE Flareon」（001/T、Vol. 14）"
+ }
 }
