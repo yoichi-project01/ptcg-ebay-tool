@@ -1231,9 +1231,9 @@ describe("80文字を超えるときの最後の手段（2026-10-14）", () => {
     expect(buildSingleTitle(formOf("PMCG6-020"))).toBe("Giovanni's Nidoqueen No.020 Challenge from the Darkness Japanese 1999 Pokemon");
   });
   it("それでも長ければ Pokemon は残し、レアリティの略号・型番（旧裏は発売年・セット通称）を先に落とす", () => {
-    // 型番（DPt2-B）は入らないが、短いレアリティの略号（U）は入るので戻す
-    expect(buildSingleTitle(formOf("DPt2-B-077"))).toBe("Team Galactic's Invention G-107 Technical Machine G U 077/090 Japanese Pokemon");
-    expect(getDroppedModernTitleParts(formOf("DPt2-B-077"))).toEqual(expect.arrayContaining(["状態（NM 等）", "「Pokemon Card」の Card", "型番"]));
+    // 印刷された記号 Pt2（2026-10-15 に codeAlias にした）は短いので入り、レアリティの略号（U）を先に落とす
+    expect(buildSingleTitle(formOf("DPt2-B-077"))).toBe("Team Galactic's Invention G-107 Technical Machine G 077/090 Japanese Pt2 Pokemon");
+    expect(getDroppedModernTitleParts(formOf("DPt2-B-077"))).toEqual(expect.arrayContaining(["状態（NM 等）", "「Pokemon Card」の Card", "レアリティの略号"]));
     expect(getDroppedModernTitleParts(formOf("DPt2-B-077"))).not.toContain("「Pokemon」");
     expect(buildSingleTitle(formOf("PMCG6-088"))).toBe("Sabrina's Psychic Control No.088 Challenge from the Darkness Japanese Pokemon");
   });
@@ -1331,20 +1331,20 @@ describe("ADV の 1st Edition（2026-10-15）", () => {
   };
   it("1st Edition はカード番号の後ろに入り、SKU・Features・検索語にも出る", () => {
     const f = formOf("ADV3-047", { printVariant: "1st Edition" });
-    expect(buildSingleTitle(f)).toBe("Rayquaza ex R 047/054 1st Edition Japanese ADV3 Pokemon Card NM 2003 Rare");
+    expect(buildSingleTitle(f)).toBe("Rayquaza ex R 047/054 1st Edition Japanese Pokemon Card NM Rulers of the Heavens");
     expect(buildSku(f, "single")).toBe("ADV3-047-NM-1ST");
     expect(Object.fromEntries(buildItemSpecifics(f))["Features"]).toBe("1st Edition");
     expect(buildEbaySearchQuery(f, "single")).toBe("Rayquaza ex 047/054 1st Edition");
   });
   it("Unlimited はタイトル・SKU・Features に何も書かない", () => {
     const f = formOf("ADV3-047", { printVariant: "Unlimited" });
-    expect(buildSingleTitle(f)).toBe("Rayquaza ex R 047/054 Japanese ADV3 Pokemon Card NM Rulers of the Heavens 2003");
+    expect(buildSingleTitle(f)).toBe("Rayquaza ex R 047/054 Japanese Pokemon Card NM Rulers of the Heavens 2003 Rare");
     expect(buildSku(f, "single")).toBe("ADV3-047-NM");
     expect(Object.fromEntries(buildItemSpecifics(f))["Features"]).toBeUndefined();
   });
   it("鑑定品でも 1st Edition を残す", () => {
     expect(buildSingleTitle(formOf("ADV3-047", { printVariant: "1st Edition", graded: true, gradingCompany: "PSA", grade: "10" })))
-      .toBe("PSA 10 GEM MINT Rayquaza ex R 047/054 1st Edition Japanese ADV3 Pokemon Card");
+      .toBe("PSA 10 GEM MINT Rayquaza ex R 047/054 1st Edition Japanese Pokemon Card 2003");
   });
   it("1st Edition の無い弾（SM 以降・構築済みデッキ等）では 1st Edition を選んでも出さない", () => {
     for (const id of ["SM1S-001", "SVG-014", "XYA-001", "CPr-001"]) {
@@ -1360,7 +1360,7 @@ describe("ADV の 1st Edition（2026-10-15）", () => {
   });
   it("長いワザマシンの名前は、Pokemon と 1st Edition が両方入るよう Technical Machine を TM に略す", () => {
     const f = formOf("ADVex1-077", { printVariant: "1st Edition", graded: true, gradingCompany: "PSA", grade: "10" });
-    expect(buildSingleTitle(f)).toBe("PSA 10 GEM MINT Team Aqua TM 01 U 077/080 1st Edition Japanese ADVex1 Pokemon");
+    expect(buildSingleTitle(f)).toBe("PSA 10 GEM MINT Team Aqua TM 01 U 077/080 1st Edition Japanese Pokemon Card 2003");
     // 収まるときは略さない
     expect(buildSingleTitle(formOf("ADVex1-077", { printVariant: "1st Edition" }))).toContain("Team Aqua Technical Machine 01");
   });
@@ -1413,5 +1413,18 @@ describe("相場の検索語にカードに印刷されていない弾コード�
     expect(buildEbaySearchQuery(formOf("E-P", "001"), "single")).toBe("Kecleon 001/P");
     expect(buildEbaySearchQuery(formOf("SV2a", "201"), "single")).toContain("SV2a");
     expect(buildEbaySearchQuery(formOf("XY1-Bx", "001"), "single")).toContain("XY1");
+  });
+});
+
+describe("タイトルにカードに印刷されていない弾コードを書かない・DPt の印刷された記号（2026-10-15）", () => {
+  const formOf = (c, n) => { const set = CARD_DATA_FOR_TEST.find((s) => s.c === c); return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((r) => r[0] === n) }); };
+  it("e・ADV・PCG の弾は弾コードを書かず、空いた分にセット英語名・発売年が入る", () => {
+    for (const [c, n, code] of [["E1", "004", "E1"], ["ADV1", "001", "ADV1"], ["PCG1", "001", "PCG1"]]) {
+      expect(buildSingleTitle(formOf(c, n)).split(" ")).not.toContain(code);
+    }
+  });
+  it("DPt1〜4 は印刷された記号 Pt1〜Pt4 をタイトル・検索語に使う", () => {
+    expect(buildSingleTitle(formOf("DPt1-B", "001"))).toContain(" Pt1 ");
+    expect(buildEbaySearchQuery(formOf("DPt1-B", "001"), "single")).toBe("Wurmple 001/096 Pt1");
   });
 });

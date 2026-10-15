@@ -545,7 +545,8 @@ function assembleModernTitle(f, maxLength) {
   // rarityCode・setCode も最後の手段（"Pokemon" を外すより先に落とす。どちらも Item Specifics の Rarity・Set にある）
   const include = { setName: Boolean(setNameToken), year: Boolean(year), holo, rarityFull: Boolean(rarityFull),
     condition: !isGraded && Boolean(f.condition), card: true, pokemon: true,
-    rarityCode: Boolean(rarityCode), setCode: Boolean(setCodeToken) && !setCodeInCardNo,
+    // カードに印刷されていない内部の弾コード（e・ADV・PCG 等）は書かない（2026-10-15。空いた分はセット英語名・発売年等が入る）
+    rarityCode: Boolean(rarityCode), setCode: Boolean(setCodeToken) && !setCodeInCardNo && isSetCodePrinted(f),
     fullName: shortenCardName(titleCardName(f.pokemonEn)) !== titleCardName(f.pokemonEn), gradeLabel: Boolean(gradeLabel),
     altName: Boolean(altNameToken(f)) };
   const assemble = () => [
@@ -911,9 +912,9 @@ export function buildEbaySearchQuery(f, mode) {
 }
 // 弾コード（codeAlias があればそれ）がカードに印刷されているか（2026-10-15）。印刷されていないのは:
 // 旧裏（PMCG1〜6・neo1〜4・PMCG-P・neo-P・VM1〜3・SI99）・★VS・web・e（E1〜5）・ADV・PCG の弾（カードの画像で弾のマークだけ、記号の文字が無いことを確かめた）、
-// DPt1-B〜DPt4-B（弾コードは公式の画像のフォルダ名。マークの文字は Pt1 等。Bulbapedia の SetSymbolGalactic_Conquest）、
-// 型番 Y（pcg-search の通し番号）の番号の無い古いプロモ（ADV-P・PCG-P）。DP1〜5 はマークに DP1 等の文字がある
-const UNPRINTED_SET_CODE_RE = /^(PMCG[1-6]|PMCG-P|neo[1-4]|neo-P|VM[1-3]|SI99|VS1|web1|E[1-5]|ADV[1-4]|ADVex1|PCG[1-9]|DPt[1-4]-B)$/;
+// 型番 Y（pcg-search の通し番号）の番号の無い古いプロモ（ADV-P・PCG-P）。DP1〜5 はマークに DP1 等の文字がある。
+// DPt1-B〜DPt4-B はマークの文字 Pt1〜Pt4 を codeAlias にした（2026-10-15、scripts/dpt-code/）ので印刷された記号として使う
+const UNPRINTED_SET_CODE_RE = /^(PMCG[1-6]|PMCG-P|neo[1-4]|neo-P|VM[1-3]|SI99|VS1|web1|E[1-5]|ADV[1-4]|ADVex1|PCG[1-9])$/;
 function isSetCodePrinted(f) {
   if (UNPRINTED_SET_CODE_RE.test(f.setCode)) return false;
   return !(f.localRef || "").startsWith(`${f.setCode}/Y`);
