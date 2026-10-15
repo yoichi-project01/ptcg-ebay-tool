@@ -1,16 +1,16 @@
 {
  "counts": {
-  "Pokemon": 19799,
+  "Pokemon": 19934,
   "Item": 2027,
   "Supporter": 1932,
-  "Stadium": 355,
+  "Stadium": 357,
   "Tool": 201,
-  "Energy": 630,
+  "Energy": 638,
   "Trainer": 465
  },
  "sources": {
   "name": 5331,
-  "bulbapedia": 19093,
+  "bulbapedia": 19238,
   "tcgdex": 72,
   "details": 907,
   "name-contains": 6,
@@ -352,6 +352,13 @@
    "en": "Pokémon Fan Club",
    "chosen": "bulbapedia:Supporter",
    "all": "bulbapedia:Supporter name:Pokemon"
+  },
+  {
+   "id": "PCG-P-078",
+   "ja": "ピチュー兄弟",
+   "en": "Pichu Bros.",
+   "chosen": "bulbapedia:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
   }
  ]
 }
