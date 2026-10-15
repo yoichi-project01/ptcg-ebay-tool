@@ -12,9 +12,11 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CACHE = path.join(__dirname, "..", "pcg-search-cache", "promo");
-const OUT = path.join(__dirname, "pcg-search-promos-2026-10-15.json");
+// 拡張シート・サザンアイランドは --list pcg-search-vending-list-2026-10-15.json --out pcg-search-vending-2026-10-15.json（2026-10-15）
+const argv = process.argv.slice(2), opt = (k, d) => (argv.includes(k) ? argv[argv.indexOf(k) + 1] : d);
+const OUT = path.join(__dirname, opt("--out", "pcg-search-promos-2026-10-15.json"));
 fs.mkdirSync(path.join(CACHE, "img"), { recursive: true });
-const list = JSON.parse(fs.readFileSync(path.join(__dirname, "pcg-search-promo-list-2026-10-15.json"), "utf8")).groups;
+const list = JSON.parse(fs.readFileSync(path.join(__dirname, opt("--list", "pcg-search-promo-list-2026-10-15.json")), "utf8")).groups;
 const ORDER = ["adv:プロモ", "adv:プレイヤーズ", "pcg:プレイヤーズ", "pcg:プロモ", "e:プロモ", "e:トレーナーズ", "adv:トレーナーズ"];
 const rank = (g) => { const i = ORDER.indexOf(`${g.dir}:${g.title}`); return i < 0 ? 99 : i; };
 const groups = [...list].sort((a, b) => rank(a) - rank(b));
