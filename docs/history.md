@@ -3410,3 +3410,20 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
 - 例: "Weedle 004/102 PMCG1" → "Weedle 004/102"、"Pikachu Illustrator PMCG-P" → "Pikachu Illustrator"、"Wurmple 001/096 DPt1-B" → "Wurmple 001/096"。変わったのは検索語だけで3,119行
   （`scripts/audit/query-unprinted-code-2026-10-15.json`）。
 - 直していない: 現代カードのタイトルの型番（e・ADV・PCG・DPt の弾の "Japanese ADV1 Pokemon Card" 等）にも同じ内部の弾コードが入る。DPt1〜4 の印刷された記号（Pt1 等）は codeAlias にしていない。
+
+### 対応（2026-10-15）: タイトルから印刷されていない弾コードを外し、DPt1〜4 の codeAlias を Pt1〜Pt4 にし、画像の照合を毎回行うようにした
+
+ユーザーの指示で3つ行った。
+- **タイトル**: 相場の検索語と同じく、カードに印刷されていない内部の弾コード（e・ADV・PCG の弾と型番 Y の古いプロモ。`isSetCodePrinted`）を現代カードのタイトルに書かないようにした
+  （旧裏のタイトルにはもともと書いていない）。空いた分は 80文字の調整で落としていたセット英語名・発売年・レアリティのフルスペル等が戻る。
+  例 "Koffing C 001/055 Japanese ADV1 Pokemon Card NM Expansion Pack 2003 Common" → "Koffing C 001/055 Japanese Pokemon Card NM Expansion Pack 2003 Common"、
+  "Rayquaza ex R 047/054 Japanese ADV3 Pokemon Card NM Rulers of the Heavens 2003" → "… Japanese Pokemon Card NM Rulers of the Heavens 2003 Rare"。
+- **DPt1〜4**: codeAlias を印刷された記号 Pt1〜Pt4 にした（`scripts/dpt-code/fix-dpt-code-alias.mjs`。根拠は Bulbapedia の弾のマークの画像〔文字が Pt1〜Pt4、SHA-256 を記録〕と
+  ユーザーの指示。公式の画像は 162×226 でマークが読めず、ポケモンWiki の商品ページに略称の欄が無い）。タイトル・相場の検索語・説明文の Set の括弧が Pt1 等になった
+  （"Wurmple C 001/096 Japanese DPt1-B Pokemon Card NM …" → "Wurmple C 001/096 Japanese Pt1 Pokemon Card NM Galactic's Conquest 2008 Common"）。
+- 全カードの出力の変化: タイトル1,916行・説明文と検索語376行（DPt1〜4）。直す前と後は `scripts/audit/title-unprinted-code-dpt-2026-10-15.json`。全カード80文字以内。
+- **画像の照合**: ビット化けは更新日時が変わらないので、pre-commit フックの「前回の照合より後に変わった画像があるときだけ照合する」では見つからない（S10a-014 はコミットの後に見つかった）。
+  pre-commit フックで毎回 `npm run check`（照合を含む、約25秒）を実行するようにし、Claude Code の SessionStart フック（`.claude/settings.json` → `scripts/session-verify-images.mjs`）で
+  作業を始めるときにも照合して件数を表示するようにした。入れていない案: Windows のタスクスケジューラで毎日照合して結果をファイルに残す（PC が起動していれば作業しない日も見つかる）、
+  照合で化けを見つけたら公式・pcg-search から自動で取り直して戻す（一覧の値の方が化けていたこともある〔S10D-085〕ので、今は人が確かめる）。
+- 直していない: e・ADV・PCG の弾の説明文の Set の括弧（"Set: Expansion Pack (ADV1)"）には内部の弾コードが残る。

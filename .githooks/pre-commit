@@ -1,28 +1,10 @@
 #!/bin/sh
 # コミットの前に自動で確かめる（2026-10-14）。有効にするには一度だけ: git config core.hooksPath .githooks
-# - カードデータ・画像の対応表・画像の SHA-256 の一覧・カードの種類の一覧がコミットに入るとき、
-#   または public/cards の画像が前回の照合より後に変わったとき: npm run check（画像の照合＋テスト＋行のずれの検査）
-# - それ以外: テストだけ（npx vitest run）
+# 毎回 npm run check（画像の照合＋テスト＋行のずれの検査。約25秒）を実行する（2026-10-15〜）。
+# 以前は public/cards の更新日時で照合を省いていたが、ビット化けは更新日時が変わらない（2026-10-15 の S10a-014 はコミットの後に見つかった）ので、更新日時に頼らない。
 # 急いで飛ばすとき（勧めない）: git commit --no-verify
 cd "$(git rev-parse --show-toplevel)" || exit 1
 
-MARKER=".git/ptcg-last-image-verify"
-DATA_RE='^(src/cardData\.json|src/imageIndex\.json|src/cardKinds\.json|scripts/image-hashes\.tsv)$'
-
-need_check=""
-if git diff --cached --name-only | grep -Eq "$DATA_RE"; then
-  need_check="カードデータ・画像の対応表がコミットに入っている"
-elif [ ! -f "$MARKER" ]; then
-  need_check="画像の照合をまだこの仕組みで行っていない"
-elif [ -d public/cards ] && [ -n "$(find public/cards -type f -newer "$MARKER" -print -quit)" ]; then
-  need_check="前回の照合より後に変わった画像がある"
-fi
-
-if [ -n "$need_check" ]; then
-  echo "pre-commit: $need_check → npm run check（画像の照合を含む）"
-  npm run check || { echo "pre-commit: 確認に失敗したのでコミットを止めました"; exit 1; }
-  touch "$MARKER"
-else
-  echo "pre-commit: テストだけ実行（カードデータ・画像の変更なし）"
-  npx vitest run || { echo "pre-commit: テストに失敗したのでコミットを止めました"; exit 1; }
-fi
+echo "pre-commit: npm run check（画像の照合・テスト・行のずれの検査）"
+npm run check || { echo "pre-commit: 確認に失敗したのでコミットを止めました（画像の照合で「中身が変わった」が出たら、元の出どころから取り直して戻す）"; exit 1; }
+touch .git/ptcg-last-image-verify

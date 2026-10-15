@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/session-verify-images.mjs\"",
+            "timeout": 120,
+            "statusMessage": "画像の照合（image-hashes.mjs --verify）"
+          }
+        ]
+      }
+    ]
+  }
+}

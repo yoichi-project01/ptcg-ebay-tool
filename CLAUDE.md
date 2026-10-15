@@ -47,9 +47,9 @@
 ## コミット前の確認（2026-10-14〜）
 
 - **pre-commit フック** `.githooks/pre-commit`（有効にするには一度だけ `git config core.hooksPath .githooks`。この PC では設定済み）:
-  - `src/cardData.json`・`src/imageIndex.json`・`src/cardKinds.json`・`scripts/image-hashes.tsv` がコミットに入るとき、または `public/cards` の画像が
-    前回の照合（`.git/ptcg-last-image-verify`）より後に変わったとき: `npm run check`（画像の照合＋テスト＋行のずれの検査）
-  - それ以外: テストだけ（`npx vitest run`）
+  毎回 `npm run check`（画像の照合＋テスト＋行のずれの検査、約25秒）。ビット化けは更新日時が変わらないので、更新日時で照合を省かない（2026-10-15〜）。
+- **作業を始めるとき**: Claude Code の SessionStart フック（`.claude/settings.json` → `scripts/session-verify-images.mjs`）が画像の照合を走らせ、件数を表示する（約15秒）。
+  「中身が変わった」「ファイルが無い」が0件でなければ、作業の前に戻す。
 - 手で確かめるとき: `npm run check`（まとめて）、`npm run verify:images`、`npx vitest run`、`python scripts/detect-contaminated-en-names.py`（インドネシア語の混入）、
   `node scripts/check-row-alignment.mjs`（名前の並びのずれ）
 - 弾ごと・項目ごとにコミットして push する。コミットメッセージは日本語。
@@ -120,6 +120,8 @@
   - プリズムスターの ◇ はタイトル・Character では外す（Card Name は ◇ 付き）。PR の略号は "Prism Star"、H（ひかる）は略号なし。
   - ホロ版とノーマル版を分けたカード（日本語名の末尾「（ホロ）」「（ノーマル）」）は Holo／Non-Holo を最後まで残す。旧裏のタイトルも同じ（サザンアイランドのキラ6枚）。
   - 英語名を PSA の表記にしたカードの Bulbapedia の呼び方（`src/enAltNames.json`）は、カード名の後ろに括弧で添え、80文字を超えるときは最初に落とす。相場の検索語には入れない（両方の名前を含む出品に絞られるため）。
+- **弾コード**: カードに印刷されていない内部の弾コード（旧裏・★VS・web・e・ADV・PCG の弾、型番 Y の古いプロモ。`UNPRINTED_SET_CODE_RE`）はタイトル・相場の検索語に書かない。
+  印刷された記号は codeAlias（DPt1〜4 は Pt1〜Pt4。`scripts/dpt-code/`）。
 - **カード番号**: 総数のある弾は `001/165`。**番号付きのプロモは印刷された形 `001/S-P`**（2026-10-14〜）。型番 X のカード・SP5 は番号なし。ミラーの版は番号部分。
 - **Item Specifics**: Card Name・Character・Set・Card Number・Rarity（`RARITY_EN_LABELS`。SR は Super Rare、MA は Mega Attack Rare）・Finish（ミラーの版 Reverse Holo、
   ホロ／ノーマルを分けたカード Holo／Regular）・Language・Manufacturer・Graded・Card Condition 等・Features（Old Back・1st Edition・No Rarity・Error）・
