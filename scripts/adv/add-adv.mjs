@@ -9,7 +9,7 @@
 //   4枚（ADV1-028・ADV2-053・ADV3-023・ADV3-040）でポケモンWiki と違うが、pcg-search はポケモンWiki と同じなのでそちらを使う。
 //   画像は pcg-search の画像（旧裏〜PCG と同じ出どころ）。強化拡張パックex1 の番号の無い基本エネルギー8枚（-/080）は足さない（ユーザーの指示）。
 // 英語名: ポケモンは Bulbapedia の名前と日本語名から作った規則の名前（en-name-fix3/species-ja-en.json）の一致。
-//   規則で作れない名前（アクア団の〜等）とトレーナーズ・エネルギーは、Bulbapedia の名前のカードが TCGdex 英語版の対応する弾（ex1〜ex5）にあり、
+//   規則で作れない名前（アクア団の〜等）とトレーナーズ・エネルギーは、Bulbapedia の名前のカードが TCGdex 英語版の EX シリーズ・POP・Nintendo プロモ（再録が別の弾にあることがある）にあり、
 //   同じ種類・同じイラストレーター（日本版のイラストレーターは pcg-search のページ）であること。確かめられなければ空欄。
 // 弾コードは pcg-search・ポケモンWiki に合わせる（とかれた封印＝ADV4、ふたつの野望＝ADVex1）。TCGdex の日本版は発売順に ADV4＝ふたつの野望・ADV5＝とかれた封印（sources.json に別名として記録）。
 import fs from "node:fs";
@@ -47,7 +47,7 @@ const RAR = { "●": "C", "◆": "U", "★": "R", "☆": "R" };
 const species = new Map(JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "en-name-fix3", "species-ja-en.json"), "utf8")).species.map((s) => [s.ja.normalize("NFKC"), s.en.replace(/’/g, "'")]));
 const ruleEn = (ja) => { const n = N(ja); if (species.has(n)) return species.get(n); const m = n.match(/^(.+)ex$/); return m && species.has(m[1]) ? `${species.get(m[1])} ex` : null; };
 const enCache = ["Pokemon", "Trainer", "Energy"].flatMap((c) => JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "en-name-fix3", ".cache", `tcgdex-en-${c}.json`), "utf8")).data.cards)
-  .filter((c) => c.id.startsWith(`${meta.tcgdexEn}-`));
+  .filter((c) => /^(ex\d+|pop\d+|np)-/.test(c.id)); // 英語版の再録が別の弾にあることがある（高気圧・低気圧は ex3・pop3）。同じ名前・種類・イラストレーターを求めるのは同じ
 const BP_KIND = { P: "Pokemon", I: "Item", S: "Supporter", T: "Tool", M: "Item", D: "Stadium", E: "Energy" };
 const tKind = (c) => (c.category === "Trainer" ? c.trainerType : c.category);
 const illKey = (s) => (s ?? "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z]/g, "");
@@ -70,7 +70,7 @@ for (let i = 0; i < meta.of; i++) {
   if (rule && rule === b[2]) { en = b[2]; how = "規則の名前と Bulbapedia が一致"; }
   else {
     const kind = BP_KIND[b[3]];
-    const c = enCache.filter((x) => nameKey(x.name) === nameKey(b[2]) && (tKind(x) === kind || (kind === "Item" && tKind(x) === "Item")));
+    const c = enCache.filter((x) => nameKey(x.name) === nameKey(b[2]) && (tKind(x) === kind || (b[3] === "M" && tKind(x) === "Tool"))); // ワザマシンは Bulbapedia が Technical Machine、TCGdex が Tool
     const same = c.filter((x) => illKey(x.illustrator) && illKey(x.illustrator) === illKey(p.illustrator));
     if (same.length) { en = b[2]; how = `TCGdex 英語版 ${same.map((x) => x.id).join(" ")}（${kind}・${p.illustrator}）と一致`; }
     else how = c.length ? `TCGdex 英語版 ${c.map((x) => `${x.id}:${x.illustrator}`).join(" ")} とイラストレーター（${p.illustrator}）が違う` : `TCGdex 英語版 ${meta.tcgdexEn} に同じ名前・種類が無い`;
