@@ -919,6 +919,10 @@ function isSetCodePrinted(f) {
   if (UNPRINTED_SET_CODE_RE.test(f.setCode)) return false;
   return !(f.localRef || "").startsWith(`${f.setCode}/Y`);
 }
+// 説明文の「Set: 弾の英語名 (記号)」の括弧。カードに印刷されていない内部の弾コード（isSetCodePrinted）は書かない（2026-10-15）
+function setCodeParen(f) {
+  return f.setCode && isSetCodePrinted(f) ? ` (${displaySetCode(f.setCode)})` : "";
+}
 function buildEbaySearchUrl(query, { sold = false } = {}) {
   if (!query.trim()) return "";
   const params = new URLSearchParams({ _nkw: query });
@@ -1122,7 +1126,7 @@ export function buildSingleDesc(f) {
 
 ■ Card Details
 - Card: ${[f.pokemonEn || "[Pokemon name]", f.rarity, f.cardNo].filter(Boolean).join(" ")}${mirrorEn ? ` (${mirrorEn})` : ""}
-- Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${displaySetCode(f.setCode)})` : ""}
+- Set: ${f.setNameEn || "[Set name]"}${setCodeParen(f)}
 - Language: Japanese
 ${printVariant ? `- Print: ${printVariant}\n` : ""}${oldBack ? `- Back Design: Old Back (旧裏)\n` : ""}${printNote ? `- Print Note: ${printNote}\n` : ""}- Condition: ${conditionLine}
 ${certNumber ? `- Certification #: ${certNumber}\n` : ""}- The exact card pictured is the one you will receive.
@@ -1145,7 +1149,7 @@ export function buildPackDesc(f) {
 
 ■ Item Description
 - Pokemon Card Game — Japanese version
-- Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${displaySetCode(f.setCode)})` : ""}
+- Set: ${f.setNameEn || "[Set name]"}${setCodeParen(f)}
 - ${item}
 - Language: Japanese
 - Condition: New / Factory Sealed, never opened
@@ -1171,7 +1175,7 @@ export function buildSealedDesc(f) {
 
   const itemLines = [
     "- Pokemon Card Game — Japanese version",
-    `- Set: ${f.setNameEn || "[Set name]"}${f.setCode ? ` (${displaySetCode(f.setCode)})` : ""}`,
+    `- Set: ${f.setNameEn || "[Set name]"}${setCodeParen(f)}`,
     `- ${qtyToken}Factory Sealed${f.sealedProductType ? ` ${f.sealedProductType}` : ""}`,
     "- Language: Japanese",
     `- Condition: ${cond.en}`,

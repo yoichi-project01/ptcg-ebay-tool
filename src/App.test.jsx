@@ -1428,3 +1428,12 @@ describe("タイトルにカードに印刷されていない弾コードを書�
     expect(buildEbaySearchQuery(formOf("DPt1-B", "001"), "single")).toBe("Wurmple 001/096 Pt1");
   });
 });
+
+describe("説明文の Set の括弧にカードに印刷されていない弾コードを書かない（2026-10-15）", () => {
+  const formOf = (c, n) => { const set = CARD_DATA_FOR_TEST.find((s) => s.c === c); return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((r) => r[0] === n) }); };
+  it("ADV1 は括弧を書かず、Pt1・SV2a は残す", () => {
+    expect(buildSingleDesc(formOf("ADV1", "001"))).toContain("- Set: Expansion Pack\n");
+    expect(buildSingleDesc(formOf("DPt1-B", "001"))).toContain("- Set: Galactic's Conquest (Pt1)");
+    expect(buildSingleDesc(formOf("SV2a", "201"))).toContain("(SV2a)");
+  });
+});

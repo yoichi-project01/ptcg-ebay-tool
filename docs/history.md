@@ -3427,3 +3427,9 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
   作業を始めるときにも照合して件数を表示するようにした。入れていない案: Windows のタスクスケジューラで毎日照合して結果をファイルに残す（PC が起動していれば作業しない日も見つかる）、
   照合で化けを見つけたら公式・pcg-search から自動で取り直して戻す（一覧の値の方が化けていたこともある〔S10D-085〕ので、今は人が確かめる）。
 - 直していない: e・ADV・PCG の弾の説明文の Set の括弧（"Set: Expansion Pack (ADV1)"）には内部の弾コードが残る。
+
+### 対応（2026-10-15）: 説明文の Set の括弧からも、印刷されていない弾コードを外した
+
+ユーザーの指示で、説明文の「- Set: 弾の英語名 (記号)」の括弧も、タイトル・相場の検索語と同じ決まり（`isSetCodePrinted`）にした（`src/App.jsx` の `setCodeParen`。シングル・パック・セット品の説明文）。
+例 "- Set: Expansion Pack (ADV1)" → "- Set: Expansion Pack"、"- Set: Base Set (PMCG1)" → "- Set: Base Set"。Pt1・SV2a・XY1・DP1・P 等の印刷された記号は残る。
+変わったのは説明文だけで2,743行（`scripts/audit/desc-unprinted-code-2026-10-15.json`）。
