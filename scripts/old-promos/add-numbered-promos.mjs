@@ -29,7 +29,8 @@ const CONF = {
   "PLAY": { groups: ["adv:プレイヤーズ", "pcg:プレイヤーズ"], wiki: "PLAY", wikiNumCol: 2, sr: "PCG", en: "Play Promo", psaName: "Play Promo", ja: "" },
   "PCG-P": { groups: ["pcg:プロモ"], wiki: "PCG-P", wikiNumCol: 3, sr: "PCG", en: "Promo", psaName: "Promo", ja: "" },
   // e の P・T・J は弾コードを E1〜E5 にそろえて E-P・E-T・E-J、印刷された記号は codeAlias（ユーザーの指示）。ポケモンWiki の一覧は無い（P,T,J の節は stub）
-  "E-P": { groups: ["e:プロモ"], bp: "P", printed: "P", codeAlias: "P", sr: "e", en: "Promo", psaName: "Promo", ja: "" },
+  "E-P": { groups: ["e:プロモ", "vs:プロモ", "web:プロモ"], // pcg-search は 002・003・008・009/P を ★VS・web のプロモに分類している
+    bp: "P", printed: "P", codeAlias: "P", sr: "e", en: "Promo", psaName: "Promo", ja: "" },
   "E-T": { groups: ["e:トレーナーズ", "adv:トレーナーズ"], bp: "T", printed: "T", codeAlias: "T", sr: "e", en: "Promo Trainers Magazine", psaName: "Promo Trainers Magazine", ja: "" },
   "E-J": { groups: ["e:J"], bp: "J", printed: "J", codeAlias: "J", sr: "e", en: "", psaName: "", ja: "" },
 };

@@ -1,20 +1,20 @@
 {
  "counts": {
-  "Pokemon": 19958,
-  "Item": 2027,
-  "Supporter": 1932,
+  "Pokemon": 19996,
+  "Item": 2028,
+  "Supporter": 1933,
   "Stadium": 357,
   "Tool": 201,
-  "Energy": 638,
-  "Trainer": 465
+  "Energy": 641,
+  "Trainer": 469
  },
  "sources": {
   "name": 5331,
-  "bulbapedia": 19262,
+  "bulbapedia": 19308,
   "tcgdex": 72,
   "details": 907,
-  "name-contains": 6,
-  "same-name": 446
+  "name-contains": 7,
+  "same-name": 447
  },
  "conflicts": [
   {
@@ -358,6 +358,13 @@
    "ja": "ピチュー兄弟",
    "en": "Pichu Bros.",
    "chosen": "bulbapedia:Pokemon",
+   "all": "bulbapedia:Pokemon name:Trainer"
+  },
+  {
+   "id": "E-P-028",
+   "ja": "ピチュー兄弟",
+   "en": "",
+   "chosen": "name-contains:Pokemon",
    "all": "bulbapedia:Pokemon name:Trainer"
   }
  ]

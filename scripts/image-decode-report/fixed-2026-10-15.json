@@ -1,5 +1,5 @@
 {
- "about": "2026-10-15 の PLAY のコミット前の照合で見つかったビット化け1件。同じ日に ADV-P で置いた画像で、pcg-search から取ったときのキャッシュ（取得時の SHA-256 と一覧の値に一致）から戻した",
+ "about": "2026-10-15 の PLAY のコミット前の照合で見つかったビット化け1件。同じ日に ADV-P で置いた画像で、pcg-search から取ったときのキャッシュ（取得時の SHA-256 と一覧の値に一致）から戻した。同じ日の E-P の取り込みの前の照合でさらに2件（触っていない画像。公式 details.php の画像が SHA-256 の一覧と一致したので取り直して戻した）",
  "items": [
   {
    "cardId": "ADV-P-048",
@@ -15,6 +15,34 @@
     }
    ],
    "sha256": "92eaee7359669473fdc24f2feb2678157be5cd1d2384079317313e0544088703"
+  },
+  {
+   "cardId": "S5I-012",
+   "path": "cards/S/S5I/エンブオー_S5I-12／81_R.jpg",
+   "officialImage": "/assets/images/card_images/large/S5I/039072_P_ENBUO.jpg",
+   "bytes": 379153,
+   "mtime": "2026-07-05T11:19:25.962Z",
+   "differingBytes": [
+    {
+     "offset": "0x5c573",
+     "now": "a3",
+     "correct": "a1"
+    }
+   ]
+  },
+  {
+   "cardId": "SV1V-099",
+   "path": "cards/SV/SV1V/ペパー_SV1V-099／108_SR.jpg",
+   "officialImage": "/assets/images/card_images/large/SV1V/043086_T_PEPA.jpg",
+   "bytes": 1375020,
+   "mtime": "2026-10-05T03:30:25.241Z",
+   "differingBytes": [
+    {
+     "offset": "0x95573",
+     "now": "3c",
+     "correct": "3d"
+    }
+   ]
   }
  ]
 }
