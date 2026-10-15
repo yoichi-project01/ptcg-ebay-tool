@@ -2,6 +2,8 @@ import { useState, useMemo, useEffect, Component } from "react";
 import CARD_DATA from "./cardData.json";
 import IMAGE_INDEX from "./imageIndex.json";
 import CARD_KINDS from "./cardKinds.json";
+// 英語名を PSA の表記にしたカードの Bulbapedia の呼び方（card_id → 名前。2026-10-15、scripts/old-promos/fill-en-psa.mjs が書く）。タイトルに余地があれば括弧で添える
+import EN_ALT_NAMES from "./enAltNames.json";
 
 // ---------- 定数 ----------
 // K（かがやく）・A（アメイジングレア）・H（ひかる）・PR（プリズムスター）・MUR（メガウルトラレア）は 2026-10-06 追加。カードに印刷されたマーク
@@ -150,7 +152,7 @@ export const DEFAULT_FORM = {
   // 設定前にtrueにすると、説明文で「同梱できます」と書きながら実際は割引されない事故になる。
   // 設定完了後にtrueへ切り替える（ユーザー指示）
   combinedShipping: false,
-  pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
+  pokemonJa: "", pokemonEn: "", pokemonEnAlt: "", pokemonEnAltOf: "", rarity: "", cardNo: "", condition: "NM", conditionNotes: "",
   // 候補から選んだカードの「弾/型番」（例 "SM-P/X33404"）。カード番号を持たないプロモ（総数0の弾）でも SKU・履歴の画像を
   // 一意にするために使う（買い手向けの出力には使わない）。弾を手で書き換えたら使わない（buildSku・entryImage で setCode と照合）
   localRef: "",
@@ -173,7 +175,7 @@ export const DEFAULT_FORM = {
 // shipFrom / handlingDays / exchangeRate / ebayFeePercent / ebayFixedFeeUsd は
 // 毎回だいたい同じ値を使うので引き継ぐ（PER_LISTING_FIELDSに含めない）
 const PER_LISTING_FIELDS = {
-  pokemonJa: "", pokemonEn: "", rarity: "", cardNo: "", localRef: "",
+  pokemonJa: "", pokemonEn: "", pokemonEnAlt: "", pokemonEnAltOf: "", rarity: "", cardNo: "", localRef: "",
   setNameJa: "", setNameEn: "", setCode: "",
   condition: "NM", conditionNotes: "", conditionPhrases: [],
   printVariant: "", printVariantNote: "", oldBack: false,
@@ -313,6 +315,8 @@ export function applyCandidateToForm(prev, r, { carryOverCondition = false } = {
   return {
     ...base,
     pokemonJa: ja, pokemonEn: en || "",
+    // 英語名が PSA の表記で Bulbapedia の呼び方が違うカード（Pikachu Illustrator ＝ Pokémon Illustrator 等）は、その呼び方（タイトルに余地があれば添える）
+    pokemonEnAlt: (en && EN_ALT_NAMES[`${r.set.c}-${local}`]) || "", pokemonEnAltOf: en || "",
     rarity: RARITIES.includes(rarity) ? rarity : "",
     cardNo: cardNoOf(r.set, local), setCode: r.set.c, localRef: `${r.set.c}/${local}`,
     // 旧裏セットの一部は英語版が発売されていないためcardData.json側のen(公式訳)が空。
@@ -412,10 +416,11 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
   // 削除可能な2要素（優先度10〜11）
   // card・year・setName・pokemon は最後の手段（2026-10-14）。"Pokemon" を外すより先に、Item Specifics にある発売年・セット通称を落とす
   const include = { rarityWord: Boolean(rarityWord), condition: !isGraded && Boolean(f.condition), card: true, pokemon: true,
-    year: Boolean(year), setName: Boolean(setNameToken) };
+    year: Boolean(year), setName: Boolean(setNameToken), altName: Boolean(altNameToken(f)) };
   const assemble = () => [
     gradedToken, // 1. 鑑定情報（鑑定品のみ、先頭）
     titleCardName(f.pokemonEn), // 2. カード名（プリズムスターの ◇ は外す）
+    include.altName ? altNameToken(f) : "", // 2.5 Bulbapedia の呼び方（PSA の表記と違うとき。余地があれば添える。最初に落とす）
     vintageCardNoToken(f.cardNo), // 3. No.006
     include.setName ? setNameToken : "", // 4. セット通称（最後の手段で落とす）
     printVariant, // 5. 印刷バリエーション（No Rarity / 1st Edition）
@@ -430,7 +435,7 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
   let title = assemble();
   // 優先度の低いものから順に1要素ずつ落とす
   const dropped = [];
-  for (const key of ["condition", "rarityWord", "card", "year", "setName", "pokemon"]) {
+  for (const key of ["altName", "condition", "rarityWord", "card", "year", "setName", "pokemon"]) {
     if (title.length <= maxLength) break;
     if (include[key]) {
       include[key] = false;
@@ -438,7 +443,7 @@ export function buildVintageTitle(f, { maxLength = 80 } = {}) {
       title = assemble();
     }
   }
-  return restoreDroppedParts(include, dropped, ["pokemon", "setName", "year", ["card", "condition", "rarityWord"]], assemble, maxLength);
+  return restoreDroppedParts(include, dropped, ["pokemon", "setName", "year", ["card", "condition", "rarityWord"], "altName"], assemble, maxLength);
 }
 
 // 80文字調整の後、落とした要素（dropped）を優先度の高い順（priority）に1つずつ戻してみて、戻しても maxLength 以内なら残す。
@@ -464,7 +469,7 @@ function restoreDroppedParts(include, dropped, priority, assemble, maxLength) {
 // 削除可能な4要素（優先度9〜12）の内部キー→UI表示用の日本語ラベル
 const MODERN_TITLE_DROPPABLE_LABELS = {
   setName: "セット英語名", year: "発売年", holo: "Holo（Non-Holo）", rarityFull: "レアリティのフルスペル",
-  condition: "状態（NM 等）", card: "「Pokemon Card」の Card", rarityCode: "レアリティの略号", setCode: "型番", pokemon: "「Pokemon」",
+  condition: "状態（NM 等）", card: "「Pokemon Card」の Card", altName: "Bulbapedia の呼び方", rarityCode: "レアリティの略号", setCode: "型番", pokemon: "「Pokemon」",
   fullName: "「Technical Machine」を「TM」に", gradeLabel: "鑑定のラベル（GEM MINT 等）",
 };
 // ほかの要素をすべて落としても80文字を超えるときだけ落とす（2026-10-14）。状態 → "Pokemon Card" を "Pokemon" に → レアリティの略号 → 型番 → "Pokemon"。
@@ -537,10 +542,12 @@ function assembleModernTitle(f, maxLength) {
   const include = { setName: Boolean(setNameToken), year: Boolean(year), holo, rarityFull: Boolean(rarityFull),
     condition: !isGraded && Boolean(f.condition), card: true, pokemon: true,
     rarityCode: Boolean(rarityCode), setCode: Boolean(setCodeToken) && !setCodeInCardNo,
-    fullName: shortenCardName(titleCardName(f.pokemonEn)) !== titleCardName(f.pokemonEn), gradeLabel: Boolean(gradeLabel) };
+    fullName: shortenCardName(titleCardName(f.pokemonEn)) !== titleCardName(f.pokemonEn), gradeLabel: Boolean(gradeLabel),
+    altName: Boolean(altNameToken(f)) };
   const assemble = () => [
     gradedToken(), // 1. 鑑定情報（鑑定品のみ、先頭。最後の手段で GEM MINT 等のラベルを落とす）
     include.fullName ? titleCardName(f.pokemonEn) : shortenCardName(titleCardName(f.pokemonEn)), // 2. カード名（プリズムスターの ◇ は外す。最後の手段で Technical Machine → TM）
+    include.altName ? altNameToken(f) : "", // 2.5 Bulbapedia の呼び方（PSA の表記と違うとき。余地があれば添える。最初に落とす）
     include.rarityCode ? rarityCode : "", // 3. レアリティ略号（印刷された文字。H は文字が無いので入れない。最後の手段で落とす）
     f.cardNo, // 4. カード番号
     MIRROR_VARIANTS[mirrorVariantOf(f)]?.en ?? "", // 4.5 ミラーの柄の版（Master Ball Reverse Holo 等。値段が大きく違うので落とさない）
@@ -559,7 +566,7 @@ function assembleModernTitle(f, maxLength) {
   const dropped = [];
   // 優先度の低いものから順に1要素ずつ落とす。優先度8までの要素は落とさない
   // ホロ版とノーマル版を分けたカードは Holo／Non-Holo で見分けるので、いちばん最後まで残す
-  for (const key of [...(finish ? ["rarityFull", "year", "setName", "holo"] : ["rarityFull", "holo", "year", "setName"]), ...LAST_RESORT_DROPS]) {
+  for (const key of ["altName", ...(finish ? ["rarityFull", "year", "setName", "holo"] : ["rarityFull", "holo", "year", "setName"]), ...LAST_RESORT_DROPS]) {
     if (title.length <= maxLength) break;
     if (include[key]) {
       include[key] = false;
@@ -567,7 +574,7 @@ function assembleModernTitle(f, maxLength) {
       title = assemble();
     }
   }
-  title = restoreDroppedParts(include, dropped, [...LAST_RESORT_RESTORE, ...(finish ? ["holo", "setName", "year", "rarityFull"] : ["setName", "year", "holo", "rarityFull"])], assemble, maxLength);
+  title = restoreDroppedParts(include, dropped, [...LAST_RESORT_RESTORE, ...(finish ? ["holo", "setName", "year", "rarityFull"] : ["setName", "year", "holo", "rarityFull"]), "altName"], assemble, maxLength);
   return { title, dropped };
 }
 export function buildModernTitle(f, { maxLength = 80 } = {}) {
@@ -690,6 +697,11 @@ export function characterOf(f) {
 }
 // タイトル用のカード名。プリズムスターの英語名 "Volcanion ◇" の ◇ は外す（記号は検索されにくく、
 // タイトルにはレアリティの略号 "Prism Star" が入るため）。Card Name には ◇ 付きの英語名をそのまま使う
+// 英語名（PSA の表記）と Bulbapedia の呼び方が違うカードの、タイトルに添える呼び方（"(Pokémon Illustrator)"）。手で英語名を変えたら付けない
+function altNameToken(f) {
+  const alt = (f.pokemonEnAlt || "").trim();
+  return alt && f.pokemonEn === f.pokemonEnAltOf && alt !== f.pokemonEn ? `(${alt})` : "";
+}
 export function titleCardName(en) {
   return (en || "").replace(/\s*[◇♢]\s*$/, "").trim();
 }

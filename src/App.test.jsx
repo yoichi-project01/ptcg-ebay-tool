@@ -1383,3 +1383,16 @@ describe("番号付きのプロモの相場の検索語（2026-10-15）", () => 
     expect(buildSingleTitle(formOf("E-T", "001"))).toContain("001/T Japanese Pokemon Card");
   });
 });
+
+describe("PSA の表記の英語名と Bulbapedia の呼び方・旧裏のホロ（2026-10-15）", () => {
+  const formOf = (c, n, extra = {}) => { const set = CARD_DATA_FOR_TEST.find((s) => s.c === c); return { ...applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((r) => r[0] === n) }), ...extra }; };
+  it("Bulbapedia の呼び方は余地があれば括弧で添え、収まらなければ最初に落とす", () => {
+    expect(buildSingleTitle(formOf("PMCG-P", "Y015"))).toBe("Pikachu Illustrator (Pokémon Illustrator) Promo Japanese Pokemon Card NM");
+    expect(buildSingleTitle(formOf("PMCG-P", "Y015", { graded: true, gradingCompany: "PSA", grade: "10" }))).toBe("PSA 10 GEM MINT Pikachu Illustrator Promo Japanese Pokemon Card");
+    expect(buildSingleTitle(formOf("PCG-P", "032"))).toBe("Deoxys (Deoxys Speed Forme) 032/PCG-P Japanese Pokemon Card NM Promo");
+  });
+  it("英語名を手で変えたら添えない。相場の検索語は PSA の表記だけ", () => {
+    expect(buildSingleTitle(formOf("neo-P", "Y041", { pokemonEn: "Mewtwo" }))).not.toContain("Team GR");
+    expect(buildEbaySearchQuery(formOf("neo-P", "Y041"), "single")).not.toContain("Team GR");
+  });
+});
