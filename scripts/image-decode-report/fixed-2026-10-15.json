@@ -1,5 +1,5 @@
 {
- "about": "2026-10-15 の PLAY のコミット前の照合で見つかったビット化け1件。同じ日に ADV-P で置いた画像で、pcg-search から取ったときのキャッシュ（取得時の SHA-256 と一覧の値に一致）から戻した。同じ日の E-P の取り込みの前の照合でさらに2件（触っていない画像。公式 details.php の画像が SHA-256 の一覧と一致したので取り直して戻した）。相場の検索語の直しの後の照合でさらに1件（S10a-014、触っていない画像。公式 details.php の画像が SHA-256 の一覧と一致したので取り直して戻した。コミットの後に見つかった。更新日時が変わらないのでフックは画像の照合をしなかった）",
+ "about": "2026-10-15 の PLAY のコミット前の照合で見つかったビット化け1件。同じ日に ADV-P で置いた画像で、pcg-search から取ったときのキャッシュ（取得時の SHA-256 と一覧の値に一致）から戻した。同じ日の E-P の取り込みの前の照合でさらに2件（触っていない画像。公式 details.php の画像が SHA-256 の一覧と一致したので取り直して戻した）。相場の検索語の直しの後の照合でさらに1件（S10a-014、触っていない画像。公式 details.php の画像が SHA-256 の一覧と一致したので取り直して戻した。コミットの後に見つかった。更新日時が変わらないのでフックは画像の照合をしなかった）。保留の一覧のコミットの前のフックの照合でさらに3件（PCG4-065・S12a-127・SM12a-010、触っていない画像。どれも1ビット。元の出どころの画像が SHA-256 の一覧と一致したので取り直して戻した）",
  "items": [
   {
    "cardId": "ADV-P-048",
@@ -58,6 +58,51 @@
     }
    ],
    "sha256": "c4d3935a36c341661ce2405eededd59453dc1055759c0bf7b0fb98ed86b2b462"
+  },
+  {
+   "cardId": "PCG4-065",
+   "path": "cards/PCG/PCG4/アンノーン_PCG4-065／106_C.png",
+   "source": "https://pcg-search.com/img/pcg/pcg4065.png",
+   "bytes": 685543,
+   "mtime": "2026-07-05T14:29:20.232Z",
+   "differingBytes": [
+    {
+     "offset": "0x531a3",
+     "now": "37",
+     "correct": "b7"
+    }
+   ],
+   "sha256": "c97ecc68a65e78623f1698de7be9b7006b4546f6d7ce84a9faad9eb76a94931c"
+  },
+  {
+   "cardId": "S12a-127",
+   "path": "cards/S/S12a/アルセウスVSTAR_S12a-127／262_RRR.jpg",
+   "source": "https://www.pokemon-card.com/assets/images/card_images/large/S12a/042388_P_ARUSEUSUVSTAR.jpg",
+   "bytes": 1384736,
+   "mtime": "2026-07-05T14:37:17.223Z",
+   "differingBytes": [
+    {
+     "offset": "0x3fb63",
+     "now": "10",
+     "correct": "90"
+    }
+   ],
+   "sha256": "de21560eac4f4187970a8cba2607a8545c3bbf15431351986a35eb4c70a02c93"
+  },
+  {
+   "cardId": "SM12a-010",
+   "path": "cards/SM/SM12a/ジュカインGX_SM12a-010／210_RR.jpg",
+   "source": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037214_P_JUKAINGX.jpg",
+   "bytes": 282544,
+   "mtime": "2026-08-28T16:24:01.423Z",
+   "differingBytes": [
+    {
+     "offset": "0x11a3",
+     "now": "7c",
+     "correct": "74"
+    }
+   ],
+   "sha256": "c3d453e1c7aa10cd8874eae369b9b2f003f1318ecc5e2ad570be55779f7c2de2"
   }
  ]
 }
