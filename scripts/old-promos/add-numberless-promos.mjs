@@ -25,17 +25,22 @@ const APPLY = args.includes("--apply");
 const CONF = {
   "PMCG-P": { groups: ["1st:プロモ"], sr: "PMCG", en: "Promo", psaName: "Promo" },
   "neo-P": { groups: ["neo:プロモ", "neo:プレミアムファイル", "neo:プレミアムファイル2", "neo:プレミアムファイル3"], sr: "neo", en: "Promo", psaName: "Promo" },
+  // ADV・PCG の番号の無いもの（pcg-search の「ナンバー外」）は、番号付きの ADV-P・PCG-P の弾に Y の行として足す（SM-P の X の行と同じ形）。Bulbapedia は 2002〜2005年
+  "ADV-PY": { target: "ADV-P", groups: ["adv:ナンバー外"], scope: ["adv:ナンバー外", "pcg:ナンバー外"], years: [2002, 2005] },
+  "PCG-PY": { target: "PCG-P", groups: ["pcg:ナンバー外"], scope: ["adv:ナンバー外", "pcg:ナンバー外"], years: [2002, 2005] },
 };
 const conf = CONF[SET];
 if (!conf) throw new Error(`--set は ${Object.keys(CONF).join("・")} のどれか: ${SET}`);
-const OLD_GROUPS = Object.values(CONF).flatMap((c) => c.groups);
+const TARGET = conf.target ?? SET;
+const OLD_GROUPS = conf.scope ?? Object.values(CONF).filter((c) => !c.target).flatMap((c) => c.groups);
+const [YMIN, YMAX] = conf.years ?? [1996, 2001];
 
 const N = (s) => (s ?? "").normalize("NFKC").replace(/[\s_＿]/g, "").replace(/[!！]/g, "!").replace(/[?？]/g, "?");
 const ps = JSON.parse(fs.readFileSync(path.join(__dirname, "pcg-search-promos-2026-10-15.json"), "utf8"));
 const allOld = Object.entries(ps).filter(([, v]) => OLD_GROUPS.includes(v.group));
 const mine = allOld.filter(([, v]) => conf.groups.includes(v.group));
 const bp = fs.readFileSync(path.join(__dirname, "bulbapedia-unnumbered-1996-2005-2026-10-15.txt"), "utf8").trim().split(/\r?\n/)
-  .map((l) => { const [idx, year, jname, en, type] = l.split("|"); return { idx, year: +year, jname, en, type }; }).filter((b) => b.year <= 2001);
+  .map((l) => { const [idx, year, jname, en, type] = l.split("|"); return { idx, year: +year, jname, en, type }; }).filter((b) => b.year >= YMIN && b.year <= YMAX);
 const wiki = fs.readFileSync(path.join(__dirname, "pokemonwiki-promo-2026-10-15.wikitext"), "utf8").replace(/\r\n/g, "\n");
 const sec = wiki.slice(wiki.indexOf("=== コレクションナンバーなし"), wiki.indexOf("=== P,T,J"));
 const pw = sec.split(/\n\|-/).slice(1).map((r) => r.trim().split("\n")[0].replace(/^\|/, "").split("||").map((c) => c.trim())).filter((c) => c.length >= 4)
@@ -48,16 +53,18 @@ const POKEMON_TYPES = new Set(["Grass", "Fire", "Water", "Lightning", "Psychic",
 const rows = [], held = [];
 for (const [page, p] of mine) {
   const local = "Y" + page.match(/(\d+)$/)[1]; // pcg-search の通し番号（1stp006 → Y006、neopf1001 → Y1001）
-  const id = `${SET}-${local}`;
+  const id = `${TARGET}-${local}`;
   const n = N(p.name);
   const samePs = allOld.filter(([, v]) => N(v.name) === n);
   const sameBp = bp.filter((b) => N(b.jname) === n);
   const samePw = pw.filter((w) => N(w.name) === n);
   const hold = (why) => held.push([id, page, p.name, p.illustrator, sameBp.map((b) => `${b.idx}:${b.year}:${b.en}`).join(" / "), samePw.map((w) => `${w.date}:${w.how}`).join(" / "), why]);
   if (samePs.length !== 1) { hold(`pcg-search の古いプロモに同じ名前が${samePs.length}枚`); continue; }
-  if (sameBp.length !== 1) { hold(sameBp.length ? `Bulbapedia に同じ名前が${sameBp.length}件` : "Bulbapedia の1996〜2001年に無い"); continue; }
+  if (sameBp.length !== 1) { hold(sameBp.length ? `Bulbapedia に同じ名前が${sameBp.length}件` : `Bulbapedia の${YMIN}〜${YMAX}年に無い`); continue; }
   const b = sameBp[0];
   const w = samePw.length === 1 && Math.floor(parseFloat(samePw[0].date)) === b.year ? samePw[0] : null;
+  // ADV・PCG の番号の無いもの（勝利のリング等）は年ごとに別の版がある。ポケモンWiki にその名前があるのに Bulbapedia と同じ年の行が無ければ、どの年の版か決まらないので保留
+  if (conf.target && samePw.length && !samePw.some((x) => (x.date.match(/\d{4}/g) || []).map(Number).includes(b.year))) { hold(`ポケモンWiki（${samePw.map((x) => (x.date.match(/\d{4}/g) || []).join("・")).join("／")}年）と Bulbapedia（${b.year}年）で年が合わない`); continue; }
   const en0 = b.en.replace(/\s*\[[^\]]*\]/g, "").replace(/？/g, "?").trim();
   let en = "", how = "";
   if (POKEMON_TYPES.has(b.type)) {
@@ -72,19 +79,23 @@ if (!APPLY) { for (const r of rows) console.log("  ", r.local, r.p.name, "|", r.
 const DATA = path.join(ROOT, "src", "cardData.json");
 const raw = fs.readFileSync(DATA, "utf8");
 const data = JSON.parse(raw);
-if (data.some((s) => s.c === SET)) throw new Error(`既に ${SET} があります`);
+const target = data.find((s) => s.c === TARGET);
+if (conf.target ? !target : target) throw new Error(conf.target ? `${TARGET} がありません` : `既に ${SET} があります`);
+if (target && rows.some((r) => target.k.some((k) => k[0] === r.local))) throw new Error(`${TARGET} に同じ型番がある`);
+const sr = conf.sr ?? target.sr;
 const CACHE = path.join(ROOT, "scripts", "pcg-search-cache", "promo", "img");
 for (const r of rows) {
   const buf = fs.readFileSync(path.join(CACHE, path.basename(r.p.image)));
   if (crypto.createHash("sha256").update(buf).digest("hex") !== r.p.sha256) throw new Error(`画像の SHA-256 が取得時と違う: ${r.p.image}`);
-  const rel = path.posix.join("cards", conf.sr, SET, buildFileName(r.p.name, SET, r.local, "", 0) + path.extname(r.p.image));
+  const rel = path.posix.join("cards", sr, TARGET, buildFileName(r.p.name, TARGET, r.local, "", 0) + path.extname(r.p.image));
   await writeFileAtomic(path.join(ROOT, "public", rel), buf);
 }
-data.push({ c: SET, ja: "", en: conf.en, psaName: conf.psaName, sr: conf.sr, of: 0, k: rows.map((r) => [r.local, r.p.name, r.en, ""]) });
+if (target) target.k.push(...rows.map((r) => [r.local, r.p.name, r.en, ""]));
+else data.push({ c: SET, ja: "", en: conf.en, psaName: conf.psaName, sr: conf.sr, of: 0, k: rows.map((r) => [r.local, r.p.name, r.en, ""]) });
 fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + (raw.endsWith("\n") ? "\n" : ""));
 rebuildCardKinds();
-fs.writeFileSync(path.join(__dirname, `${SET}-added-card-ids-2026-10-15.txt`), rows.map((r) => `${SET}-${r.local}`).join("\n") + "\n");
+fs.writeFileSync(path.join(__dirname, `${SET}-added-card-ids-2026-10-15.txt`), rows.map((r) => `${TARGET}-${r.local}`).join("\n") + "\n");
 fs.writeFileSync(path.join(__dirname, `${SET}-rows-2026-10-15.tsv`), ["card_id\tpcg-search\t日本語名\tイラストレーター\tキラ\tBulbapedia（番号:年:英語名）\t配布元（ポケモンWiki の日付・入手法）\t英語名\t英語名の確かめ方",
-  ...rows.map((r) => [`${SET}-${r.local}`, r.page, r.p.name, r.p.illustrator, /キラ/.test(r.p.rarity) ? "キラ" : "", `${r.b.idx}:${r.b.year}:${r.b.en}`, r.w ? `${r.w.date} ${r.w.how}` : "", r.en, r.how].join("\t"))].join("\n") + "\n");
+  ...rows.map((r) => [`${TARGET}-${r.local}`, r.page, r.p.name, r.p.illustrator, /キラ/.test(r.p.rarity) ? "キラ" : "", `${r.b.idx}:${r.b.year}:${r.b.en}`, r.w ? `${r.w.date} ${r.w.how}` : "", r.en, r.how].join("\t"))].join("\n") + "\n");
 fs.writeFileSync(path.join(__dirname, `${SET}-held-2026-10-15.tsv`), ["card_id（予定）\tpcg-search\t名前\tイラストレーター\tBulbapedia の同じ名前（番号:年:英語名）\tポケモンWiki の同じ名前（日付:入手法）\t保留の理由", ...held.map((h) => h.join("\t"))].join("\n") + "\n");
 console.log(`${SET}: ${rows.length}行を足した`);
