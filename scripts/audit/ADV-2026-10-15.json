@@ -1,0 +1,140 @@
+{
+ "about": "ADV 世代の5弾（ADV1〜4・ADVex1、2026-10-15）を足した前と後。全カードの出力を比べ、足した325行のほかに変わったのは同じ名前のサポートの種類が決まった2行（WCP-091 オダマキはかせ・WCP-092 ダイゴのアドバイス、Character が付いた）だけ",
+ "summary": {
+  "added": 325,
+  "changed": {
+   "itemSpecifics": {
+    "count": 2,
+    "ids": [
+     "WCP-091",
+     "WCP-092"
+    ],
+    "examples": [
+     {
+      "id": "WCP-091",
+      "before": {},
+      "after": {
+       "Character": "Professor Birch"
+      }
+     },
+     {
+      "id": "WCP-092",
+      "before": {},
+      "after": {
+       "Character": "Steven"
+      }
+     }
+    ]
+   },
+   "csv": {
+    "count": 2,
+    "ids": [
+     "WCP-091",
+     "WCP-092"
+    ],
+    "examples": [
+     {
+      "id": "WCP-091",
+      "before": {
+       "C:Character": ""
+      },
+      "after": {
+       "C:Character": "Professor Birch"
+      }
+     },
+     {
+      "id": "WCP-092",
+      "before": {
+       "C:Character": ""
+      },
+      "after": {
+       "C:Character": "Steven"
+      }
+     }
+    ]
+   }
+  },
+  "removed": 0,
+  "maxTitleLength": 80,
+  "titlesWithoutPokemon": 0
+ },
+ "examples": [
+  {
+   "id": "ADV1-026",
+   "title": "Mewtwo ex R 026/055 Japanese ADV1 Pokemon Card NM Expansion Pack 2003 Rare",
+   "sku": "ADV1-026-NM",
+   "cardName": "Mewtwo ex",
+   "character": "Mewtwo",
+   "set": "Expansion Pack",
+   "rarity": "Rare",
+   "year": "2003",
+   "query": "Mewtwo ex 026/055 ADV1"
+  },
+  {
+   "id": "ADV2-022",
+   "title": "Pikachu C 022/053 Japanese ADV2 Pokemon Card NM Miracle of the Desert 2003",
+   "sku": "ADV2-022-NM",
+   "cardName": "Pikachu",
+   "character": "Pikachu",
+   "set": "Miracle of the Desert",
+   "rarity": "Common",
+   "year": "2003",
+   "query": "Pikachu 022/053 ADV2"
+  },
+  {
+   "id": "ADV3-047",
+   "title": "Rayquaza ex R 047/054 Japanese ADV3 Pokemon Card NM Rulers of the Heavens 2003",
+   "sku": "ADV3-047-NM",
+   "cardName": "Rayquaza ex",
+   "character": "Rayquaza",
+   "set": "Rulers of the Heavens",
+   "rarity": "Rare",
+   "year": "2003",
+   "query": "Rayquaza ex 047/054 ADV3"
+  },
+  {
+   "id": "ADV4-039",
+   "title": "Kyogre ex R 039/083 Japanese ADV4 Pokemon Card NM Undone Seal 2004 Rare",
+   "sku": "ADV4-039-NM",
+   "cardName": "Kyogre ex",
+   "character": "Kyogre",
+   "set": "Undone Seal",
+   "rarity": "Rare",
+   "year": "2004",
+   "query": "Kyogre ex 039/083 ADV4"
+  },
+  {
+   "id": "ADVex1-010",
+   "title": "Team Aqua's Seviper R 010/080 Japanese ADVex1 Pokemon Card NM Magma vs Aqua 2003",
+   "sku": "ADVEX1-010-NM",
+   "cardName": "Team Aqua's Seviper",
+   "character": "Seviper",
+   "set": "Magma vs Aqua",
+   "rarity": "Rare",
+   "year": "2003",
+   "query": "Team Aqua's Seviper 010/080 ADVex1"
+  },
+  {
+   "id": "ADVex1-077",
+   "title": "Team Aqua Technical Machine 01 U 077/080 Japanese ADVex1 Pokemon Card NM 2003",
+   "sku": "ADVEX1-077-NM",
+   "cardName": "Team Aqua Technical Machine 01",
+   "character": "",
+   "set": "Magma vs Aqua",
+   "rarity": "Uncommon",
+   "year": "2003",
+   "query": "Team Aqua Technical Machine 01 077/080 ADVex1"
+  },
+  {
+   "id": "ADV4-075",
+   "title": "Ancient Technical Machine [Ice] U 075/083 Japanese ADV4 Pokemon Card NM 2004",
+   "sku": "ADV4-075-NM",
+   "cardName": "Ancient Technical Machine [Ice]",
+   "character": "",
+   "set": "Undone Seal",
+   "rarity": "Uncommon",
+   "year": "2004",
+   "query": "Ancient Technical Machine [Ice] 075/083 ADV4"
+  }
+ ]
+}

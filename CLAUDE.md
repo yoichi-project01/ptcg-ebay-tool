@@ -58,7 +58,7 @@
 
 ## 今の状態（2026-10-14）
 
-- **取り込み済みの世代**: 旧裏（PMCG1〜6・neo1〜4・VS1・web1）・e・PCG・DP（DP1〜5・EP08、型番 X＋cardID）・DPt1〜4・LEGEND・BW・XY・SM・S・SV・M、
+- **取り込み済みの世代**: 旧裏（PMCG1〜6・neo1〜4・VS1・web1）・e・ADV（ADV1〜4・ADVex1。公式以外の3つの一致。`scripts/adv/`）・PCG・DP（DP1〜5・EP08、型番 X＋cardID）・DPt1〜4・LEGEND・BW・XY・SM・S・SV・M、
   各世代の番号付きプロモ（S-P・SV-P・SM-P・XY-P・BW-P・DP-P・DPt-P・L-P・M-P）と番号の無いプロモ（型番 X＋cardID、306枚）、構築済みデッキ・特殊な商品の多く、
   ポケモンカードゲーム Classic（CLF・CLL・CLK。公式のカード検索に無いので公式以外の3つの一致で足した。sr は CL。`scripts/classic/`）。
 - **出品の画面**（`src/App.jsx`）: カードを検索して選ぶとタイトル・説明文・Item Specifics・SKU を作る。シングル／未開封パック・BOX／セット品の3つのタブ。
@@ -212,6 +212,7 @@ public/
 | PMCG6 | `/img/1st/1stgym2{NNN}.png` |
 | neo1-4 | `/img/neo/neo{1-4}{NNN}.png` |
 | E1-E5 | `/img/e/e{1-5}{NNN}.png` |
+| ADV1-4・ADVex1 | `/img/adv/adv{1-4}{NNN}.png`・`/img/adv/advex1{NNN}.png`（ページは `/card/adv/…php`）|
 | PCG1-9 | `/img/pcg/pcg{1-9}{NNN}.png` |
 | VS1 通常 | `/img/vs/vs0{NNNN}.png`（4桁、142まで）|
 | VS1 基本エネルギー | `/img/vs/vs0en1.png` 〜 `vs0en6.png` |

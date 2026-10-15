@@ -3243,3 +3243,39 @@ L2-Sb/Sh・CPr/s/m・SK・SVLS・SVJP・MG-G/M（PSA の表記が検索で見つ
   （旧裏の PMCG1-077 はサポートの区分の無い頃のカードだが、旧裏のマサキ・エリカ等も同じ決まりで既に Supporter）。
 - **Character の直し**: Rocket's Admin. の Character が持ち主の "Rocket" になるので、`NON_PERSON_OWNERS` に Rocket を足した（出さない）。
 - **出力**: 全カードの出力を比べ、既存の行の変化は0、追加102行。タイトルは最長66文字（例 `Squirtle 001/032 Japanese CLK Pokemon Card NM 2023`。弾の英語名は長いので入らない）。
+
+---
+
+### 対応（2026-10-15）: ADV 世代の拡張パック5弾（ADV1〜4・ADVex1）を足した
+
+ADV 世代（2003〜2004）の拡張パックが cardData に無かったので、ユーザーの確認を得て足した（325行）。`scripts/adv/add-adv.mjs --set <弾> [--apply]`、
+弾の情報と根拠は `scripts/adv/sources.json`、足した card_id は `scripts/adv/{弾}-added-card-ids-2026-10-15.txt`、行ごとの根拠（レアリティ・キラ・イラストレーター・英語名の確かめ方）は
+`{弾}-rows-2026-10-15.tsv`、出力の例は `scripts/audit/ADV-2026-10-15.json`。弾ごとにコミット。
+
+| 弾 | 商品 | 行 | y | en | psaName（PSA のページタイトル） | TCGdex 日本版の id（別名） |
+|---|---|---|---|---|---|---|
+| ADV1 | 第1弾拡張パック | 55 | 2003 | Expansion Pack | Expansion Pack | ADV1 |
+| ADV2 | 砂漠のきせき | 53 | 2003 | Miracle of the Desert | Miracle of the Desert | ADV2 |
+| ADV3 | 天空の覇者 | 54 | 2003 | Rulers of the Heavens | Rulers of the Heavens | ADV3 |
+| ADV4 | とかれた封印（第4弾） | 83 | 2004 | Undone Seal | Undone Seal | ADV5 |
+| ADVex1 | マグマVSアクア ふたつの野望（強化拡張パックex1） | 80 | 2003 | Magma vs Aqua | Magma Vs Aqua | ADV4 |
+
+- **弾コード**: pcg-search（adv4＝とかれた封印、advex1＝ふたつの野望）とポケモンWiki（第4弾＝とかれた封印、強化拡張パックex1＝ふたつの野望）に合わせた（ユーザーの指示）。
+  TCGdex の日本版は発売順に ADV4＝ふたつの野望・ADV5＝とかれた封印と呼ぶので、`sources.json` の tcgdexJa に別名として記録した。sr は ADV。
+- **情報源（3つの一致）**: 公式のカード検索に無く、TCGdex の日本版は弾だけでカードが0件。
+  1. ポケモンWiki の弾のページの表（`pokemonwiki-{弾}-2026-10-15.wikitext`。番号・種類・タイプ・名前・レアリティの印 ●◆★☆）
+  2. pcg-search.com のカードのページ（`fetch-pcg-search-adv.mjs` → `pcg-search-adv-2026-10-15.json`。名前・番号・印・イラストレーター・画像と SHA-256）。
+     一覧 /card/card_list.php の ADV タブの名前ともポケモンWiki と325枚一致
+  3. Bulbapedia の日本版の一覧（英語版の弾のページ EX Ruby & Sapphire 等にある。`bulbapedia-adv-ja-2026-10-15.tsv`、SHA-256 をブラウザの値と照合）
+  番号・名前・レアリティの印はポケモンWiki と pcg-search が325枚すべて一致。Bulbapedia は番号・枚数・ポケモン/トレーナーズの別が一致。
+- **レアリティ**: ●→C・◆→U・★→R・☆（ex）→R（ユーザーの指示。PCG の ex の行と同じ）。Bulbapedia のレアリティは4枚（ADV1-028 キルリア・ADV2-053 マルチエネルギー・
+  ADV3-023 メリープ・ADV3-040 ビブラーバ）でポケモンWiki と違うが、pcg-search はポケモンWiki と同じなので印に合わせた。pcg-search はホロのレアを「★(キラ)」と書く
+  （Bulbapedia の Rare Holo と同じカード。今は使わず rows の tsv に記録だけ）。
+- **画像**: pcg-search の画像（PNG、旧裏〜PCG と同じ出どころ。`public/cards/ADV/{弾}/`）。325枚、取得時の SHA-256 と照合して置いた。
+- **英語名**: 325行すべて。ポケモンは Bulbapedia の名前と規則の名前の一致。規則で作れないもの（アクア団の〜等）とトレーナーズ・エネルギーは、Bulbapedia の名前の
+  カードが TCGdex 英語版（EX シリーズ・POP・Nintendo プロモ。高気圧・低気圧の英語版は ex3・pop3）に同じ種類・同じイラストレーター（日本版は pcg-search のページ）であること。
+  ワザマシンは Bulbapedia が Technical Machine、TCGdex が Tool なので種類の一致に含めた。
+- **カードの種類**: Bulbapedia の一覧を `en-name-fix3/bulbapedia/ADV-2026-10-15.txt` に置いた（ポケモンのタイプはポケモンWiki、2つのタイプのカードは最初のタイプ）。
+  同じ名前の決まりで、ほかの弾の WCP-091 オダマキはかせ・WCP-092 ダイゴのアドバイス（Character が付いた）、neo3-055・PCG9-066・E1-056（Trainer → Tool、出力は同じ）も種類が決まった。
+- **足していないもの**: ふたつの野望の番号の無い基本エネルギー8枚（pcg-search の「-/080」）。1st Edition は別の作業（ADV の各弾には 1st Edition と Unlimited がある）。
+- **出力**: 全カードの出力を比べ、追加325行のほかに変わったのは WCP-091・092 の Character だけ。例 `Mewtwo ex R 026/055 Japanese ADV1 Pokemon Card NM Expansion Pack 2003 Rare`。
