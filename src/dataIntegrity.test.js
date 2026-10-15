@@ -80,3 +80,13 @@ describe("検索で弾の別名を使える（2026-10-14）", () => {
     expect(searchCards("ピカチュウ").length).toBe(24);
   });
 });
+
+describe("弾の印 fe（1st Edition のある弾。2026-10-15）", () => {
+  it("fe は true だけで、scripts/first-edition/sources.json の70弾と同じ", async () => {
+    const { default: sources } = await import("../scripts/first-edition/sources.json");
+    const fe = CARD_DATA.filter((s) => "fe" in s);
+    expect(fe.every((s) => s.fe === true)).toBe(true);
+    expect(fe.map((s) => s.c).sort()).toEqual(sources.sets.map((s) => s.c).sort());
+    expect(fe.length).toBe(70);
+  });
+});

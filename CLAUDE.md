@@ -64,7 +64,7 @@
   ポケモンカードゲーム Classic（CLF・CLL・CLK。公式のカード検索に無いので公式以外の3つの一致で足した。sr は CL。`scripts/classic/`）。
   拡張シート 第1〜3弾（VM1〜3、自販機）と映画公開記念パック「サザンアイランド」（SI99。SI はスタートデッキ100）。番号の無いカードなので型番は Y＋pcg-search の通し番号、旧裏のタイトル（`scripts/vending/`）。
 - **出品の画面**（`src/App.jsx`）: カードを検索して選ぶとタイトル・説明文・Item Specifics・SKU を作る。シングル／未開封パック・BOX／セット品の3つのタブ。
-  タイトル・説明文は手で直せる（カード・タブを切り替えるまで残る）。鑑定品（PSA/BGS/CGC/SGC）、1st Edition（★VS・web〜XY・CP のブースター70弾。`scripts/first-edition/sources.json`）、旧裏 PMCG1 の No Rarity、利益計算、出品履歴・出品キュー・CSV（試験的）。
+  タイトル・説明文は手で直せる（カード・タブを切り替えるまで残る）。鑑定品（PSA/BGS/CGC/SGC）、1st Edition（★VS・web〜XY・CP のブースター70弾。cardData の弾の印 `fe`、根拠は `scripts/first-edition/sources.json`）、旧裏 PMCG1 の No Rarity、利益計算、出品履歴・出品キュー・CSV（試験的）。
 - **残っている作業**: `docs/review-2026-10-14.md` の「確認待ちの案」の残りと、`docs/history.md` の「点検（2026-10-10）」の表
   （店舗の情報で足した HR・UR の画像 454行、psaName が無い弾、公式一覧にあって取り込んでいないキー、英語名の残り等）。
 - **公式に未掲載で待っているもの**: M6a 104〜135、M-P の 052・077〜084・101〜127、SV-P 291。載ったら「新しいカードの取り込み」の手順で足す。
@@ -74,7 +74,7 @@
 ## データの決まり（cardData.json）
 
 - **弾**: `c`（弾コード）・`ja`・`en`・`psaName`・`psaNames`・`enAlias`（旧裏の英語通称）・`codeAlias`（カードに印刷された型番。弾コードと違うとき）・
-  `sr`（シリーズ。画像のフォルダ名）・`y`（発売年）・`of`（総数。プロモ・DP は 0）・`k`（行）。
+  `sr`（シリーズ。画像のフォルダ名）・`y`（発売年）・`fe`（1st Edition のある弾。下）・`of`（総数。プロモ・DP は 0）・`k`（行）。
 - **行** `k`: `[型番, 日本語名, 英語名, レアリティ]`。card_id は「弾コード-型番」（例 `SV2a-201`）。
   - 型番は3桁の番号（"001"）。総数を超える番号（シークレット）もある。
   - **番号の無いカードは「X＋公式 details.php の cardID」**（例 `SM-P-X33404`、DP 世代 `DP1-X1013`）。
@@ -82,6 +82,9 @@
   - **ミラーの柄の版は元の型番の末尾に版の印**（例 `SV2a-025-MB`。PB・MB・EN・FB・LB・DB・QB・R）。日本語名の末尾に「（マスターボールミラー）」などが付く。
     番号を `parseInt` で読むと元の行と同じ番号になるので注意（`audit.mjs` の番号の重なりの検査など）。
   - 同じ名前のカードの見分けは日本語名の末尾の括弧注記（「（ホロ）」「（ノーマル）」「（構築ハーフデッキ「…」）」「（大会名 優勝）」など）。
+- **fe**（買取レーダーなどほかのプロジェクトが読む。2026-10-15〜）: その弾に 1st Edition（エディションマーク付き）とアンリミテッドの両方の刷りがあるとき `"fe": true`。無い弾には項目自体が無い
+  （false は書かない）。★VS・web・e・ADV・PCG・DP・DPt・LEGEND・BW・XY・CP のブースターの70弾。行（カード）は分けず、弾の全カードに両方の刷りがあるとして扱う。
+  一覧と根拠は `scripts/first-edition/sources.json`、反映は `node scripts/apply-set-metadata.mjs`（sources.json に無い弾からは外す）。`src/App.jsx` の `FIRST_EDITION_SET_RE` はこの印を読む。
 - **psaName / psaNames**（買取レーダーなどほかのプロジェクトが読む）: `psaName` は PSA のラベルの主の表記、`psaNames` は追加の表記の配列
   （PSA が1つの弾を分けている／複数の弾をまとめている場合）。**弾の PSA の表記をすべて得るには `[psaName, ...(psaNames ?? [])]` から空を除いたもの**。
   1つの表記が複数の弾に入ることがある（"XY" は XY1-Bx と XY1-By）。出典は `scripts/set-psa-names.json`、反映は `node scripts/apply-set-metadata.mjs`。
@@ -114,7 +117,7 @@
   - 番号付きのプロモはカード番号に弾の記号が入る（`001/S-P`）ので、タイトルに型番を重ねて書かない。
   - 旧裏: 鑑定情報 → カード名 → No.006 → セット通称 → 印刷バリエーション → Japanese → 発売年 → Old Back → Pokemon Card → レアリティ語 → 状態。
     80文字を超えたら 状態 → レアリティ語 → "Pokemon Card" を "Pokemon" に → 発売年 → セット通称 → "Pokemon" の順に落とす。
-  - 1st Edition（`FIRST_EDITION_SET_RE`。★VS・web・e・ADV・PCG・DP・DPt・LEGEND・BW・XY・CP のブースター70弾。デッキ・BOX 等と旧裏 PMCG1〜6 は無し）を選んだときは、
+  - 1st Edition（`FIRST_EDITION_SET_RE`＝cardData の `fe`。★VS・web・e・ADV・PCG・DP・DPt・LEGEND・BW・XY・CP のブースター70弾。デッキ・BOX 等と旧裏 PMCG1〜6 は無し）を選んだときは、
     現代カードのタイトルのカード番号の後ろに `1st Edition` を入れ、落とさない（Unlimited は書かない）。SKU は `-1ST`、Features は `1st Edition`、相場の検索語にも `1st Edition`。
   - 最後の手段の後半: "Technical Machine" を "TM" に略す → 鑑定のラベル（GEM MINT 等）を落とす → "Pokemon" を外す（`LAST_RESORT_DROPS`）。
   - プリズムスターの ◇ はタイトル・Character では外す（Card Name は ◇ 付き）。PR の略号は "Prism Star"、H（ひかる）は略号なし。

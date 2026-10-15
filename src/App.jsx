@@ -84,8 +84,11 @@ const PRINT_VARIANTS = [
 // 1st Edition と Unlimited を選べる弾（2026-10-15）。日本版の 1st Edition（エディションマーク）は ★VS・web（2001）から20th アニバーサリー（CP6、2016）までの
 // ブースターの弾だけ。★VS・web・e・ADV・PCG・DP・DPt・LEGEND・BW・XY・CP のブースターの弾（70弾）を、全部のカードに 1st Edition とアンリミテッドがあるとして選べるようにする。
 // 構築済みデッキ・BOX・コレクションパック等は入れない。旧裏の PMCG1〜6 は日本版に 1st Edition が無い（No Rarity・Error だけ）。
-// 根拠は scripts/first-edition/sources.json（Bulbapedia「1st Edition (TCG)」・ポケモンWiki の用語一覧と世代ごとの例）
-const FIRST_EDITION_SET_RE = /^(VS1|web1|E[1-5]|ADV[1-4]|ADVex1|PCG[1-9]|DP[1-5]|DPt[1-4]-B|L1-B(hg|ss)|L[23]-B|LL|BW1-B[bw]|BW2-B|BW3-B[hp]|BW4-B|BW5-Br[nz]|BW6-B[cf]|BW7-B|BW8-Br[fn]|BW9-B|XY1-B[xy]|XY[234]|XY5-B[gt]|XY[679]-B|XY8-B[br]|XY10-B|XY11-B[br]|CP[1-6])$/i;
+// 根拠は scripts/first-edition/sources.json（Bulbapedia「1st Edition (TCG)」・ポケモンWiki の用語一覧と世代ごとの例）。
+// 弾の一覧は cardData.json の弾の印 "fe": true（apply-set-metadata.mjs が sources.json から入れる。買取レーダーも読む）で持ち、ここでは読むだけにする（2026-10-15）。
+// 印刷バリエーションの表（PRINT_VARIANT_SCOPE）がほかの弾の正規表現と同じく .test(setCode) で引くので、同じ形の判定にしている
+const FIRST_EDITION_SET_CODES = new Set(CARD_DATA.filter((s) => s.fe).map((s) => s.c));
+const FIRST_EDITION_SET_RE = { test: (setCode) => FIRST_EDITION_SET_CODES.has(setCode) };
 // No Rarity（カード右下のレアリティマークが無い最初期版）が存在するセット。
 // 1996年の日本版拡張パック（Base Set）の初回印刷のみに存在することを確認済み
 // （PSA/Fanatics Collect等のグレーディング済みカード出品でも "1996 Pokemon Japanese

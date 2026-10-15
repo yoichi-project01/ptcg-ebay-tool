@@ -3433,3 +3433,10 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
 ユーザーの指示で、説明文の「- Set: 弾の英語名 (記号)」の括弧も、タイトル・相場の検索語と同じ決まり（`isSetCodePrinted`）にした（`src/App.jsx` の `setCodeParen`。シングル・パック・セット品の説明文）。
 例 "- Set: Expansion Pack (ADV1)" → "- Set: Expansion Pack"、"- Set: Base Set (PMCG1)" → "- Set: Base Set"。Pt1・SV2a・XY1・DP1・P 等の印刷された記号は残る。
 変わったのは説明文だけで2,743行（`scripts/audit/desc-unprinted-code-2026-10-15.json`）。
+
+### 対応（2026-10-15）: 1st Edition のある70弾に cardData.json の弾の印 fe を入れた
+
+ユーザーの指示で、買取レーダーが 1st Edition とアンリミテッドを分けられるよう、1st Edition のある70弾に `"fe": true` を入れた（`scripts/apply-set-metadata.mjs` が
+`scripts/first-edition/sources.json` の sets から入れ、ほかの弾からは外す。キーは y の直後）。`src/App.jsx` の `FIRST_EDITION_SET_RE` は正規表現の一覧をやめて、この印を読むようにした
+（一覧は sources.json → cardData の1か所）。前の正規表現と sources.json の70弾が同じことを確かめ、全カードの出品の出力（既定の form）と、全カードで 1st Edition・Unlimited を
+選んだときのタイトル・SKU・検索語・Item Specifics（51,712通り、`scripts/audit/fe-snapshot.test.jsx`）が変わらないことを確かめた。`src/dataIntegrity.test.js` で fe と sources.json が同じことを確かめる。
