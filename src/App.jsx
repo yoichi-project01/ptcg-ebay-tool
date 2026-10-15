@@ -93,7 +93,7 @@ const FIRST_EDITION_SET_RE = /^(VS1|web1|E[1-5]|ADV[1-4]|ADVex1|PCG[1-9]|DP[1-5]
 const NO_RARITY_SET_RE = /^PMCG1$/i;
 // 旧裏面（オールドバック）対象セット。新裏に切り替わるのは e シリーズ以降のため
 // PMCG（拡張パック〜ジム拡張2）に加え neo1-4 / VS1 / web1 も対象
-const OLD_BACK_SET_RE = /^(PMCG[1-6]|neo[1-4]|VS1|web1)$/i;
+const OLD_BACK_SET_RE = /^(PMCG[1-6]|neo[1-4]|VS1|web1|PMCG-P|neo-P)$/i; // PMCG-P・neo-P（番号の無い旧裏のプロモ）は 2026-10-15
 // 各印刷バリエーションが有効なセット範囲。バリエーションごとに対象セットの広さが異なる
 // （No Rarity は PMCG1、1st Edition/Unlimited は FIRST_EDITION_SET_RE、Error は旧裏）ため、resolvePrintVariant はこの表を引いて
 // 検証する。Errorは「どのカードに誤植版があるか」をデータから判定できないため、
