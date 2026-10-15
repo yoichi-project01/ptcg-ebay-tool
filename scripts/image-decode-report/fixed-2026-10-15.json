@@ -1,0 +1,20 @@
+{
+ "about": "2026-10-15 の PLAY のコミット前の照合で見つかったビット化け1件。同じ日に ADV-P で置いた画像で、pcg-search から取ったときのキャッシュ（取得時の SHA-256 と一覧の値に一致）から戻した",
+ "items": [
+  {
+   "cardId": "ADV-P-048",
+   "path": "cards/ADV/ADV-P/ラグラージ_ADV-P-048.png",
+   "source": "https://pcg-search.com/img/adv/advp048.png",
+   "bytes": 578215,
+   "mtime": "2026-10-15T03:09:54.942Z",
+   "differingBytes": [
+    {
+     "offset": "0x68fa3",
+     "now": "05",
+     "correct": "85"
+    }
+   ],
+   "sha256": "92eaee7359669473fdc24f2feb2678157be5cd1d2384079317313e0544088703"
+  }
+ ]
+}
