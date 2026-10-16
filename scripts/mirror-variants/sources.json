@@ -114,10 +114,67 @@
     "遊々亭の SM12a の一覧 https://yuyu-tei.jp/sell/poc/s/sm12a の「(キラ)」の番号付き134件（SM12a-yuyutei-2026-10-16.tsv。HTML の SHA-256 52b029d71d1d7a3360d5350265a2a1ef040e207867fbe5590f85e37854bf1420）。cardData のレアリティ表記の無い134行と番号・名前がすべて一致。番号の無い「(キラ)」9件は基本エネルギー（cardData に無い）。遊々亭は SM12a の通常の版を印なし・(R仕様)、ミラーの版を (キラ) と書く",
     "PSA: 2019 POKEMON JAPANESE SUN & MOON TAG TEAM GX ALL STARS 055 MEW-REVERSE FOIL（PSA セットレジストリのラベル）、PSA の価格表 https://www.psacard.com/priceguide/non-sports-tcg-card-values/2019-poke-mon-japanese-sun-moon-tag-team-gx-all-stars/4025 の Vaporeon-Reverse Foil（#033）・Mew-Reverse Foil（#055）・Mewtwo・Jirachi・Eevee の Reverse Foil"
    ]
+  },
+  "S4a": {
+   "variants": [
+    "MR"
+   ],
+   "cards": "レアリティ表記の無い163行のうち、ホロでない124行（遊々亭で (R仕様) と書かれたホロの39行には無い）（2026-10-16）",
+   "evidence": [
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Shiny_Star_V_(TCG)「Shiny Star V also has a parallel foil set, featuring a Reverse Halo Holofoil variant for all non-holofoil cards in the main set.」",
+    "ポケモンWiki「ポケモンカードゲーム ソード&シールド ハイクラスパック シャイニースターV」「一部カードはイラスト・コレクションナンバー同一でミラー仕様となっている」",
+    "遊々亭の S4a の一覧 https://yuyu-tei.jp/sell/poc/s/s04a（HTML の SHA-256 731a4e6d734d063e72e409d08a99dc33f893229e15ac31bb9f9686c58aad15a9、2026-10-16）。「(キラ)」124件。レアリティ表記の無い行のうち残りの39行は「(R仕様)」（ホロ。ミラーは無い）（S4a-yuyutei-2026-10-16.tsv）。番号・名前が cardData の対象の行とすべて一致",
+    "PSA セットレジストリ: 2020 Japanese Sword & Shield Shiny Star V の Cramorant の reverse foil（#044）"
+   ]
+  },
+  "S12a": {
+   "variants": [
+    "MR"
+   ],
+   "cards": "レアリティ表記の無い119行のうち、ホロでない89行（(R仕様) のホロの30行には無い）（2026-10-16）",
+   "evidence": [
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/VSTAR_Universe_(TCG)「VSTAR Universe also has a parallel foil set, featuring a Reverse Glitter Holofoil variant for all non-holofoil cards in the main set.」",
+    "遊々亭の S12a の一覧 https://yuyu-tei.jp/sell/poc/s/s12a（HTML の SHA-256 86f6eea9c1bd814293369019c8ceef33f495e4421a3a4702a8f86f5fbc8646e4、2026-10-16）。「(キラ)」89件。残りの30行は「(R仕様)」（ホロ）（S12a-yuyutei-2026-10-16.tsv）。番号・名前が cardData の対象の行とすべて一致",
+    "PSA のページタイトル「2022 POKEMON JAPANESE SWORD & SHIELD VSTAR UNIVERSE Lapras-Reverse Foil」（#023、https://www.psacard.com/auctionprices/tcg-cards/2022-pokemon-japanese-sword-shield-vstar-universe/lapras-reverse-foil/8098647）、Regice-Reverse Foil（#025）・Gastly Rev Foil（#046）"
+   ]
+  },
+  "SM8b": {
+   "variants": [
+    "MR"
+   ],
+   "cards": "レアリティ表記の無い125行すべて（ホロの (R仕様) の29行にもある）（2026-10-16）",
+   "evidence": [
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/GX_Ultra_Shiny_(TCG)「GX Ultra Shiny also had a parallel foil set—each card without a rarity symbol featured a Reverse Cracked Ice Holofoil variant.」",
+    "遊々亭の SM8b の一覧 https://yuyu-tei.jp/sell/poc/s/sm08b（HTML の SHA-256 ac0ad5ae8240b966ff40a9d2682df0f84497bb132c2638b609390362e084e4cf、2026-10-16）。「(キラ)」125件（SM8b-yuyutei-2026-10-16.tsv）。番号・名前が cardData の対象の行とすべて一致（150 は遊々亭「ユニットエネルギー闘悪妖」= cardData「闘悪フェアリー」。タイプの漢字の書き方の違い）",
+    "PSA のページタイトル「2018 POKEMON JAPANESE SUN & MOON ULTRA SHINY GX Mow Rotom-Reverse Foil」（#005）、Eevee（#105）・Darkrai（#068。遊々亭で (R仕様) のホロのカード）・Zorua（#069）の Reverse Foil"
+   ]
+  },
+  "S10a": {
+   "variants": [
+    "PB"
+   ],
+   "cards": "レアリティ C・U の49行（モンスターボール柄）（2026-10-16）",
+   "evidence": [
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Dark_Phantasma_(TCG)「Common and uncommon cards also have Mirror Holofoil variants that feature the same Poké Ball pattern as those from the Battle Region subset.」",
+    "遊々亭の S10a の一覧 https://yuyu-tei.jp/sell/poc/s/s10a（HTML の SHA-256 d9552967fa9711631e0f195460166703034679a9022e40dd38891ed5e6e4cda7、2026-10-16）。「(ミラー)」49件（S10a-yuyutei-2026-10-16.tsv）。番号・名前が cardData の対象の行とすべて一致",
+    "PSA: 2022 Pokemon Japanese Sword & Shield Dark Phantasma Pikachu Reverse Foil（#014、https://www.psacard.com/auctionprices/tcg-cards/2022%20pokemon%20japanese%20sword%20&%20shield%20dark%20phantasma/pikachu-reverse-foil/auction/-8203888960356159818）"
+   ]
+  },
+  "S11a": {
+   "variants": [
+    "PB"
+   ],
+   "cards": "レアリティ C・U の46行（モンスターボール柄）（2026-10-16）",
+   "evidence": [
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Incandescent_Arcana_(TCG)「Common and uncommon cards once again have Mirror Holofoil variants featuring a Poké Ball pattern.」",
+    "遊々亭の S11a の一覧 https://yuyu-tei.jp/sell/poc/s/s11a（HTML の SHA-256 696c1d9349a671d6348fbd312f9ea641b241b3dea1758b5fc9cad1663790375a、2026-10-16）。「(ミラー)」46件（S11a-yuyutei-2026-10-16.tsv）。番号・名前が cardData の対象の行とすべて一致",
+    "PSA の鑑定書 cert 67897347: 2022 Japanese Sword & Shield Incandescent Arcana #065 Furisode Girl reverse foil（https://www.psacard.com/cert/67897347/psa）"
+   ]
   }
  },
  "notAdded": {
-  "SV11B・SV11W": "モンスターボールミラー: 公式（https://www.pokemon-card.com/ex/sv11/）だけ。Bulbapedia の日本版のページ（Black Bolt/White Flare (TCG)）・ポケモンWiki には記載が無い。マスターボールミラーは英語版（Black Bolt ~ White Flare (TCG)）の記載だけで、日本版はどの情報源にも無い"
+  "SV11B・SV11W": "モンスターボールミラー: 公式（https://www.pokemon-card.com/ex/sv11/）だけ。Bulbapedia の日本版のページ（Black Bolt/White Flare (TCG)）・ポケモンWiki には記載が無い。マスターボールミラーは英語版（Black Bolt ~ White Flare (TCG)）の記載だけで、日本版はどの情報源にも無い",
+  "S9a": "Bulbapedia（Battle Region の C・U にモンスターボール柄のミラー）と遊々亭の「(ミラー)」45件（C・U の45行と一致）はあるが、2つ目の情報源（PSA・ポケモンWiki）が見つからなかった（2026-10-16）"
  },
  "psaLabels": {
   "MB": "MASTER BALL REVERSE HOLO（PSA の鑑定書。SV2a #025・#093・#152）",

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // ミラーの柄の版（モンスターボールミラー・マスターボールミラー等）を、元の行のすぐ後ろに別の行として足す（2026-10-12）。
-//   node scripts/mirror-variants/add-mirror-variants.mjs --set SV2a|M2a|SV8a|S8a|SM12a [--apply]
+//   node scripts/mirror-variants/add-mirror-variants.mjs --set SV2a|M2a|SV8a|S8a|SM12a|S4a|S12a|SM8b|S10a|S11a [--apply]
 // 根拠は sources.json。型番は元の型番の末尾に版の印（"025-PB"、card_id は SV2a-025-PB）。日本語名に「（マスターボールミラー）」などを付け、
 // 英語名・レアリティは元の行と同じ。画像は足さない（公式に版の画像が無い。元の行の画像も使わない。src/App.jsx の localImage）。
 // 足した card_id は {弾}-added-card-ids.txt。既に足した行は飛ばす（再実行しても増えない）。
@@ -20,8 +20,18 @@ const data = JSON.parse(fs.readFileSync(DATA, "utf8"));
 const set = data.find((s) => s.c === SET);
 if (!set) throw new Error(`弾がありません: ${SET}`);
 
-// 遊々亭の一覧で、レアリティ表記の無い全行にミラー（MR）がある弾（一覧の件数と cardData のレアリティ表記の無い行が合わなければ止まる）。根拠は sources.json
-const YUYUTEI_MR = { S8a: "S8a-yuyutei-2026-10-16.tsv", SM12a: "SM12a-yuyutei-2026-10-16.tsv" };
+// 遊々亭の一覧と1行ずつ照合して版を足す弾（2026-10-16〜）。target は対象の行（blank＝レアリティ表記の無い行、CU＝レアリティ C・U の行）。
+// 一覧（{弾}-yuyutei-2026-10-16.tsv）は「番号・版の印・遊々亭の名前」で、対象の行がすべて1回ずつ入っていること（版の無い行は印が "-"。遊々亭の「(R仕様)」＝ホロのカード）、
+// 番号・名前が cardData の行と合うことを確かめる。合わなければ止まる。根拠は sources.json
+const YUYUTEI = {
+  S8a: { file: "S8a-yuyutei-2026-10-16.tsv", target: "blank" },
+  SM12a: { file: "SM12a-yuyutei-2026-10-16.tsv", target: "blank" },
+  S4a: { file: "S4a-yuyutei-2026-10-16.tsv", target: "blank" },
+  S12a: { file: "S12a-yuyutei-2026-10-16.tsv", target: "blank" },
+  SM8b: { file: "SM8b-yuyutei-2026-10-16.tsv", target: "blank" },
+  S10a: { file: "S10a-yuyutei-2026-10-16.tsv", target: "CU" },
+  S11a: { file: "S11a-yuyutei-2026-10-16.tsv", target: "CU" },
+};
 // 番号 → 足す版の印
 const plan = new Map();
 if (SET === "SV2a") {
@@ -52,18 +62,20 @@ if (SET === "SV2a") {
   }
   const blank = set.k.filter((r) => !r[3] && /^\d+$/.test(r[0]));
   if (blank.some((r) => !plan.get(r[0])?.includes("PB"))) throw new Error("モンスターボールミラーの無い行がある");
-} else if (YUYUTEI_MR[SET]) {
-  // 2026-10-16: レアリティ表記の無い17行（001〜017）にミラー（MR。柄の名前の無い普通のミラー＝リバースホロ）。遊々亭の一覧（S8a-yuyutei-2026-10-16.tsv）と
-  // 1行ずつ番号・名前が合うこと、レアリティ表記の無い行がすべて入っていることを確かめる。根拠は sources.json（Bulbapedia・遊々亭・PSA の Reverse Foil）
-  const N = (s) => s.normalize("NFKC").replace(/\s/g, "").replace(/\(.*\)$/, "");
-  const yt = fs.readFileSync(path.join(__dirname, YUYUTEI_MR[SET]), "utf8").trim().split(/\r?\n/).map((l) => l.split("\t"));
+} else if (YUYUTEI[SET]) {
+  // 名前は空白・[…]・遊々亭の注記（(キラ) 等）を外して比べる。タイプの漢字「妖」はフェアリー（SM8b-150 ユニットエネルギー闘悪妖 = 闘悪フェアリー）
+  const N = (s) => s.normalize("NFKC").replace(/\s/g, "").replace(/\[.*?\]/g, "").replace(/妖/g, "フェアリー").replace(/\(.*\)$/, "");
+  const { file, target } = YUYUTEI[SET];
+  const yt = fs.readFileSync(path.join(__dirname, file), "utf8").trim().split(/\r?\n/).map((l) => l.split("\t"));
+  const rows = set.k.filter((r) => /^\d+$/.test(r[0]) && (target === "CU" ? ["C", "U"].includes(r[3]) : !r[3]));
+  const seen = new Set();
   for (const [num, code, name] of yt) {
-    const row = set.k.find((r) => r[0] === num);
-    if (!row || row[3] || N(row[1]) !== N(name)) throw new Error(`cardData の行と合わない: ${num} ${name} ${row}`);
-    plan.set(num, [code]);
+    const row = rows.find((r) => r[0] === num);
+    if (!row || seen.has(num) || N(row[1]) !== N(name)) throw new Error(`cardData の対象の行と合わない: ${num} ${name} ${row}`);
+    seen.add(num);
+    if (code !== "-") plan.set(num, [code]);
   }
-  const blank = set.k.filter((r) => !r[3] && /^\d+$/.test(r[0]));
-  if (blank.length !== yt.length || blank.some((r) => !plan.has(r[0]))) throw new Error("レアリティ表記の無い行と遊々亭の件数が合わない");
+  if (rows.length !== yt.length) throw new Error(`対象の行（${rows.length}）と遊々亭の一覧（${yt.length}）の件数が合わない`);
 } else throw new Error(`対象外の弾: ${SET}`);
 
 const added = [];

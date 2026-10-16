@@ -3456,3 +3456,4 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
   ポケモンWiki「R以下の全カードにはミラー仕様のカードが存在し」、遊々亭の「(キラ)」の番号付き134件（`SM12a-yuyutei-2026-10-16.tsv`。遊々亭は SM12a の通常の版を印なし・(R仕様)、ミラーを (キラ) と書く。
   番号の無い9件は基本エネルギーで cardData に無い）が番号・名前すべて一致、PSA の「TAG TEAM GX ALL STARS 055 MEW-REVERSE FOIL」ほか。出力の変化は追加の134行だけ（`scripts/audit/SM12a-mirror-variants-2026-10-16.json`）。
   例 `Mew 055/173 Reverse Holo Japanese SM12a Pokemon Card NM 2019`、SKU `SM12A-055-NM-MR`、検索語 `Mew 055/173 SM12a Reverse`。
+- **S4a（2026-10-16）**: レアリティ表記の無い163行のうちホロでない124行 × MR。遊々亭の「(キラ)」124件、残り39行は「(R仕様)」（ホロ。ミラーは無い）。Bulbapedia「Reverse Halo Holofoil variant for all non-holofoil cards in the main set」、ポケモンWiki「一部カードは…ミラー仕様」、PSA の Cramorant reverse foil（#044）。例 `Cramorant 044/190 Reverse Holo Japanese S4a Pokemon Card NM 2020`。
