@@ -184,7 +184,8 @@
   }
  },
  "notAdded": {
-  "SV11B・SV11W": "モンスターボールミラー: 公式（https://www.pokemon-card.com/ex/sv11/）だけ。Bulbapedia の日本版のページ（Black Bolt/White Flare (TCG)）・ポケモンWiki には記載が無い。マスターボールミラーは英語版（Black Bolt ~ White Flare (TCG)）の記載だけで、日本版はどの情報源にも無い"
+  "SV11B・SV11W": "モンスターボールミラー: 公式（https://www.pokemon-card.com/ex/sv11/）だけ。Bulbapedia の日本版のページ（Black Bolt/White Flare (TCG)）・ポケモンWiki には記載が無い。マスターボールミラーは英語版（Black Bolt ~ White Flare (TCG)）の記載だけで、日本版はどの情報源にも無い",
+  "L1-Bhg・L1-Bss・L2-B・L3-B・LL": "保留（2026-10-16）。Bulbapedia の SoulSilver Collection の記事に「The Japanese version also introduced the Reverse Holofoil, known as mirror cards」「Each Japanese booster pack came with … a Reverse Holofoil」とあり、Black Collection の記事に「Mirror cards introduced in the HeartGold Collection and SoulSilver Collection were also discontinued」とあるが、どのカードにあるかは書かれていない。遊々亭に LEGEND の弾の一覧が無い（それらしい URL はどれも中身の無いページ）。ほかの店の一覧は在庫のある商品だけで全部ではない: ノーザンクロス「ソウルシルバーコレクション［ミラー］（Ｌ１）」https://www.northerncross-cs.com/product-list/1525 は31件（●14・◆10・★6・☆1。☆のクロバット 037 にもミラーがあるので C・U・R だけではない）、トレトク L1ss https://www.toretoku.jp/category/40/414/492 は「(ミラー)」36件、ポケカジラはスクリプトから取れない。cardData の対象の行（C・U・R・RH の66行）と1行ずつ照らし合わせられる一覧が無いので足していない。案: 店の一覧を合わせて全部がそろうか確かめる、または実物の情報（各弾のミラーのあるカードの一覧）をいただく"
  },
  "psaLabels": {
   "MB": "MASTER BALL REVERSE HOLO（PSA の鑑定書。SV2a #025・#093・#152）",

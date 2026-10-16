@@ -3464,3 +3464,6 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
 - **S9a（2026-10-16）**: C・U の45行 × PB。ユーザーの判断で、Bulbapedia「Each common and uncommon card from the subset also has a Mirror Holofoil variant, which feature a Poké Ball pattern」と、
   遊々亭の「(ミラー)」45件（C・U の45行と番号・名前がすべて一致、`S9a-yuyutei-2026-10-16.tsv`）の2つを根拠にした。PSA・ポケモンWiki では確かめられなかったが、同じ作りの S10a・S11a は PSA でも確かめた。
   出力の変化は追加の45行だけ。例 `Oddish C 001/067 Poke Ball Reverse Holo Japanese S9a Pokemon Card NM 2022 Common`。
+- **LEGEND（L1・L2・L3・LL）は保留（2026-10-16）**: Bulbapedia で日本版の L1 からミラーがあることは分かるが、どのカードにあるかが書かれていない。遊々亭に LEGEND の一覧が無く、
+  ほかの店（ノーザンクロス「ソウルシルバーコレクション［ミラー］」31件、トレトク L1ss の「(ミラー)」36件）は在庫のある商品だけで全部ではない（☆のクロバット 037 にもミラーがあり、対象は C・U・R・RH）。
+  cardData の対象の行と1行ずつ照らし合わせられないので足していない（`scripts/mirror-variants/sources.json` の notAdded）。
