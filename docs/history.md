@@ -3440,3 +3440,15 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
 `scripts/first-edition/sources.json` の sets から入れ、ほかの弾からは外す。キーは y の直後）。`src/App.jsx` の `FIRST_EDITION_SET_RE` は正規表現の一覧をやめて、この印を読むようにした
 （一覧は sources.json → cardData の1か所）。前の正規表現と sources.json の70弾が同じことを確かめ、全カードの出品の出力（既定の form）と、全カードで 1st Edition・Unlimited を
 選んだときのタイトル・SKU・検索語・Item Specifics（51,712通り、`scripts/audit/fe-snapshot.test.jsx`）が変わらないことを確かめた。`src/dataIntegrity.test.js` で fe と sources.json が同じことを確かめる。
+
+### 対応（2026-10-16）: S8a（25th ANNIVERSARY COLLECTION）のミラーの版を足した。普通のミラーの版の印 MR を足した
+
+ユーザーの指示で、同じ型番に光り方の違う版があるカードを弾ごとに足していく（順は S8a → SM12a → S4a → S12a → SM8b → S9a・S10a・S11a → L1・L2・L3・LL。弾ごとに件数と根拠を報告してユーザーの確認を得てから足す）。
+- **版の印 MR**: 柄の名前の無い普通のミラー（リバースホロ）。日本語名の末尾「（ミラー）」、タイトルはカード番号の後ろに `Reverse Holo`（落とさない）、Finish `Reverse Holo`、SKU の最後に `-MR`、
+  相場の検索語は `Reverse` だけ（"Reverse Holo" と PSA の "Reverse Foil" の両方に当たるように）。柄の分かっているものは今の PB 等を使う。`src/App.jsx` の `MIRROR_VARIANTS`・`mirrorVariantOf`、
+  `scripts/mirror-variants/sources.json` の codes。PSA のラベルの書き方は "-REVERSE FOIL"。
+- **S8a**: レアリティ表記の無い 001〜017 の17行 × MR（`S8a-001-MR`〜`S8a-017-MR`、`scripts/mirror-variants/S8a-added-card-ids.txt`）。RR 以上（018〜030）には無い。
+  根拠（`sources.json` の added.S8a）: Bulbapedia（Celebrations の記事「there is [a Reverse Holo parallel set] for the 25th Anniversary Collection」。どのカードかは無い）、
+  遊々亭の一覧の「(ミラー)」17件（`S8a-yuyutei-2026-10-16.tsv`。番号・名前が cardData のレアリティ表記の無い17行と一致）、
+  PSA のページタイトル「… 25TH ANNIVERSARY COLLECTION Mew-Reverse Foil」等（#002・#005・#013・#015・#016）。
+- 全カードの出力を比べると追加の17行だけで既存の行の変化は0（`scripts/audit/S8a-mirror-variants-2026-10-16.json`）。例 `Pikachu 001/028 Reverse Holo Japanese S8a Pokemon Card NM 2021`、SKU `S8A-001-NM-MR`、検索語 `Pikachu 001/028 S8a Reverse`。

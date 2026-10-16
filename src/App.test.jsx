@@ -1437,3 +1437,16 @@ describe("説明文の Set の括弧にカードに印刷されていない弾�
     expect(buildSingleDesc(formOf("SV2a", "201"))).toContain("(SV2a)");
   });
 });
+
+describe("普通のミラー（MR）の版（2026-10-16）", () => {
+  const formOf = (c, n) => { const set = CARD_DATA_FOR_TEST.find((s) => s.c === c); return applyCandidateToForm(DEFAULT_FORM, { set, card: set.k.find((r) => r[0] === n) }); };
+  it("S8a-001-MR はタイトルに Reverse Holo、Finish に Reverse Holo、検索語に Reverse、SKU の最後に MR", () => {
+    const f = formOf("S8a", "001-MR");
+    expect(f.pokemonJa).toBe("ピカチュウ（ミラー）");
+    expect(mirrorVariantOf(f)).toBe("MR");
+    expect(buildSingleTitle(f)).toBe("Pikachu 001/028 Reverse Holo Japanese S8a Pokemon Card NM 2021");
+    expect(Object.fromEntries(buildItemSpecifics(f)).Finish).toBe("Reverse Holo");
+    expect(buildEbaySearchQuery(f, "single")).toBe("Pikachu 001/028 S8a Reverse");
+    expect(buildSku(f, "single")).toBe("S8A-001-NM-MR");
+  });
+});

@@ -508,13 +508,15 @@ export const MIRROR_VARIANTS = {
   FB: { ja: "フレンドボールミラー", en: "Friend Ball Reverse Holo" },
   LB: { ja: "ラブラブボールミラー", en: "Love Ball Reverse Holo" },
   DB: { ja: "ダークボールミラー", en: "Dusk Ball Reverse Holo" },
+  // 柄の名前の無い普通のミラー（リバースホロ。2026-10-16〜、S8a 等）。PSA のラベルは "-REVERSE FOIL"
+  MR: { ja: "ミラー", en: "Reverse Holo" },
   QB: { ja: "クイックボールミラー", en: "Quick Ball Reverse Holo" },
   R: { ja: "Rマークミラー", en: "Team Rocket Reverse Holo" },
 };
 const MIRROR_BY_JA = new Map(Object.entries(MIRROR_VARIANTS).map(([code, v]) => [v.ja, code]));
 // 日本語名の末尾の（〜ミラー）から版の印（PB・MB 等）を返す。版の行でなければ ""
 export function mirrorVariantOf(f) {
-  const m = (f.pokemonJa || "").trim().match(/（([^（）]+ミラー)）$/);
+  const m = (f.pokemonJa || "").trim().match(/（([^（）]*ミラー)）$/); // 「（ミラー）」（MR）も読む
   return (m && MIRROR_BY_JA.get(m[1])) || "";
 }
 // 型番から版の印を外した番号部分（"025-PB" → "025"）
@@ -896,7 +898,8 @@ export function buildEbaySearchQuery(f, mode) {
     // ミラーの柄の版は版の名前を足し、通常版の相場と混ざらないようにする（2026-10-14）。ボール柄は "Master Ball" 等（"Reverse Holo" は外す）、
     // エネルギーマーク柄・R柄は "Energy"・"Team Rocket" だけでは通常版（ロケット団のポケモンは名前に Team Rocket を含む）と区別できないので "Reverse Holo" も付ける
     const mirrorEn = MIRROR_VARIANTS[mirrorVariantOf(f)]?.en ?? "";
-    const mirror = /Ball Reverse Holo$/.test(mirrorEn) ? mirrorEn.replace(/ Reverse Holo$/, "") : mirrorEn;
+    // 普通のミラー（MR）は "Reverse" だけ（"Reverse Holo" と PSA の "Reverse Foil" の両方に当たるように。2026-10-16）
+    const mirror = mirrorVariantOf(f) === "MR" ? "Reverse" : /Ball Reverse Holo$/.test(mirrorEn) ? mirrorEn.replace(/ Reverse Holo$/, "") : mirrorEn;
     // C・U・R・RH の1〜2文字の略号は検索語に入れない（2026-10-14。SAR・SR・UR 等の略号は残す）
     const rarity = SEARCH_SKIP_RARITIES.has(f.rarity) ? "" : f.rarity;
     // 1st Edition を選んだときは "1st Edition" も足す（2026-10-15。アンリミテッドの相場と混ざらないように）

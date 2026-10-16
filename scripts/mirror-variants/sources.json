@@ -32,6 +32,10 @@
   "R": {
    "ja": "Rマークミラー",
    "en": "Team Rocket Reverse Holo"
+  },
+  "MR": {
+   "ja": "ミラー",
+   "en": "Reverse Holo"
   }
  },
  "added": {
@@ -87,6 +91,17 @@
     ]
    },
    "conflict": "gamepedia https://premium.gamepedia.jp/pokeca/archives/2549 は「R・U・C のカードにマスターボールミラー仕様が存在」「144種のカードがマスボミラーに対応」と書く（トレーナーズ・エネルギーを含む数）。しかし遊々亭の一覧（マスターボール柄は101件ですべてポケモン、トレーナーズ・エネルギーはモンスターボール柄だけ）と Samurai Sword（約101種、Item/Supporter は対象外）の2つが101で一致し、PSA の鑑定品もポケモンだけだったため、マスターボールミラーはポケモンの101行とした。gamepedia の144はモンスターボールミラーの数と取り違えたものと考える。ポケモンのどうぐ・スタジアム・エネルギーにマスターボールミラーがあると確かめられたら足す"
+  },
+  "S8a": {
+   "variants": [
+    "MR"
+   ],
+   "cards": "レアリティ表記の無い17行（001〜017。ポケモン16枚と博士の研究）。RR 以上（018〜030）には無い（2026-10-16）",
+   "evidence": [
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Celebrations_(TCG)（25th Anniversary Collection は転送）「There is no Reverse Holo parallel set for Celebrations but there is for the 25th Anniversary Collection.」（どのカードかは書かれていない。wikitext の SHA-256 59b1bd143d321ab2…、2026-10-16）",
+    "遊々亭の S8a の一覧 https://yuyu-tei.jp/sell/poc/s/s08a の「(ミラー)」17件（S8a-yuyutei-2026-10-16.tsv。取得した HTML の SHA-256 0d6d440305857da28608d542d2d1995992c4c8ea4c47cd0115fad2f690b4e446）。cardData のレアリティ表記の無い17行と番号・名前がすべて一致。同じ番号の通常の版は「(キラ)」",
+    "PSA のページタイトル: 2021 POKEMON JAPANESE 25TH ANNIVERSARY COLLECTION Mew-Reverse Foil（#002、https://www.psacard.com/auctionprices/tcg-cards/2021-pokemon-japanese-25th-anniversary-collection/mew-reverse-foil/6584016）・Solgaleo-Reverse Foil（#016、…/solgaleo-reverse-foil/6584108）、Lugia-Reverse Foil #005（https://www.psacard.com/spec/psa/6584025）・Yveltal-Reverse Foil（#013、…/YVELTAL-REVERSE%20FOIL/6584091）・Cosmoem-Reverse Foil（#015）。すべて 001〜017 の中"
+   ]
   }
  },
  "notAdded": {
