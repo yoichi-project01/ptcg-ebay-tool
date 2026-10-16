@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // ミラーの柄の版（モンスターボールミラー・マスターボールミラー等）を、元の行のすぐ後ろに別の行として足す（2026-10-12）。
-//   node scripts/mirror-variants/add-mirror-variants.mjs --set SV2a|M2a|SV8a|S8a|SM12a|S4a|S12a|SM8b|S10a|S11a [--apply]
+//   node scripts/mirror-variants/add-mirror-variants.mjs --set SV2a|M2a|SV8a|S8a|SM12a|S4a|S12a|SM8b|S10a|S11a|S9a [--apply]
 // 根拠は sources.json。型番は元の型番の末尾に版の印（"025-PB"、card_id は SV2a-025-PB）。日本語名に「（マスターボールミラー）」などを付け、
 // 英語名・レアリティは元の行と同じ。画像は足さない（公式に版の画像が無い。元の行の画像も使わない。src/App.jsx の localImage）。
 // 足した card_id は {弾}-added-card-ids.txt。既に足した行は飛ばす（再実行しても増えない）。
@@ -31,6 +31,7 @@ const YUYUTEI = {
   SM8b: { file: "SM8b-yuyutei-2026-10-16.tsv", target: "blank" },
   S10a: { file: "S10a-yuyutei-2026-10-16.tsv", target: "CU" },
   S11a: { file: "S11a-yuyutei-2026-10-16.tsv", target: "CU" },
+  S9a: { file: "S9a-yuyutei-2026-10-16.tsv", target: "CU" },
 };
 // 番号 → 足す版の印
 const plan = new Map();

@@ -170,11 +170,21 @@
     "遊々亭の S11a の一覧 https://yuyu-tei.jp/sell/poc/s/s11a（HTML の SHA-256 696c1d9349a671d6348fbd312f9ea641b241b3dea1758b5fc9cad1663790375a、2026-10-16）。「(ミラー)」46件（S11a-yuyutei-2026-10-16.tsv）。番号・名前が cardData の対象の行とすべて一致",
     "PSA の鑑定書 cert 67897347: 2022 Japanese Sword & Shield Incandescent Arcana #065 Furisode Girl reverse foil（https://www.psacard.com/cert/67897347/psa）"
    ]
+  },
+  "S9a": {
+   "variants": [
+    "PB"
+   ],
+   "cards": "レアリティ C・U の45行（モンスターボール柄）（2026-10-16、ユーザーの判断で Bulbapedia と遊々亭の2つを根拠にした）",
+   "evidence": [
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Battle_Region_(TCG)「Each common and uncommon card from the subset also has a Mirror Holofoil variant, which feature a Poké Ball pattern.」",
+    "遊々亭の S9a の一覧 https://yuyu-tei.jp/sell/poc/s/s09a の「(ミラー)」45件（S9a-yuyutei-2026-10-16.tsv。HTML の SHA-256 7b6feb20df755d1005a88fa76b113f0fab3c6d4f51bd10510282714fdd687fa9）。cardData の C・U の45行と番号・名前がすべて一致",
+    "参考: PSA・ポケモンWiki では S9a のミラーを確かめられなかった。同じ作り（C・U にモンスターボール柄）の S10a・S11a は PSA でも確かめた（S10a #014 Pikachu・S11a #065 Furisode Girl の Reverse Foil）"
+   ]
   }
  },
  "notAdded": {
-  "SV11B・SV11W": "モンスターボールミラー: 公式（https://www.pokemon-card.com/ex/sv11/）だけ。Bulbapedia の日本版のページ（Black Bolt/White Flare (TCG)）・ポケモンWiki には記載が無い。マスターボールミラーは英語版（Black Bolt ~ White Flare (TCG)）の記載だけで、日本版はどの情報源にも無い",
-  "S9a": "Bulbapedia（Battle Region の C・U にモンスターボール柄のミラー）と遊々亭の「(ミラー)」45件（C・U の45行と一致）はあるが、2つ目の情報源（PSA・ポケモンWiki）が見つからなかった（2026-10-16）"
+  "SV11B・SV11W": "モンスターボールミラー: 公式（https://www.pokemon-card.com/ex/sv11/）だけ。Bulbapedia の日本版のページ（Black Bolt/White Flare (TCG)）・ポケモンWiki には記載が無い。マスターボールミラーは英語版（Black Bolt ~ White Flare (TCG)）の記載だけで、日本版はどの情報源にも無い"
  },
  "psaLabels": {
   "MB": "MASTER BALL REVERSE HOLO（PSA の鑑定書。SV2a #025・#093・#152）",
