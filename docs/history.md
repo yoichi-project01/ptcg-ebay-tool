@@ -3452,3 +3452,7 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
   遊々亭の一覧の「(ミラー)」17件（`S8a-yuyutei-2026-10-16.tsv`。番号・名前が cardData のレアリティ表記の無い17行と一致）、
   PSA のページタイトル「… 25TH ANNIVERSARY COLLECTION Mew-Reverse Foil」等（#002・#005・#013・#015・#016）。
 - 全カードの出力を比べると追加の17行だけで既存の行の変化は0（`scripts/audit/S8a-mirror-variants-2026-10-16.json`）。例 `Pikachu 001/028 Reverse Holo Japanese S8a Pokemon Card NM 2021`、SKU `S8A-001-NM-MR`、検索語 `Pikachu 001/028 S8a Reverse`。
+- **SM12a（2026-10-16）**: レアリティ表記の無い134行 × MR（`scripts/mirror-variants/SM12a-added-card-ids.txt`）。根拠（`sources.json` の added.SM12a）: Bulbapedia「each card without a rarity symbol featured a Mirror Holofoil variant」、
+  ポケモンWiki「R以下の全カードにはミラー仕様のカードが存在し」、遊々亭の「(キラ)」の番号付き134件（`SM12a-yuyutei-2026-10-16.tsv`。遊々亭は SM12a の通常の版を印なし・(R仕様)、ミラーを (キラ) と書く。
+  番号の無い9件は基本エネルギーで cardData に無い）が番号・名前すべて一致、PSA の「TAG TEAM GX ALL STARS 055 MEW-REVERSE FOIL」ほか。出力の変化は追加の134行だけ（`scripts/audit/SM12a-mirror-variants-2026-10-16.json`）。
+  例 `Mew 055/173 Reverse Holo Japanese SM12a Pokemon Card NM 2019`、SKU `SM12A-055-NM-MR`、検索語 `Mew 055/173 SM12a Reverse`。

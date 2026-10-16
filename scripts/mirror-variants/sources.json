@@ -102,6 +102,18 @@
     "遊々亭の S8a の一覧 https://yuyu-tei.jp/sell/poc/s/s08a の「(ミラー)」17件（S8a-yuyutei-2026-10-16.tsv。取得した HTML の SHA-256 0d6d440305857da28608d542d2d1995992c4c8ea4c47cd0115fad2f690b4e446）。cardData のレアリティ表記の無い17行と番号・名前がすべて一致。同じ番号の通常の版は「(キラ)」",
     "PSA のページタイトル: 2021 POKEMON JAPANESE 25TH ANNIVERSARY COLLECTION Mew-Reverse Foil（#002、https://www.psacard.com/auctionprices/tcg-cards/2021-pokemon-japanese-25th-anniversary-collection/mew-reverse-foil/6584016）・Solgaleo-Reverse Foil（#016、…/solgaleo-reverse-foil/6584108）、Lugia-Reverse Foil #005（https://www.psacard.com/spec/psa/6584025）・Yveltal-Reverse Foil（#013、…/YVELTAL-REVERSE%20FOIL/6584091）・Cosmoem-Reverse Foil（#015）。すべて 001〜017 の中"
    ]
+  },
+  "SM12a": {
+   "variants": [
+    "MR"
+   ],
+   "cards": "レアリティ表記の無い134行（RR・PR・SR・HR・UR には無い）（2026-10-16）",
+   "evidence": [
+    "Bulbapedia https://bulbapedia.bulbagarden.net/wiki/Tag_All_Stars_(TCG)「Tag All Stars also had a parallel foil set—each card without a rarity symbol featured a Mirror Holofoil variant.」",
+    "ポケモンWiki「ポケモンカードゲーム サン&ムーン ハイクラスパック TAG TEAM GX タッグオールスターズ」「R以下の全カードにはミラー仕様のカードが存在し、1パックに1枚収録されて」いる（wikitext の SHA-256 fa6b74ac808e2cf8…、2026-10-16）",
+    "遊々亭の SM12a の一覧 https://yuyu-tei.jp/sell/poc/s/sm12a の「(キラ)」の番号付き134件（SM12a-yuyutei-2026-10-16.tsv。HTML の SHA-256 52b029d71d1d7a3360d5350265a2a1ef040e207867fbe5590f85e37854bf1420）。cardData のレアリティ表記の無い134行と番号・名前がすべて一致。番号の無い「(キラ)」9件は基本エネルギー（cardData に無い）。遊々亭は SM12a の通常の版を印なし・(R仕様)、ミラーの版を (キラ) と書く",
+    "PSA: 2019 POKEMON JAPANESE SUN & MOON TAG TEAM GX ALL STARS 055 MEW-REVERSE FOIL（PSA セットレジストリのラベル）、PSA の価格表 https://www.psacard.com/priceguide/non-sports-tcg-card-values/2019-poke-mon-japanese-sun-moon-tag-team-gx-all-stars/4025 の Vaporeon-Reverse Foil（#033）・Mew-Reverse Foil（#055）・Mewtwo・Jirachi・Eevee の Reverse Foil"
+   ]
   }
  },
  "notAdded": {
