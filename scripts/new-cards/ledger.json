@@ -10988,5 +10988,243 @@
   "name": "基本鋼エネルギー",
   "key": "M6a",
   "date": "2026-10-09"
+ },
+ "50778": {
+  "status": "added",
+  "set": "M-P",
+  "number": "166",
+  "name": "ゴビット",
+  "date": "2026-10-17"
+ },
+ "50779": {
+  "status": "added",
+  "set": "M-P",
+  "number": "167",
+  "name": "ハリテヤマ",
+  "date": "2026-10-17"
+ },
+ "50780": {
+  "status": "added",
+  "set": "M-P",
+  "number": "168",
+  "name": "ゴース",
+  "date": "2026-10-17"
+ },
+ "50781": {
+  "status": "added",
+  "set": "M-P",
+  "number": "169",
+  "name": "メガヒードランex",
+  "date": "2026-10-17"
+ },
+ "50782": {
+  "status": "added",
+  "set": "M-P",
+  "number": "170",
+  "name": "エネルギーリサイクル",
+  "date": "2026-10-17"
+ },
+ "50783": {
+  "status": "added",
+  "set": "M-P",
+  "number": "171",
+  "name": "ハルジオ",
+  "date": "2026-10-17"
+ },
+ "50784": {
+  "status": "added",
+  "set": "M-P",
+  "number": "172",
+  "name": "ムク",
+  "date": "2026-10-17"
+ },
+ "50785": {
+  "status": "added",
+  "set": "M-P",
+  "number": "101",
+  "name": "フシギダネ",
+  "date": "2026-10-17"
+ },
+ "50786": {
+  "status": "added",
+  "set": "M-P",
+  "number": "102",
+  "name": "ヒトカゲ",
+  "date": "2026-10-17"
+ },
+ "50787": {
+  "status": "added",
+  "set": "M-P",
+  "number": "103",
+  "name": "ゼニガメ",
+  "date": "2026-10-17"
+ },
+ "50788": {
+  "status": "added",
+  "set": "M-P",
+  "number": "104",
+  "name": "チコリータ",
+  "date": "2026-10-17"
+ },
+ "50789": {
+  "status": "added",
+  "set": "M-P",
+  "number": "105",
+  "name": "ヒノアラシ",
+  "date": "2026-10-17"
+ },
+ "50790": {
+  "status": "added",
+  "set": "M-P",
+  "number": "106",
+  "name": "ワニノコ",
+  "date": "2026-10-17"
+ },
+ "50791": {
+  "status": "added",
+  "set": "M-P",
+  "number": "107",
+  "name": "キモリ",
+  "date": "2026-10-17"
+ },
+ "50792": {
+  "status": "added",
+  "set": "M-P",
+  "number": "108",
+  "name": "アチャモ",
+  "date": "2026-10-17"
+ },
+ "50793": {
+  "status": "added",
+  "set": "M-P",
+  "number": "109",
+  "name": "ミズゴロウ",
+  "date": "2026-10-17"
+ },
+ "50794": {
+  "status": "added",
+  "set": "M-P",
+  "number": "110",
+  "name": "ナエトル",
+  "date": "2026-10-17"
+ },
+ "50795": {
+  "status": "added",
+  "set": "M-P",
+  "number": "111",
+  "name": "ヒコザル",
+  "date": "2026-10-17"
+ },
+ "50796": {
+  "status": "added",
+  "set": "M-P",
+  "number": "112",
+  "name": "ポッチャマ",
+  "date": "2026-10-17"
+ },
+ "50797": {
+  "status": "added",
+  "set": "M-P",
+  "number": "113",
+  "name": "ツタージャ",
+  "date": "2026-10-17"
+ },
+ "50798": {
+  "status": "added",
+  "set": "M-P",
+  "number": "114",
+  "name": "ポカブ",
+  "date": "2026-10-17"
+ },
+ "50799": {
+  "status": "added",
+  "set": "M-P",
+  "number": "115",
+  "name": "ミジュマル",
+  "date": "2026-10-17"
+ },
+ "50800": {
+  "status": "added",
+  "set": "M-P",
+  "number": "116",
+  "name": "ハリマロン",
+  "date": "2026-10-17"
+ },
+ "50801": {
+  "status": "added",
+  "set": "M-P",
+  "number": "117",
+  "name": "フォッコ",
+  "date": "2026-10-17"
+ },
+ "50802": {
+  "status": "added",
+  "set": "M-P",
+  "number": "118",
+  "name": "ケロマツ",
+  "date": "2026-10-17"
+ },
+ "50803": {
+  "status": "added",
+  "set": "M-P",
+  "number": "119",
+  "name": "モクロー",
+  "date": "2026-10-17"
+ },
+ "50804": {
+  "status": "added",
+  "set": "M-P",
+  "number": "120",
+  "name": "ニャビー",
+  "date": "2026-10-17"
+ },
+ "50805": {
+  "status": "added",
+  "set": "M-P",
+  "number": "121",
+  "name": "アシマリ",
+  "date": "2026-10-17"
+ },
+ "50806": {
+  "status": "added",
+  "set": "M-P",
+  "number": "122",
+  "name": "サルノリ",
+  "date": "2026-10-17"
+ },
+ "50807": {
+  "status": "added",
+  "set": "M-P",
+  "number": "123",
+  "name": "ヒバニー",
+  "date": "2026-10-17"
+ },
+ "50808": {
+  "status": "added",
+  "set": "M-P",
+  "number": "124",
+  "name": "メッソン",
+  "date": "2026-10-17"
+ },
+ "50809": {
+  "status": "added",
+  "set": "M-P",
+  "number": "125",
+  "name": "ニャオハ",
+  "date": "2026-10-17"
+ },
+ "50810": {
+  "status": "added",
+  "set": "M-P",
+  "number": "126",
+  "name": "ホゲータ",
+  "date": "2026-10-17"
+ },
+ "50811": {
+  "status": "added",
+  "set": "M-P",
+  "number": "127",
+  "name": "クワッス",
+  "date": "2026-10-17"
  }
 }
