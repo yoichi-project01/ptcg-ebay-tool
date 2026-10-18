@@ -3496,3 +3496,11 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
   LEGEND の Alph Lithograph（アルフの石版）4行（遊々亭・ポケカくらぶに LEGEND の一覧が無い）。遊々亭の EBB の「(ミラー)」の版は足していない。
 - 全カードの出力の変化は追加の90行だけ（`scripts/audit/bw-secrets-2026-10-18.json`）。例 `Virizion-EX SR 077/076 Japanese BW9 Pokemon Card NM Black & White Megalo Cannon`。
   英語名の無いトレーナーズはタイトルにカード名が入らない（例 `SR 082/076 Japanese BW9 Pokemon Card NM …`）。
+- **トレーナーズの英語名（2026-10-18、同じ日の続き）**: 足したトレーナーズ16行のうち12行に英語名を入れた（`scripts/bw-secrets/fill-trainer-en.mjs`、根拠 `trainer-en-2026-10-18.tsv`）。
+  公式に無くイラストレーターが分からないので、TCGdex 英語版との照合の代わりに、cardData の同じ日本語名のトレーナーズ（同じ弾の本編を優先、無ければほかの BW の弾。今回足した行は除く）の
+  英語名が1つに決まり、Bulbapedia の日本版の一覧の英語名と一致したものだけ入れた（ユーザーの指示）。同じ弾の本編で決めたもの: BW2-B-071 N・BW7-B-075 Colress・BW8-Brf-055 Ghetsis・BW9-B-082 Iris。
+  ほかの BW の弾で決めたもの: BW6-Bc-063 Bianca・BW6-Bf-063 Cheren・BW6-Bf-065 Rocky Helmet・BW7-B-076 Skyla・BW7-B-079 Random Receiver・BW8-Brf-058 Ultra Ball・
+  BW8-Brn-055 Professor Juniper・BW8-Brn-058 Max Potion。空欄のまま4行: EBB-096 イマクニ?・EBB-097〜099 ポケモンエンタープライズ（同じ日本語名で英語名のあるカードが cardData に無い）。
+  出力の変化はこの12行だけ（例 `Iris SR 082/076 Japanese BW9 Pokemon Card NM Black & White Megalo Cannon 2013`、`scripts/audit/bw-secrets-trainer-en-2026-10-18.json`）。
+- **保留の BW 5行**: PSA の Population Report（日本版 BW の弾の一覧）で確かめる指示だったが、PSA の pop のページはサインインの画面に転送され（スクリプトからは Cloudflare で 403）、開けなかったので保留のまま
+  （`held-2026-10-18.tsv` に追記）。LEGEND の4行も保留のまま。

@@ -96,6 +96,8 @@
     Bulbapedia の呼び方を `src/enAltNames.json`（card_id → 名前）に入れる（タイトルに余地があれば括弧で添える。根拠は `scripts/old-promos/en-psa-2026-10-15.tsv`、`fill-en-psa.mjs`）。
     Bulbapedia はスクリプトから開けない（Cloudflare）ので、ブラウザで wikitext から取り出し、SHA-256 をブラウザの値と照合して `scripts/en-name-fix3/bulbapedia/` などに保存する。
     TCGdex の英語名だけで決めない（再録・別の絵柄で取り違える）。インドネシア語版の名前を英語名として使わない。
+    公式に無くイラストレーターが分からないトレーナーズ（BW・LEGEND のシークレット等）は、cardData の同じ日本語名のトレーナーズ（同じ弾の本編を優先、無ければほかの同じ世代の弾）の
+    英語名が1つに決まり、Bulbapedia の日本版の一覧の英語名と一致したときだけ入れる（2026-10-18〜、`scripts/bw-secrets/fill-trainer-en.mjs`。下の「やってはいけないこと」の対応表とは違い、Bulbapedia との一致を1件ずつ確かめる）。
   - 旧裏〜PCG の日本語名は pcg-search.com とポケモンWiki の一致（TCGdex の日本語は機械翻訳）。PMCG はカードに番号が無いので、画像の SHA-256 と Bulbapedia の並びで結び付ける。
   - 弾の ja・y は公式の商品ページ・ポケモンWiki・Bulbapedia・Limitless のうち2つの一致。en・psaName は PSA の表記で確かめたものだけ。
 - **やってはいけないこと**: cardData の中の（日本語名, 英語名）の組から対応表を作って空欄を埋める（誤った組が伝播する。`scripts/deprecated/fill-blank-en-from-ja-map.mjs`）、
