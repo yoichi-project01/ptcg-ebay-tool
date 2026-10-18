@@ -1,0 +1,1317 @@
+{
+ "perSet": {
+  "BW1-Bb": {
+   "本来": 3,
+   "足した": 3,
+   "保留": 0
+  },
+  "BW1-Bw": {
+   "本来": 3,
+   "足した": 3,
+   "保留": 0
+  },
+  "BW2-B": {
+   "本来": 6,
+   "足した": 5,
+   "保留": 1
+  },
+  "BW3-Bp": {
+   "本来": 5,
+   "足した": 5,
+   "保留": 0
+  },
+  "BW3-Bh": {
+   "本来": 5,
+   "足した": 5,
+   "保留": 0
+  },
+  "BW4-B": {
+   "本来": 7,
+   "足した": 6,
+   "保留": 1
+  },
+  "BW5-Brz": {
+   "本来": 5,
+   "足した": 5,
+   "保留": 0
+  },
+  "BW5-Brn": {
+   "本来": 5,
+   "足した": 5,
+   "保留": 0
+  },
+  "BW6-Bf": {
+   "本来": 6,
+   "足した": 6,
+   "保留": 0
+  },
+  "BW6-Bc": {
+   "本来": 6,
+   "足した": 6,
+   "保留": 0
+  },
+  "BW7-B": {
+   "本来": 9,
+   "足した": 7,
+   "保留": 2
+  },
+  "BW8-Brf": {
+   "本来": 7,
+   "足した": 7,
+   "保留": 0
+  },
+  "BW8-Brn": {
+   "本来": 7,
+   "足した": 7,
+   "保留": 0
+  },
+  "BW9-B": {
+   "本来": 10,
+   "足した": 9,
+   "保留": 1
+  },
+  "SC": {
+   "本来": 5,
+   "足した": 5,
+   "保留": 0
+  },
+  "EBB": {
+   "本来": 6,
+   "足した": 6,
+   "保留": 0
+  },
+  "L1-Bhg": {
+   "本来": 1,
+   "足した": 0,
+   "保留": 1
+  },
+  "L1-Bss": {
+   "本来": 1,
+   "足した": 0,
+   "保留": 1
+  },
+  "L2-B": {
+   "本来": 1,
+   "足した": 0,
+   "保留": 1
+  },
+  "L3-B": {
+   "本来": 1,
+   "足した": 0,
+   "保留": 1
+  }
+ },
+ "added": [
+  {
+   "id": "BW1-Bb-054",
+   "ja": "トルネロス",
+   "en": "Tornadus",
+   "rarity": "SR",
+   "bulbapedia": "Tornadus（Colorless・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Tornadus が Bulbapedia と一致"
+  },
+  {
+   "id": "BW1-Bb-055",
+   "ja": "レシラム",
+   "en": "Reshiram",
+   "rarity": "SR",
+   "bulbapedia": "Reshiram（Fire・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Reshiram が Bulbapedia と一致"
+  },
+  {
+   "id": "BW1-Bb-056",
+   "ja": "ピカチュウ",
+   "en": "Pikachu",
+   "rarity": "UR",
+   "bulbapedia": "Pikachu（Lightning・UR）",
+   "agree": [
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Pikachu が Bulbapedia と一致"
+  },
+  {
+   "id": "BW1-Bw-054",
+   "ja": "ボルトロス",
+   "en": "Thundurus",
+   "rarity": "SR",
+   "bulbapedia": "Thundurus（Lightning・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Thundurus が Bulbapedia と一致"
+  },
+  {
+   "id": "BW1-Bw-055",
+   "ja": "ゼクロム",
+   "en": "Zekrom",
+   "rarity": "SR",
+   "bulbapedia": "Zekrom（Lightning・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Zekrom が Bulbapedia と一致"
+  },
+  {
+   "id": "BW1-Bw-056",
+   "ja": "ピカチュウ",
+   "en": "Pikachu",
+   "rarity": "UR",
+   "bulbapedia": "Pikachu（Lightning・UR）",
+   "agree": [
+    "遊々亭",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Pikachu が Bulbapedia と一致"
+  },
+  {
+   "id": "BW2-B-067",
+   "ja": "ビリジオン",
+   "en": "Virizion",
+   "rarity": "SR",
+   "bulbapedia": "Virizion（Grass・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Virizion が Bulbapedia と一致"
+  },
+  {
+   "id": "BW2-B-068",
+   "ja": "テラキオン",
+   "en": "Terrakion",
+   "rarity": "SR",
+   "bulbapedia": "Terrakion（Fighting・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Terrakion が Bulbapedia と一致"
+  },
+  {
+   "id": "BW2-B-069",
+   "ja": "コバルオン",
+   "en": "Cobalion",
+   "rarity": "SR",
+   "bulbapedia": "Cobalion（Metal・SR）",
+   "agree": [
+    "遊々亭",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Cobalion が Bulbapedia と一致"
+  },
+  {
+   "id": "BW2-B-070",
+   "ja": "ビクティニ",
+   "en": "Victini",
+   "rarity": "SR",
+   "bulbapedia": "Victini（Fire・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Victini が Bulbapedia と一致"
+  },
+  {
+   "id": "BW2-B-071",
+   "ja": "N",
+   "en": "",
+   "rarity": "SR",
+   "bulbapedia": "N（Supporter・SR）",
+   "agree": [
+    "遊々亭",
+    "Bulbapedia"
+   ],
+   "how": "同じ弾の本編の 066（N）と同じ名前で Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bp-053",
+   "ja": "シェイミEX",
+   "en": "Shaymin-EX",
+   "rarity": "SR",
+   "bulbapedia": "Shaymin-EX（Grass・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Shaymin-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bp-054",
+   "ja": "カイオーガEX",
+   "en": "Kyogre-EX",
+   "rarity": "SR",
+   "bulbapedia": "Kyogre-EX（Water・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Kyogre-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bp-055",
+   "ja": "ミュウツーEX",
+   "en": "Mewtwo-EX",
+   "rarity": "SR",
+   "bulbapedia": "Mewtwo-EX（Psychic・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Mewtwo-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bp-056",
+   "ja": "ゾロアーク",
+   "en": "Zoroark",
+   "rarity": "UR",
+   "bulbapedia": "Zoroark（Darkness・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Zoroark が Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bp-057",
+   "ja": "サザンドラ",
+   "en": "Hydreigon",
+   "rarity": "UR",
+   "bulbapedia": "Hydreigon（Darkness・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Hydreigon が Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bh-053",
+   "ja": "キュレムEX",
+   "en": "Kyurem-EX",
+   "rarity": "SR",
+   "bulbapedia": "Kyurem-EX（Water・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Kyurem-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bh-054",
+   "ja": "グラードンEX",
+   "en": "Groudon-EX",
+   "rarity": "SR",
+   "bulbapedia": "Groudon-EX（Fighting・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Groudon-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bh-055",
+   "ja": "レジギガスEX",
+   "en": "Regigigas-EX",
+   "rarity": "SR",
+   "bulbapedia": "Regigigas-EX（Colorless・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Regigigas-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bh-056",
+   "ja": "エンブオー",
+   "en": "Emboar",
+   "rarity": "UR",
+   "bulbapedia": "Emboar（Fire・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Emboar が Bulbapedia と一致"
+  },
+  {
+   "id": "BW3-Bh-057",
+   "ja": "シャンデラ",
+   "en": "Chandelure",
+   "rarity": "UR",
+   "bulbapedia": "Chandelure（Psychic・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Chandelure が Bulbapedia と一致"
+  },
+  {
+   "id": "BW4-B-070",
+   "ja": "エンテイEX",
+   "en": "Entei-EX",
+   "rarity": "SR",
+   "bulbapedia": "Entei-EX（Fire・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Entei-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW4-B-071",
+   "ja": "ライコウEX",
+   "en": "Raikou-EX",
+   "rarity": "SR",
+   "bulbapedia": "Raikou-EX（Lightning・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Raikou-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW4-B-072",
+   "ja": "ダークライEX",
+   "en": "Darkrai-EX",
+   "rarity": "SR",
+   "bulbapedia": "Darkrai-EX（Darkness・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Darkrai-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW4-B-073",
+   "ja": "トルネロスEX",
+   "en": "Tornadus-EX",
+   "rarity": "SR",
+   "bulbapedia": "Tornadus-EX（Colorless・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Tornadus-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW4-B-074",
+   "ja": "サーナイト",
+   "en": "Gardevoir",
+   "rarity": "UR",
+   "bulbapedia": "Gardevoir（Psychic・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Gardevoir が Bulbapedia と一致"
+  },
+  {
+   "id": "BW4-B-075",
+   "ja": "アーケオス",
+   "en": "Archeops",
+   "rarity": "UR",
+   "bulbapedia": "Archeops（Fighting・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Archeops が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brz-051",
+   "ja": "ミュウEX",
+   "en": "Mew-EX",
+   "rarity": "SR",
+   "bulbapedia": "Mew-EX（Psychic・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Mew-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brz-052",
+   "ja": "テラキオンEX",
+   "en": "Terrakion-EX",
+   "rarity": "SR",
+   "bulbapedia": "Terrakion-EX（Fighting・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Terrakion-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brz-053",
+   "ja": "ギラティナEX",
+   "en": "Giratina-EX",
+   "rarity": "SR",
+   "bulbapedia": "Giratina-EX（Dragon・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Giratina-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brz-054",
+   "ja": "ランクルス",
+   "en": "Reuniclus",
+   "rarity": "UR",
+   "bulbapedia": "Reuniclus（Psychic・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Reuniclus が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brz-055",
+   "ja": "レックウザ",
+   "en": "Rayquaza",
+   "rarity": "UR",
+   "bulbapedia": "Rayquaza（Dragon・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Rayquaza が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brn-051",
+   "ja": "ホウオウEX",
+   "en": "Ho-Oh-EX",
+   "rarity": "SR",
+   "bulbapedia": "Ho-Oh-EX（Fire・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Ho-Oh-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brn-052",
+   "ja": "レジスチルEX",
+   "en": "Registeel-EX",
+   "rarity": "SR",
+   "bulbapedia": "Registeel-EX（Metal・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Registeel-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brn-053",
+   "ja": "レックウザEX",
+   "en": "Rayquaza-EX",
+   "rarity": "SR",
+   "bulbapedia": "Rayquaza-EX（Dragon・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Rayquaza-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brn-054",
+   "ja": "ジャローダ",
+   "en": "Serperior",
+   "rarity": "UR",
+   "bulbapedia": "Serperior（Grass・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Serperior が Bulbapedia と一致"
+  },
+  {
+   "id": "BW5-Brn-055",
+   "ja": "ワルビアル",
+   "en": "Krookodile",
+   "rarity": "UR",
+   "bulbapedia": "Krookodile（Darkness・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Krookodile が Bulbapedia と一致"
+  },
+  {
+   "id": "BW6-Bf-060",
+   "ja": "クレセリアEX",
+   "en": "Cresselia-EX",
+   "rarity": "SR",
+   "bulbapedia": "Cresselia-EX（Psychic・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Cresselia-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW6-Bf-061",
+   "ja": "ランドロスEX",
+   "en": "Landorus-EX",
+   "rarity": "SR",
+   "bulbapedia": "Landorus-EX（Fighting・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Landorus-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW6-Bf-062",
+   "ja": "ブラックキュレムEX",
+   "en": "Black Kyurem-EX",
+   "rarity": "SR",
+   "bulbapedia": "Black Kyurem-EX（Dragon・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Black Kyurem-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW6-Bf-063",
+   "ja": "チェレン",
+   "en": "",
+   "rarity": "SR",
+   "bulbapedia": "Cheren（Supporter・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "BW6-Bf-064",
+   "ja": "ゴルーグ",
+   "en": "Golurk",
+   "rarity": "UR",
+   "bulbapedia": "Golurk（Psychic・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Golurk が Bulbapedia と一致"
+  },
+  {
+   "id": "BW6-Bf-065",
+   "ja": "ゴツゴツメット",
+   "en": "",
+   "rarity": "UR",
+   "bulbapedia": "Rocky Helmet（Item・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "BW6-Bc-060",
+   "ja": "セレビィEX",
+   "en": "Celebi-EX",
+   "rarity": "SR",
+   "bulbapedia": "Celebi-EX（Grass・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Celebi-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW6-Bc-061",
+   "ja": "ケルディオEX",
+   "en": "Keldeo-EX",
+   "rarity": "SR",
+   "bulbapedia": "Keldeo-EX（Water・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Keldeo-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW6-Bc-062",
+   "ja": "ホワイトキュレムEX",
+   "en": "White Kyurem-EX",
+   "rarity": "SR",
+   "bulbapedia": "White Kyurem-EX（Dragon・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 White Kyurem-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW6-Bc-063",
+   "ja": "ベル",
+   "en": "",
+   "rarity": "SR",
+   "bulbapedia": "Bianca（Supporter・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "BW6-Bc-064",
+   "ja": "テラキオン",
+   "en": "Terrakion",
+   "rarity": "UR",
+   "bulbapedia": "Terrakion（Fighting・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Terrakion が Bulbapedia と一致"
+  },
+  {
+   "id": "BW6-Bc-065",
+   "ja": "チルタリス",
+   "en": "Altaria",
+   "rarity": "UR",
+   "bulbapedia": "Altaria（Dragon・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Altaria が Bulbapedia と一致"
+  },
+  {
+   "id": "BW7-B-071",
+   "ja": "ビクティニEX",
+   "en": "Victini-EX",
+   "rarity": "SR",
+   "bulbapedia": "Victini-EX（Fire・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Victini-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW7-B-072",
+   "ja": "フリーザーEX",
+   "en": "Articuno-EX",
+   "rarity": "SR",
+   "bulbapedia": "Articuno-EX（Water・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Articuno-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW7-B-073",
+   "ja": "コバルオンEX",
+   "en": "Cobalion-EX",
+   "rarity": "SR",
+   "bulbapedia": "Cobalion-EX（Metal・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Cobalion-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW7-B-074",
+   "ja": "ルギアEX",
+   "en": "Lugia-EX",
+   "rarity": "SR",
+   "bulbapedia": "Lugia-EX（Colorless・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Lugia-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW7-B-075",
+   "ja": "アクロマ",
+   "en": "",
+   "rarity": "SR",
+   "bulbapedia": "Colress（Supporter・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "同じ弾の本編の 064（Colress）と同じ名前で Bulbapedia と一致"
+  },
+  {
+   "id": "BW7-B-076",
+   "ja": "フウロ",
+   "en": "",
+   "rarity": "SR",
+   "bulbapedia": "Skyla（Supporter・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "BW7-B-079",
+   "ja": "ランダムレシーバー",
+   "en": "",
+   "rarity": "UR",
+   "bulbapedia": "Random Receiver（Item・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "BW8-Brf-052",
+   "ja": "ヒードランEX",
+   "en": "Heatran-EX",
+   "rarity": "SR",
+   "bulbapedia": "Heatran-EX（Fire・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Heatran-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brf-053",
+   "ja": "デオキシスEX",
+   "en": "Deoxys-EX",
+   "rarity": "SR",
+   "bulbapedia": "Deoxys-EX（Psychic・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Deoxys-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brf-054",
+   "ja": "ラティオスEX",
+   "en": "Latios-EX",
+   "rarity": "SR",
+   "bulbapedia": "Latios-EX（Dragon・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Latios-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brf-055",
+   "ja": "ゲーチス",
+   "en": "",
+   "rarity": "SR",
+   "bulbapedia": "Ghetsis（Supporter・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "同じ弾の本編の 048（Ghetsis）と同じ名前で Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brf-056",
+   "ja": "エンペルト",
+   "en": "Empoleon",
+   "rarity": "UR",
+   "bulbapedia": "Empoleon（Water・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Empoleon が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brf-057",
+   "ja": "シンボラー",
+   "en": "Sigilyph",
+   "rarity": "UR",
+   "bulbapedia": "Sigilyph（Psychic・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Sigilyph が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brf-058",
+   "ja": "ハイパーボール",
+   "en": "",
+   "rarity": "UR",
+   "bulbapedia": "Ultra Ball（Item・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "BW8-Brn-052",
+   "ja": "ボルトロスEX",
+   "en": "Thundurus-EX",
+   "rarity": "SR",
+   "bulbapedia": "Thundurus-EX（Lightning・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Thundurus-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brn-053",
+   "ja": "ラティアスEX",
+   "en": "Latias-EX",
+   "rarity": "SR",
+   "bulbapedia": "Latias-EX（Dragon・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Latias-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brn-054",
+   "ja": "トルネロスEX",
+   "en": "Tornadus-EX",
+   "rarity": "SR",
+   "bulbapedia": "Tornadus-EX（Colorless・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Tornadus-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brn-055",
+   "ja": "アララギ博士",
+   "en": "",
+   "rarity": "SR",
+   "bulbapedia": "Professor Juniper（Supporter・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "BW8-Brn-056",
+   "ja": "ダストダス",
+   "en": "Garbodor",
+   "rarity": "UR",
+   "bulbapedia": "Garbodor（Psychic・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Garbodor が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brn-057",
+   "ja": "ガブリアス",
+   "en": "Garchomp",
+   "rarity": "UR",
+   "bulbapedia": "Garchomp（Dragon・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Garchomp が Bulbapedia と一致"
+  },
+  {
+   "id": "BW8-Brn-058",
+   "ja": "まんたんのくすり",
+   "en": "",
+   "rarity": "UR",
+   "bulbapedia": "Max Potion（Item・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "BW9-B-077",
+   "ja": "ビリジオンEX",
+   "en": "Virizion-EX",
+   "rarity": "SR",
+   "bulbapedia": "Virizion-EX（Grass・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Virizion-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW9-B-078",
+   "ja": "ゲノセクトEX",
+   "en": "Genesect-EX",
+   "rarity": "SR",
+   "bulbapedia": "Genesect-EX（Grass・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Genesect-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW9-B-079",
+   "ja": "ジラーチEX",
+   "en": "Jirachi-EX",
+   "rarity": "SR",
+   "bulbapedia": "Jirachi-EX（Metal・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Jirachi-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW9-B-080",
+   "ja": "ディアルガEX",
+   "en": "Dialga-EX",
+   "rarity": "SR",
+   "bulbapedia": "Dialga-EX（Dragon・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Dialga-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW9-B-081",
+   "ja": "パルキアEX",
+   "en": "Palkia-EX",
+   "rarity": "SR",
+   "bulbapedia": "Palkia-EX（Dragon・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Palkia-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "BW9-B-082",
+   "ja": "アイリス",
+   "en": "",
+   "rarity": "SR",
+   "bulbapedia": "Iris（Supporter・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "同じ弾の本編の 071（Iris）と同じ名前で Bulbapedia と一致"
+  },
+  {
+   "id": "BW9-B-083",
+   "ja": "タマタマ",
+   "en": "Exeggcute",
+   "rarity": "UR",
+   "bulbapedia": "Exeggcute（Grass・UR）",
+   "agree": [
+    "遊々亭",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Exeggcute が Bulbapedia と一致"
+  },
+  {
+   "id": "BW9-B-084",
+   "ja": "ビリジオン",
+   "en": "Virizion",
+   "rarity": "UR",
+   "bulbapedia": "Virizion（Grass・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Virizion が Bulbapedia と一致"
+  },
+  {
+   "id": "BW9-B-085",
+   "ja": "ヨノワール",
+   "en": "Dusknoir",
+   "rarity": "UR",
+   "bulbapedia": "Dusknoir（Psychic・UR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Dusknoir が Bulbapedia と一致"
+  },
+  {
+   "id": "SC-021",
+   "ja": "シェイミEX",
+   "en": "Shaymin-EX",
+   "rarity": "SR",
+   "bulbapedia": "Shaymin-EX（Grass・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Shaymin-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "SC-022",
+   "ja": "レシラム",
+   "en": "Reshiram",
+   "rarity": "SR",
+   "bulbapedia": "Reshiram（Fire・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Reshiram が Bulbapedia と一致"
+  },
+  {
+   "id": "SC-023",
+   "ja": "エモンガ",
+   "en": "Emolga",
+   "rarity": "SR",
+   "bulbapedia": "Emolga（Lightning・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Emolga が Bulbapedia と一致"
+  },
+  {
+   "id": "SC-024",
+   "ja": "ミュウEX",
+   "en": "Mew-EX",
+   "rarity": "SR",
+   "bulbapedia": "Mew-EX（Psychic・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Mew-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "SC-025",
+   "ja": "メロエッタEX",
+   "en": "Meloetta-EX",
+   "rarity": "SR",
+   "bulbapedia": "Meloetta-EX（Psychic・SR）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Meloetta-EX が Bulbapedia と一致"
+  },
+  {
+   "id": "EBB-094",
+   "ja": "レシラム",
+   "en": "Reshiram",
+   "rarity": "",
+   "bulbapedia": "Reshiram（Fire・レアリティなし）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Reshiram が Bulbapedia と一致"
+  },
+  {
+   "id": "EBB-095",
+   "ja": "ゼクロム",
+   "en": "Zekrom",
+   "rarity": "",
+   "bulbapedia": "Zekrom（Lightning・レアリティなし）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ",
+    "Bulbapedia"
+   ],
+   "how": "規則の名前 Zekrom が Bulbapedia と一致"
+  },
+  {
+   "id": "EBB-096",
+   "ja": "イマクニ?",
+   "en": "",
+   "rarity": "",
+   "bulbapedia": "Imakuni?（Supporter・レアリティなし）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "EBB-097",
+   "ja": "ポケモンエンタープライズ",
+   "en": "",
+   "rarity": "",
+   "bulbapedia": "Pokémon Enterprise（Supporter・レアリティなし）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "EBB-098",
+   "ja": "ポケモンエンタープライズ",
+   "en": "",
+   "rarity": "",
+   "bulbapedia": "Pokémon Enterprise（Supporter・レアリティなし）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "EBB-099",
+   "ja": "ポケモンエンタープライズ",
+   "en": "",
+   "rarity": "",
+   "bulbapedia": "Pokémon Enterprise（Supporter・レアリティなし）",
+   "agree": [
+    "遊々亭",
+    "ポケカくらぶ"
+   ],
+   "how": "トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  }
+ ],
+ "held": [
+  {
+   "id": "BW2-B-072",
+   "bulbapedia": "Meowth",
+   "rarity": "UR",
+   "reason": "ポケカくらぶ の一覧でその番号に2つの名前（コバルオン・ニャース）"
+  },
+  {
+   "id": "BW4-B-076",
+   "bulbapedia": "Pokémon Catcher",
+   "rarity": "UR",
+   "ja": "ポケモンキャッチャー",
+   "reason": "番号と名前が一致した情報源が1つだけ（遊々亭）。トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "BW7-B-077",
+   "bulbapedia": "Charizard",
+   "rarity": "UR",
+   "reason": "店の一覧で名前が食い違う: 遊々亭 リザードン / ポケカくらぶ カメックス"
+  },
+  {
+   "id": "BW7-B-078",
+   "bulbapedia": "Blastoise",
+   "rarity": "UR",
+   "reason": "店の一覧で名前が食い違う: 遊々亭 カメックス / ポケカくらぶ リザードン"
+  },
+  {
+   "id": "BW9-B-086",
+   "bulbapedia": "Rare Candy",
+   "rarity": "UR",
+   "ja": "ふしぎなアメ",
+   "reason": "番号と名前が一致した情報源が1つだけ（遊々亭）。トレーナーズ等で Bulbapedia の英語名と日本語名を照らし合わせられない（店の一覧どうしの一致で数える）"
+  },
+  {
+   "id": "L1-Bhg-071",
+   "bulbapedia": "Alph Lithograph",
+   "rarity": "",
+   "reason": "遊々亭・ポケカくらぶの一覧に無い（Bulbapedia だけ）"
+  },
+  {
+   "id": "L1-Bss-071",
+   "bulbapedia": "Alph Lithograph",
+   "rarity": "",
+   "reason": "遊々亭・ポケカくらぶの一覧に無い（Bulbapedia だけ）"
+  },
+  {
+   "id": "L2-B-081",
+   "bulbapedia": "Alph Lithograph",
+   "rarity": "",
+   "reason": "遊々亭・ポケカくらぶの一覧に無い（Bulbapedia だけ）"
+  },
+  {
+   "id": "L3-B-081",
+   "bulbapedia": "Alph Lithograph",
+   "rarity": "",
+   "reason": "遊々亭・ポケカくらぶの一覧に無い（Bulbapedia だけ）"
+  }
+ ]
+}
