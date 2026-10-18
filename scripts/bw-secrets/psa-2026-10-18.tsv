@@ -1,0 +1,10 @@
+card_id	情報源	内容	URL	確かめた方法
+BW7-B-077	Bulbapedia	077 Charizard（Fire・UR）		bulbapedia-2026-10-18.tsv
+BW7-B-077	遊々亭（販売・買取）	077/070 UR リザードン		yuyutei-2026-10-18.tsv
+BW7-B-077	PSA の鑑定ラベル	2012 POKEMON JAPANESE BLACK & WHITE PLASMA GALE 077 CHARIZARD（PSA の spec 番号 1939799）	https://www.psacard.com/auctionprices/tcg-cards/2012-pokemon-japanese-black-white-plasma-gale/CHARIZARD/1939799	2026-10-18 に検索（psacard.com に限定）で見つけた。ページはスクリプトから 403、ブラウザでは spec ページのサインインに飛ばされ、ログインはしないので中身は開いていない。ラベルの表記はユーザーが確かめたもの
+BW7-B-077	PSA の鑑定番号（参考・未確認）	PSA 10 鑑定番号 22385831（2020-11-26 の落札）	https://www.psacard.com/cert/22385831/psa	検索結果の抜粋に出た番号。鑑定書のページは 403 で開けず、ラベルの中身は確かめていない
+BW7-B-077	PSA（参考）	同じ弾の Population Report・落札価格の一覧	https://www.psacard.com/pop/tcg-cards/2012/pokemon-japanese-black-white-plasma-gale/106648 ・ https://www.psacard.com/auctionprices/tcg-cards/2012-pokemon-japanese-black-white-plasma-gale/106648	サインインが要り開けず
+BW7-B-078	Bulbapedia	078 Blastoise（Water・UR）		bulbapedia-2026-10-18.tsv
+BW7-B-078	遊々亭（販売・買取）	078/070 UR カメックス		yuyutei-2026-10-18.tsv
+BW7-B-078	PSA	見つからなかった（psacard.com に限定した検索で 078 Blastoise のページは出なかった）		
+BW7-B-077・078	ポケカくらぶ	BW7P077 カメックス・BW7P078 リザードン。Bulbapedia・遊々亭と入れ違っているので数えない（ユーザーの判断、2026-10-18）		third-2026-10-18.tsv

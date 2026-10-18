@@ -3504,3 +3504,11 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
   出力の変化はこの12行だけ（例 `Iris SR 082/076 Japanese BW9 Pokemon Card NM Black & White Megalo Cannon 2013`、`scripts/audit/bw-secrets-trainer-en-2026-10-18.json`）。
 - **保留の BW 5行**: PSA の Population Report（日本版 BW の弾の一覧）で確かめる指示だったが、PSA の pop のページはサインインの画面に転送され（スクリプトからは Cloudflare で 403）、開けなかったので保留のまま
   （`held-2026-10-18.tsv` に追記）。LEGEND の4行も保留のまま。
+- **BW7-B-077 リザードン・078 カメックス UR を足した（2026-10-18、同じ日の続き。ユーザーの判断）**: 077 は Bulbapedia（Charizard UR）・遊々亭（リザードン UR）・
+  **PSA の鑑定ラベル**「2012 POKEMON JAPANESE BLACK & WHITE PLASMA GALE 077 CHARIZARD」の3つ、078 は Bulbapedia（Blastoise UR）・遊々亭（カメックス UR）の2つが一致。
+  ポケカくらぶ（BW7P077 カメックス・BW7P078 リザードン）は入れ違えていると判断して数えなかった。**PSA の鑑定ラベルを情報源の1つとして使ったのはこれが初めて**。
+  PSA のページ（落札価格 spec 1939799 の URL、検索の抜粋に出た鑑定番号 22385831）は psacard.com に限った検索で見つけたもので、スクリプトからは 403、ブラウザではサインインに転送され、
+  ログインしないので中身は開いていない（ラベルの表記はユーザーが確かめたもの。鑑定番号は未確認の参考）。078 の PSA のページは見つからなかった。根拠は `scripts/bw-secrets/psa-2026-10-18.tsv`。
+  レアリティは情報源の印 UR、英語名はほかの BW のシークレットと同じく規則の名前（Bulbapedia と一致）。`scripts/bw-secrets/add-bw7-077-078.mjs`、`added-card-ids-bw7-2026-10-18.txt`。
+  保留から2行を外し、残りの保留は7行（BW2-B-072・BW4-B-076・BW9-B-086・LEGEND 4行）。出力の変化は追加の2行だけ（`scripts/audit/bw7-077-078-2026-10-18.json`、
+  例 `Charizard UR 077/070 Japanese BW7 Pokemon Card NM Black & White Plasma Gale 2012`、80文字）。
