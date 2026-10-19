@@ -52,6 +52,8 @@
   「中身が変わった」「ファイルが無い」が0件でなければ、作業の前に戻す。
 - 手で確かめるとき: `npm run check`（まとめて）、`npm run verify:images`、`npx vitest run`、`python scripts/detect-contaminated-en-names.py`（インドネシア語の混入）、
   `node scripts/check-row-alignment.mjs`（名前の並びのずれ）
+- **テストが全部「reading 'config'」で止まったら**: 作業フォルダのドライブ文字が小文字（`c:\…`）のまま vitest を起動したとき（2026-10-20 に直した）。
+  `vitest.config.js` のプラグイン（`ptcg:same-vitest-drive`）が起動した側の vitest に向ける。確かめるのは `node scripts/check-vitest-cwd.mjs`（`--all` で全部）。
 - 弾ごと・項目ごとにコミットして push する。コミットメッセージは日本語。
 
 ---

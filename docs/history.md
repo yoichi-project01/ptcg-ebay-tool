@@ -3512,3 +3512,12 @@ ADV の拡張パック5弾（ADV1〜4・ADVex1）は全部のカードに 1st Ed
   レアリティは情報源の印 UR、英語名はほかの BW のシークレットと同じく規則の名前（Bulbapedia と一致）。`scripts/bw-secrets/add-bw7-077-078.mjs`、`added-card-ids-bw7-2026-10-18.txt`。
   保留から2行を外し、残りの保留は7行（BW2-B-072・BW4-B-076・BW9-B-086・LEGEND 4行）。出力の変化は追加の2行だけ（`scripts/audit/bw7-077-078-2026-10-18.json`、
   例 `Charizard UR 077/070 Japanese BW7 Pokemon Card NM Black & White Plasma Gale 2012`、80文字）。
+
+### 対応（2026-10-20）: ドライブ文字が小文字の場所から vitest を起動すると全部のテストが「reading 'config'」で止まる
+- psa-kaitori で見つかった問題（f7bc6b8）がこのフォルダでも起きるか確かめた。cmd で `cd /d c:\…`（小文字）から `npx vitest run` を流すと14ファイルすべてが
+  `TypeError: Cannot read properties of undefined (reading 'config')` で止まり、`C:\…` からなら 227件が通った（PowerShell の Set-Location は大文字に直すので再現しない）。
+- 原因: ワーカーで動いている runner は `c:/…` の vitest（@vitest/runner）、テストのファイルの `import "vitest"` は `C:/…` の vitest で、別々の2つになる（テストの中から両方を import して確かめた）。
+- 直し: psa-kaitori と同じく起動した側の vitest に向けるが、このフォルダの vitest 4.1.11 では vitest の中の解決（`vitest:resolve-core`、enforce: pre）が `resolve.alias` より先に
+  `"vitest"` を決めるので alias は効かなかった（file URL・パスのどちらでも NG）。`vitest.config.js` に enforce: "pre" のプラグインを足し、ドライブ文字が小文字のときだけ
+  起動した側の `dist/index.js` の file URL を外部のモジュールとして返す。確かめ `scripts/check-vitest-cwd.mjs`（c:\… と C:\… × node・npx・npm test）: 直す前は c:\… の3通りが NG、
+  直した後は `--all` で6通りすべて OK（8 passed・6 skipped）。小文字の c:\… からの `npm run check` も通った。
